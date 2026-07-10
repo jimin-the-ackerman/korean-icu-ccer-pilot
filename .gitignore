@@ -1,0 +1,20 @@
+# secrets
+.env
+
+# python
+venv/
+__pycache__/
+*.pyc
+
+# generated data
+data/audio/*.wav
+data/generated_text/*.json
+data/stt_transcripts/*.json
+data/entities/*.json
+
+# results 
+results/pilot_15/*.csv
+results/pilot_15/*.json
+
+# os
+.DS_Store
