@@ -1,0 +1,39 @@
+# ============================================
+# Pilot Configuration - Korean ICU CCER Pipeline
+# ============================================
+
+project:
+  name: "korean-icu-ccer-pilot"
+  stage: "pilot"        # pilot(5) -> full(50) 로 바꿀 때 이 값도 바꿔서 결과 폴더 구분
+
+experiment:
+  n_scenarios: 5         # 파일럿: 5, 확장 시: (이 숫자만 바꾸면 됨)
+  styles:
+    - formal_template
+    - clinical_charting
+    - telegraphic_icu
+
+generation:
+  provider: "openai"
+  model: "gpt-4o"
+  temperature: 0.7
+
+tts:
+  provider: "google_cloud"
+  language_code: "ko-KR"
+  voice_name: "ko-KR-Neural2-A"   # 단일 화자 고정 (§3.8: pilot은 speaker 변수 통제)
+
+stt:
+  model: "base"           # whisper 모델 크기: tiny/base/small/medium/large
+  language_mode: "auto_detect"   # 나중에 §3.9 비교 후 "ko"로 바꿀 수도 있음
+
+entity_extraction:
+  claude_model: "claude-sonnet-4-6"
+
+paths:
+  scenarios_dir: "data/scenarios"
+  generated_text_dir: "data/generated_text"
+  audio_dir: "data/audio"
+  stt_transcripts_dir: "data/stt_transcripts"
+  entities_dir: "data/entities"
+  results_dir: "results/pilot_15"
