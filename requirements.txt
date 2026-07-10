@@ -7,3 +7,4 @@ pandas>=2.0.0
 pyyaml>=6.0
 python-dotenv>=1.0.0
 pydub>=0.25.1
+jsonschema>=4.20.0
