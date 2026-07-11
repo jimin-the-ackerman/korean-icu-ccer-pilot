@@ -1,0 +1,107 @@
+[
+  {
+    "sample_id": "scenario_001_clinical_charting",
+    "status": "success",
+    "model": "tts-1",
+    "voice": "alloy",
+    "text_length": 239
+  },
+  {
+    "sample_id": "scenario_001_formal_template",
+    "status": "success",
+    "model": "tts-1",
+    "voice": "alloy",
+    "text_length": 254
+  },
+  {
+    "sample_id": "scenario_001_telegraphic_icu",
+    "status": "success",
+    "model": "tts-1",
+    "voice": "alloy",
+    "text_length": 191
+  },
+  {
+    "sample_id": "scenario_002_clinical_charting",
+    "status": "success",
+    "model": "tts-1",
+    "voice": "alloy",
+    "text_length": 224
+  },
+  {
+    "sample_id": "scenario_002_formal_template",
+    "status": "success",
+    "model": "tts-1",
+    "voice": "alloy",
+    "text_length": 267
+  },
+  {
+    "sample_id": "scenario_002_telegraphic_icu",
+    "status": "success",
+    "model": "tts-1",
+    "voice": "alloy",
+    "text_length": 194
+  },
+  {
+    "sample_id": "scenario_003_clinical_charting",
+    "status": "success",
+    "model": "tts-1",
+    "voice": "alloy",
+    "text_length": 266
+  },
+  {
+    "sample_id": "scenario_003_formal_template",
+    "status": "success",
+    "model": "tts-1",
+    "voice": "alloy",
+    "text_length": 294
+  },
+  {
+    "sample_id": "scenario_003_telegraphic_icu",
+    "status": "success",
+    "model": "tts-1",
+    "voice": "alloy",
+    "text_length": 222
+  },
+  {
+    "sample_id": "scenario_004_clinical_charting",
+    "status": "success",
+    "model": "tts-1",
+    "voice": "alloy",
+    "text_length": 283
+  },
+  {
+    "sample_id": "scenario_004_formal_template",
+    "status": "success",
+    "model": "tts-1",
+    "voice": "alloy",
+    "text_length": 308
+  },
+  {
+    "sample_id": "scenario_004_telegraphic_icu",
+    "status": "success",
+    "model": "tts-1",
+    "voice": "alloy",
+    "text_length": 243
+  },
+  {
+    "sample_id": "scenario_005_clinical_charting",
+    "status": "success",
+    "model": "tts-1",
+    "voice": "alloy",
+    "text_length": 345
+  },
+  {
+    "sample_id": "scenario_005_formal_template",
+    "status": "success",
+    "model": "tts-1",
+    "voice": "alloy",
+    "text_length": 393
+  },
+  {
+    "sample_id": "scenario_005_telegraphic_icu",
+    "status": "success",
+    "model": "tts-1",
+    "voice": "alloy",
+    "text_length": 236
+  }
+]

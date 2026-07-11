@@ -19,9 +19,10 @@ generation:
   temperature: 0.7
 
 tts:
-  provider: "google_cloud"
-  language_code: "ko-KR"
-  voice_name: "ko-KR-Neural2-A"   # 단일 화자 고정 (§3.8: pilot은 speaker 변수 통제)
+  provider: "openai"
+  model: "tts-1"
+  voice: "alloy"   # 단일 화자 고정 (paper Section 3.8: pilot 단계 speaker 변수 통제)
+  output_format: "mp3"
 
 stt:
   model: "base"           # whisper 모델 크기: tiny/base/small/medium/large
