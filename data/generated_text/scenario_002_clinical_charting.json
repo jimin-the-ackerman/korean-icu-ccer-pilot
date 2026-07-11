@@ -1,0 +1,11 @@
+{
+  "sample_id": "scenario_002_clinical_charting",
+  "scenario_id": "scenario_002",
+  "document_type": "ICU_observation",
+  "style_condition": "clinical_charting",
+  "text": "50세 여성 환자, DKA로 입원함.\n\nBP 90/60 mmHg, HR 120 bpm, RR 28, BT 37.8°C, SpO2 95%.\n\nNausea moderate 호소함.\n\nInsulin 10 units IV q4h 적용함. \n\nFluid resuscitation 시행함.\n\nUrine output low 확인됨.\n\nPatient drowsy 상태임.\n\nEndocrinology consult함.",
+  "generation_metadata": {
+    "model": "gpt-4o",
+    "temperature": 0.7
+  }
+}

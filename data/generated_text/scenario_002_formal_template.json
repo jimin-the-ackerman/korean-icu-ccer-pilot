@@ -1,0 +1,11 @@
+{
+  "sample_id": "scenario_002_formal_template",
+  "scenario_id": "scenario_002",
+  "document_type": "ICU_observation",
+  "style_condition": "formal_template",
+  "text": "50세 여성 환자가 당뇨병성 케톤산증(DKA)으로 입원하였다. 활력징후는 혈압 90/60 mmHg, 심박수 120 bpm, 호흡수 28회/분, 체온 37.8°C, 산소포화도 95%로 확인되었다. 환자는 중등도의 nausea를 호소하였다. 인슐린 10 units을 IV로 매 4시간마다 투여 중이다. 환자에게 fluid resuscitation이 시행되었으며, 소변량은 저하된 상태였다. 환자는 약간의 기면 상태를 보이고 있다. DKA 관리를 위해 내분비내과에 상담을 요청하였다.",
+  "generation_metadata": {
+    "model": "gpt-4o",
+    "temperature": 0.7
+  }
+}

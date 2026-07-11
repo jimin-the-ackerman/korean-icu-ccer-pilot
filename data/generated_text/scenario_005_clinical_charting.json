@@ -1,0 +1,11 @@
+{
+  "sample_id": "scenario_005_clinical_charting",
+  "scenario_id": "scenario_005",
+  "document_type": "ICU_observation",
+  "style_condition": "clinical_charting",
+  "text": "58세 남성 환자, chronic kidney disease 병력, acute renal failure 모니터링 및 관리 위해 입원함.\n\nBP 150/95 mmHg.\nHR 88 bpm.\nRR 22 bpm.\nBT 37.2°C.\nSpO2 94%.\n\nModerate edema 확인됨.\n\nFurosemide 40 mg IV q8h 적용함.\n\nOxygen support, nasal cannula 유지함.\n\nFoley catheter 유지함.\n\nNegative fluid balance 확인됨.\n\n임상 상태 drowsy 확인됨.\n\nNephrology 팀 increased creatinine levels 관련 notify함.",
+  "generation_metadata": {
+    "model": "gpt-4o",
+    "temperature": 0.7
+  }
+}

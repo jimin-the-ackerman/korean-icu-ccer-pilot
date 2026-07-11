@@ -1,0 +1,11 @@
+{
+  "sample_id": "scenario_003_formal_template",
+  "scenario_id": "scenario_003",
+  "document_type": "ICU_observation",
+  "style_condition": "formal_template",
+  "text": "72세 여성 환자가 급성 심근경색(AMI)으로 입원하였다. 활력징후는 혈압 145/90 mmHg, 심박수 110 bpm, 호흡수 22 breaths/min, 체온 37.1 °C, 산소포화도는 2L nasal cannula로 95%로 확인되었다. 환자는 심한 흉통을 호소하였다. Aspirin 325 mg PO STAT로 투여하였다. 환자는 의식이 명료하며, 현재 nasal cannula를 통해 산소 공급을 받고 있다. C-line이 삽입되어 있으며, 심장 모니터링이 진행 중이다. 심장학 팀에게 긴급 검토를 위해 보고하였다.",
+  "generation_metadata": {
+    "model": "gpt-4o",
+    "temperature": 0.7
+  }
+}

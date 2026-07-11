@@ -1,0 +1,11 @@
+{
+  "sample_id": "scenario_004_clinical_charting",
+  "scenario_id": "scenario_004",
+  "document_type": "ICU_observation",
+  "style_condition": "clinical_charting",
+  "text": "45세 남성 환자, acute pancreatitis로 입원함.  \nBP 90/60 mmHg, HR 120 bpm, RR 28 breaths/min, BT 38.5°C, SpO2 95% (room air).  \nSevere abdominal pain 호소함.  \nMorphine 4 mg IV q4h 투여함.  \nFluid resuscitation 적용함.  \nFoley 유지함.  \nUrine output 200 mL over 4 hours 확인됨.  \nDrowsy 상태 보임.  \n담당의 notify함.",
+  "generation_metadata": {
+    "model": "gpt-4o",
+    "temperature": 0.7
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "sample_id": "scenario_001_formal_template",
+  "scenario_id": "scenario_001",
+  "document_type": "ICU_observation",
+  "style_condition": "formal_template",
+  "text": "환자는 65세 남성으로, 폐렴으로 인한 호흡곤란을 호소하였다. 활력징후는 혈압 100/65 mmHg, 심박수 110 bpm, 호흡수 28 bpm, 체온 38.1°C, 산소포화도 88%로 확인되었다. 환자는 중등도의 기침을 보였다. Ceftriaxone 1g IV q12h로 투여되었다. 고유량 비강 캐뉼라를 통해 산소 공급을 받았으며, 인공호흡기를 사용하고 있다. 임상 상태는 기면으로 관찰되었다. 낮은 산소포화도 수치에 대해 호흡 치료사에게 보고하였다.",
+  "generation_metadata": {
+    "model": "gpt-4o",
+    "temperature": 0.7
+  }
+}

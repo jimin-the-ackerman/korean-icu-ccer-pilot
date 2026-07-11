@@ -1,0 +1,11 @@
+{
+  "sample_id": "scenario_003_telegraphic_icu",
+  "scenario_id": "scenario_003",
+  "document_type": "ICU_observation",
+  "style_condition": "telegraphic_icu",
+  "text": "72세 여성, AMI 입원.  \nBP 145/90 mmHg.  \nHR 110 bpm.  \nRR 22.  \nBT 37.1°C.  \nSpO2 95% on 2L NC.  \nSevere chest pain.  \nAspirin 325 mg PO STAT.  \nNC 사용 중.  \nCardiac monitoring 중.  \nC-line 유지 중.  \nAlert.  \nCardiology team notify.",
+  "generation_metadata": {
+    "model": "gpt-4o",
+    "temperature": 0.7
+  }
+}

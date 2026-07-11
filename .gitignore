@@ -6,11 +6,8 @@ venv/
 __pycache__/
 *.pyc
 
-# generated data
-data/audio/*.wav
-data/generated_text/*.json
-data/stt_transcripts/*.json
-data/entities/*.json
+# generated data - 파일럿 규모(15개)이므로 재현성을 위해 전부 추적
+# (규모가 50개 이상으로 확장되거나 오디오 용량이 커지면 재검토)
 
 # results 
 results/pilot_15/*.csv

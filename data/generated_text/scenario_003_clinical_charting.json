@@ -1,0 +1,11 @@
+{
+  "sample_id": "scenario_003_clinical_charting",
+  "scenario_id": "scenario_003",
+  "document_type": "ICU_observation",
+  "style_condition": "clinical_charting",
+  "text": "72세 여성 환자, AMI로 입원함.\n\nBP 145/90 mmHg, HR 110 bpm, RR 22 breaths/min, BT 37.1 °C, SpO2 95% (2L nasal cannula 적용 중).\n\nChest pain severe 호소함.\n\nAspirin 325 mg PO STAT 투여함.\n\nNasal cannula 유지함.\n\nCardiac monitoring 적용함.\n\nC-line 유지함.\n\n환자 alert 상태임.\n\nCardiology team notify함.",
+  "generation_metadata": {
+    "model": "gpt-4o",
+    "temperature": 0.7
+  }
+}

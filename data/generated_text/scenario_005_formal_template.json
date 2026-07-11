@@ -1,0 +1,11 @@
+{
+  "sample_id": "scenario_005_formal_template",
+  "scenario_id": "scenario_005",
+  "document_type": "ICU_observation",
+  "style_condition": "formal_template",
+  "text": "[환자 정보]\n58세 남성 환자가 만성 신장 질환 병력을 가지고 있으며, 급성 신부전의 모니터링 및 관리를 위해 입원하였다.\n\n[활력 징후]\n혈압은 150/95 mmHg로 확인되었다. 심박수는 88 bpm, 호흡수는 22 회/분, 체온은 37.2°C이며, 산소포화도는 94%로 확인되었다.\n\n[증상]\n부종이 중등도로 관찰되었다.\n\n[약물 투여]\nFurosemide 40 mg이 IV 경로로 8시간마다 투여되고 있다.\n\n[산소 공급]\n환자는 nasal cannula를 통해 산소를 공급받고 있다.\n\n[장치]\nFoley catheter가 장착되어 있다.\n\n[수분 균형]\n음성 수분 균형이 관찰되었다.\n\n[임상 상태]\n환자는 졸린 상태이다.\n\n[보고]\n크레아티닌 수치 증가에 대해 신장내과 팀에게 보고하였다.",
+  "generation_metadata": {
+    "model": "gpt-4o",
+    "temperature": 0.7
+  }
+}

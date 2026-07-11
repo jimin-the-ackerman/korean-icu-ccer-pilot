@@ -1,0 +1,11 @@
+{
+  "sample_id": "scenario_001_clinical_charting",
+  "scenario_id": "scenario_001",
+  "document_type": "ICU_observation",
+  "style_condition": "clinical_charting",
+  "text": "65세 남성 환자, pneumonia로 인한 respiratory distress 호소함.  \nBP 100/65, HR 110, RR 28, BT 38.1, SpO2 88%.  \nModerate cough 확인됨.  \nCeftriaxone 1g IV q12h 적용함.  \nHigh-flow nasal cannula 산소 지원 유지함.  \nVentilator 사용 중.  \n환자 상태 drowsy 확인됨.  \nRT notify함.",
+  "generation_metadata": {
+    "model": "gpt-4o",
+    "temperature": 0.7
+  }
+}

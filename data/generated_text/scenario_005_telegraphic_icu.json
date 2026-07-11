@@ -1,0 +1,11 @@
+{
+  "sample_id": "scenario_005_telegraphic_icu",
+  "scenario_id": "scenario_005",
+  "document_type": "ICU_observation",
+  "style_condition": "telegraphic_icu",
+  "text": "58세 남성. 만성 신장 질환 병력. 급성 신부전 모니터링 및 관리위해 입원.\n\nBP 150/95.  \nHR 88.  \nRR 22.  \nBT 37.2°C.  \nSpO2 94%.\n\nEdema moderate.\n\nFurosemide 40mg IV q8h.\n\nNasal cannula 사용.\n\nFoley 삽입.\n\nNegative fluid balance.\n\n임상 상태: drowsy.\n\nNephrology team notify.",
+  "generation_metadata": {
+    "model": "gpt-4o",
+    "temperature": 0.7
+  }
+}

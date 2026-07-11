@@ -1,0 +1,11 @@
+{
+  "sample_id": "scenario_001_telegraphic_icu",
+  "scenario_id": "scenario_001",
+  "document_type": "ICU_observation",
+  "style_condition": "telegraphic_icu",
+  "text": "65세 남성, 호흡곤란, 폐렴.  \nBP 100/65.  \nHR 110.  \nRR 28.  \nBT 38.1.  \nSpO2 88%.  \nCough moderate.  \nCeftriaxone 1g IV q12h.  \nHigh-flow nasal cannula 사용.  \nVentilator 사용.  \n임상상태 drowsy.  \nRT notify.",
+  "generation_metadata": {
+    "model": "gpt-4o",
+    "temperature": 0.7
+  }
+}

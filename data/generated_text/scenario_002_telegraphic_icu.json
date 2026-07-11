@@ -1,0 +1,11 @@
+{
+  "sample_id": "scenario_002_telegraphic_icu",
+  "scenario_id": "scenario_002",
+  "document_type": "ICU_observation",
+  "style_condition": "telegraphic_icu",
+  "text": "50세 여자 DKA로 입원.  \nBP 90/60.  \nHR 120.  \nRR 28.  \nBT 37.8.  \nSpO2 95%.  \nNausea moderate.  \nInsulin 10 units IV q4h.  \nFluid resuscitation.  \nUrine output low.  \nDrowsy.  \nEndocrinology consult함.",
+  "generation_metadata": {
+    "model": "gpt-4o",
+    "temperature": 0.7
+  }
+}
