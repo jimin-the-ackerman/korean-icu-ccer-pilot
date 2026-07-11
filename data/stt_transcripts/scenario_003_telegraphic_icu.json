@@ -1,0 +1,8 @@
+{
+  "sample_id": "scenario_003_telegraphic_icu",
+  "whisper_transcript": "70T세 여성 BP 145, 9mHg, HRMM R22, BT37, 1mRLC, SBO2 95% onto NC, Severe chest pain, Aspirin 3D25mg POstat, NC 사용 중, Cardiac monitoring 중, C-line 유지 중, Alert, Cardiology team notify.",
+  "stt_metadata": {
+    "model": "whisper-1",
+    "language": "ko"
+  }
+}

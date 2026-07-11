@@ -1,0 +1,8 @@
+{
+  "sample_id": "scenario_004_clinical_charting",
+  "whisper_transcript": "45세 남성 환자, acute pancreatitis로 입원함, BP 96mHg, HRV-EG-BPNR-ASH-PET-BREATHS-MIN-BT-SANCTI-PET-DEM-OL-SIL-SBO2-95% Severe abdominal pain 호소함, Morphine 4mg IV-Q4H 투여함, Fluid resuscitation 적용함, Foley 유지함, Urine output 200ml over 4 hours 확인됨, Drowsy 상태 보임, 담당의 Notify함",
+  "stt_metadata": {
+    "model": "whisper-1",
+    "language": "ko"
+  }
+}

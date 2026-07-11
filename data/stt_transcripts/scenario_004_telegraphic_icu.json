@@ -1,0 +1,8 @@
+{
+  "sample_id": "scenario_004_telegraphic_icu",
+  "whisper_transcript": "40세 남성, 급성 큐장염, BP9, 디에스 60mg, RR28, Breast Fet Min, BT30, AVXLC, SpO2 95%, Room Air, Abdominal Pain Severe, Morphine 4mg, IV, Q4H, Fluid Resuscitation Tinnang, Foley UG, Urine Output 200mL 4hrs, Drowsy 상태, Docker Notify",
+  "stt_metadata": {
+    "model": "whisper-1",
+    "language": "ko"
+  }
+}

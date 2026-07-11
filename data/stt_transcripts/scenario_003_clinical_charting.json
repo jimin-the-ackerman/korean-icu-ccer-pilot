@@ -1,0 +1,8 @@
+{
+  "sample_id": "scenario_003_clinical_charting",
+  "whisper_transcript": "72세 여성 환자, AMI로 입원함. BPM 95, 90mmHg, HRBT BPM, RRHD Breast Mim, BT, 설치첩종, 1두기 스펠스, SpO2 간지 5%, 2회 네이처 캔넬라 적용 중. 체스파인, 세벌 호소함. 아스프린, Threnox 5mg PO-STAT 투여함. 네이처 캔넬라 유지함. 카디액 모니터링 적용함, C-Line 유지함. 환자 알러트 상태임. 카디올리티 팀 노티파임.",
+  "stt_metadata": {
+    "model": "whisper-1",
+    "language": "ko"
+  }
+}

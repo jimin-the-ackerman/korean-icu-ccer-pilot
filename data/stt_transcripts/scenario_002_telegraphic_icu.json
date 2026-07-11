@@ -1,0 +1,8 @@
+{
+  "sample_id": "scenario_002_telegraphic_icu",
+  "whisper_transcript": "DK80E1, BP96C, HR-1HR, BT37.8, SpO2 95%, NM, Ins 10U IV-Q4H, Fluid Resuscitation, Urine Output Low, Drowsy, Endocrinology Consultum",
+  "stt_metadata": {
+    "model": "whisper-1",
+    "language": "ko"
+  }
+}

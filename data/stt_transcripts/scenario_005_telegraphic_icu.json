@@ -1,0 +1,8 @@
+{
+  "sample_id": "scenario_005_telegraphic_icu",
+  "whisper_transcript": "58세 남성, 만성 신장 질환 병력, 급성 심부전 모니터링 및 관리 위해 입원 BP 155, HR Pipe Putt, RORCB BT, 37.1, SpO2 95.5, EDMA Moderate, Furosemide 40mg IV-Q at H, Nasal cannula 사용, Foley 삽입, Negative fluid balance, 임상상태 drowsy, Nephrology team notify",
+  "stt_metadata": {
+    "model": "whisper-1",
+    "language": "ko"
+  }
+}

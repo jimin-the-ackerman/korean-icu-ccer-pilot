@@ -25,8 +25,9 @@ tts:
   output_format: "mp3"
 
 stt:
-  model: "base"           # whisper 모델 크기: tiny/base/small/medium/large
-  language_mode: "auto_detect"   # 나중에 §3.9 비교 후 "ko"로 바꿀 수도 있음
+  provider: "openai"
+  model: "whisper-1"
+  language: "ko"   # 파일럿: 한국어 고정. Auto Detect 비교는 Future Work로 보류
 
 entity_extraction:
   claude_model: "claude-sonnet-4-6"

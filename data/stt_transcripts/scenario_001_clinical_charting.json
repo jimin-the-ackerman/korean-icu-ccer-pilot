@@ -1,0 +1,8 @@
+{
+  "sample_id": "scenario_001_clinical_charting",
+  "whisper_transcript": "65세 남성 환자, Pneumonia로 인한 Respiratory Distress 호소함 BP 165, HR 110, RR 88, BT 32.1, SpO2 88% Moderate cough 확인됨 Cephtriaxone 1-Gri-IV-Q SURE-H 적용함 High flow nasal cannula 산소지원 유지함 Ventilator 사용중 환자상태 Drowsy 확인됨 RT Notify함",
+  "stt_metadata": {
+    "model": "whisper-1",
+    "language": "ko"
+  }
+}

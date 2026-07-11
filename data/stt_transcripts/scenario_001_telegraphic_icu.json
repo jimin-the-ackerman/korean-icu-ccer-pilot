@@ -1,0 +1,8 @@
+{
+  "sample_id": "scenario_001_telegraphic_icu",
+  "whisper_transcript": "육신함성 후 곤란 폐렴 BP 165 HR 28 BT 38.1 SPO2 88% COUGH MODERATE 세프트 리액션 1g IV Q12H HIGH FLOW NASAL CANNULA 사용 VENTILATOR 사용 임상상태 DROWSY RT NOTIFY",
+  "stt_metadata": {
+    "model": "whisper-1",
+    "language": "ko"
+  }
+}

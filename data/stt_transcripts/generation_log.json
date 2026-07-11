@@ -1,0 +1,62 @@
+[
+  {
+    "sample_id": "scenario_001_clinical_charting",
+    "status": "success"
+  },
+  {
+    "sample_id": "scenario_001_formal_template",
+    "status": "success"
+  },
+  {
+    "sample_id": "scenario_001_telegraphic_icu",
+    "status": "success"
+  },
+  {
+    "sample_id": "scenario_002_clinical_charting",
+    "status": "success"
+  },
+  {
+    "sample_id": "scenario_002_formal_template",
+    "status": "success"
+  },
+  {
+    "sample_id": "scenario_002_telegraphic_icu",
+    "status": "success"
+  },
+  {
+    "sample_id": "scenario_003_clinical_charting",
+    "status": "success"
+  },
+  {
+    "sample_id": "scenario_003_formal_template",
+    "status": "success"
+  },
+  {
+    "sample_id": "scenario_003_telegraphic_icu",
+    "status": "success"
+  },
+  {
+    "sample_id": "scenario_004_clinical_charting",
+    "status": "success"
+  },
+  {
+    "sample_id": "scenario_004_formal_template",
+    "status": "success"
+  },
+  {
+    "sample_id": "scenario_004_telegraphic_icu",
+    "status": "success"
+  },
+  {
+    "sample_id": "scenario_005_clinical_charting",
+    "status": "success"
+  },
+  {
+    "sample_id": "scenario_005_formal_template",
+    "status": "success"
+  },
+  {
+    "sample_id": "scenario_005_telegraphic_icu",
+    "status": "success"
+  }
+]

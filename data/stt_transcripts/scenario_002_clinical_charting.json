@@ -1,0 +1,8 @@
+{
+  "sample_id": "scenario_002_clinical_charting",
+  "whisper_transcript": "50세 여성 환자 DKA로 입원함. BP 60만 획득, HR 5rpm, RRSP at grace for 2,75%. Nausea moderate 호소함. 인슬린 유닛 큐브에 적용함. Fluid resuscitation 시행함. Urine output low 확인됨. Patient drowsy 상태임. Endocrinology consultant.",
+  "stt_metadata": {
+    "model": "whisper-1",
+    "language": "ko"
+  }
+}
