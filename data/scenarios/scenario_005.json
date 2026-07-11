@@ -1,0 +1,28 @@
+{
+  "patient_context": "A 58-year-old male patient with a history of chronic kidney disease admitted for monitoring and management of acute renal failure.",
+  "vital_signs": {
+    "BP": "150/95",
+    "HR": "88",
+    "RR": "22",
+    "BT": "37.2°C",
+    "SpO2": "94%"
+  },
+  "symptom": {
+    "name": "edema",
+    "negation": false,
+    "severity": "moderate"
+  },
+  "medication": {
+    "name": "Furosemide",
+    "dose": "40 mg",
+    "route": "IV",
+    "frequency": "q8h"
+  },
+  "oxygen_support": "nasal cannula",
+  "intervention": null,
+  "device": "Foley",
+  "io": "negative fluid balance",
+  "clinical_status": "drowsy",
+  "notification": "Nephrology team notified of increased creatinine levels.",
+  "scenario_id": "scenario_005"
+}

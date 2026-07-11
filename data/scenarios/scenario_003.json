@@ -1,0 +1,28 @@
+{
+  "patient_context": "A 72-year-old female patient admitted with acute myocardial infarction (AMI).",
+  "vital_signs": {
+    "BP": "145/90 mmHg",
+    "HR": "110 bpm",
+    "RR": "22 breaths/min",
+    "BT": "37.1 °C",
+    "SpO2": "95% on 2L nasal cannula"
+  },
+  "symptom": {
+    "name": "chest pain",
+    "negation": false,
+    "severity": "severe"
+  },
+  "medication": {
+    "name": "Aspirin",
+    "dose": "325 mg",
+    "route": "PO",
+    "frequency": "STAT"
+  },
+  "oxygen_support": "nasal cannula",
+  "intervention": "cardiac monitoring",
+  "device": "C-line",
+  "io": null,
+  "clinical_status": "alert",
+  "notification": "Cardiology team notified for urgent review.",
+  "scenario_id": "scenario_003"
+}

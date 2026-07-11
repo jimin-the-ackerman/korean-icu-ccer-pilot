@@ -1,0 +1,28 @@
+{
+  "patient_context": "A 50-year-old female patient admitted with diabetic ketoacidosis (DKA).",
+  "vital_signs": {
+    "BP": "90/60",
+    "HR": "120",
+    "RR": "28",
+    "BT": "37.8",
+    "SpO2": "95%"
+  },
+  "symptom": {
+    "name": "nausea",
+    "negation": false,
+    "severity": "moderate"
+  },
+  "medication": {
+    "name": "insulin",
+    "dose": "10 units",
+    "route": "IV",
+    "frequency": "q4h"
+  },
+  "oxygen_support": null,
+  "intervention": "fluid resuscitation",
+  "device": null,
+  "io": "urine output low",
+  "clinical_status": "drowsy",
+  "notification": "Endocrinology consulted for management of DKA.",
+  "scenario_id": "scenario_002"
+}

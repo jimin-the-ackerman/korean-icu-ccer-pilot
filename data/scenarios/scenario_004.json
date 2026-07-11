@@ -1,0 +1,28 @@
+{
+  "patient_context": "A 45-year-old male patient admitted with acute pancreatitis.",
+  "vital_signs": {
+    "BP": "90/60 mmHg",
+    "HR": "120 bpm",
+    "RR": "28 breaths/min",
+    "BT": "38.5°C",
+    "SpO2": "95% on room air"
+  },
+  "symptom": {
+    "name": "abdominal pain",
+    "negation": false,
+    "severity": "severe"
+  },
+  "medication": {
+    "name": "morphine",
+    "dose": "4 mg",
+    "route": "IV",
+    "frequency": "q4h"
+  },
+  "oxygen_support": null,
+  "intervention": "fluid resuscitation",
+  "device": "Foley",
+  "io": "urine output 200 mL over 4 hours",
+  "clinical_status": "drowsy",
+  "notification": "Notified the on-call gastroenterologist of the patient's deteriorating hemodynamic status.",
+  "scenario_id": "scenario_004"
+}

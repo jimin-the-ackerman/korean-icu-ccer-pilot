@@ -1,0 +1,28 @@
+{
+  "patient_context": "A 65-year-old male patient presenting with respiratory distress due to pneumonia.",
+  "vital_signs": {
+    "BP": "100/65",
+    "HR": "110",
+    "RR": "28",
+    "BT": "38.1",
+    "SpO2": "88%"
+  },
+  "symptom": {
+    "name": "cough",
+    "negation": false,
+    "severity": "moderate"
+  },
+  "medication": {
+    "name": "Ceftriaxone",
+    "dose": "1g",
+    "route": "IV",
+    "frequency": "q12h"
+  },
+  "oxygen_support": "High-flow nasal cannula",
+  "intervention": null,
+  "device": "ventilator",
+  "io": null,
+  "clinical_status": "drowsy",
+  "notification": "Respiratory therapist notified of low SpO2 levels.",
+  "scenario_id": "scenario_001"
+}
