@@ -31,15 +31,15 @@
     },
     {
       "entity_type": "dose",
-      "gold_value": "200ml",
+      "gold_value": null,
       "whisper_value": "200ml",
-      "match_status": "matched",
+      "match_status": "whisper_only",
       "error_type": null
     },
     {
       "entity_type": "vital_sign",
       "label": "bp",
-      "gold_value": "90/60",
+      "gold_value": "90/60 mmHg",
       "whisper_value": "96",
       "match_status": "error",
       "error_type": "numeric_error"
@@ -47,7 +47,7 @@
     {
       "entity_type": "vital_sign",
       "label": "hr",
-      "gold_value": "120",
+      "gold_value": "120 bpm",
       "whisper_value": null,
       "match_status": "omission",
       "error_type": "omission"
@@ -55,7 +55,7 @@
     {
       "entity_type": "vital_sign",
       "label": "rr",
-      "gold_value": "28",
+      "gold_value": "28 breaths/min",
       "whisper_value": null,
       "match_status": "omission",
       "error_type": "omission"
@@ -63,7 +63,7 @@
     {
       "entity_type": "vital_sign",
       "label": "bt",
-      "gold_value": "38.5",
+      "gold_value": "38.5°C",
       "whisper_value": null,
       "match_status": "omission",
       "error_type": "omission"
@@ -71,7 +71,7 @@
     {
       "entity_type": "vital_sign",
       "label": "spo2",
-      "gold_value": "95%",
+      "gold_value": "95% on room air",
       "whisper_value": null,
       "match_status": "omission",
       "error_type": "omission"
@@ -91,30 +91,23 @@
     "clinical_status_match": {
       "gold_value": "drowsy",
       "whisper_value": "Drowsy",
-      "match_basis": "normalized"
+      "match_basis": "exact"
     },
     "intervention_matches": [
       {
-        "gold_value": "Fluid resuscitation",
+        "gold_value": "fluid resuscitation",
         "whisper_value": "Fluid resuscitation",
         "match_basis": "exact"
-      },
-      {
-        "gold_value": "Foley catheter maintenance",
-        "whisper_value": "Foley 유지",
-        "match_basis": "semantic"
-      },
-      {
-        "gold_value": "Urine output monitoring",
-        "whisper_value": "Urine output 확인",
-        "match_basis": "semantic"
       }
     ],
-    "whisper_only_interventions": [],
+    "whisper_only_interventions": [
+      "Foley 유지",
+      "Urine output 확인"
+    ],
     "notification_match": {
-      "gold_value": "담당의 notify함",
+      "gold_value": "Notified the on-call gastroenterologist of the patient's deteriorating hemodynamic status.",
       "whisper_value": "담당의 Notify함",
-      "match_basis": "normalized"
+      "match_basis": "semantic"
     }
   }
 }

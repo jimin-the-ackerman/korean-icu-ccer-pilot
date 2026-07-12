@@ -1,53 +1,99 @@
 {
   "sample_id": "scenario_002_formal_template",
-  "closed_vocab_matches": [],
+  "closed_vocab_matches": [
+    {
+      "entity_type": "route",
+      "gold_value": "iv",
+      "whisper_value": null,
+      "match_status": "omission",
+      "error_type": "omission"
+    },
+    {
+      "entity_type": "frequency",
+      "gold_value": "q4h",
+      "whisper_value": null,
+      "match_status": "omission",
+      "error_type": "omission"
+    },
+    {
+      "entity_type": "dose",
+      "gold_value": "10units",
+      "whisper_value": null,
+      "match_status": "omission",
+      "error_type": "omission"
+    },
+    {
+      "entity_type": "vital_sign",
+      "label": "bp",
+      "gold_value": "90/60",
+      "whisper_value": null,
+      "match_status": "omission",
+      "error_type": "omission"
+    },
+    {
+      "entity_type": "vital_sign",
+      "label": "hr",
+      "gold_value": "120",
+      "whisper_value": null,
+      "match_status": "omission",
+      "error_type": "omission"
+    },
+    {
+      "entity_type": "vital_sign",
+      "label": "rr",
+      "gold_value": "28",
+      "whisper_value": null,
+      "match_status": "omission",
+      "error_type": "omission"
+    },
+    {
+      "entity_type": "vital_sign",
+      "label": "bt",
+      "gold_value": "37.8",
+      "whisper_value": null,
+      "match_status": "omission",
+      "error_type": "omission"
+    },
+    {
+      "entity_type": "vital_sign",
+      "label": "spo2",
+      "gold_value": "95%",
+      "whisper_value": null,
+      "match_status": "omission",
+      "error_type": "omission"
+    }
+  ],
   "open_vocab_matches": {
     "symptom_matches": [
       {
         "gold_value": "nausea",
         "whisper_value": "나우지아(오심)",
-        "match_basis": "normalized",
-        "negation_match": true,
-        "severity_match": true
-      },
-      {
-        "gold_value": "소변량 저하",
-        "whisper_value": "소변량 저하",
-        "match_basis": "exact",
-        "negation_match": true,
-        "severity_match": true
-      },
-      {
-        "gold_value": "기면",
-        "whisper_value": "기면",
-        "match_basis": "exact",
+        "match_basis": "semantic",
         "negation_match": true,
         "severity_match": true
       }
     ],
-    "whisper_only_symptoms": [],
+    "whisper_only_symptoms": [
+      "소변량 저하",
+      "기면"
+    ],
     "clinical_status_match": {
-      "gold_value": "약간의 기면 상태",
+      "gold_value": "drowsy",
       "whisper_value": "약간의 기면 상태",
-      "match_basis": "exact"
+      "match_basis": "semantic"
     },
     "intervention_matches": [
       {
         "gold_value": "fluid resuscitation",
         "whisper_value": "fluid resuscitation",
         "match_basis": "exact"
-      },
-      {
-        "gold_value": "인슐린 10 units IV 투여",
-        "whisper_value": null,
-        "match_basis": "omission"
       }
     ],
     "whisper_only_interventions": [],
     "notification_match": {
-      "gold_value": "DKA 관리를 위해 내분비내과에 상담을 요청하였다.",
+      "gold_value": "Endocrinology consulted for management of DKA.",
       "whisper_value": "DK의 관리를 위해 내분비 내과에 상담을 요청하였다.",
-      "match_basis": "normalized"
+      "match_basis": "semantic"
     }
   }
 }

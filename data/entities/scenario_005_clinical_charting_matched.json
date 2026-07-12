@@ -63,7 +63,7 @@
     {
       "entity_type": "vital_sign",
       "label": "bt",
-      "gold_value": "37.2",
+      "gold_value": "37.2°C",
       "whisper_value": "37.0",
       "match_status": "error",
       "error_type": "numeric_error"
@@ -93,28 +93,16 @@
       "whisper_value": "drowsy",
       "match_basis": "exact"
     },
-    "intervention_matches": [
-      {
-        "gold_value": "Oxygen support, nasal cannula",
-        "whisper_value": "Oxygen support, nasal cannula 유지",
-        "match_basis": "normalized"
-      },
-      {
-        "gold_value": "Foley catheter 유지",
-        "whisper_value": "Foley catheter 유지",
-        "match_basis": "exact"
-      },
-      {
-        "gold_value": "Negative fluid balance 확인",
-        "whisper_value": "Negative fluid balance 확인",
-        "match_basis": "exact"
-      }
+    "intervention_matches": [],
+    "whisper_only_interventions": [
+      "Oxygen support, nasal cannula 유지",
+      "Foley catheter 유지",
+      "Negative fluid balance 확인"
     ],
-    "whisper_only_interventions": [],
     "notification_match": {
-      "gold_value": "Nephrology 팀 increased creatinine levels 관련 notify함",
+      "gold_value": "Nephrology team notified of increased creatinine levels.",
       "whisper_value": "Nephrology team increased creatinine levels 관련 notify함",
-      "match_basis": "normalized"
+      "match_basis": "semantic"
     }
   }
 }

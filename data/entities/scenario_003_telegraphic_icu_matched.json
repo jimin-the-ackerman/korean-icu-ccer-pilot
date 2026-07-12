@@ -31,9 +31,9 @@
     },
     {
       "entity_type": "device",
-      "gold_value": "nc",
+      "gold_value": null,
       "whisper_value": "nc",
-      "match_status": "matched",
+      "match_status": "whisper_only",
       "error_type": null
     },
     {
@@ -46,7 +46,7 @@
     {
       "entity_type": "vital_sign",
       "label": "bp",
-      "gold_value": "145/90",
+      "gold_value": "145/90 mmHg",
       "whisper_value": "145",
       "match_status": "error",
       "error_type": "numeric_error"
@@ -54,7 +54,7 @@
     {
       "entity_type": "vital_sign",
       "label": "hr",
-      "gold_value": "110",
+      "gold_value": "110 bpm",
       "whisper_value": null,
       "match_status": "omission",
       "error_type": "omission"
@@ -62,7 +62,7 @@
     {
       "entity_type": "vital_sign",
       "label": "rr",
-      "gold_value": "22",
+      "gold_value": "22 breaths/min",
       "whisper_value": null,
       "match_status": "omission",
       "error_type": "omission"
@@ -70,7 +70,7 @@
     {
       "entity_type": "vital_sign",
       "label": "bt",
-      "gold_value": "37.1",
+      "gold_value": "37.1 °C",
       "whisper_value": null,
       "match_status": "omission",
       "error_type": "omission"
@@ -78,7 +78,7 @@
     {
       "entity_type": "vital_sign",
       "label": "spo2",
-      "gold_value": "95%",
+      "gold_value": "95% on 2L nasal cannula",
       "whisper_value": null,
       "match_status": "omission",
       "error_type": "omission"
@@ -96,32 +96,25 @@
     ],
     "whisper_only_symptoms": [],
     "clinical_status_match": {
-      "gold_value": "Alert",
+      "gold_value": "alert",
       "whisper_value": "Alert",
-      "match_basis": "exact"
+      "match_basis": "normalized"
     },
     "intervention_matches": [
       {
-        "gold_value": "NC 사용 중",
-        "whisper_value": "NC 사용 중",
-        "match_basis": "exact"
-      },
-      {
-        "gold_value": "Cardiac monitoring",
+        "gold_value": "cardiac monitoring",
         "whisper_value": "Cardiac monitoring 중",
         "match_basis": "normalized"
-      },
-      {
-        "gold_value": "C-line 유지 중",
-        "whisper_value": "C-line 유지 중",
-        "match_basis": "exact"
       }
     ],
-    "whisper_only_interventions": [],
+    "whisper_only_interventions": [
+      "NC 사용 중",
+      "C-line 유지 중"
+    ],
     "notification_match": {
-      "gold_value": "Cardiology team notify",
+      "gold_value": "Cardiology team notified for urgent review.",
       "whisper_value": "Cardiology team notify.",
-      "match_basis": "exact"
+      "match_basis": "normalized"
     }
   }
 }

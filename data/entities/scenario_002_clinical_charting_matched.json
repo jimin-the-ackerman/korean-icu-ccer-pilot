@@ -16,6 +16,13 @@
       "error_type": "omission"
     },
     {
+      "entity_type": "dose",
+      "gold_value": "10units",
+      "whisper_value": null,
+      "match_status": "omission",
+      "error_type": "omission"
+    },
+    {
       "entity_type": "vital_sign",
       "label": "bp",
       "gold_value": "90/60",
@@ -59,7 +66,7 @@
   "open_vocab_matches": {
     "symptom_matches": [
       {
-        "gold_value": "Nausea",
+        "gold_value": "nausea",
         "whisper_value": "Nausea",
         "match_basis": "exact",
         "negation_match": true,
@@ -74,26 +81,16 @@
     },
     "intervention_matches": [
       {
-        "gold_value": "Insulin 10 units IV q4h 적용",
-        "whisper_value": null,
-        "match_basis": "omission"
-      },
-      {
-        "gold_value": "Fluid resuscitation 시행",
+        "gold_value": "fluid resuscitation",
         "whisper_value": "Fluid resuscitation",
         "match_basis": "exact"
-      },
-      {
-        "gold_value": "Urine output low 확인",
-        "whisper_value": null,
-        "match_basis": "omission"
       }
     ],
     "whisper_only_interventions": [],
     "notification_match": {
-      "gold_value": "Endocrinology consult함",
+      "gold_value": "Endocrinology consulted for management of DKA.",
       "whisper_value": "Endocrinology consultant.",
-      "match_basis": "exact"
+      "match_basis": "semantic"
     }
   }
 }

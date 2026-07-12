@@ -9,51 +9,105 @@
       "error_type": null
     },
     {
+      "entity_type": "frequency",
+      "gold_value": "stat",
+      "whisper_value": null,
+      "match_status": "omission",
+      "error_type": "omission"
+    },
+    {
+      "entity_type": "device",
+      "gold_value": "c-line",
+      "whisper_value": null,
+      "match_status": "omission",
+      "error_type": "omission"
+    },
+    {
+      "entity_type": "device",
+      "gold_value": "nc",
+      "whisper_value": null,
+      "match_status": "omission",
+      "error_type": "omission"
+    },
+    {
       "entity_type": "dose",
       "gold_value": "325mg",
       "whisper_value": "25mg",
       "match_status": "error",
       "error_type": "numeric_error"
+    },
+    {
+      "entity_type": "vital_sign",
+      "label": "bp",
+      "gold_value": "145/90 mmHg",
+      "whisper_value": null,
+      "match_status": "omission",
+      "error_type": "omission"
+    },
+    {
+      "entity_type": "vital_sign",
+      "label": "hr",
+      "gold_value": "110 bpm",
+      "whisper_value": null,
+      "match_status": "omission",
+      "error_type": "omission"
+    },
+    {
+      "entity_type": "vital_sign",
+      "label": "rr",
+      "gold_value": "22 breaths/min",
+      "whisper_value": null,
+      "match_status": "omission",
+      "error_type": "omission"
+    },
+    {
+      "entity_type": "vital_sign",
+      "label": "bt",
+      "gold_value": "37.1 °C",
+      "whisper_value": null,
+      "match_status": "omission",
+      "error_type": "omission"
+    },
+    {
+      "entity_type": "vital_sign",
+      "label": "spo2",
+      "gold_value": "95% on 2L nasal cannula",
+      "whisper_value": null,
+      "match_status": "omission",
+      "error_type": "omission"
     }
   ],
   "open_vocab_matches": {
     "symptom_matches": [
       {
-        "gold_value": "흉통",
+        "gold_value": "chest pain",
         "whisper_value": "흉통",
-        "match_basis": "exact",
+        "match_basis": "semantic",
         "negation_match": true,
         "severity_match": true
       }
     ],
     "whisper_only_symptoms": [],
     "clinical_status_match": {
-      "gold_value": "의식 명료",
+      "gold_value": "alert",
       "whisper_value": "의식 명료",
-      "match_basis": "exact"
+      "match_basis": "semantic"
     },
     "intervention_matches": [
       {
-        "gold_value": "산소 공급 (nasal cannula)",
-        "whisper_value": "산소 공급 (네이절 케놀라)",
-        "match_basis": "normalized"
-      },
-      {
-        "gold_value": "C-line 삽입",
-        "whisper_value": "C라인 삽입",
-        "match_basis": "normalized"
-      },
-      {
-        "gold_value": "심장 모니터링",
+        "gold_value": "cardiac monitoring",
         "whisper_value": "심장 모니터링",
-        "match_basis": "exact"
+        "match_basis": "semantic"
       }
     ],
-    "whisper_only_interventions": [],
+    "whisper_only_interventions": [
+      "산소 공급 (네이절 케놀라)",
+      "C라인 삽입"
+    ],
     "notification_match": {
-      "gold_value": "심장학 팀에게 긴급 검토를 위해 보고함",
+      "gold_value": "Cardiology team notified for urgent review.",
       "whisper_value": "심장학팀에게 긴급 검토를 위해 보고함",
-      "match_basis": "exact"
+      "match_basis": "semantic"
     }
   }
 }

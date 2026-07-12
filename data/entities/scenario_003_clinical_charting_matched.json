@@ -30,13 +30,6 @@
       "error_type": "omission"
     },
     {
-      "entity_type": "device",
-      "gold_value": "nc",
-      "whisper_value": null,
-      "match_status": "omission",
-      "error_type": "omission"
-    },
-    {
       "entity_type": "dose",
       "gold_value": "325mg",
       "whisper_value": "5mg",
@@ -46,7 +39,7 @@
     {
       "entity_type": "vital_sign",
       "label": "bp",
-      "gold_value": "145/90",
+      "gold_value": "145/90 mmHg",
       "whisper_value": null,
       "match_status": "omission",
       "error_type": "omission"
@@ -54,7 +47,7 @@
     {
       "entity_type": "vital_sign",
       "label": "hr",
-      "gold_value": "110",
+      "gold_value": "110 bpm",
       "whisper_value": null,
       "match_status": "omission",
       "error_type": "omission"
@@ -62,7 +55,7 @@
     {
       "entity_type": "vital_sign",
       "label": "rr",
-      "gold_value": "22",
+      "gold_value": "22 breaths/min",
       "whisper_value": null,
       "match_status": "omission",
       "error_type": "omission"
@@ -70,7 +63,7 @@
     {
       "entity_type": "vital_sign",
       "label": "bt",
-      "gold_value": "37.1",
+      "gold_value": "37.1 °C",
       "whisper_value": null,
       "match_status": "omission",
       "error_type": "omission"
@@ -78,7 +71,7 @@
     {
       "entity_type": "vital_sign",
       "label": "spo2",
-      "gold_value": "95%",
+      "gold_value": "95% on 2L nasal cannula",
       "whisper_value": null,
       "match_status": "omission",
       "error_type": "omission"
@@ -104,26 +97,18 @@
     },
     "intervention_matches": [
       {
-        "gold_value": "Nasal cannula 유지",
-        "whisper_value": "네이처 캔넬라 유지",
-        "match_basis": "semantic"
-      },
-      {
-        "gold_value": "Cardiac monitoring 적용",
+        "gold_value": "cardiac monitoring",
         "whisper_value": "카디액 모니터링 적용",
         "match_basis": "semantic"
-      },
-      {
-        "gold_value": "C-line 유지",
-        "whisper_value": "C-Line 유지",
-        "match_basis": "exact"
       }
     ],
     "whisper_only_interventions": [
-      "네이처 캔넬라 적용"
+      "네이처 캔넬라 적용",
+      "네이처 캔넬라 유지",
+      "C-Line 유지"
     ],
     "notification_match": {
-      "gold_value": "Cardiology team notify함",
+      "gold_value": "Cardiology team notified for urgent review.",
       "whisper_value": "카디올리티 팀 노티파임",
       "match_basis": "semantic"
     }
