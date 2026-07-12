@@ -1,0 +1,126 @@
+{
+  "sample_id": "scenario_001_clinical_charting",
+  "gold_entities": {
+    "route": [
+      {
+        "raw": "IV",
+        "normalized": "iv",
+        "position": 137
+      }
+    ],
+    "frequency": [
+      {
+        "raw": "q12h",
+        "normalized": "q12h",
+        "position": 140
+      }
+    ],
+    "device": [
+      {
+        "raw": "Ventilator",
+        "normalized": "ventilator",
+        "position": 189
+      },
+      {
+        "raw": "High-flow nasal cannula",
+        "normalized": "nc",
+        "position": 152
+      }
+    ],
+    "vital_sign": [
+      {
+        "raw": "BP 100/65",
+        "label": "bp",
+        "value": "100/65",
+        "position": 53
+      },
+      {
+        "raw": "HR 110",
+        "label": "hr",
+        "value": "110",
+        "position": 64
+      },
+      {
+        "raw": "RR 28",
+        "label": "rr",
+        "value": "28",
+        "position": 72
+      },
+      {
+        "raw": "BT 38.1",
+        "label": "bt",
+        "value": "38.1",
+        "position": 79
+      },
+      {
+        "raw": "SpO2 88%.",
+        "label": "spo2",
+        "value": "88%.",
+        "position": 88
+      }
+    ],
+    "dose": [
+      {
+        "raw": "1g",
+        "value": "1",
+        "unit": "g",
+        "position": 134
+      }
+    ]
+  },
+  "whisper_entities": {
+    "route": [
+      {
+        "raw": "IV",
+        "normalized": "iv",
+        "position": 129
+      }
+    ],
+    "frequency": [],
+    "device": [
+      {
+        "raw": "Ventilator",
+        "normalized": "ventilator",
+        "position": 178
+      },
+      {
+        "raw": "nasal cannula",
+        "normalized": "nc",
+        "position": 155
+      }
+    ],
+    "vital_sign": [
+      {
+        "raw": "BP 165",
+        "label": "bp",
+        "value": "165",
+        "position": 50
+      },
+      {
+        "raw": "HR 110",
+        "label": "hr",
+        "value": "110",
+        "position": 58
+      },
+      {
+        "raw": "RR 88",
+        "label": "rr",
+        "value": "88",
+        "position": 66
+      },
+      {
+        "raw": "BT 32.1",
+        "label": "bt",
+        "value": "32.1",
+        "position": 73
+      },
+      {
+        "raw": "SpO2 88%",
+        "label": "spo2",
+        "value": "88%",
+        "position": 82
+      }
+    ],
+    "dose": []
+  }
+}
