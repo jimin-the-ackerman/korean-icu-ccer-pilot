@@ -30,7 +30,7 @@ stt:
   language: "ko"   # 파일럿: 한국어 고정. Auto Detect 비교는 Future Work로 보류
 
 entity_extraction:
-  claude_model: "claude-sonnet-4-6"
+  claude_model: "claude-sonnet-5"
 
 paths:
   scenarios_dir: "data/scenarios"

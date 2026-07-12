@@ -1,5 +1,5 @@
 """
-Word Error Rate Evaluation (paper Section 5.2, Transcript-level Evaluation)
+Word Error Rate Evaluation 
 
 [Limitation]
 jiwer의 기본 WER 계산은 공백 기준 단어 분리를 전제로 한다. 한국어는 교착어

@@ -1,5 +1,5 @@
 """
-GPT-4o Style-controlled Documentation Generation (paper Section 3.7)
+GPT-4o Style-controlled Documentation Generation 
 
 Pipeline:
 Content Scaffold (data/scenarios/*.json)

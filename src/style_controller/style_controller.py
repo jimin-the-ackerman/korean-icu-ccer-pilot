@@ -1,5 +1,5 @@
 """
-Style Controller (논문 3.6절)
+Style Controller 
 
 [설계 원칙]
 이 모듈은 텍스트를 직접 생성하지 않는다.

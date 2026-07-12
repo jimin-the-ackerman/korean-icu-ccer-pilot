@@ -1,5 +1,5 @@
 """
-Content Scaffold JSON Schema (paper Section 3.3)
+Content Scaffold JSON Schema 
 
 Reference basis (docs/reference_analysis.md):
 - Category 1 (Standard Forms) -> field structure

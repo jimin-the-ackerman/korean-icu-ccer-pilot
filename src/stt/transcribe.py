@@ -1,5 +1,5 @@
 """
-OpenAI Whisper API Speech Recognition (paper Section 3.9, adapted)
+OpenAI Whisper API Speech Recognition
 
 Pipeline:
 data/audio/{sample_id}.mp3

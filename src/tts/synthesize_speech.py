@@ -1,10 +1,8 @@
 """
-OpenAI TTS Speech Generation (paper Section 3.8, adapted from Google Cloud TTS)
+OpenAI TTS Speech Generation
 
 [Design Principle]
 단일 화자(voice)를 모든 샘플에 고정하여 speaker를 통제변수로 유지한다
-(paper Section 3.8, 4.5 Experimental Variables).
-
 Pipeline:
 data/generated_text/{sample_id}.json
     -> OpenAI TTS
