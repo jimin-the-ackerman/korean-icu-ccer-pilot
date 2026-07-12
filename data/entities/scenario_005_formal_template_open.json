@@ -1,0 +1,34 @@
+{
+  "sample_id": "scenario_005_formal_template",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "부종",
+        "negation": false,
+        "severity": "moderate"
+      }
+    ],
+    "clinical_status": "졸린 상태",
+    "interventions": [
+      "nasal cannula를 통한 산소 공급",
+      "Foley catheter 장착"
+    ],
+    "notification": "크레아티닌 수치 증가에 대해 신장내과 팀에게 보고하였다."
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "부종",
+        "negation": false,
+        "severity": "moderate"
+      }
+    ],
+    "clinical_status": "졸린 상태",
+    "interventions": [
+      "산소 공급 (네이젤 캐뉼라)",
+      "폴리 카테터 장착",
+      "수분 균형 관찰"
+    ],
+    "notification": "크레아티닌 수치 증가에 대해 신장내과팀에게 보고하였다."
+  }
+}

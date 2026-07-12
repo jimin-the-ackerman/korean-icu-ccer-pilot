@@ -1,0 +1,35 @@
+{
+  "sample_id": "scenario_005_clinical_charting",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "edema",
+        "negation": false,
+        "severity": "moderate"
+      }
+    ],
+    "clinical_status": "drowsy",
+    "interventions": [
+      "Oxygen support, nasal cannula 유지",
+      "Foley catheter 유지",
+      "Negative fluid balance 확인"
+    ],
+    "notification": "Nephrology 팀 increased creatinine levels 관련 notify함."
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "edema",
+        "negation": false,
+        "severity": "moderate"
+      }
+    ],
+    "clinical_status": "drowsy",
+    "interventions": [
+      "Oxygen support, nasal cannula 유지",
+      "Foley catheter 유지",
+      "Negative fluid balance 확인"
+    ],
+    "notification": "Nephrology team increased creatinine levels 관련 notify함"
+  }
+}

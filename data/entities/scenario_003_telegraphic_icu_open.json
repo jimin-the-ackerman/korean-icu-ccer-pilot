@@ -1,0 +1,35 @@
+{
+  "sample_id": "scenario_003_telegraphic_icu",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "chest pain",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "Alert",
+    "interventions": [
+      "NC 사용 중",
+      "Cardiac monitoring 중",
+      "C-line 유지 중"
+    ],
+    "notification": "Cardiology team notify"
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "chest pain",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "Alert",
+    "interventions": [
+      "NC 사용 중",
+      "Cardiac monitoring 중",
+      "C-line 유지 중"
+    ],
+    "notification": "Cardiology team notify"
+  }
+}

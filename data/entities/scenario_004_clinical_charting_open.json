@@ -1,0 +1,35 @@
+{
+  "sample_id": "scenario_004_clinical_charting",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "abdominal pain",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "Drowsy",
+    "interventions": [
+      "Fluid resuscitation 적용",
+      "Foley 유지",
+      "Urine output 200 mL over 4 hours 확인"
+    ],
+    "notification": "담당의 notify함"
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "abdominal pain",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "Drowsy",
+    "interventions": [
+      "Fluid resuscitation",
+      "Foley 유지",
+      "Urine output 확인"
+    ],
+    "notification": "담당의 Notify함"
+  }
+}

@@ -96,6 +96,8 @@ def extract_vital_sign(text: str) -> list[dict]:
     for m in VITAL_SIGN_PATTERN.finditer(text):
         label_raw = m.group(1)
         value_raw = m.group(2)
+        # 값 끝에 붙은 문장 종결 마침표 제거 (소수점은 보존, 예: 38.1은 유지, "88%." 의 끝 점만 제거)
+        value_raw = value_raw.rstrip(".")
         normalized_label = VITAL_SIGN_LABEL_MAP.get(label_raw.lower(), label_raw.lower())
         results.append({
             "raw": m.group(0),

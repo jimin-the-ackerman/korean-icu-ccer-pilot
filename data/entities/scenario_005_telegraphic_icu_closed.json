@@ -31,19 +31,19 @@
       {
         "raw": "BP 150/95.",
         "label": "bp",
-        "value": "150/95.",
+        "value": "150/95",
         "position": 45
       },
       {
         "raw": "HR 88.",
         "label": "hr",
-        "value": "88.",
+        "value": "88",
         "position": 58
       },
       {
         "raw": "RR 22.",
         "label": "rr",
-        "value": "22.",
+        "value": "22",
         "position": 67
       },
       {
@@ -55,7 +55,7 @@
       {
         "raw": "SpO2 94%.",
         "label": "spo2",
-        "value": "94%.",
+        "value": "94%",
         "position": 89
       }
     ],

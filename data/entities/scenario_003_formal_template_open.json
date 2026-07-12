@@ -1,0 +1,35 @@
+{
+  "sample_id": "scenario_003_formal_template",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "흉통",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "의식 명료",
+    "interventions": [
+      "산소 공급 (nasal cannula)",
+      "C-line 삽입",
+      "심장 모니터링"
+    ],
+    "notification": "심장학 팀에게 긴급 검토를 위해 보고함"
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "흉통",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "의식 명료",
+    "interventions": [
+      "산소 공급 (네이절 케놀라)",
+      "C라인 삽입",
+      "심장 모니터링"
+    ],
+    "notification": "심장학팀에게 긴급 검토를 위해 보고함"
+  }
+}

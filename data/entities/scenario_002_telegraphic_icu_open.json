@@ -1,0 +1,36 @@
+{
+  "sample_id": "scenario_002_telegraphic_icu",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "Nausea",
+        "negation": false,
+        "severity": "moderate"
+      },
+      {
+        "name": "Urine output low",
+        "negation": false,
+        "severity": null
+      }
+    ],
+    "clinical_status": "Drowsy",
+    "interventions": [
+      "Fluid resuscitation"
+    ],
+    "notification": "Endocrinology consult함."
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "Urine Output Low",
+        "negation": false
+      }
+    ],
+    "clinical_status": "Drowsy",
+    "interventions": [
+      "Ins 10U IV-Q4H",
+      "Fluid Resuscitation"
+    ],
+    "notification": "Endocrinology Consultum"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "sample_id": "scenario_004_telegraphic_icu",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "abdominal pain",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "Drowsy",
+    "interventions": [
+      "Fluid resuscitation",
+      "Foley 유지"
+    ],
+    "notification": "Dr notify"
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "Abdominal Pain",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "Drowsy",
+    "interventions": [
+      "Fluid Resuscitation",
+      "Foley"
+    ],
+    "notification": "Docker Notify"
+  }
+}

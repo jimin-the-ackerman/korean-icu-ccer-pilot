@@ -1,0 +1,35 @@
+{
+  "sample_id": "scenario_005_telegraphic_icu",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "edema",
+        "negation": false,
+        "severity": "moderate"
+      }
+    ],
+    "clinical_status": "drowsy",
+    "interventions": [
+      "Nasal cannula 사용",
+      "Foley 삽입",
+      "Negative fluid balance"
+    ],
+    "notification": "Nephrology team notify"
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "EDMA",
+        "negation": false,
+        "severity": "moderate"
+      }
+    ],
+    "clinical_status": "drowsy",
+    "interventions": [
+      "Nasal cannula 사용",
+      "Foley 삽입",
+      "Negative fluid balance"
+    ],
+    "notification": "Nephrology team notify"
+  }
+}

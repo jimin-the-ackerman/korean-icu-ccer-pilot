@@ -1,0 +1,37 @@
+{
+  "sample_id": "scenario_002_clinical_charting",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "nausea",
+        "negation": false,
+        "severity": "moderate"
+      },
+      {
+        "name": "urine output low",
+        "negation": false,
+        "severity": null
+      }
+    ],
+    "clinical_status": "drowsy",
+    "interventions": [
+      "Insulin 10 units IV q4h",
+      "Fluid resuscitation"
+    ],
+    "notification": "Endocrinology consult함."
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "nausea",
+        "negation": false,
+        "severity": "moderate"
+      }
+    ],
+    "clinical_status": "drowsy",
+    "interventions": [
+      "Fluid resuscitation"
+    ],
+    "notification": "Endocrinology consultant."
+  }
+}

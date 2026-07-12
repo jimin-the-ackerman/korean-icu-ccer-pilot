@@ -1,0 +1,52 @@
+{
+  "sample_id": "scenario_002_formal_template",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "nausea",
+        "negation": false,
+        "severity": "moderate"
+      },
+      {
+        "name": "소변량 저하",
+        "negation": false,
+        "severity": null
+      },
+      {
+        "name": "기면",
+        "negation": false,
+        "severity": "mild"
+      }
+    ],
+    "clinical_status": "약간의 기면 상태",
+    "interventions": [
+      "fluid resuscitation",
+      "인슐린 10 units IV 매 4시간마다 투여"
+    ],
+    "notification": "DKA 관리를 위해 내분비내과에 상담을 요청하였다."
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "나우지아(오심)",
+        "negation": false,
+        "severity": "moderate"
+      },
+      {
+        "name": "소변량 저하",
+        "negation": false,
+        "severity": null
+      },
+      {
+        "name": "기면",
+        "negation": false,
+        "severity": "mild"
+      }
+    ],
+    "clinical_status": "약간의 기면 상태",
+    "interventions": [
+      "fluid resuscitation"
+    ],
+    "notification": "DK의 관리를 위해 내분비 내과에 상담을 요청하였다."
+  }
+}

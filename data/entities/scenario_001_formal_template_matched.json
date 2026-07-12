@@ -1,0 +1,19 @@
+{
+  "sample_id": "scenario_001_formal_template",
+  "closed_vocab_matches": [
+    {
+      "entity_type": "route",
+      "gold_value": "iv",
+      "whisper_value": "iv",
+      "match_status": "matched",
+      "error_type": null
+    },
+    {
+      "entity_type": "dose",
+      "gold_value": "1g",
+      "whisper_value": "165mg",
+      "match_status": "error",
+      "error_type": "numeric_error"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "sample_id": "scenario_001_telegraphic_icu",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "호흡곤란",
+        "negation": false,
+        "severity": null
+      },
+      {
+        "name": "Cough",
+        "negation": false,
+        "severity": "moderate"
+      }
+    ],
+    "clinical_status": "drowsy",
+    "interventions": [
+      "High-flow nasal cannula 사용",
+      "Ventilator 사용"
+    ],
+    "notification": "RT notify"
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "cough",
+        "negation": false,
+        "severity": "moderate"
+      }
+    ],
+    "clinical_status": "drowsy",
+    "interventions": [
+      "HIGH FLOW NASAL CANNULA 사용",
+      "VENTILATOR 사용"
+    ],
+    "notification": "RT NOTIFY"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "sample_id": "scenario_003_clinical_charting",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "chest pain",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "alert",
+    "interventions": [
+      "Nasal cannula 유지",
+      "Cardiac monitoring 적용",
+      "C-line 유지"
+    ],
+    "notification": "Cardiology team notify함"
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "체스파인",
+        "negation": false,
+        "severity": null
+      },
+      {
+        "name": "세벌 호소",
+        "negation": false,
+        "severity": null
+      }
+    ],
+    "clinical_status": "알러트",
+    "interventions": [
+      "네이처 캔넬라 적용",
+      "네이처 캔넬라 유지",
+      "카디액 모니터링 적용",
+      "C-Line 유지"
+    ],
+    "notification": "카디올리티 팀 노티함"
+  }
+}

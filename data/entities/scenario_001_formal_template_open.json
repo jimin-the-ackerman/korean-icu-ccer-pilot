@@ -1,0 +1,43 @@
+{
+  "sample_id": "scenario_001_formal_template",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "호흡곤란",
+        "negation": false,
+        "severity": null
+      },
+      {
+        "name": "기침",
+        "negation": false,
+        "severity": "moderate"
+      }
+    ],
+    "clinical_status": "기면",
+    "interventions": [
+      "고유량 비강 캐뉼라를 통한 산소 공급",
+      "인공호흡기 사용"
+    ],
+    "notification": "낮은 산소포화도 수치에 대해 호흡 치료사에게 보고하였다."
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "호흡 곤란",
+        "negation": false,
+        "severity": null
+      },
+      {
+        "name": "기침",
+        "negation": false,
+        "severity": "moderate"
+      }
+    ],
+    "clinical_status": "기면",
+    "interventions": [
+      "고유량 비강 케뉼라를 통한 산소 공급",
+      "인공호흡기 사용"
+    ],
+    "notification": "낮은 산소포화도 수치에 대해 호흡치료사에게 보고하였다."
+  }
+}

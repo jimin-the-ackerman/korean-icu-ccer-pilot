@@ -1,0 +1,43 @@
+{
+  "sample_id": "scenario_001_clinical_charting",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "respiratory distress",
+        "negation": false,
+        "severity": null
+      },
+      {
+        "name": "cough",
+        "negation": false,
+        "severity": "moderate"
+      }
+    ],
+    "clinical_status": "drowsy",
+    "interventions": [
+      "High-flow nasal cannula 산소 지원",
+      "Ventilator 사용"
+    ],
+    "notification": "RT notify함"
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "Respiratory Distress",
+        "negation": false,
+        "severity": null
+      },
+      {
+        "name": "cough",
+        "negation": false,
+        "severity": "moderate"
+      }
+    ],
+    "clinical_status": "Drowsy",
+    "interventions": [
+      "High flow nasal cannula 산소지원",
+      "Ventilator 사용"
+    ],
+    "notification": "RT Notify함"
+  }
+}
