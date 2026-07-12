@@ -71,18 +71,25 @@ def load_whisper_texts(stt_dir: str) -> dict:
 
 
 def extract_with_retry(client, model, text, label):
+    from src.entity_extraction.open_vocab_extractor import repair_nested_json_string
+
     for attempt in range(1, MAX_RETRIES + 1):
         try:
             result = extract_open_vocab_entities(client, model, text)
         except Exception as e:
-            print(f"  재시도 {attempt}/{MAX_RETRIES} ({label}): API 오류 {e}")
+            print(f"  재시도 {attempt}/{MAX_RETRIES} ({label}): API 오류 [{type(e).__name__}] {e}")
             time.sleep(1)
             continue
 
+        result = repair_nested_json_string(result)
+
         if is_valid_extraction(result):
+            if attempt > 1:
+                print(f"  복구 성공 ({label}), attempt {attempt}")
             return result
 
         print(f"  재시도 {attempt}/{MAX_RETRIES} ({label}): 응답 구조 검증 실패")
+        print(f"  실제 응답: {json.dumps(result, ensure_ascii=False)[:300]}")
         time.sleep(1)
 
     raise RuntimeError(f"MAX_RETRIES 초과 ({label})")

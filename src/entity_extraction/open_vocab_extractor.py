@@ -103,3 +103,22 @@ def extract_open_vocab_entities(client, model, text):
             return block.input
 
     raise RuntimeError("Claude가 tool_use 블록을 반환하지 않음")
+
+def repair_nested_json_string(result: dict) -> dict:
+    """
+    Claude가 드물게 필드 값 자리에 전체 JSON을 문자열로 중첩시키는 경우를 복구.
+    예: result["symptoms"]가 리스트가 아니라 '{"symptoms": [...]}' 형태의 문자열로 온 경우.
+    """
+    import json as json_module
+
+    if isinstance(result.get("symptoms"), str):
+        try:
+            parsed = json_module.loads(result["symptoms"])
+            if isinstance(parsed, dict) and "symptoms" in parsed:
+                result["symptoms"] = parsed["symptoms"]
+            elif isinstance(parsed, list):
+                result["symptoms"] = parsed
+        except (json_module.JSONDecodeError, TypeError):
+            pass
+
+    return result

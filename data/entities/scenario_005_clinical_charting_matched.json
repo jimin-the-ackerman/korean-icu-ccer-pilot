@@ -76,5 +76,45 @@
       "match_status": "omission",
       "error_type": "omission"
     }
-  ]
+  ],
+  "open_vocab_matches": {
+    "symptom_matches": [
+      {
+        "gold_value": "edema",
+        "whisper_value": "edema",
+        "match_basis": "exact",
+        "negation_match": true,
+        "severity_match": true
+      }
+    ],
+    "whisper_only_symptoms": [],
+    "clinical_status_match": {
+      "gold_value": "drowsy",
+      "whisper_value": "drowsy",
+      "match_basis": "exact"
+    },
+    "intervention_matches": [
+      {
+        "gold_value": "Oxygen support, nasal cannula",
+        "whisper_value": "Oxygen support, nasal cannula 유지",
+        "match_basis": "normalized"
+      },
+      {
+        "gold_value": "Foley catheter 유지",
+        "whisper_value": "Foley catheter 유지",
+        "match_basis": "exact"
+      },
+      {
+        "gold_value": "Negative fluid balance 확인",
+        "whisper_value": "Negative fluid balance 확인",
+        "match_basis": "exact"
+      }
+    ],
+    "whisper_only_interventions": [],
+    "notification_match": {
+      "gold_value": "Nephrology 팀 increased creatinine levels 관련 notify함",
+      "whisper_value": "Nephrology team increased creatinine levels 관련 notify함",
+      "match_basis": "normalized"
+    }
+  }
 }

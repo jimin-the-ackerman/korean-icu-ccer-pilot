@@ -76,5 +76,47 @@
       "match_status": "matched",
       "error_type": null
     }
-  ]
+  ],
+  "open_vocab_matches": {
+    "symptom_matches": [
+      {
+        "gold_value": "respiratory distress",
+        "whisper_value": "Respiratory Distress",
+        "match_basis": "exact",
+        "negation_match": true,
+        "severity_match": true
+      },
+      {
+        "gold_value": "cough",
+        "whisper_value": "cough",
+        "match_basis": "exact",
+        "negation_match": true,
+        "severity_match": true
+      }
+    ],
+    "whisper_only_symptoms": [],
+    "clinical_status_match": {
+      "gold_value": "drowsy",
+      "whisper_value": "Drowsy",
+      "match_basis": "exact"
+    },
+    "intervention_matches": [
+      {
+        "gold_value": "High-flow nasal cannula 산소 지원",
+        "whisper_value": "High flow nasal cannula 산소지원",
+        "match_basis": "normalized"
+      },
+      {
+        "gold_value": "Ventilator 사용",
+        "whisper_value": "Ventilator 사용",
+        "match_basis": "exact"
+      }
+    ],
+    "whisper_only_interventions": [],
+    "notification_match": {
+      "gold_value": "RT notify함",
+      "whisper_value": "RT Notify함",
+      "match_basis": "exact"
+    }
+  }
 }

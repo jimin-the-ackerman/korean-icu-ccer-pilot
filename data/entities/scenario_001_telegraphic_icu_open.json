@@ -4,11 +4,10 @@
     "symptoms": [
       {
         "name": "호흡곤란",
-        "negation": false,
-        "severity": null
+        "negation": false
       },
       {
-        "name": "Cough",
+        "name": "cough",
         "negation": false,
         "severity": "moderate"
       }

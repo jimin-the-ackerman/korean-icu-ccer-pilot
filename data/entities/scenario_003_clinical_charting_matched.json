@@ -83,5 +83,49 @@
       "match_status": "omission",
       "error_type": "omission"
     }
-  ]
+  ],
+  "open_vocab_matches": {
+    "symptom_matches": [
+      {
+        "gold_value": "chest pain",
+        "whisper_value": "체스파인",
+        "match_basis": "semantic",
+        "negation_match": true,
+        "severity_match": false
+      }
+    ],
+    "whisper_only_symptoms": [
+      "세벌"
+    ],
+    "clinical_status_match": {
+      "gold_value": "alert",
+      "whisper_value": "알러트",
+      "match_basis": "semantic"
+    },
+    "intervention_matches": [
+      {
+        "gold_value": "Nasal cannula 유지",
+        "whisper_value": "네이처 캔넬라 유지",
+        "match_basis": "semantic"
+      },
+      {
+        "gold_value": "Cardiac monitoring 적용",
+        "whisper_value": "카디액 모니터링 적용",
+        "match_basis": "semantic"
+      },
+      {
+        "gold_value": "C-line 유지",
+        "whisper_value": "C-Line 유지",
+        "match_basis": "exact"
+      }
+    ],
+    "whisper_only_interventions": [
+      "네이처 캔넬라 적용"
+    ],
+    "notification_match": {
+      "gold_value": "Cardiology team notify함",
+      "whisper_value": "카디올리티 팀 노티파임",
+      "match_basis": "semantic"
+    }
+  }
 }

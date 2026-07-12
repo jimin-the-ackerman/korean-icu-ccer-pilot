@@ -76,5 +76,45 @@
       "match_status": "omission",
       "error_type": "omission"
     }
-  ]
+  ],
+  "open_vocab_matches": {
+    "symptom_matches": [
+      {
+        "gold_value": "abdominal pain",
+        "whisper_value": "abdominal pain",
+        "match_basis": "exact",
+        "negation_match": true,
+        "severity_match": true
+      }
+    ],
+    "whisper_only_symptoms": [],
+    "clinical_status_match": {
+      "gold_value": "drowsy",
+      "whisper_value": "Drowsy",
+      "match_basis": "normalized"
+    },
+    "intervention_matches": [
+      {
+        "gold_value": "Fluid resuscitation",
+        "whisper_value": "Fluid resuscitation",
+        "match_basis": "exact"
+      },
+      {
+        "gold_value": "Foley catheter maintenance",
+        "whisper_value": "Foley 유지",
+        "match_basis": "semantic"
+      },
+      {
+        "gold_value": "Urine output monitoring",
+        "whisper_value": "Urine output 확인",
+        "match_basis": "semantic"
+      }
+    ],
+    "whisper_only_interventions": [],
+    "notification_match": {
+      "gold_value": "담당의 notify함",
+      "whisper_value": "담당의 Notify함",
+      "match_basis": "normalized"
+    }
+  }
 }

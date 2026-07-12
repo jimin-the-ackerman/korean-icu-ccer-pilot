@@ -36,5 +36,45 @@
       "match_status": "whisper_only",
       "error_type": null
     }
-  ]
+  ],
+  "open_vocab_matches": {
+    "symptom_matches": [
+      {
+        "gold_value": "복부 통증",
+        "whisper_value": "복부 통증",
+        "match_basis": "exact",
+        "negation_match": true,
+        "severity_match": true
+      }
+    ],
+    "whisper_only_symptoms": [],
+    "clinical_status_match": {
+      "gold_value": "졸림",
+      "whisper_value": "졸림",
+      "match_basis": "exact"
+    },
+    "intervention_matches": [
+      {
+        "gold_value": "수액 보충 요법",
+        "whisper_value": "수액 보충요법",
+        "match_basis": "normalized"
+      },
+      {
+        "gold_value": "Foley 카테터 삽입",
+        "whisper_value": "Foley 카테터 삽입",
+        "match_basis": "exact"
+      },
+      {
+        "gold_value": "소변 배출량 측정",
+        "whisper_value": "소변 배출량 측정",
+        "match_basis": "exact"
+      }
+    ],
+    "whisper_only_interventions": [],
+    "notification_match": {
+      "gold_value": "환자의 혈역학적 상태 악화를 담당 중인 위장병 전문의에게 보고하였다.",
+      "whisper_value": "환자의 혈역학 상태 악화를 담당 중인 위장병 전문의에게 보고하였다.",
+      "match_basis": "normalized"
+    }
+  }
 }

@@ -55,5 +55,44 @@
       "match_status": "matched",
       "error_type": null
     }
-  ]
+  ],
+  "open_vocab_matches": {
+    "symptom_matches": [
+      {
+        "gold_value": "Nausea",
+        "whisper_value": null,
+        "match_basis": "omission",
+        "negation_match": null,
+        "severity_match": null
+      },
+      {
+        "gold_value": "Urine output low",
+        "whisper_value": "Urine Output Low",
+        "match_basis": "exact",
+        "negation_match": true,
+        "severity_match": true
+      }
+    ],
+    "whisper_only_symptoms": [],
+    "clinical_status_match": {
+      "gold_value": "Drowsy",
+      "whisper_value": "Drowsy",
+      "match_basis": "exact"
+    },
+    "intervention_matches": [
+      {
+        "gold_value": "Fluid resuscitation",
+        "whisper_value": "Fluid Resuscitation",
+        "match_basis": "exact"
+      }
+    ],
+    "whisper_only_interventions": [
+      "Endocrinology Consultum"
+    ],
+    "notification_match": {
+      "gold_value": "Endocrinology consult함.",
+      "whisper_value": null,
+      "match_basis": "omission"
+    }
+  }
 }

@@ -15,5 +15,45 @@
       "match_status": "error",
       "error_type": "numeric_error"
     }
-  ]
+  ],
+  "open_vocab_matches": {
+    "symptom_matches": [
+      {
+        "gold_value": "흉통",
+        "whisper_value": "흉통",
+        "match_basis": "exact",
+        "negation_match": true,
+        "severity_match": true
+      }
+    ],
+    "whisper_only_symptoms": [],
+    "clinical_status_match": {
+      "gold_value": "의식 명료",
+      "whisper_value": "의식 명료",
+      "match_basis": "exact"
+    },
+    "intervention_matches": [
+      {
+        "gold_value": "산소 공급 (nasal cannula)",
+        "whisper_value": "산소 공급 (네이절 케놀라)",
+        "match_basis": "normalized"
+      },
+      {
+        "gold_value": "C-line 삽입",
+        "whisper_value": "C라인 삽입",
+        "match_basis": "normalized"
+      },
+      {
+        "gold_value": "심장 모니터링",
+        "whisper_value": "심장 모니터링",
+        "match_basis": "exact"
+      }
+    ],
+    "whisper_only_interventions": [],
+    "notification_match": {
+      "gold_value": "심장학 팀에게 긴급 검토를 위해 보고함",
+      "whisper_value": "심장학팀에게 긴급 검토를 위해 보고함",
+      "match_basis": "exact"
+    }
+  }
 }

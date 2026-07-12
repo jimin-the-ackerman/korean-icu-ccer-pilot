@@ -8,11 +8,11 @@
         "severity": "severe"
       }
     ],
-    "clinical_status": "Drowsy",
+    "clinical_status": "drowsy",
     "interventions": [
-      "Fluid resuscitation 적용",
-      "Foley 유지",
-      "Urine output 200 mL over 4 hours 확인"
+      "Fluid resuscitation",
+      "Foley catheter maintenance",
+      "Urine output monitoring"
     ],
     "notification": "담당의 notify함"
   },

@@ -10,11 +10,11 @@
     ],
     "clinical_status": "drowsy",
     "interventions": [
-      "Oxygen support, nasal cannula 유지",
+      "Oxygen support, nasal cannula",
       "Foley catheter 유지",
       "Negative fluid balance 확인"
     ],
-    "notification": "Nephrology 팀 increased creatinine levels 관련 notify함."
+    "notification": "Nephrology 팀 increased creatinine levels 관련 notify함"
   },
   "whisper_entities": {
     "symptoms": [

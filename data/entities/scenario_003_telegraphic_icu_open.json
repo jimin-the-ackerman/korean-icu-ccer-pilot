@@ -11,7 +11,7 @@
     "clinical_status": "Alert",
     "interventions": [
       "NC 사용 중",
-      "Cardiac monitoring 중",
+      "Cardiac monitoring",
       "C-line 유지 중"
     ],
     "notification": "Cardiology team notify"
@@ -30,6 +30,6 @@
       "Cardiac monitoring 중",
       "C-line 유지 중"
     ],
-    "notification": "Cardiology team notify"
+    "notification": "Cardiology team notify."
   }
 }

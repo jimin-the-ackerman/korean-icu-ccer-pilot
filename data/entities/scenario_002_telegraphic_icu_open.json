@@ -23,14 +23,15 @@
     "symptoms": [
       {
         "name": "Urine Output Low",
-        "negation": false
+        "negation": false,
+        "severity": null
       }
     ],
     "clinical_status": "Drowsy",
     "interventions": [
-      "Ins 10U IV-Q4H",
-      "Fluid Resuscitation"
+      "Fluid Resuscitation",
+      "Endocrinology Consultum"
     ],
-    "notification": "Endocrinology Consultum"
+    "notification": null
   }
 }

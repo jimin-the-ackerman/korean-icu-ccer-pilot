@@ -20,13 +20,11 @@
     "symptoms": [
       {
         "name": "체스파인",
-        "negation": false,
-        "severity": null
+        "negation": false
       },
       {
-        "name": "세벌 호소",
-        "negation": false,
-        "severity": null
+        "name": "세벌",
+        "negation": false
       }
     ],
     "clinical_status": "알러트",
@@ -36,6 +34,6 @@
       "카디액 모니터링 적용",
       "C-Line 유지"
     ],
-    "notification": "카디올리티 팀 노티함"
+    "notification": "카디올리티 팀 노티파임"
   }
 }

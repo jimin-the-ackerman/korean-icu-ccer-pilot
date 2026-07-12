@@ -76,5 +76,47 @@
       "match_status": "matched",
       "error_type": null
     }
-  ]
+  ],
+  "open_vocab_matches": {
+    "symptom_matches": [
+      {
+        "gold_value": "호흡곤란",
+        "whisper_value": null,
+        "match_basis": "omission",
+        "negation_match": null,
+        "severity_match": null
+      },
+      {
+        "gold_value": "cough",
+        "whisper_value": "cough",
+        "match_basis": "exact",
+        "negation_match": true,
+        "severity_match": true
+      }
+    ],
+    "whisper_only_symptoms": [],
+    "clinical_status_match": {
+      "gold_value": "drowsy",
+      "whisper_value": "drowsy",
+      "match_basis": "exact"
+    },
+    "intervention_matches": [
+      {
+        "gold_value": "High-flow nasal cannula 사용",
+        "whisper_value": "HIGH FLOW NASAL CANNULA 사용",
+        "match_basis": "normalized"
+      },
+      {
+        "gold_value": "Ventilator 사용",
+        "whisper_value": "VENTILATOR 사용",
+        "match_basis": "normalized"
+      }
+    ],
+    "whisper_only_interventions": [],
+    "notification_match": {
+      "gold_value": "RT notify",
+      "whisper_value": "RT NOTIFY",
+      "match_basis": "normalized"
+    }
+  }
 }
