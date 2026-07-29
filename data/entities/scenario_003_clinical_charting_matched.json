@@ -82,9 +82,9 @@
       {
         "gold_value": "chest pain",
         "whisper_value": "체스파인",
-        "match_basis": "semantic",
-        "negation_match": true,
-        "severity_match": false
+        "match_basis": "phonetic_artifact",
+        "negation_match": null,
+        "severity_match": null
       }
     ],
     "whisper_only_symptoms": [
@@ -93,7 +93,7 @@
     "clinical_status_match": {
       "gold_value": "alert",
       "whisper_value": "알러트",
-      "match_basis": "semantic"
+      "match_basis": "phonetic_artifact"
     },
     "intervention_matches": [
       {
@@ -110,7 +110,7 @@
     "notification_match": {
       "gold_value": "Cardiology team notified for urgent review.",
       "whisper_value": "카디올리티 팀 노티파임",
-      "match_basis": "semantic"
+      "match_basis": "phonetic_artifact"
     }
   }
 }

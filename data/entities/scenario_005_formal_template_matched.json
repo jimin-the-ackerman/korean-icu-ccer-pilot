@@ -82,7 +82,7 @@
       {
         "gold_value": "edema",
         "whisper_value": "부종",
-        "match_basis": "normalized",
+        "match_basis": "semantic",
         "negation_match": true,
         "severity_match": true
       }
@@ -91,7 +91,7 @@
     "clinical_status_match": {
       "gold_value": "drowsy",
       "whisper_value": "졸린 상태",
-      "match_basis": "normalized"
+      "match_basis": "semantic"
     },
     "intervention_matches": [],
     "whisper_only_interventions": [
@@ -102,7 +102,7 @@
     "notification_match": {
       "gold_value": "Nephrology team notified of increased creatinine levels.",
       "whisper_value": "크레아티닌 수치 증가에 대해 신장내과팀에게 보고하였다.",
-      "match_basis": "normalized"
+      "match_basis": "semantic"
     }
   }
 }

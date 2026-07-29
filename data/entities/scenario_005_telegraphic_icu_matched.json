@@ -82,9 +82,9 @@
       {
         "gold_value": "edema",
         "whisper_value": "EDMA",
-        "match_basis": "normalized",
-        "negation_match": true,
-        "severity_match": true
+        "match_basis": "phonetic_artifact",
+        "negation_match": null,
+        "severity_match": null
       }
     ],
     "whisper_only_symptoms": [],

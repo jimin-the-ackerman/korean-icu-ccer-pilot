@@ -113,7 +113,7 @@
     "notification_match": {
       "gold_value": "Notified the on-call gastroenterologist of the patient's deteriorating hemodynamic status.",
       "whisper_value": "Docker Notify",
-      "match_basis": "omission"
+      "match_basis": "phonetic_artifact"
     }
   }
 }

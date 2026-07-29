@@ -98,13 +98,13 @@
     "clinical_status_match": {
       "gold_value": "alert",
       "whisper_value": "Alert",
-      "match_basis": "normalized"
+      "match_basis": "exact"
     },
     "intervention_matches": [
       {
         "gold_value": "cardiac monitoring",
         "whisper_value": "Cardiac monitoring 중",
-        "match_basis": "normalized"
+        "match_basis": "exact"
       }
     ],
     "whisper_only_interventions": [

@@ -82,7 +82,7 @@
       {
         "gold_value": "cough",
         "whisper_value": "기침",
-        "match_basis": "normalized",
+        "match_basis": "exact",
         "negation_match": true,
         "severity_match": true
       }
@@ -103,7 +103,7 @@
     "notification_match": {
       "gold_value": "Respiratory therapist notified of low SpO2 levels.",
       "whisper_value": "낮은 산소포화도 수치에 대해 호흡치료사에게 보고하였다.",
-      "match_basis": "normalized"
+      "match_basis": "exact"
     }
   }
 }
