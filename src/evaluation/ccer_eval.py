@@ -14,9 +14,24 @@ Medication Error Reporting and Prevention)의 환자 안전 중심 철학(오류
 
 CCER Score = sum(weight_i * count_i) / total_gold_entities
 
-[Known Limitation]
-whisper_only(Whisper의 환각성 삽입)는 현재 가중치 체계에서 penalize하지
-않는다 (weight=0, 집계에서 제외). Future Work로 남긴다.
+[v2 변경 - limitations.md #6 대응]
+whisper_only(Gold에 없는 항목이 Whisper 전사/추출 과정에서 삽입되는 환각)는
+과거 버전에서 weight=0으로 집계에서 완전히 제외되었다. v2부터는
+src/evaluation/flatten_matches.py에서 이 항목들에 error_type="hallucination"을
+부여하고, 아래 ERROR_WEIGHTS에서 weight=3(매우 높음 등급)을 적용한다.
+
+가중치를 numeric_error/negation_flip/severity_shift와 동일한 최상위 등급으로
+둔 이유: whisper_only 삽입은 Gold에 실재하지 않는 임상 정보(증상, 처치, 수치
+등)를 전사/추출 파이프라인이 새로 만들어내는 경우이며, 이는 임상 기록을 읽는
+사람에게 실제로 발생하지 않은 사건에 대한 개입을 유발할 수 있다는 점에서
+기존 정보를 왜곡(negation_flip, severity_shift)하거나 오기재(numeric_error)하는
+것과 유사한 수준의 환자 안전 위험을 가진다고 판단하였다. 이는 검증된 임상
+심각도 척도가 아닌 연구 목적의 근사적 가중치이며, 향후 임상 전문가 검토
+(limitations.md #8)를 통해 조정될 수 있다.
+
+분모(total_gold_entities)는 변경하지 않았다. whisper_only 레코드는
+gold_value=None이므로 원래부터 분모에 포함되지 않으며, 이는 "실제 존재하는
+임상 정보 대비 얼마나 왜곡되었는가"를 측정한다는 CCER의 원래 정의와 일관된다.
 """
 
 import json
@@ -32,6 +47,7 @@ ERROR_WEIGHTS = {
     "numeric_error": 3,
     "negation_flip": 3,
     "severity_shift": 3,
+    "hallucination": 3,
     "omission": 2,
     "substitution": 2,
     "route_error": 2,

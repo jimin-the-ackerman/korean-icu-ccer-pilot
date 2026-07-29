@@ -40,6 +40,9 @@ Open-vocabulary Entity Extraction 과정에서, Claude가 음성 인식 오류�
 
 ## 5. Semantic Matching의 음성적 유사성 오판
 
+> **상태: v2에서 완화됨** (`docs/design_decisions.md` §4 참고). 아래
+> 원문은 파일럿에서 최초 관찰된 형태로 그대로 보존한다.
+
 Open-vocabulary Entity Matching의 Semantic Match 단계는 Claude가
 Gold Entity와 Whisper Entity 간 임상적 의미 동일성을 판단하도록
 설계되었다. 그러나 검증 과정에서, Whisper가 STT 오류로 발음만 유사하게
@@ -49,12 +52,29 @@ Gold Entity와 Whisper Entity 간 임상적 의미 동일성을 판단하도록
 "보존됨"으로 과대평가될 위험이 있다. 본 파일럿에서는 이 문제를 별도의
 Error Type 신설이나 평가 로직 변경 없이 방법론적 한계로 기술한다.
 
+v2에서는 `semantic`과 구분되는 별도의 `phonetic_artifact` 매칭 카테고리를
+도입하고, 명시적인 판정 규칙과 반례를 프롬프트에 추가했으며, 평가 시에는
+`omission`과 동일하게 처리한다. 이는 프롬프트 레벨의 완화 조치이며
+구조적 해결은 아니다(Claude의 판단과 독립적인 음성적 유사도 탐지기를
+추가한 것은 아님). 따라서 경계 사례(부분적으로만 인식 가능한 외래어 등)
+에서는 여전히 오판이 발생할 수 있다. 이번 계획의 2주차에서 기존 15샘플을
+v2로 재실행하여, 이 재분류가 실제로 몇 건에 영향을 미치는지 정량화할
+예정이다.
+
 ## 6. CCER의 whisper_only(환각성 삽입) 미반영
+
+> **상태: v2에서 해결됨** (`docs/design_decisions.md` §5 참고). 아래
+> 원문은 파일럿에서 최초 관찰된 형태로 그대로 보존한다.
 
 Whisper Transcript에만 존재하고 Gold Entity에 대응하는 항목이 없는
 경우(`whisper_only`)는 현재 CCER 계산에서 가중치 0으로 처리되어
 집계에서 제외된다. 즉 Whisper가 실제로 존재하지 않는 정보를 삽입하는
 경우(환각)에 대한 페널티가 현재 공식에 반영되어 있지 않다.
+
+v2에서는 이 항목들에 `error_type="hallucination"`을 부여하고, CCER
+공식에서 numeric_error/negation_flip/severity_shift와 동일한 등급인
+weight=3을 적용한다. 가중치 선정 근거는 `src/evaluation/ccer_eval.py`
+참고.
 
 ## 7. Substitution 판정 로직의 단순성
 
@@ -83,9 +103,11 @@ Scaffold와 Documentation Register 표현이 실제 한국 ICU 임상 환경의
 
 ## Future Work
 
-- 표준 의료 용어 온톨로지(SNOMED CT, UMLS) 또는 한국어 의료 개체명
-  인식(NER) 모델을 활용한 Entity Normalization 도입 (한계 5 대응)
-- CCER 공식에 whisper_only(환각성 삽입) 페널티 반영 (한계 6 대응)
+- [v2에서 완료, 프롬프트 레벨] 표준 의료 용어 온톨로지(SNOMED CT, UMLS)
+  또는 한국어 의료 개체명 인식(NER) 모델을 활용한 Entity Normalization은
+  `phonetic_artifact` 프롬프트 수정보다 더 구조적인 대안으로 여전히 열려
+  있음 (한계 5 대응)
+- [v2에서 완료] CCER 공식에 whisper_only(환각성 삽입) 페널티 반영 (한계 6 대응)
 - 50개 이상 규모 확장 시 Entity Matching 정렬 알고리즘 고도화 (한계 7 대응)
 - 임상 전문가(간호사) 대상 Content Scaffold 및 CCER 가중치 검증 (한계 8 대응)
 - 실제 병원 데이터 확보 시 합성 데이터 기반 결과와의 비교 검증 (한계 9 대응)

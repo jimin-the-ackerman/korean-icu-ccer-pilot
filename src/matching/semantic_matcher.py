@@ -39,15 +39,15 @@ MATCH_TOOL = {
                         "whisper_value": {"type": ["string", "null"]},
                         "match_basis": {
                             "type": "string",
-                            "enum": ["exact", "normalized", "semantic", "omission"]
+                            "enum": ["exact", "normalized", "semantic", "phonetic_artifact", "omission"]
                         },
                         "negation_match": {
                             "type": ["boolean", "null"],
-                            "description": "True if negation status agrees. Null if match_basis is omission."
+                            "description": "True if negation status agrees. Null if match_basis is omission or phonetic_artifact."
                         },
                         "severity_match": {
                             "type": ["boolean", "null"],
-                            "description": "True if severity agrees or both are null. Null if match_basis is omission."
+                            "description": "True if severity agrees or both are null. Null if match_basis is omission or phonetic_artifact."
                         }
                     }
                 }
@@ -65,7 +65,7 @@ MATCH_TOOL = {
                     "whisper_value": {"type": ["string", "null"]},
                     "match_basis": {
                         "type": "string",
-                        "enum": ["exact", "normalized", "semantic", "omission", "whisper_only", "both_null"]
+                        "enum": ["exact", "normalized", "semantic", "phonetic_artifact", "omission", "whisper_only", "both_null"]
                     }
                 }
             },
@@ -80,7 +80,7 @@ MATCH_TOOL = {
                         "whisper_value": {"type": ["string", "null"]},
                         "match_basis": {
                             "type": "string",
-                            "enum": ["exact", "normalized", "semantic", "omission"]
+                            "enum": ["exact", "normalized", "semantic", "phonetic_artifact", "omission"]
                         }
                     }
                 }
@@ -97,7 +97,7 @@ MATCH_TOOL = {
                     "whisper_value": {"type": ["string", "null"]},
                     "match_basis": {
                         "type": "string",
-                        "enum": ["exact", "normalized", "semantic", "omission", "whisper_only", "both_null"]
+                        "enum": ["exact", "normalized", "semantic", "phonetic_artifact", "omission", "whisper_only", "both_null"]
                     }
                 }
             }
@@ -117,8 +117,28 @@ Rules:
   match just because it's the only remaining unmatched item.
 - Do NOT match two entities just because they co-occur in the same clinical scenario. Match based on
   actual shared clinical meaning only.
+- CRITICAL — distinguish real semantic paraphrase from phonetic transliteration noise. Whisper
+  sometimes mishears an English/loanword clinical term and outputs a Korean string that sounds
+  similar when read aloud but is NOT itself a real word or clinical term (e.g. Gold "chest pain"
+  transcribed by Whisper as "체스파인" — this is not a Korean word and conveys no clinical meaning
+  on its own; it is a phonetic echo of the English syllables, not a translation of the concept).
+  Ask yourself: "if a Korean-speaking nurse read only the Whisper string, with no access to the Gold
+  text, would they understand which clinical concept it refers to?" If yes (it is a real clinical
+  term or common paraphrase) -> "semantic". If no (it is meaningless or nonsensical on its own, even
+  though it happens to sound like the Gold term) -> "phonetic_artifact". Do NOT use "semantic" just
+  because the Whisper string is phonetically close to the Gold term.
+  - Example (semantic, correct): Gold "dyspnea" vs Whisper "호흡곤란" -> "semantic". Both are real,
+    independently meaningful clinical expressions for shortness of breath.
+  - Example (phonetic_artifact, NOT semantic): Gold "chest pain" vs Whisper "체스파인" ->
+    "phonetic_artifact". "체스파인" is not a Korean clinical term or any recognizable word; a reader
+    given only "체스파인" could not identify chest pain from it.
+  - Example (phonetic_artifact, NOT semantic): Gold "sepsis" vs Whisper "셉시스" is borderline —
+    if "셉시스" is used as an actual (if nonstandard) transliteration that a clinician would
+    recognize as referring to sepsis, treat it as "semantic"; if the string is garbled beyond
+    recognition (e.g. "셋 있어" from mishearing), use "phonetic_artifact".
 - negation_match / severity_match reflect whether those attributes agree between the matched pair.
-  Set them to null only when match_basis is "omission".
+  Set them to null when match_basis is "omission" or "phonetic_artifact" (the clinical concept was
+  not intelligibly preserved, so negation/severity cannot be judged).
 - If gold_value is null (no notification/clinical_status in Gold) and whisper_value is also null,
   use match_basis "both_null". If Whisper has a value but Gold does not, use "whisper_only".
 - Report Whisper symptoms/interventions with no Gold counterpart in the whisper_only_* lists.

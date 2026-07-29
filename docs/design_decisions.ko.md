@@ -40,3 +40,27 @@
 | **Design Decision** | Gold Standard를 Gold Transcript 대신 **Content Scaffold**(생성 시점의 구조화된 JSON)로 전환. Content Scaffold를 기존 Entity 추출 결과와 동일한 포맷으로 변환하는 어댑터(`src/entity_extraction/scaffold_as_gold.py`)를 추가하고, Closed/Open-vocabulary Matching 스크립트가 이를 사용하도록 변경 |
 | **Reason** | Content Scaffold는 Documentation Register와 무관하게 Style 생성 이전 단계에서 고정되므로, Style 간 비교의 기준이 되는 Gold Entity 집합을 동일하게 유지할 수 있음 |
 | **Impact on the evaluation pipeline** | 재설계 후 동일 시나리오 내 Gold Entity 개수가 Style에 관계없이 완전히 일치함을 확인(예: Scenario 001의 경우 세 Style 모두 13개). Recall 분모가 실제 임상 정보량을 정확히 반영하게 되면서 전체 Entity-level F1은 하락하였음(예: Clinical Charting Style 0.657 → 0.546). 이는 평가의 엄밀성이 향상된 결과로 해석하며, 재설계 이전 수치는 방법론적 결함으로 인해 과대평가되어 있었던 것으로 판단함. 이 변경은 WER 계산에는 영향을 주지 않음(WER은 Gold Transcript와 Whisper Transcript 간 비교를 그대로 유지) |
+
+---
+
+## 4. Semantic Matcher: 음차 전사 오류(Phonetic Artifact) 처리
+
+| 항목 | 내용 |
+|---|---|
+| **Original Design** | Open-vocabulary Semantic Matcher(`src/matching/semantic_matcher.py`)는 모든 Gold/Whisper 쌍을 `exact / normalized / semantic / omission`(단일값 필드는 `whisper_only`/`both_null` 포함)으로만 분류 |
+| **Issue observed during implementation** | 한계 5로 기록됨. Claude가 남은 Gold Entity에 대해 "가장 가까운" 매칭을 찾도록 요청받았을 때, Gold 용어의 영어/외래어 발음을 음차로만 재현한 Whisper 문자열(예: Gold "chest pain" vs Whisper "체스파인")을 `semantic` 매칭으로 잘못 분류하는 사례가 관찰됨. 이런 문자열은 Gold 텍스트 없이는 독자가 이해할 수 없는, 임상적으로 무의미한 표기임 |
+| **Design Decision** | `symptom_matches`, `intervention_matches`, `clinical_status_match`, `notification_match`의 tool schema에 `semantic`과 구분되는 네 번째 match_basis 값 `phonetic_artifact`를 추가. `SYSTEM_PROMPT`에 "Gold를 보지 않고 Whisper 문자열만으로 한국어 화자가 임상 개념을 이해할 수 있는가?"를 기준으로 한 명시적 판정 규칙과 실제 파일럿에서 관찰된 "체스파인" 사례를 포함한 예시를 추가. 평가 단계(`src/evaluation/flatten_matches.py`)에서는 `phonetic_artifact`를 `omission`과 동일하게 처리(`OMISSION_EQUIVALENT_BASES`) — 어느 쪽이든 임상 정보가 실질적으로 보존되지 않았기 때문 |
+| **Reason** | Claude가 이런 사례를 곧바로 `omission`으로 출력하게 하는 대신 `phonetic_artifact`라는 별도 카테고리로 남긴 이유는 감사(audit) 추적성 때문임: 원본 `*_matched.json`에 "왜" 해당 항목이 정보 손실로 처리되었는지가 남아, KOSMI 논문에서 "파일럿 symptom 매칭 M건 중 N건이 semantic에서 phonetic_artifact로 재분류됨" 같은 보고를 할 수 있음 |
+| **Impact on the evaluation pipeline** | 이는 프롬프트 레벨의 완화 조치일 뿐, Claude의 판단과 독립적인 음성 유사도 탐지기를 추가한 것은 아니므로 경계 사례(부분적으로만 인식 가능한 외래어 등)에서는 여전히 Claude의 최종 판단에 의존하며 잔여 오판 가능성을 완전히 배제할 수 없음. 2주차에 기존 15샘플을 재실행하여 몇 건의 symptom/intervention/status/notification 매칭이 재분류되는지, 그리고 Style별 CCER 순위에 영향이 있는지 정량화할 예정 |
+
+---
+
+## 5. CCER 공식: Whisper-only(환각성 삽입) 페널티 반영
+
+| 항목 | 내용 |
+|---|---|
+| **Original Design** | `src/evaluation/ccer_eval.py`는 `CCER = sum(weight_i * count_i) / gold_entity_count`를 Gold 대응이 있는 레코드에 대해서만 계산했으며, `whisper_only` 레코드(Gold 대응 없이 Whisper 전사에만 존재하는 Entity)는 `error_type=None`으로 남아 분자 집계에서 조용히 제외됨 |
+| **Issue observed during implementation** | 한계 6으로 기록됨. Whisper/추출 파이프라인이 Gold에 없는 임상 정보(가짜 증상, 장치, 용량 등)를 환각으로 추가 삽입해도 전혀 페널티를 받지 않았음. 이런 삽입은 기록을 읽는 사람을 실제로 오도할 수 있음에도 그러함 |
+| **Design Decision** | `src/evaluation/flatten_matches.py`가 `match_status="whisper_only"`인 모든 레코드(Closed/Open-vocabulary 양쪽 경로 전부)에 `error_type="hallucination"`을 부여하도록 변경. `src/evaluation/ccer_eval.py`의 `ERROR_WEIGHTS`에 `"hallucination": 3`을 추가(`numeric_error`/`negation_flip`/`severity_shift`와 동일 등급). 분모(`gold_entity_count`)는 변경하지 않음 — `whisper_only` 레코드는 애초에 `gold_value=None`이라 분모에 포함된 적이 없었음 |
+| **Reason** | 환각성 삽입은 기존 값을 왜곡하는 것(numeric/negation/severity 오류)과 유사한 수준의 환자 안전 위험을 갖는다고 판단함 — 하나는 사실을 바꾸고, 다른 하나는 없는 사실을 만들어낸다는 차이가 있을 뿐, 둘 다 독자가 환자의 실제 상태와 다른 정보에 기반해 행동하게 만들 수 있음. 이는 검증된 임상 심각도 척도가 아닌 연구자의 근사적 판단이며(기존 `ERROR_WEIGHTS` 설계와 동일한 한계), 임상 전문가 검토(한계 8) 이후 조정될 수 있는 후보임 |
+| **Impact on the evaluation pipeline** | Whisper-only 삽입이 있는 샘플의 CCER 점수는 v1 대비 반드시 같거나 높아짐(분자만 증가할 수 있고 분모는 그대로이므로). 파일럿에서 보고된 WER-CCER 역전 현상(Telegraphic ICU가 CCER 기준 최우수, WER 기준 최저)이 이 변경 이후에도 유지되는지는 환각성 삽입이 Style별로 어떻게 분포하는지에 달려 있으며, 이는 정확히 2주차에 15샘플을 재실행하며 50샘플 확장 이전에 확인하고자 하는 지점임 |

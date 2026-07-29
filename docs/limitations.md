@@ -47,6 +47,10 @@ not occur in samples where it was not observed.
 
 ## 5. Semantic Matching Misjudging Phonetic Similarity as Semantic Equivalence
 
+> **Status: Mitigated in v2** (see `docs/design_decisions.md` §4). Retained
+> below in its original form as a record of the issue as first observed
+> in the pilot.
+
 The semantic match stage of open-vocabulary entity matching is designed
 so that Claude judges clinical-meaning equivalence between Gold and
 Whisper entities. However, during verification, cases were observed where
@@ -58,13 +62,32 @@ information preservation in cases of substantial information loss. This
 pilot documents this issue as a methodological limitation, without
 introducing a new error type or modifying the evaluation logic.
 
+v2 introduces a dedicated `phonetic_artifact` match category (distinct
+from `semantic`) with explicit prompt instructions and counter-examples,
+and treats it as equivalent to `omission` during evaluation. This is a
+prompt-level mitigation, not a structural fix (no phonetic-similarity
+detector was added independent of Claude's own judgment), so residual
+misclassification at the boundary (e.g., partially-recognizable
+loanwords) may still occur. Re-running the original 15-sample pilot
+under v2 (Week 2 of the current plan) is intended to quantify how many
+cases this reclassifies.
+
 ## 6. CCER Does Not Penalize Whisper-only (Hallucinated) Insertions
+
+> **Status: Resolved in v2** (see `docs/design_decisions.md` §5). Retained
+> below in its original form as a record of the issue as first observed
+> in the pilot.
 
 Entities that exist only in the Whisper Transcript with no corresponding
 Gold entity (`whisper_only`) are currently assigned a weight of 0 in the
 CCER calculation and excluded from aggregation. That is, the current
 formula does not penalize cases where Whisper inserts information that
 does not actually exist (hallucination).
+
+v2 assigns these entities `error_type="hallucination"` with weight 3 (the
+same tier as `numeric_error` / `negation_flip` / `severity_shift`) in the
+CCER formula. See `src/evaluation/ccer_eval.py` for the full rationale
+behind the weight choice.
 
 ## 7. Simplicity of the Substitution Heuristic
 
@@ -96,11 +119,13 @@ on synthetic data generalize directly to real clinical environments.
 
 ## Future Work
 
-- Introduce entity normalization based on standard medical terminology
-  ontologies (SNOMED CT, UMLS) or Korean medical named-entity recognition
-  (NER) models (addresses Limitation 5)
-- Incorporate a penalty for Whisper-only (hallucinated) insertions into
-  the CCER formula (addresses Limitation 6)
+- [Done in v2, prompt-level only] Introduce entity normalization based on
+  standard medical terminology ontologies (SNOMED CT, UMLS) or Korean
+  medical named-entity recognition (NER) models remains open as a more
+  structural alternative to the `phonetic_artifact` prompt fix (addresses
+  Limitation 5)
+- [Done in v2] Incorporate a penalty for Whisper-only (hallucinated)
+  insertions into the CCER formula (addresses Limitation 6)
 - Improve the entity matching alignment algorithm for scale-ups beyond
   50 scenarios (addresses Limitation 7)
 - Validate Content Scaffolds and CCER weights with clinical experts

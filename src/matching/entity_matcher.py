@@ -4,11 +4,11 @@ Entity Matching - Closed-vocabulary
 Route/Frequency/Device/Dose/Vital Sign은 이미 정규화된 값이 있으므로
 규칙 기반(문자열/값 비교)으로 매칭한다. Claude 호출이 필요 없다.
 
-[Known Limitation]
-현재 구현은 Gold에 있는 Entity가 Whisper에서 얼마나 보존되었는지(Recall 관점)를
-중심으로 매칭한다. Whisper에만 존재하는 Entity(할루시네이션으로 인한 삽입)는
-'whisper_only'로 기록은 하되, 현재 CCER 공식에서는 별도로 penalize하지 않는다.
-이는 알려진 방법론적 한계이며 Future Work로 남긴다.
+[Note]
+이 모듈은 매칭 로직(무엇이 matched/omission/whisper_only인지 판정)에만
+집중한다. 'whisper_only'로 판정된 항목은 여기서는 error_type=None으로
+남겨두며, CCER 관점의 페널티 부여(error_type="hallucination")는
+src/evaluation/flatten_matches.py에서 일괄 처리한다 (v2, limitations.md #6 대응).
 
 Multiset 매칭 후, 특정 entity_type에서 omission 1건과 whisper_only 1건이
 동시에 남으면 이를 substitution(치환)으로 재해석한다 (예: route가 IV에서
@@ -72,7 +72,7 @@ def match_value_list(gold_items: list, whisper_items: list, entity_type: str) ->
                 "gold_value": None,
                 "whisper_value": val,
                 "match_status": "whisper_only",
-                "error_type": None  # 현재 CCER 공식에서 penalize하지 않음 (Known Limitation)
+                "error_type": None  # flatten_matches.py에서 "hallucination"으로 채워짐
             })
 
     return results
