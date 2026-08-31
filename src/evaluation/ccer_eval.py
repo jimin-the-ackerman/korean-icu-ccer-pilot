@@ -14,6 +14,19 @@ Medication Error Reporting and Prevention)의 환자 안전 중심 철학(오류
 
 CCER Score = sum(weight_i * count_i) / total_gold_entities
 
+[v3 변경 - docs/taxonomy_audit.md §5.3, §7.3 대응]
+"medication_identity_error"(weight=3, 최상위 등급)를 추가하였다. 이는
+docs/taxonomy_audit.md §5.3에서 확정한 대로, Gold와 Whisper 양쪽에 약물명이
+모두 존재하지만 서로 다른 실제 약물을 가리키는 경우(value_substitution,
+src/evaluation/flatten_matches.py 참고)에 부여된다. 다른 약물로 오인식되는
+것은 실제 투약 오류로 이어질 수 있는 최고 위험군이라는 판단이며, 이는
+NCC MERP의 철학(도달 여부 + 심각도)뿐 아니라 ISMP(Institute for Safe
+Medication Practices)가 공식적으로 관리하는 LASA(Look-Alike, Sound-Alike)
+약물 오인 사례 목록의 존재 자체가 이 오류 유형의 실제 임상적 위험성을
+뒷받침한다 (예: Hydralazine/Hydroxyzine — 철자·발음이 유사하나 완전히
+다른 약물). numeric_error/negation_flip/severity_shift/hallucination과
+동일한 최상위 가중치를 부여하였다.
+
 [v2 변경 - limitations.md #6 대응]
 whisper_only(Gold에 없는 항목이 Whisper 전사/추출 과정에서 삽입되는 환각)는
 과거 버전에서 weight=0으로 집계에서 완전히 제외되었다. v2부터는
@@ -48,6 +61,7 @@ ERROR_WEIGHTS = {
     "negation_flip": 3,
     "severity_shift": 3,
     "hallucination": 3,
+    "medication_identity_error": 3,
     "omission": 2,
     "substitution": 2,
     "route_error": 2,
