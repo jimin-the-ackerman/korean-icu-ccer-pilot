@@ -8,6 +8,21 @@ Symptom, Clinical Status, Intervention, Notification은 표현이 자유로워
 [Design Principle - differs from extraction step]
 Entity Extraction 단계에서는 Gold/Whisper를 서로 모르게 독립적으로
 추출했지만, 이 단계는 애초에 "비교"가 목적이므로 두 목록을 함께 제공한다.
+
+[v3 변경 - docs/taxonomy_audit.md §5, §8 대응]
+medication_identity_match, intake_output_match을 clinical_status_match와
+동형 구조로 신설했다. 동시에 "value_substitution"이라는 match_basis를 4개
+단일값 필드(clinical_status/medication_identity/intake_output/notification)
+공통으로 신설하여, 기존 flatten_matches.py의 Known Limitation("값이 둘 다
+있는데 서로 다른 경우를 표현할 방법이 없다")을 해소했다.
+
+medication_identity는 다른 필드보다 훨씬 엄격한 semantic 판정 기준을 요구한다
+— LASA(Look-Alike, Sound-Alike) 약물 오인은 ISMP가 별도로 관리할 만큼
+잘 알려진 고위험 오류 유형이므로, 철자·발음이 비슷하다는 이유만으로
+semantic 처리하면 실제 약물 오인 오류를 은폐하게 된다. 프롬프트에 긍정
+사례(Ceftriaxone/Cephtriaxone, 실제 v3 spot-check에서 발견된 STT 철자
+오류)와 부정 사례(Hydralazine/Hydroxyzine, ISMP 공식 LASA 목록에 등재된
+쌍)를 모두 명시했다.
 """
 
 import os
@@ -24,7 +39,9 @@ MATCH_TOOL = {
         "required": [
             "symptom_matches", "whisper_only_symptoms",
             "clinical_status_match",
+            "medication_identity_match",
             "intervention_matches", "whisper_only_interventions",
+            "intake_output_match",
             "notification_match"
         ],
         "properties": {
@@ -65,7 +82,21 @@ MATCH_TOOL = {
                     "whisper_value": {"type": ["string", "null"]},
                     "match_basis": {
                         "type": "string",
-                        "enum": ["exact", "normalized", "semantic", "phonetic_artifact", "omission", "whisper_only", "both_null"]
+                        "enum": ["exact", "normalized", "semantic", "phonetic_artifact", "value_substitution", "omission", "whisper_only", "both_null"]
+                    }
+                }
+            },
+            "medication_identity_match": {
+                "type": "object",
+                "description": "Match for the identity of the medication mentioned (which drug it is) — "
+                               "NOT its dose/route/frequency, those are matched separately elsewhere.",
+                "required": ["gold_value", "whisper_value", "match_basis"],
+                "properties": {
+                    "gold_value": {"type": ["string", "null"]},
+                    "whisper_value": {"type": ["string", "null"]},
+                    "match_basis": {
+                        "type": "string",
+                        "enum": ["exact", "normalized", "semantic", "phonetic_artifact", "value_substitution", "omission", "whisper_only", "both_null"]
                     }
                 }
             },
@@ -89,6 +120,20 @@ MATCH_TOOL = {
                 "type": "array",
                 "items": {"type": "string"}
             },
+            "intake_output_match": {
+                "type": "object",
+                "description": "Match for intake/output or fluid-balance observations (e.g. urine output, "
+                               "fluid balance).",
+                "required": ["gold_value", "whisper_value", "match_basis"],
+                "properties": {
+                    "gold_value": {"type": ["string", "null"]},
+                    "whisper_value": {"type": ["string", "null"]},
+                    "match_basis": {
+                        "type": "string",
+                        "enum": ["exact", "normalized", "semantic", "phonetic_artifact", "value_substitution", "omission", "whisper_only", "both_null"]
+                    }
+                }
+            },
             "notification_match": {
                 "type": "object",
                 "required": ["gold_value", "whisper_value", "match_basis"],
@@ -97,7 +142,7 @@ MATCH_TOOL = {
                     "whisper_value": {"type": ["string", "null"]},
                     "match_basis": {
                         "type": "string",
-                        "enum": ["exact", "normalized", "semantic", "phonetic_artifact", "omission", "whisper_only", "both_null"]
+                        "enum": ["exact", "normalized", "semantic", "phonetic_artifact", "value_substitution", "omission", "whisper_only", "both_null"]
                     }
                 }
             }
@@ -139,9 +184,45 @@ Rules:
 - negation_match / severity_match reflect whether those attributes agree between the matched pair.
   Set them to null when match_basis is "omission" or "phonetic_artifact" (the clinical concept was
   not intelligibly preserved, so negation/severity cannot be judged).
-- If gold_value is null (no notification/clinical_status in Gold) and whisper_value is also null,
-  use match_basis "both_null". If Whisper has a value but Gold does not, use "whisper_only".
+- If gold_value is null (no notification/clinical_status/medication_identity/intake_output in Gold)
+  and whisper_value is also null, use match_basis "both_null". If Whisper has a value but Gold does
+  not, use "whisper_only".
 - Report Whisper symptoms/interventions with no Gold counterpart in the whisper_only_* lists.
+
+Rule for "value_substitution" (applies to clinical_status_match, medication_identity_match,
+intake_output_match, notification_match — the single-value fields):
+- Use "value_substitution" when BOTH gold_value and whisper_value are non-null, and the two values
+  are genuinely DIFFERENT real-world facts — not a wording variant of the same fact (that would be
+  "semantic"/"exact"/"normalized") and not meaningless noise (that would be "phonetic_artifact").
+  Example: Gold clinical_status "alert" vs Whisper "drowsy" — these are two different real clinical
+  states, not a paraphrase of each other -> "value_substitution".
+
+CRITICAL — medication_identity requires stricter judgment than other fields (patient safety):
+For "medication_identity_match" specifically, apply a MUCH stricter bar for "semantic" than you
+would for symptoms or other free text. This is because look-alike/sound-alike (LASA) medication
+name confusion is a well-documented, high-severity category of real-world medication error (see
+e.g. the ISMP List of Confused Drug Names) — two DIFFERENT real drugs can have very similar
+spelling or pronunciation, and treating that similarity as a "semantic match" would silently hide
+a genuine drug-substitution error.
+- Mark "semantic" ONLY when you are confident the Whisper string clearly refers to the SAME
+  medication identity as Gold — e.g. it is an STT spelling/transcription artifact of the same drug
+  name (letters swapped, a sound-alike misspelling), a brand vs. generic name for the same drug, or
+  an abbreviation of the same drug. The bar is: "this is unmistakably the same drug, just written
+  differently."
+- Mark "value_substitution" whenever the Whisper string could plausibly name a DIFFERENT real drug
+  from Gold — even if the spelling or pronunciation is close. Similarity of spelling/sound is NOT
+  sufficient evidence of a match for medication identity; when in doubt between "semantic" and
+  "value_substitution" for a medication, prefer "value_substitution" (a missed true match is a much
+  smaller risk than silently hiding a real drug-substitution error).
+  - Example (semantic, correct): Gold "Ceftriaxone" vs Whisper "Cephtriaxone" -> "semantic". This is
+    an STT spelling artifact (the "f" and "ph" sounds are identical in English pronunciation) of the
+    unmistakably same antibiotic name — there is no other real drug this could plausibly refer to.
+  - Example (value_substitution, NOT semantic, even though the names look/sound alike): Gold
+    "Hydralazine" (an antihypertensive) vs Whisper "Hydroxyzine" (an antihistamine/anxiolytic) ->
+    "value_substitution", NOT "semantic". These are two well-documented LASA (look-alike,
+    sound-alike) drugs on the ISMP confused-drug-names list that are frequently mixed up in real
+    clinical practice — despite the similar spelling, they are different real medications with
+    different clinical uses, so conflating them would hide a genuine and dangerous identity error.
 
 Use the record_semantic_matches tool to report your findings."""
 
@@ -182,7 +263,9 @@ def is_valid_match_result(result: dict) -> bool:
     required_keys = [
         "symptom_matches", "whisper_only_symptoms",
         "clinical_status_match",
+        "medication_identity_match",
         "intervention_matches", "whisper_only_interventions",
+        "intake_output_match",
         "notification_match"
     ]
     if not all(k in result for k in required_keys):
@@ -201,6 +284,10 @@ def is_valid_match_result(result: dict) -> bool:
             return False
 
     if not isinstance(result["clinical_status_match"], dict):
+        return False
+    if not isinstance(result["medication_identity_match"], dict):
+        return False
+    if not isinstance(result["intake_output_match"], dict):
         return False
     if not isinstance(result["notification_match"], dict):
         return False
