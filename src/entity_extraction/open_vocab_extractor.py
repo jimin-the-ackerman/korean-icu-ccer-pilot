@@ -7,6 +7,15 @@ Claude는 Gold Transcript와 Whisper Transcript 각각에서 독립적으로,
 어느 쪽이 정답인지 판단하지 않는다 
 
 Structured Output은 Anthropic Tool Use로 강제한다.
+
+[v3 변경 - docs/taxonomy_audit.md §5, §8 대응]
+확정된 CCER Operational Taxonomy에 따라 두 필드를 신설(medication_identity,
+intake_output)하고, `interventions`의 범위를 명확히 좁혔다. 기존에는
+`interventions`가 "투약 제외"라고만 되어 있어 device/oxygen_support/io 관련
+언급을 폭넓게 흡수했고, 이것이 taxonomy_audit.md §3.3에서 확인된 duplicated
+concept 문제(device·oxygen_support가 closed-vocab과 interventions 양쪽에
+중복 추출됨)의 원인이었다. SYSTEM_PROMPT에 device/의료기기/intake-output을
+명시적으로 제외하는 체크리스트와 실제 파일럿 데이터 기반 반례를 추가했다.
 """
 
 import os
@@ -20,7 +29,8 @@ EXTRACTION_TOOL = {
     "description": "Record the clinical entities that literally appear in the given nursing documentation text.",
     "input_schema": {
         "type": "object",
-        "required": ["symptoms", "clinical_status", "interventions", "notification"],
+        "required": ["symptoms", "clinical_status", "medication_identity",
+                     "interventions", "intake_output", "notification"],
         "properties": {
             "symptoms": {
                 "type": "array",
@@ -49,10 +59,30 @@ EXTRACTION_TOOL = {
                 "type": ["string", "null"],
                 "description": "Patient's consciousness/clinical status if mentioned, e.g. 'alert', 'drowsy'. Null if not mentioned."
             },
+            "medication_identity": {
+                "type": ["string", "null"],
+                "description": "The IDENTITY of a medication mentioned (i.e. which drug it is, e.g. 'Ceftriaxone', "
+                               "'morphine') — not its dose, route, or frequency. Report the drug name only, even if "
+                               "the text also mentions its dose/route/frequency separately. Null if no medication "
+                               "name is mentioned."
+            },
             "interventions": {
                 "type": "array",
-                "description": "Clinical interventions or procedures explicitly mentioned (excluding medication administration).",
+                "description": "Clinical interventions or procedures explicitly mentioned, EXCLUDING all of the "
+                               "following (each is captured elsewhere, do not duplicate them here): "
+                               "(1) medication administration or any medication name/dose/route/frequency, "
+                               "(2) use of a respiratory/oxygen-support device (ventilator, nasal cannula, oxygen "
+                               "mask, etc.) or any other physical medical device (Foley catheter, C-line, NG tube, "
+                               "etc.) — these are devices, not interventions, "
+                               "(3) intake/output or fluid-balance observations (urine output, fluid balance, etc.). "
+                               "Only report genuinely distinct procedures/actions here, e.g. 'fluid resuscitation', "
+                               "'cardiac monitoring', 'wound dressing change'.",
                 "items": {"type": "string"}
+            },
+            "intake_output": {
+                "type": ["string", "null"],
+                "description": "Intake/output or fluid-balance observation if mentioned, e.g. 'urine output 200 mL "
+                               "over 4 hours', 'negative fluid balance'. Null if not mentioned."
             },
             "notification": {
                 "type": ["string", "null"],
@@ -81,6 +111,27 @@ Concrete counter-example (do NOT do this):
   diagnosis like "pneumonia" and a low oxygen number. INCORRECT behavior: inferring and adding "dyspnea" or
   "hypoxia" as symptoms because they would clinically make sense together. CORRECT behavior: do not report
   those symptoms unless the words/concepts literally appear in the text.
+
+CRITICAL RULE - Category boundaries (each real-world fact belongs to exactly ONE field):
+Several categories can superficially look like "interventions" but must be reported in their own dedicated
+field instead, never duplicated into `interventions`. Use this checklist before adding anything to
+`interventions`:
+- Is it a medication (name, dose, route, or frequency)? -> `medication_identity` (name only), never `interventions`.
+- Is it the use of a physical device — a ventilator, nasal cannula, oxygen mask, Foley catheter, C-line,
+  NG tube, or any other respiratory-support or indwelling device? -> this belongs to a separate closed-vocabulary
+  device category that is handled elsewhere in the pipeline, NOT to `interventions`. Do not report device usage
+  as an intervention.
+- Is it an intake/output or fluid-balance observation (urine output, fluid balance, drain output, etc.)?
+  -> `intake_output`, never `interventions`.
+- Only if none of the above apply — e.g. "fluid resuscitation", "cardiac monitoring", "wound dressing change",
+  "repositioning" — does it belong in `interventions`.
+
+Worked examples:
+- "Ventilator 사용 중" -> NOT an intervention (device usage). Do not add to `interventions`.
+- "High-flow nasal cannula 산소 지원 유지함" -> NOT an intervention (device/oxygen-support usage). Do not add to `interventions`.
+- "Ceftriaxone 1g IV q12h 적용함" -> medication_identity: "Ceftriaxone" (the name only). Not an intervention.
+- "Urine output 200 mL over 4 hours 확인됨" -> intake_output: "urine output 200 mL over 4 hours". Not an intervention.
+- "Fluid resuscitation 시행함" -> interventions: ["fluid resuscitation"]. This is a genuine procedure, not a device/medication/io fact.
 
 If a category has no information literally present in the text, return an empty list or null as appropriate.
 Use the record_clinical_entities tool to report your findings."""
