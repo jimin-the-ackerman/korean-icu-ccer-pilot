@@ -90,8 +90,10 @@ def main():
     # v2와 비교 (있으면)
     v2_path = next((p for p in V2_RESULT_CANDIDATES if p.exists()), None)
     if v2_path is not None:
-        v2 = pd.read_csv(v2_path)
-        merged = df.merge(v2, on=["scenario_id", "style_condition"], suffixes=("_v3", "_v2"))
+        v2 = pd.read_csv(v2_path, dtype={"scenario_id": str})
+        df_for_merge = df.copy()
+        df_for_merge["scenario_id"] = df_for_merge["scenario_id"].astype(str)
+        merged = df_for_merge.merge(v2, on=["scenario_id", "style_condition"], suffixes=("_v3", "_v2"))
         merged["ccer_diff"] = merged["ccer_score_v3"] - merged["ccer_score_v2"]
         print(f"\n=== v2({v2_path}) 대비 CCER 변화 (샘플별) ===")
         print(merged[["scenario_id", "style_condition", "ccer_score_v2", "ccer_score_v3", "ccer_diff"]]
