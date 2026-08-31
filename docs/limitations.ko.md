@@ -101,6 +101,61 @@ Scaffold와 Documentation Register 표현이 실제 한국 ICU 임상 환경의
 
 ---
 
+## 10. Closed-vocab 정규식의 카테고리 간 오염 (Dose vs. Vital Sign / Intake-Output)
+
+v3 파이프라인 sanity audit(`docs/taxonomy_audit.md`) 과정에서 발견됨. v3
+이전(v1/v2)에도 동일 건수로 존재했던 사전 문제로, v3 taxonomy 변경이
+새로 만든 문제가 아니다. `closed_vocab_extractor.py`의 `dose` 정규식은
+문맥과 무관하게 "숫자+단위" 패턴(예: `\d+\s*(mg|mL|cc|g|mcg|L/min)`)이면
+전부 매칭한다. 이로 인해 두 가지 오탐이 파일럿에서 관찰됐다: ① 혈압
+수치가 STT로 뭉개지면서 "숫자+mg" 패턴이 된 경우(예: "90/60 mmHg"가
+"90-60mg"로 전사됨)가 약물 용량으로 오분류됨. ② 섭취/배설량 수치(예:
+"urine output 200 mL")도 마찬가지로 약물 용량으로 오분류됨. 둘 다 투약과
+무관한 값이 dose 카테고리의 hallucination 건수를 부풀린다. 문맥 인식
+로직(예: 약물명 근접성 요구, 활력징후/체액균형 키워드 인접 시 제외) 도입은
+taxonomy 카테고리 경계 문제가 아니라 정규식 견고성 문제이므로, v3
+taxonomy 변경에 포함하지 않고 Future Work로 남긴다.
+
+## 11. 하나의 노트 안에서 같은 장치가 두 번 언급되는 경우
+
+역시 v3 sanity audit에서 발견됨, 역시 사전 문제(v1/v2와 건수 동일). LLM이
+생성한 노트 텍스트가 같은 실제 장치 사실을 한 노트 안에서 서로 다른
+표현으로 두 번 언급하는 경우가 있다(예: "SpO2 95% on 2L NC."에 이어
+나중에 "NC 사용 중."). Gold의 closed-vocab device 목록은 Content
+Scaffold에서 나오므로(물리적 사실 1개 = entity 1개, 생성된 텍스트가 몇 번
+반복 서술하든 무관), 반면 정규식 기반 추출기는 텍스트에 실제로 등장하는
+횟수를 그대로 센다. 그 결과 한 노트에서 같은 장치가 두 번 언급되면
+Whisper 쪽엔 device entity가 2개, Gold 쪽엔 1개만 생겨 나머지 1개가
+hallucination으로 잘못 집계된다. 실제로는 아무 정보도 지어내지 않았는데도
+그렇다. 수정하려면 매칭 전에 동일 텍스트 내 중복 값을 제거하거나, 노트
+생성 단계에서 각 장치 사실을 한 번만 서술하도록 제약해야 한다. Future
+Work로 남기며, 파일럿에서 15개 중 1개 샘플에만 영향을 준 소수 사례다.
+
+## 12. Symptom 카테고리 경계 누수 (patient_context, clinical_status)
+
+역시 v3 sanity audit에서 발견됨. 서로 관련된 두 가지 하위 문제이며, 둘 다
+사전에 존재하던 현상이다(v2에서는 동일 현상이 6건이었는데 v3 프롬프트
+개선 이후 3건으로 줄었음 — v3의 SYSTEM_PROMPT 수정이 부분적으로는
+완화했지만 완전히 해소하지는 못했다는 뜻):
+- Content Scaffold의 `patient_context` 필드(`docs/taxonomy_audit.md`
+  §5.5에 따라 CCER 범위에서 명시적으로 제외됨)가 노트 생성 단계에서
+  증상처럼 읽히는 문장으로 서술되는 경우가 있다(예: patient_context
+  "...presenting with respiratory distress..."가 노트 문장 "...respiratory
+  distress 호소함..."이 됨). 이 내용은 Gold symptom entity에 전혀 반영되지
+  않으므로(Gold의 symptom entity는 Scaffold의 별도 단일 `symptom` 필드에서만
+  나옴), Whisper가 이걸 정확히 전사해도 환각성 symptom으로 오분류된다.
+- clinical_status류 서술(예: "약간의 기면 상태를 보이고 있다")이 Whisper
+  쪽 추출에서 `clinical_status`뿐 아니라 `symptom`("lethargy")으로도 중복
+  추출되는 경우가 있다. device/oxygen_support vs intervention에서 이미
+  고친 것과 같은 종류의 카테고리 중복 패턴이지만(`docs/taxonomy_audit.md`
+  §3.3), 그 수정 범위에 포함되지 않았던 카테고리 쌍에서 발생한다.
+
+둘 다 이번 v3 taxonomy 범위를 사후적으로 넓히지 않고("결과에 맞춰 taxonomy를
+계속 확장하지 않는다"는 원칙, `docs/taxonomy_audit.md` §6.4), 다음 taxonomy
+개정(잠재적 "v4") 대상 Future Work로 남긴다.
+
+---
+
 ## Future Work
 
 - [v2에서 완료, 프롬프트 레벨] 표준 의료 용어 온톨로지(SNOMED CT, UMLS)
@@ -112,3 +167,9 @@ Scaffold와 Documentation Register 표현이 실제 한국 ICU 임상 환경의
 - 임상 전문가(간호사) 대상 Content Scaffold 및 CCER 가중치 검증 (한계 8 대응)
 - 실제 병원 데이터 확보 시 합성 데이터 기반 결과와의 비교 검증 (한계 9 대응)
 - Whisper Auto Detect vs 한국어 고정 설정 비교 실험 (한계 3 대응)
+- Dose 정규식에 문맥 인식 로직 추가하여 활력징후/섭취배설량 수치 오분류
+  방지 (한계 10 대응)
+- 매칭 전 동일 텍스트 내 중복 closed-vocab 값 제거 로직 추가 (한계 11 대응)
+- device/oxygen_support-intervention에 적용한 카테고리 경계 제외 규칙을
+  symptom-clinical_status 쌍까지 확장, patient_context 서술이 필요로 하는
+  좁은 예외 조항 재검토 (한계 12 대응)
