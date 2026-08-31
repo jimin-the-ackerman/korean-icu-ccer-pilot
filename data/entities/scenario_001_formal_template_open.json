@@ -14,10 +14,9 @@
       }
     ],
     "clinical_status": "기면",
-    "interventions": [
-      "고유량 비강 캐뉼라를 통한 산소 공급",
-      "인공호흡기 사용"
-    ],
+    "medication_identity": "Ceftriaxone",
+    "interventions": [],
+    "intake_output": null,
     "notification": "낮은 산소포화도 수치에 대해 호흡 치료사에게 보고하였다."
   },
   "whisper_entities": {
@@ -34,10 +33,9 @@
       }
     ],
     "clinical_status": "기면",
-    "interventions": [
-      "고유량 비강 케뉼라를 통한 산소 공급",
-      "인공호흡기 사용"
-    ],
+    "medication_identity": "세프트레약소인",
+    "interventions": [],
+    "intake_output": null,
     "notification": "낮은 산소포화도 수치에 대해 호흡치료사에게 보고하였다."
   }
 }

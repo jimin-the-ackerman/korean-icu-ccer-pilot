@@ -3,35 +3,27 @@
   "gold_entities": {
     "symptoms": [
       {
-        "name": "Nausea",
+        "name": "nausea",
         "negation": false,
         "severity": "moderate"
-      },
-      {
-        "name": "Urine output low",
-        "negation": false,
-        "severity": null
       }
     ],
     "clinical_status": "Drowsy",
+    "medication_identity": "Insulin",
     "interventions": [
       "Fluid resuscitation"
     ],
-    "notification": "Endocrinology consult함."
+    "intake_output": "Urine output low",
+    "notification": "Endocrinology consult함"
   },
   "whisper_entities": {
-    "symptoms": [
-      {
-        "name": "Urine Output Low",
-        "negation": false,
-        "severity": null
-      }
-    ],
+    "symptoms": [],
     "clinical_status": "Drowsy",
+    "medication_identity": "Insulin",
     "interventions": [
-      "Fluid Resuscitation",
-      "Endocrinology Consultum"
+      "Fluid Resuscitation"
     ],
-    "notification": null
+    "intake_output": "Urine Output Low",
+    "notification": "Endocrinology Consultum"
   }
 }

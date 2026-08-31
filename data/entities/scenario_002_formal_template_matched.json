@@ -67,20 +67,24 @@
     "symptom_matches": [
       {
         "gold_value": "nausea",
-        "whisper_value": "나우지아(오심)",
-        "match_basis": "semantic",
+        "whisper_value": "nausea",
+        "match_basis": "exact",
         "negation_match": true,
         "severity_match": true
       }
     ],
     "whisper_only_symptoms": [
-      "소변량 저하",
-      "기면"
+      "lethargy"
     ],
     "clinical_status_match": {
       "gold_value": "drowsy",
-      "whisper_value": "약간의 기면 상태",
+      "whisper_value": "기면 상태",
       "match_basis": "semantic"
+    },
+    "medication_identity_match": {
+      "gold_value": "insulin",
+      "whisper_value": "인슐린",
+      "match_basis": "exact"
     },
     "intervention_matches": [
       {
@@ -90,9 +94,14 @@
       }
     ],
     "whisper_only_interventions": [],
+    "intake_output_match": {
+      "gold_value": "urine output low",
+      "whisper_value": "소변량 저하",
+      "match_basis": "semantic"
+    },
     "notification_match": {
       "gold_value": "Endocrinology consulted for management of DKA.",
-      "whisper_value": "DK의 관리를 위해 내분비 내과에 상담을 요청하였다.",
+      "whisper_value": "DK의 관리를 위해 내분비 내과에 상담을 요청하였다",
       "match_basis": "semantic"
     }
   }

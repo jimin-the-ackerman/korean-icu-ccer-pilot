@@ -81,7 +81,7 @@
     "symptom_matches": [
       {
         "gold_value": "cough",
-        "whisper_value": "cough",
+        "whisper_value": "COUGH",
         "match_basis": "exact",
         "negation_match": true,
         "severity_match": true
@@ -90,14 +90,21 @@
     "whisper_only_symptoms": [],
     "clinical_status_match": {
       "gold_value": "drowsy",
-      "whisper_value": "drowsy",
+      "whisper_value": "DROWSY",
       "match_basis": "exact"
     },
+    "medication_identity_match": {
+      "gold_value": "Ceftriaxone",
+      "whisper_value": "세프트리액션",
+      "match_basis": "semantic"
+    },
     "intervention_matches": [],
-    "whisper_only_interventions": [
-      "HIGH FLOW NASAL CANNULA 사용",
-      "VENTILATOR 사용"
-    ],
+    "whisper_only_interventions": [],
+    "intake_output_match": {
+      "gold_value": null,
+      "whisper_value": null,
+      "match_basis": "both_null"
+    },
     "notification_match": {
       "gold_value": "Respiratory therapist notified of low SpO2 levels.",
       "whisper_value": "RT NOTIFY",

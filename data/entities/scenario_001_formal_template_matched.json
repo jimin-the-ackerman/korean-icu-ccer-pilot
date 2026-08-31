@@ -82,7 +82,7 @@
       {
         "gold_value": "cough",
         "whisper_value": "기침",
-        "match_basis": "exact",
+        "match_basis": "semantic",
         "negation_match": true,
         "severity_match": true
       }
@@ -95,15 +95,22 @@
       "whisper_value": "기면",
       "match_basis": "semantic"
     },
+    "medication_identity_match": {
+      "gold_value": "Ceftriaxone",
+      "whisper_value": "세프트레약소인",
+      "match_basis": "semantic"
+    },
     "intervention_matches": [],
-    "whisper_only_interventions": [
-      "고유량 비강 케뉼라를 통한 산소 공급",
-      "인공호흡기 사용"
-    ],
+    "whisper_only_interventions": [],
+    "intake_output_match": {
+      "gold_value": null,
+      "whisper_value": null,
+      "match_basis": "both_null"
+    },
     "notification_match": {
       "gold_value": "Respiratory therapist notified of low SpO2 levels.",
       "whisper_value": "낮은 산소포화도 수치에 대해 호흡치료사에게 보고하였다.",
-      "match_basis": "exact"
+      "match_basis": "semantic"
     }
   }
 }

@@ -14,18 +14,16 @@
       }
     ],
     "clinical_status": "drowsy",
-    "interventions": [
-      "High-flow nasal cannula 산소 지원",
-      "Ventilator 사용"
-    ],
+    "medication_identity": "Ceftriaxone",
+    "interventions": [],
+    "intake_output": null,
     "notification": "RT notify함"
   },
   "whisper_entities": {
     "symptoms": [
       {
         "name": "Respiratory Distress",
-        "negation": false,
-        "severity": null
+        "negation": false
       },
       {
         "name": "cough",
@@ -34,10 +32,9 @@
       }
     ],
     "clinical_status": "Drowsy",
-    "interventions": [
-      "High flow nasal cannula 산소지원",
-      "Ventilator 사용"
-    ],
+    "medication_identity": "Cephtriaxone",
+    "interventions": [],
+    "intake_output": null,
     "notification": "RT Notify함"
   }
 }

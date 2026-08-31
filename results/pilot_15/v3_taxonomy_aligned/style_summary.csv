@@ -1,0 +1,4 @@
+style_condition,mean_ccer,std_ccer,total_hallucinations,total_medication_identity_errors
+clinical_charting,1.0857,0.1516,2,0
+formal_template,1.3324,0.1594,3,0
+telegraphic_icu,0.9924,0.3124,3,0

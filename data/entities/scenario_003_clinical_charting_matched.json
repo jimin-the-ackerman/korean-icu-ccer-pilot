@@ -81,19 +81,22 @@
     "symptom_matches": [
       {
         "gold_value": "chest pain",
-        "whisper_value": "체스파인",
+        "whisper_value": "세벌 호소",
         "match_basis": "phonetic_artifact",
         "negation_match": null,
         "severity_match": null
       }
     ],
-    "whisper_only_symptoms": [
-      "세벌"
-    ],
+    "whisper_only_symptoms": [],
     "clinical_status_match": {
       "gold_value": "alert",
-      "whisper_value": "알러트",
-      "match_basis": "phonetic_artifact"
+      "whisper_value": "알러트 상태",
+      "match_basis": "semantic"
+    },
+    "medication_identity_match": {
+      "gold_value": "Aspirin",
+      "whisper_value": "아스프린",
+      "match_basis": "semantic"
     },
     "intervention_matches": [
       {
@@ -102,15 +105,16 @@
         "match_basis": "semantic"
       }
     ],
-    "whisper_only_interventions": [
-      "네이처 캔넬라 적용",
-      "네이처 캔넬라 유지",
-      "C-Line 유지"
-    ],
+    "whisper_only_interventions": [],
+    "intake_output_match": {
+      "gold_value": null,
+      "whisper_value": null,
+      "match_basis": "both_null"
+    },
     "notification_match": {
       "gold_value": "Cardiology team notified for urgent review.",
       "whisper_value": "카디올리티 팀 노티파임",
-      "match_basis": "phonetic_artifact"
+      "match_basis": "semantic"
     }
   }
 }

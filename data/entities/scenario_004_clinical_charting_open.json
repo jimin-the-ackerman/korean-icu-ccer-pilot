@@ -8,12 +8,12 @@
         "severity": "severe"
       }
     ],
-    "clinical_status": "drowsy",
+    "clinical_status": "Drowsy",
+    "medication_identity": "Morphine",
     "interventions": [
-      "Fluid resuscitation",
-      "Foley catheter maintenance",
-      "Urine output monitoring"
+      "Fluid resuscitation"
     ],
+    "intake_output": "Urine output 200 mL over 4 hours",
     "notification": "담당의 notify함"
   },
   "whisper_entities": {
@@ -25,11 +25,11 @@
       }
     ],
     "clinical_status": "Drowsy",
+    "medication_identity": "Morphine",
     "interventions": [
-      "Fluid resuscitation",
-      "Foley 유지",
-      "Urine output 확인"
+      "Fluid resuscitation"
     ],
+    "intake_output": "Urine output 200ml over 4 hours",
     "notification": "담당의 Notify함"
   }
 }

@@ -9,27 +9,23 @@
       }
     ],
     "clinical_status": "drowsy",
-    "interventions": [
-      "Nasal cannula 사용",
-      "Foley 삽입",
-      "Negative fluid balance"
-    ],
+    "medication_identity": "Furosemide",
+    "interventions": [],
+    "intake_output": "Negative fluid balance",
     "notification": "Nephrology team notify"
   },
   "whisper_entities": {
     "symptoms": [
       {
-        "name": "EDMA",
+        "name": "Edema",
         "negation": false,
         "severity": "moderate"
       }
     ],
     "clinical_status": "drowsy",
-    "interventions": [
-      "Nasal cannula 사용",
-      "Foley 삽입",
-      "Negative fluid balance"
-    ],
+    "medication_identity": "Furosemide",
+    "interventions": [],
+    "intake_output": "Negative fluid balance",
     "notification": "Nephrology team notify"
   }
 }

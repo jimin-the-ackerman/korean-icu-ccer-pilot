@@ -90,23 +90,30 @@
     "whisper_only_symptoms": [],
     "clinical_status_match": {
       "gold_value": "alert",
-      "whisper_value": "의식 명료",
+      "whisper_value": "의식이 명료",
+      "match_basis": "semantic"
+    },
+    "medication_identity_match": {
+      "gold_value": "Aspirin",
+      "whisper_value": "에스프린스 환극",
       "match_basis": "semantic"
     },
     "intervention_matches": [
       {
         "gold_value": "cardiac monitoring",
         "whisper_value": "심장 모니터링",
-        "match_basis": "semantic"
+        "match_basis": "exact"
       }
     ],
-    "whisper_only_interventions": [
-      "산소 공급 (네이절 케놀라)",
-      "C라인 삽입"
-    ],
+    "whisper_only_interventions": [],
+    "intake_output_match": {
+      "gold_value": null,
+      "whisper_value": null,
+      "match_basis": "both_null"
+    },
     "notification_match": {
       "gold_value": "Cardiology team notified for urgent review.",
-      "whisper_value": "심장학팀에게 긴급 검토를 위해 보고함",
+      "whisper_value": "심장학팀에게 긴급 검토를 위해 보고하였다",
       "match_basis": "semantic"
     }
   }

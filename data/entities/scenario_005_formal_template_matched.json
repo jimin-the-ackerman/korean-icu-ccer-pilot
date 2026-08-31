@@ -82,7 +82,7 @@
       {
         "gold_value": "edema",
         "whisper_value": "부종",
-        "match_basis": "semantic",
+        "match_basis": "exact",
         "negation_match": true,
         "severity_match": true
       }
@@ -91,17 +91,23 @@
     "clinical_status_match": {
       "gold_value": "drowsy",
       "whisper_value": "졸린 상태",
+      "match_basis": "exact"
+    },
+    "medication_identity_match": {
+      "gold_value": "Furosemide",
+      "whisper_value": "퓨로스미드",
       "match_basis": "semantic"
     },
     "intervention_matches": [],
-    "whisper_only_interventions": [
-      "산소 공급 (네이셀 케눌라)",
-      "폴리 캐뉼러 장착",
-      "음성 수분 균형 관찰"
-    ],
+    "whisper_only_interventions": [],
+    "intake_output_match": {
+      "gold_value": "negative fluid balance",
+      "whisper_value": "음성 수분 균형",
+      "match_basis": "exact"
+    },
     "notification_match": {
       "gold_value": "Nephrology team notified of increased creatinine levels.",
-      "whisper_value": "크레아티닌 수치 증가에 대해 신장내과팀에게 보고하였다.",
+      "whisper_value": "크레아틴인 수치 증가에 대해 신장내과팀에게 보고하였다.",
       "match_basis": "semantic"
     }
   }

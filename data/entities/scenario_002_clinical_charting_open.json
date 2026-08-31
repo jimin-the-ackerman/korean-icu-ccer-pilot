@@ -3,31 +3,33 @@
   "gold_entities": {
     "symptoms": [
       {
-        "name": "Nausea",
+        "name": "nausea",
         "negation": false,
         "severity": "moderate"
       }
     ],
     "clinical_status": "drowsy",
+    "medication_identity": "Insulin",
     "interventions": [
-      "Insulin 10 units IV q4h 적용",
-      "Fluid resuscitation 시행",
-      "Urine output low 확인"
+      "Fluid resuscitation"
     ],
+    "intake_output": "urine output low",
     "notification": "Endocrinology consult함"
   },
   "whisper_entities": {
     "symptoms": [
       {
-        "name": "Nausea",
+        "name": "nausea",
         "negation": false,
         "severity": "moderate"
       }
     ],
     "clinical_status": "drowsy",
+    "medication_identity": "insulin",
     "interventions": [
       "Fluid resuscitation"
     ],
-    "notification": "Endocrinology consultant."
+    "intake_output": "urine output low",
+    "notification": "Endocrinology consultant"
   }
 }

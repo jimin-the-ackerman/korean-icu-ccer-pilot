@@ -6,47 +6,35 @@
         "name": "nausea",
         "negation": false,
         "severity": "moderate"
-      },
-      {
-        "name": "소변량 저하",
-        "negation": false,
-        "severity": null
-      },
-      {
-        "name": "기면",
-        "negation": false,
-        "severity": "mild"
       }
     ],
-    "clinical_status": "약간의 기면 상태",
+    "clinical_status": "약간의 기면 상태 (mild lethargy)",
+    "medication_identity": "인슐린",
     "interventions": [
-      "fluid resuscitation",
-      "인슐린 10 units IV 투여"
+      "fluid resuscitation"
     ],
-    "notification": "DKA 관리를 위해 내분비내과에 상담을 요청하였다."
+    "intake_output": "소변량 저하",
+    "notification": "DKA 관리를 위해 내분비내과에 상담을 요청함"
   },
   "whisper_entities": {
     "symptoms": [
       {
-        "name": "나우지아(오심)",
+        "name": "nausea",
         "negation": false,
         "severity": "moderate"
       },
       {
-        "name": "소변량 저하",
-        "negation": false,
-        "severity": null
-      },
-      {
-        "name": "기면",
+        "name": "lethargy",
         "negation": false,
         "severity": "mild"
       }
     ],
-    "clinical_status": "약간의 기면 상태",
+    "clinical_status": "기면 상태",
+    "medication_identity": "인슐린",
     "interventions": [
       "fluid resuscitation"
     ],
-    "notification": "DK의 관리를 위해 내분비 내과에 상담을 요청하였다."
+    "intake_output": "소변량 저하",
+    "notification": "DK의 관리를 위해 내분비 내과에 상담을 요청하였다"
   }
 }

@@ -100,20 +100,27 @@
       "whisper_value": "Alert",
       "match_basis": "exact"
     },
+    "medication_identity_match": {
+      "gold_value": "Aspirin",
+      "whisper_value": "Aspirin",
+      "match_basis": "exact"
+    },
     "intervention_matches": [
       {
         "gold_value": "cardiac monitoring",
-        "whisper_value": "Cardiac monitoring 중",
+        "whisper_value": "Cardiac monitoring",
         "match_basis": "exact"
       }
     ],
-    "whisper_only_interventions": [
-      "NC 사용 중",
-      "C-line 유지 중"
-    ],
+    "whisper_only_interventions": [],
+    "intake_output_match": {
+      "gold_value": null,
+      "whisper_value": null,
+      "match_basis": "both_null"
+    },
     "notification_match": {
       "gold_value": "Cardiology team notified for urgent review.",
-      "whisper_value": "Cardiology team notify.",
+      "whisper_value": "Cardiology team notify",
       "match_basis": "normalized"
     }
   }

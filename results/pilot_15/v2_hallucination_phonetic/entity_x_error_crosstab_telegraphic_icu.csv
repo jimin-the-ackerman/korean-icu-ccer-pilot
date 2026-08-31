@@ -1,0 +1,9 @@
+entity_type,hallucination,numeric_error,omission
+device,1,0,0
+dose,2,0,2
+frequency,0,0,2
+intervention,9,0,0
+notification,0,0,2
+route,0,0,1
+symptom,1,0,2
+vital_sign,0,6,16

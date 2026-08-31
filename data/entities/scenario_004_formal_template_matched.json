@@ -82,7 +82,7 @@
       {
         "gold_value": "abdominal pain",
         "whisper_value": "복부 통증",
-        "match_basis": "semantic",
+        "match_basis": "exact",
         "negation_match": true,
         "severity_match": true
       }
@@ -91,23 +91,30 @@
     "clinical_status_match": {
       "gold_value": "drowsy",
       "whisper_value": "졸림",
-      "match_basis": "semantic"
+      "match_basis": "exact"
+    },
+    "medication_identity_match": {
+      "gold_value": "morphine",
+      "whisper_value": "Morphine",
+      "match_basis": "exact"
     },
     "intervention_matches": [
       {
         "gold_value": "fluid resuscitation",
         "whisper_value": "수액 보충요법",
-        "match_basis": "semantic"
+        "match_basis": "exact"
       }
     ],
-    "whisper_only_interventions": [
-      "Foley 카테터 삽입",
-      "소변 배출량 측정"
-    ],
+    "whisper_only_interventions": [],
+    "intake_output_match": {
+      "gold_value": "urine output 200 mL over 4 hours",
+      "whisper_value": "4시간 동안의 소변 배출량 200mL",
+      "match_basis": "exact"
+    },
     "notification_match": {
       "gold_value": "Notified the on-call gastroenterologist of the patient's deteriorating hemodynamic status.",
       "whisper_value": "환자의 혈역학 상태 악화를 담당 중인 위장병 전문의에게 보고하였다.",
-      "match_basis": "semantic"
+      "match_basis": "exact"
     }
   }
 }

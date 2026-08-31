@@ -81,10 +81,10 @@
     "symptom_matches": [
       {
         "gold_value": "edema",
-        "whisper_value": "EDMA",
-        "match_basis": "phonetic_artifact",
-        "negation_match": null,
-        "severity_match": null
+        "whisper_value": "Edema",
+        "match_basis": "exact",
+        "negation_match": true,
+        "severity_match": true
       }
     ],
     "whisper_only_symptoms": [],
@@ -93,12 +93,18 @@
       "whisper_value": "drowsy",
       "match_basis": "exact"
     },
+    "medication_identity_match": {
+      "gold_value": "Furosemide",
+      "whisper_value": "Furosemide",
+      "match_basis": "exact"
+    },
     "intervention_matches": [],
-    "whisper_only_interventions": [
-      "Nasal cannula 사용",
-      "Foley 삽입",
-      "Negative fluid balance"
-    ],
+    "whisper_only_interventions": [],
+    "intake_output_match": {
+      "gold_value": "negative fluid balance",
+      "whisper_value": "Negative fluid balance",
+      "match_basis": "exact"
+    },
     "notification_match": {
       "gold_value": "Nephrology team notified of increased creatinine levels.",
       "whisper_value": "Nephrology team notify",

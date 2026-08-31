@@ -73,12 +73,15 @@
         "severity_match": null
       }
     ],
-    "whisper_only_symptoms": [
-      "Urine Output Low"
-    ],
+    "whisper_only_symptoms": [],
     "clinical_status_match": {
       "gold_value": "drowsy",
       "whisper_value": "Drowsy",
+      "match_basis": "exact"
+    },
+    "medication_identity_match": {
+      "gold_value": "insulin",
+      "whisper_value": "Insulin",
       "match_basis": "exact"
     },
     "intervention_matches": [
@@ -88,13 +91,16 @@
         "match_basis": "exact"
       }
     ],
-    "whisper_only_interventions": [
-      "Endocrinology Consultum"
-    ],
+    "whisper_only_interventions": [],
+    "intake_output_match": {
+      "gold_value": "urine output low",
+      "whisper_value": "Urine Output Low",
+      "match_basis": "exact"
+    },
     "notification_match": {
       "gold_value": "Endocrinology consulted for management of DKA.",
-      "whisper_value": null,
-      "match_basis": "omission"
+      "whisper_value": "Endocrinology Consultum",
+      "match_basis": "semantic"
     }
   }
 }

@@ -9,10 +9,9 @@
       }
     ],
     "clinical_status": "졸린 상태",
-    "interventions": [
-      "nasal cannula를 통한 산소 공급",
-      "Foley catheter 장착"
-    ],
+    "medication_identity": "Furosemide",
+    "interventions": [],
+    "intake_output": "음성 수분 균형",
     "notification": "크레아티닌 수치 증가에 대해 신장내과 팀에게 보고하였다."
   },
   "whisper_entities": {
@@ -24,11 +23,9 @@
       }
     ],
     "clinical_status": "졸린 상태",
-    "interventions": [
-      "산소 공급 (네이셀 케눌라)",
-      "폴리 캐뉼러 장착",
-      "음성 수분 균형 관찰"
-    ],
-    "notification": "크레아티닌 수치 증가에 대해 신장내과팀에게 보고하였다."
+    "medication_identity": "퓨로스미드",
+    "interventions": [],
+    "intake_output": "음성 수분 균형",
+    "notification": "크레아틴인 수치 증가에 대해 신장내과팀에게 보고하였다."
   }
 }

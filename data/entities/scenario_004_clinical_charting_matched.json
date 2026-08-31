@@ -93,6 +93,11 @@
       "whisper_value": "Drowsy",
       "match_basis": "exact"
     },
+    "medication_identity_match": {
+      "gold_value": "morphine",
+      "whisper_value": "Morphine",
+      "match_basis": "exact"
+    },
     "intervention_matches": [
       {
         "gold_value": "fluid resuscitation",
@@ -100,10 +105,12 @@
         "match_basis": "exact"
       }
     ],
-    "whisper_only_interventions": [
-      "Foley 유지",
-      "Urine output 확인"
-    ],
+    "whisper_only_interventions": [],
+    "intake_output_match": {
+      "gold_value": "urine output 200 mL over 4 hours",
+      "whisper_value": "Urine output 200ml over 4 hours",
+      "match_basis": "exact"
+    },
     "notification_match": {
       "gold_value": "Notified the on-call gastroenterologist of the patient's deteriorating hemodynamic status.",
       "whisper_value": "담당의 Notify함",

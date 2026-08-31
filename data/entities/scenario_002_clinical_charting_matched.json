@@ -67,7 +67,7 @@
     "symptom_matches": [
       {
         "gold_value": "nausea",
-        "whisper_value": "Nausea",
+        "whisper_value": "nausea",
         "match_basis": "exact",
         "negation_match": true,
         "severity_match": true
@@ -79,6 +79,11 @@
       "whisper_value": "drowsy",
       "match_basis": "exact"
     },
+    "medication_identity_match": {
+      "gold_value": "insulin",
+      "whisper_value": "insulin",
+      "match_basis": "exact"
+    },
     "intervention_matches": [
       {
         "gold_value": "fluid resuscitation",
@@ -87,9 +92,14 @@
       }
     ],
     "whisper_only_interventions": [],
+    "intake_output_match": {
+      "gold_value": "urine output low",
+      "whisper_value": "urine output low",
+      "match_basis": "exact"
+    },
     "notification_match": {
       "gold_value": "Endocrinology consulted for management of DKA.",
-      "whisper_value": "Endocrinology consultant.",
+      "whisper_value": "Endocrinology consultant",
       "match_basis": "semantic"
     }
   }

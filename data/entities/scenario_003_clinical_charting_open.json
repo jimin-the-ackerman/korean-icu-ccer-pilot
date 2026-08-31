@@ -9,31 +9,27 @@
       }
     ],
     "clinical_status": "alert",
+    "medication_identity": "Aspirin",
     "interventions": [
-      "Nasal cannula 유지",
-      "Cardiac monitoring 적용",
-      "C-line 유지"
+      "Cardiac monitoring"
     ],
+    "intake_output": null,
     "notification": "Cardiology team notify함"
   },
   "whisper_entities": {
     "symptoms": [
       {
-        "name": "체스파인",
-        "negation": false
-      },
-      {
-        "name": "세벌",
-        "negation": false
+        "name": "세벌 호소",
+        "negation": false,
+        "severity": null
       }
     ],
-    "clinical_status": "알러트",
+    "clinical_status": "알러트 상태",
+    "medication_identity": "아스프린",
     "interventions": [
-      "네이처 캔넬라 적용",
-      "네이처 캔넬라 유지",
-      "카디액 모니터링 적용",
-      "C-Line 유지"
+      "카디액 모니터링 적용"
     ],
+    "intake_output": null,
     "notification": "카디올리티 팀 노티파임"
   }
 }

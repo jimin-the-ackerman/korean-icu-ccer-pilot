@@ -8,13 +8,13 @@
         "severity": "severe"
       }
     ],
-    "clinical_status": "의식 명료",
+    "clinical_status": "의식이 명료함",
+    "medication_identity": "Aspirin",
     "interventions": [
-      "산소 공급 (nasal cannula)",
-      "C-line 삽입",
       "심장 모니터링"
     ],
-    "notification": "심장학 팀에게 긴급 검토를 위해 보고함"
+    "intake_output": null,
+    "notification": "심장학 팀에게 긴급 검토를 위해 보고하였다."
   },
   "whisper_entities": {
     "symptoms": [
@@ -24,12 +24,12 @@
         "severity": "severe"
       }
     ],
-    "clinical_status": "의식 명료",
+    "clinical_status": "의식이 명료",
+    "medication_identity": "에스프린스 환극",
     "interventions": [
-      "산소 공급 (네이절 케놀라)",
-      "C라인 삽입",
       "심장 모니터링"
     ],
-    "notification": "심장학팀에게 긴급 검토를 위해 보고함"
+    "intake_output": null,
+    "notification": "심장학팀에게 긴급 검토를 위해 보고하였다"
   }
 }
