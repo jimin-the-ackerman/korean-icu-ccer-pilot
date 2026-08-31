@@ -1,0 +1,4 @@
+style_condition,hallucination,numeric_error,omission
+clinical_charting,2,9,23
+formal_template,3,2,41
+telegraphic_icu,3,6,23

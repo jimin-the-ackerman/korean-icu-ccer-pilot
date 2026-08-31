@@ -1,0 +1,4 @@
+style_condition,hallucination,numeric_error,omission
+clinical_charting,0.0588,0.2647,0.6765
+formal_template,0.0652,0.0435,0.8913
+telegraphic_icu,0.0938,0.1875,0.7188

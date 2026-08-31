@@ -8,10 +8,16 @@ Error Profile 분석 (Score/Profile/Severity/Signature 4축 중 Profile 축)
 recompute_pilot15_v2partial.py와 마찬가지로 data/entities/*_matched.json을
 직접 읽어 flatten_all_matches()를 적용하며, 별도 API 호출은 없다.
 
+[v3 변경] --output-dir 인자를 추가하여 결과를 버전별 폴더에 저장할 수 있게 했다
+(docs/taxonomy_audit.md §6 버전 관리 계획 대응). 지정하지 않으면 기존과 동일하게
+results/pilot_15/ 바로 밑에 저장된다.
+
 사용법:
     python -m src.analysis.error_profile
+    python -m src.analysis.error_profile --output-dir results/pilot_15/v3_taxonomy_aligned
 """
 
+import argparse
 import json
 from pathlib import Path
 from collections import defaultdict
@@ -21,7 +27,7 @@ import pandas as pd
 from src.evaluation.flatten_matches import flatten_all_matches
 
 ENTITIES_DIR = Path("data/entities")
-OUTPUT_DIR = Path("results/pilot_15")
+DEFAULT_OUTPUT_DIR = Path("results/pilot_15")
 
 
 def load_all_records():
@@ -77,31 +83,37 @@ def entity_type_x_error_type_by_style(df: pd.DataFrame) -> dict:
 
 
 def main():
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--output-dir", type=str, default=str(DEFAULT_OUTPUT_DIR),
+                         help="결과 CSV를 저장할 디렉토리 (버전별 폴더 지정 가능)")
+    args = parser.parse_args()
+    output_dir = Path(args.output_dir)
+
     df = load_all_records()
-    OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
+    output_dir.mkdir(parents=True, exist_ok=True)
 
     print("=== 스타일별 Error Type 분포 (건수) ===")
     counts, proportions = error_type_by_style(df)
     print(counts)
-    counts.to_csv(OUTPUT_DIR / "error_type_counts_by_style.csv")
+    counts.to_csv(output_dir / "error_type_counts_by_style.csv")
 
     print("\n=== 스타일별 Error Type 분포 (비율, 그 스타일 전체 오류 대비) ===")
     print(proportions)
-    proportions.to_csv(OUTPUT_DIR / "error_type_proportions_by_style.csv")
+    proportions.to_csv(output_dir / "error_type_proportions_by_style.csv")
 
     print("\n=== Entity Type × Error Type 교차표 (전체 스타일 합산) ===")
     crosstab = entity_type_x_error_type(df)
     print(crosstab)
-    crosstab.to_csv(OUTPUT_DIR / "entity_x_error_crosstab_overall.csv")
+    crosstab.to_csv(output_dir / "entity_x_error_crosstab_overall.csv")
 
     print("\n=== 스타일별 Entity Type × Error Type 교차표 ===")
     by_style = entity_type_x_error_type_by_style(df)
     for style, table in by_style.items():
         print(f"\n--- {style} ---")
         print(table)
-        table.to_csv(OUTPUT_DIR / f"entity_x_error_crosstab_{style}.csv")
+        table.to_csv(output_dir / f"entity_x_error_crosstab_{style}.csv")
 
-    print(f"\n저장 완료: {OUTPUT_DIR}/ 에 CSV 5종")
+    print(f"\n저장 완료: {output_dir}/ 에 CSV 5종")
 
 
 if __name__ == "__main__":
