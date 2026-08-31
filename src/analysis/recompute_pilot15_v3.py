@@ -27,8 +27,12 @@ from src.evaluation.ccer_eval import compute_ccer
 ENTITIES_DIR = Path("data/entities")
 OUTPUT_DIR = Path("results/pilot_15/v3_taxonomy_aligned")
 
-# v2와 비교용 (이미 있으면 로드, 없으면 비교 생략)
-V2_RESULT_PATH = Path("results/pilot_15/ccer_results_v2_partial.csv")
+# v2와 비교용 (organize_results_by_version.py 실행 후에는 v2_hallucination_phonetic/
+# 폴더로 이동되어 있음 - 이동 전/후 두 경로 모두 확인)
+V2_RESULT_CANDIDATES = [
+    Path("results/pilot_15/v2_hallucination_phonetic/ccer_results_v2_partial.csv"),
+    Path("results/pilot_15/ccer_results_v2_partial.csv"),
+]
 
 
 def main():
@@ -84,16 +88,18 @@ def main():
     print(f"신규 카테고리 등장 여부: {new_categories_present or '(둘 다 등장 안 함 - 데이터/코드 확인 필요)'}")
 
     # v2와 비교 (있으면)
-    if V2_RESULT_PATH.exists():
-        v2 = pd.read_csv(V2_RESULT_PATH)
+    v2_path = next((p for p in V2_RESULT_CANDIDATES if p.exists()), None)
+    if v2_path is not None:
+        v2 = pd.read_csv(v2_path)
         merged = df.merge(v2, on=["scenario_id", "style_condition"], suffixes=("_v3", "_v2"))
         merged["ccer_diff"] = merged["ccer_score_v3"] - merged["ccer_score_v2"]
-        print(f"\n=== v2 대비 CCER 변화 (샘플별) ===")
+        print(f"\n=== v2({v2_path}) 대비 CCER 변화 (샘플별) ===")
         print(merged[["scenario_id", "style_condition", "ccer_score_v2", "ccer_score_v3", "ccer_diff"]]
               .to_string(index=False))
         merged.to_csv(OUTPUT_DIR / "v2_vs_v3_comparison.csv", index=False)
     else:
-        print(f"\n(v2 결과 파일({V2_RESULT_PATH})을 찾을 수 없어 비교는 생략)")
+        print(f"\n(v2 결과 파일을 다음 경로들에서 찾을 수 없어 비교는 생략: "
+              f"{[str(p) for p in V2_RESULT_CANDIDATES]})")
 
     print(f"\n=== 전체 데이터 ===")
     print(df[["scenario_id", "style_condition", "ccer_score",
