@@ -1,0 +1,25 @@
+{
+  "sample_id": "scenario_011_telegraphic_icu",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "jaundice",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "의식 상태 혼미",
+    "medication_identity": "Lactulose",
+    "interventions": [],
+    "intake_output": null,
+    "notification": "Hepatology 팀 notify"
+  },
+  "whisper_entities": {
+    "symptoms": [],
+    "clinical_status": "혼미",
+    "medication_identity": "Lactulose",
+    "interventions": [],
+    "intake_output": null,
+    "notification": "Hepatology Team Notify"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_047_telegraphic_icu",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "cough",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "drowsy",
+    "medication_identity": "Levofloxacin",
+    "interventions": [],
+    "intake_output": "24시간 동안 음성 수분균형",
+    "notification": "Dr notify"
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "cough",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "Drowsy",
+    "medication_identity": "levofloxacin",
+    "interventions": [],
+    "intake_output": "24시간 동안 음성수분균형",
+    "notification": "D-Octor notify"
+  }
+}

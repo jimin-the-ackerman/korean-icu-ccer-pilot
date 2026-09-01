@@ -1,0 +1,41 @@
+{
+  "sample_id": "scenario_026_formal_template",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "발열",
+        "negation": false,
+        "severity": null
+      },
+      {
+        "name": "호흡곤란",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "기면",
+    "medication_identity": "Levofloxacin",
+    "interventions": [],
+    "intake_output": null,
+    "notification": null
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "발열",
+        "negation": false,
+        "severity": null
+      },
+      {
+        "name": "호흡곤란",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "기면",
+    "medication_identity": "리버플록스슨",
+    "interventions": [],
+    "intake_output": null,
+    "notification": null
+  }
+}

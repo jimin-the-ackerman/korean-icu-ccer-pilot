@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_007_clinical_charting",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "shortness of breath",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "drowsy",
+    "medication_identity": "Methylprednisolone",
+    "interventions": [],
+    "intake_output": "Positive fluid balance",
+    "notification": "Pulmonologist notify함"
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "shortness of breath",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "drowsy",
+    "medication_identity": "Methylprednisolone",
+    "interventions": [],
+    "intake_output": "Positive fluid balance",
+    "notification": "Pulmonologist notify함"
+  }
+}

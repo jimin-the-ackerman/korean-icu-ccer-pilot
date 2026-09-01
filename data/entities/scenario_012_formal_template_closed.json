@@ -1,0 +1,35 @@
+{
+  "sample_id": "scenario_012_formal_template",
+  "gold_entities": {
+    "route": [],
+    "frequency": [
+      {
+        "raw": "q8h",
+        "normalized": "q8h",
+        "position": 204
+      }
+    ],
+    "device": [
+      {
+        "raw": "Foley",
+        "normalized": "foley",
+        "position": 256
+      }
+    ],
+    "vital_sign": [],
+    "dose": []
+  },
+  "whisper_entities": {
+    "route": [],
+    "frequency": [
+      {
+        "raw": "Q100H",
+        "normalized": "q100h",
+        "position": 186
+      }
+    ],
+    "device": [],
+    "vital_sign": [],
+    "dose": []
+  }
+}

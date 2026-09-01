@@ -1,0 +1,105 @@
+{
+  "sample_id": "scenario_046_clinical_charting",
+  "gold_entities": {
+    "route": [
+      {
+        "raw": "IV",
+        "normalized": "iv",
+        "position": 126
+      }
+    ],
+    "frequency": [
+      {
+        "raw": "q6h",
+        "normalized": "q6h",
+        "position": 129
+      }
+    ],
+    "device": [],
+    "vital_sign": [
+      {
+        "raw": "BP 140/80",
+        "label": "bp",
+        "value": "140/80",
+        "position": 43
+      },
+      {
+        "raw": "HR 65",
+        "label": "hr",
+        "value": "65",
+        "position": 54
+      },
+      {
+        "raw": "RR 14",
+        "label": "rr",
+        "value": "14",
+        "position": 61
+      },
+      {
+        "raw": "BT 36.8",
+        "label": "bt",
+        "value": "36.8",
+        "position": 68
+      },
+      {
+        "raw": "SpO2 98%.",
+        "label": "spo2",
+        "value": "98%",
+        "position": 77
+      }
+    ],
+    "dose": [
+      {
+        "raw": "100g",
+        "value": "100",
+        "unit": "g",
+        "position": 121
+      }
+    ]
+  },
+  "whisper_entities": {
+    "route": [
+      {
+        "raw": "IV",
+        "normalized": "iv",
+        "position": 115
+      }
+    ],
+    "frequency": [],
+    "device": [],
+    "vital_sign": [
+      {
+        "raw": "BP 1",
+        "label": "bp",
+        "value": "1",
+        "position": 39
+      },
+      {
+        "raw": "HR 65",
+        "label": "hr",
+        "value": "65",
+        "position": 49
+      },
+      {
+        "raw": "RR 14",
+        "label": "rr",
+        "value": "14",
+        "position": 56
+      },
+      {
+        "raw": "BT 36.8",
+        "label": "bt",
+        "value": "36.8",
+        "position": 63
+      }
+    ],
+    "dose": [
+      {
+        "raw": "100g",
+        "value": "100",
+        "unit": "g",
+        "position": 110
+      }
+    ]
+  }
+}

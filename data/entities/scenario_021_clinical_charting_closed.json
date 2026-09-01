@@ -1,0 +1,121 @@
+{
+  "sample_id": "scenario_021_clinical_charting",
+  "gold_entities": {
+    "route": [
+      {
+        "raw": "IV",
+        "normalized": "iv",
+        "position": 201
+      },
+      {
+        "raw": "IV",
+        "normalized": "iv",
+        "position": 215
+      }
+    ],
+    "frequency": [
+      {
+        "raw": "STAT",
+        "normalized": "stat",
+        "position": 204
+      }
+    ],
+    "device": [
+      {
+        "raw": "C-line",
+        "normalized": "c-line",
+        "position": 244
+      }
+    ],
+    "vital_sign": [
+      {
+        "raw": "BP 145/85",
+        "label": "bp",
+        "value": "145/85",
+        "position": 99
+      },
+      {
+        "raw": "HR 110",
+        "label": "hr",
+        "value": "110",
+        "position": 115
+      },
+      {
+        "raw": "RR 22",
+        "label": "rr",
+        "value": "22",
+        "position": 127
+      },
+      {
+        "raw": "BT 37.2",
+        "label": "bt",
+        "value": "37.2",
+        "position": 146
+      },
+      {
+        "raw": "SpO2 95%",
+        "label": "spo2",
+        "value": "95%",
+        "position": 157
+      }
+    ],
+    "dose": [
+      {
+        "raw": "10 mL",
+        "value": "10",
+        "unit": "ml",
+        "position": 195
+      }
+    ]
+  },
+  "whisper_entities": {
+    "route": [
+      {
+        "raw": "IV",
+        "normalized": "iv",
+        "position": 148
+      },
+      {
+        "raw": "IV",
+        "normalized": "iv",
+        "position": 159
+      }
+    ],
+    "frequency": [],
+    "device": [
+      {
+        "raw": "C-LINE",
+        "normalized": "c-line",
+        "position": 181
+      }
+    ],
+    "vital_sign": [
+      {
+        "raw": "BT.",
+        "label": "bt",
+        "value": "",
+        "position": 102
+      },
+      {
+        "raw": "SPO2 85%",
+        "label": "spo2",
+        "value": "85%",
+        "position": 118
+      }
+    ],
+    "dose": [
+      {
+        "raw": "85ml",
+        "value": "85",
+        "unit": "ml",
+        "position": 76
+      },
+      {
+        "raw": "10ml",
+        "value": "10",
+        "unit": "ml",
+        "position": 143
+      }
+    ]
+  }
+}

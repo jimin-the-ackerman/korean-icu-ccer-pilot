@@ -1,0 +1,116 @@
+{
+  "sample_id": "scenario_042_clinical_charting",
+  "closed_vocab_matches": [
+    {
+      "entity_type": "route",
+      "gold_value": "iv",
+      "whisper_value": "iv",
+      "match_status": "matched",
+      "error_type": null
+    },
+    {
+      "entity_type": "route",
+      "gold_value": null,
+      "whisper_value": "iv",
+      "match_status": "whisper_only",
+      "error_type": null
+    },
+    {
+      "entity_type": "frequency",
+      "gold_value": "stat",
+      "whisper_value": "stat",
+      "match_status": "matched",
+      "error_type": null
+    },
+    {
+      "entity_type": "dose",
+      "gold_value": "1000ml",
+      "whisper_value": "10ml",
+      "match_status": "error",
+      "error_type": "numeric_error"
+    },
+    {
+      "entity_type": "vital_sign",
+      "label": "bp",
+      "gold_value": "98/62 mmHg",
+      "whisper_value": "98",
+      "match_status": "error",
+      "error_type": "numeric_error"
+    },
+    {
+      "entity_type": "vital_sign",
+      "label": "hr",
+      "gold_value": "112 bpm",
+      "whisper_value": "102",
+      "match_status": "error",
+      "error_type": "numeric_error"
+    },
+    {
+      "entity_type": "vital_sign",
+      "label": "rr",
+      "gold_value": "24 breaths/min",
+      "whisper_value": null,
+      "match_status": "omission",
+      "error_type": "omission"
+    },
+    {
+      "entity_type": "vital_sign",
+      "label": "bt",
+      "gold_value": "37.2°C",
+      "whisper_value": "37.67",
+      "match_status": "error",
+      "error_type": "numeric_error"
+    },
+    {
+      "entity_type": "vital_sign",
+      "label": "spo2",
+      "gold_value": "95% on room air",
+      "whisper_value": null,
+      "match_status": "omission",
+      "error_type": "omission"
+    }
+  ],
+  "open_vocab_matches": {
+    "symptom_matches": [
+      {
+        "gold_value": "diarrhea",
+        "whisper_value": "diarrhea",
+        "match_basis": "exact",
+        "negation_match": true,
+        "severity_match": true
+      }
+    ],
+    "whisper_only_symptoms": [
+      "dehydration",
+      "electrolyte imbalance"
+    ],
+    "clinical_status_match": {
+      "gold_value": "drowsy",
+      "whisper_value": "Drowsy",
+      "match_basis": "exact"
+    },
+    "medication_identity_match": {
+      "gold_value": "Normal Saline",
+      "whisper_value": "Normal Saline",
+      "match_basis": "exact"
+    },
+    "intervention_matches": [
+      {
+        "gold_value": "IV fluid resuscitation",
+        "whisper_value": "IV Fluid Resuscitation",
+        "match_basis": "exact"
+      }
+    ],
+    "whisper_only_interventions": [],
+    "intake_output_match": {
+      "gold_value": "Urine output low, 200 mL over 8 hours",
+      "whisper_value": "Urine Output Low, 200mlhs",
+      "match_basis": "normalized"
+    },
+    "notification_match": {
+      "gold_value": "Notify physician if urine output remains below 30 mL/hour",
+      "whisper_value": "Urine Output 30mlhs 미만시 담당의에게 Notify함",
+      "match_basis": "normalized"
+    }
+  }
+}

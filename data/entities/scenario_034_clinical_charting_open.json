@@ -1,0 +1,35 @@
+{
+  "sample_id": "scenario_034_clinical_charting",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "jaundice",
+        "negation": false,
+        "severity": "moderate"
+      }
+    ],
+    "clinical_status": "drowsy",
+    "medication_identity": "Lactulose",
+    "interventions": [
+      "strict fluid balance monitoring"
+    ],
+    "intake_output": null,
+    "notification": "Hepatology team notify함"
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "jaundice",
+        "negation": false,
+        "severity": "moderate"
+      }
+    ],
+    "clinical_status": "drowsy",
+    "medication_identity": "Lactulose",
+    "interventions": [
+      "strict fluid balance monitoring"
+    ],
+    "intake_output": null,
+    "notification": "Hepatology team notify함"
+  }
+}

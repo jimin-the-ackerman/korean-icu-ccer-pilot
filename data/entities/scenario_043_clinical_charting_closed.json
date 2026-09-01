@@ -1,0 +1,111 @@
+{
+  "sample_id": "scenario_043_clinical_charting",
+  "gold_entities": {
+    "route": [
+      {
+        "raw": "IV",
+        "normalized": "iv",
+        "position": 183
+      }
+    ],
+    "frequency": [
+      {
+        "raw": "q12h",
+        "normalized": "q12h",
+        "position": 186
+      }
+    ],
+    "device": [
+      {
+        "raw": "C-line",
+        "normalized": "c-line",
+        "position": 199
+      }
+    ],
+    "vital_sign": [
+      {
+        "raw": "BP 110/70",
+        "label": "bp",
+        "value": "110/70",
+        "position": 47
+      },
+      {
+        "raw": "HR 102",
+        "label": "hr",
+        "value": "102",
+        "position": 67
+      },
+      {
+        "raw": "RR 20",
+        "label": "rr",
+        "value": "20",
+        "position": 83
+      },
+      {
+        "raw": "BT 38.5",
+        "label": "bt",
+        "value": "38.5",
+        "position": 106
+      },
+      {
+        "raw": "SpO2 95%",
+        "label": "spo2",
+        "value": "95%",
+        "position": 121
+      }
+    ],
+    "dose": [
+      {
+        "raw": "1g",
+        "value": "1",
+        "unit": "g",
+        "position": 180
+      }
+    ]
+  },
+  "whisper_entities": {
+    "route": [
+      {
+        "raw": "IV",
+        "normalized": "iv",
+        "position": 177
+      }
+    ],
+    "frequency": [],
+    "device": [
+      {
+        "raw": "C-line",
+        "normalized": "c-line",
+        "position": 195
+      }
+    ],
+    "vital_sign": [
+      {
+        "raw": "BP 100",
+        "label": "bp",
+        "value": "100",
+        "position": 46
+      },
+      {
+        "raw": "HR 102",
+        "label": "hr",
+        "value": "102",
+        "position": 67
+      },
+      {
+        "raw": "BT 38.5",
+        "label": "bt",
+        "value": "38.5",
+        "position": 102
+      }
+    ],
+    "dose": [
+      {
+        "raw": "1g",
+        "value": "1",
+        "unit": "g",
+        "position": 174
+      }
+    ]
+  }
+}

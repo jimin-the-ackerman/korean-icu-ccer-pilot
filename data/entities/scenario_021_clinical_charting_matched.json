@@ -1,0 +1,129 @@
+{
+  "sample_id": "scenario_021_clinical_charting",
+  "closed_vocab_matches": [
+    {
+      "entity_type": "route",
+      "gold_value": "iv",
+      "whisper_value": "iv",
+      "match_status": "matched",
+      "error_type": null
+    },
+    {
+      "entity_type": "route",
+      "gold_value": null,
+      "whisper_value": "iv",
+      "match_status": "whisper_only",
+      "error_type": null
+    },
+    {
+      "entity_type": "frequency",
+      "gold_value": "stat",
+      "whisper_value": null,
+      "match_status": "omission",
+      "error_type": "omission"
+    },
+    {
+      "entity_type": "device",
+      "gold_value": "c-line",
+      "whisper_value": "c-line",
+      "match_status": "matched",
+      "error_type": null
+    },
+    {
+      "entity_type": "dose",
+      "gold_value": "10ml",
+      "whisper_value": "10ml",
+      "match_status": "matched",
+      "error_type": null
+    },
+    {
+      "entity_type": "dose",
+      "gold_value": null,
+      "whisper_value": "85ml",
+      "match_status": "whisper_only",
+      "error_type": null
+    },
+    {
+      "entity_type": "vital_sign",
+      "label": "bp",
+      "gold_value": "145/85 mmHg",
+      "whisper_value": null,
+      "match_status": "omission",
+      "error_type": "omission"
+    },
+    {
+      "entity_type": "vital_sign",
+      "label": "hr",
+      "gold_value": "110 bpm",
+      "whisper_value": null,
+      "match_status": "omission",
+      "error_type": "omission"
+    },
+    {
+      "entity_type": "vital_sign",
+      "label": "rr",
+      "gold_value": "22 breaths/min",
+      "whisper_value": null,
+      "match_status": "omission",
+      "error_type": "omission"
+    },
+    {
+      "entity_type": "vital_sign",
+      "label": "bt",
+      "gold_value": "37.2°C",
+      "whisper_value": "",
+      "match_status": "error",
+      "error_type": "numeric_error"
+    },
+    {
+      "entity_type": "vital_sign",
+      "label": "spo2",
+      "gold_value": "95% on room air",
+      "whisper_value": "85%",
+      "match_status": "error",
+      "error_type": "numeric_error"
+    }
+  ],
+  "open_vocab_matches": {
+    "symptom_matches": [
+      {
+        "gold_value": "muscle weakness (severe)",
+        "whisper_value": "근육 약화",
+        "match_basis": "semantic",
+        "negation_match": true,
+        "severity_match": false
+      }
+    ],
+    "whisper_only_symptoms": [],
+    "clinical_status_match": {
+      "gold_value": "alert",
+      "whisper_value": "알러트",
+      "match_basis": "phonetic_artifact"
+    },
+    "medication_identity_match": {
+      "gold_value": "Calcium gluconate",
+      "whisper_value": "칼슘 글루코네이트",
+      "match_basis": "exact"
+    },
+    "intervention_matches": [
+      {
+        "gold_value": "IV fluid administration",
+        "whisper_value": null,
+        "match_basis": "omission"
+      }
+    ],
+    "whisper_only_interventions": [
+      "스트릭트 모니터링 of intake and output"
+    ],
+    "intake_output_match": {
+      "gold_value": "strict monitoring of intake and output",
+      "whisper_value": "스트릭트 모니터링 of intake and output",
+      "match_basis": "semantic"
+    },
+    "notification_match": {
+      "gold_value": "Renal team notified for further management of electrolyte imbalance.",
+      "whisper_value": "린얼팀 노티파엠",
+      "match_basis": "phonetic_artifact"
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "sample_id": "scenario_009_formal_template",
+  "gold_entities": {
+    "route": [],
+    "frequency": [
+      {
+        "raw": "q8h",
+        "normalized": "q8h",
+        "position": 200
+      }
+    ],
+    "device": [
+      {
+        "raw": "Nasal cannula",
+        "normalized": "nc",
+        "position": 219
+      }
+    ],
+    "vital_sign": [],
+    "dose": []
+  },
+  "whisper_entities": {
+    "route": [],
+    "frequency": [
+      {
+        "raw": "Q8H",
+        "normalized": "q8h",
+        "position": 183
+      }
+    ],
+    "device": [],
+    "vital_sign": [],
+    "dose": []
+  }
+}

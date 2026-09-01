@@ -1,0 +1,40 @@
+{
+  "sample_id": "scenario_019_clinical_charting",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "swelling of the face and lips",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "drowsy",
+    "medication_identity": "Epinephrine",
+    "interventions": [
+      "IV fluids administration"
+    ],
+    "intake_output": "urine output 50 mL/hr",
+    "notification": "Allergy team notify함 for further management"
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "알러지 리액션",
+        "negation": false
+      },
+      {
+        "name": "애니필락시스",
+        "negation": false
+      },
+      {
+        "name": "스웰링 of the face and lips",
+        "negation": false
+      }
+    ],
+    "clinical_status": "드라우지",
+    "medication_identity": "에피네프린",
+    "interventions": [],
+    "intake_output": "유륜 아웃풋 50mdph 유지됨",
+    "notification": "알러지 팀 노티파임 for further management"
+  }
+}

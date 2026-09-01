@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_006_clinical_charting",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "hemiplegia",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "Stuporous",
+    "medication_identity": "Labetalol",
+    "interventions": [],
+    "intake_output": "Negative fluid balance 확인됨",
+    "notification": "Neurology team notify함"
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "Severe Hemipyo",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "Stupor",
+    "medication_identity": "Labetalol",
+    "interventions": [],
+    "intake_output": "Negative fluid balance 확인됨",
+    "notification": "Neurology team notify함"
+  }
+}

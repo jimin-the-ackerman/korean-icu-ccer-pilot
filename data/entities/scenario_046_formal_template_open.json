@@ -1,0 +1,35 @@
+{
+  "sample_id": "scenario_046_formal_template",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "두통",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "의식이 혼미한 상태",
+    "medication_identity": "Mannitol",
+    "interventions": [
+      "두개내압 모니터링"
+    ],
+    "intake_output": null,
+    "notification": null
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "두통",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "의식이 혼미한 상태",
+    "medication_identity": "메뉴톨",
+    "interventions": [
+      "두개내압 모니터링"
+    ],
+    "intake_output": null,
+    "notification": null
+  }
+}

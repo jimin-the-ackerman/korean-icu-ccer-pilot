@@ -1,0 +1,133 @@
+{
+  "sample_id": "scenario_019_clinical_charting",
+  "gold_entities": {
+    "route": [
+      {
+        "raw": "IV",
+        "normalized": "iv",
+        "position": 245
+      },
+      {
+        "raw": "IM",
+        "normalized": "im",
+        "position": 199
+      }
+    ],
+    "frequency": [
+      {
+        "raw": "STAT",
+        "normalized": "stat",
+        "position": 202
+      }
+    ],
+    "device": [
+      {
+        "raw": "High-flow nasal cannula",
+        "normalized": "nc",
+        "position": 214
+      }
+    ],
+    "vital_sign": [
+      {
+        "raw": "BP 85/50",
+        "label": "bp",
+        "value": "85/50",
+        "position": 58
+      },
+      {
+        "raw": "HR 120",
+        "label": "hr",
+        "value": "120",
+        "position": 73
+      },
+      {
+        "raw": "RR 28",
+        "label": "rr",
+        "value": "28",
+        "position": 85
+      },
+      {
+        "raw": "BT 36.8",
+        "label": "bt",
+        "value": "36.8",
+        "position": 104
+      },
+      {
+        "raw": "SpO2 89%",
+        "label": "spo2",
+        "value": "89%",
+        "position": 115
+      }
+    ],
+    "dose": [
+      {
+        "raw": "0.3 mg",
+        "value": "0.3",
+        "unit": "mg",
+        "position": 192
+      },
+      {
+        "raw": "50 mL",
+        "value": "50",
+        "unit": "ml",
+        "position": 290
+      }
+    ]
+  },
+  "whisper_entities": {
+    "route": [
+      {
+        "raw": "IV",
+        "normalized": "iv",
+        "position": 175
+      },
+      {
+        "raw": "IM",
+        "normalized": "im",
+        "position": 143
+      }
+    ],
+    "frequency": [
+      {
+        "raw": "STAT",
+        "normalized": "stat",
+        "position": 146
+      }
+    ],
+    "device": [],
+    "vital_sign": [
+      {
+        "raw": "BP 85",
+        "label": "bp",
+        "value": "85",
+        "position": 36
+      },
+      {
+        "raw": "HR 1",
+        "label": "hr",
+        "value": "1",
+        "position": 51
+      },
+      {
+        "raw": "RR 28",
+        "label": "rr",
+        "value": "28",
+        "position": 63
+      },
+      {
+        "raw": "BT 36.83",
+        "label": "bt",
+        "value": "36.83",
+        "position": 71
+      }
+    ],
+    "dose": [
+      {
+        "raw": "0.3mg",
+        "value": "0.3",
+        "unit": "mg",
+        "position": 136
+      }
+    ]
+  }
+}

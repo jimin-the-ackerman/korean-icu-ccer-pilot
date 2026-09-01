@@ -1,0 +1,35 @@
+{
+  "sample_id": "scenario_016_formal_template",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "발열",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "졸림",
+    "medication_identity": "Meropenem",
+    "interventions": [
+      "복부 농양의 배액 처치"
+    ],
+    "intake_output": "수분 균형 음성",
+    "notification": "젖산 수치 상승이 담당 의사에게 보고되었다."
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "발열",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "졸림",
+    "medication_identity": "메로피넴",
+    "interventions": [
+      "배액 처치"
+    ],
+    "intake_output": "수분 균형 음성",
+    "notification": "젖산 수치 상승이 담당 의사에게 보고되었다."
+  }
+}

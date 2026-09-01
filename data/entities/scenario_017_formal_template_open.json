@@ -1,0 +1,46 @@
+{
+  "sample_id": "scenario_017_formal_template",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "저혈당증",
+        "negation": false,
+        "severity": "severe"
+      },
+      {
+        "name": "혼란",
+        "negation": false,
+        "severity": "moderate"
+      }
+    ],
+    "clinical_status": "졸음이 있는 상태",
+    "medication_identity": "Dextrose 50%",
+    "interventions": [],
+    "intake_output": "정맥 주사로 인한 체액 균형이 양성으로 나타남",
+    "notification": "내분비 전문의에게 보고하였다"
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "저혈당증",
+        "negation": false,
+        "severity": "severe"
+      },
+      {
+        "name": "혼란",
+        "negation": false,
+        "severity": "moderate"
+      },
+      {
+        "name": "졸음",
+        "negation": false,
+        "severity": null
+      }
+    ],
+    "clinical_status": "졸음이 있는 상태",
+    "medication_identity": "덱스트로스",
+    "interventions": [],
+    "intake_output": "정맥 주사로 인한 체액 균형이 양성",
+    "notification": "내분비 전문의에게 보고하였다"
+  }
+}

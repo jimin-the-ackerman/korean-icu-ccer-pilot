@@ -1,0 +1,35 @@
+{
+  "sample_id": "scenario_045_telegraphic_icu",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "abdominal pain",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "Drowsy",
+    "medication_identity": "Hydrocortisone",
+    "interventions": [
+      "Fluid resuscitation with NS"
+    ],
+    "intake_output": "Urine output 30 mL/hr",
+    "notification": "Endocrinology consult"
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "Severe Abdominal Pain",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "Drowsy",
+    "medication_identity": "Hydrocortisone",
+    "interventions": [
+      "Fluid Resuscitation with NS"
+    ],
+    "intake_output": "Urine Output Put 30mHr",
+    "notification": "Endocrinology Consult"
+  }
+}

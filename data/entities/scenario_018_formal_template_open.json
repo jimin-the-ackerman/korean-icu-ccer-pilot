@@ -1,0 +1,35 @@
+{
+  "sample_id": "scenario_018_formal_template",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "복통",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "의식이 명료함",
+    "medication_identity": "Piperacillin-Tazobactam",
+    "interventions": [
+      "응급 개복술"
+    ],
+    "intake_output": "수액 균형 음성",
+    "notification": "긴급한 중재를 위해 외과팀에게 보고함"
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "복통",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "의식 명료",
+    "medication_identity": "piperacillin-tazobactam",
+    "interventions": [
+      "응급개복술"
+    ],
+    "intake_output": "수액균형 음성",
+    "notification": "긴급한 중재를 위해 외과팀에게 보고하였다."
+  }
+}

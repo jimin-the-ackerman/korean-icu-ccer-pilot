@@ -1,0 +1,37 @@
+{
+  "sample_id": "scenario_011_formal_template",
+  "gold_entities": {
+    "route": [],
+    "frequency": [],
+    "device": [
+      {
+        "raw": "Foley",
+        "normalized": "foley",
+        "position": 203
+      }
+    ],
+    "vital_sign": [],
+    "dose": [
+      {
+        "raw": "2 L/min",
+        "value": "2",
+        "unit": "l/min",
+        "position": 186
+      }
+    ]
+  },
+  "whisper_entities": {
+    "route": [],
+    "frequency": [],
+    "device": [],
+    "vital_sign": [],
+    "dose": [
+      {
+        "raw": "1268mg",
+        "value": "1268",
+        "unit": "mg",
+        "position": 47
+      }
+    ]
+  }
+}

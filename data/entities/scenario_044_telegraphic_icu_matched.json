@@ -1,0 +1,114 @@
+{
+  "sample_id": "scenario_044_telegraphic_icu",
+  "closed_vocab_matches": [
+    {
+      "entity_type": "route",
+      "gold_value": "iv",
+      "whisper_value": null,
+      "match_status": "omission",
+      "error_type": "omission"
+    },
+    {
+      "entity_type": "frequency",
+      "gold_value": "q4h",
+      "whisper_value": null,
+      "match_status": "omission",
+      "error_type": "omission"
+    },
+    {
+      "entity_type": "device",
+      "gold_value": "foley",
+      "whisper_value": null,
+      "match_status": "omission",
+      "error_type": "omission"
+    },
+    {
+      "entity_type": "device",
+      "gold_value": "nc",
+      "whisper_value": null,
+      "match_status": "omission",
+      "error_type": "omission"
+    },
+    {
+      "entity_type": "dose",
+      "gold_value": "2mg",
+      "whisper_value": null,
+      "match_status": "omission",
+      "error_type": "omission"
+    },
+    {
+      "entity_type": "vital_sign",
+      "label": "bp",
+      "gold_value": "98/62 mmHg",
+      "whisper_value": "98",
+      "match_status": "error",
+      "error_type": "numeric_error"
+    },
+    {
+      "entity_type": "vital_sign",
+      "label": "hr",
+      "gold_value": "110 bpm",
+      "whisper_value": null,
+      "match_status": "omission",
+      "error_type": "omission"
+    },
+    {
+      "entity_type": "vital_sign",
+      "label": "rr",
+      "gold_value": "28 breaths/min",
+      "whisper_value": "28",
+      "match_status": "error",
+      "error_type": "numeric_error"
+    },
+    {
+      "entity_type": "vital_sign",
+      "label": "bt",
+      "gold_value": "37.8°C",
+      "whisper_value": "37.8",
+      "match_status": "error",
+      "error_type": "numeric_error"
+    },
+    {
+      "entity_type": "vital_sign",
+      "label": "spo2",
+      "gold_value": "93% on room air",
+      "whisper_value": null,
+      "match_status": "omission",
+      "error_type": "omission"
+    }
+  ],
+  "open_vocab_matches": {
+    "symptom_matches": [
+      {
+        "gold_value": "abdominal pain",
+        "whisper_value": null,
+        "match_basis": "omission",
+        "negation_match": null,
+        "severity_match": null
+      }
+    ],
+    "whisper_only_symptoms": [],
+    "clinical_status_match": {
+      "gold_value": "drowsy",
+      "whisper_value": null,
+      "match_basis": "omission"
+    },
+    "medication_identity_match": {
+      "gold_value": "morphine",
+      "whisper_value": null,
+      "match_basis": "omission"
+    },
+    "intervention_matches": [],
+    "whisper_only_interventions": [],
+    "intake_output_match": {
+      "gold_value": null,
+      "whisper_value": null,
+      "match_basis": "both_null"
+    },
+    "notification_match": {
+      "gold_value": "pain team consulted for management",
+      "whisper_value": null,
+      "match_basis": "omission"
+    }
+  }
+}

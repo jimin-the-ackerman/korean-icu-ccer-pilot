@@ -1,0 +1,35 @@
+{
+  "sample_id": "scenario_021_clinical_charting",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "muscle weakness",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "alert",
+    "medication_identity": "Calcium gluconate",
+    "interventions": [
+      "strict monitoring of intake and output"
+    ],
+    "intake_output": "strict monitoring of intake and output",
+    "notification": "Renal team notify함"
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "근육 약화",
+        "negation": false,
+        "severity": null
+      }
+    ],
+    "clinical_status": "알러트",
+    "medication_identity": "칼슘 글루코네이트",
+    "interventions": [
+      "스트릭트 모니터링 of intake and output"
+    ],
+    "intake_output": null,
+    "notification": "린얼팀 노티파엠"
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "sample_id": "scenario_012_telegraphic_icu",
+  "gold_entities": {
+    "route": [
+      {
+        "raw": "IV",
+        "normalized": "iv",
+        "position": 133
+      }
+    ],
+    "frequency": [
+      {
+        "raw": "q8h",
+        "normalized": "q8h",
+        "position": 136
+      }
+    ],
+    "device": [
+      {
+        "raw": "Foley",
+        "normalized": "foley",
+        "position": 155
+      },
+      {
+        "raw": "NC",
+        "normalized": "nc",
+        "position": 149
+      }
+    ],
+    "vital_sign": [
+      {
+        "raw": "BP 90/60",
+        "label": "bp",
+        "value": "90/60",
+        "position": 22
+      },
+      {
+        "raw": "HR 110",
+        "label": "hr",
+        "value": "110",
+        "position": 39
+      },
+      {
+        "raw": "RR 22.",
+        "label": "rr",
+        "value": "22",
+        "position": 53
+      },
+      {
+        "raw": "BT 36.8",
+        "label": "bt",
+        "value": "36.8",
+        "position": 62
+      },
+      {
+        "raw": "SpO2 88%",
+        "label": "spo2",
+        "value": "88%",
+        "position": 75
+      }
+    ],
+    "dose": [
+      {
+        "raw": "40 mg",
+        "value": "40",
+        "unit": "mg",
+        "position": 127
+      }
+    ]
+  },
+  "whisper_entities": {
+    "route": [
+      {
+        "raw": "iv",
+        "normalized": "iv",
+        "position": 115
+      }
+    ],
+    "frequency": [],
+    "device": [
+      {
+        "raw": "foley",
+        "normalized": "foley",
+        "position": 131
+      },
+      {
+        "raw": "nc",
+        "normalized": "nc",
+        "position": 128
+      }
+    ],
+    "vital_sign": [],
+    "dose": []
+  }
+}

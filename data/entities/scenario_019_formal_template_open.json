@@ -1,0 +1,50 @@
+{
+  "sample_id": "scenario_019_formal_template",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "안면 부종",
+        "negation": false,
+        "severity": "severe"
+      },
+      {
+        "name": "입술 부종",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "졸린 상태",
+    "medication_identity": "에피네프린",
+    "interventions": [
+      "정맥 내 수액 투여"
+    ],
+    "intake_output": "소변 배출량 시간당 50 mL",
+    "notification": "알레르기 팀에게 추가 관리를 위해 보고하였다"
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "안면 부종",
+        "negation": false,
+        "severity": "severe"
+      },
+      {
+        "name": "입술 부종",
+        "negation": false,
+        "severity": "severe"
+      },
+      {
+        "name": "알레르기 반응",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "졸린 상태",
+    "medication_identity": "에피네프린",
+    "interventions": [
+      "정맥 내 수액 투여"
+    ],
+    "intake_output": "소변 배출량 시간당 50mL",
+    "notification": "알레르기 팀에게 추가 관리를 위해 보고하였다."
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_020_formal_template",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "복통",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "졸린 상태",
+    "medication_identity": "Morphine",
+    "interventions": [],
+    "intake_output": "24시간 동안 500 mL의 음성 체액 균형",
+    "notification": "췌장염의 지속적인 관리를 위해 소화기 내과에 자문을 요청함"
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "복통",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "졸린 상태",
+    "medication_identity": "몰핀",
+    "interventions": [],
+    "intake_output": "24시간 동안 500mL의 음성체 균형",
+    "notification": "최장염의 지속적인 관리를 위해 소아기내과에 자문을 요청하였다."
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "sample_id": "scenario_033_clinical_charting",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "palpitations",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "의식 명료함",
+    "medication_identity": "Diltiazem",
+    "interventions": [
+      "Electrical cardioversion"
+    ],
+    "intake_output": "IV fluids 1500 mL 투여함",
+    "notification": "Cardiology team notify함"
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "hemodynamic instability",
+        "negation": false,
+        "severity": null
+      },
+      {
+        "name": "palpitations",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "의식명료함",
+    "medication_identity": "Diltiazem",
+    "interventions": [
+      "Electrical cardioversion"
+    ],
+    "intake_output": "IV fluids 10-500mL 투여함",
+    "notification": "Cardiology team notify함"
+  }
+}

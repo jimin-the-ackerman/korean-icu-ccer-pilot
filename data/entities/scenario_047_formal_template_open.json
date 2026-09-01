@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_047_formal_template",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "기침",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "기면 상태",
+    "medication_identity": "Levofloxacin",
+    "interventions": [],
+    "intake_output": "지난 24시간 동안 체액 균형 음성",
+    "notification": "환자의 상태 악화에 대해 감염내과 전문의에게 보고함"
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "기침",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "기면 상태",
+    "medication_identity": "레버플럭셋",
+    "interventions": [],
+    "intake_output": "지난 24시간 동안의 체액균형은 음성이었다",
+    "notification": "환자의 상태 악화에 대해 감염내과 전문의에게 보고하였다"
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "sample_id": "scenario_017_telegraphic_icu",
+  "gold_entities": {
+    "route": [
+      {
+        "raw": "IV",
+        "normalized": "iv",
+        "position": 151
+      },
+      {
+        "raw": "IV",
+        "normalized": "iv",
+        "position": 162
+      },
+      {
+        "raw": "IV",
+        "normalized": "iv",
+        "position": 222
+      }
+    ],
+    "frequency": [
+      {
+        "raw": "STAT",
+        "normalized": "stat",
+        "position": 154
+      }
+    ],
+    "device": [],
+    "vital_sign": [
+      {
+        "raw": "BP 102/65",
+        "label": "bp",
+        "value": "102/65",
+        "position": 35
+      },
+      {
+        "raw": "HR 92",
+        "label": "hr",
+        "value": "92",
+        "position": 53
+      },
+      {
+        "raw": "RR 18",
+        "label": "rr",
+        "value": "18",
+        "position": 66
+      },
+      {
+        "raw": "BT 36.5",
+        "label": "bt",
+        "value": "36.5",
+        "position": 87
+      },
+      {
+        "raw": "SpO2 95%.",
+        "label": "spo2",
+        "value": "95%",
+        "position": 100
+      }
+    ],
+    "dose": [
+      {
+        "raw": "25g",
+        "value": "25",
+        "unit": "g",
+        "position": 147
+      }
+    ]
+  },
+  "whisper_entities": {
+    "route": [
+      {
+        "raw": "IV",
+        "normalized": "iv",
+        "position": 105
+      },
+      {
+        "raw": "IV",
+        "normalized": "iv",
+        "position": 114
+      },
+      {
+        "raw": "IV",
+        "normalized": "iv",
+        "position": 127
+      }
+    ],
+    "frequency": [
+      {
+        "raw": "STAT",
+        "normalized": "stat",
+        "position": 108
+      }
+    ],
+    "device": [],
+    "vital_sign": [],
+    "dose": [
+      {
+        "raw": "20g",
+        "value": "20",
+        "unit": "g",
+        "position": 100
+      }
+    ]
+  }
+}

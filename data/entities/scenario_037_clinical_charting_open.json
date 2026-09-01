@@ -1,0 +1,41 @@
+{
+  "sample_id": "scenario_037_clinical_charting",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "abdominal pain",
+        "negation": false,
+        "severity": "severe"
+      },
+      {
+        "name": "diarrhea",
+        "negation": false,
+        "severity": null
+      }
+    ],
+    "clinical_status": "alert",
+    "medication_identity": "Prednisone",
+    "interventions": [],
+    "intake_output": "24시간 동안 2000 ml IV fluids 투여함",
+    "notification": null
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "Severe Abdominal Pain",
+        "negation": false,
+        "severity": "severe"
+      },
+      {
+        "name": "Diarrhea",
+        "negation": false,
+        "severity": null
+      }
+    ],
+    "clinical_status": "알러트 상태 유지함",
+    "medication_identity": "Prednisone",
+    "interventions": [],
+    "intake_output": "24시간 동안 2000mL IV Fluids 투여함",
+    "notification": null
+  }
+}

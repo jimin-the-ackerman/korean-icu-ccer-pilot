@@ -1,0 +1,35 @@
+{
+  "sample_id": "scenario_049_clinical_charting",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "knee pain",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "alert",
+    "medication_identity": "Vancomycin",
+    "interventions": [
+      "right knee joint aspiration"
+    ],
+    "intake_output": "positive fluid balance 500 mL",
+    "notification": "정형외과 consult 요청함"
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "Knee Pain",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "알러트 상태 유지",
+    "medication_identity": "Vancomycin",
+    "interventions": [
+      "Right Knee Joint Aspiration"
+    ],
+    "intake_output": "Positive Fluid Balance 500ml",
+    "notification": "정형외과 컨설트 요청"
+  }
+}

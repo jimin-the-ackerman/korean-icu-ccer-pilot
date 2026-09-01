@@ -1,0 +1,35 @@
+{
+  "sample_id": "scenario_010_formal_template",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "두통",
+        "negation": true,
+        "severity": null
+      }
+    ],
+    "clinical_status": "stuporous",
+    "medication_identity": "Mannitol",
+    "interventions": [
+      "뇌압(ICP) 모니터링"
+    ],
+    "intake_output": "수액 균형 positive",
+    "notification": null
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "두통",
+        "negation": true,
+        "severity": null
+      }
+    ],
+    "clinical_status": "stuporous",
+    "medication_identity": "Manitou",
+    "interventions": [
+      "뇌압 ICP 모니터링"
+    ],
+    "intake_output": "수액균형은 포지티브",
+    "notification": null
+  }
+}

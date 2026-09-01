@@ -1,0 +1,120 @@
+{
+  "sample_id": "scenario_045_telegraphic_icu",
+  "closed_vocab_matches": [
+    {
+      "entity_type": "route",
+      "gold_value": "iv",
+      "whisper_value": "iv",
+      "match_status": "matched",
+      "error_type": null
+    },
+    {
+      "entity_type": "frequency",
+      "gold_value": "stat",
+      "whisper_value": "stat",
+      "match_status": "matched",
+      "error_type": null
+    },
+    {
+      "entity_type": "device",
+      "gold_value": "nc",
+      "whisper_value": "nc",
+      "match_status": "matched",
+      "error_type": null
+    },
+    {
+      "entity_type": "device",
+      "gold_value": "foley",
+      "whisper_value": null,
+      "match_status": "omission",
+      "error_type": "omission"
+    },
+    {
+      "entity_type": "dose",
+      "gold_value": "100mg",
+      "whisper_value": "100mg",
+      "match_status": "matched",
+      "error_type": null
+    },
+    {
+      "entity_type": "vital_sign",
+      "label": "bp",
+      "gold_value": "88/54 mmHg",
+      "whisper_value": "80",
+      "match_status": "error",
+      "error_type": "numeric_error"
+    },
+    {
+      "entity_type": "vital_sign",
+      "label": "hr",
+      "gold_value": "112 bpm",
+      "whisper_value": null,
+      "match_status": "omission",
+      "error_type": "omission"
+    },
+    {
+      "entity_type": "vital_sign",
+      "label": "rr",
+      "gold_value": "24 breaths/min",
+      "whisper_value": null,
+      "match_status": "omission",
+      "error_type": "omission"
+    },
+    {
+      "entity_type": "vital_sign",
+      "label": "bt",
+      "gold_value": "37.0°C",
+      "whisper_value": null,
+      "match_status": "omission",
+      "error_type": "omission"
+    },
+    {
+      "entity_type": "vital_sign",
+      "label": "spo2",
+      "gold_value": "92% on room air",
+      "whisper_value": "90%",
+      "match_status": "error",
+      "error_type": "numeric_error"
+    }
+  ],
+  "open_vocab_matches": {
+    "symptom_matches": [
+      {
+        "gold_value": "abdominal pain",
+        "whisper_value": "Severe Abdominal Pain",
+        "match_basis": "exact",
+        "negation_match": true,
+        "severity_match": true
+      }
+    ],
+    "whisper_only_symptoms": [],
+    "clinical_status_match": {
+      "gold_value": "drowsy",
+      "whisper_value": "Drowsy",
+      "match_basis": "exact"
+    },
+    "medication_identity_match": {
+      "gold_value": "Hydrocortisone",
+      "whisper_value": "Hydrocortisone",
+      "match_basis": "exact"
+    },
+    "intervention_matches": [
+      {
+        "gold_value": "fluid resuscitation with normal saline",
+        "whisper_value": "Fluid Resuscitation with NS",
+        "match_basis": "normalized"
+      }
+    ],
+    "whisper_only_interventions": [],
+    "intake_output_match": {
+      "gold_value": "urine output 30 mL/hr",
+      "whisper_value": "Urine Output Put 30mHr",
+      "match_basis": "normalized"
+    },
+    "notification_match": {
+      "gold_value": "Endocrinology consulted for management of adrenal insufficiency",
+      "whisper_value": "Endocrinology Consult",
+      "match_basis": "normalized"
+    }
+  }
+}

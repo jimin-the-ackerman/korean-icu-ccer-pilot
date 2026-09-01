@@ -1,0 +1,35 @@
+{
+  "sample_id": "scenario_049_formal_template",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "무릎 통증",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "의식이 또렷한 상태",
+    "medication_identity": "vancomycin",
+    "interventions": [
+      "우측 무릎 관절 천자"
+    ],
+    "intake_output": "500ml의 양성 수분 균형",
+    "notification": "정형외과 전문의 상담을 요청하였다."
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "무릎 통증",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "의식이 또렷한 상태",
+    "medication_identity": "Vancomycin",
+    "interventions": [
+      "우측 무릎 관절 천자"
+    ],
+    "intake_output": "수분 균형 500mL 양성",
+    "notification": "정형외과 전문의 상담 요청"
+  }
+}

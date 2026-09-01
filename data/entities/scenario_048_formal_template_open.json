@@ -1,0 +1,45 @@
+{
+  "sample_id": "scenario_048_formal_template",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "출혈",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "졸림",
+    "medication_identity": "Octreotide",
+    "interventions": [
+      "내시경적 밴드 결찰술"
+    ],
+    "intake_output": "수분 섭취와 배출은 엄격히 모니터링 되고 있음",
+    "notification": "현재 출혈이 계속되고 있음을 소화기내과 팀에 보고하였다"
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "위장관 출혈",
+        "negation": false,
+        "severity": "severe"
+      },
+      {
+        "name": "출혈",
+        "negation": false,
+        "severity": "severe"
+      },
+      {
+        "name": "출혈 지속",
+        "negation": false,
+        "severity": null
+      }
+    ],
+    "clinical_status": "졸림",
+    "medication_identity": "Octreotide",
+    "interventions": [
+      "내시경적 밴드 결찰술"
+    ],
+    "intake_output": "수분 섭취와 배출을 엄격히 모니터링",
+    "notification": "현재 출혈이 계속되고 있음을 소아기내과팀에 보고하였다."
+  }
+}

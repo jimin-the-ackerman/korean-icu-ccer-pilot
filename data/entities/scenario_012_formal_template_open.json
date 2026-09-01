@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_012_formal_template",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "dyspnea",
+        "negation": false,
+        "severity": "moderate"
+      }
+    ],
+    "clinical_status": "기면 상태",
+    "medication_identity": "Furosemide",
+    "interventions": [],
+    "intake_output": "양성 수분 균형",
+    "notification": "수분 과부하와 저혈압을 심장내과 팀에 보고하였다."
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "dyspnea",
+        "negation": false,
+        "severity": "moderate"
+      }
+    ],
+    "clinical_status": "기면상태",
+    "medication_identity": "furosemide",
+    "interventions": [],
+    "intake_output": "양성수분균형",
+    "notification": "수분 과부하와 저혈압을 심장내과 팀에 보고하였다"
+  }
+}

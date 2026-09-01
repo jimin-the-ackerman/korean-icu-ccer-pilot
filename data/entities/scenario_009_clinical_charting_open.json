@@ -1,0 +1,41 @@
+{
+  "sample_id": "scenario_009_clinical_charting",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "fever",
+        "negation": false,
+        "severity": "severe"
+      },
+      {
+        "name": "hypotension",
+        "negation": false,
+        "severity": null
+      }
+    ],
+    "clinical_status": "drowsy",
+    "medication_identity": "Piperacillin/Tazobactam",
+    "interventions": [],
+    "intake_output": "positive fluid balance 확인됨",
+    "notification": "담당의 notify함: 지속적인 저혈압 및 발열 관련"
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "fever",
+        "negation": false,
+        "severity": "severe"
+      },
+      {
+        "name": "저혈압",
+        "negation": false,
+        "severity": null
+      }
+    ],
+    "clinical_status": "drowsy",
+    "medication_identity": "Piperacillin/Tazobactam",
+    "interventions": [],
+    "intake_output": "positive fluid balance 확인됨",
+    "notification": "담당의 notifiam, 지속적인 저혈압 및 발열 관련"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "sample_id": "scenario_049_telegraphic_icu",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "knee pain",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "Alert",
+    "medication_identity": "Vancomycin",
+    "interventions": [
+      "Right knee joint aspiration"
+    ],
+    "intake_output": "Positive fluid balance 500ml",
+    "notification": "Orthopedic consult 요청함"
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "knee pain",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "ALERT",
+    "medication_identity": "VANCOMYCIN",
+    "interventions": [
+      "RIGHT KNEE JOINT ASPIRATION",
+      "ORTHOPEDIC CONSULT"
+    ],
+    "intake_output": "POSITIVE FLUID BALANCE",
+    "notification": null
+  }
+}

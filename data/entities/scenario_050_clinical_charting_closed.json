@@ -1,0 +1,104 @@
+{
+  "sample_id": "scenario_050_clinical_charting",
+  "gold_entities": {
+    "route": [
+      {
+        "raw": "IV",
+        "normalized": "iv",
+        "position": 208
+      }
+    ],
+    "frequency": [
+      {
+        "raw": "TID",
+        "normalized": "tid",
+        "position": 211
+      }
+    ],
+    "device": [
+      {
+        "raw": "C-line",
+        "normalized": "c-line",
+        "position": 251
+      },
+      {
+        "raw": "High-flow nasal cannula",
+        "normalized": "nc",
+        "position": 221
+      }
+    ],
+    "vital_sign": [
+      {
+        "raw": "BP 220/130",
+        "label": "bp",
+        "value": "220/130",
+        "position": 78
+      },
+      {
+        "raw": "HR 110",
+        "label": "hr",
+        "value": "110",
+        "position": 95
+      },
+      {
+        "raw": "RR 28",
+        "label": "rr",
+        "value": "28",
+        "position": 107
+      },
+      {
+        "raw": "BT 36.7",
+        "label": "bt",
+        "value": "36.7",
+        "position": 126
+      },
+      {
+        "raw": "SpO2 90%",
+        "label": "spo2",
+        "value": "90%",
+        "position": 137
+      }
+    ],
+    "dose": [
+      {
+        "raw": "10 mcg",
+        "value": "10",
+        "unit": "mcg",
+        "position": 197
+      }
+    ]
+  },
+  "whisper_entities": {
+    "route": [],
+    "frequency": [],
+    "device": [],
+    "vital_sign": [
+      {
+        "raw": "BP 230",
+        "label": "bp",
+        "value": "230",
+        "position": 54
+      },
+      {
+        "raw": "BT 36.7",
+        "label": "bt",
+        "value": "36.7",
+        "position": 94
+      }
+    ],
+    "dose": [
+      {
+        "raw": "230mg",
+        "value": "230",
+        "unit": "mg",
+        "position": 57
+      },
+      {
+        "raw": "10mg",
+        "value": "10",
+        "unit": "mg",
+        "position": 151
+      }
+    ]
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "sample_id": "scenario_042_formal_template",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "탈수",
+        "negation": false,
+        "severity": "severe"
+      },
+      {
+        "name": "전해질 불균형",
+        "negation": false,
+        "severity": null
+      },
+      {
+        "name": "설사",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "졸린 상태",
+    "medication_identity": "Normal Saline",
+    "interventions": [
+      "수액 보충 치료"
+    ],
+    "intake_output": "8시간 동안 소변 배출량 200 mL로 낮은 상태",
+    "notification": "소변 배출량이 시간당 30 mL 미만일 경우 담당 의사에게 보고함"
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "탈수",
+        "negation": false,
+        "severity": "severe"
+      },
+      {
+        "name": "전해질 불균형",
+        "negation": false,
+        "severity": null
+      },
+      {
+        "name": "설사",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "졸린 상태",
+    "medication_identity": "노멀셀린",
+    "interventions": [
+      "수액 보충 치료"
+    ],
+    "intake_output": "소변 배출량 200ml로 낮은 상태, 소변 배출량이 시간당 30ml 미만일 경우",
+    "notification": "소변 배출량이 시간당 30ml 미만일 경우 담당 의사에게 보고하였다."
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "sample_id": "scenario_044_telegraphic_icu",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "abdominal pain",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "Drowsy",
+    "medication_identity": "Morphine",
+    "interventions": [],
+    "intake_output": null,
+    "notification": "Pain team consult됨"
+  },
+  "whisper_entities": {
+    "symptoms": [],
+    "clinical_status": null,
+    "medication_identity": null,
+    "interventions": [],
+    "intake_output": null,
+    "notification": null
+  }
+}

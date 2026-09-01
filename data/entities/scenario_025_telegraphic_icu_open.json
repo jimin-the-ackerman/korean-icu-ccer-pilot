@@ -1,0 +1,35 @@
+{
+  "sample_id": "scenario_025_telegraphic_icu",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "abdominal pain",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "Alert",
+    "medication_identity": "Ceftriaxone",
+    "interventions": [
+      "Laparoscopic cholecystectomy planned"
+    ],
+    "intake_output": "Positive balance",
+    "notification": null
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "abdominal pain",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "Alert",
+    "medication_identity": "Ceftriaxone",
+    "interventions": [
+      "Laparoscopic cholecystectomy planned"
+    ],
+    "intake_output": "Positive balance",
+    "notification": null
+  }
+}

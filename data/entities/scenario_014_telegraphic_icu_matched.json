@@ -1,0 +1,114 @@
+{
+  "sample_id": "scenario_014_telegraphic_icu",
+  "closed_vocab_matches": [
+    {
+      "entity_type": "route",
+      "gold_value": "iv",
+      "whisper_value": null,
+      "match_status": "omission",
+      "error_type": "omission"
+    },
+    {
+      "entity_type": "frequency",
+      "gold_value": "q6h",
+      "whisper_value": null,
+      "match_status": "omission",
+      "error_type": "omission"
+    },
+    {
+      "entity_type": "device",
+      "gold_value": "ventilator",
+      "whisper_value": "ventilator",
+      "match_status": "matched",
+      "error_type": null
+    },
+    {
+      "entity_type": "device",
+      "gold_value": "nc",
+      "whisper_value": null,
+      "match_status": "omission",
+      "error_type": "omission"
+    },
+    {
+      "entity_type": "dose",
+      "gold_value": "125mg",
+      "whisper_value": "125mg",
+      "match_status": "matched",
+      "error_type": null
+    },
+    {
+      "entity_type": "vital_sign",
+      "label": "bp",
+      "gold_value": "135/85 mmHg",
+      "whisper_value": null,
+      "match_status": "omission",
+      "error_type": "omission"
+    },
+    {
+      "entity_type": "vital_sign",
+      "label": "hr",
+      "gold_value": "110 bpm",
+      "whisper_value": "180",
+      "match_status": "error",
+      "error_type": "numeric_error"
+    },
+    {
+      "entity_type": "vital_sign",
+      "label": "rr",
+      "gold_value": "30 breaths/min",
+      "whisper_value": null,
+      "match_status": "omission",
+      "error_type": "omission"
+    },
+    {
+      "entity_type": "vital_sign",
+      "label": "bt",
+      "gold_value": "38.3°C",
+      "whisper_value": "38.3",
+      "match_status": "error",
+      "error_type": "numeric_error"
+    },
+    {
+      "entity_type": "vital_sign",
+      "label": "spo2",
+      "gold_value": "88% on room air",
+      "whisper_value": null,
+      "match_status": "omission",
+      "error_type": "omission"
+    }
+  ],
+  "open_vocab_matches": {
+    "symptom_matches": [
+      {
+        "gold_value": "dyspnea",
+        "whisper_value": "dyspnea",
+        "match_basis": "exact",
+        "negation_match": true,
+        "severity_match": true
+      }
+    ],
+    "whisper_only_symptoms": [],
+    "clinical_status_match": {
+      "gold_value": "drowsy",
+      "whisper_value": "drowsy",
+      "match_basis": "exact"
+    },
+    "medication_identity_match": {
+      "gold_value": "methylprednisolone",
+      "whisper_value": "methylprednisolone",
+      "match_basis": "exact"
+    },
+    "intervention_matches": [],
+    "whisper_only_interventions": [],
+    "intake_output_match": {
+      "gold_value": "positive fluid balance",
+      "whisper_value": "positive fluid balance",
+      "match_basis": "exact"
+    },
+    "notification_match": {
+      "gold_value": null,
+      "whisper_value": null,
+      "match_basis": "both_null"
+    }
+  }
+}

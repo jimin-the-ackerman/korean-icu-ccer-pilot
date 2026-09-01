@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_030_formal_template",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "joint pain",
+        "negation": false,
+        "severity": "moderate"
+      }
+    ],
+    "clinical_status": "의식 명료",
+    "medication_identity": "prednisolone",
+    "interventions": [],
+    "intake_output": "수분 균형 positive",
+    "notification": null
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "관절통(joint pain)",
+        "negation": false,
+        "severity": "moderate"
+      }
+    ],
+    "clinical_status": "의식이 명료함",
+    "medication_identity": "베드네즐론",
+    "interventions": [],
+    "intake_output": "수분 균형은 포지티브로 나타났다",
+    "notification": null
+  }
+}

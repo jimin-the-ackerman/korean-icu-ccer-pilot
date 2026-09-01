@@ -1,0 +1,36 @@
+{
+  "sample_id": "scenario_031_telegraphic_icu",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "abdominal pain",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "Drowsy",
+    "medication_identity": "Morphine",
+    "interventions": [
+      "fluid resuscitation"
+    ],
+    "intake_output": "Negative fluid balance 500 mL/24h",
+    "notification": "GI specialist consult"
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "abdominal pain",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "drowsy",
+    "medication_identity": "morphine",
+    "interventions": [
+      "IV fluid resuscitation",
+      "GI specialist consult"
+    ],
+    "intake_output": "negative fluid balance 500mL 24H",
+    "notification": null
+  }
+}

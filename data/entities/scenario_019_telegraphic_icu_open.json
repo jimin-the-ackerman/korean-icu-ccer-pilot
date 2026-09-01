@@ -1,0 +1,40 @@
+{
+  "sample_id": "scenario_019_telegraphic_icu",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "swelling of face/lips",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "Drowsy",
+    "medication_identity": "Epinephrine",
+    "interventions": [
+      "IV fluids 투여함"
+    ],
+    "intake_output": "Urine output 50 mL/hr",
+    "notification": "Allergy team notify"
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "swelling of face",
+        "negation": false,
+        "severity": "severe"
+      },
+      {
+        "name": "swelling of lips",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "drowsy",
+    "medication_identity": "epinephrine",
+    "interventions": [
+      "IV fluids 투여함"
+    ],
+    "intake_output": "Urine output 50mL",
+    "notification": "Allergy team notify"
+  }
+}

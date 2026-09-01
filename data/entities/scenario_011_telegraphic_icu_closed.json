@@ -1,0 +1,91 @@
+{
+  "sample_id": "scenario_011_telegraphic_icu",
+  "gold_entities": {
+    "route": [
+      {
+        "raw": "PO",
+        "normalized": "po",
+        "position": 108
+      }
+    ],
+    "frequency": [
+      {
+        "raw": "TID",
+        "normalized": "tid",
+        "position": 111
+      }
+    ],
+    "device": [
+      {
+        "raw": "Foley",
+        "normalized": "foley",
+        "position": 143
+      },
+      {
+        "raw": "Nasal cannula",
+        "normalized": "nc",
+        "position": 118
+      }
+    ],
+    "vital_sign": [
+      {
+        "raw": "BP 102/68.",
+        "label": "bp",
+        "value": "102/68",
+        "position": 21
+      },
+      {
+        "raw": "HR 88.",
+        "label": "hr",
+        "value": "88",
+        "position": 34
+      },
+      {
+        "raw": "RR 20.",
+        "label": "rr",
+        "value": "20",
+        "position": 43
+      },
+      {
+        "raw": "BT 37.2",
+        "label": "bt",
+        "value": "37.2",
+        "position": 52
+      },
+      {
+        "raw": "SpO2 95%.",
+        "label": "spo2",
+        "value": "95%",
+        "position": 65
+      }
+    ],
+    "dose": [
+      {
+        "raw": "30 ml",
+        "value": "30",
+        "unit": "ml",
+        "position": 102
+      },
+      {
+        "raw": "2 L/min",
+        "value": "2",
+        "unit": "l/min",
+        "position": 132
+      }
+    ]
+  },
+  "whisper_entities": {
+    "route": [],
+    "frequency": [],
+    "device": [],
+    "vital_sign": [],
+    "dose": [
+      {
+        "raw": "36mg",
+        "value": "36",
+        "unit": "mg",
+        "position": 63
+      }
+    ]
+  }
+}

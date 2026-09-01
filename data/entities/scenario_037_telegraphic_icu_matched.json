@@ -1,0 +1,109 @@
+{
+  "sample_id": "scenario_037_telegraphic_icu",
+  "closed_vocab_matches": [
+    {
+      "entity_type": "route",
+      "gold_value": "po",
+      "whisper_value": "iv",
+      "match_status": "error",
+      "error_type": "route_error"
+    },
+    {
+      "entity_type": "frequency",
+      "gold_value": "bid",
+      "whisper_value": null,
+      "match_status": "omission",
+      "error_type": "omission"
+    },
+    {
+      "entity_type": "dose",
+      "gold_value": "40mg",
+      "whisper_value": "40mg",
+      "match_status": "matched",
+      "error_type": null
+    },
+    {
+      "entity_type": "dose",
+      "gold_value": null,
+      "whisper_value": "2000ml",
+      "match_status": "whisper_only",
+      "error_type": null
+    },
+    {
+      "entity_type": "vital_sign",
+      "label": "bp",
+      "gold_value": "110/70",
+      "whisper_value": null,
+      "match_status": "omission",
+      "error_type": "omission"
+    },
+    {
+      "entity_type": "vital_sign",
+      "label": "hr",
+      "gold_value": "95",
+      "whisper_value": null,
+      "match_status": "omission",
+      "error_type": "omission"
+    },
+    {
+      "entity_type": "vital_sign",
+      "label": "rr",
+      "gold_value": "18",
+      "whisper_value": null,
+      "match_status": "omission",
+      "error_type": "omission"
+    },
+    {
+      "entity_type": "vital_sign",
+      "label": "bt",
+      "gold_value": "37.5",
+      "whisper_value": null,
+      "match_status": "omission",
+      "error_type": "omission"
+    },
+    {
+      "entity_type": "vital_sign",
+      "label": "spo2",
+      "gold_value": "98%",
+      "whisper_value": "98%",
+      "match_status": "matched",
+      "error_type": null
+    }
+  ],
+  "open_vocab_matches": {
+    "symptom_matches": [
+      {
+        "gold_value": "abdominal pain",
+        "whisper_value": "복부 아픔",
+        "match_basis": "semantic",
+        "negation_match": true,
+        "severity_match": true
+      }
+    ],
+    "whisper_only_symptoms": [
+      "다이어리"
+    ],
+    "clinical_status_match": {
+      "gold_value": "alert",
+      "whisper_value": "알러트",
+      "match_basis": "semantic"
+    },
+    "medication_identity_match": {
+      "gold_value": "Prednisone",
+      "whisper_value": "프렌듀존",
+      "match_basis": "semantic"
+    },
+    "intervention_matches": [],
+    "whisper_only_interventions": [],
+    "intake_output_match": {
+      "gold_value": "2000 ml IV fluids administered over 24 hours",
+      "whisper_value": "IV 플루이드 2000mL 24",
+      "match_basis": "semantic"
+    },
+    "notification_match": {
+      "gold_value": null,
+      "whisper_value": null,
+      "match_basis": "both_null"
+    }
+  }
+}

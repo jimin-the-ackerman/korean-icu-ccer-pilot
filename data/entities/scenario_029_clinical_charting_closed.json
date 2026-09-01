@@ -1,0 +1,149 @@
+{
+  "sample_id": "scenario_029_clinical_charting",
+  "gold_entities": {
+    "route": [
+      {
+        "raw": "IV",
+        "normalized": "iv",
+        "position": 152
+      }
+    ],
+    "frequency": [
+      {
+        "raw": "q12h",
+        "normalized": "q12h",
+        "position": 155
+      }
+    ],
+    "device": [
+      {
+        "raw": "Foley",
+        "normalized": "foley",
+        "position": 237
+      },
+      {
+        "raw": "Ventilator",
+        "normalized": "ventilator",
+        "position": 220
+      },
+      {
+        "raw": "Nasal cannula",
+        "normalized": "nc",
+        "position": 166
+      }
+    ],
+    "vital_sign": [
+      {
+        "raw": "BP 130/85",
+        "label": "bp",
+        "value": "130/85",
+        "position": 61
+      },
+      {
+        "raw": "HR 92",
+        "label": "hr",
+        "value": "92",
+        "position": 77
+      },
+      {
+        "raw": "RR 18",
+        "label": "rr",
+        "value": "18",
+        "position": 88
+      },
+      {
+        "raw": "BT 36.8",
+        "label": "bt",
+        "value": "36.8",
+        "position": 107
+      },
+      {
+        "raw": "SpO2 89%",
+        "label": "spo2",
+        "value": "89%",
+        "position": 118
+      }
+    ],
+    "dose": [
+      {
+        "raw": "0.4 g",
+        "value": "0.4",
+        "unit": "g",
+        "position": 143
+      },
+      {
+        "raw": "2L/min",
+        "value": "2",
+        "unit": "l/min",
+        "position": 180
+      },
+      {
+        "raw": "1200 ml",
+        "value": "1200",
+        "unit": "ml",
+        "position": 262
+      }
+    ]
+  },
+  "whisper_entities": {
+    "route": [
+      {
+        "raw": "IV",
+        "normalized": "iv",
+        "position": 144
+      }
+    ],
+    "frequency": [],
+    "device": [
+      {
+        "raw": "Foley",
+        "normalized": "foley",
+        "position": 225
+      },
+      {
+        "raw": "Ventilator",
+        "normalized": "ventilator",
+        "position": 210
+      },
+      {
+        "raw": "Nasal cannula",
+        "normalized": "nc",
+        "position": 157
+      }
+    ],
+    "vital_sign": [
+      {
+        "raw": "BP 138.5",
+        "label": "bp",
+        "value": "138.5",
+        "position": 58
+      },
+      {
+        "raw": "HR 92",
+        "label": "hr",
+        "value": "92",
+        "position": 71
+      },
+      {
+        "raw": "BT 36.8",
+        "label": "bt",
+        "value": "36.8",
+        "position": 102
+      }
+    ],
+    "dose": [
+      {
+        "raw": "138.5 mg",
+        "value": "138.5",
+        "unit": "mg",
+        "position": 61
+      },
+      {
+        "raw": "200 mL",
+        "value": "200",
+        "unit": "ml",
+        "position": 251
+      }
+    ]
+  }
+}

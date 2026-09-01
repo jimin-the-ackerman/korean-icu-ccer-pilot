@@ -1,0 +1,127 @@
+{
+  "sample_id": "scenario_041_clinical_charting",
+  "gold_entities": {
+    "route": [
+      {
+        "raw": "IV",
+        "normalized": "iv",
+        "position": 175
+      }
+    ],
+    "frequency": [
+      {
+        "raw": "q8h",
+        "normalized": "q8h",
+        "position": 178
+      }
+    ],
+    "device": [
+      {
+        "raw": "Foley",
+        "normalized": "foley",
+        "position": 216
+      },
+      {
+        "raw": "Nasal cannula",
+        "normalized": "nc",
+        "position": 190
+      }
+    ],
+    "vital_sign": [
+      {
+        "raw": "BP 105/68",
+        "label": "bp",
+        "value": "105/68",
+        "position": 42
+      },
+      {
+        "raw": "HR 112",
+        "label": "hr",
+        "value": "112",
+        "position": 60
+      },
+      {
+        "raw": "RR 22",
+        "label": "rr",
+        "value": "22",
+        "position": 74
+      },
+      {
+        "raw": "BT 37.8",
+        "label": "bt",
+        "value": "37.8",
+        "position": 95
+      },
+      {
+        "raw": "SpO2 92%",
+        "label": "spo2",
+        "value": "92%",
+        "position": 108
+      }
+    ],
+    "dose": [
+      {
+        "raw": "40 mg",
+        "value": "40",
+        "unit": "mg",
+        "position": 169
+      },
+      {
+        "raw": "1200 mL",
+        "value": "1200",
+        "unit": "ml",
+        "position": 243
+      }
+    ]
+  },
+  "whisper_entities": {
+    "route": [
+      {
+        "raw": "IV",
+        "normalized": "iv",
+        "position": 165
+      }
+    ],
+    "frequency": [],
+    "device": [
+      {
+        "raw": "foley",
+        "normalized": "foley",
+        "position": 199
+      },
+      {
+        "raw": "Nasal cannula",
+        "normalized": "nc",
+        "position": 177
+      }
+    ],
+    "vital_sign": [
+      {
+        "raw": "HR 116",
+        "label": "hr",
+        "value": "116",
+        "position": 50
+      },
+      {
+        "raw": "SAT 8",
+        "label": "spo2",
+        "value": "8",
+        "position": 84
+      },
+      {
+        "raw": "Spo2 92%",
+        "label": "spo2",
+        "value": "92%",
+        "position": 105
+      }
+    ],
+    "dose": [
+      {
+        "raw": "40mg",
+        "value": "40",
+        "unit": "mg",
+        "position": 160
+      }
+    ]
+  }
+}

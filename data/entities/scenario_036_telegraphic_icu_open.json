@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_036_telegraphic_icu",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "wheezing",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "Drowsy",
+    "medication_identity": "Albuterol",
+    "interventions": [],
+    "intake_output": "Negative fluid balance",
+    "notification": "RT notify ventilator 관리"
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "Wheezing",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "Drowsy",
+    "medication_identity": "Albuterol",
+    "interventions": [],
+    "intake_output": "Negative Fluid Balance",
+    "notification": "RT Notify Ventilator 관리"
+  }
+}

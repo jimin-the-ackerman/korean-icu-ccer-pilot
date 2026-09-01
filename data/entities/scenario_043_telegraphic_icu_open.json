@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_043_telegraphic_icu",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "fever",
+        "negation": false,
+        "severity": "moderate"
+      }
+    ],
+    "clinical_status": "Alert",
+    "medication_identity": "Vancomycin",
+    "interventions": [],
+    "intake_output": "Positive fluid balance",
+    "notification": null
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "fever",
+        "negation": false,
+        "severity": "moderate"
+      }
+    ],
+    "clinical_status": "alert",
+    "medication_identity": "vancomycin",
+    "interventions": [],
+    "intake_output": "positive fluid balance",
+    "notification": null
+  }
+}

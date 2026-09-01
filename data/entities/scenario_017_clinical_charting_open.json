@@ -1,0 +1,41 @@
+{
+  "sample_id": "scenario_017_clinical_charting",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "hypoglycemia",
+        "negation": false,
+        "severity": "severe"
+      },
+      {
+        "name": "confusion",
+        "negation": false,
+        "severity": "moderate"
+      }
+    ],
+    "clinical_status": "drowsy",
+    "medication_identity": "Dextrose 50%",
+    "interventions": [],
+    "intake_output": "Positive fluid balance due to IV fluids",
+    "notification": "Endocrinologist notify함"
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "hypoglycemia",
+        "negation": false,
+        "severity": "severe"
+      },
+      {
+        "name": "confusion",
+        "negation": false,
+        "severity": "moderate"
+      }
+    ],
+    "clinical_status": "DROWSY",
+    "medication_identity": "DEXTROS",
+    "interventions": [],
+    "intake_output": "Positive fluid balance due to IV fluids",
+    "notification": "Endocrinologist notify함"
+  }
+}

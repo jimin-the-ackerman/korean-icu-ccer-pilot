@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_006_telegraphic_icu",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "hemiplegia",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "Stuporous",
+    "medication_identity": "Labetalol",
+    "interventions": [],
+    "intake_output": "Negative fluid balance",
+    "notification": "Neuro team notify"
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "hemiplegia",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "stuporous",
+    "medication_identity": "labetalol",
+    "interventions": [],
+    "intake_output": "negative fluid balance",
+    "notification": "neuro team notify"
+  }
+}

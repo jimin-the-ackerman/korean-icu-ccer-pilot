@@ -1,0 +1,99 @@
+{
+  "sample_id": "scenario_014_clinical_charting",
+  "gold_entities": {
+    "route": [
+      {
+        "raw": "IV",
+        "normalized": "iv",
+        "position": 170
+      }
+    ],
+    "frequency": [
+      {
+        "raw": "q6h",
+        "normalized": "q6h",
+        "position": 173
+      }
+    ],
+    "device": [
+      {
+        "raw": "Ventilator",
+        "normalized": "ventilator",
+        "position": 212
+      }
+    ],
+    "vital_sign": [
+      {
+        "raw": "BP 135/85",
+        "label": "bp",
+        "value": "135/85",
+        "position": 44
+      },
+      {
+        "raw": "HR 110",
+        "label": "hr",
+        "value": "110",
+        "position": 60
+      },
+      {
+        "raw": "RR 30",
+        "label": "rr",
+        "value": "30",
+        "position": 72
+      },
+      {
+        "raw": "BT 38.3",
+        "label": "bt",
+        "value": "38.3",
+        "position": 91
+      },
+      {
+        "raw": "SpO2 88%",
+        "label": "spo2",
+        "value": "88%",
+        "position": 102
+      }
+    ],
+    "dose": [
+      {
+        "raw": "125 mg",
+        "value": "125",
+        "unit": "mg",
+        "position": 163
+      }
+    ]
+  },
+  "whisper_entities": {
+    "route": [
+      {
+        "raw": "IV",
+        "normalized": "iv",
+        "position": 167
+      }
+    ],
+    "frequency": [],
+    "device": [],
+    "vital_sign": [
+      {
+        "raw": "BP 130",
+        "label": "bp",
+        "value": "130",
+        "position": 38
+      },
+      {
+        "raw": "BT 35",
+        "label": "bt",
+        "value": "35",
+        "position": 83
+      }
+    ],
+    "dose": [
+      {
+        "raw": "11mg",
+        "value": "11",
+        "unit": "mg",
+        "position": 162
+      }
+    ]
+  }
+}

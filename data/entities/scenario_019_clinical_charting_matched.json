@@ -1,0 +1,123 @@
+{
+  "sample_id": "scenario_019_clinical_charting",
+  "closed_vocab_matches": [
+    {
+      "entity_type": "route",
+      "gold_value": "im",
+      "whisper_value": "im",
+      "match_status": "matched",
+      "error_type": null
+    },
+    {
+      "entity_type": "route",
+      "gold_value": null,
+      "whisper_value": "iv",
+      "match_status": "whisper_only",
+      "error_type": null
+    },
+    {
+      "entity_type": "frequency",
+      "gold_value": "stat",
+      "whisper_value": "stat",
+      "match_status": "matched",
+      "error_type": null
+    },
+    {
+      "entity_type": "device",
+      "gold_value": "nc",
+      "whisper_value": null,
+      "match_status": "omission",
+      "error_type": "omission"
+    },
+    {
+      "entity_type": "dose",
+      "gold_value": "0.3mg",
+      "whisper_value": "0.3mg",
+      "match_status": "matched",
+      "error_type": null
+    },
+    {
+      "entity_type": "vital_sign",
+      "label": "bp",
+      "gold_value": "85/50 mmHg",
+      "whisper_value": "85",
+      "match_status": "error",
+      "error_type": "numeric_error"
+    },
+    {
+      "entity_type": "vital_sign",
+      "label": "hr",
+      "gold_value": "120 bpm",
+      "whisper_value": "1",
+      "match_status": "error",
+      "error_type": "numeric_error"
+    },
+    {
+      "entity_type": "vital_sign",
+      "label": "rr",
+      "gold_value": "28 breaths/min",
+      "whisper_value": "28",
+      "match_status": "error",
+      "error_type": "numeric_error"
+    },
+    {
+      "entity_type": "vital_sign",
+      "label": "bt",
+      "gold_value": "36.8°C",
+      "whisper_value": "36.83",
+      "match_status": "error",
+      "error_type": "numeric_error"
+    },
+    {
+      "entity_type": "vital_sign",
+      "label": "spo2",
+      "gold_value": "89% on room air",
+      "whisper_value": null,
+      "match_status": "omission",
+      "error_type": "omission"
+    }
+  ],
+  "open_vocab_matches": {
+    "symptom_matches": [
+      {
+        "gold_value": "swelling of the face and lips",
+        "whisper_value": "스웰링 of the face and lips",
+        "match_basis": "exact",
+        "negation_match": true,
+        "severity_match": true
+      }
+    ],
+    "whisper_only_symptoms": [
+      "알러지 리액션",
+      "애니필락시스"
+    ],
+    "clinical_status_match": {
+      "gold_value": "drowsy",
+      "whisper_value": "드라우지",
+      "match_basis": "phonetic_artifact"
+    },
+    "medication_identity_match": {
+      "gold_value": "epinephrine",
+      "whisper_value": "에피네프린",
+      "match_basis": "exact"
+    },
+    "intervention_matches": [
+      {
+        "gold_value": "administration of IV fluids",
+        "whisper_value": null,
+        "match_basis": "omission"
+      }
+    ],
+    "whisper_only_interventions": [],
+    "intake_output_match": {
+      "gold_value": "urine output 50 mL/hr",
+      "whisper_value": "유륜 아웃풋 50mdph 유지됨",
+      "match_basis": "semantic"
+    },
+    "notification_match": {
+      "gold_value": "allergy team notified for further management",
+      "whisper_value": "알러지 팀 노티파임 for further management",
+      "match_basis": "semantic"
+    }
+  }
+}

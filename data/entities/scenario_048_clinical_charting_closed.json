@@ -1,0 +1,116 @@
+{
+  "sample_id": "scenario_048_clinical_charting",
+  "gold_entities": {
+    "route": [
+      {
+        "raw": "IV",
+        "normalized": "iv",
+        "position": 212
+      }
+    ],
+    "frequency": [
+      {
+        "raw": "q6h",
+        "normalized": "q6h",
+        "position": 215
+      }
+    ],
+    "device": [
+      {
+        "raw": "Foley",
+        "normalized": "foley",
+        "position": 304
+      },
+      {
+        "raw": "nasal cannula",
+        "normalized": "nc",
+        "position": 242
+      }
+    ],
+    "vital_sign": [
+      {
+        "raw": "BP 90/60",
+        "label": "bp",
+        "value": "90/60",
+        "position": 87
+      },
+      {
+        "raw": "HR 120",
+        "label": "hr",
+        "value": "120",
+        "position": 103
+      },
+      {
+        "raw": "RR 24",
+        "label": "rr",
+        "value": "24",
+        "position": 116
+      },
+      {
+        "raw": "BT 36.8",
+        "label": "bt",
+        "value": "36.8",
+        "position": 136
+      },
+      {
+        "raw": "SpO2 92%",
+        "label": "spo2",
+        "value": "92%",
+        "position": 148
+      }
+    ],
+    "dose": [
+      {
+        "raw": "50 mcg",
+        "value": "50",
+        "unit": "mcg",
+        "position": 205
+      },
+      {
+        "raw": "2 L/min",
+        "value": "2",
+        "unit": "l/min",
+        "position": 259
+      }
+    ]
+  },
+  "whisper_entities": {
+    "route": [
+      {
+        "raw": "IV",
+        "normalized": "iv",
+        "position": 148
+      }
+    ],
+    "frequency": [
+      {
+        "raw": "Q6H",
+        "normalized": "q6h",
+        "position": 151
+      }
+    ],
+    "device": [
+      {
+        "raw": "NASAL CANNULA",
+        "normalized": "nc",
+        "position": 174
+      }
+    ],
+    "vital_sign": [
+      {
+        "raw": "BT 36.8",
+        "label": "bt",
+        "value": "36.8",
+        "position": 92
+      }
+    ],
+    "dose": [
+      {
+        "raw": "50mg",
+        "value": "50",
+        "unit": "mg",
+        "position": 143
+      }
+    ]
+  }
+}

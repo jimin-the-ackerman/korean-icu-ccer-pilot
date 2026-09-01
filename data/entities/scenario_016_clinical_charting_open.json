@@ -1,0 +1,40 @@
+{
+  "sample_id": "scenario_016_clinical_charting",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "fever",
+        "negation": false,
+        "severity": "severe"
+      },
+      {
+        "name": "elevated lactate",
+        "negation": false,
+        "severity": null
+      }
+    ],
+    "clinical_status": "drowsy",
+    "medication_identity": "Meropenem",
+    "interventions": [
+      "Abscess drainage"
+    ],
+    "intake_output": "negative fluid balance",
+    "notification": "Elevated lactate 담당의 notify함"
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "fever",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "Drowsy",
+    "medication_identity": "Meripenem",
+    "interventions": [
+      "Abscess drainage"
+    ],
+    "intake_output": "Negative fluid balance",
+    "notification": "Elevated Lactate 담당의에게 Notify함"
+  }
+}

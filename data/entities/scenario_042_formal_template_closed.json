@@ -1,0 +1,37 @@
+{
+  "sample_id": "scenario_042_formal_template",
+  "gold_entities": {
+    "route": [],
+    "frequency": [],
+    "device": [],
+    "vital_sign": [],
+    "dose": [
+      {
+        "raw": "30 mL",
+        "value": "30",
+        "unit": "ml",
+        "position": 303
+      }
+    ]
+  },
+  "whisper_entities": {
+    "route": [],
+    "frequency": [],
+    "device": [],
+    "vital_sign": [],
+    "dose": [
+      {
+        "raw": "62mg",
+        "value": "62",
+        "unit": "mg",
+        "position": 70
+      },
+      {
+        "raw": "30ml",
+        "value": "30",
+        "unit": "ml",
+        "position": 274
+      }
+    ]
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "sample_id": "scenario_028_formal_template",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "두통",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "기면 상태",
+    "medication_identity": "Labetalol",
+    "interventions": [
+      "두부 CT 촬영"
+    ],
+    "intake_output": "지난 24시간 동안 체액 균형이 500 mL 양성으로 확인됨",
+    "notification": "담당 신경과 팀에게 환자의 임상 상태 변화에 대해 보고함"
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "두통",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "기면 상태",
+    "medication_identity": "Labetalol",
+    "interventions": [
+      "두부CT 촬영"
+    ],
+    "intake_output": "지난 24시간 동안 체액균형이 500mL 양성으로 확인됨",
+    "notification": "담당 신경과 팀에게 환자의 임상상태 변화에 대해 보고하였다."
+  }
+}

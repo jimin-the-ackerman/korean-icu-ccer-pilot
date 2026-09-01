@@ -1,0 +1,35 @@
+{
+  "sample_id": "scenario_045_formal_template",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "복통",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "약간 졸리는 상태",
+    "medication_identity": "Hydrocortisone",
+    "interventions": [
+      "체액 보충"
+    ],
+    "intake_output": "소변 배출량 시간당 30 mL",
+    "notification": "부신 기능 부전 관리에 대해 내분비과에 상담하였다."
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "복통",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "약간 졸리는 상태",
+    "medication_identity": "Hydrocortisone",
+    "interventions": [
+      "체액 보충"
+    ],
+    "intake_output": "소변 배출량 시간당 30ml",
+    "notification": "부신 기능 부전 관리에 대해 내분비과에 상담하였다"
+  }
+}

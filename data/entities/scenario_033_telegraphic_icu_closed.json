@@ -1,0 +1,121 @@
+{
+  "sample_id": "scenario_033_telegraphic_icu",
+  "gold_entities": {
+    "route": [
+      {
+        "raw": "IV",
+        "normalized": "iv",
+        "position": 174
+      },
+      {
+        "raw": "IV",
+        "normalized": "iv",
+        "position": 239
+      }
+    ],
+    "frequency": [
+      {
+        "raw": "STAT",
+        "normalized": "stat",
+        "position": 177
+      }
+    ],
+    "device": [
+      {
+        "raw": "C-line",
+        "normalized": "c-line",
+        "position": 214
+      }
+    ],
+    "vital_sign": [
+      {
+        "raw": "BP 88/54",
+        "label": "bp",
+        "value": "88/54",
+        "position": 59
+      },
+      {
+        "raw": "HR 142",
+        "label": "hr",
+        "value": "142",
+        "position": 74
+      },
+      {
+        "raw": "RR 22",
+        "label": "rr",
+        "value": "22",
+        "position": 86
+      },
+      {
+        "raw": "BT 36.9",
+        "label": "bt",
+        "value": "36.9",
+        "position": 105
+      },
+      {
+        "raw": "SpO2 94%",
+        "label": "spo2",
+        "value": "94%",
+        "position": 116
+      }
+    ],
+    "dose": [
+      {
+        "raw": "20 mg",
+        "value": "20",
+        "unit": "mg",
+        "position": 168
+      },
+      {
+        "raw": "1500 mL",
+        "value": "1500",
+        "unit": "ml",
+        "position": 231
+      }
+    ]
+  },
+  "whisper_entities": {
+    "route": [
+      {
+        "raw": "iv",
+        "normalized": "iv",
+        "position": 168
+      },
+      {
+        "raw": "iv",
+        "normalized": "iv",
+        "position": 231
+      }
+    ],
+    "frequency": [],
+    "device": [
+      {
+        "raw": "c-line",
+        "normalized": "c-line",
+        "position": 209
+      }
+    ],
+    "vital_sign": [
+      {
+        "raw": "spo2 94%",
+        "label": "spo2",
+        "value": "94%",
+        "position": 116
+      }
+    ],
+    "dose": [
+      {
+        "raw": "20mg",
+        "value": "20",
+        "unit": "mg",
+        "position": 163
+      },
+      {
+        "raw": "1500ml",
+        "value": "1500",
+        "unit": "ml",
+        "position": 224
+      }
+    ]
+  }
+}

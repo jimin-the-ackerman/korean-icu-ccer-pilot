@@ -1,0 +1,46 @@
+{
+  "sample_id": "scenario_048_clinical_charting",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "gastrointestinal bleeding",
+        "negation": false,
+        "severity": "severe"
+      },
+      {
+        "name": "hemorrhage",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "drowsy",
+    "medication_identity": "Octreotide",
+    "interventions": [
+      "endoscopic band ligation"
+    ],
+    "intake_output": "strict monitoring of input and output",
+    "notification": "Gastroenterology team notify함"
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "gastrointestinal bleeding",
+        "negation": false,
+        "severity": "severe"
+      },
+      {
+        "name": "hemorrhage",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "drowsy",
+    "medication_identity": "Octreotide",
+    "interventions": [
+      "endoscopic band ligation",
+      "strict monitoring of input and output"
+    ],
+    "intake_output": null,
+    "notification": "Gastroenterology team notify"
+  }
+}

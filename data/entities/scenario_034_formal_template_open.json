@@ -1,0 +1,41 @@
+{
+  "sample_id": "scenario_034_formal_template",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "황달",
+        "negation": false,
+        "severity": "moderate"
+      },
+      {
+        "name": "졸음",
+        "negation": false,
+        "severity": null
+      }
+    ],
+    "clinical_status": "졸음",
+    "medication_identity": "Lactulose",
+    "interventions": [],
+    "intake_output": "엄격한 체액 균형 모니터링 필요",
+    "notification": "간성 뇌증 악화를 간 전문 팀에게 보고하였다"
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "황달",
+        "negation": false,
+        "severity": "moderate"
+      },
+      {
+        "name": "졸음",
+        "negation": false,
+        "severity": null
+      }
+    ],
+    "clinical_status": "졸음",
+    "medication_identity": "Lactulose",
+    "interventions": [],
+    "intake_output": "엄격한 체액균형 모니터링 필요",
+    "notification": "간성 뇌증 악화를 간 전문팀에게 보고하였다."
+  }
+}

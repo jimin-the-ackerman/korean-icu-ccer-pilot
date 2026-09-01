@@ -1,0 +1,41 @@
+{
+  "sample_id": "scenario_037_telegraphic_icu",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "abdominal pain",
+        "negation": false,
+        "severity": "severe"
+      },
+      {
+        "name": "diarrhea",
+        "negation": false,
+        "severity": null
+      }
+    ],
+    "clinical_status": "Alert",
+    "medication_identity": "Prednisone",
+    "interventions": [],
+    "intake_output": "IV fluids 2000 ml/24hr",
+    "notification": null
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "복부 아픔",
+        "negation": false,
+        "severity": "severe"
+      },
+      {
+        "name": "다이어리",
+        "negation": false,
+        "severity": null
+      }
+    ],
+    "clinical_status": "알러트",
+    "medication_identity": "프렌듀존",
+    "interventions": [],
+    "intake_output": "IV 플루이드 2000mL 24",
+    "notification": null
+  }
+}

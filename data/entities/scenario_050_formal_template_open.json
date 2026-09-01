@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_050_formal_template",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "흉통",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "기면 상태",
+    "medication_identity": "Nitroglycerin",
+    "interventions": [],
+    "intake_output": "체액 균형 양성",
+    "notification": "추가적인 평가와 관리를 위해 심장내과 팀에게 보고하였다."
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "흉통",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "기면 상태",
+    "medication_identity": "Nitroglycerin",
+    "interventions": [],
+    "intake_output": "체액 균형 양성",
+    "notification": "심장내과 팀에게 보고하였다"
+  }
+}

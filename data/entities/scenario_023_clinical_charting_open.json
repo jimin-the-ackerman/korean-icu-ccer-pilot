@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_023_clinical_charting",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "muscle weakness",
+        "negation": false,
+        "severity": "moderate"
+      }
+    ],
+    "clinical_status": "drowsy",
+    "medication_identity": "Methylprednisolone",
+    "interventions": [],
+    "intake_output": null,
+    "notification": null
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "muscle weakness",
+        "negation": false,
+        "severity": "moderate"
+      }
+    ],
+    "clinical_status": "Drowsy",
+    "medication_identity": "Methylprednisolone",
+    "interventions": [],
+    "intake_output": null,
+    "notification": null
+  }
+}

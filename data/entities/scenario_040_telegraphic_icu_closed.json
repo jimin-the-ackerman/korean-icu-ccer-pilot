@@ -1,0 +1,102 @@
+{
+  "sample_id": "scenario_040_telegraphic_icu",
+  "gold_entities": {
+    "route": [
+      {
+        "raw": "IV",
+        "normalized": "iv",
+        "position": 109
+      }
+    ],
+    "frequency": [
+      {
+        "raw": "q4h",
+        "normalized": "q4h",
+        "position": 112
+      }
+    ],
+    "device": [
+      {
+        "raw": "Foley",
+        "normalized": "foley",
+        "position": 143
+      },
+      {
+        "raw": "Nasal cannula",
+        "normalized": "nc",
+        "position": 119
+      }
+    ],
+    "vital_sign": [
+      {
+        "raw": "BP 110/70.",
+        "label": "bp",
+        "value": "110/70",
+        "position": 19
+      },
+      {
+        "raw": "HR 95.",
+        "label": "hr",
+        "value": "95",
+        "position": 32
+      },
+      {
+        "raw": "RR 20.",
+        "label": "rr",
+        "value": "20",
+        "position": 41
+      },
+      {
+        "raw": "BT 38.0.",
+        "label": "bt",
+        "value": "38.0",
+        "position": 50
+      },
+      {
+        "raw": "SpO2 94%.",
+        "label": "spo2",
+        "value": "94%",
+        "position": 61
+      }
+    ],
+    "dose": [
+      {
+        "raw": "4mg",
+        "value": "4",
+        "unit": "mg",
+        "position": 105
+      },
+      {
+        "raw": "2L/min",
+        "value": "2",
+        "unit": "l/min",
+        "position": 133
+      }
+    ]
+  },
+  "whisper_entities": {
+    "route": [
+      {
+        "raw": "IV",
+        "normalized": "iv",
+        "position": 106
+      }
+    ],
+    "frequency": [
+      {
+        "raw": "Q4H",
+        "normalized": "q4h",
+        "position": 110
+      }
+    ],
+    "device": [
+      {
+        "raw": "Foley",
+        "normalized": "foley",
+        "position": 135
+      }
+    ],
+    "vital_sign": [],
+    "dose": []
+  }
+}

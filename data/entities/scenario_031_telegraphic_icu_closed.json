@@ -1,0 +1,133 @@
+{
+  "sample_id": "scenario_031_telegraphic_icu",
+  "gold_entities": {
+    "route": [
+      {
+        "raw": "IV",
+        "normalized": "iv",
+        "position": 150
+      },
+      {
+        "raw": "IV",
+        "normalized": "iv",
+        "position": 160
+      }
+    ],
+    "frequency": [
+      {
+        "raw": "q4h",
+        "normalized": "q4h",
+        "position": 153
+      }
+    ],
+    "device": [],
+    "vital_sign": [
+      {
+        "raw": "BP 92/58",
+        "label": "bp",
+        "value": "92/58",
+        "position": 25
+      },
+      {
+        "raw": "HR 126",
+        "label": "hr",
+        "value": "126",
+        "position": 42
+      },
+      {
+        "raw": "RR 28",
+        "label": "rr",
+        "value": "28",
+        "position": 56
+      },
+      {
+        "raw": "BT 38.5",
+        "label": "bt",
+        "value": "38.5",
+        "position": 77
+      },
+      {
+        "raw": "SpO2 95%",
+        "label": "spo2",
+        "value": "95%",
+        "position": 90
+      }
+    ],
+    "dose": [
+      {
+        "raw": "4 mg",
+        "value": "4",
+        "unit": "mg",
+        "position": 145
+      },
+      {
+        "raw": "500 mL",
+        "value": "500",
+        "unit": "ml",
+        "position": 209
+      }
+    ]
+  },
+  "whisper_entities": {
+    "route": [
+      {
+        "raw": "IV",
+        "normalized": "iv",
+        "position": 126
+      },
+      {
+        "raw": "IV",
+        "normalized": "iv",
+        "position": 134
+      }
+    ],
+    "frequency": [
+      {
+        "raw": "Q4H",
+        "normalized": "q4h",
+        "position": 129
+      }
+    ],
+    "device": [],
+    "vital_sign": [
+      {
+        "raw": "BP 92",
+        "label": "bp",
+        "value": "92",
+        "position": 18
+      },
+      {
+        "raw": "HR 126",
+        "label": "hr",
+        "value": "126",
+        "position": 31
+      },
+      {
+        "raw": "RR 28",
+        "label": "rr",
+        "value": "28",
+        "position": 42
+      },
+      {
+        "raw": "BT 38.4",
+        "label": "bt",
+        "value": "38.4",
+        "position": 60
+      }
+    ],
+    "dose": [
+      {
+        "raw": "4mg",
+        "value": "4",
+        "unit": "mg",
+        "position": 122
+      },
+      {
+        "raw": "500mL",
+        "value": "500",
+        "unit": "ml",
+        "position": 181
+      }
+    ]
+  }
+}

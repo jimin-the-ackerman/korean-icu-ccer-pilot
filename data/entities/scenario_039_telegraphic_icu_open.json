@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_039_telegraphic_icu",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "SOB (shortness of breath)",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "Drowsy",
+    "medication_identity": "Propranolol",
+    "interventions": [],
+    "intake_output": null,
+    "notification": "Endocrinology team notify"
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "SOB",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "DROWSY",
+    "medication_identity": "PROPRENOLOL",
+    "interventions": [],
+    "intake_output": null,
+    "notification": "ENDOCRINOLOGY TEAM NOTIFY"
+  }
+}

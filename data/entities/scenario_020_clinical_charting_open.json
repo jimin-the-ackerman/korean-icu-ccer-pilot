@@ -1,0 +1,35 @@
+{
+  "sample_id": "scenario_020_clinical_charting",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "abdominal pain",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "Drowsy",
+    "medication_identity": "Morphine",
+    "interventions": [
+      "Gastroenterology consult"
+    ],
+    "intake_output": "Negative fluid balance 500 mL/24hr",
+    "notification": "담당의 notify함"
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "Severe Abdominal Pain",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "Drowsy",
+    "medication_identity": "Morphine",
+    "interventions": [
+      "Gastroenterology Consult 요청함"
+    ],
+    "intake_output": "Negative Fluid Balance 500 mL per hr 확인됨",
+    "notification": "담당의 Notify함"
+  }
+}

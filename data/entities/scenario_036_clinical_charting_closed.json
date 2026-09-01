@@ -1,0 +1,122 @@
+{
+  "sample_id": "scenario_036_clinical_charting",
+  "gold_entities": {
+    "route": [
+      {
+        "raw": "IV",
+        "normalized": "iv",
+        "position": 161
+      }
+    ],
+    "frequency": [
+      {
+        "raw": "q4h",
+        "normalized": "q4h",
+        "position": 164
+      }
+    ],
+    "device": [
+      {
+        "raw": "Ventilator",
+        "normalized": "ventilator",
+        "position": 208
+      },
+      {
+        "raw": "High-flow nasal cannula",
+        "normalized": "nc",
+        "position": 174
+      }
+    ],
+    "vital_sign": [
+      {
+        "raw": "BP 130/85",
+        "label": "bp",
+        "value": "130/85",
+        "position": 49
+      },
+      {
+        "raw": "HR 110",
+        "label": "hr",
+        "value": "110",
+        "position": 64
+      },
+      {
+        "raw": "RR 28",
+        "label": "rr",
+        "value": "28",
+        "position": 75
+      },
+      {
+        "raw": "BT 37.2",
+        "label": "bt",
+        "value": "37.2",
+        "position": 93
+      },
+      {
+        "raw": "SpO2 88%",
+        "label": "spo2",
+        "value": "88%",
+        "position": 103
+      }
+    ],
+    "dose": [
+      {
+        "raw": "2.5 mg",
+        "value": "2.5",
+        "unit": "mg",
+        "position": 154
+      }
+    ]
+  },
+  "whisper_entities": {
+    "route": [
+      {
+        "raw": "IV",
+        "normalized": "iv",
+        "position": 180
+      }
+    ],
+    "frequency": [
+      {
+        "raw": "Q4H",
+        "normalized": "q4h",
+        "position": 183
+      }
+    ],
+    "device": [
+      {
+        "raw": "Ventilator",
+        "normalized": "ventilator",
+        "position": 225
+      }
+    ],
+    "vital_sign": [
+      {
+        "raw": "BP 138.5",
+        "label": "bp",
+        "value": "138.5",
+        "position": 48
+      },
+      {
+        "raw": "SpO2 88%",
+        "label": "spo2",
+        "value": "88%",
+        "position": 123
+      }
+    ],
+    "dose": [
+      {
+        "raw": "138.5mg",
+        "value": "138.5",
+        "unit": "mg",
+        "position": 51
+      },
+      {
+        "raw": "2.5mg",
+        "value": "2.5",
+        "unit": "mg",
+        "position": 174
+      }
+    ]
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "sample_id": "scenario_025_formal_template",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "복통",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "명료",
+    "medication_identity": "Ceftriaxone",
+    "interventions": [
+      "복강경 담낭절제술"
+    ],
+    "intake_output": "양성 균형",
+    "notification": null
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "복통",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "명료한 상태",
+    "medication_identity": "세프트랙손",
+    "interventions": [
+      "복관경 담낭 절제술"
+    ],
+    "intake_output": "양성균형",
+    "notification": null
+  }
+}

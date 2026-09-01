@@ -1,0 +1,116 @@
+{
+  "sample_id": "scenario_047_clinical_charting",
+  "gold_entities": {
+    "route": [
+      {
+        "raw": "IV",
+        "normalized": "iv",
+        "position": 169
+      }
+    ],
+    "frequency": [
+      {
+        "raw": "q12h",
+        "normalized": "q12h",
+        "position": 172
+      }
+    ],
+    "device": [
+      {
+        "raw": "Ventilator",
+        "normalized": "ventilator",
+        "position": 214
+      },
+      {
+        "raw": "High-flow nasal cannula",
+        "normalized": "nc",
+        "position": 184
+      }
+    ],
+    "vital_sign": [
+      {
+        "raw": "BP 110/70",
+        "label": "bp",
+        "value": "110/70",
+        "position": 50
+      },
+      {
+        "raw": "HR 95",
+        "label": "hr",
+        "value": "95",
+        "position": 66
+      },
+      {
+        "raw": "RR 28",
+        "label": "rr",
+        "value": "28",
+        "position": 77
+      },
+      {
+        "raw": "BT 38.5",
+        "label": "bt",
+        "value": "38.5",
+        "position": 96
+      },
+      {
+        "raw": "SpO2 88%",
+        "label": "spo2",
+        "value": "88%",
+        "position": 107
+      }
+    ],
+    "dose": [
+      {
+        "raw": "750 mg",
+        "value": "750",
+        "unit": "mg",
+        "position": 162
+      }
+    ]
+  },
+  "whisper_entities": {
+    "route": [
+      {
+        "raw": "IV",
+        "normalized": "iv",
+        "position": 130
+      }
+    ],
+    "frequency": [],
+    "device": [],
+    "vital_sign": [
+      {
+        "raw": "BP 100.70",
+        "label": "bp",
+        "value": "100.70",
+        "position": 34
+      },
+      {
+        "raw": "HR 95",
+        "label": "hr",
+        "value": "95",
+        "position": 49
+      },
+      {
+        "raw": "BT 38.5",
+        "label": "bt",
+        "value": "38.5",
+        "position": 67
+      },
+      {
+        "raw": "SpO2 80%",
+        "label": "spo2",
+        "value": "80%",
+        "position": 78
+      }
+    ],
+    "dose": [
+      {
+        "raw": "715mg",
+        "value": "715",
+        "unit": "mg",
+        "position": 124
+      }
+    ]
+  }
+}

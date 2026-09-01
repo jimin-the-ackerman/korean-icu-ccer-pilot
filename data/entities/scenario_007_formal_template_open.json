@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_007_formal_template",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "호흡곤란",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "drowsy",
+    "medication_identity": "Methylprednisolone",
+    "interventions": [],
+    "intake_output": "positive fluid balance",
+    "notification": "환자의 악화된 호흡 상태에 대해 담당 폐과 의사에게 보고하였다."
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "호흡곤란",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "drowsy",
+    "medication_identity": "메틀프레드니즐론",
+    "interventions": [],
+    "intake_output": "positive fluid balance",
+    "notification": "환자의 악화된 호흡상태에 대해 담당 폐거의사에게 보고하였다."
+  }
+}

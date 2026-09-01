@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_009_telegraphic_icu",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "fever",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "Drowsy",
+    "medication_identity": "Piperacillin/Tazobactam",
+    "interventions": [],
+    "intake_output": "Positive fluid balance",
+    "notification": "Dr notify"
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "Severe Fever",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "Drowsy",
+    "medication_identity": "Piperacillin-tazobactam",
+    "interventions": [],
+    "intake_output": "Positive Fluid Balance",
+    "notification": "Dr. Notify"
+  }
+}

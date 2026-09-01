@@ -1,0 +1,55 @@
+{
+  "sample_id": "scenario_042_clinical_charting",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "dehydration",
+        "negation": false,
+        "severity": "severe"
+      },
+      {
+        "name": "electrolyte imbalance",
+        "negation": false,
+        "severity": null
+      },
+      {
+        "name": "diarrhea",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "drowsy",
+    "medication_identity": "Normal Saline",
+    "interventions": [
+      "IV fluid resuscitation"
+    ],
+    "intake_output": "Urine output low, 200 mL/8시간",
+    "notification": "Urine output 30 mL/hour 미만시 담당의 notify함"
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "dehydration",
+        "negation": false,
+        "severity": "severe"
+      },
+      {
+        "name": "electrolyte imbalance",
+        "negation": false,
+        "severity": null
+      },
+      {
+        "name": "diarrhea",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "Drowsy",
+    "medication_identity": "Normal Saline",
+    "interventions": [
+      "IV Fluid Resuscitation"
+    ],
+    "intake_output": "Urine Output Low, 200mlhs",
+    "notification": "Urine Output 30mlhs 미만시 담당의에게 Notify함"
+  }
+}

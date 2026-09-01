@@ -1,0 +1,33 @@
+{
+  "sample_id": "scenario_027_telegraphic_icu",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "right side weakness",
+        "negation": false,
+        "severity": "moderate"
+      }
+    ],
+    "clinical_status": "Drowsy",
+    "medication_identity": "Alteplase",
+    "interventions": [],
+    "intake_output": null,
+    "notification": "Neurology team notify"
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "Right Side Weakness",
+        "negation": false,
+        "severity": "moderate"
+      }
+    ],
+    "clinical_status": "Drowsy",
+    "medication_identity": "Alteplase",
+    "interventions": [
+      "IV Fluids 시작"
+    ],
+    "intake_output": null,
+    "notification": "Neurology Team Notify"
+  }
+}

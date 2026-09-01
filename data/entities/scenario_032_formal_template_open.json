@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_032_formal_template",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "호흡곤란",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "기면 상태",
+    "medication_identity": "methylprednisolone",
+    "interventions": [],
+    "intake_output": null,
+    "notification": null
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "호흡 곤란",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "기면 상태",
+    "medication_identity": "메틀프레드니졸론",
+    "interventions": [],
+    "intake_output": null,
+    "notification": null
+  }
+}

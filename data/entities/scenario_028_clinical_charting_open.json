@@ -1,0 +1,35 @@
+{
+  "sample_id": "scenario_028_clinical_charting",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "headache",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "stuporous",
+    "medication_identity": "Labetalol",
+    "interventions": [
+      "CT scan of the head"
+    ],
+    "intake_output": "24시간 동안 500 mL positive fluid balance",
+    "notification": "Neurology team notify함"
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "severe headache",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "stuporous",
+    "medication_identity": "labetalol",
+    "interventions": [
+      "CT scan of the head"
+    ],
+    "intake_output": "500mL positive fluid balance",
+    "notification": "Neurology team notify함"
+  }
+}

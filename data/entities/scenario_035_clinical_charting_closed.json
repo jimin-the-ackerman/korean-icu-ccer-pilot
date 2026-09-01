@@ -1,0 +1,139 @@
+{
+  "sample_id": "scenario_035_clinical_charting",
+  "gold_entities": {
+    "route": [
+      {
+        "raw": "IV",
+        "normalized": "iv",
+        "position": 209
+      }
+    ],
+    "frequency": [
+      {
+        "raw": "q8h",
+        "normalized": "q8h",
+        "position": 212
+      }
+    ],
+    "device": [
+      {
+        "raw": "Foley",
+        "normalized": "foley",
+        "position": 259
+      },
+      {
+        "raw": "nasal cannula",
+        "normalized": "nc",
+        "position": 234
+      }
+    ],
+    "vital_sign": [
+      {
+        "raw": "BP 95/60",
+        "label": "bp",
+        "value": "95/60",
+        "position": 79
+      },
+      {
+        "raw": "HR 110",
+        "label": "hr",
+        "value": "110",
+        "position": 94
+      },
+      {
+        "raw": "RR 24",
+        "label": "rr",
+        "value": "24",
+        "position": 106
+      },
+      {
+        "raw": "BT 36.8",
+        "label": "bt",
+        "value": "36.8",
+        "position": 125
+      },
+      {
+        "raw": "SpO2 90%",
+        "label": "spo2",
+        "value": "90%",
+        "position": 136
+      }
+    ],
+    "dose": [
+      {
+        "raw": "40 mg",
+        "value": "40",
+        "unit": "mg",
+        "position": 203
+      },
+      {
+        "raw": "4 L/min",
+        "value": "4",
+        "unit": "l/min",
+        "position": 222
+      },
+      {
+        "raw": "500 mL",
+        "value": "500",
+        "unit": "ml",
+        "position": 295
+      }
+    ]
+  },
+  "whisper_entities": {
+    "route": [
+      {
+        "raw": "IV",
+        "normalized": "iv",
+        "position": 184
+      }
+    ],
+    "frequency": [
+      {
+        "raw": "q8h",
+        "normalized": "q8h",
+        "position": 188
+      }
+    ],
+    "device": [
+      {
+        "raw": "Foley",
+        "normalized": "foley",
+        "position": 233
+      },
+      {
+        "raw": "nasal cannula",
+        "normalized": "nc",
+        "position": 209
+      }
+    ],
+    "vital_sign": [
+      {
+        "raw": "bp.",
+        "label": "bp",
+        "value": "",
+        "position": 61
+      }
+    ],
+    "dose": [
+      {
+        "raw": "60mg",
+        "value": "60",
+        "unit": "mg",
+        "position": 68
+      },
+      {
+        "raw": "40mg",
+        "value": "40",
+        "unit": "mg",
+        "position": 179
+      },
+      {
+        "raw": "500mL",
+        "value": "500",
+        "unit": "ml",
+        "position": 267
+      }
+    ]
+  }
+}

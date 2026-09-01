@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_022_telegraphic_icu",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "SOB",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "Drowsy",
+    "medication_identity": "Furosemide",
+    "interventions": [],
+    "intake_output": "양성 수분 균형",
+    "notification": "Cardiology team notify"
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "SOB",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "Drowsy",
+    "medication_identity": "Furosemide",
+    "interventions": [],
+    "intake_output": "양성수분균형",
+    "notification": "Cardiology Team, Notify"
+  }
+}

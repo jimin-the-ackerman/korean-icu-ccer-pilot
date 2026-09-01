@@ -1,0 +1,124 @@
+{
+  "sample_id": "scenario_048_telegraphic_icu",
+  "closed_vocab_matches": [
+    {
+      "entity_type": "route",
+      "gold_value": "iv",
+      "whisper_value": null,
+      "match_status": "omission",
+      "error_type": "omission"
+    },
+    {
+      "entity_type": "frequency",
+      "gold_value": "q6h",
+      "whisper_value": null,
+      "match_status": "omission",
+      "error_type": "omission"
+    },
+    {
+      "entity_type": "device",
+      "gold_value": "foley",
+      "whisper_value": null,
+      "match_status": "omission",
+      "error_type": "omission"
+    },
+    {
+      "entity_type": "device",
+      "gold_value": "nc",
+      "whisper_value": null,
+      "match_status": "omission",
+      "error_type": "omission"
+    },
+    {
+      "entity_type": "dose",
+      "gold_value": "50mcg",
+      "whisper_value": null,
+      "match_status": "omission",
+      "error_type": "omission"
+    },
+    {
+      "entity_type": "vital_sign",
+      "label": "bp",
+      "gold_value": "90/60 mmHg",
+      "whisper_value": null,
+      "match_status": "omission",
+      "error_type": "omission"
+    },
+    {
+      "entity_type": "vital_sign",
+      "label": "hr",
+      "gold_value": "120 bpm",
+      "whisper_value": null,
+      "match_status": "omission",
+      "error_type": "omission"
+    },
+    {
+      "entity_type": "vital_sign",
+      "label": "rr",
+      "gold_value": "24 breaths/min",
+      "whisper_value": null,
+      "match_status": "omission",
+      "error_type": "omission"
+    },
+    {
+      "entity_type": "vital_sign",
+      "label": "bt",
+      "gold_value": "36.8°C",
+      "whisper_value": null,
+      "match_status": "omission",
+      "error_type": "omission"
+    },
+    {
+      "entity_type": "vital_sign",
+      "label": "spo2",
+      "gold_value": "92% on room air",
+      "whisper_value": null,
+      "match_status": "omission",
+      "error_type": "omission"
+    }
+  ],
+  "open_vocab_matches": {
+    "symptom_matches": [
+      {
+        "gold_value": "hemorrhage (severe)",
+        "whisper_value": "hemorrhage",
+        "match_basis": "semantic",
+        "negation_match": true,
+        "severity_match": false
+      }
+    ],
+    "whisper_only_symptoms": [
+      "drowsy"
+    ],
+    "clinical_status_match": {
+      "gold_value": "drowsy",
+      "whisper_value": "drowsy",
+      "match_basis": "exact"
+    },
+    "medication_identity_match": {
+      "gold_value": "Octreotide",
+      "whisper_value": "Octreotide",
+      "match_basis": "exact"
+    },
+    "intervention_matches": [
+      {
+        "gold_value": "endoscopic band ligation",
+        "whisper_value": "Endoscopic band ligation",
+        "match_basis": "exact"
+      }
+    ],
+    "whisper_only_interventions": [
+      "strict monitoring"
+    ],
+    "intake_output_match": {
+      "gold_value": "strict monitoring of input and output",
+      "whisper_value": null,
+      "match_basis": "omission"
+    },
+    "notification_match": {
+      "gold_value": "gastroenterology team informed of ongoing bleeding",
+      "whisper_value": "Dr. Notify",
+      "match_basis": "value_substitution"
+    }
+  }
+}

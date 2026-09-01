@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_036_formal_template",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "wheezing",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "졸림 (drowsy)",
+    "medication_identity": "Albuterol",
+    "interventions": [],
+    "intake_output": "체액 균형 음성 (negative fluid balance)",
+    "notification": "환기 관리 위해 호흡 치료사에게 보고함"
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "위징",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "졸림",
+    "medication_identity": "알부테롤",
+    "interventions": [],
+    "intake_output": "체액균형 음성",
+    "notification": "환기관리위에 호흡치료사에게 보고하였다"
+  }
+}

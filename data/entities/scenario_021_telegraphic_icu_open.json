@@ -1,0 +1,40 @@
+{
+  "sample_id": "scenario_021_telegraphic_icu",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "muscle weakness",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "Alert",
+    "medication_identity": "Calcium gluconate",
+    "interventions": [
+      "IV fluid administration"
+    ],
+    "intake_output": "I/O strict monitoring",
+    "notification": "Renal team notify"
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "하이퍼칼리미아",
+        "negation": false,
+        "severity": "severe"
+      },
+      {
+        "name": "랩도마이올리스",
+        "negation": false,
+        "severity": null
+      }
+    ],
+    "clinical_status": "알러트",
+    "medication_identity": "카오시엄 글루코네이트",
+    "interventions": [
+      "IO 스트릭트 모니터링"
+    ],
+    "intake_output": null,
+    "notification": "린얼 팀 노티파이"
+  }
+}

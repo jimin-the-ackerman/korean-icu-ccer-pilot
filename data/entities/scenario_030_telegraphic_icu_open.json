@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_030_telegraphic_icu",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "joint pain",
+        "negation": false,
+        "severity": "moderate"
+      }
+    ],
+    "clinical_status": "Alert",
+    "medication_identity": "Prednisolone",
+    "interventions": [],
+    "intake_output": "IO positive",
+    "notification": null
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "joint pain",
+        "negation": false,
+        "severity": "moderate"
+      }
+    ],
+    "clinical_status": "ALERT",
+    "medication_identity": null,
+    "interventions": [],
+    "intake_output": "IOPOSITIVE",
+    "notification": null
+  }
+}

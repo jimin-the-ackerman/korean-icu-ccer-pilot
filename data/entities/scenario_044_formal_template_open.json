@@ -1,0 +1,33 @@
+{
+  "sample_id": "scenario_044_formal_template",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "복통",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "졸린 상태",
+    "medication_identity": "morphine",
+    "interventions": [],
+    "intake_output": null,
+    "notification": "통증 조절을 위해 통증 팀에 컨설트하였다"
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "복통",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "졸린 상태",
+    "medication_identity": "Morphine",
+    "interventions": [
+      "통증팀 컨설트"
+    ],
+    "intake_output": null,
+    "notification": null
+  }
+}

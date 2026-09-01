@@ -1,0 +1,35 @@
+{
+  "sample_id": "scenario_033_formal_template",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "심계항진",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "의식 명료",
+    "medication_identity": "Diltiazem",
+    "interventions": [
+      "전기적 심율동 전환"
+    ],
+    "intake_output": "1500 mL의 수액이 정맥으로 투여됨",
+    "notification": "추가적인 관리를 위해 심장내과 팀에게 보고함"
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "심개양진",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "의식이 명료함",
+    "medication_identity": "딜티아즘",
+    "interventions": [
+      "전기적 심률동 전환"
+    ],
+    "intake_output": "1,500mL의 수액이 정맥으로 투여됨",
+    "notification": "추가적인 관리를 위해 심장내과 팀에게 보고함"
+  }
+}

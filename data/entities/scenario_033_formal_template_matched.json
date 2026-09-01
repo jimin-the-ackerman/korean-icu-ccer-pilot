@@ -1,0 +1,113 @@
+{
+  "sample_id": "scenario_033_formal_template",
+  "closed_vocab_matches": [
+    {
+      "entity_type": "route",
+      "gold_value": "iv",
+      "whisper_value": null,
+      "match_status": "omission",
+      "error_type": "omission"
+    },
+    {
+      "entity_type": "frequency",
+      "gold_value": "stat",
+      "whisper_value": null,
+      "match_status": "omission",
+      "error_type": "omission"
+    },
+    {
+      "entity_type": "device",
+      "gold_value": "c-line",
+      "whisper_value": null,
+      "match_status": "omission",
+      "error_type": "omission"
+    },
+    {
+      "entity_type": "dose",
+      "gold_value": "20mg",
+      "whisper_value": null,
+      "match_status": "omission",
+      "error_type": "omission"
+    },
+    {
+      "entity_type": "vital_sign",
+      "label": "bp",
+      "gold_value": "88/54 mmHg",
+      "whisper_value": null,
+      "match_status": "omission",
+      "error_type": "omission"
+    },
+    {
+      "entity_type": "vital_sign",
+      "label": "hr",
+      "gold_value": "142 bpm",
+      "whisper_value": null,
+      "match_status": "omission",
+      "error_type": "omission"
+    },
+    {
+      "entity_type": "vital_sign",
+      "label": "rr",
+      "gold_value": "22 breaths/min",
+      "whisper_value": null,
+      "match_status": "omission",
+      "error_type": "omission"
+    },
+    {
+      "entity_type": "vital_sign",
+      "label": "bt",
+      "gold_value": "36.9°C",
+      "whisper_value": null,
+      "match_status": "omission",
+      "error_type": "omission"
+    },
+    {
+      "entity_type": "vital_sign",
+      "label": "spo2",
+      "gold_value": "94% on room air",
+      "whisper_value": null,
+      "match_status": "omission",
+      "error_type": "omission"
+    }
+  ],
+  "open_vocab_matches": {
+    "symptom_matches": [
+      {
+        "gold_value": "palpitations",
+        "whisper_value": "심개양진",
+        "match_basis": "phonetic_artifact",
+        "negation_match": null,
+        "severity_match": null
+      }
+    ],
+    "whisper_only_symptoms": [],
+    "clinical_status_match": {
+      "gold_value": "alert",
+      "whisper_value": "의식이 명료함",
+      "match_basis": "semantic"
+    },
+    "medication_identity_match": {
+      "gold_value": "Diltiazem",
+      "whisper_value": "딜티아즘",
+      "match_basis": "semantic"
+    },
+    "intervention_matches": [
+      {
+        "gold_value": "Electrical cardioversion",
+        "whisper_value": "전기적 심률동 전환",
+        "match_basis": "semantic"
+      }
+    ],
+    "whisper_only_interventions": [],
+    "intake_output_match": {
+      "gold_value": "1500 mL IV fluids administered",
+      "whisper_value": "1,500mL의 수액이 정맥으로 투여됨",
+      "match_basis": "exact"
+    },
+    "notification_match": {
+      "gold_value": "Cardiology team notified for further management.",
+      "whisper_value": "추가적인 관리를 위해 심장내과 팀에게 보고함",
+      "match_basis": "exact"
+    }
+  }
+}

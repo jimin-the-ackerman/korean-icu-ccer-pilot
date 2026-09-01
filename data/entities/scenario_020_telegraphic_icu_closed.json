@@ -1,0 +1,126 @@
+{
+  "sample_id": "scenario_020_telegraphic_icu",
+  "gold_entities": {
+    "route": [
+      {
+        "raw": "IV",
+        "normalized": "iv",
+        "position": 121
+      }
+    ],
+    "frequency": [
+      {
+        "raw": "q4h",
+        "normalized": "q4h",
+        "position": 124
+      }
+    ],
+    "device": [
+      {
+        "raw": "NG tube",
+        "normalized": "ng tube",
+        "position": 155
+      },
+      {
+        "raw": "NC",
+        "normalized": "nc",
+        "position": 138
+      }
+    ],
+    "vital_sign": [
+      {
+        "raw": "BP 110/70.",
+        "label": "bp",
+        "value": "110/70",
+        "position": 28
+      },
+      {
+        "raw": "HR 95.",
+        "label": "hr",
+        "value": "95",
+        "position": 41
+      },
+      {
+        "raw": "RR 22.",
+        "label": "rr",
+        "value": "22",
+        "position": 50
+      },
+      {
+        "raw": "BT 37.8.",
+        "label": "bt",
+        "value": "37.8",
+        "position": 59
+      },
+      {
+        "raw": "SpO2 94%.",
+        "label": "spo2",
+        "value": "94%",
+        "position": 70
+      }
+    ],
+    "dose": [
+      {
+        "raw": "4 mg",
+        "value": "4",
+        "unit": "mg",
+        "position": 116
+      },
+      {
+        "raw": "2 L/min",
+        "value": "2",
+        "unit": "l/min",
+        "position": 144
+      },
+      {
+        "raw": "500 mL",
+        "value": "500",
+        "unit": "ml",
+        "position": 181
+      }
+    ]
+  },
+  "whisper_entities": {
+    "route": [
+      {
+        "raw": "IV",
+        "normalized": "iv",
+        "position": 97
+      }
+    ],
+    "frequency": [
+      {
+        "raw": "Q4H",
+        "normalized": "q4h",
+        "position": 100
+      }
+    ],
+    "device": [
+      {
+        "raw": "NG tube",
+        "normalized": "ng tube",
+        "position": 126
+      },
+      {
+        "raw": "NC",
+        "normalized": "nc",
+        "position": 112
+      }
+    ],
+    "vital_sign": [],
+    "dose": [
+      {
+        "raw": "4mg",
+        "value": "4",
+        "unit": "mg",
+        "position": 93
+      },
+      {
+        "raw": "500mL",
+        "value": "500",
+        "unit": "ml",
+        "position": 152
+      }
+    ]
+  }
+}

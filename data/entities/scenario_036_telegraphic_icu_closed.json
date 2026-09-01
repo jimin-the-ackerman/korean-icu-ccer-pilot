@@ -1,0 +1,125 @@
+{
+  "sample_id": "scenario_036_telegraphic_icu",
+  "gold_entities": {
+    "route": [
+      {
+        "raw": "IV",
+        "normalized": "iv",
+        "position": 150
+      }
+    ],
+    "frequency": [
+      {
+        "raw": "q4h",
+        "normalized": "q4h",
+        "position": 153
+      }
+    ],
+    "device": [
+      {
+        "raw": "Ventilator",
+        "normalized": "ventilator",
+        "position": 190
+      },
+      {
+        "raw": "ventilator",
+        "normalized": "ventilator",
+        "position": 255
+      },
+      {
+        "raw": "High-flow nasal cannula",
+        "normalized": "nc",
+        "position": 160
+      }
+    ],
+    "vital_sign": [
+      {
+        "raw": "BP 130/85",
+        "label": "bp",
+        "value": "130/85",
+        "position": 27
+      },
+      {
+        "raw": "HR 110",
+        "label": "hr",
+        "value": "110",
+        "position": 45
+      },
+      {
+        "raw": "RR 28",
+        "label": "rr",
+        "value": "28",
+        "position": 59
+      },
+      {
+        "raw": "BT 37.2",
+        "label": "bt",
+        "value": "37.2",
+        "position": 80
+      },
+      {
+        "raw": "SpO2 88%",
+        "label": "spo2",
+        "value": "88%",
+        "position": 93
+      }
+    ],
+    "dose": [
+      {
+        "raw": "2.5 mg",
+        "value": "2.5",
+        "unit": "mg",
+        "position": 143
+      }
+    ]
+  },
+  "whisper_entities": {
+    "route": [
+      {
+        "raw": "IV",
+        "normalized": "iv",
+        "position": 111
+      }
+    ],
+    "frequency": [
+      {
+        "raw": "Q4H",
+        "normalized": "q4h",
+        "position": 114
+      }
+    ],
+    "device": [
+      {
+        "raw": "Ventilator",
+        "normalized": "ventilator",
+        "position": 147
+      },
+      {
+        "raw": "Ventilator",
+        "normalized": "ventilator",
+        "position": 206
+      },
+      {
+        "raw": "Nasal Cannula",
+        "normalized": "nc",
+        "position": 129
+      }
+    ],
+    "vital_sign": [
+      {
+        "raw": "BT 37.2",
+        "label": "bt",
+        "value": "37.2",
+        "position": 47
+      }
+    ],
+    "dose": [
+      {
+        "raw": "2.5mg",
+        "value": "2.5",
+        "unit": "mg",
+        "position": 105
+      }
+    ]
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "sample_id": "scenario_008_formal_template",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "복통",
+        "negation": false,
+        "severity": "moderate"
+      }
+    ],
+    "clinical_status": "졸림",
+    "medication_identity": "Pantoprazole",
+    "interventions": [
+      "혈액 수혈"
+    ],
+    "intake_output": "입출량 음성",
+    "notification": "위장관 팀에게 내시경 검사를 위해 보고함"
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "복통",
+        "negation": false,
+        "severity": "moderate"
+      }
+    ],
+    "clinical_status": "졸림 상태",
+    "medication_identity": "Pantoprazolas",
+    "interventions": [
+      "혈액 수혈"
+    ],
+    "intake_output": "입출량 음성",
+    "notification": "위장관팀에게 내시경 검사를 위해 보고함"
+  }
+}

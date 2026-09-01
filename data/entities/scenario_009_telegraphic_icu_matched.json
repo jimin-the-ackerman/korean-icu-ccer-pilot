@@ -1,0 +1,114 @@
+{
+  "sample_id": "scenario_009_telegraphic_icu",
+  "closed_vocab_matches": [
+    {
+      "entity_type": "route",
+      "gold_value": "iv",
+      "whisper_value": null,
+      "match_status": "omission",
+      "error_type": "omission"
+    },
+    {
+      "entity_type": "frequency",
+      "gold_value": "q8h",
+      "whisper_value": "q8h",
+      "match_status": "matched",
+      "error_type": null
+    },
+    {
+      "entity_type": "device",
+      "gold_value": "c-line",
+      "whisper_value": "c-line",
+      "match_status": "matched",
+      "error_type": null
+    },
+    {
+      "entity_type": "device",
+      "gold_value": "nc",
+      "whisper_value": null,
+      "match_status": "omission",
+      "error_type": "omission"
+    },
+    {
+      "entity_type": "dose",
+      "gold_value": "4.5g",
+      "whisper_value": null,
+      "match_status": "omission",
+      "error_type": "omission"
+    },
+    {
+      "entity_type": "vital_sign",
+      "label": "bp",
+      "gold_value": "85/50",
+      "whisper_value": null,
+      "match_status": "omission",
+      "error_type": "omission"
+    },
+    {
+      "entity_type": "vital_sign",
+      "label": "hr",
+      "gold_value": "120",
+      "whisper_value": null,
+      "match_status": "omission",
+      "error_type": "omission"
+    },
+    {
+      "entity_type": "vital_sign",
+      "label": "rr",
+      "gold_value": "26",
+      "whisper_value": null,
+      "match_status": "omission",
+      "error_type": "omission"
+    },
+    {
+      "entity_type": "vital_sign",
+      "label": "bt",
+      "gold_value": "38.9",
+      "whisper_value": null,
+      "match_status": "omission",
+      "error_type": "omission"
+    },
+    {
+      "entity_type": "vital_sign",
+      "label": "spo2",
+      "gold_value": "92%",
+      "whisper_value": null,
+      "match_status": "omission",
+      "error_type": "omission"
+    }
+  ],
+  "open_vocab_matches": {
+    "symptom_matches": [
+      {
+        "gold_value": "fever",
+        "whisper_value": "Severe Fever",
+        "match_basis": "exact",
+        "negation_match": true,
+        "severity_match": true
+      }
+    ],
+    "whisper_only_symptoms": [],
+    "clinical_status_match": {
+      "gold_value": "drowsy",
+      "whisper_value": "Drowsy",
+      "match_basis": "exact"
+    },
+    "medication_identity_match": {
+      "gold_value": "Piperacillin/Tazobactam",
+      "whisper_value": "Piperacillin-tazobactam",
+      "match_basis": "exact"
+    },
+    "intervention_matches": [],
+    "whisper_only_interventions": [],
+    "intake_output_match": {
+      "gold_value": "Positive fluid balance",
+      "whisper_value": "Positive Fluid Balance",
+      "match_basis": "exact"
+    },
+    "notification_match": {
+      "gold_value": "Informed attending physician about ongoing hypotension and fever.",
+      "whisper_value": "Dr. Notify",
+      "match_basis": "semantic"
+    }
+  }
+}

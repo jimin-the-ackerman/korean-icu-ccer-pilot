@@ -1,0 +1,139 @@
+{
+  "sample_id": "scenario_033_clinical_charting",
+  "gold_entities": {
+    "route": [
+      {
+        "raw": "IV",
+        "normalized": "iv",
+        "position": 192
+      },
+      {
+        "raw": "IV",
+        "normalized": "iv",
+        "position": 256
+      }
+    ],
+    "frequency": [
+      {
+        "raw": "STAT",
+        "normalized": "stat",
+        "position": 195
+      }
+    ],
+    "device": [
+      {
+        "raw": "C-line",
+        "normalized": "c-line",
+        "position": 241
+      }
+    ],
+    "vital_sign": [
+      {
+        "raw": "BP 88/54",
+        "label": "bp",
+        "value": "88/54",
+        "position": 61
+      },
+      {
+        "raw": "HR 142",
+        "label": "hr",
+        "value": "142",
+        "position": 78
+      },
+      {
+        "raw": "RR 22",
+        "label": "rr",
+        "value": "22",
+        "position": 92
+      },
+      {
+        "raw": "BT 36.9",
+        "label": "bt",
+        "value": "36.9",
+        "position": 113
+      },
+      {
+        "raw": "SpO2 94%",
+        "label": "spo2",
+        "value": "94%",
+        "position": 126
+      }
+    ],
+    "dose": [
+      {
+        "raw": "20 mg",
+        "value": "20",
+        "unit": "mg",
+        "position": 186
+      },
+      {
+        "raw": "1500 mL",
+        "value": "1500",
+        "unit": "ml",
+        "position": 266
+      }
+    ]
+  },
+  "whisper_entities": {
+    "route": [
+      {
+        "raw": "IV",
+        "normalized": "iv",
+        "position": 168
+      },
+      {
+        "raw": "IV",
+        "normalized": "iv",
+        "position": 223
+      }
+    ],
+    "frequency": [
+      {
+        "raw": "stat",
+        "normalized": "stat",
+        "position": 171
+      }
+    ],
+    "device": [
+      {
+        "raw": "C-line",
+        "normalized": "c-line",
+        "position": 211
+      }
+    ],
+    "vital_sign": [
+      {
+        "raw": "BP 88",
+        "label": "bp",
+        "value": "88",
+        "position": 54
+      },
+      {
+        "raw": "HR 142",
+        "label": "hr",
+        "value": "142",
+        "position": 69
+      },
+      {
+        "raw": "BT 36",
+        "label": "bt",
+        "value": "36",
+        "position": 100
+      }
+    ],
+    "dose": [
+      {
+        "raw": "20mg",
+        "value": "20",
+        "unit": "mg",
+        "position": 163
+      },
+      {
+        "raw": "500mL",
+        "value": "500",
+        "unit": "ml",
+        "position": 236
+      }
+    ]
+  }
+}

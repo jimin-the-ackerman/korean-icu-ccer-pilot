@@ -1,0 +1,127 @@
+{
+  "sample_id": "scenario_042_clinical_charting",
+  "gold_entities": {
+    "route": [
+      {
+        "raw": "IV",
+        "normalized": "iv",
+        "position": 185
+      },
+      {
+        "raw": "IV",
+        "normalized": "iv",
+        "position": 200
+      }
+    ],
+    "frequency": [
+      {
+        "raw": "STAT",
+        "normalized": "stat",
+        "position": 188
+      }
+    ],
+    "device": [],
+    "vital_sign": [
+      {
+        "raw": "BP 98/62",
+        "label": "bp",
+        "value": "98/62",
+        "position": 59
+      },
+      {
+        "raw": "HR 112",
+        "label": "hr",
+        "value": "112",
+        "position": 74
+      },
+      {
+        "raw": "RR 24",
+        "label": "rr",
+        "value": "24",
+        "position": 86
+      },
+      {
+        "raw": "BT 37.2",
+        "label": "bt",
+        "value": "37.2",
+        "position": 105
+      },
+      {
+        "raw": "SpO2 95%",
+        "label": "spo2",
+        "value": "95%",
+        "position": 116
+      }
+    ],
+    "dose": [
+      {
+        "raw": "1000 mL",
+        "value": "1000",
+        "unit": "ml",
+        "position": 177
+      },
+      {
+        "raw": "200 mL",
+        "value": "200",
+        "unit": "ml",
+        "position": 248
+      },
+      {
+        "raw": "30 mL",
+        "value": "30",
+        "unit": "ml",
+        "position": 291
+      }
+    ]
+  },
+  "whisper_entities": {
+    "route": [
+      {
+        "raw": "IV",
+        "normalized": "iv",
+        "position": 178
+      },
+      {
+        "raw": "IV",
+        "normalized": "iv",
+        "position": 191
+      }
+    ],
+    "frequency": [
+      {
+        "raw": "Stat",
+        "normalized": "stat",
+        "position": 181
+      }
+    ],
+    "device": [],
+    "vital_sign": [
+      {
+        "raw": "BP 98",
+        "label": "bp",
+        "value": "98",
+        "position": 60
+      },
+      {
+        "raw": "HR 102",
+        "label": "hr",
+        "value": "102",
+        "position": 75
+      },
+      {
+        "raw": "BT 37.67",
+        "label": "bt",
+        "value": "37.67",
+        "position": 106
+      }
+    ],
+    "dose": [
+      {
+        "raw": "10ml",
+        "value": "10",
+        "unit": "ml",
+        "position": 173
+      }
+    ]
+  }
+}

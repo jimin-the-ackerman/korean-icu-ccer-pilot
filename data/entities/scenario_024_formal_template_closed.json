@@ -1,0 +1,36 @@
+{
+  "sample_id": "scenario_024_formal_template",
+  "gold_entities": {
+    "route": [],
+    "frequency": [
+      {
+        "raw": "BID",
+        "normalized": "bid",
+        "position": 163
+      }
+    ],
+    "device": [],
+    "vital_sign": [],
+    "dose": []
+  },
+  "whisper_entities": {
+    "route": [],
+    "frequency": [
+      {
+        "raw": "BID",
+        "normalized": "bid",
+        "position": 144
+      }
+    ],
+    "device": [],
+    "vital_sign": [],
+    "dose": [
+      {
+        "raw": "74mg",
+        "value": "74",
+        "unit": "mg",
+        "position": 50
+      }
+    ]
+  }
+}

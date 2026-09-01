@@ -1,0 +1,40 @@
+{
+  "sample_id": "scenario_033_telegraphic_icu",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "palpitations",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "alert",
+    "medication_identity": "Diltiazem",
+    "interventions": [
+      "Electrical cardioversion"
+    ],
+    "intake_output": "1500 mL IV fluids",
+    "notification": "Cardiology team notify"
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "palpitations",
+        "negation": false,
+        "severity": "severe"
+      },
+      {
+        "name": "hemodynamics unstable",
+        "negation": false,
+        "severity": null
+      }
+    ],
+    "clinical_status": "alert",
+    "medication_identity": "diltiazem",
+    "interventions": [
+      "electrical cardioversion"
+    ],
+    "intake_output": null,
+    "notification": "cardiology team notify"
+  }
+}

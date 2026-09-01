@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_024_formal_template",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "복통",
+        "negation": false,
+        "severity": "moderate"
+      }
+    ],
+    "clinical_status": "의식 명료",
+    "medication_identity": "Ceftriaxone",
+    "interventions": [],
+    "intake_output": "소변량 경미하게 감소",
+    "notification": null
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "복통",
+        "negation": false,
+        "severity": "moderate"
+      }
+    ],
+    "clinical_status": "의식이 명료함",
+    "medication_identity": "세프트리액션",
+    "interventions": [],
+    "intake_output": "소변량 경미하게 감소",
+    "notification": null
+  }
+}

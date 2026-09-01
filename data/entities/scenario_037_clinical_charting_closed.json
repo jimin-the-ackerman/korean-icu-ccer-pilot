@@ -1,0 +1,110 @@
+{
+  "sample_id": "scenario_037_clinical_charting",
+  "gold_entities": {
+    "route": [
+      {
+        "raw": "IV",
+        "normalized": "iv",
+        "position": 186
+      },
+      {
+        "raw": "PO",
+        "normalized": "po",
+        "position": 156
+      }
+    ],
+    "frequency": [
+      {
+        "raw": "BID",
+        "normalized": "bid",
+        "position": 159
+      }
+    ],
+    "device": [],
+    "vital_sign": [
+      {
+        "raw": "BP 110/70",
+        "label": "bp",
+        "value": "110/70",
+        "position": 78
+      },
+      {
+        "raw": "HR 95",
+        "label": "hr",
+        "value": "95",
+        "position": 94
+      },
+      {
+        "raw": "RR 18",
+        "label": "rr",
+        "value": "18",
+        "position": 105
+      },
+      {
+        "raw": "BT 37.5",
+        "label": "bt",
+        "value": "37.5",
+        "position": 112
+      },
+      {
+        "raw": "SpO2 98%",
+        "label": "spo2",
+        "value": "98%",
+        "position": 123
+      }
+    ],
+    "dose": [
+      {
+        "raw": "40 mg",
+        "value": "40",
+        "unit": "mg",
+        "position": 150
+      },
+      {
+        "raw": "2000 ml",
+        "value": "2000",
+        "unit": "ml",
+        "position": 178
+      }
+    ]
+  },
+  "whisper_entities": {
+    "route": [
+      {
+        "raw": "IV",
+        "normalized": "iv",
+        "position": 168
+      }
+    ],
+    "frequency": [],
+    "device": [],
+    "vital_sign": [
+      {
+        "raw": "BP 170",
+        "label": "bp",
+        "value": "170",
+        "position": 74
+      }
+    ],
+    "dose": [
+      {
+        "raw": "170mg",
+        "value": "170",
+        "unit": "mg",
+        "position": 77
+      },
+      {
+        "raw": "40mL",
+        "value": "40",
+        "unit": "ml",
+        "position": 138
+      },
+      {
+        "raw": "2000mL",
+        "value": "2000",
+        "unit": "ml",
+        "position": 161
+      }
+    ]
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "sample_id": "scenario_044_clinical_charting",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "abdominal pain",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "drowsy",
+    "medication_identity": "Morphine",
+    "interventions": [
+      "Pain team consult"
+    ],
+    "intake_output": null,
+    "notification": null
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "abdominal pain",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "DROWSY",
+    "medication_identity": "MORPHINE",
+    "interventions": [
+      "PAIN TEAM CONSULT"
+    ],
+    "intake_output": null,
+    "notification": "PAIN TEAM CONSULT함"
+  }
+}

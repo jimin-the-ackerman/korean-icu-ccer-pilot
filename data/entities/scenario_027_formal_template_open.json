@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_027_formal_template",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "오른쪽 약화",
+        "negation": false,
+        "severity": "moderate"
+      }
+    ],
+    "clinical_status": "졸린 상태",
+    "medication_identity": "Alteplase",
+    "interventions": [],
+    "intake_output": null,
+    "notification": "신경과 팀에게 즉각적인 평가와 치료를 위해 보고하였다."
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "약화",
+        "negation": false,
+        "severity": "moderate"
+      }
+    ],
+    "clinical_status": "졸린 상태",
+    "medication_identity": "Alteplase",
+    "interventions": [],
+    "intake_output": null,
+    "notification": "신경과 팀에게 즉각적인 평가와 치료를 위해 보고하였다."
+  }
+}

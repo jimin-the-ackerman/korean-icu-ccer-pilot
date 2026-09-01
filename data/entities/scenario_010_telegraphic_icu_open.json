@@ -1,0 +1,34 @@
+{
+  "sample_id": "scenario_010_telegraphic_icu",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "headache",
+        "negation": true,
+        "severity": null
+      }
+    ],
+    "clinical_status": "stuporous",
+    "medication_identity": "Mannitol",
+    "interventions": [
+      "ICP monitoring"
+    ],
+    "intake_output": "IO positive",
+    "notification": null
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "headache",
+        "negation": true
+      }
+    ],
+    "clinical_status": "stuporous",
+    "medication_identity": null,
+    "interventions": [
+      "ICP 모니터링"
+    ],
+    "intake_output": "io positive",
+    "notification": null
+  }
+}

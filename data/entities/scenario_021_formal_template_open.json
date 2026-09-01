@@ -1,0 +1,33 @@
+{
+  "sample_id": "scenario_021_formal_template",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "근육 약화",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "의식 명료",
+    "medication_identity": "Calcium gluconate",
+    "interventions": [
+      "IV fluid administration"
+    ],
+    "intake_output": "섭취 및 배출에 대한 철저한 모니터링",
+    "notification": "전해질 불균형의 추가 관리를 위해 신장팀에 보고함"
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "근육 약화",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "의식이 명료한 상태",
+    "medication_identity": "칼슘 그루코네이트",
+    "interventions": [],
+    "intake_output": "섭취 및 배출에 대한 철저한 모니터링이 이루어짐",
+    "notification": "전해질 불균형의 추가 관리를 위해 신장팀에 보고함"
+  }
+}

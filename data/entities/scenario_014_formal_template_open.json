@@ -1,0 +1,33 @@
+{
+  "sample_id": "scenario_014_formal_template",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "호흡곤란",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "의식이 둔한 상태",
+    "medication_identity": "methylprednisolone",
+    "interventions": [
+      "기계적 환기"
+    ],
+    "intake_output": "수분 균형 양성",
+    "notification": null
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "호흡곤란",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "의식이 둔한 상태",
+    "medication_identity": "Methylprednisolone",
+    "interventions": [],
+    "intake_output": "수분 균형 양성",
+    "notification": null
+  }
+}

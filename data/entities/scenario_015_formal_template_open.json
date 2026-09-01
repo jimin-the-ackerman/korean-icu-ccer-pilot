@@ -1,0 +1,35 @@
+{
+  "sample_id": "scenario_015_formal_template",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "흉통",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "의식이 명료함",
+    "medication_identity": "Heparin",
+    "interventions": [
+      "혈전용해 요법"
+    ],
+    "intake_output": "2000 mL의 IV 수액이 투여됨",
+    "notification": "심장내과 팀에게 추가 평가 및 관리를 위해 보고함"
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "흉통",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "의식이 명료함",
+    "medication_identity": "헤퍼린",
+    "interventions": [
+      "혈전용해 요법"
+    ],
+    "intake_output": "2000ml의 IV 수액이 투여됨",
+    "notification": "심장내과팀에게 추가 평가 및 관리를 위해 보고함"
+  }
+}
