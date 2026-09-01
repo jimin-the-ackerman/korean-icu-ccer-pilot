@@ -30,7 +30,7 @@ from statsmodels.stats.multitest import multipletests
 
 warnings.filterwarnings("ignore", category=FutureWarning)
 
-RESULTS_DIR = Path("results/full_50")
+RESULTS_DIR = Path("results/full_50")  # main()에서 --results-dir로 덮어씀
 STYLES = ["formal_template", "clinical_charting", "telegraphic_icu"]
 
 
@@ -107,18 +107,30 @@ def analyze(ccer_col: str, label: str, source_path: Path):
 
 
 def main():
+    import argparse
+    global RESULTS_DIR
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--results-dir", type=str, default="results/full_50",
+                         help="ccer_results.csv가 있는 디렉토리 (버전별 폴더 지정)")
+    args = parser.parse_args()
+    RESULTS_DIR = Path(args.results_dir)
+
     print("#" * 70)
-    print("# Primary Analysis: 원본 v3 CCER (results/full_50/ccer_results.csv)")
+    print(f"# Primary Analysis: 원본 v3 CCER ({RESULTS_DIR / 'ccer_results.csv'})")
     print("#" * 70)
     analyze("ccer_score", "Primary (v3 원본)", RESULTS_DIR / "ccer_results.csv")
 
-    print("\n\n")
-    print("#" * 70)
-    print("# Sensitivity Analysis: intervention artifact 14건 제외")
-    print("# (docs/limitations.md #13 대응, results/full_50/sensitivity_exclude_boundary_artifacts.csv)")
-    print("#" * 70)
-    analyze("ccer_score_excl_boundary_artifacts", "Sensitivity (14건 제외)",
-            RESULTS_DIR / "sensitivity_exclude_boundary_artifacts.csv")
+    sensitivity_path = RESULTS_DIR / "sensitivity_exclude_boundary_artifacts.csv"
+    if sensitivity_path.exists():
+        print("\n\n")
+        print("#" * 70)
+        print("# Sensitivity Analysis: intervention artifact 제외")
+        print(f"# (docs/limitations.md #13 대응, {sensitivity_path})")
+        print("#" * 70)
+        analyze("ccer_score_excl_boundary_artifacts", "Sensitivity (경계 artifact 제외)",
+                sensitivity_path)
+    else:
+        print(f"\n(sensitivity 파일 없음({sensitivity_path}) - primary만 실행함)")
 
 
 if __name__ == "__main__":
