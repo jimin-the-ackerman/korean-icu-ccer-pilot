@@ -1,0 +1,8 @@
+{
+  "sample_id": "scenario_024_clinical_charting",
+  "whisper_transcript": "47세 남성 환자, 급성 아펜디사이디스 및 수술 합병증으로 입원함. BPH 70mg, HR 85 BPM, RRCPETBREATHSMIN, BT 산티체병 및 S, SBOD 귀신닉브르펜틴. 압도미놀패인 모더릿 호소함. 세프트리액손 1g IVBID 투여중임. 유런 아웃풋 마일드 리 르듀스트 확인됨. 환자의식 알러트 상태 유지함.",
+  "stt_metadata": {
+    "model": "whisper-1",
+    "language": "ko"
+  }
+}

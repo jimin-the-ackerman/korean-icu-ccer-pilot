@@ -1,0 +1,8 @@
+{
+  "sample_id": "scenario_035_clinical_charting",
+  "whisper_transcript": "60bc 여성 환자, heart failure to E1, dilated cardiomyopathy, 기이남 bp.tg5 60mg, hrbpm, r24 breaths min, bt36.8 disease, sp02 90% on room air, 확인됨 shortness of breath severe, furosemide 40mg IV, q8h 적용함 4 lbrmin via nasal cannula 산소공급 유지함, Foley 유지함 io, negative balance of 500mL over 24 hours",
+  "stt_metadata": {
+    "model": "whisper-1",
+    "language": "ko"
+  }
+}

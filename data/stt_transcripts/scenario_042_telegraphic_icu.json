@@ -1,0 +1,8 @@
+{
+  "sample_id": "scenario_042_telegraphic_icu",
+  "whisper_transcript": "73세 남한 e1 severe dehydration electrolyte imbalance bp 98 62 2mg hr 1pm r 24 breaths min bt 37.2 sp o 2 95 percent ra severe diarrhea normal saline 1000 ml iv stat iv fluid resuscitation uo low 200 milliliters per 8 r drowsy uo 30 million she docker notify",
+  "stt_metadata": {
+    "model": "whisper-1",
+    "language": "ko"
+  }
+}

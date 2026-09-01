@@ -1,0 +1,8 @@
+{
+  "sample_id": "scenario_018_formal_template",
+  "whisper_transcript": "66세 남성 환자가 급성 위장관 천공으로 입원하였다. 활력증으로는 혈압이 160mmHg, 심박수는 110ppm, 호흡수는 20breathmin, 체온은 38.5°C, 산소포화도는 94%로 확인되었다. 환자는 심한 복통을 호소하였다. 5-peracillin-tazobactam 4.5g이 IB로 6시간마다 투여 중이다. 산소 보조로는 nasal cannula가 사용되고 있다. 응급개복술이 계획되었으며 수액균형은 음성이었다. 환자는 의식이 명료하다. 긴급한 중재를 위해 외과팀에게 보고하였다.",
+  "stt_metadata": {
+    "model": "whisper-1",
+    "language": "ko"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "sample_id": "scenario_027_clinical_charting",
+  "whisper_transcript": "60세 남성 환자, 아큐트 이스키믹스 스트로크로 입원함. BP, 헴육신, HR, A-TITAT, A-CNN, T-산지체똥 우 S-Bioth. Weakness on right side moderate 확인됨. Alteplase, 0.9mg KILG IV 스탯 투여함. C-Line 적용함. IV fluids initiated. 환자 드라우지 상태임. Neurology team notify함.",
+  "stt_metadata": {
+    "model": "whisper-1",
+    "language": "ko"
+  }
+}

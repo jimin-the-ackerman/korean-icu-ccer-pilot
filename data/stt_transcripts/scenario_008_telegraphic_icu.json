@@ -1,0 +1,8 @@
+{
+  "sample_id": "scenario_008_telegraphic_icu",
+  "whisper_transcript": "55세 남성 환자, 위장관 출혈로 이완, BP는 60mg, HR BTEM, RR22 Breaths Min, BT 37.0 Nd, SpO2 94. Abdominal pain moderate, pentaprazole 40mg IV, nasal cannula leukemia. Blood transfusion 시행, NG tubes have IO negative, 환자 drowsy 상태, gastroenterology team notify.",
+  "stt_metadata": {
+    "model": "whisper-1",
+    "language": "ko"
+  }
+}

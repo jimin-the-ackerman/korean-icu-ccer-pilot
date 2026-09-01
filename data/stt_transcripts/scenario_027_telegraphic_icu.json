@@ -1,0 +1,8 @@
+{
+  "sample_id": "scenario_027_telegraphic_icu",
+  "whisper_transcript": "60세 남성 급성 허혈성 뇌졸중으로 E1, BP669, HR88, RRCPAT, BTSunnyChipDenu, SpO2%, Right Side Weakness Moderate, Alteplase 609mgkg IV Stat, C-Line 유지중, IV Fluids 시작, Drowsy 상태, Neurology Team Notify",
+  "stt_metadata": {
+    "model": "whisper-1",
+    "language": "ko"
+  }
+}

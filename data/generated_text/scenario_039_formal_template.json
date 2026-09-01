@@ -1,0 +1,11 @@
+{
+  "sample_id": "scenario_039_formal_template",
+  "scenario_id": "scenario_039",
+  "document_type": "ICU_observation",
+  "style_condition": "formal_template",
+  "text": "환자는 70세 여성으로, 갑상선 기능 항진증 악화(갑상선 위기)로 인한 급성 폐부종으로 입원하였다. 활력징후는 혈압 160/90 mmHg, 심박수 130 bpm, 호흡수 28 breaths/min, 체온 38.4°C로 측정되었다. 산소포화도는 실내 공기에서 88%로 확인되었다. 환자는 심한 호흡곤란을 호소하였다. Propranolol 40 mg을 경구로 매 6시간마다 투여 중이다. 고유량 비강 캐뉼라를 통한 산소 지원이 이루어지고 있으며, Foley 카테터가 삽입되어 있다. 환자는 졸린 상태를 보였다. 갑상선 위기 관리에 대해 내분비학 팀에게 보고하였다.",
+  "generation_metadata": {
+    "model": "gpt-4o",
+    "temperature": 0.7
+  }
+}

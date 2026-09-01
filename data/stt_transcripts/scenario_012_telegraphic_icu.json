@@ -1,0 +1,8 @@
+{
+  "sample_id": "scenario_012_telegraphic_icu",
+  "whisper_transcript": "75세 여성 심부전아 콰이로이 bp90 60mm 허랑 hr10 bpm rr22 bt36.8 그리스 sp02 88% room air dyspnea moderate furosemide 40 milligrams iv qah o2 2l nc foley fluid balance positive drowsy cardiology team notify",
+  "stt_metadata": {
+    "model": "whisper-1",
+    "language": "ko"
+  }
+}

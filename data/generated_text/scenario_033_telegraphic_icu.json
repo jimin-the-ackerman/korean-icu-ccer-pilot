@@ -1,0 +1,11 @@
+{
+  "sample_id": "scenario_033_telegraphic_icu",
+  "scenario_id": "scenario_033",
+  "document_type": "ICU_observation",
+  "style_condition": "telegraphic_icu",
+  "text": "64세 남성. Atrial fibrillation onset. Hemodynamics unstable.\n\nBP 88/54 mmHg.\nHR 142 bpm.\nRR 22 breaths/min.\nBT 36.9°C.\nSpO2 94% room air.\n\nPalpitations severe.\n\nDiltiazem 20 mg IV STAT.\n\nElectrical cardioversion 실시.\n\nC-line in situ.\n\n1500 mL IV fluids.\n\nPatient alert.\n\nCardiology team notify.",
+  "generation_metadata": {
+    "model": "gpt-4o",
+    "temperature": 0.7
+  }
+}

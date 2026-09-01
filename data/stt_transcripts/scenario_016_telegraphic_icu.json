@@ -1,0 +1,8 @@
+{
+  "sample_id": "scenario_016_telegraphic_icu",
+  "whisper_transcript": "소리보세 여성 복부 농양으로 인한 중증 폐혈증 이완 bp 85 hr watch i reward hwanai bt 30 9.2 sp o2 diet d percent severe fever meropenem 1 gram iv q8 h nasal cannula 사용 abscess drainage c-line 삽입 negative fluid balance drowsy 상태 elevated lactate doctor notify",
+  "stt_metadata": {
+    "model": "whisper-1",
+    "language": "ko"
+  }
+}

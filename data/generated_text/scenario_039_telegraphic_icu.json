@@ -1,0 +1,11 @@
+{
+  "sample_id": "scenario_039_telegraphic_icu",
+  "scenario_id": "scenario_039",
+  "document_type": "ICU_observation",
+  "style_condition": "telegraphic_icu",
+  "text": "70세 여성 환자. 급성 폐부종으로 입원. 갑상선 기능 항진증 악화(갑상선 중독증).\n\nBP 160/90 mmHg.  \nHR 130 bpm.  \nRR 28 breaths/min.  \nBT 38.4°C.  \nSpO2 88% RA.\n\nSevere SOB.  \n\nPropranolol 40 mg PO q6h.  \n\nHFNC 적용.  \n\nFoley 삽입.  \n\nDrowsy 상태.  \n\nEndocrinology team notify.",
+  "generation_metadata": {
+    "model": "gpt-4o",
+    "temperature": 0.7
+  }
+}

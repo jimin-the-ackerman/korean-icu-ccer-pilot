@@ -1,0 +1,8 @@
+{
+  "sample_id": "scenario_010_telegraphic_icu",
+  "whisper_transcript": "48세 남성 중증 TBI 이원 bpx 385 hr5 spread rr14 bt 36.8 spu 98% 헤드에이크 부정 manitobacram ivq 소지원 없음 icp 모니터링 중 ventilator 사용 io positive 의식상태 stuporous",
+  "stt_metadata": {
+    "model": "whisper-1",
+    "language": "ko"
+  }
+}

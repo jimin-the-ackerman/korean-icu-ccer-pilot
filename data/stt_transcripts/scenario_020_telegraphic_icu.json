@@ -1,0 +1,8 @@
+{
+  "sample_id": "scenario_020_telegraphic_icu",
+  "whisper_transcript": "61세 남성, 급성 초자발성 기침, 부대기상, DENET-85, RR22, BT-37-8, SbO2 94%, Severe abdominal pain, morphine 4mg IV-Q4H, O2 via NC at 2 lmin, NG tube in place. IO, new 500mL per 24, drowsy. Docker notify gastro consult.",
+  "stt_metadata": {
+    "model": "whisper-1",
+    "language": "ko"
+  }
+}

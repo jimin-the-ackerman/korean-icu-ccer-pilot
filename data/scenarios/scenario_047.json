@@ -1,0 +1,28 @@
+{
+  "patient_context": "A 45-year-old female patient admitted with severe pneumonia due to Legionella infection.",
+  "vital_signs": {
+    "BP": "110/70 mmHg",
+    "HR": "95 bpm",
+    "RR": "28 breaths/min",
+    "BT": "38.5°C",
+    "SpO2": "88% on room air"
+  },
+  "symptom": {
+    "name": "cough",
+    "negation": false,
+    "severity": "severe"
+  },
+  "medication": {
+    "name": "Levofloxacin",
+    "dose": "750 mg",
+    "route": "IV",
+    "frequency": "q12h"
+  },
+  "oxygen_support": "High-flow nasal cannula",
+  "intervention": null,
+  "device": "ventilator",
+  "io": "Negative fluid balance over last 24 hours",
+  "clinical_status": "drowsy",
+  "notification": "Informed the infectious disease specialist about the patient's deteriorating condition.",
+  "scenario_id": "scenario_047"
+}

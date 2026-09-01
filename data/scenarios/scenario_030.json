@@ -1,0 +1,28 @@
+{
+  "patient_context": "A 56-year-old female patient admitted with acute exacerbation of systemic lupus erythematosus (SLE), presenting with lupus nephritis.",
+  "vital_signs": {
+    "BP": "142/90",
+    "HR": "92",
+    "RR": "18",
+    "BT": "37.5",
+    "SpO2": "96%"
+  },
+  "symptom": {
+    "name": "joint pain",
+    "negation": false,
+    "severity": "moderate"
+  },
+  "medication": {
+    "name": "prednisolone",
+    "dose": "40 mg",
+    "route": "PO",
+    "frequency": "q12h"
+  },
+  "oxygen_support": null,
+  "intervention": null,
+  "device": "Foley",
+  "io": "positive",
+  "clinical_status": "alert",
+  "notification": null,
+  "scenario_id": "scenario_030"
+}

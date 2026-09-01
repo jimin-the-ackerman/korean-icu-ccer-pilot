@@ -1,0 +1,11 @@
+{
+  "sample_id": "scenario_007_formal_template",
+  "scenario_id": "scenario_007",
+  "document_type": "ICU_observation",
+  "style_condition": "formal_template",
+  "text": "60세 여성 환자가 만성 폐쇄성 폐질환(COPD) 악화로 입원하였다. 활력징후는 혈압 130/85 mmHg, 심박수 95 bpm, 호흡수 28 breaths/min, 체온 37.2°C, 산소포화도 89%로 확인되었다. 환자는 심한 호흡곤란을 호소하였다. Methylprednisolone 60 mg이 6시간마다 정맥으로 투여되고 있다. 산소 공급은 2L nasal cannula로 시행 중이다. 수분 균형은 positive fluid balance로 평가되었다. 임상 상태는 drowsy로 관찰되었다. 환자의 악화된 호흡 상태에 대해 담당 폐과 의사에게 보고하였다.",
+  "generation_metadata": {
+    "model": "gpt-4o",
+    "temperature": 0.7
+  }
+}

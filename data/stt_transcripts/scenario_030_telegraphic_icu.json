@@ -1,0 +1,8 @@
+{
+  "sample_id": "scenario_030_telegraphic_icu",
+  "whisper_transcript": "66세 여성, SLEA-481, Lupus nephritis 동반 BPON, RFAS, CGRID, HR, GERD, RRNS, BT, 37, SPOS, PUNITY, ZIGSWORTH-PERFENT, joint pain moderate, 40mg PO, Q2RH, Foley, 사용중 IOPOSITIVE, ALERT.",
+  "stt_metadata": {
+    "model": "whisper-1",
+    "language": "ko"
+  }
+}

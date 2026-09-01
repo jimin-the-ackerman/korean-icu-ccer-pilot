@@ -1,0 +1,8 @@
+{
+  "sample_id": "scenario_024_formal_template",
+  "whisper_transcript": "47세 남성 환자가 급성 충수염 및 수술로 합병증으로 입원하였다. 활력증후는 혈압 122,74mg, 심박수 88bpm, 호흡수 18bpm, 체온 37.8°C, 산소포화도 96%로 확인되었다. 환자는 중간 정도의 복통을 호소하였다. 세프트리액션 은근을 IV로 BID 투여 중이다. 산소 보조는 필요하지 않으며 기기의 사용은 없다. 소변량은 경미하게 감소하였다. 환자는 의식이 명료하다.",
+  "stt_metadata": {
+    "model": "whisper-1",
+    "language": "ko"
+  }
+}

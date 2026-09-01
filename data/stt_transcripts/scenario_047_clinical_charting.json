@@ -1,0 +1,8 @@
+{
+  "sample_id": "scenario_047_clinical_charting",
+  "whisper_transcript": "45세 여성, 리조넬라 감염에 의한 세벌 뉴모니아로 입원함. BP 100.70mHrm, HR 95bpm, RRH-PB, BT 38.5dB, SpO2 80% on room air. 세벌 코프 호소함. Levofloxacin 715mg IV-Q-SH2여중, 하이플로우 네이처 캐니라 적용함. 벤틀레이터 사용 중임. 지난 24시간 동안 플루이드 밸런스 네기티브 기록됨. 환자 드라우지 상태 확인됨. 담당에 노티파이함.",
+  "stt_metadata": {
+    "model": "whisper-1",
+    "language": "ko"
+  }
+}

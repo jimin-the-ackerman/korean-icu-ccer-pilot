@@ -1,0 +1,28 @@
+{
+  "patient_context": "A 38-year-old male patient admitted with severe acute pancreatitis due to gallstones.",
+  "vital_signs": {
+    "BP": "98/62 mmHg",
+    "HR": "110 bpm",
+    "RR": "28 breaths/min",
+    "BT": "37.8°C",
+    "SpO2": "93% on room air"
+  },
+  "symptom": {
+    "name": "abdominal pain",
+    "negation": false,
+    "severity": "severe"
+  },
+  "medication": {
+    "name": "morphine",
+    "dose": "2 mg",
+    "route": "IV",
+    "frequency": "q4h"
+  },
+  "oxygen_support": "nasal cannula",
+  "intervention": null,
+  "device": "Foley",
+  "io": null,
+  "clinical_status": "drowsy",
+  "notification": "pain team consulted for management",
+  "scenario_id": "scenario_044"
+}

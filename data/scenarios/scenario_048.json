@@ -1,0 +1,28 @@
+{
+  "patient_context": "A 58-year-old male patient admitted with severe gastrointestinal bleeding secondary to esophageal varices.",
+  "vital_signs": {
+    "BP": "90/60 mmHg",
+    "HR": "120 bpm",
+    "RR": "24 breaths/min",
+    "BT": "36.8°C",
+    "SpO2": "92% on room air"
+  },
+  "symptom": {
+    "name": "hemorrhage",
+    "negation": false,
+    "severity": "severe"
+  },
+  "medication": {
+    "name": "Octreotide",
+    "dose": "50 mcg",
+    "route": "IV",
+    "frequency": "q6h"
+  },
+  "oxygen_support": "nasal cannula at 2 L/min",
+  "intervention": "endoscopic band ligation",
+  "device": "Foley",
+  "io": "strict monitoring of input and output",
+  "clinical_status": "drowsy",
+  "notification": "gastroenterology team informed of ongoing bleeding",
+  "scenario_id": "scenario_048"
+}

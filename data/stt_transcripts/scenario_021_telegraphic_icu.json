@@ -1,0 +1,8 @@
+{
+  "sample_id": "scenario_021_telegraphic_icu",
+  "whisper_transcript": "57세 남성 환자, 세벌하이퍼칼리미아, 랩도마이올리스, 프로롱 데모빌리제이션 원인, B145, 85ml 헤드랩, HR110 BPM, RR22 브레스민, BT 37.23 셀시스, SBO2 95% RA, 무슨 위키미스 세벌, 카오시엄 글루코네이트, 10ml 아이비 스탯, 아이비 플루이드 애드민스트레이션, C-라인 인 플레이스, IO 스트릭트 모니터링, 알러트, 린얼 팀 노티파이.",
+  "stt_metadata": {
+    "model": "whisper-1",
+    "language": "ko"
+  }
+}

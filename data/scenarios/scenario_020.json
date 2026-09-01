@@ -1,0 +1,28 @@
+{
+  "patient_context": "A 61-year-old male patient admitted with severe acute pancreatitis with multi-organ involvement, currently stable but closely monitored for complications.",
+  "vital_signs": {
+    "BP": "110/70",
+    "HR": "95",
+    "RR": "22",
+    "BT": "37.8",
+    "SpO2": "94%"
+  },
+  "symptom": {
+    "name": "abdominal pain",
+    "negation": false,
+    "severity": "severe"
+  },
+  "medication": {
+    "name": "Morphine",
+    "dose": "4 mg",
+    "route": "IV",
+    "frequency": "q4h"
+  },
+  "oxygen_support": "Nasal cannula at 2 L/min",
+  "intervention": null,
+  "device": "NG tube",
+  "io": "Negative fluid balance of 500 mL over 24 hours",
+  "clinical_status": "drowsy",
+  "notification": "Consult gastroenterology for ongoing management of pancreatitis.",
+  "scenario_id": "scenario_020"
+}

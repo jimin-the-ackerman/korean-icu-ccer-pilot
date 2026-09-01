@@ -1,0 +1,11 @@
+{
+  "sample_id": "scenario_034_telegraphic_icu",
+  "scenario_id": "scenario_034",
+  "document_type": "ICU_observation",
+  "style_condition": "telegraphic_icu",
+  "text": "58세 남성, 급성 악화된 간경변증 및 간성 혼수로 입원.\n\nBP 95/60 mmHg.  \nHR 112 bpm.  \nRR 20 breaths/min.  \nBT 36.5°C.  \nSpO2 92% room air.\n\nJaundice moderate.\n\nLactulose 30 mL PO q8h.\n\nNasal cannula 2 L/min.\n\nStrict fluid balance monitoring.\n\nDrowsy.\n\nHepatology team notify함.",
+  "generation_metadata": {
+    "model": "gpt-4o",
+    "temperature": 0.7
+  }
+}

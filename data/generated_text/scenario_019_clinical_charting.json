@@ -1,0 +1,11 @@
+{
+  "sample_id": "scenario_019_clinical_charting",
+  "scenario_id": "scenario_019",
+  "document_type": "ICU_observation",
+  "style_condition": "clinical_charting",
+  "text": "40세 여성 환자, severe allergic reaction (anaphylaxis)로 입원함.  \nBP 85/50 mmHg, HR 120 bpm, RR 28 breaths/min, BT 36.8°C, SpO2 89% room air.  \nSevere swelling of the face and lips 확인됨.  \nEpinephrine 0.3 mg IM STAT 투여함.  \nHigh-flow nasal cannula 적용함.  \nIV fluids administration 실시함.  \nUrine output 50 mL/hr 유지됨.  \n환자 상태 drowsy로 확인됨.  \nAllergy team notify함 for further management.",
+  "generation_metadata": {
+    "model": "gpt-4o",
+    "temperature": 0.7
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "sample_id": "scenario_019_telegraphic_icu",
+  "scenario_id": "scenario_019",
+  "document_type": "ICU_observation",
+  "style_condition": "telegraphic_icu",
+  "text": "40세 여성, 중증 알레르기 반응(아나필락시스).  \nBP 85/50 mmHg.  \nHR 120 bpm.  \nRR 28 breaths/min.  \nBT 36.8°C.  \nSpO2 89% on room air.  \nSevere swelling of face/lips.  \nEpinephrine 0.3 mg IM STAT.  \nHigh-flow nasal cannula 적용됨.  \nIV fluids 투여함.  \nUrine output 50 mL/hr.  \nDrowsy.  \nAllergy team notify.",
+  "generation_metadata": {
+    "model": "gpt-4o",
+    "temperature": 0.7
+  }
+}

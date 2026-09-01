@@ -1,0 +1,28 @@
+{
+  "patient_context": "A 40-year-old female patient admitted with severe allergic reaction (anaphylaxis) following exposure to peanuts.",
+  "vital_signs": {
+    "BP": "85/50 mmHg",
+    "HR": "120 bpm",
+    "RR": "28 breaths/min",
+    "BT": "36.8°C",
+    "SpO2": "89% on room air"
+  },
+  "symptom": {
+    "name": "swelling of the face and lips",
+    "negation": false,
+    "severity": "severe"
+  },
+  "medication": {
+    "name": "epinephrine",
+    "dose": "0.3 mg",
+    "route": "IM",
+    "frequency": "STAT"
+  },
+  "oxygen_support": "high-flow nasal cannula",
+  "intervention": "administration of IV fluids",
+  "device": null,
+  "io": "urine output 50 mL/hr",
+  "clinical_status": "drowsy",
+  "notification": "allergy team notified for further management",
+  "scenario_id": "scenario_019"
+}

@@ -1,0 +1,8 @@
+{
+  "sample_id": "scenario_013_telegraphic_icu",
+  "whisper_transcript": "Thursday, a song, 급성, 세균성, 스마겜, E1, BP1, 세럼, 비타민, 흑돼, HR100, BPM, R24, Breaths, Min, B13, 담버트, 내헬스, SpO2, 95%, Room Air, Headache, Severe, Cephtriaxone, 2-Gam, IV, Q12H, C-Line, In Place, 상태, Drowsy",
+  "stt_metadata": {
+    "model": "whisper-1",
+    "language": "ko"
+  }
+}

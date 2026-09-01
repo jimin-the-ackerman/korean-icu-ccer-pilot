@@ -1,0 +1,8 @@
+{
+  "sample_id": "scenario_042_clinical_charting",
+  "whisper_transcript": "73세 남성, Severe Dehydration Meet Electrolyte Imbalance로 입원함. BP 98, 62mmHg, HR 102 bpm, RR 와시사 Breast Min, BT 37.67, SBO 95% on room air. Severe Diarrhea 확인됨. Normal Saline, 10ml IV Stat 적용함. IV Fluid Resuscitation 시행함. Urine Output Low, 200mlhs, 환자 Drowsy 상태. Urine Output 30mlhs 미만시 담당해 Notify함.",
+  "stt_metadata": {
+    "model": "whisper-1",
+    "language": "ko"
+  }
+}

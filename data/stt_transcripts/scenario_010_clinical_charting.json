@@ -1,0 +1,8 @@
+{
+  "sample_id": "scenario_010_clinical_charting",
+  "whisper_transcript": "48세 남성 환자 MVA 후 Severe Traumatic Brain Injury로 입원 BP 1385, HR 5.7, RR 17, BT 36.8, GCC, SbO2 95% 헤드액 부인함, Manitoul 100g IV Q-safe 적용함 환자 Ventilator 사용 중, ICP 모니터링 유지함, 산소 보조 없음, IO Positive 확인됨, 환자 Stuporous 상태",
+  "stt_metadata": {
+    "model": "whisper-1",
+    "language": "ko"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "sample_id": "scenario_050_telegraphic_icu",
+  "whisper_transcript": "67m acute heart failure hypertensive emergency bp21 hr 100.28 breaths bt 36.7 grease spo2 90 percent ra severe chest pain nitroglycerin 10 miscarin miniv tid hfnc applied c line in place positive fluid balance drowsy cardiology team notify",
+  "stt_metadata": {
+    "model": "whisper-1",
+    "language": "ko"
+  }
+}

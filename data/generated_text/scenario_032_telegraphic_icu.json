@@ -1,0 +1,11 @@
+{
+  "sample_id": "scenario_032_telegraphic_icu",
+  "scenario_id": "scenario_032",
+  "document_type": "ICU_observation",
+  "style_condition": "telegraphic_icu",
+  "text": "67세 여성 환자. 급성 호흡부전으로 입원. ILD 악화.\n\nBP 140/85. HR 110. RR 28. BT 37.6. SpO2 88%.\n\nDyspnea severe.\n\nMethylprednisolone 60 mg IV q12h.\n\nHigh-flow nasal cannula 적용 중.\n\nVentilator 사용 중.\n\nDrowsy.",
+  "generation_metadata": {
+    "model": "gpt-4o",
+    "temperature": 0.7
+  }
+}

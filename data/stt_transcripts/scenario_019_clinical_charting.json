@@ -1,0 +1,8 @@
+{
+  "sample_id": "scenario_019_clinical_charting",
+  "whisper_transcript": "소지세 여성 환자, 세벌 알러지 리액션, 애니필락시스로 이원함. BP 85, 50mmHg, HR 1RE BPM, RR 28B, BT 36.83, SPO2, 89% 룸 에어. 세벌 스웰링 of the face and lips 확인됨. 에피네프린 0.3mg, IM STAT 투여함. 하이플로우 네이처 캐니라 적용함. IV 플루이드 앤디스트레이션 시시함. 유륜 아웃풋 50mdph 유지됨. 환자상태 드라우지로 확인됨. 알러지 팀 노티파임 for further management.",
+  "stt_metadata": {
+    "model": "whisper-1",
+    "language": "ko"
+  }
+}

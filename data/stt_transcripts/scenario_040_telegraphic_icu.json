@@ -1,0 +1,8 @@
+{
+  "sample_id": "scenario_040_telegraphic_icu",
+  "whisper_transcript": "42세 여성, SJS로 입원, BP에 치싯다, HR 구시의무, RRBT 센페노, SPO2 구시사 프로페센트, Severe Skin Lesions, Morphine, Formaldehyde, IV, Q4H, Nasal Cannulum, and Foley.",
+  "stt_metadata": {
+    "model": "whisper-1",
+    "language": "ko"
+  }
+}

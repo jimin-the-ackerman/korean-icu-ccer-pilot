@@ -1,0 +1,28 @@
+{
+  "patient_context": "A 60-year-old male patient admitted with acute ischemic stroke.",
+  "vital_signs": {
+    "BP": "160/90",
+    "HR": "88",
+    "RR": "18",
+    "BT": "37.2",
+    "SpO2": "95%"
+  },
+  "symptom": {
+    "name": "weakness on right side",
+    "negation": false,
+    "severity": "moderate"
+  },
+  "medication": {
+    "name": "Alteplase",
+    "dose": "0.9 mg/kg",
+    "route": "IV",
+    "frequency": "STAT"
+  },
+  "oxygen_support": null,
+  "intervention": null,
+  "device": "C-line",
+  "io": "IV fluids initiated",
+  "clinical_status": "drowsy",
+  "notification": "Neurology team notified for immediate evaluation and treatment.",
+  "scenario_id": "scenario_027"
+}

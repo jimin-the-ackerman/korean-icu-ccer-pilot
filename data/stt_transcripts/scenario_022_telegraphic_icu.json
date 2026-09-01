@@ -1,0 +1,8 @@
+{
+  "sample_id": "scenario_022_telegraphic_icu",
+  "whisper_transcript": "63세 여성, 극성 심부정 및 폐부정, BP-195 mmHg, HR-BPM-R1U8, BT-37-236, 86% RA, Severe SOB, Furosemide-40mg IVQ-H, HFNC 사용 중, C-Line 유지 중, 양성수분균형, Drowsy, Cardiology Team, Notify.",
+  "stt_metadata": {
+    "model": "whisper-1",
+    "language": "ko"
+  }
+}

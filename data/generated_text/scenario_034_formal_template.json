@@ -1,0 +1,11 @@
+{
+  "sample_id": "scenario_034_formal_template",
+  "scenario_id": "scenario_034",
+  "document_type": "ICU_observation",
+  "style_condition": "formal_template",
+  "text": "환자는 급성 악화된 간경변증과 간성 뇌증으로 입원한 58세 남성이다. 활력징후는 혈압이 95/60 mmHg, 심박수가 112 bpm, 호흡수가 20 breaths/min, 체온이 36.5°C이며, 산소포화도는 실내 공기에서 92%로 확인되었다. 중등도의 황달이 관찰되었다. 환자는 경구로 Lactulose 30 mL를 8시간마다 복용하고 있다. 산소는 비강 캐뉼라를 통해 2 L/min로 공급 중이다. 환자는 졸음이 있으며, 엄격한 체액 균형 모니터링이 필요하다. 간성 뇌증 악화를 간 전문 팀에게 보고하였다.",
+  "generation_metadata": {
+    "model": "gpt-4o",
+    "temperature": 0.7
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "sample_id": "scenario_046_telegraphic_icu",
+  "whisper_transcript": "직수 비세 남성, acute subdural hematoma E1, BP wexata pysic, HR-ZXIV-R-SA, BT-30-Zytom, SpO2 28%, severe headache, mannitol-begram IV Q6H, intracranial pressure monitoring, 환자 드라우지.",
+  "stt_metadata": {
+    "model": "whisper-1",
+    "language": "ko"
+  }
+}

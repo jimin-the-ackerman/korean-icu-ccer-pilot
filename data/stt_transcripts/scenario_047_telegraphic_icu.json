@@ -1,0 +1,8 @@
+{
+  "sample_id": "scenario_047_telegraphic_icu",
+  "whisper_transcript": "45세 여성, 리조넬라 감염으로 인한 중증 폐렴 입원함. BP 100g, HR 75, BPM 45, RRB, BT, SPO2, HB, BR, Severe cough, levofloxacin, TBD, IV, QCH, High-flow nasal cannula 사용, Ventilator 적용중. 24시간 동안 음성수분균형, 의식상태 Drowsy, D-Octor notify.",
+  "stt_metadata": {
+    "model": "whisper-1",
+    "language": "ko"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "sample_id": "scenario_038_telegraphic_icu",
+  "whisper_transcript": "59세 여성, 급성 중증호흡보조필요, BP 85, HR-QJR-BPT 심층형, SPO2-88P. 근육 부족, 심각, 피오로스틱미인 60mg POQID. 벤틀레이터 사용 중, 메카니컬 벤틀레이션, 의식 스튜퍼리스.",
+  "stt_metadata": {
+    "model": "whisper-1",
+    "language": "ko"
+  }
+}

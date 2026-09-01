@@ -1,0 +1,28 @@
+{
+  "patient_context": "A 75-year-old female patient admitted with congestive heart failure exacerbation.",
+  "vital_signs": {
+    "BP": "90/60 mmHg",
+    "HR": "110 bpm",
+    "RR": "22 breaths/min",
+    "BT": "36.8°C",
+    "SpO2": "88% on room air"
+  },
+  "symptom": {
+    "name": "dyspnea",
+    "negation": false,
+    "severity": "moderate"
+  },
+  "medication": {
+    "name": "Furosemide",
+    "dose": "40 mg",
+    "route": "IV",
+    "frequency": "q8h"
+  },
+  "oxygen_support": "2L nasal cannula",
+  "intervention": null,
+  "device": "Foley",
+  "io": "positive fluid balance",
+  "clinical_status": "drowsy",
+  "notification": "Cardiology team notified of fluid overload and hypotension.",
+  "scenario_id": "scenario_012"
+}

@@ -1,0 +1,11 @@
+{
+  "sample_id": "scenario_048_clinical_charting",
+  "scenario_id": "scenario_048",
+  "document_type": "ICU_observation",
+  "style_condition": "clinical_charting",
+  "text": "58세 남성, esophageal varices로 인한 severe gastrointestinal bleeding으로 입원함.\n\nVital signs:\n- BP 90/60 mmHg\n- HR 120 bpm\n- RR 24 breaths/min\n- BT 36.8°C\n- SpO2 92% on room air\n\nSevere hemorrhage 확인됨.\n\nOctreotide 50 mcg IV q6h 투여 중.\n\nOxygen support: nasal cannula at 2 L/min 적용함.\n\nEndoscopic band ligation 시행함.\n\nFoley 유지함.\n\nStrict monitoring of input and output.\n\nClinical status: drowsy 상태 확인됨.\n\nGastroenterology team notify함.",
+  "generation_metadata": {
+    "model": "gpt-4o",
+    "temperature": 0.7
+  }
+}

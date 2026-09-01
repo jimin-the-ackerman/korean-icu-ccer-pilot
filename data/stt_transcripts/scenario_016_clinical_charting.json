@@ -1,0 +1,8 @@
+{
+  "sample_id": "scenario_016_clinical_charting",
+  "whisper_transcript": "45세 여성 환자, Severe sepsis로 입원, Abdominal abscess으로 인한 상태. Vital signs, BPH1550W, HR HERI, CRR58, BT36.U, SpO2, QQ21 Provencin. Severe fever 확인됨, Meripenem 1g, IVQH 투여중. Nasal cannula 적용함, Abscess drainage 시행함, C-line 유지함. Negative fluid balance 확인됨, 환자 Drowsy 상태, Elevated Lactate 담당해 Notify함.",
+  "stt_metadata": {
+    "model": "whisper-1",
+    "language": "ko"
+  }
+}

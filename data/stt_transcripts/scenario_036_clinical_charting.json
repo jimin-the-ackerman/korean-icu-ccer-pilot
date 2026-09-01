@@ -1,0 +1,8 @@
+{
+  "sample_id": "scenario_036_clinical_charting",
+  "whisper_transcript": "55세 여성, Severe Acute Asthma Exacerbation으로 입원함. BP 138.5mg, HR-BPPM, RR-Arsenepat, Breathsmin, BT-Sarnsichep.Eudugi cells, SpO2 88% on room air, Wheezing, Severe함. Albuterol 2.5mg IV-Q4H 적용함. High flow nasal cannulas, 한솔지원중, Ventilator 사용함. Negative fluid balance 확인됨. Drowsy 상태임. Respiratory therapist notify함.",
+  "stt_metadata": {
+    "model": "whisper-1",
+    "language": "ko"
+  }
+}

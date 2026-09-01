@@ -1,0 +1,11 @@
+{
+  "sample_id": "scenario_019_formal_template",
+  "scenario_id": "scenario_019",
+  "document_type": "ICU_observation",
+  "style_condition": "formal_template",
+  "text": "환자는 40세 여성으로, 땅콩 노출 후 심각한 알레르기 반응(아나필락시스)으로 입원하였다. 활력징후는 혈압 85/50 mmHg, 심박수 120 bpm, 호흡수 28 breaths/min, 체온 36.8°C, 산소포화도는 실내 공기에서 89%로 확인되었다. 환자는 안면과 입술의 심한 부종을 보였다. 에피네프린 0.3 mg을 근육주사로 즉시 투여하였다. 고유량 비강 캐뉼라를 사용하여 산소를 공급받고 있으며, 정맥 내 수액을 투여하였다. 소변 배출량은 시간당 50 mL로 측정되었다. 환자는 졸린 상태로 관찰되었다. 알레르기 팀에게 추가 관리를 위해 보고하였다.",
+  "generation_metadata": {
+    "model": "gpt-4o",
+    "temperature": 0.7
+  }
+}

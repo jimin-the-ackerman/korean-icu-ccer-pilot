@@ -1,0 +1,28 @@
+{
+  "patient_context": "A 63-year-old female patient admitted with acute decompensated heart failure and pulmonary edema.",
+  "vital_signs": {
+    "BP": "150/95 mmHg",
+    "HR": "110 bpm",
+    "RR": "28 breaths/min",
+    "BT": "37.2°C",
+    "SpO2": "86% on room air"
+  },
+  "symptom": {
+    "name": "shortness of breath",
+    "negation": false,
+    "severity": "severe"
+  },
+  "medication": {
+    "name": "Furosemide",
+    "dose": "40 mg",
+    "route": "IV",
+    "frequency": "q8h"
+  },
+  "oxygen_support": "High-flow nasal cannula",
+  "intervention": null,
+  "device": "C-line",
+  "io": "positive fluid balance",
+  "clinical_status": "drowsy",
+  "notification": "Cardiology team notified of worsening respiratory status.",
+  "scenario_id": "scenario_022"
+}

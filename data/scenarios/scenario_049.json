@@ -1,0 +1,28 @@
+{
+  "patient_context": "A 54-year-old female patient admitted with septic arthritis in the right knee.",
+  "vital_signs": {
+    "BP": "102/65",
+    "HR": "115",
+    "RR": "24",
+    "BT": "38.5",
+    "SpO2": "96% on room air"
+  },
+  "symptom": {
+    "name": "knee pain",
+    "negation": false,
+    "severity": "severe"
+  },
+  "medication": {
+    "name": "vancomycin",
+    "dose": "1g",
+    "route": "IV",
+    "frequency": "q12h"
+  },
+  "oxygen_support": null,
+  "intervention": "right knee joint aspiration",
+  "device": null,
+  "io": "positive fluid balance of 500ml",
+  "clinical_status": "alert",
+  "notification": "orthopedic consultation requested",
+  "scenario_id": "scenario_049"
+}

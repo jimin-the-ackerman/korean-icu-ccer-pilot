@@ -1,0 +1,11 @@
+{
+  "sample_id": "scenario_044_clinical_charting",
+  "scenario_id": "scenario_044",
+  "document_type": "ICU_observation",
+  "style_condition": "clinical_charting",
+  "text": "38세 남자 환자, 급성 췌장염으로 입원함.\n\nBP 98/62 mmHg.  \nHR 110 bpm.  \nRR 28 breaths/min.  \nBT 37.8°C.  \nSpO2 93% on room air 확인됨.\n\nSevere abdominal pain 호소함.\n\nMorphine 2 mg IV q4h 투여함.\n\nNasal cannula 적용함.\n\nFoley 유지함.\n\nPatient drowsy 상태 확인됨.\n\nPain team consult함.",
+  "generation_metadata": {
+    "model": "gpt-4o",
+    "temperature": 0.7
+  }
+}

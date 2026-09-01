@@ -1,0 +1,8 @@
+{
+  "sample_id": "scenario_026_clinical_charting",
+  "whisper_transcript": "52세 여성 Severe Community-Acquired Pneumonia로 ICU 입원함. BP-PLN-668-HRH, HR-RHG-PET-BREATHS-MIN, BT-SANTI-PET-DEMO-BROOKS, SbO2-U-PESENPIN-RUMER, Severe Dyspnea 호소함, Levofloxacin-Turbo-Mingum-EV-Ki-H 적용함, High-Flow Nasal-Cannula-60-LELA-PERMIN-PHYO-2.NUX 유지함, Ventilator 사용 중. Clinical Status Drowsy 확인 됨.",
+  "stt_metadata": {
+    "model": "whisper-1",
+    "language": "ko"
+  }
+}

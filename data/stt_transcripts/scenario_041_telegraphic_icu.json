@@ -1,0 +1,8 @@
+{
+  "sample_id": "scenario_041_telegraphic_icu",
+  "whisper_transcript": "65세 여성, 급성악화, 만성간주환, 알코올 관련 간경화, BPN05 68mmHg, HR 112bpm, R22mBt3783c, SpO92% room air, ascitis moderate, furosemide 40mg IVQH, nasal cannula, foley, urine output 1200mL 24hr, drowsy",
+  "stt_metadata": {
+    "model": "whisper-1",
+    "language": "ko"
+  }
+}

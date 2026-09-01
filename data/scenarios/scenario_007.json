@@ -1,0 +1,28 @@
+{
+  "patient_context": "A 60-year-old female patient admitted with exacerbation of chronic obstructive pulmonary disease (COPD).",
+  "vital_signs": {
+    "BP": "130/85 mmHg",
+    "HR": "95 bpm",
+    "RR": "28 breaths/min",
+    "BT": "37.2°C",
+    "SpO2": "89% on room air"
+  },
+  "symptom": {
+    "name": "shortness of breath",
+    "negation": false,
+    "severity": "severe"
+  },
+  "medication": {
+    "name": "Methylprednisolone",
+    "dose": "60 mg",
+    "route": "IV",
+    "frequency": "q6h"
+  },
+  "oxygen_support": "2L nasal cannula",
+  "intervention": null,
+  "device": null,
+  "io": "positive fluid balance",
+  "clinical_status": "drowsy",
+  "notification": "Pulmonologist notified of patient's deteriorating respiratory status.",
+  "scenario_id": "scenario_007"
+}

@@ -1,0 +1,8 @@
+{
+  "sample_id": "scenario_015_telegraphic_icu",
+  "whisper_transcript": "세비웨이츠의 남자 환자, 급성 폐색전증 2번, BP 145.0mHg, HR 110pm, RR 28breaths min, BT 36.8, GWIS SPU 88% on room air, severe chest pain, Heparin 5000 units IV Q6H, High flow nasal cannulus 하염, Thrombolytic therapy 시작, 210ml IV fluids 투여. 환자 알러트, 카디올리티 팀 노티파이.",
+  "stt_metadata": {
+    "model": "whisper-1",
+    "language": "ko"
+  }
+}

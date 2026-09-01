@@ -1,0 +1,8 @@
+{
+  "sample_id": "scenario_039_telegraphic_icu",
+  "whisper_transcript": "70세 여성 환자, 급성 폐부종으로 입원, 갑상선 기능한 항산중독증, BPM 60, 90mHg, HR-REX 90 BPM, RRR, UHPITE, BREATHSMIN, BTT, 살신지, SPO2, 80% RA, SEVERE SOB, PROPRENOLOL, PHOTOMETHALORAM, POQ-6H, HFNC 적용, FULLY 삽입, DROWSY 상태, ENDOCRINOLOGY TEAM NOTIFY.",
+  "stt_metadata": {
+    "model": "whisper-1",
+    "language": "ko"
+  }
+}

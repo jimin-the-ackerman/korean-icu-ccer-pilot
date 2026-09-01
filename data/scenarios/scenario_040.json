@@ -1,0 +1,28 @@
+{
+  "patient_context": "A 42-year-old female patient admitted with severe Stevens-Johnson Syndrome (SJS) following a recent medication reaction.",
+  "vital_signs": {
+    "BP": "110/70",
+    "HR": "95",
+    "RR": "20",
+    "BT": "38.0",
+    "SpO2": "94%"
+  },
+  "symptom": {
+    "name": "skin lesions",
+    "negation": false,
+    "severity": "severe"
+  },
+  "medication": {
+    "name": "morphine",
+    "dose": "4 mg",
+    "route": "IV",
+    "frequency": "q4h"
+  },
+  "oxygen_support": "nasal cannula 2L/min",
+  "intervention": null,
+  "device": "Foley",
+  "io": null,
+  "clinical_status": "drowsy",
+  "notification": null,
+  "scenario_id": "scenario_040"
+}

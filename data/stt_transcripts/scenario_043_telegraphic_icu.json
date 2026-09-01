@@ -1,0 +1,8 @@
+{
+  "sample_id": "scenario_043_telegraphic_icu",
+  "whisper_transcript": "50m 엔도카디타 바이러스 bp 170 hr 1 and 2 by 20 breaths min rr 28.5 grace co2 95 percent ra fever moderate vancomycin 1 v q12 h c line in place positive fluid balance alert",
+  "stt_metadata": {
+    "model": "whisper-1",
+    "language": "ko"
+  }
+}

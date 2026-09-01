@@ -1,0 +1,8 @@
+{
+  "sample_id": "scenario_019_telegraphic_icu",
+  "whisper_transcript": "40세 여성, 중증 알레르기 페넥스. BP 85-50 명, HR 120 bpm, RR 28 breaths min, BT 36.8 leaks. SpO2 89% on room air. Severe swelling of face, lips, epinephrine 0.3mg IM stat. High flow nasal cannula 적용됨. IV fluids 투여함. Urine output 50mL drowsy. Allergy team notify.",
+  "stt_metadata": {
+    "model": "whisper-1",
+    "language": "ko"
+  }
+}

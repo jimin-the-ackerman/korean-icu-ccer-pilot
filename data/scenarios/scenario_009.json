@@ -1,0 +1,28 @@
+{
+  "patient_context": "A 68-year-old female patient admitted with septic shock secondary to a urinary tract infection.",
+  "vital_signs": {
+    "BP": "85/50",
+    "HR": "120",
+    "RR": "26",
+    "BT": "38.9",
+    "SpO2": "92%"
+  },
+  "symptom": {
+    "name": "fever",
+    "negation": false,
+    "severity": "severe"
+  },
+  "medication": {
+    "name": "Piperacillin/Tazobactam",
+    "dose": "4.5 g",
+    "route": "IV",
+    "frequency": "q8h"
+  },
+  "oxygen_support": "Nasal cannula 3L/min",
+  "intervention": null,
+  "device": "C-line",
+  "io": "Positive fluid balance",
+  "clinical_status": "drowsy",
+  "notification": "Informed attending physician about ongoing hypotension and fever.",
+  "scenario_id": "scenario_009"
+}

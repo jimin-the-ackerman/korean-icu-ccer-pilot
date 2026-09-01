@@ -1,0 +1,11 @@
+{
+  "sample_id": "scenario_017_telegraphic_icu",
+  "scenario_id": "scenario_017",
+  "document_type": "ICU_observation",
+  "style_condition": "telegraphic_icu",
+  "text": "53세 여성, severe hypoglycemia로 입원.  \nBP 102/65 mmHg.  \nHR 92 bpm.  \nRR 18 breaths/min.  \nBT 36.5°C.  \nSpO2 95%.  \nConfusion moderate.  \nDextrose 50% 25g IV STAT.  \nIV dextrose administration.  \nPositive fluid balance due to IV fluids.  \nDrowsy.  \nEndocrinologist notify.",
+  "generation_metadata": {
+    "model": "gpt-4o",
+    "temperature": 0.7
+  }
+}

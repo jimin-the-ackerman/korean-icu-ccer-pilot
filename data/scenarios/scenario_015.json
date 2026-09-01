@@ -1,0 +1,28 @@
+{
+  "patient_context": "A 78-year-old male patient admitted with acute pulmonary embolism.",
+  "vital_signs": {
+    "BP": "145/90 mmHg",
+    "HR": "110 bpm",
+    "RR": "28 breaths/min",
+    "BT": "36.8°C",
+    "SpO2": "88% on room air"
+  },
+  "symptom": {
+    "name": "chest pain",
+    "negation": false,
+    "severity": "severe"
+  },
+  "medication": {
+    "name": "Heparin",
+    "dose": "5000 units",
+    "route": "IV",
+    "frequency": "q6h"
+  },
+  "oxygen_support": "High-flow nasal cannula",
+  "intervention": "Thrombolytic therapy initiated",
+  "device": null,
+  "io": "2000 mL IV fluids administered",
+  "clinical_status": "alert",
+  "notification": "Cardiology team notified for further assessment and management.",
+  "scenario_id": "scenario_015"
+}

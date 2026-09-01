@@ -1,0 +1,8 @@
+{
+  "sample_id": "scenario_015_clinical_charting",
+  "whisper_transcript": "78세 남성 환자, 급성 폴미네리 엠볼리즘으로 입원함. BP 145, QZ mmHR, 100cbpm, RR, 어시비 파이프, Breath, Termin, BT, 산시죽돔, Aper Health, SpO2, PgB% on room air, 심한 체스트 페인, 호소함. 헤퍼린, Vo10 유닛, Q6H 적용함. 하이플로, 네이처, 캔눌라, 산소 지원 중. 트럼볼리틱 테라피 시작함. IV Fluids 210ml 투여함. 의식 알러트 상태 유지함. 카디올리티 팀 노티파이함.",
+  "stt_metadata": {
+    "model": "whisper-1",
+    "language": "ko"
+  }
+}

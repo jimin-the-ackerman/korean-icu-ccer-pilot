@@ -1,0 +1,28 @@
+{
+  "patient_context": "A 65-year-old female patient admitted with acute exacerbation of chronic liver disease due to alcohol-related cirrhosis.",
+  "vital_signs": {
+    "BP": "105/68 mmHg",
+    "HR": "112 bpm",
+    "RR": "22 breaths/min",
+    "BT": "37.8°C",
+    "SpO2": "92% on room air"
+  },
+  "symptom": {
+    "name": "ascites",
+    "negation": false,
+    "severity": "moderate"
+  },
+  "medication": {
+    "name": "Furosemide",
+    "dose": "40 mg",
+    "route": "IV",
+    "frequency": "q8h"
+  },
+  "oxygen_support": "nasal cannula",
+  "intervention": null,
+  "device": "Foley",
+  "io": "urine output: 1200 mL/24hr",
+  "clinical_status": "drowsy",
+  "notification": null,
+  "scenario_id": "scenario_041"
+}

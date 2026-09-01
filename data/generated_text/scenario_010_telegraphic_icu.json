@@ -1,0 +1,11 @@
+{
+  "sample_id": "scenario_010_telegraphic_icu",
+  "scenario_id": "scenario_010",
+  "document_type": "ICU_observation",
+  "style_condition": "telegraphic_icu",
+  "text": "48세 남성 중증 TBI 입원.  \nBP 130/85, HR 58, RR 14, BT 36.8, SpO2 98%.  \nHeadache 부정.  \nMannitol 100g IV q6h.  \n산소 지원 없음.  \nICP monitoring 중.  \nVentilator 사용.  \nIO positive.  \n의식 상태 stuporous.",
+  "generation_metadata": {
+    "model": "gpt-4o",
+    "temperature": 0.7
+  }
+}

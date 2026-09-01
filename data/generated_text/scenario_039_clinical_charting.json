@@ -1,0 +1,11 @@
+{
+  "sample_id": "scenario_039_clinical_charting",
+  "scenario_id": "scenario_039",
+  "document_type": "ICU_observation",
+  "style_condition": "clinical_charting",
+  "text": "70세 여성 환자, acute pulmonary edema로 입원. Hyperthyroidism 악화 (thyroid storm) 원인.\n\nBP 160/90 mmHg. HR 130 bpm. RR 28 breaths/min. BT 38.4°C. SpO2 88% on room air.\n\nSevere shortness of breath 호소함.\n\nPropranolol 40 mg PO q6h 투여함.\n\nHigh-flow nasal cannula 적용함.\n\nFoley 유지함.\n\n의식 상태 drowsy 확인됨.\n\nEndocrinology team notify함 for thyroid storm 관리.",
+  "generation_metadata": {
+    "model": "gpt-4o",
+    "temperature": 0.7
+  }
+}

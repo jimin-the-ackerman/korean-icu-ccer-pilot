@@ -1,0 +1,28 @@
+{
+  "patient_context": "A 60-year-old female patient admitted with acute cholecystitis.",
+  "vital_signs": {
+    "BP": "138/84 mmHg",
+    "HR": "92 bpm",
+    "RR": "20 breaths/min",
+    "BT": "38.2°C",
+    "SpO2": "95% on room air"
+  },
+  "symptom": {
+    "name": "abdominal pain",
+    "negation": false,
+    "severity": "severe"
+  },
+  "medication": {
+    "name": "ceftriaxone",
+    "dose": "1g",
+    "route": "IV",
+    "frequency": "q12h"
+  },
+  "oxygen_support": null,
+  "intervention": "laparoscopic cholecystectomy planned",
+  "device": "C-line",
+  "io": "positive balance",
+  "clinical_status": "alert",
+  "notification": null,
+  "scenario_id": "scenario_025"
+}

@@ -1,0 +1,28 @@
+{
+  "patient_context": "A 48-year-old male patient admitted with severe traumatic brain injury following a motor vehicle accident.",
+  "vital_signs": {
+    "BP": "130/85",
+    "HR": "58",
+    "RR": "14",
+    "BT": "36.8",
+    "SpO2": "98%"
+  },
+  "symptom": {
+    "name": "headache",
+    "negation": true,
+    "severity": null
+  },
+  "medication": {
+    "name": "mannitol",
+    "dose": "100g",
+    "route": "IV",
+    "frequency": "q6h"
+  },
+  "oxygen_support": "none",
+  "intervention": "ICP monitoring",
+  "device": "ventilator",
+  "io": "positive",
+  "clinical_status": "stuporous",
+  "notification": null,
+  "scenario_id": "scenario_010"
+}

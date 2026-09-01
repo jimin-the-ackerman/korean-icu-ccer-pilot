@@ -1,0 +1,8 @@
+{
+  "sample_id": "scenario_026_telegraphic_icu",
+  "whisper_transcript": "52세 여성, Severe CAP ICU 관리 필요, BPN이 0.63mmHg, HR, Hemorrhoid BPM, RRH, MIN, BT, 38.5 SbH2O, RA, Severe dyspnea, Levofloxacin 70mg IVQ2H, HFNC 60A, FiO2 1.6, Ventilator 사용 중, Drowsy 상태",
+  "stt_metadata": {
+    "model": "whisper-1",
+    "language": "ko"
+  }
+}

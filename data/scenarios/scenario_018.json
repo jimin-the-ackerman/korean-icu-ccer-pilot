@@ -1,0 +1,28 @@
+{
+  "patient_context": "A 66-year-old male patient admitted with acute gastrointestinal perforation.",
+  "vital_signs": {
+    "BP": "100/60 mmHg",
+    "HR": "110 bpm",
+    "RR": "20 breaths/min",
+    "BT": "38.5°C",
+    "SpO2": "94%"
+  },
+  "symptom": {
+    "name": "abdominal pain",
+    "negation": false,
+    "severity": "severe"
+  },
+  "medication": {
+    "name": "Piperacillin-Tazobactam",
+    "dose": "4.5g",
+    "route": "IV",
+    "frequency": "q6h"
+  },
+  "oxygen_support": "nasal cannula",
+  "intervention": "emergency laparotomy",
+  "device": null,
+  "io": "negative fluid balance",
+  "clinical_status": "alert",
+  "notification": "surgical team notified for urgent intervention",
+  "scenario_id": "scenario_018"
+}

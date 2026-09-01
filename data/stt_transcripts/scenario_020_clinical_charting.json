@@ -1,0 +1,8 @@
+{
+  "sample_id": "scenario_020_clinical_charting",
+  "whisper_transcript": "61세 남성, Severe Acute Pancreatitis 로 입원, 다장기 침범 있음, 안정적인 합증 감시 중, BP 객 70, HR 95, RR Issue, BT 37.8, SbO2 94%. Severe Abdominal Pain 호소함, Morphine-Somnolarm IV-Q-SORH 적용함, Nasal Cannula-II Admin 유지함, NG-Tube 유지함, Negative Fluid Balance 500 mL per hr 확인됨, Drowsy 상태 확인됨, 담당의 Notify함, Gastroenterology Consult 요청함",
+  "stt_metadata": {
+    "model": "whisper-1",
+    "language": "ko"
+  }
+}

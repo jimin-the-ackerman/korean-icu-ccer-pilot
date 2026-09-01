@@ -1,0 +1,11 @@
+{
+  "sample_id": "scenario_049_telegraphic_icu",
+  "scenario_id": "scenario_049",
+  "document_type": "ICU_observation",
+  "style_condition": "telegraphic_icu",
+  "text": "54세 여성, septic arthritis, right knee.  \nBP 102/65.  \nHR 115.  \nRR 24.  \nBT 38.5.  \nSpO2 96% RA.  \nSevere knee pain.  \nVancomycin 1g IV q12h.  \nRight knee joint aspiration 시행함.  \nPositive fluid balance 500ml.  \nAlert.  \nOrthopedic consult 요청함.",
+  "generation_metadata": {
+    "model": "gpt-4o",
+    "temperature": 0.7
+  }
+}

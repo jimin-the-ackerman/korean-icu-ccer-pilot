@@ -1,0 +1,28 @@
+{
+  "patient_context": "A 53-year-old female patient admitted with severe hypoglycemia secondary to insulin overdose.",
+  "vital_signs": {
+    "BP": "102/65 mmHg",
+    "HR": "92 bpm",
+    "RR": "18 breaths/min",
+    "BT": "36.5°C",
+    "SpO2": "95%"
+  },
+  "symptom": {
+    "name": "confusion",
+    "negation": false,
+    "severity": "moderate"
+  },
+  "medication": {
+    "name": "Dextrose 50%",
+    "dose": "25g",
+    "route": "IV",
+    "frequency": "STAT"
+  },
+  "oxygen_support": null,
+  "intervention": "IV dextrose administration",
+  "device": null,
+  "io": "positive fluid balance due to IV fluids",
+  "clinical_status": "drowsy",
+  "notification": "Endocrinologist notified for further management plan.",
+  "scenario_id": "scenario_017"
+}

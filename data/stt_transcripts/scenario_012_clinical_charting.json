@@ -1,0 +1,8 @@
+{
+  "sample_id": "scenario_012_clinical_charting",
+  "whisper_transcript": "75세 여성 환자 CHF exacerbation으로 입원함. Vital signs BP 기침 및 민해처별 출혈근무새비액 GBPRRSTB min. BT 36.88°C gs. SbO2 폐지왓 퍼센트 on room air. Dyspnea moderate 호소함. Furosemide 40mg IV Q1H 투여중. Oxygen support to 2-liter nasal canola 적용함. Foley 유지함. Positive fluid balance 확인됨. 환자 drowsy 상태 확인됨. Cardiology team notify함.",
+  "stt_metadata": {
+    "model": "whisper-1",
+    "language": "ko"
+  }
+}

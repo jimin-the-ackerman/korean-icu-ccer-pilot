@@ -1,0 +1,28 @@
+{
+  "patient_context": "A 55-year-old male patient admitted with gastrointestinal bleeding.",
+  "vital_signs": {
+    "BP": "90/60 mmHg",
+    "HR": "110 bpm",
+    "RR": "22 breaths/min",
+    "BT": "37.0°C",
+    "SpO2": "94%"
+  },
+  "symptom": {
+    "name": "abdominal pain",
+    "negation": false,
+    "severity": "moderate"
+  },
+  "medication": {
+    "name": "Pantoprazole",
+    "dose": "40 mg",
+    "route": "IV",
+    "frequency": "BID"
+  },
+  "oxygen_support": "nasal cannula",
+  "intervention": "blood transfusion",
+  "device": "NG tube",
+  "io": "negative",
+  "clinical_status": "drowsy",
+  "notification": "gastroenterology team notified for endoscopy",
+  "scenario_id": "scenario_008"
+}

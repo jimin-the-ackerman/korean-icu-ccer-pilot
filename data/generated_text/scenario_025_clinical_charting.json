@@ -1,0 +1,11 @@
+{
+  "sample_id": "scenario_025_clinical_charting",
+  "scenario_id": "scenario_025",
+  "document_type": "ICU_observation",
+  "style_condition": "clinical_charting",
+  "text": "60세 여성 환자, acute cholecystitis로 입원함.\n\nBP 138/84 mmHg.  \nHR 92 bpm.  \nRR 20 breaths/min.  \nBT 38.2°C.  \nSpO2 95% room air.\n\nSevere abdominal pain 호소함.  \n\nCeftriaxone 1g IV q12h 적용함.  \n\nLaparoscopic cholecystectomy planned.  \n\nC-line 유지함.  \n\nIO positive balance 확인됨.  \n\nAlert 상태 유지함.",
+  "generation_metadata": {
+    "model": "gpt-4o",
+    "temperature": 0.7
+  }
+}

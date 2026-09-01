@@ -1,0 +1,8 @@
+{
+  "sample_id": "scenario_014_formal_template",
+  "whisper_transcript": "환자는 59세 남성으로 주택 화재로 인한 흡입 손상 후 급성 호흡곤란증후군 AS로 입원하였다. 활력증후는 혈압 135, 85옴, 심박수 110bpm, 호흡수 30breathmin, 체온 38.3도였다. 산소포화도는 실내 공기에서 88%로 확인되었다. 환자는 심한 호흡곤란을 호소하였다. 현재 환자는 기계적 환기를 받고 있으며, 벤틀레이터를 사용 중이다. 투약으로는 Methylprednisolone 125mg을 IV로 6시간마다 투여하고 있다. 수분 균형은 양성으로 확인되었다. 환자는 현재 의식이 둔한 상태이다.",
+  "stt_metadata": {
+    "model": "whisper-1",
+    "language": "ko"
+  }
+}

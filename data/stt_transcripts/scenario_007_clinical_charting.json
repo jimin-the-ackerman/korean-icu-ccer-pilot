@@ -1,0 +1,8 @@
+{
+  "sample_id": "scenario_007_clinical_charting",
+  "whisper_transcript": "60세 여성 환자 COPD 악화로 입원함. BP 환자 85mm, HR-Digivibpm, RR28 Breaths Min, B3 Seal 확인됨. SbO2 89% on room air 확인됨. Severe shortness of breath 호소함. Methylprednisolone 60mg IV Q6H2여함. 2L Nasal Canola 적용함. Positive fluid balance 확인됨. Clinical status drowsy 확인됨. Pulmonologist notify함.",
+  "stt_metadata": {
+    "model": "whisper-1",
+    "language": "ko"
+  }
+}

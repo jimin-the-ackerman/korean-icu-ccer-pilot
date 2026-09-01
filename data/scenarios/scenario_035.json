@@ -1,0 +1,28 @@
+{
+  "patient_context": "A 62-year-old female patient admitted with acute decompensated heart failure due to dilated cardiomyopathy.",
+  "vital_signs": {
+    "BP": "95/60 mmHg",
+    "HR": "110 bpm",
+    "RR": "24 breaths/min",
+    "BT": "36.8°C",
+    "SpO2": "90% on room air"
+  },
+  "symptom": {
+    "name": "shortness of breath",
+    "negation": false,
+    "severity": "severe"
+  },
+  "medication": {
+    "name": "Furosemide",
+    "dose": "40 mg",
+    "route": "IV",
+    "frequency": "q8h"
+  },
+  "oxygen_support": "4 L/min via nasal cannula",
+  "intervention": null,
+  "device": "Foley",
+  "io": "Negative balance of 500 mL over 24 hours",
+  "clinical_status": "drowsy",
+  "notification": "Cardiology team notified of persistent hypotension.",
+  "scenario_id": "scenario_035"
+}

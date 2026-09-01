@@ -1,0 +1,28 @@
+{
+  "patient_context": "A 67-year-old female patient admitted with acute respiratory failure due to interstitial lung disease exacerbation.",
+  "vital_signs": {
+    "BP": "140/85",
+    "HR": "110",
+    "RR": "28",
+    "BT": "37.6",
+    "SpO2": "88%"
+  },
+  "symptom": {
+    "name": "dyspnea",
+    "negation": false,
+    "severity": "severe"
+  },
+  "medication": {
+    "name": "methylprednisolone",
+    "dose": "60 mg",
+    "route": "IV",
+    "frequency": "q12h"
+  },
+  "oxygen_support": "high-flow nasal cannula",
+  "intervention": null,
+  "device": "ventilator",
+  "io": null,
+  "clinical_status": "drowsy",
+  "notification": null,
+  "scenario_id": "scenario_032"
+}

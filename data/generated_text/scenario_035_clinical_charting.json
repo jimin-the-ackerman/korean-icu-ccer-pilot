@@ -1,0 +1,11 @@
+{
+  "sample_id": "scenario_035_clinical_charting",
+  "scenario_id": "scenario_035",
+  "document_type": "ICU_observation",
+  "style_condition": "clinical_charting",
+  "text": "62세 여성 환자, acute decompensated heart failure로 입원, dilated cardiomyopathy 기인함.\n\nBP 95/60 mmHg, HR 110 bpm, RR 24 breaths/min, BT 36.8°C, SpO2 90% on room air 확인됨.\n\nShortness of breath severe.\n\nFurosemide 40 mg IV q8h 적용함.\n\n4 L/min via nasal cannula 산소공급 유지함.\n\nFoley 유지함.\n\nIO: Negative balance of 500 mL over 24 hours.\n\nClinical status: drowsy 확인됨.\n\nCardiology team notify함 for persistent hypotension.",
+  "generation_metadata": {
+    "model": "gpt-4o",
+    "temperature": 0.7
+  }
+}

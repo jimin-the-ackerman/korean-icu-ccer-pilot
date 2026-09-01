@@ -1,0 +1,11 @@
+{
+  "sample_id": "scenario_047_clinical_charting",
+  "scenario_id": "scenario_047",
+  "document_type": "ICU_observation",
+  "style_condition": "clinical_charting",
+  "text": "45세 여성, Legionella 감염에 의한 severe pneumonia로 입원함.\n\nBP 110/70 mmHg, HR 95 bpm, RR 28 breaths/min, BT 38.5°C, SpO2 88% on room air.\n\nSevere cough 호소함.\n\nLevofloxacin 750 mg IV q12h 투여 중.\n\nHigh-flow nasal cannula 적용함.\n\nVentilator 사용 중임.\n\n지난 24시간 동안 fluid balance negative 기록됨.\n\n환자 drowsy 상태 확인됨.\n\n담당의 notify함.",
+  "generation_metadata": {
+    "model": "gpt-4o",
+    "temperature": 0.7
+  }
+}

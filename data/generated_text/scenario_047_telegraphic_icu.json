@@ -1,0 +1,11 @@
+{
+  "sample_id": "scenario_047_telegraphic_icu",
+  "scenario_id": "scenario_047",
+  "document_type": "ICU_observation",
+  "style_condition": "telegraphic_icu",
+  "text": "45세 여성, Legionella 감염으로 인한 중증 폐렴 입원함.  \nBP 110/70 mmHg.  \nHR 95 bpm.  \nRR 28 breaths/min.  \nBT 38.5°C.  \nSpO2 88% (room air).  \nSevere cough.  \nLevofloxacin 750 mg IV q12h.  \nHigh-flow nasal cannula 사용.  \nVentilator 적용 중.  \n24시간 동안 음성 수분균형.  \n의식 상태 drowsy.  \nDr notify.",
+  "generation_metadata": {
+    "model": "gpt-4o",
+    "temperature": 0.7
+  }
+}

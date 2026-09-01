@@ -1,0 +1,28 @@
+{
+  "patient_context": "A 34-year-old female patient admitted with acute bacterial meningitis.",
+  "vital_signs": {
+    "BP": "110/70 mmHg",
+    "HR": "102 bpm",
+    "RR": "24 breaths/min",
+    "BT": "39.0°C",
+    "SpO2": "95% on room air"
+  },
+  "symptom": {
+    "name": "headache",
+    "negation": false,
+    "severity": "severe"
+  },
+  "medication": {
+    "name": "Ceftriaxone",
+    "dose": "2g",
+    "route": "IV",
+    "frequency": "q12h"
+  },
+  "oxygen_support": null,
+  "intervention": null,
+  "device": "C-line",
+  "io": null,
+  "clinical_status": "drowsy",
+  "notification": null,
+  "scenario_id": "scenario_013"
+}

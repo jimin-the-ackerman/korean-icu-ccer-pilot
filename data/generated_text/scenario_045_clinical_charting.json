@@ -1,0 +1,11 @@
+{
+  "sample_id": "scenario_045_clinical_charting",
+  "scenario_id": "scenario_045",
+  "document_type": "ICU_observation",
+  "style_condition": "clinical_charting",
+  "text": "62세 여성 환자, Addison's disease로 인한 acute adrenal crisis로 입원.  \nBP 88/54 mmHg, HR 112 bpm, RR 24 breaths/min, BT 37.0°C, SpO2 92% (room air).  \nSevere abdominal pain 호소함.  \nHydrocortisone 100 mg IV STAT 투여함.  \nNasal cannula 2 L/min 적용함.  \nFluid resuscitation with normal saline 시행함.  \nFoley 유지함, urine output 30 mL/hr 확인됨.  \n환자 drowsy 상태임.  \nEndocrinology consult함 for management of adrenal insufficiency.",
+  "generation_metadata": {
+    "model": "gpt-4o",
+    "temperature": 0.7
+  }
+}

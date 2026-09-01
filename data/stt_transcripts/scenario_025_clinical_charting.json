@@ -1,0 +1,8 @@
+{
+  "sample_id": "scenario_025_clinical_charting",
+  "whisper_transcript": "60세 여성 환자, acute cholecystitis로 입원함. BP, 환사입외, 파리스미미허드랭, HR, 카이시디, BPM, RR20, Breath, SMIN, BT, 38.22, SPO, 25%, room air. severe abdominal pain 호소함. Ceftriaxone, 1g IV, Q2H 적용함. Laparoscopic cholecystectomy planned, C-line 유지함. Iopositive balance 확인됨. Alert 상태 유지함.",
+  "stt_metadata": {
+    "model": "whisper-1",
+    "language": "ko"
+  }
+}

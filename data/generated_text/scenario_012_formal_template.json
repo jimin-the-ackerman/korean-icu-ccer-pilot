@@ -1,0 +1,11 @@
+{
+  "sample_id": "scenario_012_formal_template",
+  "scenario_id": "scenario_012",
+  "document_type": "ICU_observation",
+  "style_condition": "formal_template",
+  "text": "환자 정보: 75세 여성 환자가 울혈성 심부전 악화로 입원하였다.\n\n활력 징후: 혈압은 90/60 mmHg, 심박수는 110 bpm, 호흡수는 22 breaths/min, 체온은 36.8°C로 측정되었다. 산소포화도는 실내 공기에서 88%로 확인되었다.\n\n증상: 환자는 중등도의 dyspnea를 호소하였다.\n\n처치 및 투약: Furosemide 40 mg을 IV로 q8h 투여 중이다. 산소 공급은 2L nasal cannula를 통해 진행하였다.\n\n장치: Foley catheter가 삽입되어 있다.\n\n수액 균형: 양성 수분 균형이 관찰되었다.\n\n임상 상태: 환자는 기면 상태이다.\n\n알림: 수분 과부하와 저혈압을 심장내과 팀에 보고하였다.",
+  "generation_metadata": {
+    "model": "gpt-4o",
+    "temperature": 0.7
+  }
+}

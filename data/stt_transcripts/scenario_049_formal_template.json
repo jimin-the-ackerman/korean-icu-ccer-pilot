@@ -1,0 +1,8 @@
+{
+  "sample_id": "scenario_049_formal_template",
+  "whisper_transcript": "54세 여자 환자가 우측 무릎에 Septic Arthritis로 입원하였다. 활력증후는 혈압 102,65 mmHg, 심박수 125 ppm, 호흡수 24회분, 체온 38.5도, 산소포화도 96%로 실온 공기에서 측정되었다. 환자는 심한 무릎 통증을 호소하였다. 투약으로는 Vancomycin 1g Ib로 12시간마다 투여 중이다. 우측 무릎 관절 천자가 시행되었다. 수분 균형은 500mL의 양성으로 확인되었다. 환자는 의식이 또렷한 상태로 관찰되었다. 정형외과 전문의 상담을 요청하였다.",
+  "stt_metadata": {
+    "model": "whisper-1",
+    "language": "ko"
+  }
+}

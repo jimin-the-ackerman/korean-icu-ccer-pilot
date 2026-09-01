@@ -1,0 +1,11 @@
+{
+  "sample_id": "scenario_038_clinical_charting",
+  "scenario_id": "scenario_038",
+  "document_type": "ICU_observation",
+  "style_condition": "clinical_charting",
+  "text": "59세 여성 환자, acute myasthenic crisis로 입원하여 호흡 보조 필요함.\n\nBP 135/85, HR 92, RR 28, BT 37.0, SpO2 88% 확인됨.\n\nsevere muscle weakness 호소함.\n\nPyridostigmine 60 mg PO QID 적용함.\n\nmechanical ventilation 유지함, ventilator 사용 중임.\n\n임상 상태: stuporous 확인됨.",
+  "generation_metadata": {
+    "model": "gpt-4o",
+    "temperature": 0.7
+  }
+}

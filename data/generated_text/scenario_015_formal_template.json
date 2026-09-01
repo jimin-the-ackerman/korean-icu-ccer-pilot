@@ -1,0 +1,11 @@
+{
+  "sample_id": "scenario_015_formal_template",
+  "scenario_id": "scenario_015",
+  "document_type": "ICU_observation",
+  "style_condition": "formal_template",
+  "text": "78세 남성 환자가 급성 폐색전증으로 입원하였다. 활력징후로는 혈압이 145/90 mmHg, 심박수가 110 bpm, 호흡수가 28 breaths/min, 체온이 36.8°C, 산소포화도가 실내 공기에서 88%로 확인되었다. 환자는 심한 흉통을 호소하였다. Heparin 5000 units이 IV로 6시간마다 투여되었다. 고유량 비강 캐뉼라를 통해 산소 공급을 받았다. 혈전용해 요법이 시작되었다. 장치는 사용되지 않았다. 2000 mL의 IV 수액이 투여되었다. 환자는 의식이 명료하였다. 심장내과 팀에게 추가 평가 및 관리를 위해 보고하였다.",
+  "generation_metadata": {
+    "model": "gpt-4o",
+    "temperature": 0.7
+  }
+}

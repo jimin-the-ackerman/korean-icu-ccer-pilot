@@ -1,0 +1,11 @@
+{
+  "sample_id": "scenario_037_telegraphic_icu",
+  "scenario_id": "scenario_037",
+  "document_type": "ICU_observation",
+  "style_condition": "telegraphic_icu",
+  "text": "51세 남성 Crohn's disease 급성 악화.  \nSevere abdominal pain, diarrhea.  \nBP 110/70.  \nHR 95.  \nRR 18.  \nBT 37.5.  \nSpO2 98%.  \nPrednisone 40 mg PO BID.  \nIV fluids 2000 ml/24hr.  \nAlert.",
+  "generation_metadata": {
+    "model": "gpt-4o",
+    "temperature": 0.7
+  }
+}

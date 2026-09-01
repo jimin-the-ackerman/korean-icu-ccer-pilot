@@ -1,0 +1,8 @@
+{
+  "sample_id": "scenario_032_telegraphic_icu",
+  "whisper_transcript": "67세 여성 환자, 급성 호흡부전으로 입원, ILD 악화, BEP185, HR 백신, RRH8BT, 산지첩동축, SpO2 88%, 디스피니아 세베어, Methylprednisolone 60mg IVQ-SHOR-H, 하이플로우 네이설 캐뉴라 적용 중, VENTILATOR 사용 중, DROWSY.",
+  "stt_metadata": {
+    "model": "whisper-1",
+    "language": "ko"
+  }
+}

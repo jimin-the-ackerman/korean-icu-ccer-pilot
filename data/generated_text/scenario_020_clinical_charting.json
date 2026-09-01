@@ -1,0 +1,11 @@
+{
+  "sample_id": "scenario_020_clinical_charting",
+  "scenario_id": "scenario_020",
+  "document_type": "ICU_observation",
+  "style_condition": "clinical_charting",
+  "text": "61세 남성, severe acute pancreatitis로 입원. 다장기 침범 있음. 안정적이나 합병증 감시 중.\n\nBP 110/70, HR 95, RR 22, BT 37.8, SpO2 94%.\n\nSevere abdominal pain 호소함.\n\nMorphine 4 mg IV q4h 적용함.\n\nNasal cannula 2 L/min 유지함.\n\nNG tube 유지함.\n\nNegative fluid balance 500 mL/24hr 확인됨.\n\nDrowsy 상태 확인됨.\n\n담당의 notify함. Gastroenterology consult 요청함.",
+  "generation_metadata": {
+    "model": "gpt-4o",
+    "temperature": 0.7
+  }
+}

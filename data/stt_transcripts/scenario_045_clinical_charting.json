@@ -1,0 +1,8 @@
+{
+  "sample_id": "scenario_045_clinical_charting",
+  "whisper_transcript": "62세 여성 환자, 아디센스 디지즈로 인한 acute adrenal crisis로 입원. BPH 854 mmHg, HR 100 BPM, RRV4 breath smin, BT 30.0 SpoDxR, Severe abdominal pain 호소함, Hydrocortisone 100 mg IV STAT 투여함, Nasal cannula 2 in min 적용함, Fluid resuscitation with normal saline 시행함, Foley UGM, Urine output 30 mRRR 확인됨. 환자 드라우지 상태임. Endocrinology Consult for Management of Adrenal Insufficiency.",
+  "stt_metadata": {
+    "model": "whisper-1",
+    "language": "ko"
+  }
+}

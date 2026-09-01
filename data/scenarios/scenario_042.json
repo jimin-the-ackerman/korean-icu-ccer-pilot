@@ -1,0 +1,28 @@
+{
+  "patient_context": "A 73-year-old male patient admitted with severe dehydration and electrolyte imbalance secondary to prolonged diarrhea.",
+  "vital_signs": {
+    "BP": "98/62 mmHg",
+    "HR": "112 bpm",
+    "RR": "24 breaths/min",
+    "BT": "37.2°C",
+    "SpO2": "95% on room air"
+  },
+  "symptom": {
+    "name": "diarrhea",
+    "negation": false,
+    "severity": "severe"
+  },
+  "medication": {
+    "name": "Normal Saline",
+    "dose": "1000 mL",
+    "route": "IV",
+    "frequency": "STAT"
+  },
+  "oxygen_support": null,
+  "intervention": "IV fluid resuscitation",
+  "device": null,
+  "io": "Urine output low, 200 mL over 8 hours",
+  "clinical_status": "drowsy",
+  "notification": "Notify physician if urine output remains below 30 mL/hour",
+  "scenario_id": "scenario_042"
+}

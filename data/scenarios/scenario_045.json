@@ -1,0 +1,28 @@
+{
+  "patient_context": "A 62-year-old female patient admitted with acute adrenal crisis secondary to Addison's disease.",
+  "vital_signs": {
+    "BP": "88/54 mmHg",
+    "HR": "112 bpm",
+    "RR": "24 breaths/min",
+    "BT": "37.0°C",
+    "SpO2": "92% on room air"
+  },
+  "symptom": {
+    "name": "abdominal pain",
+    "negation": false,
+    "severity": "severe"
+  },
+  "medication": {
+    "name": "Hydrocortisone",
+    "dose": "100 mg",
+    "route": "IV",
+    "frequency": "STAT"
+  },
+  "oxygen_support": "nasal cannula at 2 L/min",
+  "intervention": "fluid resuscitation with normal saline",
+  "device": "Foley",
+  "io": "urine output 30 mL/hr",
+  "clinical_status": "drowsy",
+  "notification": "Endocrinology consulted for management of adrenal insufficiency",
+  "scenario_id": "scenario_045"
+}

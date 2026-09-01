@@ -1,0 +1,28 @@
+{
+  "patient_context": "A 50-year-old male patient admitted with acute bacterial endocarditis.",
+  "vital_signs": {
+    "BP": "110/70 mmHg",
+    "HR": "102 bpm",
+    "RR": "20 breaths/min",
+    "BT": "38.5°C",
+    "SpO2": "95% on room air"
+  },
+  "symptom": {
+    "name": "fever",
+    "negation": false,
+    "severity": "moderate"
+  },
+  "medication": {
+    "name": "Vancomycin",
+    "dose": "1g",
+    "route": "IV",
+    "frequency": "q12h"
+  },
+  "oxygen_support": null,
+  "intervention": null,
+  "device": "C-line",
+  "io": "positive fluid balance",
+  "clinical_status": "alert",
+  "notification": null,
+  "scenario_id": "scenario_043"
+}

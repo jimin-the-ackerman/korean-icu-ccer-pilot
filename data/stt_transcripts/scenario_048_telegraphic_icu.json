@@ -1,0 +1,8 @@
+{
+  "sample_id": "scenario_048_telegraphic_icu",
+  "whisper_transcript": "58세 남성 식도 정맥류로 심한 영향으로 이다인디 6cmhr 120bpm r24breathsmin bt36.8gspO2 92%RA hemorrhage syphdrowsy Octreotide 50mgivqxh nc2lmin Endoscopic band ligation Fully 적용 Iostrict monitoring Dr. Notify",
+  "stt_metadata": {
+    "model": "whisper-1",
+    "language": "ko"
+  }
+}

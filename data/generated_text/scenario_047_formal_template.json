@@ -1,0 +1,11 @@
+{
+  "sample_id": "scenario_047_formal_template",
+  "scenario_id": "scenario_047",
+  "document_type": "ICU_observation",
+  "style_condition": "formal_template",
+  "text": "45세 여성 환자가 Legionella 감염으로 인한 중증 폐렴으로 입원하였다. 활력징후로는 혈압이 110/70 mmHg, 심박수가 95 bpm, 호흡수가 28 breaths/min, 체온이 38.5°C, 산소포화도가 실내 공기에서 88%로 확인되었다. 환자는 심한 기침을 호소하였다. Levofloxacin 750 mg을 IV로 12시간 간격으로 투여 중이다. 고유속 비강 캐뉼라를 통해 산소 공급을 받고 있으며, 인공호흡기를 사용하고 있다. 지난 24시간 동안의 체액 균형은 음성이었다. 환자는 기면 상태를 보였다. 환자의 상태 악화에 대해 감염내과 전문의에게 보고하였다.",
+  "generation_metadata": {
+    "model": "gpt-4o",
+    "temperature": 0.7
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "sample_id": "scenario_035_telegraphic_icu",
+  "whisper_transcript": "60세 여성 급성 악화 심부전 확장성 신근병증 bp95 660 mmhr 810 bpm r 24 breaths min bt 36.8 decils spo2 90% room air severe sob furosemide 40 mmiv q8 h o24 element nc fully in place io 524 drowsy doctor notify",
+  "stt_metadata": {
+    "model": "whisper-1",
+    "language": "ko"
+  }
+}

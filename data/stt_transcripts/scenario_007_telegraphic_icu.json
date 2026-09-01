@@ -1,0 +1,8 @@
+{
+  "sample_id": "scenario_007_telegraphic_icu",
+  "whisper_transcript": "60세 여행 COPD 아크로이번 BP 1 3rd 85mg HR 95bpm 28breaths BT 37.2degrees of success SpO2 89% room air severe shortness of breath methylprednisolone 60mg IV Q6H O2 2lnc positive fluid balance drowsy pulmonologist notify",
+  "stt_metadata": {
+    "model": "whisper-1",
+    "language": "ko"
+  }
+}

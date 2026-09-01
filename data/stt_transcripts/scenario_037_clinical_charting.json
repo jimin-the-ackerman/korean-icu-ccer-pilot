@@ -1,0 +1,8 @@
+{
+  "sample_id": "scenario_037_clinical_charting",
+  "whisper_transcript": "51세 남성 환자 Crohn's Disease 악화로 입원함 Severe Abdominal Pain Meet Diarrhea 호소함 BP 170mg, HRV, BPHM, RPAT, BTSN 7.5C, SBO-90 파이퍼 확인됨 Prednisone 40mL POBID 처방함 24시간 동안 2000mL IV Fluids 투여함 환자 알러트 상태 유지함",
+  "stt_metadata": {
+    "model": "whisper-1",
+    "language": "ko"
+  }
+}

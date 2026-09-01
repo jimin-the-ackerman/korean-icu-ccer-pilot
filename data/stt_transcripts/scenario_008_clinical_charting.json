@@ -1,0 +1,8 @@
+{
+  "sample_id": "scenario_008_clinical_charting",
+  "whisper_transcript": "55세 남성 환자 GI Bleeding으로 입원함. BP 96.6mg, HR 110bpm, RRHU Breathsmin, BT, 산미첩종 뇌녹위 셀스, SbO2 94%. Abdominal Pain Moderate 호소함. Pantoprazole 20mg IV BID 투여함. Oxygen 지원으로 Nasal Cannula 적용함. Blood Transfusion 시행함. NG Tubes 합입됨. IO Negative 확인됨. 환자 Drowsy 상태 보임. Gastroenterology Team Notify함 for Endoscopy.",
+  "stt_metadata": {
+    "model": "whisper-1",
+    "language": "ko"
+  }
+}

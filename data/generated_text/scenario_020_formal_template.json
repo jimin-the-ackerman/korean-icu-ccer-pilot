@@ -1,0 +1,11 @@
+{
+  "sample_id": "scenario_020_formal_template",
+  "scenario_id": "scenario_020",
+  "document_type": "ICU_observation",
+  "style_condition": "formal_template",
+  "text": "61세 남성 환자가 급성 중증 췌장염으로 다장기 침범이 발생하여 입원하였다. 현재 상태는 안정적이나 합병증 발생에 대한 면밀한 관찰이 필요하다. 활력징후로는 혈압이 110/70 mmHg, 심박수가 95 bpm, 호흡수가 22 bpm, 체온이 37.8도, 산소포화도가 94%로 확인되었다. 환자는 심한 복통을 호소하였다. 현재 Morphine 4 mg을 IV로 4시간마다 투여 중이다. 산소는 nasal cannula를 통해 2 L/min로 공급받고 있으며, NG tube가 삽입되어 있다. 24시간 동안 500 mL의 음성 체액 균형이 확인되었다. 임상 상태는 졸린 상태이다. 췌장염의 지속적인 관리를 위해 소화기 내과에 자문을 요청하였다.",
+  "generation_metadata": {
+    "model": "gpt-4o",
+    "temperature": 0.7
+  }
+}

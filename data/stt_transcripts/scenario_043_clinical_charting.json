@@ -1,0 +1,8 @@
+{
+  "sample_id": "scenario_043_clinical_charting",
+  "whisper_transcript": "50세 남성 환자, acute bacterial endocarditis로 입원함. BP 100킹, 70mm 감 확인함. HR 102 BPM 확인됨. R breath's min 확인. BT 38.5 곡수 확인됨. SBU 95% on room air 확인됨. Fever moderate 확인됨. Vancomycin 1g IV Q-Ster H 투여중임. C-line 유지함. Positive fluid balance 기록됨. 환자 alert 상태 확인됨.",
+  "stt_metadata": {
+    "model": "whisper-1",
+    "language": "ko"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "patient_context": "A 59-year-old male patient admitted with acute respiratory distress syndrome (ARDS) following inhalation injury from house fire.",
+  "vital_signs": {
+    "BP": "135/85 mmHg",
+    "HR": "110 bpm",
+    "RR": "30 breaths/min",
+    "BT": "38.3°C",
+    "SpO2": "88% on room air"
+  },
+  "symptom": {
+    "name": "dyspnea",
+    "negation": false,
+    "severity": "severe"
+  },
+  "medication": {
+    "name": "methylprednisolone",
+    "dose": "125 mg",
+    "route": "IV",
+    "frequency": "q6h"
+  },
+  "oxygen_support": "mechanical ventilation",
+  "intervention": null,
+  "device": "ventilator",
+  "io": "positive fluid balance",
+  "clinical_status": "drowsy",
+  "notification": null,
+  "scenario_id": "scenario_014"
+}

@@ -1,0 +1,11 @@
+{
+  "sample_id": "scenario_029_clinical_charting",
+  "scenario_id": "scenario_029",
+  "document_type": "ICU_observation",
+  "style_condition": "clinical_charting",
+  "text": "49세 여자환자, GBS로 입원. 중증 muscle weakness 호소. 호흡 상태 밀착 모니터링 필요.\n\nBP 130/85 mmHg, HR 92 bpm, RR 18 breaths/min, BT 36.8°C, SpO2 89% room air.\n\nIVIG 0.4 g/kg IV q12h 적용함.\n\nNasal cannula 2L/min 산소 공급 유지함.\n\nPlasmapheresis 예정됨.\n\nVentilator 필요함.\n\nFoley catheter 유지 중, 소변량 1200 ml/24h 확인됨.\n\n의식 drowsy 확인됨.\n\nNeurology team에 호흡 기능 저하 상태 업데이트함.",
+  "generation_metadata": {
+    "model": "gpt-4o",
+    "temperature": 0.7
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "sample_id": "scenario_050_formal_template",
+  "scenario_id": "scenario_050",
+  "document_type": "ICU_observation",
+  "style_condition": "formal_template",
+  "text": "67세 남성 환자가 고혈압 응급으로 인한 급성 심부전으로 입원하였다. 현재 환자의 활력징후는 혈압 220/130 mmHg, 심박수 110 bpm, 호흡수 28 breaths/min, 체온 36.7°C, 산소포화도는 실내 공기에서 90%로 확인되었다. 환자는 심한 흉통을 호소하였다. Nitroglycerin 10 mcg/min을 IV 경로로 TID로 투여 중이다. 산소 공급은 고유량 비강 캐뉼라를 통해 이루어지고 있다. 중심정맥관이 삽입되어 있으며, 현재 체액 균형은 양성이다. 환자는 기면 상태를 보이고 있다. 추가적인 평가와 관리를 위해 심장내과 팀에게 보고하였다.",
+  "generation_metadata": {
+    "model": "gpt-4o",
+    "temperature": 0.7
+  }
+}

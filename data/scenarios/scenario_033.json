@@ -1,0 +1,28 @@
+{
+  "patient_context": "A 64-year-old male patient admitted with a new onset of atrial fibrillation, presenting with unstable hemodynamics.",
+  "vital_signs": {
+    "BP": "88/54 mmHg",
+    "HR": "142 bpm",
+    "RR": "22 breaths/min",
+    "BT": "36.9°C",
+    "SpO2": "94% on room air"
+  },
+  "symptom": {
+    "name": "palpitations",
+    "negation": false,
+    "severity": "severe"
+  },
+  "medication": {
+    "name": "Diltiazem",
+    "dose": "20 mg",
+    "route": "IV",
+    "frequency": "STAT"
+  },
+  "oxygen_support": null,
+  "intervention": "Electrical cardioversion",
+  "device": "C-line",
+  "io": "1500 mL IV fluids administered",
+  "clinical_status": "alert",
+  "notification": "Cardiology team notified for further management.",
+  "scenario_id": "scenario_033"
+}

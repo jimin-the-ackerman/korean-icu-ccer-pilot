@@ -1,0 +1,8 @@
+{
+  "sample_id": "scenario_028_telegraphic_icu",
+  "whisper_transcript": "욕실 후세 남성, 급성 출혈성 뇌졸중 이원, BPHHR88BR20TI-RAS-MIN-BT36.AS-SPO2-95% room air, severe headache, libetalol 20mg IV stat, CT head shing, C-line UG, IO plus 5mg, stuporous 상태, neuro notify.",
+  "stt_metadata": {
+    "model": "whisper-1",
+    "language": "ko"
+  }
+}

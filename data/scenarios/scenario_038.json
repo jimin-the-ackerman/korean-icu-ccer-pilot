@@ -1,0 +1,28 @@
+{
+  "patient_context": "A 59-year-old female patient admitted with acute myasthenic crisis requiring respiratory support.",
+  "vital_signs": {
+    "BP": "135/85",
+    "HR": "92",
+    "RR": "28",
+    "BT": "37.0",
+    "SpO2": "88%"
+  },
+  "symptom": {
+    "name": "muscle weakness",
+    "negation": false,
+    "severity": "severe"
+  },
+  "medication": {
+    "name": "Pyridostigmine",
+    "dose": "60 mg",
+    "route": "PO",
+    "frequency": "QID"
+  },
+  "oxygen_support": "mechanical ventilation",
+  "intervention": null,
+  "device": "ventilator",
+  "io": null,
+  "clinical_status": "stuporous",
+  "notification": null,
+  "scenario_id": "scenario_038"
+}

@@ -1,0 +1,11 @@
+{
+  "sample_id": "scenario_043_telegraphic_icu",
+  "scenario_id": "scenario_043",
+  "document_type": "ICU_observation",
+  "style_condition": "telegraphic_icu",
+  "text": "50M, acute bacterial endocarditis.  \nBP 110/70 mmHg.  \nHR 102 bpm.  \nRR 20 breaths/min.  \nBT 38.5°C.  \nSpO2 95% RA.  \nFever moderate.  \nVancomycin 1g IV q12h.  \nC-line in place.  \nPositive fluid balance.  \nAlert.",
+  "generation_metadata": {
+    "model": "gpt-4o",
+    "temperature": 0.7
+  }
+}

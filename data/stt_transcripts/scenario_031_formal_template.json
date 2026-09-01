@@ -1,0 +1,8 @@
+{
+  "sample_id": "scenario_031_formal_template",
+  "whisper_transcript": "환자는 43세 남성으로 급성 최장염과 연관된 전신 염증 반응증으로 입원하였다. 활력증후는 혈압이 92, 58mmHg, 심박수가 126bpm, 호흡수가 28bpm, 체온이 38.5℃, 산소포화도가 대기 중 95%로 확인되었다. 환자는 심한 복통을 호소하였다. 약물로는 Morphine 4mg을 IB로 매시간 간격으로 투여하였다. 중재로는 IB Fluid Resuscitation이 시행되었다. 지난 23시간 동안의 체액균형은 500mL의 음성으로 확인되었다. 환자는 졸음이 있는 상태이다. 추가적인 관리 권고를 위해 소아기내과 전문의에게 상담하였다.",
+  "stt_metadata": {
+    "model": "whisper-1",
+    "language": "ko"
+  }
+}

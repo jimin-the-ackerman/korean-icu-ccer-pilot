@@ -1,0 +1,8 @@
+{
+  "sample_id": "scenario_045_telegraphic_icu",
+  "whisper_transcript": "60VC 여성, 아디센스 디지즈로 인한 급성 부지 이완, BP 80, V 소아 튜브 패밀림, RR24 Breast Mobility Seth, SpO2 90% RA, Severe Abdominal Pain, Hydrocortisone 100mg IV STAT, Nasal Cannula 2L Min, Fluid Resuscitation with NS Fully Present, Urine Output Put 30mHr Drowsy, Endocrinology Consult.",
+  "stt_metadata": {
+    "model": "whisper-1",
+    "language": "ko"
+  }
+}

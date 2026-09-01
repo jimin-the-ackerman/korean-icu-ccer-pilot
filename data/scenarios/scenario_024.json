@@ -1,0 +1,28 @@
+{
+  "patient_context": "A 47-year-old male patient admitted with acute appendicitis and post-operative complications.",
+  "vital_signs": {
+    "BP": "112/74 mmHg",
+    "HR": "88 bpm",
+    "RR": "18 breaths/min",
+    "BT": "37.8°C",
+    "SpO2": "96%"
+  },
+  "symptom": {
+    "name": "abdominal pain",
+    "negation": false,
+    "severity": "moderate"
+  },
+  "medication": {
+    "name": "Ceftriaxone",
+    "dose": "1g",
+    "route": "IV",
+    "frequency": "BID"
+  },
+  "oxygen_support": null,
+  "intervention": null,
+  "device": null,
+  "io": "mildly reduced urine output",
+  "clinical_status": "alert",
+  "notification": null,
+  "scenario_id": "scenario_024"
+}

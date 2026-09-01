@@ -1,0 +1,8 @@
+{
+  "sample_id": "scenario_007_formal_template",
+  "whisper_transcript": "60세 여성 환자가 만성 폐쇄성 폐질환 악화로 입원하였다. 활력증후는 혈압 138mm, 심박수 95bpm, 호흡수 28breath, 체온 37.26, 산소포화도 89%로 확인되었다. 환자는 심한 호흡곤란을 호소하였다. 메틀프레드니즐론 60mg이 6시간마다 정맥으로 투여되고 있다. 산소 공급은 2리터 네이첼 캐늘라로 시행 중이다. 수분 균형은 positive fluid balance로 평가되었다. 임상상태는 drowsy로 관대했다. 환자의 악화된 호흡상태에 대해 담당 폐거의사에게 보고하였다.",
+  "stt_metadata": {
+    "model": "whisper-1",
+    "language": "ko"
+  }
+}

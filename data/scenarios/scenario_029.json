@@ -1,0 +1,28 @@
+{
+  "patient_context": "A 49-year-old female patient admitted with Guillain-Barré Syndrome (GBS), experiencing progressive muscle weakness and requiring close respiratory monitoring.",
+  "vital_signs": {
+    "BP": "130/85 mmHg",
+    "HR": "92 bpm",
+    "RR": "18 breaths/min",
+    "BT": "36.8°C",
+    "SpO2": "89% on room air"
+  },
+  "symptom": {
+    "name": "muscle weakness",
+    "negation": false,
+    "severity": "severe"
+  },
+  "medication": {
+    "name": "IVIG",
+    "dose": "0.4 g/kg",
+    "route": "IV",
+    "frequency": "q12h"
+  },
+  "oxygen_support": "nasal cannula 2L/min",
+  "intervention": "plasmapheresis scheduled",
+  "device": "ventilator",
+  "io": "Foley catheter in place, urine output 1200 ml/24h",
+  "clinical_status": "drowsy",
+  "notification": "Neurology team updated on patient's status with decreased respiratory function",
+  "scenario_id": "scenario_029"
+}

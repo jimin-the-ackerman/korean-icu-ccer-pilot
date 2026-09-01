@@ -1,0 +1,28 @@
+{
+  "patient_context": "A 57-year-old male patient admitted with severe hyperkalemia due to rhabdomyolysis following prolonged immobilization.",
+  "vital_signs": {
+    "BP": "145/85 mmHg",
+    "HR": "110 bpm",
+    "RR": "22 breaths/min",
+    "BT": "37.2°C",
+    "SpO2": "95% on room air"
+  },
+  "symptom": {
+    "name": "muscle weakness",
+    "negation": false,
+    "severity": "severe"
+  },
+  "medication": {
+    "name": "Calcium gluconate",
+    "dose": "10 mL",
+    "route": "IV",
+    "frequency": "STAT"
+  },
+  "oxygen_support": null,
+  "intervention": "IV fluid administration",
+  "device": "C-line",
+  "io": "strict monitoring of intake and output",
+  "clinical_status": "alert",
+  "notification": "Renal team notified for further management of electrolyte imbalance.",
+  "scenario_id": "scenario_021"
+}

@@ -1,0 +1,8 @@
+{
+  "sample_id": "scenario_036_telegraphic_icu",
+  "whisper_transcript": "중급성 전식 악화도 입원, BP 희대 이환 35mHrm, HR BPM, RR28B, BT 37.2°C, SbO2 88%, Room Air, Wheezing Severe, Albuterol 2.5mg IV Q4H, High Flow Nasal Cannula 사용, Ventilator 사용 중, Negative Fluid Balance, Drowsy, RT Notify Ventilator 관리",
+  "stt_metadata": {
+    "model": "whisper-1",
+    "language": "ko"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "sample_id": "scenario_048_clinical_charting",
+  "whisper_transcript": "58세 남성 에서프지올 베르시스로 인한 세베어 가스트로 인테스티널 블리딩으로 입원함 VITAL SIGNS BP 디즈릴 60mm HR 웨기피염 RR 워치사 브레스 민 BT 36.8°C SBO2 다이지디 퍼센트 온 룸 에어 세베어 헤머지 확인됨 옥트리아타이드 50mg IV Q6H 투여중 OXYGEN SUPPORT NASAL CANNULA 2L PER MIN 인터경함 ENDOSCOPIC BAND LIGATION 시행함 FOLI 유지함 STRICT MONITORING OF INPUT AND OUTPUT CLINICAL STATUS DROWSY 상태 확인됨 GASTROENTEROLOGY TEAM NOTIFY HAM",
+  "stt_metadata": {
+    "model": "whisper-1",
+    "language": "ko"
+  }
+}

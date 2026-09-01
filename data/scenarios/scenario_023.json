@@ -1,0 +1,28 @@
+{
+  "patient_context": "A 69-year-old female patient admitted with acute exacerbation of multiple sclerosis.",
+  "vital_signs": {
+    "BP": "135/85 mmHg",
+    "HR": "80 bpm",
+    "RR": "22 breaths/min",
+    "BT": "37.2°C",
+    "SpO2": "96% on room air"
+  },
+  "symptom": {
+    "name": "muscle weakness",
+    "negation": false,
+    "severity": "moderate"
+  },
+  "medication": {
+    "name": "Methylprednisolone",
+    "dose": "1g",
+    "route": "IV",
+    "frequency": "q12h"
+  },
+  "oxygen_support": null,
+  "intervention": null,
+  "device": null,
+  "io": null,
+  "clinical_status": "drowsy",
+  "notification": null,
+  "scenario_id": "scenario_023"
+}

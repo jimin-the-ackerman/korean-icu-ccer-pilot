@@ -1,0 +1,11 @@
+{
+  "sample_id": "scenario_024_formal_template",
+  "scenario_id": "scenario_024",
+  "document_type": "ICU_observation",
+  "style_condition": "formal_template",
+  "text": "47세 남성 환자가 급성 충수염 및 수술 후 합병증으로 입원하였다. 활력징후는 혈압 112/74 mmHg, 심박수 88 bpm, 호흡수 18 breaths/min, 체온 37.8°C, 산소포화도 96%로 확인되었다. 환자는 중간 정도의 복통을 호소하였다. Ceftriaxone 1g을 IV로 BID 투여 중이다. 산소 보조는 필요하지 않으며, 기기의 사용은 없다. 소변량은 경미하게 감소하였다. 환자는 의식이 명료하다.",
+  "generation_metadata": {
+    "model": "gpt-4o",
+    "temperature": 0.7
+  }
+}

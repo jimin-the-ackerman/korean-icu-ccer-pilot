@@ -1,0 +1,11 @@
+{
+  "sample_id": "scenario_012_clinical_charting",
+  "scenario_id": "scenario_012",
+  "document_type": "ICU_observation",
+  "style_condition": "clinical_charting",
+  "text": "75세 여성 환자 CHF exacerbation으로 입원함.\n\nVital Signs:\n- BP 90/60 mmHg\n- HR 110 bpm\n- RR 22 breaths/min\n- BT 36.8°C\n- SpO2 88% on room air\n\nDyspnea moderate 호소함.\n\nFurosemide 40 mg IV q8h 투여 중.\n\nOxygen support 2L nasal cannula 적용함.\n\nFoley 유지함.\n\nPositive fluid balance 확인됨.\n\n환자 drowsy 상태 확인됨.\n\nCardiology team notify함.",
+  "generation_metadata": {
+    "model": "gpt-4o",
+    "temperature": 0.7
+  }
+}

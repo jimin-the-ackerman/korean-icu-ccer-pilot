@@ -1,0 +1,11 @@
+{
+  "sample_id": "scenario_048_telegraphic_icu",
+  "scenario_id": "scenario_048",
+  "document_type": "ICU_observation",
+  "style_condition": "telegraphic_icu",
+  "text": "58세 남성. 식도정맥류로 심한 위장출혈 입원.\n\nBP 90/60 mmHg.  \nHR 120 bpm.  \nRR 24 breaths/min.  \nBT 36.8°C.  \nSpO2 92% RA.\n\nHemorrhage severe.  \nDrowsy.\n\nOctreotide 50 mcg IV q6h.  \nNC 2 L/min.\n\nEndoscopic band ligation.  \nFoley 적용.  \nI/O strict monitoring.\n\nDr notify.",
+  "generation_metadata": {
+    "model": "gpt-4o",
+    "temperature": 0.7
+  }
+}

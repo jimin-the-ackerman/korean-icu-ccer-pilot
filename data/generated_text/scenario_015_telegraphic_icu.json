@@ -1,0 +1,11 @@
+{
+  "sample_id": "scenario_015_telegraphic_icu",
+  "scenario_id": "scenario_015",
+  "document_type": "ICU_observation",
+  "style_condition": "telegraphic_icu",
+  "text": "78세 남자 환자. 급성 폐색전증 입원.\n\nBP 145/90 mmHg.  \nHR 110 bpm.  \nRR 28 breaths/min.  \nBT 36.8°C.  \nSpO2 88% on room air.  \n\nSevere chest pain.  \n\nHeparin 5000 units IV q6h.  \n\nHigh-flow nasal cannula 사용.  \n\nThrombolytic therapy 시작.\n\n2000 mL IV fluids 투여.\n\n환자 alert.\n\nCardiology team notify.",
+  "generation_metadata": {
+    "model": "gpt-4o",
+    "temperature": 0.7
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "patient_context": "A 45-year-old female patient admitted with severe sepsis secondary to an abdominal abscess.",
+  "vital_signs": {
+    "BP": "85/55",
+    "HR": "120",
+    "RR": "28",
+    "BT": "39.2",
+    "SpO2": "92%"
+  },
+  "symptom": {
+    "name": "fever",
+    "negation": false,
+    "severity": "severe"
+  },
+  "medication": {
+    "name": "Meropenem",
+    "dose": "1g",
+    "route": "IV",
+    "frequency": "q8h"
+  },
+  "oxygen_support": "nasal cannula",
+  "intervention": "drainage of abscess",
+  "device": "C-line",
+  "io": "negative fluid balance",
+  "clinical_status": "drowsy",
+  "notification": "elevated lactate levels reported to physician",
+  "scenario_id": "scenario_016"
+}

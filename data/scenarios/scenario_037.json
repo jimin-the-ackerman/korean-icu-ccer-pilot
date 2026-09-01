@@ -1,0 +1,28 @@
+{
+  "patient_context": "A 51-year-old male patient admitted with acute exacerbation of Crohn's disease, presenting with severe abdominal pain and diarrhea.",
+  "vital_signs": {
+    "BP": "110/70",
+    "HR": "95",
+    "RR": "18",
+    "BT": "37.5",
+    "SpO2": "98%"
+  },
+  "symptom": {
+    "name": "abdominal pain",
+    "negation": false,
+    "severity": "severe"
+  },
+  "medication": {
+    "name": "Prednisone",
+    "dose": "40 mg",
+    "route": "PO",
+    "frequency": "BID"
+  },
+  "oxygen_support": null,
+  "intervention": null,
+  "device": null,
+  "io": "2000 ml IV fluids administered over 24 hours",
+  "clinical_status": "alert",
+  "notification": null,
+  "scenario_id": "scenario_037"
+}

@@ -1,0 +1,11 @@
+{
+  "sample_id": "scenario_021_formal_template",
+  "scenario_id": "scenario_021",
+  "document_type": "ICU_observation",
+  "style_condition": "formal_template",
+  "text": "57세 남성 환자는 장시간의 부동으로 인한 횡문근융해증으로 심각한 고칼륨혈증을 앓고 있어 입원하였다.\n\n환자의 활력 징후는 혈압이 145/85 mmHg로 확인되었고, 심박수는 110 bpm이며, 호흡수는 22 breaths/min로 나타났다. 체온은 37.2°C였으며, 산소포화도는 실내 공기에서 95%로 확인되었다.\n\n환자는 심한 근육 약화를 호소하였다. \n\n약물로는 Calcium gluconate 10 mL가 IV로 STAT 투여되었다. \n\n환자는 IV fluid administration을 받았으며 C-line이 삽입되었다. 또한, 섭취 및 배출에 대한 철저한 모니터링이 이루어졌다.\n\n환자는 의식이 명료한 상태였다.\n\n전해질 불균형의 추가 관리를 위해 신장팀에 보고하였다.",
+  "generation_metadata": {
+    "model": "gpt-4o",
+    "temperature": 0.7
+  }
+}

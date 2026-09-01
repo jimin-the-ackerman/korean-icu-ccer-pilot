@@ -1,0 +1,8 @@
+{
+  "sample_id": "scenario_034_clinical_charting",
+  "whisper_transcript": "58세 남성 환자. 아큐트 디컴펜세이티드 서로시스 후 히파닉 엔세포로파티로 입원함. BP 25-60mmg, HR 100 BPM, RR20 Breathsmin, BT 36.5°C, SpO2 기시% on room air. Moderate jaundice 확인됨. 환자 드라우지 상태 유지함. Lactulose 30ml POQ8H 투여함. Nasal cannulite 2LMN 적용함. Strict fluid balance monitoring 유지함. Hepatology team notify함.",
+  "stt_metadata": {
+    "model": "whisper-1",
+    "language": "ko"
+  }
+}

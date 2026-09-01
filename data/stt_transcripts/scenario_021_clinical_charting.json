@@ -1,0 +1,8 @@
+{
+  "sample_id": "scenario_021_clinical_charting",
+  "whisper_transcript": "57세 남성 세벌 하이퍼칼리미아로 입원함. 근육 약화 세벌 호소함. 랩드 마이올리스스로 프로롱드 이모빌리제이션 후 발생. BP 환사지와 85ml 허리비 유저람. HR 헤드리 브레스민 BT. BT 산지차 변티스. SPO2 85% 룸 에어. 칼슘 글루코네이트 10ml IV 스탯 적용함. IV 플루이드 애드민스트레이션 적용함. C-LINE 유지함. 스트릭트 모니터링 of intake and output 시행중. 환자 알러트 상태 확인됨. 린얼팀 노티파엠.",
+  "stt_metadata": {
+    "model": "whisper-1",
+    "language": "ko"
+  }
+}

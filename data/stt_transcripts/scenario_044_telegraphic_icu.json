@@ -1,0 +1,8 @@
+{
+  "sample_id": "scenario_044_telegraphic_icu",
+  "whisper_transcript": "38세 이상 남성, BP 98, 62mm HRHR 10xM, RR 28, BT 37.8, RASD, SPPO2, 93% RA, 서류라미놀 패인, 몰피인, 튤러리에이진, 네이벌 캔뉴리스, 하이온, 폴리엄, 인플레이스, 드라우지, 패인팀, 컨설템.",
+  "stt_metadata": {
+    "model": "whisper-1",
+    "language": "ko"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "sample_id": "scenario_025_telegraphic_icu",
+  "whisper_transcript": "60세 여자, 급성 탐내염 의원. BP 138, 84 mm, HR 92 BPM, RR20 breaths, MIN T38.2, SPO2 95%, Room air, Severe abdominal pain, Seftriaxone 1 guy VQ12H, Laparoscopic cholecystectomy planned, C-line, Positive balance, Alert.",
+  "stt_metadata": {
+    "model": "whisper-1",
+    "language": "ko"
+  }
+}

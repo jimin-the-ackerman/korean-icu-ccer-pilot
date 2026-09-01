@@ -1,0 +1,11 @@
+{
+  "sample_id": "scenario_045_formal_template",
+  "scenario_id": "scenario_045",
+  "document_type": "ICU_observation",
+  "style_condition": "formal_template",
+  "text": "62세 여성 환자가 Addison's disease로 인한 급성 부신 위기로 입원하였다. 활력징후는 혈압 88/54 mmHg, 심박수 112 bpm, 호흡수 24 breaths/min, 체온 37.0°C이며, 산소포화도는 상온 공기에서 92%로 확인되었다. 환자는 심한 복통을 호소하였다. Hydrocortisone 100 mg IV STAT로 투여되었다. 산소는 비강 캐뉼라를 통해 2 L/min으로 공급 중이다. 정상 식염수로 체액 보충이 시행되었다. Foley 카테터가 삽입되어 있으며, 소변 배출량은 시간당 30 mL로 기록되었다. 환자는 약간 졸리는 상태이다. 부신 기능 부전 관리에 대해 내분비과에 상담하였다.",
+  "generation_metadata": {
+    "model": "gpt-4o",
+    "temperature": 0.7
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "sample_id": "scenario_009_clinical_charting",
+  "scenario_id": "scenario_009",
+  "document_type": "ICU_observation",
+  "style_condition": "clinical_charting",
+  "text": "68세 여성 환자, UTI로 인한 septic shock.  \nBP 85/50 mmHg, HR 120 bpm, RR 26/min, BT 38.9°C, SpO2 92%.  \nSevere fever 확인됨.  \nPiperacillin/Tazobactam 4.5 g IV q8h 적용함.  \nNasal cannula 3L/min 산소 유지함.  \nC-line 유지함.  \nPositive fluid balance 확인됨.  \n환자 상태 drowsy.  \n담당의 notify함: 지속적인 저혈압 및 발열 관련.",
+  "generation_metadata": {
+    "model": "gpt-4o",
+    "temperature": 0.7
+  }
+}

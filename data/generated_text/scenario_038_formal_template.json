@@ -1,0 +1,11 @@
+{
+  "sample_id": "scenario_038_formal_template",
+  "scenario_id": "scenario_038",
+  "document_type": "ICU_observation",
+  "style_condition": "formal_template",
+  "text": "환자는 59세 여성으로, 급성 중증 근무력 위기로 인하여 호흡 보조가 필요한 상태로 입원하였다. 현재 혈압은 135/85 mmHg, 심박수는 92 bpm, 호흡수는 28 bpm, 체온은 37.0°C로 확인되었다. 산소포화도는 88%로 낮은 수준이며, 기계 환기로 호흡을 지원받고 있다. 근육 약화가 심각한 상태로 나타났으며, 환자는 stuporous 상태로 관찰되었다. Pyridostigmine 60 mg을 경구로 하루 네 번 투여받고 있다. 환자는 ventilator를 사용 중이다.",
+  "generation_metadata": {
+    "model": "gpt-4o",
+    "temperature": 0.7
+  }
+}

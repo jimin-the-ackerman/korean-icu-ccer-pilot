@@ -1,0 +1,11 @@
+{
+  "sample_id": "scenario_022_telegraphic_icu",
+  "scenario_id": "scenario_022",
+  "document_type": "ICU_observation",
+  "style_condition": "telegraphic_icu",
+  "text": "63세 여성, 급성 심부전 및 폐부종.\n\nBP 150/95 mmHg.  \nHR 110 bpm.  \nRR 28.  \nBT 37.2°C.  \nSpO2 86% on RA.  \n\nSevere SOB.  \n\nFurosemide 40 mg IV q8h.  \n\nHFNC 사용 중.  \n\nC-line 유지 중.  \n\n양성 수분 균형.  \n\nDrowsy.  \n\nCardiology team notify.",
+  "generation_metadata": {
+    "model": "gpt-4o",
+    "temperature": 0.7
+  }
+}

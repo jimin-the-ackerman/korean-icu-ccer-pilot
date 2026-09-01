@@ -1,0 +1,28 @@
+{
+  "patient_context": "A 58-year-old male patient admitted with acute decompensated cirrhosis with hepatic encephalopathy.",
+  "vital_signs": {
+    "BP": "95/60 mmHg",
+    "HR": "112 bpm",
+    "RR": "20 breaths/min",
+    "BT": "36.5°C",
+    "SpO2": "92% on room air"
+  },
+  "symptom": {
+    "name": "jaundice",
+    "negation": false,
+    "severity": "moderate"
+  },
+  "medication": {
+    "name": "lactulose",
+    "dose": "30 mL",
+    "route": "PO",
+    "frequency": "q8h"
+  },
+  "oxygen_support": "nasal cannula at 2 L/min",
+  "intervention": null,
+  "device": null,
+  "io": "strict fluid balance monitoring",
+  "clinical_status": "drowsy",
+  "notification": "Hepatology team notified of worsening hepatic encephalopathy.",
+  "scenario_id": "scenario_034"
+}

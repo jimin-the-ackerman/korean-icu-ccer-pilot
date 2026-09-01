@@ -1,0 +1,8 @@
+{
+  "sample_id": "scenario_011_telegraphic_icu",
+  "whisper_transcript": "62세 남성 급성 간부전이 모아 BPD-R16-R.PHRR-RSTO-2-95% 존 다이스 심각 Lactulose 36mg Nasal Canella 2 Datamormin Fully 사용중 의식상태 혼미 Hepatology Team Notify",
+  "stt_metadata": {
+    "model": "whisper-1",
+    "language": "ko"
+  }
+}

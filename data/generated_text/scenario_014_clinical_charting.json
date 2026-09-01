@@ -1,0 +1,11 @@
+{
+  "sample_id": "scenario_014_clinical_charting",
+  "scenario_id": "scenario_014",
+  "document_type": "ICU_observation",
+  "style_condition": "clinical_charting",
+  "text": "59세 남성 환자, ARDS로 입원함. 집 화재로 인한 흡입 손상 후 상태.\n\nBP 135/85 mmHg. HR 110 bpm. RR 30 breaths/min. BT 38.3°C. SpO2 88% (room air).\n\nDyspnea severe 호소함. Methylprednisolone 125 mg IV q6h 투여 중.\n\nMechanical ventilation 적용함. Ventilator 사용 중. Positive fluid balance 확인됨.\n\nClinical status drowsy 확인됨.",
+  "generation_metadata": {
+    "model": "gpt-4o",
+    "temperature": 0.7
+  }
+}

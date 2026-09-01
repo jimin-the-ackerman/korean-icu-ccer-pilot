@@ -1,0 +1,11 @@
+{
+  "sample_id": "scenario_024_telegraphic_icu",
+  "scenario_id": "scenario_024",
+  "document_type": "ICU_observation",
+  "style_condition": "telegraphic_icu",
+  "text": "47세 남 환자. 급성 충수염 및 수술 후 합병증.\n\nBP 112/74 mmHg.\nHR 88 bpm.\nRR 18 breaths/min.\nBT 37.8°C.\nSpO2 96%.\n\nAbdominal pain moderate.\n\nCeftriaxone 1g IV BID.\n\nUrine output mildly reduced.\n\nAlert.",
+  "generation_metadata": {
+    "model": "gpt-4o",
+    "temperature": 0.7
+  }
+}

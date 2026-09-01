@@ -1,0 +1,8 @@
+{
+  "sample_id": "scenario_031_clinical_charting",
+  "whisper_transcript": "43세 남성, Severe Acute Pancreatitis Meets SIRS으로 입원함. BP 92, 55mmHg, HR, BTRPX6 BPM, RR Scent Pipe, Breaths Min, Breaths Mean, B-Sunny JVAP, Homo Verticus Cells, SbO2 95%, Room Air. Severe Abdominal Pain 호소함, Morphine Vanadium IV Q4H 적용함. IV Fluid Resuscitation 유지함. Negative Fluid Balance Fibreg Millimeter Lasts 24 Hours 확인됨. 임상상태 Drowsy, GI Specialist Consult 위에 담당해 Notify함.",
+  "stt_metadata": {
+    "model": "whisper-1",
+    "language": "ko"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "sample_id": "scenario_007_telegraphic_icu",
+  "scenario_id": "scenario_007",
+  "document_type": "ICU_observation",
+  "style_condition": "telegraphic_icu",
+  "text": "60세 여성, COPD 악화로 입원.  \nBP 130/85 mmHg.  \nHR 95 bpm.  \nRR 28 breaths/min.  \nBT 37.2°C.  \nSpO2 89% (room air).  \nSevere shortness of breath.  \nMethylprednisolone 60 mg IV q6h.  \nO2 2L NC.  \nPositive fluid balance.  \nDrowsy.  \nPulmonologist notify.",
+  "generation_metadata": {
+    "model": "gpt-4o",
+    "temperature": 0.7
+  }
+}

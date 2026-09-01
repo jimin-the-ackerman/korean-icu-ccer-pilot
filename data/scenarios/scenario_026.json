@@ -1,0 +1,28 @@
+{
+  "patient_context": "A 52-year-old female patient admitted with severe community-acquired pneumonia requiring intensive care.",
+  "vital_signs": {
+    "BP": "102/64 mmHg",
+    "HR": "112 bpm",
+    "RR": "28 breaths/min",
+    "BT": "38.5°C",
+    "SpO2": "85% on room air"
+  },
+  "symptom": {
+    "name": "dyspnea",
+    "negation": false,
+    "severity": "severe"
+  },
+  "medication": {
+    "name": "Levofloxacin",
+    "dose": "750 mg",
+    "route": "IV",
+    "frequency": "q12h"
+  },
+  "oxygen_support": "High-flow nasal cannula at 60 L/min, FiO2 0.6",
+  "intervention": null,
+  "device": "ventilator",
+  "io": null,
+  "clinical_status": "drowsy",
+  "notification": null,
+  "scenario_id": "scenario_026"
+}

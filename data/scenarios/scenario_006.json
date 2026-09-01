@@ -1,0 +1,28 @@
+{
+  "patient_context": "A 70-year-old female patient admitted with a severe stroke.",
+  "vital_signs": {
+    "BP": "170/95",
+    "HR": "78",
+    "RR": "20",
+    "BT": "37.2",
+    "SpO2": "92%"
+  },
+  "symptom": {
+    "name": "hemiplegia",
+    "negation": false,
+    "severity": "severe"
+  },
+  "medication": {
+    "name": "Labetalol",
+    "dose": "20mg",
+    "route": "IV",
+    "frequency": "q6h"
+  },
+  "oxygen_support": "nasal cannula 2L/min",
+  "intervention": null,
+  "device": "C-line",
+  "io": "negative fluid balance",
+  "clinical_status": "stuporous",
+  "notification": "Neurology team notified of status change",
+  "scenario_id": "scenario_006"
+}

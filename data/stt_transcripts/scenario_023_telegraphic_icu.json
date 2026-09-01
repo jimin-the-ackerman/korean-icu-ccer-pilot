@@ -1,0 +1,8 @@
+{
+  "sample_id": "scenario_023_telegraphic_icu",
+  "whisper_transcript": "69세 여성 ms 급성 아쿼르 이번에 휴업하셔 바이븐 미드 험 hr hr 외치두 브레스민 bt 30 수 분지 수 spo 2d 6% ra muscle weakness moderate methylprednisolone 1 gamma iv qth drowsy",
+  "stt_metadata": {
+    "model": "whisper-1",
+    "language": "ko"
+  }
+}

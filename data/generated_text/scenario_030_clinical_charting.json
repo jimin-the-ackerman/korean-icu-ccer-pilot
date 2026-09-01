@@ -1,0 +1,11 @@
+{
+  "sample_id": "scenario_030_clinical_charting",
+  "scenario_id": "scenario_030",
+  "document_type": "ICU_observation",
+  "style_condition": "clinical_charting",
+  "text": "56세 여성, acute exacerbation of SLE로 입원함. Lupus nephritis 확인됨.\n\nBP 142/90, HR 92, RR 18, BT 37.5, SpO2 96%.\n\nModerate joint pain 호소함.\n\nPrednisolone 40 mg PO q12h 적용함.\n\nFoley 유지함.\n\nI/O positive.\n\n환자 alert 상태 유지함.",
+  "generation_metadata": {
+    "model": "gpt-4o",
+    "temperature": 0.7
+  }
+}

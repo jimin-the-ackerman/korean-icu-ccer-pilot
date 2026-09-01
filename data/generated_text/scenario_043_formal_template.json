@@ -1,0 +1,11 @@
+{
+  "sample_id": "scenario_043_formal_template",
+  "scenario_id": "scenario_043",
+  "document_type": "ICU_observation",
+  "style_condition": "formal_template",
+  "text": "환자는 급성 세균성 심내막염으로 입원한 50세 남성이다. 활력징후는 혈압 110/70 mmHg, 심박수 102 bpm, 호흡수 20 breaths/min, 체온 38.5°C, 산소포화도 95%로 확인되었다. 환자는 중등도의 발열을 호소하였다. 반코마이신 1g을 IV로 12시간마다 투여 중이다. 환자는 의식이 명료하며, C-line이 삽입되어 있다. 체액 균형은 양성으로 확인되었다.",
+  "generation_metadata": {
+    "model": "gpt-4o",
+    "temperature": 0.7
+  }
+}

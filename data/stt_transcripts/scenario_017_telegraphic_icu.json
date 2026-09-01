@@ -1,0 +1,8 @@
+{
+  "sample_id": "scenario_017_telegraphic_icu",
+  "whisper_transcript": "53세 여성, 세벌하이포글라시미아도 E1, BP, 원음카스틱, 스테알밴드, 아르바이트, T-BPM, RL, MEN, BT, 설택스, 스페어 2, 95% 헛소문, 덱스트로스, 50-20g, IV-STAT, IV-덱스트로스 관리, IV-플루이드, 드라우지, 엔드크놀로지스,",
+  "stt_metadata": {
+    "model": "whisper-1",
+    "language": "ko"
+  }
+}

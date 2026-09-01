@@ -1,0 +1,8 @@
+{
+  "sample_id": "scenario_024_telegraphic_icu",
+  "whisper_transcript": "47남환자, 급성 충수염 이수술합병증, BP 74mmHR8R18BST, BT 37.8, 그리스티즈, SpO2 96%, 압도미놀패인 모더릿, 세프트리약소인 1가이비비아이디, 유런 아웃풋 마일드 리듀스트, 알러트.",
+  "stt_metadata": {
+    "model": "whisper-1",
+    "language": "ko"
+  }
+}

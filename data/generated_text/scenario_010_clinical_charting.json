@@ -1,0 +1,11 @@
+{
+  "sample_id": "scenario_010_clinical_charting",
+  "scenario_id": "scenario_010",
+  "document_type": "ICU_observation",
+  "style_condition": "clinical_charting",
+  "text": "48세 남성 환자, MVA 후 severe traumatic brain injury로 입원.  \nBP 130/85, HR 58, RR 14, BT 36.8°C, SpO2 98%.  \nHeadache 부인함.  \nMannitol 100g IV q6h 적용함.  \n환자 ventilator 사용 중.  \nICP monitoring 유지함.  \n산소 보조 없음.  \nI/O positive 확인됨.  \n환자 stuporous 상태.",
+  "generation_metadata": {
+    "model": "gpt-4o",
+    "temperature": 0.7
+  }
+}

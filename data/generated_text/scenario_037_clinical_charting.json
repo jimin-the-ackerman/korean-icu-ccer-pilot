@@ -1,0 +1,11 @@
+{
+  "sample_id": "scenario_037_clinical_charting",
+  "scenario_id": "scenario_037",
+  "document_type": "ICU_observation",
+  "style_condition": "clinical_charting",
+  "text": "51세 남성 환자, Crohn's disease 악화로 입원함.  \nSevere abdominal pain 및 diarrhea 호소함.  \nBP 110/70 mmHg, HR 95 bpm, RR 18, BT 37.5°C, SpO2 98% 확인됨.  \nPrednisone 40 mg PO BID 처방함.  \n24시간 동안 2000 ml IV fluids 투여함.  \n환자 alert 상태 유지함.",
+  "generation_metadata": {
+    "model": "gpt-4o",
+    "temperature": 0.7
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "sample_id": "scenario_033_clinical_charting",
+  "whisper_transcript": "64세 남성, atrial fibrillation onset으로 입원함. 히모디나믹스 불안정함. BP 88, 54mmhg. HR 142bpm, RR H2B breaths min. BT 36°C, SbO2 94% room air. Severe palpitations 호소함. Diltiazem 20mg IV stat 투여함. Electrical cardioversion 시행함. C-line 유지함. IV fluids 10-500mL 투여함. 의식명료함. Cardiology team notify함.",
+  "stt_metadata": {
+    "model": "whisper-1",
+    "language": "ko"
+  }
+}

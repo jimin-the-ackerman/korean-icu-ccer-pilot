@@ -1,0 +1,8 @@
+{
+  "sample_id": "scenario_033_telegraphic_icu",
+  "whisper_transcript": "64세 남성 atrial fibrillation onset hemodynamics unstable bp88 54mm hergrang hr142 bpm rr22 breaths min bt36.9 greases spo2 94% room air palpitations severe diltiasm 20mg iv state electrical cardioversion shishi c-line in situ 1500ml iv fluids patient alert cardiology team notify",
+  "stt_metadata": {
+    "model": "whisper-1",
+    "language": "ko"
+  }
+}

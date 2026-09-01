@@ -1,0 +1,11 @@
+{
+  "sample_id": "scenario_050_telegraphic_icu",
+  "scenario_id": "scenario_050",
+  "document_type": "ICU_observation",
+  "style_condition": "telegraphic_icu",
+  "text": "67M, acute heart failure, hypertensive emergency.\n\nBP 220/130 mmHg.\nHR 110 bpm.\nRR 28 breaths/min.\nBT 36.7°C.\nSpO2 90% RA.\n\nSevere chest pain.\n\nNitroglycerin 10 mcg/min IV TID.\n\nHFNC applied.\n\nC-line in place.\n\nPositive fluid balance.\n\nDrowsy.\n\nCardiology team notify.",
+  "generation_metadata": {
+    "model": "gpt-4o",
+    "temperature": 0.7
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "patient_context": "A 54-year-old male patient admitted with acute hemorrhagic stroke.",
+  "vital_signs": {
+    "BP": "180/100 mmHg",
+    "HR": "88 bpm",
+    "RR": "22 breaths/min",
+    "BT": "36.8°C",
+    "SpO2": "95% on room air"
+  },
+  "symptom": {
+    "name": "headache",
+    "negation": false,
+    "severity": "severe"
+  },
+  "medication": {
+    "name": "Labetalol",
+    "dose": "20 mg",
+    "route": "IV",
+    "frequency": "STAT"
+  },
+  "oxygen_support": null,
+  "intervention": "CT scan of the head",
+  "device": "C-line",
+  "io": "Positive fluid balance of 500 mL over the last 24 hours",
+  "clinical_status": "stuporous",
+  "notification": "Neurology team notified of patient's change in clinical status.",
+  "scenario_id": "scenario_028"
+}

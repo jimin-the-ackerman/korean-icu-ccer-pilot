@@ -1,0 +1,11 @@
+{
+  "sample_id": "scenario_015_clinical_charting",
+  "scenario_id": "scenario_015",
+  "document_type": "ICU_observation",
+  "style_condition": "clinical_charting",
+  "text": "78세 남성 환자, 급성 pulmonary embolism으로 입원함.\n\nBP 145/90 mmHg\nHR 110 bpm\nRR 28 breaths/min\nBT 36.8°C\nSpO2 88% on room air\n\n심한 chest pain 호소함.\n\nHeparin 5000 units IV q6h 적용함.\n\nHigh-flow nasal cannula 산소 지원 중.\n\nThrombolytic therapy 시작함.\n\nIV fluids 2000 mL 투여함.\n\n의식 alert 상태 유지함.\n\nCardiology team notify함.",
+  "generation_metadata": {
+    "model": "gpt-4o",
+    "temperature": 0.7
+  }
+}

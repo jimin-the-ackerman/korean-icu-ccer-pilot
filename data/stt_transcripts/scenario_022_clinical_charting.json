@@ -1,0 +1,8 @@
+{
+  "sample_id": "scenario_022_clinical_charting",
+  "whisper_transcript": "63세 여성 환자, 급성 심부전 및 폐부종으로 입원함. BP 헤모 65mm 확인됨. HR 헥릿 BPM 확인됨. RR Acetabate Breaths Min 확인됨. BT 37.5 Duke Cells 확인됨. SpO2 86% on room air 확인됨. Severe shortness of breath 호소함. Furosemide 40mg IV QH 투여함. High flow nasal cannula 적용함. C-line 유지함. Positive fluid balance 확인됨. 임상상태 drowsy 확인됨. Cardiology team notify함.",
+  "stt_metadata": {
+    "model": "whisper-1",
+    "language": "ko"
+  }
+}

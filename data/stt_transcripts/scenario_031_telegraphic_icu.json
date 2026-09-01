@@ -1,0 +1,8 @@
+{
+  "sample_id": "scenario_031_telegraphic_icu",
+  "whisper_transcript": "43세 남성, 급성추장염 이슬, BP 92, 58mm, HR 126bpm, RR 28breaths min, BT 38.4th, SbO2 95% room air, severe abdominal pain, morphine 4mg IV Q4H, IV fluid resuscitation, negative fluid balance 500mL 24H, drowsy, GI specialist consult.",
+  "stt_metadata": {
+    "model": "whisper-1",
+    "language": "ko"
+  }
+}

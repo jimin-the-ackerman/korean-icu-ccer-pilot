@@ -1,0 +1,11 @@
+{
+  "sample_id": "scenario_006_formal_template",
+  "scenario_id": "scenario_006",
+  "document_type": "ICU_observation",
+  "style_condition": "formal_template",
+  "text": "환자는 70세 여성으로, 심각한 뇌졸중으로 입원하였다. 활력 징후로는 혈압이 170/95 mmHg, 심박수가 78 bpm, 호흡수가 20 bpm, 체온이 37.2°C로 측정되었다. 산소포화도는 92%로 확인되었다. 심각한 정도의 편마비가 관찰되었다. 현재 Labetalol 20mg을 IV로 6시간마다 투여 중이다. 산소 공급은 nasal cannula로 2L/min 제공되고 있다. C-line이 삽입되어 있으며, 체액 균형은 음성으로 기록되었다. 임상 상태는 혼미 상태로 관찰되었다. 신경과 팀에게 상태 변화에 대해 보고하였다.",
+  "generation_metadata": {
+    "model": "gpt-4o",
+    "temperature": 0.7
+  }
+}

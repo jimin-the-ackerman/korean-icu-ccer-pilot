@@ -1,0 +1,11 @@
+{
+  "sample_id": "scenario_038_telegraphic_icu",
+  "scenario_id": "scenario_038",
+  "document_type": "ICU_observation",
+  "style_condition": "telegraphic_icu",
+  "text": "59세 여성. 급성 중증 근무력 위기. 호흡 보조 필요.\n\nBP 135/85. HR 92. RR 28. BT 37.0. SpO2 88%.\n\nMuscle weakness severe.\n\nPyridostigmine 60mg PO QID.\n\nVentilator 사용 중. Mechanical ventilation.\n\n의식 stuporous.",
+  "generation_metadata": {
+    "model": "gpt-4o",
+    "temperature": 0.7
+  }
+}

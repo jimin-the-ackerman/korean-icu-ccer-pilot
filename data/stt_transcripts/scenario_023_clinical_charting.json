@@ -1,0 +1,8 @@
+{
+  "sample_id": "scenario_023_clinical_charting",
+  "whisper_transcript": "69세 여성 환자, 급성 악화된 Multiple Sclerosis로 입원함. BP 1,085 mg, HR 80 bpm, RRHB BPM, BT 37.5, SBO2 96% on room air. Muscle weakness moderate 호소함. Methylprednisolone 1g IV-Q-SHOR-H 투여함. 환자상태 Drowsy 확인됨.",
+  "stt_metadata": {
+    "model": "whisper-1",
+    "language": "ko"
+  }
+}

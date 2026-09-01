@@ -1,0 +1,8 @@
+{
+  "sample_id": "scenario_011_clinical_charting",
+  "whisper_transcript": "62세 남성 환자, acute liver failure로 입원. 원인은 Hepatitis B. Vital signs, BP 108, Warfarin 68, HRP 80, RR 환시, BT, CERN, Chitinosis, SpO2 25%. Severe jaundice 관찰됨. Lactulose 30ml POTI 처방됨. Oxygen support, nasal cannulate 2lamine 적용함. Fully 유지함. Clinical status, drowsy 상태 확인됨. Hepatology team notify함.",
+  "stt_metadata": {
+    "model": "whisper-1",
+    "language": "ko"
+  }
+}

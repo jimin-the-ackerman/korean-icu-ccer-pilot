@@ -1,0 +1,8 @@
+{
+  "sample_id": "scenario_035_formal_template",
+  "whisper_transcript": "62세 여성 환자는 확장성 심근병증으로 인한 급성악화심부전으로 입원하였다. 활력증후는 혈압 95-60mmHg, 심박수 110bpm, 호흡수 24breathsmin, 체온 36.8°C, 산소포화도 90%로 실내 공기에서 확인되었다. 환자는 심한 정도의 호흡곤란을 호소하였다. Furosemide 40mg이 IV로 너를 시간마다 투여되고 있다. 산소는 비강케툴라를 통해 salipermamine으로 공급 중이다. Foley 카테터가 삽입되어 있으며 24시간 동안 500ml의 음성수분균형이 확인되었다. 환자는 졸린 상태로 관찰되었다. 지속적인 저혈압에 대해 심장악팀에게 보고하였다.",
+  "stt_metadata": {
+    "model": "whisper-1",
+    "language": "ko"
+  }
+}

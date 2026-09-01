@@ -1,0 +1,8 @@
+{
+  "sample_id": "scenario_017_clinical_charting",
+  "whisper_transcript": "우시 3세 여성 환자, severe hypoglycemia로 입원함. BP 11665mHr, HR QGD BPAM, RSHPENT BREATHS MIN, BT 36.5DX, SPO2 25%. Moderate confusion 확인됨. DEXTROS, FUSCHIA PREPARATION PROGRAM IV STAT 적용함. IV DEXTROS ADMINISTRATION 시행함. Positive fluid balance due to IV fluids 확인됨. 환자 DROWSY 상태 유지함. Endocrinologist notify함.",
+  "stt_metadata": {
+    "model": "whisper-1",
+    "language": "ko"
+  }
+}

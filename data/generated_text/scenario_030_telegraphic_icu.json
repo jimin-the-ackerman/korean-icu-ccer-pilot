@@ -1,0 +1,11 @@
+{
+  "sample_id": "scenario_030_telegraphic_icu",
+  "scenario_id": "scenario_030",
+  "document_type": "ICU_observation",
+  "style_condition": "telegraphic_icu",
+  "text": "56세 여성. SLE 악화로 입원. Lupus nephritis 동반.\n\nBP 142/90. HR 92. RR 18. BT 37.5°C. SpO2 96%.\n\nJoint pain moderate.\n\nPrednisolone 40mg PO q12h.\n\nFoley 사용 중.\n\nIO positive.\n\nAlert.",
+  "generation_metadata": {
+    "model": "gpt-4o",
+    "temperature": 0.7
+  }
+}

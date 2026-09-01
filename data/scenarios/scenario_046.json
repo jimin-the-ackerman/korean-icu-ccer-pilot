@@ -1,0 +1,28 @@
+{
+  "patient_context": "A 61-year-old male patient admitted with acute subdural hematoma following a fall.",
+  "vital_signs": {
+    "BP": "140/80",
+    "HR": "65",
+    "RR": "14",
+    "BT": "36.8",
+    "SpO2": "98%"
+  },
+  "symptom": {
+    "name": "headache",
+    "negation": false,
+    "severity": "severe"
+  },
+  "medication": {
+    "name": "mannitol",
+    "dose": "100g",
+    "route": "IV",
+    "frequency": "q6h"
+  },
+  "oxygen_support": null,
+  "intervention": "monitoring intracranial pressure",
+  "device": null,
+  "io": null,
+  "clinical_status": "drowsy",
+  "notification": null,
+  "scenario_id": "scenario_046"
+}

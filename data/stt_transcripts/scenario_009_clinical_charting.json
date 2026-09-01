@@ -1,0 +1,8 @@
+{
+  "sample_id": "scenario_009_clinical_charting",
+  "whisper_transcript": "68세 여성 환자, UTI로 인한 섹틱 쇼크, BP 8550mg, HR βBPM, RR, S6, MIN, BT35.9, SpO2, 92. severe fever 확인됨, Piperacillin, Tazobactam, Fortin 5g, IV, QRH 적용함, Nasal cannula, 3umin, 산소 유지함, C-line 유지함, positive fluid balance 확인됨, 환자 상태 drowsy, 담당의 notifiam, 지속적인 저혈압 및 발열 관련.",
+  "stt_metadata": {
+    "model": "whisper-1",
+    "language": "ko"
+  }
+}

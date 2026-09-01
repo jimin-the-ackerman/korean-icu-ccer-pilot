@@ -1,0 +1,8 @@
+{
+  "sample_id": "scenario_009_telegraphic_icu",
+  "whisper_transcript": "60베이세 여성 환자 페르송 쇼크루 E1, BP85 OFC, HR1 OECRR1E6, BT38-9, SBO2 90% Severe Fever, Piperacillin-tazobactam 4.5-graniv Q8H, O2Nc3min C-Line, Positive Fluid Balance, Drowsy, Dr. Notify.",
+  "stt_metadata": {
+    "model": "whisper-1",
+    "language": "ko"
+  }
+}

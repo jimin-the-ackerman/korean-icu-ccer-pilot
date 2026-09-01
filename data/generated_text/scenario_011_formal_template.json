@@ -1,0 +1,11 @@
+{
+  "sample_id": "scenario_011_formal_template",
+  "scenario_id": "scenario_011",
+  "document_type": "ICU_observation",
+  "style_condition": "formal_template",
+  "text": "62세 남자 환자가 B형 간염으로 인한 급성 간부전으로 입원하였다. 활력징후는 혈압 102/68 mmHg, 심박수 88 bpm, 호흡수 20회/분, 체온 37.2°C, 산소포화도 95%로 확인되었다. 환자는 중증의 황달 증상을 보이고 있으며, Lactulose 30 ml가 경구로 하루 3회 투여 중이다. 산소 지원은 비강 캐뉼라로 2 L/min 제공되고 있다. Foley 카테터가 삽입되어 있으며, 임상 상태는 졸린 상태로 확인되었다. 간 기능 검사 악화에 대해 간 전문팀에게 보고하였다.",
+  "generation_metadata": {
+    "model": "gpt-4o",
+    "temperature": 0.7
+  }
+}

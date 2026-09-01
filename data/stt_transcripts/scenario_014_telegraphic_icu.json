@@ -1,0 +1,8 @@
+{
+  "sample_id": "scenario_014_telegraphic_icu",
+  "whisper_transcript": "50d9성 ardse1 bp135 admins hr 180qm r 30 breaths min bt 38.3 cis sp02 88% room air severe dyspnea methylprednisolone 125mg ivq6h mechanical ventilations hayoungjung ventilator tungtup positive fluid balance clinical status drowsy",
+  "stt_metadata": {
+    "model": "whisper-1",
+    "language": "ko"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "patient_context": "A 62-year-old male patient admitted with acute liver failure due to hepatitis B.",
+  "vital_signs": {
+    "BP": "102/68",
+    "HR": "88",
+    "RR": "20",
+    "BT": "37.2°C",
+    "SpO2": "95%"
+  },
+  "symptom": {
+    "name": "jaundice",
+    "negation": false,
+    "severity": "severe"
+  },
+  "medication": {
+    "name": "Lactulose",
+    "dose": "30 ml",
+    "route": "PO",
+    "frequency": "TID"
+  },
+  "oxygen_support": "nasal cannula at 2 L/min",
+  "intervention": null,
+  "device": "Foley",
+  "io": null,
+  "clinical_status": "drowsy",
+  "notification": "Hepatology team notified of worsening liver function tests.",
+  "scenario_id": "scenario_011"
+}

@@ -1,0 +1,8 @@
+{
+  "sample_id": "scenario_012_formal_template",
+  "whisper_transcript": "환자 정보, 75세 여성 환자가 우려성 심부전 악화로 입원하였다. 활력 징후, 혈압은 90-60mmHg, 심박수는 110bpm, 호흡수는 22bpm, 체온은 36.8°C로 측정되었다. 산소포화도는 실내 공기에서 88%로 확인되었다. 증상, 환자는 중등도의 디스플니에를 호소하였다. 처치및 투약, furosemide 40mg을 IV로 Q100H 투여 중이다. 산소 공급은 2L nasal cannula를 통해 진행하였다. 40 catheter가 삽입되어 있다. 수액균형, 양성수분균형이 관찰되었다. 임상상태, 환자는 기면상태이다. 알림, 수분 과부하와 저혈압을 심장내과 팀에 보고하였다.",
+  "stt_metadata": {
+    "model": "whisper-1",
+    "language": "ko"
+  }
+}

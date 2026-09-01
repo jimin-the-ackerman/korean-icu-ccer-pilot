@@ -1,0 +1,8 @@
+{
+  "sample_id": "scenario_018_clinical_charting",
+  "whisper_transcript": "66세 남성 환자, 급성 가스트로 인테스티널 퍼포레이션으로 입원함. BP 오결 60mg, HR 110bpm, RR21 Breast Mint, BT 30bpm, Havodruvisus, SbO2, QG subsynth. severe abdominal pain 호소함. Piperacillin-tazobactam-14-orum-IV 극세제 적용함. Nasal cannula 산소 유지함. Emergency laparotomy 시행함. Negative fluid balance 확인됨. 환자 알러트 상태 유지함. Surgical team notify함.",
+  "stt_metadata": {
+    "model": "whisper-1",
+    "language": "ko"
+  }
+}

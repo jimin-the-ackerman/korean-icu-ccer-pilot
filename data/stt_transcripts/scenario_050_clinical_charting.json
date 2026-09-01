@@ -1,0 +1,8 @@
+{
+  "sample_id": "scenario_050_clinical_charting",
+  "whisper_transcript": "60세 남성 환자, 아큐트 하트 페일리어로 입원. 하이퍼텐시브 에머진시 확인됨. 바이덜 싸인즈, BP 230mg, HR 화결팀 BPM, RR28 Breast Mint, BT 36.7도 셀시, SBO2 90%, 룸웨어. 체스트 페인트, 세비어 호소함. 나이트라 글리세린, 10mg 미민 IVTI 적용함. 하이플로우, 네이설 캔뉴라 적용함. C-라인 유지함. 포지티브 플루이드 밸런스 확인됨. 클리니컬 스타더스, 드라우지 확인됨. 카디올로지 팀 노티파엠.",
+  "stt_metadata": {
+    "model": "whisper-1",
+    "language": "ko"
+  }
+}

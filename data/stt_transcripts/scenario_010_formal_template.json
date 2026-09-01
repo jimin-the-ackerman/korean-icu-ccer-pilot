@@ -1,0 +1,8 @@
+{
+  "sample_id": "scenario_010_formal_template",
+  "whisper_transcript": "48세 남성 환자가 교통사고로 인한 중증 외상성 뇌손상으로 입원하였다. 혈압은 138.5mm로 측정되었으며, 심박수는 58bpm, 호흡수는 14bpm, 체온은 300mg, 산소포화도는 98%로 확인되었다. 두통은 호소하지 않았다. Manitou 100g을 IB로 6시간마다 투여 중이다. 현재 산소 공급은 필요하지 않으며, 환자는 벤틀레이터를 사용하고 있다. 뇌압 ICP, 모니터링이 시행되고 있으며, 수액균형은 포지티브이다. 임상상태는 stuporous로 관찰되었다.",
+  "stt_metadata": {
+    "model": "whisper-1",
+    "language": "ko"
+  }
+}
