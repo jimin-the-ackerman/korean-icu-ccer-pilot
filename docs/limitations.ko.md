@@ -154,6 +154,65 @@ Work로 남기며, 파일럿에서 15개 중 1개 샘플에만 영향을 준 소
 계속 확장하지 않는다"는 원칙, `docs/taxonomy_audit.md` §6.4), 다음 taxonomy
 개정(잠재적 "v4") 대상 Future Work로 남긴다.
 
+**50개 확장 최종 sanity audit에서 관찰된 변종 사례**: 같은 patient_context
+누수 메커니즘이 symptom이 아니라 intervention 쪽에서도 나타남을 확인했다
+(`scenario_029`: patient_context "...requiring close respiratory
+monitoring..."이 노트에 "호흡 상태 밀착 모니터링 필요."로 서술되고,
+Whisper는 이를 정확히 전사하지만 대응하는 Gold intervention entity가
+없어 hallucination으로 오분류됨). 이는 한계 12가 symptom 카테고리에만
+국한된 문제가 아니라, patient_context 누수가 우연히 어떤 entity type과
+비슷하게 읽히느냐에 따라 그 카테고리의 가짜 hallucination으로 나타날 수
+있다는 걸 보여준다.
+
+---
+
+## 13. `intervention` 카테고리로의 잔여 의미 경계 누수
+
+50개 확장 본실험의 최종 pipeline sanity audit(`data/entities/`,
+`results/full_50/`)에서 발견됨. 50샘플 결과에서 관찰된 14건의
+`intervention` 카테고리 hallucination 중 13건이 동일한 근본 패턴으로
+귀결된다: `intervention` open-vocab 카테고리의 Whisper 측 추출
+(`open_vocab_extractor.py`)이, v3에서 intervention 범위를 축소할 때
+명시적으로 제외되지 않은 인접 카테고리의 행위적/활동적 표현을 흡수하고
+있다(`docs/taxonomy_audit.md` §5.2, #8; §8.2에서는 투약·device/
+oxygen_support·intake/output **값**을 제외했음 — 아래 두 하위 격차 참고).
+14건 중 13건 모두 Whisper가 없는 정보를 지어낸 게 아니라, 실제 Gold
+정보가 카테고리 경계 문제로 중복 집계된 경우다.
+
+**하위 사례 A — `notification`(전문의 컨설트 요청) vs `intervention`**
+(14건 중 5건): 전문의 컨설트 요청을 서술하는 텍스트(예: Gold notification
+"Consult gastroenterology for ongoing management of pancreatitis." /
+"orthopedic consultation requested")가 `intervention`으로도 독립적으로
+재추출됨(예: "Gastroenterology Consult 요청함", "ORTHOPEDIC CONSULT").
+v3의 intervention 제외 목록은 투약·device/oxygen-support·intake/output은
+명시적으로 다루지만 **notification은 포함하지 않았음** — 이 카테고리 쌍은
+당시 수정 범위에서 단순히 빠졌던 것이다.
+
+**하위 사례 B — `intake_output`의 "모니터링 행위" 표현 vs `intervention`**
+(14건 중 6건): v3 제외 규칙과 예시는 io의 **값**(예: "urine output 200
+mL")은 다루지만, io를 **모니터링하는 행위** 자체를 서술하는 표현(예: Gold
+io "strict monitoring of intake and output", "strict fluid balance
+monitoring")은 여전히 `intervention`으로 독립 재추출됨(예: "스트릭트
+모니터링 of intake and output", "strict fluid balance monitoring"). 제외
+규칙의 문구가 값 중심으로 작성되어, 같은 사실을 행위 중심으로 서술한
+경우를 예상하지 못했다.
+
+**하위 사례 C — Scaffold `io` 필드 자체가 intervention성 문구로 채워짐**
+(14건 중 2건): 일부 시나리오(예: `scenario_027`)에서는 Content Scaffold의
+`io` 필드 자체가 scaffold 생성 단계에서 체액균형 관측치가 아니라
+intervention처럼 읽히는 문구("IV fluids initiated")로 채워짐. 이
+문구에 대한 Whisper의 intervention 추출은 표현 자체만 보면 부자연스럽지
+않음 — 모호함의 근원이 Gold/Whisper taxonomy 정합성이 아니라 더 상류인
+scaffold 생성 단계의 문구 선택에 있다.
+
+결과에 맞춰 taxonomy를 사후적으로 재조정하지 않는다는 원칙
+(`docs/taxonomy_audit.md` §6.4)에 따라, 이는 v3에 편입하지 않고 잔여
+한계로 기록한다. 향후 수정(잠재적 "v4")에서는 intervention 제외 목록을
+notification/컨설트 표현과 intake-output **모니터링 행위** 표현(값뿐
+아니라)까지 명시적으로 확장하고, `io` 필드 내용이 행위가 아닌 관측치로만
+채워지도록 scaffold 생성 단계에 제약이나 사후 검증 단계를 추가하는 방향이
+될 것이다.
+
 ---
 
 ## Future Work
@@ -173,3 +232,7 @@ Work로 남기며, 파일럿에서 15개 중 1개 샘플에만 영향을 준 소
 - device/oxygen_support-intervention에 적용한 카테고리 경계 제외 규칙을
   symptom-clinical_status 쌍까지 확장, patient_context 서술이 필요로 하는
   좁은 예외 조항 재검토 (한계 12 대응)
+- intervention 제외 목록을 notification/컨설트 요청 표현, intake-output
+  **모니터링 행위** 표현(값뿐 아니라)까지 명시적으로 확장; `io` 필드
+  내용이 행위가 아닌 관측치로만 채워지도록 scaffold 생성 단계에 제약이나
+  사후 검증 단계 추가 (한계 13 대응)

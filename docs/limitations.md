@@ -180,6 +180,71 @@ Both are left as Future Work for a subsequent taxonomy revision (potential
 project's stated principle of not re-tuning the taxonomy in response to
 observed results (`docs/taxonomy_audit.md` §6.4).
 
+**Variant observed during the 50-scenario full-run final sanity audit**: the
+same `patient_context` leakage mechanism was also observed producing a
+hallucinated `intervention` rather than a hallucinated `symptom`
+(`scenario_029`: patient_context "...requiring close respiratory
+monitoring..." rendered into the note as "호흡 상태 밀착 모니터링 필요.",
+which Whisper correctly transcribes but which has no Gold `intervention`
+entity to match against). This confirms Limitation 12 is not
+symptom-specific — `patient_context` leakage can surface as a false
+hallucination in whichever entity type the leaked phrase happens to
+resemble.
+
+## 13. Residual Semantic Boundary Leakage into the `intervention` Category
+
+Discovered during the final pipeline sanity audit of the 50-scenario full
+run (`data/entities/`, `results/full_50/`). Of 14 `intervention`-category
+hallucinations observed in the 50-scenario results, 13 trace to the same
+underlying pattern: the `intervention` open-vocab category's Whisper-side
+extraction (`open_vocab_extractor.py`) absorbs action-like or
+activity-like phrasing from adjacent categories that were not explicitly
+excluded when `intervention`'s scope was narrowed in v3
+(`docs/taxonomy_audit.md` §5.2, #8; §8.2 excluded medication, device/
+oxygen_support, and intake/output *values* — see the two sub-gaps below).
+None of these 13 cases involve Whisper inventing information that is not
+present in the Gold text; all trace to real Gold content being
+double-counted through a category-boundary gap.
+
+**Sub-case A — `notification` (specialist consult requests) vs.
+`intervention`** (5 of 14 cases): text describing a request for a
+specialist consult (e.g. Gold notification "Consult gastroenterology for
+ongoing management of pancreatitis." / "orthopedic consultation
+requested") is independently re-extracted as an `intervention` (e.g.
+"Gastroenterology Consult 요청함", "ORTHOPEDIC CONSULT"). The v3
+`intervention` exclusion list explicitly covers medication, device/
+oxygen-support, and intake/output, but does **not** mention `notification`
+— this category pair was simply not covered by the fix.
+
+**Sub-case B — `intake_output` *monitoring activity* phrasing vs.
+`intervention`** (6 of 14 cases): the v3 exclusion rule and worked example
+for intake/output covers stated *values* (e.g. "urine output 200 mL"),
+but text describing the *act of monitoring* intake/output (e.g. Gold io
+"strict monitoring of intake and output", "strict fluid balance
+monitoring") is still independently re-extracted as an `intervention`
+(e.g. "스트릭트 모니터링 of intake and output", "strict fluid balance
+monitoring"). The exclusion rule's phrasing was value-oriented and did not
+anticipate activity-oriented phrasing of the same underlying fact.
+
+**Sub-case C — Scaffold `io` field populated with intervention-like
+wording** (2 of 14 cases): in a small number of scenarios (e.g.
+`scenario_027`), the Content Scaffold's `io` field itself was populated
+during scaffold generation with a phrase that reads like an intervention
+rather than an intake/output observation ("IV fluids initiated") rather
+than a fluid-balance measurement. Whisper's `intervention` extraction of
+this phrase is not unreasonable given the wording — the ambiguity
+originates further upstream, in scaffold-generation phrasing, rather than
+in the Gold/Whisper taxonomy alignment itself.
+
+Per the project's principle of not re-tuning the taxonomy in response to
+observed results (`docs/taxonomy_audit.md` §6.4), this is logged as a
+residual limitation rather than folded into v3. A future fix (candidate
+"v4") would extend the `intervention` exclusion list to explicitly cover
+notification/consult phrasing and intake-output *monitoring activity*
+phrasing (not just stated values), and would add a scaffold-generation
+constraint or post-hoc validation step to keep `io` field content
+semantically restricted to observations rather than actions.
+
 ## Future Work
 
 - Add context-awareness to the closed-vocab `dose` regex to avoid matching
@@ -192,6 +257,11 @@ observed results (`docs/taxonomy_audit.md` §6.4).
   device/oxygen_support vs. intervention) to symptom vs. clinical_status,
   and reconsider whether patient_context-derived phrasing needs a narrow
   carve-out even under the current scope exclusion (addresses Limitation 12)
+- Extend the `intervention` exclusion list to explicitly cover notification/
+  consult-request phrasing and intake-output *monitoring activity* phrasing
+  (not just stated values); add a scaffold-generation constraint or
+  validation step to keep the `io` field semantically restricted to
+  observations rather than action-like wording (addresses Limitation 13)
 
 - [Done in v2, prompt-level only] Introduce entity normalization based on
   standard medical terminology ontologies (SNOMED CT, UMLS) or Korean
