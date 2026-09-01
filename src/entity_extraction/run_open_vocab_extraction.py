@@ -8,6 +8,7 @@ data/stt_transcripts/{sample_id}.json (Whisper Transcript)
     -> data/entities/{sample_id}_open.json
 """
 
+import argparse
 import json
 import os
 import time
@@ -18,6 +19,7 @@ from anthropic import Anthropic
 from dotenv import load_dotenv
 
 from src.entity_extraction.open_vocab_extractor import extract_open_vocab_entities
+from src.pipeline_utils import RunLog, add_overwrite_arg, should_skip
 
 load_dotenv()
 
@@ -95,7 +97,7 @@ def extract_with_retry(client, model, text, label):
     raise RuntimeError(f"MAX_RETRIES 초과 ({label})")
 
 
-def run_extraction(generated_text_dir, stt_dir, entities_dir, model):
+def run_extraction(generated_text_dir, stt_dir, entities_dir, model, overwrite=False):
     client = Anthropic(api_key=os.getenv("ANTHROPIC_API_KEY"))
 
     gold_texts = load_gold_texts(generated_text_dir)
@@ -104,16 +106,24 @@ def run_extraction(generated_text_dir, stt_dir, entities_dir, model):
     out_path = Path(entities_dir)
     out_path.mkdir(parents=True, exist_ok=True)
 
-    count = 0
+    run_log = RunLog()
     total = len(gold_texts)
+    seen = 0
 
     for sample_id, gold_text in gold_texts.items():
+        seen += 1
         if sample_id not in whisper_texts:
-            print(f"경고: {sample_id}에 대한 Whisper transcript 없음, 건너뜀")
+            print(f"[{seen}/{total}] 경고: {sample_id}에 대한 Whisper transcript 없음, 건너뜀")
+            run_log.record(sample_id, "failed", error="no whisper transcript")
             continue
 
-        count += 1
-        print(f"[{count}/{total}] {sample_id} 추출 중...")
+        file_path = out_path / f"{sample_id}_open.json"
+        if should_skip(file_path, overwrite):
+            print(f"[{seen}/{total}] {sample_id} 이미 존재, 건너뜀 (--overwrite로 재생성 가능)")
+            run_log.record(sample_id, "skipped")
+            continue
+
+        print(f"[{seen}/{total}] {sample_id} 추출 중...")
 
         whisper_text = whisper_texts[sample_id]
 
@@ -122,6 +132,7 @@ def run_extraction(generated_text_dir, stt_dir, entities_dir, model):
             whisper_entities = extract_with_retry(client, model, whisper_text, "whisper")
         except RuntimeError as e:
             print(f"  실패, 건너뜀: {e}")
+            run_log.record(sample_id, "failed", error=str(e))
             continue
 
         record = {
@@ -130,20 +141,26 @@ def run_extraction(generated_text_dir, stt_dir, entities_dir, model):
             "whisper_entities": whisper_entities
         }
 
-        file_path = out_path / f"{sample_id}_open.json"
         with open(file_path, "w", encoding="utf-8") as f:
             json.dump(record, f, ensure_ascii=False, indent=2)
 
+        run_log.record(sample_id, "processed")
         print(f"  생성됨: {file_path}")
 
-    print(f"\n총 {count}개 샘플에 대해 Open-vocabulary Entity Extraction 완료 -> {entities_dir}")
+    log_path = run_log.save(out_path, "open_vocab_extraction_log.json")
+    run_log.print_summary()
+    print(f"\nOpen-vocabulary Entity Extraction 완료 -> {entities_dir}")
 
 
 if __name__ == "__main__":
+    parser = argparse.ArgumentParser(description=__doc__)
+    add_overwrite_arg(parser)
+    args = parser.parse_args()
+
     config = load_config()
     generated_text_dir = config["paths"]["generated_text_dir"]
     stt_dir = config["paths"]["stt_transcripts_dir"]
     entities_dir = config["paths"]["entities_dir"]
     model = config["entity_extraction"]["claude_model"]
 
-    run_extraction(generated_text_dir, stt_dir, entities_dir, model)
+    run_extraction(generated_text_dir, stt_dir, entities_dir, model, overwrite=args.overwrite)

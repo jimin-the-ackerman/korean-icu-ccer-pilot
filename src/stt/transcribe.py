@@ -7,6 +7,7 @@ data/audio/{sample_id}.mp3
     -> data/stt_transcripts/{sample_id}.json
 """
 
+import argparse
 import json
 import os
 import time
@@ -15,6 +16,8 @@ from pathlib import Path
 import yaml
 from openai import OpenAI
 from dotenv import load_dotenv
+
+from src.pipeline_utils import RunLog, add_overwrite_arg, should_skip
 
 load_dotenv()
 
@@ -47,16 +50,23 @@ def transcribe_one(client, model, language, audio_path):
     return None
 
 
-def transcribe_all(audio_dir, stt_dir, model, language, output_format):
+def transcribe_all(audio_dir, stt_dir, model, language, output_format, overwrite=False):
     client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
     out_path = Path(stt_dir)
     out_path.mkdir(parents=True, exist_ok=True)
 
     audio_files = get_audio_files(audio_dir, output_format)
-    generation_log = []
+    run_log = RunLog()
 
     for i, audio_path in enumerate(audio_files, start=1):
         sample_id = audio_path.stem
+        file_path = out_path / f"{sample_id}.json"
+
+        if should_skip(file_path, overwrite):
+            print(f"[{i}/{len(audio_files)}] {sample_id} 이미 존재, 건너뜀 (--overwrite로 재생성 가능)")
+            run_log.record(sample_id, "skipped")
+            continue
+
         print(f"[{i}/{len(audio_files)}] {sample_id} 전사 중...")
 
         transcript = transcribe_one(client, model, language, audio_path)
@@ -70,25 +80,27 @@ def transcribe_all(audio_dir, stt_dir, model, language, output_format):
                     "language": language
                 }
             }
-            file_path = out_path / f"{sample_id}.json"
             with open(file_path, "w", encoding="utf-8") as f:
                 json.dump(record, f, ensure_ascii=False, indent=2)
 
-            generation_log.append({"sample_id": sample_id, "status": "success"})
+            run_log.record(sample_id, "processed")
             print(f"  생성됨: {file_path}")
         else:
-            generation_log.append({"sample_id": sample_id, "status": "failed"})
+            run_log.record(sample_id, "failed")
             print(f"  실패, 건너뜀: {sample_id}")
 
-    log_path = out_path / "generation_log.json"
-    with open(log_path, "w", encoding="utf-8") as f:
-        json.dump(generation_log, f, ensure_ascii=False, indent=2)
+    log_path = run_log.save(out_path, "generation_log.json")
+    run_log.print_summary()
 
-    success_count = sum(1 for r in generation_log if r["status"] == "success")
-    print(f"\n총 {success_count}/{len(audio_files)}개 전사 완료 -> {stt_dir}")
+    s = run_log.summary()
+    print(f"\n총 {len(s['processed'])}개 신규 전사, {len(s['skipped'])}개 건너뜀 (총 {len(audio_files)}개 중) -> {stt_dir}")
 
 
 if __name__ == "__main__":
+    parser = argparse.ArgumentParser(description=__doc__)
+    add_overwrite_arg(parser)
+    args = parser.parse_args()
+
     config = load_config()
     audio_dir = config["paths"]["audio_dir"]
     stt_dir = config["paths"]["stt_transcripts_dir"]
@@ -96,4 +108,4 @@ if __name__ == "__main__":
     language = config["stt"]["language"]
     output_format = config["tts"]["output_format"]
 
-    transcribe_all(audio_dir, stt_dir, model, language, output_format)
+    transcribe_all(audio_dir, stt_dir, model, language, output_format, overwrite=args.overwrite)

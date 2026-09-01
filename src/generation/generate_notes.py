@@ -13,6 +13,7 @@ Documentation Generation 단계의 정보 보존은 Prompt Constraint를 통해
 Entity-level 평가는 이후 Whisper STT Transcript를 대상으로 수행한다.
 """
 
+import argparse
 import json
 import os
 import time
@@ -23,6 +24,7 @@ from openai import OpenAI
 from dotenv import load_dotenv
 
 from src.style_controller.style_controller import build_generation_prompt, get_all_style_keys
+from src.pipeline_utils import RunLog, add_overwrite_arg, should_skip
 
 load_dotenv()
 
@@ -66,7 +68,7 @@ def generate_one_note(client, model, temperature, scaffold, style_key):
     raise RuntimeError("MAX_RETRIES 초과, 텍스트 생성 실패")
 
 
-def generate_all_notes(scenarios_dir, output_dir, model, temperature):
+def generate_all_notes(scenarios_dir, output_dir, model, temperature, overwrite=False):
     client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
     out_path = Path(output_dir)
     out_path.mkdir(parents=True, exist_ok=True)
@@ -74,7 +76,7 @@ def generate_all_notes(scenarios_dir, output_dir, model, temperature):
     scaffolds = load_scaffolds(scenarios_dir)
     style_keys = get_all_style_keys()
 
-    generation_log = []
+    run_log = RunLog()
     total = len(scaffolds) * len(style_keys)
     count = 0
 
@@ -83,13 +85,20 @@ def generate_all_notes(scenarios_dir, output_dir, model, temperature):
         for style_key in style_keys:
             count += 1
             sample_id = f"{scenario_id}_{style_key}"
+            file_path = out_path / f"{sample_id}.json"
+
+            if should_skip(file_path, overwrite):
+                print(f"[{count}/{total}] {sample_id} 이미 존재, 건너뜀 (--overwrite로 재생성 가능)")
+                run_log.record(sample_id, "skipped")
+                continue
+
             print(f"[{count}/{total}] {sample_id} 생성 중...")
 
             try:
                 text = generate_one_note(client, model, temperature, scaffold, style_key)
             except RuntimeError as e:
                 print(f"  실패, 건너뜀: {e}")
-                generation_log.append({"sample_id": sample_id, "status": "failed", "error": str(e)})
+                run_log.record(sample_id, "failed", error=str(e))
                 continue
 
             record = {
@@ -104,26 +113,28 @@ def generate_all_notes(scenarios_dir, output_dir, model, temperature):
                 }
             }
 
-            file_path = out_path / f"{sample_id}.json"
             with open(file_path, "w", encoding="utf-8") as f:
                 json.dump(record, f, ensure_ascii=False, indent=2)
 
-            generation_log.append({"sample_id": sample_id, "status": "success"})
+            run_log.record(sample_id, "processed")
             print(f"  생성됨: {file_path}")
 
-    log_path = out_path / "generation_log.json"
-    with open(log_path, "w", encoding="utf-8") as f:
-        json.dump(generation_log, f, ensure_ascii=False, indent=2)
+    log_path = run_log.save(out_path, "generation_log.json")
+    run_log.print_summary()
 
-    success_count = sum(1 for r in generation_log if r["status"] == "success")
-    print(f"\n총 {success_count}/{total}개 생성 완료 -> {output_dir}")
+    s = run_log.summary()
+    print(f"\n총 {len(s['processed'])}개 신규 생성, {len(s['skipped'])}개 건너뜀 (총 {total}개 중) -> {output_dir}")
 
 
 if __name__ == "__main__":
+    parser = argparse.ArgumentParser(description=__doc__)
+    add_overwrite_arg(parser)
+    args = parser.parse_args()
+
     config = load_config()
     scenarios_dir = config["paths"]["scenarios_dir"]
     output_dir = config["paths"]["generated_text_dir"]
     model = config["generation"]["model"]
     temperature = config["generation"]["temperature"]
 
-    generate_all_notes(scenarios_dir, output_dir, model, temperature)
+    generate_all_notes(scenarios_dir, output_dir, model, temperature, overwrite=args.overwrite)

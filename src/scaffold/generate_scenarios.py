@@ -12,6 +12,7 @@ Reference Analysis (docs/reference_analysis.md)
     -> data/scenarios/scenario_NNN.json
 """
 
+import argparse
 import json
 import os
 import time
@@ -23,6 +24,7 @@ from openai import OpenAI
 from dotenv import load_dotenv
 
 from src.scaffold.scaffold_schema import get_schema
+from src.pipeline_utils import RunLog, add_overwrite_arg, should_skip
 
 load_dotenv()
 
@@ -156,49 +158,63 @@ def generate_one_scenario(client, model, temperature, previous_contexts):
     raise RuntimeError(f"MAX_RETRIES 초과, 생성 실패. 마지막 오류: {last_error}")
 
 
-def generate_scaffold_files(n_scenarios, output_dir, model, temperature):
+def generate_scaffold_files(n_scenarios, output_dir, model, temperature, overwrite=False):
     client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
     out_path = Path(output_dir)
     out_path.mkdir(parents=True, exist_ok=True)
 
-    generation_log = []
+    run_log = RunLog()
     previous_contexts = []
 
     for i in range(1, n_scenarios + 1):
         scenario_id = f"scenario_{i:03d}"
+        file_path = out_path / f"{scenario_id}.json"
+
+        if should_skip(file_path, overwrite):
+            # 건너뛰더라도, 이후 새로 생성되는 시나리오가 이미 존재하는 시나리오와
+            # 겹치지 않도록 기존 patient_context는 계속 avoid-overlap 목록에 넣는다.
+            try:
+                existing = json.load(open(file_path, encoding="utf-8"))
+                previous_contexts.append(existing.get("patient_context", ""))
+            except (json.JSONDecodeError, OSError) as e:
+                print(f"  경고: {scenario_id} 기존 파일을 읽지 못함({e}), overlap 방지 목록에서 제외")
+            print(f"[{i}/{n_scenarios}] {scenario_id} 이미 존재, 건너뜀 (--overwrite로 재생성 가능)")
+            run_log.record(scenario_id, "skipped")
+            continue
+
         print(f"[{i}/{n_scenarios}] {scenario_id} 생성 중...")
 
         try:
             scaffold = generate_one_scenario(client, model, temperature, previous_contexts)
         except RuntimeError as e:
             print(f"  실패, 건너뜀: {e}")
-            generation_log.append({"scenario_id": scenario_id, "status": "failed", "error": str(e)})
+            run_log.record(scenario_id, "failed", error=str(e))
             continue
 
         scaffold["scenario_id"] = scenario_id
         previous_contexts.append(scaffold["patient_context"])
 
-        file_path = out_path / f"{scenario_id}.json"
         with open(file_path, "w", encoding="utf-8") as f:
             json.dump(scaffold, f, ensure_ascii=False, indent=2)
 
-        generation_log.append({
-            "scenario_id": scenario_id, "status": "success",
-            "model": model, "temperature": temperature
-        })
+        run_log.record(scenario_id, "processed", model=model, temperature=temperature)
         print(f"  생성됨: {file_path}")
 
-    log_path = out_path / "generation_log.json"
-    with open(log_path, "w", encoding="utf-8") as f:
-        json.dump(generation_log, f, ensure_ascii=False, indent=2)
-    print(f"\n생성 로그 저장: {log_path}")
+    log_path = run_log.save(out_path, "generation_log.json")
+    run_log.print_summary()
+    print(f"생성 로그 저장: {log_path}")
+    return run_log
 
 
 if __name__ == "__main__":
+    parser = argparse.ArgumentParser(description=__doc__)
+    add_overwrite_arg(parser)
+    args = parser.parse_args()
+
     config = load_config()
     n_scenarios = config["experiment"]["n_scenarios"]
     output_dir = config["paths"]["scenarios_dir"]
     model = config["generation"]["model"]
     temperature = config["generation"]["temperature"]
 
-    generate_scaffold_files(n_scenarios, output_dir, model, temperature)
+    generate_scaffold_files(n_scenarios, output_dir, model, temperature, overwrite=args.overwrite)

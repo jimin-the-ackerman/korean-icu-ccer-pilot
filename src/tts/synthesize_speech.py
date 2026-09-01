@@ -9,6 +9,7 @@ data/generated_text/{sample_id}.json
     -> data/audio/{sample_id}.mp3
 """
 
+import argparse
 import json
 import os
 import time
@@ -17,6 +18,8 @@ from pathlib import Path
 import yaml
 from openai import OpenAI
 from dotenv import load_dotenv
+
+from src.pipeline_utils import RunLog, add_overwrite_arg, should_skip
 
 load_dotenv()
 
@@ -56,45 +59,47 @@ def synthesize_one(client, model, voice, text, output_path):
     return False
 
 
-def synthesize_all(generated_text_dir, audio_dir, model, voice, output_format):
+def synthesize_all(generated_text_dir, audio_dir, model, voice, output_format, overwrite=False):
     client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
     out_path = Path(audio_dir)
     out_path.mkdir(parents=True, exist_ok=True)
 
     notes = load_generated_notes(generated_text_dir)
-    generation_log = []
+    run_log = RunLog()
 
     for i, note in enumerate(notes, start=1):
         sample_id = note["sample_id"]
         text = note["text"]
         file_path = out_path / f"{sample_id}.{output_format}"
 
+        if should_skip(file_path, overwrite):
+            print(f"[{i}/{len(notes)}] {sample_id} 이미 존재, 건너뜀 (--overwrite로 재생성 가능)")
+            run_log.record(sample_id, "skipped")
+            continue
+
         print(f"[{i}/{len(notes)}] {sample_id} 음성 생성 중... ({len(text)}자)")
 
         success = synthesize_one(client, model, voice, text, str(file_path))
 
         if success:
-            generation_log.append({
-                "sample_id": sample_id,
-                "status": "success",
-                "model": model,
-                "voice": voice,
-                "text_length": len(text)
-            })
+            run_log.record(sample_id, "processed", model=model, voice=voice, text_length=len(text))
             print(f"  생성됨: {file_path}")
         else:
-            generation_log.append({"sample_id": sample_id, "status": "failed"})
+            run_log.record(sample_id, "failed")
             print(f"  실패, 건너뜀: {sample_id}")
 
-    log_path = out_path / "generation_log.json"
-    with open(log_path, "w", encoding="utf-8") as f:
-        json.dump(generation_log, f, ensure_ascii=False, indent=2)
+    log_path = run_log.save(out_path, "generation_log.json")
+    run_log.print_summary()
 
-    success_count = sum(1 for r in generation_log if r["status"] == "success")
-    print(f"\n총 {success_count}/{len(notes)}개 음성 생성 완료 -> {audio_dir}")
+    s = run_log.summary()
+    print(f"\n총 {len(s['processed'])}개 신규 생성, {len(s['skipped'])}개 건너뜀 (총 {len(notes)}개 중) -> {audio_dir}")
 
 
 if __name__ == "__main__":
+    parser = argparse.ArgumentParser(description=__doc__)
+    add_overwrite_arg(parser)
+    args = parser.parse_args()
+
     config = load_config()
     generated_text_dir = config["paths"]["generated_text_dir"]
     audio_dir = config["paths"]["audio_dir"]
@@ -102,4 +107,4 @@ if __name__ == "__main__":
     voice = config["tts"]["voice"]
     output_format = config["tts"]["output_format"]
 
-    synthesize_all(generated_text_dir, audio_dir, model, voice, output_format)
+    synthesize_all(generated_text_dir, audio_dir, model, voice, output_format, overwrite=args.overwrite)
