@@ -1,0 +1,45 @@
+{
+  "sample_id": "scenario_066_formal_template",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "복통",
+        "negation": false,
+        "severity": "severe"
+      },
+      {
+        "name": "발열",
+        "negation": false,
+        "severity": null
+      }
+    ],
+    "clinical_status": "의식 명료",
+    "medication_identity": "insulin",
+    "interventions": [
+      "수액 보충"
+    ],
+    "intake_output": "24시간 동안의 소변 배출량 1500 mL",
+    "notification": "고중성지방혈증 관리에 대한 내분비학과 상담이 필요함을 보고하였다."
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "발열",
+        "negation": false,
+        "severity": null
+      },
+      {
+        "name": "복통",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "의식 명료",
+    "medication_identity": "인슐린",
+    "interventions": [
+      "수액 보충"
+    ],
+    "intake_output": "24시간 동안의 소변 배출량은 1,500mL",
+    "notification": "고중성 지방혈증 관리에 대한 내분비학과 상담이 필요함을 보고하였다."
+  }
+}

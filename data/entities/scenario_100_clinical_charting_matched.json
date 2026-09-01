@@ -1,0 +1,115 @@
+{
+  "sample_id": "scenario_100_clinical_charting",
+  "closed_vocab_matches": [
+    {
+      "entity_type": "route",
+      "gold_value": "iv",
+      "whisper_value": "iv",
+      "match_status": "matched",
+      "error_type": null
+    },
+    {
+      "entity_type": "frequency",
+      "gold_value": "q4h",
+      "whisper_value": "q4h",
+      "match_status": "matched",
+      "error_type": null
+    },
+    {
+      "entity_type": "device",
+      "gold_value": "ng tube",
+      "whisper_value": null,
+      "match_status": "omission",
+      "error_type": "omission"
+    },
+    {
+      "entity_type": "dose",
+      "gold_value": "4mg",
+      "whisper_value": "4mg",
+      "match_status": "matched",
+      "error_type": null
+    },
+    {
+      "entity_type": "vital_sign",
+      "label": "bp",
+      "gold_value": "98/60 mmHg",
+      "whisper_value": "95.6",
+      "match_status": "error",
+      "error_type": "numeric_error"
+    },
+    {
+      "entity_type": "vital_sign",
+      "label": "hr",
+      "gold_value": "112 bpm",
+      "whisper_value": null,
+      "match_status": "omission",
+      "error_type": "omission"
+    },
+    {
+      "entity_type": "vital_sign",
+      "label": "rr",
+      "gold_value": "24 breaths/min",
+      "whisper_value": null,
+      "match_status": "omission",
+      "error_type": "omission"
+    },
+    {
+      "entity_type": "vital_sign",
+      "label": "bt",
+      "gold_value": "37.8°C",
+      "whisper_value": "37.8",
+      "match_status": "error",
+      "error_type": "numeric_error"
+    },
+    {
+      "entity_type": "vital_sign",
+      "label": "spo2",
+      "gold_value": "95% on room air",
+      "whisper_value": "95%",
+      "match_status": "error",
+      "error_type": "numeric_error"
+    }
+  ],
+  "open_vocab_matches": {
+    "symptom_matches": [
+      {
+        "gold_value": "abdominal pain",
+        "whisper_value": "Abdominal Pain",
+        "match_basis": "exact",
+        "negation_match": true,
+        "severity_match": true
+      }
+    ],
+    "whisper_only_symptoms": [],
+    "clinical_status_match": {
+      "gold_value": "drowsy",
+      "whisper_value": "드라우지 상태 (drowsy)",
+      "match_basis": "semantic",
+      "negation_match": null,
+      "severity_match": null
+    },
+    "medication_identity_match": {
+      "gold_value": "morphine",
+      "whisper_value": "Morphine",
+      "match_basis": "exact"
+    },
+    "intervention_matches": [
+      {
+        "gold_value": "nasogastric decompression",
+        "whisper_value": null,
+        "match_basis": "omission"
+      }
+    ],
+    "whisper_only_interventions": [],
+    "intake_output_match": {
+      "gold_value": "decreased urine output over past 8 hours",
+      "whisper_value": "30시간 동안 유런 아웃풋 감소 확인됨",
+      "match_basis": "semantic"
+    },
+    "notification_match": {
+      "gold_value": "surgical team notified for urgent evaluation",
+      "whisper_value": "Surgical Team Notify함",
+      "match_basis": "semantic"
+    }
+  }
+}

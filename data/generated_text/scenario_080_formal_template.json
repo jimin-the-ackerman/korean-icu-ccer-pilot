@@ -1,0 +1,11 @@
+{
+  "sample_id": "scenario_080_formal_template",
+  "scenario_id": "scenario_080",
+  "document_type": "ICU_observation",
+  "style_condition": "formal_template",
+  "text": "50세 남성 환자가 알코올성 간경변증으로 인한 만성 간부전의 급성 악화로 입원하였다. 활력징후는 혈압이 95/60 mmHg, 심박수가 115 bpm, 호흡수가 22 breaths/min, 체온이 37.5°C, 산소포화도가 실내 공기에서 88%로 확인되었다. 환자는 심한 황달을 보이고 있다. 현재 Furosemide 40 mg을 IV로 BID 투여 중이다. 산소 지원은 2L nasal cannula를 사용 중이며 Foley catheter가 삽입되어 있다. 체액 균형은 음성으로 나타났다. 환자는 졸린 상태로 보인다. 간 기능 악화로 인해 간 전문의 상담이 요청되었다.",
+  "generation_metadata": {
+    "model": "gpt-4o",
+    "temperature": 0.7
+  }
+}

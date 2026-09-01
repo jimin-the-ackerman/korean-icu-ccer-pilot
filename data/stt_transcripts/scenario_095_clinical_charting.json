@@ -1,0 +1,8 @@
+{
+  "sample_id": "scenario_095_clinical_charting",
+  "whisper_transcript": "62세 여성, severe asthma exacerbation으로 acute respiratory distress 입원 BP 엔삼유 1mg, HRP8BM, orthopite breathamine, BT, 산지체첩전산그루수스, SPO2HEQ person and mare Shortness of breath severe로 호소함 Albuterol 2.5mg IV PRN 적용함 High flow nasal cannula 산소공급 유지함 Ventilator 사용 중, positive fluid balance 확인됨 Patient alert 상태 유지함, respiratory therapist notify함",
+  "stt_metadata": {
+    "model": "whisper-1",
+    "language": "ko"
+  }
+}

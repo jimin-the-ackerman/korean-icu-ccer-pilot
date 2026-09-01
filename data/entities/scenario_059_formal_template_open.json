@@ -1,0 +1,35 @@
+{
+  "sample_id": "scenario_059_formal_template",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "복통",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "기면 상태",
+    "medication_identity": "Piperacillin/Tazobactam",
+    "interventions": [
+      "수액 보충"
+    ],
+    "intake_output": "체액량이 양성 균형을 보이고 있음",
+    "notification": null
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "복통",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "기면 상태",
+    "medication_identity": "piperacillin-tazobactam",
+    "interventions": [
+      "수액 보충"
+    ],
+    "intake_output": "체액량이 양성 균형을 보이고 있음",
+    "notification": null
+  }
+}

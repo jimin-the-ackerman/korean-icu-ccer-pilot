@@ -1,0 +1,8 @@
+{
+  "sample_id": "scenario_086_clinical_charting",
+  "whisper_transcript": "55세 여성 환자 AMLO-E1 fibrile neutropenia 경험 중 BP 960mmHg 확인됨 HR 110bpm 확인됨 RR waspister-min 확인됨 BT 39.1g cells severe fever 확인됨 SbO2 96% on room air 확인됨 piperacillin-tuzelbactam 4.5g IVQ6H 투여 시작함 Antibiotic therapy initiated 환자상태 drowsy 확인됨 담당의 notify함 fibrile neutropenia 미치료계획 복원",
+  "stt_metadata": {
+    "model": "whisper-1",
+    "language": "ko"
+  }
+}

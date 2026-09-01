@@ -1,0 +1,35 @@
+{
+  "sample_id": "scenario_100_formal_template",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "복통",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "\"졸림\"",
+    "medication_identity": "\"morphine\"",
+    "interventions": [
+      "nasogastric decompression"
+    ],
+    "intake_output": "\"최근 8시간 동안 소변량 감소\"",
+    "notification": "\"긴급 평가를 위해 외과팀에 보고하였다\""
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "복통",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "졸림상태",
+    "medication_identity": "몰핀",
+    "interventions": [
+      "내소가스트릭 디컴프레션"
+    ],
+    "intake_output": "최근 8시간 동안 소변량이 감소하였다",
+    "notification": "긴급평가를 위해 외과팀에 보고하였다"
+  }
+}

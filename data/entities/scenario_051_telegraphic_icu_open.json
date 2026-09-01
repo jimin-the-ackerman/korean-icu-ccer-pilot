@@ -1,0 +1,33 @@
+{
+  "sample_id": "scenario_051_telegraphic_icu",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "abdominal pain",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "Alert",
+    "medication_identity": "Morphine",
+    "interventions": [
+      "NPO"
+    ],
+    "intake_output": "Negative fluid balance",
+    "notification": "GI team notify"
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "abdominal pain",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "alert",
+    "medication_identity": null,
+    "interventions": [],
+    "intake_output": "negative fluid balance",
+    "notification": "gi team notify"
+  }
+}

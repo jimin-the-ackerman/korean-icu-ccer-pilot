@@ -1,0 +1,8 @@
+{
+  "sample_id": "scenario_084_telegraphic_icu",
+  "whisper_transcript": "40균센 암성, 심한 천식발작이완, BP 0135, HR1-TEM, RR1T8, BT37NO, SpO2 88%, Severe Wheezing Albuterol 2.5mg IV PRN, High Flow Nasal Cannula 사용중, Drowsy 상태, Respiratory Therapy Notify",
+  "stt_metadata": {
+    "model": "whisper-1",
+    "language": "ko"
+  }
+}

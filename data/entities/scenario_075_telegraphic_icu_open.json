@@ -1,0 +1,36 @@
+{
+  "sample_id": "scenario_075_telegraphic_icu",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "chest pain",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "Alert",
+    "medication_identity": "Furosemide",
+    "interventions": [
+      "Cardiology team consult for valve replacement"
+    ],
+    "intake_output": "Strict I/O monitoring",
+    "notification": null
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "chest pain",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "Alert",
+    "medication_identity": "Furosemide",
+    "interventions": [
+      "Cardiology Team consult",
+      "For valve replacement"
+    ],
+    "intake_output": "Strict I/O monitoring",
+    "notification": "Cardiology Team consult"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "sample_id": "scenario_078_clinical_charting",
+  "whisper_transcript": "66세 여성 환자, 네크로타이징 파시아이드 소위난 세벌 섹시스소 이원함. BP, 타이치베트 위사스 미퍼럼, HR 웻 RZ BPM, RR20 베이트브레스민 BT30 교변 그리스스, SBO2 다이쉬퍼센틴 온 시피릴 O2 VIA NON-REBREATHER MASK, SEVERE PAIN 호소함, VANCOMYCIN 1-GRAM IV 큐틀레치 투여중, HIGH-FLOW OXYGEN THERAPY 적용함, SURGICAL DEBRIDEMENT SCHEDULED, FULLY 유지중, POSITIVE BALANCE 확인됨, DROWSY SUNGTAE, INFECTIOUS DISEASE WHILE SURGICAL TEAMS NOTIFY HEM.",
+  "stt_metadata": {
+    "model": "whisper-1",
+    "language": "ko"
+  }
+}

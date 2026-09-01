@@ -1,0 +1,29 @@
+{
+  "sample_id": "scenario_072_formal_template",
+  "gold_entities": {
+    "route": [
+      {
+        "raw": "IV",
+        "normalized": "iv",
+        "position": 238
+      }
+    ],
+    "frequency": [],
+    "device": [],
+    "vital_sign": [],
+    "dose": []
+  },
+  "whisper_entities": {
+    "route": [
+      {
+        "raw": "IV",
+        "normalized": "iv",
+        "position": 222
+      }
+    ],
+    "frequency": [],
+    "device": [],
+    "vital_sign": [],
+    "dose": []
+  }
+}

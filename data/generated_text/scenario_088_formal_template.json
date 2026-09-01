@@ -1,0 +1,11 @@
+{
+  "sample_id": "scenario_088_formal_template",
+  "scenario_id": "scenario_088",
+  "document_type": "ICU_observation",
+  "style_condition": "formal_template",
+  "text": "47세 여성 환자가 아세트아미노펜 과다 복용으로 인한 급성 간부전으로 입원하였다. 활력징후로는 혈압 112/70 mmHg, 심박수 105 bpm, 호흡수 22 breaths/min, 체온 37.8°C, 산소포화도 95%로 실내 공기에서 확인되었다. 환자는 심한 황달 증상을 보였다. N-acetylcysteine 300 mg/kg을 IV로 STAT 투여하였다. 환자는 500 mL의 양성 수분 균형을 보였다. 환자는 졸린 상태로 파악되었다. 간 전문팀에게 긴급 상담을 위해 보고하였다.",
+  "generation_metadata": {
+    "model": "gpt-4o",
+    "temperature": 0.7
+  }
+}

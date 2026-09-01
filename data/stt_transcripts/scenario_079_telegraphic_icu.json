@@ -1,0 +1,8 @@
+{
+  "sample_id": "scenario_079_telegraphic_icu",
+  "whisper_transcript": "66세 남성, 급성 계양성 대장염, 악화로 입원. Severe abdominal pain, bloody diarrhea, BP, 65mHg, HR1, DIN, BPM, RR22, BT, 37.82, SpO2, 90%, Methylprednisolone, 40mL, IVQ6H, Foley, IOstrict, Alert.",
+  "stt_metadata": {
+    "model": "whisper-1",
+    "language": "ko"
+  }
+}

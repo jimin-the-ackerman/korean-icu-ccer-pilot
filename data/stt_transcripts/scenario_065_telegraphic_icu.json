@@ -1,0 +1,8 @@
+{
+  "sample_id": "scenario_065_telegraphic_icu",
+  "whisper_transcript": "56세 여성 BP 1107mg, HR 88bpm, RR 20 breaths min, BT 38.5 hybrid cells, SpO2 94% RA, Severe skin rash, methylprednisolone on 25mg IV, wound care shishi, IV fluids 100ml per hour, alert.",
+  "stt_metadata": {
+    "model": "whisper-1",
+    "language": "ko"
+  }
+}

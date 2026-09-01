@@ -1,0 +1,8 @@
+{
+  "sample_id": "scenario_053_telegraphic_icu",
+  "whisper_transcript": "60세 남성 환자 COPD 급성 아코미 콧보전으로 이원 BP 85,000,000 BPM ADAR 28th Bromine BT 37.6 SbO2 88% room air dyspnea severe Prednisone 40mg POID NIV 사용 Ventilator 사용 Clinical status drowsy Pulmonologist notify",
+  "stt_metadata": {
+    "model": "whisper-1",
+    "language": "ko"
+  }
+}

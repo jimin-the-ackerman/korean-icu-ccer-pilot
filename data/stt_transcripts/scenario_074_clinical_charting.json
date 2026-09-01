@@ -1,0 +1,8 @@
+{
+  "sample_id": "scenario_074_clinical_charting",
+  "whisper_transcript": "70세 남성 급성 하이포글라시믹 코머루이완, BP 120매킹, HRR Pipe Beaver, RR 신혹 Breathsman, BT 36.2, 98% Room Air, Severe Unconsciousness 확인됨, Dextrose 50% 50ml IV Stat 투여함, IV Glucose Administration 적용함, Clinical Status Unresponsive, Endocrinologist Notify함.",
+  "stt_metadata": {
+    "model": "whisper-1",
+    "language": "ko"
+  }
+}

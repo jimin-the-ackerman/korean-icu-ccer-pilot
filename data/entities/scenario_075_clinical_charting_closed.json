@@ -1,0 +1,116 @@
+{
+  "sample_id": "scenario_075_clinical_charting",
+  "gold_entities": {
+    "route": [
+      {
+        "raw": "IV",
+        "normalized": "iv",
+        "position": 206
+      }
+    ],
+    "frequency": [
+      {
+        "raw": "q8h",
+        "normalized": "q8h",
+        "position": 209
+      }
+    ],
+    "device": [
+      {
+        "raw": "Foley",
+        "normalized": "foley",
+        "position": 244
+      },
+      {
+        "raw": "NC",
+        "normalized": "nc",
+        "position": 156
+      }
+    ],
+    "vital_sign": [
+      {
+        "raw": "BP 90/60",
+        "label": "bp",
+        "value": "90/60",
+        "position": 79
+      },
+      {
+        "raw": "HR 110",
+        "label": "hr",
+        "value": "110",
+        "position": 94
+      },
+      {
+        "raw": "RR 22",
+        "label": "rr",
+        "value": "22",
+        "position": 106
+      },
+      {
+        "raw": "BT 36.8",
+        "label": "bt",
+        "value": "36.8",
+        "position": 125
+      },
+      {
+        "raw": "SpO2 88%",
+        "label": "spo2",
+        "value": "88%",
+        "position": 136
+      }
+    ],
+    "dose": [
+      {
+        "raw": "40 mg",
+        "value": "40",
+        "unit": "mg",
+        "position": 200
+      }
+    ]
+  },
+  "whisper_entities": {
+    "route": [
+      {
+        "raw": "IV",
+        "normalized": "iv",
+        "position": 190
+      }
+    ],
+    "frequency": [],
+    "device": [
+      {
+        "raw": "Foley",
+        "normalized": "foley",
+        "position": 225
+      }
+    ],
+    "vital_sign": [
+      {
+        "raw": "BP 90",
+        "label": "bp",
+        "value": "90",
+        "position": 78
+      },
+      {
+        "raw": "HR 120",
+        "label": "hr",
+        "value": "120",
+        "position": 92
+      },
+      {
+        "raw": "BT 36.8%",
+        "label": "bt",
+        "value": "36.8%",
+        "position": 121
+      }
+    ],
+    "dose": [
+      {
+        "raw": "40mg",
+        "value": "40",
+        "unit": "mg",
+        "position": 185
+      }
+    ]
+  }
+}

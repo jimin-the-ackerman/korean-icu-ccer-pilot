@@ -1,0 +1,28 @@
+{
+  "patient_context": "A 56-year-old female patient admitted with toxic epidermal necrolysis (TEN) following an adverse drug reaction.",
+  "vital_signs": {
+    "BP": "110/70 mmHg",
+    "HR": "88 bpm",
+    "RR": "20 breaths/min",
+    "BT": "38.5°C",
+    "SpO2": "94% on room air"
+  },
+  "symptom": {
+    "name": "skin rash",
+    "negation": false,
+    "severity": "severe"
+  },
+  "medication": {
+    "name": "methylprednisolone",
+    "dose": "125 mg",
+    "route": "IV",
+    "frequency": "q6h"
+  },
+  "oxygen_support": null,
+  "intervention": "wound care",
+  "device": null,
+  "io": "IV fluids administered at 100 mL/hr",
+  "clinical_status": "alert",
+  "notification": null,
+  "scenario_id": "scenario_065"
+}

@@ -1,0 +1,11 @@
+{
+  "sample_id": "scenario_055_telegraphic_icu",
+  "scenario_id": "scenario_055",
+  "document_type": "ICU_observation",
+  "style_condition": "telegraphic_icu",
+  "text": "53세 여성, acute hemolytic anemia로 입원.  \nBP 90/60.  \nHR 120.  \nRR 22.  \nBT 38.1.  \nSpO2 95% on 2L nasal cannula.  \nSevere fatigue.  \nFurosemide 40 mg IV q12h.  \nNasal cannula 적용 중.  \nCompatible blood transfusion 실시.  \nInput 1000 mL, Output 1200 mL.  \nDrowsy 상태.  \nHematology team notify.",
+  "generation_metadata": {
+    "model": "gpt-4o",
+    "temperature": 0.7
+  }
+}

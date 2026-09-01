@@ -1,0 +1,28 @@
+{
+  "patient_context": "A 47-year-old female patient admitted with acute severe asthma exacerbation.",
+  "vital_signs": {
+    "BP": "135/85 mmHg",
+    "HR": "110 bpm",
+    "RR": "32 breaths/min",
+    "BT": "37.5°C",
+    "SpO2": "88% on room air"
+  },
+  "symptom": {
+    "name": "wheezing",
+    "negation": false,
+    "severity": "severe"
+  },
+  "medication": {
+    "name": "Albuterol",
+    "dose": "2.5 mg",
+    "route": "IV",
+    "frequency": "q4h"
+  },
+  "oxygen_support": "High-flow nasal cannula",
+  "intervention": null,
+  "device": "NG tube",
+  "io": "Negative fluid balance of 500 ml",
+  "clinical_status": "drowsy",
+  "notification": "Pulmonology team notified for urgent evaluation",
+  "scenario_id": "scenario_056"
+}

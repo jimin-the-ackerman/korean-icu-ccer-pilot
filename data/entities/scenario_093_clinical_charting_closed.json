@@ -1,0 +1,127 @@
+{
+  "sample_id": "scenario_093_clinical_charting",
+  "gold_entities": {
+    "route": [
+      {
+        "raw": "IV",
+        "normalized": "iv",
+        "position": 192
+      }
+    ],
+    "frequency": [
+      {
+        "raw": "TID",
+        "normalized": "tid",
+        "position": 195
+      }
+    ],
+    "device": [
+      {
+        "raw": "C-line",
+        "normalized": "c-line",
+        "position": 273
+      },
+      {
+        "raw": "High-flow nasal cannula",
+        "normalized": "nc",
+        "position": 205
+      }
+    ],
+    "vital_sign": [
+      {
+        "raw": "BP 85/50",
+        "label": "bp",
+        "value": "85/50",
+        "position": 79
+      },
+      {
+        "raw": "HR 120",
+        "label": "hr",
+        "value": "120",
+        "position": 94
+      },
+      {
+        "raw": "RR 24/",
+        "label": "rr",
+        "value": "24/",
+        "position": 106
+      },
+      {
+        "raw": "BT 36.8",
+        "label": "bt",
+        "value": "36.8",
+        "position": 117
+      },
+      {
+        "raw": "SpO2 89%.",
+        "label": "spo2",
+        "value": "89%",
+        "position": 128
+      }
+    ],
+    "dose": [
+      {
+        "raw": "8 mcg",
+        "value": "8",
+        "unit": "mcg",
+        "position": 182
+      },
+      {
+        "raw": "20 mL",
+        "value": "20",
+        "unit": "ml",
+        "position": 299
+      }
+    ]
+  },
+  "whisper_entities": {
+    "route": [],
+    "frequency": [],
+    "device": [
+      {
+        "raw": "C-Line",
+        "normalized": "c-line",
+        "position": 266
+      },
+      {
+        "raw": "Nasal Cannula",
+        "normalized": "nc",
+        "position": 210
+      }
+    ],
+    "vital_sign": [
+      {
+        "raw": "BP 85",
+        "label": "bp",
+        "value": "85",
+        "position": 78
+      },
+      {
+        "raw": "HR 100",
+        "label": "hr",
+        "value": "100",
+        "position": 88
+      },
+      {
+        "raw": "BT 36.8",
+        "label": "bt",
+        "value": "36.8",
+        "position": 114
+      },
+      {
+        "raw": "SpO2 80.9%.",
+        "label": "spo2",
+        "value": "80.9%",
+        "position": 125
+      }
+    ],
+    "dose": [
+      {
+        "raw": "20mL",
+        "value": "20",
+        "unit": "ml",
+        "position": 291
+      }
+    ]
+  }
+}

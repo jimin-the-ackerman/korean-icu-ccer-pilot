@@ -1,0 +1,8 @@
+{
+  "sample_id": "scenario_097_clinical_charting",
+  "whisper_transcript": "63세 여자 환자 큐트 메민고카클 멘엔자이디스로 입원함. BP 170, HR 98, R21, BT36 등 워스트 SPO95 세해대에 고소함. 세프트리액션 2그라운드 IVQH 2여중 C-Line 유지함. 환자 드라우지 상태 확인됨.",
+  "stt_metadata": {
+    "model": "whisper-1",
+    "language": "ko"
+  }
+}

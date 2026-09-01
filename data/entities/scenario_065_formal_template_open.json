@@ -1,0 +1,35 @@
+{
+  "sample_id": "scenario_065_formal_template",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "skin rash",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "의식 명료",
+    "medication_identity": "methylprednisolone",
+    "interventions": [
+      "상처 치료"
+    ],
+    "intake_output": "IV fluids가 시간당 100 mL로 투여됨",
+    "notification": null
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "스킨 래쉬",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "의식 명료",
+    "medication_identity": "메틸프레드니솔론",
+    "interventions": [
+      "상처 치료"
+    ],
+    "intake_output": null,
+    "notification": null
+  }
+}

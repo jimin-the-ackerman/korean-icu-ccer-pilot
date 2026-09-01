@@ -1,0 +1,8 @@
+{
+  "sample_id": "scenario_066_clinical_charting",
+  "whisper_transcript": "59세 남성 환자, acute pancreatitis, hypertriglyceridemia로 입원함. Vital signs, BP pass up bit lumigram, HR up 10 BPM, RREC, BT 38.5, SpO2 95%. Abdominal pain, severe 호소함. Insulin, 10 units IV, Q6H 적용함. Fluid resuscitation, 시행함. Urine output, 1,500ml, 24억 기록됨. 환자 알러트 상태 유지함. Endocrinology consult, 필요함.",
+  "stt_metadata": {
+    "model": "whisper-1",
+    "language": "ko"
+  }
+}

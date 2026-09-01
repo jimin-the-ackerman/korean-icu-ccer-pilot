@@ -1,0 +1,36 @@
+{
+  "sample_id": "scenario_084_telegraphic_icu",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "wheezing",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "Drowsy",
+    "medication_identity": "Albuterol",
+    "interventions": [],
+    "intake_output": null,
+    "notification": "Respiratory therapy notify"
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "천식발작",
+        "negation": false,
+        "severity": "severe"
+      },
+      {
+        "name": "Wheezing",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "Drowsy",
+    "medication_identity": "Albuterol",
+    "interventions": [],
+    "intake_output": null,
+    "notification": "Respiratory Therapy Notify"
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "sample_id": "scenario_094_clinical_charting",
+  "closed_vocab_matches": [
+    {
+      "entity_type": "route",
+      "gold_value": "iv",
+      "whisper_value": "iv",
+      "match_status": "matched",
+      "error_type": null
+    },
+    {
+      "entity_type": "frequency",
+      "gold_value": "q12h",
+      "whisper_value": "q12h",
+      "match_status": "matched",
+      "error_type": null
+    },
+    {
+      "entity_type": "device",
+      "gold_value": "c-line",
+      "whisper_value": "c-line",
+      "match_status": "matched",
+      "error_type": null
+    },
+    {
+      "entity_type": "device",
+      "gold_value": "nc",
+      "whisper_value": "nc",
+      "match_status": "matched",
+      "error_type": null
+    },
+    {
+      "entity_type": "dose",
+      "gold_value": "80mg",
+      "whisper_value": "80mg",
+      "match_status": "matched",
+      "error_type": null
+    },
+    {
+      "entity_type": "vital_sign",
+      "label": "bp",
+      "gold_value": "85/55 mmHg",
+      "whisper_value": "85.575",
+      "match_status": "error",
+      "error_type": "numeric_error"
+    },
+    {
+      "entity_type": "vital_sign",
+      "label": "hr",
+      "gold_value": "120 bpm",
+      "whisper_value": "580",
+      "match_status": "error",
+      "error_type": "numeric_error"
+    },
+    {
+      "entity_type": "vital_sign",
+      "label": "rr",
+      "gold_value": "22 bpm",
+      "whisper_value": null,
+      "match_status": "omission",
+      "error_type": "omission"
+    },
+    {
+      "entity_type": "vital_sign",
+      "label": "bt",
+      "gold_value": "36.8°C",
+      "whisper_value": "36.8",
+      "match_status": "error",
+      "error_type": "numeric_error"
+    },
+    {
+      "entity_type": "vital_sign",
+      "label": "spo2",
+      "gold_value": "92% on room air",
+      "whisper_value": null,
+      "match_status": "omission",
+      "error_type": "omission"
+    }
+  ],
+  "open_vocab_matches": {
+    "symptom_matches": [
+      {
+        "gold_value": "hematemesis",
+        "whisper_value": "복통",
+        "match_basis": "omission",
+        "negation_match": null,
+        "severity_match": null
+      }
+    ],
+    "whisper_only_symptoms": [
+      "복통 (abdominal pain)"
+    ],
+    "clinical_status_match": {
+      "gold_value": "drowsy",
+      "whisper_value": "드라우지 상태",
+      "match_basis": "phonetic_artifact"
+    },
+    "medication_identity_match": {
+      "gold_value": "Pantoprazole",
+      "whisper_value": "Pantoprazole",
+      "match_basis": "exact"
+    },
+    "intervention_matches": [
+      {
+        "gold_value": "endoscopic hemostasis",
+        "whisper_value": "Endoscopic hemostasis",
+        "match_basis": "exact"
+      }
+    ],
+    "whisper_only_interventions": [],
+    "intake_output_match": {
+      "gold_value": "negative fluid balance",
+      "whisper_value": "Negative fluid balance 확인됨",
+      "match_basis": "exact"
+    },
+    "notification_match": {
+      "gold_value": "Gastroenterology team notified for urgent endoscopy.",
+      "whisper_value": "gastroenterology team notify him for urgent endoscopy",
+      "match_basis": "exact"
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "sample_id": "scenario_086_clinical_charting",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "fever",
+        "negation": false,
+        "severity": "severe"
+      },
+      {
+        "name": "febrile neutropenia",
+        "negation": false,
+        "severity": null
+      }
+    ],
+    "clinical_status": "drowsy",
+    "medication_identity": "Piperacillin/Tazobactam",
+    "interventions": [
+      "Antibiotic therapy initiated"
+    ],
+    "intake_output": null,
+    "notification": "담당의 notify함: febrile neutropenia 및 치료 계획 보고됨"
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "fever",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "drowsy",
+    "medication_identity": "piperacillin-tazobactam",
+    "interventions": [
+      "Antibiotic therapy initiated"
+    ],
+    "intake_output": null,
+    "notification": "담당의 notify함"
+  }
+}

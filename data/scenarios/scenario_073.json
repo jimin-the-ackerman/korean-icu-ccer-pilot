@@ -1,0 +1,28 @@
+{
+  "patient_context": "A 62-year-old male patient admitted with acute pulmonary edema following a severe mitral valve regurgitation.",
+  "vital_signs": {
+    "BP": "110/70 mmHg",
+    "HR": "98 bpm",
+    "RR": "28 breaths/min",
+    "BT": "36.8°C",
+    "SpO2": "88% on room air"
+  },
+  "symptom": {
+    "name": "shortness of breath",
+    "negation": false,
+    "severity": "severe"
+  },
+  "medication": {
+    "name": "Furosemide",
+    "dose": "40 mg",
+    "route": "IV",
+    "frequency": "q8h"
+  },
+  "oxygen_support": "Non-rebreather mask at 15 L/min",
+  "intervention": null,
+  "device": "Foley",
+  "io": "Positive fluid balance 200 mL over the last 24 hours",
+  "clinical_status": "alert",
+  "notification": null,
+  "scenario_id": "scenario_073"
+}

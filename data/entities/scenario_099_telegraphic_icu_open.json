@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_099_telegraphic_icu",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "dyspnea",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "drowsy",
+    "medication_identity": "Furosemide",
+    "interventions": [],
+    "intake_output": "Positive fluid balance 2000 mL",
+    "notification": "Cardiology consult requested"
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "dyspnea",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "drowsy",
+    "medication_identity": "furosemide",
+    "interventions": [],
+    "intake_output": "positive fluid balance 2000",
+    "notification": "cardiology consult requested"
+  }
+}

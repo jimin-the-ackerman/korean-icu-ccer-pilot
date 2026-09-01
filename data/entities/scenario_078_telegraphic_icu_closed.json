@@ -1,0 +1,117 @@
+{
+  "sample_id": "scenario_078_telegraphic_icu",
+  "gold_entities": {
+    "route": [
+      {
+        "raw": "IV",
+        "normalized": "iv",
+        "position": 167
+      }
+    ],
+    "frequency": [
+      {
+        "raw": "q12h",
+        "normalized": "q12h",
+        "position": 170
+      }
+    ],
+    "device": [
+      {
+        "raw": "Foley",
+        "normalized": "foley",
+        "position": 244
+      }
+    ],
+    "vital_sign": [
+      {
+        "raw": "BP 88/54",
+        "label": "bp",
+        "value": "88/54",
+        "position": 27
+      },
+      {
+        "raw": "HR 120",
+        "label": "hr",
+        "value": "120",
+        "position": 44
+      },
+      {
+        "raw": "RR 28",
+        "label": "rr",
+        "value": "28",
+        "position": 58
+      },
+      {
+        "raw": "BT 39.0",
+        "label": "bt",
+        "value": "39.0",
+        "position": 79
+      },
+      {
+        "raw": "SpO2 90%",
+        "label": "spo2",
+        "value": "90%",
+        "position": 92
+      }
+    ],
+    "dose": [
+      {
+        "raw": "1g",
+        "value": "1",
+        "unit": "g",
+        "position": 164
+      }
+    ]
+  },
+  "whisper_entities": {
+    "route": [
+      {
+        "raw": "IV",
+        "normalized": "iv",
+        "position": 149
+      }
+    ],
+    "frequency": [
+      {
+        "raw": "Q12H",
+        "normalized": "q12h",
+        "position": 152
+      }
+    ],
+    "device": [
+      {
+        "raw": "Foley",
+        "normalized": "foley",
+        "position": 216
+      }
+    ],
+    "vital_sign": [
+      {
+        "raw": "BP 88",
+        "label": "bp",
+        "value": "88",
+        "position": 26
+      },
+      {
+        "raw": "HR 120",
+        "label": "hr",
+        "value": "120",
+        "position": 39
+      },
+      {
+        "raw": "BT 39.",
+        "label": "bt",
+        "value": "39",
+        "position": 69
+      }
+    ],
+    "dose": [
+      {
+        "raw": "1g",
+        "value": "1",
+        "unit": "g",
+        "position": 146
+      }
+    ]
+  }
+}

@@ -1,0 +1,132 @@
+{
+  "sample_id": "scenario_077_telegraphic_icu",
+  "gold_entities": {
+    "route": [
+      {
+        "raw": "IV",
+        "normalized": "iv",
+        "position": 166
+      }
+    ],
+    "frequency": [
+      {
+        "raw": "q8h",
+        "normalized": "q8h",
+        "position": 169
+      }
+    ],
+    "device": [
+      {
+        "raw": "Foley",
+        "normalized": "foley",
+        "position": 231
+      },
+      {
+        "raw": "Nasal cannula",
+        "normalized": "nc",
+        "position": 177
+      },
+      {
+        "raw": "NC",
+        "normalized": "nc",
+        "position": 114
+      }
+    ],
+    "vital_sign": [
+      {
+        "raw": "BP 88/56",
+        "label": "bp",
+        "value": "88/56",
+        "position": 31
+      },
+      {
+        "raw": "HR 112",
+        "label": "hr",
+        "value": "112",
+        "position": 48
+      },
+      {
+        "raw": "RR 22",
+        "label": "rr",
+        "value": "22",
+        "position": 62
+      },
+      {
+        "raw": "BT 36.8",
+        "label": "bt",
+        "value": "36.8",
+        "position": 83
+      },
+      {
+        "raw": "SpO2 94%",
+        "label": "spo2",
+        "value": "94%",
+        "position": 96
+      }
+    ],
+    "dose": [
+      {
+        "raw": "10 mg",
+        "value": "10",
+        "unit": "mg",
+        "position": 160
+      }
+    ]
+  },
+  "whisper_entities": {
+    "route": [
+      {
+        "raw": "IV",
+        "normalized": "iv",
+        "position": 156
+      }
+    ],
+    "frequency": [
+      {
+        "raw": "Q8H",
+        "normalized": "q8h",
+        "position": 159
+      }
+    ],
+    "device": [
+      {
+        "raw": "Nasal Cannula",
+        "normalized": "nc",
+        "position": 164
+      },
+      {
+        "raw": "NC",
+        "normalized": "nc",
+        "position": 110
+      }
+    ],
+    "vital_sign": [
+      {
+        "raw": "BP 88",
+        "label": "bp",
+        "value": "88",
+        "position": 28
+      },
+      {
+        "raw": "HR 100",
+        "label": "hr",
+        "value": "100",
+        "position": 44
+      },
+      {
+        "raw": "BT 36.8",
+        "label": "bt",
+        "value": "36.8",
+        "position": 74
+      }
+    ],
+    "dose": [
+      {
+        "raw": "10mg",
+        "value": "10",
+        "unit": "mg",
+        "position": 151
+      }
+    ]
+  }
+}

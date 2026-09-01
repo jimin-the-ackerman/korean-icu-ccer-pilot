@@ -1,0 +1,115 @@
+{
+  "sample_id": "scenario_096_telegraphic_icu",
+  "gold_entities": {
+    "route": [
+      {
+        "raw": "IV",
+        "normalized": "iv",
+        "position": 154
+      }
+    ],
+    "frequency": [
+      {
+        "raw": "BID",
+        "normalized": "bid",
+        "position": 157
+      }
+    ],
+    "device": [
+      {
+        "raw": "Foley",
+        "normalized": "foley",
+        "position": 176
+      },
+      {
+        "raw": "NC",
+        "normalized": "nc",
+        "position": 113
+      },
+      {
+        "raw": "NC",
+        "normalized": "nc",
+        "position": 170
+      }
+    ],
+    "vital_sign": [
+      {
+        "raw": "BP 160/90",
+        "label": "bp",
+        "value": "160/90",
+        "position": 24
+      },
+      {
+        "raw": "HR 110",
+        "label": "hr",
+        "value": "110",
+        "position": 42
+      },
+      {
+        "raw": "RR 28",
+        "label": "rr",
+        "value": "28",
+        "position": 56
+      },
+      {
+        "raw": "BT 37.0",
+        "label": "bt",
+        "value": "37.0",
+        "position": 77
+      },
+      {
+        "raw": "SpO2 88%",
+        "label": "spo2",
+        "value": "88%",
+        "position": 90
+      }
+    ],
+    "dose": [
+      {
+        "raw": "40 mg",
+        "value": "40",
+        "unit": "mg",
+        "position": 148
+      },
+      {
+        "raw": "500 mL",
+        "value": "500",
+        "unit": "ml",
+        "position": 217
+      }
+    ]
+  },
+  "whisper_entities": {
+    "route": [],
+    "frequency": [],
+    "device": [],
+    "vital_sign": [
+      {
+        "raw": "HR 110",
+        "label": "hr",
+        "value": "110",
+        "position": 36
+      },
+      {
+        "raw": "SPO2 88%",
+        "label": "spo2",
+        "value": "88%",
+        "position": 75
+      }
+    ],
+    "dose": [
+      {
+        "raw": "40mg",
+        "value": "40",
+        "unit": "mg",
+        "position": 120
+      },
+      {
+        "raw": "500mL",
+        "value": "500",
+        "unit": "ml",
+        "position": 177
+      }
+    ]
+  }
+}

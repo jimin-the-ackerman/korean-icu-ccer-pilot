@@ -1,0 +1,8 @@
+{
+  "sample_id": "scenario_090_telegraphic_icu",
+  "whisper_transcript": "57세 여성 환자, MS 악화로 입원, Severe motor weakness, 감각 이상이 있음. BPO5-RR-92, BT-SRN-10 root, SpO2-93ppra, Methylprednisolone-1-gyve-Q-sealer-H, 소변량 적절함, drowsy.",
+  "stt_metadata": {
+    "model": "whisper-1",
+    "language": "ko"
+  }
+}

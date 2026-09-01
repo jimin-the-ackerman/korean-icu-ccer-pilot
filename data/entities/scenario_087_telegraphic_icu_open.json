@@ -1,0 +1,36 @@
+{
+  "sample_id": "scenario_087_telegraphic_icu",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "muscle spasms",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "Drowsy",
+    "medication_identity": "Diazepam",
+    "interventions": [
+      "wound debridement",
+      "neurology consult"
+    ],
+    "intake_output": "IO strict monitoring",
+    "notification": "Neurology consult함"
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "severe muscle spasms",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "drowsy",
+    "medication_identity": "diazepam",
+    "interventions": [
+      "wound debridement"
+    ],
+    "intake_output": "IO strict monitoring",
+    "notification": "neurology consultum"
+  }
+}

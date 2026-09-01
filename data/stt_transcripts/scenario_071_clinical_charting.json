@@ -1,0 +1,8 @@
+{
+  "sample_id": "scenario_071_clinical_charting",
+  "whisper_transcript": "소베스 여성, 기암베레 신드롬, GBS, Severe Case Admission Respiratory Monitoring, Close PO BP 108, 76, Membrane HR, Tidy 8, BR, 28, Breaths Min BT-30N by McGee's, SbO2, 89% on room air, 확인됨 Severe Muscle Weakness, 호소함 IV Immunoglobulin, 0.4mg IV, Q12H, 적용함 Non-Re-Breather Masks, 한소 적용함 Ventilator 사용중 Clinical Status, Drowsy 상태 Neurology Team, Notify함",
+  "stt_metadata": {
+    "model": "whisper-1",
+    "language": "ko"
+  }
+}

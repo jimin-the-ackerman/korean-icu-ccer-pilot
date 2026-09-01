@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_054_telegraphic_icu",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "headache",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "Drowsy",
+    "medication_identity": "Nimodipine",
+    "interventions": [],
+    "intake_output": null,
+    "notification": "Neuro team notify"
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "headache",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "drowsy",
+    "medication_identity": "Nemodipine",
+    "interventions": [],
+    "intake_output": null,
+    "notification": "Neuroteam notify"
+  }
+}

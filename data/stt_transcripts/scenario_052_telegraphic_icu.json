@@ -1,0 +1,8 @@
+{
+  "sample_id": "scenario_052_telegraphic_icu",
+  "whisper_transcript": "72ZN1, 힙 대치, 포스톱 복잡성, BP13, 85mmHg, HR95bpm, RR18breathsmin, BT37.5, SbO2 97% room air, pain moderate, morphine 2mLrmIVQ4H, fully in place, urine output 400mL6RR, alert.",
+  "stt_metadata": {
+    "model": "whisper-1",
+    "language": "ko"
+  }
+}

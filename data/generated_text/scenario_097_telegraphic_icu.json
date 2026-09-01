@@ -1,0 +1,11 @@
+{
+  "sample_id": "scenario_097_telegraphic_icu",
+  "scenario_id": "scenario_097",
+  "document_type": "ICU_observation",
+  "style_condition": "telegraphic_icu",
+  "text": "63세 여성, 급성 수막구균성 수막염.\n\nBP 110/70.  \nHR 98.  \nRR 22.  \nBT 39.5.  \nSpO2 95%.\n\nSevere headache.  \n\nCeftriaxone 2g IV q12h.\n\nC-line 유지됨.\n\n환자 drowsy.",
+  "generation_metadata": {
+    "model": "gpt-4o",
+    "temperature": 0.7
+  }
+}

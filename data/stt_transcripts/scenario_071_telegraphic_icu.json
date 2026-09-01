@@ -1,0 +1,8 @@
+{
+  "sample_id": "scenario_071_telegraphic_icu",
+  "whisper_transcript": "40베이트 세여성, GBS로 입원. BP108, CITIT6, MMH, HR38BPM, RR28, BT37NFS, SP2, 89%. 심각한 근육 약탈, IV암미민옥글로빌린 0.4g, IVQ2H. 안정적인 숨을 숨기지 않는 마스크 사용중, 환기기 사용중, 드라우지. 뇌리지팀, 연락해주세요.",
+  "stt_metadata": {
+    "model": "whisper-1",
+    "language": "ko"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "sample_id": "scenario_051_clinical_charting",
+  "scenario_id": "scenario_051",
+  "document_type": "ICU_observation",
+  "style_condition": "clinical_charting",
+  "text": "48세 남성 환자, acute pancreatitis로 입원. 원인: alcohol use.  \nBP 110/70 mmHg, HR 98 bpm, RR 22 bpm, BT 37.8°C.  \nSpO2 95% on room air.  \nAbdominal pain severe 호소함.  \nMorphine 4 mg IV PRN 투여함.  \nNPO status 유지함.  \nNG tube 적용함.  \nNegative fluid balance 확인됨.  \n환자 alert 상태 유지함.  \nGastroenterology team notify함.",
+  "generation_metadata": {
+    "model": "gpt-4o",
+    "temperature": 0.7
+  }
+}

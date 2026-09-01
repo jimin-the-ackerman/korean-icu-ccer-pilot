@@ -1,0 +1,11 @@
+{
+  "sample_id": "scenario_072_formal_template",
+  "scenario_id": "scenario_072",
+  "document_type": "ICU_observation",
+  "style_condition": "formal_template",
+  "text": "환자는 67세 남성으로, 급성 궤양성 대장염 악화로 입원하였다. 환자는 심한 복통, 혈변, 탈수 증상을 보였다. 혈압은 90/60 mmHg로 확인되었고, 심박수는 110 bpm, 호흡수는 24 breaths/min, 체온은 37.8°C로 측정되었다. 산소포화도는 실내 공기에서 95%로 확인되었다. 환자는 심한 복통을 호소하였다. 약물로는 Hydrocortisone 100 mg을 IV로 6시간마다 투여받고 있다. 환자에게는 IV fluid resuscitation이 실시되었고, 음성 수분 평형이 확인되었다. 환자는 의식이 명료하다.",
+  "generation_metadata": {
+    "model": "gpt-4o",
+    "temperature": 0.7
+  }
+}

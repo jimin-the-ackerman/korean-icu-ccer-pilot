@@ -1,0 +1,11 @@
+{
+  "sample_id": "scenario_056_formal_template",
+  "scenario_id": "scenario_056",
+  "document_type": "ICU_observation",
+  "style_condition": "formal_template",
+  "text": "47세 여성 환자가 급성 중증 천식 악화로 입원하였다. 활력징후는 혈압이 135/85 mmHg, 심박수가 110 bpm, 호흡수가 32 breaths/min, 체온이 37.5°C로 확인되었다. 산소포화도는 실내 공기에서 88%로 나타났다. 환자는 심한 wheezing을 호소하였다. Albuterol 2.5 mg을 IV로 4시간마다 투여하고 있다. 현재 High-flow nasal cannula로 산소 치료를 받고 있으며, NG tube가 삽입되어 있다. 수분 균형 상태는 500 ml 음성이다. 환자는 졸린 상태를 보이고 있다. 급한 평가가 필요하여 Pulmonology 팀에 보고하였다.",
+  "generation_metadata": {
+    "model": "gpt-4o",
+    "temperature": 0.7
+  }
+}

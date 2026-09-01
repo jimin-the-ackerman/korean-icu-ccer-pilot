@@ -1,0 +1,11 @@
+{
+  "sample_id": "scenario_063_formal_template",
+  "scenario_id": "scenario_063",
+  "document_type": "ICU_observation",
+  "style_condition": "formal_template",
+  "text": "74세 여성 환자가 간경변증에 의한 자발성 세균성 복막염으로 입원하였다. 활력징후는 혈압이 100/60 mmHg, 심박수가 98 bpm, 호흡수가 24 breaths/min, 체온이 37.8°C, 산소포화도는 실내공기에서 92%로 확인되었다. 환자는 중등도의 복통을 호소하였다. 현재 Ceftriaxone 2g을 IV로 12시간마다 투여 중이다. 산소 지원은 비강 캐뉼라를 통해 2 L/min로 제공되고 있다. Foley 카테터가 삽입되어 있으며, 엄격한 입력/출력 모니터링이 시행되고 있다. 환자는 졸음 상태를 보인다. 소변량 감소와 복부 팽만에 대해 담당 의사에게 보고하였다.",
+  "generation_metadata": {
+    "model": "gpt-4o",
+    "temperature": 0.7
+  }
+}

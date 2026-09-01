@@ -1,0 +1,28 @@
+{
+  "patient_context": "A 54-year-old male patient admitted with acute pancreatitis due to hyperparathyroidism.",
+  "vital_signs": {
+    "BP": "135/85 mmHg",
+    "HR": "110 bpm",
+    "RR": "22 bpm",
+    "BT": "37.8°C",
+    "SpO2": "94% on room air"
+  },
+  "symptom": {
+    "name": "abdominal pain",
+    "negation": false,
+    "severity": "severe"
+  },
+  "medication": {
+    "name": "Pantoprazole",
+    "dose": "40 mg",
+    "route": "IV",
+    "frequency": "BID"
+  },
+  "oxygen_support": null,
+  "intervention": null,
+  "device": "NG tube",
+  "io": null,
+  "clinical_status": "alert",
+  "notification": "Consult endocrinology for hyperparathyroidism management.",
+  "scenario_id": "scenario_092"
+}

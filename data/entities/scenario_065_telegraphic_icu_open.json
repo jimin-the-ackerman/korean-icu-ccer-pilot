@@ -1,0 +1,35 @@
+{
+  "sample_id": "scenario_065_telegraphic_icu",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "skin rash",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "Alert",
+    "medication_identity": "Methylprednisolone",
+    "interventions": [
+      "wound care"
+    ],
+    "intake_output": "IV fluids 100 mL/hr",
+    "notification": null
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "skin rash",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "alert",
+    "medication_identity": "methylprednisolone",
+    "interventions": [
+      "wound care"
+    ],
+    "intake_output": null,
+    "notification": null
+  }
+}

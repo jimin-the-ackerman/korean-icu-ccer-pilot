@@ -1,0 +1,36 @@
+{
+  "sample_id": "scenario_088_telegraphic_icu",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "jaundice",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "Drowsy",
+    "medication_identity": "N-acetylcysteine",
+    "interventions": [],
+    "intake_output": "Positive fluid balance 500 mL",
+    "notification": "Hepatology team notified"
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "jaundice",
+        "negation": false,
+        "severity": "severe"
+      },
+      {
+        "name": "drowsy",
+        "negation": false,
+        "severity": null
+      }
+    ],
+    "clinical_status": "drowsy",
+    "medication_identity": "N-acetylcysteine",
+    "interventions": [],
+    "intake_output": "Positive fluid balance 500mL",
+    "notification": "Hepatology team notified."
+  }
+}

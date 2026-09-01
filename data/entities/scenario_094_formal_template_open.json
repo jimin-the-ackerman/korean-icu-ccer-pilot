@@ -1,0 +1,40 @@
+{
+  "sample_id": "scenario_094_formal_template",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "hematemesis",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "졸리며 (drowsy)",
+    "medication_identity": "Pantoprazole",
+    "interventions": [
+      "내시경적 지혈술"
+    ],
+    "intake_output": "수분 균형은 음성 (negative fluid balance)",
+    "notification": "위장관 팀에 긴급 내시경을 위해 보고하였다"
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "위장관 출혈",
+        "negation": false,
+        "severity": "severe"
+      },
+      {
+        "name": "히마테미스스",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "졸리며",
+    "medication_identity": "펜토프라솔",
+    "interventions": [
+      "내시경적 지혈술"
+    ],
+    "intake_output": "수분 균형은 음성",
+    "notification": "위장관 팀의 긴급 내시경을 위해 보고하였다"
+  }
+}

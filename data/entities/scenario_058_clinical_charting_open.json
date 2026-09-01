@@ -1,0 +1,40 @@
+{
+  "sample_id": "scenario_058_clinical_charting",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "fluid overload",
+        "negation": false
+      },
+      {
+        "name": "dyspnea",
+        "negation": false,
+        "severity": "moderate"
+      }
+    ],
+    "clinical_status": "alert",
+    "medication_identity": "Furosemide",
+    "interventions": [],
+    "intake_output": "Positive fluid balance 확인됨",
+    "notification": null
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "fluid overload",
+        "negation": false,
+        "severity": null
+      },
+      {
+        "name": "디스티니아",
+        "negation": false,
+        "severity": "moderate"
+      }
+    ],
+    "clinical_status": "alert",
+    "medication_identity": "Furosemide",
+    "interventions": [],
+    "intake_output": "Positive fluid balance 확인됨",
+    "notification": null
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "sample_id": "scenario_078_telegraphic_icu",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "sepsis",
+        "negation": false,
+        "severity": "severe"
+      },
+      {
+        "name": "necrotizing fasciitis",
+        "negation": false,
+        "severity": null
+      },
+      {
+        "name": "pain",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "환자 졸림 상태 (drowsy)",
+    "medication_identity": "Vancomycin",
+    "interventions": [
+      "Surgical debridement scheduled"
+    ],
+    "intake_output": "I/O positive balance",
+    "notification": "ID 및 외과팀 notify함"
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "패혈증",
+        "negation": false,
+        "severity": "severe"
+      },
+      {
+        "name": "괴사성 근막염",
+        "negation": false,
+        "severity": null
+      },
+      {
+        "name": "pain",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "졸림상태",
+    "medication_identity": "vancomycin",
+    "interventions": [
+      "Surgical debridement scheduled"
+    ],
+    "intake_output": "IO positive balance",
+    "notification": "아이디 및 외과팀 notifiam"
+  }
+}

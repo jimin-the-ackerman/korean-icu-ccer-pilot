@@ -1,0 +1,28 @@
+{
+  "patient_context": "A 63-year-old female patient admitted with acute meningococcal meningitis.",
+  "vital_signs": {
+    "BP": "110/70",
+    "HR": "98",
+    "RR": "22",
+    "BT": "39.5",
+    "SpO2": "95%"
+  },
+  "symptom": {
+    "name": "headache",
+    "negation": false,
+    "severity": "severe"
+  },
+  "medication": {
+    "name": "Ceftriaxone",
+    "dose": "2g",
+    "route": "IV",
+    "frequency": "q12h"
+  },
+  "oxygen_support": null,
+  "intervention": null,
+  "device": "C-line",
+  "io": null,
+  "clinical_status": "drowsy",
+  "notification": null,
+  "scenario_id": "scenario_097"
+}

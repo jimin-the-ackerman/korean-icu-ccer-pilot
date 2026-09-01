@@ -1,0 +1,8 @@
+{
+  "sample_id": "scenario_096_telegraphic_icu",
+  "whisper_transcript": "50세 남원, 급성 폐부초아심원음, BPN 60, 90mmHg, HR 110 BPM, R18BREATH SMIN, BT37MOREX, SPO2 88%, RA 95%, 2L O2NC. 디스티니아 서비어, 퓨로스마이드 40mg IBID, 2L O2N fully in place, negative fluid balance 500mL alert, cardiology team notify.",
+  "stt_metadata": {
+    "model": "whisper-1",
+    "language": "ko"
+  }
+}

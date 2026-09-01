@@ -1,0 +1,11 @@
+{
+  "sample_id": "scenario_084_telegraphic_icu",
+  "scenario_id": "scenario_084",
+  "document_type": "ICU_observation",
+  "style_condition": "telegraphic_icu",
+  "text": "49세 남성, 심한 천식 발작 입원.  \nBP 130/85.  \nHR 110.  \nRR 28.  \nBT 37.0.  \nSpO2 88%.  \nSevere wheezing.  \nAlbuterol 2.5mg IV PRN.  \nHigh-flow nasal cannula 사용 중.  \nDrowsy 상태.  \nRespiratory therapy notify.",
+  "generation_metadata": {
+    "model": "gpt-4o",
+    "temperature": 0.7
+  }
+}

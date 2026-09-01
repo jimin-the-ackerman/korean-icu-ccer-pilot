@@ -1,0 +1,35 @@
+{
+  "sample_id": "scenario_061_telegraphic_icu",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "abdominal pain",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "Alert",
+    "medication_identity": "Insulin",
+    "interventions": [
+      "IV fluid resuscitation"
+    ],
+    "intake_output": "Positive fluid balance",
+    "notification": null
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "abdominal pain",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "Alert",
+    "medication_identity": "Insulin",
+    "interventions": [
+      "IV fluid resuscitation"
+    ],
+    "intake_output": "Positive fluid balance",
+    "notification": null
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "sample_id": "scenario_100_formal_template",
+  "scenario_id": "scenario_100",
+  "document_type": "ICU_observation",
+  "style_condition": "formal_template",
+  "text": "환자는 68세 남성으로, 급성 장폐색이 의심되어 입원하였다. 현재 활력징후는 혈압 98/60 mmHg, 심박수 112 bpm, 호흡수 24 breaths/min, 체온 37.8°C이며, 산소포화도는 실내 공기에서 95%로 확인되었다. 환자는 심한 복통을 호소하고 있다. 약물로는 morphine 4 mg을 IV로 4시간마다 투여 중이다. 현재 산소 보조는 받지 않고 있다. 중재로는 nasogastric decompression을 시행하고 있으며, NG tube가 삽입되어 있다. 최근 8시간 동안 소변량이 감소하였다. 임상 상태는 졸림 상태로 확인되었다. 긴급 평가를 위해 외과팀에 보고하였다.",
+  "generation_metadata": {
+    "model": "gpt-4o",
+    "temperature": 0.7
+  }
+}

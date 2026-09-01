@@ -1,0 +1,11 @@
+{
+  "sample_id": "scenario_068_formal_template",
+  "scenario_id": "scenario_068",
+  "document_type": "ICU_observation",
+  "style_condition": "formal_template",
+  "text": "68세 여성 환자가 급성 허혈성 대장염으로 입원하였다. 활력징후는 혈압 95/60 mmHg, 심박수 110 bpm, 호흡수 22 breaths/min, 체온 37.5°C, 산소포화도 92%로 확인되었으며, 실내 공기 상태이다. 환자는 심한 복통을 호소하였다. Metronidazole 500 mg이 IV 경로로 8시간마다 투여되고 있다. 산소는 nasal cannula를 통해 2L/min로 공급되고 있다. Foley 카테터가 삽입되어 있으며, 체액 균형은 음성으로 기록되었다. 환자는 졸음이 있는 상태이다.",
+  "generation_metadata": {
+    "model": "gpt-4o",
+    "temperature": 0.7
+  }
+}

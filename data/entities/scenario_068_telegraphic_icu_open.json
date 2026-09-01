@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_068_telegraphic_icu",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "abdominal pain",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "Drowsy",
+    "medication_identity": "Metronidazole",
+    "interventions": [],
+    "intake_output": "Negative fluid balance",
+    "notification": null
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "엉덩이 아픔",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "드라우지 상태",
+    "medication_identity": "메트로닌지솔",
+    "interventions": [],
+    "intake_output": "내게티브 플루이드 밸런스",
+    "notification": null
+  }
+}

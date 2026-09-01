@@ -1,0 +1,41 @@
+{
+  "sample_id": "scenario_095_clinical_charting",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "shortness of breath",
+        "negation": false,
+        "severity": "severe"
+      },
+      {
+        "name": "acute respiratory distress",
+        "negation": false,
+        "severity": null
+      }
+    ],
+    "clinical_status": "alert",
+    "medication_identity": "Albuterol",
+    "interventions": [],
+    "intake_output": "positive fluid balance",
+    "notification": "Respiratory therapist notify함"
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "acute respiratory distress",
+        "negation": false,
+        "severity": null
+      },
+      {
+        "name": "shortness of breath",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "alert",
+    "medication_identity": "Albuterol",
+    "interventions": [],
+    "intake_output": "positive fluid balance 확인됨",
+    "notification": "respiratory therapist notify함"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "sample_id": "scenario_081_clinical_charting",
+  "scenario_id": "scenario_081",
+  "document_type": "ICU_observation",
+  "style_condition": "clinical_charting",
+  "text": "60세 남성 환자, acute congestive heart failure로 입원함.  \nBP 200/110 mmHg, HR 110 bpm, RR 24 breaths/min, BT 37.4°C, SpO2 88% room air에서 측정됨.  \nSevere dyspnea 호소함.  \nFurosemide 40 mg IV STAT 투여함.  \n2L nasal cannula 적용함.  \nFoley 유지함.  \nNegative fluid balance 500 mL 확인됨.  \n환자 drowsy 상태 확인됨.  \nCardiology team notify함.",
+  "generation_metadata": {
+    "model": "gpt-4o",
+    "temperature": 0.7
+  }
+}

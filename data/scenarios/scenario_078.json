@@ -1,0 +1,28 @@
+{
+  "patient_context": "A 66-year-old female patient admitted with severe sepsis secondary to a necrotizing fasciitis infection.",
+  "vital_signs": {
+    "BP": "88/54 mmHg",
+    "HR": "120 bpm",
+    "RR": "28 breaths/min",
+    "BT": "39.0°C",
+    "SpO2": "90% on 15L O2 via non-rebreather mask"
+  },
+  "symptom": {
+    "name": "pain",
+    "negation": false,
+    "severity": "severe"
+  },
+  "medication": {
+    "name": "vancomycin",
+    "dose": "1g",
+    "route": "IV",
+    "frequency": "q12h"
+  },
+  "oxygen_support": "high-flow oxygen therapy",
+  "intervention": "surgical debridement scheduled",
+  "device": "Foley",
+  "io": "positive balance",
+  "clinical_status": "drowsy",
+  "notification": "Infectious Disease and Surgical teams notified.",
+  "scenario_id": "scenario_078"
+}

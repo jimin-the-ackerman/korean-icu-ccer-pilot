@@ -1,0 +1,28 @@
+{
+  "patient_context": "A 47-year-old female patient admitted with acute liver failure secondary to acetaminophen overdose.",
+  "vital_signs": {
+    "BP": "112/70 mmHg",
+    "HR": "105 bpm",
+    "RR": "22 breaths/min",
+    "BT": "37.8°C",
+    "SpO2": "95% on room air"
+  },
+  "symptom": {
+    "name": "jaundice",
+    "negation": false,
+    "severity": "severe"
+  },
+  "medication": {
+    "name": "N-acetylcysteine",
+    "dose": "300 mg/kg",
+    "route": "IV",
+    "frequency": "STAT"
+  },
+  "oxygen_support": null,
+  "intervention": null,
+  "device": null,
+  "io": "positive fluid balance of 500 mL",
+  "clinical_status": "drowsy",
+  "notification": "Hepatology team notified for urgent consultation.",
+  "scenario_id": "scenario_088"
+}

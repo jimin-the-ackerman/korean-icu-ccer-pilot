@@ -1,0 +1,8 @@
+{
+  "sample_id": "scenario_090_clinical_charting",
+  "whisper_transcript": "57세 여성 환자, Multiple Sclerosis Acute Exacerbation으로 이완함. Severe Motor Weakness meets Sensory Disturbances 호소함. BPU-HAT 3881mg, HR-95BDT 37.0 SpO2 TG-sine Professin to Room Air. Methylprednisolone 1g IV Q-Star A 착용함. 임상상태 Drowsy. IO Adequate Urine Output 확인됨.",
+  "stt_metadata": {
+    "model": "whisper-1",
+    "language": "ko"
+  }
+}

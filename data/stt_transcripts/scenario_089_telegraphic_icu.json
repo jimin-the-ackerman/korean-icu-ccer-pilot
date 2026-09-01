@@ -1,0 +1,8 @@
+{
+  "sample_id": "scenario_089_telegraphic_icu",
+  "whisper_transcript": "59세 남환자, 나슈로 인한 만성간질환 급사로 입원. BP 92, 58mmHg, HRRR, 24breaths min, BT 37.2dC, SpO2 89% in room air, ascites moderate, spironolactone 100mg POBID, nasal cannula 3, Foley, negative fluid balance 500mL, drowsy, Hepatology team notify.",
+  "stt_metadata": {
+    "model": "whisper-1",
+    "language": "ko"
+  }
+}

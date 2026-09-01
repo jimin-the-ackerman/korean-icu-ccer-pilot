@@ -1,0 +1,8 @@
+{
+  "sample_id": "scenario_091_clinical_charting",
+  "whisper_transcript": "60 수호세 여자 환자, acute respiratory failure E1, pulmonary fibrosis exacerbation 관련 BP-UNE5, 80mm HERA, HR-96 BPM R-min, BT-37.6, SpO2 80% on room air, 디스피니아 심음 프레드네존 40mg POBID 적용함 하이플로우 네솔 캔눌라 유지함, 코드카 스테로이드 테라피 시작함, 벤틀레이터 사용함 클리니컬 스타디스, 드라우지",
+  "stt_metadata": {
+    "model": "whisper-1",
+    "language": "ko"
+  }
+}

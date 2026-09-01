@@ -1,0 +1,11 @@
+{
+  "sample_id": "scenario_090_telegraphic_icu",
+  "scenario_id": "scenario_090",
+  "document_type": "ICU_observation",
+  "style_condition": "telegraphic_icu",
+  "text": "57세 여성 환자.   \nMS 악화로 입원.   \nSevere motor weakness.   \n감각 이상 있음.   \nBP 130/85.   \nHR 95.   \nRR 20.   \nBT 37.5°C.   \nSpO2 93% RA.   \nMethylprednisolone 1g IV q12h.   \n소변량 적절함.   \nDrowsy.",
+  "generation_metadata": {
+    "model": "gpt-4o",
+    "temperature": 0.7
+  }
+}

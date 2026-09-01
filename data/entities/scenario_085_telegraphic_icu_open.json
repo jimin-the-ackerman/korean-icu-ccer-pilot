@@ -1,0 +1,36 @@
+{
+  "sample_id": "scenario_085_telegraphic_icu",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "cough",
+        "negation": false,
+        "severity": "moderate"
+      }
+    ],
+    "clinical_status": "drowsy",
+    "medication_identity": "Piperacillin-tazobactam",
+    "interventions": [],
+    "intake_output": "Fluid balance positive",
+    "notification": "Pulmonologist notify"
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "호흡 부정",
+        "negation": false,
+        "severity": null
+      },
+      {
+        "name": "기침",
+        "negation": false,
+        "severity": "moderate"
+      }
+    ],
+    "clinical_status": "drowsy",
+    "medication_identity": "piperacillin tezobactam",
+    "interventions": [],
+    "intake_output": "fluid balance positive",
+    "notification": "pulmonologist notify"
+  }
+}

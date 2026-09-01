@@ -1,0 +1,28 @@
+{
+  "patient_context": "A 50-year-old male patient admitted with acute exacerbation of chronic liver failure due to alcoholic cirrhosis.",
+  "vital_signs": {
+    "BP": "95/60 mmHg",
+    "HR": "115 bpm",
+    "RR": "22 breaths/min",
+    "BT": "37.5°C",
+    "SpO2": "88% on room air"
+  },
+  "symptom": {
+    "name": "jaundice",
+    "negation": false,
+    "severity": "severe"
+  },
+  "medication": {
+    "name": "Furosemide",
+    "dose": "40 mg",
+    "route": "IV",
+    "frequency": "BID"
+  },
+  "oxygen_support": "2L nasal cannula",
+  "intervention": null,
+  "device": "Foley",
+  "io": "negative fluid balance",
+  "clinical_status": "drowsy",
+  "notification": "Hepatology consult requested due to worsening liver function",
+  "scenario_id": "scenario_080"
+}

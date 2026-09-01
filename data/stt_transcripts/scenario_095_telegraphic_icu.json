@@ -1,0 +1,8 @@
+{
+  "sample_id": "scenario_095_telegraphic_icu",
+  "whisper_transcript": "62세 F 환자, 급성 호흡 곤란으로 중증 천식 아카로 입원. BP 38.5 mmHg 100g BPM, RR or SPT 37.3, SpO2 89.7, Severe SOB, Albuterol 2.5mg IV PRN. 고유량 비강 케롤라 사용 중 환기장치 Ventilator, Fluid Balance Positive, 정신상태 Alert, RT Ventilator 조정 위해 Notify.",
+  "stt_metadata": {
+    "model": "whisper-1",
+    "language": "ko"
+  }
+}

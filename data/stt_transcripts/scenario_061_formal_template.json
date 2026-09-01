@@ -1,0 +1,8 @@
+{
+  "sample_id": "scenario_061_formal_template",
+  "whisper_transcript": "52세 남성 환자가 고중성 지방 혈증에 의한 급성 최장염으로 입원하였다. 활력증후는 혈압 138-85mg, 심박수 120bpm, 호흡수 22회뿐, 체온 37.8°C이며 산소포화도는 실내 공기에서 96%로 확인되었다. 환자는 심한 복통을 호소하였다. 현재 환자는 인슐린 주입을 all units per hour 속도로 정맥으로 투여받고 있다. 산소 지원은 필요하지 않으며 의식은 명료하다. 치료로는 IV fluid resuscitation이 시행되었으며 체액균형은 양성으로 확인되었다.",
+  "stt_metadata": {
+    "model": "whisper-1",
+    "language": "ko"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "sample_id": "scenario_100_telegraphic_icu",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "abdominal pain",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "Drowsy",
+    "medication_identity": "Morphine",
+    "interventions": [
+      "Nasogastric decompression"
+    ],
+    "intake_output": "Urine output 감소 8시간 동안",
+    "notification": "Surgical team notify"
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "abdominal pain",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "drowsy",
+    "medication_identity": "morphine",
+    "interventions": [
+      "nasogastric decompression"
+    ],
+    "intake_output": "urine output comes o h",
+    "notification": "surgical team notify"
+  }
+}

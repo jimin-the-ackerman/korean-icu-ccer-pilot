@@ -1,0 +1,51 @@
+{
+  "sample_id": "scenario_067_clinical_charting",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "chest pain",
+        "negation": false,
+        "severity": "severe"
+      },
+      {
+        "name": "hypotension",
+        "negation": false,
+        "severity": null
+      },
+      {
+        "name": "hypoxia",
+        "negation": false,
+        "severity": null
+      }
+    ],
+    "clinical_status": "stuporous",
+    "medication_identity": "Heparin",
+    "interventions": [],
+    "intake_output": null,
+    "notification": "Hypotension과 hypoxia에 대해 담당의 notify함"
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "chest pain",
+        "negation": false,
+        "severity": "severe"
+      },
+      {
+        "name": "hypotension",
+        "negation": false,
+        "severity": null
+      },
+      {
+        "name": "hypoxia",
+        "negation": false,
+        "severity": null
+      }
+    ],
+    "clinical_status": "stuporous",
+    "medication_identity": "heparin",
+    "interventions": [],
+    "intake_output": null,
+    "notification": "hypotension과 hypoxia에 대해 담당해 notify함"
+  }
+}

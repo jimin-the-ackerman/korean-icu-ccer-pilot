@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_068_formal_template",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "복통",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "졸음이 있는 상태",
+    "medication_identity": "Metronidazole",
+    "interventions": [],
+    "intake_output": "체액 균형 음성",
+    "notification": null
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "복통",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "졸음이 있는 상태",
+    "medication_identity": "메트로니더솔",
+    "interventions": [],
+    "intake_output": "체액균형 음성",
+    "notification": null
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "sample_id": "scenario_056_telegraphic_icu",
+  "whisper_transcript": "쇼티세여성, 급성 천식아코로이원, BPUN5 폐디바른브레인, HR핵싱크, BPMR, 32브레스민, BT37도, however gray cells, SpO2 88% RA, wheezing severe, albuterol 2.mg IV Q4H, HFNG 튜브 삽입됨, negative fluid balance 500ml, drowsy 상태, pulmoteam notify",
+  "stt_metadata": {
+    "model": "whisper-1",
+    "language": "ko"
+  }
+}

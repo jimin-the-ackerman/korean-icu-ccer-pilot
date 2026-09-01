@@ -1,0 +1,128 @@
+{
+  "sample_id": "scenario_055_clinical_charting",
+  "gold_entities": {
+    "route": [
+      {
+        "raw": "IV",
+        "normalized": "iv",
+        "position": 206
+      }
+    ],
+    "frequency": [
+      {
+        "raw": "q12h",
+        "normalized": "q12h",
+        "position": 209
+      }
+    ],
+    "device": [
+      {
+        "raw": "nasal cannula",
+        "normalized": "nc",
+        "position": 153
+      },
+      {
+        "raw": "Nasal cannula",
+        "normalized": "nc",
+        "position": 236
+      }
+    ],
+    "vital_sign": [
+      {
+        "raw": "BP 90/60",
+        "label": "bp",
+        "value": "90/60",
+        "position": 89
+      },
+      {
+        "raw": "HR 120",
+        "label": "hr",
+        "value": "120",
+        "position": 105
+      },
+      {
+        "raw": "RR 22",
+        "label": "rr",
+        "value": "22",
+        "position": 118
+      },
+      {
+        "raw": "BT 38.1",
+        "label": "bt",
+        "value": "38.1",
+        "position": 126
+      },
+      {
+        "raw": "SpO2 95%",
+        "label": "spo2",
+        "value": "95%",
+        "position": 138
+      }
+    ],
+    "dose": [
+      {
+        "raw": "40 mg",
+        "value": "40",
+        "unit": "mg",
+        "position": 200
+      },
+      {
+        "raw": "1000 mL",
+        "value": "1000",
+        "unit": "ml",
+        "position": 302
+      },
+      {
+        "raw": "1200 mL",
+        "value": "1200",
+        "unit": "ml",
+        "position": 318
+      }
+    ]
+  },
+  "whisper_entities": {
+    "route": [
+      {
+        "raw": "IV",
+        "normalized": "iv",
+        "position": 142
+      }
+    ],
+    "frequency": [],
+    "device": [],
+    "vital_sign": [
+      {
+        "raw": "BT 38.1",
+        "label": "bt",
+        "value": "38.1",
+        "position": 88
+      }
+    ],
+    "dose": [
+      {
+        "raw": "60mg",
+        "value": "60",
+        "unit": "mg",
+        "position": 63
+      },
+      {
+        "raw": "40mg",
+        "value": "40",
+        "unit": "mg",
+        "position": 136
+      },
+      {
+        "raw": "10mL",
+        "value": "10",
+        "unit": "ml",
+        "position": 204
+      },
+      {
+        "raw": "200mL",
+        "value": "200",
+        "unit": "ml",
+        "position": 213
+      }
+    ]
+  }
+}

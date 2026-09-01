@@ -1,0 +1,8 @@
+{
+  "sample_id": "scenario_059_clinical_charting",
+  "whisper_transcript": "46세 남성 환자, 심각한 섹시즈와 퍼포레이드 다이버티큘라이티스 BP 85, 60mRH, HR 125bpm, RR 28breaths min, BT 39, 본인의 엑스페어 2, 89% room air 심각한 엉덩이 아픔 호소함 파이퍼레슬린 타조백담 Fort 55v Q8H 투여중 하이플로우 네이설 캐니라 적용함 플루이드 리소시테이션 시행함, C라인 유지함 포지티브 플루이드 밸런스 확인됨, 환자 드라우지 상태임",
+  "stt_metadata": {
+    "model": "whisper-1",
+    "language": "ko"
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "sample_id": "scenario_062_clinical_charting",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "chest pain",
+        "negation": false,
+        "severity": "severe"
+      },
+      {
+        "name": "tachycardia",
+        "negation": false,
+        "severity": null
+      },
+      {
+        "name": "decreased SpO2",
+        "negation": false,
+        "severity": null
+      }
+    ],
+    "clinical_status": "Drowsy",
+    "medication_identity": "Heparin",
+    "interventions": [],
+    "intake_output": "Negative fluid balance 확인됨",
+    "notification": "담당의 notify함: decreased SpO2, tachycardia"
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "chest pain",
+        "negation": false,
+        "severity": "severe"
+      },
+      {
+        "name": "decreased SpO2",
+        "negation": false,
+        "severity": null
+      },
+      {
+        "name": "tachycardia",
+        "negation": false,
+        "severity": null
+      }
+    ],
+    "clinical_status": "Drowsy",
+    "medication_identity": "Heparin",
+    "interventions": [],
+    "intake_output": "Negative fluid balance 확인됨",
+    "notification": "담당의 notify함"
+  }
+}

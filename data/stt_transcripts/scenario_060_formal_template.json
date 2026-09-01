@@ -1,0 +1,8 @@
+{
+  "sample_id": "scenario_060_formal_template",
+  "whisper_transcript": "71세 남성 환자가 Parkinson's Disease의 급성 악화로 입원하였다. 활력징후 측정 결과, 혈압은 142 x 85mmg, 심박수는 88bpm, 호흡수는 20회 분, 체온은 37.16, 산소포화도는 95%로 확인되었다. 환자는 심한 Rigidity를 보였다. Levodopa 100mg 경고로 하루 3번 처방되었다. Foley가 삽입되어 있으며 24시간 동안의 소변 배출량은 2,000mL로 기록되었다. 환자는 졸린 상태로 관찰되었다.",
+  "stt_metadata": {
+    "model": "whisper-1",
+    "language": "ko"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "sample_id": "scenario_074_telegraphic_icu",
+  "whisper_transcript": "7 am acute hypoglycemic coma insulin overdose bp1 and 10 70 millimeter her grange hr 88 bpm r 16 breaths min bt 36.5 degrees scelsi spo2 98 room air unconsciousness severe dextrose 50 50 miller iv stat iv glucose administration unresponsive endocrinologist notify",
+  "stt_metadata": {
+    "model": "whisper-1",
+    "language": "ko"
+  }
+}

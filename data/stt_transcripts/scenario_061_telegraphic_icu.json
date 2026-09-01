@@ -1,0 +1,8 @@
+{
+  "sample_id": "scenario_061_telegraphic_icu",
+  "whisper_transcript": "52세남성급성치유P13885HR1R22BT37.8°C SPO2 96% room air Severe abdominal pain Insulin infusion 5 units hour IV IV fluid resuscitation shearing Positive fluid balance Alert",
+  "stt_metadata": {
+    "model": "whisper-1",
+    "language": "ko"
+  }
+}

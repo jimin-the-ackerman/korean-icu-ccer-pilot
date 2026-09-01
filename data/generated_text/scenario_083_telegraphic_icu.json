@@ -1,0 +1,11 @@
+{
+  "sample_id": "scenario_083_telegraphic_icu",
+  "scenario_id": "scenario_083",
+  "document_type": "ICU_observation",
+  "style_condition": "telegraphic_icu",
+  "text": "61세 여자. Acute pulmonary edema secondary to acute mitral valve regurgitation 입원.\n\nBP 160/90.\nHR 110.\nRR 28.\nBT 37.2°C.\nSpO2 88%.\n\nDyspnea severe.\n\nFurosemide 40 mg IV q6h.\n\nNon-rebreather mask.\n\nC-line.\n\nDrowsy.",
+  "generation_metadata": {
+    "model": "gpt-4o",
+    "temperature": 0.7
+  }
+}

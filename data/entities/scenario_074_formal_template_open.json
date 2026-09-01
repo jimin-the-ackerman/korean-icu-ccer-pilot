@@ -1,0 +1,51 @@
+{
+  "sample_id": "scenario_074_formal_template",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "혼수",
+        "negation": false,
+        "severity": null
+      },
+      {
+        "name": "무의식",
+        "negation": false,
+        "severity": "severe"
+      },
+      {
+        "name": "반응 없음",
+        "negation": false,
+        "severity": null
+      }
+    ],
+    "clinical_status": "무반응 (반응이 없음)",
+    "medication_identity": "Dextrose 50%",
+    "interventions": [],
+    "intake_output": null,
+    "notification": "내분비학 전문의에게 보고하였다"
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "저혈당성 혼수",
+        "negation": false,
+        "severity": null
+      },
+      {
+        "name": "무의식",
+        "negation": false,
+        "severity": "severe"
+      },
+      {
+        "name": "반응 없음",
+        "negation": false,
+        "severity": null
+      }
+    ],
+    "clinical_status": "심한 무의식 상태, 반응 없음",
+    "medication_identity": "덱스트로스 50%",
+    "interventions": [],
+    "intake_output": null,
+    "notification": "내분비약 전문의에게 보고하였다"
+  }
+}

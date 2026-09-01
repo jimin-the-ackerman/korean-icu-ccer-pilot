@@ -1,0 +1,8 @@
+{
+  "sample_id": "scenario_081_telegraphic_icu",
+  "whisper_transcript": "60m CHF-HTN-Crisis, BP-200, 1-10mHg, HR-1-10bpm, RR-24, BT-37.4dx, SpO2-88%Ra, Severe Dyspnea, Furosemide 40mg IV-STAT, O2-2Nc, Fully in Place, Negative Fluid Balance 500mL, Drowsy, Cardiology Team Notified.",
+  "stt_metadata": {
+    "model": "whisper-1",
+    "language": "ko"
+  }
+}

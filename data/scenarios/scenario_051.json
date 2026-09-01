@@ -1,0 +1,28 @@
+{
+  "patient_context": "A 48-year-old male patient admitted with acute pancreatitis due to alcohol use.",
+  "vital_signs": {
+    "BP": "110/70 mmHg",
+    "HR": "98 bpm",
+    "RR": "22 bpm",
+    "BT": "37.8°C",
+    "SpO2": "95% on room air"
+  },
+  "symptom": {
+    "name": "abdominal pain",
+    "negation": false,
+    "severity": "severe"
+  },
+  "medication": {
+    "name": "morphine",
+    "dose": "4 mg",
+    "route": "IV",
+    "frequency": "PRN"
+  },
+  "oxygen_support": null,
+  "intervention": "NPO status",
+  "device": "NG tube",
+  "io": "Negative fluid balance",
+  "clinical_status": "alert",
+  "notification": "Gastroenterology team notified for further evaluation and management.",
+  "scenario_id": "scenario_051"
+}

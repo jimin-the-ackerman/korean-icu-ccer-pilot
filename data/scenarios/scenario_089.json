@@ -1,0 +1,28 @@
+{
+  "patient_context": "A 59-year-old male patient admitted with acute exacerbation of chronic liver disease due to non-alcoholic steatohepatitis (NASH).",
+  "vital_signs": {
+    "BP": "92/58 mmHg",
+    "HR": "115 bpm",
+    "RR": "24 breaths/min",
+    "BT": "37.2°C",
+    "SpO2": "89% on room air"
+  },
+  "symptom": {
+    "name": "ascites",
+    "negation": false,
+    "severity": "moderate"
+  },
+  "medication": {
+    "name": "Spironolactone",
+    "dose": "100 mg",
+    "route": "PO",
+    "frequency": "BID"
+  },
+  "oxygen_support": "nasal cannula at 3 L/min",
+  "intervention": null,
+  "device": "Foley",
+  "io": "negative fluid balance of 500 ml",
+  "clinical_status": "drowsy",
+  "notification": "Hepatology team notified for management plan.",
+  "scenario_id": "scenario_089"
+}

@@ -1,0 +1,41 @@
+{
+  "sample_id": "scenario_054_formal_template",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "두통",
+        "negation": false,
+        "severity": "severe"
+      },
+      {
+        "name": "반응 감소",
+        "negation": false,
+        "severity": null
+      }
+    ],
+    "clinical_status": "약간 혼미한 상태",
+    "medication_identity": "Nimodipine",
+    "interventions": [],
+    "intake_output": null,
+    "notification": "환자의 반응 감소에 대해 신경과 팀에게 보고하였다."
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "두통",
+        "negation": false,
+        "severity": "severe"
+      },
+      {
+        "name": "반응 감소",
+        "negation": false,
+        "severity": null
+      }
+    ],
+    "clinical_status": "약간 혼미한 상태",
+    "medication_identity": "니모디핀",
+    "interventions": [],
+    "intake_output": null,
+    "notification": "환자의 반응 감소에 대해 신경과 팀에게 보고하였다."
+  }
+}

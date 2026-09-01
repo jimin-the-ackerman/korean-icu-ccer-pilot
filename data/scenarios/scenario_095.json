@@ -1,0 +1,28 @@
+{
+  "patient_context": "A 62-year-old female patient admitted with acute respiratory distress due to severe asthma exacerbation.",
+  "vital_signs": {
+    "BP": "130/85 mmHg",
+    "HR": "110 bpm",
+    "RR": "28 breaths/min",
+    "BT": "37.3°C",
+    "SpO2": "89% on room air"
+  },
+  "symptom": {
+    "name": "shortness of breath",
+    "negation": false,
+    "severity": "severe"
+  },
+  "medication": {
+    "name": "Albuterol",
+    "dose": "2.5 mg",
+    "route": "IV",
+    "frequency": "PRN"
+  },
+  "oxygen_support": "high-flow nasal cannula",
+  "intervention": null,
+  "device": "ventilator",
+  "io": "Positive fluid balance",
+  "clinical_status": "alert",
+  "notification": "Respiratory therapist notified for ventilator adjustment.",
+  "scenario_id": "scenario_095"
+}

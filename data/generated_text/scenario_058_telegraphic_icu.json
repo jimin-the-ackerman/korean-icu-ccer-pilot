@@ -1,0 +1,11 @@
+{
+  "sample_id": "scenario_058_telegraphic_icu",
+  "scenario_id": "scenario_058",
+  "document_type": "ICU_observation",
+  "style_condition": "telegraphic_icu",
+  "text": "Acute exacerbation CHF.  \nFluid overload.  \nDyspnea moderate.  \nBP 150/90 mmHg.  \nHR 110 bpm.  \nRR 24 breaths/min.  \nBT 37.2°C.  \nSpO2 92% RA.  \nFurosemide 40 mg IV BID.  \nO2 2L NC.  \nFoley in place.  \nPositive fluid balance.  \nAlert.",
+  "generation_metadata": {
+    "model": "gpt-4o",
+    "temperature": 0.7
+  }
+}

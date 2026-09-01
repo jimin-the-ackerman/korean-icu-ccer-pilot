@@ -1,0 +1,28 @@
+{
+  "patient_context": "A 56-year-old male patient admitted with acute exacerbation of ulcerative colitis, presenting with severe abdominal pain and bloody diarrhea.",
+  "vital_signs": {
+    "BP": "105/65 mmHg",
+    "HR": "110 bpm",
+    "RR": "22 breaths/min",
+    "BT": "37.8°C",
+    "SpO2": "97%"
+  },
+  "symptom": {
+    "name": "abdominal pain",
+    "negation": false,
+    "severity": "severe"
+  },
+  "medication": {
+    "name": "Methylprednisolone",
+    "dose": "40 mg",
+    "route": "IV",
+    "frequency": "q6h"
+  },
+  "oxygen_support": null,
+  "intervention": null,
+  "device": "Foley",
+  "io": "strict monitoring of input and output",
+  "clinical_status": "alert",
+  "notification": null,
+  "scenario_id": "scenario_079"
+}

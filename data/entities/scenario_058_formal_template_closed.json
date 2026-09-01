@@ -1,0 +1,41 @@
+{
+  "sample_id": "scenario_058_formal_template",
+  "gold_entities": {
+    "route": [],
+    "frequency": [],
+    "device": [
+      {
+        "raw": "Foley",
+        "normalized": "foley",
+        "position": 258
+      }
+    ],
+    "vital_sign": [],
+    "dose": []
+  },
+  "whisper_entities": {
+    "route": [],
+    "frequency": [],
+    "device": [
+      {
+        "raw": "foley",
+        "normalized": "foley",
+        "position": 241
+      },
+      {
+        "raw": "nasal cannula",
+        "normalized": "nc",
+        "position": 212
+      }
+    ],
+    "vital_sign": [],
+    "dose": [
+      {
+        "raw": "150mg",
+        "value": "150",
+        "unit": "mg",
+        "position": 68
+      }
+    ]
+  }
+}

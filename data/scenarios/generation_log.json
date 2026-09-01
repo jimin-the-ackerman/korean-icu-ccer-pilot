@@ -1,32 +1,611 @@
-[
-  {
-    "scenario_id": "scenario_001",
-    "status": "success",
-    "model": "gpt-4o",
-    "temperature": 0.7
-  },
-  {
-    "scenario_id": "scenario_002",
-    "status": "success",
-    "model": "gpt-4o",
-    "temperature": 0.7
-  },
-  {
-    "scenario_id": "scenario_003",
-    "status": "success",
-    "model": "gpt-4o",
-    "temperature": 0.7
-  },
-  {
-    "scenario_id": "scenario_004",
-    "status": "success",
-    "model": "gpt-4o",
-    "temperature": 0.7
-  },
-  {
-    "scenario_id": "scenario_005",
-    "status": "success",
-    "model": "gpt-4o",
-    "temperature": 0.7
+{
+  "entries": [
+    {
+      "sample_id": "scenario_001",
+      "status": "skipped"
+    },
+    {
+      "sample_id": "scenario_002",
+      "status": "skipped"
+    },
+    {
+      "sample_id": "scenario_003",
+      "status": "skipped"
+    },
+    {
+      "sample_id": "scenario_004",
+      "status": "skipped"
+    },
+    {
+      "sample_id": "scenario_005",
+      "status": "skipped"
+    },
+    {
+      "sample_id": "scenario_006",
+      "status": "skipped"
+    },
+    {
+      "sample_id": "scenario_007",
+      "status": "skipped"
+    },
+    {
+      "sample_id": "scenario_008",
+      "status": "skipped"
+    },
+    {
+      "sample_id": "scenario_009",
+      "status": "skipped"
+    },
+    {
+      "sample_id": "scenario_010",
+      "status": "skipped"
+    },
+    {
+      "sample_id": "scenario_011",
+      "status": "skipped"
+    },
+    {
+      "sample_id": "scenario_012",
+      "status": "skipped"
+    },
+    {
+      "sample_id": "scenario_013",
+      "status": "skipped"
+    },
+    {
+      "sample_id": "scenario_014",
+      "status": "skipped"
+    },
+    {
+      "sample_id": "scenario_015",
+      "status": "skipped"
+    },
+    {
+      "sample_id": "scenario_016",
+      "status": "skipped"
+    },
+    {
+      "sample_id": "scenario_017",
+      "status": "skipped"
+    },
+    {
+      "sample_id": "scenario_018",
+      "status": "skipped"
+    },
+    {
+      "sample_id": "scenario_019",
+      "status": "skipped"
+    },
+    {
+      "sample_id": "scenario_020",
+      "status": "skipped"
+    },
+    {
+      "sample_id": "scenario_021",
+      "status": "skipped"
+    },
+    {
+      "sample_id": "scenario_022",
+      "status": "skipped"
+    },
+    {
+      "sample_id": "scenario_023",
+      "status": "skipped"
+    },
+    {
+      "sample_id": "scenario_024",
+      "status": "skipped"
+    },
+    {
+      "sample_id": "scenario_025",
+      "status": "skipped"
+    },
+    {
+      "sample_id": "scenario_026",
+      "status": "skipped"
+    },
+    {
+      "sample_id": "scenario_027",
+      "status": "skipped"
+    },
+    {
+      "sample_id": "scenario_028",
+      "status": "skipped"
+    },
+    {
+      "sample_id": "scenario_029",
+      "status": "skipped"
+    },
+    {
+      "sample_id": "scenario_030",
+      "status": "skipped"
+    },
+    {
+      "sample_id": "scenario_031",
+      "status": "skipped"
+    },
+    {
+      "sample_id": "scenario_032",
+      "status": "skipped"
+    },
+    {
+      "sample_id": "scenario_033",
+      "status": "skipped"
+    },
+    {
+      "sample_id": "scenario_034",
+      "status": "skipped"
+    },
+    {
+      "sample_id": "scenario_035",
+      "status": "skipped"
+    },
+    {
+      "sample_id": "scenario_036",
+      "status": "skipped"
+    },
+    {
+      "sample_id": "scenario_037",
+      "status": "skipped"
+    },
+    {
+      "sample_id": "scenario_038",
+      "status": "skipped"
+    },
+    {
+      "sample_id": "scenario_039",
+      "status": "skipped"
+    },
+    {
+      "sample_id": "scenario_040",
+      "status": "skipped"
+    },
+    {
+      "sample_id": "scenario_041",
+      "status": "skipped"
+    },
+    {
+      "sample_id": "scenario_042",
+      "status": "skipped"
+    },
+    {
+      "sample_id": "scenario_043",
+      "status": "skipped"
+    },
+    {
+      "sample_id": "scenario_044",
+      "status": "skipped"
+    },
+    {
+      "sample_id": "scenario_045",
+      "status": "skipped"
+    },
+    {
+      "sample_id": "scenario_046",
+      "status": "skipped"
+    },
+    {
+      "sample_id": "scenario_047",
+      "status": "skipped"
+    },
+    {
+      "sample_id": "scenario_048",
+      "status": "skipped"
+    },
+    {
+      "sample_id": "scenario_049",
+      "status": "skipped"
+    },
+    {
+      "sample_id": "scenario_050",
+      "status": "skipped"
+    },
+    {
+      "sample_id": "scenario_051",
+      "status": "processed",
+      "model": "gpt-4o",
+      "temperature": 0.7
+    },
+    {
+      "sample_id": "scenario_052",
+      "status": "processed",
+      "model": "gpt-4o",
+      "temperature": 0.7
+    },
+    {
+      "sample_id": "scenario_053",
+      "status": "processed",
+      "model": "gpt-4o",
+      "temperature": 0.7
+    },
+    {
+      "sample_id": "scenario_054",
+      "status": "processed",
+      "model": "gpt-4o",
+      "temperature": 0.7
+    },
+    {
+      "sample_id": "scenario_055",
+      "status": "processed",
+      "model": "gpt-4o",
+      "temperature": 0.7
+    },
+    {
+      "sample_id": "scenario_056",
+      "status": "processed",
+      "model": "gpt-4o",
+      "temperature": 0.7
+    },
+    {
+      "sample_id": "scenario_057",
+      "status": "processed",
+      "model": "gpt-4o",
+      "temperature": 0.7
+    },
+    {
+      "sample_id": "scenario_058",
+      "status": "processed",
+      "model": "gpt-4o",
+      "temperature": 0.7
+    },
+    {
+      "sample_id": "scenario_059",
+      "status": "processed",
+      "model": "gpt-4o",
+      "temperature": 0.7
+    },
+    {
+      "sample_id": "scenario_060",
+      "status": "processed",
+      "model": "gpt-4o",
+      "temperature": 0.7
+    },
+    {
+      "sample_id": "scenario_061",
+      "status": "processed",
+      "model": "gpt-4o",
+      "temperature": 0.7
+    },
+    {
+      "sample_id": "scenario_062",
+      "status": "processed",
+      "model": "gpt-4o",
+      "temperature": 0.7
+    },
+    {
+      "sample_id": "scenario_063",
+      "status": "processed",
+      "model": "gpt-4o",
+      "temperature": 0.7
+    },
+    {
+      "sample_id": "scenario_064",
+      "status": "processed",
+      "model": "gpt-4o",
+      "temperature": 0.7
+    },
+    {
+      "sample_id": "scenario_065",
+      "status": "processed",
+      "model": "gpt-4o",
+      "temperature": 0.7
+    },
+    {
+      "sample_id": "scenario_066",
+      "status": "processed",
+      "model": "gpt-4o",
+      "temperature": 0.7
+    },
+    {
+      "sample_id": "scenario_067",
+      "status": "processed",
+      "model": "gpt-4o",
+      "temperature": 0.7
+    },
+    {
+      "sample_id": "scenario_068",
+      "status": "processed",
+      "model": "gpt-4o",
+      "temperature": 0.7
+    },
+    {
+      "sample_id": "scenario_069",
+      "status": "processed",
+      "model": "gpt-4o",
+      "temperature": 0.7
+    },
+    {
+      "sample_id": "scenario_070",
+      "status": "processed",
+      "model": "gpt-4o",
+      "temperature": 0.7
+    },
+    {
+      "sample_id": "scenario_071",
+      "status": "processed",
+      "model": "gpt-4o",
+      "temperature": 0.7
+    },
+    {
+      "sample_id": "scenario_072",
+      "status": "processed",
+      "model": "gpt-4o",
+      "temperature": 0.7
+    },
+    {
+      "sample_id": "scenario_073",
+      "status": "processed",
+      "model": "gpt-4o",
+      "temperature": 0.7
+    },
+    {
+      "sample_id": "scenario_074",
+      "status": "processed",
+      "model": "gpt-4o",
+      "temperature": 0.7
+    },
+    {
+      "sample_id": "scenario_075",
+      "status": "processed",
+      "model": "gpt-4o",
+      "temperature": 0.7
+    },
+    {
+      "sample_id": "scenario_076",
+      "status": "processed",
+      "model": "gpt-4o",
+      "temperature": 0.7
+    },
+    {
+      "sample_id": "scenario_077",
+      "status": "processed",
+      "model": "gpt-4o",
+      "temperature": 0.7
+    },
+    {
+      "sample_id": "scenario_078",
+      "status": "processed",
+      "model": "gpt-4o",
+      "temperature": 0.7
+    },
+    {
+      "sample_id": "scenario_079",
+      "status": "processed",
+      "model": "gpt-4o",
+      "temperature": 0.7
+    },
+    {
+      "sample_id": "scenario_080",
+      "status": "processed",
+      "model": "gpt-4o",
+      "temperature": 0.7
+    },
+    {
+      "sample_id": "scenario_081",
+      "status": "processed",
+      "model": "gpt-4o",
+      "temperature": 0.7
+    },
+    {
+      "sample_id": "scenario_082",
+      "status": "processed",
+      "model": "gpt-4o",
+      "temperature": 0.7
+    },
+    {
+      "sample_id": "scenario_083",
+      "status": "processed",
+      "model": "gpt-4o",
+      "temperature": 0.7
+    },
+    {
+      "sample_id": "scenario_084",
+      "status": "processed",
+      "model": "gpt-4o",
+      "temperature": 0.7
+    },
+    {
+      "sample_id": "scenario_085",
+      "status": "processed",
+      "model": "gpt-4o",
+      "temperature": 0.7
+    },
+    {
+      "sample_id": "scenario_086",
+      "status": "processed",
+      "model": "gpt-4o",
+      "temperature": 0.7
+    },
+    {
+      "sample_id": "scenario_087",
+      "status": "processed",
+      "model": "gpt-4o",
+      "temperature": 0.7
+    },
+    {
+      "sample_id": "scenario_088",
+      "status": "processed",
+      "model": "gpt-4o",
+      "temperature": 0.7
+    },
+    {
+      "sample_id": "scenario_089",
+      "status": "processed",
+      "model": "gpt-4o",
+      "temperature": 0.7
+    },
+    {
+      "sample_id": "scenario_090",
+      "status": "processed",
+      "model": "gpt-4o",
+      "temperature": 0.7
+    },
+    {
+      "sample_id": "scenario_091",
+      "status": "processed",
+      "model": "gpt-4o",
+      "temperature": 0.7
+    },
+    {
+      "sample_id": "scenario_092",
+      "status": "processed",
+      "model": "gpt-4o",
+      "temperature": 0.7
+    },
+    {
+      "sample_id": "scenario_093",
+      "status": "processed",
+      "model": "gpt-4o",
+      "temperature": 0.7
+    },
+    {
+      "sample_id": "scenario_094",
+      "status": "processed",
+      "model": "gpt-4o",
+      "temperature": 0.7
+    },
+    {
+      "sample_id": "scenario_095",
+      "status": "processed",
+      "model": "gpt-4o",
+      "temperature": 0.7
+    },
+    {
+      "sample_id": "scenario_096",
+      "status": "processed",
+      "model": "gpt-4o",
+      "temperature": 0.7
+    },
+    {
+      "sample_id": "scenario_097",
+      "status": "processed",
+      "model": "gpt-4o",
+      "temperature": 0.7
+    },
+    {
+      "sample_id": "scenario_098",
+      "status": "processed",
+      "model": "gpt-4o",
+      "temperature": 0.7
+    },
+    {
+      "sample_id": "scenario_099",
+      "status": "processed",
+      "model": "gpt-4o",
+      "temperature": 0.7
+    },
+    {
+      "sample_id": "scenario_100",
+      "status": "processed",
+      "model": "gpt-4o",
+      "temperature": 0.7
+    }
+  ],
+  "summary": {
+    "processed": [
+      "scenario_051",
+      "scenario_052",
+      "scenario_053",
+      "scenario_054",
+      "scenario_055",
+      "scenario_056",
+      "scenario_057",
+      "scenario_058",
+      "scenario_059",
+      "scenario_060",
+      "scenario_061",
+      "scenario_062",
+      "scenario_063",
+      "scenario_064",
+      "scenario_065",
+      "scenario_066",
+      "scenario_067",
+      "scenario_068",
+      "scenario_069",
+      "scenario_070",
+      "scenario_071",
+      "scenario_072",
+      "scenario_073",
+      "scenario_074",
+      "scenario_075",
+      "scenario_076",
+      "scenario_077",
+      "scenario_078",
+      "scenario_079",
+      "scenario_080",
+      "scenario_081",
+      "scenario_082",
+      "scenario_083",
+      "scenario_084",
+      "scenario_085",
+      "scenario_086",
+      "scenario_087",
+      "scenario_088",
+      "scenario_089",
+      "scenario_090",
+      "scenario_091",
+      "scenario_092",
+      "scenario_093",
+      "scenario_094",
+      "scenario_095",
+      "scenario_096",
+      "scenario_097",
+      "scenario_098",
+      "scenario_099",
+      "scenario_100"
+    ],
+    "skipped": [
+      "scenario_001",
+      "scenario_002",
+      "scenario_003",
+      "scenario_004",
+      "scenario_005",
+      "scenario_006",
+      "scenario_007",
+      "scenario_008",
+      "scenario_009",
+      "scenario_010",
+      "scenario_011",
+      "scenario_012",
+      "scenario_013",
+      "scenario_014",
+      "scenario_015",
+      "scenario_016",
+      "scenario_017",
+      "scenario_018",
+      "scenario_019",
+      "scenario_020",
+      "scenario_021",
+      "scenario_022",
+      "scenario_023",
+      "scenario_024",
+      "scenario_025",
+      "scenario_026",
+      "scenario_027",
+      "scenario_028",
+      "scenario_029",
+      "scenario_030",
+      "scenario_031",
+      "scenario_032",
+      "scenario_033",
+      "scenario_034",
+      "scenario_035",
+      "scenario_036",
+      "scenario_037",
+      "scenario_038",
+      "scenario_039",
+      "scenario_040",
+      "scenario_041",
+      "scenario_042",
+      "scenario_043",
+      "scenario_044",
+      "scenario_045",
+      "scenario_046",
+      "scenario_047",
+      "scenario_048",
+      "scenario_049",
+      "scenario_050"
+    ],
+    "failed": []
   }
-]
+}

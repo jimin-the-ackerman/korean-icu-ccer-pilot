@@ -1,0 +1,41 @@
+{
+  "sample_id": "scenario_090_clinical_charting",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "motor weakness",
+        "negation": false,
+        "severity": "severe"
+      },
+      {
+        "name": "sensory disturbances",
+        "negation": false,
+        "severity": null
+      }
+    ],
+    "clinical_status": "drowsy",
+    "medication_identity": "Methylprednisolone",
+    "interventions": [],
+    "intake_output": "adequate urine output 확인됨",
+    "notification": null
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "Motor Weakness",
+        "negation": false,
+        "severity": "severe"
+      },
+      {
+        "name": "Sensory Disturbances",
+        "negation": false,
+        "severity": null
+      }
+    ],
+    "clinical_status": "Drowsy",
+    "medication_identity": "Methylprednisolone",
+    "interventions": [],
+    "intake_output": "Adequate Urine Output 확인됨",
+    "notification": null
+  }
+}

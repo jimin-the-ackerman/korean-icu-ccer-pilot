@@ -1,0 +1,8 @@
+{
+  "sample_id": "scenario_086_telegraphic_icu",
+  "whisper_transcript": "55세 여성 aml fibrin neutropenia bp90 60mg 10 bpm r 24 breaths min b 39.2 sp o 2 96 percent romare severe fever piperlazontas bactum 4.5 gram iv q6 h antibiotic therapy shjak drowsy oncologist notify",
+  "stt_metadata": {
+    "model": "whisper-1",
+    "language": "ko"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "patient_context": "A 35-year-old female patient admitted with acute kidney injury (AKI) secondary to severe dehydration from hyperemesis gravidarum.",
+  "vital_signs": {
+    "BP": "92/58",
+    "HR": "110",
+    "RR": "18",
+    "BT": "36.8°C",
+    "SpO2": "96%"
+  },
+  "symptom": {
+    "name": "nausea",
+    "negation": false,
+    "severity": "severe"
+  },
+  "medication": {
+    "name": "ondansetron",
+    "dose": "8 mg",
+    "route": "IV",
+    "frequency": "q8h"
+  },
+  "oxygen_support": null,
+  "intervention": "IV fluid resuscitation with normal saline",
+  "device": "Foley",
+  "io": "negative fluid balance",
+  "clinical_status": "drowsy",
+  "notification": "Nephrology team consulted for AKI management.",
+  "scenario_id": "scenario_076"
+}

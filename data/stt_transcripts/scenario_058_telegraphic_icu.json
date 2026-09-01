@@ -1,0 +1,8 @@
+{
+  "sample_id": "scenario_058_telegraphic_icu",
+  "whisper_transcript": "극한의 질환이 시작됩니다. 수소 배출, 디스니아 모더리, BP 150, 90, 90mmHg, HR 110, BPM RR, 24.2, SPO2 92%, RA, 퓨리스미드 40mg, IVBI, D022LNC, 완전히 착용되었습니다. 수소 밸런스, 경고.",
+  "stt_metadata": {
+    "model": "whisper-1",
+    "language": "ko"
+  }
+}

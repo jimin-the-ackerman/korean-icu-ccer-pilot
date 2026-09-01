@@ -1,0 +1,11 @@
+{
+  "sample_id": "scenario_065_telegraphic_icu",
+  "scenario_id": "scenario_065",
+  "document_type": "ICU_observation",
+  "style_condition": "telegraphic_icu",
+  "text": "56세 여성. TEN 입원.\n\nBP 110/70 mmHg.  \nHR 88 bpm.  \nRR 20 breaths/min.  \nBT 38.5°C.  \nSpO2 94% RA.\n\nSevere skin rash.  \n\nMethylprednisolone 125 mg IV q6h.\n\nWound care 실시.\n\nIV fluids 100 mL/hr.\n\nAlert.",
+  "generation_metadata": {
+    "model": "gpt-4o",
+    "temperature": 0.7
+  }
+}

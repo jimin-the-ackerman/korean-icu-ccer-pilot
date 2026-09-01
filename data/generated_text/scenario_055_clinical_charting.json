@@ -1,0 +1,11 @@
+{
+  "sample_id": "scenario_055_clinical_charting",
+  "scenario_id": "scenario_055",
+  "document_type": "ICU_observation",
+  "style_condition": "clinical_charting",
+  "text": "53세 여성 환자, incompatible blood transfusion 후 acute hemolytic anemia로 입원함.\n\nVital signs:\n- BP 90/60 mmHg\n- HR 120 bpm\n- RR 22\n- BT 38.1°C\n- SpO2 95% on 2L nasal cannula\n\nSevere fatigue 호소함.\n\nFurosemide 40 mg IV q12h 적용함.\n\nOxygen support: Nasal cannula 유지함.\n\nCompatible blood transfusion 시행함.\n\nI/O: Input 1000 mL, Output 1200 mL.\n\nClinical status: drowsy 확인됨.\n\nHematology team notify함.",
+  "generation_metadata": {
+    "model": "gpt-4o",
+    "temperature": 0.7
+  }
+}

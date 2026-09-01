@@ -1,0 +1,8 @@
+{
+  "sample_id": "scenario_051_clinical_charting",
+  "whisper_transcript": "48세 남성 환자 아큐트 팬크리에타이티스 위원, 원인 알코올 유스, BP 케그 챕틀 B, HR 코치 파이트 BPM, RRQVDB, RRBT 산지 챕텀 A, 리그 시일스, SBO295 퍼트 온 룸 에어, 업도미널 페인트 세비어 호소함, 모피인 4mg IV PRN 투여함, MPO 스테이터 유지함, NG 튜브 적용함, 네그티브 플루이드 밸런스 확인됨, 환자 알러트 상태 유지함, 가스트로인트로러지 팀 노티파이함.",
+  "stt_metadata": {
+    "model": "whisper-1",
+    "language": "ko"
+  }
+}

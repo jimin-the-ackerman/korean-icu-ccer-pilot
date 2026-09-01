@@ -1,0 +1,36 @@
+{
+  "sample_id": "scenario_058_telegraphic_icu",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "dyspnea",
+        "negation": false,
+        "severity": "moderate"
+      },
+      {
+        "name": "fluid overload",
+        "negation": false,
+        "severity": null
+      }
+    ],
+    "clinical_status": "Alert",
+    "medication_identity": "Furosemide",
+    "interventions": [],
+    "intake_output": "Positive fluid balance",
+    "notification": null
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "dyspnea",
+        "negation": false,
+        "severity": "moderate"
+      }
+    ],
+    "clinical_status": null,
+    "medication_identity": "Furosemide",
+    "interventions": [],
+    "intake_output": "수소 밸런스, 경고",
+    "notification": null
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "patient_context": "A 49-year-old male patient admitted with a severe asthma attack.",
+  "vital_signs": {
+    "BP": "130/85",
+    "HR": "110",
+    "RR": "28",
+    "BT": "37.0",
+    "SpO2": "88%"
+  },
+  "symptom": {
+    "name": "wheezing",
+    "negation": false,
+    "severity": "severe"
+  },
+  "medication": {
+    "name": "albuterol",
+    "dose": "2.5mg",
+    "route": "IV",
+    "frequency": "PRN"
+  },
+  "oxygen_support": "high-flow nasal cannula",
+  "intervention": null,
+  "device": null,
+  "io": null,
+  "clinical_status": "drowsy",
+  "notification": "Respiratory therapy notified of patient condition and ongoing treatment.",
+  "scenario_id": "scenario_084"
+}

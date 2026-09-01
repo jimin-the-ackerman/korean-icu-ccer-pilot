@@ -1,0 +1,35 @@
+{
+  "sample_id": "scenario_055_telegraphic_icu",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "fatigue",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "Drowsy",
+    "medication_identity": "Furosemide",
+    "interventions": [
+      "compatible blood transfusion"
+    ],
+    "intake_output": "Input 1000 mL, Output 1200 mL",
+    "notification": "Hematology team notify"
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "fatigue",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "Drowsy",
+    "medication_identity": "furosemide",
+    "interventions": [
+      "Compatible blood transfusion"
+    ],
+    "intake_output": "Input 10mm, output on debounded miller",
+    "notification": "Hematology team notify"
+  }
+}

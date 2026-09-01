@@ -1,0 +1,8 @@
+{
+  "sample_id": "scenario_059_telegraphic_icu",
+  "whisper_transcript": "46세 남성 환자, 세벌 섹시스, 퍼포레이드 다이버티킬라이티스, BP85VASC, HR105BM, RR28BREATHS-MIN, BT39.NEUROGREUS, SBO2 89%RA, 세벌 압도적 아픔, 페르실린 타조백 덤프포인트 그람 IV QAH, HFN 사용 중, 플루이드 리소시테이션 시행, C-LINE 사비, 포지티브 플루이드 밸런스, 드라우지 상태.",
+  "stt_metadata": {
+    "model": "whisper-1",
+    "language": "ko"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "sample_id": "scenario_075_formal_template",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "흉통",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "의식 명료",
+    "medication_identity": "Furosemide",
+    "interventions": [],
+    "intake_output": "엄격한 입출량 모니터링",
+    "notification": "심장내과 팀에게 판막 교체 가능성에 대해 상담하였다."
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "흉통",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "의식이 명료함",
+    "medication_identity": "furosemide",
+    "interventions": [
+      "엄격한 입출량 모니터링"
+    ],
+    "intake_output": "엄격한 입출량 모니터링이 이뤄지고 있음",
+    "notification": "심장내과팀에게 판막 교체 가능성에 대해 상담하였다"
+  }
+}

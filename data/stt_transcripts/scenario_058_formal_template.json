@@ -1,0 +1,8 @@
+{
+  "sample_id": "scenario_058_formal_template",
+  "whisper_transcript": "68세 남성 환자가 만성심부전의 급성 악화로 입원하였다. 환자는 체액과다와 호흡곤란을 호소하고 있다. 활력증후로는 혈압이 150mg, 심박수가 110bpm, 호흡수가 24bpm, 체온이 37.1 를 기며 산소포화도는 상온공기에서 92%로 확인되었다. 환자는 중등도의 호흡곤란을 호소하고 있으며 furosemide 40mg을 IB로 BID로 투여 중이다. 산소공급은 urethra nasal cannula 를 통해 이루어지고 있으며 foley 카테터 가 삽입되어 있다. 환자는 양성체액 균형을 보이고 있으며 임상상태는 alert하다.",
+  "stt_metadata": {
+    "model": "whisper-1",
+    "language": "ko"
+  }
+}

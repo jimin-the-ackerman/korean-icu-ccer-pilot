@@ -1,0 +1,8 @@
+{
+  "sample_id": "scenario_075_clinical_charting",
+  "whisper_transcript": "72세 남성 환자, acute decompensated heart failure로 입원. 원인, severe aortic stenosis. BP 90-60mmHg, HR 120bpm, RR22 breaths min, BT 36.8%, little O2 via N시경. Chest pain, severe 호소암. Furosemide 40mg IV QLH2여암. Nasal cannula로 산소 공급 중. Foley 적용암. Strict input-output monitoring 유지암. 환자 알러트 상태 확인됨. Cardiology team consult, possible valve replacement 위해.",
+  "stt_metadata": {
+    "model": "whisper-1",
+    "language": "ko"
+  }
+}

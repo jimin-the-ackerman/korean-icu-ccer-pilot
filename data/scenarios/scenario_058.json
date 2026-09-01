@@ -1,0 +1,28 @@
+{
+  "patient_context": "A 68-year-old male patient admitted with acute exacerbation of chronic heart failure, presenting with fluid overload and dyspnea.",
+  "vital_signs": {
+    "BP": "150/90 mmHg",
+    "HR": "110 bpm",
+    "RR": "24 breaths/min",
+    "BT": "37.2°C",
+    "SpO2": "92% on room air"
+  },
+  "symptom": {
+    "name": "dyspnea",
+    "negation": false,
+    "severity": "moderate"
+  },
+  "medication": {
+    "name": "Furosemide",
+    "dose": "40 mg",
+    "route": "IV",
+    "frequency": "BID"
+  },
+  "oxygen_support": "2L nasal cannula",
+  "intervention": null,
+  "device": "Foley",
+  "io": "positive fluid balance",
+  "clinical_status": "alert",
+  "notification": null,
+  "scenario_id": "scenario_058"
+}

@@ -1,0 +1,8 @@
+{
+  "sample_id": "scenario_088_telegraphic_icu",
+  "whisper_transcript": "47세 여성, 아취때문에 혈압 실패가 발생했습니다. BP 12.70mL 105bpm, RR 22.0 breaths min, BT 37.0 at bunnelsa, SpO2 95% on room air, severe jaundice, drowsy. N-acetylcysteine 300mg or Kilo IV stat. Positive fluid balance 500mL. Hepatology team notified.",
+  "stt_metadata": {
+    "model": "whisper-1",
+    "language": "ko"
+  }
+}

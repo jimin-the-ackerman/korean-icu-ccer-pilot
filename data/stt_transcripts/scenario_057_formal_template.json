@@ -1,0 +1,8 @@
+{
+  "sample_id": "scenario_057_formal_template",
+  "whisper_transcript": "58세 여성 환자가 뉴마티스 관절염의 급성 악화로 입원하였다. 환자는 심한 조인트 페인과 부종을 호소하였다. 활력 증후는 혈압 134, 82mm가량, 심박수 88bpm, 호흡수 18bpm, 산소포화도 96% 요하로 확인되었다. 환자는 알러트한 상태이다. Methylprednisolone 125mg IB로 12시간마다 투여 중이다.",
+  "stt_metadata": {
+    "model": "whisper-1",
+    "language": "ko"
+  }
+}

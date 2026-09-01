@@ -1,0 +1,8 @@
+{
+  "sample_id": "scenario_075_telegraphic_icu",
+  "whisper_transcript": "72m acute decompensated heart failure WOAE aortic stenosis bp90 60MM HR giafs HR1 10 bpm RR22 BR BT 36.8 SBLT SbO2 88% on 4Lo2 via NC Severe chest pain Fior-SMIDE 40mg IV-Qah Foley StrictIO monitoring Alert Cardiology Team consult For valve replacement Lem spared Arsenal Lemmes spared onn Lemspread L~! Lemspread onll",
+  "stt_metadata": {
+    "model": "whisper-1",
+    "language": "ko"
+  }
+}

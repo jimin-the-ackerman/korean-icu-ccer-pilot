@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_095_formal_template",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "호흡곤란",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "명료",
+    "medication_identity": "Albuterol",
+    "interventions": [],
+    "intake_output": "양성 균형",
+    "notification": "인공호흡기 조정을 위해 호흡 치료사에게 보고함"
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "호흡곤란",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "명료",
+    "medication_identity": "엘부테롤",
+    "interventions": [],
+    "intake_output": "양성균형",
+    "notification": "인공호흡기 조정을 위해 호흡치료사에게 보고하였다."
+  }
+}

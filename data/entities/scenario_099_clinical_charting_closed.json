@@ -1,0 +1,123 @@
+{
+  "sample_id": "scenario_099_clinical_charting",
+  "gold_entities": {
+    "route": [
+      {
+        "raw": "IV",
+        "normalized": "iv",
+        "position": 239
+      }
+    ],
+    "frequency": [
+      {
+        "raw": "q8h",
+        "normalized": "q8h",
+        "position": 242
+      }
+    ],
+    "device": [
+      {
+        "raw": "High-flow nasal cannula",
+        "normalized": "nc",
+        "position": 256
+      }
+    ],
+    "vital_sign": [
+      {
+        "raw": "BP: 160/90",
+        "label": "bp",
+        "value": "160/90",
+        "position": 95
+      },
+      {
+        "raw": "HR: 105",
+        "label": "hr",
+        "value": "105",
+        "position": 116
+      },
+      {
+        "raw": "RR: 28",
+        "label": "rr",
+        "value": "28",
+        "position": 133
+      },
+      {
+        "raw": "BT: 37.5",
+        "label": "bt",
+        "value": "37.5",
+        "position": 157
+      },
+      {
+        "raw": "SpO2: 88%",
+        "label": "spo2",
+        "value": "88%",
+        "position": 173
+      }
+    ],
+    "dose": [
+      {
+        "raw": "40 mg",
+        "value": "40",
+        "unit": "mg",
+        "position": 233
+      },
+      {
+        "raw": "40 L/min",
+        "value": "40",
+        "unit": "l/min",
+        "position": 280
+      },
+      {
+        "raw": "2000 mL",
+        "value": "2000",
+        "unit": "ml",
+        "position": 321
+      }
+    ]
+  },
+  "whisper_entities": {
+    "route": [
+      {
+        "raw": "IV",
+        "normalized": "iv",
+        "position": 185
+      }
+    ],
+    "frequency": [
+      {
+        "raw": "Q8H",
+        "normalized": "q8h",
+        "position": 188
+      }
+    ],
+    "device": [
+      {
+        "raw": "nasal cannula",
+        "normalized": "nc",
+        "position": 207
+      }
+    ],
+    "vital_sign": [
+      {
+        "raw": "BP 1695",
+        "label": "bp",
+        "value": "1695",
+        "position": 78
+      }
+    ],
+    "dose": [
+      {
+        "raw": "1695g",
+        "value": "1695",
+        "unit": "g",
+        "position": 81
+      },
+      {
+        "raw": "40mg",
+        "value": "40",
+        "unit": "mg",
+        "position": 180
+      }
+    ]
+  }
+}

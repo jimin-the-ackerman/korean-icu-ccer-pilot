@@ -1,0 +1,28 @@
+{
+  "patient_context": "A 52-year-old male patient admitted with acute pancreatitis secondary to hypertriglyceridemia.",
+  "vital_signs": {
+    "BP": "138/85",
+    "HR": "110",
+    "RR": "22",
+    "BT": "37.8°C",
+    "SpO2": "96% on room air"
+  },
+  "symptom": {
+    "name": "abdominal pain",
+    "negation": false,
+    "severity": "severe"
+  },
+  "medication": {
+    "name": "Insulin infusion",
+    "dose": "5 units/hour",
+    "route": "IV",
+    "frequency": null
+  },
+  "oxygen_support": null,
+  "intervention": "IV fluid resuscitation",
+  "device": null,
+  "io": "positive fluid balance",
+  "clinical_status": "alert",
+  "notification": null,
+  "scenario_id": "scenario_061"
+}

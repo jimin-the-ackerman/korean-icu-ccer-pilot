@@ -1,0 +1,11 @@
+{
+  "sample_id": "scenario_070_clinical_charting",
+  "scenario_id": "scenario_070",
+  "document_type": "ICU_observation",
+  "style_condition": "clinical_charting",
+  "text": "64세 남성, acute respiratory failure로 입원. Severe community-acquired pneumonia 확인됨.\n\nBP 92/58 mmHg. HR 118 bpm. RR 28 breaths/min. BT 38.5°C. SpO2 86% (room air).\n\nSevere cough 호소함.\n\nLevofloxacin 750 mg IV q12h 투여 중.\n\nOxygen support: High-flow nasal cannula 적용함.\n\nVentilator 사용 중.\n\nNegative fluid balance 확인됨.\n\nClinical status: drowsy.",
+  "generation_metadata": {
+    "model": "gpt-4o",
+    "temperature": 0.7
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "sample_id": "scenario_069_telegraphic_icu",
+  "whisper_transcript": "우시치스 남성, 급성 헤로인 오버도스 입원 BP가 하이투스 스티미워드, 메이쳐아라, 브레스맨, 아브라타페아, 브레스민, 에스피오프레디, 룸에어, 세비어 언컨시스니스 날록소, 네오팬, 4mg, IV, 하이플로, 네이처 캔뉼라스, 하영중, 안 리스폰시브",
+  "stt_metadata": {
+    "model": "whisper-1",
+    "language": "ko"
+  }
+}

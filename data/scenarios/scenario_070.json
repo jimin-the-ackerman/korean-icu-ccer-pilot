@@ -1,0 +1,28 @@
+{
+  "patient_context": "A 64-year-old male patient admitted with acute respiratory failure due to severe community-acquired pneumonia.",
+  "vital_signs": {
+    "BP": "92/58 mmHg",
+    "HR": "118 bpm",
+    "RR": "28 breaths/min",
+    "BT": "38.5°C",
+    "SpO2": "86% on room air"
+  },
+  "symptom": {
+    "name": "cough",
+    "negation": false,
+    "severity": "severe"
+  },
+  "medication": {
+    "name": "Levofloxacin",
+    "dose": "750 mg",
+    "route": "IV",
+    "frequency": "q12h"
+  },
+  "oxygen_support": "High-flow nasal cannula",
+  "intervention": null,
+  "device": "ventilator",
+  "io": "negative fluid balance",
+  "clinical_status": "drowsy",
+  "notification": null,
+  "scenario_id": "scenario_070"
+}

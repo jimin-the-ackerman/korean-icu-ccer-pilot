@@ -1,0 +1,129 @@
+{
+  "sample_id": "scenario_067_clinical_charting",
+  "gold_entities": {
+    "route": [
+      {
+        "raw": "IV",
+        "normalized": "iv",
+        "position": 192
+      }
+    ],
+    "frequency": [
+      {
+        "raw": "STAT",
+        "normalized": "stat",
+        "position": 195
+      }
+    ],
+    "device": [
+      {
+        "raw": "C-line",
+        "normalized": "c-line",
+        "position": 229
+      },
+      {
+        "raw": "nasal cannula",
+        "normalized": "nc",
+        "position": 130
+      },
+      {
+        "raw": "Nasal cannula",
+        "normalized": "nc",
+        "position": 207
+      }
+    ],
+    "vital_sign": [
+      {
+        "raw": "BP 85/60",
+        "label": "bp",
+        "value": "85/60",
+        "position": 53
+      },
+      {
+        "raw": "HR 115",
+        "label": "hr",
+        "value": "115",
+        "position": 68
+      },
+      {
+        "raw": "RR 28",
+        "label": "rr",
+        "value": "28",
+        "position": 80
+      },
+      {
+        "raw": "BT 36.8",
+        "label": "bt",
+        "value": "36.8",
+        "position": 99
+      },
+      {
+        "raw": "SpO2 88%",
+        "label": "spo2",
+        "value": "88%",
+        "position": 110
+      }
+    ],
+    "dose": []
+  },
+  "whisper_entities": {
+    "route": [
+      {
+        "raw": "IV",
+        "normalized": "iv",
+        "position": 182
+      }
+    ],
+    "frequency": [
+      {
+        "raw": "stat",
+        "normalized": "stat",
+        "position": 185
+      }
+    ],
+    "device": [
+      {
+        "raw": "C-line",
+        "normalized": "c-line",
+        "position": 214
+      },
+      {
+        "raw": "nasal cannula",
+        "normalized": "nc",
+        "position": 124
+      },
+      {
+        "raw": "nasal cannula",
+        "normalized": "nc",
+        "position": 195
+      }
+    ],
+    "vital_sign": [
+      {
+        "raw": "BP 85",
+        "label": "bp",
+        "value": "85",
+        "position": 51
+      },
+      {
+        "raw": "HR 115",
+        "label": "hr",
+        "value": "115",
+        "position": 64
+      },
+      {
+        "raw": "RR 28",
+        "label": "rr",
+        "value": "28",
+        "position": 76
+      },
+      {
+        "raw": "BT 36.89",
+        "label": "bt",
+        "value": "36.89",
+        "position": 95
+      }
+    ],
+    "dose": []
+  }
+}

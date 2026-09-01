@@ -1,0 +1,35 @@
+{
+  "sample_id": "scenario_078_formal_template",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "통증",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "기면 상태",
+    "medication_identity": "vancomycin",
+    "interventions": [
+      "외과적 제거술"
+    ],
+    "intake_output": "수액 균형 양성",
+    "notification": "감염내과와 외과 팀에 보고하였다."
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "통증",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "기면 상태",
+    "medication_identity": "vancomycin-N-gram",
+    "interventions": [
+      "외과적 제거술"
+    ],
+    "intake_output": "수액균형은 양성",
+    "notification": "감염내과와 외과팀에 보고하였다"
+  }
+}

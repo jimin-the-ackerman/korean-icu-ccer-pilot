@@ -1,0 +1,40 @@
+{
+  "sample_id": "scenario_076_clinical_charting",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "nausea",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "Drowsy",
+    "medication_identity": "Ondansetron",
+    "interventions": [
+      "IV fluid resuscitation with normal saline"
+    ],
+    "intake_output": "Negative fluid balance 확인됨",
+    "notification": "Nephrology team notify함"
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "nausea",
+        "negation": false,
+        "severity": "severe"
+      },
+      {
+        "name": "탈수",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "DROWSY",
+    "medication_identity": "Ondansetron",
+    "interventions": [
+      "fluid resuscitation"
+    ],
+    "intake_output": "negative fluid balance",
+    "notification": "nephrology team notified"
+  }
+}

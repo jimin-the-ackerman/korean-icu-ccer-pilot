@@ -1,0 +1,8 @@
+{
+  "sample_id": "scenario_087_formal_template",
+  "whisper_transcript": "45세 남성 환자가 발이 자상 후 심한 테타누스로 입원하였다. 활력증으로는 혈압이 140-90mmHg, 심박수가 110bpm, 호흡수가 32breaths min, 체온이 38.56deg, 산소포화도는 실내 공기에서 92%로 확인되었다. 환자는 심한 muscle spasms를 호소하고 있으며, 의식상태는 drowsy로 관찰되었다. 환자는 diazepam 10mg을 IV로 8시간 간격으로 투여받고 있으며, 산소보조로는 nasal cannulata를 통해 e-libramine으로 공급받고 있다. 상처 부위에 대한 wound debridement가 시행되었고, ng-tube가 삽입되었다. IO는 strict monitoring 중이다. muscle spasms 관리에 대해 Neurology에 상담하였다.",
+  "stt_metadata": {
+    "model": "whisper-1",
+    "language": "ko"
+  }
+}

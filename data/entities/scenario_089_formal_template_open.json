@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_089_formal_template",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "복수",
+        "negation": false,
+        "severity": "moderate"
+      }
+    ],
+    "clinical_status": "기면 상태",
+    "medication_identity": "Spironolactone",
+    "interventions": [],
+    "intake_output": "500 ml의 음성 수분 균형",
+    "notification": "관리 계획을 위해 간담도학 팀에 보고하였다."
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "복수",
+        "negation": false,
+        "severity": "moderate"
+      }
+    ],
+    "clinical_status": "기면 상태",
+    "medication_identity": "스페로노렉톤",
+    "interventions": [],
+    "intake_output": "500mL의 음성수분 균형",
+    "notification": "관리계획을 위해 간담도학팀에 보고하였다"
+  }
+}

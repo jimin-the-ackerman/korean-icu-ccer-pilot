@@ -1,0 +1,35 @@
+{
+  "sample_id": "scenario_076_formal_template",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "nausea",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "의식이 혼미한 상태",
+    "medication_identity": "ondansetron",
+    "interventions": [
+      "IV fluid resuscitation"
+    ],
+    "intake_output": "음성 수분 균형",
+    "notification": "급성 신손상 관리 목적으로 신장내과 팀과 상의하였다."
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "나우제(오심)",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "의식이 혼미한 상태",
+    "medication_identity": "온단세트론",
+    "interventions": [
+      "IV 플루이드 리사세테이션(수액 소생술)"
+    ],
+    "intake_output": "음성수분균형",
+    "notification": "급성 신손상 관리 목적으로 신장내과팀과 상의하였다"
+  }
+}

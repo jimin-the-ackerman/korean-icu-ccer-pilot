@@ -1,0 +1,28 @@
+{
+  "patient_context": "A 59-year-old male patient admitted with acute pancreatitis due to hypertriglyceridemia.",
+  "vital_signs": {
+    "BP": "140/85",
+    "HR": "110",
+    "RR": "22",
+    "BT": "38.5",
+    "SpO2": "95%"
+  },
+  "symptom": {
+    "name": "abdominal pain",
+    "negation": false,
+    "severity": "severe"
+  },
+  "medication": {
+    "name": "insulin",
+    "dose": "10 units",
+    "route": "IV",
+    "frequency": "q6h"
+  },
+  "oxygen_support": null,
+  "intervention": "fluid resuscitation",
+  "device": null,
+  "io": "urine output 1500 mL/24h",
+  "clinical_status": "alert",
+  "notification": "Consult endocrinology for hypertriglyceridemia management.",
+  "scenario_id": "scenario_066"
+}

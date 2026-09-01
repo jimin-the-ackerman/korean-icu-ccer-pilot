@@ -1,0 +1,48 @@
+{
+  "sample_id": "scenario_077_formal_template",
+  "gold_entities": {
+    "route": [],
+    "frequency": [
+      {
+        "raw": "q8h",
+        "normalized": "q8h",
+        "position": 198
+      }
+    ],
+    "device": [
+      {
+        "raw": "Foley",
+        "normalized": "foley",
+        "position": 249
+      }
+    ],
+    "vital_sign": [],
+    "dose": []
+  },
+  "whisper_entities": {
+    "route": [],
+    "frequency": [
+      {
+        "raw": "Q8H",
+        "normalized": "q8h",
+        "position": 184
+      }
+    ],
+    "device": [
+      {
+        "raw": "Foley",
+        "normalized": "foley",
+        "position": 233
+      }
+    ],
+    "vital_sign": [],
+    "dose": [
+      {
+        "raw": "888mg",
+        "value": "888",
+        "unit": "mg",
+        "position": 46
+      }
+    ]
+  }
+}

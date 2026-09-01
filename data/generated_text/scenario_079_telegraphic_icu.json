@@ -1,0 +1,11 @@
+{
+  "sample_id": "scenario_079_telegraphic_icu",
+  "scenario_id": "scenario_079",
+  "document_type": "ICU_observation",
+  "style_condition": "telegraphic_icu",
+  "text": "56세 남성.  \n급성 궤양성 대장염 악화로 입원.  \nSevere abdominal pain.  \nBloody diarrhea.  \nBP 105/65 mmHg.  \nHR 110 bpm.  \nRR 22.  \nBT 37.8°C.  \nSpO2 97%.  \nMethylprednisolone 40 mg IV q6h.  \nFoley.  \nI/O strict.  \nAlert.",
+  "generation_metadata": {
+    "model": "gpt-4o",
+    "temperature": 0.7
+  }
+}

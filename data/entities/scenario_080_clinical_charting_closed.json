@@ -1,0 +1,121 @@
+{
+  "sample_id": "scenario_080_clinical_charting",
+  "gold_entities": {
+    "route": [
+      {
+        "raw": "IV",
+        "normalized": "iv",
+        "position": 219
+      }
+    ],
+    "frequency": [
+      {
+        "raw": "BID",
+        "normalized": "bid",
+        "position": 222
+      }
+    ],
+    "device": [
+      {
+        "raw": "Foley",
+        "normalized": "foley",
+        "position": 264
+      },
+      {
+        "raw": "nasal cannula",
+        "normalized": "nc",
+        "position": 243
+      }
+    ],
+    "vital_sign": [
+      {
+        "raw": "BP 95/60",
+        "label": "bp",
+        "value": "95/60",
+        "position": 99
+      },
+      {
+        "raw": "HR 115",
+        "label": "hr",
+        "value": "115",
+        "position": 114
+      },
+      {
+        "raw": "RR 22",
+        "label": "rr",
+        "value": "22",
+        "position": 126
+      },
+      {
+        "raw": "BT 37.5",
+        "label": "bt",
+        "value": "37.5",
+        "position": 145
+      },
+      {
+        "raw": "SpO2 88%",
+        "label": "spo2",
+        "value": "88%",
+        "position": 156
+      }
+    ],
+    "dose": [
+      {
+        "raw": "40 mg",
+        "value": "40",
+        "unit": "mg",
+        "position": 213
+      }
+    ]
+  },
+  "whisper_entities": {
+    "route": [
+      {
+        "raw": "IV",
+        "normalized": "iv",
+        "position": 228
+      }
+    ],
+    "frequency": [
+      {
+        "raw": "BID",
+        "normalized": "bid",
+        "position": 232
+      }
+    ],
+    "device": [
+      {
+        "raw": "Foley",
+        "normalized": "foley",
+        "position": 275
+      },
+      {
+        "raw": "nasal cannula",
+        "normalized": "nc",
+        "position": 256
+      }
+    ],
+    "vital_sign": [
+      {
+        "raw": "BP 25",
+        "label": "bp",
+        "value": "25",
+        "position": 89
+      }
+    ],
+    "dose": [
+      {
+        "raw": "60mg",
+        "value": "60",
+        "unit": "mg",
+        "position": 96
+      },
+      {
+        "raw": "40mg",
+        "value": "40",
+        "unit": "mg",
+        "position": 222
+      }
+    ]
+  }
+}

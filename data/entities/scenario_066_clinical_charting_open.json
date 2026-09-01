@@ -1,0 +1,35 @@
+{
+  "sample_id": "scenario_066_clinical_charting",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "abdominal pain",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "alert",
+    "medication_identity": "Insulin",
+    "interventions": [
+      "fluid resuscitation"
+    ],
+    "intake_output": "urine output 1500 mL/24h",
+    "notification": "Endocrinology consult 필요함"
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "abdominal pain",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "알러트 상태 유지함",
+    "medication_identity": "Insulin",
+    "interventions": [
+      "fluid resuscitation"
+    ],
+    "intake_output": "urine output 1,500ml, 24시간 기록됨",
+    "notification": "Endocrinology consult 필요함"
+  }
+}

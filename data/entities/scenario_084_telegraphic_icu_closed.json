@@ -1,0 +1,111 @@
+{
+  "sample_id": "scenario_084_telegraphic_icu",
+  "gold_entities": {
+    "route": [
+      {
+        "raw": "IV",
+        "normalized": "iv",
+        "position": 113
+      }
+    ],
+    "frequency": [
+      {
+        "raw": "PRN",
+        "normalized": "prn",
+        "position": 116
+      }
+    ],
+    "device": [
+      {
+        "raw": "High-flow nasal cannula",
+        "normalized": "nc",
+        "position": 123
+      }
+    ],
+    "vital_sign": [
+      {
+        "raw": "BP 130/85.",
+        "label": "bp",
+        "value": "130/85",
+        "position": 23
+      },
+      {
+        "raw": "HR 110.",
+        "label": "hr",
+        "value": "110",
+        "position": 36
+      },
+      {
+        "raw": "RR 28.",
+        "label": "rr",
+        "value": "28",
+        "position": 46
+      },
+      {
+        "raw": "BT 37.0.",
+        "label": "bt",
+        "value": "37.0",
+        "position": 55
+      },
+      {
+        "raw": "SpO2 88%.",
+        "label": "spo2",
+        "value": "88%",
+        "position": 66
+      }
+    ],
+    "dose": [
+      {
+        "raw": "2.5mg",
+        "value": "2.5",
+        "unit": "mg",
+        "position": 107
+      }
+    ]
+  },
+  "whisper_entities": {
+    "route": [
+      {
+        "raw": "IV",
+        "normalized": "iv",
+        "position": 95
+      }
+    ],
+    "frequency": [
+      {
+        "raw": "PRN",
+        "normalized": "prn",
+        "position": 98
+      }
+    ],
+    "device": [
+      {
+        "raw": "Nasal Cannula",
+        "normalized": "nc",
+        "position": 113
+      }
+    ],
+    "vital_sign": [
+      {
+        "raw": "BP 0135",
+        "label": "bp",
+        "value": "0135",
+        "position": 20
+      },
+      {
+        "raw": "SpO2 88%",
+        "label": "spo2",
+        "value": "88%",
+        "position": 53
+      }
+    ],
+    "dose": [
+      {
+        "raw": "2.5mg",
+        "value": "2.5",
+        "unit": "mg",
+        "position": 89
+      }
+    ]
+  }
+}

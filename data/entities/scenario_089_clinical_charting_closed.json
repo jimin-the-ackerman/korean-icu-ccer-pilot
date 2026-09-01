@@ -1,0 +1,122 @@
+{
+  "sample_id": "scenario_089_clinical_charting",
+  "gold_entities": {
+    "route": [
+      {
+        "raw": "PO",
+        "normalized": "po",
+        "position": 164
+      }
+    ],
+    "frequency": [
+      {
+        "raw": "BID",
+        "normalized": "bid",
+        "position": 167
+      }
+    ],
+    "device": [
+      {
+        "raw": "Foley",
+        "normalized": "foley",
+        "position": 205
+      },
+      {
+        "raw": "Nasal cannula",
+        "normalized": "nc",
+        "position": 177
+      }
+    ],
+    "vital_sign": [
+      {
+        "raw": "BP 92/58",
+        "label": "bp",
+        "value": "92/58",
+        "position": 40
+      },
+      {
+        "raw": "HR 115",
+        "label": "hr",
+        "value": "115",
+        "position": 55
+      },
+      {
+        "raw": "RR 24",
+        "label": "rr",
+        "value": "24",
+        "position": 67
+      },
+      {
+        "raw": "BT 37.2",
+        "label": "bt",
+        "value": "37.2",
+        "position": 86
+      },
+      {
+        "raw": "SpO2 89%",
+        "label": "spo2",
+        "value": "89%",
+        "position": 97
+      }
+    ],
+    "dose": [
+      {
+        "raw": "100 mg",
+        "value": "100",
+        "unit": "mg",
+        "position": 157
+      },
+      {
+        "raw": "3 L/min",
+        "value": "3",
+        "unit": "l/min",
+        "position": 191
+      },
+      {
+        "raw": "500 ml",
+        "value": "500",
+        "unit": "ml",
+        "position": 240
+      }
+    ]
+  },
+  "whisper_entities": {
+    "route": [],
+    "frequency": [],
+    "device": [],
+    "vital_sign": [
+      {
+        "raw": "RR 20",
+        "label": "rr",
+        "value": "20",
+        "position": 61
+      },
+      {
+        "raw": "BT 37.2",
+        "label": "bt",
+        "value": "37.2",
+        "position": 81
+      },
+      {
+        "raw": "SpO2 89%",
+        "label": "spo2",
+        "value": "89%",
+        "position": 100
+      }
+    ],
+    "dose": [
+      {
+        "raw": "100mg",
+        "value": "100",
+        "unit": "mg",
+        "position": 141
+      },
+      {
+        "raw": "500ml",
+        "value": "500",
+        "unit": "ml",
+        "position": 195
+      }
+    ]
+  }
+}

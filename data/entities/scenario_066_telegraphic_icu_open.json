@@ -1,0 +1,35 @@
+{
+  "sample_id": "scenario_066_telegraphic_icu",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "abdominal pain",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "Alert",
+    "medication_identity": "Insulin",
+    "interventions": [
+      "Fluid resuscitation"
+    ],
+    "intake_output": "Urine output 1500 mL/24h",
+    "notification": "Endocrinology consult 요청함"
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "엉덩이 아픔",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "알러트 상태",
+    "medication_identity": "인슬린",
+    "interventions": [
+      "플루이드 리사세테이션 시행"
+    ],
+    "intake_output": "유런 아웃풋, 10 모바일 밀레트리스 5H",
+    "notification": "엔드크로노지 컨설턴트"
+  }
+}

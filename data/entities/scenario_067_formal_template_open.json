@@ -1,0 +1,51 @@
+{
+  "sample_id": "scenario_067_formal_template",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "가슴 통증",
+        "negation": false,
+        "severity": "severe"
+      },
+      {
+        "name": "저혈압",
+        "negation": false,
+        "severity": null
+      },
+      {
+        "name": "저산소증",
+        "negation": false,
+        "severity": null
+      }
+    ],
+    "clinical_status": "혼미",
+    "medication_identity": "Heparin",
+    "interventions": [],
+    "intake_output": null,
+    "notification": "저혈압과 저산소증에 대해 담당 의사에게 보고하였다."
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "가슴 통증",
+        "negation": false,
+        "severity": "severe"
+      },
+      {
+        "name": "저혈압",
+        "negation": false,
+        "severity": null
+      },
+      {
+        "name": "저산소증",
+        "negation": false,
+        "severity": null
+      }
+    ],
+    "clinical_status": "혼미 상태",
+    "medication_identity": "헤파린",
+    "interventions": [],
+    "intake_output": null,
+    "notification": "저혈압과 저산소증에 대해 담당 의사에게 보고하였다."
+  }
+}

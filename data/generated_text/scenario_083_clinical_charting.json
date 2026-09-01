@@ -1,0 +1,11 @@
+{
+  "sample_id": "scenario_083_clinical_charting",
+  "scenario_id": "scenario_083",
+  "document_type": "ICU_observation",
+  "style_condition": "clinical_charting",
+  "text": "61세 여성 환자, acute pulmonary edema, acute mitral valve regurgitation으로 입원함.\n\nBP 160/90 mmHg.  \nHR 110 bpm.  \nRR 28.  \nBT 37.2°C.  \nSpO2 88%.  \n\nSevere dyspnea 호소함.  \n\nFurosemide 40 mg IV q6h 투여 중.  \n\nNon-rebreather mask 적용함.  \n\nC-line 유지함.  \n\n환자 drowsy 상태 확인됨.",
+  "generation_metadata": {
+    "model": "gpt-4o",
+    "temperature": 0.7
+  }
+}

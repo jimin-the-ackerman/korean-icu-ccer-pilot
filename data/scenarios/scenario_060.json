@@ -1,0 +1,28 @@
+{
+  "patient_context": "A 71-year-old male patient admitted with acute exacerbation of Parkinson's disease.",
+  "vital_signs": {
+    "BP": "142/85",
+    "HR": "88",
+    "RR": "20",
+    "BT": "37.2°C",
+    "SpO2": "95%"
+  },
+  "symptom": {
+    "name": "rigidity",
+    "negation": false,
+    "severity": "severe"
+  },
+  "medication": {
+    "name": "Levodopa",
+    "dose": "100 mg",
+    "route": "PO",
+    "frequency": "TID"
+  },
+  "oxygen_support": null,
+  "intervention": null,
+  "device": "Foley",
+  "io": "2000 mL/24h",
+  "clinical_status": "drowsy",
+  "notification": null,
+  "scenario_id": "scenario_060"
+}

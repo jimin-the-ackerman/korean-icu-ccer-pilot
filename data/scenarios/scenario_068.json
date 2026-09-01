@@ -1,0 +1,28 @@
+{
+  "patient_context": "A 68-year-old female patient admitted with acute ischemic colitis.",
+  "vital_signs": {
+    "BP": "95/60 mmHg",
+    "HR": "110 bpm",
+    "RR": "22 breaths/min",
+    "BT": "37.5°C",
+    "SpO2": "92% on room air"
+  },
+  "symptom": {
+    "name": "abdominal pain",
+    "negation": false,
+    "severity": "severe"
+  },
+  "medication": {
+    "name": "metronidazole",
+    "dose": "500 mg",
+    "route": "IV",
+    "frequency": "q8h"
+  },
+  "oxygen_support": "nasal cannula 2L/min",
+  "intervention": null,
+  "device": "Foley",
+  "io": "negative fluid balance",
+  "clinical_status": "drowsy",
+  "notification": null,
+  "scenario_id": "scenario_068"
+}

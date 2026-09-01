@@ -1,0 +1,8 @@
+{
+  "sample_id": "scenario_081_formal_template",
+  "whisper_transcript": "60세 남성 환자가 고혈압 위기로 인한 급성 우혈성 심부전으로 입원하였다. 활력증후로는 혈압이 210mg, 심박수가 110bpm, 호흡수가 24breaths min, 체온이 37.4°C, 산소포화도가 실내 공기에서 88%로 확인되었다. 환자는 심한 디스플니를 호소하였다. Furosemide 40mg을 IV로 스타트 투여하였다. 산소 공급은 Tuetal Nasal Cannula로 시행 중이다. Foley 카테터가 삽입되어 있으며 체액 균형은 –500mL이다. 임상 상태는 Drowsy 상태로 확인되었다. 고혈압 위기 및 심부전 악화에 대해 심장내과 팀에게 보고하였다.",
+  "stt_metadata": {
+    "model": "whisper-1",
+    "language": "ko"
+  }
+}

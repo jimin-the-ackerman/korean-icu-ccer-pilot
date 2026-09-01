@@ -1,0 +1,8 @@
+{
+  "sample_id": "scenario_077_formal_template",
+  "whisper_transcript": "64세 여성 환자가 탈수로 인한 만성 신장질환 악화로 입원하였다. 활력증후는 혈압 888mg, 심박수 22bpm, 호흡수 22breathmin, 체온 36.8°C로 확인되었다. 산소포화도는 이 O2를 비강케귤라로 공급받으면서 94%로 측정되었다. 환자는 중등도의 weakness를 호소하였다. Labetalol 10mg을 IV로 Q8H 투여 중이다. 비강케귤라로 산소를 공급받고 있으며 수액 보충 치료를 진행하였다. Foley 카테터가 삽입되어 있으며 환자는 수분균형이 양성으로 확인되었다. 임상상태는 졸린 상태를 보이고 있다. 신장팀에게 투석평가를 위해 보고하였다.",
+  "stt_metadata": {
+    "model": "whisper-1",
+    "language": "ko"
+  }
+}

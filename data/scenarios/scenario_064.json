@@ -1,0 +1,28 @@
+{
+  "patient_context": "A 65-year-old female patient admitted with acute respiratory distress syndrome (ARDS) secondary to aspiration pneumonia.",
+  "vital_signs": {
+    "BP": "110/70",
+    "HR": "95",
+    "RR": "30",
+    "BT": "37.8°C",
+    "SpO2": "85% on room air"
+  },
+  "symptom": {
+    "name": "shortness of breath",
+    "negation": false,
+    "severity": "severe"
+  },
+  "medication": {
+    "name": "Ceftriaxone",
+    "dose": "2g",
+    "route": "IV",
+    "frequency": "q12h"
+  },
+  "oxygen_support": "mechanical ventilation",
+  "intervention": null,
+  "device": "ventilator",
+  "io": "Positive fluid balance",
+  "clinical_status": "stuporous",
+  "notification": null,
+  "scenario_id": "scenario_064"
+}

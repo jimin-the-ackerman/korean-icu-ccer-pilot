@@ -1,0 +1,33 @@
+{
+  "sample_id": "scenario_082_formal_template",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "복통",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "의식 명료",
+    "medication_identity": "morphine",
+    "interventions": [],
+    "intake_output": "엄격한 수액 출입량 모니터링 시행 중",
+    "notification": null
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "복통",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "의식 명료",
+    "medication_identity": "Morphine",
+    "interventions": [
+      "엄격한 수액 출입량 모니터링"
+    ],
+    "intake_output": null,
+    "notification": null
+  }
+}

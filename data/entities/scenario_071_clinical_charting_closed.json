@@ -1,0 +1,120 @@
+{
+  "sample_id": "scenario_071_clinical_charting",
+  "gold_entities": {
+    "route": [
+      {
+        "raw": "IV",
+        "normalized": "iv",
+        "position": 215
+      },
+      {
+        "raw": "IV",
+        "normalized": "iv",
+        "position": 242
+      }
+    ],
+    "frequency": [
+      {
+        "raw": "q12h",
+        "normalized": "q12h",
+        "position": 245
+      }
+    ],
+    "device": [
+      {
+        "raw": "Ventilator",
+        "normalized": "ventilator",
+        "position": 287
+      }
+    ],
+    "vital_sign": [
+      {
+        "raw": "BP 118/76",
+        "label": "bp",
+        "value": "118/76",
+        "position": 98
+      },
+      {
+        "raw": "HR 98",
+        "label": "hr",
+        "value": "98",
+        "position": 114
+      },
+      {
+        "raw": "RR 28",
+        "label": "rr",
+        "value": "28",
+        "position": 125
+      },
+      {
+        "raw": "BT 37.5",
+        "label": "bt",
+        "value": "37.5",
+        "position": 146
+      },
+      {
+        "raw": "SpO2 89%",
+        "label": "spo2",
+        "value": "89%",
+        "position": 157
+      }
+    ],
+    "dose": [
+      {
+        "raw": "0.4 g",
+        "value": "0.4",
+        "unit": "g",
+        "position": 233
+      }
+    ]
+  },
+  "whisper_entities": {
+    "route": [
+      {
+        "raw": "IV",
+        "normalized": "iv",
+        "position": 205
+      },
+      {
+        "raw": "IV",
+        "normalized": "iv",
+        "position": 230
+      },
+      {
+        "raw": "PO",
+        "normalized": "po",
+        "position": 75
+      }
+    ],
+    "frequency": [
+      {
+        "raw": "Q12H",
+        "normalized": "q12h",
+        "position": 234
+      }
+    ],
+    "device": [
+      {
+        "raw": "Ventilator",
+        "normalized": "ventilator",
+        "position": 274
+      }
+    ],
+    "vital_sign": [
+      {
+        "raw": "BP 108",
+        "label": "bp",
+        "value": "108",
+        "position": 78
+      }
+    ],
+    "dose": [
+      {
+        "raw": "0.4mg",
+        "value": "0.4",
+        "unit": "mg",
+        "position": 224
+      }
+    ]
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "sample_id": "scenario_099_telegraphic_icu",
+  "gold_entities": {
+    "route": [
+      {
+        "raw": "IV",
+        "normalized": "iv",
+        "position": 173
+      }
+    ],
+    "frequency": [
+      {
+        "raw": "q8h",
+        "normalized": "q8h",
+        "position": 176
+      }
+    ],
+    "device": [
+      {
+        "raw": "High-flow nasal cannula",
+        "normalized": "nc",
+        "position": 183
+      }
+    ],
+    "vital_sign": [
+      {
+        "raw": "BP 160/90",
+        "label": "bp",
+        "value": "160/90",
+        "position": 51
+      },
+      {
+        "raw": "HR 105",
+        "label": "hr",
+        "value": "105",
+        "position": 69
+      },
+      {
+        "raw": "RR 28",
+        "label": "rr",
+        "value": "28",
+        "position": 83
+      },
+      {
+        "raw": "BT 37.5",
+        "label": "bt",
+        "value": "37.5",
+        "position": 104
+      },
+      {
+        "raw": "SpO2 88%",
+        "label": "spo2",
+        "value": "88%",
+        "position": 117
+      }
+    ],
+    "dose": [
+      {
+        "raw": "40 mg",
+        "value": "40",
+        "unit": "mg",
+        "position": 167
+      },
+      {
+        "raw": "40 L/min",
+        "value": "40",
+        "unit": "l/min",
+        "position": 207
+      },
+      {
+        "raw": "2000 mL",
+        "value": "2000",
+        "unit": "ml",
+        "position": 242
+      }
+    ]
+  },
+  "whisper_entities": {
+    "route": [
+      {
+        "raw": "iv",
+        "normalized": "iv",
+        "position": 163
+      }
+    ],
+    "frequency": [],
+    "device": [],
+    "vital_sign": [
+      {
+        "raw": "bp 160",
+        "label": "bp",
+        "value": "160",
+        "position": 46
+      },
+      {
+        "raw": "hr 105",
+        "label": "hr",
+        "value": "105",
+        "position": 56
+      },
+      {
+        "raw": "rr 28",
+        "label": "rr",
+        "value": "28",
+        "position": 67
+      },
+      {
+        "raw": "bt 37.5",
+        "label": "bt",
+        "value": "37.5",
+        "position": 84
+      }
+    ],
+    "dose": []
+  }
+}

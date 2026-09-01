@@ -1,0 +1,127 @@
+{
+  "sample_id": "scenario_095_telegraphic_icu",
+  "gold_entities": {
+    "route": [
+      {
+        "raw": "IV",
+        "normalized": "iv",
+        "position": 125
+      }
+    ],
+    "frequency": [
+      {
+        "raw": "PRN",
+        "normalized": "prn",
+        "position": 128
+      }
+    ],
+    "device": [
+      {
+        "raw": "ventilator",
+        "normalized": "ventilator",
+        "position": 157
+      },
+      {
+        "raw": "ventilator",
+        "normalized": "ventilator",
+        "position": 212
+      }
+    ],
+    "vital_sign": [
+      {
+        "raw": "BP 130/85",
+        "label": "bp",
+        "value": "130/85",
+        "position": 35
+      },
+      {
+        "raw": "HR 110",
+        "label": "hr",
+        "value": "110",
+        "position": 51
+      },
+      {
+        "raw": "RR 28.",
+        "label": "rr",
+        "value": "28",
+        "position": 63
+      },
+      {
+        "raw": "BT 37.3",
+        "label": "bt",
+        "value": "37.3",
+        "position": 70
+      },
+      {
+        "raw": "SpO2 89%",
+        "label": "spo2",
+        "value": "89%",
+        "position": 81
+      }
+    ],
+    "dose": [
+      {
+        "raw": "2.5 mg",
+        "value": "2.5",
+        "unit": "mg",
+        "position": 118
+      }
+    ]
+  },
+  "whisper_entities": {
+    "route": [
+      {
+        "raw": "IV",
+        "normalized": "iv",
+        "position": 113
+      }
+    ],
+    "frequency": [
+      {
+        "raw": "PRN",
+        "normalized": "prn",
+        "position": 116
+      }
+    ],
+    "device": [
+      {
+        "raw": "Ventilator",
+        "normalized": "ventilator",
+        "position": 142
+      },
+      {
+        "raw": "Ventilator",
+        "normalized": "ventilator",
+        "position": 193
+      }
+    ],
+    "vital_sign": [
+      {
+        "raw": "BP 38.5",
+        "label": "bp",
+        "value": "38.5",
+        "position": 35
+      },
+      {
+        "raw": "SpO2 89.7",
+        "label": "spo2",
+        "value": "89.7",
+        "position": 74
+      }
+    ],
+    "dose": [
+      {
+        "raw": "100g",
+        "value": "100",
+        "unit": "g",
+        "position": 48
+      },
+      {
+        "raw": "2.5mg",
+        "value": "2.5",
+        "unit": "mg",
+        "position": 107
+      }
+    ]
+  }
+}

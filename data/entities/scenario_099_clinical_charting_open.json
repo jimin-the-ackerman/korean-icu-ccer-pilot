@@ -1,0 +1,41 @@
+{
+  "sample_id": "scenario_099_clinical_charting",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "pulmonary edema",
+        "negation": false,
+        "severity": null
+      },
+      {
+        "name": "dyspnea",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "drowsy",
+    "medication_identity": "Furosemide",
+    "interventions": [],
+    "intake_output": "Positive fluid balance 2000 mL 확인됨",
+    "notification": "Cardiology consult 요청함"
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "dyspnea",
+        "negation": false,
+        "severity": "severe"
+      },
+      {
+        "name": "dyspnea",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "drowsy",
+    "medication_identity": "Furosemide",
+    "interventions": [],
+    "intake_output": "Positive fluid balance 2000mm 확인됨",
+    "notification": "Cardiology consult"
+  }
+}

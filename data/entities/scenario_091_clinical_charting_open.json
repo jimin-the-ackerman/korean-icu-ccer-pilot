@@ -1,0 +1,34 @@
+{
+  "sample_id": "scenario_091_clinical_charting",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "dyspnea",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "drowsy",
+    "medication_identity": "Prednisone",
+    "interventions": [
+      "Corticosteroid therapy"
+    ],
+    "intake_output": null,
+    "notification": null
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "디스피니아",
+        "negation": false
+      }
+    ],
+    "clinical_status": "드라우지",
+    "medication_identity": "프레드네존",
+    "interventions": [
+      "코드카 스테로이드 테라피 시작함"
+    ],
+    "intake_output": null,
+    "notification": null
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "sample_id": "scenario_073_telegraphic_icu",
+  "whisper_transcript": "62세 남성 환자, acute pulmonary edema, severe mitral valve regurgitation E1, BP 110, 70mHg, HR 98 BPM, RR28 breaths min, BT36.8 grease, SpO2 88% on room air, shortness of breath severe, furosemide 40mg IVQ8H, non-rebreather mask 15mL min, Foley UZ, positive fluid balance 200mL 24A, 환자 알러트",
+  "stt_metadata": {
+    "model": "whisper-1",
+    "language": "ko"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "sample_id": "scenario_067_telegraphic_icu",
+  "scenario_id": "scenario_067",
+  "document_type": "ICU_observation",
+  "style_condition": "telegraphic_icu",
+  "text": "45세 남성 환자. 급성 대량 폐색전증으로 입원.  \nBP 85/60 mmHg.  \nHR 115 bpm.  \nRR 28 breaths/min.  \nBT 36.8°C.  \nSpO2 88% on 6L O2 via NC.  \nSevere chest pain.  \nHeparin 5000 units IV STAT.  \nNC 사용 중.  \nC-line 삽입됨.  \nStuporous 상태.  \nDr notify.",
+  "generation_metadata": {
+    "model": "gpt-4o",
+    "temperature": 0.7
+  }
+}

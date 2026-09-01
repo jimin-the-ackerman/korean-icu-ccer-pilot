@@ -1,0 +1,8 @@
+{
+  "sample_id": "scenario_055_clinical_charting",
+  "whisper_transcript": "우시삼세 여성 환자, 불필요한 혈액 트랜스퓨션으로 심각한 히멀리틱 안이미에르 입원함. 생명의 시인, BP 카이즈 60mg, HR1-EBPM, RR-SUDU, BT 38.1 SbO2, 25% 2L 내슬 캐니라. 심각한 피곤, 호소함, 퓨로시미드 40mg, IV-Q 스웨트-H 적용함. 수소 지원, 내슬 캐니라 유지함, 불필요한 혈액 트랜스퓨션 시행함. I.O, 입력 10mL, 입력 200mL. 의료 진단, 심각한 피곤, 호소함, 히멀리틱 안이미에르 입원함.",
+  "stt_metadata": {
+    "model": "whisper-1",
+    "language": "ko"
+  }
+}

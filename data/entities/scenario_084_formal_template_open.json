@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_084_formal_template",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "wheezing",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "졸린 상태",
+    "medication_identity": "albuterol",
+    "interventions": [],
+    "intake_output": null,
+    "notification": "호흡 치료 팀에게 환자의 상태와 진행 중인 치료를 보고하였다"
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "위징(wheezing)",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "졸린 상태",
+    "medication_identity": "에브리로",
+    "interventions": [],
+    "intake_output": null,
+    "notification": "호흡치료팀에게 환자의 상태와 진행 중인 치료를 보고하였다"
+  }
+}

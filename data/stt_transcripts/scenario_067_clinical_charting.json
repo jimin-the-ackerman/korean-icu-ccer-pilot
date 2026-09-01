@@ -1,0 +1,8 @@
+{
+  "sample_id": "scenario_067_clinical_charting",
+  "whisper_transcript": "45세 남성 환자, acute massive pulmonary embolism으로 입원함. BP 85-60 드럼, HR 115 bpm, RR 28 breaths min, BT 36.89, SbO2 8883, UO2 via nasal cannula. severe chest pain 호소함, heparin botan units IV stat 투여함. nasal cannula 적용중. C-line 유지함. 환자 stuporous 상태, hypotension과 hypoxia에 대해 담당해 notify함.",
+  "stt_metadata": {
+    "model": "whisper-1",
+    "language": "ko"
+  }
+}

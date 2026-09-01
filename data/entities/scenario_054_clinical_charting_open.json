@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_054_clinical_charting",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "headache",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "Drowsy",
+    "medication_identity": "Nimodipine",
+    "interventions": [],
+    "intake_output": null,
+    "notification": "Neurology team notify함"
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "headache",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "Drowsy",
+    "medication_identity": "니모디핀",
+    "interventions": [],
+    "intake_output": null,
+    "notification": "Neurology Team Notify함"
+  }
+}

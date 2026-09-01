@@ -1,0 +1,8 @@
+{
+  "sample_id": "scenario_051_telegraphic_icu",
+  "whisper_transcript": "48세남성급성치장염의원 bps7메다식들감 hr98bpm r22bpsthesthevent80dstheq sp0290pnra severe abdominal pain myinfangiumivprno ngtube negative fluid balance alert gi team notify",
+  "stt_metadata": {
+    "model": "whisper-1",
+    "language": "ko"
+  }
+}

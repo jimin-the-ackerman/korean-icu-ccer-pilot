@@ -1,0 +1,8 @@
+{
+  "sample_id": "scenario_097_telegraphic_icu",
+  "whisper_transcript": "63세 여성, 급성 숨고긴 숨아겸, 마비히, HR bite, RR1315, SpO2 취급 앞인 severe headache. C-F3 액손, 2 드라이암기아이바, Q12H, C-line 유지됨. 환자 drowsy.",
+  "stt_metadata": {
+    "model": "whisper-1",
+    "language": "ko"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "sample_id": "scenario_061_clinical_charting",
+  "scenario_id": "scenario_061",
+  "document_type": "ICU_observation",
+  "style_condition": "clinical_charting",
+  "text": "52세 남성 환자, acute pancreatitis secondary to hypertriglyceridemia로 입원함.\n\nBP 138/85, HR 110, RR 22, BT 37.8°C, SpO2 96% (RA) 확인됨.\n\nAbdominal pain 심각함.\n\nInsulin infusion 5 units/hour IV 적용함.\n\nIV fluid resuscitation 유지함.\n\nPositive fluid balance 확인됨.\n\n환자 상태 alert.",
+  "generation_metadata": {
+    "model": "gpt-4o",
+    "temperature": 0.7
+  }
+}

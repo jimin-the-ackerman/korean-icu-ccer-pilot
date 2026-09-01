@@ -1,0 +1,8 @@
+{
+  "sample_id": "scenario_091_telegraphic_icu",
+  "whisper_transcript": "64세 여성, 극성호흡 부전으로 입원 폴미네리프리브로시스 아쿠아 BP195HR-TYZ6RN8-BT37.6 SBO2 88% 룸에어 디스니에스 세베어 프렛니존 40mg POBI High Flow Nasal Cannula 사용 코드코스트로이드 테라피 시작 벤틀레이터 사용 클리니컬 스타드스 드라우지",
+  "stt_metadata": {
+    "model": "whisper-1",
+    "language": "ko"
+  }
+}

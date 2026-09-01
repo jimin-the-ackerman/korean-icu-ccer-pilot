@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_060_clinical_charting",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "rigidity",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "drowsy",
+    "medication_identity": "Levodopa",
+    "interventions": [],
+    "intake_output": "IO 2000 mL/24h",
+    "notification": null
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "Rigidity",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "drowsy",
+    "medication_identity": "Levodopa",
+    "interventions": [],
+    "intake_output": "IOT 7m24 기록됨",
+    "notification": null
+  }
+}

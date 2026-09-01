@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_070_clinical_charting",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "cough",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "drowsy",
+    "medication_identity": "Levofloxacin",
+    "interventions": [],
+    "intake_output": "negative fluid balance",
+    "notification": null
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "SPO2 86%",
+        "negation": false,
+        "severity": null
+      }
+    ],
+    "clinical_status": "드라우지 (drowsy)",
+    "medication_identity": "시프로플록사신 (씨보보 플록슨)",
+    "interventions": [],
+    "intake_output": "네이티브 플루이드 밸런스 확인 (negative fluid balance)",
+    "notification": null
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "sample_id": "scenario_076_telegraphic_icu",
+  "closed_vocab_matches": [
+    {
+      "entity_type": "route",
+      "gold_value": "iv",
+      "whisper_value": "iv",
+      "match_status": "matched",
+      "error_type": null
+    },
+    {
+      "entity_type": "route",
+      "gold_value": null,
+      "whisper_value": "iv",
+      "match_status": "whisper_only",
+      "error_type": null
+    },
+    {
+      "entity_type": "frequency",
+      "gold_value": "q8h",
+      "whisper_value": "q8h",
+      "match_status": "matched",
+      "error_type": null
+    },
+    {
+      "entity_type": "device",
+      "gold_value": "foley",
+      "whisper_value": null,
+      "match_status": "omission",
+      "error_type": "omission"
+    },
+    {
+      "entity_type": "dose",
+      "gold_value": "8mg",
+      "whisper_value": "8mg",
+      "match_status": "matched",
+      "error_type": null
+    },
+    {
+      "entity_type": "vital_sign",
+      "label": "bp",
+      "gold_value": "92/58",
+      "whisper_value": null,
+      "match_status": "omission",
+      "error_type": "omission"
+    },
+    {
+      "entity_type": "vital_sign",
+      "label": "hr",
+      "gold_value": "110",
+      "whisper_value": null,
+      "match_status": "omission",
+      "error_type": "omission"
+    },
+    {
+      "entity_type": "vital_sign",
+      "label": "rr",
+      "gold_value": "18",
+      "whisper_value": null,
+      "match_status": "omission",
+      "error_type": "omission"
+    },
+    {
+      "entity_type": "vital_sign",
+      "label": "bt",
+      "gold_value": "36.8°C",
+      "whisper_value": null,
+      "match_status": "omission",
+      "error_type": "omission"
+    },
+    {
+      "entity_type": "vital_sign",
+      "label": "spo2",
+      "gold_value": "96%",
+      "whisper_value": null,
+      "match_status": "omission",
+      "error_type": "omission"
+    }
+  ],
+  "open_vocab_matches": {
+    "symptom_matches": [
+      {
+        "gold_value": "nausea",
+        "whisper_value": "dehydration",
+        "match_basis": "omission",
+        "negation_match": null,
+        "severity_match": null
+      }
+    ],
+    "whisper_only_symptoms": [
+      "dehydration"
+    ],
+    "clinical_status_match": {
+      "gold_value": "drowsy",
+      "whisper_value": "드라우지",
+      "match_basis": "phonetic_artifact"
+    },
+    "medication_identity_match": {
+      "gold_value": "ondansetron",
+      "whisper_value": "온덴세트론",
+      "match_basis": "semantic"
+    },
+    "intervention_matches": [
+      {
+        "gold_value": "IV fluid resuscitation with normal saline",
+        "whisper_value": "IV 플루이드 리서스테이션",
+        "match_basis": "phonetic_artifact"
+      }
+    ],
+    "whisper_only_interventions": [],
+    "intake_output_match": {
+      "gold_value": "negative fluid balance",
+      "whisper_value": "네그티브 플루이드 밸런스",
+      "match_basis": "phonetic_artifact"
+    },
+    "notification_match": {
+      "gold_value": "Nephrology team consulted for AKI management.",
+      "whisper_value": "니퍼로지 팀 컨솔트",
+      "match_basis": "phonetic_artifact"
+    }
+  }
+}

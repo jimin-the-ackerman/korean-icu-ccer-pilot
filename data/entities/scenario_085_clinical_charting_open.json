@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_085_clinical_charting",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "cough",
+        "negation": false,
+        "severity": "moderate"
+      }
+    ],
+    "clinical_status": "Drowsy",
+    "medication_identity": "Piperacillin-tazobactam",
+    "interventions": [],
+    "intake_output": "Positive fluid balance",
+    "notification": "Pulmonologist notify함"
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "cough",
+        "negation": false,
+        "severity": "moderate"
+      }
+    ],
+    "clinical_status": "Drowsy",
+    "medication_identity": "Piperacillin tazobactam",
+    "interventions": [],
+    "intake_output": "Positive fluid balance 확인됨",
+    "notification": "Pulmonologist notify함"
+  }
+}

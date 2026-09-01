@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_092_clinical_charting",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "abdominal pain",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "alert",
+    "medication_identity": "Pantoprazole",
+    "interventions": [],
+    "intake_output": null,
+    "notification": "Endocrinology consult 위해 담당의 notify함"
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "abdominal pain",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "알러지 확인됨",
+    "medication_identity": "pentaprazole",
+    "interventions": [],
+    "intake_output": null,
+    "notification": "엔드크로놀리지 컨설트 위에 담당해 노티파엄"
+  }
+}

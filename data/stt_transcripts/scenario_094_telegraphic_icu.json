@@ -1,0 +1,8 @@
+{
+  "sample_id": "scenario_094_telegraphic_icu",
+  "whisper_transcript": "60주인세 여성 급성 중증 수확이 출혈로 이완. BP 85.5mL HR 1nBPM, RR22BPM, BD36.8RoS, SpO2, 90T% room air. 희마 템사스 severe. Pantoprazole 80mg IV Q12, Nasal Candela 2, Endoscopic Hemostasis 예정. C-Line 유지. Negative fluid balance. Drowsy. Gastroenterology team notify.",
+  "stt_metadata": {
+    "model": "whisper-1",
+    "language": "ko"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "sample_id": "scenario_091_formal_template",
+  "scenario_id": "scenario_091",
+  "document_type": "ICU_observation",
+  "style_condition": "formal_template",
+  "text": "64세 여성 환자가 폐섬유증 악화로 인한 급성 호흡부전으로 입원하였다. 활력 징후는 혈압 125/80 mmHg, 심박수 96 bpm, 호흡수 28 bpm, 체온 37.6°C이며, 산소포화도는 실내 공기에서 88%로 확인되었다. 환자는 심한 dyspnea를 호소하였다. Prednisone 40 mg을 경구로 BID 처방하였으며, 고유량 비강 캐뉼라를 통해 산소를 제공하였다. 코르티코스테로이드 치료를 시작하였다. 환자는 ventilator에 의존하고 있으며, 임상 상태는 졸림이 확인되었다.",
+  "generation_metadata": {
+    "model": "gpt-4o",
+    "temperature": 0.7
+  }
+}

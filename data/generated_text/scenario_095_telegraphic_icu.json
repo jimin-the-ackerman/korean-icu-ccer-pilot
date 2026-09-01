@@ -1,0 +1,11 @@
+{
+  "sample_id": "scenario_095_telegraphic_icu",
+  "scenario_id": "scenario_095",
+  "document_type": "ICU_observation",
+  "style_condition": "telegraphic_icu",
+  "text": "62세 F 환자. 급성 호흡곤란으로 중증 천식 악화로 입원.\n\nBP 130/85 mmHg.\nHR 110 bpm.\nRR 28.\nBT 37.3°C.\nSpO2 89% RA.\n\nSevere SOB.\n\nAlbuterol 2.5 mg IV PRN.\n\n고유량 비강 캐뉼라 사용 중.\n환기장치: ventilator.\nFluid balance: positive.\n\n정신상태: alert.\n\nRT ventilator 조정 위해 notify.",
+  "generation_metadata": {
+    "model": "gpt-4o",
+    "temperature": 0.7
+  }
+}

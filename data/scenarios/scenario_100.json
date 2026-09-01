@@ -1,0 +1,28 @@
+{
+  "patient_context": "A 68-year-old male patient admitted with a suspected acute bowel obstruction.",
+  "vital_signs": {
+    "BP": "98/60 mmHg",
+    "HR": "112 bpm",
+    "RR": "24 breaths/min",
+    "BT": "37.8°C",
+    "SpO2": "95% on room air"
+  },
+  "symptom": {
+    "name": "abdominal pain",
+    "negation": false,
+    "severity": "severe"
+  },
+  "medication": {
+    "name": "morphine",
+    "dose": "4 mg",
+    "route": "IV",
+    "frequency": "q4h"
+  },
+  "oxygen_support": null,
+  "intervention": "nasogastric decompression",
+  "device": "NG tube",
+  "io": "decreased urine output over past 8 hours",
+  "clinical_status": "drowsy",
+  "notification": "surgical team notified for urgent evaluation",
+  "scenario_id": "scenario_100"
+}

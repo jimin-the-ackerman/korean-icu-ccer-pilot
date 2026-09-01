@@ -1,0 +1,8 @@
+{
+  "sample_id": "scenario_060_telegraphic_icu",
+  "whisper_transcript": "71세 남성 parkinson's acute exacerbation bpm 42 85 hr 80 20 bt 37.2 gris spo 2 95 percent rigidity severe levodopa 100 milligrams poti fully io 2000 or 24 drowsy",
+  "stt_metadata": {
+    "model": "whisper-1",
+    "language": "ko"
+  }
+}

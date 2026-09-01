@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_088_formal_template",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "황달",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "졸린 상태",
+    "medication_identity": "N-acetylcysteine",
+    "interventions": [],
+    "intake_output": "500 mL의 양성 수분 균형",
+    "notification": "간 전문팀에게 긴급 상담을 위해 보고하였다."
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "황달",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "졸린 상태",
+    "medication_identity": "n-acetylcysteine",
+    "interventions": [],
+    "intake_output": "500mL의 양성 수분 균형",
+    "notification": "간 전문팀에게 긴급 상담을 위해 보고하였다."
+  }
+}

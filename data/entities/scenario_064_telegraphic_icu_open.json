@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_064_telegraphic_icu",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "SOB",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "Stuporous",
+    "medication_identity": "Ceftriaxone",
+    "interventions": [],
+    "intake_output": "Positive fluid balance",
+    "notification": null
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "SOB",
+        "negation": false,
+        "severity": null
+      }
+    ],
+    "clinical_status": "스튜퍼러스",
+    "medication_identity": "세프트리악손",
+    "interventions": [],
+    "intake_output": "포지티브 플루이드 밸런스",
+    "notification": null
+  }
+}

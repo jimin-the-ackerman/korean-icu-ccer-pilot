@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_092_formal_template",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "복통",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "의식 명료",
+    "medication_identity": "Pantoprazole",
+    "interventions": [],
+    "intake_output": null,
+    "notification": "고칼슘혈증 관리를 위해 내분비과에 협진을 요청하였다."
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "복통",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "의식이 명료",
+    "medication_identity": "판토프라졸",
+    "interventions": [],
+    "intake_output": null,
+    "notification": "고칼슘 혈증 관리를 위해 내분비과에 협진을 요청하였다."
+  }
+}

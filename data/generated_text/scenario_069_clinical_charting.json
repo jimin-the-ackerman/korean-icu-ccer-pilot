@@ -1,0 +1,11 @@
+{
+  "sample_id": "scenario_069_clinical_charting",
+  "scenario_id": "scenario_069",
+  "document_type": "ICU_observation",
+  "style_condition": "clinical_charting",
+  "text": "57세 남성 환자, acute heroin overdose로 입원함.\n\nBP 98/60 mmHg.\n\nHR 45 bpm.\n\nRR 8 breaths/min.\n\nBT 36.5°C.\n\nSpO2 85% on room air.\n\nSevere unconsciousness 호소함.\n\nNaloxone 0.4 mg IV STAT 적용함.\n\nHigh-flow nasal cannula 적용함.\n\nClinical status: unresponsive.",
+  "generation_metadata": {
+    "model": "gpt-4o",
+    "temperature": 0.7
+  }
+}

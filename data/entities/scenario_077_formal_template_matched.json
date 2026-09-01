@@ -1,0 +1,121 @@
+{
+  "sample_id": "scenario_077_formal_template",
+  "closed_vocab_matches": [
+    {
+      "entity_type": "route",
+      "gold_value": "iv",
+      "whisper_value": null,
+      "match_status": "omission",
+      "error_type": "omission"
+    },
+    {
+      "entity_type": "frequency",
+      "gold_value": "q8h",
+      "whisper_value": "q8h",
+      "match_status": "matched",
+      "error_type": null
+    },
+    {
+      "entity_type": "device",
+      "gold_value": "foley",
+      "whisper_value": "foley",
+      "match_status": "matched",
+      "error_type": null
+    },
+    {
+      "entity_type": "device",
+      "gold_value": "nc",
+      "whisper_value": null,
+      "match_status": "omission",
+      "error_type": "omission"
+    },
+    {
+      "entity_type": "dose",
+      "gold_value": "10mg",
+      "whisper_value": "888mg",
+      "match_status": "error",
+      "error_type": "numeric_error"
+    },
+    {
+      "entity_type": "vital_sign",
+      "label": "bp",
+      "gold_value": "88/56 mmHg",
+      "whisper_value": null,
+      "match_status": "omission",
+      "error_type": "omission"
+    },
+    {
+      "entity_type": "vital_sign",
+      "label": "hr",
+      "gold_value": "112 bpm",
+      "whisper_value": null,
+      "match_status": "omission",
+      "error_type": "omission"
+    },
+    {
+      "entity_type": "vital_sign",
+      "label": "rr",
+      "gold_value": "22 breaths/min",
+      "whisper_value": null,
+      "match_status": "omission",
+      "error_type": "omission"
+    },
+    {
+      "entity_type": "vital_sign",
+      "label": "bt",
+      "gold_value": "36.8°C",
+      "whisper_value": null,
+      "match_status": "omission",
+      "error_type": "omission"
+    },
+    {
+      "entity_type": "vital_sign",
+      "label": "spo2",
+      "gold_value": "94% on 2L O2 via nasal cannula",
+      "whisper_value": null,
+      "match_status": "omission",
+      "error_type": "omission"
+    }
+  ],
+  "open_vocab_matches": {
+    "symptom_matches": [
+      {
+        "gold_value": "weakness",
+        "whisper_value": "weakness",
+        "match_basis": "exact",
+        "negation_match": true,
+        "severity_match": true
+      }
+    ],
+    "whisper_only_symptoms": [],
+    "clinical_status_match": {
+      "gold_value": "drowsy",
+      "whisper_value": "졸린 상태 (drowsy)",
+      "match_basis": "exact",
+      "match_note": null
+    },
+    "medication_identity_match": {
+      "gold_value": "Labetalol",
+      "whisper_value": "Labetalol",
+      "match_basis": "exact"
+    },
+    "intervention_matches": [
+      {
+        "gold_value": "fluid resuscitation",
+        "whisper_value": "수액 보충 치료",
+        "match_basis": "semantic"
+      }
+    ],
+    "whisper_only_interventions": [],
+    "intake_output_match": {
+      "gold_value": "positive fluid balance",
+      "whisper_value": "수분균형이 양성으로 확인됨",
+      "match_basis": "semantic"
+    },
+    "notification_match": {
+      "gold_value": "Renal team notified for dialysis evaluation",
+      "whisper_value": "신장팀에게 투석평가를 위해 보고함",
+      "match_basis": "semantic"
+    }
+  }
+}

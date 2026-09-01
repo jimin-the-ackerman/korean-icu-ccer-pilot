@@ -1,0 +1,8 @@
+{
+  "sample_id": "scenario_069_clinical_charting",
+  "whisper_transcript": "57세 남성 환자 아큐트 헤러윈 오버도스로 입원함 BP 96.6% HR 45 BPM RR 8 Breaths Min BT 36.5°C SpO2 85% on room air Severe unconsciousness 호소함 Naloxone melum IV STAT 착용함 High flow nasal cannula 착용함 Clinical status unresponsive",
+  "stt_metadata": {
+    "model": "whisper-1",
+    "language": "ko"
+  }
+}

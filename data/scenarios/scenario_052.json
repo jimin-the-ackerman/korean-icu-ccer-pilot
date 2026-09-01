@@ -1,0 +1,28 @@
+{
+  "patient_context": "A 72-year-old male patient admitted with post-operative complications following a hip replacement surgery.",
+  "vital_signs": {
+    "BP": "130/85 mmHg",
+    "HR": "95 bpm",
+    "RR": "18 breaths/min",
+    "BT": "37.5°C",
+    "SpO2": "97% on room air"
+  },
+  "symptom": {
+    "name": "pain",
+    "negation": false,
+    "severity": "moderate"
+  },
+  "medication": {
+    "name": "Morphine",
+    "dose": "2 mg",
+    "route": "IV",
+    "frequency": "q4h"
+  },
+  "oxygen_support": null,
+  "intervention": null,
+  "device": "Foley",
+  "io": "Urine output: 400 ml/6 hr",
+  "clinical_status": "alert",
+  "notification": null,
+  "scenario_id": "scenario_052"
+}

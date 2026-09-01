@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_081_formal_template",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "dyspnea",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "drowsy",
+    "medication_identity": "Furosemide",
+    "interventions": [],
+    "intake_output": "체액 균형 -500 mL",
+    "notification": "고혈압 위기 및 심부전 악화에 대해 심장내과 팀에게 보고하였다."
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "디스플니",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "Drowsy",
+    "medication_identity": "Furosemide",
+    "interventions": [],
+    "intake_output": "체액 균형 –500mL",
+    "notification": "고혈압 위기 및 심부전 악화에 대해 심장내과 팀에게 보고함"
+  }
+}

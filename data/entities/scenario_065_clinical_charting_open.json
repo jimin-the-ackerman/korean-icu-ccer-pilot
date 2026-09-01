@@ -1,0 +1,33 @@
+{
+  "sample_id": "scenario_065_clinical_charting",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "skin rash",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "alert",
+    "medication_identity": "Methylprednisolone",
+    "interventions": [
+      "Wound care"
+    ],
+    "intake_output": "IV fluids 100 mL/hr 유지함",
+    "notification": null
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "skin rash",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "알러트 상태 유지",
+    "medication_identity": "Methylprednisolone",
+    "interventions": [],
+    "intake_output": "IV Fluids 100ml per hour 유지함",
+    "notification": null
+  }
+}

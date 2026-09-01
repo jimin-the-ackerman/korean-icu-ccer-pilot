@@ -1,0 +1,11 @@
+{
+  "sample_id": "scenario_093_formal_template",
+  "scenario_id": "scenario_093",
+  "document_type": "ICU_observation",
+  "style_condition": "formal_template",
+  "text": "환자는 52세 남성으로 복부 대동맥류 파열로 인한 급성 출혈성 쇼크로 입원하였다. 활력징후는 혈압 85/50 mmHg, 심박수 120 bpm, 호흡수 24 회/분, 체온 36.8°C, 산소포화도 89%로 확인되었다. 환자는 심한 복부 통증을 호소하였다. 현재 norepinephrine 8 mcg/min IV로 투여 중이며, 빈도는 하루 3회이다. 고유량 비강 캐뉼라를 통해 산소 공급 중이다. 응급 수술적 복구가 계획되어 있으며, C-line이 삽입되어 있다. 시간당 소변 배출량은 20 mL이다. 환자는 의식이 흐린 상태이다. 혈관외과 팀에게 긴급 개입을 위해 보고하였다.",
+  "generation_metadata": {
+    "model": "gpt-4o",
+    "temperature": 0.7
+  }
+}

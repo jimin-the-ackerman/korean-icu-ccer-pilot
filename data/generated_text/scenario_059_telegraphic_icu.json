@@ -1,0 +1,11 @@
+{
+  "sample_id": "scenario_059_telegraphic_icu",
+  "scenario_id": "scenario_059",
+  "document_type": "ICU_observation",
+  "style_condition": "telegraphic_icu",
+  "text": "46세 남성 환자. Severe sepsis, perforated diverticulitis.  \nBP 85/60 mmHg.  \nHR 125 bpm.  \nRR 28 breaths/min.  \nBT 39.0°C.  \nSpO2 89% RA.  \nSevere abdominal pain.  \nPiperacillin/Tazobactam 4.5g IV q8h.  \nHFNC 사용 중.  \nFluid resuscitation 시행.  \nC-line 삽입.  \nPositive fluid balance.  \nDrowsy 상태.",
+  "generation_metadata": {
+    "model": "gpt-4o",
+    "temperature": 0.7
+  }
+}

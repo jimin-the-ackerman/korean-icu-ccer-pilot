@@ -1,0 +1,35 @@
+{
+  "sample_id": "scenario_055_clinical_charting",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "fatigue",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "drowsy",
+    "medication_identity": "Furosemide",
+    "interventions": [
+      "compatible blood transfusion"
+    ],
+    "intake_output": "Input 1000 mL, Output 1200 mL",
+    "notification": "Hematology team notify함"
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "피곤",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": null,
+    "medication_identity": "퓨로시미드",
+    "interventions": [
+      "혈액 트랜스퓨션 시행함"
+    ],
+    "intake_output": "입력 10mL, 입력 200mL",
+    "notification": null
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "sample_id": "scenario_054_telegraphic_icu",
+  "gold_entities": {
+    "route": [
+      {
+        "raw": "PO",
+        "normalized": "po",
+        "position": 157
+      }
+    ],
+    "frequency": [
+      {
+        "raw": "q4h",
+        "normalized": "q4h",
+        "position": 160
+      }
+    ],
+    "device": [
+      {
+        "raw": "C-line",
+        "normalized": "c-line",
+        "position": 192
+      },
+      {
+        "raw": "Nasal cannula",
+        "normalized": "nc",
+        "position": 167
+      }
+    ],
+    "vital_sign": [
+      {
+        "raw": "BP 160/90",
+        "label": "bp",
+        "value": "160/90",
+        "position": 35
+      },
+      {
+        "raw": "HR 95",
+        "label": "hr",
+        "value": "95",
+        "position": 53
+      },
+      {
+        "raw": "RR 22",
+        "label": "rr",
+        "value": "22",
+        "position": 66
+      },
+      {
+        "raw": "BT 36.8",
+        "label": "bt",
+        "value": "36.8",
+        "position": 87
+      },
+      {
+        "raw": "SpO2 92%",
+        "label": "spo2",
+        "value": "92%",
+        "position": 100
+      }
+    ],
+    "dose": [
+      {
+        "raw": "60 mg",
+        "value": "60",
+        "unit": "mg",
+        "position": 151
+      },
+      {
+        "raw": "3 L/min",
+        "value": "3",
+        "unit": "l/min",
+        "position": 181
+      }
+    ]
+  },
+  "whisper_entities": {
+    "route": [],
+    "frequency": [],
+    "device": [
+      {
+        "raw": "C-line",
+        "normalized": "c-line",
+        "position": 175
+      }
+    ],
+    "vital_sign": [
+      {
+        "raw": "BP 66",
+        "label": "bp",
+        "value": "66",
+        "position": 33
+      },
+      {
+        "raw": "BT 36.8",
+        "label": "bt",
+        "value": "36.8",
+        "position": 69
+      },
+      {
+        "raw": "SpO2 90%",
+        "label": "spo2",
+        "value": "90%",
+        "position": 84
+      }
+    ],
+    "dose": [
+      {
+        "raw": "66mg",
+        "value": "66",
+        "unit": "mg",
+        "position": 36
+      },
+      {
+        "raw": "60mg",
+        "value": "60",
+        "unit": "mg",
+        "position": 134
+      }
+    ]
+  }
+}

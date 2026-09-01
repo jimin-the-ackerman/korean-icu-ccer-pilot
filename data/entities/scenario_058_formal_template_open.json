@@ -1,0 +1,40 @@
+{
+  "sample_id": "scenario_058_formal_template",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "체액 과다",
+        "negation": false
+      },
+      {
+        "name": "호흡곤란",
+        "negation": false,
+        "severity": "moderate"
+      }
+    ],
+    "clinical_status": "alert",
+    "medication_identity": "Furosemide",
+    "interventions": [],
+    "intake_output": "양성 체액 균형",
+    "notification": null
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "체액과다",
+        "negation": false,
+        "severity": null
+      },
+      {
+        "name": "호흡곤란",
+        "negation": false,
+        "severity": "moderate"
+      }
+    ],
+    "clinical_status": "alert",
+    "medication_identity": "furosemide",
+    "interventions": [],
+    "intake_output": "양성체액 균형",
+    "notification": null
+  }
+}

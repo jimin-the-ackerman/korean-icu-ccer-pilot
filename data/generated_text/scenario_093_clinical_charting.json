@@ -1,0 +1,11 @@
+{
+  "sample_id": "scenario_093_clinical_charting",
+  "scenario_id": "scenario_093",
+  "document_type": "ICU_observation",
+  "style_condition": "clinical_charting",
+  "text": "52세 남성 환자, 급성 hemorrhagic shock으로 입원. 원인은 ruptured abdominal aortic aneurysm.\n\nBP 85/50 mmHg, HR 120 bpm, RR 24/min, BT 36.8°C, SpO2 89%.\n\nSevere abdominal pain 호소함.\n\nNorepinephrine 8 mcg/min IV TID 적용함.\n\nHigh-flow nasal cannula 산소 공급 유지함.\n\nEmergency surgical repair 계획됨.\n\nC-line 적용됨.\n\nUrine output 20 mL/hr 확인됨.\n\nDrowsy 상태 확인됨.\n\nVascular surgery team notify함.",
+  "generation_metadata": {
+    "model": "gpt-4o",
+    "temperature": 0.7
+  }
+}

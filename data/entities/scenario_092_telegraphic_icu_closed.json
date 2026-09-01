@@ -1,0 +1,92 @@
+{
+  "sample_id": "scenario_092_telegraphic_icu",
+  "gold_entities": {
+    "route": [
+      {
+        "raw": "IV",
+        "normalized": "iv",
+        "position": 150
+      }
+    ],
+    "frequency": [
+      {
+        "raw": "BID",
+        "normalized": "bid",
+        "position": 153
+      }
+    ],
+    "device": [
+      {
+        "raw": "NG tube",
+        "normalized": "ng tube",
+        "position": 160
+      }
+    ],
+    "vital_sign": [
+      {
+        "raw": "BP 135/85",
+        "label": "bp",
+        "value": "135/85",
+        "position": 27
+      },
+      {
+        "raw": "HR 110",
+        "label": "hr",
+        "value": "110",
+        "position": 45
+      },
+      {
+        "raw": "RR 22",
+        "label": "rr",
+        "value": "22",
+        "position": 59
+      },
+      {
+        "raw": "BT 37.8",
+        "label": "bt",
+        "value": "37.8",
+        "position": 72
+      },
+      {
+        "raw": "SpO2 94%",
+        "label": "spo2",
+        "value": "94%",
+        "position": 85
+      }
+    ],
+    "dose": [
+      {
+        "raw": "40 mg",
+        "value": "40",
+        "unit": "mg",
+        "position": 144
+      }
+    ]
+  },
+  "whisper_entities": {
+    "route": [],
+    "frequency": [],
+    "device": [
+      {
+        "raw": "ng tube",
+        "normalized": "ng tube",
+        "position": 123
+      }
+    ],
+    "vital_sign": [
+      {
+        "raw": "bp 135",
+        "label": "bp",
+        "value": "135",
+        "position": 16
+      },
+      {
+        "raw": "rr 22",
+        "label": "rr",
+        "value": "22",
+        "position": 32
+      }
+    ],
+    "dose": []
+  }
+}

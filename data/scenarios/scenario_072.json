@@ -1,0 +1,28 @@
+{
+  "patient_context": "A 67-year-old male patient admitted with acute exacerbation of ulcerative colitis, presenting with severe abdominal pain, bloody diarrhea, and dehydration.",
+  "vital_signs": {
+    "BP": "90/60 mmHg",
+    "HR": "110 bpm",
+    "RR": "24 breaths/min",
+    "BT": "37.8°C",
+    "SpO2": "95% on room air"
+  },
+  "symptom": {
+    "name": "abdominal pain",
+    "negation": false,
+    "severity": "severe"
+  },
+  "medication": {
+    "name": "hydrocortisone",
+    "dose": "100 mg",
+    "route": "IV",
+    "frequency": "q6h"
+  },
+  "oxygen_support": null,
+  "intervention": "IV fluid resuscitation",
+  "device": null,
+  "io": "negative fluid balance",
+  "clinical_status": "alert",
+  "notification": null,
+  "scenario_id": "scenario_072"
+}

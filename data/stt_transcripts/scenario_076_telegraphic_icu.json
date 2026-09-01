@@ -1,0 +1,8 @@
+{
+  "sample_id": "scenario_076_telegraphic_icu",
+  "whisper_transcript": "35세 여자 환자, aka 하이퍼렘에시스 그라비드아르마노인은 세벌 디하이드레이션 세컨데리, BP, 타이지 유프기 8, HR, 화A, 페이, BT, 36.8, DS, PO2, DC, 6%, 나자, 세벌, 온덴세트론 8mg, IV, Q8H, IV 플루이드 리서스테이션, NS, 폴리, 카퓨터, 네그티브 플루이드 밸런스, 드라우지, 니퍼로지 팀, 컨솔트.",
+  "stt_metadata": {
+    "model": "whisper-1",
+    "language": "ko"
+  }
+}

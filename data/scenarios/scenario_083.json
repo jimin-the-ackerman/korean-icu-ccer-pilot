@@ -1,0 +1,28 @@
+{
+  "patient_context": "A 61-year-old female patient admitted with acute pulmonary edema secondary to acute mitral valve regurgitation.",
+  "vital_signs": {
+    "BP": "160/90",
+    "HR": "110",
+    "RR": "28",
+    "BT": "37.2°C",
+    "SpO2": "88%"
+  },
+  "symptom": {
+    "name": "dyspnea",
+    "negation": false,
+    "severity": "severe"
+  },
+  "medication": {
+    "name": "Furosemide",
+    "dose": "40 mg",
+    "route": "IV",
+    "frequency": "q6h"
+  },
+  "oxygen_support": "Non-rebreather mask",
+  "intervention": null,
+  "device": "C-line",
+  "io": null,
+  "clinical_status": "drowsy",
+  "notification": null,
+  "scenario_id": "scenario_083"
+}

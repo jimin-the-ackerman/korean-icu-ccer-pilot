@@ -1,0 +1,113 @@
+{
+  "sample_id": "scenario_051_clinical_charting",
+  "closed_vocab_matches": [
+    {
+      "entity_type": "route",
+      "gold_value": "iv",
+      "whisper_value": "iv",
+      "match_status": "matched",
+      "error_type": null
+    },
+    {
+      "entity_type": "frequency",
+      "gold_value": "prn",
+      "whisper_value": "prn",
+      "match_status": "matched",
+      "error_type": null
+    },
+    {
+      "entity_type": "device",
+      "gold_value": "ng tube",
+      "whisper_value": null,
+      "match_status": "omission",
+      "error_type": "omission"
+    },
+    {
+      "entity_type": "dose",
+      "gold_value": "4mg",
+      "whisper_value": "4mg",
+      "match_status": "matched",
+      "error_type": null
+    },
+    {
+      "entity_type": "vital_sign",
+      "label": "bp",
+      "gold_value": "110/70 mmHg",
+      "whisper_value": null,
+      "match_status": "omission",
+      "error_type": "omission"
+    },
+    {
+      "entity_type": "vital_sign",
+      "label": "hr",
+      "gold_value": "98 bpm",
+      "whisper_value": null,
+      "match_status": "omission",
+      "error_type": "omission"
+    },
+    {
+      "entity_type": "vital_sign",
+      "label": "rr",
+      "gold_value": "22 bpm",
+      "whisper_value": null,
+      "match_status": "omission",
+      "error_type": "omission"
+    },
+    {
+      "entity_type": "vital_sign",
+      "label": "bt",
+      "gold_value": "37.8°C",
+      "whisper_value": null,
+      "match_status": "omission",
+      "error_type": "omission"
+    },
+    {
+      "entity_type": "vital_sign",
+      "label": "spo2",
+      "gold_value": "95% on room air",
+      "whisper_value": null,
+      "match_status": "omission",
+      "error_type": "omission"
+    }
+  ],
+  "open_vocab_matches": {
+    "symptom_matches": [
+      {
+        "gold_value": "abdominal pain",
+        "whisper_value": "복부 통증 (abdominal pain)",
+        "match_basis": "exact",
+        "negation_match": true,
+        "severity_match": true
+      }
+    ],
+    "whisper_only_symptoms": [],
+    "clinical_status_match": {
+      "gold_value": "alert",
+      "whisper_value": "알러트 상태 유지함 (alert)",
+      "match_basis": "exact"
+    },
+    "medication_identity_match": {
+      "gold_value": "morphine",
+      "whisper_value": "모르핀 (Morphine)",
+      "match_basis": "exact"
+    },
+    "intervention_matches": [
+      {
+        "gold_value": "NPO status",
+        "whisper_value": null,
+        "match_basis": "omission"
+      }
+    ],
+    "whisper_only_interventions": [],
+    "intake_output_match": {
+      "gold_value": "Negative fluid balance",
+      "whisper_value": "네그티브 플루이드 밸런스 확인됨 (negative fluid balance)",
+      "match_basis": "exact"
+    },
+    "notification_match": {
+      "gold_value": "Gastroenterology team notified for further evaluation and management.",
+      "whisper_value": "가스트로인트로러지 팀 노티파이함 (gastroenterology team notified)",
+      "match_basis": "semantic"
+    }
+  }
+}

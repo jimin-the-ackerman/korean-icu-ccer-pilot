@@ -1,0 +1,8 @@
+{
+  "sample_id": "scenario_098_telegraphic_icu",
+  "whisper_transcript": "50베이트 세여성 H2O 입원 중 BP 98, 65, HR10, RR24, BT37, 8, SbO2 92%, Severe fatigue, methylprednisolone 500mg IVQ12H, nasal cannula, C-line, negative fluid balance, drowsy, hematology consult.",
+  "stt_metadata": {
+    "model": "whisper-1",
+    "language": "ko"
+  }
+}

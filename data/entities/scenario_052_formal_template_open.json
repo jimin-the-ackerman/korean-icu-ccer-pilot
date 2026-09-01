@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_052_formal_template",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "pain",
+        "negation": false,
+        "severity": "moderate"
+      }
+    ],
+    "clinical_status": "의식 명료",
+    "medication_identity": "Morphine",
+    "interventions": [],
+    "intake_output": "소변 배출량 6시간 동안 400 ml",
+    "notification": null
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "pain",
+        "negation": false,
+        "severity": "moderate"
+      }
+    ],
+    "clinical_status": "의식이 명료한 상태 (alert)",
+    "medication_identity": "모르핀",
+    "interventions": [],
+    "intake_output": "소변 배출량 6시간 동안 400mL",
+    "notification": null
+  }
+}

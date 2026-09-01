@@ -1,0 +1,11 @@
+{
+  "sample_id": "scenario_057_clinical_charting",
+  "scenario_id": "scenario_057",
+  "document_type": "ICU_observation",
+  "style_condition": "clinical_charting",
+  "text": "58세 여성 환자, acute exacerbation of rheumatoid arthritis로 입원함.  \nSevere joint pain 호소함.  \nBP 134/82, HR 88, RR 18, BT 37.6°C, SpO2 96%.  \nMethylprednisolone 125 mg IV q12h 적용함.  \nPatient alert 상태 유지함.",
+  "generation_metadata": {
+    "model": "gpt-4o",
+    "temperature": 0.7
+  }
+}

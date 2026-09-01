@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_096_clinical_charting",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "dyspnea",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "alert",
+    "medication_identity": "Furosemide",
+    "interventions": [],
+    "intake_output": "24시간 동안 음성 fluid balance 500 mL 확인됨",
+    "notification": "Cardiology team notify함"
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "dyspnea",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "alert",
+    "medication_identity": "furosemide",
+    "interventions": [],
+    "intake_output": "음성 fluid balance 5mg 확인됨",
+    "notification": "Cardiology team notify him"
+  }
+}

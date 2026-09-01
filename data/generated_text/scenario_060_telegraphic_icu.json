@@ -1,0 +1,11 @@
+{
+  "sample_id": "scenario_060_telegraphic_icu",
+  "scenario_id": "scenario_060",
+  "document_type": "ICU_observation",
+  "style_condition": "telegraphic_icu",
+  "text": "71세 남성.  \nParkinson's acute exacerbation.  \nBP 142/85.  \nHR 88.  \nRR 20.  \nBT 37.2°C.  \nSpO2 95%.  \nRigidity severe.  \nLevodopa 100 mg PO TID.  \nFoley.  \nIO 2000 mL/24h.  \nDrowsy.",
+  "generation_metadata": {
+    "model": "gpt-4o",
+    "temperature": 0.7
+  }
+}

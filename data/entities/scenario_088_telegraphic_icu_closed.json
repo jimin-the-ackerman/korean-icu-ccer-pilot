@@ -1,0 +1,129 @@
+{
+  "sample_id": "scenario_088_telegraphic_icu",
+  "gold_entities": {
+    "route": [
+      {
+        "raw": "IV",
+        "normalized": "iv",
+        "position": 204
+      }
+    ],
+    "frequency": [
+      {
+        "raw": "STAT",
+        "normalized": "stat",
+        "position": 207
+      }
+    ],
+    "device": [],
+    "vital_sign": [
+      {
+        "raw": "BP 112/70",
+        "label": "bp",
+        "value": "112/70",
+        "position": 60
+      },
+      {
+        "raw": "HR 105",
+        "label": "hr",
+        "value": "105",
+        "position": 78
+      },
+      {
+        "raw": "RR 22",
+        "label": "rr",
+        "value": "22",
+        "position": 92
+      },
+      {
+        "raw": "BT 37.8",
+        "label": "bt",
+        "value": "37.8",
+        "position": 113
+      },
+      {
+        "raw": "SpO2 95%",
+        "label": "spo2",
+        "value": "95%",
+        "position": 126
+      }
+    ],
+    "dose": [
+      {
+        "raw": "300 mg",
+        "value": "300",
+        "unit": "mg",
+        "position": 194
+      },
+      {
+        "raw": "500 mL",
+        "value": "500",
+        "unit": "ml",
+        "position": 237
+      }
+    ]
+  },
+  "whisper_entities": {
+    "route": [
+      {
+        "raw": "IV",
+        "normalized": "iv",
+        "position": 168
+      }
+    ],
+    "frequency": [
+      {
+        "raw": "stat",
+        "normalized": "stat",
+        "position": 171
+      }
+    ],
+    "device": [],
+    "vital_sign": [
+      {
+        "raw": "BP 12.70",
+        "label": "bp",
+        "value": "12.70",
+        "position": 29
+      },
+      {
+        "raw": "RR 22.0",
+        "label": "rr",
+        "value": "22.0",
+        "position": 48
+      },
+      {
+        "raw": "BT 37.0",
+        "label": "bt",
+        "value": "37.0",
+        "position": 69
+      },
+      {
+        "raw": "SpO2 95%",
+        "label": "spo2",
+        "value": "95%",
+        "position": 90
+      }
+    ],
+    "dose": [
+      {
+        "raw": "12.70mL",
+        "value": "12.70",
+        "unit": "ml",
+        "position": 32
+      },
+      {
+        "raw": "300mg",
+        "value": "300",
+        "unit": "mg",
+        "position": 154
+      },
+      {
+        "raw": "500mL",
+        "value": "500",
+        "unit": "ml",
+        "position": 200
+      }
+    ]
+  }
+}

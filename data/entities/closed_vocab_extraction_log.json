@@ -62,547 +62,1314 @@
     },
     {
       "sample_id": "scenario_006_clinical_charting",
-      "status": "processed"
+      "status": "skipped"
     },
     {
       "sample_id": "scenario_006_formal_template",
-      "status": "processed"
+      "status": "skipped"
     },
     {
       "sample_id": "scenario_006_telegraphic_icu",
-      "status": "processed"
+      "status": "skipped"
     },
     {
       "sample_id": "scenario_007_clinical_charting",
-      "status": "processed"
+      "status": "skipped"
     },
     {
       "sample_id": "scenario_007_formal_template",
-      "status": "processed"
+      "status": "skipped"
     },
     {
       "sample_id": "scenario_007_telegraphic_icu",
-      "status": "processed"
+      "status": "skipped"
     },
     {
       "sample_id": "scenario_008_clinical_charting",
-      "status": "processed"
+      "status": "skipped"
     },
     {
       "sample_id": "scenario_008_formal_template",
-      "status": "processed"
+      "status": "skipped"
     },
     {
       "sample_id": "scenario_008_telegraphic_icu",
-      "status": "processed"
+      "status": "skipped"
     },
     {
       "sample_id": "scenario_009_clinical_charting",
-      "status": "processed"
+      "status": "skipped"
     },
     {
       "sample_id": "scenario_009_formal_template",
-      "status": "processed"
+      "status": "skipped"
     },
     {
       "sample_id": "scenario_009_telegraphic_icu",
-      "status": "processed"
+      "status": "skipped"
     },
     {
       "sample_id": "scenario_010_clinical_charting",
-      "status": "processed"
+      "status": "skipped"
     },
     {
       "sample_id": "scenario_010_formal_template",
-      "status": "processed"
+      "status": "skipped"
     },
     {
       "sample_id": "scenario_010_telegraphic_icu",
-      "status": "processed"
+      "status": "skipped"
     },
     {
       "sample_id": "scenario_011_clinical_charting",
-      "status": "processed"
+      "status": "skipped"
     },
     {
       "sample_id": "scenario_011_formal_template",
-      "status": "processed"
+      "status": "skipped"
     },
     {
       "sample_id": "scenario_011_telegraphic_icu",
-      "status": "processed"
+      "status": "skipped"
     },
     {
       "sample_id": "scenario_012_clinical_charting",
-      "status": "processed"
+      "status": "skipped"
     },
     {
       "sample_id": "scenario_012_formal_template",
-      "status": "processed"
+      "status": "skipped"
     },
     {
       "sample_id": "scenario_012_telegraphic_icu",
-      "status": "processed"
+      "status": "skipped"
     },
     {
       "sample_id": "scenario_013_clinical_charting",
-      "status": "processed"
+      "status": "skipped"
     },
     {
       "sample_id": "scenario_013_formal_template",
-      "status": "processed"
+      "status": "skipped"
     },
     {
       "sample_id": "scenario_013_telegraphic_icu",
-      "status": "processed"
+      "status": "skipped"
     },
     {
       "sample_id": "scenario_014_clinical_charting",
-      "status": "processed"
+      "status": "skipped"
     },
     {
       "sample_id": "scenario_014_formal_template",
-      "status": "processed"
+      "status": "skipped"
     },
     {
       "sample_id": "scenario_014_telegraphic_icu",
-      "status": "processed"
+      "status": "skipped"
     },
     {
       "sample_id": "scenario_015_clinical_charting",
-      "status": "processed"
+      "status": "skipped"
     },
     {
       "sample_id": "scenario_015_formal_template",
-      "status": "processed"
+      "status": "skipped"
     },
     {
       "sample_id": "scenario_015_telegraphic_icu",
-      "status": "processed"
+      "status": "skipped"
     },
     {
       "sample_id": "scenario_016_clinical_charting",
-      "status": "processed"
+      "status": "skipped"
     },
     {
       "sample_id": "scenario_016_formal_template",
-      "status": "processed"
+      "status": "skipped"
     },
     {
       "sample_id": "scenario_016_telegraphic_icu",
-      "status": "processed"
+      "status": "skipped"
     },
     {
       "sample_id": "scenario_017_clinical_charting",
-      "status": "processed"
+      "status": "skipped"
     },
     {
       "sample_id": "scenario_017_formal_template",
-      "status": "processed"
+      "status": "skipped"
     },
     {
       "sample_id": "scenario_017_telegraphic_icu",
-      "status": "processed"
+      "status": "skipped"
     },
     {
       "sample_id": "scenario_018_clinical_charting",
-      "status": "processed"
+      "status": "skipped"
     },
     {
       "sample_id": "scenario_018_formal_template",
-      "status": "processed"
+      "status": "skipped"
     },
     {
       "sample_id": "scenario_018_telegraphic_icu",
-      "status": "processed"
+      "status": "skipped"
     },
     {
       "sample_id": "scenario_019_clinical_charting",
-      "status": "processed"
+      "status": "skipped"
     },
     {
       "sample_id": "scenario_019_formal_template",
-      "status": "processed"
+      "status": "skipped"
     },
     {
       "sample_id": "scenario_019_telegraphic_icu",
-      "status": "processed"
+      "status": "skipped"
     },
     {
       "sample_id": "scenario_020_clinical_charting",
-      "status": "processed"
+      "status": "skipped"
     },
     {
       "sample_id": "scenario_020_formal_template",
-      "status": "processed"
+      "status": "skipped"
     },
     {
       "sample_id": "scenario_020_telegraphic_icu",
-      "status": "processed"
+      "status": "skipped"
     },
     {
       "sample_id": "scenario_021_clinical_charting",
-      "status": "processed"
+      "status": "skipped"
     },
     {
       "sample_id": "scenario_021_formal_template",
-      "status": "processed"
+      "status": "skipped"
     },
     {
       "sample_id": "scenario_021_telegraphic_icu",
-      "status": "processed"
+      "status": "skipped"
     },
     {
       "sample_id": "scenario_022_clinical_charting",
-      "status": "processed"
+      "status": "skipped"
     },
     {
       "sample_id": "scenario_022_formal_template",
-      "status": "processed"
+      "status": "skipped"
     },
     {
       "sample_id": "scenario_022_telegraphic_icu",
-      "status": "processed"
+      "status": "skipped"
     },
     {
       "sample_id": "scenario_023_clinical_charting",
-      "status": "processed"
+      "status": "skipped"
     },
     {
       "sample_id": "scenario_023_formal_template",
-      "status": "processed"
+      "status": "skipped"
     },
     {
       "sample_id": "scenario_023_telegraphic_icu",
-      "status": "processed"
+      "status": "skipped"
     },
     {
       "sample_id": "scenario_024_clinical_charting",
-      "status": "processed"
+      "status": "skipped"
     },
     {
       "sample_id": "scenario_024_formal_template",
-      "status": "processed"
+      "status": "skipped"
     },
     {
       "sample_id": "scenario_024_telegraphic_icu",
-      "status": "processed"
+      "status": "skipped"
     },
     {
       "sample_id": "scenario_025_clinical_charting",
-      "status": "processed"
+      "status": "skipped"
     },
     {
       "sample_id": "scenario_025_formal_template",
-      "status": "processed"
+      "status": "skipped"
     },
     {
       "sample_id": "scenario_025_telegraphic_icu",
-      "status": "processed"
+      "status": "skipped"
     },
     {
       "sample_id": "scenario_026_clinical_charting",
-      "status": "processed"
+      "status": "skipped"
     },
     {
       "sample_id": "scenario_026_formal_template",
-      "status": "processed"
+      "status": "skipped"
     },
     {
       "sample_id": "scenario_026_telegraphic_icu",
-      "status": "processed"
+      "status": "skipped"
     },
     {
       "sample_id": "scenario_027_clinical_charting",
-      "status": "processed"
+      "status": "skipped"
     },
     {
       "sample_id": "scenario_027_formal_template",
-      "status": "processed"
+      "status": "skipped"
     },
     {
       "sample_id": "scenario_027_telegraphic_icu",
-      "status": "processed"
+      "status": "skipped"
     },
     {
       "sample_id": "scenario_028_clinical_charting",
-      "status": "processed"
+      "status": "skipped"
     },
     {
       "sample_id": "scenario_028_formal_template",
-      "status": "processed"
+      "status": "skipped"
     },
     {
       "sample_id": "scenario_028_telegraphic_icu",
-      "status": "processed"
+      "status": "skipped"
     },
     {
       "sample_id": "scenario_029_clinical_charting",
-      "status": "processed"
+      "status": "skipped"
     },
     {
       "sample_id": "scenario_029_formal_template",
-      "status": "processed"
+      "status": "skipped"
     },
     {
       "sample_id": "scenario_029_telegraphic_icu",
-      "status": "processed"
+      "status": "skipped"
     },
     {
       "sample_id": "scenario_030_clinical_charting",
-      "status": "processed"
+      "status": "skipped"
     },
     {
       "sample_id": "scenario_030_formal_template",
-      "status": "processed"
+      "status": "skipped"
     },
     {
       "sample_id": "scenario_030_telegraphic_icu",
-      "status": "processed"
+      "status": "skipped"
     },
     {
       "sample_id": "scenario_031_clinical_charting",
-      "status": "processed"
+      "status": "skipped"
     },
     {
       "sample_id": "scenario_031_formal_template",
-      "status": "processed"
+      "status": "skipped"
     },
     {
       "sample_id": "scenario_031_telegraphic_icu",
-      "status": "processed"
+      "status": "skipped"
     },
     {
       "sample_id": "scenario_032_clinical_charting",
-      "status": "processed"
+      "status": "skipped"
     },
     {
       "sample_id": "scenario_032_formal_template",
-      "status": "processed"
+      "status": "skipped"
     },
     {
       "sample_id": "scenario_032_telegraphic_icu",
-      "status": "processed"
+      "status": "skipped"
     },
     {
       "sample_id": "scenario_033_clinical_charting",
-      "status": "processed"
+      "status": "skipped"
     },
     {
       "sample_id": "scenario_033_formal_template",
-      "status": "processed"
+      "status": "skipped"
     },
     {
       "sample_id": "scenario_033_telegraphic_icu",
-      "status": "processed"
+      "status": "skipped"
     },
     {
       "sample_id": "scenario_034_clinical_charting",
-      "status": "processed"
+      "status": "skipped"
     },
     {
       "sample_id": "scenario_034_formal_template",
-      "status": "processed"
+      "status": "skipped"
     },
     {
       "sample_id": "scenario_034_telegraphic_icu",
-      "status": "processed"
+      "status": "skipped"
     },
     {
       "sample_id": "scenario_035_clinical_charting",
-      "status": "processed"
+      "status": "skipped"
     },
     {
       "sample_id": "scenario_035_formal_template",
-      "status": "processed"
+      "status": "skipped"
     },
     {
       "sample_id": "scenario_035_telegraphic_icu",
-      "status": "processed"
+      "status": "skipped"
     },
     {
       "sample_id": "scenario_036_clinical_charting",
-      "status": "processed"
+      "status": "skipped"
     },
     {
       "sample_id": "scenario_036_formal_template",
-      "status": "processed"
+      "status": "skipped"
     },
     {
       "sample_id": "scenario_036_telegraphic_icu",
-      "status": "processed"
+      "status": "skipped"
     },
     {
       "sample_id": "scenario_037_clinical_charting",
-      "status": "processed"
+      "status": "skipped"
     },
     {
       "sample_id": "scenario_037_formal_template",
-      "status": "processed"
+      "status": "skipped"
     },
     {
       "sample_id": "scenario_037_telegraphic_icu",
-      "status": "processed"
+      "status": "skipped"
     },
     {
       "sample_id": "scenario_038_clinical_charting",
-      "status": "processed"
+      "status": "skipped"
     },
     {
       "sample_id": "scenario_038_formal_template",
-      "status": "processed"
+      "status": "skipped"
     },
     {
       "sample_id": "scenario_038_telegraphic_icu",
-      "status": "processed"
+      "status": "skipped"
     },
     {
       "sample_id": "scenario_039_clinical_charting",
-      "status": "processed"
+      "status": "skipped"
     },
     {
       "sample_id": "scenario_039_formal_template",
-      "status": "processed"
+      "status": "skipped"
     },
     {
       "sample_id": "scenario_039_telegraphic_icu",
-      "status": "processed"
+      "status": "skipped"
     },
     {
       "sample_id": "scenario_040_clinical_charting",
-      "status": "processed"
+      "status": "skipped"
     },
     {
       "sample_id": "scenario_040_formal_template",
-      "status": "processed"
+      "status": "skipped"
     },
     {
       "sample_id": "scenario_040_telegraphic_icu",
-      "status": "processed"
+      "status": "skipped"
     },
     {
       "sample_id": "scenario_041_clinical_charting",
-      "status": "processed"
+      "status": "skipped"
     },
     {
       "sample_id": "scenario_041_formal_template",
-      "status": "processed"
+      "status": "skipped"
     },
     {
       "sample_id": "scenario_041_telegraphic_icu",
-      "status": "processed"
+      "status": "skipped"
     },
     {
       "sample_id": "scenario_042_clinical_charting",
-      "status": "processed"
+      "status": "skipped"
     },
     {
       "sample_id": "scenario_042_formal_template",
-      "status": "processed"
+      "status": "skipped"
     },
     {
       "sample_id": "scenario_042_telegraphic_icu",
-      "status": "processed"
+      "status": "skipped"
     },
     {
       "sample_id": "scenario_043_clinical_charting",
-      "status": "processed"
+      "status": "skipped"
     },
     {
       "sample_id": "scenario_043_formal_template",
-      "status": "processed"
+      "status": "skipped"
     },
     {
       "sample_id": "scenario_043_telegraphic_icu",
-      "status": "processed"
+      "status": "skipped"
     },
     {
       "sample_id": "scenario_044_clinical_charting",
-      "status": "processed"
+      "status": "skipped"
     },
     {
       "sample_id": "scenario_044_formal_template",
-      "status": "processed"
+      "status": "skipped"
     },
     {
       "sample_id": "scenario_044_telegraphic_icu",
-      "status": "processed"
+      "status": "skipped"
     },
     {
       "sample_id": "scenario_045_clinical_charting",
-      "status": "processed"
+      "status": "skipped"
     },
     {
       "sample_id": "scenario_045_formal_template",
-      "status": "processed"
+      "status": "skipped"
     },
     {
       "sample_id": "scenario_045_telegraphic_icu",
-      "status": "processed"
+      "status": "skipped"
     },
     {
       "sample_id": "scenario_046_clinical_charting",
-      "status": "processed"
+      "status": "skipped"
     },
     {
       "sample_id": "scenario_046_formal_template",
-      "status": "processed"
+      "status": "skipped"
     },
     {
       "sample_id": "scenario_046_telegraphic_icu",
-      "status": "processed"
+      "status": "skipped"
     },
     {
       "sample_id": "scenario_047_clinical_charting",
-      "status": "processed"
+      "status": "skipped"
     },
     {
       "sample_id": "scenario_047_formal_template",
-      "status": "processed"
+      "status": "skipped"
     },
     {
       "sample_id": "scenario_047_telegraphic_icu",
-      "status": "processed"
+      "status": "skipped"
     },
     {
       "sample_id": "scenario_048_clinical_charting",
-      "status": "processed"
+      "status": "skipped"
     },
     {
       "sample_id": "scenario_048_formal_template",
-      "status": "processed"
+      "status": "skipped"
     },
     {
       "sample_id": "scenario_048_telegraphic_icu",
-      "status": "processed"
+      "status": "skipped"
     },
     {
       "sample_id": "scenario_049_clinical_charting",
-      "status": "processed"
+      "status": "skipped"
     },
     {
       "sample_id": "scenario_049_formal_template",
-      "status": "processed"
+      "status": "skipped"
     },
     {
       "sample_id": "scenario_049_telegraphic_icu",
-      "status": "processed"
+      "status": "skipped"
     },
     {
       "sample_id": "scenario_050_clinical_charting",
-      "status": "processed"
+      "status": "skipped"
     },
     {
       "sample_id": "scenario_050_formal_template",
-      "status": "processed"
+      "status": "skipped"
     },
     {
       "sample_id": "scenario_050_telegraphic_icu",
+      "status": "skipped"
+    },
+    {
+      "sample_id": "scenario_051_clinical_charting",
+      "status": "processed"
+    },
+    {
+      "sample_id": "scenario_051_formal_template",
+      "status": "processed"
+    },
+    {
+      "sample_id": "scenario_051_telegraphic_icu",
+      "status": "processed"
+    },
+    {
+      "sample_id": "scenario_052_clinical_charting",
+      "status": "processed"
+    },
+    {
+      "sample_id": "scenario_052_formal_template",
+      "status": "processed"
+    },
+    {
+      "sample_id": "scenario_052_telegraphic_icu",
+      "status": "processed"
+    },
+    {
+      "sample_id": "scenario_053_clinical_charting",
+      "status": "processed"
+    },
+    {
+      "sample_id": "scenario_053_formal_template",
+      "status": "processed"
+    },
+    {
+      "sample_id": "scenario_053_telegraphic_icu",
+      "status": "processed"
+    },
+    {
+      "sample_id": "scenario_054_clinical_charting",
+      "status": "processed"
+    },
+    {
+      "sample_id": "scenario_054_formal_template",
+      "status": "processed"
+    },
+    {
+      "sample_id": "scenario_054_telegraphic_icu",
+      "status": "processed"
+    },
+    {
+      "sample_id": "scenario_055_clinical_charting",
+      "status": "processed"
+    },
+    {
+      "sample_id": "scenario_055_formal_template",
+      "status": "processed"
+    },
+    {
+      "sample_id": "scenario_055_telegraphic_icu",
+      "status": "processed"
+    },
+    {
+      "sample_id": "scenario_056_clinical_charting",
+      "status": "processed"
+    },
+    {
+      "sample_id": "scenario_056_formal_template",
+      "status": "processed"
+    },
+    {
+      "sample_id": "scenario_056_telegraphic_icu",
+      "status": "processed"
+    },
+    {
+      "sample_id": "scenario_057_clinical_charting",
+      "status": "processed"
+    },
+    {
+      "sample_id": "scenario_057_formal_template",
+      "status": "processed"
+    },
+    {
+      "sample_id": "scenario_057_telegraphic_icu",
+      "status": "processed"
+    },
+    {
+      "sample_id": "scenario_058_clinical_charting",
+      "status": "processed"
+    },
+    {
+      "sample_id": "scenario_058_formal_template",
+      "status": "processed"
+    },
+    {
+      "sample_id": "scenario_058_telegraphic_icu",
+      "status": "processed"
+    },
+    {
+      "sample_id": "scenario_059_clinical_charting",
+      "status": "processed"
+    },
+    {
+      "sample_id": "scenario_059_formal_template",
+      "status": "processed"
+    },
+    {
+      "sample_id": "scenario_059_telegraphic_icu",
+      "status": "processed"
+    },
+    {
+      "sample_id": "scenario_060_clinical_charting",
+      "status": "processed"
+    },
+    {
+      "sample_id": "scenario_060_formal_template",
+      "status": "processed"
+    },
+    {
+      "sample_id": "scenario_060_telegraphic_icu",
+      "status": "processed"
+    },
+    {
+      "sample_id": "scenario_061_clinical_charting",
+      "status": "processed"
+    },
+    {
+      "sample_id": "scenario_061_formal_template",
+      "status": "processed"
+    },
+    {
+      "sample_id": "scenario_061_telegraphic_icu",
+      "status": "processed"
+    },
+    {
+      "sample_id": "scenario_062_clinical_charting",
+      "status": "processed"
+    },
+    {
+      "sample_id": "scenario_062_formal_template",
+      "status": "processed"
+    },
+    {
+      "sample_id": "scenario_062_telegraphic_icu",
+      "status": "processed"
+    },
+    {
+      "sample_id": "scenario_063_clinical_charting",
+      "status": "processed"
+    },
+    {
+      "sample_id": "scenario_063_formal_template",
+      "status": "processed"
+    },
+    {
+      "sample_id": "scenario_063_telegraphic_icu",
+      "status": "processed"
+    },
+    {
+      "sample_id": "scenario_064_clinical_charting",
+      "status": "processed"
+    },
+    {
+      "sample_id": "scenario_064_formal_template",
+      "status": "processed"
+    },
+    {
+      "sample_id": "scenario_064_telegraphic_icu",
+      "status": "processed"
+    },
+    {
+      "sample_id": "scenario_065_clinical_charting",
+      "status": "processed"
+    },
+    {
+      "sample_id": "scenario_065_formal_template",
+      "status": "processed"
+    },
+    {
+      "sample_id": "scenario_065_telegraphic_icu",
+      "status": "processed"
+    },
+    {
+      "sample_id": "scenario_066_clinical_charting",
+      "status": "processed"
+    },
+    {
+      "sample_id": "scenario_066_formal_template",
+      "status": "processed"
+    },
+    {
+      "sample_id": "scenario_066_telegraphic_icu",
+      "status": "processed"
+    },
+    {
+      "sample_id": "scenario_067_clinical_charting",
+      "status": "processed"
+    },
+    {
+      "sample_id": "scenario_067_formal_template",
+      "status": "processed"
+    },
+    {
+      "sample_id": "scenario_067_telegraphic_icu",
+      "status": "processed"
+    },
+    {
+      "sample_id": "scenario_068_clinical_charting",
+      "status": "processed"
+    },
+    {
+      "sample_id": "scenario_068_formal_template",
+      "status": "processed"
+    },
+    {
+      "sample_id": "scenario_068_telegraphic_icu",
+      "status": "processed"
+    },
+    {
+      "sample_id": "scenario_069_clinical_charting",
+      "status": "processed"
+    },
+    {
+      "sample_id": "scenario_069_formal_template",
+      "status": "processed"
+    },
+    {
+      "sample_id": "scenario_069_telegraphic_icu",
+      "status": "processed"
+    },
+    {
+      "sample_id": "scenario_070_clinical_charting",
+      "status": "processed"
+    },
+    {
+      "sample_id": "scenario_070_formal_template",
+      "status": "processed"
+    },
+    {
+      "sample_id": "scenario_070_telegraphic_icu",
+      "status": "processed"
+    },
+    {
+      "sample_id": "scenario_071_clinical_charting",
+      "status": "processed"
+    },
+    {
+      "sample_id": "scenario_071_formal_template",
+      "status": "processed"
+    },
+    {
+      "sample_id": "scenario_071_telegraphic_icu",
+      "status": "processed"
+    },
+    {
+      "sample_id": "scenario_072_clinical_charting",
+      "status": "processed"
+    },
+    {
+      "sample_id": "scenario_072_formal_template",
+      "status": "processed"
+    },
+    {
+      "sample_id": "scenario_072_telegraphic_icu",
+      "status": "processed"
+    },
+    {
+      "sample_id": "scenario_073_clinical_charting",
+      "status": "processed"
+    },
+    {
+      "sample_id": "scenario_073_formal_template",
+      "status": "processed"
+    },
+    {
+      "sample_id": "scenario_073_telegraphic_icu",
+      "status": "processed"
+    },
+    {
+      "sample_id": "scenario_074_clinical_charting",
+      "status": "processed"
+    },
+    {
+      "sample_id": "scenario_074_formal_template",
+      "status": "processed"
+    },
+    {
+      "sample_id": "scenario_074_telegraphic_icu",
+      "status": "processed"
+    },
+    {
+      "sample_id": "scenario_075_clinical_charting",
+      "status": "processed"
+    },
+    {
+      "sample_id": "scenario_075_formal_template",
+      "status": "processed"
+    },
+    {
+      "sample_id": "scenario_075_telegraphic_icu",
+      "status": "processed"
+    },
+    {
+      "sample_id": "scenario_076_clinical_charting",
+      "status": "processed"
+    },
+    {
+      "sample_id": "scenario_076_formal_template",
+      "status": "processed"
+    },
+    {
+      "sample_id": "scenario_076_telegraphic_icu",
+      "status": "processed"
+    },
+    {
+      "sample_id": "scenario_077_clinical_charting",
+      "status": "processed"
+    },
+    {
+      "sample_id": "scenario_077_formal_template",
+      "status": "processed"
+    },
+    {
+      "sample_id": "scenario_077_telegraphic_icu",
+      "status": "processed"
+    },
+    {
+      "sample_id": "scenario_078_clinical_charting",
+      "status": "processed"
+    },
+    {
+      "sample_id": "scenario_078_formal_template",
+      "status": "processed"
+    },
+    {
+      "sample_id": "scenario_078_telegraphic_icu",
+      "status": "processed"
+    },
+    {
+      "sample_id": "scenario_079_clinical_charting",
+      "status": "processed"
+    },
+    {
+      "sample_id": "scenario_079_formal_template",
+      "status": "processed"
+    },
+    {
+      "sample_id": "scenario_079_telegraphic_icu",
+      "status": "processed"
+    },
+    {
+      "sample_id": "scenario_080_clinical_charting",
+      "status": "processed"
+    },
+    {
+      "sample_id": "scenario_080_formal_template",
+      "status": "processed"
+    },
+    {
+      "sample_id": "scenario_080_telegraphic_icu",
+      "status": "processed"
+    },
+    {
+      "sample_id": "scenario_081_clinical_charting",
+      "status": "processed"
+    },
+    {
+      "sample_id": "scenario_081_formal_template",
+      "status": "processed"
+    },
+    {
+      "sample_id": "scenario_081_telegraphic_icu",
+      "status": "processed"
+    },
+    {
+      "sample_id": "scenario_082_clinical_charting",
+      "status": "processed"
+    },
+    {
+      "sample_id": "scenario_082_formal_template",
+      "status": "processed"
+    },
+    {
+      "sample_id": "scenario_082_telegraphic_icu",
+      "status": "processed"
+    },
+    {
+      "sample_id": "scenario_083_clinical_charting",
+      "status": "processed"
+    },
+    {
+      "sample_id": "scenario_083_formal_template",
+      "status": "processed"
+    },
+    {
+      "sample_id": "scenario_083_telegraphic_icu",
+      "status": "processed"
+    },
+    {
+      "sample_id": "scenario_084_clinical_charting",
+      "status": "processed"
+    },
+    {
+      "sample_id": "scenario_084_formal_template",
+      "status": "processed"
+    },
+    {
+      "sample_id": "scenario_084_telegraphic_icu",
+      "status": "processed"
+    },
+    {
+      "sample_id": "scenario_085_clinical_charting",
+      "status": "processed"
+    },
+    {
+      "sample_id": "scenario_085_formal_template",
+      "status": "processed"
+    },
+    {
+      "sample_id": "scenario_085_telegraphic_icu",
+      "status": "processed"
+    },
+    {
+      "sample_id": "scenario_086_clinical_charting",
+      "status": "processed"
+    },
+    {
+      "sample_id": "scenario_086_formal_template",
+      "status": "processed"
+    },
+    {
+      "sample_id": "scenario_086_telegraphic_icu",
+      "status": "processed"
+    },
+    {
+      "sample_id": "scenario_087_clinical_charting",
+      "status": "processed"
+    },
+    {
+      "sample_id": "scenario_087_formal_template",
+      "status": "processed"
+    },
+    {
+      "sample_id": "scenario_087_telegraphic_icu",
+      "status": "processed"
+    },
+    {
+      "sample_id": "scenario_088_clinical_charting",
+      "status": "processed"
+    },
+    {
+      "sample_id": "scenario_088_formal_template",
+      "status": "processed"
+    },
+    {
+      "sample_id": "scenario_088_telegraphic_icu",
+      "status": "processed"
+    },
+    {
+      "sample_id": "scenario_089_clinical_charting",
+      "status": "processed"
+    },
+    {
+      "sample_id": "scenario_089_formal_template",
+      "status": "processed"
+    },
+    {
+      "sample_id": "scenario_089_telegraphic_icu",
+      "status": "processed"
+    },
+    {
+      "sample_id": "scenario_090_clinical_charting",
+      "status": "processed"
+    },
+    {
+      "sample_id": "scenario_090_formal_template",
+      "status": "processed"
+    },
+    {
+      "sample_id": "scenario_090_telegraphic_icu",
+      "status": "processed"
+    },
+    {
+      "sample_id": "scenario_091_clinical_charting",
+      "status": "processed"
+    },
+    {
+      "sample_id": "scenario_091_formal_template",
+      "status": "processed"
+    },
+    {
+      "sample_id": "scenario_091_telegraphic_icu",
+      "status": "processed"
+    },
+    {
+      "sample_id": "scenario_092_clinical_charting",
+      "status": "processed"
+    },
+    {
+      "sample_id": "scenario_092_formal_template",
+      "status": "processed"
+    },
+    {
+      "sample_id": "scenario_092_telegraphic_icu",
+      "status": "processed"
+    },
+    {
+      "sample_id": "scenario_093_clinical_charting",
+      "status": "processed"
+    },
+    {
+      "sample_id": "scenario_093_formal_template",
+      "status": "processed"
+    },
+    {
+      "sample_id": "scenario_093_telegraphic_icu",
+      "status": "processed"
+    },
+    {
+      "sample_id": "scenario_094_clinical_charting",
+      "status": "processed"
+    },
+    {
+      "sample_id": "scenario_094_formal_template",
+      "status": "processed"
+    },
+    {
+      "sample_id": "scenario_094_telegraphic_icu",
+      "status": "processed"
+    },
+    {
+      "sample_id": "scenario_095_clinical_charting",
+      "status": "processed"
+    },
+    {
+      "sample_id": "scenario_095_formal_template",
+      "status": "processed"
+    },
+    {
+      "sample_id": "scenario_095_telegraphic_icu",
+      "status": "processed"
+    },
+    {
+      "sample_id": "scenario_096_clinical_charting",
+      "status": "processed"
+    },
+    {
+      "sample_id": "scenario_096_formal_template",
+      "status": "processed"
+    },
+    {
+      "sample_id": "scenario_096_telegraphic_icu",
+      "status": "processed"
+    },
+    {
+      "sample_id": "scenario_097_clinical_charting",
+      "status": "processed"
+    },
+    {
+      "sample_id": "scenario_097_formal_template",
+      "status": "processed"
+    },
+    {
+      "sample_id": "scenario_097_telegraphic_icu",
+      "status": "processed"
+    },
+    {
+      "sample_id": "scenario_098_clinical_charting",
+      "status": "processed"
+    },
+    {
+      "sample_id": "scenario_098_formal_template",
+      "status": "processed"
+    },
+    {
+      "sample_id": "scenario_098_telegraphic_icu",
+      "status": "processed"
+    },
+    {
+      "sample_id": "scenario_099_clinical_charting",
+      "status": "processed"
+    },
+    {
+      "sample_id": "scenario_099_formal_template",
+      "status": "processed"
+    },
+    {
+      "sample_id": "scenario_099_telegraphic_icu",
+      "status": "processed"
+    },
+    {
+      "sample_id": "scenario_100_clinical_charting",
+      "status": "processed"
+    },
+    {
+      "sample_id": "scenario_100_formal_template",
+      "status": "processed"
+    },
+    {
+      "sample_id": "scenario_100_telegraphic_icu",
       "status": "processed"
     }
   ],
   "summary": {
     "processed": [
+      "scenario_051_clinical_charting",
+      "scenario_051_formal_template",
+      "scenario_051_telegraphic_icu",
+      "scenario_052_clinical_charting",
+      "scenario_052_formal_template",
+      "scenario_052_telegraphic_icu",
+      "scenario_053_clinical_charting",
+      "scenario_053_formal_template",
+      "scenario_053_telegraphic_icu",
+      "scenario_054_clinical_charting",
+      "scenario_054_formal_template",
+      "scenario_054_telegraphic_icu",
+      "scenario_055_clinical_charting",
+      "scenario_055_formal_template",
+      "scenario_055_telegraphic_icu",
+      "scenario_056_clinical_charting",
+      "scenario_056_formal_template",
+      "scenario_056_telegraphic_icu",
+      "scenario_057_clinical_charting",
+      "scenario_057_formal_template",
+      "scenario_057_telegraphic_icu",
+      "scenario_058_clinical_charting",
+      "scenario_058_formal_template",
+      "scenario_058_telegraphic_icu",
+      "scenario_059_clinical_charting",
+      "scenario_059_formal_template",
+      "scenario_059_telegraphic_icu",
+      "scenario_060_clinical_charting",
+      "scenario_060_formal_template",
+      "scenario_060_telegraphic_icu",
+      "scenario_061_clinical_charting",
+      "scenario_061_formal_template",
+      "scenario_061_telegraphic_icu",
+      "scenario_062_clinical_charting",
+      "scenario_062_formal_template",
+      "scenario_062_telegraphic_icu",
+      "scenario_063_clinical_charting",
+      "scenario_063_formal_template",
+      "scenario_063_telegraphic_icu",
+      "scenario_064_clinical_charting",
+      "scenario_064_formal_template",
+      "scenario_064_telegraphic_icu",
+      "scenario_065_clinical_charting",
+      "scenario_065_formal_template",
+      "scenario_065_telegraphic_icu",
+      "scenario_066_clinical_charting",
+      "scenario_066_formal_template",
+      "scenario_066_telegraphic_icu",
+      "scenario_067_clinical_charting",
+      "scenario_067_formal_template",
+      "scenario_067_telegraphic_icu",
+      "scenario_068_clinical_charting",
+      "scenario_068_formal_template",
+      "scenario_068_telegraphic_icu",
+      "scenario_069_clinical_charting",
+      "scenario_069_formal_template",
+      "scenario_069_telegraphic_icu",
+      "scenario_070_clinical_charting",
+      "scenario_070_formal_template",
+      "scenario_070_telegraphic_icu",
+      "scenario_071_clinical_charting",
+      "scenario_071_formal_template",
+      "scenario_071_telegraphic_icu",
+      "scenario_072_clinical_charting",
+      "scenario_072_formal_template",
+      "scenario_072_telegraphic_icu",
+      "scenario_073_clinical_charting",
+      "scenario_073_formal_template",
+      "scenario_073_telegraphic_icu",
+      "scenario_074_clinical_charting",
+      "scenario_074_formal_template",
+      "scenario_074_telegraphic_icu",
+      "scenario_075_clinical_charting",
+      "scenario_075_formal_template",
+      "scenario_075_telegraphic_icu",
+      "scenario_076_clinical_charting",
+      "scenario_076_formal_template",
+      "scenario_076_telegraphic_icu",
+      "scenario_077_clinical_charting",
+      "scenario_077_formal_template",
+      "scenario_077_telegraphic_icu",
+      "scenario_078_clinical_charting",
+      "scenario_078_formal_template",
+      "scenario_078_telegraphic_icu",
+      "scenario_079_clinical_charting",
+      "scenario_079_formal_template",
+      "scenario_079_telegraphic_icu",
+      "scenario_080_clinical_charting",
+      "scenario_080_formal_template",
+      "scenario_080_telegraphic_icu",
+      "scenario_081_clinical_charting",
+      "scenario_081_formal_template",
+      "scenario_081_telegraphic_icu",
+      "scenario_082_clinical_charting",
+      "scenario_082_formal_template",
+      "scenario_082_telegraphic_icu",
+      "scenario_083_clinical_charting",
+      "scenario_083_formal_template",
+      "scenario_083_telegraphic_icu",
+      "scenario_084_clinical_charting",
+      "scenario_084_formal_template",
+      "scenario_084_telegraphic_icu",
+      "scenario_085_clinical_charting",
+      "scenario_085_formal_template",
+      "scenario_085_telegraphic_icu",
+      "scenario_086_clinical_charting",
+      "scenario_086_formal_template",
+      "scenario_086_telegraphic_icu",
+      "scenario_087_clinical_charting",
+      "scenario_087_formal_template",
+      "scenario_087_telegraphic_icu",
+      "scenario_088_clinical_charting",
+      "scenario_088_formal_template",
+      "scenario_088_telegraphic_icu",
+      "scenario_089_clinical_charting",
+      "scenario_089_formal_template",
+      "scenario_089_telegraphic_icu",
+      "scenario_090_clinical_charting",
+      "scenario_090_formal_template",
+      "scenario_090_telegraphic_icu",
+      "scenario_091_clinical_charting",
+      "scenario_091_formal_template",
+      "scenario_091_telegraphic_icu",
+      "scenario_092_clinical_charting",
+      "scenario_092_formal_template",
+      "scenario_092_telegraphic_icu",
+      "scenario_093_clinical_charting",
+      "scenario_093_formal_template",
+      "scenario_093_telegraphic_icu",
+      "scenario_094_clinical_charting",
+      "scenario_094_formal_template",
+      "scenario_094_telegraphic_icu",
+      "scenario_095_clinical_charting",
+      "scenario_095_formal_template",
+      "scenario_095_telegraphic_icu",
+      "scenario_096_clinical_charting",
+      "scenario_096_formal_template",
+      "scenario_096_telegraphic_icu",
+      "scenario_097_clinical_charting",
+      "scenario_097_formal_template",
+      "scenario_097_telegraphic_icu",
+      "scenario_098_clinical_charting",
+      "scenario_098_formal_template",
+      "scenario_098_telegraphic_icu",
+      "scenario_099_clinical_charting",
+      "scenario_099_formal_template",
+      "scenario_099_telegraphic_icu",
+      "scenario_100_clinical_charting",
+      "scenario_100_formal_template",
+      "scenario_100_telegraphic_icu"
+    ],
+    "skipped": [
+      "scenario_001_clinical_charting",
+      "scenario_001_formal_template",
+      "scenario_001_telegraphic_icu",
+      "scenario_002_clinical_charting",
+      "scenario_002_formal_template",
+      "scenario_002_telegraphic_icu",
+      "scenario_003_clinical_charting",
+      "scenario_003_formal_template",
+      "scenario_003_telegraphic_icu",
+      "scenario_004_clinical_charting",
+      "scenario_004_formal_template",
+      "scenario_004_telegraphic_icu",
+      "scenario_005_clinical_charting",
+      "scenario_005_formal_template",
+      "scenario_005_telegraphic_icu",
       "scenario_006_clinical_charting",
       "scenario_006_formal_template",
       "scenario_006_telegraphic_icu",
@@ -738,23 +1505,6 @@
       "scenario_050_clinical_charting",
       "scenario_050_formal_template",
       "scenario_050_telegraphic_icu"
-    ],
-    "skipped": [
-      "scenario_001_clinical_charting",
-      "scenario_001_formal_template",
-      "scenario_001_telegraphic_icu",
-      "scenario_002_clinical_charting",
-      "scenario_002_formal_template",
-      "scenario_002_telegraphic_icu",
-      "scenario_003_clinical_charting",
-      "scenario_003_formal_template",
-      "scenario_003_telegraphic_icu",
-      "scenario_004_clinical_charting",
-      "scenario_004_formal_template",
-      "scenario_004_telegraphic_icu",
-      "scenario_005_clinical_charting",
-      "scenario_005_formal_template",
-      "scenario_005_telegraphic_icu"
     ],
     "failed": []
   }

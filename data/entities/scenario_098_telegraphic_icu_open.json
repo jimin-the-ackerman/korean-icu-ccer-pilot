@@ -1,0 +1,33 @@
+{
+  "sample_id": "scenario_098_telegraphic_icu",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "fatigue",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "Drowsy",
+    "medication_identity": "Methylprednisolone",
+    "interventions": [],
+    "intake_output": "Negative fluid balance",
+    "notification": "Hematology consult"
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "fatigue",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "drowsy",
+    "medication_identity": "methylprednisolone",
+    "interventions": [
+      "hematology consult"
+    ],
+    "intake_output": "negative fluid balance",
+    "notification": null
+  }
+}

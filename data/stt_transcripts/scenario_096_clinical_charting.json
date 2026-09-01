@@ -1,0 +1,8 @@
+{
+  "sample_id": "scenario_096_clinical_charting",
+  "whisper_transcript": "50세 남성 환자, 급성 폴리머네리에디마로 입원 중. 원인은 좌심부전. BPN 60-90mm, HR-PKT BPM, RR-Eschepit Breast MEN, BT-Cernit-Chet-Omnigis-Psyth, SpO2 80% on room air, 95% on 2-8-0-2 via nasal cannula. severe dyspnea, 호소암, furosemide 40mg IV-BID 적용암, 2-8-0-2 via nasal cannula 유지암, Foley 유지암. 24시간 동안 음성 fluid balance 5mg 확인됨. Clinical status alert 확인됨. Cardiology team notify him.",
+  "stt_metadata": {
+    "model": "whisper-1",
+    "language": "ko"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "patient_context": "A 45-year-old male patient admitted with severe tetanus following a puncture wound to the foot.",
+  "vital_signs": {
+    "BP": "140/90 mmHg",
+    "HR": "110 bpm",
+    "RR": "32 breaths/min",
+    "BT": "38.5°C",
+    "SpO2": "92% on room air"
+  },
+  "symptom": {
+    "name": "muscle spasms",
+    "negation": false,
+    "severity": "severe"
+  },
+  "medication": {
+    "name": "diazepam",
+    "dose": "10 mg",
+    "route": "IV",
+    "frequency": "q8h"
+  },
+  "oxygen_support": "nasal cannula at 2 L/min",
+  "intervention": "wound debridement",
+  "device": "NG tube",
+  "io": "strict monitoring",
+  "clinical_status": "drowsy",
+  "notification": "neurology consulted for management of muscle spasms",
+  "scenario_id": "scenario_087"
+}

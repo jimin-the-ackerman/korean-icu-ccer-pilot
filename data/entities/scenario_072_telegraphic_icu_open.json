@@ -1,0 +1,45 @@
+{
+  "sample_id": "scenario_072_telegraphic_icu",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "abdominal pain",
+        "negation": false,
+        "severity": "severe"
+      },
+      {
+        "name": "bloody diarrhea",
+        "negation": false,
+        "severity": null
+      },
+      {
+        "name": "dehydration",
+        "negation": false,
+        "severity": null
+      }
+    ],
+    "clinical_status": "Alert",
+    "medication_identity": "Hydrocortisone",
+    "interventions": [
+      "fluid resuscitation"
+    ],
+    "intake_output": "Negative fluid balance",
+    "notification": null
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "복부 아픔",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": null,
+    "medication_identity": "Hydrocortisone",
+    "interventions": [
+      "IV Fluid Resuscitation"
+    ],
+    "intake_output": "Negative Fluid Balance Alert",
+    "notification": null
+  }
+}

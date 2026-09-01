@@ -1,0 +1,8 @@
+{
+  "sample_id": "scenario_079_clinical_charting",
+  "whisper_transcript": "56세 남성, Acute Exacerbation of Ulcerative Colitis로 입원. Severe abdominal pain meet bloody diarrhea 호소함. BP 예고 65mmHg. HR 110 BPM. RR ACV Breaths mean BTCD SPO in Prison. Methylprednisolone 40mg IV Q-Sech 적용 Fully 유지함. IO Strict Monitoring 유지함. 환자의식 알러트 확인됨.",
+  "stt_metadata": {
+    "model": "whisper-1",
+    "language": "ko"
+  }
+}

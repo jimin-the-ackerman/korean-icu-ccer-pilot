@@ -1,0 +1,11 @@
+{
+  "sample_id": "scenario_092_clinical_charting",
+  "scenario_id": "scenario_092",
+  "document_type": "ICU_observation",
+  "style_condition": "clinical_charting",
+  "text": "54세 남환, acute pancreatitis로 입원. 원인: hyperparathyroidism.\n\nBP 135/85 mmHg, HR 110 bpm, RR 22 bpm, BT 37.8°C, SpO2 94% room air.\n\nSevere abdominal pain 호소함.\n\nPantoprazole 40 mg IV BID 적용함.\n\nNG tube 유지함.\n\n의식 상태 alert 확인됨.\n\nEndocrinology consult 위해 담당의 notify함.",
+  "generation_metadata": {
+    "model": "gpt-4o",
+    "temperature": 0.7
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "sample_id": "scenario_098_formal_template",
+  "whisper_transcript": "58세 여성 환자는 심각한 Hemolytic Uremic Syndrome 입원하였다. 활력증 후로는 혈압이 98,65mmg, 심박수가 10bpm, 호흡수가 24breathmin, 체온이 37.87 oz, 산소포화도가 92%로 확인되었다. 환자는 심한 피로감을 호소하였다. Methylprednisolone 500mg이 IV로 12시간마다 투여되고 있다. 환자는 Nasal Cannula를 통해 산소를 공급받고 있으며 C-Line이 삽입되어 있다. 체액균형은 음성으로 나타난다. 임상상태는 졸린 상태이다. 추가적인 치료 관리를 위해 혈액내과에 보고하였다.",
+  "stt_metadata": {
+    "model": "whisper-1",
+    "language": "ko"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "patient_context": "A 73-year-old male patient admitted with acute respiratory failure due to aspiration pneumonia.",
+  "vital_signs": {
+    "BP": "110/70",
+    "HR": "95",
+    "RR": "28",
+    "BT": "37.8",
+    "SpO2": "88% on room air"
+  },
+  "symptom": {
+    "name": "cough",
+    "negation": false,
+    "severity": "moderate"
+  },
+  "medication": {
+    "name": "Piperacillin-tazobactam",
+    "dose": "4.5g",
+    "route": "IV",
+    "frequency": "q8h"
+  },
+  "oxygen_support": "High-flow nasal cannula",
+  "intervention": null,
+  "device": "ventilator",
+  "io": "positive fluid balance",
+  "clinical_status": "drowsy",
+  "notification": "Pulmonologist notified of patient's respiratory status.",
+  "scenario_id": "scenario_085"
+}

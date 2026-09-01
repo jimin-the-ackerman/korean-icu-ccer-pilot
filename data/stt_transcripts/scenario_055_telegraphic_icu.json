@@ -1,0 +1,8 @@
+{
+  "sample_id": "scenario_055_telegraphic_icu",
+  "whisper_transcript": "53세 여성, acute hemolytic anemia로 입원. BP 처리베어키, RRBR, BT 설치베이트 1, SbO2-90Y-propescent onto a nasal cannula. Severe fatigue, furosemide 40mg IV-Q2H. Nasal cannula 적용 중. Compatible blood transfusion 실시. Input 10mm, output on debounded miller. Drowsy 상태. Hematology team notify.",
+  "stt_metadata": {
+    "model": "whisper-1",
+    "language": "ko"
+  }
+}

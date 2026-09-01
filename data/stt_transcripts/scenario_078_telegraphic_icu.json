@@ -1,0 +1,8 @@
+{
+  "sample_id": "scenario_078_telegraphic_icu",
+  "whisper_transcript": "66세 여성, 심한 폐혈증 및 괴사성 근막염, BP 88,5mmHg, HR 120bpm, R28 Breath to Min, BT 39.G, SbO2 90% on 15l O2 via non-rebreather mask, Pain severe, vancomycin 1g IV Q12H, High flow O2 therapy 시행중, Surgical debridement scheduled, Foley catheter in place, IO positive balance, 환자졸림상태, 아이디 및 외과팀 notifiam.",
+  "stt_metadata": {
+    "model": "whisper-1",
+    "language": "ko"
+  }
+}

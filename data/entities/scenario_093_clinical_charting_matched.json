@@ -1,0 +1,120 @@
+{
+  "sample_id": "scenario_093_clinical_charting",
+  "closed_vocab_matches": [
+    {
+      "entity_type": "route",
+      "gold_value": "iv",
+      "whisper_value": null,
+      "match_status": "omission",
+      "error_type": "omission"
+    },
+    {
+      "entity_type": "frequency",
+      "gold_value": "tid",
+      "whisper_value": null,
+      "match_status": "omission",
+      "error_type": "omission"
+    },
+    {
+      "entity_type": "device",
+      "gold_value": "c-line",
+      "whisper_value": "c-line",
+      "match_status": "matched",
+      "error_type": null
+    },
+    {
+      "entity_type": "device",
+      "gold_value": "nc",
+      "whisper_value": "nc",
+      "match_status": "matched",
+      "error_type": null
+    },
+    {
+      "entity_type": "dose",
+      "gold_value": "8mcgmin",
+      "whisper_value": "20ml",
+      "match_status": "error",
+      "error_type": "numeric_error"
+    },
+    {
+      "entity_type": "vital_sign",
+      "label": "bp",
+      "gold_value": "85/50",
+      "whisper_value": "85",
+      "match_status": "error",
+      "error_type": "numeric_error"
+    },
+    {
+      "entity_type": "vital_sign",
+      "label": "hr",
+      "gold_value": "120",
+      "whisper_value": "100",
+      "match_status": "error",
+      "error_type": "numeric_error"
+    },
+    {
+      "entity_type": "vital_sign",
+      "label": "rr",
+      "gold_value": "24",
+      "whisper_value": null,
+      "match_status": "omission",
+      "error_type": "omission"
+    },
+    {
+      "entity_type": "vital_sign",
+      "label": "bt",
+      "gold_value": "36.8",
+      "whisper_value": "36.8",
+      "match_status": "matched",
+      "error_type": null
+    },
+    {
+      "entity_type": "vital_sign",
+      "label": "spo2",
+      "gold_value": "89%",
+      "whisper_value": "80.9%",
+      "match_status": "error",
+      "error_type": "numeric_error"
+    }
+  ],
+  "open_vocab_matches": {
+    "symptom_matches": [
+      {
+        "gold_value": "abdominal pain",
+        "whisper_value": "Abdominal Pain",
+        "match_basis": "exact",
+        "negation_match": true,
+        "severity_match": true
+      }
+    ],
+    "whisper_only_symptoms": [],
+    "clinical_status_match": {
+      "gold_value": "drowsy",
+      "whisper_value": "Drowsy",
+      "match_basis": "exact"
+    },
+    "medication_identity_match": {
+      "gold_value": "norepinephrine",
+      "whisper_value": "Norepinephrine",
+      "match_basis": "exact"
+    },
+    "intervention_matches": [
+      {
+        "gold_value": "emergency surgical repair",
+        "whisper_value": "Emergency Surgical Repair 계획",
+        "match_basis": "exact"
+      }
+    ],
+    "whisper_only_interventions": [],
+    "intake_output_match": {
+      "gold_value": "urine output 20 mL/hr",
+      "whisper_value": "Urine Output 20mL 확인",
+      "match_basis": "normalized"
+    },
+    "notification_match": {
+      "gold_value": "vascular surgery team notified for urgent intervention",
+      "whisper_value": "Vascular Surgery Team Notify함",
+      "match_basis": "normalized"
+    }
+  }
+}

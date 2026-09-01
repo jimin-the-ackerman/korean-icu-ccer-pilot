@@ -1,0 +1,117 @@
+{
+  "sample_id": "scenario_088_clinical_charting",
+  "gold_entities": {
+    "route": [
+      {
+        "raw": "IV",
+        "normalized": "iv",
+        "position": 202
+      }
+    ],
+    "frequency": [
+      {
+        "raw": "STAT",
+        "normalized": "stat",
+        "position": 205
+      }
+    ],
+    "device": [],
+    "vital_sign": [
+      {
+        "raw": "BP 112/70",
+        "label": "bp",
+        "value": "112/70",
+        "position": 64
+      },
+      {
+        "raw": "HR 105",
+        "label": "hr",
+        "value": "105",
+        "position": 80
+      },
+      {
+        "raw": "RR 22",
+        "label": "rr",
+        "value": "22",
+        "position": 92
+      },
+      {
+        "raw": "BT 37.8",
+        "label": "bt",
+        "value": "37.8",
+        "position": 111
+      },
+      {
+        "raw": "SpO2 95%",
+        "label": "spo2",
+        "value": "95%",
+        "position": 122
+      }
+    ],
+    "dose": [
+      {
+        "raw": "300 mg",
+        "value": "300",
+        "unit": "mg",
+        "position": 192
+      },
+      {
+        "raw": "500 mL",
+        "value": "500",
+        "unit": "ml",
+        "position": 239
+      }
+    ]
+  },
+  "whisper_entities": {
+    "route": [
+      {
+        "raw": "IV",
+        "normalized": "iv",
+        "position": 194
+      }
+    ],
+    "frequency": [
+      {
+        "raw": "stat",
+        "normalized": "stat",
+        "position": 197
+      }
+    ],
+    "device": [],
+    "vital_sign": [
+      {
+        "raw": "BP 170",
+        "label": "bp",
+        "value": "170",
+        "position": 63
+      },
+      {
+        "raw": "HR 1.5",
+        "label": "hr",
+        "value": "1.5",
+        "position": 73
+      }
+    ],
+    "dose": [
+      {
+        "raw": "170mg",
+        "value": "170",
+        "unit": "mg",
+        "position": 66
+      },
+      {
+        "raw": "100mg",
+        "value": "100",
+        "unit": "mg",
+        "position": 181
+      },
+      {
+        "raw": "500mg",
+        "value": "500",
+        "unit": "mg",
+        "position": 230
+      }
+    ]
+  }
+}

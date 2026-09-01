@@ -1,0 +1,11 @@
+{
+  "sample_id": "scenario_064_formal_template",
+  "scenario_id": "scenario_064",
+  "document_type": "ICU_observation",
+  "style_condition": "formal_template",
+  "text": "환자 기록: 65세 여성 환자가 흡인성 폐렴에 이차적으로 급성 호흡곤란 증후군(ARDS)으로 입원하였다. 활력 징후는 혈압 110/70 mmHg, 심박수 95 bpm, 호흡수 30 회/분, 체온 37.8°C, 실내 공기에서 산소포화도 85%로 확인되었다. 환자는 심한 정도의 호흡곤란을 호소하였다. 환자는 Ceftriaxone 2g을 IV로 12시간마다 투여받고 있다. 기계적 환기를 위해 환자는 ventilator를 사용 중이며, 체액 균형은 양성으로 나타났다. 현재 임상 상태는 혼미함으로 평가되었다.",
+  "generation_metadata": {
+    "model": "gpt-4o",
+    "temperature": 0.7
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "patient_context": "A 74-year-old female patient admitted with spontaneous bacterial peritonitis (SBP) secondary to cirrhosis.",
+  "vital_signs": {
+    "BP": "100/60 mmHg",
+    "HR": "98 bpm",
+    "RR": "24 breaths/min",
+    "BT": "37.8°C",
+    "SpO2": "92% on room air"
+  },
+  "symptom": {
+    "name": "abdominal pain",
+    "negation": false,
+    "severity": "moderate"
+  },
+  "medication": {
+    "name": "ceftriaxone",
+    "dose": "2g",
+    "route": "IV",
+    "frequency": "q12h"
+  },
+  "oxygen_support": "nasal cannula at 2 L/min",
+  "intervention": null,
+  "device": "Foley",
+  "io": "strict input/output monitoring",
+  "clinical_status": "drowsy",
+  "notification": "Informed physician about decreased urine output and abdominal distension.",
+  "scenario_id": "scenario_063"
+}

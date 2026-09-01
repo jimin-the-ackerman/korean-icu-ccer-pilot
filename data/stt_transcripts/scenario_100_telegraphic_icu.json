@@ -1,0 +1,8 @@
+{
+  "sample_id": "scenario_100_telegraphic_icu",
+  "whisper_transcript": "68세 남성 급성장 폐쇄구심 bp 9886 hr 112 rr 24 breaths min bt 37.8 decelsin sp o2 95% room air abdominal pain severe morphine 4 milligram iv q4 h ng tubes habip them nasogastric decompression xiang them urine output comes o h gandwan drowsy surgical team notify",
+  "stt_metadata": {
+    "model": "whisper-1",
+    "language": "ko"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "sample_id": "scenario_062_clinical_charting",
+  "whisper_transcript": "44세 남은 severe pulmonary embolism으로 입원함. BP 90-60mmHg HR-5BPM RR Archipipe Breast Tumor Bt77.EG SpO2 86% on room air. Severe chest pain 호소함. Heparin Vol-10 units IV-Q4H 적용함. High flow nasal cannula 적용함. C-line 유지함. Negative fluid balance 확인됨. Drowsy 상태 확인됨. 담당해 notify함. Decreased SpO2 tachycardia.",
+  "stt_metadata": {
+    "model": "whisper-1",
+    "language": "ko"
+  }
+}

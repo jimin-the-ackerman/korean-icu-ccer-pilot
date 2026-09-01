@@ -1,0 +1,8 @@
+{
+  "sample_id": "scenario_060_clinical_charting",
+  "whisper_transcript": "77세 남성, Parkinson's disease acute exacerbation으로 입원. BP 145mmHg, HR 85b침. BT 37.2, SpO2 95%. Rigidity severe 확인됨. Levodop 100mg Ti 적용함. Foley 유지함, IOT 7m24 기록됨. Clinical status drowsy 확인됨.",
+  "stt_metadata": {
+    "model": "whisper-1",
+    "language": "ko"
+  }
+}

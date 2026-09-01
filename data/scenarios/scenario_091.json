@@ -1,0 +1,28 @@
+{
+  "patient_context": "A 64-year-old female patient admitted with acute respiratory failure due to pulmonary fibrosis exacerbation.",
+  "vital_signs": {
+    "BP": "125/80",
+    "HR": "96",
+    "RR": "28",
+    "BT": "37.6",
+    "SpO2": "88% on room air"
+  },
+  "symptom": {
+    "name": "dyspnea",
+    "negation": false,
+    "severity": "severe"
+  },
+  "medication": {
+    "name": "Prednisone",
+    "dose": "40 mg",
+    "route": "PO",
+    "frequency": "BID"
+  },
+  "oxygen_support": "High-flow nasal cannula",
+  "intervention": "Initiated corticosteroid therapy",
+  "device": "ventilator",
+  "io": null,
+  "clinical_status": "drowsy",
+  "notification": null,
+  "scenario_id": "scenario_091"
+}

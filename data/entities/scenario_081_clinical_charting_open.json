@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_081_clinical_charting",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "dyspnea",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "drowsy",
+    "medication_identity": "Furosemide",
+    "interventions": [],
+    "intake_output": "Negative fluid balance 500 mL",
+    "notification": "Cardiology team notify함"
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "dyspnea",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "drowsy",
+    "medication_identity": "Furosemide",
+    "interventions": [],
+    "intake_output": "negative fluid balance 500ml",
+    "notification": "Cardiology team notify함"
+  }
+}

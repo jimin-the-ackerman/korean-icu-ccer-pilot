@@ -1,0 +1,11 @@
+{
+  "sample_id": "scenario_054_clinical_charting",
+  "scenario_id": "scenario_054",
+  "document_type": "ICU_observation",
+  "style_condition": "clinical_charting",
+  "text": "55세 여성, subarachnoid hemorrhage로 입원함.  \nBP 160/90 mmHg, HR 95 bpm, RR 22 breaths/min, BT 36.8°C, SpO2 92% (room air) 확인됨.  \nSevere headache 호소함.  \nNimodipine 60 mg PO q4h 투여 중.  \nNasal cannula at 3 L/min 적용함.  \nC-line 유지함.  \nDrowsy 상태 확인됨.  \nNeurology team notify함.",
+  "generation_metadata": {
+    "model": "gpt-4o",
+    "temperature": 0.7
+  }
+}

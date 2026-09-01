@@ -1,0 +1,41 @@
+{
+  "sample_id": "scenario_069_telegraphic_icu",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "unconsciousness",
+        "negation": false,
+        "severity": "severe"
+      },
+      {
+        "name": "unresponsive",
+        "negation": false,
+        "severity": null
+      }
+    ],
+    "clinical_status": "Severe unconsciousness, Unresponsive",
+    "medication_identity": "Naloxone",
+    "interventions": [],
+    "intake_output": null,
+    "notification": null
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "unconsciousness",
+        "negation": false,
+        "severity": "severe"
+      },
+      {
+        "name": "unresponsive",
+        "negation": false,
+        "severity": null
+      }
+    ],
+    "clinical_status": null,
+    "medication_identity": "날록소",
+    "interventions": [],
+    "intake_output": null,
+    "notification": null
+  }
+}

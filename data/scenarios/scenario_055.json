@@ -1,0 +1,28 @@
+{
+  "patient_context": "A 53-year-old female patient admitted with acute hemolytic anemia following an incompatible blood transfusion.",
+  "vital_signs": {
+    "BP": "90/60",
+    "HR": "120",
+    "RR": "22",
+    "BT": "38.1",
+    "SpO2": "95% on 2L nasal cannula"
+  },
+  "symptom": {
+    "name": "fatigue",
+    "negation": false,
+    "severity": "severe"
+  },
+  "medication": {
+    "name": "Furosemide",
+    "dose": "40 mg",
+    "route": "IV",
+    "frequency": "q12h"
+  },
+  "oxygen_support": "Nasal cannula",
+  "intervention": "Transfusion of compatible blood",
+  "device": null,
+  "io": "Input: 1000 mL, Output: 1200 mL",
+  "clinical_status": "drowsy",
+  "notification": "Hematology team notified for further management and monitoring.",
+  "scenario_id": "scenario_055"
+}

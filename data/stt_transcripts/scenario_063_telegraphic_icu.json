@@ -1,0 +1,8 @@
+{
+  "sample_id": "scenario_063_telegraphic_icu",
+  "whisper_transcript": "태규스 포세, 요원, BP1. BP, 케비릭블링, 하이치, 콰이팸, 뷰아더, 나니스, 서디체뽕, 에이딧스티에스, 프로쿠르페르틴, RA. 모더릿 업도미놀, 페인, 세프트리약슨, 투그램아이비큐, 노웨치, 엔씨투, 폴리유지, 스트릭다이오, 드라우지, 닥노디파이.",
+  "stt_metadata": {
+    "model": "whisper-1",
+    "language": "ko"
+  }
+}

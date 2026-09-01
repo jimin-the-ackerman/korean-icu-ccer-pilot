@@ -1,0 +1,8 @@
+{
+  "sample_id": "scenario_092_clinical_charting",
+  "whisper_transcript": "54세 남아한, 아큐트 팬크리아티스로 입원. 원인, 하이퍼파이트로이드즘. BP 35-85mg, HR 100bpm, RR 20bpm, BT 37.8, SPU 90% room air, severe abdominal pain 호소함, pentaprazole 40mg IV 적용함, NG 튜브 유지함, 의식상태 알러지 확인됨, 엔드크로놀리지 컨설트 위에 담당해 노티파엄.",
+  "stt_metadata": {
+    "model": "whisper-1",
+    "language": "ko"
+  }
+}

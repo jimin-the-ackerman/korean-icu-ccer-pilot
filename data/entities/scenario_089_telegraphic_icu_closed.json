@@ -1,0 +1,133 @@
+{
+  "sample_id": "scenario_089_telegraphic_icu",
+  "gold_entities": {
+    "route": [
+      {
+        "raw": "PO",
+        "normalized": "po",
+        "position": 160
+      }
+    ],
+    "frequency": [
+      {
+        "raw": "BID",
+        "normalized": "bid",
+        "position": 163
+      }
+    ],
+    "device": [
+      {
+        "raw": "Foley",
+        "normalized": "foley",
+        "position": 193
+      },
+      {
+        "raw": "Nasal cannula",
+        "normalized": "nc",
+        "position": 169
+      }
+    ],
+    "vital_sign": [
+      {
+        "raw": "BP 92/58",
+        "label": "bp",
+        "value": "92/58",
+        "position": 38
+      },
+      {
+        "raw": "HR 115",
+        "label": "hr",
+        "value": "115",
+        "position": 54
+      },
+      {
+        "raw": "RR 24",
+        "label": "rr",
+        "value": "24",
+        "position": 67
+      },
+      {
+        "raw": "BT 37.2",
+        "label": "bt",
+        "value": "37.2",
+        "position": 87
+      },
+      {
+        "raw": "SpO2 89%",
+        "label": "spo2",
+        "value": "89%",
+        "position": 99
+      }
+    ],
+    "dose": [
+      {
+        "raw": "100 mg",
+        "value": "100",
+        "unit": "mg",
+        "position": 153
+      },
+      {
+        "raw": "3 L/min",
+        "value": "3",
+        "unit": "l/min",
+        "position": 183
+      },
+      {
+        "raw": "500 ml",
+        "value": "500",
+        "unit": "ml",
+        "position": 224
+      }
+    ]
+  },
+  "whisper_entities": {
+    "route": [],
+    "frequency": [],
+    "device": [
+      {
+        "raw": "Foley",
+        "normalized": "foley",
+        "position": 162
+      },
+      {
+        "raw": "nasal cannula",
+        "normalized": "nc",
+        "position": 145
+      }
+    ],
+    "vital_sign": [
+      {
+        "raw": "BP 92",
+        "label": "bp",
+        "value": "92",
+        "position": 30
+      },
+      {
+        "raw": "BT 37.2",
+        "label": "bt",
+        "value": "37.2",
+        "position": 66
+      },
+      {
+        "raw": "SpO2 89%",
+        "label": "spo2",
+        "value": "89%",
+        "position": 77
+      }
+    ],
+    "dose": [
+      {
+        "raw": "100mg",
+        "value": "100",
+        "unit": "mg",
+        "position": 132
+      },
+      {
+        "raw": "500mL",
+        "value": "500",
+        "unit": "ml",
+        "position": 192
+      }
+    ]
+  }
+}

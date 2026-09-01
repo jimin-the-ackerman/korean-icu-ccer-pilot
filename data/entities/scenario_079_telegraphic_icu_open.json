@@ -1,0 +1,41 @@
+{
+  "sample_id": "scenario_079_telegraphic_icu",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "abdominal pain",
+        "negation": false,
+        "severity": "severe"
+      },
+      {
+        "name": "bloody diarrhea",
+        "negation": false,
+        "severity": null
+      }
+    ],
+    "clinical_status": "Alert",
+    "medication_identity": "Methylprednisolone",
+    "interventions": [],
+    "intake_output": "I/O strict",
+    "notification": null
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "abdominal pain",
+        "negation": false,
+        "severity": "severe"
+      },
+      {
+        "name": "bloody diarrhea",
+        "negation": false,
+        "severity": null
+      }
+    ],
+    "clinical_status": "Alert",
+    "medication_identity": "Methylprednisolone",
+    "interventions": [],
+    "intake_output": "IO strict",
+    "notification": null
+  }
+}

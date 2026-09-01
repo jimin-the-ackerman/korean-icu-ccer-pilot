@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_089_telegraphic_icu",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "ascites",
+        "negation": false,
+        "severity": "moderate"
+      }
+    ],
+    "clinical_status": "Drowsy",
+    "medication_identity": "Spironolactone",
+    "interventions": [],
+    "intake_output": "Negative fluid balance 500 ml",
+    "notification": "Hepatology team notify"
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "ascites",
+        "negation": false,
+        "severity": "moderate"
+      }
+    ],
+    "clinical_status": "drowsy",
+    "medication_identity": "spironolactone",
+    "interventions": [],
+    "intake_output": "negative fluid balance 500mL",
+    "notification": "Hepatology team notify"
+  }
+}

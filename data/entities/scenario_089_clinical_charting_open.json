@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_089_clinical_charting",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "ascites",
+        "negation": false,
+        "severity": "moderate"
+      }
+    ],
+    "clinical_status": "drowsy",
+    "medication_identity": "Spironolactone",
+    "interventions": [],
+    "intake_output": "negative fluid balance 500 ml",
+    "notification": "Hepatology team notify함"
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "ascites",
+        "negation": false,
+        "severity": "moderate"
+      }
+    ],
+    "clinical_status": "drowsy",
+    "medication_identity": "Spironolactone",
+    "interventions": [],
+    "intake_output": "negative fluid balance 500ml",
+    "notification": "Hepatology 팀 notify함"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "sample_id": "scenario_078_telegraphic_icu",
+  "scenario_id": "scenario_078",
+  "document_type": "ICU_observation",
+  "style_condition": "telegraphic_icu",
+  "text": "66세 여성, 심한 패혈증 및 괴사성 근막염.\n\nBP 88/54 mmHg.  \nHR 120 bpm.  \nRR 28 breaths/min.  \nBT 39.0°C.  \nSpO2 90% on 15L O2 via non-rebreather mask.\n\nPain severe.  \n\nVancomycin 1g IV q12h.  \n\nHigh-flow O2 therapy 시행 중.  \n\nSurgical debridement scheduled.  \n\nFoley catheter in place.\n\nI/O positive balance.  \n\n환자 졸림 상태.  \n\nID 및 외과팀 notify함.",
+  "generation_metadata": {
+    "model": "gpt-4o",
+    "temperature": 0.7
+  }
+}

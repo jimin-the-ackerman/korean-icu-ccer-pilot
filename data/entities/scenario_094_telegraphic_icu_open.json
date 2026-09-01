@@ -1,0 +1,35 @@
+{
+  "sample_id": "scenario_094_telegraphic_icu",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "hematemesis",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "Drowsy",
+    "medication_identity": "Pantoprazole",
+    "interventions": [
+      "Endoscopic hemostasis"
+    ],
+    "intake_output": "Negative fluid balance",
+    "notification": "Gastroenterology team notify"
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "출혈",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "Drowsy",
+    "medication_identity": "Pantoprazole",
+    "interventions": [
+      "Endoscopic Hemostasis"
+    ],
+    "intake_output": "Negative fluid balance",
+    "notification": "Gastroenterology team notify"
+  }
+}

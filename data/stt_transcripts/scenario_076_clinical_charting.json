@@ -1,0 +1,8 @@
+{
+  "sample_id": "scenario_076_clinical_charting",
+  "whisper_transcript": "35세 여성 환자 Hypermesis Gravidarum으로 인한 심한 탈수로 아큐 키드니 인이에 입원함. BP 92.6백 배미 비트허그그린 HR 100 식 BPM RRC-BUTT BT 36.8 AIR PIG BAIT SBO2 96.6% SEVERE NAUSEA 호소함 ONDENSITRON 8mg IV QE8H 적용함 IV FLUID RESUSCITATION WITH NORMAL SALINE 시행함 FOLEY 유지함 NEGATIVE FLUID BALANCE 확인됨 DROWSY 상태 관찰됨 NEPHROLOGY TEAM NOTIFIAM",
+  "stt_metadata": {
+    "model": "whisper-1",
+    "language": "ko"
+  }
+}

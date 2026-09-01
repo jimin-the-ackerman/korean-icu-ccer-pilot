@@ -1,0 +1,11 @@
+{
+  "sample_id": "scenario_055_formal_template",
+  "scenario_id": "scenario_055",
+  "document_type": "ICU_observation",
+  "style_condition": "formal_template",
+  "text": "53세 여성 환자가 부적합한 수혈 후 급성 용혈성 빈혈로 입원하였다. 활력징후를 확인한 결과 혈압은 90/60 mmHg, 심박수는 120 bpm, 호흡수는 22 bpm, 체온은 38.1°C였으며, 산소포화도는 2L의 Nasal cannula로 95%로 확인되었다. 환자는 심한 피로를 호소하였다. Furosemide 40 mg을 IV로 12시간마다 투여 중이다. 환자는 Nasal cannula를 통한 산소 공급을 받고 있으며, 호환 가능한 혈액으로 수혈이 진행되었다. 수액의 출입량으로는 입력 1000 mL, 출력 1200 mL가 기록되었다. 환자는 의식이 혼미한 상태이다. 추가적인 관리와 모니터링을 위해 혈액학 팀에게 보고하였다.",
+  "generation_metadata": {
+    "model": "gpt-4o",
+    "temperature": 0.7
+  }
+}

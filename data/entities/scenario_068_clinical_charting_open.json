@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_068_clinical_charting",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "abdominal pain",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "drowsy",
+    "medication_identity": "Metronidazole",
+    "interventions": [],
+    "intake_output": "Negative fluid balance 확인됨",
+    "notification": null
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "severe abdominal pain",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "drowsy",
+    "medication_identity": "Metronidazole",
+    "interventions": [],
+    "intake_output": "Negative fluid balance 확인됨",
+    "notification": null
+  }
+}

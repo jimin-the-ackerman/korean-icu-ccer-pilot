@@ -1,0 +1,33 @@
+{
+  "sample_id": "scenario_051_formal_template",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "복통",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "의식 명료",
+    "medication_identity": "Morphine",
+    "interventions": [
+      "금식"
+    ],
+    "intake_output": "수분 출납 음성",
+    "notification": "추가 평가와 관리를 위해 소화기 내과 팀에게 보고하였다."
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "복통",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "의식이 명료하다",
+    "medication_identity": "Morphine",
+    "interventions": [],
+    "intake_output": "수분출납은 음성이다",
+    "notification": "추가평가와 관리를 위해 소아기내과팀에게 보고하였다"
+  }
+}

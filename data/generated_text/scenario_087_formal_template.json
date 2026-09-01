@@ -1,0 +1,11 @@
+{
+  "sample_id": "scenario_087_formal_template",
+  "scenario_id": "scenario_087",
+  "document_type": "ICU_observation",
+  "style_condition": "formal_template",
+  "text": "45세 남성 환자가 발의 자상 후 심한 tetanus로 입원하였다. 활력징후로는 혈압이 140/90 mmHg, 심박수가 110 bpm, 호흡수가 32 breaths/min, 체온이 38.5°C이며, 산소포화도는 실내 공기에서 92%로 확인되었다. 환자는 심한 muscle spasms를 호소하고 있으며, 의식 상태는 drowsy로 관찰되었다. 환자는 diazepam 10 mg을 IV로 8시간 간격으로 투여받고 있으며, 산소 보조로는 nasal cannula를 통해 2 L/min으로 공급받고 있다. 상처 부위에 대한 wound debridement가 시행되었고, NG tube가 삽입되었다. I/O는 strict monitoring 중이다. muscle spasms 관리에 대해 neurology에 상담하였다.",
+  "generation_metadata": {
+    "model": "gpt-4o",
+    "temperature": 0.7
+  }
+}

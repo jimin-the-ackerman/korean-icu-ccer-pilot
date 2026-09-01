@@ -1,0 +1,28 @@
+{
+  "patient_context": "A 57-year-old female patient admitted with acute exacerbation of multiple sclerosis, presenting with severe motor weakness and sensory disturbances.",
+  "vital_signs": {
+    "BP": "130/85",
+    "HR": "95",
+    "RR": "20",
+    "BT": "37.5°C",
+    "SpO2": "93% on room air"
+  },
+  "symptom": {
+    "name": "motor weakness",
+    "negation": false,
+    "severity": "severe"
+  },
+  "medication": {
+    "name": "methylprednisolone",
+    "dose": "1g",
+    "route": "IV",
+    "frequency": "q12h"
+  },
+  "oxygen_support": null,
+  "intervention": null,
+  "device": null,
+  "io": "adequate urine output",
+  "clinical_status": "drowsy",
+  "notification": null,
+  "scenario_id": "scenario_090"
+}

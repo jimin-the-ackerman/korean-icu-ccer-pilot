@@ -1,0 +1,11 @@
+{
+  "sample_id": "scenario_078_clinical_charting",
+  "scenario_id": "scenario_078",
+  "document_type": "ICU_observation",
+  "style_condition": "clinical_charting",
+  "text": "66세 여성 환자, necrotizing fasciitis로 인한 severe sepsis로 입원함.\n\nBP 88/54 mmHg\nHR 120 bpm\nRR 28 breaths/min\nBT 39.0°C\nSpO2 90% on 15L O2 via non-rebreather mask\n\nSevere pain 호소함.\n\nVancomycin 1g IV q12h 투여 중.\n\nHigh-flow oxygen therapy 적용함.\n\nSurgical debridement scheduled.\n\nFoley 유지 중.\n\nPositive balance 확인됨.\n\nDrowsy 상태.\n\nInfectious Disease와 Surgical teams notify함.",
+  "generation_metadata": {
+    "model": "gpt-4o",
+    "temperature": 0.7
+  }
+}

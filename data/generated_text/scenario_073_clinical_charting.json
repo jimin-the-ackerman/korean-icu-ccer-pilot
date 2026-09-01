@@ -1,0 +1,11 @@
+{
+  "sample_id": "scenario_073_clinical_charting",
+  "scenario_id": "scenario_073",
+  "document_type": "ICU_observation",
+  "style_condition": "clinical_charting",
+  "text": "62세 남자 환자, acute pulmonary edema로 입원함. 심한 mitral valve regurgitation 배경.\n\nBP 110/70 mmHg, HR 98 bpm, RR 28 breaths/min, BT 36.8°C, SpO2 88% on room air.\n\nSevere shortness of breath 호소함.\n\nFurosemide 40 mg IV q8h 투여함.\n\nNon-rebreather mask at 15 L/min 적용함.\n\nFoley 유지함.\n\nPositive fluid balance 200 mL over the last 24 hours 확인됨.\n\n환자 alert 상태.",
+  "generation_metadata": {
+    "model": "gpt-4o",
+    "temperature": 0.7
+  }
+}

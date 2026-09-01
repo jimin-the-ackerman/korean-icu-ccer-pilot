@@ -1,0 +1,38 @@
+{
+  "sample_id": "scenario_080_formal_template",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "황달",
+        "negation": false,
+        "severity": "severe"
+      },
+      {
+        "name": "저산소증",
+        "negation": false,
+        "severity": null
+      }
+    ],
+    "clinical_status": "졸린 상태",
+    "medication_identity": "Furosemide",
+    "interventions": [
+      "간 전문의 상담 요청"
+    ],
+    "intake_output": "체액 균형 음성",
+    "notification": "간 기능 악화로 인해 간 전문의 상담이 요청되었다."
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "황달",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "졸린 상태",
+    "medication_identity": "Furosemide",
+    "interventions": [],
+    "intake_output": "체액균형 음성",
+    "notification": "간기능 악화로 인해 간전문의 상담이 요청되었다."
+  }
+}

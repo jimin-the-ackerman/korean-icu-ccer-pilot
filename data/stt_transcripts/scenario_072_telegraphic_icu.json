@@ -1,0 +1,8 @@
+{
+  "sample_id": "scenario_072_telegraphic_icu",
+  "whisper_transcript": "67센 암성, 급성 괴양성 대장염, 심각한 복부 아픔, 혈압, 다이어트, BP 90, 60mHg, HR 110b, RR 24, B37.8b, SPO 200%RA, Hydrocortisone 100, Milium IV, Q6, IV Fluid Resuscitation, Negative Fluid Balance Alert.",
+  "stt_metadata": {
+    "model": "whisper-1",
+    "language": "ko"
+  }
+}

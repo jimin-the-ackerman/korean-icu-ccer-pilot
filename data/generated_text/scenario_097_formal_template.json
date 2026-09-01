@@ -1,0 +1,11 @@
+{
+  "sample_id": "scenario_097_formal_template",
+  "scenario_id": "scenario_097",
+  "document_type": "ICU_observation",
+  "style_condition": "formal_template",
+  "text": "63세 여자 환자가 급성 수막구균성 수막염으로 입원하였다. 활력징후로는 혈압 110/70 mmHg, 심박수 98 bpm, 호흡수 22 회/분, 체온 39.5도, 산소포화도 95%로 확인되었다. 환자는 심한 두통을 호소하였다. 약물로는 Ceftriaxone 2g을 IV로 12시간마다 투여하였다. 현재 C-line이 삽입되어 있으며, 임상 상태는 기면 상태이다.",
+  "generation_metadata": {
+    "model": "gpt-4o",
+    "temperature": 0.7
+  }
+}

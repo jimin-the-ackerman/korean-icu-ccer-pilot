@@ -1,0 +1,28 @@
+{
+  "patient_context": "A 58-year-old female patient admitted with severe hemolytic uremic syndrome (HUS).",
+  "vital_signs": {
+    "BP": "98/65",
+    "HR": "110",
+    "RR": "24",
+    "BT": "37.8",
+    "SpO2": "92%"
+  },
+  "symptom": {
+    "name": "fatigue",
+    "negation": false,
+    "severity": "severe"
+  },
+  "medication": {
+    "name": "methylprednisolone",
+    "dose": "500 mg",
+    "route": "IV",
+    "frequency": "q12h"
+  },
+  "oxygen_support": "nasal cannula",
+  "intervention": null,
+  "device": "C-line",
+  "io": "negative fluid balance",
+  "clinical_status": "drowsy",
+  "notification": "Hematology consulted for further management.",
+  "scenario_id": "scenario_098"
+}

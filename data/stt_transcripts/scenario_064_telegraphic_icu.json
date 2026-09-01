@@ -1,0 +1,8 @@
+{
+  "sample_id": "scenario_064_telegraphic_icu",
+  "whisper_transcript": "65세 여성 AR-BPNAT7D HR95R30 BT37.8 글씨레스 SBO2 85% RSVSOB 세프트 리액션 2-GAM IV Q12H 메카니컬 벤틀레이션 벤틀레이터 사용 포지티브 플루이드 밸런스 스튜퍼러스",
+  "stt_metadata": {
+    "model": "whisper-1",
+    "language": "ko"
+  }
+}

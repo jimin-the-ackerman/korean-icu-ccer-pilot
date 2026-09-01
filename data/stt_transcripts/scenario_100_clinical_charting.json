@@ -1,0 +1,8 @@
+{
+  "sample_id": "scenario_100_clinical_charting",
+  "whisper_transcript": "68세 남성 환자, Suspected Acute Bowel Obstruction로 입원함. BP 95.6mm, R54 Breaths Min, BT 37.8°, SpO2 95% on room air, Severe Abdominal Pain, Morphine 4mg IV-Q4H 적용함. NG 튜블로 네소 가스트릭 디컴프레션 시행함. 30시간 동안 유런 아웃풋 감소 확인됨. 환자 드라우지 상태임, Surgical Team Notify함.",
+  "stt_metadata": {
+    "model": "whisper-1",
+    "language": "ko"
+  }
+}

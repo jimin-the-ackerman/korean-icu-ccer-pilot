@@ -1,0 +1,8 @@
+{
+  "sample_id": "scenario_082_clinical_charting",
+  "whisper_transcript": "58세 여성 환자, Severe Acute Pancreatitis로 이원함. BP, 맥사, 워블메이쳐, 면비르그르, HRM, RR, RGV, 브레이프스민, BT, 센티바이, 던유, 그레이스, 에스프레소, 퍼스넌, 룸웨어, Abdominal Pain, Severe 호소함. Morphine, 5mg IV, Q4H, 투여함. Pain Management, 적용함. Strict Input-Output Monitoring, 유지함. Clinical Status, Alert.",
+  "stt_metadata": {
+    "model": "whisper-1",
+    "language": "ko"
+  }
+}

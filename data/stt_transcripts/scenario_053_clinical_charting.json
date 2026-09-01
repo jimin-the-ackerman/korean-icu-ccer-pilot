@@ -1,0 +1,8 @@
+{
+  "sample_id": "scenario_053_clinical_charting",
+  "whisper_transcript": "60세 남성 환자 COPD 급성 악화 및 Hypercapnic Respiratory Failure로 입원함. BP 135, 85mm HRVR, Ashputt Breaths Min, BT Sanitizer Dendrites, SpO2, Pedibyte Percent on Room Air 확인됨. Severe Dyspnea 호소함. Prednisone 40mg PAD 적용함. Ventilator 통한 NIV Oxygen Support 유지함. Clinical Status Drowsy 확인됨. 담당 Pulmonologist Notify함.",
+  "stt_metadata": {
+    "model": "whisper-1",
+    "language": "ko"
+  }
+}

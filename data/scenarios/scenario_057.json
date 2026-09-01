@@ -1,0 +1,28 @@
+{
+  "patient_context": "A 58-year-old female patient admitted with acute exacerbation of rheumatoid arthritis, presenting with severe joint pain and swelling.",
+  "vital_signs": {
+    "BP": "134/82",
+    "HR": "88",
+    "RR": "18",
+    "BT": "37.6°C",
+    "SpO2": "96%"
+  },
+  "symptom": {
+    "name": "joint pain",
+    "negation": false,
+    "severity": "severe"
+  },
+  "medication": {
+    "name": "Methylprednisolone",
+    "dose": "125 mg",
+    "route": "IV",
+    "frequency": "q12h"
+  },
+  "oxygen_support": null,
+  "intervention": null,
+  "device": null,
+  "io": null,
+  "clinical_status": "alert",
+  "notification": null,
+  "scenario_id": "scenario_057"
+}

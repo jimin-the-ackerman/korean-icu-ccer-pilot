@@ -1,0 +1,28 @@
+{
+  "patient_context": "A 69-year-old female patient admitted with acute severe gastrointestinal bleeding secondary to peptic ulcer disease.",
+  "vital_signs": {
+    "BP": "85/55 mmHg",
+    "HR": "120 bpm",
+    "RR": "22 bpm",
+    "BT": "36.8°C",
+    "SpO2": "92% on room air"
+  },
+  "symptom": {
+    "name": "hematemesis",
+    "negation": false,
+    "severity": "severe"
+  },
+  "medication": {
+    "name": "Pantoprazole",
+    "dose": "80 mg",
+    "route": "IV",
+    "frequency": "q12h"
+  },
+  "oxygen_support": "nasal cannula at 2 L/min",
+  "intervention": "endoscopic hemostasis",
+  "device": "C-line",
+  "io": "negative fluid balance",
+  "clinical_status": "drowsy",
+  "notification": "Gastroenterology team notified for urgent endoscopy.",
+  "scenario_id": "scenario_094"
+}

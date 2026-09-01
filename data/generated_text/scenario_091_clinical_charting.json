@@ -1,0 +1,11 @@
+{
+  "sample_id": "scenario_091_clinical_charting",
+  "scenario_id": "scenario_091",
+  "document_type": "ICU_observation",
+  "style_condition": "clinical_charting",
+  "text": "64세 여자 환자, acute respiratory failure 입원.  \npulmonary fibrosis exacerbation 관련.  \n\nBP 125/80 mmHg.  \nHR 96 bpm.  \nRR 28회/min.  \nBT 37.6도.  \nSpO2 88% on room air.  \n\nDyspnea 심함.  \n\nPrednisone 40 mg PO BID 적용함.  \n\nHigh-flow nasal cannula 유지함.  \n\nCorticosteroid therapy 시작함.  \n\nVentilator 사용함.  \n\nClinical status: drowsy.",
+  "generation_metadata": {
+    "model": "gpt-4o",
+    "temperature": 0.7
+  }
+}

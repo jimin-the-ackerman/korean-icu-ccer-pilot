@@ -1,0 +1,28 @@
+{
+  "patient_context": "A 60-year-old male patient admitted with acute congestive heart failure secondary to hypertensive crisis.",
+  "vital_signs": {
+    "BP": "200/110 mmHg",
+    "HR": "110 bpm",
+    "RR": "24 breaths/min",
+    "BT": "37.4°C",
+    "SpO2": "88% on room air"
+  },
+  "symptom": {
+    "name": "dyspnea",
+    "negation": false,
+    "severity": "severe"
+  },
+  "medication": {
+    "name": "Furosemide",
+    "dose": "40 mg",
+    "route": "IV",
+    "frequency": "STAT"
+  },
+  "oxygen_support": "2L nasal cannula",
+  "intervention": null,
+  "device": "Foley",
+  "io": "Negative fluid balance of 500 mL",
+  "clinical_status": "drowsy",
+  "notification": "Cardiology team notified of hypertensive crisis and heart failure exacerbation.",
+  "scenario_id": "scenario_081"
+}

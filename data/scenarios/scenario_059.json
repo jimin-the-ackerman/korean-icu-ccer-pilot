@@ -1,0 +1,28 @@
+{
+  "patient_context": "A 46-year-old male patient admitted with severe sepsis secondary to a perforated diverticulitis.",
+  "vital_signs": {
+    "BP": "85/60 mmHg",
+    "HR": "125 bpm",
+    "RR": "28 breaths/min",
+    "BT": "39.0°C",
+    "SpO2": "89% on room air"
+  },
+  "symptom": {
+    "name": "abdominal pain",
+    "negation": false,
+    "severity": "severe"
+  },
+  "medication": {
+    "name": "Piperacillin/Tazobactam",
+    "dose": "4.5g",
+    "route": "IV",
+    "frequency": "q8h"
+  },
+  "oxygen_support": "high-flow nasal cannula",
+  "intervention": "fluid resuscitation",
+  "device": "C-line",
+  "io": "Positive fluid balance",
+  "clinical_status": "drowsy",
+  "notification": null,
+  "scenario_id": "scenario_059"
+}

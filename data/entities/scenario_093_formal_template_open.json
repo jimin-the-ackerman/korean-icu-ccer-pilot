@@ -1,0 +1,35 @@
+{
+  "sample_id": "scenario_093_formal_template",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "복부 통증",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "의식이 흐린 상태",
+    "medication_identity": "norepinephrine",
+    "interventions": [
+      "응급 수술적 복구 계획"
+    ],
+    "intake_output": "시간당 소변 배출량 20 mL",
+    "notification": "혈관외과 팀에게 긴급 개입을 위해 보고하였다"
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "복부 통증",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "의식이 흐린 상태",
+    "medication_identity": "norepinephrine",
+    "interventions": [
+      "응급 수술적 복구 계획"
+    ],
+    "intake_output": "시간당 소변 배출량 20ml",
+    "notification": "혈관외과팀에게 긴급 개입을 위해 보고하였다"
+  }
+}

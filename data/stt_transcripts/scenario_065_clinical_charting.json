@@ -1,0 +1,8 @@
+{
+  "sample_id": "scenario_065_clinical_charting",
+  "whisper_transcript": "56세 여성 환자, 텐으로 입원함, BP-7mg, HR-88pm, R-17bm, BP-38.0dx, SPR-97pm. SEVERE SKIN RASH 확인됨, Methylprednisolone-Retinol-15mg IV-Q-6n-HR-CM, IV Fluids 100ml per hour 유지함. 환자 알러트 상태 유지함.",
+  "stt_metadata": {
+    "model": "whisper-1",
+    "language": "ko"
+  }
+}

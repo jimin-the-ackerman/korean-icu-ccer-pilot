@@ -1,0 +1,8 @@
+{
+  "sample_id": "scenario_077_telegraphic_icu",
+  "whisper_transcript": "64세 여성, 급성 악화 만성 심장 탈수료 입원, BP 88, 56mmHRM, HR 100 BPM, RR22 Breaths Min, BT 36.8 Lysixius, SbO2 94% on 2L O2 NC, Moderate Weakness Present, Labetalol 10mg IV Q8H, Nasal Cannula O2 Support, Fluid Resuscitation Xing, Fully Catheters Habib, Positive Fluid Balance, Drowsy Sangtae, Renal Team Notify",
+  "stt_metadata": {
+    "model": "whisper-1",
+    "language": "ko"
+  }
+}

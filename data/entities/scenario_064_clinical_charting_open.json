@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_064_clinical_charting",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "shortness of breath",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "Stuporous",
+    "medication_identity": "Ceftriaxone",
+    "interventions": [],
+    "intake_output": "Positive fluid balance",
+    "notification": null
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "shortness of breath",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "stuporous",
+    "medication_identity": "Ceftriaxone",
+    "interventions": [],
+    "intake_output": "positive fluid balance",
+    "notification": null
+  }
+}

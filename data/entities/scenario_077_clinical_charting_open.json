@@ -1,0 +1,35 @@
+{
+  "sample_id": "scenario_077_clinical_charting",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "weakness",
+        "negation": false,
+        "severity": "moderate"
+      }
+    ],
+    "clinical_status": "drowsy",
+    "medication_identity": "Labetalol",
+    "interventions": [
+      "fluid resuscitation"
+    ],
+    "intake_output": "positive fluid balance",
+    "notification": "Renal team notify함 for dialysis evaluation"
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "Weakness",
+        "negation": false,
+        "severity": "moderate"
+      }
+    ],
+    "clinical_status": null,
+    "medication_identity": "레베틀롤",
+    "interventions": [
+      "Fluid Resuscitation"
+    ],
+    "intake_output": "Positive Fluid Balance",
+    "notification": null
+  }
+}

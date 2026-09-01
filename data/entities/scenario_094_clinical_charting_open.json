@@ -1,0 +1,35 @@
+{
+  "sample_id": "scenario_094_clinical_charting",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "hematemesis",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "drowsy",
+    "medication_identity": "Pantoprazole",
+    "interventions": [
+      "Endoscopic hemostasis"
+    ],
+    "intake_output": "Negative fluid balance 확인됨",
+    "notification": "Gastroenterology team notify함 for urgent endoscopy"
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "복통",
+        "negation": false,
+        "severity": null
+      }
+    ],
+    "clinical_status": "드라우지 상태",
+    "medication_identity": "Pantoprazole",
+    "interventions": [
+      "Endoscopic hemostasis"
+    ],
+    "intake_output": "Negative fluid balance 확인됨",
+    "notification": "gastroenterology team notify him for urgent endoscopy"
+  }
+}

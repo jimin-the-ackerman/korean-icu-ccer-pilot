@@ -1,0 +1,137 @@
+{
+  "sample_id": "scenario_096_clinical_charting",
+  "gold_entities": {
+    "route": [
+      {
+        "raw": "IV",
+        "normalized": "iv",
+        "position": 207
+      }
+    ],
+    "frequency": [
+      {
+        "raw": "BID",
+        "normalized": "bid",
+        "position": 210
+      }
+    ],
+    "device": [
+      {
+        "raw": "Foley",
+        "normalized": "foley",
+        "position": 250
+      },
+      {
+        "raw": "nasal cannula",
+        "normalized": "nc",
+        "position": 153
+      },
+      {
+        "raw": "nasal cannula",
+        "normalized": "nc",
+        "position": 230
+      }
+    ],
+    "vital_sign": [
+      {
+        "raw": "BP 160/90",
+        "label": "bp",
+        "value": "160/90",
+        "position": 48
+      },
+      {
+        "raw": "HR 110",
+        "label": "hr",
+        "value": "110",
+        "position": 66
+      },
+      {
+        "raw": "RR 28",
+        "label": "rr",
+        "value": "28",
+        "position": 80
+      },
+      {
+        "raw": "BT 37.0",
+        "label": "bt",
+        "value": "37.0",
+        "position": 101
+      },
+      {
+        "raw": "SpO2 88%",
+        "label": "spo2",
+        "value": "88%",
+        "position": 114
+      }
+    ],
+    "dose": [
+      {
+        "raw": "40 mg",
+        "value": "40",
+        "unit": "mg",
+        "position": 201
+      },
+      {
+        "raw": "500 mL",
+        "value": "500",
+        "unit": "ml",
+        "position": 287
+      }
+    ]
+  },
+  "whisper_entities": {
+    "route": [
+      {
+        "raw": "IV",
+        "normalized": "iv",
+        "position": 212
+      }
+    ],
+    "frequency": [
+      {
+        "raw": "BID",
+        "normalized": "bid",
+        "position": 215
+      }
+    ],
+    "device": [
+      {
+        "raw": "Foley",
+        "normalized": "foley",
+        "position": 255
+      },
+      {
+        "raw": "nasal cannula",
+        "normalized": "nc",
+        "position": 160
+      },
+      {
+        "raw": "nasal cannula",
+        "normalized": "nc",
+        "position": 236
+      }
+    ],
+    "vital_sign": [
+      {
+        "raw": "SpO2 80%",
+        "label": "spo2",
+        "value": "80%",
+        "position": 119
+      }
+    ],
+    "dose": [
+      {
+        "raw": "40mg",
+        "value": "40",
+        "unit": "mg",
+        "position": 207
+      },
+      {
+        "raw": "5mg",
+        "value": "5",
+        "unit": "mg",
+        "position": 291
+      }
+    ]
+  }
+}

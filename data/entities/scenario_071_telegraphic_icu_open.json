@@ -1,0 +1,36 @@
+{
+  "sample_id": "scenario_071_telegraphic_icu",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "muscle weakness",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "Drowsy",
+    "medication_identity": "IV immunoglobulin",
+    "interventions": [],
+    "intake_output": null,
+    "notification": "Neurology team notify함"
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "근육 약화",
+        "negation": false,
+        "severity": "severe"
+      },
+      {
+        "name": "drowsy",
+        "negation": false,
+        "severity": null
+      }
+    ],
+    "clinical_status": "drowsy",
+    "medication_identity": "면역글로불린",
+    "interventions": [],
+    "intake_output": null,
+    "notification": "뇌리지팀, 연락해주세요"
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "sample_id": "scenario_059_clinical_charting",
+  "gold_entities": {
+    "route": [
+      {
+        "raw": "IV",
+        "normalized": "iv",
+        "position": 197
+      }
+    ],
+    "frequency": [
+      {
+        "raw": "q8h",
+        "normalized": "q8h",
+        "position": 200
+      }
+    ],
+    "device": [
+      {
+        "raw": "C-line",
+        "normalized": "c-line",
+        "position": 270
+      },
+      {
+        "raw": "High-flow nasal cannula",
+        "normalized": "nc",
+        "position": 212
+      }
+    ],
+    "vital_sign": [
+      {
+        "raw": "BP 85/60",
+        "label": "bp",
+        "value": "85/60",
+        "position": 59
+      },
+      {
+        "raw": "HR 125",
+        "label": "hr",
+        "value": "125",
+        "position": 74
+      },
+      {
+        "raw": "RR 28",
+        "label": "rr",
+        "value": "28",
+        "position": 86
+      },
+      {
+        "raw": "BT 39.0",
+        "label": "bt",
+        "value": "39.0",
+        "position": 105
+      },
+      {
+        "raw": "SpO2 89%",
+        "label": "spo2",
+        "value": "89%",
+        "position": 116
+      }
+    ],
+    "dose": [
+      {
+        "raw": "4.5g",
+        "value": "4.5",
+        "unit": "g",
+        "position": 192
+      }
+    ]
+  },
+  "whisper_entities": {
+    "route": [],
+    "frequency": [
+      {
+        "raw": "Q8H",
+        "normalized": "q8h",
+        "position": 147
+      }
+    ],
+    "device": [],
+    "vital_sign": [
+      {
+        "raw": "BP 85",
+        "label": "bp",
+        "value": "85",
+        "position": 36
+      },
+      {
+        "raw": "HR 125",
+        "label": "hr",
+        "value": "125",
+        "position": 50
+      },
+      {
+        "raw": "RR 28",
+        "label": "rr",
+        "value": "28",
+        "position": 61
+      },
+      {
+        "raw": "BT 39",
+        "label": "bt",
+        "value": "39",
+        "position": 79
+      }
+    ],
+    "dose": []
+  }
+}

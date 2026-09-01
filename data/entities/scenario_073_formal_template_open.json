@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_073_formal_template",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "호흡곤란",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "의식이 명료함",
+    "medication_identity": "Furosemide",
+    "interventions": [],
+    "intake_output": "지난 24시간 동안 200 mL의 양성 수분 균형",
+    "notification": null
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "호흡 곤란",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "의식 명료",
+    "medication_identity": "Furosemide",
+    "interventions": [],
+    "intake_output": "지난 24시간 동안 200ml의 양성수분 균형",
+    "notification": null
+  }
+}

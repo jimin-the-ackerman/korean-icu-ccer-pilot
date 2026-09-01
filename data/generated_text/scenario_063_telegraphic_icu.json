@@ -1,0 +1,11 @@
+{
+  "sample_id": "scenario_063_telegraphic_icu",
+  "scenario_id": "scenario_063",
+  "document_type": "ICU_observation",
+  "style_condition": "telegraphic_icu",
+  "text": "74세 여환 SBP로 입원.  \nBP 100/60 mmHg.  \nHR 98 bpm.  \nRR 24.  \nBT 37.8°C.  \nSpO2 92% RA.  \nModerate abdominal pain.  \nCeftriaxone 2g IV q12h.  \nNC 2 L/min.  \nFoley 유지.  \nStrict I/O.  \nDrowsy.  \nDr notify.",
+  "generation_metadata": {
+    "model": "gpt-4o",
+    "temperature": 0.7
+  }
+}

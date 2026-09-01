@@ -1,0 +1,11 @@
+{
+  "sample_id": "scenario_094_telegraphic_icu",
+  "scenario_id": "scenario_094",
+  "document_type": "ICU_observation",
+  "style_condition": "telegraphic_icu",
+  "text": "69세 여성, 급성 중증 소화기 출혈로 입원.  \nBP 85/55 mmHg.  \nHR 120 bpm.  \nRR 22 bpm.  \nBT 36.8°C.  \nSpO2 92% room air.  \nHematemsis severe.  \nPantoprazole 80 mg IV q12h.  \nNasal cannula 2 L/min.  \nEndoscopic hemostasis 예정.  \nC-line 유지.  \nNegative fluid balance.  \nDrowsy.  \nGastroenterology team notify.",
+  "generation_metadata": {
+    "model": "gpt-4o",
+    "temperature": 0.7
+  }
+}

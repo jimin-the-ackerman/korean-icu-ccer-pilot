@@ -1,0 +1,28 @@
+{
+  "patient_context": "A 52-year-old male patient admitted with acute hemorrhagic shock due to a ruptured abdominal aortic aneurysm.",
+  "vital_signs": {
+    "BP": "85/50",
+    "HR": "120",
+    "RR": "24",
+    "BT": "36.8",
+    "SpO2": "89%"
+  },
+  "symptom": {
+    "name": "abdominal pain",
+    "negation": false,
+    "severity": "severe"
+  },
+  "medication": {
+    "name": "norepinephrine",
+    "dose": "8 mcg/min",
+    "route": "IV",
+    "frequency": "TID"
+  },
+  "oxygen_support": "high-flow nasal cannula",
+  "intervention": "emergency surgical repair",
+  "device": "C-line",
+  "io": "urine output 20 mL/hr",
+  "clinical_status": "drowsy",
+  "notification": "vascular surgery team notified for urgent intervention",
+  "scenario_id": "scenario_093"
+}

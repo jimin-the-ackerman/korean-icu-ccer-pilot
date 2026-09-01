@@ -1,0 +1,11 @@
+{
+  "sample_id": "scenario_093_telegraphic_icu",
+  "scenario_id": "scenario_093",
+  "document_type": "ICU_observation",
+  "style_condition": "telegraphic_icu",
+  "text": "52세 남성.  \nAcute hemorrhagic shock.  \nRuptured abdominal aortic aneurysm.  \nBP 85/50.  \nHR 120.  \nRR 24.  \nBT 36.8.  \nSpO2 89%.  \nSevere abdominal pain.  \nDrowsy.  \nNorepinephrine 8 mcg/min IV TID.  \nHigh-flow nasal cannula 사용.  \nC-line 적용됨.  \nUrine output 20 mL/hr.  \nEmergency surgical repair 계획됨.  \nVascular surgery team notify.",
+  "generation_metadata": {
+    "model": "gpt-4o",
+    "temperature": 0.7
+  }
+}

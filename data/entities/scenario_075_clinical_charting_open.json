@@ -1,0 +1,35 @@
+{
+  "sample_id": "scenario_075_clinical_charting",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "chest pain",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "alert",
+    "medication_identity": "Furosemide",
+    "interventions": [
+      "cardiology team consult"
+    ],
+    "intake_output": "strict input-output monitoring 유지함",
+    "notification": "cardiology team consult함 (possible valve replacement 위해)"
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "chest pain",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "alert",
+    "medication_identity": "Furosemide",
+    "interventions": [
+      "strict input-output monitoring"
+    ],
+    "intake_output": null,
+    "notification": "Cardiology team consult, possible valve replacement 위해"
+  }
+}

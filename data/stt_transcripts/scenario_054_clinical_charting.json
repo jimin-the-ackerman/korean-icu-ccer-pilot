@@ -1,0 +1,8 @@
+{
+  "sample_id": "scenario_054_clinical_charting",
+  "whisper_transcript": "55세 여성 서버레크노이드 히머리즈로 입원함. BP행력순 구멍미치해중. HR 95 BPM. RSCB Breaths Min. BT 36.82 Mer. 확인됨. Severe Headache 호소함. 미모디핀 60mg POQ-4H 투여중. Nasal Canalate Thrainloader Min 적용함. C-Line 유지함. Drowsy 상태 확인됨. Neurology Team Notify함.",
+  "stt_metadata": {
+    "model": "whisper-1",
+    "language": "ko"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "patient_context": "A 55-year-old female patient admitted with acute myeloid leukemia (AML) experiencing febrile neutropenia.",
+  "vital_signs": {
+    "BP": "90/60 mmHg",
+    "HR": "110 bpm",
+    "RR": "24 breaths/min",
+    "BT": "39.2°C",
+    "SpO2": "96% on room air"
+  },
+  "symptom": {
+    "name": "fever",
+    "negation": false,
+    "severity": "severe"
+  },
+  "medication": {
+    "name": "Piperacillin/Tazobactam",
+    "dose": "4.5 g",
+    "route": "IV",
+    "frequency": "q6h"
+  },
+  "oxygen_support": null,
+  "intervention": "Antibiotic therapy initiated",
+  "device": null,
+  "io": null,
+  "clinical_status": "drowsy",
+  "notification": "Oncologist notified of febrile neutropenia and treatment plan initiated.",
+  "scenario_id": "scenario_086"
+}

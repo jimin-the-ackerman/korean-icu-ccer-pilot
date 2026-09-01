@@ -1,0 +1,111 @@
+{
+  "sample_id": "scenario_083_telegraphic_icu",
+  "gold_entities": {
+    "route": [
+      {
+        "raw": "IV",
+        "normalized": "iv",
+        "position": 163
+      }
+    ],
+    "frequency": [
+      {
+        "raw": "q6h",
+        "normalized": "q6h",
+        "position": 166
+      }
+    ],
+    "device": [
+      {
+        "raw": "C-line",
+        "normalized": "c-line",
+        "position": 194
+      }
+    ],
+    "vital_sign": [
+      {
+        "raw": "BP 160/90.",
+        "label": "bp",
+        "value": "160/90",
+        "position": 81
+      },
+      {
+        "raw": "HR 110.",
+        "label": "hr",
+        "value": "110",
+        "position": 92
+      },
+      {
+        "raw": "RR 28.",
+        "label": "rr",
+        "value": "28",
+        "position": 100
+      },
+      {
+        "raw": "BT 37.2",
+        "label": "bt",
+        "value": "37.2",
+        "position": 107
+      },
+      {
+        "raw": "SpO2 88%.",
+        "label": "spo2",
+        "value": "88%",
+        "position": 118
+      }
+    ],
+    "dose": [
+      {
+        "raw": "40 mg",
+        "value": "40",
+        "unit": "mg",
+        "position": 157
+      }
+    ]
+  },
+  "whisper_entities": {
+    "route": [
+      {
+        "raw": "IV",
+        "normalized": "iv",
+        "position": 175
+      }
+    ],
+    "frequency": [
+      {
+        "raw": "q6h",
+        "normalized": "q6h",
+        "position": 178
+      }
+    ],
+    "device": [],
+    "vital_sign": [
+      {
+        "raw": "BP 1690",
+        "label": "bp",
+        "value": "1690",
+        "position": 103
+      },
+      {
+        "raw": "HR 110",
+        "label": "hr",
+        "value": "110",
+        "position": 111
+      },
+      {
+        "raw": "bt 37.23",
+        "label": "bt",
+        "value": "37.23",
+        "position": 125
+      }
+    ],
+    "dose": [
+      {
+        "raw": "40mg",
+        "value": "40",
+        "unit": "mg",
+        "position": 170
+      }
+    ]
+  }
+}

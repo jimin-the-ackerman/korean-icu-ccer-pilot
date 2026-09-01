@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_098_formal_template",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "피로감",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "졸린 상태",
+    "medication_identity": "Methylprednisolone",
+    "interventions": [],
+    "intake_output": "체액 균형 음성",
+    "notification": "추가적인 치료 관리를 위해 혈액내과에 보고하였다."
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "피로감",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "졸린 상태",
+    "medication_identity": "Methylprednisolone",
+    "interventions": [],
+    "intake_output": "체액균형 음성",
+    "notification": "추가적인 치료 관리를 위해 혈액내과에 보고하였다."
+  }
+}

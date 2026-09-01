@@ -1,0 +1,28 @@
+{
+  "patient_context": "A 72-year-old male patient admitted with acute decompensated heart failure due to severe aortic stenosis.",
+  "vital_signs": {
+    "BP": "90/60 mmHg",
+    "HR": "110 bpm",
+    "RR": "22 breaths/min",
+    "BT": "36.8°C",
+    "SpO2": "88% on 4L O2 via nasal cannula"
+  },
+  "symptom": {
+    "name": "chest pain",
+    "negation": false,
+    "severity": "severe"
+  },
+  "medication": {
+    "name": "Furosemide",
+    "dose": "40 mg",
+    "route": "IV",
+    "frequency": "q8h"
+  },
+  "oxygen_support": "nasal cannula",
+  "intervention": null,
+  "device": "Foley",
+  "io": "strict input-output monitoring",
+  "clinical_status": "alert",
+  "notification": "cardiology team consulted for possible valve replacement",
+  "scenario_id": "scenario_075"
+}

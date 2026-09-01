@@ -1,0 +1,11 @@
+{
+  "sample_id": "scenario_059_formal_template",
+  "scenario_id": "scenario_059",
+  "document_type": "ICU_observation",
+  "style_condition": "formal_template",
+  "text": "46세 남성 환자가 천공성 게실염으로 인한 중증 패혈증으로 입원하였다. 활력징후는 혈압 85/60 mmHg, 심박수 125 bpm, 호흡수 28 breaths/min, 체온 39.0°C, 산소포화도 89% (실내 공기 조건)로 확인되었다. 환자는 심한 복통을 호소하였다. Piperacillin/Tazobactam 4.5g IV q8h로 투여 중이다. 환자는 고유량 비강 캐뉼라를 통한 산소 공급을 받고 있으며, C-line이 삽입되었다. 체액량이 양성 균형을 보이고 있으며, 수액 보충이 시행되고 있다. 임상 상태는 기면 상태이다.",
+  "generation_metadata": {
+    "model": "gpt-4o",
+    "temperature": 0.7
+  }
+}

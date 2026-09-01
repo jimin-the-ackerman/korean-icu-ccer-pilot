@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_070_telegraphic_icu",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "cough",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "Drowsy",
+    "medication_identity": "Levofloxacin",
+    "interventions": [],
+    "intake_output": "Negative fluid balance",
+    "notification": null
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "cough",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "Drowsy",
+    "medication_identity": "levofloxacin",
+    "interventions": [],
+    "intake_output": "Negative fluid balance",
+    "notification": null
+  }
+}

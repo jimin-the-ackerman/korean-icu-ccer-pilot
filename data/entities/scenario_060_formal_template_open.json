@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_060_formal_template",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "rigidity",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "졸린 상태 (drowsy)",
+    "medication_identity": "Levodopa",
+    "interventions": [],
+    "intake_output": "24시간 동안의 소변 배출량 2000 mL",
+    "notification": null
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "Rigidity",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "졸린 상태 (drowsy)",
+    "medication_identity": "Levodopa",
+    "interventions": [],
+    "intake_output": "24시간 동안의 소변 배출량 2,000mL",
+    "notification": null
+  }
+}

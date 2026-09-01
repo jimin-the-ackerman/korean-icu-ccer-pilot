@@ -1,0 +1,40 @@
+{
+  "sample_id": "scenario_095_telegraphic_icu",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "dyspnea",
+        "negation": false,
+        "severity": "severe"
+      },
+      {
+        "name": "shortness of breath",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "alert",
+    "medication_identity": "Albuterol",
+    "interventions": [],
+    "intake_output": "Fluid balance: positive",
+    "notification": "RT ventilator 조정 위해 notify"
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "acute dyspnea",
+        "negation": false
+      },
+      {
+        "name": "SOB",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "Alert",
+    "medication_identity": "Albuterol",
+    "interventions": [],
+    "intake_output": "Fluid Balance Positive",
+    "notification": "RT Ventilator 조정 위해 Notify"
+  }
+}

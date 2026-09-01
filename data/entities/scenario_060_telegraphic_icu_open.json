@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_060_telegraphic_icu",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "rigidity",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "Drowsy",
+    "medication_identity": "Levodopa",
+    "interventions": [],
+    "intake_output": "IO 2000 mL/24h",
+    "notification": null
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "rigidity",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "drowsy",
+    "medication_identity": "levodopa",
+    "interventions": [],
+    "intake_output": "io 2000 or 24",
+    "notification": null
+  }
+}

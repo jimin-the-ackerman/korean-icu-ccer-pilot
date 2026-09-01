@@ -1,0 +1,35 @@
+{
+  "sample_id": "scenario_087_formal_template",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "muscle spasms",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "drowsy",
+    "medication_identity": "diazepam",
+    "interventions": [
+      "wound debridement"
+    ],
+    "intake_output": "strict I/O monitoring",
+    "notification": "muscle spasms 관리에 대해 neurology에 상담하였다"
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "muscle spasms",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "drowsy",
+    "medication_identity": "diazepam",
+    "interventions": [
+      "wound debridement"
+    ],
+    "intake_output": "strict monitoring",
+    "notification": "muscle spasms 관리에 대해 Neurology에 상담하였다."
+  }
+}

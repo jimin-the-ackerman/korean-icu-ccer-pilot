@@ -1,0 +1,28 @@
+{
+  "patient_context": "A 70-year-old male patient admitted with acute hypoglycemic coma due to insulin overdose.",
+  "vital_signs": {
+    "BP": "110/70 mmHg",
+    "HR": "88 bpm",
+    "RR": "16 breaths/min",
+    "BT": "36.5°C",
+    "SpO2": "98% on room air"
+  },
+  "symptom": {
+    "name": "unconsciousness",
+    "negation": false,
+    "severity": "severe"
+  },
+  "medication": {
+    "name": "Dextrose 50%",
+    "dose": "50 mL",
+    "route": "IV",
+    "frequency": "STAT"
+  },
+  "oxygen_support": null,
+  "intervention": "IV glucose administration",
+  "device": null,
+  "io": null,
+  "clinical_status": "unresponsive",
+  "notification": "Endocrinologist notified.",
+  "scenario_id": "scenario_074"
+}

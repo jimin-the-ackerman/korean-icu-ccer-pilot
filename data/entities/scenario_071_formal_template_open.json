@@ -1,0 +1,33 @@
+{
+  "sample_id": "scenario_071_formal_template",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "muscle weakness",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "졸린 상태",
+    "medication_identity": "IV immunoglobulin",
+    "interventions": [],
+    "intake_output": null,
+    "notification": "Neurology 팀에게 추가 평가 및 관리 요청을 위하여 보고하였다."
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "muscle weakness",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "졸린 상태",
+    "medication_identity": "IB immunoglobulin",
+    "interventions": [
+      "호흡 모니터링"
+    ],
+    "intake_output": null,
+    "notification": "Neurology팀에게 추가 평가 및 관리 요청을 위하여 보고하였다."
+  }
+}

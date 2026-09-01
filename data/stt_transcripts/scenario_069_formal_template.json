@@ -1,0 +1,8 @@
+{
+  "sample_id": "scenario_069_formal_template",
+  "whisper_transcript": "57세 남성 환자가 급성 해로윈 과다 복용으로 입원하였다. 활력 증후는 혈압 98-60mmg, 심박수 45ppm, 호흡수 8breaths min, 체온 36.556C로 확인되었다. 산소 포화도는 실내 공기에서 85%로 측정되었다. 환자는 심각한 수준의 의식 소실을 보였으며 반응이 없었다. 날렉선 0.4mg이 정맥 주사로 즉시 투여되었다. 고유량 비강 케튤라로 산소를 공급하고 있다.",
+  "stt_metadata": {
+    "model": "whisper-1",
+    "language": "ko"
+  }
+}

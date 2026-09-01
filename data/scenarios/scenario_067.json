@@ -1,0 +1,28 @@
+{
+  "patient_context": "A 45-year-old male patient admitted with acute massive pulmonary embolism.",
+  "vital_signs": {
+    "BP": "85/60 mmHg",
+    "HR": "115 bpm",
+    "RR": "28 breaths/min",
+    "BT": "36.8°C",
+    "SpO2": "88% on 6L O2 via nasal cannula"
+  },
+  "symptom": {
+    "name": "chest pain",
+    "negation": false,
+    "severity": "severe"
+  },
+  "medication": {
+    "name": "Heparin",
+    "dose": "5000 units",
+    "route": "IV",
+    "frequency": "STAT"
+  },
+  "oxygen_support": "nasal cannula",
+  "intervention": null,
+  "device": "C-line",
+  "io": null,
+  "clinical_status": "stuporous",
+  "notification": "attending physician notified of hypotension and hypoxia",
+  "scenario_id": "scenario_067"
+}

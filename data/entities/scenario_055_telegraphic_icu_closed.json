@@ -1,0 +1,120 @@
+{
+  "sample_id": "scenario_055_telegraphic_icu",
+  "gold_entities": {
+    "route": [
+      {
+        "raw": "IV",
+        "normalized": "iv",
+        "position": 147
+      }
+    ],
+    "frequency": [
+      {
+        "raw": "q12h",
+        "normalized": "q12h",
+        "position": 150
+      }
+    ],
+    "device": [
+      {
+        "raw": "nasal cannula",
+        "normalized": "nc",
+        "position": 95
+      },
+      {
+        "raw": "Nasal cannula",
+        "normalized": "nc",
+        "position": 158
+      }
+    ],
+    "vital_sign": [
+      {
+        "raw": "BP 90/60.",
+        "label": "bp",
+        "value": "90/60",
+        "position": 38
+      },
+      {
+        "raw": "HR 120.",
+        "label": "hr",
+        "value": "120",
+        "position": 50
+      },
+      {
+        "raw": "RR 22.",
+        "label": "rr",
+        "value": "22",
+        "position": 60
+      },
+      {
+        "raw": "BT 38.1.",
+        "label": "bt",
+        "value": "38.1",
+        "position": 69
+      },
+      {
+        "raw": "SpO2 95%",
+        "label": "spo2",
+        "value": "95%",
+        "position": 80
+      }
+    ],
+    "dose": [
+      {
+        "raw": "40 mg",
+        "value": "40",
+        "unit": "mg",
+        "position": 141
+      },
+      {
+        "raw": "1000 mL",
+        "value": "1000",
+        "unit": "ml",
+        "position": 221
+      },
+      {
+        "raw": "1200 mL",
+        "value": "1200",
+        "unit": "ml",
+        "position": 237
+      }
+    ]
+  },
+  "whisper_entities": {
+    "route": [
+      {
+        "raw": "IV",
+        "normalized": "iv",
+        "position": 138
+      }
+    ],
+    "frequency": [
+      {
+        "raw": "Q2H",
+        "normalized": "q2h",
+        "position": 141
+      }
+    ],
+    "device": [
+      {
+        "raw": "nasal cannula",
+        "normalized": "nc",
+        "position": 91
+      },
+      {
+        "raw": "Nasal cannula",
+        "normalized": "nc",
+        "position": 146
+      }
+    ],
+    "vital_sign": [],
+    "dose": [
+      {
+        "raw": "40mg",
+        "value": "40",
+        "unit": "mg",
+        "position": 133
+      }
+    ]
+  }
+}

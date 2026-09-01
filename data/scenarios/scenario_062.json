@@ -1,0 +1,28 @@
+{
+  "patient_context": "A 44-year-old male patient admitted with severe pulmonary embolism.",
+  "vital_signs": {
+    "BP": "90/60 mmHg",
+    "HR": "125 bpm",
+    "RR": "28 breaths/min",
+    "BT": "37.2°C",
+    "SpO2": "86% on room air"
+  },
+  "symptom": {
+    "name": "chest pain",
+    "negation": false,
+    "severity": "severe"
+  },
+  "medication": {
+    "name": "Heparin",
+    "dose": "5000 units",
+    "route": "IV",
+    "frequency": "q4h"
+  },
+  "oxygen_support": "high-flow nasal cannula",
+  "intervention": null,
+  "device": "C-line",
+  "io": "Negative fluid balance",
+  "clinical_status": "drowsy",
+  "notification": "Notified pulmonology of decreased SpO2 and tachycardia.",
+  "scenario_id": "scenario_062"
+}

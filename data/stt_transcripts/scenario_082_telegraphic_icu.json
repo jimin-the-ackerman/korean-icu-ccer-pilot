@@ -1,0 +1,8 @@
+{
+  "sample_id": "scenario_082_telegraphic_icu",
+  "whisper_transcript": "58세여성클립스페디에14590빌레허지임hr110bpmrr22t38.2디드리스 spo2 98% room air abdominal pain severe morphine 5mg iv q48 pain management strict io monitoring alert",
+  "stt_metadata": {
+    "model": "whisper-1",
+    "language": "ko"
+  }
+}

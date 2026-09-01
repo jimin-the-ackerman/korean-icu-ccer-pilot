@@ -1,0 +1,123 @@
+{
+  "sample_id": "scenario_073_clinical_charting",
+  "gold_entities": {
+    "route": [
+      {
+        "raw": "IV",
+        "normalized": "iv",
+        "position": 204
+      }
+    ],
+    "frequency": [
+      {
+        "raw": "q8h",
+        "normalized": "q8h",
+        "position": 207
+      }
+    ],
+    "device": [
+      {
+        "raw": "Foley",
+        "normalized": "foley",
+        "position": 255
+      }
+    ],
+    "vital_sign": [
+      {
+        "raw": "BP 110/70",
+        "label": "bp",
+        "value": "110/70",
+        "position": 74
+      },
+      {
+        "raw": "HR 98",
+        "label": "hr",
+        "value": "98",
+        "position": 90
+      },
+      {
+        "raw": "RR 28",
+        "label": "rr",
+        "value": "28",
+        "position": 101
+      },
+      {
+        "raw": "BT 36.8",
+        "label": "bt",
+        "value": "36.8",
+        "position": 120
+      },
+      {
+        "raw": "SpO2 88%",
+        "label": "spo2",
+        "value": "88%",
+        "position": 131
+      }
+    ],
+    "dose": [
+      {
+        "raw": "40 mg",
+        "value": "40",
+        "unit": "mg",
+        "position": 198
+      },
+      {
+        "raw": "15 L/min",
+        "value": "15",
+        "unit": "l/min",
+        "position": 240
+      },
+      {
+        "raw": "200 mL",
+        "value": "200",
+        "unit": "ml",
+        "position": 290
+      }
+    ]
+  },
+  "whisper_entities": {
+    "route": [
+      {
+        "raw": "IV",
+        "normalized": "iv",
+        "position": 187
+      }
+    ],
+    "frequency": [
+      {
+        "raw": "Q8H",
+        "normalized": "q8h",
+        "position": 190
+      }
+    ],
+    "device": [],
+    "vital_sign": [
+      {
+        "raw": "BT 36.8",
+        "label": "bt",
+        "value": "36.8",
+        "position": 109
+      }
+    ],
+    "dose": [
+      {
+        "raw": "40mg",
+        "value": "40",
+        "unit": "mg",
+        "position": 182
+      },
+      {
+        "raw": "15mL",
+        "value": "15",
+        "unit": "ml",
+        "position": 222
+      },
+      {
+        "raw": "200mL",
+        "value": "200",
+        "unit": "ml",
+        "position": 270
+      }
+    ]
+  }
+}

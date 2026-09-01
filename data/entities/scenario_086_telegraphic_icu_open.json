@@ -1,0 +1,35 @@
+{
+  "sample_id": "scenario_086_telegraphic_icu",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "fever",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "Drowsy",
+    "medication_identity": "Piperacillin/Tazobactam",
+    "interventions": [
+      "Antibiotic therapy"
+    ],
+    "intake_output": null,
+    "notification": "Oncologist notify"
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "fever",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "drowsy",
+    "medication_identity": "piperacillin-tazobactam",
+    "interventions": [
+      "antibiotic therapy"
+    ],
+    "intake_output": null,
+    "notification": "oncologist notify"
+  }
+}

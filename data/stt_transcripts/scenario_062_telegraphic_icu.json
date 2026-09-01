@@ -1,0 +1,8 @@
+{
+  "sample_id": "scenario_062_telegraphic_icu",
+  "whisper_transcript": "44% 남성 남성과 이별 1 bp 96mm 허드라임 hr1 hr28 breast min bt 37.2 sp02 86% room air severe chest pain heparin 5000 units iv q4 h high flow nasal cannula 적용 c line 유지 negative fluid balance drowsy dr notify",
+  "stt_metadata": {
+    "model": "whisper-1",
+    "language": "ko"
+  }
+}

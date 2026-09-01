@@ -1,0 +1,41 @@
+{
+  "sample_id": "scenario_079_formal_template",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "복통",
+        "negation": false,
+        "severity": "severe"
+      },
+      {
+        "name": "혈변",
+        "negation": false,
+        "severity": null
+      }
+    ],
+    "clinical_status": "의식이 명료한 상태",
+    "medication_identity": "Methylprednisolone",
+    "interventions": [],
+    "intake_output": "수분섭취와 배출을 엄격히 모니터링",
+    "notification": null
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "복통",
+        "negation": false,
+        "severity": "severe"
+      },
+      {
+        "name": "혈변",
+        "negation": false,
+        "severity": null
+      }
+    ],
+    "clinical_status": "의식 명료",
+    "medication_identity": "methylprednisolone",
+    "interventions": [],
+    "intake_output": "수분 섭취와 배출을 엄격히 모니터링",
+    "notification": null
+  }
+}

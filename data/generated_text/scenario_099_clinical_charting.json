@@ -1,0 +1,11 @@
+{
+  "sample_id": "scenario_099_clinical_charting",
+  "scenario_id": "scenario_099",
+  "document_type": "ICU_observation",
+  "style_condition": "clinical_charting",
+  "text": "71세 여성 환자, 급성 악화된 만성 심부전으로 입원함.   \nPulmonary edema 및 severe dyspnea 관찰됨.   \n\nVital Signs:   \n- BP: 160/90 mmHg   \n- HR: 105 bpm   \n- RR: 28 breaths/min   \n- BT: 37.5°C   \n- SpO2: 88% (room air)   \n\nSevere dyspnea 확인됨.   \n\nFurosemide 40 mg IV q8h 투여 중.   \n\nHigh-flow nasal cannula 40 L/min 적용함.   \n\nPositive fluid balance 2000 mL 확인됨.   \n\n환자 drowsy 상태.   \n\nCardiology consult 요청함.",
+  "generation_metadata": {
+    "model": "gpt-4o",
+    "temperature": 0.7
+  }
+}

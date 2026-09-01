@@ -1,0 +1,40 @@
+{
+  "sample_id": "scenario_074_clinical_charting",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "hypoglycemic coma",
+        "negation": false,
+        "severity": "severe"
+      },
+      {
+        "name": "unconsciousness",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "unresponsive",
+    "medication_identity": "Dextrose 50%",
+    "interventions": [
+      "IV glucose administration"
+    ],
+    "intake_output": null,
+    "notification": "Endocrinologist notify함"
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "unconsciousness",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "Unresponsive",
+    "medication_identity": "Dextrose 50%",
+    "interventions": [
+      "IV Glucose Administration"
+    ],
+    "intake_output": null,
+    "notification": "Endocrinologist Notify함"
+  }
+}

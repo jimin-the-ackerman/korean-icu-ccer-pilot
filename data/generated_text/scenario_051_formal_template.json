@@ -1,0 +1,11 @@
+{
+  "sample_id": "scenario_051_formal_template",
+  "scenario_id": "scenario_051",
+  "document_type": "ICU_observation",
+  "style_condition": "formal_template",
+  "text": "환자는 48세 남성으로, 알코올 사용으로 인한 급성 췌장염으로 입원하였다. 활력징후는 혈압이 110/70 mmHg, 심박수가 98 bpm, 호흡수가 22 bpm, 체온이 37.8°C, 산소포화도가 실내 공기에서 95%로 확인되었다. 환자는 심한 복통을 호소하였다. 진통제로 Morphine 4 mg이 필요 시마다 정맥으로 투여되고 있다. 환자는 금식 상태이며, 비위관이 삽입되어 있다. 수분 출납은 음성이다. 환자는 의식이 명료하다. 추가 평가와 관리를 위해 소화기 내과 팀에게 보고하였다.",
+  "generation_metadata": {
+    "model": "gpt-4o",
+    "temperature": 0.7
+  }
+}

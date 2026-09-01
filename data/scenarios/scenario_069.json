@@ -1,0 +1,28 @@
+{
+  "patient_context": "A 57-year-old male patient admitted with acute heroin overdose.",
+  "vital_signs": {
+    "BP": "98/60 mmHg",
+    "HR": "45 bpm",
+    "RR": "8 breaths/min",
+    "BT": "36.5°C",
+    "SpO2": "85% on room air"
+  },
+  "symptom": {
+    "name": "unconsciousness",
+    "negation": false,
+    "severity": "severe"
+  },
+  "medication": {
+    "name": "Naloxone",
+    "dose": "0.4 mg",
+    "route": "IV",
+    "frequency": "STAT"
+  },
+  "oxygen_support": "High-flow nasal cannula",
+  "intervention": null,
+  "device": null,
+  "io": null,
+  "clinical_status": "unresponsive",
+  "notification": null,
+  "scenario_id": "scenario_069"
+}

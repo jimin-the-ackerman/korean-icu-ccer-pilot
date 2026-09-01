@@ -1,0 +1,11 @@
+{
+  "sample_id": "scenario_077_telegraphic_icu",
+  "scenario_id": "scenario_077",
+  "document_type": "ICU_observation",
+  "style_condition": "telegraphic_icu",
+  "text": "64세 여성, 급성 악화 만성 신부전, 탈수로 입원.\n\nBP 88/56 mmHg.  \nHR 112 bpm.  \nRR 22 breaths/min.  \nBT 36.8°C.  \nSpO2 94% on 2L O2 NC.  \n\nModerate weakness present.  \nLabetalol 10 mg IV q8h.  \n\nNasal cannula O2 support.  \nFluid resuscitation 시행.  \nFoley catheter 삽입.  \nPositive fluid balance.  \n\nDrowsy 상태.  \nRenal team notify.",
+  "generation_metadata": {
+    "model": "gpt-4o",
+    "temperature": 0.7
+  }
+}

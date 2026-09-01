@@ -1,0 +1,28 @@
+{
+  "patient_context": "A 64-year-old female patient admitted with acute exacerbation of chronic kidney disease secondary to dehydration.",
+  "vital_signs": {
+    "BP": "88/56 mmHg",
+    "HR": "112 bpm",
+    "RR": "22 breaths/min",
+    "BT": "36.8°C",
+    "SpO2": "94% on 2L O2 via nasal cannula"
+  },
+  "symptom": {
+    "name": "weakness",
+    "negation": false,
+    "severity": "moderate"
+  },
+  "medication": {
+    "name": "Labetalol",
+    "dose": "10 mg",
+    "route": "IV",
+    "frequency": "q8h"
+  },
+  "oxygen_support": "nasal cannula",
+  "intervention": "fluid resuscitation",
+  "device": "Foley",
+  "io": "positive fluid balance",
+  "clinical_status": "drowsy",
+  "notification": "Renal team notified for dialysis evaluation",
+  "scenario_id": "scenario_077"
+}

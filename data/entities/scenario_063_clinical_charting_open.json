@@ -1,0 +1,50 @@
+{
+  "sample_id": "scenario_063_clinical_charting",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "abdominal pain",
+        "negation": false,
+        "severity": "moderate"
+      },
+      {
+        "name": "abdominal distension",
+        "negation": false,
+        "severity": null
+      }
+    ],
+    "clinical_status": "drowsy",
+    "medication_identity": "Ceftriaxone",
+    "interventions": [
+      "strict input/output monitoring"
+    ],
+    "intake_output": "decreased urine output",
+    "notification": "Decreased urine output 및 abdominal distension 담당의 notify함"
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "Abdominal pain",
+        "negation": false,
+        "severity": "moderate"
+      },
+      {
+        "name": "Decreased urine output",
+        "negation": false,
+        "severity": null
+      },
+      {
+        "name": "abdominal distention",
+        "negation": false,
+        "severity": null
+      }
+    ],
+    "clinical_status": "drowsy",
+    "medication_identity": "Ceftriaxone",
+    "interventions": [
+      "Strict input-output monitoring"
+    ],
+    "intake_output": "Decreased urine output",
+    "notification": "Decreased urine output abdominal distention 담당해 notify함"
+  }
+}

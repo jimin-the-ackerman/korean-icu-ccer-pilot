@@ -1,0 +1,11 @@
+{
+  "sample_id": "scenario_066_formal_template",
+  "scenario_id": "scenario_066",
+  "document_type": "ICU_observation",
+  "style_condition": "formal_template",
+  "text": "환자 정보: 59세 남성 환자가 고중성지방혈증으로 인한 급성 췌장염으로 입원하였다.\n\n활력 징후: 혈압은 140/85 mmHg로 측정되었고, 심박수는 110 bpm로 확인되었다. 호흡수는 22회/분이었으며, 체온은 38.5°C로 발열 상태이다. 산소포화도는 95%로 확인되었다.\n\n증상: 환자는 심한 복통을 호소하였다.\n\n투약: 환자는 insulin 10 units을 IV로 q6h 투여받고 있다.\n\n중재: 환자에게는 수액 보충이 시행되었다.\n\n배설: 24시간 동안의 소변 배출량은 1500 mL로 기록되었다.\n\n임상 상태: 환자는 의식이 명료하였다.\n\n통보: 고중성지방혈증 관리에 대한 내분비학과 상담이 필요함을 보고하였다.",
+  "generation_metadata": {
+    "model": "gpt-4o",
+    "temperature": 0.7
+  }
+}

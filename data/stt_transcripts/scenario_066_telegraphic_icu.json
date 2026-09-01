@@ -1,0 +1,8 @@
+{
+  "sample_id": "scenario_066_telegraphic_icu",
+  "whisper_transcript": "59세 남성 극성 최장염으로 입원, BP 148.5, HR, PEP, RRH, BT 38.5, SBO2 95%. 엉덩이 아픔이 심각, 인슬린 10 유닛, IV, Q6H, 플루이드 리사세테이션 시행, 유런 아웃풋, 10 모바일 밀레트리스 5H, 알러트 상태. 엔드크로노지 컨설턴트.",
+  "stt_metadata": {
+    "model": "whisper-1",
+    "language": "ko"
+  }
+}

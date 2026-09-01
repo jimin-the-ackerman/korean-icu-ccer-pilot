@@ -1,0 +1,8 @@
+{
+  "sample_id": "scenario_070_clinical_charting",
+  "whisper_transcript": "60 수세 남성, 아큐트 레스퍼토리 페이어로 입원 서비어 커뮤니티 아쿠아이드누모니아 확인됨 BP 다이지디인 58 밀리미터 헤르 그레이트, BTR 헴 RR28 브레스 민, BT 38.5 그리시스 SPO2 86% 호소함 CIVIVO 플록슨 750 밀리미터 아이비큐 12H 투여중 옥시진 서포트, 하이플로우 네이처 캐니라 적용함 벤틀레이터 사용중 네이티브 플루이드 밸런스 확인 클리니컬 스타드스, 드라우지",
+  "stt_metadata": {
+    "model": "whisper-1",
+    "language": "ko"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "sample_id": "scenario_097_formal_template",
+  "whisper_transcript": "63세 여자 환자가 급성 수막구균성 수막염으로 입원하였다. 활력증 후로는 혈압 170mg, 심박수 98ppm, 호흡수 22회분, 체온 39.5도, 산소포화도 95%로 확인되었다. 환자는 심한 두통을 호소하였다. 약물로는 세프트리약소인 2g을 IB로 12시간마다 투여하였다. 현재 C라인이 삽입되어 있으며 임상상태는 기면 상태이다.",
+  "stt_metadata": {
+    "model": "whisper-1",
+    "language": "ko"
+  }
+}

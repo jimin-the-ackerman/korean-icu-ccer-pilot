@@ -1,0 +1,11 @@
+{
+  "sample_id": "scenario_066_clinical_charting",
+  "scenario_id": "scenario_066",
+  "document_type": "ICU_observation",
+  "style_condition": "clinical_charting",
+  "text": "59세 남성 환자, acute pancreatitis, hypertriglyceridemia로 입원함.\n\nVital Signs:\n- BP 140/85 mmHg\n- HR 110 bpm\n- RR 22\n- BT 38.5°C\n- SpO2 95%\n\nAbdominal pain severe 호소함.\n\nInsulin 10 units IV q6h 적용함.\n\nFluid resuscitation 시행함.\n\nUrine output 1500 mL/24h 기록됨.\n\n환자 alert 상태 유지함.\n\nEndocrinology consult 필요함.",
+  "generation_metadata": {
+    "model": "gpt-4o",
+    "temperature": 0.7
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "sample_id": "scenario_067_telegraphic_icu",
+  "gold_entities": {
+    "route": [
+      {
+        "raw": "IV",
+        "normalized": "iv",
+        "position": 163
+      }
+    ],
+    "frequency": [
+      {
+        "raw": "STAT",
+        "normalized": "stat",
+        "position": 166
+      }
+    ],
+    "device": [
+      {
+        "raw": "C-line",
+        "normalized": "c-line",
+        "position": 185
+      },
+      {
+        "raw": "NC",
+        "normalized": "nc",
+        "position": 117
+      },
+      {
+        "raw": "NC",
+        "normalized": "nc",
+        "position": 174
+      }
+    ],
+    "vital_sign": [
+      {
+        "raw": "BP 85/60",
+        "label": "bp",
+        "value": "85/60",
+        "position": 30
+      },
+      {
+        "raw": "HR 115",
+        "label": "hr",
+        "value": "115",
+        "position": 47
+      },
+      {
+        "raw": "RR 28",
+        "label": "rr",
+        "value": "28",
+        "position": 61
+      },
+      {
+        "raw": "BT 36.8",
+        "label": "bt",
+        "value": "36.8",
+        "position": 82
+      },
+      {
+        "raw": "SpO2 88%",
+        "label": "spo2",
+        "value": "88%",
+        "position": 95
+      }
+    ],
+    "dose": []
+  },
+  "whisper_entities": {
+    "route": [
+      {
+        "raw": "IV",
+        "normalized": "iv",
+        "position": 130
+      }
+    ],
+    "frequency": [
+      {
+        "raw": "stat",
+        "normalized": "stat",
+        "position": 133
+      }
+    ],
+    "device": [
+      {
+        "raw": "NC",
+        "normalized": "nc",
+        "position": 90
+      },
+      {
+        "raw": "NC",
+        "normalized": "nc",
+        "position": 139
+      }
+    ],
+    "vital_sign": [
+      {
+        "raw": "BP 80",
+        "label": "bp",
+        "value": "80",
+        "position": 30
+      },
+      {
+        "raw": "SPO2 88%",
+        "label": "spo2",
+        "value": "88%",
+        "position": 69
+      }
+    ],
+    "dose": []
+  }
+}

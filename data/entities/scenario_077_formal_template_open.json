@@ -1,0 +1,35 @@
+{
+  "sample_id": "scenario_077_formal_template",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "weakness",
+        "negation": false,
+        "severity": "moderate"
+      }
+    ],
+    "clinical_status": "졸린 상태 (drowsy)",
+    "medication_identity": "Labetalol",
+    "interventions": [
+      "수액 보충 치료"
+    ],
+    "intake_output": "수분 균형 양성 (positive fluid balance)",
+    "notification": "신장 팀에게 투석 평가를 위해 보고함"
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "weakness",
+        "negation": false,
+        "severity": "moderate"
+      }
+    ],
+    "clinical_status": "졸린 상태 (drowsy)",
+    "medication_identity": "Labetalol",
+    "interventions": [
+      "수액 보충 치료"
+    ],
+    "intake_output": "수분균형이 양성으로 확인됨",
+    "notification": "신장팀에게 투석평가를 위해 보고함"
+  }
+}

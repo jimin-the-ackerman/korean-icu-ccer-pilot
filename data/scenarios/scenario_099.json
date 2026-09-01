@@ -1,0 +1,28 @@
+{
+  "patient_context": "A 71-year-old female patient admitted with an acute exacerbation of chronic heart failure, presenting with pulmonary edema and severe dyspnea.",
+  "vital_signs": {
+    "BP": "160/90 mmHg",
+    "HR": "105 bpm",
+    "RR": "28 breaths/min",
+    "BT": "37.5°C",
+    "SpO2": "88% on room air"
+  },
+  "symptom": {
+    "name": "dyspnea",
+    "negation": false,
+    "severity": "severe"
+  },
+  "medication": {
+    "name": "Furosemide",
+    "dose": "40 mg",
+    "route": "IV",
+    "frequency": "q8h"
+  },
+  "oxygen_support": "High-flow nasal cannula at 40 L/min",
+  "intervention": null,
+  "device": null,
+  "io": "Positive fluid balance 2000 mL",
+  "clinical_status": "drowsy",
+  "notification": "Cardiology consult requested for further management.",
+  "scenario_id": "scenario_099"
+}
