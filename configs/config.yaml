@@ -7,7 +7,7 @@ project:
   stage: "full"          # pilot(5) -> full(50) 로 바꿀 때 이 값도 바꿔서 결과 폴더 구분
 
 experiment:
-  n_scenarios: 50         # 파일럿: 5, 확장 시: (이 숫자만 바꾸면 됨)
+  n_scenarios: 100         # 파일럿: 5, 확장 시: (이 숫자만 바꾸면 됨)
   styles:
     - formal_template
     - clinical_charting
@@ -38,4 +38,4 @@ paths:
   audio_dir: "data/audio"
   stt_transcripts_dir: "data/stt_transcripts"
   entities_dir: "data/entities"
-  results_dir: "results/full_50"
+  results_dir: "results/full_100"
