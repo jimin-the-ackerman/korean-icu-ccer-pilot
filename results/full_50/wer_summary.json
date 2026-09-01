@@ -1,0 +1,17 @@
+{
+  "clinical_charting": {
+    "mean_wer_raw": 0.5786,
+    "mean_wer_normalized": 0.4247,
+    "n_samples": 50
+  },
+  "formal_template": {
+    "mean_wer_raw": 0.316,
+    "mean_wer_normalized": 0.2833,
+    "n_samples": 50
+  },
+  "telegraphic_icu": {
+    "mean_wer_raw": 0.806,
+    "mean_wer_normalized": 0.5456,
+    "n_samples": 50
+  }
+}

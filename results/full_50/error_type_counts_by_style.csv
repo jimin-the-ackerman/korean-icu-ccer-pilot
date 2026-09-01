@@ -1,0 +1,4 @@
+style_condition,frequency_error,hallucination,medication_identity_error,numeric_error,omission,route_error,severity_shift,substitution,unit_error
+clinical_charting,2,53,1,85,261,1,2,3,2
+formal_template,1,22,0,18,437,1,0,2,1
+telegraphic_icu,0,43,0,72,309,1,1,6,0

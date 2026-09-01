@@ -1,0 +1,12 @@
+entity_type,frequency_error,hallucination,medication_identity_error,numeric_error,omission,route_error,severity_shift,substitution,unit_error
+clinical_status,0,0,0,0,4,0,0,0,0
+device,0,1,0,0,24,0,0,0,0
+dose,0,25,0,7,13,0,0,0,2
+frequency,2,0,0,0,32,0,0,0,0
+intake_output,0,0,0,0,6,0,0,2,0
+intervention,0,7,0,0,3,0,0,0,0
+medication_identity,0,0,1,0,2,0,0,0,0
+notification,0,0,0,0,3,0,0,1,0
+route,0,8,0,0,12,1,0,0,0
+symptom,0,12,0,0,2,0,2,0,0
+vital_sign,0,0,0,78,160,0,0,0,0
