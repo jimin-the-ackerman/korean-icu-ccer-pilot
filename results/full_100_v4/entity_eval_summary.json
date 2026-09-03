@@ -1,26 +1,26 @@
 {
   "clinical_charting": {
-    "precision": 0.7351,
-    "recall": 0.4982,
-    "f1": 0.5939,
+    "precision": 0.7665,
+    "recall": 0.5406,
+    "f1": 0.6341,
     "gold_entity_count": 1415,
-    "whisper_entity_count": 959,
-    "true_positive": 705
+    "whisper_entity_count": 998,
+    "true_positive": 765
   },
   "formal_template": {
-    "precision": 0.6306,
-    "recall": 0.4862,
-    "f1": 0.5491,
+    "precision": 0.8432,
+    "recall": 0.6728,
+    "f1": 0.7484,
     "gold_entity_count": 1415,
-    "whisper_entity_count": 1091,
-    "true_positive": 688
+    "whisper_entity_count": 1129,
+    "true_positive": 952
   },
   "telegraphic_icu": {
-    "precision": 0.7281,
-    "recall": 0.4353,
-    "f1": 0.5449,
+    "precision": 0.7995,
+    "recall": 0.4933,
+    "f1": 0.6101,
     "gold_entity_count": 1415,
-    "whisper_entity_count": 846,
-    "true_positive": 616
+    "whisper_entity_count": 873,
+    "true_positive": 698
   }
 }

@@ -1,4 +1,4 @@
 style_condition,device_error,frequency_error,hallucination,medication_identity_error,numeric_error,omission,route_error,severity_shift,substitution,unit_error
-clinical_charting,0.0,0.0026,0.0874,0.0026,0.2159,0.6735,0.0013,0.0026,0.009,0.0051
-formal_template,0.0026,0.0039,0.0656,0.0,0.4344,0.482,0.0026,0.0,0.0064,0.0026
-telegraphic_icu,0.0035,0.0012,0.072,0.0,0.1742,0.7329,0.0035,0.0023,0.007,0.0035
+clinical_charting,0.0,0.0028,0.0934,0.0028,0.2064,0.675,0.0014,0.0028,0.0098,0.0056
+formal_template,0.0039,0.0058,0.0992,0.0,0.2179,0.6556,0.0039,0.0,0.0097,0.0039
+telegraphic_icu,0.0039,0.0013,0.0796,0.0,0.122,0.7754,0.0039,0.0026,0.0077,0.0039
