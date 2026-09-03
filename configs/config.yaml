@@ -38,4 +38,4 @@ paths:
   audio_dir: "data/audio"
   stt_transcripts_dir: "data/stt_transcripts"
   entities_dir: "data/entities"
-  results_dir: "results/full_100"
+  results_dir: "results/full_100_v4"
