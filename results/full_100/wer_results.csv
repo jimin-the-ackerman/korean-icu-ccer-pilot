@@ -1,0 +1,3172 @@
+﻿sample_id,scenario_id,style_condition,wer_raw,wer_normalized,gold_text,whisper_text
+scenario_001_clinical_charting,scenario_001,clinical_charting,0.6098,0.3659,"65세 남성 환자, pneumonia로 인한 respiratory distress 호소함.  
+BP 100/65, HR 110, RR 28, BT 38.1, SpO2 88%.  
+Moderate cough 확인됨.  
+Ceftriaxone 1g IV q12h 적용함.  
+High-flow nasal cannula 산소 지원 유지함.  
+Ventilator 사용 중.  
+환자 상태 drowsy 확인됨.  
+RT notify함.","65세 남성 환자, Pneumonia로 인한 Respiratory Distress 호소함 BP 165, HR 110, RR 88, BT 32.1, SpO2 88% Moderate cough 확인됨 Cephtriaxone 1-Gri-IV-Q SURE-H 적용함 High flow nasal cannula 산소지원 유지함 Ventilator 사용중 환자상태 Drowsy 확인됨 RT Notify함"
+scenario_001_formal_template,scenario_001,formal_template,0.3462,0.3077,"환자는 65세 남성으로, 폐렴으로 인한 호흡곤란을 호소하였다. 활력징후는 혈압 100/65 mmHg, 심박수 110 bpm, 호흡수 28 bpm, 체온 38.1°C, 산소포화도 88%로 확인되었다. 환자는 중등도의 기침을 보였다. Ceftriaxone 1g IV q12h로 투여되었다. 고유량 비강 캐뉼라를 통해 산소 공급을 받았으며, 인공호흡기를 사용하고 있다. 임상 상태는 기면으로 관찰되었다. 낮은 산소포화도 수치에 대해 호흡 치료사에게 보고하였다.","환자는 65세 남성으로 폐렴으로 인한 호흡 곤란을 호소하였다. 활력 증후는 혈압 165mg, 심박수 110bpm, 호흡수 28bpm, 체온 38.1°C, 산소포화도 88%로 확인되었다. 환자는 중등도의 기침을 보였다. 세프트레약소인 N-Gram IV QCBH로 투여되었다. 고유량 비강 케큘라를 통해 산소 공급을 받았으며 인공호흡기를 사용하고 있다. 임상 상태는 기면으로 관찰되었다. 낮은 산소포화도 수치에 대해 호흡치료사에게 보고하였다."
+scenario_001_telegraphic_icu,scenario_001,telegraphic_icu,0.8333,0.3333,"65세 남성, 호흡곤란, 폐렴.  
+BP 100/65.  
+HR 110.  
+RR 28.  
+BT 38.1.  
+SpO2 88%.  
+Cough moderate.  
+Ceftriaxone 1g IV q12h.  
+High-flow nasal cannula 사용.  
+Ventilator 사용.  
+임상상태 drowsy.  
+RT notify.",육신함성 후 곤란 폐렴 BP 165 HR 28 BT 38.1 SPO2 88% COUGH MODERATE 세프트 리액션 1g IV Q12H HIGH FLOW NASAL CANNULA 사용 VENTILATOR 사용 임상상태 DROWSY RT NOTIFY
+scenario_002_clinical_charting,scenario_002,clinical_charting,0.4474,0.4211,"50세 여성 환자, DKA로 입원함.
+
+BP 90/60 mmHg, HR 120 bpm, RR 28, BT 37.8°C, SpO2 95%.
+
+Nausea moderate 호소함.
+
+Insulin 10 units IV q4h 적용함. 
+
+Fluid resuscitation 시행함.
+
+Urine output low 확인됨.
+
+Patient drowsy 상태임.
+
+Endocrinology consult함.","50세 여성 환자 DKA로 입원함. BP 60만 획득, HR 5rpm, RRSP at grace for 2,75%. Nausea moderate 호소함. 인슬린 유닛 큐브에 적용함. Fluid resuscitation 시행함. Urine output low 확인됨. Patient drowsy 상태임. Endocrinology consultant."
+scenario_002_formal_template,scenario_002,formal_template,0.3137,0.2941,"50세 여성 환자가 당뇨병성 케톤산증(DKA)으로 입원하였다. 활력징후는 혈압 90/60 mmHg, 심박수 120 bpm, 호흡수 28회/분, 체온 37.8°C, 산소포화도 95%로 확인되었다. 환자는 중등도의 nausea를 호소하였다. 인슐린 10 units을 IV로 매 4시간마다 투여 중이다. 환자에게 fluid resuscitation이 시행되었으며, 소변량은 저하된 상태였다. 환자는 약간의 기면 상태를 보이고 있다. DKA 관리를 위해 내분비내과에 상담을 요청하였다.","50세 여성 환자가 당뇨병성 케톤산증, DK로 입원하였다. 활력증후는 혈압 90-60mmg, 심박수 120bpm, 호흡수 28hb, 체온 37.8L, 산소포화도 95%로 확인되었다. 환자는 중등도의 나우지아를 호소하였다. 인슐린 10유닛을 IV로 매 4시간마다 투여 중이다. 환자에게 fluid resuscitation이 시행되었으며 소변량은 저하된 상태였다. 환자는 약간의 기면 상태를 보이고 있다. DK의 관리를 위해 내분비 내과에 상담을 요청하였다."
+scenario_002_telegraphic_icu,scenario_002,telegraphic_icu,0.8621,0.6897,"50세 여자 DKA로 입원.  
+BP 90/60.  
+HR 120.  
+RR 28.  
+BT 37.8.  
+SpO2 95%.  
+Nausea moderate.  
+Insulin 10 units IV q4h.  
+Fluid resuscitation.  
+Urine output low.  
+Drowsy.  
+Endocrinology consult함.","DK80E1, BP96C, HR-1HR, BT37.8, SpO2 95%, NM, Ins 10U IV-Q4H, Fluid Resuscitation, Urine Output Low, Drowsy, Endocrinology Consultum"
+scenario_003_clinical_charting,scenario_003,clinical_charting,0.75,0.6875,"72세 여성 환자, AMI로 입원함.
+
+BP 145/90 mmHg, HR 110 bpm, RR 22 breaths/min, BT 37.1 °C, SpO2 95% (2L nasal cannula 적용 중).
+
+Chest pain severe 호소함.
+
+Aspirin 325 mg PO STAT 투여함.
+
+Nasal cannula 유지함.
+
+Cardiac monitoring 적용함.
+
+C-line 유지함.
+
+환자 alert 상태임.
+
+Cardiology team notify함.","72세 여성 환자, AMI로 입원함. BPM 95, 90mmHg, HRBT BPM, RRHD Breast Mim, BT, 설치첩종, 1두기 스펠스, SpO2 간지 5%, 2회 네이처 캔넬라 적용 중. 체스파인, 세벌 호소함. 아스프린, Threnox 5mg PO-STAT 투여함. 네이처 캔넬라 유지함. 카디액 모니터링 적용함, C-Line 유지함. 환자 알러트 상태임. 카디올리티 팀 노티파임."
+scenario_003_formal_template,scenario_003,formal_template,0.4237,0.3898,"72세 여성 환자가 급성 심근경색(AMI)으로 입원하였다. 활력징후는 혈압 145/90 mmHg, 심박수 110 bpm, 호흡수 22 breaths/min, 체온 37.1 °C, 산소포화도는 2L nasal cannula로 95%로 확인되었다. 환자는 심한 흉통을 호소하였다. Aspirin 325 mg PO STAT로 투여하였다. 환자는 의식이 명료하며, 현재 nasal cannula를 통해 산소 공급을 받고 있다. C-line이 삽입되어 있으며, 심장 모니터링이 진행 중이다. 심장학 팀에게 긴급 검토를 위해 보고하였다.","72세 여성 환자가 급성 심근근경색으로 입원하였다. 활력증후는 혈압 145, 90mmg, 심박수 110bpm, 호흡수 20bpm 및 체온 37.1°C. 산소포화도는 유리트 네이절이 케놀라로 95%로 확인되었다. 환자는 심한 흉통을 호소하였다. 에스프린스 환극 25mg PO-STAT도 투여하였다. 환자는 의식이 명료하며 현재 네이절이 케놀라를 통해 산소 공급을 받고 있다. C라인이 삽입되어 있으며 심장 모니터링이 진행 중이다. 심장학팀에게 긴급 검토를 위해 보고하였다."
+scenario_003_telegraphic_icu,scenario_003,telegraphic_icu,0.65,0.475,"72세 여성, AMI 입원.  
+BP 145/90 mmHg.  
+HR 110 bpm.  
+RR 22.  
+BT 37.1°C.  
+SpO2 95% on 2L NC.  
+Severe chest pain.  
+Aspirin 325 mg PO STAT.  
+NC 사용 중.  
+Cardiac monitoring 중.  
+C-line 유지 중.  
+Alert.  
+Cardiology team notify.","70T세 여성 BP 145, 9mHg, HRMM R22, BT37, 1mRLC, SBO2 95% onto NC, Severe chest pain, Aspirin 3D25mg POstat, NC 사용 중, Cardiac monitoring 중, C-line 유지 중, Alert, Cardiology team notify."
+scenario_004_clinical_charting,scenario_004,clinical_charting,0.5714,0.4082,"45세 남성 환자, acute pancreatitis로 입원함.  
+BP 90/60 mmHg, HR 120 bpm, RR 28 breaths/min, BT 38.5°C, SpO2 95% (room air).  
+Severe abdominal pain 호소함.  
+Morphine 4 mg IV q4h 투여함.  
+Fluid resuscitation 적용함.  
+Foley 유지함.  
+Urine output 200 mL over 4 hours 확인됨.  
+Drowsy 상태 보임.  
+담당의 notify함.","45세 남성 환자, acute pancreatitis로 입원함, BP 96mHg, HRV-EG-BPNR-ASH-PET-BREATHS-MIN-BT-SANCTI-PET-DEM-OL-SIL-SBO2-95% Severe abdominal pain 호소함, Morphine 4mg IV-Q4H 투여함, Fluid resuscitation 적용함, Foley 유지함, Urine output 200ml over 4 hours 확인됨, Drowsy 상태 보임, 담당의 Notify함"
+scenario_004_formal_template,scenario_004,formal_template,0.2941,0.2647,"45세 남성 환자가 급성 췌장염으로 입원하였다. 활력징후는 혈압 90/60 mmHg, 심박수 120 bpm, 호흡수 28 breaths/min, 체온 38.5°C이며, 산소포화도는 실내 공기에서 95%로 확인되었다. 환자는 심한 복부 통증을 호소하였다. 통증 관리를 위해 Morphine 4 mg IV q4h 투여 중이다. 현재 환자는 수액 보충 요법을 받고 있으며, Foley 카테터가 삽입되어 있다. 4시간 동안의 소변 배출량은 200 mL이다. 임상 상태는 졸림으로 나타났다. 환자의 혈역학적 상태 악화를 담당 중인 위장병 전문의에게 보고하였다.","45세 남성 환자가 급성 최장염으로 입원하였다. 활력 증후는 혈압 90-60mg, 심박수 120bpm, 호흡수 28bpm, 체온 38.5°C이며 산소포화도는 실내 공기에서 95%로 확인되었다. 환자는 심한 복부 통증을 호소하였다. 통증 관리를 위해 Morphine 4mg Ibq3H 투여 중이다. 현재 환자는 수액 보충요법을 받고 있으며 Foley 카테터가 삽입되어 있다. 4시간 동안의 소변 배출량은 200mL이다. 임상 상태는 졸림으로 나타났다. 환자의 혈역학 상태 악화를 담당 중인 위장병 전문의에게 보고하였다."
+scenario_004_telegraphic_icu,scenario_004,telegraphic_icu,0.7805,0.5122,"45세 남성, 급성 췌장염.  
+BP 90/60 mmHg.  
+HR 120 bpm.  
+RR 28 breaths/min.  
+BT 38.5°C.  
+SpO2 95% room air.  
+Abdominal pain severe.  
+Morphine 4 mg IV q4h.  
+Fluid resuscitation 진행.  
+Foley 유지.  
+Urine output 200 mL/4 hrs.  
+Drowsy 상태.  
+Dr notify.","40세 남성, 급성 큐장염, BP9, 디에스 60mg, RR28, Breast Fet Min, BT30, AVXLC, SpO2 95%, Room Air, Abdominal Pain Severe, Morphine 4mg, IV, Q4H, Fluid Resuscitation Tinnang, Foley UG, Urine Output 200mL 4hrs, Drowsy 상태, Docker Notify"
+scenario_005_clinical_charting,scenario_005,clinical_charting,0.4286,0.2667,"58세 남성 환자, chronic kidney disease 병력, acute renal failure 모니터링 및 관리 위해 입원함.
+
+BP 150/95 mmHg.
+HR 88 bpm.
+RR 22 bpm.
+BT 37.2°C.
+SpO2 94%.
+
+Moderate edema 확인됨.
+
+Furosemide 40 mg IV q8h 적용함.
+
+Oxygen support, nasal cannula 유지함.
+
+Foley catheter 유지함.
+
+Negative fluid balance 확인됨.
+
+임상 상태 drowsy 확인됨.
+
+Nephrology 팀 increased creatinine levels 관련 notify함.","58세 남성 환자, Chronic Kidney Disease 병력, Acute Renal Failure 모니터링 및 관리 위해 입원함. BP HAB 59.5 BPM, HR 80.0 BPM, BT 37.0 UTGERS, SBU 95%. Moderate edema 확인됨. Furosemide 40mg IV QOH 적용함. Oxygen support, nasal cannula 유지함, Foley catheter 유지함. Negative fluid balance 확인됨. 임상상태 drowsy 확인됨. Nephrology team increased creatinine levels 관련 notify함."
+scenario_005_formal_template,scenario_005,formal_template,0.5342,0.4634,"[환자 정보]
+58세 남성 환자가 만성 신장 질환 병력을 가지고 있으며, 급성 신부전의 모니터링 및 관리를 위해 입원하였다.
+
+[활력 징후]
+혈압은 150/95 mmHg로 확인되었다. 심박수는 88 bpm, 호흡수는 22 회/분, 체온은 37.2°C이며, 산소포화도는 94%로 확인되었다.
+
+[증상]
+부종이 중등도로 관찰되었다.
+
+[약물 투여]
+Furosemide 40 mg이 IV 경로로 8시간마다 투여되고 있다.
+
+[산소 공급]
+환자는 nasal cannula를 통해 산소를 공급받고 있다.
+
+[장치]
+Foley catheter가 장착되어 있다.
+
+[수분 균형]
+음성 수분 균형이 관찰되었다.
+
+[임상 상태]
+환자는 졸린 상태이다.
+
+[보고]
+크레아티닌 수치 증가에 대해 신장내과 팀에게 보고하였다.","환자 정보 58세 남성 환자가 만성 신장질환 병력을 가지고 있으며 급성 심부전의 모니터링 및 관리를 위해 입원하였다. 활력증후 혈압은 150-95mmg로 확인되었다. 심박수는 88bpm, 호흡수는 22회분, 체온은 37.2덕세였으며 산소포화도는 94%로 확인되었다. 증상 부종이 중등도로 관찰되었다. 약물 투여 퓨로스미드 40mg이 IBE 경로로 10시간마다 투여되고 있다. 산소공환자는 네이셀 케눌라를 통해 산소를 공급받고 있다. 장치 폴리 캐퓨러가 장착되어 있다. 음성 수분 균형이 관찰되었다. 임상상태, 환자는 졸린 상태이다. 보고 크레아틴인 수치 증가에 대해 신장내과팀에게 보고하였다."
+scenario_005_telegraphic_icu,scenario_005,telegraphic_icu,0.5952,0.3571,"58세 남성. 만성 신장 질환 병력. 급성 신부전 모니터링 및 관리위해 입원.
+
+BP 150/95.  
+HR 88.  
+RR 22.  
+BT 37.2°C.  
+SpO2 94%.
+
+Edema moderate.
+
+Furosemide 40mg IV q8h.
+
+Nasal cannula 사용.
+
+Foley 삽입.
+
+Negative fluid balance.
+
+임상 상태: drowsy.
+
+Nephrology team notify.","58세 남성, 만성 신장 질환 병력, 급성 심부전 모니터링 및 관리 위해 입원 BP 155, HR Pipe Putt, RORCB BT, 37.1, SpO2 95.5, EDMA Moderate, Furosemide 40mg IV-Q at H, Nasal cannula 사용, Foley 삽입, Negative fluid balance, 임상상태 drowsy, Nephrology team notify"
+scenario_006_clinical_charting,scenario_006,clinical_charting,0.3659,0.2439,"70세 여성, severe stroke로 입원함.
+
+BP 170/95, HR 78, RR 20, BT 37.2, SpO2 92% 확인됨.
+
+Severe hemiplegia 확인됨.
+
+Labetalol 20mg IV q6h 투여함.
+
+Nasal cannula 2L/min로 산소 공급 유지함.
+
+C-line 적용됨.
+
+Negative fluid balance 확인됨.
+
+Stuporous 상태임.
+
+Neurology team notify함.","70세 여성, Severe Stroke로 입원함. BP 179.5, HG 20, BT 37.5, SBU 92% 확인됨. Severe Hemipyo 확인됨. Labetalol 20mg, IV Q6H 투여함. Nasal cannula 2를 밀면으로 산소 공급 유지함. C-Line 적용됨. Negative fluid balance 확인됨. Stupor 상태임. Neurology team notify함."
+scenario_006_formal_template,scenario_006,formal_template,0.3729,0.322,"환자는 70세 여성으로, 심각한 뇌졸중으로 입원하였다. 활력 징후로는 혈압이 170/95 mmHg, 심박수가 78 bpm, 호흡수가 20 bpm, 체온이 37.2°C로 측정되었다. 산소포화도는 92%로 확인되었다. 심각한 정도의 편마비가 관찰되었다. 현재 Labetalol 20mg을 IV로 6시간마다 투여 중이다. 산소 공급은 nasal cannula로 2L/min 제공되고 있다. C-line이 삽입되어 있으며, 체액 균형은 음성으로 기록되었다. 임상 상태는 혼미 상태로 관찰되었다. 신경과 팀에게 상태 변화에 대해 보고하였다.","환자는 70세 여성으로 심각한 뇌졸중으로 입원하였다. 활력증으로는 혈압이 170-95mg, 심박수가 78bpm, 호흡수가 20bpm, 체온이 37.26로 측정되었다. 산소포화도는 92%로 확인되었다. 심각한 정도의 편마비가 관찰되었다. 현재 라베탈롤 20mg을 IV로 6시간마다 투여 중이다. 산소 공급은 네이절 캐늘라로 2dTpermine은 제공되고 있다. C-Line이 삽입되어 있으며 체액균형은 음성으로 기록되었다. 임상상태는 혼미상태로 관찰되었다. 신경과 팀에게 상태 변화에 대해 보고하였다."
+scenario_006_telegraphic_icu,scenario_006,telegraphic_icu,0.8056,0.3889,"70세 여성, 심각한 stroke로 입원.
+
+BP 170/95.  
+HR 78.  
+RR 20.  
+BT 37.2.  
+SpO2 92%.  
+
+Severe hemiplegia.  
+
+Labetalol 20mg IV q6h.  
+
+Nasal cannula 2L/min 적용.  
+
+C-line 유지 중.  
+
+Negative fluid balance.  
+
+Stuporous 상태.  
+
+Neuro team notify.",70세 여성 심각한 스트로크로 입원 bp현체 gr77 rr20 bt37 spu95 severe hemiplegia labetalol 20mg zyvi q6 nasal cannula 2amin 적용 c-line 유지 중 negative fluid balance stuporous 상태 neuro team notify
+scenario_007_clinical_charting,scenario_007,clinical_charting,0.3673,0.3265,"60세 여성 환자, COPD 악화로 입원함.
+
+BP 130/85 mmHg, HR 95 bpm, RR 28 breaths/min, BT 37.2°C 확인됨.
+
+SpO2 89% on room air 확인됨.
+
+Severe shortness of breath 호소함.
+
+Methylprednisolone 60 mg IV q6h 투여함.
+
+2L nasal cannula 적용함.
+
+Positive fluid balance 확인됨.
+
+Clinical status drowsy 확인됨.
+
+Pulmonologist notify함.","60세 여성 환자 COPD 악화로 입원함. BP 환자 85mm, HR-Digivibpm, RR28 Breaths Min, B3 Seal 확인됨. SbO2 89% on room air 확인됨. Severe shortness of breath 호소함. Methylprednisolone 60mg IV Q6H2여함. 2L Nasal Canola 적용함. Positive fluid balance 확인됨. Clinical status drowsy 확인됨. Pulmonologist notify함."
+scenario_007_formal_template,scenario_007,formal_template,0.3667,0.3667,"60세 여성 환자가 만성 폐쇄성 폐질환(COPD) 악화로 입원하였다. 활력징후는 혈압 130/85 mmHg, 심박수 95 bpm, 호흡수 28 breaths/min, 체온 37.2°C, 산소포화도 89%로 확인되었다. 환자는 심한 호흡곤란을 호소하였다. Methylprednisolone 60 mg이 6시간마다 정맥으로 투여되고 있다. 산소 공급은 2L nasal cannula로 시행 중이다. 수분 균형은 positive fluid balance로 평가되었다. 임상 상태는 drowsy로 관찰되었다. 환자의 악화된 호흡 상태에 대해 담당 폐과 의사에게 보고하였다.","60세 여성 환자가 만성 폐쇄성 폐질환 악화로 입원하였다. 활력증후는 혈압 138mm, 심박수 95bpm, 호흡수 28breath, 체온 37.26, 산소포화도 89%로 확인되었다. 환자는 심한 호흡곤란을 호소하였다. 메틀프레드니즐론 60mg이 6시간마다 정맥으로 투여되고 있다. 산소 공급은 2리터 네이첼 캐늘라로 시행 중이다. 수분 균형은 positive fluid balance로 평가되었다. 임상상태는 drowsy로 관대했다. 환자의 악화된 호흡상태에 대해 담당 폐거의사에게 보고하였다."
+scenario_007_telegraphic_icu,scenario_007,telegraphic_icu,0.7368,0.5,"60세 여성, COPD 악화로 입원.  
+BP 130/85 mmHg.  
+HR 95 bpm.  
+RR 28 breaths/min.  
+BT 37.2°C.  
+SpO2 89% (room air).  
+Severe shortness of breath.  
+Methylprednisolone 60 mg IV q6h.  
+O2 2L NC.  
+Positive fluid balance.  
+Drowsy.  
+Pulmonologist notify.",60세 여행 COPD 아크로이번 BP 1 3rd 85mg HR 95bpm 28breaths BT 37.2degrees of success SpO2 89% room air severe shortness of breath methylprednisolone 60mg IV Q6H O2 2lnc positive fluid balance drowsy pulmonologist notify
+scenario_008_clinical_charting,scenario_008,clinical_charting,0.5192,0.2885,"55세 남성 환자, GI bleeding으로 입원함.
+
+BP 90/60 mmHg, HR 110 bpm, RR 22 breaths/min, BT 37.0°C, SpO2 94%.
+
+Abdominal pain moderate 호소함.
+
+Pantoprazole 40 mg IV BID 투여함.
+
+Oxygen 지원으로 nasal cannula 적용함.
+
+Blood transfusion 시행함.
+
+NG tube 삽입됨.
+
+I/O negative 확인됨.
+
+환자 drowsy 상태 보임.
+
+Gastroenterology team notify함 for endoscopy.","55세 남성 환자 GI Bleeding으로 입원함. BP 96.6mg, HR 110bpm, RRHU Breathsmin, BT, 산미첩종 뇌녹위 셀스, SbO2 94%. Abdominal Pain Moderate 호소함. Pantoprazole 20mg IV BID 투여함. Oxygen 지원으로 Nasal Cannula 적용함. Blood Transfusion 시행함. NG Tubes 합입됨. IO Negative 확인됨. 환자 Drowsy 상태 보임. Gastroenterology Team Notify함 for Endoscopy."
+scenario_008_formal_template,scenario_008,formal_template,0.2833,0.2667,"55세 남성 환자가 위장관 출혈로 입원하였다. 활력징후는 혈압이 90/60 mmHg, 심박수가 110 bpm, 호흡수가 22 breaths/min, 체온이 37.0°C, 산소포화도가 94%로 확인되었다. 환자는 중등도의 복통을 호소하였다. Pantoprazole 40 mg이 IV로 BID 투여되었다. 환자는 nasal cannula를 통해 산소 공급을 받고 있으며, 혈액 수혈이 이루어졌다. NG tube가 삽입되어 있다. 환자의 입출량은 음성이다. 임상 상태는 졸림 상태로 관찰되었다. 위장관 팀에게 내시경 검사를 위해 보고하였다.","55세 남성 환자가 위장관 출혈로 입원하였다. 활력증후는 혈압이 90-60mmg, 심박수가 110bpm, 호흡수가 22breaths per min, 체온이 37.min, 산소포화도가 94%로 확인되었다. 환자는 중등도의 복통을 호소하였다. Pantoprazolas 40mg이 IB로 BID 투여되었다. 환자는 nasal cannula를 통해 산소 공급을 받고 있으며 혈액 수혈이 이루어졌다. NG 튜브가 삽입되어 있다. 환자의 입출량은 음성이다. 임상 상태는 졸림 상태로 관찰되었다. 위장관팀에게 내시경 검사를 위해 보고하였다."
+scenario_008_telegraphic_icu,scenario_008,telegraphic_icu,0.8378,0.4545,"55세 남성 환자. 위장관 출혈로 입원.
+
+BP 90/60 mmHg.
+HR 110 bpm.
+RR 22 breaths/min.
+BT 37.0°C.
+SpO2 94%.
+
+Abdominal pain moderate.
+
+Pantoprazole 40 mg IV BID.
+
+Nasal cannula 적용.
+Blood transfusion 시행.
+NG tube 삽입.
+I/O negative.
+
+환자 drowsy 상태.
+
+Gastroenterology team notify.","55세 남성 환자, 위장관 출혈로 이완, BP는 60mg, HR BTEM, RR22 Breaths Min, BT 37.0 Nd, SpO2 94. Abdominal pain moderate, pentaprazole 40mg IV, nasal cannula leukemia. Blood transfusion 시행, NG tubes have IO negative, 환자 drowsy 상태, gastroenterology team notify."
+scenario_009_clinical_charting,scenario_009,clinical_charting,0.5918,0.3469,"68세 여성 환자, UTI로 인한 septic shock.  
+BP 85/50 mmHg, HR 120 bpm, RR 26/min, BT 38.9°C, SpO2 92%.  
+Severe fever 확인됨.  
+Piperacillin/Tazobactam 4.5 g IV q8h 적용함.  
+Nasal cannula 3L/min 산소 유지함.  
+C-line 유지함.  
+Positive fluid balance 확인됨.  
+환자 상태 drowsy.  
+담당의 notify함: 지속적인 저혈압 및 발열 관련.","68세 여성 환자, UTI로 인한 섹틱 쇼크, BP 8550mg, HR βBPM, RR, S6, MIN, BT35.9, SpO2, 92. severe fever 확인됨, Piperacillin, Tazobactam, Fortin 5g, IV, QRH 적용함, Nasal cannula, 3umin, 산소 유지함, C-line 유지함, positive fluid balance 확인됨, 환자 상태 drowsy, 담당의 notifiam, 지속적인 저혈압 및 발열 관련."
+scenario_009_formal_template,scenario_009,formal_template,0.3889,0.2778,"환자 정보: 68세 여성 환자가 요로 감염에 의한 패혈성 쇼크로 입원하였다.
+
+활력 징후: 혈압은 85/50 mmHg로 확인되었으며, 심박수는 120 bpm, 호흡수는 26 bpm, 체온은 38.9°C로 측정되었다. 산소포화도는 92%로 확인되었다.
+
+증상: 환자는 심한 열이 있었다.
+
+약물: Piperacillin/Tazobactam 4.5 g을 IV로 q8h 투여하였다.
+
+산소 공급: Nasal cannula 3L/min을 통해 산소를 공급하였다.
+
+기타 장치: C-line이 삽입되어 있다.
+
+투입/배출: 양성 수분 균형이 확인되었다.
+
+임상 상태: 환자는 기면 상태로 관찰되었다.
+
+담당 의사에게 지속적인 저혈압과 열에 대해 보고하였다.","환자 정보, 68세 여성 환자가 요로 감염에 의한 폐활성 쇼크로 입원하였다. 활력 증후, 혈압은 85-50mmg로 확인되었으며, 심박수는 120bpm, 호흡수는 26bpm, 체온은 38.92계수로 측정되었다. 산소 포화도는 92%로 확인되었다. 증상, 환자는 심한 열이 있었다. 약물, 8-페라실린 타소 박탐 4.5g을 IV로 Q8H 투여하였다. 산소 공급, 네이셀 케놀라 삼멸트루미닌을 통해 산소를 공급하였다. 기타 장치, C-Line이 삽입되어 있다. 투이 패쳐, 양성 수분 균형이 확인되었다. 임상 상태, 환자는 기면 상태로 관찰되었다. 담당 의사에게 지속적인 저혈압과 열에 대해 보고하였다."
+scenario_009_telegraphic_icu,scenario_009,telegraphic_icu,0.9062,0.625,"68세 여성 환자, 패혈성 쇼크로 입원.  
+BP 85/50.  
+HR 120.  
+RR 26.  
+BT 38.9.  
+SpO2 92%.  
+Severe fever.  
+Piperacillin/Tazobactam 4.5g IV q8h.  
+O2 NC 3L/min.  
+C-line.  
+Positive fluid balance.  
+Drowsy.  
+Dr notify.","60베이세 여성 환자 페르송 쇼크루 E1, BP85 OFC, HR1 OECRR1E6, BT38-9, SBO2 90% Severe Fever, Piperacillin-tazobactam 4.5-graniv Q8H, O2Nc3min C-Line, Positive Fluid Balance, Drowsy, Dr. Notify."
+scenario_010_clinical_charting,scenario_010,clinical_charting,0.6512,0.2791,"48세 남성 환자, MVA 후 severe traumatic brain injury로 입원.  
+BP 130/85, HR 58, RR 14, BT 36.8°C, SpO2 98%.  
+Headache 부인함.  
+Mannitol 100g IV q6h 적용함.  
+환자 ventilator 사용 중.  
+ICP monitoring 유지함.  
+산소 보조 없음.  
+I/O positive 확인됨.  
+환자 stuporous 상태.","48세 남성 환자 MVA 후 Severe Traumatic Brain Injury로 입원 BP 1385, HR 5.7, RR 17, BT 36.8, GCC, SbO2 95% 헤드액 부인함, Manitoul 100g IV Q-safe 적용함 환자 Ventilator 사용 중, ICP 모니터링 유지함, 산소 보조 없음, IO Positive 확인됨, 환자 Stuporous 상태"
+scenario_010_formal_template,scenario_010,formal_template,0.3519,0.3519,"48세 남성 환자가 교통사고로 인한 중증 외상성 뇌 손상으로 입원하였다. 혈압은 130/85 mmHg로 측정되었으며, 심박수는 58 bpm, 호흡수는 14 bpm, 체온은 36.8°C, 산소포화도는 98%로 확인되었다. 두통은 호소하지 않았다. Mannitol 100g을 IV로 6시간마다 투여 중이다. 현재 산소 공급은 필요하지 않으며, 환자는 ventilator를 사용하고 있다. 뇌압(ICP) 모니터링이 시행되고 있으며, 수액 균형은 positive이다. 임상 상태는 stuporous로 관찰되었다.","48세 남성 환자가 교통사고로 인한 중증 외상성 뇌손상으로 입원하였다. 혈압은 138.5mm로 측정되었으며, 심박수는 58bpm, 호흡수는 14bpm, 체온은 300mg, 산소포화도는 98%로 확인되었다. 두통은 호소하지 않았다. Manitou 100g을 IB로 6시간마다 투여 중이다. 현재 산소 공급은 필요하지 않으며, 환자는 벤틀레이터를 사용하고 있다. 뇌압 ICP, 모니터링이 시행되고 있으며, 수액균형은 포지티브이다. 임상상태는 stuporous로 관찰되었다."
+scenario_010_telegraphic_icu,scenario_010,telegraphic_icu,0.8824,0.5294,"48세 남성 중증 TBI 입원.  
+BP 130/85, HR 58, RR 14, BT 36.8, SpO2 98%.  
+Headache 부정.  
+Mannitol 100g IV q6h.  
+산소 지원 없음.  
+ICP monitoring 중.  
+Ventilator 사용.  
+IO positive.  
+의식 상태 stuporous.",48세 남성 중증 TBI 이원 bpx 385 hr5 spread rr14 bt 36.8 spu 98% 헤드에이크 부정 manitobacram ivq 소지원 없음 icp 모니터링 중 ventilator 사용 io positive 의식상태 stuporous
+scenario_011_clinical_charting,scenario_011,clinical_charting,0.4694,0.3673,"62세 남성 환자, acute liver failure로 입원. 원인은 hepatitis B.
+
+Vital signs: BP 102/68, HR 88, RR 20, BT 37.2°C, SpO2 95%.
+
+Severe jaundice 관찰됨.
+
+Lactulose 30 ml PO TID 처방됨.
+
+Oxygen support: nasal cannula at 2 L/min 적용함.
+
+Foley 유지함.
+
+Clinical status: drowsy 상태 확인됨.
+
+Hepatology team notify함.","62세 남성 환자, acute liver failure로 입원. 원인은 Hepatitis B. Vital signs, BP 108, Warfarin 68, HRP 80, RR 환시, BT, CERN, Chitinosis, SpO2 25%. Severe jaundice 관찰됨. Lactulose 30ml POTI 처방됨. Oxygen support, nasal cannulate 2lamine 적용함. Fully 유지함. Clinical status, drowsy 상태 확인됨. Hepatology team notify함."
+scenario_011_formal_template,scenario_011,formal_template,0.2419,0.2419,"62세 남자 환자가 B형 간염으로 인한 급성 간부전으로 입원하였다. 활력징후는 혈압 102/68 mmHg, 심박수 88 bpm, 호흡수 20회/분, 체온 37.2°C, 산소포화도 95%로 확인되었다. 환자는 중증의 황달 증상을 보이고 있으며, Lactulose 30 ml가 경구로 하루 3회 투여 중이다. 산소 지원은 비강 캐뉼라로 2 L/min 제공되고 있다. Foley 카테터가 삽입되어 있으며, 임상 상태는 졸린 상태로 확인되었다. 간 기능 검사 악화에 대해 간 전문팀에게 보고하였다.","62세 남자 환자가 B형 간염으로 인한 급성 간부전으로 입원하였다. 활력증후는 혈압 1268mg, 심박수 88bpm, 호흡수 20회분, 체온 37.2°C, 산소 포화도 95%로 확인되었다. 환자는 중증의 황달 증상을 보이고 있으며, Lactulose 30mg가 경고로 하루 3회 투여 중이다. 산소 지원은 비강 케콜라로 1일을 미인 제공되고 있다. 폴리 카테터가 삽입되어 있으며, 임상 상태는 졸린 상태로 확인되었다. 간 기능 검사 악화에 대해 간 전문팀에게 보고하였다."
+scenario_011_telegraphic_icu,scenario_011,telegraphic_icu,0.8286,0.7143,"62세 남성, 급성 간부전 입원.  
+BP 102/68.  
+HR 88.  
+RR 20.  
+BT 37.2°C.  
+SpO2 95%.  
+Jaundice 심각.  
+Lactulose 30 ml PO TID.  
+Nasal cannula 2 L/min.  
+Foley 사용 중.  
+의식 상태 혼미.  
+Hepatology 팀 notify.",62세 남성 급성 간부전이 모아 BPD-R16-R.PHRR-RSTO-2-95% 존 다이스 심각 Lactulose 36mg Nasal Canella 2 Datamormin Fully 사용중 의식상태 혼미 Hepatology Team Notify
+scenario_012_clinical_charting,scenario_012,clinical_charting,0.4151,0.431,"75세 여성 환자 CHF exacerbation으로 입원함.
+
+Vital Signs:
+- BP 90/60 mmHg
+- HR 110 bpm
+- RR 22 breaths/min
+- BT 36.8°C
+- SpO2 88% on room air
+
+Dyspnea moderate 호소함.
+
+Furosemide 40 mg IV q8h 투여 중.
+
+Oxygen support 2L nasal cannula 적용함.
+
+Foley 유지함.
+
+Positive fluid balance 확인됨.
+
+환자 drowsy 상태 확인됨.
+
+Cardiology team notify함.",75세 여성 환자 CHF exacerbation으로 입원함. Vital signs BP 기침 및 민해처별 출혈근무새비액 GBPRRSTB min. BT 36.88°C gs. SbO2 폐지왓 퍼센트 on room air. Dyspnea moderate 호소함. Furosemide 40mg IV Q1H 투여중. Oxygen support to 2-liter nasal canola 적용함. Foley 유지함. Positive fluid balance 확인됨. 환자 drowsy 상태 확인됨. Cardiology team notify함.
+scenario_012_formal_template,scenario_012,formal_template,0.411,0.3288,"환자 정보: 75세 여성 환자가 울혈성 심부전 악화로 입원하였다.
+
+활력 징후: 혈압은 90/60 mmHg, 심박수는 110 bpm, 호흡수는 22 breaths/min, 체온은 36.8°C로 측정되었다. 산소포화도는 실내 공기에서 88%로 확인되었다.
+
+증상: 환자는 중등도의 dyspnea를 호소하였다.
+
+처치 및 투약: Furosemide 40 mg을 IV로 q8h 투여 중이다. 산소 공급은 2L nasal cannula를 통해 진행하였다.
+
+장치: Foley catheter가 삽입되어 있다.
+
+수액 균형: 양성 수분 균형이 관찰되었다.
+
+임상 상태: 환자는 기면 상태이다.
+
+알림: 수분 과부하와 저혈압을 심장내과 팀에 보고하였다.","환자 정보, 75세 여성 환자가 우려성 심부전 악화로 입원하였다. 활력 징후, 혈압은 90-60mmHg, 심박수는 110bpm, 호흡수는 22bpm, 체온은 36.8°C로 측정되었다. 산소포화도는 실내 공기에서 88%로 확인되었다. 증상, 환자는 중등도의 디스플니에를 호소하였다. 처치및 투약, furosemide 40mg을 IV로 Q100H 투여 중이다. 산소 공급은 2L nasal cannula를 통해 진행하였다. 40 catheter가 삽입되어 있다. 수액균형, 양성수분균형이 관찰되었다. 임상상태, 환자는 기면상태이다. 알림, 수분 과부하와 저혈압을 심장내과 팀에 보고하였다."
+scenario_012_telegraphic_icu,scenario_012,telegraphic_icu,0.8378,0.4054,"75세 여성, 심부전 악화로 입원.  
+BP 90/60 mmHg.  
+HR 110 bpm.  
+RR 22.  
+BT 36.8°C.  
+SpO2 88% room air.  
+Dyspnea moderate.  
+Furosemide 40 mg IV q8h.  
+O2 2L NC.  
+Foley.  
+Fluid balance positive.  
+Drowsy.  
+Cardiology team notify.",75세 여성 심부전아 콰이로이 bp90 60mm 허랑 hr10 bpm rr22 bt36.8 그리스 sp02 88% room air dyspnea moderate furosemide 40 milligrams iv qah o2 2l nc foley fluid balance positive drowsy cardiology team notify
+scenario_013_clinical_charting,scenario_013,clinical_charting,0.6111,0.4444,"34세 여성 환자, acute bacterial meningitis로 입원함.  
+BP 110/70 mmHg.  
+HR 102 bpm.  
+RR 24 breaths/min.  
+BT 39.0°C.  
+SpO2 95% on room air.  
+Severe headache 호소함.  
+Ceftriaxone 2g IV q12h 적용함.  
+C-line 유지함.  
+Clinical status: drowsy.","34세 여성 환자, acute bacterial meningitis로 입원함. BP-BHX 70mg, HRRR-EBS-MNM, BT-SRNG-GOPIN-PNEUMOGROOSIS, SPF 25% on room air. SEVERE HEADACHE, 호소함. CEPH3XONE 2g IV-QTELH 적용함. C-LINE 유지함. CLINICAL STATUS, DROWSY."
+scenario_013_formal_template,scenario_013,formal_template,0.2955,0.25,"34세 여성 환자가 급성 세균성 뇌수막염으로 입원하였다. 혈압은 110/70 mmHg로 측정되었으며, 심박수는 102 bpm, 호흡수는 24 breaths/min로 확인되었다. 체온은 39.0°C로 확인되었고, 산소포화도는 실내 공기에서 95%로 확인되었다. 환자는 심한 두통을 호소하였다. Ceftriaxone 2g을 IV로 q12h 투여 중이다. 환자는 C-line을 삽입한 상태이며, 임상적으로 약간 졸린 상태이다.","34세 여성 환자가 급성 세균성 뇌수마겸으로 입원하였다. 혈압은 110-170mm로 하락으로 측정되었으며, 심박수는 102bpm, 호흡수는 24breathsmin로 확인되었다. 체온은 39.0℃로 확인되었고, 산소포화도는 실내 공기에서 95%로 확인되었다. 환자는 심한 두통을 호소하였다. 세프트리액션 2g을 IB로 Q12H 투여 중이다. 환자는 C라인을 삽입한 상태이며 임상적으로 약간 졸린 상태이다."
+scenario_013_telegraphic_icu,scenario_013,telegraphic_icu,1.0625,0.5625,"34세 여성, 급성 세균성 수막염 입원.  
+BP 110/70 mmHg.  
+HR 102 bpm.  
+RR 24 breaths/min.  
+BT 39.0°C.  
+SpO2 95% room air.  
+Headache severe.  
+Ceftriaxone 2g IV q12h.  
+C-line in place.  
+상태 drowsy.","Thursday, a song, 급성, 세균성, 스마겜, E1, BP1, 세럼, 비타민, 흑돼, HR100, BPM, R24, Breaths, Min, B13, 담버트, 내헬스, SpO2, 95%, Room Air, Headache, Severe, Cephtriaxone, 2-Gam, IV, Q12H, C-Line, In Place, 상태, Drowsy"
+scenario_014_clinical_charting,scenario_014,clinical_charting,0.8039,0.6667,"59세 남성 환자, ARDS로 입원함. 집 화재로 인한 흡입 손상 후 상태.
+
+BP 135/85 mmHg. HR 110 bpm. RR 30 breaths/min. BT 38.3°C. SpO2 88% (room air).
+
+Dyspnea severe 호소함. Methylprednisolone 125 mg IV q6h 투여 중.
+
+Mechanical ventilation 적용함. Ventilator 사용 중. Positive fluid balance 확인됨.
+
+Clinical status drowsy 확인됨.",59세 남성 환자 ARDS로 입원함 집 화재로 인한 흡입 손상 상태 BP 130 웹추움 의미과 110 BPM RR30 Breaths and Fuss BT 35톤 라이플생 SbO2 Etiolite Viprafensin Room Air 디스피니에 세벌 호소함 Methadone Accurate 11mg IV Q6 투여중 메카니컬 벤틀레이션 적용함 벤틀레이터 사용중 포지티브 플루이드 밸런스 확인됨 클리니컬 스테이터스 드라우지 확인됨
+scenario_014_formal_template,scenario_014,formal_template,0.25,0.2167,"환자는 59세 남성으로, 주택 화재로 인한 흡입 손상 후 급성 호흡곤란 증후군(ARDS)으로 입원하였다. 활력징후는 혈압 135/85 mmHg, 심박수 110 bpm, 호흡수 30 breaths/min, 체온 38.3°C였다. 산소포화도는 실내 공기에서 88%로 확인되었다. 환자는 심한 호흡곤란을 호소하였다. 현재 환자는 기계적 환기를 받고 있으며, ventilator를 사용 중이다. 투약으로는 methylprednisolone 125 mg을 IV로 6시간마다 투여하고 있다. 수분 균형은 양성으로 확인되었다. 환자는 현재 의식이 둔한 상태이다.","환자는 59세 남성으로 주택 화재로 인한 흡입 손상 후 급성 호흡곤란증후군 AS로 입원하였다. 활력증후는 혈압 135, 85옴, 심박수 110bpm, 호흡수 30breathmin, 체온 38.3도였다. 산소포화도는 실내 공기에서 88%로 확인되었다. 환자는 심한 호흡곤란을 호소하였다. 현재 환자는 기계적 환기를 받고 있으며, 벤틀레이터를 사용 중이다. 투약으로는 Methylprednisolone 125mg을 IV로 6시간마다 투여하고 있다. 수분 균형은 양성으로 확인되었다. 환자는 현재 의식이 둔한 상태이다."
+scenario_014_telegraphic_icu,scenario_014,telegraphic_icu,0.8947,0.6053,"59세 남성 ARDS 입원.  
+BP 135/85 mmHg.  
+HR 110 bpm.  
+RR 30 breaths/min.  
+BT 38.3°C.  
+SpO2 88% room air.  
+Severe dyspnea.  
+Methylprednisolone 125 mg IV q6h.  
+Mechanical ventilation 사용 중.  
+Ventilator 장착.  
+Positive fluid balance.  
+Clinical status drowsy.",50d9성 ardse1 bp135 admins hr 180qm r 30 breaths min bt 38.3 cis sp02 88% room air severe dyspnea methylprednisolone 125mg ivq6h mechanical ventilations hayoungjung ventilator tungtup positive fluid balance clinical status drowsy
+scenario_015_clinical_charting,scenario_015,clinical_charting,0.74,0.5926,"78세 남성 환자, 급성 pulmonary embolism으로 입원함.
+
+BP 145/90 mmHg
+HR 110 bpm
+RR 28 breaths/min
+BT 36.8°C
+SpO2 88% on room air
+
+심한 chest pain 호소함.
+
+Heparin 5000 units IV q6h 적용함.
+
+High-flow nasal cannula 산소 지원 중.
+
+Thrombolytic therapy 시작함.
+
+IV fluids 2000 mL 투여함.
+
+의식 alert 상태 유지함.
+
+Cardiology team notify함.","78세 남성 환자, 급성 폴미네리 엠볼리즘으로 입원함. BP 145, QZ mmHR, 100cbpm, RR, 어시비 파이프, Breath, Termin, BT, 산시죽돔, Aper Health, SpO2, PgB% on room air, 심한 체스트 페인, 호소함. 헤퍼린, Vo10 유닛, Q6H 적용함. 하이플로, 네이처, 캔눌라, 산소 지원 중. 트럼볼리틱 테라피 시작함. IV Fluids 210ml 투여함. 의식 알러트 상태 유지함. 카디올리티 팀 노티파이함."
+scenario_015_formal_template,scenario_015,formal_template,0.3065,0.3065,"78세 남성 환자가 급성 폐색전증으로 입원하였다. 활력징후로는 혈압이 145/90 mmHg, 심박수가 110 bpm, 호흡수가 28 breaths/min, 체온이 36.8°C, 산소포화도가 실내 공기에서 88%로 확인되었다. 환자는 심한 흉통을 호소하였다. Heparin 5000 units이 IV로 6시간마다 투여되었다. 고유량 비강 캐뉼라를 통해 산소 공급을 받았다. 혈전용해 요법이 시작되었다. 장치는 사용되지 않았다. 2000 mL의 IV 수액이 투여되었다. 환자는 의식이 명료하였다. 심장내과 팀에게 추가 평가 및 관리를 위해 보고하였다.","78세 남성 환자가 급성 폐색전증으로 입원하였다. 활력증으로는 혈압이 145, 90mg, 심박수가 110bpm, 호흡수가 28bpm, 체온이 36.8dB. 산소포화도가 실내 공기에서 88%로 확인되었다. 환자는 심한 흉통을 호소하였다. 헤퍼린 5000유닛이 IB로 6시간마다 투여되었다. 고유량 비강켈라를 통해 산소 공급을 받았다. 혈전용의 요법이 시작되었다. 장치는 사용되지 않았다. 2000ml의 IV 수액이 투여되었다. 환자는 의식이 명료하였다. 심장내과팀에게 추가 평가 및 관리를 위해 보고하였다."
+scenario_015_telegraphic_icu,scenario_015,telegraphic_icu,0.5745,0.4468,"78세 남자 환자. 급성 폐색전증 입원.
+
+BP 145/90 mmHg.  
+HR 110 bpm.  
+RR 28 breaths/min.  
+BT 36.8°C.  
+SpO2 88% on room air.  
+
+Severe chest pain.  
+
+Heparin 5000 units IV q6h.  
+
+High-flow nasal cannula 사용.  
+
+Thrombolytic therapy 시작.
+
+2000 mL IV fluids 투여.
+
+환자 alert.
+
+Cardiology team notify.","세비웨이츠의 남자 환자, 급성 폐색전증 2번, BP 145.0mHg, HR 110pm, RR 28breaths min, BT 36.8, GWIS SPU 88% on room air, severe chest pain, Heparin 5000 units IV Q6H, High flow nasal cannulus 하염, Thrombolytic therapy 시작, 210ml IV fluids 투여. 환자 알러트, 카디올리티 팀 노티파이."
+scenario_016_clinical_charting,scenario_016,clinical_charting,0.56,0.32,"45세 여성 환자, severe sepsis로 입원.  
+Abdominal abscess로 인한 상태.  
+
+Vital Signs: BP 85/55, HR 120, RR 28, BT 39.2, SpO2 92%.  
+
+Severe fever 확인됨.  
+
+Meropenem 1g IV q8h 투여 중.  
+
+Nasal cannula 적용함.  
+
+Abscess drainage 시행함.  
+
+C-line 유지함.  
+
+Negative fluid balance 확인됨.  
+
+환자 drowsy 상태.  
+
+Elevated lactate 담당의 notify함.","45세 여성 환자, Severe sepsis로 입원, Abdominal abscess으로 인한 상태. Vital signs, BPH1550W, HR HERI, CRR58, BT36.U, SpO2, QQ21 Provencin. Severe fever 확인됨, Meripenem 1g, IVQH 투여중. Nasal cannula 적용함, Abscess drainage 시행함, C-line 유지함. Negative fluid balance 확인됨, 환자 Drowsy 상태, Elevated Lactate 담당해 Notify함."
+scenario_016_formal_template,scenario_016,formal_template,0.2344,0.2344,"45세 여성 환자가 중증 패혈증으로 복부 농양에 의해 입원하였다. 활력징후는 혈압 85/55 mmHg, 심박수 120 bpm, 호흡수 28 회/분, 체온 39.2℃, 산소포화도 92%로 확인되었다. 환자는 심한 발열을 호소하였다. Meropenem 1g이 IV로 8시간마다 투여되고 있으며, 산소 공급을 위해 nasal cannula가 사용되고 있다. 환자는 복부 농양의 배액 처치를 받았으며, C-line이 삽입되어 있다. 수분 균형은 음성으로 기록되었다. 임상 상태는 졸림이 관찰되었다. 젖산 수치 상승이 담당 의사에게 보고되었다.","45세 여성 환자가 중증 폐혈증으로 복부 농양에 의해 입원하였다. 활력증후는 혈압 85-55mB, 심박수 120bpm, 호흡수 28hb, 체온 39.2도, 산소포화도 92%로 확인되었다. 환자는 심한 발열을 호소하였다. 메로피넴 인그램이 IV로 8시간마다 투여되고 있으며, 산소 공급을 위해 네이처 캐눌라가 사용되고 있다. 환자는 복부 농양에 배액 처치를 받았으며, C라인이 삽입되어 있다. 수분 균형은 음성으로 기록되었다. 임상 상태는 졸림이 관찰되었다. 젖산 수치 상승이 담당 의사에게 보고되었다."
+scenario_016_telegraphic_icu,scenario_016,telegraphic_icu,1.025,0.5,"45세 여성, 복부 농양으로 인한 중증 패혈증 입원.  
+BP 85/55.  
+HR 120.  
+RR 28.  
+BT 39.2.  
+SpO2 92%.  
+Severe fever.  
+Meropenem 1g IV q8h.  
+Nasal cannula 사용.  
+Abscess drainage.  
+C-line 삽입.  
+Negative fluid balance.  
+Drowsy 상태.  
+Elevated lactate, Dr notify.",소리보세 여성 복부 농양으로 인한 중증 폐혈증 이완 bp 85 hr watch i reward hwanai bt 30 9.2 sp o2 diet d percent severe fever meropenem 1 gram iv q8 h nasal cannula 사용 abscess drainage c-line 삽입 negative fluid balance drowsy 상태 elevated lactate doctor notify
+scenario_017_clinical_charting,scenario_017,clinical_charting,0.413,0.3478,"53세 여성 환자, severe hypoglycemia로 입원함.  
+BP 102/65 mmHg, HR 92 bpm, RR 18 breaths/min, BT 36.5°C, SpO2 95%.  
+Moderate confusion 확인됨.  
+Dextrose 50% 25g IV STAT 적용함.  
+IV dextrose administration 시행함.  
+Positive fluid balance due to IV fluids 확인됨.  
+환자 drowsy 상태 유지함.  
+Endocrinologist notify함.","우시 3세 여성 환자, severe hypoglycemia로 입원함. BP 11665mHr, HR QGD BPAM, RSHPENT BREATHS MIN, BT 36.5DX, SPO2 25%. Moderate confusion 확인됨. DEXTROS, FUSCHIA PREPARATION PROGRAM IV STAT 적용함. IV DEXTROS ADMINISTRATION 시행함. Positive fluid balance due to IV fluids 확인됨. 환자 DROWSY 상태 유지함. Endocrinologist notify함."
+scenario_017_formal_template,scenario_017,formal_template,0.2097,0.1774,"환자 정보에 따르면, 53세 여성 환자는 인슐린 과다 복용으로 인한 심각한 저혈당증으로 입원하였다. 현재 활력징후는 혈압이 102/65 mmHg, 심박수가 92 bpm, 호흡수가 18 breaths/min, 체온이 36.5°C이며, 산소포화도는 95%로 확인되었다. 환자는 중등도의 혼란 상태를 보이고 있으며, 의식은 졸음이 있는 상태이다. 치료로서는 즉시 Dextrose 50% 25g을 정맥으로 투여하였다. 이로 인해 정맥 주사로 인한 체액 균형이 양성으로 나타났다. 추가적인 치료 계획을 위해 내분비 전문의에게 보고하였다.","환자 정보에 따르면 53세 여성 환자는 인슐린 과다 복용으로 인한 심각한 저혈당증으로 입원하였다. 현재 활력증후는 혈압이 102,65mmHg, 심박수가 92bpm, 호흡수가 18bpm, 체온이 36.5dB이며 산소포화도는 95%로 확인되었다. 환자는 중등도에 혼란 상태를 보이고 있으며 의식은 졸음이 있는 상태이다. 치료로서는 즉시 덱스트로스 50%센트 25g을 정맥으로 투여하였다. 이로 인해 정맥 주사로 인한 체액 균형이 양성으로 나타났다. 추가적인 치료 계획을 위해 내분비 전문의에게 보고하였다."
+scenario_017_telegraphic_icu,scenario_017,telegraphic_icu,0.9474,0.8947,"53세 여성, severe hypoglycemia로 입원.  
+BP 102/65 mmHg.  
+HR 92 bpm.  
+RR 18 breaths/min.  
+BT 36.5°C.  
+SpO2 95%.  
+Confusion moderate.  
+Dextrose 50% 25g IV STAT.  
+IV dextrose administration.  
+Positive fluid balance due to IV fluids.  
+Drowsy.  
+Endocrinologist notify.","53세 여성, 세벌하이포글라시미아도 E1, BP, 원음카스틱, 스테알밴드, 아르바이트, T-BPM, RL, MEN, BT, 설택스, 스페어 2, 95% 헛소문, 덱스트로스, 50-20g, IV-STAT, IV-덱스트로스 관리, IV-플루이드, 드라우지, 엔드크놀로지스,"
+scenario_018_clinical_charting,scenario_018,clinical_charting,0.4468,0.4255,"66세 남성 환자, 급성 gastrointestinal perforation으로 입원함.
+
+BP 100/60 mmHg.  
+HR 110 bpm.  
+RR 20 breaths/min.  
+BT 38.5°C.  
+SpO2 94%.
+
+Severe abdominal pain 호소함.  
+
+Piperacillin-Tazobactam 4.5g IV q6h 적용함.  
+
+Nasal cannula 산소 유지함.  
+
+Emergency laparotomy 시행함.  
+
+Negative fluid balance 확인됨.  
+
+환자 alert 상태 유지함.  
+
+Surgical team notify함.","66세 남성 환자, 급성 가스트로 인테스티널 퍼포레이션으로 입원함. BP 오결 60mg, HR 110bpm, RR21 Breast Mint, BT 30bpm, Havodruvisus, SbO2, QG subsynth. severe abdominal pain 호소함. Piperacillin-tazobactam-14-orum-IV 극세제 적용함. Nasal cannula 산소 유지함. Emergency laparotomy 시행함. Negative fluid balance 확인됨. 환자 알러트 상태 유지함. Surgical team notify함."
+scenario_018_formal_template,scenario_018,formal_template,0.2692,0.25,"66세 남성 환자가 급성 위장관 천공으로 입원하였다. 활력징후로는 혈압이 100/60 mmHg, 심박수는 110 bpm, 호흡수는 20 breaths/min, 체온은 38.5°C, 산소포화도는 94%로 확인되었다. 환자는 심한 복통을 호소하였다. Piperacillin-Tazobactam 4.5g이 IV로 6시간마다 투여 중이다. 산소 보조로는 nasal cannula가 사용되고 있다. 응급 개복술이 계획되었으며, 수액 균형은 음성이었다. 환자는 의식이 명료하다. 긴급한 중재를 위해 외과팀에게 보고하였다.","66세 남성 환자가 급성 위장관 천공으로 입원하였다. 활력증으로는 혈압이 160mmHg, 심박수는 110ppm, 호흡수는 20breathmin, 체온은 38.5°C, 산소포화도는 94%로 확인되었다. 환자는 심한 복통을 호소하였다. 5-peracillin-tazobactam 4.5g이 IB로 6시간마다 투여 중이다. 산소 보조로는 nasal cannula가 사용되고 있다. 응급개복술이 계획되었으며 수액균형은 음성이었다. 환자는 의식이 명료하다. 긴급한 중재를 위해 외과팀에게 보고하였다."
+scenario_018_telegraphic_icu,scenario_018,telegraphic_icu,0.7222,0.4167,"66세 남환.  
+급성 위장관 천공.  
+BP 100/60 mmHg.  
+HR 110 bpm.  
+RR 20 breaths/min.  
+BT 38.5°C.  
+SpO2 94%.  
+Severe abdominal pain.  
+Piperacillin-Tazobactam 4.5g IV q6h.  
+Nasal cannula.  
+Emergency laparotomy.  
+Negative fluid balance.  
+Alert.  
+Surgical team notify.","66세 남한, 급성 위장관 청공, BP 100, 60HR110BR20BREF20BRAN, BT 38%, SPO2 94%, Severe abdominal pain, piperacillin tazobactam 4.vravsivq6h, nasal cannula, emergency laparotomy, negative fluid balance, alert, surgical team notify."
+scenario_019_clinical_charting,scenario_019,clinical_charting,0.6167,0.5833,"40세 여성 환자, severe allergic reaction (anaphylaxis)로 입원함.  
+BP 85/50 mmHg, HR 120 bpm, RR 28 breaths/min, BT 36.8°C, SpO2 89% room air.  
+Severe swelling of the face and lips 확인됨.  
+Epinephrine 0.3 mg IM STAT 투여함.  
+High-flow nasal cannula 적용함.  
+IV fluids administration 실시함.  
+Urine output 50 mL/hr 유지됨.  
+환자 상태 drowsy로 확인됨.  
+Allergy team notify함 for further management.","소지세 여성 환자, 세벌 알러지 리액션, 애니필락시스로 이원함. BP 85, 50mmHg, HR 1RE BPM, RR 28B, BT 36.83, SPO2, 89% 룸 에어. 세벌 스웰링 of the face and lips 확인됨. 에피네프린 0.3mg, IM STAT 투여함. 하이플로우 네이처 캐니라 적용함. IV 플루이드 앤디스트레이션 시시함. 유륜 아웃풋 50mdph 유지됨. 환자상태 드라우지로 확인됨. 알러지 팀 노티파임 for further management."
+scenario_019_formal_template,scenario_019,formal_template,0.3182,0.2879,"환자는 40세 여성으로, 땅콩 노출 후 심각한 알레르기 반응(아나필락시스)으로 입원하였다. 활력징후는 혈압 85/50 mmHg, 심박수 120 bpm, 호흡수 28 breaths/min, 체온 36.8°C, 산소포화도는 실내 공기에서 89%로 확인되었다. 환자는 안면과 입술의 심한 부종을 보였다. 에피네프린 0.3 mg을 근육주사로 즉시 투여하였다. 고유량 비강 캐뉼라를 사용하여 산소를 공급받고 있으며, 정맥 내 수액을 투여하였다. 소변 배출량은 시간당 50 mL로 측정되었다. 환자는 졸린 상태로 관찰되었다. 알레르기 팀에게 추가 관리를 위해 보고하였다.","환자는 40세 여성으로 땅콩노출 후 심각한 알레르기 반응, 아낙시스로 입원하였다. 활력증후는 혈압 85-50mmg, 심박수 120bpm, 호흡수 28bpm, 체온 36.89, 산소포화도는 실내 공기에서 89%로 확인되었다. 환자는 앞면과 입술에 심한 부종을 보였다. 에피네프린 0.3mg을 근육주사로 즉시 투여하였다. 고유량 비강 케귤라를 사용하여 산소를 공급받고 있으며 정맥 내 수액을 투여하였다. 소변 배출량은 시간당 50mL로 측정되었다. 환자는 졸린 상태로 관찰되었다. 알레르기 팀에게 추가 관리를 위해 보고하였다."
+scenario_019_telegraphic_icu,scenario_019,telegraphic_icu,0.4,0.3333,"40세 여성, 중증 알레르기 반응(아나필락시스).  
+BP 85/50 mmHg.  
+HR 120 bpm.  
+RR 28 breaths/min.  
+BT 36.8°C.  
+SpO2 89% on room air.  
+Severe swelling of face/lips.  
+Epinephrine 0.3 mg IM STAT.  
+High-flow nasal cannula 적용됨.  
+IV fluids 투여함.  
+Urine output 50 mL/hr.  
+Drowsy.  
+Allergy team notify.","40세 여성, 중증 알레르기 페넥스. BP 85-50 명, HR 120 bpm, RR 28 breaths min, BT 36.8 leaks. SpO2 89% on room air. Severe swelling of face, lips, epinephrine 0.3mg IM stat. High flow nasal cannula 적용됨. IV fluids 투여함. Urine output 50mL drowsy. Allergy team notify."
+scenario_020_clinical_charting,scenario_020,clinical_charting,0.7091,0.3818,"61세 남성, severe acute pancreatitis로 입원. 다장기 침범 있음. 안정적이나 합병증 감시 중.
+
+BP 110/70, HR 95, RR 22, BT 37.8, SpO2 94%.
+
+Severe abdominal pain 호소함.
+
+Morphine 4 mg IV q4h 적용함.
+
+Nasal cannula 2 L/min 유지함.
+
+NG tube 유지함.
+
+Negative fluid balance 500 mL/24hr 확인됨.
+
+Drowsy 상태 확인됨.
+
+담당의 notify함. Gastroenterology consult 요청함.","61세 남성, Severe Acute Pancreatitis 로 입원, 다장기 침범 있음, 안정적인 합증 감시 중, BP 객 70, HR 95, RR Issue, BT 37.8, SbO2 94%. Severe Abdominal Pain 호소함, Morphine-Somnolarm IV-Q-SORH 적용함, Nasal Cannula-II Admin 유지함, NG-Tube 유지함, Negative Fluid Balance 500 mL per hr 확인됨, Drowsy 상태 확인됨, 담당의 Notify함, Gastroenterology Consult 요청함"
+scenario_020_formal_template,scenario_020,formal_template,0.2821,0.2692,"61세 남성 환자가 급성 중증 췌장염으로 다장기 침범이 발생하여 입원하였다. 현재 상태는 안정적이나 합병증 발생에 대한 면밀한 관찰이 필요하다. 활력징후로는 혈압이 110/70 mmHg, 심박수가 95 bpm, 호흡수가 22 bpm, 체온이 37.8도, 산소포화도가 94%로 확인되었다. 환자는 심한 복통을 호소하였다. 현재 Morphine 4 mg을 IV로 4시간마다 투여 중이다. 산소는 nasal cannula를 통해 2 L/min로 공급받고 있으며, NG tube가 삽입되어 있다. 24시간 동안 500 mL의 음성 체액 균형이 확인되었다. 임상 상태는 졸린 상태이다. 췌장염의 지속적인 관리를 위해 소화기 내과에 자문을 요청하였다.","61세 남성 환자가 급성 중증 최장염으로 다장기 침범이 발생하여 입원하였다. 현재 상태는 안정적이나 합병증 발생에 대한 면밀한 관찰이 필요하다. 활력증으로는 혈압이 170mg, 심박수가 95bpm, 호흡수가 22bpm, 체온이 37.8도, 산소포화도가 94%로 확인되었다. 환자는 심한 복통을 호소하였다. 현재 몰핀 4mg을 IV로 4시간마다 투여 중이다. 산소는 nasal cannula를 통해 E-meme로 공급받고 있으며 NG 튜브가 삽입되어 있다. 24시간 동안 500mL의 음성체 균형이 확인되었다. 임상 상태는 졸린 상태이다. 최장염의 지속적인 관리를 위해 소아기내과에 자문을 요청하였다."
+scenario_020_telegraphic_icu,scenario_020,telegraphic_icu,0.6512,0.5581,"61세 남성, 급성 췌장염 다발성 장기 침범.  
+BP 110/70.  
+HR 95.  
+RR 22.  
+BT 37.8.  
+SpO2 94%.  
+Severe abdominal pain.  
+Morphine 4 mg IV q4h.  
+O2 via NC at 2 L/min.  
+NG tube in place.  
+I/O: -500 mL/24hr.  
+Drowsy.  
+Dr notify gastro consult.","61세 남성, 급성 초자발성 기침, 부대기상, DENET-85, RR22, BT-37-8, SbO2 94%, Severe abdominal pain, morphine 4mg IV-Q4H, O2 via NC at 2 lmin, NG tube in place. IO, new 500mL per 24, drowsy. Docker notify gastro consult."
+scenario_021_clinical_charting,scenario_021,clinical_charting,0.6316,0.614,"57세 남성 severe hyperkalemia로 입원함. 근육 약화 severe 호소함. Rhabdomyolysis로 prolonged immobilization 후 발생.
+
+BP 145/85 mmHg. HR 110 bpm. RR 22 breaths/min. BT 37.2°C. SpO2 95% room air.
+
+Calcium gluconate 10 mL IV STAT 적용함.
+
+IV fluid administration 적용함. C-line 유지함.
+
+Strict monitoring of intake and output 시행 중.
+
+환자 alert 상태 확인됨.
+
+Renal team notify함.",57세 남성 세벌 하이퍼칼리미아로 입원함. 근육 약화 세벌 호소함. 랩드 마이올리스스로 프로롱드 이모빌리제이션 후 발생. BP 환사지와 85ml 허리비 유저람. HR 헤드리 브레스민 BT. BT 산지차 변티스. SPO2 85% 룸 에어. 칼슘 글루코네이트 10ml IV 스탯 적용함. IV 플루이드 애드민스트레이션 적용함. C-LINE 유지함. 스트릭트 모니터링 of intake and output 시행중. 환자 알러트 상태 확인됨. 린얼팀 노티파엠.
+scenario_021_formal_template,scenario_021,formal_template,0.2917,0.2222,"57세 남성 환자는 장시간의 부동으로 인한 횡문근융해증으로 심각한 고칼륨혈증을 앓고 있어 입원하였다.
+
+환자의 활력 징후는 혈압이 145/85 mmHg로 확인되었고, 심박수는 110 bpm이며, 호흡수는 22 breaths/min로 나타났다. 체온은 37.2°C였으며, 산소포화도는 실내 공기에서 95%로 확인되었다.
+
+환자는 심한 근육 약화를 호소하였다. 
+
+약물로는 Calcium gluconate 10 mL가 IV로 STAT 투여되었다. 
+
+환자는 IV fluid administration을 받았으며 C-line이 삽입되었다. 또한, 섭취 및 배출에 대한 철저한 모니터링이 이루어졌다.
+
+환자는 의식이 명료한 상태였다.
+
+전해질 불균형의 추가 관리를 위해 신장팀에 보고하였다.","57세 남성 환자는 장시간의 부동으로 인한 횡문근육애증으로 심각한 고칼륨 혈증을 앓고 있어 입원하였다. 환자의 활력증후는 혈압이 145.85 mbq로 확인되었고, 심박수는 110 bpm이며, 호흡수는 22 bpm로 나타났다. 체온은 37.26이었으며, 산소포화도는 실내 공기에서 95%로 확인되었다. 환자는 심한 근육 약화를 호소하였다. 약물로는 칼슘 그루코네이트 10mL가 IB로 스탯 투여되었다. 환자는 IB Fluid Administration을 받았으며, C-Line이 삽입되었다. 또한 섭취 및 배출에 대한 철저한 모니터링이 이루어졌다. 환자는 의식이 명료한 상태였다. 전해질 불균형의 추가 관리를 위해 신장팀에 보고하였다."
+scenario_021_telegraphic_icu,scenario_021,telegraphic_icu,0.9333,0.8444,"57세 남성 환자.   
+Severe hyperkalemia.  
+Rhabdomyolysis.  
+Prolonged immobilization 원인.  
+BP 145/85 mmHg.  
+HR 110 bpm.  
+RR 22 breaths/min.  
+BT 37.2°C.  
+SpO2 95% RA.  
+Muscle weakness severe.  
+Calcium gluconate 10 mL IV STAT.  
+IV fluid administration.  
+C-line in place.  
+I/O strict monitoring.  
+Alert.  
+Renal team notify.","57세 남성 환자, 세벌하이퍼칼리미아, 랩도마이올리스, 프로롱 데모빌리제이션 원인, B145, 85ml 헤드랩, HR110 BPM, RR22 브레스민, BT 37.23 셀시스, SBO2 95% RA, 무슨 위키미스 세벌, 카오시엄 글루코네이트, 10ml 아이비 스탯, 아이비 플루이드 애드민스트레이션, C-라인 인 플레이스, IO 스트릭트 모니터링, 알러트, 린얼 팀 노티파이."
+scenario_022_clinical_charting,scenario_022,clinical_charting,0.2679,0.25,"63세 여성 환자, 급성 심부전 및 폐부종으로 입원함.
+
+BP 150/95 mmHg 확인됨.  
+HR 110 bpm 확인됨.  
+RR 28 breaths/min 확인됨.  
+BT 37.2°C 확인됨.  
+SpO2 86% on room air 확인됨.  
+
+Severe shortness of breath 호소함.  
+
+Furosemide 40 mg IV q8h 투여함.  
+
+High-flow nasal cannula 적용함.  
+
+C-line 유지함.  
+
+Positive fluid balance 확인됨.  
+
+임상상태 drowsy 확인됨.  
+
+Cardiology team notify함.","63세 여성 환자, 급성 심부전 및 폐부종으로 입원함. BP 헤모 65mm 확인됨. HR 헥릿 BPM 확인됨. RR Acetabate Breaths Min 확인됨. BT 37.5 Duke Cells 확인됨. SpO2 86% on room air 확인됨. Severe shortness of breath 호소함. Furosemide 40mg IV QH 투여함. High flow nasal cannula 적용함. C-line 유지함. Positive fluid balance 확인됨. 임상상태 drowsy 확인됨. Cardiology team notify함."
+scenario_022_formal_template,scenario_022,formal_template,0.3284,0.2985,"63세 여성 환자가 급성 심부전 악화 및 폐부종으로 입원하였다. 활력징후를 확인한 결과, 혈압은 150/95 mmHg, 심박수는 110 bpm, 호흡수는 28 breaths/min, 체온은 37.2°C, 산소포화도는 실내 공기에서 86%로 나타났다. 환자는 심한 호흡곤란을 호소하였다. 현재 Furosemide 40 mg을 IV로 매 8시간마다 투여 중이다. 고유량 비강 캐뉼라를 사용하여 산소를 공급받고 있으며, 중심정맥관이 삽입되어 있다. 환자의 수분 균형 상태는 양성이고, 임상 상태는 졸림이 확인되었다. 호흡 상태 악화에 대해 심장내과 팀에게 보고하였다.","63세 여성 환자가 급성 심부전 악화 및 폐부종으로 입원하였다. 활력 증후를 확인한 결과, 혈압은 150부 95mmg, 심박수는 110 bpm, 호흡수는 28 bpm, 체온은 37.2 gc, 산소 포화도는 실내 공기에서 86%로 나타났다. 환자는 심한 호흡 곤란을 호소하였다. 현재 프로스밋 40mg을 IB로 매 8시간마다 투여 중이다. 고유량 비강 케귤라를 사용하여 산소를 공급받고 있으며 중심 정맥관이 삽입되어 있다. 환자의 수분 균형 상태는 양성이고 임상 상태는 졸림이 확인되었다. 호흡 상태 악화에 대해 심장내과팀에게 보고하였다."
+scenario_022_telegraphic_icu,scenario_022,telegraphic_icu,0.775,0.55,"63세 여성, 급성 심부전 및 폐부종.
+
+BP 150/95 mmHg.  
+HR 110 bpm.  
+RR 28.  
+BT 37.2°C.  
+SpO2 86% on RA.  
+
+Severe SOB.  
+
+Furosemide 40 mg IV q8h.  
+
+HFNC 사용 중.  
+
+C-line 유지 중.  
+
+양성 수분 균형.  
+
+Drowsy.  
+
+Cardiology team notify.","63세 여성, 극성 심부정 및 폐부정, BP-195 mmHg, HR-BPM-R1U8, BT-37-236, 86% RA, Severe SOB, Furosemide-40mg IVQ-H, HFNC 사용 중, C-Line 유지 중, 양성수분균형, Drowsy, Cardiology Team, Notify."
+scenario_023_clinical_charting,scenario_023,clinical_charting,0.4545,0.2973,"69세 여성 환자, 급성 악화된 Multiple Sclerosis로 입원함.
+
+BP 135/85 mmHg
+HR 80 bpm
+RR 22 breaths/min
+BT 37.2°C
+SpO2 96% on room air
+
+Muscle weakness moderate 호소함.
+
+Methylprednisolone 1g IV q12h 투여함.
+
+환자 상태 drowsy 확인됨.","69세 여성 환자, 급성 악화된 Multiple Sclerosis로 입원함. BP 1,085 mg, HR 80 bpm, RRHB BPM, BT 37.5, SBO2 96% on room air. Muscle weakness moderate 호소함. Methylprednisolone 1g IV-Q-SHOR-H 투여함. 환자상태 Drowsy 확인됨."
+scenario_023_formal_template,scenario_023,formal_template,0.2619,0.2619,"69세 여성 환자가 다발성 경화증의 급성 악화로 입원하였다. 활력 징후는 혈압 135/85 mmHg, 심박수 80 bpm, 호흡수 22 breaths/min, 체온 37.2°C, 산소포화도 96%로 실온 공기에서 확인되었다. 환자는 중등도의 muscle weakness를 호소하였다. Methylprednisolone 1g을 IV로 q12h 투여 중이다. 환자는 의식이 약간 저하된 상태이다.","69세 여성 환자가 다발성 경화증의 급성 악화로 입원하였다. 활력 징후는 혈압 135, 85mmHg, 심박수 80ppm, 호흡수 22breathsmin, 체온 37.8ac, 산소포화도 96%로 실온 공기에서 확인되었다. 환자는 중등도의 muscle weakness를 호소하였다. Methylprednisolone-Ingramer-IV로 QCBH 투여 중이다. 환자는 의식이 약간 저하된 상태이다."
+scenario_023_telegraphic_icu,scenario_023,telegraphic_icu,1.0357,0.7143,"69세 여성, MS 급성 악화로 입원.  
+BP 135/85 mmHg.  
+HR 80 bpm.  
+RR 22 breaths/min.  
+BT 37.2°C.  
+SpO2 96% RA.  
+Muscle weakness moderate.  
+Methylprednisolone 1g IV q12h.  
+Drowsy.",69세 여성 ms 급성 아쿼르 이번에 휴업하셔 바이븐 미드 험 hr hr 외치두 브레스민 bt 30 수 분지 수 spo 2d 6% ra muscle weakness moderate methylprednisolone 1 gamma iv qth drowsy
+scenario_024_clinical_charting,scenario_024,clinical_charting,0.7179,0.6512,"47세 남성 환자, 급성 appendicitis 및 수술 후 합병증으로 입원함.
+
+BP 112/74 mmHg.
+HR 88 bpm.
+RR 18 breaths/min.
+BT 37.8°C.
+SpO2 96%.
+
+Abdominal pain moderate 호소함.
+
+Ceftriaxone 1g IV BID 투여 중임.
+
+Urine output mildly reduced 확인됨.
+
+환자 의식 alert 상태 유지함.","47세 남성 환자, 급성 아펜디사이디스 및 수술 합병증으로 입원함. BPH 70mg, HR 85 BPM, RRCPETBREATHSMIN, BT 산티체병 및 S, SBOD 귀신닉브르펜틴. 압도미놀패인 모더릿 호소함. 세프트리액손 1g IVBID 투여중임. 유런 아웃풋 마일드 리 르듀스트 확인됨. 환자의식 알러트 상태 유지함."
+scenario_024_formal_template,scenario_024,formal_template,0.2449,0.2245,"47세 남성 환자가 급성 충수염 및 수술 후 합병증으로 입원하였다. 활력징후는 혈압 112/74 mmHg, 심박수 88 bpm, 호흡수 18 breaths/min, 체온 37.8°C, 산소포화도 96%로 확인되었다. 환자는 중간 정도의 복통을 호소하였다. Ceftriaxone 1g을 IV로 BID 투여 중이다. 산소 보조는 필요하지 않으며, 기기의 사용은 없다. 소변량은 경미하게 감소하였다. 환자는 의식이 명료하다.","47세 남성 환자가 급성 충수염 및 수술로 합병증으로 입원하였다. 활력증후는 혈압 122,74mg, 심박수 88bpm, 호흡수 18bpm, 체온 37.8°C, 산소포화도 96%로 확인되었다. 환자는 중간 정도의 복통을 호소하였다. 세프트리액션 은근을 IV로 BID 투여 중이다. 산소 보조는 필요하지 않으며 기기의 사용은 없다. 소변량은 경미하게 감소하였다. 환자는 의식이 명료하다."
+scenario_024_telegraphic_icu,scenario_024,telegraphic_icu,0.9,0.8529,"47세 남 환자. 급성 충수염 및 수술 후 합병증.
+
+BP 112/74 mmHg.
+HR 88 bpm.
+RR 18 breaths/min.
+BT 37.8°C.
+SpO2 96%.
+
+Abdominal pain moderate.
+
+Ceftriaxone 1g IV BID.
+
+Urine output mildly reduced.
+
+Alert.","47남환자, 급성 충수염 이수술합병증, BP 74mmHR8R18BST, BT 37.8, 그리스티즈, SpO2 96%, 압도미놀패인 모더릿, 세프트리약소인 1가이비비아이디, 유런 아웃풋 마일드 리듀스트, 알러트."
+scenario_025_clinical_charting,scenario_025,clinical_charting,0.4762,0.2857,"60세 여성 환자, acute cholecystitis로 입원함.
+
+BP 138/84 mmHg.  
+HR 92 bpm.  
+RR 20 breaths/min.  
+BT 38.2°C.  
+SpO2 95% room air.
+
+Severe abdominal pain 호소함.  
+
+Ceftriaxone 1g IV q12h 적용함.  
+
+Laparoscopic cholecystectomy planned.  
+
+C-line 유지함.  
+
+IO positive balance 확인됨.  
+
+Alert 상태 유지함.","60세 여성 환자, acute cholecystitis로 입원함. BP, 환사입외, 파리스미미허드랭, HR, 카이시디, BPM, RR20, Breath, SMIN, BT, 38.22, SPO, 25%, room air. severe abdominal pain 호소함. Ceftriaxone, 1g IV, Q2H 적용함. Laparoscopic cholecystectomy planned, C-line 유지함. Iopositive balance 확인됨. Alert 상태 유지함."
+scenario_025_formal_template,scenario_025,formal_template,0.5091,0.3636,"환자 정보: 60세 여성 환자가 급성 담낭염으로 입원하였다.
+
+활력징후: 혈압이 138/84 mmHg로 확인되었고, 심박수는 92 bpm, 호흡수는 20 breaths/min이다. 체온은 38.2°C로 측정되었으며, 산소포화도는 실내 공기에서 95%이다.
+
+증상: 심한 복통을 호소하였다.
+
+투약: Ceftriaxone 1g을 IV로 q12h 투여 중이다.
+
+중재: 복강경 담낭절제술이 계획되어 있다.
+
+기구: C-line이 삽입되어 있다.
+
+수분출입량: 양성 균형으로 확인되었다.
+
+임상 상태: 환자는 명료한 상태이다.","환자 정보 60세 여성 환자가 급성 담낭염으로 입원하였다. 활력증후 혈압이 138, 84mBhz로 확인되었고 심박수는 92bpm, 호흡수는 20breathsmin이다. 체온은 38.2도로 측정되었으며 산소포화도는 실내 공기에서 95%이다. 증상 심한 복통을 호소하였다. 투약 세프트랙손 인그라믈 IV로 QCVH 투여 중이다. 중재 복관경 담낭 절제술이 계획되어 있다. 기구 C라인이 삽입되어 있다. 수분출입량 양성균형으로 확인되었다. 임상상태 환을 명료한 상태이다."
+scenario_025_telegraphic_icu,scenario_025,telegraphic_icu,0.6765,0.4118,"60세 여자, 급성 담낭염 입원.  
+BP 138/84 mmHg.  
+HR 92 bpm.  
+RR 20 breaths/min.  
+BT 38.2°C.  
+SpO2 95% room air.  
+Severe abdominal pain.  
+Ceftriaxone 1g IV q12h.  
+Laparoscopic cholecystectomy planned.  
+C-line.  
+Positive balance.  
+Alert.","60세 여자, 급성 탐내염 의원. BP 138, 84 mm, HR 92 BPM, RR20 breaths, MIN T38.2, SPO2 95%, Room air, Severe abdominal pain, Seftriaxone 1 guy VQ12H, Laparoscopic cholecystectomy planned, C-line, Positive balance, Alert."
+scenario_026_clinical_charting,scenario_026,clinical_charting,0.8261,0.6087,"52세 여성 severe community-acquired pneumonia로 ICU 입원함.
+
+BP 102/64 mmHg.  
+HR 112 bpm.  
+RR 28 breaths/min.  
+BT 38.5°C.  
+SpO2 85% (room air).
+
+Severe dyspnea 호소함.  
+
+Levofloxacin 750 mg IV q12h 적용함.
+
+High-flow nasal cannula 60 L/min, FiO2 0.6 유지함.
+
+Ventilator 사용 중.  
+
+Clinical status drowsy 확인됨.","52세 여성 Severe Community-Acquired Pneumonia로 ICU 입원함. BP-PLN-668-HRH, HR-RHG-PET-BREATHS-MIN, BT-SANTI-PET-DEMO-BROOKS, SbO2-U-PESENPIN-RUMER, Severe Dyspnea 호소함, Levofloxacin-Turbo-Mingum-EV-Ki-H 적용함, High-Flow Nasal-Cannula-60-LELA-PERMIN-PHYO-2.NUX 유지함, Ventilator 사용 중. Clinical Status Drowsy 확인 됨."
+scenario_026_formal_template,scenario_026,formal_template,0.2373,0.2373,"52세 여성 환자가 중증의 지역사회 획득 폐렴으로 중환자실에 입원하였다. 혈압은 102/64 mmHg로 측정되었으며, 심박수는 112 bpm로 확인되었다. 호흡수는 28 breaths/min이고, 체온은 38.5°C로 발열이 관찰되었다. 산소포화도는 실내 공기에서 85%로 확인되었다. 환자는 심한 호흡곤란을 호소하였다. Levofloxacin 750 mg이 정맥으로 12시간마다 투여되고 있다. 환자는 고유량 비강 캐뉼라로 60 L/min, FiO2 0.6의 산소지원을 받고 있으며, 인공호흡기가 사용 중이다. 환자는 기면 상태를 보이고 있다.","52세 여성 환자가 중증의 지역사회 획득 폐렴으로 중환자실에 입원하였다. 혈압은 102,64mm로 측정되었으며, 심박수는 112bpm으로 확인되었다. 호흡수는 28 breathsmin이고, 체온은 38.5°C로 발열이 관찰되었다. 산소포화도는 실내 공기에서 85%로 확인되었다. 환자는 심한 호흡곤란을 호소하였다. 리버플록스슨 700mg이 정맥으로 12시간마다 투여되고 있다. 환자는 고유량 비강 케콜라로 60mg FIO2-0.6의 산소 지원을 받고 있으며, 인공호흡기가 사용 중이다. 환자는 기면 상태를 보이고 있다."
+scenario_026_telegraphic_icu,scenario_026,telegraphic_icu,0.7105,0.4474,"52세 여성. Severe CAP. ICU 관리 필요.  
+BP 102/64 mmHg.  
+HR 112 bpm.  
+RR 28 breaths/min.  
+BT 38.5°C.  
+SpO2 85% RA.  
+Severe dyspnea.  
+Levofloxacin 750 mg IV q12h.  
+HFNC 60 L/min, FiO2 0.6.  
+Ventilator 사용 중.  
+Drowsy 상태.","52세 여성, Severe CAP ICU 관리 필요, BPN이 0.63mmHg, HR, Hemorrhoid BPM, RRH, MIN, BT, 38.5 SbH2O, RA, Severe dyspnea, Levofloxacin 70mg IVQ2H, HFNC 60A, FiO2 1.6, Ventilator 사용 중, Drowsy 상태"
+scenario_027_clinical_charting,scenario_027,clinical_charting,0.475,0.375,"60세 남성 환자, acute ischemic stroke로 입원함.
+
+BP 160/90, HR 88, RR 18, BT 37.2, SpO2 95%.
+
+Weakness on right side moderate 확인됨.
+
+Alteplase 0.9 mg/kg IV STAT 투여함.
+
+C-line 적용함.
+
+IV fluids initiated.
+
+환자 drowsy 상태임.
+
+Neurology team notify함.","60세 남성 환자, 아큐트 이스키믹스 스트로크로 입원함. BP, 헴육신, HR, A-TITAT, A-CNN, T-산지체똥 우 S-Bioth. Weakness on right side moderate 확인됨. Alteplase, 0.9mg KILG IV 스탯 투여함. C-Line 적용함. IV fluids initiated. 환자 드라우지 상태임. Neurology team notify함."
+scenario_027_formal_template,scenario_027,formal_template,0.2,0.1636,"환자는 60세 남성으로 급성 허혈성 뇌졸중으로 입원하였다. 현재 활력징후는 혈압 160/90 mmHg, 심박수 88 bpm, 호흡수 18 회/분, 체온 37.2°C, 산소포화도 95%로 확인되었다. 환자는 오른쪽에 중등도의 약화를 호소하고 있다. Alteplase 0.9 mg/kg이 정맥으로 즉시 투여되었다. 피하에 C-line이 삽입되어 있으며, 정맥 수액이 시작되었다. 환자는 현재 졸린 상태를 보이고 있다. 신경과 팀에게 즉각적인 평가와 치료를 위해 보고하였다.","환자는 60세 남성으로 급성 허혈성 뇌졸중으로 입원하였다. 현재 활력징후는 혈압 160mg, 심박수 88bpm, 호흡수 18회분, 체온 37.2°C, 산소포화도 95%로 확인되었다. 환자는 오른쪽에 중등도의 약화를 호소하고 있다. Alteplase 0.9mgkg이 정맥으로 즉시 투여되었다. 피아에 C-Line이 삽입되어 있으며 정맥 수액이 시작되었다. 환자는 현재 졸린 상태를 보이고 있다. 신경과 팀에게 즉각적인 평가와 치료를 위해 보고하였다."
+scenario_027_telegraphic_icu,scenario_027,telegraphic_icu,0.7222,0.4167,"60세 남성, 급성 허혈성 뇌졸중으로 입원.  
+BP 160/90.  
+HR 88.  
+RR 18.  
+BT 37.2.  
+SpO2 95%.  
+Right side weakness, moderate.  
+Alteplase 0.9 mg/kg IV STAT.  
+C-line 유지 중.  
+IV fluids 시작.  
+Drowsy 상태.  
+Neurology team notify.","60세 남성 급성 허혈성 뇌졸중으로 E1, BP669, HR88, RRCPAT, BTSunnyChipDenu, SpO2%, Right Side Weakness Moderate, Alteplase 609mgkg IV Stat, C-Line 유지중, IV Fluids 시작, Drowsy 상태, Neurology Team Notify"
+scenario_028_clinical_charting,scenario_028,clinical_charting,0.4259,0.2778,"54세 남자 환자, acute hemorrhagic stroke로 입원함.  
+BP 180/100 mmHg, HR 88 bpm, RR 22 breaths/min, BT 36.8°C, SpO2 95% on room air.  
+Severe headache 호소함.  
+Labetalol 20 mg IV STAT 투여함.  
+CT scan of the head 시행함.  
+C-line 적용함.  
+24시간 동안 500 mL positive fluid balance 확인됨.  
+환자 stuporous 상태임.  
+Neurology team notify함.","54세 남자 환자, acute hemorrhagic stroke로 입원함. BP 0.8-100mg, HR 100 BPM, RR, RCD breaths min, BT 36.8, CELS, SpO2 95% on room air. severe headache 호소함, labetalol 8mg의 stat 투여함, CT scan of the head 시행함, C-line 적용함. 익숙해 시간 동안 500mL positive fluid balance 확인됨. 환자 stuporous 상태임. Neurology team notify함."
+scenario_028_formal_template,scenario_028,formal_template,0.4054,0.3378,"환자 상황: 54세 남성 환자가 급성 출혈성 뇌졸중으로 입원하였다.
+
+활력 징후: 혈압은 180/100 mmHg로 측정되었으며, 심박수는 88 bpm, 호흡수는 22 breaths/min, 체온은 36.8°C였다. 산소포화도는 상실기 공기에서 95%로 확인되었다.
+
+환자는 심한 두통을 호소하였다.
+
+약물 투여: Labetalol 20 mg이 IV로 STAT 투여되었다.
+
+중재: 두부 CT 촬영이 시행되었다.
+
+장치: C-line이 삽입되었다.
+
+수액 균형: 지난 24시간 동안 체액 균형이 500 mL 양성으로 확인되었다.
+
+임상 상태: 환자는 기면 상태를 보였다.
+
+담당 신경과 팀에게 환자의 임상 상태 변화에 대해 보고하였다.","환자 상황 54세 남성 환자가 급성출혈성 뇌졸중으로 입원하였다. 활력증후 혈압은 180-100mmRAM로 측정되었으며, 심박수는 88bpm, 호흡수는 22bpm, 체온은 36.8°C였다. 산소포화도는 상실기 공기에서 95%로 확인되었다. 환자는 심한 두통을 호소하였다. 약물 투여 Labetalol 20mg이 IB로 STAT 투여되었다. 중재 두부CT 촬영이 시행되었다. 장치 C-Line이 삽입되었다. 수액균형 지난 24시간 동안 체액균형이 500mL 양성으로 확인되었다. 임상상태 환자는 기면 상태를 보였다. 담당 신경과 팀에게 환자의 임상상태 변화에 대해 보고하였다."
+scenario_028_telegraphic_icu,scenario_028,telegraphic_icu,0.775,0.6,"54세 남성, 급성 출혈성 뇌졸중 입원.  
+BP 180/100 mmHg.  
+HR 88 bpm.  
+RR 22 breaths/min.  
+BT 36.8°C.  
+SpO2 95% room air.  
+Severe headache.  
+Labetalol 20 mg IV STAT.  
+CT head 시행.  
+C-line 유지.  
+I/O: +500 mL/24h.  
+Stuporous 상태.  
+Neuro notify.","욕실 후세 남성, 급성 출혈성 뇌졸중 이원, BPHHR88BR20TI-RAS-MIN-BT36.AS-SPO2-95% room air, severe headache, libetalol 20mg IV stat, CT head shing, C-line UG, IO plus 5mg, stuporous 상태, neuro notify."
+scenario_029_clinical_charting,scenario_029,clinical_charting,0.7097,0.4677,"49세 여자환자, GBS로 입원. 중증 muscle weakness 호소. 호흡 상태 밀착 모니터링 필요.
+
+BP 130/85 mmHg, HR 92 bpm, RR 18 breaths/min, BT 36.8°C, SpO2 89% room air.
+
+IVIG 0.4 g/kg IV q12h 적용함.
+
+Nasal cannula 2L/min 산소 공급 유지함.
+
+Plasmapheresis 예정됨.
+
+Ventilator 필요함.
+
+Foley catheter 유지 중, 소변량 1200 ml/24h 확인됨.
+
+의식 drowsy 확인됨.
+
+Neurology team에 호흡 기능 저하 상태 업데이트함.","49세 여자 환자, GBS로 입원 중증 Muscle Weakness 호소, 호흡상태 밀착 모니터링 필요 BP 138.5 mg, HR 92 bpm, RRR 18 breaths min, BT 36.8 gc, SBO 2.89% room air IVIG 14gcl IV-Q SPH 적용함 Nasal cannula tuilumin 산소 공급 유지함 Plasma phoresis 예정됨 Ventilator 필요함 Foley catheter 유지 중 소변량 1,200 mL per 24h 확인됨 의식 drowsy 확인됨 Neurology팀의 호흡기능저하상태 업데이트함"
+scenario_029_formal_template,scenario_029,formal_template,0.3571,0.2857,"환자 정보: 49세 여성 환자가 Guillain-Barré Syndrome (GBS)으로 입원하였으며, 진행성 근육 약화와 호흡 모니터링이 필요한 상태이다.
+
+활력징후: 혈압은 130/85 mmHg로 측정되었고, 심박수는 92 bpm, 호흡수는 18 breaths/min, 체온은 36.8°C로 확인되었다. 산소포화도는 실내 공기에서 89%로 나타났다.
+
+증상: 환자는 심각한 근육 약화를 호소하고 있다.
+
+투약: 환자에게는 IVIG 0.4 g/kg을 IV 경로로 q12h로 투여 중이다.
+
+산소 지원: 환자는 nasal cannula 2L/min으로 산소 공급을 받고 있다.
+
+중재: 플라즈마 교환술이 예정되어 있다.
+
+장치: 환자는 인공호흡기를 사용 중이다.
+
+입출량: Foley catheter가 삽입되어 있으며, 24시간 동안의 소변 배출량은 1200 ml이다.
+
+임상 상태: 환자는 졸린 상태이다.
+
+통보: 신경과 팀에게 환자의 호흡 기능 저하 상태에 대해 업데이트하였다.","환자 정보 49세 여성 환자가 기엔브레이 신드롬 GBS로 입원하였으며 진행성 근육 약화와 호흡 모니터링이 필요한 상태이다. 활력증후 혈압은 130-85mmg로 측정되었고 심박수는 92bpm, 호흡수는 18bpm, 체온은 36.8°C로 확인되었다. 산소포화도는 실내 공기에서 89%로 나타났다. 증상 환자는 심각한 근육 약화를 호소하고 있다. 환자에게는 IVIG 0.4g·kg을 IV경로로 QCBH로 투여 중이다. 산소지원 환자는 nasal cannulatuiturmin으로 산소 공급을 받고 있다. 중제, 플라즈마 교환술이 예정되어 있다. 장치 환자는 인공호흡기를 사용 중이다. 입출량, Foley catheter가 삽입되어 있으며 24시간 동안의 소변 배출량은 1200ml이다. 임상상태 환자는 졸린 상태이다. 신경과팀에게 환자의 호흡 기능 저하 상태에 대해 업데이트하였다."
+scenario_029_telegraphic_icu,scenario_029,telegraphic_icu,0.6136,0.4318,"49세 여성, GBS로 입원.  
+BP 130/85 mmHg.  
+HR 92 bpm.  
+RR 18 breaths/min.  
+BT 36.8°C.  
+SpO2 89% (room air).  
+Severe muscle weakness.  
+IVIG 0.4 g/kg IV q12h.  
+Nasal cannula 2L/min.  
+Plasmapheresis scheduled.  
+Ventilator 준비됨.  
+Foley catheter. Urine 1200 ml/24h.  
+Drowsy 상태.  
+Neurology team notify.","42세 여성, GBS로 이원. BP on 3rd, 85mT, HR 92bpm, RR 18breaths min, BT 36.8g, SpO2 89%, room air. Severe muscle weakness, IVIG 0.4g, KD IV Q12H. Nasal cannula 2mm, plasma pheresis scheduled, ventilator 준비됨. Foley catheter, urine 112m24, drowsy 상태. Neurology team notify."
+scenario_030_clinical_charting,scenario_030,clinical_charting,0.4211,0.3947,"56세 여성, acute exacerbation of SLE로 입원함. Lupus nephritis 확인됨.
+
+BP 142/90, HR 92, RR 18, BT 37.5, SpO2 96%.
+
+Moderate joint pain 호소함.
+
+Prednisolone 40 mg PO q12h 적용함.
+
+Foley 유지함.
+
+I/O positive.
+
+환자 alert 상태 유지함.","56세 여성, acute exacerbation of SLE로 입원함. Lupus nephritis 확인된 BP accessory 2E, HR spot, BT 선지체 동무, SpO2 지지액 percent. Moderate joint pain 호소함. Prednisolone 40mg POQ2RH 적용함. Foley 유지함, IO positive. 환자 alert 상태 유지함."
+scenario_030_formal_template,scenario_030,formal_template,0.3654,0.3654,"56세 여성 환자가 전신 홍반성 루푸스(SLE)의 급성 악화로 입원하였으며, 루푸스 신염을 동반하고 있다. 활력징후로는 혈압이 142/90 mmHg, 심박수가 92 bpm, 호흡수가 18 bpm, 체온이 37.5°C, 산소포화도가 96%로 확인되었다. 환자는 중등도의 joint pain을 호소하였다. 환자에게 prednisolone 40 mg을 경구로 12시간마다 투여 중이다. Foley 카테터가 삽입되어 있으며, 수분 균형은 positive로 나타났다. 환자는 의식이 명료하다.","56세 여성 환자가 전신 홍반성 루프스의 급성 악화로 입원하였으며, 루프스 신염을 동반하고 있다. 활력증으로는 혈압이 140-920mmHg, 심박수가 92bpm, 호흡수가 18bpm, 체온이 37.5℃, 산소포화도가 96%로 확인되었다. 환자는 중등도의 조인트 페인을 호소하였다. 환자에게 베드네즐론 40mg을 경고로 12시간마다 투여 중이다. 폴리카테터가 삽입되어 있으며, 수분 균형은 포지티브로 나타났다. 환자는 의식이 명료하다."
+scenario_030_telegraphic_icu,scenario_030,telegraphic_icu,0.9032,0.6452,"56세 여성. SLE 악화로 입원. Lupus nephritis 동반.
+
+BP 142/90. HR 92. RR 18. BT 37.5°C. SpO2 96%.
+
+Joint pain moderate.
+
+Prednisolone 40mg PO q12h.
+
+Foley 사용 중.
+
+IO positive.
+
+Alert.","66세 여성, SLEA-481, Lupus nephritis 동반 BPON, RFAS, CGRID, HR, GERD, RRNS, BT, 37, SPOS, PUNITY, ZIGSWORTH-PERFENT, joint pain moderate, 40mg PO, Q2RH, Foley, 사용중 IOPOSITIVE, ALERT."
+scenario_031_clinical_charting,scenario_031,clinical_charting,0.8545,0.5273,"43세 남성, severe acute pancreatitis 및 SIRS로 입원함.
+
+BP 92/58 mmHg, HR 126 bpm, RR 28 breaths/min, BT 38.5°C, SpO2 95% (room air).
+
+Severe abdominal pain 호소함.
+
+Morphine 4 mg IV q4h 적용함.
+
+IV fluid resuscitation 유지함.
+
+Negative fluid balance 500 mL (last 24 hours) 확인됨.
+
+임상 상태: drowsy.
+
+GI specialist consult 위해 담당의 notify함.","43세 남성, Severe Acute Pancreatitis Meets SIRS으로 입원함. BP 92, 55mmHg, HR, BTRPX6 BPM, RR Scent Pipe, Breaths Min, Breaths Mean, B-Sunny JVAP, Homo Verticus Cells, SbO2 95%, Room Air. Severe Abdominal Pain 호소함, Morphine Vanadium IV Q4H 적용함. IV Fluid Resuscitation 유지함. Negative Fluid Balance Fibreg Millimeter Lasts 24 Hours 확인됨. 임상상태 Drowsy, GI Specialist Consult 위에 담당해 Notify함."
+scenario_031_formal_template,scenario_031,formal_template,0.403,0.3582,"환자는 43세 남성으로, 급성 췌장염과 연관된 전신 염증 반응 증후군(SIRS)으로 입원하였다. 활력 징후는 혈압이 92/58 mmHg, 심박수가 126 bpm, 호흡수가 28 breaths/min, 체온이 38.5°C, 산소포화도가 대기 중 95%로 확인되었다. 환자는 심한 복통을 호소하였다. 약물로는 Morphine 4 mg을 IV로 4시간 간격으로 투여하였다. 중재로는 IV fluid resuscitation이 시행되었다. 지난 24시간 동안의 체액 균형은 500 mL의 음성으로 확인되었다. 환자는 졸음이 있는 상태이다. 추가적인 관리 권고를 위해 소화기 내과 전문의에게 상담하였다.","환자는 43세 남성으로 급성 최장염과 연관된 전신 염증 반응증으로 입원하였다. 활력증후는 혈압이 92, 58mmHg, 심박수가 126bpm, 호흡수가 28bpm, 체온이 38.5℃, 산소포화도가 대기 중 95%로 확인되었다. 환자는 심한 복통을 호소하였다. 약물로는 Morphine 4mg을 IB로 매시간 간격으로 투여하였다. 중재로는 IB Fluid Resuscitation이 시행되었다. 지난 23시간 동안의 체액균형은 500mL의 음성으로 확인되었다. 환자는 졸음이 있는 상태이다. 추가적인 관리 권고를 위해 소아기내과 전문의에게 상담하였다."
+scenario_031_telegraphic_icu,scenario_031,telegraphic_icu,0.5854,0.3902,"43세 남성, 급성 췌장염 및 SIRS.  
+BP 92/58 mmHg.  
+HR 126 bpm.  
+RR 28 breaths/min.  
+BT 38.5°C.  
+SpO2 95% room air.  
+Severe abdominal pain.  
+Morphine 4 mg IV q4h.  
+IV fluid resuscitation.  
+Negative fluid balance 500 mL/24h.  
+Drowsy.  
+GI specialist consult.","43세 남성, 급성추장염 이슬, BP 92, 58mm, HR 126bpm, RR 28breaths min, BT 38.4th, SbO2 95% room air, severe abdominal pain, morphine 4mg IV Q4H, IV fluid resuscitation, negative fluid balance 500mL 24H, drowsy, GI specialist consult."
+scenario_032_clinical_charting,scenario_032,clinical_charting,0.5128,0.4186,"67세 여자 환자. 폐질환 악화로 인한 급성 호흡부전으로 입원함.
+
+BP 140/85 mmHg
+HR 110 bpm
+RR 28 /min
+BT 37.6 °C
+SpO2 88%
+
+Severe dyspnea 호소함.
+
+Methylprednisolone 60 mg IV q12h 적용함.
+
+High-flow nasal cannula 유지함.
+
+Ventilator 사용 중임.
+
+의식 상태 drowsy 확인됨.","67세 여자 환자, 폐질환 악화로 인한 급성 호흡 부전으로 입원함. BP 140, 85mmHr, HR 약 80bpm, RR 아스트라제네임, BT 37.6, 50% Severe dyspnea 호소함. Methylprednisolone 60mg IV Q-SHREG 적용함. High flow nasal cannula 유지함. Ventilator 사용 중임. 의식상태 drowsy 확인됨."
+scenario_032_formal_template,scenario_032,formal_template,0.3519,0.3333,"환자는 67세 여성으로, 간질성 폐질환 악화로 인한 급성 호흡부전으로 입원하였다. 활력 징후는 혈압 140/85 mmHg, 심박수 110 bpm, 호흡수 28 bpm, 체온 37.6°C, 산소포화도 88%로 확인되었다. 환자는 심한 호흡곤란을 호소하였다. 약물로 methylprednisolone 60 mg을 IV 경로로 12시간마다 투여하였다. 환자는 고유량 비강 캐뉼라를 통해 산소를 공급받고 있으며, ventilator가 사용 중이다. 임상 상태는 기면 상태로 확인되었다.","환자는 67세 여성으로 간질성 폐질환 악화로 인한 급성 호흡 부전으로 입원하였다. 활력 징후는 혈압 148.85mmHg, 심박수 120bpm, 호흡수 28bpm, 체온 37.6dl, 산소 포화도 88%로 확인되었다. 환자는 심한 호흡 곤란을 호소하였다. 약물로 메틀프레드니졸론 60mg을 IV 경로로 12시간마다 투여하였다. 환자는 고유량 비강 캐큘라를 통해 산소를 공급받고 있으며, 벤틀레이러가 사용 중이다. 임상 상태는 기면 상태로 확인되었다."
+scenario_032_telegraphic_icu,scenario_032,telegraphic_icu,0.7059,0.4706,"67세 여성 환자. 급성 호흡부전으로 입원. ILD 악화.
+
+BP 140/85. HR 110. RR 28. BT 37.6. SpO2 88%.
+
+Dyspnea severe.
+
+Methylprednisolone 60 mg IV q12h.
+
+High-flow nasal cannula 적용 중.
+
+Ventilator 사용 중.
+
+Drowsy.","67세 여성 환자, 급성 호흡부전으로 입원, ILD 악화, BEP185, HR 백신, RRH8BT, 산지첩동축, SpO2 88%, 디스피니아 세베어, Methylprednisolone 60mg IVQ-SHOR-H, 하이플로우 네이설 캐뉴라 적용 중, VENTILATOR 사용 중, DROWSY."
+scenario_033_clinical_charting,scenario_033,clinical_charting,0.3617,0.3404,"64세 남성, atrial fibrillation onset으로 입원함. Hemodynamics 불안정함.
+
+BP 88/54 mmHg.  
+HR 142 bpm.  
+RR 22 breaths/min.  
+BT 36.9°C.  
+SpO2 94% room air.  
+
+Severe palpitations 호소함.  
+
+Diltiazem 20 mg IV STAT 투여함.  
+
+Electrical cardioversion 시행함.  
+
+C-line 유지함.  
+
+IV fluids 1500 mL 투여함.  
+
+의식 명료함.  
+
+Cardiology team notify함.","64세 남성, atrial fibrillation onset으로 입원함. 히모디나믹스 불안정함. BP 88, 54mmhg. HR 142bpm, RR H2B breaths min. BT 36°C, SbO2 94% room air. Severe palpitations 호소함. Diltiazem 20mg IV stat 투여함. Electrical cardioversion 시행함. C-line 유지함. IV fluids 10-500mL 투여함. 의식명료함. Cardiology team notify함."
+scenario_033_formal_template,scenario_033,formal_template,0.2679,0.25,"64세 남성 환자가 새로 발생한 심방세동과 불안정한 혈역학적 상태로 입원하였다. 활력징후는 혈압 88/54 mmHg, 심박수 142 bpm, 호흡수 22 breaths/min, 체온 36.9°C, 산소포화도 94%로 확인되었다. 환자는 심계항진을 심하게 호소하였다. Diltiazem 20 mg을 정맥으로 즉시 투여하였다. 전기적 심율동 전환이 시행되었다. 중심정맥관이 삽입되어 있으며, 1500 mL의 수액이 정맥으로 투여되었다. 환자는 의식이 명료하다. 추가적인 관리를 위해 심장내과 팀에게 보고하였다.","64세 남성 환자가 새로 발생한 심방세동과 불안정한 혈역학적 상태로 입원하였다. 활력증후는 혈압 88, 54mmHg, 심박수 142ppm, 호흡수 22breaths, 체온 36.9°C, 산소포화도 94%로 확인되었다. 환자는 심개양진을 심하게 호소하였다. 딜티아즘 20mg을 정맥으로 즉시 투여하였다. 전기적 심률동 전환이 시행되었다. 중심정맥관이 삽입되어 있으며 1,500mL의 수액이 정맥으로 투여되었다. 환자는 의식이 명료하다. 추가적인 관리를 위해 심장내과 팀에게 보고하였다."
+scenario_033_telegraphic_icu,scenario_033,telegraphic_icu,0.9,0.3864,"64세 남성. Atrial fibrillation onset. Hemodynamics unstable.
+
+BP 88/54 mmHg.
+HR 142 bpm.
+RR 22 breaths/min.
+BT 36.9°C.
+SpO2 94% room air.
+
+Palpitations severe.
+
+Diltiazem 20 mg IV STAT.
+
+Electrical cardioversion 실시.
+
+C-line in situ.
+
+1500 mL IV fluids.
+
+Patient alert.
+
+Cardiology team notify.",64세 남성 atrial fibrillation onset hemodynamics unstable bp88 54mm hergrang hr142 bpm rr22 breaths min bt36.9 greases spo2 94% room air palpitations severe diltiasm 20mg iv state electrical cardioversion shishi c-line in situ 1500ml iv fluids patient alert cardiology team notify
+scenario_034_clinical_charting,scenario_034,clinical_charting,0.4528,0.4151,"58세 남성 환자, acute decompensated cirrhosis with hepatic encephalopathy로 입원함.
+
+BP 95/60 mmHg, HR 112 bpm, RR 20 breaths/min, BT 36.5°C, SpO2 92% on room air.
+
+Moderate jaundice 확인됨. 
+
+환자 drowsy 상태 유지함.
+
+Lactulose 30 mL PO q8h 투여함.
+
+Nasal cannula at 2 L/min 적용함.
+
+Strict fluid balance monitoring 유지함.
+
+Hepatology team notify함.","58세 남성 환자. 아큐트 디컴펜세이티드 서로시스 후 히파닉 엔세포로파티로 입원함. BP 25-60mmg, HR 100 BPM, RR20 Breathsmin, BT 36.5°C, SpO2 기시% on room air. Moderate jaundice 확인됨. 환자 드라우지 상태 유지함. Lactulose 30ml POQ8H 투여함. Nasal cannulite 2LMN 적용함. Strict fluid balance monitoring 유지함. Hepatology team notify함."
+scenario_034_formal_template,scenario_034,formal_template,0.3167,0.3,"환자는 급성 악화된 간경변증과 간성 뇌증으로 입원한 58세 남성이다. 활력징후는 혈압이 95/60 mmHg, 심박수가 112 bpm, 호흡수가 20 breaths/min, 체온이 36.5°C이며, 산소포화도는 실내 공기에서 92%로 확인되었다. 중등도의 황달이 관찰되었다. 환자는 경구로 Lactulose 30 mL를 8시간마다 복용하고 있다. 산소는 비강 캐뉼라를 통해 2 L/min로 공급 중이다. 환자는 졸음이 있으며, 엄격한 체액 균형 모니터링이 필요하다. 간성 뇌증 악화를 간 전문 팀에게 보고하였다.","환자는 급성 악화된 간경변증과 간성 뇌증으로 입원한 58세 남성이다. 활력증후는 혈압이 95-60mmg, 심박수가 100cbpm, 호흡수가 20breathsmin, 체온이 36.5℃이며 산소포화도는 실내 공기에서 92%로 확인되었다. 중등도의 황달이 관찰되었다. 환자는 경구로 Lactulose 30ml를 너덜 시간마다 복용하고 있다. 산소는 비강 케귤라를 통해 E-리트루민으로 공급 중이다. 환자는 졸음이 있으며 엄격한 체액균형 모니터링이 필요하다. 간성 뇌증 악화를 간 전문팀에게 보고하였다."
+scenario_034_telegraphic_icu,scenario_034,telegraphic_icu,0.6279,0.4884,"58세 남성, 급성 악화된 간경변증 및 간성 혼수로 입원.
+
+BP 95/60 mmHg.  
+HR 112 bpm.  
+RR 20 breaths/min.  
+BT 36.5°C.  
+SpO2 92% room air.
+
+Jaundice moderate.
+
+Lactulose 30 mL PO q8h.
+
+Nasal cannula 2 L/min.
+
+Strict fluid balance monitoring.
+
+Drowsy.
+
+Hepatology team notify함.","욕심받으신 남성, 급성 악화된 간성 혼수로 입원. BP-36C 면역력, HR-112bpm, RR-20min, BT-36.5gth, SpO2 90% room air, jaundice moderate, Lactulose 30ml POQ-8, Nasal cannula 2, Strict fluid balance monitoring, drowsy, Hepatology team notify."
+scenario_035_clinical_charting,scenario_035,clinical_charting,0.7121,0.5152,"62세 여성 환자, acute decompensated heart failure로 입원, dilated cardiomyopathy 기인함.
+
+BP 95/60 mmHg, HR 110 bpm, RR 24 breaths/min, BT 36.8°C, SpO2 90% on room air 확인됨.
+
+Shortness of breath severe.
+
+Furosemide 40 mg IV q8h 적용함.
+
+4 L/min via nasal cannula 산소공급 유지함.
+
+Foley 유지함.
+
+IO: Negative balance of 500 mL over 24 hours.
+
+Clinical status: drowsy 확인됨.
+
+Cardiology team notify함 for persistent hypotension.","60bc 여성 환자, heart failure to E1, dilated cardiomyopathy, 기이남 bp.tg5 60mg, hrbpm, r24 breaths min, bt36.8 disease, sp02 90% on room air, 확인됨 shortness of breath severe, furosemide 40mg IV, q8h 적용함 4 lbrmin via nasal cannula 산소공급 유지함, Foley 유지함 io, negative balance of 500mL over 24 hours"
+scenario_035_formal_template,scenario_035,formal_template,0.3676,0.3529,"62세 여성 환자는 확장성 심근병증으로 인한 급성 악화 심부전으로 입원하였다. 활력징후는 혈압 95/60 mmHg, 심박수 110 bpm, 호흡수 24 breaths/min, 체온 36.8°C, 산소포화도 90%로 실내 공기에서 확인되었다. 환자는 심한 정도의 호흡곤란을 호소하였다. Furosemide 40 mg이 IV로 8시간마다 투여되고 있다. 산소는 비강 캐뉼라를 통해 4 L/min으로 공급 중이다. Foley 카테터가 삽입되어 있으며, 24시간 동안 500 mL의 음성 수분균형이 확인되었다. 환자는 졸린 상태로 관찰되었다. 지속적인 저혈압에 대해 심장학 팀에게 보고하였다.","62세 여성 환자는 확장성 심근병증으로 인한 급성악화심부전으로 입원하였다. 활력증후는 혈압 95-60mmHg, 심박수 110bpm, 호흡수 24breathsmin, 체온 36.8°C, 산소포화도 90%로 실내 공기에서 확인되었다. 환자는 심한 정도의 호흡곤란을 호소하였다. Furosemide 40mg이 IV로 너를 시간마다 투여되고 있다. 산소는 비강케툴라를 통해 salipermamine으로 공급 중이다. Foley 카테터가 삽입되어 있으며 24시간 동안 500ml의 음성수분균형이 확인되었다. 환자는 졸린 상태로 관찰되었다. 지속적인 저혈압에 대해 심장악팀에게 보고하였다."
+scenario_035_telegraphic_icu,scenario_035,telegraphic_icu,0.9211,0.5476,"62세 여성, 급성 악화 심부전, 확장성 심근병증.
+
+BP 95/60 mmHg.
+HR 110 bpm.
+RR 24 breaths/min.
+BT 36.8°C.
+SpO2 90% room air.
+
+Severe SOB.
+
+Furosemide 40 mg IV q8h.
+
+O2 4 L/min NC.
+
+Foley in place.
+
+I/O -500 mL/24hr.
+
+Drowsy.
+
+Dr notify.",60세 여성 급성 악화 심부전 확장성 신근병증 bp95 660 mmhr 810 bpm r 24 breaths min bt 36.8 decils spo2 90% room air severe sob furosemide 40 mmiv q8 h o24 element nc fully in place io 524 drowsy doctor notify
+scenario_036_clinical_charting,scenario_036,clinical_charting,0.5455,0.4167,"55세 여성, severe acute asthma exacerbation으로 입원함.
+
+BP 130/85 mmHg
+HR 110 bpm
+RR 28 breaths/min
+BT 37.2°C
+SpO2 88% on room air
+
+Wheezing severe함.
+
+Albuterol 2.5 mg IV q4h 적용함.
+
+High-flow nasal cannula 산소 지원 중.
+
+Ventilator 사용함.
+
+Negative fluid balance 확인됨.
+
+Drowsy 상태임.
+
+Respiratory therapist notify함.","55세 여성, Severe Acute Asthma Exacerbation으로 입원함. BP 138.5mg, HR-BPPM, RR-Arsenepat, Breathsmin, BT-Sarnsichep.Eudugi cells, SpO2 88% on room air, Wheezing, Severe함. Albuterol 2.5mg IV-Q4H 적용함. High flow nasal cannulas, 한솔지원중, Ventilator 사용함. Negative fluid balance 확인됨. Drowsy 상태임. Respiratory therapist notify함."
+scenario_036_formal_template,scenario_036,formal_template,0.3968,0.3968,"55세 여성 환자가 중증 급성 천식 악화로 입원하였다. 활력징후를 확인한 결과 혈압은 130/85 mmHg, 심박수는 110 bpm, 호흡수는 28 breaths/min, 체온은 37.2°C, 산소포화도는 실내 공기에서 88%로 확인되었다. 환자는 심한 wheezing을 호소하였다. Albuterol 2.5 mg을 IV로 q4h 투여 중이다. 산소 보조로는 고유량 비강 캐뉼라를 사용하고 있으며, ventilator도 사용 중이다. 체액 균형은 음성으로 나타났다. 환자의 임상 상태는 졸림이 관찰되었다. 환기 관리 위해 호흡 치료사에게 보고하였다.","55세 여성 환자가 중증 급성 천식 악화로 입원하였다. 활력 징후를 확인한 결과 혈압은 130-85mg, 심박수는 110ppm, 호흡수는 28bpm, 체온은 37.27°C, 산소포화도는 실내 공기에서 88%로 확인되었다. 환자는 심한 위징을 호소하였다. 알부테롤 2.5mg을 IV로 QSOH 투여 중이다. 산소 보조로는 고유량 비강 캐큘라를 사용하고 있으며, 벤틀레이터도 사용 중이다. 체액균형은 음성으로 나타났다. 환자의 임상상태는 졸림이 관찰되었다. 환기관리위에 호흡치료사에게 보고하였다."
+scenario_036_telegraphic_icu,scenario_036,telegraphic_icu,0.8182,0.4091,"55세 여자. 중증 급성 천식 악화로 입원.  
+BP 130/85 mmHg.  
+HR 110 bpm.  
+RR 28 breaths/min.  
+BT 37.2°C.  
+SpO2 88% room air.  
+Wheezing severe.  
+Albuterol 2.5 mg IV q4h.  
+High-flow nasal cannula 사용.  
+Ventilator 사용 중.  
+Negative fluid balance.  
+Drowsy.  
+RT notify ventilator 관리.","중급성 전식 악화도 입원, BP 희대 이환 35mHrm, HR BPM, RR28B, BT 37.2°C, SbO2 88%, Room Air, Wheezing Severe, Albuterol 2.5mg IV Q4H, High Flow Nasal Cannula 사용, Ventilator 사용 중, Negative Fluid Balance, Drowsy, RT Notify Ventilator 관리"
+scenario_037_clinical_charting,scenario_037,clinical_charting,0.7209,0.4419,"51세 남성 환자, Crohn's disease 악화로 입원함.  
+Severe abdominal pain 및 diarrhea 호소함.  
+BP 110/70 mmHg, HR 95 bpm, RR 18, BT 37.5°C, SpO2 98% 확인됨.  
+Prednisone 40 mg PO BID 처방함.  
+24시간 동안 2000 ml IV fluids 투여함.  
+환자 alert 상태 유지함.","51세 남성 환자 Crohn's Disease 악화로 입원함 Severe Abdominal Pain Meet Diarrhea 호소함 BP 170mg, HRV, BPHM, RPAT, BTSN 7.5C, SBO-90 파이퍼 확인됨 Prednisone 40mL POBID 처방함 24시간 동안 2000mL IV Fluids 투여함 환자 알러트 상태 유지함"
+scenario_037_formal_template,scenario_037,formal_template,0.32,0.3,"51세 남성 환자가 Crohn's disease의 급성 악화로 입원하였다. 환자는 심한 abdominal pain과 diarrhea를 호소하고 있다. 활력 징후는 혈압 110/70 mmHg, 심박수 95 bpm, 호흡수 18 회/분, 체온 37.5°C, 산소포화도 98%로 확인되었다. Prednisone 40 mg을 경구로 하루 두 번 투여하고 있다. 24시간 동안 2000 ml의 IV fluids가 투여되었다. 환자는 의식이 명료하다.","51세 남성 환자가 Crohn's Disease의 급성 악화로 입원하였다. 환자는 심한 abdominal pain과 diarrhea를 호소하고 있다. 활력 증후는 혈압 170mg, 심박수 95bpm, 호흡수 18hp, 체온 37.56C, 산소포화도 98%로 확인되었다. Prednisone 40mg을 경고로 하루 2번 투여하고 있다. 24시간 동안 2000ml의 IV fluids가 투여되었다. 환자는 의식이 명료하다."
+scenario_037_telegraphic_icu,scenario_037,telegraphic_icu,0.8667,0.8,"51세 남성 Crohn's disease 급성 악화.  
+Severe abdominal pain, diarrhea.  
+BP 110/70.  
+HR 95.  
+RR 18.  
+BT 37.5.  
+SpO2 98%.  
+Prednisone 40 mg PO BID.  
+IV fluids 2000 ml/24hr.  
+Alert.","51세 남성 크롱즈 디지즈, 급성 아쿠아 심한 복부 아픔, 다이어리, bp1n70, hr95, rr18, bt37.5, spO2 98% 프렌듀존 40mg POBD, IV 플루이드 2000mL 24 알러트"
+scenario_038_clinical_charting,scenario_038,clinical_charting,0.5122,0.4634,"59세 여성 환자, acute myasthenic crisis로 입원하여 호흡 보조 필요함.
+
+BP 135/85, HR 92, RR 28, BT 37.0, SpO2 88% 확인됨.
+
+severe muscle weakness 호소함.
+
+Pyridostigmine 60 mg PO QID 적용함.
+
+mechanical ventilation 유지함, ventilator 사용 중임.
+
+임상 상태: stuporous 확인됨.","59세 여성 환자, acute methenic crisis로 입원하여 호흡 보조 필요함. BP X3585, HR92, RR28, BT37 측정, SPO888판사 확인됨. Severe muscle weakness 호소함. Periodostigmine 60mg POQID 적용함. Mechanical ventilation 유지함, ventilator 사용중임. 임상상태 stuporous 확인됨."
+scenario_038_formal_template,scenario_038,formal_template,0.2632,0.2105,"환자는 59세 여성으로, 급성 중증 근무력 위기로 인하여 호흡 보조가 필요한 상태로 입원하였다. 현재 혈압은 135/85 mmHg, 심박수는 92 bpm, 호흡수는 28 bpm, 체온은 37.0°C로 확인되었다. 산소포화도는 88%로 낮은 수준이며, 기계 환기로 호흡을 지원받고 있다. 근육 약화가 심각한 상태로 나타났으며, 환자는 stuporous 상태로 관찰되었다. Pyridostigmine 60 mg을 경구로 하루 네 번 투여받고 있다. 환자는 ventilator를 사용 중이다.","환자는 59세 여성으로 급성 중증 근무력 위기로 인하여 호흡 보조가 필요한 상태로 입원하였다. 현재 혈압은 135-85mmHg, 심박수는 92bpm, 호흡수는 28bpm, 체온은 37.0°C로 확인되었다. 산소포화도는 88%로 낮은 수준이며 기계 환기로 호흡을 지원받고 있다. 근육 약화가 심각한 상태로 나타났으며 환자는 stuporous 상태로 관찰되었다. Periodostigmine 60mg을 경우로 하루 4번 투여받고 있다. 환자는 ventilator를 사용 중이다."
+scenario_038_telegraphic_icu,scenario_038,telegraphic_icu,0.8182,0.7576,"59세 여성. 급성 중증 근무력 위기. 호흡 보조 필요.
+
+BP 135/85. HR 92. RR 28. BT 37.0. SpO2 88%.
+
+Muscle weakness severe.
+
+Pyridostigmine 60mg PO QID.
+
+Ventilator 사용 중. Mechanical ventilation.
+
+의식 stuporous.","59세 여성, 급성 중증호흡보조필요, BP 85, HR-QJR-BPT 심층형, SPO2-88P. 근육 부족, 심각, 피오로스틱미인 60mg POQID. 벤틀레이터 사용 중, 메카니컬 벤틀레이션, 의식 스튜퍼리스."
+scenario_039_clinical_charting,scenario_039,clinical_charting,0.9821,0.7679,"70세 여성 환자, acute pulmonary edema로 입원. Hyperthyroidism 악화 (thyroid storm) 원인.
+
+BP 160/90 mmHg. HR 130 bpm. RR 28 breaths/min. BT 38.4°C. SpO2 88% on room air.
+
+Severe shortness of breath 호소함.
+
+Propranolol 40 mg PO q6h 투여함.
+
+High-flow nasal cannula 적용함.
+
+Foley 유지함.
+
+의식 상태 drowsy 확인됨.
+
+Endocrinology team notify함 for thyroid storm 관리.","74세 이상 환자, 아큐트 폴메나리아디마로 입원 하이퍼따이로이디즘 악화, 원인 BP, 헴역증, 굶음증 HR, 웻산지, BPM, RR, 웨스파이트, 브레스민 BT, 38.4도, 엑셀솔 SBO2, 80만 퍼센트, 룸웨어 심각한 숨의 짧음, 호소함 프로페놀, 포스피오, Q, 섹치, 튜함 하이플로, 내슬, 캔눌라, 적용함 폴리, 유지함 의식상태, 드라우지, 확인됨"
+scenario_039_formal_template,scenario_039,formal_template,0.3385,0.3077,"환자는 70세 여성으로, 갑상선 기능 항진증 악화(갑상선 위기)로 인한 급성 폐부종으로 입원하였다. 활력징후는 혈압 160/90 mmHg, 심박수 130 bpm, 호흡수 28 breaths/min, 체온 38.4°C로 측정되었다. 산소포화도는 실내 공기에서 88%로 확인되었다. 환자는 심한 호흡곤란을 호소하였다. Propranolol 40 mg을 경구로 매 6시간마다 투여 중이다. 고유량 비강 캐뉼라를 통한 산소 지원이 이루어지고 있으며, Foley 카테터가 삽입되어 있다. 환자는 졸린 상태를 보였다. 갑상선 위기 관리에 대해 내분비학 팀에게 보고하였다.","환자는 70세 여성으로 갑상선 기능 항진증 악화, 갑상선 위기로 인한 급성 폐부종으로 입원하였다. 활력 징후는 혈압 160-90mmHg, 심박수 130bpm, 호흡수 28bpm, 체온 38.4°C로 측정되었다. 산소포화도는 실내 공기에서 88%로 확인되었다. 환자는 심한 호흡 곤란을 호소하였다. 프로프라놀롤 40mg을 경고로 매 6시간마다 투여 중이다. 고유량 비강 케클라를 통한 산소 지원이 이루어지고 있으며 폴리 카테터가 삽입되어 있다. 환자는 졸린 상태를 보였다. 갑상선 위기 관리에 대해 내분비약 팀에게 보고하였다."
+scenario_039_telegraphic_icu,scenario_039,telegraphic_icu,0.8537,0.5122,"70세 여성 환자. 급성 폐부종으로 입원. 갑상선 기능 항진증 악화(갑상선 중독증).
+
+BP 160/90 mmHg.  
+HR 130 bpm.  
+RR 28 breaths/min.  
+BT 38.4°C.  
+SpO2 88% RA.
+
+Severe SOB.  
+
+Propranolol 40 mg PO q6h.  
+
+HFNC 적용.  
+
+Foley 삽입.  
+
+Drowsy 상태.  
+
+Endocrinology team notify.","70세 여성 환자, 급성 폐부종으로 입원, 갑상선 기능한 항산중독증, BPM 60, 90mHg, HR-REX 90 BPM, RRR, UHPITE, BREATHSMIN, BTT, 살신지, SPO2, 80% RA, SEVERE SOB, PROPRENOLOL, PHOTOMETHALORAM, POQ-6H, HFNC 적용, FULLY 삽입, DROWSY 상태, ENDOCRINOLOGY TEAM NOTIFY."
+scenario_040_clinical_charting,scenario_040,clinical_charting,0.4359,0.3077,"42세 여성, severe Stevens-Johnson Syndrome (SJS)로 입원함.
+
+BP 110/70.  
+HR 95 bpm.  
+RR 20.  
+BT 38.0°C.  
+SpO2 94%.  
+
+Severe skin lesions 확인됨.  
+
+Morphine 4 mg IV q4h 적용함.  
+
+Nasal cannula 2L/min 산소 공급 유지함.  
+
+Foley 유지함.  
+
+Drowsy 상태 확인됨.","42세 여성, Severe Stevenson Syndrome S로 입원함. BP압 70, HR 95 BPM, RR20, BT31 액능, SBO 94%. Severe skin lesions 확인됨. Morphine 4mg IV Q4H 적용함. Nasal cannula 2-HPmin 산소 공급 유지함, Foley 유지함, Drowsy 상태 확인됨."
+scenario_040_formal_template,scenario_040,formal_template,0.1897,0.1724,"환자는 42세 여성으로, 최근 약물 반응으로 인한 심한 Stevens-Johnson Syndrome (SJS)로 입원하였다. 활력 징후로 혈압은 110/70 mmHg, 심박수는 95 bpm, 호흡수는 20 bpm, 체온은 38.0°C, 산소포화도는 94%로 확인되었다. 환자는 심각한 피부 병변을 보이고 있다. 현재 Morphine 4 mg을 IV로 4시간마다 투여 중이다. 산소 공급은 nasal cannula를 통해 2L/min으로 제공되고 있다. Foley catheter가 장착되어 있다. 임상적으로 환자는 졸린 상태이다.","환자는 42세 여성으로 최근 약물 반응으로 인한 심한 Stevens-Johnson Syndrome SJS로 입원하였다. 활력증으로 혈압은 160-170 mpg, 심박수는 95 bpm, 호흡수는 20 bpm, 체온은 38.09 cells, 산소포화도는 94%로 확인되었다. 환자는 심각한 피부 병변을 보이고 있다. 현재 Morphine 5mg IV로 4시간마다 투여 중이다. 산소 공급은 nasal cannula를 통해 2-D-dormin으로 제공되고 있다. Foley catheter가 장착되어 있다. 임상적으로 환자는 졸린 상태이다."
+scenario_040_telegraphic_icu,scenario_040,telegraphic_icu,0.7692,0.5,"42세 여성. SJS로 입원.  
+BP 110/70.  
+HR 95.  
+RR 20.  
+BT 38.0.  
+SpO2 94%.  
+Severe skin lesions.  
+Morphine 4mg IV q4h.  
+Nasal cannula 2L/min.  
+Foley.  
+Drowsy.","42세 여성, SJS로 입원, BP에 치싯다, HR 구시의무, RRBT 센페노, SPO2 구시사 프로페센트, Severe Skin Lesions, Morphine, Formaldehyde, IV, Q4H, Nasal Cannulum, and Foley."
+scenario_041_clinical_charting,scenario_041,clinical_charting,0.62,0.46,"65세 여성, 알코올성 간경변으로 인한 만성 간질환 급성 악화로 입원함.
+
+BP 105/68 mmHg.  
+HR 112 bpm.  
+RR 22 breaths/min.  
+BT 37.8°C.  
+SpO2 92% on room air.  
+
+Ascites moderate 확인됨.  
+
+Furosemide 40 mg IV q8h 적용함.  
+
+Nasal cannula 산소 적용 중.  
+
+Foley 유지함.  
+
+Urine output 1200 mL/24hr.  
+
+Clinical status drowsy 확인됨.","65세 여성 알코올성강견별을 인한 만성간질환 급성 악화를 입원함. BP N고 62mm함. HR 116 BPM, RR RSV breast min, BT SAT 8 grey cell cam. Spo2 92% on room air, ascites moderate 확인됨. Furosemide 40mg IV QRH 적용함. Nasal cannula 산소 적용중, foley 유지함, urine output KDMGFRR. Clinical status drowsy 확인됨."
+scenario_041_formal_template,scenario_041,formal_template,0.2698,0.254,"65세 여자 환자가 알코올 관련 간경변으로 인한 만성 간질환의 급성 악화로 입원하였다. 활력징후는 혈압 105/68 mmHg, 심박수 112 bpm, 호흡수 22 breaths/min, 체온 37.8°C로 확인되었으며, 산소포화도는 실내 공기에서 92%로 측정되었다. 복수는 중등도 수준으로 관찰되었다. 환자는 의식이 혼미한 상태로 확인되었다. 약물로 Furosemide 40 mg이 IV로 8시간마다 투여되고 있다. 산소는 nasal cannula로 투여 중이다. Foley 카테터가 삽입되어 있으며, 24시간 동안 소변 배출량은 1200 mL로 기록되었다.","65세 여자 환자가 알코올 관련 강경변으로 인한 만성간질환의 급성악화로 입원하였다. 활력징후는 혈압 105-68mmHg, 심박수 112bpm, 호흡수 22breathsmin, 체온 37.8°C로 확인되었으며, 산소포화도는 실내 공기에서 92%로 측정되었다. 복수는 중등도 수준으로 관찰되었다. 환자는 의식이 혼미한 상태로 확인되었다. 약물로 furosemide 40mg이 IV로 8시간마다 투여되고 있다. 산소는 nasal cannula로 투여 중이다. 폴리 카테터가 삽입되어 있으며, 24시간 동안 소변 배출량은 1,021L로 기록되었다."
+scenario_041_telegraphic_icu,scenario_041,telegraphic_icu,0.85,0.6,"65세 여성 환자.  
+급성 악화 만성 간질환.  
+알코올 관련 간경화.  
+BP 105/68 mmHg.  
+HR 112 bpm.  
+RR 22 breaths/min.  
+BT 37.8°C.  
+SpO2 92% room air.  
+Ascites moderate.  
+Furosemide 40 mg IV q8h.  
+Nasal cannula.  
+Foley.  
+Urine output 1200 mL/24hr.  
+Drowsy.","65세 여성, 급성악화, 만성간주환, 알코올 관련 간경화, BPN05 68mmHg, HR 112bpm, R22mBt3783c, SpO92% room air, ascitis moderate, furosemide 40mg IVQH, nasal cannula, foley, urine output 1200mL 24hr, drowsy"
+scenario_042_clinical_charting,scenario_042,clinical_charting,0.566,0.3019,"73세 남성, severe dehydration 및 electrolyte imbalance로 입원함.  
+BP 98/62 mmHg, HR 112 bpm, RR 24 breaths/min, BT 37.2°C, SpO2 95% on room air.  
+Severe diarrhea 확인됨.  
+Normal Saline 1000 mL IV STAT 적용함.  
+IV fluid resuscitation 시행함.  
+Urine output low, 200 mL/8시간.  
+환자 drowsy 상태.  
+Urine output 30 mL/hour 미만시 담당의 notify함.","73세 남성, Severe Dehydration Meet Electrolyte Imbalance로 입원함. BP 98, 62mmHg, HR 102 bpm, RR 와시사 Breast Min, BT 37.67, SBO 95% on room air. Severe Diarrhea 확인됨. Normal Saline, 10ml IV Stat 적용함. IV Fluid Resuscitation 시행함. Urine Output Low, 200mlhs, 환자 Drowsy 상태. Urine Output 30mlhs 미만시 담당해 Notify함."
+scenario_042_formal_template,scenario_042,formal_template,0.3919,0.3243,"환자는 73세 남성으로, 심한 탈수 및 전해질 불균형으로 인한 극심한 설사로 입원하였다. 활력징후를 측정한 결과 혈압은 98/62 mmHg, 맥박수는 112 bpm, 호흡수는 24 breaths/min, 체온은 37.2°C, 산소포화도는 실내 공기 상태에서 95%로 확인되었다. 환자는 심한 설사를 겪고 있으며, 임상 상태는 졸린 상태로 관찰되었다. 정맥 주사로 Normal Saline 1000 mL가 즉시 투여되었으며, 수액 보충 치료가 진행 중이다. 환자의 8시간 동안 소변 배출량은 200 mL로 낮은 상태이다. 소변 배출량이 시간당 30 mL 미만일 경우, 담당 의사에게 보고하였다.","환자는 73세 남성으로 심한 탈수 및 전해질 불균형으로 인한 극심한 설사로 입원하였다. 활력증후를 측정한 결과, 혈압은 98,62mg, 맥박수는 112bp, 호흡수는 24bpm, 체온은 37.2, 산소포화도는 실내 공기상태에서 95%로 확인되었다. 환자는 심한 설사를 겪고 있으며 임상상태는 졸린 상태로 관찰되었다. 정맥주사로 노멀셀린 1,000ml가 즉시 투여되었으며 수액 보충 치료가 진행 중이다. 환자의 너를 시간 동안 소변 배출량은 200ml로 낮은 상태이다. 소변 배출량이 시간당 30ml 미만일 경우 담당 의사에게 보고하였다."
+scenario_042_telegraphic_icu,scenario_042,telegraphic_icu,1.0233,0.5581,"73세 남환 입원.  
+Severe dehydration, electrolyte imbalance.  
+BP 98/62 mmHg.  
+HR 112 bpm.  
+RR 24 breaths/min.  
+BT 37.2°C.  
+SpO2 95% RA.  
+Severe diarrhea.  
+Normal Saline 1000 mL IV STAT.  
+IV fluid resuscitation.  
+UO low, 200 mL/8hr.  
+Drowsy.  
+UO <30 mL/hr 시 Dr notify.",73세 남한 e1 severe dehydration electrolyte imbalance bp 98 62 2mg hr 1pm r 24 breaths min bt 37.2 sp o 2 95 percent ra severe diarrhea normal saline 1000 ml iv stat iv fluid resuscitation uo low 200 milliliters per 8 r drowsy uo 30 million she docker notify
+scenario_043_clinical_charting,scenario_043,clinical_charting,0.4419,0.2979,"50세 남성 환자, acute bacterial endocarditis로 입원함.
+
+BP 110/70 mmHg 확인됨.
+HR 102 bpm 확인됨.
+RR 20 breaths/min 확인됨.
+BT 38.5°C 확인됨.
+SpO2 95% on room air 확인됨.
+
+Fever moderate 확인됨.
+
+Vancomycin 1g IV q12h 투여 중임.
+
+C-line 유지함.
+
+Positive fluid balance 기록됨.
+
+환자 alert 상태 확인됨.","50세 남성 환자, acute bacterial endocarditis로 입원함. BP 100킹, 70mm 감 확인함. HR 102 BPM 확인됨. R breath's min 확인. BT 38.5 곡수 확인됨. SBU 95% on room air 확인됨. Fever moderate 확인됨. Vancomycin 1g IV Q-Ster H 투여중임. C-line 유지함. Positive fluid balance 기록됨. 환자 alert 상태 확인됨."
+scenario_043_formal_template,scenario_043,formal_template,0.3333,0.3095,"환자는 급성 세균성 심내막염으로 입원한 50세 남성이다. 활력징후는 혈압 110/70 mmHg, 심박수 102 bpm, 호흡수 20 breaths/min, 체온 38.5°C, 산소포화도 95%로 확인되었다. 환자는 중등도의 발열을 호소하였다. 반코마이신 1g을 IV로 12시간마다 투여 중이다. 환자는 의식이 명료하며, C-line이 삽입되어 있다. 체액 균형은 양성으로 확인되었다.","환자는 급성 세균성 심내마겸으로 입원한 50세 남성이다. 활력증후는 혈압 170mg, 심박수 102bpm, 호흡수 20bpm, 체온 38.5, 산소포화도 95%로 확인되었다. 환자는 중등도의 발열을 호소하였다. 방코마이신 1g을 IV로 12시간마다 투여 중이다. 환자는 의식이 명료하며 C라인이 삽입되어 있다. 체액균형은 양성으로 확인되었다."
+scenario_043_telegraphic_icu,scenario_043,telegraphic_icu,1.0645,0.7419,"50M, acute bacterial endocarditis.  
+BP 110/70 mmHg.  
+HR 102 bpm.  
+RR 20 breaths/min.  
+BT 38.5°C.  
+SpO2 95% RA.  
+Fever moderate.  
+Vancomycin 1g IV q12h.  
+C-line in place.  
+Positive fluid balance.  
+Alert.",50m 엔도카디타 바이러스 bp 170 hr 1 and 2 by 20 breaths min rr 28.5 grace co2 95 percent ra fever moderate vancomycin 1 v q12 h c line in place positive fluid balance alert
+scenario_044_clinical_charting,scenario_044,clinical_charting,0.7556,0.3778,"38세 남자 환자, 급성 췌장염으로 입원함.
+
+BP 98/62 mmHg.  
+HR 110 bpm.  
+RR 28 breaths/min.  
+BT 37.8°C.  
+SpO2 93% on room air 확인됨.
+
+Severe abdominal pain 호소함.
+
+Morphine 2 mg IV q4h 투여함.
+
+Nasal cannula 적용함.
+
+Foley 유지함.
+
+Patient drowsy 상태 확인됨.
+
+Pain team consult함.","38세 남자 환자, 급성 취장염으로 입원함. BP 90B, 200mg. HR, MEGAR, RRB, BT 산지체봄 8, 80백 셀스. SPO2, PAMPER, FENCET ON, ROOM AIR 확인됨. SEVERE ABDOMINAL PAIN 호소함. MORPHINE 2mg IVQ4H 투여함. NASAL CANNULA 적용함, FULLY 유지함. PATIENT DROWSY 상태 확인됨. PAIN TEAM CONSULT함."
+scenario_044_formal_template,scenario_044,formal_template,0.2623,0.2131,"38세 남성 환자가 담석에 의한 중증 급성 췌장염으로 입원하였다. 활력징후 측정 결과 혈압은 98/62 mmHg, 심박수는 110 bpm, 호흡수는 28 breaths/min, 체온은 37.8°C, 산소포화도는 실내 공기에서 93%로 확인되었다. 환자는 심한 복통을 호소하였다. 현재 morphine 2 mg을 IV로 4시간마다 투여하고 있다. 산소 보조를 위해 nasal cannula를 사용 중이다. Foley 카테터가 삽입되어 있다. 환자는 졸린 상태로 관찰되었다. 통증 조절을 위해 통증 팀에 컨설트하였다.","38세 남성 환자가 담석에 의한 중증 급성 췌장염으로 입원하였다. 활력징후 측정 결과 혈압은 98,62mmg, 심박수는 110bpm, 호흡수는 28bpm, 체온은 37.8러. 산소 포화도는 실내 공기에서 93%로 확인되었다. 환자는 심한 복통을 호소하였다. 현재 Morphine 2mg을 IV로 4시간마다 투여하고 있다. 산소 보조를 위해 Nasal Cannula를 사용 중이다. Foley 카테터가 삽입되어 있다. 환자는 졸린 상태로 관찰되었다. 통증 조절을 위해 통증팀에 컨설트하였다."
+scenario_044_telegraphic_icu,scenario_044,telegraphic_icu,0.8824,0.8235,"38세 남성, 급성 췌장염.  
+BP 98/62 mmHg.  
+HR 110 bpm.  
+RR 28.  
+BT 37.8°C.  
+SpO2 93% RA.  
+Severe abdominal pain.  
+Morphine 2mg IV q4h.  
+Nasal cannula 사용.  
+Foley in place.  
+Drowsy.  
+Pain team consult됨.","38세 이상 남성, BP 98, 62mm HRHR 10xM, RR 28, BT 37.8, RASD, SPPO2, 93% RA, 서류라미놀 패인, 몰피인, 튤러리에이진, 네이벌 캔뉴리스, 하이온, 폴리엄, 인플레이스, 드라우지, 패인팀, 컨설템."
+scenario_045_clinical_charting,scenario_045,clinical_charting,0.4444,0.3016,"62세 여성 환자, Addison's disease로 인한 acute adrenal crisis로 입원.  
+BP 88/54 mmHg, HR 112 bpm, RR 24 breaths/min, BT 37.0°C, SpO2 92% (room air).  
+Severe abdominal pain 호소함.  
+Hydrocortisone 100 mg IV STAT 투여함.  
+Nasal cannula 2 L/min 적용함.  
+Fluid resuscitation with normal saline 시행함.  
+Foley 유지함, urine output 30 mL/hr 확인됨.  
+환자 drowsy 상태임.  
+Endocrinology consult함 for management of adrenal insufficiency.","62세 여성 환자, 아디센스 디지즈로 인한 acute adrenal crisis로 입원. BPH 854 mmHg, HR 100 BPM, RRV4 breath smin, BT 30.0 SpoDxR, Severe abdominal pain 호소함, Hydrocortisone 100 mg IV STAT 투여함, Nasal cannula 2 in min 적용함, Fluid resuscitation with normal saline 시행함, Foley UGM, Urine output 30 mRRR 확인됨. 환자 드라우지 상태임. Endocrinology Consult for Management of Adrenal Insufficiency."
+scenario_045_formal_template,scenario_045,formal_template,0.2817,0.2676,"62세 여성 환자가 Addison's disease로 인한 급성 부신 위기로 입원하였다. 활력징후는 혈압 88/54 mmHg, 심박수 112 bpm, 호흡수 24 breaths/min, 체온 37.0°C이며, 산소포화도는 상온 공기에서 92%로 확인되었다. 환자는 심한 복통을 호소하였다. Hydrocortisone 100 mg IV STAT로 투여되었다. 산소는 비강 캐뉼라를 통해 2 L/min으로 공급 중이다. 정상 식염수로 체액 보충이 시행되었다. Foley 카테터가 삽입되어 있으며, 소변 배출량은 시간당 30 mL로 기록되었다. 환자는 약간 졸리는 상태이다. 부신 기능 부전 관리에 대해 내분비과에 상담하였다.","62세 여성 환자가 에디센스 디지즈로 인한 급성 부신 위기로 입원하였다. 활력 증후는 혈압 88, 54mmg, 심박수 162bpm, 호흡수 24breaths, 체온 37.0°C 산소포화도는 상온 공기에서 92%로 확인되었다. 환자는 심한 복통을 호소하였다. Hydrocortisone 100mg IV STAT로 투여되었다. 산소는 비강 케츄라를 통해 이디렐브미넴으로 공급 중이다. 정상 식염수로 체액 보충이 시행되었다. 4D 카테터가 삽입되어 있으며 소변 배출량은 시간당 30ml로 기록되었다. 환자는 약간 졸리는 상태이다. 부신 기능 부전 관리에 대해 내분비과에 상담하였다."
+scenario_045_telegraphic_icu,scenario_045,telegraphic_icu,0.7292,0.5,"62세 여성, Addison's disease로 인한 급성 부신 위기 입원.
+
+BP 88/54 mmHg.  
+HR 112 bpm.  
+RR 24 breaths/min.  
+BT 37.0°C.  
+SpO2 92% RA.
+
+Severe abdominal pain.  
+Hydrocortisone 100 mg IV STAT.  
+Nasal cannula 2 L/min.  
+Fluid resuscitation with NS.  
+Foley present.  
+Urine output 30 mL/hr.  
+Drowsy.  
+
+Endocrinology consult.","60VC 여성, 아디센스 디지즈로 인한 급성 부지 이완, BP 80, V 소아 튜브 패밀림, RR24 Breast Mobility Seth, SpO2 90% RA, Severe Abdominal Pain, Hydrocortisone 100mg IV STAT, Nasal Cannula 2L Min, Fluid Resuscitation with NS Fully Present, Urine Output Put 30mHr Drowsy, Endocrinology Consult."
+scenario_046_clinical_charting,scenario_046,clinical_charting,0.5758,0.2424,"61세 남성 환자, acute subdural hematoma로 입원함.  
+BP 140/80, HR 65, RR 14, BT 36.8, SpO2 98%.  
+Severe headache 호소함.  
+Mannitol 100g IV q6h 투여 중.  
+Intracranial pressure monitoring 적용함.  
+Drowsy 상태 확인됨.","62세 남성 환자 Acute Subdural Hematoma로 입원함 BP 1,480, HR 65, RR 14, BT 36.8, SBO 98.2 Severe Headache 호소함, Manitou 100g IV QH 투여중, Intracranial Pressure Monitoring 적용함, Drowsy 상태 확인됨"
+scenario_046_formal_template,scenario_046,formal_template,0.3333,0.3095,"환자는 61세 남성으로, 낙상 후 급성 경막하혈종으로 입원하였다. 현재 혈압은 140/80 mmHg, 심박수는 65 bpm, 호흡수는 14 회/분, 체온은 36.8 °C, 산소포화도는 98%로 확인되었다. 심한 두통을 호소하고 있다. Mannitol 100g을 IV로 6시간마다 투여 중이다. 환자는 의식이 혼미한 상태이다. 두개내압 모니터링을 수행하고 있다.","환자는 61세 남성으로 낙상 후 급성격막하혈종으로 입원하였다. 현재 혈압은 140mg, 심박수는 65bpm, 호흡수는 14회분, 체온은 36.8°C, 산소포화도는 98%로 확인되었다. 심한 두통을 호소하고 있다. 메뉴톨 100g을 IV로 6시간마다 투여 중이다. 환자는 의식이 혼미한 상태이다. 2개 내압 모니터링을 수행하고 있다."
+scenario_046_telegraphic_icu,scenario_046,telegraphic_icu,0.6957,0.5556,"61세 남성, acute subdural hematoma 입원.
+
+BP 140/80.
+HR 65.
+RR 14.
+BT 36.8.
+SpO2 98%.
+
+Severe headache.
+
+Mannitol 100g IV q6h.
+
+Intracranial pressure 모니터링.
+
+환자 drowsy.","직수 비세 남성, acute subdural hematoma E1, BP wexata pysic, HR-ZXIV-R-SA, BT-30-Zytom, SpO2 28%, severe headache, mannitol-begram IV Q6H, intracranial pressure monitoring, 환자 드라우지."
+scenario_047_clinical_charting,scenario_047,clinical_charting,0.5556,0.5556,"45세 여성, Legionella 감염에 의한 severe pneumonia로 입원함.
+
+BP 110/70 mmHg, HR 95 bpm, RR 28 breaths/min, BT 38.5°C, SpO2 88% on room air.
+
+Severe cough 호소함.
+
+Levofloxacin 750 mg IV q12h 투여 중.
+
+High-flow nasal cannula 적용함.
+
+Ventilator 사용 중임.
+
+지난 24시간 동안 fluid balance negative 기록됨.
+
+환자 drowsy 상태 확인됨.
+
+담당의 notify함.","45세 여성, 리조넬라 감염에 의한 세벌 뉴모니아로 입원함. BP 100.70mHrm, HR 95bpm, RRH-PB, BT 38.5dB, SpO2 80% on room air. 세벌 코프 호소함. Levofloxacin 715mg IV-Q-SH2여중, 하이플로우 네이처 캐니라 적용함. 벤틀레이터 사용 중임. 지난 24시간 동안 플루이드 밸런스 네기티브 기록됨. 환자 드라우지 상태 확인됨. 담당에 노티파이함."
+scenario_047_formal_template,scenario_047,formal_template,0.2576,0.2424,"45세 여성 환자가 Legionella 감염으로 인한 중증 폐렴으로 입원하였다. 활력징후로는 혈압이 110/70 mmHg, 심박수가 95 bpm, 호흡수가 28 breaths/min, 체온이 38.5°C, 산소포화도가 실내 공기에서 88%로 확인되었다. 환자는 심한 기침을 호소하였다. Levofloxacin 750 mg을 IV로 12시간 간격으로 투여 중이다. 고유속 비강 캐뉼라를 통해 산소 공급을 받고 있으며, 인공호흡기를 사용하고 있다. 지난 24시간 동안의 체액 균형은 음성이었다. 환자는 기면 상태를 보였다. 환자의 상태 악화에 대해 감염내과 전문의에게 보고하였다.","45세 여성 환자가 레지오넬라 감염으로 인한 중증 폐렴으로 입원하였다. 활력증 후로는 혈압이 110mg, 심박수가 95bpm, 호흡수가 28bpm, 체온이 38.5°C, 산소포화도가 실내 공기에서 88%로 확인되었다. 환자는 심한 기침을 호소하였다. 레버플럭셋은 750mg을 IB로 12시간 간격으로 투여 중이다. 고유속 비강 캐큘라를 통해 산소 공급을 받고 있으며 인공호흡기를 사용하고 있다. 지난 24시간 동안의 체액균형은 음성이었다. 환자는 기면 상태를 보였다. 환자의 상태 악화에 대해 감염내과 전문의에게 보고하였다."
+scenario_047_telegraphic_icu,scenario_047,telegraphic_icu,0.6304,0.4565,"45세 여성, Legionella 감염으로 인한 중증 폐렴 입원함.  
+BP 110/70 mmHg.  
+HR 95 bpm.  
+RR 28 breaths/min.  
+BT 38.5°C.  
+SpO2 88% (room air).  
+Severe cough.  
+Levofloxacin 750 mg IV q12h.  
+High-flow nasal cannula 사용.  
+Ventilator 적용 중.  
+24시간 동안 음성 수분균형.  
+의식 상태 drowsy.  
+Dr notify.","45세 여성, 리조넬라 감염으로 인한 중증 폐렴 입원함. BP 100g, HR 75, BPM 45, RRB, BT, SPO2, HB, BR, Severe cough, levofloxacin, TBD, IV, QCH, High-flow nasal cannula 사용, Ventilator 적용중. 24시간 동안 음성수분균형, 의식상태 Drowsy, D-Octor notify."
+scenario_048_clinical_charting,scenario_048,clinical_charting,0.9231,0.5143,"58세 남성, esophageal varices로 인한 severe gastrointestinal bleeding으로 입원함.
+
+Vital signs:
+- BP 90/60 mmHg
+- HR 120 bpm
+- RR 24 breaths/min
+- BT 36.8°C
+- SpO2 92% on room air
+
+Severe hemorrhage 확인됨.
+
+Octreotide 50 mcg IV q6h 투여 중.
+
+Oxygen support: nasal cannula at 2 L/min 적용함.
+
+Endoscopic band ligation 시행함.
+
+Foley 유지함.
+
+Strict monitoring of input and output.
+
+Clinical status: drowsy 상태 확인됨.
+
+Gastroenterology team notify함.",58세 남성 에서프지올 베르시스로 인한 세베어 가스트로 인테스티널 블리딩으로 입원함 VITAL SIGNS BP 디즈릴 60mm HR 웨기피염 RR 워치사 브레스 민 BT 36.8°C SBO2 다이지디 퍼센트 온 룸 에어 세베어 헤머지 확인됨 옥트리아타이드 50mg IV Q6H 투여중 OXYGEN SUPPORT NASAL CANNULA 2L PER MIN 인터경함 ENDOSCOPIC BAND LIGATION 시행함 FOLI 유지함 STRICT MONITORING OF INPUT AND OUTPUT CLINICAL STATUS DROWSY 상태 확인됨 GASTROENTEROLOGY TEAM NOTIFY HAM
+scenario_048_formal_template,scenario_048,formal_template,0.2895,0.25,"환자는 58세 남성으로, 식도 정맥류로 인한 심각한 위장관 출혈로 입원하였다. 활력 징후로는 혈압이 90/60 mmHg, 심박수가 120 bpm, 호흡수가 24 breaths/min, 체온이 36.8°C로 측정되었고, 산소포화도는 실내 공기에서 92%로 확인되었다. 환자는 심각한 출혈을 보였다. 현재 Octreotide 50 mcg을 IV로 6시간마다 투여 중이다. 산소 지원으로는 2 L/min의 nasal cannula를 사용하고 있다. 내시경적 밴드 결찰술이 시행되었으며, Foley 카테터가 삽입되어 있다. 환자의 수분 섭취와 배출은 엄격히 모니터링 되고 있으며, 임상 상태는 졸림으로 나타났다. 현재 출혈이 계속되고 있음을 소화기내과 팀에 보고하였다.","환자는 58세 남성으로 식도 정맥류로 인한 심각한 위장관 출혈로 입원하였다. 활력증으로는 혈압이 90mg, 심박수가 120bpm, 호흡수가 24breaths 및 체온이 36.89세로 측정되었고, 산소포화도는 실내 공기에서 92%로 확인되었다. 환자는 심각한 출혈을 보였다. 현재 Octreotide 50mg을 IV로 6시간마다 투여 중이다. 산소 지원으로는 E-Illuminuminin의 Nasal Cannula를 사용하고 있다. 내시경적 밴드 결찰술이 시행되었으며, Foley 카테터가 삽입되어 있다. 환자의 수분 섭취와 배출은 엄격히 모니터링되고 있으며, 임상상태는 졸림으로 나타났다. 현재 출혈이 계속되고 있음을 소아기내과팀에 보고하였다."
+scenario_048_telegraphic_icu,scenario_048,telegraphic_icu,0.9024,0.7317,"58세 남성. 식도정맥류로 심한 위장출혈 입원.
+
+BP 90/60 mmHg.  
+HR 120 bpm.  
+RR 24 breaths/min.  
+BT 36.8°C.  
+SpO2 92% RA.
+
+Hemorrhage severe.  
+Drowsy.
+
+Octreotide 50 mcg IV q6h.  
+NC 2 L/min.
+
+Endoscopic band ligation.  
+Foley 적용.  
+I/O strict monitoring.
+
+Dr notify.",58세 남성 식도 정맥류로 심한 영향으로 이다인디 6cmhr 120bpm r24breathsmin bt36.8gspO2 92%RA hemorrhage syphdrowsy Octreotide 50mgivqxh nc2lmin Endoscopic band ligation Fully 적용 Iostrict monitoring Dr. Notify
+scenario_049_clinical_charting,scenario_049,clinical_charting,0.7059,0.4118,"54세 여자 환자, right knee septic arthritis로 입원.  
+BP 102/65 mmHg, HR 115 bpm, RR 24 bpm, BT 38.5°C.  
+SpO2 96% room air에서.  
+Severe knee pain 호소함.  
+Vancomycin 1g IV q12h 투여 중.  
+Right knee joint aspiration 시행함.  
+Positive fluid balance 500 mL 기록됨.  
+환자 alert 상태 유지함.  
+정형외과 consult 요청함.","54세 여자 환자 Right Knee Septic Arthritis로 입원 BPOE 65mg, HR 115bpm, RR 24bpm, BT 38.59, SBO2 96% room air에서 Severe Knee Pain 호소암, Vancomycin WindGround IV QCBH 투여중 Right Knee Joint Aspiration 시행암, Positive Fluid Balance 500ml 기록됨 환자 알러트 상태 유지암, 정형외과 컨설트 요청암"
+scenario_049_formal_template,scenario_049,formal_template,0.2321,0.1607,"54세 여자 환자가 우측 무릎의 septic arthritis로 입원하였다. 활력징후는 혈압 102/65 mmHg, 심박수 115 bpm, 호흡수 24 회/분, 체온 38.5도, 산소포화도 96%로 실온 공기에서 측정되었다. 환자는 심한 무릎 통증을 호소하였다. 투약으로는 vancomycin 1g을 IV로 12시간마다 투여 중이다. 우측 무릎 관절 천자가 시행되었다. 수분 균형은 500ml의 양성으로 확인되었다. 환자는 의식이 또렷한 상태로 관찰되었다. 정형외과 전문의 상담을 요청하였다.","54세 여자 환자가 우측 무릎에 Septic Arthritis로 입원하였다. 활력증후는 혈압 102,65 mmHg, 심박수 125 ppm, 호흡수 24회분, 체온 38.5도, 산소포화도 96%로 실온 공기에서 측정되었다. 환자는 심한 무릎 통증을 호소하였다. 투약으로는 Vancomycin 1g Ib로 12시간마다 투여 중이다. 우측 무릎 관절 천자가 시행되었다. 수분 균형은 500mL의 양성으로 확인되었다. 환자는 의식이 또렷한 상태로 관찰되었다. 정형외과 전문의 상담을 요청하였다."
+scenario_049_telegraphic_icu,scenario_049,telegraphic_icu,0.9459,0.4324,"54세 여성, septic arthritis, right knee.  
+BP 102/65.  
+HR 115.  
+RR 24.  
+BT 38.5.  
+SpO2 96% RA.  
+Severe knee pain.  
+Vancomycin 1g IV q12h.  
+Right knee joint aspiration 시행함.  
+Positive fluid balance 500ml.  
+Alert.  
+Orthopedic consult 요청함.","54세 여성, SEPTIC ARTHRITIS, RIGHT KNEE, BPNH 65, HR1 AFFINE, RR24, BT38 BONHIVE, SBO2 96% RA, SEVERE KNEE PAIN, VANCOMYCIN 1, Q12H, RIGHT KNEE JOINT ASPIRATION, XIANXIANGAM, POSITIVE FLUID BALANCE BY FIBER MILL, ALERT, ORTHOPEDIC CONSULT, YOCHUNGAM."
+scenario_050_clinical_charting,scenario_050,clinical_charting,0.7593,0.7407,"67세 남성 환자, acute heart failure로 입원. Hypertensive emergency 확인됨.
+
+Vital signs: BP 220/130 mmHg, HR 110 bpm, RR 28 breaths/min, BT 36.7°C, SpO2 90% (room air).
+
+Chest pain severe 호소함.
+
+Nitroglycerin 10 mcg/min IV TID 적용함.
+
+High-flow nasal cannula 적용함.
+
+C-line 유지함.
+
+Positive fluid balance 확인됨.
+
+Clinical status drowsy 확인됨.
+
+Cardiology team notify함.","60세 남성 환자, 아큐트 하트 페일리어로 입원. 하이퍼텐시브 에머진시 확인됨. 바이덜 싸인즈, BP 230mg, HR 화결팀 BPM, RR28 Breast Mint, BT 36.7도 셀시, SBO2 90%, 룸웨어. 체스트 페인트, 세비어 호소함. 나이트라 글리세린, 10mg 미민 IVTI 적용함. 하이플로우, 네이설 캔뉴라 적용함. C-라인 유지함. 포지티브 플루이드 밸런스 확인됨. 클리니컬 스타더스, 드라우지 확인됨. 카디올로지 팀 노티파엠."
+scenario_050_formal_template,scenario_050,formal_template,0.2388,0.2239,"67세 남성 환자가 고혈압 응급으로 인한 급성 심부전으로 입원하였다. 현재 환자의 활력징후는 혈압 220/130 mmHg, 심박수 110 bpm, 호흡수 28 breaths/min, 체온 36.7°C, 산소포화도는 실내 공기에서 90%로 확인되었다. 환자는 심한 흉통을 호소하였다. Nitroglycerin 10 mcg/min을 IV 경로로 TID로 투여 중이다. 산소 공급은 고유량 비강 캐뉼라를 통해 이루어지고 있다. 중심정맥관이 삽입되어 있으며, 현재 체액 균형은 양성이다. 환자는 기면 상태를 보이고 있다. 추가적인 평가와 관리를 위해 심장내과 팀에게 보고하였다.","67세 남성 환자가 고혈압 응급으로 인한 급성 심부전으로 입원하였다. 현재 환자의 활력 징후는 혈압이기시 130mg, 심박수 110bpm, 호흡수 28bpm인 체온 36.75, 산소포화도는 실내 공기에서 90%로 확인되었다. 환자는 심한 흉통을 호소하였다. Nitroglycerin 10mg per mL을 IV 경로로 TID로 투여 중이다. 산소 공급은 고유량 비강 케귤라를 통해 이루어지고 있다. 중심 정맥관이 삽입되어 있으며 현재 체액 균형은 양성이다. 환자는 기면 상태를 보이고 있다. 추가적인 평가와 관리를 위해 심장내과 팀에게 보고하였다."
+scenario_050_telegraphic_icu,scenario_050,telegraphic_icu,0.8333,0.4,"67M, acute heart failure, hypertensive emergency.
+
+BP 220/130 mmHg.
+HR 110 bpm.
+RR 28 breaths/min.
+BT 36.7°C.
+SpO2 90% RA.
+
+Severe chest pain.
+
+Nitroglycerin 10 mcg/min IV TID.
+
+HFNC applied.
+
+C-line in place.
+
+Positive fluid balance.
+
+Drowsy.
+
+Cardiology team notify.",67m acute heart failure hypertensive emergency bp21 hr 100.28 breaths bt 36.7 grease spo2 90 percent ra severe chest pain nitroglycerin 10 miscarin miniv tid hfnc applied c line in place positive fluid balance drowsy cardiology team notify
+scenario_051_clinical_charting,scenario_051,clinical_charting,0.8846,0.7308,"48세 남성 환자, acute pancreatitis로 입원. 원인: alcohol use.  
+BP 110/70 mmHg, HR 98 bpm, RR 22 bpm, BT 37.8°C.  
+SpO2 95% on room air.  
+Abdominal pain severe 호소함.  
+Morphine 4 mg IV PRN 투여함.  
+NPO status 유지함.  
+NG tube 적용함.  
+Negative fluid balance 확인됨.  
+환자 alert 상태 유지함.  
+Gastroenterology team notify함.","48세 남성 환자 아큐트 팬크리에타이티스 위원, 원인 알코올 유스, BP 케그 챕틀 B, HR 코치 파이트 BPM, RRQVDB, RRBT 산지 챕텀 A, 리그 시일스, SBO295 퍼트 온 룸 에어, 업도미널 페인트 세비어 호소함, 모피인 4mg IV PRN 투여함, MPO 스테이터 유지함, NG 튜브 적용함, 네그티브 플루이드 밸런스 확인됨, 환자 알러트 상태 유지함, 가스트로인트로러지 팀 노티파이함."
+scenario_051_formal_template,scenario_051,formal_template,0.3559,0.339,"환자는 48세 남성으로, 알코올 사용으로 인한 급성 췌장염으로 입원하였다. 활력징후는 혈압이 110/70 mmHg, 심박수가 98 bpm, 호흡수가 22 bpm, 체온이 37.8°C, 산소포화도가 실내 공기에서 95%로 확인되었다. 환자는 심한 복통을 호소하였다. 진통제로 Morphine 4 mg이 필요 시마다 정맥으로 투여되고 있다. 환자는 금식 상태이며, 비위관이 삽입되어 있다. 수분 출납은 음성이다. 환자는 의식이 명료하다. 추가 평가와 관리를 위해 소화기 내과 팀에게 보고하였다.","환자는 48세 남성으로 알코올 사용으로 인한 급성 최장염으로 입원하였다. 활력증후는 혈압이 170mg, 심박수가 98bpm, 호흡수가 22bpm은, 체온이 37.8°C, 산소포화도가 실내 공기에서 95%로 확인되었다. 환자는 심한 복통을 호소하였다. 진통제로 Morphine 4mg이 필요 심하다 정맥으로 투여되고 있다. 환자는 금식상태이며 비위관이 삽입되어 있다. 수분출납은 음성이다. 환자는 의식이 명료하다. 추가평가와 관리를 위해 소아기내과팀에게 보고하였다."
+scenario_051_telegraphic_icu,scenario_051,telegraphic_icu,0.9189,0.7297,"48세 남성, 급성 췌장염 입원.  
+BP 110/70 mmHg.  
+HR 98 bpm.  
+RR 22 bpm.  
+BT 37.8°C.  
+SpO2 95% RA.  
+Severe abdominal pain.  
+Morphine 4 mg IV PRN.  
+NPO.  
+NG tube.  
+Negative fluid balance.  
+Alert.  
+GI team notify.",48세남성급성치장염의원 bps7메다식들감 hr98bpm r22bpsthesthevent80dstheq sp0290pnra severe abdominal pain myinfangiumivprno ngtube negative fluid balance alert gi team notify
+scenario_052_clinical_charting,scenario_052,clinical_charting,0.5,0.4231,"72세 남성, hip replacement 후 post-op complication으로 입원함.
+
+BP 130/85 mmHg 확인됨.  
+HR 95 bpm 유지됨.  
+RR 18 breaths/min 확인됨.  
+BT 37.5°C 확인됨.  
+SpO2 97% on room air 확인됨.  
+
+Moderate pain 호소함.  
+
+Morphine 2 mg IV q4h 적용함.  
+
+Foley 유지 중임.  
+Urine output: 400 ml/6 hr 확인됨.  
+
+Clinical status alert 상태 유지함.",72세 남성 힙 리플레이스먼트 2 포스톱 컴플리케이션으로 입원함. BP 130 85mm함 확인됨. HR 95 BPM 유지됨. RR 10바이트 브레스민 확인됨. BT 37.5르고스 확인됨. SpO2 주체제품 on room air 확인됨. 모더릿 페인 호소함. 몰피인 2mg IV Q4H 적용함. Fully 유지중임. Urine output 400ml XRR 확인됨. Clinical status alert 상태 유지함.
+scenario_052_formal_template,scenario_052,formal_template,0.2857,0.254,"환자 문맥: 72세 남성 환자가 고관절 대체 수술 후 합병증으로 입원하였다. 
+
+활력 징후는 다음과 같다: 혈압은 130/85 mmHg로 확인되었고, 심박수는 95 bpm이며, 호흡수는 18 breaths/min이다. 체온은 37.5°C로 측정되었고, 산소포화도는 실내 공기에서 97%로 확인되었다. 
+
+환자는 중등도의 pain을 호소하였다. 
+
+약물 투여로 Morphine 2 mg이 IV 경로로 4시간마다 투여되고 있다. 
+
+현재 Foley catheter가 삽입되어 있으며, 소변 배출량은 6시간 동안 400 ml로 기록되었다. 
+
+환자는 의식이 명료한 상태이다.","환자 문맥, 72세 남성 환자가 고관절 대체 수술 후 합병증으로 입원하였다. 활력 증후는 다음과 같다. 혈압은 130-85mm로 확인되었고, 심박수는 95bpm이며, 호흡수는 18breathsmin이다. 체온은 37.56으로 측정되었고, 산소포화도는 실내 공기에서 97%로 확인되었다. 환자는 중등도의 페인을 호소하였다. 약물 투여로 몰피인 2mg이 IV 경로로 4시간마다 투여되고 있다. 현재 폴리 캐세터가 삽입되어 있으며, 소변 배출량은 6시간 동안 400mL로 기록되었다. 환자는 의식이 명료한 상태이다."
+scenario_052_telegraphic_icu,scenario_052,telegraphic_icu,0.8947,0.7105,"72세 남환. Hip replacement 후 post-op complications.
+
+BP 130/85 mmHg.  
+HR 95 bpm.  
+RR 18 breaths/min.  
+BT 37.5°C.  
+SpO2 97% room air.
+
+Pain moderate.
+
+Morphine 2 mg IV q4h.
+
+Foley in place.
+
+Urine output 400 ml/6 hr.
+
+Alert.","72ZN1, 힙 대치, 포스톱 복잡성, BP13, 85mmHg, HR95bpm, RR18breathsmin, BT37.5, SbO2 97% room air, pain moderate, morphine 2mLrmIVQ4H, fully in place, urine output 400mL6RR, alert."
+scenario_053_clinical_charting,scenario_053,clinical_charting,0.58,0.32,"60세 남성 환자, COPD 급성 악화 및 hypercapnic respiratory failure로 입원함.
+
+BP 135/85 mmHg  
+HR 105 bpm  
+RR 28 breaths/min  
+BT 37.6°C  
+SpO2 88% on room air 확인됨.
+
+Severe dyspnea 호소함.
+
+Prednisone 40 mg PO BID 적용함.
+
+Ventilator 통한 NIV oxygen support 유지함.
+
+Clinical status drowsy 확인됨.
+
+담당 pulmonologist notify함.","60세 남성 환자 COPD 급성 악화 및 Hypercapnic Respiratory Failure로 입원함. BP 135, 85mm HRVR, Ashputt Breaths Min, BT Sanitizer Dendrites, SpO2, Pedibyte Percent on Room Air 확인됨. Severe Dyspnea 호소함. Prednisone 40mg PAD 적용함. Ventilator 통한 NIV Oxygen Support 유지함. Clinical Status Drowsy 확인됨. 담당 Pulmonologist Notify함."
+scenario_053_formal_template,scenario_053,formal_template,0.3,0.2857,"환자는 만성 폐쇄성 폐질환(COPD)의 급성 악화와 고탄산 혈증성 호흡부전으로 입원한 60세 남성이다. 활력징후로는 혈압이 135/85 mmHg, 심박수가 105 bpm, 호흡수가 28 breaths/min, 체온이 37.6°C, 산소포화도가 실내 공기에서 88%로 확인되었다. 환자는 심한 호흡곤란을 호소하였다. 현재 환자는 Prednisone 40 mg을 경구로 하루 두 번 복용 중이다. 비침습적 인공호흡기(NIV)를 사용하여 산소를 공급받고 있으며, 인공호흡기를 사용 중이다. 환자의 임상 상태는 졸린 상태로 관찰되었다. 추가 관리 및 인공호흡기의 설정 조정을 위해 담당 폐 전문의에게 보고하였다.","환자는 만성 폐쇄성 폐질환, COV의 급성 악화와 고탄산 혈증성 호흡부전으로 입원한 60세 남성이다. 활력증후로는 혈압이 135, 85mg, 심박수가 105bpm, 호흡수가 28bpm, 체온이 37.66, 산소포화도가 실내 공기에서 88%로 확인되었다. 환자는 심한 호흡 곤란을 호소하였다. 현재 환자는 프레든손 40mg 경구로 하루 두 번 복용 중이다. 비침습적 인공호흡기를 사용하여 산소를 공급받고 있으며 인공호흡기를 사용 중이다. 환자의 임상상태는 졸린 상태로 관찰되었다. 추가 관리 및 인공호흡기의 설정 조정을 위해 담당 폐전문의에게 보고하였다."
+scenario_053_telegraphic_icu,scenario_053,telegraphic_icu,0.6585,0.439,"60세 남성 환자. COPD 급성 악화 및 고탄산성 호흡부전으로 입원.  
+BP 135/85 mmHg.  
+HR 105 bpm.  
+RR 28 breaths/min.  
+BT 37.6°C.  
+SpO2 88% room air.  
+Dyspnea severe.  
+Prednisone 40 mg PO BID.  
+NIV 사용.  
+Ventilator 사용.  
+Clinical status drowsy.  
+Pulmonologist notify.","60세 남성 환자 COPD 급성 아코미 콧보전으로 이원 BP 85,000,000 BPM ADAR 28th Bromine BT 37.6 SbO2 88% room air dyspnea severe Prednisone 40mg POID NIV 사용 Ventilator 사용 Clinical status drowsy Pulmonologist notify"
+scenario_054_clinical_charting,scenario_054,clinical_charting,0.6667,0.5333,"55세 여성, subarachnoid hemorrhage로 입원함.  
+BP 160/90 mmHg, HR 95 bpm, RR 22 breaths/min, BT 36.8°C, SpO2 92% (room air) 확인됨.  
+Severe headache 호소함.  
+Nimodipine 60 mg PO q4h 투여 중.  
+Nasal cannula at 3 L/min 적용함.  
+C-line 유지함.  
+Drowsy 상태 확인됨.  
+Neurology team notify함.",55세 여성 서버레크노이드 히머리즈로 입원함. BP행력순 구멍미치해중. HR 95 BPM. RSCB Breaths Min. BT 36.82 Mer. 확인됨. Severe Headache 호소함. 미모디핀 60mg POQ-4H 투여중. Nasal Canalate Thrainloader Min 적용함. C-Line 유지함. Drowsy 상태 확인됨. Neurology Team Notify함.
+scenario_054_formal_template,scenario_054,formal_template,0.3607,0.3443,"환자는 55세 여성으로, 파열된 뇌동맥류에 의한 지주막하 출혈로 입원하였다. 활력징후로는 혈압이 160/90 mmHg, 심박수가 95 bpm, 호흡수가 22 breaths/min, 체온이 36.8°C, 산소포화도가 실내 공기에서 92%로 확인되었다. 환자는 심한 두통을 호소하였다. Nimodipine 60 mg을 경구로 4시간마다 투여 중이다. 산소 보조는 nasal cannula를 통해 3 L/min로 제공되고 있다. 환자는 현재 약간 혼미한 상태이다. 중심정맥관(C-line)이 삽입되어 있다. 환자의 반응 감소에 대해 신경과 팀에게 보고하였다.","환자는 55세 여성으로 파열된 뇌동맥류에 의한 지주마카 출혈로 입원하였다. 활력증 후로는 혈압이 160, 90mm, 심박수 95bpm, 호흡수가 22 breaths per minute, 체온이 36.8°C, 산소포화도가 실내 공기에서 92%로 확인되었다. 환자는 심한 두통을 호소하였다. 니모디핀 60mg을 경고로 4시간마다 투여 중이다. 산소 보조는 네이처 캐늘라를 통해 3리터 미미로 제공되고 있다. 환자는 현재 약간 혼미한 상태이다. 중심 정맥관이 삽입되어 있다. 환자의 반응 감소에 대해 신경과 팀에게 보고하였다."
+scenario_054_telegraphic_icu,scenario_054,telegraphic_icu,0.6667,0.5897,"55세 여성, 뇌동맥류 파열로 인한 지주막하 출혈로 입원.  
+BP 160/90 mmHg.  
+HR 95 bpm.  
+RR 22 breaths/min.  
+BT 36.8°C.  
+SpO2 92% room air.  
+Severe headache.  
+Nimodipine 60 mg PO q4h.  
+Nasal cannula 3 L/min.  
+C-line.  
+Drowsy.  
+Neuro team notify.","55세 여성, 뇌동맥류 파열로 인한 치즈마카 출혈로 입원. BP 66mg, HR-95BPM, RRG2 Breathsmin, BT 36.8 Dries, SpO2 90% at room air. Severe headache, Nemodipine 60mg, POQ 4H. Nasal canal at 3 elements, C-line, drowsy. Neuroteam notify."
+scenario_055_clinical_charting,scenario_055,clinical_charting,0.8689,0.8485,"53세 여성 환자, incompatible blood transfusion 후 acute hemolytic anemia로 입원함.
+
+Vital signs:
+- BP 90/60 mmHg
+- HR 120 bpm
+- RR 22
+- BT 38.1°C
+- SpO2 95% on 2L nasal cannula
+
+Severe fatigue 호소함.
+
+Furosemide 40 mg IV q12h 적용함.
+
+Oxygen support: Nasal cannula 유지함.
+
+Compatible blood transfusion 시행함.
+
+I/O: Input 1000 mL, Output 1200 mL.
+
+Clinical status: drowsy 확인됨.
+
+Hematology team notify함.","우시삼세 여성 환자, 불필요한 혈액 트랜스퓨션으로 심각한 히멀리틱 안이미에르 입원함. 생명의 시인, BP 카이즈 60mg, HR1-EBPM, RR-SUDU, BT 38.1 SbO2, 25% 2L 내슬 캐니라. 심각한 피곤, 호소함, 퓨로시미드 40mg, IV-Q 스웨트-H 적용함. 수소 지원, 내슬 캐니라 유지함, 불필요한 혈액 트랜스퓨션 시행함. I.O, 입력 10mL, 입력 200mL. 의료 진단, 심각한 피곤, 호소함, 히멀리틱 안이미에르 입원함."
+scenario_055_formal_template,scenario_055,formal_template,0.2973,0.2838,"53세 여성 환자가 부적합한 수혈 후 급성 용혈성 빈혈로 입원하였다. 활력징후를 확인한 결과 혈압은 90/60 mmHg, 심박수는 120 bpm, 호흡수는 22 bpm, 체온은 38.1°C였으며, 산소포화도는 2L의 Nasal cannula로 95%로 확인되었다. 환자는 심한 피로를 호소하였다. Furosemide 40 mg을 IV로 12시간마다 투여 중이다. 환자는 Nasal cannula를 통한 산소 공급을 받고 있으며, 호환 가능한 혈액으로 수혈이 진행되었다. 수액의 출입량으로는 입력 1000 mL, 출력 1200 mL가 기록되었다. 환자는 의식이 혼미한 상태이다. 추가적인 관리와 모니터링을 위해 혈액학 팀에게 보고하였다.","53세 여성 환자가 부적합한 수혈 후 급성 용혈성 빈혈로 입원하였다. 활력증후를 확인한 결과, 혈압은 90-60mmg, 심박수는 120bpm, 호흡수는 22bpm, 체온은 38.1°C였으며, 산소포화도는 2리터의 네이젤 캐늘라로 95%로 확인되었다. 환자는 심한 피로를 호소하였다. 피로 스밋 40mg을 IV로 12시간마다 투여 중이다. 환자는 네이젤 캐늘라를 통한 산소 공급을 받고 있으며, 호환 가능한 혈액으로 수혈이 진행되었다. 수액의 출입량으로는 입력 1000mL, 출력 1200mL가 기록되었다. 환자는 의식이 혼미한 상태이다. 추가적인 관리와 모니터링을 위해 혈액학팀에게 보고하였다."
+scenario_055_telegraphic_icu,scenario_055,telegraphic_icu,0.4565,0.413,"53세 여성, acute hemolytic anemia로 입원.  
+BP 90/60.  
+HR 120.  
+RR 22.  
+BT 38.1.  
+SpO2 95% on 2L nasal cannula.  
+Severe fatigue.  
+Furosemide 40 mg IV q12h.  
+Nasal cannula 적용 중.  
+Compatible blood transfusion 실시.  
+Input 1000 mL, Output 1200 mL.  
+Drowsy 상태.  
+Hematology team notify.","53세 여성, acute hemolytic anemia로 입원. BP 처리베어키, RRBR, BT 설치베이트 1, SbO2-90Y-propescent onto a nasal cannula. Severe fatigue, furosemide 40mg IV-Q2H. Nasal cannula 적용 중. Compatible blood transfusion 실시. Input 10mm, output on debounded miller. Drowsy 상태. Hematology team notify."
+scenario_056_clinical_charting,scenario_056,clinical_charting,0.5091,0.4545,"47세 여성, acute severe asthma exacerbation으로 입원함.
+
+BP 135/85 mmHg.  
+HR 110 bpm.  
+RR 32 breaths/min.  
+BT 37.5°C.  
+SpO2 88% on room air 확인됨.  
+
+Severe wheezing 확인됨.  
+
+Albuterol 2.5 mg IV q4h 적용함.  
+
+High-flow nasal cannula 산소 공급 유지함.  
+
+NG tube 삽입됨.  
+
+Negative fluid balance of 500 ml 확인됨.  
+
+환자 상태 drowsy.  
+
+Pulmonology team notify함.","47세 여성, acute severe asthma extubation으로 입원함. BP 0.3585 mmHg, HR pectibium, RR 3GD breath mimin, BT 3G7.556 cells, SB280 propensin on room air 확인됨. Severe wheezing 확인됨. Albuterol 2.5mg IV Q storage 적용함. High flow nasal cannula 산소공급 유지함. NG tubes 합입됨. Negative fluid balance of 500ml 확인됨. 환자상태 drowsy, pulmonology team notify함."
+scenario_056_formal_template,scenario_056,formal_template,0.303,0.2879,"47세 여성 환자가 급성 중증 천식 악화로 입원하였다. 활력징후는 혈압이 135/85 mmHg, 심박수가 110 bpm, 호흡수가 32 breaths/min, 체온이 37.5°C로 확인되었다. 산소포화도는 실내 공기에서 88%로 나타났다. 환자는 심한 wheezing을 호소하였다. Albuterol 2.5 mg을 IV로 4시간마다 투여하고 있다. 현재 High-flow nasal cannula로 산소 치료를 받고 있으며, NG tube가 삽입되어 있다. 수분 균형 상태는 500 ml 음성이다. 환자는 졸린 상태를 보이고 있다. 급한 평가가 필요하여 Pulmonology 팀에 보고하였다.","47세 여성 환자가 급성 중증 천식 악화로 입원하였다. 활력증후는 혈압이 135, 85mmg, 심박수가 110bpm, 호흡수가 32breaths min, 체온이 37.56으로 확인되었다. 산소포화도는 실내 공기에서 88% 나타났다. 환자는 심한 위징을 호소하였다. Albuterol 2.5mg을 IV로 4시간마다 투여하고 있다. 현재 하이플로우 네이젤 캔눌라로 산소 치료를 받고 있으며 NG 튜브가 삽입되어 있다. 수분 균형 상태는 500ml 음성이다. 환자는 졸린 상태를 보이고 있다. 급한 평가가 필요하여 펄몬올로지 팀에 보고하였다."
+scenario_056_telegraphic_icu,scenario_056,telegraphic_icu,0.8571,0.619,"47세 여성. 급성 천식 악화로 입원.  
+BP 135/85 mmHg.  
+HR 110 bpm.  
+RR 32 breaths/min.  
+BT 37.5°C.  
+SpO2 88% RA.  
+Wheezing severe.  
+Albuterol 2.5 mg IV q4h.  
+HFNC 적용.  
+NG tube 삽입됨.  
+Negative fluid balance 500 ml.  
+Drowsy 상태.  
+Pulmo team notify.","쇼티세여성, 급성 천식아코로이원, BPUN5 폐디바른브레인, HR핵싱크, BPMR, 32브레스민, BT37도, however gray cells, SpO2 88% RA, wheezing severe, albuterol 2.mg IV Q4H, HFNG 튜브 삽입됨, negative fluid balance 500ml, drowsy 상태, pulmoteam notify"
+scenario_057_clinical_charting,scenario_057,clinical_charting,0.7879,0.7576,"58세 여성 환자, acute exacerbation of rheumatoid arthritis로 입원함.  
+Severe joint pain 호소함.  
+BP 134/82, HR 88, RR 18, BT 37.6°C, SpO2 96%.  
+Methylprednisolone 125 mg IV q12h 적용함.  
+Patient alert 상태 유지함.",58세 여성 환자 아큐트 익사스베이션 오브 루마토이드 아트라이티스로 입원함. 세비어 조인트 페인 호소함. BP-134-80-HRR-18-BT-37.6-SPO2-96-PROFESSIN. 메토프레드니즐론-125mg-IV-Q-SUR-H 적용함. 페이션트 알러트 상태 유지함.
+scenario_057_formal_template,scenario_057,formal_template,0.4872,0.4872,"58세 여성 환자가 류마티스 관절염의 급성 악화로 입원하였다. 환자는 심한 joint pain과 부종을 호소하였다. 활력징후는 혈압 134/82 mmHg, 심박수 88 bpm, 호흡수 18 bpm, 체온 37.6°C, 산소포화도 96%로 확인되었다. 환자는 alert한 상태이다. Methylprednisolone 125 mg을 IV로 12시간마다 투여 중이다.","58세 여성 환자가 뉴마티스 관절염의 급성 악화로 입원하였다. 환자는 심한 조인트 페인과 부종을 호소하였다. 활력 증후는 혈압 134, 82mm가량, 심박수 88bpm, 호흡수 18bpm, 산소포화도 96% 요하로 확인되었다. 환자는 알러트한 상태이다. Methylprednisolone 125mg IB로 12시간마다 투여 중이다."
+scenario_057_telegraphic_icu,scenario_057,telegraphic_icu,0.6774,0.5484,"58세 여성 환자.  
+Acute exacerbation of rheumatoid arthritis로 입원.  
+Severe joint pain 및 swelling.  
+
+BP 134/82.  
+HR 88.  
+RR 18.  
+BT 37.6°C.  
+SpO2 96%.  
+
+Methylprednisolone 125 mg IV q12h.  
+
+환자 alert.","68세 여성 환자, acute exacerbation of rheumatoid arthritis로 입원, severe joint pain means swelling. BP Wensarisol, page right, RRCP, BT-3276, SbO2, Qg2, Procynopenten, Methylpimethafenamide H. 환자 알러트"
+scenario_058_clinical_charting,scenario_058,clinical_charting,0.3571,0.3393,"68세 남성 환자, acute exacerbation of chronic heart failure로 입원.  
+fluid overload 및 dyspnea 호소함.
+
+BP 150/90 mmHg, HR 110 bpm, RR 24 breaths/min, BT 37.2°C, SpO2 92% (room air).
+
+Dyspnea moderate level 확인됨.  
+
+Furosemide 40 mg IV BID 적용함.
+
+Oxygen support 2L nasal cannula 적용함.
+
+Foley 유지함.  
+
+Positive fluid balance 확인됨.
+
+Clinical status alert 유지함.","68세 남성 환자, acute exacerbation of chronic heart failure로 입원. Fluid overload 및 디스티니아 호소함. BP 140-90mmHg, HR 핵심비햄, RRW4 breaths min, BT32.6 cells, SbO2dcg%, room air. 디스티니아 moderate level 확인됨. Furosemide 40mg IVBID 적용함. Oxygen support 2L nasal cannula 적용함. Foley 유지함. Positive fluid balance 확인됨. Clinical status alert 유지함."
+scenario_058_formal_template,scenario_058,formal_template,0.5469,0.4688,"68세 남성 환자가 만성 심부전의 급성 악화로 입원하였다. 환자는 체액 과다와 호흡곤란을 호소하고 있다. 활력징후로는 혈압이 150/90 mmHg, 심박수가 110 bpm, 호흡수가 24 breaths/min, 체온이 37.2°C이며, 산소포화도는 상온 공기에서 92%로 확인되었다. 환자는 중등도의 호흡곤란을 호소하고 있으며, Furosemide 40 mg을 IV로 BID로 투여 중이다. 산소 공급은 2L nasal cannula를 통해 이루어지고 있으며, Foley 카테터가 삽입되어 있다. 환자는 양성 체액 균형을 보이고 있으며, 임상 상태는 alert하다.","68세 남성 환자가 만성심부전의 급성 악화로 입원하였다. 환자는 체액과다와 호흡곤란을 호소하고 있다. 활력증후로는 혈압이 150mg, 심박수가 110bpm, 호흡수가 24bpm, 체온이 37.1 를 기며 산소포화도는 상온공기에서 92%로 확인되었다. 환자는 중등도의 호흡곤란을 호소하고 있으며 furosemide 40mg을 IB로 BID로 투여 중이다. 산소공급은 urethra nasal cannula 를 통해 이루어지고 있으며 foley 카테터 가 삽입되어 있다. 환자는 양성체액 균형을 보이고 있으며 임상상태는 alert하다."
+scenario_058_telegraphic_icu,scenario_058,telegraphic_icu,0.9722,0.8056,"Acute exacerbation CHF.  
+Fluid overload.  
+Dyspnea moderate.  
+BP 150/90 mmHg.  
+HR 110 bpm.  
+RR 24 breaths/min.  
+BT 37.2°C.  
+SpO2 92% RA.  
+Furosemide 40 mg IV BID.  
+O2 2L NC.  
+Foley in place.  
+Positive fluid balance.  
+Alert.","극한의 질환이 시작됩니다. 수소 배출, 디스니아 모더리, BP 150, 90, 90mmHg, HR 110, BPM RR, 24.2, SPO2 92%, RA, 퓨리스미드 40mg, IVBI, D022LNC, 완전히 착용되었습니다. 수소 밸런스, 경고."
+scenario_059_clinical_charting,scenario_059,clinical_charting,0.8571,0.7347,"46세 남성 환자, severe sepsis with perforated diverticulitis.  
+BP 85/60 mmHg, HR 125 bpm, RR 28 breaths/min, BT 39.0°C, SpO2 89% (room air).  
+Severe abdominal pain 호소함.  
+Piperacillin/Tazobactam 4.5g IV q8h 투여 중.  
+High-flow nasal cannula 적용함.  
+Fluid resuscitation 시행함.  
+C-line 유지함.  
+Positive fluid balance 확인됨.  
+환자 drowsy 상태임.","46세 남성 환자, 심각한 섹시즈와 퍼포레이드 다이버티큘라이티스 BP 85, 60mRH, HR 125bpm, RR 28breaths min, BT 39, 본인의 엑스페어 2, 89% room air 심각한 엉덩이 아픔 호소함 파이퍼레슬린 타조백담 Fort 55v Q8H 투여중 하이플로우 네이설 캐니라 적용함 플루이드 리소시테이션 시행함, C라인 유지함 포지티브 플루이드 밸런스 확인됨, 환자 드라우지 상태임"
+scenario_059_formal_template,scenario_059,formal_template,0.3115,0.2787,"46세 남성 환자가 천공성 게실염으로 인한 중증 패혈증으로 입원하였다. 활력징후는 혈압 85/60 mmHg, 심박수 125 bpm, 호흡수 28 breaths/min, 체온 39.0°C, 산소포화도 89% (실내 공기 조건)로 확인되었다. 환자는 심한 복통을 호소하였다. Piperacillin/Tazobactam 4.5g IV q8h로 투여 중이다. 환자는 고유량 비강 캐뉼라를 통한 산소 공급을 받고 있으며, C-line이 삽입되었다. 체액량이 양성 균형을 보이고 있으며, 수액 보충이 시행되고 있다. 임상 상태는 기면 상태이다.","46세 남성 환자가 청공성 게실렴으로 인한 중증 폐혈증으로 입원하였다. 활력증후는 혈압 85-60mmg, 심박수 125bpm, 호흡수 28bpm, 체온 39.0°C, 산소포화도 89% 실내 공기 조건으로 확인되었다. 환자는 심한 복통을 호소하였다. b-peracillin-tazobactam 4.5g IVQ-H로 투여 중이다. 환자는 고유량 비강 케쿨라를 통한 산소 공급을 받고 있으며 C-라인이 삽입되었다. 체액량이 양성 균형을 보이고 있으며 수액 보충이 시행되고 있다. 임상 상태는 기면 상태이다."
+scenario_059_telegraphic_icu,scenario_059,telegraphic_icu,0.878,0.7805,"46세 남성 환자. Severe sepsis, perforated diverticulitis.  
+BP 85/60 mmHg.  
+HR 125 bpm.  
+RR 28 breaths/min.  
+BT 39.0°C.  
+SpO2 89% RA.  
+Severe abdominal pain.  
+Piperacillin/Tazobactam 4.5g IV q8h.  
+HFNC 사용 중.  
+Fluid resuscitation 시행.  
+C-line 삽입.  
+Positive fluid balance.  
+Drowsy 상태.","46세 남성 환자, 세벌 섹시스, 퍼포레이드 다이버티킬라이티스, BP85VASC, HR105BM, RR28BREATHS-MIN, BT39.NEUROGREUS, SBO2 89%RA, 세벌 압도적 아픔, 페르실린 타조백 덤프포인트 그람 IV QAH, HFN 사용 중, 플루이드 리소시테이션 시행, C-LINE 사비, 포지티브 플루이드 밸런스, 드라우지 상태."
+scenario_060_clinical_charting,scenario_060,clinical_charting,0.4706,0.4211,"71세 남성, Parkinson's disease acute exacerbation으로 입원.
+
+BP 142/85 mmHg.
+HR 88 bpm.
+RR 20.
+BT 37.2°C.
+SpO2 95%.
+
+Rigidity severe 확인됨.
+
+Levodopa 100 mg PO TID 적용함.
+
+Foley 유지함.
+
+IO 2000 mL/24h 기록됨.
+
+Clinical status drowsy 확인됨.","77세 남성, Parkinson's disease acute exacerbation으로 입원. BP 145mmHg, HR 85b침. BT 37.2, SpO2 95%. Rigidity severe 확인됨. Levodop 100mg Ti 적용함. Foley 유지함, IOT 7m24 기록됨. Clinical status drowsy 확인됨."
+scenario_060_formal_template,scenario_060,formal_template,0.4038,0.3269,"71세 남성 환자가 Parkinson's disease의 급성 악화로 입원하였다. 활력 징후 측정 결과 혈압은 142/85 mmHg, 심박수는 88 bpm, 호흡수는 20 회/분, 체온은 37.2°C, 산소포화도는 95%로 확인되었다. 환자는 심한 rigidity를 보였다. Levodopa 100 mg 경구로 하루 세 번 처방되었다. Foley가 삽입되어 있으며, 24시간 동안의 소변 배출량은 2000 mL로 기록되었다. 환자는 졸린 상태로 관찰되었다.","71세 남성 환자가 Parkinson's Disease의 급성 악화로 입원하였다. 활력징후 측정 결과, 혈압은 142 x 85mmg, 심박수는 88bpm, 호흡수는 20회 분, 체온은 37.16, 산소포화도는 95%로 확인되었다. 환자는 심한 Rigidity를 보였다. Levodopa 100mg 경고로 하루 3번 처방되었다. Foley가 삽입되어 있으며 24시간 동안의 소변 배출량은 2,000mL로 기록되었다. 환자는 졸린 상태로 관찰되었다."
+scenario_060_telegraphic_icu,scenario_060,telegraphic_icu,1.0,0.6296,"71세 남성.  
+Parkinson's acute exacerbation.  
+BP 142/85.  
+HR 88.  
+RR 20.  
+BT 37.2°C.  
+SpO2 95%.  
+Rigidity severe.  
+Levodopa 100 mg PO TID.  
+Foley.  
+IO 2000 mL/24h.  
+Drowsy.",71세 남성 parkinson's acute exacerbation bpm 42 85 hr 80 20 bt 37.2 gris spo 2 95 percent rigidity severe levodopa 100 milligrams poti fully io 2000 or 24 drowsy
+scenario_061_clinical_charting,scenario_061,clinical_charting,0.4146,0.4146,"52세 남성 환자, acute pancreatitis secondary to hypertriglyceridemia로 입원함.
+
+BP 138/85, HR 110, RR 22, BT 37.8°C, SpO2 96% (RA) 확인됨.
+
+Abdominal pain 심각함.
+
+Insulin infusion 5 units/hour IV 적용함.
+
+IV fluid resuscitation 유지함.
+
+Positive fluid balance 확인됨.
+
+환자 상태 alert.","52세 남성 환자, acute pancreatitis secondary to hypertriglyceridemia를 입원함. BP subuate 85, HR recursion, RR3, BT, 산채첩염, 8-cell cell, SPO, 96% 풍부확인. Abdominal pain 심각함. Insulin infusion 5 units per hour IV 적용함. IV fluid resuscitation 유지함. Positive fluid balance 확인됨. 환자상태 alert."
+scenario_061_formal_template,scenario_061,formal_template,0.4151,0.3585,"52세 남성 환자가 고중성지방혈증에 의한 급성 췌장염으로 입원하였다. 활력징후는 혈압 138/85 mmHg, 심박수 110 bpm, 호흡수 22 회/분, 체온 37.8°C이며, 산소포화도는 실내공기에서 96%로 확인되었다. 환자는 심한 복통을 호소하였다. 현재 환자는 인슐린 주입을 5 units/hour 속도로 정맥으로 투여받고 있다. 산소 지원은 필요하지 않으며, 의식은 명료하다. 치료로는 IV fluid resuscitation이 시행되었으며, 체액 균형은 양성으로 확인되었다.","52세 남성 환자가 고중성 지방 혈증에 의한 급성 최장염으로 입원하였다. 활력증후는 혈압 138-85mg, 심박수 120bpm, 호흡수 22회뿐, 체온 37.8°C이며 산소포화도는 실내 공기에서 96%로 확인되었다. 환자는 심한 복통을 호소하였다. 현재 환자는 인슐린 주입을 all units per hour 속도로 정맥으로 투여받고 있다. 산소 지원은 필요하지 않으며 의식은 명료하다. 치료로는 IV fluid resuscitation이 시행되었으며 체액균형은 양성으로 확인되었다."
+scenario_061_telegraphic_icu,scenario_061,telegraphic_icu,0.6562,0.4688,"52세 남성, 급성 췌장염.  
+BP 138/85.  
+HR 110.  
+RR 22.  
+BT 37.8°C.  
+SpO2 96% room air.  
+Severe abdominal pain.  
+Insulin infusion 5 units/hour IV.  
+IV fluid resuscitation 시행.  
+Positive fluid balance.  
+Alert.",52세남성급성치유P13885HR1R22BT37.8°C SPO2 96% room air Severe abdominal pain Insulin infusion 5 units hour IV IV fluid resuscitation shearing Positive fluid balance Alert
+scenario_062_clinical_charting,scenario_062,clinical_charting,0.413,0.32,"44세 남환, severe pulmonary embolism으로 입원함.
+
+BP 90/60 mmHg
+HR 125 bpm
+RR 28 breaths/min
+BT 37.2°C
+SpO2 86% on room air
+
+Severe chest pain 호소함.
+
+Heparin 5000 units IV q4h 적용함.
+
+High-flow nasal cannula 적용함.
+
+C-line 유지함.
+
+Negative fluid balance 확인됨.
+
+Drowsy 상태 확인됨.
+
+담당의 notify함: decreased SpO2, tachycardia.",44세 남은 severe pulmonary embolism으로 입원함. BP 90-60mmHg HR-5BPM RR Archipipe Breast Tumor Bt77.EG SpO2 86% on room air. Severe chest pain 호소함. Heparin Vol-10 units IV-Q4H 적용함. High flow nasal cannula 적용함. C-line 유지함. Negative fluid balance 확인됨. Drowsy 상태 확인됨. 담당해 notify함. Decreased SpO2 tachycardia.
+scenario_062_formal_template,scenario_062,formal_template,0.339,0.322,"44세 남성 환자가 심한 폐색전증으로 입원하였다. 활력징후는 혈압이 90/60 mmHg, 심박수는 125 bpm, 호흡수는 28 breaths/min, 체온은 37.2°C, 산소포화도는 실온 공기에서 86%로 확인되었다. 환자는 심한 흉통을 호소하였다. Heparin 5000 units을 IV로 q4h 투여 중이다. 고유량 비강 캐뉼라를 사용하여 산소를 공급하고 있으며, C-line이 삽입되어 있다. 체액 균형은 음성으로 확인되었다. 환자는 기면 상태를 보인다. SpO2 감소와 빈맥에 대해 폐 전문의에게 보고하였다.","44세 남성 환자가 심한 폐색전증으로 입원하였다. 활력증후는 혈압이 9160mg, 심박수는 125bpm, 호흡수는 28bpm, 체온은 37.2°C, 산소포화도는 실온공기에서 86%로 확인되었다. 환자는 심한 흉통을 호소하였다. 헤퍼린 5000 유닛을 IV로 QSOH 투여 중이다. 고유량 비강 케귤라를 사용하여 산소를 공급하고 있으며 C-라인이 삽입되어 있다. 체액균형은 음성으로 확인되었다. 환자는 기면 상태를 보인다. SpO2 감소와 빗맥에 대해 폐전문의에게 보고하였다."
+scenario_062_telegraphic_icu,scenario_062,telegraphic_icu,0.875,0.5,"44세 남성, 심한 폐색전증으로 입원.  
+BP 90/60 mmHg.  
+HR 125 bpm.  
+RR 28 breaths/min.  
+BT 37.2°C.  
+SpO2 86% room air.  
+Severe chest pain.  
+Heparin 5000 units IV q4h.  
+High-flow nasal cannula 적용.  
+C-line 유지.  
+Negative fluid balance.  
+Drowsy.  
+Dr notify.",44% 남성 남성과 이별 1 bp 96mm 허드라임 hr1 hr28 breast min bt 37.2 sp02 86% room air severe chest pain heparin 5000 units iv q4 h high flow nasal cannula 적용 c line 유지 negative fluid balance drowsy dr notify
+scenario_063_clinical_charting,scenario_063,clinical_charting,0.5932,0.4746,"74세 여성 환자. SBP secondary to cirrhosis로 입원함.
+
+BP 100/60 mmHg. HR 98 bpm. RR 24 breaths/min. BT 37.8°C. SpO2 92% on room air.
+
+Abdominal pain moderate 호소함.
+
+Ceftriaxone 2g IV q12h 투여 중.
+
+Nasal cannula at 2 L/min 적용함.
+
+Foley 유지함.
+
+Strict input/output monitoring 시행 중.
+
+Clinical status drowsy 확인됨.
+
+Decreased urine output 및 abdominal distension 담당의 notify함.","74세 여성 환자, SBP 2ndary dyscirrhosis 입원함, BP 162mg, HR 90bpm, RRFG subrethesmin, BT 70.8, SpO2 기시 2% on room air, Abdominal pain moderate 호소함, Ceftriaxone 2g IVQ swab H 투여중, Nasal canalate tool mean 적용함, Fully 유지함, Strict input-output monitoring 시행중, Clinical status drowsy 확인됨, Decreased urine output abdominal distention 담당해 notify함."
+scenario_063_formal_template,scenario_063,formal_template,0.4091,0.3939,"74세 여성 환자가 간경변증에 의한 자발성 세균성 복막염으로 입원하였다. 활력징후는 혈압이 100/60 mmHg, 심박수가 98 bpm, 호흡수가 24 breaths/min, 체온이 37.8°C, 산소포화도는 실내공기에서 92%로 확인되었다. 환자는 중등도의 복통을 호소하였다. 현재 Ceftriaxone 2g을 IV로 12시간마다 투여 중이다. 산소 지원은 비강 캐뉼라를 통해 2 L/min로 제공되고 있다. Foley 카테터가 삽입되어 있으며, 엄격한 입력/출력 모니터링이 시행되고 있다. 환자는 졸음 상태를 보인다. 소변량 감소와 복부 팽만에 대해 담당 의사에게 보고하였다.","74세 여성 환자가 간경변증에 의한 자발성 세균성 복마겸으로 입원하였다. 활력징후는 혈압이 160mmg, 심박수가 98bpm, 호흡수가 24breathsmin, 체온이 37.8dl, 산소포화도는 실내 공기에서 92%로 확인되었다. 환자는 중등도의 복통을 호소하였다. 현재 세프트레액션 2g을 IB로 12시간마다 투여 중이다. 산소지원은 비강 케클라를 통해 2Lmin로 제공되고 있다. 폴리카테터가 삽입되어 있으며 엄격한 입력출력 모니터링이 시행되고 있다. 환자는 졸음상태를 보인다. 소변량 감소와 복부평안에 대해 담당의사에게 보고하였다."
+scenario_063_telegraphic_icu,scenario_063,telegraphic_icu,0.9706,0.9412,"74세 여환 SBP로 입원.  
+BP 100/60 mmHg.  
+HR 98 bpm.  
+RR 24.  
+BT 37.8°C.  
+SpO2 92% RA.  
+Moderate abdominal pain.  
+Ceftriaxone 2g IV q12h.  
+NC 2 L/min.  
+Foley 유지.  
+Strict I/O.  
+Drowsy.  
+Dr notify.","태규스 포세, 요원, BP1. BP, 케비릭블링, 하이치, 콰이팸, 뷰아더, 나니스, 서디체뽕, 에이딧스티에스, 프로쿠르페르틴, RA. 모더릿 업도미놀, 페인, 세프트리약슨, 투그램아이비큐, 노웨치, 엔씨투, 폴리유지, 스트릭다이오, 드라우지, 닥노디파이."
+scenario_064_clinical_charting,scenario_064,clinical_charting,0.5385,0.4103,"65세 여환, ARDS로 입원함.   
+BP 110/70, HR 95, RR 30, BT 37.8°C.   
+SpO2 85% (room air).   
+Severe shortness of breath 호소함.   
+Ceftriaxone 2g IV q12h 투여 중.   
+Mechanical ventilation 적용함.   
+Ventilator 유지함.   
+Positive fluid balance 확인됨.   
+Stuporous 상태 확인됨.",65세 여완 ARDS로 입원함. BP 링드체다이비누 데이콜서퍼 BT 설지체봄 8드그리스티스피오 2파이치보 퍼트 룸 에어 severe shortness of breath 호소함. 셉트리액손 2g IV Q2RH 투여중. mechanical ventilation 적용함. ventilator 유지함. positive fluid balance 확인됨. stuporous 상태 확인됨.
+scenario_064_formal_template,scenario_064,formal_template,0.3793,0.3448,"환자 기록: 65세 여성 환자가 흡인성 폐렴에 이차적으로 급성 호흡곤란 증후군(ARDS)으로 입원하였다. 활력 징후는 혈압 110/70 mmHg, 심박수 95 bpm, 호흡수 30 회/분, 체온 37.8°C, 실내 공기에서 산소포화도 85%로 확인되었다. 환자는 심한 정도의 호흡곤란을 호소하였다. 환자는 Ceftriaxone 2g을 IV로 12시간마다 투여받고 있다. 기계적 환기를 위해 환자는 ventilator를 사용 중이며, 체액 균형은 양성으로 나타났다. 현재 임상 상태는 혼미함으로 평가되었다.","환자 기록 65세 여성 환자가 흡인성 폐렴에 2차적으로 급성 호흡곤란증후군 ARDS로 입원하였다. 활력증후는 혈압 117mmhg, 심박수 95bpm, 호흡수 30회분, 체온 37.8°C, 실내 공기에서 산소포화도 85%로 확인되었다. 환자는 심한 정도의 호흡곤란을 호소하였다. 환자는 세프트 리액션 2가암을 IV로 12시간마다 투여받고 있다. 기계적 환기를 위해 환자는 벤틀레이터를 사용 중이며 체액균형은 양성으로 나타났다. 현재 임상상태는 혼미암으로 평가되었다."
+scenario_064_telegraphic_icu,scenario_064,telegraphic_icu,0.8621,0.7931,"65세 여성 ARDS 입원.  
+BP 110/70.  
+HR 95.  
+RR 30.  
+BT 37.8°C.  
+SpO2 85% RA.  
+Severe SOB.  
+Ceftriaxone 2g IV q12h.  
+Mechanical ventilation.  
+Ventilator 사용.  
+Positive fluid balance.  
+Stuporous.",65세 여성 AR-BPNAT7D HR95R30 BT37.8 글씨레스 SBO2 85% RSVSOB 세프트 리액션 2-GAM IV Q12H 메카니컬 벤틀레이션 벤틀레이터 사용 포지티브 플루이드 밸런스 스튜퍼러스
+scenario_065_clinical_charting,scenario_065,clinical_charting,0.8333,0.6905,"56세 여성 환자. TEN으로 입원함.  
+BP 110/70 mmHg, HR 88 bpm, RR 20 breaths/min, BT 38.5°C, SpO2 94% (room air).  
+Severe skin rash 확인됨.  
+Methylprednisolone 125 mg IV q6h 투여함.  
+Wound care 시행함.  
+IV fluids 100 mL/hr 유지함.  
+환자 alert 상태 유지함.","56세 여성 환자, 텐으로 입원함, BP-7mg, HR-88pm, R-17bm, BP-38.0dx, SPR-97pm. SEVERE SKIN RASH 확인됨, Methylprednisolone-Retinol-15mg IV-Q-6n-HR-CM, IV Fluids 100ml per hour 유지함. 환자 알러트 상태 유지함."
+scenario_065_formal_template,scenario_065,formal_template,0.4038,0.3846,"56세 여성 환자가 약물 부작용으로 인한 독성 표피 괴사증(TEN)으로 입원하였다. 활력 징후는 혈압이 110/70 mmHg, 심박수가 88 bpm, 호흡수가 20 breaths/min, 체온이 38.5°C, 산소포화도가 실내 공기에서 94%로 확인되었다. 환자는 심한 skin rash를 호소하였다. 환자에게 methylprednisolone 125 mg이 IV로 6시간마다 투여되었다. 상처 치료가 실시되었으며, IV fluids가 시간당 100 mL로 투여되었다. 환자는 의식이 명료하였다.","56세 여성 환자가 약물 부작용으로 인한 독성 표피 괴삿증으로 입원하였다. 활력 증후는 혈압이 170mg, 심박수가 88bpm, 호흡수가 20bpm, 체온이 38.5°C, 산소포화도가 실내 공기에서 속 4%로 확인되었다. 환자는 심한 스킨 래쉬를 호소하였다. 환자에게 메틀프레드니즐론 125mg이 IB로 6시간마다 투여되었다. 상처 치료가 실시되었으며 IB 플루이드가 시간당 100mL로 투여되었다. 환자는 의식이 명료하였다."
+scenario_065_telegraphic_icu,scenario_065,telegraphic_icu,0.7353,0.5294,"56세 여성. TEN 입원.
+
+BP 110/70 mmHg.  
+HR 88 bpm.  
+RR 20 breaths/min.  
+BT 38.5°C.  
+SpO2 94% RA.
+
+Severe skin rash.  
+
+Methylprednisolone 125 mg IV q6h.
+
+Wound care 실시.
+
+IV fluids 100 mL/hr.
+
+Alert.","56세 여성 BP 1107mg, HR 88bpm, RR 20 breaths min, BT 38.5 hybrid cells, SpO2 94% RA, Severe skin rash, methylprednisolone on 25mg IV, wound care shishi, IV fluids 100ml per hour, alert."
+scenario_066_clinical_charting,scenario_066,clinical_charting,0.4565,0.3137,"59세 남성 환자, acute pancreatitis, hypertriglyceridemia로 입원함.
+
+Vital Signs:
+- BP 140/85 mmHg
+- HR 110 bpm
+- RR 22
+- BT 38.5°C
+- SpO2 95%
+
+Abdominal pain severe 호소함.
+
+Insulin 10 units IV q6h 적용함.
+
+Fluid resuscitation 시행함.
+
+Urine output 1500 mL/24h 기록됨.
+
+환자 alert 상태 유지함.
+
+Endocrinology consult 필요함.","59세 남성 환자, acute pancreatitis, hypertriglyceridemia로 입원함. Vital signs, BP pass up bit lumigram, HR up 10 BPM, RREC, BT 38.5, SpO2 95%. Abdominal pain, severe 호소함. Insulin, 10 units IV, Q6H 적용함. Fluid resuscitation, 시행함. Urine output, 1,500ml, 24억 기록됨. 환자 알러트 상태 유지함. Endocrinology consult, 필요함."
+scenario_066_formal_template,scenario_066,formal_template,0.4203,0.2899,"환자 정보: 59세 남성 환자가 고중성지방혈증으로 인한 급성 췌장염으로 입원하였다.
+
+활력 징후: 혈압은 140/85 mmHg로 측정되었고, 심박수는 110 bpm로 확인되었다. 호흡수는 22회/분이었으며, 체온은 38.5°C로 발열 상태이다. 산소포화도는 95%로 확인되었다.
+
+증상: 환자는 심한 복통을 호소하였다.
+
+투약: 환자는 insulin 10 units을 IV로 q6h 투여받고 있다.
+
+중재: 환자에게는 수액 보충이 시행되었다.
+
+배설: 24시간 동안의 소변 배출량은 1500 mL로 기록되었다.
+
+임상 상태: 환자는 의식이 명료하였다.
+
+통보: 고중성지방혈증 관리에 대한 내분비학과 상담이 필요함을 보고하였다.","환자 정보 59세 남성 환자가 고중성 지방혈증으로 인한 급성취장염으로 입원하였다. 활력증후 혈압은 140, 85mm로 측정되었고 심박수는 110bpm으로 확인되었다. 호흡수는 22hz였으며 체온은 37.5로독수로 발열 상태이다. 산소포화도는 95%로 확인되었다. 증상 환자는 심한 복통을 호소하였다. 투약 환자는 인슐린 유닛을 IB로 Q6H 투여받고 있다. 중재 환자에게는 수액 보충이 시행되었다. 배설 24시간 동안의 소변 배출량은 1,500mL로 기록되었다. 임상 상태 환자는 의식이 명료하였다. 통보 고중성 지방혈증 관리에 대한 내분비학과 상담이 필요함을 보고하였다."
+scenario_066_telegraphic_icu,scenario_066,telegraphic_icu,0.8857,0.6857,"59세 남성, 급성 췌장염으로 입원.  
+BP 140/85.  
+HR 110.  
+RR 22.  
+BT 38.5.  
+SpO2 95%.  
+Abdominal pain severe.  
+Insulin 10 units IV q6h.  
+Fluid resuscitation 시행.  
+Urine output 1500 mL/24h.  
+Alert 상태.  
+Endocrinology consult 요청함.","59세 남성 극성 최장염으로 입원, BP 148.5, HR, PEP, RRH, BT 38.5, SBO2 95%. 엉덩이 아픔이 심각, 인슬린 10 유닛, IV, Q6H, 플루이드 리사세테이션 시행, 유런 아웃풋, 10 모바일 밀레트리스 5H, 알러트 상태. 엔드크로노지 컨설턴트."
+scenario_067_clinical_charting,scenario_067,clinical_charting,0.42,0.28,"45세 남성 환자, acute massive pulmonary embolism으로 입원함.  
+BP 85/60 mmHg, HR 115 bpm, RR 28 breaths/min, BT 36.8°C, SpO2 88% (6L O2 via nasal cannula).  
+Severe chest pain 호소함.  
+Heparin 5000 units IV STAT 투여함.  
+Nasal cannula 적용 중.  
+C-line 유지함.  
+환자 stuporous 상태.  
+Hypotension과 hypoxia에 대해 담당의 notify함.","45세 남성 환자, acute massive pulmonary embolism으로 입원함. BP 85-60 드럼, HR 115 bpm, RR 28 breaths min, BT 36.89, SbO2 8883, UO2 via nasal cannula. severe chest pain 호소함, heparin botan units IV stat 투여함. nasal cannula 적용중. C-line 유지함. 환자 stuporous 상태, hypotension과 hypoxia에 대해 담당해 notify함."
+scenario_067_formal_template,scenario_067,formal_template,0.2742,0.2419,"45세 남성 환자가 급성 대량 폐색전증으로 입원하였다. 활력 징후를 확인한 결과 혈압은 85/60 mmHg, 심박수는 115 bpm, 호흡수는 28 breaths/min, 체온은 36.8°C, 산소포화도는 6L O2를 코로 공급받으면서 88%로 확인되었다. 환자는 심한 가슴 통증을 호소하였다. Heparin 5000 units가 정맥주사로 STAT 투여되었다. 산소 공급은 nasal cannula를 사용하여 이루어지고 있으며, C-line이 삽입되어 있다. 환자의 임상 상태는 혼미 상태로 관찰되었다. 저혈압과 저산소증에 대해 담당 의사에게 보고하였다.","45세 남성 환자가 급성 대량 폐색전증으로 입원하였다. 활력 증후를 확인한 결과 혈압은 85-60mmHg, 심박수는 125bpm, 호흡수는 28bpm, 체온은 36.8°C, 산소포화도는 6152를 코로 공급받으면서 88%로 확인되었다. 환자는 심한 가슴 통증을 호소하였다. 헤파린 5,000 유닛스가 정맥주사로 스틱 투여되었다. 산소 공급은 네이저 캐늘러를 사용하여 이루어지고 있으며 C-라인이 삽입되어 있다. 환자의 임상 상태는 혼미 상태로 관찰되었다. 저혈압과 저산소증에 대해 담당 의사에게 보고하였다."
+scenario_067_telegraphic_icu,scenario_067,telegraphic_icu,0.7143,0.4048,"45세 남성 환자. 급성 대량 폐색전증으로 입원.  
+BP 85/60 mmHg.  
+HR 115 bpm.  
+RR 28 breaths/min.  
+BT 36.8°C.  
+SpO2 88% on 6L O2 via NC.  
+Severe chest pain.  
+Heparin 5000 units IV STAT.  
+NC 사용 중.  
+C-line 삽입됨.  
+Stuporous 상태.  
+Dr notify.","소지부세 남성 환자, 급성 대량 폐색 전증으로 입원, BP 80-60mm, HR, MedBPM, RR, WB, BT369, SPO2 88% on 6L02 via NC Severe chest pain, heparin 510 units IV stat, NC 사용 중, C-lines hypedem, stuporous 상태, deactor notify"
+scenario_068_clinical_charting,scenario_068,clinical_charting,0.6889,0.4667,"68세 여성, acute ischemic colitis로 입원함.
+
+BP 95/60 mmHg, HR 110 bpm, RR 22 breaths/min, BT 37.5°C, SpO2 92% room air.
+
+Severe abdominal pain 호소함.
+
+Metronidazole 500 mg IV q8h 적용함.
+
+Nasal cannula 2L/min 유지함.
+
+Foley 유지함.
+
+Negative fluid balance 확인됨.
+
+환자 drowsy 상태 확인됨.","68세 여성 아큐트 이스키믹 클리드스토 입원함 BP 9560mHr, HR 120bpm, RRCB Breast Mints, BT 선치첩, 정우국 셀스, SPO2 92% 룸웨어 severe abdominal pain 호소함 Metronidazole 500mg IV-Q HUT-H 적용함 Nasal cannula 2일 미는 유지함 Foley 유지함 Negative fluid balance 확인됨 환자 drowsy 상태 확인됨"
+scenario_068_formal_template,scenario_068,formal_template,0.4107,0.375,"68세 여성 환자가 급성 허혈성 대장염으로 입원하였다. 활력징후는 혈압 95/60 mmHg, 심박수 110 bpm, 호흡수 22 breaths/min, 체온 37.5°C, 산소포화도 92%로 확인되었으며, 실내 공기 상태이다. 환자는 심한 복통을 호소하였다. Metronidazole 500 mg이 IV 경로로 8시간마다 투여되고 있다. 산소는 nasal cannula를 통해 2L/min로 공급되고 있다. Foley 카테터가 삽입되어 있으며, 체액 균형은 음성으로 기록되었다. 환자는 졸음이 있는 상태이다.","68세 여성 환자가 급성 허혈성 대장염으로 입원하였다. 활력 징후는 혈압 95, 60mmHg, 심박수 112ppm, 호흡수 22BST, 체온 37℃, 산소포화도 92℃로 확인되었으며 실내 공기상태이다. 환자는 심한 복통을 호소하였다. 메트로니더솔 500mg이 IV 경로로 8시간마다 투여되고 있다. 산소는 네이절 캐늘라를 통해 2mL로 공급되고 있다. 폴리 카테터가 삽입되어 있으며 체액균형은 음성으로 기록되었다. 환자는 졸음이 있는 상태이다."
+scenario_068_telegraphic_icu,scenario_068,telegraphic_icu,0.8205,0.7692,"68세 여성 환자.  
+Acute ischemic colitis 입원.  
+BP 95/60 mmHg.  
+HR 110 bpm.  
+RR 22 breaths/min.  
+BT 37.5°C.  
+SpO2 92% RA.  
+Abdominal pain severe.  
+Metronidazole 500 mg IV q8h.  
+Nasal cannula 2L/min.  
+Foley 장착됨.  
+Negative fluid balance.  
+Drowsy 상태.","68세 여성 환자, 아큐트 이스키믹 콜라이데시본, BP 95, 60mHg, HRM-BPM, RR 22 breaths min, BTTO2 92% RA, 엉덩이 아픔, 매우 심각, 메트로닌지솔 500mg IVQ-8H, 내슬 캔눌라 2mL min, 완전히 정착됨, 내게티브 플루이드 밸런스, 드라우지 상태."
+scenario_069_clinical_charting,scenario_069,clinical_charting,0.5385,0.3333,"57세 남성 환자, acute heroin overdose로 입원함.
+
+BP 98/60 mmHg.
+
+HR 45 bpm.
+
+RR 8 breaths/min.
+
+BT 36.5°C.
+
+SpO2 85% on room air.
+
+Severe unconsciousness 호소함.
+
+Naloxone 0.4 mg IV STAT 적용함.
+
+High-flow nasal cannula 적용함.
+
+Clinical status: unresponsive.",57세 남성 환자 아큐트 헤러윈 오버도스로 입원함 BP 96.6% HR 45 BPM RR 8 Breaths Min BT 36.5°C SpO2 85% on room air Severe unconsciousness 호소함 Naloxone melum IV STAT 착용함 High flow nasal cannula 착용함 Clinical status unresponsive
+scenario_069_formal_template,scenario_069,formal_template,0.4667,0.4444,"57세 남성 환자가 급성 헤로인 과다복용으로 입원하였다. 활력징후는 혈압 98/60 mmHg, 심박수 45 bpm, 호흡수 8 breaths/min, 체온 36.5°C로 확인되었다. 산소포화도는 실내 공기에서 85%로 측정되었다. 환자는 심각한 수준의 의식소실을 보였으며, 반응이 없었다. Naloxone 0.4 mg이 정맥 주사로 즉시 투여되었다. 고유량 비강 캐뉼라로 산소를 공급하고 있다.","57세 남성 환자가 급성 해로윈 과다 복용으로 입원하였다. 활력 증후는 혈압 98-60mmg, 심박수 45ppm, 호흡수 8breaths min, 체온 36.556C로 확인되었다. 산소 포화도는 실내 공기에서 85%로 측정되었다. 환자는 심각한 수준의 의식 소실을 보였으며 반응이 없었다. 날렉선 0.4mg이 정맥 주사로 즉시 투여되었다. 고유량 비강 케튤라로 산소를 공급하고 있다."
+scenario_069_telegraphic_icu,scenario_069,telegraphic_icu,0.9412,0.8824,"57세 남성, 급성 heroin overdose로 입원.  
+BP 98/60 mmHg.  
+HR 45 bpm.  
+RR 8 breaths/min.  
+BT 36.5°C.  
+SpO2 85% room air.  
+Severe unconsciousness.  
+Naloxone 0.4 mg IV STAT.  
+High-flow nasal cannula 사용 중.  
+Unresponsive.","우시치스 남성, 급성 헤로인 오버도스 입원 BP가 하이투스 스티미워드, 메이쳐아라, 브레스맨, 아브라타페아, 브레스민, 에스피오프레디, 룸에어, 세비어 언컨시스니스 날록소, 네오팬, 4mg, IV, 하이플로, 네이처 캔뉼라스, 하영중, 안 리스폰시브"
+scenario_070_clinical_charting,scenario_070,clinical_charting,0.9608,0.902,"64세 남성, acute respiratory failure로 입원. Severe community-acquired pneumonia 확인됨.
+
+BP 92/58 mmHg. HR 118 bpm. RR 28 breaths/min. BT 38.5°C. SpO2 86% (room air).
+
+Severe cough 호소함.
+
+Levofloxacin 750 mg IV q12h 투여 중.
+
+Oxygen support: High-flow nasal cannula 적용함.
+
+Ventilator 사용 중.
+
+Negative fluid balance 확인됨.
+
+Clinical status: drowsy.","60 수세 남성, 아큐트 레스퍼토리 페이어로 입원 서비어 커뮤니티 아쿠아이드누모니아 확인됨 BP 다이지디인 58 밀리미터 헤르 그레이트, BTR 헴 RR28 브레스 민, BT 38.5 그리시스 SPO2 86% 호소함 CIVIVO 플록슨 750 밀리미터 아이비큐 12H 투여중 옥시진 서포트, 하이플로우 네이처 캐니라 적용함 벤틀레이터 사용중 네이티브 플루이드 밸런스 확인 클리니컬 스타드스, 드라우지"
+scenario_070_formal_template,scenario_070,formal_template,0.2857,0.2857,"64세 남성 환자가 심각한 지역사회 획득 폐렴으로 인한 급성 호흡 부전으로 입원하였다. 활력 징후로는 혈압이 92/58 mmHg, 심박수가 118 bpm, 호흡수가 28 breaths/min, 체온이 38.5°C로 측정되었으며, 산소포화도는 실내 공기에서 86%로 확인되었다. 환자는 심한 기침을 호소하였다. Levofloxacin 750 mg을 IV로 q12h 투여 중이다. 고유량 비강 캐뉼라를 통해 산소를 공급 중이며, 환자는 현재 인공호흡기를 사용 중이다. 체액 균형은 음성으로 나타났으며, 임상 상태는 졸린 상태로 관찰되었다.","64세 남성 환자가 심각한 지역사회 획득 폐렴으로 인한 급성 호흡 부전으로 입원하였다. 활력증으로는 혈압이 92-58mg, 심박수가 118bpm, 호흡수가 28breaths min, 체온이 38.5°C로 측정되었으며, 산소포화도는 실내 공기에서 86%로 확인되었다. 환자는 심한 기침을 호소하였다. 리버플럭스슨 7259mg을 IB로 QCBH 투여 중이다. 고유량 비강 캐큘라를 통해 산소를 공급 중이며, 환자는 현재 인공호흡기를 사용 중이다. 체액균형은 음성으로 나타났으며, 임상상태는 졸린 상태로 관찰되었다."
+scenario_070_telegraphic_icu,scenario_070,telegraphic_icu,0.75,0.5556,"64세 남성. 급성 호흡부전. 심한 지역사회획득폐렴.  
+BP 92/58 mmHg. HR 118 bpm. RR 28. BT 38.5°C.  
+SpO2 86% (room air).  
+Severe cough.  
+Levofloxacin 750 mg IV q12h.  
+HFNC 적용.  
+Ventilator 사용 중.  
+Negative fluid balance.  
+Drowsy.","64세 남성, 급성 호흡 부전, 심한 지혈, 깩트리안, Fibromyalgia, HR108, BPAM, RR28, BT38.02, 86% room air Severe cough, levofloxacin 750mg IVQ12H, HFNC 적용, Ventilator 사용 중, Negative fluid balance, Drowsy"
+scenario_071_clinical_charting,scenario_071,clinical_charting,0.8519,0.4444,"48세 여성, Guillain-Barré Syndrome (GBS) severe case admission.  
+Respiratory monitoring close 필요.  
+BP 118/76 mmHg, HR 98 bpm, RR 28 breaths/min.  
+BT 37.5°C, SpO2 89% on room air 확인됨.  
+Severe muscle weakness 호소함.  
+IV immunoglobulin 0.4 g/kg IV q12h 적용함.  
+Non-rebreather mask 산소 적용함.  
+Ventilator 사용 중.  
+Clinical status: drowsy 상태.  
+Neurology team notify함.","소베스 여성, 기암베레 신드롬, GBS, Severe Case Admission Respiratory Monitoring, Close PO BP 108, 76, Membrane HR, Tidy 8, BR, 28, Breaths Min BT-30N by McGee's, SbO2, 89% on room air, 확인됨 Severe Muscle Weakness, 호소함 IV Immunoglobulin, 0.4mg IV, Q12H, 적용함 Non-Re-Breather Masks, 한소 적용함 Ventilator 사용중 Clinical Status, Drowsy 상태 Neurology Team, Notify함"
+scenario_071_formal_template,scenario_071,formal_template,0.2647,0.2647,"48세 여성 환자가 중증 Guillain-Barré Syndrome (GBS)로 인해 입원하였으며, 호흡 모니터링이 필요한 상태이다. 활력징후는 혈압 118/76 mmHg, 심박수 98 bpm, 호흡수 28 breaths/min, 체온 37.5°C, 산소포화도는 실내 공기에서 89%로 확인되었다. 환자는 심각한 수준의 muscle weakness를 보이고 있다. 현재 IV immunoglobulin 0.4 g/kg을 경구 투여(q12h) 중이다. 산소 공급을 위해 non-rebreather mask를 사용하고 있으며, ventilator가 연결되어 있다. 환자는 졸린 상태로 관찰되었다. Neurology 팀에게 추가 평가 및 관리 요청을 위하여 보고하였다.","48세 여성 환자가 중증 기양바리신드롬 GBS로 인해 입원하였으며, 호흡 모니터링이 필요한 상태이다. 활력증후는 혈압 128.76mmg, 심박수 98bpm, 호흡수 28bpm 및 체온 37.5°C, 산소포화도는 실내 공기에서 89%로 확인되었다. 환자는 심각한 수준의 muscle weakness를 보이고 있다. 현재 IB immunoglobulin 0.4gbqm 경고투여 QCH 중이다. 산소 공급을 위해 non-rebreather mask을 사용하고 있으며, ventilator가 연결되어 있다. 환자는 졸린 상태로 관찰되었다. Neurology팀에게 추가 평가 및 관리 요청을 위하여 보고하였다."
+scenario_071_telegraphic_icu,scenario_071,telegraphic_icu,0.9444,0.8611,"48세 여성, GBS로 입원.  
+BP 118/76 mmHg.  
+HR 98 bpm.  
+RR 28.  
+BT 37.5°C.  
+SpO2 89% (room air).  
+Severe muscle weakness.  
+IV immunoglobulin 0.4 g/kg IV q12h.  
+Non-rebreather mask 사용중.  
+Ventilator 사용중.  
+Drowsy.  
+Neurology team notify함.","40베이트 세여성, GBS로 입원. BP108, CITIT6, MMH, HR38BPM, RR28, BT37NFS, SP2, 89%. 심각한 근육 약탈, IV암미민옥글로빌린 0.4g, IVQ2H. 안정적인 숨을 숨기지 않는 마스크 사용중, 환기기 사용중, 드라우지. 뇌리지팀, 연락해주세요."
+scenario_072_clinical_charting,scenario_072,clinical_charting,0.3,0.24,"67세 남성 환자, ulcerative colitis acute exacerbation으로 입원함.   
+Severe abdominal pain, bloody diarrhea, dehydration 호소함.  
+
+BP 90/60 mmHg, HR 110 bpm, RR 24 breaths/min, BT 37.8°C, SpO2 95% on room air 확인됨.  
+
+Hydrocortisone 100 mg IV q6h 투여함.  
+IV fluid resuscitation 적용함.  
+
+Negative fluid balance 확인됨.  
+환자 alert 상태 유지함.","67세 남성 환자, Ulcerative colitis acute exacerbation으로 입원함. Severe abdominal pain, bloody diarrhea, dehydration 호소함. BP KJ 60mHrm, HR Hakim BPM, RR Hwanisa Breathsmin, BT 30 Tepion 8 Sexing, SpO2 95% on room air 확인됨. Hydrocortisone 100mg IV Q6H 투여함. IV fluid resuscitation 적용함. Negative fluid balance 확인됨. 환자 알러트 상태 유지함."
+scenario_072_formal_template,scenario_072,formal_template,0.3158,0.2632,"환자는 67세 남성으로, 급성 궤양성 대장염 악화로 입원하였다. 환자는 심한 복통, 혈변, 탈수 증상을 보였다. 혈압은 90/60 mmHg로 확인되었고, 심박수는 110 bpm, 호흡수는 24 breaths/min, 체온은 37.8°C로 측정되었다. 산소포화도는 실내 공기에서 95%로 확인되었다. 환자는 심한 복통을 호소하였다. 약물로는 Hydrocortisone 100 mg을 IV로 6시간마다 투여받고 있다. 환자에게는 IV fluid resuscitation이 실시되었고, 음성 수분 평형이 확인되었다. 환자는 의식이 명료하다.","환자는 67세 남성으로 급성괴양성 대장염 악화로 입원하였다. 환자는 심한 복통, 혈변, 탈수 증상을 보였다. 혈압은 90-60mm로 확인되었고, 심박수는 110bpm, 호흡수는 24bpm, 체온은 37.89ks로 측정되었다. 산소포화도는 실내 공기에서 95%로 확인되었다. 환자는 심한 복통을 호소하였다. 약물로는 Hydrocortisone 100mg을 IV로 6시간마다 투여받고 있다. 환자에겐 IV Fluid Resuscitation이 실시되었고, 음성수분평형이 확인되었다. 환자는 의식이 명료하다."
+scenario_072_telegraphic_icu,scenario_072,telegraphic_icu,0.7838,0.5676,"67세 남성. 급성 궤양성 대장염.  
+Severe abdominal pain.  
+Bloody diarrhea.  
+Dehydration.  
+BP 90/60 mmHg.  
+HR 110 bpm.  
+RR 24 breaths/min.  
+BT 37.8°C.  
+SpO2 95% RA.  
+Hydrocortisone 100 mg IV q6h.  
+IV fluid resuscitation.  
+Negative fluid balance.  
+Alert.","67센 암성, 급성 괴양성 대장염, 심각한 복부 아픔, 혈압, 다이어트, BP 90, 60mHg, HR 110b, RR 24, B37.8b, SPO 200%RA, Hydrocortisone 100, Milium IV, Q6, IV Fluid Resuscitation, Negative Fluid Balance Alert."
+scenario_073_clinical_charting,scenario_073,clinical_charting,0.459,0.3934,"62세 남자 환자, acute pulmonary edema로 입원함. 심한 mitral valve regurgitation 배경.
+
+BP 110/70 mmHg, HR 98 bpm, RR 28 breaths/min, BT 36.8°C, SpO2 88% on room air.
+
+Severe shortness of breath 호소함.
+
+Furosemide 40 mg IV q8h 투여함.
+
+Non-rebreather mask at 15 L/min 적용함.
+
+Foley 유지함.
+
+Positive fluid balance 200 mL over the last 24 hours 확인됨.
+
+환자 alert 상태.","62세 남자 환자, 아큐트 폴머네리아디마로 입원함. 심한 마이트롤 valve regurgitation 배경. BP 환자 세리 밀미허그롱 HR-GAI-G8 BPM, RR28 Breaths Min, BT 36.8dSbO2 80% on room air. severe shortness of breath 호소함. furosemide 40mg IV-Q8H 투여함. non-rebreather mask at 15mL min 적용함. Fully 유지함. Positive fluid balance 200mL over the last 24 hours 확인됨. 환자 알러트 상태."
+scenario_073_formal_template,scenario_073,formal_template,0.377,0.3607,"환자는 62세 남성으로, 심한 승모판역류에 따른 급성 폐부종으로 입원하였다. 혈압은 110/70 mmHg로 측정되었고, 심박수는 98 bpm, 호흡수는 28 breaths/min, 체온은 36.8°C로 확인되었다. 산소포화도는 실내 공기에서 88%로 확인되었다. 환자는 심한 호흡곤란을 호소하였다. 현재 Furosemide 40 mg이 IV로 8시간마다 투여되고 있다. 비재호흡 마스크로 15 L/min의 산소가 제공되고 있다. Foley가 삽입되어 있고, 지난 24시간 동안 200 mL의 양성 수분 균형이 관찰되었다. 환자는 의식이 명료하다.","환자는 62세 남성으로 심한 승모판 역류에 따른 급성 폐부종으로 입원하였다. 혈압은 117mmHg로 측정되었고, 심박수는 98bpm, 호흡수는 28bpm, 체온은 36.8°C로 확인되었다. 산소포화도는 실내 공기에서 88%로 확인되었다. 환자는 심한 호흡 곤란을 호소하였다. 현재 Furosemide 40mg이 IB로 10시간마다 투여되고 있다. 비제호흡 마스크로 15lb의 산소가 제공되고 있다. 폴리가 삽입되어 있고, 지난 24시간 동안 200ml의 양성수분 균형이 관찰되었다. 환자는 의식이 명료하다."
+scenario_073_telegraphic_icu,scenario_073,telegraphic_icu,0.551,0.3673,"62세 남성 환자.  
+Acute pulmonary edema, severe mitral valve regurgitation 입원.  
+BP 110/70 mmHg.  
+HR 98 bpm.  
+RR 28 breaths/min.  
+BT 36.8°C.  
+SpO2 88% on room air.  
+Shortness of breath severe.  
+Furosemide 40 mg IV q8h.  
+Non-rebreather mask 15 L/min.  
+Foley 유지.  
+Positive fluid balance 200 mL/24h.  
+환자 alert.","62세 남성 환자, acute pulmonary edema, severe mitral valve regurgitation E1, BP 110, 70mHg, HR 98 BPM, RR28 breaths min, BT36.8 grease, SpO2 88% on room air, shortness of breath severe, furosemide 40mg IVQ8H, non-rebreather mask 15mL min, Foley UZ, positive fluid balance 200mL 24A, 환자 알러트"
+scenario_074_clinical_charting,scenario_074,clinical_charting,0.65,0.35,"70세 남성 급성 hypoglycemic coma로 입원.   
+BP 110/70 mmHg.   
+HR 88 bpm.   
+RR 16 breaths/min.   
+BT 36.5°C.   
+SpO2 98% room air.   
+Severe unconsciousness 확인됨.   
+Dextrose 50% 50 mL IV STAT 투여함.   
+IV glucose administration 적용함.   
+Clinical status: unresponsive.   
+Endocrinologist notify함.","70세 남성 급성 하이포글라시믹 코머루이완, BP 120매킹, HRR Pipe Beaver, RR 신혹 Breathsman, BT 36.2, 98% Room Air, Severe Unconsciousness 확인됨, Dextrose 50% 50ml IV Stat 투여함, IV Glucose Administration 적용함, Clinical Status Unresponsive, Endocrinologist Notify함."
+scenario_074_formal_template,scenario_074,formal_template,0.2857,0.2653,"70세 남성 환자가 인슐린 과다복용으로 인한 급성 저혈당성 혼수 상태로 입원하였다. 입원 당시 혈압은 110/70 mmHg, 심박수는 88 bpm, 호흡수는 16 breaths/min, 체온은 36.5°C로 기록되었다. 산소포화도는 실내 공기에서 98%로 확인되었다. 환자는 심한 무의식 상태를 보였다. Dextrose 50% 50 mL를 정맥으로 즉시 투여하였다. 현재 환자는 반응이 없으며, 내분비학 전문의에게 보고하였다.","70세 남성 환자가 인슐린 과다 복용으로 인한 급성 저혈당성 혼수 상태로 입원하였다. 입원 당시 혈압은 110.70mg, 심박수는 88bpm, 호흡수는 16bpm, 체온은 36.5ℓ로 기록되었다. 산소포화도는 실내 공기에서 98%로 확인되었다. 환자는 심한 무의식 상태를 보였다. 덱스트로스 50% 50ml 정맥으로 즉시 투여하였다. 현재 환자는 반응이 없으며 내분비약 전문의에게 보고하였다."
+scenario_074_telegraphic_icu,scenario_074,telegraphic_icu,1.0,0.5143,"70M, acute hypoglycemic coma, insulin overdose.  
+BP 110/70 mmHg.  
+HR 88 bpm.  
+RR 16 breaths/min.  
+BT 36.5°C.  
+SpO2 98% room air.  
+Unconsciousness severe.  
+Dextrose 50%, 50 mL IV STAT.  
+IV glucose administration.  
+Unresponsive.  
+Endocrinologist notify.",7 am acute hypoglycemic coma insulin overdose bp1 and 10 70 millimeter her grange hr 88 bpm r 16 breaths min bt 36.5 degrees scelsi spo2 98 room air unconsciousness severe dextrose 50 50 miller iv stat iv glucose administration unresponsive endocrinologist notify
+scenario_075_clinical_charting,scenario_075,clinical_charting,0.4839,0.3871,"72세 남성 환자, acute decompensated heart failure로 입원. 원인: severe aortic stenosis.
+
+BP 90/60 mmHg, HR 110 bpm, RR 22 breaths/min, BT 36.8°C, SpO2 88% (4L O2 via NC 적용).
+
+chest pain severe 호소함.
+
+Furosemide 40 mg IV q8h 투여함.
+
+nasal cannula로 산소 공급 중.
+
+Foley 적용함.
+
+strict input-output monitoring 유지함.
+
+환자 alert 상태 확인됨.
+
+cardiology team consult함 (possible valve replacement 위해).","72세 남성 환자, acute decompensated heart failure로 입원. 원인, severe aortic stenosis. BP 90-60mmHg, HR 120bpm, RR22 breaths min, BT 36.8%, little O2 via N시경. Chest pain, severe 호소암. Furosemide 40mg IV QLH2여암. Nasal cannula로 산소 공급 중. Foley 적용암. Strict input-output monitoring 유지암. 환자 알러트 상태 확인됨. Cardiology team consult, possible valve replacement 위해."
+scenario_075_formal_template,scenario_075,formal_template,0.3571,0.3,"환자는 72세 남성으로, 심각한 대동맥판막 협착증으로 인한 급성 악화 심부전으로 입원하였다. 활력 징후로는 혈압 90/60 mmHg, 심박수 110 bpm, 호흡수 22 breaths/min, 체온 36.8°C, 산소포화도 4L O2를 비강 캐뉼라로 투여받는 상태에서 88%로 확인되었다. 환자는 심한 흉통을 호소하였다. 약물로는 Furosemide 40 mg을 IV로 8시간마다 투여 중이다. 산소는 비강 캐뉼라를 이용하여 지원하고 있으며, Foley 카테터가 삽입되어 있고, 엄격한 입출량 모니터링이 이뤄지고 있다. 환자는 의식이 명료하다. 심장내과 팀에게 판막 교체 가능성에 대해 상담하였다.","환자는 72세 남성으로 심각한 대동맥 판막 협착증으로 인한 급성 악화 심부전으로 입원하였다. 활력증으로는 혈압 90-60hp, 호흡수 22bpm, 체온 36.8l, 산소포화도 4L-O2 를 비강 케큐라로 투여받는 상태에서 88%로 확인되었다. 환자는 심한 흉통을 호소하였다. 약물로는 furosemide 40mg을 IV로 8시간마다 투여 중이다. 산소는 비강 케큐라를 이용하여 지원하고 있으며 폴리 카테터가 삽입되어 있고 엄격한 입출량 모니터링이 이뤄지고 있다. 환자는 의식이 명료하다. 심장내과팀에게 판막 교체 가능성에 대해 상담하였다."
+scenario_075_telegraphic_icu,scenario_075,telegraphic_icu,0.9778,0.7333,"72/M. Acute decompensated heart failure. Severe aortic stenosis.  
+BP 90/60 mmHg. HR 110 bpm. RR 22 breaths/min. BT 36.8°C.  
+SpO2 88% on 4L O2 via NC. Severe chest pain.  
+Furosemide 40 mg IV q8h. Foley.  
+Strict I/O monitoring. Alert.  
+Cardiology team consult for valve replacement.",72m acute decompensated heart failure WOAE aortic stenosis bp90 60MM HR giafs HR1 10 bpm RR22 BR BT 36.8 SBLT SbO2 88% on 4Lo2 via NC Severe chest pain Fior-SMIDE 40mg IV-Qah Foley StrictIO monitoring Alert Cardiology Team consult For valve replacement Lem spared Arsenal Lemmes spared onn Lemspread L~! Lemspread onll
+scenario_076_clinical_charting,scenario_076,clinical_charting,0.8302,0.434,"35세 여성 환자, hyperemesis gravidarum으로 인한 심한 탈수로 acute kidney injury (AKI) 입원함.
+
+BP 92/58 mmHg, HR 110 bpm, RR 18, BT 36.8°C, SpO2 96%.
+
+Severe nausea 호소함.
+
+Ondansetron 8 mg IV q8h 적용함.
+
+IV fluid resuscitation with normal saline 시행함.
+
+Foley 유지함.
+
+Negative fluid balance 확인됨.
+
+Drowsy 상태 관찰됨.
+
+Nephrology team notify함.",35세 여성 환자 Hypermesis Gravidarum으로 인한 심한 탈수로 아큐 키드니 인이에 입원함. BP 92.6백 배미 비트허그그린 HR 100 식 BPM RRC-BUTT BT 36.8 AIR PIG BAIT SBO2 96.6% SEVERE NAUSEA 호소함 ONDENSITRON 8mg IV QE8H 적용함 IV FLUID RESUSCITATION WITH NORMAL SALINE 시행함 FOLEY 유지함 NEGATIVE FLUID BALANCE 확인됨 DROWSY 상태 관찰됨 NEPHROLOGY TEAM NOTIFIAM
+scenario_076_formal_template,scenario_076,formal_template,0.4744,0.3718,"환자 정보: 35세 여성 환자가 hyperemesis gravidarum으로 인한 심한 탈수로 급성 신손상(AKI) 진단을 받고 입원하였다.
+
+활력징후: 혈압은 92/58 mmHg로 측정되었으며, 심박수는 110 bpm, 호흡수는 18 회/분, 체온은 36.8°C, 산소포화도는 96%로 확인되었다.
+
+증상: 환자는 심한 nausea를 호소하였다.
+
+약물: ondansetron 8 mg을 IV로, q8h로 투여 중이다.
+
+중재: 환자는 정상 식염수로 IV fluid resuscitation을 받고 있다.
+
+장치: Foley catheter가 삽입되어 있다.
+
+수분 균형: 음성 수분 균형이 확인되었다.
+
+임상 상태: 환자는 의식이 혼미한 상태이다.
+
+보고: 급성 신손상 관리 목적으로 신장내과 팀과 상의하였다.","환자 정보 35세 여성 환자가 하이퍼미세스 그라비드암으로 인한 심한 탈수로 급성 신손상 진단을 받고 입원하였다. 활력증후 혈압은 92부 58mmg로 측정되었으며 심박수는 110ppm, 호흡수는 18회분, 체온은 36.8극서, 산소포화도는 96%로 확인되었다. 증상 환자는 심한 나우제를 호소하였다. 약물 언단세트론 8mg을 IV로 QIH로 투여 중이다. 중재 환자는 정상 식염수로 IV 플루이드 리사세테이션을 받고 있다. 장치 폴리 캐세터가 삽입되어 있다. 수분균형, 음성수분균형이 확인되었다. 임상상태, 환자는 의식이 혼미한 상태이다. 보고, 급성 신손상 관리 목적으로 신장내과팀과 상의하였다."
+scenario_076_telegraphic_icu,scenario_076,telegraphic_icu,0.9512,0.8293,"35세 여자 환자. AKI. Hyperemesis gravidarum로 인한 severe dehydration secondary.  
+BP 92/58. HR 110. RR 18. BT 36.8°C. SpO2 96%.  
+Nausea severe.  
+Ondansetron 8 mg IV q8h.  
+IV fluid resuscitation with NS.  
+Foley catheter.  
+Negative fluid balance.  
+Drowsy.  
+Nephrology team consult함.","35세 여자 환자, aka 하이퍼렘에시스 그라비드아르마노인은 세벌 디하이드레이션 세컨데리, BP, 타이지 유프기 8, HR, 화A, 페이, BT, 36.8, DS, PO2, DC, 6%, 나자, 세벌, 온덴세트론 8mg, IV, Q8H, IV 플루이드 리서스테이션, NS, 폴리, 카퓨터, 네그티브 플루이드 밸런스, 드라우지, 니퍼로지 팀, 컨솔트."
+scenario_077_clinical_charting,scenario_077,clinical_charting,0.9355,0.8226,"64세 여성 환자, acute exacerbation of chronic kidney disease로 입원함.
+
+BP 88/56 mmHg, HR 112 bpm, RR 22 breaths/min, BT 36.8°C 확인됨.
+
+SpO2 94% on 2L O2 via nasal cannula 유지함.
+
+Moderate weakness 호소함.
+
+Labetalol 10 mg IV q8h 투여 중.
+
+Nasal cannula 적용함.
+
+Fluid resuscitation 시행함.
+
+Foley 유지함.
+
+Positive fluid balance 확인됨.
+
+Clinical status: drowsy.
+
+Renal team notify함 for dialysis evaluation.","육수 시세 여성 환자, 크로닉 키드니 질환으로 입원합니다. BPH 856mHg, HR-BPM, R, SUD, Breaths Min, BT 36.8 Lease 확인합니다. SbO2 규치 4%, 202 via Nasal Cannon, Moderate Weakness 호소합니다. 레베틀롤 10mg IV QH 추효중, Nasal Cannula 적용합니다. Fluid Resuscitation 시행함, Fully Eugene, Positive Fluid Balance 확인합니다. 의료 정보 드라우지 레베틀롤 10mg IV QH 추효중, Nasal Cannon, Moderate Weakness 호소합니다."
+scenario_077_formal_template,scenario_077,formal_template,0.375,0.3333,"64세 여성 환자가 탈수로 인한 만성 신장 질환 악화로 입원하였다. 활력징후는 혈압 88/56 mmHg, 심박수 112 bpm, 호흡수 22 breaths/min, 체온 36.8°C로 확인되었다. 산소포화도는 2L O2를 비강 캐뉼라로 공급받으면서 94%로 측정되었다. 환자는 중등도의 weakness를 호소하였다. Labetalol 10 mg을 IV로 q8h 투여 중이다. 비강 캐뉼라로 산소를 공급받고 있으며, 수액 보충 치료를 진행하였다. Foley 카테터가 삽입되어 있으며, 환자는 수분 균형이 양성으로 확인되었다. 임상 상태는 졸린 상태를 보이고 있다. 신장 팀에게 투석 평가를 위해 보고하였다.","64세 여성 환자가 탈수로 인한 만성 신장질환 악화로 입원하였다. 활력증후는 혈압 888mg, 심박수 22bpm, 호흡수 22breathmin, 체온 36.8°C로 확인되었다. 산소포화도는 이 O2를 비강케귤라로 공급받으면서 94%로 측정되었다. 환자는 중등도의 weakness를 호소하였다. Labetalol 10mg을 IV로 Q8H 투여 중이다. 비강케귤라로 산소를 공급받고 있으며 수액 보충 치료를 진행하였다. Foley 카테터가 삽입되어 있으며 환자는 수분균형이 양성으로 확인되었다. 임상상태는 졸린 상태를 보이고 있다. 신장팀에게 투석평가를 위해 보고하였다."
+scenario_077_telegraphic_icu,scenario_077,telegraphic_icu,0.6078,0.3529,"64세 여성, 급성 악화 만성 신부전, 탈수로 입원.
+
+BP 88/56 mmHg.  
+HR 112 bpm.  
+RR 22 breaths/min.  
+BT 36.8°C.  
+SpO2 94% on 2L O2 NC.  
+
+Moderate weakness present.  
+Labetalol 10 mg IV q8h.  
+
+Nasal cannula O2 support.  
+Fluid resuscitation 시행.  
+Foley catheter 삽입.  
+Positive fluid balance.  
+
+Drowsy 상태.  
+Renal team notify.","64세 여성, 급성 악화 만성 심장 탈수료 입원, BP 88, 56mmHRM, HR 100 BPM, RR22 Breaths Min, BT 36.8 Lysixius, SbO2 94% on 2L O2 NC, Moderate Weakness Present, Labetalol 10mg IV Q8H, Nasal Cannula O2 Support, Fluid Resuscitation Xing, Fully Catheters Habib, Positive Fluid Balance, Drowsy Sangtae, Renal Team Notify"
+scenario_078_clinical_charting,scenario_078,clinical_charting,1.0189,0.5614,"66세 여성 환자, necrotizing fasciitis로 인한 severe sepsis로 입원함.
+
+BP 88/54 mmHg
+HR 120 bpm
+RR 28 breaths/min
+BT 39.0°C
+SpO2 90% on 15L O2 via non-rebreather mask
+
+Severe pain 호소함.
+
+Vancomycin 1g IV q12h 투여 중.
+
+High-flow oxygen therapy 적용함.
+
+Surgical debridement scheduled.
+
+Foley 유지 중.
+
+Positive balance 확인됨.
+
+Drowsy 상태.
+
+Infectious Disease와 Surgical teams notify함.","66세 여성 환자, 네크로타이징 파시아이드 소위난 세벌 섹시스소 이원함. BP, 타이치베트 위사스 미퍼럼, HR 웻 RZ BPM, RR20 베이트브레스민 BT30 교변 그리스스, SBO2 다이쉬퍼센틴 온 시피릴 O2 VIA NON-REBREATHER MASK, SEVERE PAIN 호소함, VANCOMYCIN 1-GRAM IV 큐틀레치 투여중, HIGH-FLOW OXYGEN THERAPY 적용함, SURGICAL DEBRIDEMENT SCHEDULED, FULLY 유지중, POSITIVE BALANCE 확인됨, DROWSY SUNGTAE, INFECTIOUS DISEASE WHILE SURGICAL TEAMS NOTIFY HEM."
+scenario_078_formal_template,scenario_078,formal_template,0.3824,0.3676,"66세 여성 환자가 괴사성 근막염 감염에 의한 중증 패혈증으로 입원하였다. 활력징후로는 혈압이 88/54 mmHg, 심박수가 120 bpm, 호흡수가 28 breaths/min, 체온이 39.0°C였으며, 산소포화도는 15L O2를 비재호흡 마스크로 공급받는 가운데 90%로 확인되었다. 환자는 심한 통증을 호소하였다. 현재 고유량 산소 치료를 받고 있으며, Foley 카테터가 삽입되어 있다. 수액 균형은 양성이다. 환자의 임상 상태는 기면 상태이다. 항생제로는 vancomycin 1g이 IV로 q12h 투여되고 있다. 외과적 제거술이 예정되어 있다. 감염내과와 외과 팀에 보고하였다.","66세 여성 환자가 괴사성 금마겸 감염에 의한 중증 폐혈증으로 입원하였다. 활력증 후로는 혈압이 88.54mmg, 심박수가 120bpm, 호흡수가 28breaths 및 체온이 39.09도였으며 산소포화도는 15L O2를 비제호흡 마스크로 공급받는 가운데 90%로 확인되었다. 환자는 심한 통증을 호소하였다. 현재 고유량 산소치료를 받고 있으며 폴리카테터가 삽입되어 있다. 수액균형은 양성이다. 환자의 임상상태는 기면 상태이다. 항생제로는 vancomycin-N-gram이 IV로 QCBH 투여되고 있다. 외과적 제거술이 예정되어 있다. 감염내과와 외과팀에 보고하였다."
+scenario_078_telegraphic_icu,scenario_078,telegraphic_icu,0.537,0.3704,"66세 여성, 심한 패혈증 및 괴사성 근막염.
+
+BP 88/54 mmHg.  
+HR 120 bpm.  
+RR 28 breaths/min.  
+BT 39.0°C.  
+SpO2 90% on 15L O2 via non-rebreather mask.
+
+Pain severe.  
+
+Vancomycin 1g IV q12h.  
+
+High-flow O2 therapy 시행 중.  
+
+Surgical debridement scheduled.  
+
+Foley catheter in place.
+
+I/O positive balance.  
+
+환자 졸림 상태.  
+
+ID 및 외과팀 notify함.","66세 여성, 심한 폐혈증 및 괴사성 근막염, BP 88,5mmHg, HR 120bpm, R28 Breath to Min, BT 39.G, SbO2 90% on 15l O2 via non-rebreather mask, Pain severe, vancomycin 1g IV Q12H, High flow O2 therapy 시행중, Surgical debridement scheduled, Foley catheter in place, IO positive balance, 환자졸림상태, 아이디 및 외과팀 notifiam."
+scenario_079_clinical_charting,scenario_079,clinical_charting,0.5909,0.4318,"56세 남성, acute exacerbation of ulcerative colitis로 입원.  
+Severe abdominal pain 및 bloody diarrhea 호소함.  
+BP 105/65 mmHg, HR 110 bpm, RR 22 breaths/min, BT 37.8°C, SpO2 97%.  
+Methylprednisolone 40 mg IV q6h 적용함.  
+Foley 유지함.  
+I/O strict monitoring 유지함.  
+환자 의식 alert 확인됨.","56세 남성, Acute Exacerbation of Ulcerative Colitis로 입원. Severe abdominal pain meet bloody diarrhea 호소함. BP 예고 65mmHg. HR 110 BPM. RR ACV Breaths mean BTCD SPO in Prison. Methylprednisolone 40mg IV Q-Sech 적용 Fully 유지함. IO Strict Monitoring 유지함. 환자의식 알러트 확인됨."
+scenario_079_formal_template,scenario_079,formal_template,0.3281,0.2344,"환자 정보에 따르면, 56세 남성 환자가 급성 궤양성 대장염 악화로 입원하였으며, 심한 복통과 혈변을 호소하였다. 
+
+환자의 활력징후는 다음과 같다: 혈압은 105/65 mmHg, 심박수는 110 bpm, 호흡수는 22 breaths/min, 체온은 37.8°C이며, 산소포화도는 97%로 확인되었다. 
+
+환자는 심한 복통을 호소하였다.
+
+약물로는 Methylprednisolone 40 mg을 IV로 6시간마다 투여하였다.
+
+현재 산소 지원은 필요하지 않으며, 환자는 Foley 카테터를 삽입하고 있다. 
+
+환자는 수분섭취와 배출을 엄격히 모니터링하고 있으며, 의식이 명료한 상태로 확인되었다.","환자 정보에 따르면 56세 남성 환자가 급성 괴양성 대장염 악화로 입원하였으며 심한 복통과 혈변을 호소하였다. 환자의 활력징후는 다음과 같다. 혈압은 156mHg, 심박수는 110bpm, 호흡수는 22breathsmin, 체온은 37.89c, 산소포화도는 97%로 확인되었다. 환자는 심한 복통을 호소하였다. 약물로는 methylprednisolone 40mg을 IV로 역시간마다 투여하였다. 현재 산소 지원은 필요하지 않으며 환자는 폴리카테터를 삽입하고 있다. 환자는 수분 섭취와 배출을 엄격히 모니터링하고 있으며 의식이 명료한 상태로 확인되었다."
+scenario_079_telegraphic_icu,scenario_079,telegraphic_icu,0.8182,0.4848,"56세 남성.  
+급성 궤양성 대장염 악화로 입원.  
+Severe abdominal pain.  
+Bloody diarrhea.  
+BP 105/65 mmHg.  
+HR 110 bpm.  
+RR 22.  
+BT 37.8°C.  
+SpO2 97%.  
+Methylprednisolone 40 mg IV q6h.  
+Foley.  
+I/O strict.  
+Alert.","66세 남성, 급성 계양성 대장염, 악화로 입원. Severe abdominal pain, bloody diarrhea, BP, 65mHg, HR1, DIN, BPM, RR22, BT, 37.82, SpO2, 90%, Methylprednisolone, 40mL, IVQ6H, Foley, IOstrict, Alert."
+scenario_080_clinical_charting,scenario_080,clinical_charting,0.5357,0.3571,"50세 남성 환자. Alcoholic cirrhosis로 인한 acute exacerbation of chronic liver failure로 입원.  
+Vital signs: BP 95/60 mmHg, HR 115 bpm, RR 22 breaths/min, BT 37.5°C, SpO2 88% (room air).  
+Severe jaundice 확인됨.  
+Furosemide 40 mg IV BID 적용함.  
+Oxygen 2L nasal cannula 유지함.  
+Foley 유지함.  
+Negative fluid balance 기록됨.  
+Drowsy 상태 확인됨.  
+Hepatology consult 요청함.","50세 남성 환자, 알코올릭 세로시스로 인한 acute exacerbation of chronic liver failure to E1. Vital signs, BP 25, 60mg, HR, Regular BPM, RR, ECD, Breathsmen, BT, Sanitizer, Fluxes, SpO2, PT, PrEP, Room air. Severe jaundice 확인됨. Furosemide, 40mg, IV, BID 적용함. Oxygen to ital nasal cannula 유지함, Foley 유지함. Negative fluid balance 기록됨. Drowsy 상태 확인됨. Hepatology consult 요청함."
+scenario_080_formal_template,scenario_080,formal_template,0.3382,0.3088,"50세 남성 환자가 알코올성 간경변증으로 인한 만성 간부전의 급성 악화로 입원하였다. 활력징후는 혈압이 95/60 mmHg, 심박수가 115 bpm, 호흡수가 22 breaths/min, 체온이 37.5°C, 산소포화도가 실내 공기에서 88%로 확인되었다. 환자는 심한 황달을 보이고 있다. 현재 Furosemide 40 mg을 IV로 BID 투여 중이다. 산소 지원은 2L nasal cannula를 사용 중이며 Foley catheter가 삽입되어 있다. 체액 균형은 음성으로 나타났다. 환자는 졸린 상태로 보인다. 간 기능 악화로 인해 간 전문의 상담이 요청되었다.","50세 남성 환자가 알코올성 간경변증으로 인한 만성 간부전의 급성악화로 입원하였다. 활력증후는 혈압이 95-60mmg, 심박수가 105bpm, 호흡수가 22breaths 및 체온이 37.5degrees, 산소포화도가 실내 공기에서 88%로 확인되었다. 환자는 심한 황달을 보이고 있다. 현재 Furosemide 40mg을 IV로 BID 투여 중이다. 산소지원은 2L Nasal Cannulator 사용 중이며 Foley Catheter가 삽입되어 있다. 체액균형은 음성으로 나타났다. 환자는 졸린 상태로 보인다. 간기능 악화로 인해 간전문의 상담이 요청되었다."
+scenario_080_telegraphic_icu,scenario_080,telegraphic_icu,0.5682,0.2727,"50세 남성, 알코올성 간경화로 인한 만성 간부전 급성 악화 입원.  
+BP 95/60 mmHg.  
+HR 115 bpm.  
+RR 22 breaths/min.  
+BT 37.5°C.  
+SpO2 88% on room air.  
+Severe jaundice.  
+Furosemide 40 mg IV BID.  
+2L nasal cannula.  
+Foley.  
+Negative fluid balance.  
+Drowsy.  
+Hepatology consult requested.","50세 남성, 알코올성 강경화로 인한 만성 간부전압성 악화 입원 BP 95, FHR 152 BPM, RR 22 Breaths Min, BT 37.5 SpO2 88% on room air, severe jaundice, furosemide 40mg IV BID 2L nasal cannula, Foley, negative fluid balance, drowsy, Hepatology consult requested"
+scenario_081_clinical_charting,scenario_081,clinical_charting,0.3846,0.3654,"60세 남성 환자, acute congestive heart failure로 입원함.  
+BP 200/110 mmHg, HR 110 bpm, RR 24 breaths/min, BT 37.4°C, SpO2 88% room air에서 측정됨.  
+Severe dyspnea 호소함.  
+Furosemide 40 mg IV STAT 투여함.  
+2L nasal cannula 적용함.  
+Foley 유지함.  
+Negative fluid balance 500 mL 확인됨.  
+환자 drowsy 상태 확인됨.  
+Cardiology team notify함.","60세 남성 환자, acute congestive heart failure로 입원함. BP-EBK-King, HR-110bpm, RRS breast-min, BT-37.3, TSBO-TPEP room air에서 측정됨. Severe dyspnea 호소함. Furosemide 40mg IV stat 투여함. Tuidonasal cannula 적용함. Foley 유지함. Negative fluid balance 500ml 확인됨. 환자 drowsy 상태 확인됨. Cardiology team notify함."
+scenario_081_formal_template,scenario_081,formal_template,0.2879,0.2273,"60세 남성 환자가 고혈압 위기로 인한 급성 울혈성 심부전으로 입원하였다. 활력징후로는 혈압이 200/110 mmHg, 심박수가 110 bpm, 호흡수가 24 breaths/min, 체온이 37.4°C, 산소포화도가 실내 공기에서 88%로 확인되었다. 환자는 심한 dyspnea를 호소하였다. Furosemide 40 mg을 IV로 STAT 투여하였다. 산소 공급은 2L nasal cannula로 시행 중이다. Foley 카테터가 삽입되어 있으며, 체액 균형은 -500 mL이다. 임상 상태는 drowsy 상태로 확인되었다. 고혈압 위기 및 심부전 악화에 대해 심장내과 팀에게 보고하였다.","60세 남성 환자가 고혈압 위기로 인한 급성 우혈성 심부전으로 입원하였다. 활력증후로는 혈압이 210mg, 심박수가 110bpm, 호흡수가 24breaths min, 체온이 37.4°C, 산소포화도가 실내 공기에서 88%로 확인되었다. 환자는 심한 디스플니를 호소하였다. Furosemide 40mg을 IV로 스타트 투여하였다. 산소 공급은 Tuetal Nasal Cannula로 시행 중이다. Foley 카테터가 삽입되어 있으며 체액 균형은 –500mL이다. 임상 상태는 Drowsy 상태로 확인되었다. 고혈압 위기 및 심부전 악화에 대해 심장내과 팀에게 보고하였다."
+scenario_081_telegraphic_icu,scenario_081,telegraphic_icu,0.875,0.7,"60/M admitted CHF, HTN crisis.  
+BP 200/110 mmHg.  
+HR 110 bpm.  
+RR 24.  
+BT 37.4°C.  
+SpO2 88% RA.  
+Severe dyspnea.  
+Furosemide 40 mg IV STAT.  
+O2 2L NC.  
+Foley in place.  
+Negative fluid balance 500 mL.  
+Drowsy.  
+Cardiology team notified.","60m CHF-HTN-Crisis, BP-200, 1-10mHg, HR-1-10bpm, RR-24, BT-37.4dx, SpO2-88%Ra, Severe Dyspnea, Furosemide 40mg IV-STAT, O2-2Nc, Fully in Place, Negative Fluid Balance 500mL, Drowsy, Cardiology Team Notified."
+scenario_082_clinical_charting,scenario_082,clinical_charting,0.7949,0.3953,"58세 여성 환자, severe acute pancreatitis로 입원함.
+
+BP 145/90 mmHg
+HR 110 bpm
+RR 22 breaths/min
+BT 38.2°C
+SpO2 98% on room air
+
+Abdominal pain severe 호소함.
+
+Morphine 5 mg IV q4h 투여함.
+
+Pain management 적용함.
+
+Strict input/output monitoring 유지함.
+
+Clinical status: alert.","58세 여성 환자, Severe Acute Pancreatitis로 이원함. BP, 맥사, 워블메이쳐, 면비르그르, HRM, RR, RGV, 브레이프스민, BT, 센티바이, 던유, 그레이스, 에스프레소, 퍼스넌, 룸웨어, Abdominal Pain, Severe 호소함. Morphine, 5mg IV, Q4H, 투여함. Pain Management, 적용함. Strict Input-Output Monitoring, 유지함. Clinical Status, Alert."
+scenario_082_formal_template,scenario_082,formal_template,0.375,0.3333,"58세 여성 환자가 담석으로 인한 중증 급성 췌장염으로 입원하였다. 활력징후는 혈압 145/90 mmHg, 심박수 110 bpm, 호흡수 22 breaths/min, 체온 38.2°C, 산소포화도 98% (실내 공기)로 확인되었다. 환자는 심한 복통을 호소하였다. 통증 관리를 위해 morphine 5 mg IV q4h로 투여하였다. 환자는 의식이 명료하였다. 엄격한 수액 출입량 모니터링을 시행 중이다.","58세 여성 환자가 담석으로 인한 중증 급성 최장염으로 입원하였다. 활력 증후는 혈압 145, 90mg, 심박수 110ppm, 호흡수 22, breath's min, 체온 38.2dB, 산소포화도 98% 실내 공기로 확인되었다. 환자는 심한 복통을 호소하였다. 통증 관리를 위해 Morphine 5mg I-Puthoate로 투여하였다. 환자는 의식이 명료하였다. 엄격한 수액 출입량 모니터링을 시행 중이다."
+scenario_082_telegraphic_icu,scenario_082,telegraphic_icu,0.9062,0.5625,"58세 여성, 급성 췌장염.
+
+BP 145/90 mmHg.  
+HR 110 bpm.  
+RR 22.  
+BT 38.2°C.  
+SpO2 98% room air.
+
+Abdominal pain severe.
+
+Morphine 5 mg IV q4h.
+
+Pain management.  
+
+Strict I/O monitoring.
+
+Alert.",58세여성클립스페디에14590빌레허지임hr110bpmrr22t38.2디드리스 spo2 98% room air abdominal pain severe morphine 5mg iv q48 pain management strict io monitoring alert
+scenario_083_clinical_charting,scenario_083,clinical_charting,0.6905,0.4048,"61세 여성 환자, acute pulmonary edema, acute mitral valve regurgitation으로 입원함.
+
+BP 160/90 mmHg.  
+HR 110 bpm.  
+RR 28.  
+BT 37.2°C.  
+SpO2 88%.  
+
+Severe dyspnea 호소함.  
+
+Furosemide 40 mg IV q6h 투여 중.  
+
+Non-rebreather mask 적용함.  
+
+C-line 유지함.  
+
+환자 drowsy 상태 확인됨.","61세 여성 환자 Acute Pulmonary Edema, Acute Mitral Valve Regurgitation으로 입원함. BP 160-90mm, HR-PIC BPM, RR-ESPUT, BT-347.2 도스, SbO2 88푼. Severe dyspnea 호소함. Furosemide 40mg IV-Q6H 투여중, Non-Rebreather Mask 적용함. C-Line 유지함. 환자 드라우지 상태 확인됨."
+scenario_083_formal_template,scenario_083,formal_template,0.3148,0.2963,"61세 여성 환자가 급성 승모판막 역류로 인한 급성 폐부종으로 입원하였다. 활력 징후로는 혈압 160/90 mmHg, 심박수 110 bpm, 호흡수 28 회/분, 체온 37.2°C, 산소포화도 88%로 확인되었다. 환자는 심한 호흡곤란을 호소하였다. 현재 Furosemide 40 mg을 IV로 6시간 마다 투여 중이다. 비재호흡 마스크를 통한 산소 공급을 받고 있으며, C-line이 삽입되어 있다. 임상 상태는 기면 상태로 평가되었다.","61세 여성 환자가 급성 승모판막 역류로 인한 급성 폐부종으로 입원하였다. 활력증후로는 혈압 160mg, 심박수 110bpm, 호흡수 28회분, 체온 37.2°C, 산소포화도 88%로 확인되었다. 환자는 심한 호흡곤란을 호소하였다. 현재 Furosemide 40mg을 IV로 6시간마다 투여 중이다. 비제호 마스크를 통한 산소 공급을 받고 있으며 C-라인이 삽입되어 있다. 임상상태는 기면 상태로 평가되었다."
+scenario_083_telegraphic_icu,scenario_083,telegraphic_icu,0.931,0.5455,"61세 여자. Acute pulmonary edema secondary to acute mitral valve regurgitation 입원.
+
+BP 160/90.
+HR 110.
+RR 28.
+BT 37.2°C.
+SpO2 88%.
+
+Dyspnea severe.
+
+Furosemide 40 mg IV q6h.
+
+Non-rebreather mask.
+
+C-line.
+
+Drowsy.",61. 세이�fia capacity press pause acute pulmonary edema secondary to acute mitral valve regurgitation E1 BP 1690 HR 110 RRR 28 bt 37.23 sbo 288% dyspnea severe fuerosemide 40mg IV q6h non rebreather mask C line DROWSY
+scenario_084_clinical_charting,scenario_084,clinical_charting,0.6154,0.359,"49세 남자 환자, severe asthma attack으로 입원.  
+BP 130/85 mmHg, HR 110 bpm, RR 28, BT 37.0°C, SpO2 88%.  
+Severe wheezing 확인됨.  
+Albuterol 2.5mg IV PRN 적용함.  
+High-flow nasal cannula 산소 공급 유지함.  
+환자 drowsy 상태.  
+Respiratory therapy notify함.","49세 남성 환자, Severe Asthma Attack으로 입원. BP Gexcept 85mg, HR-Pekin BPM, RR-SMPUT, BT-37.0 Grace S.B.P. Severe Wheezing 확인됨. Albuterol 6.5mg IV PRN 적용함. High Flow Nasal Cannula 산소 공급 유지함. 환자 Drowsy 상태. Respiratory Therapy Notify함."
+scenario_084_formal_template,scenario_084,formal_template,0.3654,0.3654,"49세 남성 환자는 심각한 천식 발작으로 입원하였다. 활력징후로는 혈압 130/85 mmHg, 심박수 110 bpm, 호흡수 28 bpm, 체온 37.0°C, 산소포화도 88%로 확인되었다. 환자는 심한 wheezing 증상을 보였으며, albuterol 2.5mg을 IV로 PRN 투여하였다. 산소 치료는 high-flow nasal cannula를 사용하고 있다. 환자는 졸린 상태로 확인되었으며, 호흡 치료 팀에게 환자의 상태와 진행 중인 치료를 보고하였다.","49세 남성 환자는 심각한 천식 발작으로 입원하였다. 활력증 후로는 혈압 130, 85mg, 심박수 110bpm, 호흡수 28bpm, 체온 37.0g, 산소포화도 88%로 확인되었다. 환자는 심한 위징 증상을 보였으며, 에브리로 2.5mg을 IV로 PRN 투여하였다. 산소치료는 하이플로우 네이설 캔눌라를 사용하고 있다. 환자는 졸린 상태로 확인되었으며, 호흡치료팀에게 환자의 상태와 진행 중인 치료를 보고하였다."
+scenario_084_telegraphic_icu,scenario_084,telegraphic_icu,0.7188,0.5,"49세 남성, 심한 천식 발작 입원.  
+BP 130/85.  
+HR 110.  
+RR 28.  
+BT 37.0.  
+SpO2 88%.  
+Severe wheezing.  
+Albuterol 2.5mg IV PRN.  
+High-flow nasal cannula 사용 중.  
+Drowsy 상태.  
+Respiratory therapy notify.","40균센 암성, 심한 천식발작이완, BP 0135, HR1-TEM, RR1T8, BT37NO, SpO2 88%, Severe Wheezing Albuterol 2.5mg IV PRN, High Flow Nasal Cannula 사용중, Drowsy 상태, Respiratory Therapy Notify"
+scenario_085_clinical_charting,scenario_085,clinical_charting,0.5098,0.451,"73세 남성 환자, aspiration pneumonia로 인한 acute respiratory failure로 입원함.
+
+BP 110/70 mmHg, HR 95 bpm, RR 28 bpm, BT 37.8°C, SpO2 88% (room air) 확인됨.
+
+Cough moderate 호소함.
+
+Piperacillin-tazobactam 4.5g IV q8h 적용함.
+
+High-flow nasal cannula 적용 중.
+
+Ventilator 사용 중.
+
+Positive fluid balance 확인됨.
+
+Drowsy 상태 확인됨.
+
+Pulmonologist notify함.","73세 남성 환자, Aspiration pneumonia로 인한 acute respiratory failure로 입원함. BP 핵에 70mm 흐름, HR 95RR18 BPM, BT, 산티체돔, 애드릭삭스, SbO2 upper present 확인됨. Cough moderate 호소함. Piperacillin tezobactam foltum gravi QH 적용함. High flow nasal cannula 적용중. Ventilator 사용중. Positive fluid balance 확인됨. Drowsy 상태 확인됨. Pulmonologist notify함."
+scenario_085_formal_template,scenario_085,formal_template,0.3286,0.2571,"환자 정보: 73세 남성 환자가 흡인성 폐렴으로 인한 급성 호흡 부전으로 입원하였다.
+
+활력 징후: 혈압은 110/70 mmHg, 심박수는 95 bpm, 호흡수는 28 회/분, 체온은 37.8 도로 확인되었다. 산소포화도는 실내 공기에서 88%로 확인되었다.
+
+환자는 중등도의 기침을 호소하였다.
+
+Piperacillin-tazobactam 4.5g이 IV로 q8h 투여되었다.
+
+산소 공급은 High-flow nasal cannula를 통해 이루어지고 있으며, 환자는 ventilator를 사용 중이다.
+
+체액 균형은 양성으로 확인되었다.
+
+환자는 현재 졸림 상태를 보이고 있다.
+
+환자의 호흡 상태에 대해 폐 전문의에게 보고하였다.","환자 정보. 73세 남성 환자가 흡인성 폐렴으로 인한 급성 호흡 부전으로 입원하였다. 활력 증후. 혈압은 110mg, 심박수는 95bpm, 호흡수는 28F, 체온은 37.8도로 확인되었다. 산소 포화도는 실내 공기에서 88%로 확인되었다. 환자는 중등도의 기침을 호소하였다. Piperacillin tezobactam 4.5g이 IB로 Q8H 투여되었다. 산소 공급은 High Flow Nasal Cannula를 통해 이루어지고 있으며, 환자는 Ventilator를 사용 중이다. 체액 균형은 양성으로 확인되었다. 환자는 현재 졸림 상태를 보이고 있다. 환자의 호흡 상태에 대해 폐전문의에게 보고하였다."
+scenario_085_telegraphic_icu,scenario_085,telegraphic_icu,0.6829,0.3902,"73세 남성 환자. 급성 호흡 부전 및 흡인성 폐렴으로 입원.
+
+BP 110/70.  
+HR 95.  
+RR 28.  
+BT 37.8.  
+SpO2 88% RA.
+
+기침 moderate.
+
+Piperacillin-tazobactam 4.5g IV q8h.
+
+HFNC 적용 중.  
+Ventilator 사용 중.
+
+Fluid balance positive.
+
+의식 상태 drowsy.
+
+Pulmonologist notify.","73세 남성 환자, 급성 호흡 부정 및 흡인성 폐렴으로 입원. bp.excellent, hr.xr18, bt.xr37.8, sp.o2 85% ra, 기침 moderate, piperacillin tezobactam 4.5g IV-Q8H, hfnc 적용 중, ventilator 사용 중, fluid balance positive, 의식상태 drowsy, pulmonologist notify."
+scenario_086_clinical_charting,scenario_086,clinical_charting,0.6296,0.4444,"55세 여성 환자 AML로 입원, febrile neutropenia 경험 중.
+
+BP 90/60 mmHg 확인됨.
+
+HR 110 bpm 확인됨.
+
+RR 24 breaths/min 확인됨.
+
+BT 39.2°C, severe fever 확인됨.
+
+SpO2 96% on room air 확인됨.
+
+Piperacillin/Tazobactam 4.5 g IV q6h 투여 시작함.
+
+Antibiotic therapy initiated.
+
+환자 상태 drowsy 확인됨.
+
+담당의 notify함: febrile neutropenia 및 치료 계획 보고됨.",55세 여성 환자 AMLO-E1 fibrile neutropenia 경험 중 BP 960mmHg 확인됨 HR 110bpm 확인됨 RR waspister-min 확인됨 BT 39.1g cells severe fever 확인됨 SbO2 96% on room air 확인됨 piperacillin-tuzelbactam 4.5g IVQ6H 투여 시작함 Antibiotic therapy initiated 환자상태 drowsy 확인됨 담당의 notify함 fibrile neutropenia 미치료계획 복원
+scenario_086_formal_template,scenario_086,formal_template,0.2295,0.2131,"55세 여성 환자가 급성 골수성 백혈병(AML)로 입원하였으며, 발열성 호중구 감소증을 경험하고 있다. 활력 징후로는 혈압이 90/60 mmHg, 심박수가 110 bpm, 호흡수가 24 breaths/min, 체온이 39.2°C로 확인되었다. 산소포화도는 실내 공기에서 96%로 정상 범위이다. 환자는 심한 발열을 호소하였다. Piperacillin/Tazobactam 4.5 g을 IV로 6시간마다 투여하는 항생제 치료가 시작되었다. 환자의 임상 상태는 졸림으로 관찰되었다. 발열성 호중구 감소증과 시작된 치료 계획에 대해 담당 종양내과 의사에게 보고하였다.","55세 여성 환자가 급성 골수성 백혈병으로 입원하였으며 발열성 호중구 감소증을 경험하고 있다. 활력증 후로는 혈압이 90-60mmF, 심박수가 110bpm, 호흡수가 24breathsmin, 체온이 39.27도로 확인되었다. 산소포화도는 실내 공기에서 96%로 정상 범위이다. 환자는 심한 발열을 호소하였다. 파이페라실린 타조백탐 4.5g을 IV로 6시간마다 투여하는 항생제 치료가 시작되었다. 환자의 임상 상태는 졸림으로 관찰되었다. 발열성 호중구 감소증과 시작된 치료 계획에 대해 담당 종양내과 의사에게 보고하였다."
+scenario_086_telegraphic_icu,scenario_086,telegraphic_icu,1.0,0.697,"55세 여성, AML, febrile neutropenia.
+
+BP 90/60 mmHg.
+
+HR 110 bpm.
+
+RR 24 breaths/min.
+
+BT 39.2°C.
+
+SpO2 96% room air.
+
+Severe fever.
+
+Piperacillin/Tazobactam 4.5 g IV q6h.
+
+Antibiotic therapy 시작.
+
+Drowsy.
+
+Oncologist notify.",55세 여성 aml fibrin neutropenia bp90 60mg 10 bpm r 24 breaths min b 39.2 sp o 2 96 percent romare severe fever piperlazontas bactum 4.5 gram iv q6 h antibiotic therapy shjak drowsy oncologist notify
+scenario_087_clinical_charting,scenario_087,clinical_charting,0.8033,0.7705,"45세 남성 환자, 심한 tetanus로 입원. Puncture wound foot.
+
+BP 140/90 mmHg, HR 110 bpm, RR 32 breaths/min, BT 38.5°C, SpO2 92% room air.
+
+Severe muscle spasms 확인됨.
+
+Diazepam 10 mg IV q8h 적용함.
+
+Nasal cannula 2 L/min 유지함.
+
+Wound debridement 시행함.
+
+NG tube 삽입됨.
+
+I/O strict monitoring 유지함.
+
+환자 상태 drowsy 확인됨.
+
+Neurology consult muscle spasms management 위해 담당의 notify함.","45세 남성 환자 심한 테트너스로 입원. 펑쳐, 부위, 발. BP 환자룐 2J. HR 헤드쉽 BPM. RR-SRTD 브레스 민. BT-30백병 알드레그스. SBO2 나이지디퍼세센트 룸 에어. 세베어 모습 스파즘 확인 댐. 다이소팸 10mg IV QRH 적용함. 네이처 캐니라 2L 민은 유지함. 부위 부상 시행함. NG 튜브 삽입 댐. IO 스트릭 모니터링 유지함. 환자상태 드라우지 확인 댐. 뇌무증 검사. 뇌무증 관리 위해 탐당해 노티파임."
+scenario_087_formal_template,scenario_087,formal_template,0.3151,0.3014,"45세 남성 환자가 발의 자상 후 심한 tetanus로 입원하였다. 활력징후로는 혈압이 140/90 mmHg, 심박수가 110 bpm, 호흡수가 32 breaths/min, 체온이 38.5°C이며, 산소포화도는 실내 공기에서 92%로 확인되었다. 환자는 심한 muscle spasms를 호소하고 있으며, 의식 상태는 drowsy로 관찰되었다. 환자는 diazepam 10 mg을 IV로 8시간 간격으로 투여받고 있으며, 산소 보조로는 nasal cannula를 통해 2 L/min으로 공급받고 있다. 상처 부위에 대한 wound debridement가 시행되었고, NG tube가 삽입되었다. I/O는 strict monitoring 중이다. muscle spasms 관리에 대해 neurology에 상담하였다.","45세 남성 환자가 발이 자상 후 심한 테타누스로 입원하였다. 활력증으로는 혈압이 140-90mmHg, 심박수가 110bpm, 호흡수가 32breaths min, 체온이 38.56deg, 산소포화도는 실내 공기에서 92%로 확인되었다. 환자는 심한 muscle spasms를 호소하고 있으며, 의식상태는 drowsy로 관찰되었다. 환자는 diazepam 10mg을 IV로 8시간 간격으로 투여받고 있으며, 산소보조로는 nasal cannulata를 통해 e-libramine으로 공급받고 있다. 상처 부위에 대한 wound debridement가 시행되었고, ng-tube가 삽입되었다. IO는 strict monitoring 중이다. muscle spasms 관리에 대해 Neurology에 상담하였다."
+scenario_087_telegraphic_icu,scenario_087,telegraphic_icu,0.8,0.5333,"45세 남성, severe tetanus로 입원.  
+BP 140/90 mmHg.  
+HR 110 bpm.  
+RR 32 breaths/min.  
+BT 38.5°C.  
+SpO2 92% room air.  
+Severe muscle spasms.  
+Diazepam 10 mg IV q8h.  
+Nasal cannula 2 L/min.  
+Wound debridement 시행.  
+NG tube 삽입.  
+IO strict monitoring.  
+Drowsy 상태.  
+Neurology consult함.","45세 남성, severe tetanus to E1, BP excising, 90mHg, HRA clumpium, R3GD breaths min, BT 3rd site, SPO2, GDPRS room air, severe muscle spasms, diazepam 10mg acute H, nasal cannula 2, wound debridement, NG tubes habib, IO strict monitoring, drowsy sangtae, neurology consultum."
+scenario_088_clinical_charting,scenario_088,clinical_charting,0.4222,0.3778,"47세 여성 환자, acute liver failure로 입원. Acetaminophen overdose 병력.
+
+BP 112/70 mmHg, HR 105 bpm, RR 22 breaths/min, BT 37.8°C, SpO2 95% room air.
+
+Severe jaundice 확인됨. 환자 drowsy.
+
+N-acetylcysteine 300 mg/kg IV STAT 적용함.
+
+Positive fluid balance 500 mL 기록됨.
+
+Hepatology team notify함.","47세 여성 환자, acute liver failure로 입원. Acetaminophen overdose 병력. BP 170mg, HR 1.5 per gram, RRT 2 breaths min, Bt, SbO2 25% room air. severe jaundice 확인됨. 환자 drowsy. N-acetylcysteine 100mg per kg IV stat 적용함. Positive fluid balance 500mg 기록됨. Hepatology team notify함."
+scenario_088_formal_template,scenario_088,formal_template,0.2909,0.2727,"47세 여성 환자가 아세트아미노펜 과다 복용으로 인한 급성 간부전으로 입원하였다. 활력징후로는 혈압 112/70 mmHg, 심박수 105 bpm, 호흡수 22 breaths/min, 체온 37.8°C, 산소포화도 95%로 실내 공기에서 확인되었다. 환자는 심한 황달 증상을 보였다. N-acetylcysteine 300 mg/kg을 IV로 STAT 투여하였다. 환자는 500 mL의 양성 수분 균형을 보였다. 환자는 졸린 상태로 파악되었다. 간 전문팀에게 긴급 상담을 위해 보고하였다.","47세 여성 환자가 아세트아미노펜 과다 복용으로 인한 급성 간부전으로 입원하였다. 활력증으로는 혈압 122, 70mg, 심박수 105bpm, 호흡수 22breathsmin, 체온 37.86c, 산소포화도 95.5%로 실내 공기에서 확인되었다. 환자는 심한 황달 증상을 보였다. n-acetylcysteine 300mg을 IB로 스텟 투여하였다. 환자는 500mL의 양성 수분 균형을 보였다. 환자는 졸린 상태로 파악되었다. 간 전문팀에게 긴급 상담을 위해 보고하였다."
+scenario_088_telegraphic_icu,scenario_088,telegraphic_icu,0.6829,0.5366,"47세 여성. Acute liver failure due to acetaminophen overdose.
+
+BP 112/70 mmHg.  
+HR 105 bpm.  
+RR 22 breaths/min.  
+BT 37.8°C.  
+SpO2 95% on room air.
+
+Severe jaundice.  
+Drowsy.
+
+N-acetylcysteine 300 mg/kg IV STAT.
+
+Positive fluid balance 500 mL.
+
+Hepatology team notified.","47세 여성, 아취때문에 혈압 실패가 발생했습니다. BP 12.70mL 105bpm, RR 22.0 breaths min, BT 37.0 at bunnelsa, SpO2 95% on room air, severe jaundice, drowsy. N-acetylcysteine 300mg or Kilo IV stat. Positive fluid balance 500mL. Hepatology team notified."
+scenario_089_clinical_charting,scenario_089,clinical_charting,0.7407,0.6852,"59세 남성 환자, NASH로 인한 만성 간질환 급성 악화로 입원함.
+
+BP 92/58 mmHg, HR 115 bpm, RR 24 breaths/min, BT 37.2°C, SpO2 89% (room air).
+
+Ascites moderate 확인됨.
+
+Spironolactone 100 mg PO BID 적용함.
+
+Nasal cannula 3 L/min 유지함.
+
+Foley 유지함.
+
+Negative fluid balance 500 ml 확인됨.
+
+Clinical status drowsy 확인됨.
+
+Hepatology team notify함.","56세 남성 환자, NASH로 인한 만성간질환 급성 악화로 입원함. BPD OTD 8mm HR, HR BPM RR 20C Breaths Min, BT 37.2 to Excels, SpO2 89% Remair. 아사이티스 모더릿 확인됨. 스페이로노-락톤 100mg POBID 적용함. 네이처 캐니라 3 유지함, 폴리 유지함. 네이티브 플루이드 밸런스 500ml 확인됨. 클리니컬 스타디스 드라우지 확인됨. 헵피톨로지 팀 노티파이함."
+scenario_089_formal_template,scenario_089,formal_template,0.5294,0.5147,"환자는 59세 남성으로, 비알코올성 지방간염(NASH)으로 인한 만성 간질환의 급성 악화로 입원하였다. 활력징후는 혈압 92/58 mmHg, 심박수 115 bpm, 호흡수 24 breaths/min, 체온 37.2°C, 산소포화도 89%로 확인되었다(실내 공기 상태). 환자는 중등도의 복수를 가지고 있다. Spironolactone 100 mg PO BID로 처방되었다. 환자는 3 L/min의 산소를 비강 캐뉼라로 받고 있다. Foley 도뇨관이 삽입되어 있으며, 500 ml의 음성 수분 균형을 보였다. 임상 상태는 기면 상태로 확인되었다. 관리 계획을 위해 간담도학 팀에 보고하였다.","환자는 59세 남성으로 비알코올성 지방간염, NASH로 인한 만성간질환의 급성 악화로 입원하였다. 활력증후는 혈압 92, 58mmHg, 심박수 115ppm, 호흡수 24.3min, 체온 37.21C, 산소포화도 89%로 확인되었다. 실내 공기상태 환자는 중등도의 복수를 가지고 있다. 스페로노렉톤 100mg POBI로 처방되었다. 환자는 3리민의 산소를 비강케켈나로 받고 있다. 폴리 도뇨관이 삽입되어 있으며, 500mL의 음성수분 균형을 보였다. 임상상태는 기면 상태로 확인되었다. 관리계획을 위해 간담도학팀에 보고하였다."
+scenario_089_telegraphic_icu,scenario_089,telegraphic_icu,0.7174,0.5217,"59세 남 환자, NASH로 인한 만성 간질환 급성 악화로 입원.
+
+BP 92/58 mmHg.
+
+HR 115 bpm.
+
+RR 24 breaths/min.
+
+BT 37.2°C.
+
+SpO2 89% room air.
+
+Ascites moderate.
+
+Spironolactone 100 mg PO BID.
+
+Nasal cannula 3 L/min.
+
+Foley.
+
+Negative fluid balance 500 ml.
+
+Drowsy.
+
+Hepatology team notify.","59세 남환자, 나슈로 인한 만성간질환 급사로 입원. BP 92, 58mmHg, HRRR, 24breaths min, BT 37.2dC, SpO2 89% in room air, ascites moderate, spironolactone 100mg POBID, nasal cannula 3, Foley, negative fluid balance 500mL, drowsy, Hepatology team notify."
+scenario_090_clinical_charting,scenario_090,clinical_charting,0.7857,0.4524,"57세 여성 환자, multiple sclerosis acute exacerbation으로 입원함.  
+Severe motor weakness 및 sensory disturbances 호소함.  
+BP 130/85 mmHg, HR 95 bpm, RR 20, BT 37.5°C, SpO2 93% room air.  
+Methylprednisolone 1g IV q12h 적용함.  
+임상 상태: drowsy.  
+I/O: adequate urine output 확인됨.","57세 여성 환자, Multiple Sclerosis Acute Exacerbation으로 이완함. Severe Motor Weakness meets Sensory Disturbances 호소함. BPU-HAT 3881mg, HR-95BDT 37.0 SpO2 TG-sine Professin to Room Air. Methylprednisolone 1g IV Q-Star A 착용함. 임상상태 Drowsy. IO Adequate Urine Output 확인됨."
+scenario_090_formal_template,scenario_090,formal_template,0.383,0.383,"57세 여성 환자가 다발성 경화증의 급성 악화로 입원하였다. 환자는 심각한 motor weakness와 감각 장애를 보였다. 활력징후로는 혈압이 130/85 mmHg, 심박수가 95 bpm, 호흡수가 20, 체온이 37.5°C로 확인되었다. 산소포화도는 room air에서 93%로 확인되었다. 환자는 methylprednisolone 1g을 IV로 q12h 투여받고 있다. 소변 배출량은 적절하다. 현재 환자는 drowsy 상태에 있다.","57세 여성 환자가 다발성 경화증에 급성 악화로 입원하였다. 환자는 심각한 모터 위키넷스와 감각장애를 보였다. 활력증으로는 혈압이 130 85mmg, 심박수가 95bpm, 호흡수가 20, 체온이 37.56세스로 확인되었다. 산소포화도는 룸에어에서 93%로 확인되었다. 환자는 메틀프레드니즐론 인그라믈 IB로 QCVH 투여받고 있다. 소변 배출량은 적절하다. 현재 환자는 드라우지 상태에 있다."
+scenario_090_telegraphic_icu,scenario_090,telegraphic_icu,0.7,0.5333,"57세 여성 환자.   
+MS 악화로 입원.   
+Severe motor weakness.   
+감각 이상 있음.   
+BP 130/85.   
+HR 95.   
+RR 20.   
+BT 37.5°C.   
+SpO2 93% RA.   
+Methylprednisolone 1g IV q12h.   
+소변량 적절함.   
+Drowsy.","57세 여성 환자, MS 악화로 입원, Severe motor weakness, 감각 이상이 있음. BPO5-RR-92, BT-SRN-10 root, SpO2-93ppra, Methylprednisolone-1-gyve-Q-sealer-H, 소변량 적절함, drowsy."
+scenario_091_clinical_charting,scenario_091,clinical_charting,0.7826,0.6522,"64세 여자 환자, acute respiratory failure 입원.  
+pulmonary fibrosis exacerbation 관련.  
+
+BP 125/80 mmHg.  
+HR 96 bpm.  
+RR 28회/min.  
+BT 37.6도.  
+SpO2 88% on room air.  
+
+Dyspnea 심함.  
+
+Prednisone 40 mg PO BID 적용함.  
+
+High-flow nasal cannula 유지함.  
+
+Corticosteroid therapy 시작함.  
+
+Ventilator 사용함.  
+
+Clinical status: drowsy.","60 수호세 여자 환자, acute respiratory failure E1, pulmonary fibrosis exacerbation 관련 BP-UNE5, 80mm HERA, HR-96 BPM R-min, BT-37.6, SpO2 80% on room air, 디스피니아 심음 프레드네존 40mg POBID 적용함 하이플로우 네솔 캔눌라 유지함, 코드카 스테로이드 테라피 시작함, 벤틀레이터 사용함 클리니컬 스타디스, 드라우지"
+scenario_091_formal_template,scenario_091,formal_template,0.3889,0.3333,"64세 여성 환자가 폐섬유증 악화로 인한 급성 호흡부전으로 입원하였다. 활력 징후는 혈압 125/80 mmHg, 심박수 96 bpm, 호흡수 28 bpm, 체온 37.6°C이며, 산소포화도는 실내 공기에서 88%로 확인되었다. 환자는 심한 dyspnea를 호소하였다. Prednisone 40 mg을 경구로 BID 처방하였으며, 고유량 비강 캐뉼라를 통해 산소를 제공하였다. 코르티코스테로이드 치료를 시작하였다. 환자는 ventilator에 의존하고 있으며, 임상 상태는 졸림이 확인되었다.","64세 여성 환자가 폐섬유증 악화로 인한 급성 호흡 부전으로 입원하였다. 활력 징후는 혈압 125-80mg, 심박수 96bpm, 호흡수 28bpm, 체온 37.6°C이며 산소 포화도는 실내 공기에서 88%로 확인되었다. 환자는 심한 디스미어를 호소하였다. 프레드니존 40mg을 경고로 MID 처방하였으며 고유량 비강 케귤라를 통해 산소를 제공하였다. 코르티코스테로이드 치료를 시작하였다. 환자는 벤틀레이러에 의존하고 있으며 임상 상태는 졸림이 확인되었다."
+scenario_091_telegraphic_icu,scenario_091,telegraphic_icu,0.9,0.75,"64세 여성, 급성 호흡 부전으로 입원. Pulmonary fibrosis 악화.  
+BP 125/80.  
+HR 96.  
+RR 28.  
+BT 37.6.  
+SpO2 88% room air.  
+Dyspnea severe.  
+Prednisone 40 mg PO BID.  
+High-flow nasal cannula 사용.  
+Corticosteroid therapy 시작.  
+Ventilator 사용.  
+Clinical status drowsy.","64세 여성, 극성호흡 부전으로 입원 폴미네리프리브로시스 아쿠아 BP195HR-TYZ6RN8-BT37.6 SBO2 88% 룸에어 디스니에스 세베어 프렛니존 40mg POBI High Flow Nasal Cannula 사용 코드코스트로이드 테라피 시작 벤틀레이터 사용 클리니컬 스타드스 드라우지"
+scenario_092_clinical_charting,scenario_092,clinical_charting,0.75,0.5909,"54세 남환, acute pancreatitis로 입원. 원인: hyperparathyroidism.
+
+BP 135/85 mmHg, HR 110 bpm, RR 22 bpm, BT 37.8°C, SpO2 94% room air.
+
+Severe abdominal pain 호소함.
+
+Pantoprazole 40 mg IV BID 적용함.
+
+NG tube 유지함.
+
+의식 상태 alert 확인됨.
+
+Endocrinology consult 위해 담당의 notify함.","54세 남아한, 아큐트 팬크리아티스로 입원. 원인, 하이퍼파이트로이드즘. BP 35-85mg, HR 100bpm, RR 20bpm, BT 37.8, SPU 90% room air, severe abdominal pain 호소함, pentaprazole 40mg IV 적용함, NG 튜브 유지함, 의식상태 알러지 확인됨, 엔드크로놀리지 컨설트 위에 담당해 노티파엄."
+scenario_092_formal_template,scenario_092,formal_template,0.38,0.38,"54세 남자 환자가 고칼슘혈증으로 인한 급성 췌장염으로 입원하였다. 활력징후는 혈압 135/85 mmHg, 심박수 110 bpm, 호흡수 22 bpm, 체온 37.8°C, 산소포화도 94%로 실내 공기 상태이다. 환자는 심한 복통을 호소하였다. 현재 Pantoprazole 40 mg을 IV로 BID 투여 중이다. NG tube가 삽입되어 있다. 환자는 의식이 명료하다. 고칼슘혈증 관리를 위해 내분비과에 협진을 요청하였다.","54세 남자 환자가 고칼슘 혈증으로 인한 급성 최장염으로 입원하였다. 활력증후는 혈압 135, 85mmg, 심박수 110pm, 호흡수 22bpm, 체온 37.8°C, 산소포화도 94%로 실내 공기상태이다. 환자는 심한 복통을 호소하였다. 현재 판토프라솔 40mg을 IB로 BID 투여 중이다. NG 튜브가 삽입되어 있다. 환자는 의식이 명료하다. 고칼슘 혈증 관리를 위해 내분비과에 협진을 요청하였다."
+scenario_092_telegraphic_icu,scenario_092,telegraphic_icu,0.7778,0.4444,"54세 남성, 급성 췌장염, 부갑상선항진증.  
+BP 135/85 mmHg.  
+HR 110 bpm.  
+RR 22 bpm.  
+BT 37.8°C.  
+SpO2 94% room air.  
+Abdominal pain severe.  
+Pantoprazole 40 mg IV BID.  
+NG tube in place.  
+Alert.  
+Endocrinology consult notify.",54세 남성 부합상증 dng bp 135 85 mm pm rr 22 bm bt 스탠드 에이카셉 sp 94% room air abdominal pain severe panoprazol 40 milligrams ivb id ng tube in place alert endocrinology consult notify
+scenario_093_clinical_charting,scenario_093,clinical_charting,0.6379,0.3448,"52세 남성 환자, 급성 hemorrhagic shock으로 입원. 원인은 ruptured abdominal aortic aneurysm.
+
+BP 85/50 mmHg, HR 120 bpm, RR 24/min, BT 36.8°C, SpO2 89%.
+
+Severe abdominal pain 호소함.
+
+Norepinephrine 8 mcg/min IV TID 적용함.
+
+High-flow nasal cannula 산소 공급 유지함.
+
+Emergency surgical repair 계획됨.
+
+C-line 적용됨.
+
+Urine output 20 mL/hr 확인됨.
+
+Drowsy 상태 확인됨.
+
+Vascular surgery team notify함.","52세 남성 환자, 급성 Hemorrhagic Shock으로 입원. 원인은 Ruptured Abdominal Aortic Aneurysm. BP 85dmg, HR 100pm, RR rib drowsum, BT 36.8dS, SpO2 80.9%. Severe Abdominal Pain 호소함. Norepinephrine 8-Myscrimin IVT 적용함. High Flow Nasal Cannula 산소 공급 유지함. Emergency Surgical Repair 계획댐. C-Line 적용댐. Urine Output 20mL 확인댐. Drowsy 상태 확인댐. Vascular Surgery Team Notify함."
+scenario_093_formal_template,scenario_093,formal_template,0.2535,0.2394,"환자는 52세 남성으로 복부 대동맥류 파열로 인한 급성 출혈성 쇼크로 입원하였다. 활력징후는 혈압 85/50 mmHg, 심박수 120 bpm, 호흡수 24 회/분, 체온 36.8°C, 산소포화도 89%로 확인되었다. 환자는 심한 복부 통증을 호소하였다. 현재 norepinephrine 8 mcg/min IV로 투여 중이며, 빈도는 하루 3회이다. 고유량 비강 캐뉼라를 통해 산소 공급 중이다. 응급 수술적 복구가 계획되어 있으며, C-line이 삽입되어 있다. 시간당 소변 배출량은 20 mL이다. 환자는 의식이 흐린 상태이다. 혈관외과 팀에게 긴급 개입을 위해 보고하였다.","환자는 52세 남성으로 복부 대동맥류 파열로 인한 급성 출혈성 쇼크로 입원하였다. 활력 징후는 혈압 85, 50mmg, 심박수 120ppm, 호흡수 24회분, 체온 36.8L, 산소포화도 89%로 확인되었다. 환자는 심한 복부 통증을 호소하였다. 현재 norepinephrine, palmyosaccharide IV로 투여 중이며, 빈도는 하루 3회이다. 고유량 비강 케콜라를 통해 산소 공급 중이다. 응급 수술적 복구가 계획되어 있으며, C라인이 삽입되어 있다. 시간당 소변 배출량은 20ml이다. 환자는 의식이 흐린 상태이다. 혈관외과팀에게 긴급 개입을 위해 보고하였다."
+scenario_093_telegraphic_icu,scenario_093,telegraphic_icu,0.9783,0.913,"52세 남성.  
+Acute hemorrhagic shock.  
+Ruptured abdominal aortic aneurysm.  
+BP 85/50.  
+HR 120.  
+RR 24.  
+BT 36.8.  
+SpO2 89%.  
+Severe abdominal pain.  
+Drowsy.  
+Norepinephrine 8 mcg/min IV TID.  
+High-flow nasal cannula 사용.  
+C-line 적용됨.  
+Urine output 20 mL/hr.  
+Emergency surgical repair 계획됨.  
+Vascular surgery team notify.","52세 남성, 심각한 혈압 충격, 엉덩이 아이오틱 아니어리즘, bp 8550, hr120, rr24, bt36.8, sp02 89%, 심각한 엉덩이 아픔, 드라우지, 노르페네프린-8-미스크렘-민-이비-TID, 하이플로-네즐-캐뉴리스-하이옹, C-라인-토겸, 뱃수 수출 20mPa, emergency-surgical-repair-caric-them, vascular-surgery-team-notify."
+scenario_094_clinical_charting,scenario_094,clinical_charting,0.5246,0.3934,"69세 여성 환자, 급성 severe GI bleeding secondary to peptic ulcer disease로 입원.
+
+BP 85/55 mmHg, HR 120 bpm, RR 22 bpm, BT 36.8°C, SpO2 92% (room air).
+
+Severe hematemesis 호소함.
+
+Pantoprazole 80 mg IV q12h 적용함.
+
+Nasal cannula at 2 L/min 유지함.
+
+Endoscopic hemostasis 시행함.
+
+C-line 유지함.
+
+Negative fluid balance 확인됨.
+
+환자 drowsy 상태.
+
+Gastroenterology team notify함 for urgent endoscopy.","69세 여성 환자, 급성 세벌 GI 블리딩 세컨데리 to Peptic Ulcer Disease로 입원. BP 85.575mHg, HR 580bpm, RRC 2bpm, BT 36.8dCLC, SbO2 90d%, Room Air. 세벌 희미세스 호소함, Pantoprazole 80mg IV Q12H 적용함. Nasal cannula at 2LDM 유지함. Endoscopic hemostasis 시행함, C-Line 유지함. Negative fluid balance 확인됨. 환자 드라우지 상태. gastroenterology team notify him for urgent endoscopy."
+scenario_094_formal_template,scenario_094,formal_template,0.3676,0.3235,"환자는 69세 여성으로, 소화성 궤양 질환으로 인한 급성 심한 위장관 출혈로 입원하였다. 활력 징후는 혈압 85/55 mmHg, 심박수 120 bpm, 호흡수 22 bpm, 체온 36.8°C, 산소포화도는 실내 공기에서 92%로 확인되었다. 환자는 심한 hematemesis를 호소하였다. Pantoprazole 80 mg이 IV로 12시간마다 투여되었다. 산소 공급은 nasal cannula를 통해 2 L/min로 진행 중이다. 내시경적 지혈술이 시행되었으며, C-line이 삽입되어 있다. 환자의 수분 균형은 음성이다. 임상 상태는 졸리며, 위장관 팀에 긴급 내시경을 위해 보고하였다.","환자는 69세 여성으로 소화성 괴양 질환으로 인한 급성 심한 위장관 출혈로 입원하였다. 활력증후는 혈압 85-55mg, 심박수 120bpm, 호흡수 22bpm, 체온 36.86, 산소 포화도는 실내 공기에서 92%로 확인되었다. 환자는 심한 히마테미스스를 호소하였다. 펜토프라솔 80mg이 IV로 12시간마다 투여되었다. 산소 공급은 네이처 캔을 통해 이리트미미네로 진행 중이다. 내시경적 지혈술이 시행되었으며 C라인이 삽입되어 있다. 환자의 수분 균형은 음성이다. 임상 상태는 졸리며 위장관 팀의 긴급 내시경을 위해 보고하였다."
+scenario_094_telegraphic_icu,scenario_094,telegraphic_icu,0.5556,0.4444,"69세 여성, 급성 중증 소화기 출혈로 입원.  
+BP 85/55 mmHg.  
+HR 120 bpm.  
+RR 22 bpm.  
+BT 36.8°C.  
+SpO2 92% room air.  
+Hematemsis severe.  
+Pantoprazole 80 mg IV q12h.  
+Nasal cannula 2 L/min.  
+Endoscopic hemostasis 예정.  
+C-line 유지.  
+Negative fluid balance.  
+Drowsy.  
+Gastroenterology team notify.","60주인세 여성 급성 중증 수확이 출혈로 이완. BP 85.5mL HR 1nBPM, RR22BPM, BD36.8RoS, SpO2, 90T% room air. 희마 템사스 severe. Pantoprazole 80mg IV Q12, Nasal Candela 2, Endoscopic Hemostasis 예정. C-Line 유지. Negative fluid balance. Drowsy. Gastroenterology team notify."
+scenario_095_clinical_charting,scenario_095,clinical_charting,0.5185,0.3148,"62세 여성, severe asthma exacerbation으로 acute respiratory distress 입원.  
+BP 130/85 mmHg, HR 110 bpm, RR 28 breaths/min, BT 37.3°C, SpO2 89% (room air).  
+Shortness of breath severe로 호소함.  
+Albuterol 2.5 mg IV PRN 적용함.  
+High-flow nasal cannula 산소공급 유지함.  
+Ventilator 사용 중.  
+Positive fluid balance 확인됨.  
+Patient alert 상태 유지함.  
+Respiratory therapist notify함.","62세 여성, severe asthma exacerbation으로 acute respiratory distress 입원 BP 엔삼유 1mg, HRP8BM, orthopite breathamine, BT, 산지체첩전산그루수스, SPO2HEQ person and mare Shortness of breath severe로 호소함 Albuterol 2.5mg IV PRN 적용함 High flow nasal cannula 산소공급 유지함 Ventilator 사용 중, positive fluid balance 확인됨 Patient alert 상태 유지함, respiratory therapist notify함"
+scenario_095_formal_template,scenario_095,formal_template,0.3846,0.3538,"62세 여성 환자가 중증 천식 악화로 인한 급성 호흡곤란으로 입원하였다. 활력 징후는 혈압 130/85 mmHg, 심박수 110 bpm, 호흡수 28 breaths/min, 체온 37.3°C, 산소포화도는 실내 공기에서 89%로 확인되었다. 환자는 심한 호흡곤란을 호소하였다. 약물은 Albuterol 2.5 mg을 IV로 PRN 투여하였다. 환자는 고유량 비강 캐뉼라를 통한 산소 지원을 받고 있으며, 인공호흡기를 사용 중이다. 수분 출입은 양성 균형으로 확인되었으며, 임상 상태는 명료하다. 인공호흡기 조정을 위해 호흡 치료사에게 보고하였다.","62세의 여성 환자가 중증 천식 악화로 인한 급성 호흡곤란으로 입원하였다. 활력징후는 혈압 130-85mmhg, 심박수 110bpm, 호흡수 28breaths min, 체온 37.3°C, 산소포화도는 실내 공기에서 89% 확인되었다. 환자는 심한 호흡곤란을 호소하였다. 약물은 엘부테롤 2.5mg을 IB로 PRN 투여하였다. 환자는 고유량 비강 케큘라를 통한 산소 지원을 받고 있으며 인공호흡기를 사용 중이다. 수분출입은 양성균형으로 확인되었으며 임상상태는 명료하다. 인공호흡기 조정을 위해 호흡치료사에게 보고하였다."
+scenario_095_telegraphic_icu,scenario_095,telegraphic_icu,0.7,0.3043,"62세 F 환자. 급성 호흡곤란으로 중증 천식 악화로 입원.
+
+BP 130/85 mmHg.
+HR 110 bpm.
+RR 28.
+BT 37.3°C.
+SpO2 89% RA.
+
+Severe SOB.
+
+Albuterol 2.5 mg IV PRN.
+
+고유량 비강 캐뉼라 사용 중.
+환기장치: ventilator.
+Fluid balance: positive.
+
+정신상태: alert.
+
+RT ventilator 조정 위해 notify.","62세 F 환자, 급성 호흡 곤란으로 중증 천식 아카로 입원. BP 38.5 mmHg 100g BPM, RR or SPT 37.3, SpO2 89.7, Severe SOB, Albuterol 2.5mg IV PRN. 고유량 비강 케롤라 사용 중 환기장치 Ventilator, Fluid Balance Positive, 정신상태 Alert, RT Ventilator 조정 위해 Notify."
+scenario_096_clinical_charting,scenario_096,clinical_charting,0.5231,0.4462,"50세 남성 환자. 급성 pulmonary edema로 입원 중. 원인은 좌심부전.
+
+BP 160/90 mmHg.  
+HR 110 bpm.  
+RR 28 breaths/min.  
+BT 37.0°C.  
+SpO2 88% on room air, 95% on 2L O2 via nasal cannula.
+
+Severe dyspnea 호소함.
+
+Furosemide 40 mg IV BID 적용함.
+
+2L O2 via nasal cannula 유지함.
+
+Foley 유지함.
+
+24시간 동안 음성 fluid balance 500 mL 확인됨.
+
+Clinical status alert 확인됨.
+
+Cardiology team notify함.","50세 남성 환자, 급성 폴리머네리에디마로 입원 중. 원인은 좌심부전. BPN 60-90mm, HR-PKT BPM, RR-Eschepit Breast MEN, BT-Cernit-Chet-Omnigis-Psyth, SpO2 80% on room air, 95% on 2-8-0-2 via nasal cannula. severe dyspnea, 호소암, furosemide 40mg IV-BID 적용암, 2-8-0-2 via nasal cannula 유지암, Foley 유지암. 24시간 동안 음성 fluid balance 5mg 확인됨. Clinical status alert 확인됨. Cardiology team notify him."
+scenario_096_formal_template,scenario_096,formal_template,0.3333,0.2917,"환자는 50세 남성으로, 좌심부전으로 인한 급성 폐부종으로 입원하였다. 활력징후는 혈압 160/90 mmHg, 심박수 110 bpm, 호흡수 28 breaths/min, 체온 37.0°C이며, 산소포화도는 실내 공기에서 88%였고, 2L O2를 비강 캐뉼라로 투여 시 95%로 확인되었다. 환자는 심한 호흡곤란을 호소하였다. 현재 Furosemide 40 mg을 IV로 BID 투여 중이다. 2L O2를 비강 캐뉼라로 제공받고 있으며, Foley 카테터가 삽입되어 있다. 24시간 동안 500 mL의 음성 수분 균형이 확인되었다. 환자는 의식이 명료한 상태이다. 추가 관리가 필요하여 심장내과 팀에 보고하였다.","환자는 50세 남성으로 좌심부전으로 인한 급성 폐부종으로 입원하였다. 활력증후는 혈압 160mg, 심박수 110bpm, 호흡수 28breaths 및 제온 37.0°C이며 산소포화도는 실내 공기에서 88%였고, Urea O2를 비강 케큘라로 투여시 95%로 확인되었다. 환자는 심한 호흡곤란을 호소하였다. 현재 Furosemide 40mg을 IV로 BID 투여 중이다. Urea O2를 비강 케큘라로 제공받고 있으며 폴리 카테터가 삽입되어 있다. 24시간 동안 500ml의 음성 수분 균형이 확인되었다. 환자는 의식이 명료한 상태이다. 추가 관리가 필요하여 심장내과팀에 보고하였다."
+scenario_096_telegraphic_icu,scenario_096,telegraphic_icu,0.7556,0.5556,"50세 남환, 급성 폐부종, 좌심부전.  
+BP 160/90 mmHg.  
+HR 110 bpm.  
+RR 28 breaths/min.  
+BT 37.0°C.  
+SpO2 88% RA, 95% 2L O2 NC.  
+Dyspnea severe.  
+Furosemide 40 mg IV BID.  
+2L O2 NC.  
+Foley in place.  
+Negative fluid balance 500 mL/24h.  
+Alert.  
+Cardiology team notify.","50세 남원, 급성 폐부초아심원음, BPN 60, 90mmHg, HR 110 BPM, R18BREATH SMIN, BT37MOREX, SPO2 88%, RA 95%, 2L O2NC. 디스티니아 서비어, 퓨로스마이드 40mg IBID, 2L O2N fully in place, negative fluid balance 500mL alert, cardiology team notify."
+scenario_097_clinical_charting,scenario_097,clinical_charting,0.6875,0.625,"63세 여자 환자, acute meningococcal meningitis로 입원함.
+
+BP 110/70, HR 98, RR 22, BT 39.5, SpO2 95%.
+
+Severe headache 호소함.
+
+Ceftriaxone 2g IV q12h 투여 중.
+
+C-line 유지함.
+
+환자 drowsy 상태 확인됨.","63세 여자 환자 큐트 메민고카클 멘엔자이디스로 입원함. BP 170, HR 98, R21, BT36 등 워스트 SPO95 세해대에 고소함. 세프트리액션 2그라운드 IVQH 2여중 C-Line 유지함. 환자 드라우지 상태 확인됨."
+scenario_097_formal_template,scenario_097,formal_template,0.35,0.325,"63세 여자 환자가 급성 수막구균성 수막염으로 입원하였다. 활력징후로는 혈압 110/70 mmHg, 심박수 98 bpm, 호흡수 22 회/분, 체온 39.5도, 산소포화도 95%로 확인되었다. 환자는 심한 두통을 호소하였다. 약물로는 Ceftriaxone 2g을 IV로 12시간마다 투여하였다. 현재 C-line이 삽입되어 있으며, 임상 상태는 기면 상태이다.","63세 여자 환자가 급성 수막구균성 수막염으로 입원하였다. 활력증 후로는 혈압 170mg, 심박수 98ppm, 호흡수 22회분, 체온 39.5도, 산소포화도 95%로 확인되었다. 환자는 심한 두통을 호소하였다. 약물로는 세프트리약소인 2g을 IB로 12시간마다 투여하였다. 현재 C라인이 삽입되어 있으며 임상상태는 기면 상태이다."
+scenario_097_telegraphic_icu,scenario_097,telegraphic_icu,0.68,0.6,"63세 여성, 급성 수막구균성 수막염.
+
+BP 110/70.  
+HR 98.  
+RR 22.  
+BT 39.5.  
+SpO2 95%.
+
+Severe headache.  
+
+Ceftriaxone 2g IV q12h.
+
+C-line 유지됨.
+
+환자 drowsy.","63세 여성, 급성 숨고긴 숨아겸, 마비히, HR bite, RR1315, SpO2 취급 앞인 severe headache. C-F3 액손, 2 드라이암기아이바, Q12H, C-line 유지됨. 환자 drowsy."
+scenario_098_clinical_charting,scenario_098,clinical_charting,0.3191,0.3191,"58세 여성 환자, severe hemolytic uremic syndrome (HUS)로 입원함.  
+BP 98/65 mmHg, HR 110 bpm, RR 24 bpm, BT 37.8°C, SpO2 92%.  
+Severe fatigue 호소함.  
+Methylprednisolone 500 mg IV q12h 적용함.  
+Nasal cannula로 oxygen support 유지함.  
+C-line 유지함.  
+Negative fluid balance 확인됨.  
+환자 drowsy 상태임.  
+Hematology notify함.","58세 여성 환자, severe hemolytic uremic syndrome으로 입원함. BP 98, 65mg, HR 110bpm, RR 84bpm, BT 37.11, SpO2 92%센스. Severe fatigue 호소함. Methylprednisolone 500mg IV QCRH 적용함. Nasal canaletto oxygen support 유지함. C-line 유지함. Negative fluid balance 확인됨. 환자 드라우지 상태임. Hematology notify함."
+scenario_098_formal_template,scenario_098,formal_template,0.3559,0.2881,"58세 여성 환자는 심각한 Hemolytic Uremic Syndrome (HUS)로 입원하였다. 활력징후로는 혈압이 98/65 mmHg, 심박수가 110 bpm, 호흡수가 24 breaths/min, 체온이 37.8°C, 산소포화도가 92%로 확인되었다. 환자는 심한 피로감을 호소하였다. Methylprednisolone 500 mg이 IV로 12시간마다 투여되고 있다. 환자는 nasal cannula를 통해 산소를 공급받고 있으며, C-line이 삽입되어 있다. 체액 균형은 음성으로 나타난다. 임상 상태는 졸린 상태이다. 추가적인 치료 관리를 위해 혈액내과에 보고하였다.","58세 여성 환자는 심각한 Hemolytic Uremic Syndrome 입원하였다. 활력증 후로는 혈압이 98,65mmg, 심박수가 10bpm, 호흡수가 24breathmin, 체온이 37.87 oz, 산소포화도가 92%로 확인되었다. 환자는 심한 피로감을 호소하였다. Methylprednisolone 500mg이 IV로 12시간마다 투여되고 있다. 환자는 Nasal Cannula를 통해 산소를 공급받고 있으며 C-Line이 삽입되어 있다. 체액균형은 음성으로 나타난다. 임상상태는 졸린 상태이다. 추가적인 치료 관리를 위해 혈액내과에 보고하였다."
+scenario_098_telegraphic_icu,scenario_098,telegraphic_icu,0.8387,0.4839,"58세 여성, HUS로 입원 중.  
+BP 98/65.  
+HR 110.  
+RR 24.  
+BT 37.8.  
+SpO2 92%.  
+Severe fatigue.  
+Methylprednisolone 500 mg IV q12h.  
+Nasal cannula.  
+C-line.  
+Negative fluid balance.  
+Drowsy.  
+Hematology consult.","50베이트 세여성 H2O 입원 중 BP 98, 65, HR10, RR24, BT37, 8, SbO2 92%, Severe fatigue, methylprednisolone 500mg IVQ12H, nasal cannula, C-line, negative fluid balance, drowsy, hematology consult."
+scenario_099_clinical_charting,scenario_099,clinical_charting,0.5938,0.5,"71세 여성 환자, 급성 악화된 만성 심부전으로 입원함.   
+Pulmonary edema 및 severe dyspnea 관찰됨.   
+
+Vital Signs:   
+- BP: 160/90 mmHg   
+- HR: 105 bpm   
+- RR: 28 breaths/min   
+- BT: 37.5°C   
+- SpO2: 88% (room air)   
+
+Severe dyspnea 확인됨.   
+
+Furosemide 40 mg IV q8h 투여 중.   
+
+High-flow nasal cannula 40 L/min 적용함.   
+
+Positive fluid balance 2000 mL 확인됨.   
+
+환자 drowsy 상태.   
+
+Cardiology consult 요청함.","TCHV 입세 여성 환자, 급성 악화된 만성 심부전으로 입원함. 폴미네리 디멈이 severe dyspnea 관찰됨. Vital signs, BP 1695g, HR NYBPM, RR wetibate breaths min, BT 산시차 됨 후 DOS, SbO2 88%. Severe dyspnea 확인됨. Furosemide 40mg IV Q8H 투여중. High flow nasal cannula 40mm 적용함. Positive fluid balance 2000mm 확인됨. 환자 drowsy 상태. Cardiology consult your telem."
+scenario_099_formal_template,scenario_099,formal_template,0.3506,0.3377,"환자는 71세 여성으로, 만성 심부전의 급성 악화를 이유로 입원하였다. 폐부종과 심한 호흡곤란을 호소하는 상태로 관찰되었다. 
+
+환자의 활력징후는 혈압이 160/90 mmHg, 심박수가 105 bpm, 호흡수가 28 breaths/min, 체온이 37.5°C로 측정되었다. 산소포화도는 실내 공기에서 88%로 확인되었다. 
+
+환자는 심한 호흡곤란을 호소하였다. 
+
+현재 Furosemide 40 mg이 IV 경로로 8시간마다 투여되고 있다. 
+
+산소 지원을 위해 40 L/min의 고유량 비강 캐뉼라가 적용되었다. 
+
+환자의 체액 균형은 2000 mL의 양성 수분 균형을 보이고 있다. 
+
+임상 상태는 졸린 상태로 기록되었다. 
+
+심장내과의 추가 관리를 위한 상담이 요청되었다.","환자는 71세 여성으로 만성심부전의 급성악화를 이유로 입원하였다. 폐부존과 심한 호흡곤란을 호소하는 상태로 관찰되었다. 환자의 활력증후는 혈압이 160-90mg, 심박수가 105bpm, 호흡수가 28breaths or min, 체온이 37.5°C로 측정되었다. 산소포화도는 실내 공기에서 88%로 확인되었다. 환자는 심한 호흡곤란을 호소하였다. 현재 Furosemide 40mg이 IV 경로로 8시간마다 투여되고 있다. 산소 지원을 위해 40mg의 고유량 비강 케겔라가 적용되었다. 환자의 체액균형은 2000mL의 양성수분 균형을 보이고 있다. 임상상태는 졸린 상태로 기록되었다. 심장내과의 추가 관리를 위한 상담이 요청되었다."
+scenario_099_telegraphic_icu,scenario_099,telegraphic_icu,0.8222,0.4,"71세 여성, CHF acute exacerbation, pulmonary edema.  
+BP 160/90 mmHg.  
+HR 105 bpm.  
+RR 28 breaths/min.  
+BT 37.5°C.  
+SpO2 88% room air.  
+Severe dyspnea.  
+Furosemide 40 mg IV q8h.  
+High-flow nasal cannula 40 L/min.  
+Positive fluid balance 2000 mL.  
+Clinical status drowsy.  
+Cardiology consult requested.",71세 여성 chf acute exacerbation pulmonary edema bp 160 90 hr 105 bpm rr 28 breast min bt 37.5 deg c sb02 88 percent room air severe dyspnea furosemide 40 milligrams iv q8 h high flow nasal canal 40 positive fluid balance 2000 clinical status drowsy cardiology consult requested
+scenario_100_clinical_charting,scenario_100,clinical_charting,0.6383,0.451,"68세 남성 환자, suspected acute bowel obstruction으로 입원함.
+
+BP 98/60 mmHg.
+HR 112 bpm.
+RR 24 breaths/min.
+BT 37.8°C.
+SpO2 95% on room air.
+
+Severe abdominal pain 호소함.
+
+Morphine 4 mg IV q4h 적용함.
+
+NG tube로 nasogastric decompression 시행함.
+
+8시간 동안 urine output 감소 확인됨.
+
+환자 drowsy 상태임.
+
+Surgical team notify함.","68세 남성 환자, Suspected Acute Bowel Obstruction로 입원함. BP 95.6mm, R54 Breaths Min, BT 37.8°, SpO2 95% on room air, Severe Abdominal Pain, Morphine 4mg IV-Q4H 적용함. NG 튜블로 네소 가스트릭 디컴프레션 시행함. 30시간 동안 유런 아웃풋 감소 확인됨. 환자 드라우지 상태임, Surgical Team Notify함."
+scenario_100_formal_template,scenario_100,formal_template,0.3529,0.3088,"환자는 68세 남성으로, 급성 장폐색이 의심되어 입원하였다. 현재 활력징후는 혈압 98/60 mmHg, 심박수 112 bpm, 호흡수 24 breaths/min, 체온 37.8°C이며, 산소포화도는 실내 공기에서 95%로 확인되었다. 환자는 심한 복통을 호소하고 있다. 약물로는 morphine 4 mg을 IV로 4시간마다 투여 중이다. 현재 산소 보조는 받지 않고 있다. 중재로는 nasogastric decompression을 시행하고 있으며, NG tube가 삽입되어 있다. 최근 8시간 동안 소변량이 감소하였다. 임상 상태는 졸림 상태로 확인되었다. 긴급 평가를 위해 외과팀에 보고하였다.","환자는 68세 남성으로 급성 장폐색이 의심되어 입원하였다. 현재 활력증후는 혈압 98, 60mmHg, 심박수 112bpm, 호흡수 24breaths, 체온 37.8°C이며 산소포화도는 실내 공기에서 95%로 확인하였다. 환자는 심한 복통을 호소하고 있다. 약물로는 몰핀 4mg을 IV로 4시간마다 투여 중이다. 현재 산소 보조는 받지 않고 있다. 중제로는 내소가스트릭 디컴프레션을 시행하고 있으며 NG 튜브가 삽입되어 있다. 최근 8시간 동안 소변량이 감소하였다. 임상상태는 졸림상태로 확인되었다. 긴급평가를 위해 외과팀에 보고하였다."
+scenario_100_telegraphic_icu,scenario_100,telegraphic_icu,0.907,0.5581,"68세 남성, 급성 장폐색 의심.
+
+BP 98/60 mmHg.  
+HR 112 bpm.  
+RR 24 breaths/min.  
+BT 37.8°C.  
+SpO2 95% room air.
+
+Abdominal pain severe.
+
+Morphine 4 mg IV q4h.
+
+NG tube 삽입됨.  
+Nasogastric decompression 시행됨.
+
+Urine output 감소 8시간 동안.
+
+Drowsy.  
+
+Surgical team notify.",68세 남성 급성장 폐쇄구심 bp 9886 hr 112 rr 24 breaths min bt 37.8 decelsin sp o2 95% room air abdominal pain severe morphine 4 milligram iv q4 h ng tubes habip them nasogastric decompression xiang them urine output comes o h gandwan drowsy surgical team notify

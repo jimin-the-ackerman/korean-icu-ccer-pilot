@@ -1,0 +1,6 @@
+,mean_ccer_formal,mean_ccer_clinical,mean_ccer_telegraphic,ranking_best_to_worst,formal_is_ccer_best,kendalls_w,friedman_p
+Primary,1.4312420000000001,1.3658510000000001,1.411054,clinical_charting < telegraphic_icu < formal_template,False,0.0303,0.0485
+A_Equal,0.68446,0.5833189999999999,0.6225780000000001,clinical_charting < telegraphic_icu < formal_template,False,0.1956,0.0
+B_Wide,1.555896,1.764303,1.7428700000000001,formal_template < telegraphic_icu < clinical_charting,True,0.0368,0.0251
+C_Narrow,0.840046,0.759747,0.796864,clinical_charting < telegraphic_icu < formal_template,False,0.083,0.0002
+D_Hallucination_downweighted,1.3945699999999999,1.287665,1.3532380000000002,clinical_charting < telegraphic_icu < formal_template,False,0.0594,0.0026
