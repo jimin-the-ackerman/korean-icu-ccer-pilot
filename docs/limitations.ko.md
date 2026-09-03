@@ -103,6 +103,12 @@ Scaffold와 Documentation Register 표현이 실제 한국 ICU 임상 환경의
 
 ## 10. Closed-vocab 정규식의 카테고리 간 오염 (Dose vs. Vital Sign / Intake-Output)
 
+**[v4에서 해결됨]** 이 한계는 v4 style-invariant extraction 작업의 일부로
+수정되었다. 전체 entity ownership hierarchy 수정 내용은
+`docs/v4_style_invariant_extraction_spec.md` §3.5, 설계 근거는
+`docs/design_decisions.ko.md` §7 참고. 아래 서술은 원래 문제의 기록으로
+그대로 보존한다.
+
 v3 파이프라인 sanity audit(`docs/taxonomy_audit.md`) 과정에서 발견됨. v3
 이전(v1/v2)에도 동일 건수로 존재했던 사전 문제로, v3 taxonomy 변경이
 새로 만든 문제가 아니다. `closed_vocab_extractor.py`의 `dose` 정규식은
@@ -111,10 +117,7 @@ v3 파이프라인 sanity audit(`docs/taxonomy_audit.md`) 과정에서 발견됨
 수치가 STT로 뭉개지면서 "숫자+mg" 패턴이 된 경우(예: "90/60 mmHg"가
 "90-60mg"로 전사됨)가 약물 용량으로 오분류됨. ② 섭취/배설량 수치(예:
 "urine output 200 mL")도 마찬가지로 약물 용량으로 오분류됨. 둘 다 투약과
-무관한 값이 dose 카테고리의 hallucination 건수를 부풀린다. 문맥 인식
-로직(예: 약물명 근접성 요구, 활력징후/체액균형 키워드 인접 시 제외) 도입은
-taxonomy 카테고리 경계 문제가 아니라 정규식 견고성 문제이므로, v3
-taxonomy 변경에 포함하지 않고 Future Work로 남긴다.
+무관한 값이 dose 카테고리의 hallucination 건수를 부풀린다.
 
 ## 11. 하나의 노트 안에서 같은 장치가 두 번 언급되는 경우
 
@@ -215,6 +218,41 @@ notification/컨설트 표현과 intake-output **모니터링 행위** 표현(�
 
 ---
 
+## 14. v4(Style-Invariant Extraction)에서 의도적으로 남겨둔 잔여 공백
+
+v4 style-invariant extraction audit(`docs/v4_style_invariant_extraction_spec.md`)
+및 실제 데이터 검증 과정에서 발견·기록됨. 놓친 게 아니라 의도적으로 정한
+범위 경계다 — 각각 실제 100개 시나리오 데이터로 검증한 결과, 일반화
+가능한 문법으로 해결 불가능하거나(진짜 정보 손실), v4가 원래 고치려던
+스타일 편향과 무관한 잔여 STT 노이즈 효과였다.
+
+- **"정맥"(route) 단독형**: 접미사가 붙은 형태(정맥으로/정맥주사/정맥
+  내/정맥 수액)만 `iv` route로 인정한다 — 실증 스캔 결과 단독 "정맥" 언급의
+  29%가 다른 개념(device 또는 symptom)이었다는 발견에 근거함. 100개
+  시나리오 데이터에서 단독형 사례 자체가 관찰되지 않아, 이는 "확인된
+  누락"이 아니라 "아직 검증 안 됨" 상태다 — 향후 데이터에서 실제 단독형
+  route 용례가 나오면 재검토.
+- **SpO2 label-value 문법의 잔여 사례**: v4 문법 수정 후에도 원래 55건의
+  SpO2 삽입구 omission 중 6건은 여전히 안 잡힘 — 전부 값 자체가 STT로
+  심하게 뭉개진 경우(예: "SpO2 간지 5%", "산소포화도는 상실기 공기에서
+  95%로")로, 일반화 가능한 구조적 패턴이 아니라 진짜 정보 손실임을
+  확인했다. 추가로 1건("...이 O2를 비강케귤라로 공급받으면서...")은
+  조사와 산소 맥락 수식어 사이에 추가 어절이 끼어있어 닫힌 문법이
+  커버하지 못함 — 단 1건뿐인 관찰 사례를 위해 특수 처리하지 않고 그대로
+  둠.
+- **Formal Template의 잔여 device/dose/route 오류율**: v4 수정 후에도
+  Formal Template의 `device`(77%), `dose`(86%), `route`(73%) 오류율은
+  이제 최선이 된 `vital_sign` 오류율(4.6%)보다 여전히 훨씬 높다. 이는
+  잔여 추출 편향이 아니라, 짧은 영어 약어와 달리 여러 음절로 이루어진
+  한국어 임상 표현이 겪는 일반적인 STT 전사 노이즈로 추정된다 —
+  Architecture A(`docs/v4_style_invariant_extraction_spec.md` §6.2)는
+  라벨 인식 편향 제거만을 목표로 명시적으로 범위를 좁혔지, 스타일 간
+  균일한 STT 강건성을 보장하려던 게 아니었다. 이 귀인을(잔존하는 미발견
+  추출 공백이 아니라 진짜 STT 노이즈라는 것을) 확실히 확인하는 것은
+  Future Work로 남긴다.
+
+---
+
 ## Future Work
 
 - [v2에서 완료, 프롬프트 레벨] 표준 의료 용어 온톨로지(SNOMED CT, UMLS)
@@ -226,8 +264,8 @@ notification/컨설트 표현과 intake-output **모니터링 행위** 표현(�
 - 임상 전문가(간호사) 대상 Content Scaffold 및 CCER 가중치 검증 (한계 8 대응)
 - 실제 병원 데이터 확보 시 합성 데이터 기반 결과와의 비교 검증 (한계 9 대응)
 - Whisper Auto Detect vs 한국어 고정 설정 비교 실험 (한계 3 대응)
-- Dose 정규식에 문맥 인식 로직 추가하여 활력징후/섭취배설량 수치 오분류
-  방지 (한계 10 대응)
+- [v4에서 완료] Dose 정규식에 문맥 인식 로직(entity ownership hierarchy)
+  추가하여 활력징후/섭취배설량 수치 오분류 방지 (한계 10 대응)
 - 매칭 전 동일 텍스트 내 중복 closed-vocab 값 제거 로직 추가 (한계 11 대응)
 - device/oxygen_support-intervention에 적용한 카테고리 경계 제외 규칙을
   symptom-clinical_status 쌍까지 확장, patient_context 서술이 필요로 하는

@@ -119,6 +119,13 @@ on synthetic data generalize directly to real clinical environments.
 
 ## 10. Closed-vocab Regex Cross-Category Contamination (Dose vs. Vital Sign / Intake-Output)
 
+**[Resolved in v4]** This limitation was fixed as part of the v4
+style-invariant extraction work; see
+`docs/v4_style_invariant_extraction_spec.md` Sec 3.5 for the full
+entity-ownership-hierarchy fix and `docs/design_decisions.md` Sec 7 for the
+design rationale. The description below is preserved as a historical
+record of the original problem.
+
 Discovered during the v3 pipeline sanity audit (`docs/taxonomy_audit.md`),
 pre-existing since before v2/v3 (confirmed identical counts in v1/v2 data —
 not introduced by the v3 taxonomy changes). The `dose` regex pattern in
@@ -129,12 +136,7 @@ blood-pressure reading garbled by STT into a number-plus-"mg" pattern (e.g.
 "90/60 mmHg" transcribed as "90-60mg") gets misclassified as a medication
 dose; (2) an intake/output volume (e.g. "urine output 200 mL") is likewise
 misclassified as a dose. Both inflate `dose`-category hallucination counts
-with values that have no relationship to medication administration. A
-context-aware fix (e.g. requiring proximity to a medication name, or
-excluding numbers immediately preceded by vital-sign/fluid-balance
-keywords) is left as Future Work rather than folded into the v3 taxonomy
-change, since it is a regex-robustness issue rather than a taxonomy
-category-boundary issue.
+with values that have no relationship to medication administration.
 
 ## 11. Duplicate Literal Mentions of the Same Device Within One Note
 
@@ -245,11 +247,45 @@ phrasing (not just stated values), and would add a scaffold-generation
 constraint or post-hoc validation step to keep `io` field content
 semantically restricted to observations rather than actions.
 
+## 14. Residual Gaps Left Deliberately Unresolved by v4 (Style-Invariant Extraction)
+
+Discovered and documented during the v4 style-invariant extraction audit
+(`docs/v4_style_invariant_extraction_spec.md`) and its real-data
+verification. These are intentional scope boundaries, not oversights —
+each was evaluated against real 100-scenario data and found to be either
+genuinely unrecoverable via a generalizable grammar, or a residual
+STT-noise effect unrelated to the style bias v4 was designed to fix.
+
+- **Bare "정맥" (route) form**: only the suffixed forms (정맥으로/정맥주사/
+  정맥 내/정맥 수액) are recognized as the `iv` route, per the empirical
+  finding that 29% of bare "정맥" occurrences in the corpus referred to a
+  different concept (device or symptom). No bare-form occurrence was
+  observed in the 100-scenario corpus, so this is currently untested
+  rather than confirmed missed; revisit if future data shows genuine
+  bare-form route usage.
+- **SpO2 label-value grammar residual cases**: 6 of the original 55
+  SpO2 insertion-gap omissions remain unmatched after the v4 grammar fix,
+  all confirmed to be severe STT corruption of the value itself (e.g.
+  "SpO2 간지 5%", "산소포화도는 상실기 공기에서 95%로") rather than a
+  recoverable structural pattern. One additional case
+  ("...이 O2를 비강케귤라로 공급받으면서...") has an extra token between
+  the particle and the oxygen-context qualifier that the closed grammar
+  does not cover; left unmatched rather than special-cased for a single
+  observed instance.
+- **Formal Template's residual device/dose/route error rate**: even after
+  the v4 fix, Formal Template's error rate for `device` (77%), `dose`
+  (86%), and `route` (73%) remains substantially higher than its now-best
+  `vital_sign` rate (4.6%). This is attributed to ordinary STT
+  transcription noise affecting Korean multi-syllable clinical phrases
+  (as opposed to short English abbreviations), not to a residual
+  extraction bias — Architecture A (`docs/v4_style_invariant_extraction_spec.md`
+  Sec 6.2) was explicitly scoped to remove label-recognition bias, not to
+  guarantee uniform STT robustness across styles. Confirming this
+  attribution with certainty (as opposed to a remaining, undetected
+  extraction gap) is left as Future Work.
+
 ## Future Work
 
-- Add context-awareness to the closed-vocab `dose` regex to avoid matching
-  vital-sign or intake/output numbers as medication doses (addresses
-  Limitation 10)
 - Deduplicate identical closed-vocab values within a single text before
   matching, so a device mentioned twice in one note is not double-counted
   (addresses Limitation 11)
