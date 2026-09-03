@@ -36,6 +36,12 @@
         "position": 68
       },
       {
+        "raw": "hr.",
+        "label": "hr",
+        "value": "",
+        "position": 213
+      },
+      {
         "raw": "RR 18",
         "label": "rr",
         "value": "18",
@@ -52,12 +58,6 @@
         "label": "spo2",
         "value": "97%",
         "position": 115
-      },
-      {
-        "raw": "hr.",
-        "label": "hr",
-        "value": "",
-        "position": 213
       }
     ],
     "dose": [
@@ -66,12 +66,6 @@
         "value": "2",
         "unit": "mg",
         "position": 160
-      },
-      {
-        "raw": "400 ml",
-        "value": "400",
-        "unit": "ml",
-        "position": 204
       }
     ]
   },

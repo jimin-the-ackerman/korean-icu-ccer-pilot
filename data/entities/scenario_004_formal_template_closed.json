@@ -22,7 +22,32 @@
         "position": 206
       }
     ],
-    "vital_sign": [],
+    "vital_sign": [
+      {
+        "raw": "혈압 90/60",
+        "label": "bp",
+        "value": "90/60",
+        "position": 33
+      },
+      {
+        "raw": "심박수 120",
+        "label": "hr",
+        "value": "120",
+        "position": 48
+      },
+      {
+        "raw": "호흡수 28",
+        "label": "rr",
+        "value": "28",
+        "position": 61
+      },
+      {
+        "raw": "체온 38.5",
+        "label": "bt",
+        "value": "38.5",
+        "position": 81
+      }
+    ],
     "dose": [
       {
         "raw": "4 mg",
@@ -42,14 +67,33 @@
         "position": 189
       }
     ],
-    "vital_sign": [],
-    "dose": [
+    "vital_sign": [
       {
-        "raw": "60mg",
-        "value": "60",
-        "unit": "mg",
-        "position": 40
+        "raw": "혈압 90",
+        "label": "bp",
+        "value": "90",
+        "position": 34
       },
+      {
+        "raw": "심박수 120",
+        "label": "hr",
+        "value": "120",
+        "position": 46
+      },
+      {
+        "raw": "호흡수 28",
+        "label": "rr",
+        "value": "28",
+        "position": 58
+      },
+      {
+        "raw": "체온 38.5",
+        "label": "bt",
+        "value": "38.5",
+        "position": 69
+      }
+    ],
+    "dose": [
       {
         "raw": "4mg",
         "value": "4",

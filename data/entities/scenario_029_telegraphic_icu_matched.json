@@ -39,23 +39,9 @@
     {
       "entity_type": "dose",
       "gold_value": "0.4gkg",
-      "whisper_value": null,
-      "match_status": "omission",
-      "error_type": "omission"
-    },
-    {
-      "entity_type": "dose",
-      "gold_value": null,
-      "whisper_value": "36.8g",
-      "match_status": "whisper_only",
-      "error_type": null
-    },
-    {
-      "entity_type": "dose",
-      "gold_value": null,
       "whisper_value": "0.4g",
-      "match_status": "whisper_only",
-      "error_type": null
+      "match_status": "error",
+      "error_type": "unit_error"
     },
     {
       "entity_type": "vital_sign",

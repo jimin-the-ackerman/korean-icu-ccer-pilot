@@ -71,12 +71,6 @@
         "value": "2",
         "unit": "l/min",
         "position": 221
-      },
-      {
-        "raw": "30 mL",
-        "value": "30",
-        "unit": "ml",
-        "position": 306
       }
     ]
   },

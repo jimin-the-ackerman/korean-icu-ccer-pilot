@@ -14,9 +14,44 @@
         "raw": "Foley",
         "normalized": "foley",
         "position": 244
+      },
+      {
+        "raw": "비강 캐뉼라",
+        "normalized": "nc",
+        "position": 137
+      },
+      {
+        "raw": "비강 캐뉼라",
+        "normalized": "nc",
+        "position": 226
       }
     ],
-    "vital_sign": [],
+    "vital_sign": [
+      {
+        "raw": "혈압 160/90",
+        "label": "bp",
+        "value": "160/90",
+        "position": 46
+      },
+      {
+        "raw": "심박수 110",
+        "label": "hr",
+        "value": "110",
+        "position": 62
+      },
+      {
+        "raw": "호흡수 28",
+        "label": "rr",
+        "value": "28",
+        "position": 75
+      },
+      {
+        "raw": "체온 37.0",
+        "label": "bt",
+        "value": "37.0",
+        "position": 95
+      }
+    ],
     "dose": []
   },
   "whisper_entities": {
@@ -28,15 +63,33 @@
         "position": 194
       }
     ],
-    "device": [],
-    "vital_sign": [],
-    "dose": [
+    "device": [
       {
-        "raw": "160mg",
-        "value": "160",
-        "unit": "mg",
-        "position": 48
+        "raw": "폴리 카테터",
+        "normalized": "foley",
+        "position": 232
       }
-    ]
+    ],
+    "vital_sign": [
+      {
+        "raw": "혈압 160",
+        "label": "bp",
+        "value": "160",
+        "position": 45
+      },
+      {
+        "raw": "심박수 110",
+        "label": "hr",
+        "value": "110",
+        "position": 55
+      },
+      {
+        "raw": "호흡수 28",
+        "label": "rr",
+        "value": "28",
+        "position": 67
+      }
+    ],
+    "dose": []
   }
 }

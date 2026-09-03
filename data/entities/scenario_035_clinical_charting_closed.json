@@ -65,18 +65,6 @@
         "value": "40",
         "unit": "mg",
         "position": 203
-      },
-      {
-        "raw": "4 L/min",
-        "value": "4",
-        "unit": "l/min",
-        "position": 222
-      },
-      {
-        "raw": "500 mL",
-        "value": "500",
-        "unit": "ml",
-        "position": 295
       }
     ]
   },

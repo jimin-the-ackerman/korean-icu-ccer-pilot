@@ -17,7 +17,7 @@
     ],
     "device": [
       {
-        "raw": "Foley",
+        "raw": "Foley catheter",
         "normalized": "foley",
         "position": 231
       },

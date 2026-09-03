@@ -59,14 +59,7 @@
         "position": 95
       }
     ],
-    "dose": [
-      {
-        "raw": "2000 mL",
-        "value": "2000",
-        "unit": "ml",
-        "position": 240
-      }
-    ]
+    "dose": []
   },
   "whisper_entities": {
     "route": [
@@ -92,13 +85,6 @@
         "position": 31
       }
     ],
-    "dose": [
-      {
-        "raw": "210ml",
-        "value": "210",
-        "unit": "ml",
-        "position": 222
-      }
-    ]
+    "dose": []
   }
 }

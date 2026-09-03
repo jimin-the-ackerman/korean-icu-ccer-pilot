@@ -25,6 +25,11 @@
         "raw": "ventilator",
         "normalized": "ventilator",
         "position": 212
+      },
+      {
+        "raw": "비강 캐뉼라",
+        "normalized": "nc",
+        "position": 138
       }
     ],
     "vital_sign": [

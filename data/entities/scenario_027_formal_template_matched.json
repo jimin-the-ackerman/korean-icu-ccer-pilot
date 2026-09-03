@@ -4,16 +4,23 @@
     {
       "entity_type": "route",
       "gold_value": "iv",
-      "whisper_value": null,
-      "match_status": "omission",
-      "error_type": "omission"
+      "whisper_value": "iv",
+      "match_status": "matched",
+      "error_type": null
+    },
+    {
+      "entity_type": "route",
+      "gold_value": null,
+      "whisper_value": "iv",
+      "match_status": "whisper_only",
+      "error_type": null
     },
     {
       "entity_type": "frequency",
       "gold_value": "stat",
-      "whisper_value": null,
-      "match_status": "omission",
-      "error_type": "omission"
+      "whisper_value": "stat",
+      "match_status": "matched",
+      "error_type": null
     },
     {
       "entity_type": "device",
@@ -25,49 +32,49 @@
     {
       "entity_type": "dose",
       "gold_value": "0.9mgkg",
-      "whisper_value": "160mg",
-      "match_status": "error",
-      "error_type": "numeric_error"
+      "whisper_value": null,
+      "match_status": "omission",
+      "error_type": "omission"
     },
     {
       "entity_type": "vital_sign",
       "label": "bp",
       "gold_value": "160/90",
-      "whisper_value": null,
-      "match_status": "omission",
-      "error_type": "omission"
+      "whisper_value": "160",
+      "match_status": "error",
+      "error_type": "numeric_error"
     },
     {
       "entity_type": "vital_sign",
       "label": "hr",
       "gold_value": "88",
-      "whisper_value": null,
-      "match_status": "omission",
-      "error_type": "omission"
+      "whisper_value": "88",
+      "match_status": "matched",
+      "error_type": null
     },
     {
       "entity_type": "vital_sign",
       "label": "rr",
       "gold_value": "18",
-      "whisper_value": null,
-      "match_status": "omission",
-      "error_type": "omission"
+      "whisper_value": "18",
+      "match_status": "matched",
+      "error_type": null
     },
     {
       "entity_type": "vital_sign",
       "label": "bt",
       "gold_value": "37.2",
-      "whisper_value": null,
-      "match_status": "omission",
-      "error_type": "omission"
+      "whisper_value": "37.2",
+      "match_status": "matched",
+      "error_type": null
     },
     {
       "entity_type": "vital_sign",
       "label": "spo2",
       "gold_value": "95%",
-      "whisper_value": null,
-      "match_status": "omission",
-      "error_type": "omission"
+      "whisper_value": "95%",
+      "match_status": "matched",
+      "error_type": null
     }
   ],
   "open_vocab_matches": {

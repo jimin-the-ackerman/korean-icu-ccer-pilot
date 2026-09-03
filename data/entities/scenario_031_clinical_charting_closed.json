@@ -59,12 +59,6 @@
         "value": "4",
         "unit": "mg",
         "position": 164
-      },
-      {
-        "raw": "500 mL",
-        "value": "500",
-        "unit": "ml",
-        "position": 234
       }
     ]
   },

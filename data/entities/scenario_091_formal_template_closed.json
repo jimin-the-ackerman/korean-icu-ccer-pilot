@@ -1,7 +1,13 @@
 {
   "sample_id": "scenario_091_formal_template",
   "gold_entities": {
-    "route": [],
+    "route": [
+      {
+        "raw": "경구로",
+        "normalized": "po",
+        "position": 168
+      }
+    ],
     "frequency": [
       {
         "raw": "BID",
@@ -9,22 +15,71 @@
         "position": 172
       }
     ],
-    "device": [],
-    "vital_sign": [],
+    "device": [
+      {
+        "raw": "비강 캐뉼라",
+        "normalized": "nc",
+        "position": 188
+      }
+    ],
+    "vital_sign": [
+      {
+        "raw": "혈압 125/80",
+        "label": "bp",
+        "value": "125/80",
+        "position": 47
+      },
+      {
+        "raw": "심박수 96",
+        "label": "hr",
+        "value": "96",
+        "position": 63
+      },
+      {
+        "raw": "호흡수 28",
+        "label": "rr",
+        "value": "28",
+        "position": 75
+      },
+      {
+        "raw": "체온 37.6",
+        "label": "bt",
+        "value": "37.6",
+        "position": 87
+      }
+    ],
     "dose": []
   },
   "whisper_entities": {
     "route": [],
     "frequency": [],
     "device": [],
-    "vital_sign": [],
-    "dose": [
+    "vital_sign": [
       {
-        "raw": "80mg",
-        "value": "80",
-        "unit": "mg",
-        "position": 55
+        "raw": "혈압 125",
+        "label": "bp",
+        "value": "125",
+        "position": 48
+      },
+      {
+        "raw": "심박수 96",
+        "label": "hr",
+        "value": "96",
+        "position": 61
+      },
+      {
+        "raw": "호흡수 28",
+        "label": "rr",
+        "value": "28",
+        "position": 72
+      },
+      {
+        "raw": "체온 37.6",
+        "label": "bt",
+        "value": "37.6",
+        "position": 83
       }
-    ]
+    ],
+    "dose": []
   }
 }

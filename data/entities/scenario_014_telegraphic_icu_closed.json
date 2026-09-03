@@ -87,13 +87,6 @@
         "position": 52
       }
     ],
-    "dose": [
-      {
-        "raw": "125mg",
-        "value": "125",
-        "unit": "mg",
-        "position": 116
-      }
-    ]
+    "dose": []
   }
 }

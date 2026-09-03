@@ -8,7 +8,13 @@
         "position": 216
       }
     ],
-    "frequency": [],
+    "frequency": [
+      {
+        "raw": "4시간마다",
+        "normalized": "q4h",
+        "position": 223
+      }
+    ],
     "device": [
       {
         "raw": "Foley",
@@ -16,7 +22,32 @@
         "position": 243
       }
     ],
-    "vital_sign": [],
+    "vital_sign": [
+      {
+        "raw": "혈압은 130/85",
+        "label": "bp",
+        "value": "130/85",
+        "position": 60
+      },
+      {
+        "raw": "심박수는 95",
+        "label": "hr",
+        "value": "95",
+        "position": 84
+      },
+      {
+        "raw": "호흡수는 18",
+        "label": "rr",
+        "value": "18",
+        "position": 99
+      },
+      {
+        "raw": "체온은 37.5",
+        "label": "bt",
+        "value": "37.5",
+        "position": 122
+      }
+    ],
     "dose": []
   },
   "whisper_entities": {
@@ -27,9 +58,40 @@
         "position": 196
       }
     ],
-    "frequency": [],
+    "frequency": [
+      {
+        "raw": "4시간마다",
+        "normalized": "q4h",
+        "position": 203
+      }
+    ],
     "device": [],
-    "vital_sign": [],
+    "vital_sign": [
+      {
+        "raw": "혈압은 130",
+        "label": "bp",
+        "value": "130",
+        "position": 58
+      },
+      {
+        "raw": "심박수는 95",
+        "label": "hr",
+        "value": "95",
+        "position": 79
+      },
+      {
+        "raw": "호흡수는 18",
+        "label": "rr",
+        "value": "18",
+        "position": 93
+      },
+      {
+        "raw": "체온은 37.56",
+        "label": "bt",
+        "value": "37.56",
+        "position": 114
+      }
+    ],
     "dose": []
   }
 }

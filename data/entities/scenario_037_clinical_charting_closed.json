@@ -59,12 +59,6 @@
         "value": "40",
         "unit": "mg",
         "position": 150
-      },
-      {
-        "raw": "2000 ml",
-        "value": "2000",
-        "unit": "ml",
-        "position": 178
       }
     ]
   },
@@ -86,25 +80,6 @@
         "position": 74
       }
     ],
-    "dose": [
-      {
-        "raw": "170mg",
-        "value": "170",
-        "unit": "mg",
-        "position": 77
-      },
-      {
-        "raw": "40mL",
-        "value": "40",
-        "unit": "ml",
-        "position": 138
-      },
-      {
-        "raw": "2000mL",
-        "value": "2000",
-        "unit": "ml",
-        "position": 161
-      }
-    ]
+    "dose": []
   }
 }

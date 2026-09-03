@@ -88,12 +88,6 @@
     "vital_sign": [],
     "dose": [
       {
-        "raw": "85mg",
-        "value": "85",
-        "unit": "mg",
-        "position": 49
-      },
-      {
         "raw": "6.5mg",
         "value": "6.5",
         "unit": "mg",

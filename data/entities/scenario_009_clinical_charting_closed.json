@@ -65,12 +65,6 @@
         "value": "4.5",
         "unit": "g",
         "position": 140
-      },
-      {
-        "raw": "3L/min",
-        "value": "3",
-        "unit": "l/min",
-        "position": 174
       }
     ]
   },
@@ -104,12 +98,6 @@
       }
     ],
     "dose": [
-      {
-        "raw": "8550mg",
-        "value": "8550",
-        "unit": "mg",
-        "position": 29
-      },
       {
         "raw": "5g",
         "value": "5",

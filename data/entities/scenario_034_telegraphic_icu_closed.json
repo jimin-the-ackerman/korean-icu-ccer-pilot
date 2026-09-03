@@ -60,12 +60,6 @@
         "value": "30",
         "unit": "ml",
         "position": 149
-      },
-      {
-        "raw": "2 L/min",
-        "value": "2",
-        "unit": "l/min",
-        "position": 178
       }
     ]
   },
@@ -87,13 +81,6 @@
         "position": 73
       }
     ],
-    "dose": [
-      {
-        "raw": "30ml",
-        "value": "30",
-        "unit": "ml",
-        "position": 121
-      }
-    ]
+    "dose": []
   }
 }

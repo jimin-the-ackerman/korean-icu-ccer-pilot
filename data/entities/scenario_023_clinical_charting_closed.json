@@ -89,12 +89,6 @@
     ],
     "dose": [
       {
-        "raw": "085 mg",
-        "value": "085",
-        "unit": "mg",
-        "position": 48
-      },
-      {
         "raw": "1g",
         "value": "1",
         "unit": "g",

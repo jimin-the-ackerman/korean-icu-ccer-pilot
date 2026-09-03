@@ -65,18 +65,6 @@
         "value": "100",
         "unit": "mg",
         "position": 157
-      },
-      {
-        "raw": "3 L/min",
-        "value": "3",
-        "unit": "l/min",
-        "position": 191
-      },
-      {
-        "raw": "500 ml",
-        "value": "500",
-        "unit": "ml",
-        "position": 240
       }
     ]
   },
@@ -110,12 +98,6 @@
         "value": "100",
         "unit": "mg",
         "position": 141
-      },
-      {
-        "raw": "500ml",
-        "value": "500",
-        "unit": "ml",
-        "position": 195
       }
     ]
   }

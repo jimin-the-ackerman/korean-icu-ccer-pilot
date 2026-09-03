@@ -65,12 +65,6 @@
         "value": "60",
         "unit": "mg",
         "position": 151
-      },
-      {
-        "raw": "3 L/min",
-        "value": "3",
-        "unit": "l/min",
-        "position": 181
       }
     ]
   },
@@ -104,19 +98,6 @@
         "position": 84
       }
     ],
-    "dose": [
-      {
-        "raw": "66mg",
-        "value": "66",
-        "unit": "mg",
-        "position": 36
-      },
-      {
-        "raw": "60mg",
-        "value": "60",
-        "unit": "mg",
-        "position": 134
-      }
-    ]
+    "dose": []
   }
 }

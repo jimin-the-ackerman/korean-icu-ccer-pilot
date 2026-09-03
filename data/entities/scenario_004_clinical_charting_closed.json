@@ -60,12 +60,6 @@
         "value": "4",
         "unit": "mg",
         "position": 156
-      },
-      {
-        "raw": "200 mL",
-        "value": "200",
-        "unit": "ml",
-        "position": 228
       }
     ]
   },
@@ -105,12 +99,6 @@
         "value": "4",
         "unit": "mg",
         "position": 148
-      },
-      {
-        "raw": "200ml",
-        "value": "200",
-        "unit": "ml",
-        "position": 213
       }
     ]
   }

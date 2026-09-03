@@ -25,9 +25,9 @@
     {
       "entity_type": "dose",
       "gold_value": "1000ml",
-      "whisper_value": "10ml",
-      "match_status": "error",
-      "error_type": "numeric_error"
+      "whisper_value": null,
+      "match_status": "omission",
+      "error_type": "omission"
     },
     {
       "entity_type": "vital_sign",

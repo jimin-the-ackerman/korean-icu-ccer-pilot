@@ -91,13 +91,6 @@
         "position": 19
       }
     ],
-    "dose": [
-      {
-        "raw": "500mg",
-        "value": "500",
-        "unit": "mg",
-        "position": 96
-      }
-    ]
+    "dose": []
   }
 }

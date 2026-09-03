@@ -10,7 +10,38 @@
     ],
     "frequency": [],
     "device": [],
-    "vital_sign": [],
+    "vital_sign": [
+      {
+        "raw": "혈압 145/90",
+        "label": "bp",
+        "value": "145/90",
+        "position": 39
+      },
+      {
+        "raw": "심박수 110",
+        "label": "hr",
+        "value": "110",
+        "position": 55
+      },
+      {
+        "raw": "호흡수 22",
+        "label": "rr",
+        "value": "22",
+        "position": 68
+      },
+      {
+        "raw": "체온 37.1",
+        "label": "bt",
+        "value": "37.1",
+        "position": 88
+      },
+      {
+        "raw": "산소포화도는 2",
+        "label": "spo2",
+        "value": "2",
+        "position": 100
+      }
+    ],
     "dose": [
       {
         "raw": "325 mg",
@@ -30,7 +61,32 @@
     ],
     "frequency": [],
     "device": [],
-    "vital_sign": [],
+    "vital_sign": [
+      {
+        "raw": "혈압 145",
+        "label": "bp",
+        "value": "145",
+        "position": 35
+      },
+      {
+        "raw": "심박수 110",
+        "label": "hr",
+        "value": "110",
+        "position": 50
+      },
+      {
+        "raw": "호흡수 20",
+        "label": "rr",
+        "value": "20",
+        "position": 62
+      },
+      {
+        "raw": "체온 37.1",
+        "label": "bt",
+        "value": "37.1",
+        "position": 74
+      }
+    ],
     "dose": [
       {
         "raw": "25mg",

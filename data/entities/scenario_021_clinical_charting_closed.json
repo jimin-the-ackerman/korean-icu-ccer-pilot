@@ -11,6 +11,11 @@
         "raw": "IV",
         "normalized": "iv",
         "position": 215
+      },
+      {
+        "raw": "근육",
+        "normalized": "im",
+        "position": 33
       }
     ],
     "frequency": [
@@ -79,9 +84,20 @@
         "raw": "IV",
         "normalized": "iv",
         "position": 159
+      },
+      {
+        "raw": "근육",
+        "normalized": "im",
+        "position": 24
       }
     ],
-    "frequency": [],
+    "frequency": [
+      {
+        "raw": "스탯",
+        "normalized": "stat",
+        "position": 151
+      }
+    ],
     "device": [
       {
         "raw": "C-LINE",
@@ -104,12 +120,6 @@
       }
     ],
     "dose": [
-      {
-        "raw": "85ml",
-        "value": "85",
-        "unit": "ml",
-        "position": 76
-      },
       {
         "raw": "10ml",
         "value": "10",

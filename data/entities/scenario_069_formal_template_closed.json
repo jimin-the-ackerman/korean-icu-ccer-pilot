@@ -1,17 +1,97 @@
 {
   "sample_id": "scenario_069_formal_template",
   "gold_entities": {
-    "route": [],
-    "frequency": [],
-    "device": [],
-    "vital_sign": [],
+    "route": [
+      {
+        "raw": "정맥 주사로",
+        "normalized": "iv",
+        "position": 179
+      }
+    ],
+    "frequency": [
+      {
+        "raw": "즉시",
+        "normalized": "stat",
+        "position": 186
+      }
+    ],
+    "device": [
+      {
+        "raw": "비강 캐뉼라",
+        "normalized": "nc",
+        "position": 200
+      }
+    ],
+    "vital_sign": [
+      {
+        "raw": "혈압 98/60",
+        "label": "bp",
+        "value": "98/60",
+        "position": 38
+      },
+      {
+        "raw": "심박수 45",
+        "label": "hr",
+        "value": "45",
+        "position": 53
+      },
+      {
+        "raw": "호흡수 8",
+        "label": "rr",
+        "value": "8",
+        "position": 65
+      },
+      {
+        "raw": "체온 36.5",
+        "label": "bt",
+        "value": "36.5",
+        "position": 84
+      }
+    ],
     "dose": []
   },
   "whisper_entities": {
-    "route": [],
-    "frequency": [],
+    "route": [
+      {
+        "raw": "정맥 주사로",
+        "normalized": "iv",
+        "position": 173
+      }
+    ],
+    "frequency": [
+      {
+        "raw": "즉시",
+        "normalized": "stat",
+        "position": 180
+      }
+    ],
     "device": [],
-    "vital_sign": [],
+    "vital_sign": [
+      {
+        "raw": "혈압 98",
+        "label": "bp",
+        "value": "98",
+        "position": 40
+      },
+      {
+        "raw": "심박수 45",
+        "label": "hr",
+        "value": "45",
+        "position": 53
+      },
+      {
+        "raw": "호흡수 8",
+        "label": "rr",
+        "value": "8",
+        "position": 64
+      },
+      {
+        "raw": "체온 36.556",
+        "label": "bt",
+        "value": "36.556",
+        "position": 82
+      }
+    ],
     "dose": []
   }
 }

@@ -59,12 +59,6 @@
         "value": "125",
         "unit": "mg",
         "position": 147
-      },
-      {
-        "raw": "100 mL",
-        "value": "100",
-        "unit": "ml",
-        "position": 196
       }
     ]
   },
@@ -86,22 +80,10 @@
     "vital_sign": [],
     "dose": [
       {
-        "raw": "7mg",
-        "value": "7",
-        "unit": "mg",
-        "position": 23
-      },
-      {
         "raw": "15mg",
         "value": "15",
         "unit": "mg",
         "position": 115
-      },
-      {
-        "raw": "100ml",
-        "value": "100",
-        "unit": "ml",
-        "position": 145
       }
     ]
   }

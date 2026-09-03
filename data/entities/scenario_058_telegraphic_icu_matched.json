@@ -32,9 +32,9 @@
     {
       "entity_type": "dose",
       "gold_value": "40mg",
-      "whisper_value": "40mg",
-      "match_status": "matched",
-      "error_type": null
+      "whisper_value": null,
+      "match_status": "omission",
+      "error_type": "omission"
     },
     {
       "entity_type": "vital_sign",

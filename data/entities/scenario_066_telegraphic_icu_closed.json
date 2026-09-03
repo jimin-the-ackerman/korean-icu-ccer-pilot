@@ -48,14 +48,7 @@
         "position": 66
       }
     ],
-    "dose": [
-      {
-        "raw": "1500 mL",
-        "value": "1500",
-        "unit": "ml",
-        "position": 169
-      }
-    ]
+    "dose": []
   },
   "whisper_entities": {
     "route": [

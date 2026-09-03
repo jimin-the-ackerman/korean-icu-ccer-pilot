@@ -18,30 +18,9 @@
     {
       "entity_type": "dose",
       "gold_value": "300mgkg",
-      "whisper_value": null,
-      "match_status": "omission",
-      "error_type": "omission"
-    },
-    {
-      "entity_type": "dose",
-      "gold_value": null,
-      "whisper_value": "170mg",
-      "match_status": "whisper_only",
-      "error_type": null
-    },
-    {
-      "entity_type": "dose",
-      "gold_value": null,
       "whisper_value": "100mg",
-      "match_status": "whisper_only",
-      "error_type": null
-    },
-    {
-      "entity_type": "dose",
-      "gold_value": null,
-      "whisper_value": "500mg",
-      "match_status": "whisper_only",
-      "error_type": null
+      "match_status": "error",
+      "error_type": "numeric_error"
     },
     {
       "entity_type": "vital_sign",

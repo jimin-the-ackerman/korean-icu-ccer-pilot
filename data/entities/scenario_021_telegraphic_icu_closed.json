@@ -69,8 +69,25 @@
     ]
   },
   "whisper_entities": {
-    "route": [],
-    "frequency": [],
+    "route": [
+      {
+        "raw": "아이비",
+        "normalized": "iv",
+        "position": 142
+      },
+      {
+        "raw": "아이비",
+        "normalized": "iv",
+        "position": 150
+      }
+    ],
+    "frequency": [
+      {
+        "raw": "스탯",
+        "normalized": "stat",
+        "position": 146
+      }
+    ],
     "device": [],
     "vital_sign": [
       {

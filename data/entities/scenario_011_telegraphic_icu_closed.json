@@ -65,12 +65,6 @@
         "value": "30",
         "unit": "ml",
         "position": 102
-      },
-      {
-        "raw": "2 L/min",
-        "value": "2",
-        "unit": "l/min",
-        "position": 132
       }
     ]
   },
@@ -79,13 +73,6 @@
     "frequency": [],
     "device": [],
     "vital_sign": [],
-    "dose": [
-      {
-        "raw": "36mg",
-        "value": "36",
-        "unit": "mg",
-        "position": 63
-      }
-    ]
+    "dose": []
   }
 }

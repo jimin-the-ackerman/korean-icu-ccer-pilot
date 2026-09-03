@@ -14,9 +14,39 @@
         "raw": "Foley",
         "normalized": "foley",
         "position": 255
+      },
+      {
+        "raw": "비강 캐뉼라",
+        "normalized": "nc",
+        "position": 204
       }
     ],
-    "vital_sign": [],
+    "vital_sign": [
+      {
+        "raw": "혈압 88/54",
+        "label": "bp",
+        "value": "88/54",
+        "position": 56
+      },
+      {
+        "raw": "심박수 112",
+        "label": "hr",
+        "value": "112",
+        "position": 71
+      },
+      {
+        "raw": "호흡수 24",
+        "label": "rr",
+        "value": "24",
+        "position": 84
+      },
+      {
+        "raw": "체온 37.0",
+        "label": "bt",
+        "value": "37.0",
+        "position": 104
+      }
+    ],
     "dose": [
       {
         "raw": "100 mg",
@@ -36,7 +66,32 @@
     ],
     "frequency": [],
     "device": [],
-    "vital_sign": [],
+    "vital_sign": [
+      {
+        "raw": "혈압 88",
+        "label": "bp",
+        "value": "88",
+        "position": 48
+      },
+      {
+        "raw": "심박수 162",
+        "label": "hr",
+        "value": "162",
+        "position": 62
+      },
+      {
+        "raw": "호흡수 24",
+        "label": "rr",
+        "value": "24",
+        "position": 74
+      },
+      {
+        "raw": "체온 37.0",
+        "label": "bt",
+        "value": "37.0",
+        "position": 89
+      }
+    ],
     "dose": [
       {
         "raw": "100mg",

@@ -93,13 +93,6 @@
         "position": 79
       }
     ],
-    "dose": [
-      {
-        "raw": "60mg",
-        "value": "60",
-        "unit": "mg",
-        "position": 44
-      }
-    ]
+    "dose": []
   }
 }

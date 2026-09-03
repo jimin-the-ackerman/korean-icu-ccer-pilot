@@ -65,12 +65,6 @@
         "value": "80",
         "unit": "mg",
         "position": 140
-      },
-      {
-        "raw": "2 L/min",
-        "value": "2",
-        "unit": "l/min",
-        "position": 171
       }
     ]
   },
@@ -105,12 +99,6 @@
       }
     ],
     "dose": [
-      {
-        "raw": "85.5mL",
-        "value": "85.5",
-        "unit": "ml",
-        "position": 30
-      },
       {
         "raw": "80mg",
         "value": "80",

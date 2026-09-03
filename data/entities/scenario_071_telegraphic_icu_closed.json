@@ -69,7 +69,13 @@
     ]
   },
   "whisper_entities": {
-    "route": [],
+    "route": [
+      {
+        "raw": "근육",
+        "normalized": "im",
+        "position": 78
+      }
+    ],
     "frequency": [],
     "device": [],
     "vital_sign": [],

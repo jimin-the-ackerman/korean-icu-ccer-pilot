@@ -32,23 +32,9 @@
     {
       "entity_type": "dose",
       "gold_value": "10mcgmin",
-      "whisper_value": null,
-      "match_status": "omission",
-      "error_type": "omission"
-    },
-    {
-      "entity_type": "dose",
-      "gold_value": null,
-      "whisper_value": "130mg",
-      "match_status": "whisper_only",
-      "error_type": null
-    },
-    {
-      "entity_type": "dose",
-      "gold_value": null,
       "whisper_value": "10mg",
-      "match_status": "whisper_only",
-      "error_type": null
+      "match_status": "error",
+      "error_type": "unit_error"
     },
     {
       "entity_type": "vital_sign",
@@ -62,25 +48,25 @@
       "entity_type": "vital_sign",
       "label": "hr",
       "gold_value": "110 bpm",
-      "whisper_value": null,
-      "match_status": "omission",
-      "error_type": "omission"
+      "whisper_value": "110",
+      "match_status": "error",
+      "error_type": "numeric_error"
     },
     {
       "entity_type": "vital_sign",
       "label": "rr",
       "gold_value": "28 breaths/min",
-      "whisper_value": null,
-      "match_status": "omission",
-      "error_type": "omission"
+      "whisper_value": "28",
+      "match_status": "error",
+      "error_type": "numeric_error"
     },
     {
       "entity_type": "vital_sign",
       "label": "bt",
       "gold_value": "36.7°C",
-      "whisper_value": null,
-      "match_status": "omission",
-      "error_type": "omission"
+      "whisper_value": "36.75",
+      "match_status": "error",
+      "error_type": "numeric_error"
     },
     {
       "entity_type": "vital_sign",

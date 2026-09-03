@@ -65,17 +65,17 @@
         "value": "2",
         "unit": "g",
         "position": 125
-      },
-      {
-        "raw": "2 L/min",
-        "value": "2",
-        "unit": "l/min",
-        "position": 142
       }
     ]
   },
   "whisper_entities": {
-    "route": [],
+    "route": [
+      {
+        "raw": "아이비",
+        "normalized": "iv",
+        "position": 101
+      }
+    ],
     "frequency": [],
     "device": [],
     "vital_sign": [],

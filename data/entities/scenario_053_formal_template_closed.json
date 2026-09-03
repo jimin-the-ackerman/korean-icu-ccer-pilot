@@ -1,24 +1,112 @@
 {
   "sample_id": "scenario_053_formal_template",
   "gold_entities": {
-    "route": [],
+    "route": [
+      {
+        "raw": "경구로",
+        "normalized": "po",
+        "position": 201
+      }
+    ],
     "frequency": [],
-    "device": [],
-    "vital_sign": [],
+    "device": [
+      {
+        "raw": "인공호흡기",
+        "normalized": "ventilator",
+        "position": 225
+      },
+      {
+        "raw": "인공호흡기",
+        "normalized": "ventilator",
+        "position": 256
+      },
+      {
+        "raw": "인공호흡기",
+        "normalized": "ventilator",
+        "position": 304
+      }
+    ],
+    "vital_sign": [
+      {
+        "raw": "혈압이 135/85",
+        "label": "bp",
+        "value": "135/85",
+        "position": 65
+      },
+      {
+        "raw": "심박수가 105",
+        "label": "hr",
+        "value": "105",
+        "position": 82
+      },
+      {
+        "raw": "호흡수가 28",
+        "label": "rr",
+        "value": "28",
+        "position": 96
+      },
+      {
+        "raw": "체온이 37.6",
+        "label": "bt",
+        "value": "37.6",
+        "position": 117
+      }
+    ],
     "dose": []
   },
   "whisper_entities": {
-    "route": [],
-    "frequency": [],
-    "device": [],
-    "vital_sign": [],
-    "dose": [
+    "route": [
       {
-        "raw": "85mg",
-        "value": "85",
-        "unit": "mg",
-        "position": 73
+        "raw": "경구로",
+        "normalized": "po",
+        "position": 180
+      }
+    ],
+    "frequency": [],
+    "device": [
+      {
+        "raw": "인공호흡기",
+        "normalized": "ventilator",
+        "position": 204
       },
+      {
+        "raw": "인공호흡기",
+        "normalized": "ventilator",
+        "position": 229
+      },
+      {
+        "raw": "인공호흡기",
+        "normalized": "ventilator",
+        "position": 276
+      }
+    ],
+    "vital_sign": [
+      {
+        "raw": "혈압이 135",
+        "label": "bp",
+        "value": "135",
+        "position": 64
+      },
+      {
+        "raw": "심박수가 105",
+        "label": "hr",
+        "value": "105",
+        "position": 79
+      },
+      {
+        "raw": "호흡수가 28",
+        "label": "rr",
+        "value": "28",
+        "position": 92
+      },
+      {
+        "raw": "체온이 37.66",
+        "label": "bt",
+        "value": "37.66",
+        "position": 104
+      }
+    ],
+    "dose": [
       {
         "raw": "40mg",
         "value": "40",

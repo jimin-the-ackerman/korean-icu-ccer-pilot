@@ -1,10 +1,63 @@
 {
   "sample_id": "scenario_027_formal_template",
   "gold_entities": {
-    "route": [],
-    "frequency": [],
+    "route": [
+      {
+        "raw": "정맥으로",
+        "normalized": "iv",
+        "position": 159
+      },
+      {
+        "raw": "정맥 수액",
+        "normalized": "iv",
+        "position": 196
+      },
+      {
+        "raw": "피하",
+        "normalized": "sc",
+        "position": 174
+      }
+    ],
+    "frequency": [
+      {
+        "raw": "즉시",
+        "normalized": "stat",
+        "position": 164
+      }
+    ],
     "device": [],
-    "vital_sign": [],
+    "vital_sign": [
+      {
+        "raw": "혈압 160/90",
+        "label": "bp",
+        "value": "160/90",
+        "position": 42
+      },
+      {
+        "raw": "심박수 88",
+        "label": "hr",
+        "value": "88",
+        "position": 58
+      },
+      {
+        "raw": "호흡수 18",
+        "label": "rr",
+        "value": "18",
+        "position": 70
+      },
+      {
+        "raw": "체온 37.2",
+        "label": "bt",
+        "value": "37.2",
+        "position": 82
+      },
+      {
+        "raw": "산소포화도 95%",
+        "label": "spo2",
+        "value": "95%",
+        "position": 93
+      }
+    ],
     "dose": [
       {
         "raw": "0.9 mg",
@@ -15,17 +68,58 @@
     ]
   },
   "whisper_entities": {
-    "route": [],
-    "frequency": [],
-    "device": [],
-    "vital_sign": [],
-    "dose": [
+    "route": [
       {
-        "raw": "160mg",
-        "value": "160",
-        "unit": "mg",
-        "position": 45
+        "raw": "정맥으로",
+        "normalized": "iv",
+        "position": 148
+      },
+      {
+        "raw": "정맥 수액",
+        "normalized": "iv",
+        "position": 184
       }
-    ]
+    ],
+    "frequency": [
+      {
+        "raw": "즉시",
+        "normalized": "stat",
+        "position": 153
+      }
+    ],
+    "device": [],
+    "vital_sign": [
+      {
+        "raw": "혈압 160",
+        "label": "bp",
+        "value": "160",
+        "position": 42
+      },
+      {
+        "raw": "심박수 88",
+        "label": "hr",
+        "value": "88",
+        "position": 52
+      },
+      {
+        "raw": "호흡수 18",
+        "label": "rr",
+        "value": "18",
+        "position": 63
+      },
+      {
+        "raw": "체온 37.2",
+        "label": "bt",
+        "value": "37.2",
+        "position": 73
+      },
+      {
+        "raw": "산소포화도 95%",
+        "label": "spo2",
+        "value": "95%",
+        "position": 84
+      }
+    ],
+    "dose": []
   }
 }

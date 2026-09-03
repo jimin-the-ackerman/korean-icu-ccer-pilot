@@ -6,6 +6,11 @@
         "raw": "IV",
         "normalized": "iv",
         "position": 207
+      },
+      {
+        "raw": "경구",
+        "normalized": "po",
+        "position": 235
       }
     ],
     "frequency": [
@@ -16,7 +21,32 @@
       }
     ],
     "device": [],
-    "vital_sign": [],
+    "vital_sign": [
+      {
+        "raw": "혈압 118/76",
+        "label": "bp",
+        "value": "118/76",
+        "position": 81
+      },
+      {
+        "raw": "심박수 98",
+        "label": "hr",
+        "value": "98",
+        "position": 97
+      },
+      {
+        "raw": "호흡수 28",
+        "label": "rr",
+        "value": "28",
+        "position": 109
+      },
+      {
+        "raw": "체온 37.5",
+        "label": "bt",
+        "value": "37.5",
+        "position": 129
+      }
+    ],
     "dose": [
       {
         "raw": "0.4 g",
@@ -30,7 +60,32 @@
     "route": [],
     "frequency": [],
     "device": [],
-    "vital_sign": [],
+    "vital_sign": [
+      {
+        "raw": "혈압 128.76",
+        "label": "bp",
+        "value": "128.76",
+        "position": 63
+      },
+      {
+        "raw": "심박수 98",
+        "label": "hr",
+        "value": "98",
+        "position": 77
+      },
+      {
+        "raw": "호흡수 28",
+        "label": "rr",
+        "value": "28",
+        "position": 88
+      },
+      {
+        "raw": "체온 37.5",
+        "label": "bt",
+        "value": "37.5",
+        "position": 100
+      }
+    ],
     "dose": []
   }
 }

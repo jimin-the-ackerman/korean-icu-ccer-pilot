@@ -65,12 +65,6 @@
         "value": "500",
         "unit": "mg",
         "position": 161
-      },
-      {
-        "raw": "2L/min",
-        "value": "2",
-        "unit": "l/min",
-        "position": 192
       }
     ]
   },
@@ -92,19 +86,6 @@
         "position": 51
       }
     ],
-    "dose": [
-      {
-        "raw": "500mg",
-        "value": "500",
-        "unit": "mg",
-        "position": 106
-      },
-      {
-        "raw": "2mL",
-        "value": "2",
-        "unit": "ml",
-        "position": 127
-      }
-    ]
+    "dose": []
   }
 }

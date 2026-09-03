@@ -1,17 +1,107 @@
 {
   "sample_id": "scenario_019_formal_template",
   "gold_entities": {
-    "route": [],
-    "frequency": [],
-    "device": [],
-    "vital_sign": [],
+    "route": [
+      {
+        "raw": "정맥 내",
+        "normalized": "iv",
+        "position": 228
+      },
+      {
+        "raw": "근육주사",
+        "normalized": "im",
+        "position": 181
+      }
+    ],
+    "frequency": [
+      {
+        "raw": "즉시",
+        "normalized": "stat",
+        "position": 187
+      }
+    ],
+    "device": [
+      {
+        "raw": "비강 캐뉼라",
+        "normalized": "nc",
+        "position": 201
+      }
+    ],
+    "vital_sign": [
+      {
+        "raw": "혈압 85/50",
+        "label": "bp",
+        "value": "85/50",
+        "position": 57
+      },
+      {
+        "raw": "심박수 120",
+        "label": "hr",
+        "value": "120",
+        "position": 72
+      },
+      {
+        "raw": "호흡수 28",
+        "label": "rr",
+        "value": "28",
+        "position": 85
+      },
+      {
+        "raw": "체온 36.8",
+        "label": "bt",
+        "value": "36.8",
+        "position": 105
+      }
+    ],
     "dose": []
   },
   "whisper_entities": {
-    "route": [],
-    "frequency": [],
+    "route": [
+      {
+        "raw": "정맥 내",
+        "normalized": "iv",
+        "position": 208
+      },
+      {
+        "raw": "근육주사",
+        "normalized": "im",
+        "position": 162
+      }
+    ],
+    "frequency": [
+      {
+        "raw": "즉시",
+        "normalized": "stat",
+        "position": 168
+      }
+    ],
     "device": [],
-    "vital_sign": [],
+    "vital_sign": [
+      {
+        "raw": "혈압 85",
+        "label": "bp",
+        "value": "85",
+        "position": 52
+      },
+      {
+        "raw": "심박수 120",
+        "label": "hr",
+        "value": "120",
+        "position": 65
+      },
+      {
+        "raw": "호흡수 28",
+        "label": "rr",
+        "value": "28",
+        "position": 77
+      },
+      {
+        "raw": "체온 36.89",
+        "label": "bt",
+        "value": "36.89",
+        "position": 88
+      }
+    ],
     "dose": []
   }
 }

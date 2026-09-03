@@ -8,7 +8,13 @@
         "position": 167
       }
     ],
-    "frequency": [],
+    "frequency": [
+      {
+        "raw": "8시간마다",
+        "normalized": "q8h",
+        "position": 174
+      }
+    ],
     "device": [
       {
         "raw": "Foley",
@@ -16,7 +22,38 @@
         "position": 228
       }
     ],
-    "vital_sign": [],
+    "vital_sign": [
+      {
+        "raw": "혈압 95/60",
+        "label": "bp",
+        "value": "95/60",
+        "position": 37
+      },
+      {
+        "raw": "심박수 110",
+        "label": "hr",
+        "value": "110",
+        "position": 52
+      },
+      {
+        "raw": "호흡수 22",
+        "label": "rr",
+        "value": "22",
+        "position": 65
+      },
+      {
+        "raw": "체온 37.5",
+        "label": "bt",
+        "value": "37.5",
+        "position": 85
+      },
+      {
+        "raw": "산소포화도 92%",
+        "label": "spo2",
+        "value": "92%",
+        "position": 96
+      }
+    ],
     "dose": []
   },
   "whisper_entities": {
@@ -27,9 +64,52 @@
         "position": 145
       }
     ],
-    "frequency": [],
-    "device": [],
-    "vital_sign": [],
+    "frequency": [
+      {
+        "raw": "8시간마다",
+        "normalized": "q8h",
+        "position": 152
+      }
+    ],
+    "device": [
+      {
+        "raw": "폴리 카테터",
+        "normalized": "foley",
+        "position": 197
+      }
+    ],
+    "vital_sign": [
+      {
+        "raw": "혈압 95",
+        "label": "bp",
+        "value": "95",
+        "position": 38
+      },
+      {
+        "raw": "심박수 112",
+        "label": "hr",
+        "value": "112",
+        "position": 53
+      },
+      {
+        "raw": "호흡수 22",
+        "label": "rr",
+        "value": "22",
+        "position": 65
+      },
+      {
+        "raw": "체온 37",
+        "label": "bt",
+        "value": "37",
+        "position": 76
+      },
+      {
+        "raw": "산소포화도 92",
+        "label": "spo2",
+        "value": "92",
+        "position": 84
+      }
+    ],
     "dose": []
   }
 }

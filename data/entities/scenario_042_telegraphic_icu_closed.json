@@ -53,26 +53,7 @@
         "position": 123
       }
     ],
-    "dose": [
-      {
-        "raw": "1000 mL",
-        "value": "1000",
-        "unit": "ml",
-        "position": 171
-      },
-      {
-        "raw": "200 mL",
-        "value": "200",
-        "unit": "ml",
-        "position": 224
-      },
-      {
-        "raw": "30 mL",
-        "value": "30",
-        "unit": "ml",
-        "position": 252
-      }
-    ]
+    "dose": []
   },
   "whisper_entities": {
     "route": [
@@ -121,12 +102,6 @@
         "value": "2",
         "unit": "mg",
         "position": 60
-      },
-      {
-        "raw": "1000 ml",
-        "value": "1000",
-        "unit": "ml",
-        "position": 147
       }
     ]
   }

@@ -81,7 +81,13 @@
         "position": 161
       }
     ],
-    "frequency": [],
+    "frequency": [
+      {
+        "raw": "스탯",
+        "normalized": "stat",
+        "position": 141
+      }
+    ],
     "device": [
       {
         "raw": "C-Line",

@@ -18,9 +18,9 @@
     {
       "entity_type": "frequency",
       "gold_value": "stat",
-      "whisper_value": null,
-      "match_status": "omission",
-      "error_type": "omission"
+      "whisper_value": "stat",
+      "match_status": "matched",
+      "error_type": null
     },
     {
       "entity_type": "device",

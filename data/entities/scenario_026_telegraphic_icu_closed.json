@@ -60,12 +60,6 @@
         "value": "750",
         "unit": "mg",
         "position": 145
-      },
-      {
-        "raw": "60 L/min",
-        "value": "60",
-        "unit": "l/min",
-        "position": 168
       }
     ]
   },
@@ -80,13 +74,6 @@
       }
     ],
     "vital_sign": [],
-    "dose": [
-      {
-        "raw": "70mg",
-        "value": "70",
-        "unit": "mg",
-        "position": 124
-      }
-    ]
+    "dose": []
   }
 }

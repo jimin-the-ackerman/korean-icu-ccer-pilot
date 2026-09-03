@@ -6,6 +6,16 @@
         "raw": "IV",
         "normalized": "iv",
         "position": 253
+      },
+      {
+        "raw": "근육",
+        "normalized": "im",
+        "position": 62
+      },
+      {
+        "raw": "근육",
+        "normalized": "im",
+        "position": 211
       }
     ],
     "frequency": [],
@@ -19,9 +29,39 @@
         "raw": "nasal cannula",
         "normalized": "nc",
         "position": 286
+      },
+      {
+        "raw": "인공호흡기",
+        "normalized": "ventilator",
+        "position": 356
       }
     ],
-    "vital_sign": [],
+    "vital_sign": [
+      {
+        "raw": "혈압은 130/85",
+        "label": "bp",
+        "value": "130/85",
+        "position": 95
+      },
+      {
+        "raw": "심박수는 92",
+        "label": "hr",
+        "value": "92",
+        "position": 119
+      },
+      {
+        "raw": "호흡수는 18",
+        "label": "rr",
+        "value": "18",
+        "position": 132
+      },
+      {
+        "raw": "체온은 36.8",
+        "label": "bt",
+        "value": "36.8",
+        "position": 153
+      }
+    ],
     "dose": [
       {
         "raw": "0.4 g",
@@ -32,16 +72,57 @@
     ]
   },
   "whisper_entities": {
-    "route": [],
+    "route": [
+      {
+        "raw": "근육",
+        "normalized": "im",
+        "position": 43
+      },
+      {
+        "raw": "근육",
+        "normalized": "im",
+        "position": 175
+      }
+    ],
     "frequency": [],
     "device": [
       {
         "raw": "Foley",
         "normalized": "foley",
         "position": 329
+      },
+      {
+        "raw": "인공호흡기",
+        "normalized": "ventilator",
+        "position": 309
       }
     ],
-    "vital_sign": [],
+    "vital_sign": [
+      {
+        "raw": "혈압은 130",
+        "label": "bp",
+        "value": "130",
+        "position": 74
+      },
+      {
+        "raw": "심박수는 92",
+        "label": "hr",
+        "value": "92",
+        "position": 95
+      },
+      {
+        "raw": "호흡수는 18",
+        "label": "rr",
+        "value": "18",
+        "position": 107
+      },
+      {
+        "raw": "체온은 36.8",
+        "label": "bt",
+        "value": "36.8",
+        "position": 119
+      }
+    ],
     "dose": [
       {
         "raw": "0.4g",

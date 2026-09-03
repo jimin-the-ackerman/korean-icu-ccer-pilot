@@ -6,11 +6,41 @@
         "raw": "IV",
         "normalized": "iv",
         "position": 221
+      },
+      {
+        "raw": "정맥으로",
+        "normalized": "iv",
+        "position": 175
       }
     ],
     "frequency": [],
     "device": [],
-    "vital_sign": [],
+    "vital_sign": [
+      {
+        "raw": "혈압 138/85",
+        "label": "bp",
+        "value": "138/85",
+        "position": 45
+      },
+      {
+        "raw": "심박수 110",
+        "label": "hr",
+        "value": "110",
+        "position": 61
+      },
+      {
+        "raw": "호흡수 22",
+        "label": "rr",
+        "value": "22",
+        "position": 74
+      },
+      {
+        "raw": "체온 37.8",
+        "label": "bt",
+        "value": "37.8",
+        "position": 86
+      }
+    ],
     "dose": []
   },
   "whisper_entities": {
@@ -19,18 +49,41 @@
         "raw": "IV",
         "normalized": "iv",
         "position": 222
+      },
+      {
+        "raw": "정맥으로",
+        "normalized": "iv",
+        "position": 177
       }
     ],
     "frequency": [],
     "device": [],
-    "vital_sign": [],
-    "dose": [
+    "vital_sign": [
       {
-        "raw": "85mg",
-        "value": "85",
-        "unit": "mg",
-        "position": 54
+        "raw": "혈압 138",
+        "label": "bp",
+        "value": "138",
+        "position": 47
+      },
+      {
+        "raw": "심박수 120",
+        "label": "hr",
+        "value": "120",
+        "position": 60
+      },
+      {
+        "raw": "호흡수 22",
+        "label": "rr",
+        "value": "22",
+        "position": 72
+      },
+      {
+        "raw": "체온 37.8",
+        "label": "bt",
+        "value": "37.8",
+        "position": 82
       }
-    ]
+    ],
+    "dose": []
   }
 }

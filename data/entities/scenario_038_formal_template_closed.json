@@ -1,17 +1,102 @@
 {
   "sample_id": "scenario_038_formal_template",
   "gold_entities": {
-    "route": [],
+    "route": [
+      {
+        "raw": "경구로",
+        "normalized": "po",
+        "position": 229
+      },
+      {
+        "raw": "근육",
+        "normalized": "im",
+        "position": 160
+      }
+    ],
     "frequency": [],
     "device": [],
-    "vital_sign": [],
+    "vital_sign": [
+      {
+        "raw": "혈압은 135/85",
+        "label": "bp",
+        "value": "135/85",
+        "position": 57
+      },
+      {
+        "raw": "심박수는 92",
+        "label": "hr",
+        "value": "92",
+        "position": 74
+      },
+      {
+        "raw": "호흡수는 28",
+        "label": "rr",
+        "value": "28",
+        "position": 87
+      },
+      {
+        "raw": "체온은 37.0",
+        "label": "bt",
+        "value": "37.0",
+        "position": 100
+      },
+      {
+        "raw": "산소포화도는 88%",
+        "label": "spo2",
+        "value": "88%",
+        "position": 119
+      }
+    ],
     "dose": []
   },
   "whisper_entities": {
-    "route": [],
-    "frequency": [],
+    "route": [
+      {
+        "raw": "근육",
+        "normalized": "im",
+        "position": 155
+      }
+    ],
+    "frequency": [
+      {
+        "raw": "하루 4번",
+        "normalized": "qid",
+        "position": 227
+      }
+    ],
     "device": [],
-    "vital_sign": [],
+    "vital_sign": [
+      {
+        "raw": "혈압은 135",
+        "label": "bp",
+        "value": "135",
+        "position": 56
+      },
+      {
+        "raw": "심박수는 92",
+        "label": "hr",
+        "value": "92",
+        "position": 72
+      },
+      {
+        "raw": "호흡수는 28",
+        "label": "rr",
+        "value": "28",
+        "position": 84
+      },
+      {
+        "raw": "체온은 37.0",
+        "label": "bt",
+        "value": "37.0",
+        "position": 96
+      },
+      {
+        "raw": "산소포화도는 88%",
+        "label": "spo2",
+        "value": "88%",
+        "position": 115
+      }
+    ],
     "dose": []
   }
 }

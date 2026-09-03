@@ -71,7 +71,13 @@
         "position": 128
       }
     ],
-    "frequency": [],
+    "frequency": [
+      {
+        "raw": "q4 h",
+        "normalized": "q4h",
+        "position": 131
+      }
+    ],
     "device": [],
     "vital_sign": [
       {

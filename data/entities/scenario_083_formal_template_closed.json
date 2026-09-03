@@ -4,21 +4,82 @@
     "route": [],
     "frequency": [],
     "device": [],
-    "vital_sign": [],
+    "vital_sign": [
+      {
+        "raw": "혈압 160/90",
+        "label": "bp",
+        "value": "160/90",
+        "position": 50
+      },
+      {
+        "raw": "심박수 110",
+        "label": "hr",
+        "value": "110",
+        "position": 66
+      },
+      {
+        "raw": "호흡수 28",
+        "label": "rr",
+        "value": "28",
+        "position": 79
+      },
+      {
+        "raw": "체온 37.2",
+        "label": "bt",
+        "value": "37.2",
+        "position": 91
+      },
+      {
+        "raw": "산소포화도 88%",
+        "label": "spo2",
+        "value": "88%",
+        "position": 102
+      }
+    ],
     "dose": []
   },
   "whisper_entities": {
     "route": [],
-    "frequency": [],
-    "device": [],
-    "vital_sign": [],
-    "dose": [
+    "frequency": [
       {
-        "raw": "160mg",
-        "value": "160",
-        "unit": "mg",
-        "position": 52
+        "raw": "6시간마다",
+        "normalized": "q6h",
+        "position": 154
       }
-    ]
+    ],
+    "device": [],
+    "vital_sign": [
+      {
+        "raw": "혈압 160",
+        "label": "bp",
+        "value": "160",
+        "position": 49
+      },
+      {
+        "raw": "심박수 110",
+        "label": "hr",
+        "value": "110",
+        "position": 59
+      },
+      {
+        "raw": "호흡수 28",
+        "label": "rr",
+        "value": "28",
+        "position": 71
+      },
+      {
+        "raw": "체온 37.2",
+        "label": "bt",
+        "value": "37.2",
+        "position": 81
+      },
+      {
+        "raw": "산소포화도 88%",
+        "label": "spo2",
+        "value": "88%",
+        "position": 92
+      }
+    ],
+    "dose": []
   }
 }

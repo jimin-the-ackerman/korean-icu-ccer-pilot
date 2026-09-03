@@ -60,12 +60,6 @@
         "value": "2.5",
         "unit": "mg",
         "position": 134
-      },
-      {
-        "raw": "500 ml",
-        "value": "500",
-        "unit": "ml",
-        "position": 200
       }
     ]
   },

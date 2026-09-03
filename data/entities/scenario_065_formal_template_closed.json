@@ -8,23 +8,78 @@
         "position": 233
       }
     ],
-    "frequency": [],
+    "frequency": [
+      {
+        "raw": "6시간마다",
+        "normalized": "q6h",
+        "position": 205
+      }
+    ],
     "device": [],
-    "vital_sign": [],
+    "vital_sign": [
+      {
+        "raw": "혈압이 110/70",
+        "label": "bp",
+        "value": "110/70",
+        "position": 54
+      },
+      {
+        "raw": "심박수가 88",
+        "label": "hr",
+        "value": "88",
+        "position": 71
+      },
+      {
+        "raw": "호흡수가 20",
+        "label": "rr",
+        "value": "20",
+        "position": 84
+      },
+      {
+        "raw": "체온이 38.5",
+        "label": "bt",
+        "value": "38.5",
+        "position": 105
+      }
+    ],
     "dose": []
   },
   "whisper_entities": {
     "route": [],
-    "frequency": [],
-    "device": [],
-    "vital_sign": [],
-    "dose": [
+    "frequency": [
       {
-        "raw": "170mg",
-        "value": "170",
-        "unit": "mg",
-        "position": 53
+        "raw": "6시간마다",
+        "normalized": "q6h",
+        "position": 170
       }
-    ]
+    ],
+    "device": [],
+    "vital_sign": [
+      {
+        "raw": "혈압이 170",
+        "label": "bp",
+        "value": "170",
+        "position": 49
+      },
+      {
+        "raw": "심박수가 88",
+        "label": "hr",
+        "value": "88",
+        "position": 60
+      },
+      {
+        "raw": "호흡수가 20",
+        "label": "rr",
+        "value": "20",
+        "position": 72
+      },
+      {
+        "raw": "체온이 38.5",
+        "label": "bt",
+        "value": "38.5",
+        "position": 84
+      }
+    ],
+    "dose": []
   }
 }

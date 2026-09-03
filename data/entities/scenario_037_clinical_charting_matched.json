@@ -23,27 +23,6 @@
       "error_type": "omission"
     },
     {
-      "entity_type": "dose",
-      "gold_value": null,
-      "whisper_value": "170mg",
-      "match_status": "whisper_only",
-      "error_type": null
-    },
-    {
-      "entity_type": "dose",
-      "gold_value": null,
-      "whisper_value": "40ml",
-      "match_status": "whisper_only",
-      "error_type": null
-    },
-    {
-      "entity_type": "dose",
-      "gold_value": null,
-      "whisper_value": "2000ml",
-      "match_status": "whisper_only",
-      "error_type": null
-    },
-    {
       "entity_type": "vital_sign",
       "label": "bp",
       "gold_value": "110/70",

@@ -9,22 +9,71 @@
         "position": 181
       }
     ],
-    "device": [],
-    "vital_sign": [],
+    "device": [
+      {
+        "raw": "비강 캐뉼라",
+        "normalized": "nc",
+        "position": 205
+      }
+    ],
+    "vital_sign": [
+      {
+        "raw": "혈압은 130/85",
+        "label": "bp",
+        "value": "130/85",
+        "position": 44
+      },
+      {
+        "raw": "심박수는 110",
+        "label": "hr",
+        "value": "110",
+        "position": 61
+      },
+      {
+        "raw": "호흡수는 28",
+        "label": "rr",
+        "value": "28",
+        "position": 75
+      },
+      {
+        "raw": "체온은 37.2",
+        "label": "bt",
+        "value": "37.2",
+        "position": 96
+      }
+    ],
     "dose": []
   },
   "whisper_entities": {
     "route": [],
     "frequency": [],
     "device": [],
-    "vital_sign": [],
-    "dose": [
+    "vital_sign": [
       {
-        "raw": "85mg",
-        "value": "85",
-        "unit": "mg",
-        "position": 53
+        "raw": "혈압은 130",
+        "label": "bp",
+        "value": "130",
+        "position": 45
+      },
+      {
+        "raw": "심박수는 110",
+        "label": "hr",
+        "value": "110",
+        "position": 59
+      },
+      {
+        "raw": "호흡수는 28",
+        "label": "rr",
+        "value": "28",
+        "position": 72
+      },
+      {
+        "raw": "체온은 37.27",
+        "label": "bt",
+        "value": "37.27",
+        "position": 84
       }
-    ]
+    ],
+    "dose": []
   }
 }

@@ -74,13 +74,6 @@
       }
     ],
     "vital_sign": [],
-    "dose": [
-      {
-        "raw": "40mL",
-        "value": "40",
-        "unit": "ml",
-        "position": 142
-      }
-    ]
+    "dose": []
   }
 }

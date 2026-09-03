@@ -14,9 +14,50 @@
         "raw": "Foley",
         "normalized": "foley",
         "position": 249
+      },
+      {
+        "raw": "비강 캐뉼라",
+        "normalized": "nc",
+        "position": 124
+      },
+      {
+        "raw": "비강 캐뉼라",
+        "normalized": "nc",
+        "position": 210
       }
     ],
-    "vital_sign": [],
+    "vital_sign": [
+      {
+        "raw": "혈압 88/56",
+        "label": "bp",
+        "value": "88/56",
+        "position": 44
+      },
+      {
+        "raw": "심박수 112",
+        "label": "hr",
+        "value": "112",
+        "position": 59
+      },
+      {
+        "raw": "호흡수 22",
+        "label": "rr",
+        "value": "22",
+        "position": 72
+      },
+      {
+        "raw": "체온 36.8",
+        "label": "bt",
+        "value": "36.8",
+        "position": 92
+      },
+      {
+        "raw": "산소포화도는 2",
+        "label": "spo2",
+        "value": "2",
+        "position": 110
+      }
+    ],
     "dose": []
   },
   "whisper_entities": {
@@ -35,14 +76,32 @@
         "position": 233
       }
     ],
-    "vital_sign": [],
-    "dose": [
+    "vital_sign": [
       {
-        "raw": "888mg",
+        "raw": "혈압 888",
+        "label": "bp",
         "value": "888",
-        "unit": "mg",
-        "position": 46
+        "position": 43
+      },
+      {
+        "raw": "심박수 22",
+        "label": "hr",
+        "value": "22",
+        "position": 53
+      },
+      {
+        "raw": "호흡수 22",
+        "label": "rr",
+        "value": "22",
+        "position": 64
+      },
+      {
+        "raw": "체온 36.8",
+        "label": "bt",
+        "value": "36.8",
+        "position": 81
       }
-    ]
+    ],
+    "dose": []
   }
 }

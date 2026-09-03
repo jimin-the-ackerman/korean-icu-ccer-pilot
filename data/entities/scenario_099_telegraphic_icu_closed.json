@@ -60,18 +60,6 @@
         "value": "40",
         "unit": "mg",
         "position": 167
-      },
-      {
-        "raw": "40 L/min",
-        "value": "40",
-        "unit": "l/min",
-        "position": 207
-      },
-      {
-        "raw": "2000 mL",
-        "value": "2000",
-        "unit": "ml",
-        "position": 242
       }
     ]
   },
@@ -83,7 +71,13 @@
         "position": 163
       }
     ],
-    "frequency": [],
+    "frequency": [
+      {
+        "raw": "q8 h",
+        "normalized": "q8h",
+        "position": 166
+      }
+    ],
     "device": [],
     "vital_sign": [
       {

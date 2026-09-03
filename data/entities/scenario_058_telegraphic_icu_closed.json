@@ -92,13 +92,6 @@
         "position": 74
       }
     ],
-    "dose": [
-      {
-        "raw": "40mg",
-        "value": "40",
-        "unit": "mg",
-        "position": 94
-      }
-    ]
+    "dose": []
   }
 }

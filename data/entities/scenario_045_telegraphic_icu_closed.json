@@ -41,6 +41,12 @@
         "position": 61
       },
       {
+        "raw": "hr.",
+        "label": "hr",
+        "value": "",
+        "position": 273
+      },
+      {
         "raw": "RR 24",
         "label": "rr",
         "value": "24",
@@ -57,12 +63,6 @@
         "label": "spo2",
         "value": "92%",
         "position": 109
-      },
-      {
-        "raw": "hr.",
-        "label": "hr",
-        "value": "",
-        "position": 273
       }
     ],
     "dose": [
@@ -71,18 +71,6 @@
         "value": "100",
         "unit": "mg",
         "position": 163
-      },
-      {
-        "raw": "2 L/min",
-        "value": "2",
-        "unit": "l/min",
-        "position": 195
-      },
-      {
-        "raw": "30 mL",
-        "value": "30",
-        "unit": "ml",
-        "position": 267
       }
     ]
   },

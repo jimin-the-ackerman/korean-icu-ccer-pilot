@@ -65,12 +65,6 @@
         "value": "8",
         "unit": "mcg",
         "position": 182
-      },
-      {
-        "raw": "20 mL",
-        "value": "20",
-        "unit": "ml",
-        "position": 299
       }
     ]
   },
@@ -115,13 +109,6 @@
         "position": 125
       }
     ],
-    "dose": [
-      {
-        "raw": "20mL",
-        "value": "20",
-        "unit": "ml",
-        "position": 291
-      }
-    ]
+    "dose": []
   }
 }

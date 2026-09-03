@@ -54,12 +54,6 @@
         "value": "1",
         "unit": "g",
         "position": 156
-      },
-      {
-        "raw": "500 mL",
-        "value": "500",
-        "unit": "ml",
-        "position": 233
       }
     ]
   },

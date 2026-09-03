@@ -88,12 +88,6 @@
     ],
     "dose": [
       {
-        "raw": "230mg",
-        "value": "230",
-        "unit": "mg",
-        "position": 57
-      },
-      {
         "raw": "10mg",
         "value": "10",
         "unit": "mg",

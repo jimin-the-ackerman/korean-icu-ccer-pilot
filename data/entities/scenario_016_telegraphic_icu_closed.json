@@ -76,7 +76,13 @@
         "position": 121
       }
     ],
-    "frequency": [],
+    "frequency": [
+      {
+        "raw": "q8 h",
+        "normalized": "q8h",
+        "position": 124
+      }
+    ],
     "device": [
       {
         "raw": "c-line",

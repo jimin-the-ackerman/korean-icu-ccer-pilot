@@ -65,18 +65,6 @@
         "value": "40",
         "unit": "mg",
         "position": 200
-      },
-      {
-        "raw": "1000 mL",
-        "value": "1000",
-        "unit": "ml",
-        "position": 302
-      },
-      {
-        "raw": "1200 mL",
-        "value": "1200",
-        "unit": "ml",
-        "position": 318
       }
     ]
   },
@@ -100,28 +88,10 @@
     ],
     "dose": [
       {
-        "raw": "60mg",
-        "value": "60",
-        "unit": "mg",
-        "position": 63
-      },
-      {
         "raw": "40mg",
         "value": "40",
         "unit": "mg",
         "position": 136
-      },
-      {
-        "raw": "10mL",
-        "value": "10",
-        "unit": "ml",
-        "position": 204
-      },
-      {
-        "raw": "200mL",
-        "value": "200",
-        "unit": "ml",
-        "position": 213
       }
     ]
   }

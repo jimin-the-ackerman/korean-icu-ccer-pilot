@@ -60,18 +60,6 @@
         "value": "40",
         "unit": "mg",
         "position": 206
-      },
-      {
-        "raw": "15 L/min",
-        "value": "15",
-        "unit": "l/min",
-        "position": 242
-      },
-      {
-        "raw": "200 mL",
-        "value": "200",
-        "unit": "ml",
-        "position": 289
       }
     ]
   },
@@ -105,25 +93,6 @@
         "position": 131
       }
     ],
-    "dose": [
-      {
-        "raw": "40mg",
-        "value": "40",
-        "unit": "mg",
-        "position": 192
-      },
-      {
-        "raw": "15mL",
-        "value": "15",
-        "unit": "ml",
-        "position": 224
-      },
-      {
-        "raw": "200mL",
-        "value": "200",
-        "unit": "ml",
-        "position": 267
-      }
-    ]
+    "dose": []
   }
 }

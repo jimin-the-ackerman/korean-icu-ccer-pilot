@@ -60,12 +60,6 @@
         "value": "20",
         "unit": "mg",
         "position": 159
-      },
-      {
-        "raw": "500 mL",
-        "value": "500",
-        "unit": "ml",
-        "position": 229
       }
     ]
   },
@@ -111,19 +105,6 @@
         "position": 104
       }
     ],
-    "dose": [
-      {
-        "raw": "100mg",
-        "value": "100",
-        "unit": "mg",
-        "position": 49
-      },
-      {
-        "raw": "500mL",
-        "value": "500",
-        "unit": "ml",
-        "position": 219
-      }
-    ]
+    "dose": []
   }
 }

@@ -6,11 +6,47 @@
         "raw": "IV",
         "normalized": "iv",
         "position": 215
+      },
+      {
+        "raw": "경구로",
+        "normalized": "po",
+        "position": 178
       }
     ],
     "frequency": [],
     "device": [],
-    "vital_sign": [],
+    "vital_sign": [
+      {
+        "raw": "혈압 110/70",
+        "label": "bp",
+        "value": "110/70",
+        "position": 91
+      },
+      {
+        "raw": "심박수 95",
+        "label": "hr",
+        "value": "95",
+        "position": 107
+      },
+      {
+        "raw": "호흡수 18",
+        "label": "rr",
+        "value": "18",
+        "position": 119
+      },
+      {
+        "raw": "체온 37.5",
+        "label": "bt",
+        "value": "37.5",
+        "position": 131
+      },
+      {
+        "raw": "산소포화도 98%",
+        "label": "spo2",
+        "value": "98%",
+        "position": 142
+      }
+    ],
     "dose": []
   },
   "whisper_entities": {
@@ -21,16 +57,46 @@
         "position": 203
       }
     ],
-    "frequency": [],
-    "device": [],
-    "vital_sign": [],
-    "dose": [
+    "frequency": [
       {
-        "raw": "170mg",
-        "value": "170",
-        "unit": "mg",
-        "position": 94
+        "raw": "하루 2번",
+        "normalized": "bid",
+        "position": 172
       }
-    ]
+    ],
+    "device": [],
+    "vital_sign": [
+      {
+        "raw": "혈압 170",
+        "label": "bp",
+        "value": "170",
+        "position": 91
+      },
+      {
+        "raw": "심박수 95",
+        "label": "hr",
+        "value": "95",
+        "position": 101
+      },
+      {
+        "raw": "호흡수 18",
+        "label": "rr",
+        "value": "18",
+        "position": 112
+      },
+      {
+        "raw": "체온 37.56",
+        "label": "bt",
+        "value": "37.56",
+        "position": 122
+      },
+      {
+        "raw": "산소포화도 98%",
+        "label": "spo2",
+        "value": "98%",
+        "position": 133
+      }
+    ],
+    "dose": []
   }
 }

@@ -71,12 +71,6 @@
     ],
     "dose": [
       {
-        "raw": "70mg",
-        "value": "70",
-        "unit": "mg",
-        "position": 42
-      },
-      {
         "raw": "1g",
         "value": "1",
         "unit": "g",

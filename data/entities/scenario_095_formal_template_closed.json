@@ -9,8 +9,49 @@
         "position": 181
       }
     ],
-    "device": [],
-    "vital_sign": [],
+    "device": [
+      {
+        "raw": "인공호흡기",
+        "normalized": "ventilator",
+        "position": 226
+      },
+      {
+        "raw": "인공호흡기",
+        "normalized": "ventilator",
+        "position": 277
+      },
+      {
+        "raw": "비강 캐뉼라",
+        "normalized": "nc",
+        "position": 200
+      }
+    ],
+    "vital_sign": [
+      {
+        "raw": "혈압 130/85",
+        "label": "bp",
+        "value": "130/85",
+        "position": 48
+      },
+      {
+        "raw": "심박수 110",
+        "label": "hr",
+        "value": "110",
+        "position": 64
+      },
+      {
+        "raw": "호흡수 28",
+        "label": "rr",
+        "value": "28",
+        "position": 77
+      },
+      {
+        "raw": "체온 37.3",
+        "label": "bt",
+        "value": "37.3",
+        "position": 97
+      }
+    ],
     "dose": []
   },
   "whisper_entities": {
@@ -22,8 +63,44 @@
         "position": 171
       }
     ],
-    "device": [],
-    "vital_sign": [],
+    "device": [
+      {
+        "raw": "인공호흡기",
+        "normalized": "ventilator",
+        "position": 215
+      },
+      {
+        "raw": "인공호흡기",
+        "normalized": "ventilator",
+        "position": 262
+      }
+    ],
+    "vital_sign": [
+      {
+        "raw": "혈압 130",
+        "label": "bp",
+        "value": "130",
+        "position": 48
+      },
+      {
+        "raw": "심박수 110",
+        "label": "hr",
+        "value": "110",
+        "position": 63
+      },
+      {
+        "raw": "호흡수 28",
+        "label": "rr",
+        "value": "28",
+        "position": 75
+      },
+      {
+        "raw": "체온 37.3",
+        "label": "bt",
+        "value": "37.3",
+        "position": 94
+      }
+    ],
     "dose": []
   }
 }

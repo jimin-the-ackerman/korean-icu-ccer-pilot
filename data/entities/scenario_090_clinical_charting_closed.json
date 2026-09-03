@@ -70,12 +70,6 @@
     "vital_sign": [],
     "dose": [
       {
-        "raw": "3881mg",
-        "value": "3881",
-        "unit": "mg",
-        "position": 118
-      },
-      {
         "raw": "1g",
         "value": "1",
         "unit": "g",

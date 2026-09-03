@@ -103,13 +103,6 @@
         "position": 41
       }
     ],
-    "dose": [
-      {
-        "raw": "100g",
-        "value": "100",
-        "unit": "g",
-        "position": 35
-      }
-    ]
+    "dose": []
   }
 }

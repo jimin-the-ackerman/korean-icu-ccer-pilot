@@ -9,8 +9,50 @@
       }
     ],
     "frequency": [],
-    "device": [],
-    "vital_sign": [],
+    "device": [
+      {
+        "raw": "인공호흡기",
+        "normalized": "ventilator",
+        "position": 188
+      },
+      {
+        "raw": "비강 캐뉼라",
+        "normalized": "nc",
+        "position": 164
+      }
+    ],
+    "vital_sign": [
+      {
+        "raw": "혈압 100/65",
+        "label": "bp",
+        "value": "100/65",
+        "position": 41
+      },
+      {
+        "raw": "심박수 110",
+        "label": "hr",
+        "value": "110",
+        "position": 57
+      },
+      {
+        "raw": "호흡수 28",
+        "label": "rr",
+        "value": "28",
+        "position": 70
+      },
+      {
+        "raw": "체온 38.1",
+        "label": "bt",
+        "value": "38.1",
+        "position": 82
+      },
+      {
+        "raw": "산소포화도 88%",
+        "label": "spo2",
+        "value": "88%",
+        "position": 93
+      }
+    ],
     "dose": [
       {
         "raw": "1g",
@@ -29,15 +71,45 @@
       }
     ],
     "frequency": [],
-    "device": [],
-    "vital_sign": [],
-    "dose": [
+    "device": [
       {
-        "raw": "165mg",
-        "value": "165",
-        "unit": "mg",
-        "position": 45
+        "raw": "인공호흡기",
+        "normalized": "ventilator",
+        "position": 180
       }
-    ]
+    ],
+    "vital_sign": [
+      {
+        "raw": "혈압 165",
+        "label": "bp",
+        "value": "165",
+        "position": 42
+      },
+      {
+        "raw": "심박수 110",
+        "label": "hr",
+        "value": "110",
+        "position": 52
+      },
+      {
+        "raw": "호흡수 28",
+        "label": "rr",
+        "value": "28",
+        "position": 64
+      },
+      {
+        "raw": "체온 38.1",
+        "label": "bt",
+        "value": "38.1",
+        "position": 75
+      },
+      {
+        "raw": "산소포화도 88%",
+        "label": "spo2",
+        "value": "88%",
+        "position": 86
+      }
+    ],
+    "dose": []
   }
 }

@@ -9,8 +9,45 @@
       }
     ],
     "frequency": [],
-    "device": [],
-    "vital_sign": [],
+    "device": [
+      {
+        "raw": "비강 캐뉼라",
+        "normalized": "nc",
+        "position": 205
+      }
+    ],
+    "vital_sign": [
+      {
+        "raw": "혈압 85/60",
+        "label": "bp",
+        "value": "85/60",
+        "position": 46
+      },
+      {
+        "raw": "심박수 125",
+        "label": "hr",
+        "value": "125",
+        "position": 61
+      },
+      {
+        "raw": "호흡수 28",
+        "label": "rr",
+        "value": "28",
+        "position": 74
+      },
+      {
+        "raw": "체온 39.0",
+        "label": "bt",
+        "value": "39.0",
+        "position": 94
+      },
+      {
+        "raw": "산소포화도 89%",
+        "label": "spo2",
+        "value": "89%",
+        "position": 105
+      }
+    ],
     "dose": [
       {
         "raw": "4.5g",
@@ -24,7 +61,38 @@
     "route": [],
     "frequency": [],
     "device": [],
-    "vital_sign": [],
+    "vital_sign": [
+      {
+        "raw": "혈압 85",
+        "label": "bp",
+        "value": "85",
+        "position": 46
+      },
+      {
+        "raw": "심박수 125",
+        "label": "hr",
+        "value": "125",
+        "position": 59
+      },
+      {
+        "raw": "호흡수 28",
+        "label": "rr",
+        "value": "28",
+        "position": 71
+      },
+      {
+        "raw": "체온 39.0",
+        "label": "bt",
+        "value": "39.0",
+        "position": 82
+      },
+      {
+        "raw": "산소포화도 89%",
+        "label": "spo2",
+        "value": "89%",
+        "position": 93
+      }
+    ],
     "dose": [
       {
         "raw": "4.5g",

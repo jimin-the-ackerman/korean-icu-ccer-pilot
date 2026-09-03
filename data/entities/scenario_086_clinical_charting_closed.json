@@ -83,12 +83,6 @@
     ],
     "dose": [
       {
-        "raw": "39.1g",
-        "value": "39.1",
-        "unit": "g",
-        "position": 96
-      },
-      {
         "raw": "4.5g",
         "value": "4.5",
         "unit": "g",

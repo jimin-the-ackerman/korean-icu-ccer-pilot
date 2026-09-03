@@ -2,30 +2,90 @@
   "sample_id": "scenario_055_formal_template",
   "gold_entities": {
     "route": [],
-    "frequency": [],
-    "device": [],
-    "vital_sign": [],
-    "dose": [
+    "frequency": [
       {
-        "raw": "1000 mL",
-        "value": "1000",
-        "unit": "ml",
-        "position": 277
+        "raw": "12시간마다",
+        "normalized": "q12h",
+        "position": 188
       }
-    ]
+    ],
+    "device": [],
+    "vital_sign": [
+      {
+        "raw": "혈압은 90/60",
+        "label": "bp",
+        "value": "90/60",
+        "position": 52
+      },
+      {
+        "raw": "심박수는 120",
+        "label": "hr",
+        "value": "120",
+        "position": 68
+      },
+      {
+        "raw": "호흡수는 22",
+        "label": "rr",
+        "value": "22",
+        "position": 82
+      },
+      {
+        "raw": "체온은 38.1",
+        "label": "bt",
+        "value": "38.1",
+        "position": 95
+      },
+      {
+        "raw": "산소포화도는 2",
+        "label": "spo2",
+        "value": "2",
+        "position": 110
+      }
+    ],
+    "dose": []
   },
   "whisper_entities": {
     "route": [],
-    "frequency": [],
-    "device": [],
-    "vital_sign": [],
-    "dose": [
+    "frequency": [
       {
-        "raw": "1000mL",
-        "value": "1000",
-        "unit": "ml",
-        "position": 257
+        "raw": "12시간마다",
+        "normalized": "q12h",
+        "position": 174
       }
-    ]
+    ],
+    "device": [],
+    "vital_sign": [
+      {
+        "raw": "혈압은 90",
+        "label": "bp",
+        "value": "90",
+        "position": 53
+      },
+      {
+        "raw": "심박수는 120",
+        "label": "hr",
+        "value": "120",
+        "position": 67
+      },
+      {
+        "raw": "호흡수는 22",
+        "label": "rr",
+        "value": "22",
+        "position": 80
+      },
+      {
+        "raw": "체온은 38.1",
+        "label": "bt",
+        "value": "38.1",
+        "position": 92
+      },
+      {
+        "raw": "산소포화도는 2",
+        "label": "spo2",
+        "value": "2",
+        "position": 107
+      }
+    ],
+    "dose": []
   }
 }

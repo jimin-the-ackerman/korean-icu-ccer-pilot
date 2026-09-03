@@ -1,23 +1,96 @@
 {
   "sample_id": "scenario_054_formal_template",
   "gold_entities": {
-    "route": [],
-    "frequency": [],
+    "route": [
+      {
+        "raw": "경구로",
+        "normalized": "po",
+        "position": 176
+      }
+    ],
+    "frequency": [
+      {
+        "raw": "4시간마다",
+        "normalized": "q4h",
+        "position": 180
+      }
+    ],
     "device": [
       {
         "raw": "C-line",
         "normalized": "c-line",
         "position": 263
+      },
+      {
+        "raw": "중심정맥관",
+        "normalized": "c-line",
+        "position": 257
       }
     ],
-    "vital_sign": [],
+    "vital_sign": [
+      {
+        "raw": "혈압이 160/90",
+        "label": "bp",
+        "value": "160/90",
+        "position": 50
+      },
+      {
+        "raw": "심박수가 95",
+        "label": "hr",
+        "value": "95",
+        "position": 67
+      },
+      {
+        "raw": "호흡수가 22",
+        "label": "rr",
+        "value": "22",
+        "position": 80
+      },
+      {
+        "raw": "체온이 36.8",
+        "label": "bt",
+        "value": "36.8",
+        "position": 101
+      }
+    ],
     "dose": []
   },
   "whisper_entities": {
     "route": [],
-    "frequency": [],
+    "frequency": [
+      {
+        "raw": "4시간마다",
+        "normalized": "q4h",
+        "position": 176
+      }
+    ],
     "device": [],
-    "vital_sign": [],
+    "vital_sign": [
+      {
+        "raw": "혈압이 160",
+        "label": "bp",
+        "value": "160",
+        "position": 50
+      },
+      {
+        "raw": "심박수 95",
+        "label": "hr",
+        "value": "95",
+        "position": 65
+      },
+      {
+        "raw": "호흡수가 22",
+        "label": "rr",
+        "value": "22",
+        "position": 76
+      },
+      {
+        "raw": "체온이 36.8",
+        "label": "bt",
+        "value": "36.8",
+        "position": 104
+      }
+    ],
     "dose": []
   }
 }

@@ -10,7 +10,38 @@
       }
     ],
     "device": [],
-    "vital_sign": [],
+    "vital_sign": [
+      {
+        "raw": "혈압이 90/60",
+        "label": "bp",
+        "value": "90/60",
+        "position": 32
+      },
+      {
+        "raw": "심박수가 110",
+        "label": "hr",
+        "value": "110",
+        "position": 48
+      },
+      {
+        "raw": "호흡수가 22",
+        "label": "rr",
+        "value": "22",
+        "position": 62
+      },
+      {
+        "raw": "체온이 37.0",
+        "label": "bt",
+        "value": "37.0",
+        "position": 83
+      },
+      {
+        "raw": "산소포화도가 94%",
+        "label": "spo2",
+        "value": "94%",
+        "position": 95
+      }
+    ],
     "dose": []
   },
   "whisper_entities": {
@@ -23,7 +54,38 @@
       }
     ],
     "device": [],
-    "vital_sign": [],
+    "vital_sign": [
+      {
+        "raw": "혈압이 90",
+        "label": "bp",
+        "value": "90",
+        "position": 32
+      },
+      {
+        "raw": "심박수가 110",
+        "label": "hr",
+        "value": "110",
+        "position": 46
+      },
+      {
+        "raw": "호흡수가 22",
+        "label": "rr",
+        "value": "22",
+        "position": 59
+      },
+      {
+        "raw": "체온이 37.",
+        "label": "bt",
+        "value": "37",
+        "position": 83
+      },
+      {
+        "raw": "산소포화도가 94%",
+        "label": "spo2",
+        "value": "94%",
+        "position": 95
+      }
+    ],
     "dose": []
   }
 }

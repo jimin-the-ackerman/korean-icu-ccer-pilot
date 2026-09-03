@@ -65,12 +65,6 @@
         "value": "80",
         "unit": "mg",
         "position": 182
-      },
-      {
-        "raw": "2 L/min",
-        "value": "2",
-        "unit": "l/min",
-        "position": 219
       }
     ]
   },

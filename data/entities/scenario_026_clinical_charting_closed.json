@@ -65,12 +65,6 @@
         "value": "750",
         "unit": "mg",
         "position": 178
-      },
-      {
-        "raw": "60 L/min",
-        "value": "60",
-        "unit": "l/min",
-        "position": 223
       }
     ]
   },

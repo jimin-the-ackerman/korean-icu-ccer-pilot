@@ -16,7 +16,32 @@
         "position": 232
       }
     ],
-    "vital_sign": [],
+    "vital_sign": [
+      {
+        "raw": "혈압이 95/60",
+        "label": "bp",
+        "value": "95/60",
+        "position": 54
+      },
+      {
+        "raw": "심박수가 115",
+        "label": "hr",
+        "value": "115",
+        "position": 70
+      },
+      {
+        "raw": "호흡수가 22",
+        "label": "rr",
+        "value": "22",
+        "position": 84
+      },
+      {
+        "raw": "체온이 37.5",
+        "label": "bt",
+        "value": "37.5",
+        "position": 105
+      }
+    ],
     "dose": []
   },
   "whisper_entities": {
@@ -35,7 +60,32 @@
         "position": 229
       }
     ],
-    "vital_sign": [],
+    "vital_sign": [
+      {
+        "raw": "혈압이 95",
+        "label": "bp",
+        "value": "95",
+        "position": 53
+      },
+      {
+        "raw": "심박수가 105",
+        "label": "hr",
+        "value": "105",
+        "position": 67
+      },
+      {
+        "raw": "호흡수가 22",
+        "label": "rr",
+        "value": "22",
+        "position": 80
+      },
+      {
+        "raw": "체온이 37.5",
+        "label": "bt",
+        "value": "37.5",
+        "position": 97
+      }
+    ],
     "dose": []
   }
 }

@@ -4,9 +4,9 @@
     {
       "entity_type": "route",
       "gold_value": "iv",
-      "whisper_value": null,
-      "match_status": "omission",
-      "error_type": "omission"
+      "whisper_value": "iv",
+      "match_status": "matched",
+      "error_type": null
     },
     {
       "entity_type": "frequency",
@@ -18,48 +18,48 @@
     {
       "entity_type": "device",
       "gold_value": "ng tube",
-      "whisper_value": null,
-      "match_status": "omission",
-      "error_type": "omission"
+      "whisper_value": "ng tube",
+      "match_status": "matched",
+      "error_type": null
     },
     {
       "entity_type": "dose",
       "gold_value": "4mg",
-      "whisper_value": "170mg",
-      "match_status": "error",
-      "error_type": "numeric_error"
+      "whisper_value": null,
+      "match_status": "omission",
+      "error_type": "omission"
     },
     {
       "entity_type": "vital_sign",
       "label": "bp",
       "gold_value": "110/70 mmHg",
-      "whisper_value": null,
-      "match_status": "omission",
-      "error_type": "omission"
+      "whisper_value": "170",
+      "match_status": "error",
+      "error_type": "numeric_error"
     },
     {
       "entity_type": "vital_sign",
       "label": "hr",
       "gold_value": "98 bpm",
-      "whisper_value": null,
-      "match_status": "omission",
-      "error_type": "omission"
+      "whisper_value": "98",
+      "match_status": "error",
+      "error_type": "numeric_error"
     },
     {
       "entity_type": "vital_sign",
       "label": "rr",
       "gold_value": "22 bpm",
-      "whisper_value": null,
-      "match_status": "omission",
-      "error_type": "omission"
+      "whisper_value": "22",
+      "match_status": "error",
+      "error_type": "numeric_error"
     },
     {
       "entity_type": "vital_sign",
       "label": "bt",
       "gold_value": "37.8°C",
-      "whisper_value": null,
-      "match_status": "omission",
-      "error_type": "omission"
+      "whisper_value": "37.8",
+      "match_status": "error",
+      "error_type": "numeric_error"
     },
     {
       "entity_type": "vital_sign",

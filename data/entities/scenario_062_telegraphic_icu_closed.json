@@ -69,7 +69,13 @@
         "position": 112
       }
     ],
-    "frequency": [],
+    "frequency": [
+      {
+        "raw": "q4 h",
+        "normalized": "q4h",
+        "position": 115
+      }
+    ],
     "device": [
       {
         "raw": "nasal cannula",

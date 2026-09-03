@@ -11,9 +11,9 @@
     {
       "entity_type": "frequency",
       "gold_value": "q6h",
-      "whisper_value": null,
-      "match_status": "omission",
-      "error_type": "omission"
+      "whisper_value": "q6h",
+      "match_status": "matched",
+      "error_type": null
     },
     {
       "entity_type": "device",
@@ -32,49 +32,49 @@
     {
       "entity_type": "dose",
       "gold_value": "100g",
-      "whisper_value": "300mg",
-      "match_status": "error",
-      "error_type": "numeric_error"
+      "whisper_value": null,
+      "match_status": "omission",
+      "error_type": "omission"
     },
     {
       "entity_type": "vital_sign",
       "label": "bp",
       "gold_value": "130/85",
-      "whisper_value": null,
-      "match_status": "omission",
-      "error_type": "omission"
+      "whisper_value": "138.5",
+      "match_status": "error",
+      "error_type": "numeric_error"
     },
     {
       "entity_type": "vital_sign",
       "label": "hr",
       "gold_value": "58",
-      "whisper_value": null,
-      "match_status": "omission",
-      "error_type": "omission"
+      "whisper_value": "58",
+      "match_status": "matched",
+      "error_type": null
     },
     {
       "entity_type": "vital_sign",
       "label": "rr",
       "gold_value": "14",
-      "whisper_value": null,
-      "match_status": "omission",
-      "error_type": "omission"
+      "whisper_value": "14",
+      "match_status": "matched",
+      "error_type": null
     },
     {
       "entity_type": "vital_sign",
       "label": "bt",
       "gold_value": "36.8",
-      "whisper_value": null,
-      "match_status": "omission",
-      "error_type": "omission"
+      "whisper_value": "300",
+      "match_status": "error",
+      "error_type": "numeric_error"
     },
     {
       "entity_type": "vital_sign",
       "label": "spo2",
       "gold_value": "98%",
-      "whisper_value": null,
-      "match_status": "omission",
-      "error_type": "omission"
+      "whisper_value": "98%",
+      "match_status": "matched",
+      "error_type": null
     }
   ],
   "open_vocab_matches": {

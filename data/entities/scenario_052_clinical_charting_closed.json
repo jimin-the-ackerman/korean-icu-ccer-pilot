@@ -60,12 +60,6 @@
         "value": "2",
         "unit": "mg",
         "position": 196
-      },
-      {
-        "raw": "400 ml",
-        "value": "400",
-        "unit": "ml",
-        "position": 245
       }
     ]
   },
@@ -117,12 +111,6 @@
         "value": "2",
         "unit": "mg",
         "position": 148
-      },
-      {
-        "raw": "400ml",
-        "value": "400",
-        "unit": "ml",
-        "position": 189
       }
     ]
   }

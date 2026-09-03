@@ -65,12 +65,6 @@
         "value": "20",
         "unit": "mg",
         "position": 186
-      },
-      {
-        "raw": "1500 mL",
-        "value": "1500",
-        "unit": "ml",
-        "position": 266
       }
     ]
   },
@@ -127,12 +121,6 @@
         "value": "20",
         "unit": "mg",
         "position": 163
-      },
-      {
-        "raw": "500mL",
-        "value": "500",
-        "unit": "ml",
-        "position": 236
       }
     ]
   }

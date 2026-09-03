@@ -66,12 +66,6 @@
         "value": "15",
         "unit": "l/min",
         "position": 240
-      },
-      {
-        "raw": "200 mL",
-        "value": "200",
-        "unit": "ml",
-        "position": 290
       }
     ]
   },
@@ -111,12 +105,6 @@
         "value": "15",
         "unit": "ml",
         "position": 222
-      },
-      {
-        "raw": "200mL",
-        "value": "200",
-        "unit": "ml",
-        "position": 270
       }
     ]
   }

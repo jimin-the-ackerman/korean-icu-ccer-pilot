@@ -17,7 +17,7 @@
     ],
     "device": [
       {
-        "raw": "Foley",
+        "raw": "Foley catheter",
         "normalized": "foley",
         "position": 224
       },
@@ -79,7 +79,7 @@
     "frequency": [],
     "device": [
       {
-        "raw": "Foley",
+        "raw": "Foley catheter",
         "normalized": "foley",
         "position": 214
       },

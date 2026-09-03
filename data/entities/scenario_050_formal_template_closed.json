@@ -9,8 +9,44 @@
       }
     ],
     "frequency": [],
-    "device": [],
-    "vital_sign": [],
+    "device": [
+      {
+        "raw": "중심정맥관",
+        "normalized": "c-line",
+        "position": 236
+      },
+      {
+        "raw": "비강 캐뉼라",
+        "normalized": "nc",
+        "position": 215
+      }
+    ],
+    "vital_sign": [
+      {
+        "raw": "혈압 220/130",
+        "label": "bp",
+        "value": "220/130",
+        "position": 52
+      },
+      {
+        "raw": "심박수 110",
+        "label": "hr",
+        "value": "110",
+        "position": 69
+      },
+      {
+        "raw": "호흡수 28",
+        "label": "rr",
+        "value": "28",
+        "position": 82
+      },
+      {
+        "raw": "체온 36.7",
+        "label": "bt",
+        "value": "36.7",
+        "position": 102
+      }
+    ],
     "dose": [
       {
         "raw": "10 mcg",
@@ -30,14 +66,27 @@
     ],
     "frequency": [],
     "device": [],
-    "vital_sign": [],
-    "dose": [
+    "vital_sign": [
       {
-        "raw": "130mg",
-        "value": "130",
-        "unit": "mg",
-        "position": 59
+        "raw": "심박수 110",
+        "label": "hr",
+        "value": "110",
+        "position": 66
       },
+      {
+        "raw": "호흡수 28",
+        "label": "rr",
+        "value": "28",
+        "position": 78
+      },
+      {
+        "raw": "체온 36.75",
+        "label": "bt",
+        "value": "36.75",
+        "position": 89
+      }
+    ],
+    "dose": [
       {
         "raw": "10mg",
         "value": "10",

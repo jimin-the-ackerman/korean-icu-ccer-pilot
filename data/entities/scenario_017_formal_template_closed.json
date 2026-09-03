@@ -1,17 +1,113 @@
 {
   "sample_id": "scenario_017_formal_template",
   "gold_entities": {
-    "route": [],
-    "frequency": [],
+    "route": [
+      {
+        "raw": "정맥으로",
+        "normalized": "iv",
+        "position": 218
+      },
+      {
+        "raw": "정맥 주사로",
+        "normalized": "iv",
+        "position": 236
+      }
+    ],
+    "frequency": [
+      {
+        "raw": "즉시",
+        "normalized": "stat",
+        "position": 197
+      }
+    ],
     "device": [],
-    "vital_sign": [],
+    "vital_sign": [
+      {
+        "raw": "혈압이 102/65",
+        "label": "bp",
+        "value": "102/65",
+        "position": 65
+      },
+      {
+        "raw": "심박수가 92",
+        "label": "hr",
+        "value": "92",
+        "position": 82
+      },
+      {
+        "raw": "호흡수가 18",
+        "label": "rr",
+        "value": "18",
+        "position": 95
+      },
+      {
+        "raw": "체온이 36.5",
+        "label": "bt",
+        "value": "36.5",
+        "position": 116
+      },
+      {
+        "raw": "산소포화도는 95%",
+        "label": "spo2",
+        "value": "95%",
+        "position": 130
+      }
+    ],
     "dose": []
   },
   "whisper_entities": {
-    "route": [],
-    "frequency": [],
+    "route": [
+      {
+        "raw": "정맥으로",
+        "normalized": "iv",
+        "position": 203
+      },
+      {
+        "raw": "정맥 주사로",
+        "normalized": "iv",
+        "position": 221
+      }
+    ],
+    "frequency": [
+      {
+        "raw": "즉시",
+        "normalized": "stat",
+        "position": 183
+      }
+    ],
     "device": [],
-    "vital_sign": [],
+    "vital_sign": [
+      {
+        "raw": "혈압이 102",
+        "label": "bp",
+        "value": "102",
+        "position": 64
+      },
+      {
+        "raw": "심박수가 92",
+        "label": "hr",
+        "value": "92",
+        "position": 80
+      },
+      {
+        "raw": "호흡수가 18",
+        "label": "rr",
+        "value": "18",
+        "position": 92
+      },
+      {
+        "raw": "체온이 36.5",
+        "label": "bt",
+        "value": "36.5",
+        "position": 104
+      },
+      {
+        "raw": "산소포화도는 95%",
+        "label": "spo2",
+        "value": "95%",
+        "position": 117
+      }
+    ],
     "dose": []
   }
 }

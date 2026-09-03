@@ -17,7 +17,7 @@
     ],
     "device": [
       {
-        "raw": "Foley",
+        "raw": "Foley catheter",
         "normalized": "foley",
         "position": 228
       },
@@ -70,18 +70,6 @@
         "value": "0.4",
         "unit": "g",
         "position": 138
-      },
-      {
-        "raw": "2L/min",
-        "value": "2",
-        "unit": "l/min",
-        "position": 172
-      },
-      {
-        "raw": "1200 ml",
-        "value": "1200",
-        "unit": "ml",
-        "position": 250
       }
     ]
   },
@@ -102,7 +90,7 @@
     ],
     "device": [
       {
-        "raw": "Foley",
+        "raw": "Foley catheter",
         "normalized": "foley",
         "position": 201
       },
@@ -144,12 +132,6 @@
       }
     ],
     "dose": [
-      {
-        "raw": "36.8g",
-        "value": "36.8",
-        "unit": "g",
-        "position": 65
-      },
       {
         "raw": "0.4g",
         "value": "0.4",

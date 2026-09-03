@@ -65,7 +65,13 @@
         "position": 139
       }
     ],
-    "frequency": [],
+    "frequency": [
+      {
+        "raw": "q6 h",
+        "normalized": "q6h",
+        "position": 142
+      }
+    ],
     "device": [],
     "vital_sign": [],
     "dose": [

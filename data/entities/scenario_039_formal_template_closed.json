@@ -1,23 +1,102 @@
 {
   "sample_id": "scenario_039_formal_template",
   "gold_entities": {
-    "route": [],
-    "frequency": [],
+    "route": [
+      {
+        "raw": "경구로",
+        "normalized": "po",
+        "position": 195
+      }
+    ],
+    "frequency": [
+      {
+        "raw": "매 6시간마다",
+        "normalized": "q6h",
+        "position": 199
+      }
+    ],
     "device": [
       {
         "raw": "Foley",
         "normalized": "foley",
         "position": 248
+      },
+      {
+        "raw": "비강 캐뉼라",
+        "normalized": "nc",
+        "position": 219
       }
     ],
-    "vital_sign": [],
+    "vital_sign": [
+      {
+        "raw": "혈압 160/90",
+        "label": "bp",
+        "value": "160/90",
+        "position": 62
+      },
+      {
+        "raw": "심박수 130",
+        "label": "hr",
+        "value": "130",
+        "position": 78
+      },
+      {
+        "raw": "호흡수 28",
+        "label": "rr",
+        "value": "28",
+        "position": 91
+      },
+      {
+        "raw": "체온 38.4",
+        "label": "bt",
+        "value": "38.4",
+        "position": 111
+      }
+    ],
     "dose": []
   },
   "whisper_entities": {
     "route": [],
-    "frequency": [],
-    "device": [],
-    "vital_sign": [],
+    "frequency": [
+      {
+        "raw": "매 6시간마다",
+        "normalized": "q6h",
+        "position": 183
+      }
+    ],
+    "device": [
+      {
+        "raw": "폴리 카테터",
+        "normalized": "foley",
+        "position": 231
+      }
+    ],
+    "vital_sign": [
+      {
+        "raw": "혈압 160",
+        "label": "bp",
+        "value": "160",
+        "position": 62
+      },
+      {
+        "raw": "심박수 130",
+        "label": "hr",
+        "value": "130",
+        "position": 77
+      },
+      {
+        "raw": "호흡수 28",
+        "label": "rr",
+        "value": "28",
+        "position": 89
+      },
+      {
+        "raw": "체온 38.4",
+        "label": "bt",
+        "value": "38.4",
+        "position": 100
+      }
+    ],
     "dose": []
   }
 }

@@ -8,7 +8,13 @@
         "position": 211
       }
     ],
-    "frequency": [],
+    "frequency": [
+      {
+        "raw": "8시간마다",
+        "normalized": "q8h",
+        "position": 218
+      }
+    ],
     "device": [
       {
         "raw": "Foley",
@@ -16,14 +22,82 @@
         "position": 283
       }
     ],
-    "vital_sign": [],
+    "vital_sign": [
+      {
+        "raw": "혈압은 150/95",
+        "label": "bp",
+        "value": "150/95",
+        "position": 79
+      },
+      {
+        "raw": "심박수는 88",
+        "label": "hr",
+        "value": "88",
+        "position": 103
+      },
+      {
+        "raw": "호흡수는 22",
+        "label": "rr",
+        "value": "22",
+        "position": 116
+      },
+      {
+        "raw": "체온은 37.2",
+        "label": "bt",
+        "value": "37.2",
+        "position": 129
+      },
+      {
+        "raw": "산소포화도는 94%",
+        "label": "spo2",
+        "value": "94%",
+        "position": 143
+      }
+    ],
     "dose": []
   },
   "whisper_entities": {
     "route": [],
-    "frequency": [],
+    "frequency": [
+      {
+        "raw": "10시간마다",
+        "normalized": "q10h",
+        "position": 194
+      }
+    ],
     "device": [],
-    "vital_sign": [],
+    "vital_sign": [
+      {
+        "raw": "혈압은 150",
+        "label": "bp",
+        "value": "150",
+        "position": 71
+      },
+      {
+        "raw": "심박수는 88",
+        "label": "hr",
+        "value": "88",
+        "position": 93
+      },
+      {
+        "raw": "호흡수는 22",
+        "label": "rr",
+        "value": "22",
+        "position": 105
+      },
+      {
+        "raw": "체온은 37.2",
+        "label": "bt",
+        "value": "37.2",
+        "position": 116
+      },
+      {
+        "raw": "산소포화도는 94%",
+        "label": "spo2",
+        "value": "94%",
+        "position": 130
+      }
+    ],
     "dose": []
   }
 }

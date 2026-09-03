@@ -4,9 +4,9 @@
     {
       "entity_type": "route",
       "gold_value": "po",
-      "whisper_value": null,
-      "match_status": "omission",
-      "error_type": "omission"
+      "whisper_value": "im",
+      "match_status": "error",
+      "error_type": "route_error"
     },
     {
       "entity_type": "frequency",

@@ -65,12 +65,6 @@
         "value": "40",
         "unit": "mg",
         "position": 161
-      },
-      {
-        "raw": "1200 mL",
-        "value": "1200",
-        "unit": "ml",
-        "position": 216
       }
     ]
   },
@@ -97,19 +91,6 @@
         "position": 47
       }
     ],
-    "dose": [
-      {
-        "raw": "40mg",
-        "value": "40",
-        "unit": "mg",
-        "position": 117
-      },
-      {
-        "raw": "1200mL",
-        "value": "1200",
-        "unit": "ml",
-        "position": 163
-      }
-    ]
+    "dose": []
   }
 }

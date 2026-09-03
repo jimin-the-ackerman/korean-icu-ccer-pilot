@@ -1,37 +1,108 @@
 {
   "sample_id": "scenario_011_formal_template",
   "gold_entities": {
-    "route": [],
-    "frequency": [],
+    "route": [
+      {
+        "raw": "경구로",
+        "normalized": "po",
+        "position": 153
+      }
+    ],
+    "frequency": [
+      {
+        "raw": "하루 3회",
+        "normalized": "tid",
+        "position": 157
+      }
+    ],
     "device": [
       {
         "raw": "Foley",
         "normalized": "foley",
         "position": 203
+      },
+      {
+        "raw": "비강 캐뉼라",
+        "normalized": "nc",
+        "position": 178
       }
     ],
-    "vital_sign": [],
-    "dose": [
+    "vital_sign": [
       {
-        "raw": "2 L/min",
-        "value": "2",
-        "unit": "l/min",
-        "position": 186
+        "raw": "혈압 102/68",
+        "label": "bp",
+        "value": "102/68",
+        "position": 44
+      },
+      {
+        "raw": "심박수 88",
+        "label": "hr",
+        "value": "88",
+        "position": 60
+      },
+      {
+        "raw": "호흡수 20",
+        "label": "rr",
+        "value": "20",
+        "position": 72
+      },
+      {
+        "raw": "체온 37.2",
+        "label": "bt",
+        "value": "37.2",
+        "position": 83
+      },
+      {
+        "raw": "산소포화도 95%",
+        "label": "spo2",
+        "value": "95%",
+        "position": 94
       }
-    ]
+    ],
+    "dose": []
   },
   "whisper_entities": {
     "route": [],
-    "frequency": [],
-    "device": [],
-    "vital_sign": [],
-    "dose": [
+    "frequency": [
       {
-        "raw": "1268mg",
-        "value": "1268",
-        "unit": "mg",
-        "position": 47
+        "raw": "하루 3회",
+        "normalized": "tid",
+        "position": 150
       }
-    ]
+    ],
+    "device": [
+      {
+        "raw": "폴리 카테터",
+        "normalized": "foley",
+        "position": 195
+      }
+    ],
+    "vital_sign": [
+      {
+        "raw": "혈압 1268",
+        "label": "bp",
+        "value": "1268",
+        "position": 44
+      },
+      {
+        "raw": "심박수 88",
+        "label": "hr",
+        "value": "88",
+        "position": 55
+      },
+      {
+        "raw": "호흡수 20",
+        "label": "rr",
+        "value": "20",
+        "position": 66
+      },
+      {
+        "raw": "체온 37.2",
+        "label": "bt",
+        "value": "37.2",
+        "position": 76
+      }
+    ],
+    "dose": []
   }
 }
