@@ -77,7 +77,32 @@
     ],
     "frequency": [],
     "device": [],
-    "vital_sign": [],
+    "vital_sign": [
+      {
+        "raw": "BP-7",
+        "label": "bp",
+        "value": "7",
+        "position": 20
+      },
+      {
+        "raw": "BP-38.0",
+        "label": "bp",
+        "value": "38.0",
+        "position": 45
+      },
+      {
+        "raw": "HR-88",
+        "label": "hr",
+        "value": "88",
+        "position": 28
+      },
+      {
+        "raw": "HR-",
+        "label": "hr",
+        "value": "-",
+        "position": 128
+      }
+    ],
     "dose": [
       {
         "raw": "15mg",

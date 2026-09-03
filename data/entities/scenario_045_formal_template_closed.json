@@ -45,6 +45,12 @@
         "label": "bt",
         "value": "37.0",
         "position": 104
+      },
+      {
+        "raw": "산소포화도는 상온 공기에서 92%",
+        "label": "spo2",
+        "value": "92%",
+        "position": 117
       }
     ],
     "dose": [
@@ -90,6 +96,12 @@
         "label": "bt",
         "value": "37.0",
         "position": 89
+      },
+      {
+        "raw": "산소포화도는 상온 공기에서 92%",
+        "label": "spo2",
+        "value": "92%",
+        "position": 99
       }
     ],
     "dose": [

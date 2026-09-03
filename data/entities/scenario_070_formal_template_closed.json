@@ -45,6 +45,12 @@
         "label": "bt",
         "value": "38.5",
         "position": 108
+      },
+      {
+        "raw": "산소포화도는 실내 공기에서 86%",
+        "label": "spo2",
+        "value": "86%",
+        "position": 128
       }
     ],
     "dose": []
@@ -61,9 +67,9 @@
     ],
     "vital_sign": [
       {
-        "raw": "혈압이 92",
+        "raw": "혈압이 92-58",
         "label": "bp",
-        "value": "92",
+        "value": "92/58",
         "position": 56
       },
       {
@@ -83,6 +89,12 @@
         "label": "bt",
         "value": "38.5",
         "position": 102
+      },
+      {
+        "raw": "산소포화도는 실내 공기에서 86%",
+        "label": "spo2",
+        "value": "86%",
+        "position": 122
       }
     ],
     "dose": []

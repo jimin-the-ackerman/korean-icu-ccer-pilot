@@ -113,6 +113,12 @@
         "label": "bt",
         "value": "36.83",
         "position": 71
+      },
+      {
+        "raw": "SPO2, 89%",
+        "label": "spo2",
+        "value": "89%",
+        "position": 81
       }
     ],
     "dose": [

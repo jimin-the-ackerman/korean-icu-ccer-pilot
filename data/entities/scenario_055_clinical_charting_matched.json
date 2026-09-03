@@ -49,9 +49,9 @@
       "entity_type": "vital_sign",
       "label": "rr",
       "gold_value": "22",
-      "whisper_value": null,
-      "match_status": "omission",
-      "error_type": "omission"
+      "whisper_value": "-",
+      "match_status": "error",
+      "error_type": "numeric_error"
     },
     {
       "entity_type": "vital_sign",
@@ -64,7 +64,7 @@
     {
       "entity_type": "vital_sign",
       "label": "spo2",
-      "gold_value": "95% on 2L nasal cannula",
+      "gold_value": "95%",
       "whisper_value": null,
       "match_status": "omission",
       "error_type": "omission"

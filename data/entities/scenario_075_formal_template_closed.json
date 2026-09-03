@@ -50,12 +50,6 @@
         "label": "bt",
         "value": "36.8",
         "position": 108
-      },
-      {
-        "raw": "산소포화도 4",
-        "label": "spo2",
-        "value": "4",
-        "position": 119
       }
     ],
     "dose": []
@@ -78,9 +72,9 @@
     ],
     "vital_sign": [
       {
-        "raw": "혈압 90",
+        "raw": "혈압 90-60",
         "label": "bp",
-        "value": "90",
+        "value": "90/60",
         "position": 59
       },
       {
@@ -94,12 +88,6 @@
         "label": "bt",
         "value": "36.8",
         "position": 82
-      },
-      {
-        "raw": "산소포화도 4",
-        "label": "spo2",
-        "value": "4",
-        "position": 92
       }
     ],
     "dose": []

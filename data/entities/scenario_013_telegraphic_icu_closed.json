@@ -85,7 +85,14 @@
         "position": 170
       }
     ],
-    "vital_sign": [],
+    "vital_sign": [
+      {
+        "raw": "SpO2, 95%",
+        "label": "spo2",
+        "value": "95%",
+        "position": 100
+      }
+    ],
     "dose": []
   }
 }

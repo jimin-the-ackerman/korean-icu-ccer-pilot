@@ -33,7 +33,7 @@
       "entity_type": "vital_sign",
       "label": "bp",
       "gold_value": "142/90",
-      "whisper_value": "140",
+      "whisper_value": "140/920",
       "match_status": "error",
       "error_type": "numeric_error"
     },

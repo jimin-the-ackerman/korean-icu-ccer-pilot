@@ -75,9 +75,9 @@
     "device": [],
     "vital_sign": [
       {
-        "raw": "BP 35",
+        "raw": "BP 35-85",
         "label": "bp",
-        "value": "35",
+        "value": "35/85",
         "position": 41
       },
       {
@@ -100,12 +100,6 @@
       }
     ],
     "dose": [
-      {
-        "raw": "85mg",
-        "value": "85",
-        "unit": "mg",
-        "position": 47
-      },
       {
         "raw": "40mg",
         "value": "40",

@@ -56,9 +56,9 @@
     "device": [],
     "vital_sign": [
       {
-        "raw": "혈압이 170",
+        "raw": "혈압이 170-95",
         "label": "bp",
-        "value": "170",
+        "value": "170/95",
         "position": 37
       },
       {

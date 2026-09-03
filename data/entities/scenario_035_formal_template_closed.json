@@ -67,9 +67,9 @@
     ],
     "vital_sign": [
       {
-        "raw": "혈압 95",
+        "raw": "혈압 95-60",
         "label": "bp",
-        "value": "95",
+        "value": "95/60",
         "position": 48
       },
       {

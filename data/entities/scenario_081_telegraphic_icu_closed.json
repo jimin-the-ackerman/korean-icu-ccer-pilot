@@ -84,7 +84,38 @@
       }
     ],
     "device": [],
-    "vital_sign": [],
+    "vital_sign": [
+      {
+        "raw": "BP-200",
+        "label": "bp",
+        "value": "200",
+        "position": 20
+      },
+      {
+        "raw": "HR-1-10",
+        "label": "hr",
+        "value": "1-10",
+        "position": 37
+      },
+      {
+        "raw": "RR-24",
+        "label": "rr",
+        "value": "24",
+        "position": 49
+      },
+      {
+        "raw": "BT-37.4",
+        "label": "bt",
+        "value": "37.4",
+        "position": 56
+      },
+      {
+        "raw": "SpO2-88%",
+        "label": "spo2",
+        "value": "88%",
+        "position": 67
+      }
+    ],
     "dose": [
       {
         "raw": "40mg",

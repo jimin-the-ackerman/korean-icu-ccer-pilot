@@ -67,7 +67,20 @@
     "route": [],
     "frequency": [],
     "device": [],
-    "vital_sign": [],
+    "vital_sign": [
+      {
+        "raw": "HR-",
+        "label": "hr",
+        "value": "-",
+        "position": 54
+      },
+      {
+        "raw": "SPO2, 80%",
+        "label": "spo2",
+        "value": "80%",
+        "position": 104
+      }
+    ],
     "dose": []
   }
 }

@@ -106,6 +106,12 @@
         "label": "bp",
         "value": "108",
         "position": 78
+      },
+      {
+        "raw": "BT-30",
+        "label": "bt",
+        "value": "30",
+        "position": 131
       }
     ],
     "dose": [

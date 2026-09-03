@@ -95,12 +95,6 @@
         "label": "bt",
         "value": "36.5",
         "position": 109
-      },
-      {
-        "raw": "spo2 98",
-        "label": "spo2",
-        "value": "98",
-        "position": 132
       }
     ],
     "dose": []

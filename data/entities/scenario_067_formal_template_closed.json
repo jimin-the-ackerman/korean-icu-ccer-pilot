@@ -40,12 +40,6 @@
         "label": "bt",
         "value": "36.8",
         "position": 96
-      },
-      {
-        "raw": "산소포화도는 6",
-        "label": "spo2",
-        "value": "6",
-        "position": 108
       }
     ],
     "dose": []
@@ -62,9 +56,9 @@
     "device": [],
     "vital_sign": [
       {
-        "raw": "혈압은 85",
+        "raw": "혈압은 85-60",
         "label": "bp",
-        "value": "85",
+        "value": "85/60",
         "position": 45
       },
       {
@@ -84,12 +78,6 @@
         "label": "bt",
         "value": "36.8",
         "position": 85
-      },
-      {
-        "raw": "산소포화도는 6152",
-        "label": "spo2",
-        "value": "6152",
-        "position": 97
       }
     ],
     "dose": []

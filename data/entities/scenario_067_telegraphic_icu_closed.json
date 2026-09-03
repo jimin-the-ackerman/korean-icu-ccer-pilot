@@ -95,9 +95,9 @@
     ],
     "vital_sign": [
       {
-        "raw": "BP 80",
+        "raw": "BP 80-60",
         "label": "bp",
-        "value": "80",
+        "value": "80/60",
         "position": 30
       },
       {

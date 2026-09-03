@@ -48,7 +48,7 @@
         "position": 88
       },
       {
-        "raw": "SpO2 95%.",
+        "raw": "SpO2 95%",
         "label": "spo2",
         "value": "95%",
         "position": 99
@@ -93,7 +93,7 @@
         "position": 74
       },
       {
-        "raw": "SpO2 95%.",
+        "raw": "SpO2 95%",
         "label": "spo2",
         "value": "95%",
         "position": 83

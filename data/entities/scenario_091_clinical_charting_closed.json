@@ -74,6 +74,24 @@
     "device": [],
     "vital_sign": [
       {
+        "raw": "BP-",
+        "label": "bp",
+        "value": "-",
+        "position": 79
+      },
+      {
+        "raw": "HR-96",
+        "label": "hr",
+        "value": "96",
+        "position": 99
+      },
+      {
+        "raw": "BT-37.6",
+        "label": "bt",
+        "value": "37.6",
+        "position": 116
+      },
+      {
         "raw": "SpO2 80%",
         "label": "spo2",
         "value": "80%",

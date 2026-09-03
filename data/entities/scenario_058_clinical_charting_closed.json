@@ -85,9 +85,9 @@
     ],
     "vital_sign": [
       {
-        "raw": "BP 140",
+        "raw": "BP 140-90",
         "label": "bp",
-        "value": "140",
+        "value": "140/90",
         "position": 88
       }
     ],

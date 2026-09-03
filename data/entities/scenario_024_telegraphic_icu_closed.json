@@ -42,7 +42,7 @@
         "position": 76
       },
       {
-        "raw": "SpO2 96%.",
+        "raw": "SpO2 96%",
         "label": "spo2",
         "value": "96%",
         "position": 87

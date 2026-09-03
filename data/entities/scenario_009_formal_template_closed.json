@@ -62,9 +62,9 @@
     "device": [],
     "vital_sign": [
       {
-        "raw": "혈압은 85",
+        "raw": "혈압은 85-50",
         "label": "bp",
-        "value": "85",
+        "value": "85/50",
         "position": 50
       },
       {

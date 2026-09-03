@@ -79,7 +79,20 @@
         "position": 170
       }
     ],
-    "vital_sign": [],
+    "vital_sign": [
+      {
+        "raw": "BP-",
+        "label": "bp",
+        "value": "-",
+        "position": 44
+      },
+      {
+        "raw": "BT-",
+        "label": "bt",
+        "value": "-",
+        "position": 71
+      }
+    ],
     "dose": [
       {
         "raw": "2g",

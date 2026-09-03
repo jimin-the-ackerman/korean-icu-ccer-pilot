@@ -72,7 +72,14 @@
     "route": [],
     "frequency": [],
     "device": [],
-    "vital_sign": [],
+    "vital_sign": [
+      {
+        "raw": "BT, 38.4",
+        "label": "bt",
+        "value": "38.4",
+        "position": 87
+      }
+    ],
     "dose": []
   }
 }

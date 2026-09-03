@@ -106,12 +106,6 @@
         "label": "bp",
         "value": "38.5",
         "position": 35
-      },
-      {
-        "raw": "SpO2 89.7",
-        "label": "spo2",
-        "value": "89.7",
-        "position": 74
       }
     ],
     "dose": [

@@ -48,7 +48,7 @@
         "position": 58
       },
       {
-        "raw": "SpO2 88%.",
+        "raw": "SpO2 88%",
         "label": "spo2",
         "value": "88%",
         "position": 67
@@ -79,6 +79,12 @@
         "label": "bp",
         "value": "85",
         "position": 21
+      },
+      {
+        "raw": "HR-",
+        "label": "hr",
+        "value": "-",
+        "position": 28
       }
     ],
     "dose": [

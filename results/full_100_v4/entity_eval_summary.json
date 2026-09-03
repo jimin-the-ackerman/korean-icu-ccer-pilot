@@ -1,0 +1,26 @@
+{
+  "clinical_charting": {
+    "precision": 0.7351,
+    "recall": 0.4982,
+    "f1": 0.5939,
+    "gold_entity_count": 1415,
+    "whisper_entity_count": 959,
+    "true_positive": 705
+  },
+  "formal_template": {
+    "precision": 0.6306,
+    "recall": 0.4862,
+    "f1": 0.5491,
+    "gold_entity_count": 1415,
+    "whisper_entity_count": 1091,
+    "true_positive": 688
+  },
+  "telegraphic_icu": {
+    "precision": 0.7281,
+    "recall": 0.4353,
+    "f1": 0.5449,
+    "gold_entity_count": 1415,
+    "whisper_entity_count": 846,
+    "true_positive": 616
+  }
+}

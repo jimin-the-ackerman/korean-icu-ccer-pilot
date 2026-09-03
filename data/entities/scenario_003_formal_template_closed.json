@@ -34,12 +34,6 @@
         "label": "bt",
         "value": "37.1",
         "position": 88
-      },
-      {
-        "raw": "산소포화도는 2",
-        "label": "spo2",
-        "value": "2",
-        "position": 100
       }
     ],
     "dose": [

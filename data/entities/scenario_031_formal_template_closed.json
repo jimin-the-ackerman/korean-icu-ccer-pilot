@@ -34,6 +34,12 @@
         "label": "bt",
         "value": "38.5",
         "position": 112
+      },
+      {
+        "raw": "산소포화도가 대기 중 95%",
+        "label": "spo2",
+        "value": "95%",
+        "position": 124
       }
     ],
     "dose": []
@@ -66,6 +72,12 @@
         "label": "bt",
         "value": "38.5",
         "position": 91
+      },
+      {
+        "raw": "산소포화도가 대기 중 95%",
+        "label": "spo2",
+        "value": "95%",
+        "position": 102
       }
     ],
     "dose": []

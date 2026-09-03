@@ -75,9 +75,9 @@
     "device": [],
     "vital_sign": [
       {
-        "raw": "BP 25",
+        "raw": "BP 25-60",
         "label": "bp",
-        "value": "25",
+        "value": "25/60",
         "position": 47
       },
       {

@@ -98,6 +98,24 @@
         "position": 48
       },
       {
+        "raw": "HR-",
+        "label": "hr",
+        "value": "-",
+        "position": 60
+      },
+      {
+        "raw": "RR-",
+        "label": "rr",
+        "value": "-",
+        "position": 69
+      },
+      {
+        "raw": "BT-",
+        "label": "bt",
+        "value": "-",
+        "position": 95
+      },
+      {
         "raw": "SpO2 88%",
         "label": "spo2",
         "value": "88%",

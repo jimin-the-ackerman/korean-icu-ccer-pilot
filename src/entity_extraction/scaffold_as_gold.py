@@ -24,6 +24,8 @@ def scaffold_to_closed_vocab(scaffold: dict) -> dict:
     """
     closed_vocab_extractor.extract_closed_vocab_entities()와 동일한 형태로 변환.
     """
+    import re
+
     result = {"route": [], "frequency": [], "device": [], "vital_sign": [], "dose": []}
 
     med = scaffold.get("medication")
@@ -57,9 +59,20 @@ def scaffold_to_closed_vocab(scaffold: dict) -> dict:
 
     vs = scaffold.get("vital_signs", {})
     label_map = {"BP": "bp", "HR": "hr", "RR": "rr", "BT": "bt", "SpO2": "spo2"}
+    # v4 변경 - docs/v4_style_invariant_extraction_spec.md 대응 (100-scenario
+    # 실측 audit에서 발견): scaffold 원본 값에는 "120 bpm", "37.1 °C",
+    # "95% on room air"처럼 단위/부가 문맥이 그대로 문자열로 박혀있는데,
+    # Whisper 쪽 closed_vocab_extractor.py는 숫자(및 BP의 분수, SpO2의 %)만
+    # 추출한다. 이 비대칭 때문에 숫자가 완전히 같아도 문자열 비교로
+    # numeric_error가 발생하는 구조적 버그가 있었다(v1부터 존재, Formal
+    # Template의 라벨이 v4 이전엔 전혀 인식되지 않아 드러나지 않았을 뿐).
+    # Whisper 쪽과 동일한 형태(숫자/분수/퍼센트만)로 정규화한다.
+    _VITAL_SIGN_VALUE_LEADING = re.compile(r"[\d./%-]+")
     for key, label in label_map.items():
         if key in vs:
-            value = vs[key].rstrip(".")
+            raw_value = vs[key].rstrip(".")
+            m = _VITAL_SIGN_VALUE_LEADING.match(raw_value)
+            value = m.group(0) if m else raw_value
             result["vital_sign"].append({
                 "raw": f"{key} {value}", "label": label, "value": value, "position": 0
             })

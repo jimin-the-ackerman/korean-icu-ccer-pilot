@@ -34,9 +34,9 @@
       "entity_type": "vital_sign",
       "label": "hr",
       "gold_value": "120",
-      "whisper_value": null,
-      "match_status": "omission",
-      "error_type": "omission"
+      "whisper_value": "1",
+      "match_status": "error",
+      "error_type": "numeric_error"
     },
     {
       "entity_type": "vital_sign",

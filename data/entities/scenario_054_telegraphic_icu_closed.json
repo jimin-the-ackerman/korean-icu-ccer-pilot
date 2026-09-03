@@ -86,6 +86,12 @@
         "position": 33
       },
       {
+        "raw": "HR-95",
+        "label": "hr",
+        "value": "95",
+        "position": 42
+      },
+      {
         "raw": "BT 36.8",
         "label": "bt",
         "value": "36.8",

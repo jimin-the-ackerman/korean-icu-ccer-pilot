@@ -92,6 +92,14 @@ def run_scheme(cache: dict, weights: dict) -> pd.DataFrame:
 
 
 def main():
+    import argparse
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--output-dir", type=str, default="results/full_100")
+    args = parser.parse_args()
+    output_dir = args.output_dir
+    import os
+    os.makedirs(output_dir, exist_ok=True)
+
     cache = load_all_flattened_records()
     print(f"로드된 샘플 수: {len(cache)}")
 
@@ -146,8 +154,8 @@ def main():
         schemes_with_r = summary_df[summary_df["ranking_best_to_worst"] == r].index.tolist()
         print(f"  '{r}': {schemes_with_r}")
 
-    summary_df.to_csv("results/full_100/sap3_weight_sensitivity_summary.csv")
-    print(f"\n저장 완료: results/full_100/sap3_weight_sensitivity_summary.csv")
+    summary_df.to_csv(f"{output_dir}/sap3_weight_sensitivity_summary.csv")
+    print(f"\n저장 완료: {output_dir}/sap3_weight_sensitivity_summary.csv")
 
 
 if __name__ == "__main__":

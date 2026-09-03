@@ -45,6 +45,12 @@
         "label": "bt",
         "value": "36.7",
         "position": 102
+      },
+      {
+        "raw": "산소포화도는 실내 공기에서 90%",
+        "label": "spo2",
+        "value": "90%",
+        "position": 113
       }
     ],
     "dose": [
@@ -84,6 +90,12 @@
         "label": "bt",
         "value": "36.75",
         "position": 89
+      },
+      {
+        "raw": "산소포화도는 실내 공기에서 90%",
+        "label": "spo2",
+        "value": "90%",
+        "position": 99
       }
     ],
     "dose": [

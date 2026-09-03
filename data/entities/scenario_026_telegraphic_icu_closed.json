@@ -73,7 +73,14 @@
         "position": 156
       }
     ],
-    "vital_sign": [],
+    "vital_sign": [
+      {
+        "raw": "BT, 38.5",
+        "label": "bt",
+        "value": "38.5",
+        "position": 75
+      }
+    ],
     "dose": []
   }
 }

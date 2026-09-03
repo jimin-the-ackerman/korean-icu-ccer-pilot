@@ -90,10 +90,16 @@
     ],
     "vital_sign": [
       {
-        "raw": "BP 90",
+        "raw": "BP 90-60",
         "label": "bp",
-        "value": "90",
+        "value": "90/60",
         "position": 40
+      },
+      {
+        "raw": "HR-5",
+        "label": "hr",
+        "value": "5",
+        "position": 53
       },
       {
         "raw": "SpO2 86%",

@@ -63,9 +63,9 @@
     "device": [],
     "vital_sign": [
       {
-        "raw": "혈압 85",
+        "raw": "혈압 85-60",
         "label": "bp",
-        "value": "85",
+        "value": "85/60",
         "position": 46
       },
       {

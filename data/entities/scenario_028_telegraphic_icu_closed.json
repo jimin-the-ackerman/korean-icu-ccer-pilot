@@ -85,7 +85,14 @@
         "position": 130
       }
     ],
-    "vital_sign": [],
+    "vital_sign": [
+      {
+        "raw": "SPO2-95%",
+        "label": "spo2",
+        "value": "95%",
+        "position": 55
+      }
+    ],
     "dose": [
       {
         "raw": "20mg",

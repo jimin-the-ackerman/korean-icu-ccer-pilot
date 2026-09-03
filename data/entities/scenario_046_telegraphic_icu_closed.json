@@ -42,7 +42,7 @@
         "position": 62
       },
       {
-        "raw": "SpO2 98%.",
+        "raw": "SpO2 98%",
         "label": "spo2",
         "value": "98%",
         "position": 71
@@ -74,6 +74,18 @@
     ],
     "device": [],
     "vital_sign": [
+      {
+        "raw": "HR-",
+        "label": "hr",
+        "value": "-",
+        "position": 55
+      },
+      {
+        "raw": "BT-30-",
+        "label": "bt",
+        "value": "30-",
+        "position": 69
+      },
       {
         "raw": "SpO2 28%",
         "label": "spo2",

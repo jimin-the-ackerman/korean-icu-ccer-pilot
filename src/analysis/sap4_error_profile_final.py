@@ -49,6 +49,14 @@ def error_counts_by_style_entity_error(df: pd.DataFrame) -> pd.DataFrame:
 
 
 def main():
+    import argparse
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--output-dir", type=str, default="results/full_100")
+    args = parser.parse_args()
+    output_dir = args.output_dir
+    import os
+    os.makedirs(output_dir, exist_ok=True)
+
     df = load_all_records()
     print(f"총 레코드 수: {len(df)}")
 
@@ -67,8 +75,8 @@ def main():
         ["style_condition", "entity_type", "error_type"]
     )
 
-    result_df.to_csv("results/full_100/sap4_error_profile_with_rates.csv", index=False)
-    print("저장 완료: results/full_100/sap4_error_profile_with_rates.csv")
+    result_df.to_csv(f"{output_dir}/sap4_error_profile_with_rates.csv", index=False)
+    print(f"저장 완료: {output_dir}/sap4_error_profile_with_rates.csv")
 
     print(f"\n{'=' * 70}\nFormal Template의 omission이 어떤 entity_type에서 주로 발생하는가\n{'=' * 70}")
     formal_omission = result_df[
@@ -101,8 +109,8 @@ def main():
                                        values="overall_error_rate")
     print(pivot[STYLES])
 
-    pivot.to_csv("results/full_100/sap4_entity_type_error_rate_by_style.csv")
-    print(f"\n저장 완료: results/full_100/sap4_entity_type_error_rate_by_style.csv")
+    pivot.to_csv(f"{output_dir}/sap4_entity_type_error_rate_by_style.csv")
+    print(f"\n저장 완료: {output_dir}/sap4_entity_type_error_rate_by_style.csv")
 
 
 if __name__ == "__main__":

@@ -57,10 +57,10 @@
     {
       "entity_type": "vital_sign",
       "label": "spo2",
-      "gold_value": "96% on room air",
+      "gold_value": "96%",
       "whisper_value": "96%",
-      "match_status": "error",
-      "error_type": "numeric_error"
+      "match_status": "matched",
+      "error_type": null
     }
   ],
   "open_vocab_matches": {

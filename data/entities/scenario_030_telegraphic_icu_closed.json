@@ -48,7 +48,7 @@
         "position": 66
       },
       {
-        "raw": "SpO2 96%.",
+        "raw": "SpO2 96%",
         "label": "spo2",
         "value": "96%",
         "position": 77
@@ -79,7 +79,14 @@
         "position": 149
       }
     ],
-    "vital_sign": [],
+    "vital_sign": [
+      {
+        "raw": "BT, 37",
+        "label": "bt",
+        "value": "37",
+        "position": 72
+      }
+    ],
     "dose": [
       {
         "raw": "40mg",

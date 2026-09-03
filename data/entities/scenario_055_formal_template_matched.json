@@ -33,9 +33,9 @@
       "entity_type": "vital_sign",
       "label": "bp",
       "gold_value": "90/60",
-      "whisper_value": "90",
-      "match_status": "error",
-      "error_type": "numeric_error"
+      "whisper_value": "90/60",
+      "match_status": "matched",
+      "error_type": null
     },
     {
       "entity_type": "vital_sign",
@@ -64,10 +64,10 @@
     {
       "entity_type": "vital_sign",
       "label": "spo2",
-      "gold_value": "95% on 2L nasal cannula",
-      "whisper_value": "2",
-      "match_status": "error",
-      "error_type": "numeric_error"
+      "gold_value": "95%",
+      "whisper_value": null,
+      "match_status": "omission",
+      "error_type": "omission"
     }
   ],
   "open_vocab_matches": {

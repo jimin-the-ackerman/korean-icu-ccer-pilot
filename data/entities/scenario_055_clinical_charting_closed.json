@@ -80,6 +80,12 @@
     "device": [],
     "vital_sign": [
       {
+        "raw": "RR-",
+        "label": "rr",
+        "value": "-",
+        "position": 79
+      },
+      {
         "raw": "BT 38.1",
         "label": "bt",
         "value": "38.1",

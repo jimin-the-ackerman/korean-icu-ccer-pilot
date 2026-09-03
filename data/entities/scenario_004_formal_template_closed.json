@@ -46,6 +46,12 @@
         "label": "bt",
         "value": "38.5",
         "position": 81
+      },
+      {
+        "raw": "산소포화도는 실내 공기에서 95%",
+        "label": "spo2",
+        "value": "95%",
+        "position": 94
       }
     ],
     "dose": [
@@ -69,9 +75,9 @@
     ],
     "vital_sign": [
       {
-        "raw": "혈압 90",
+        "raw": "혈압 90-60",
         "label": "bp",
-        "value": "90",
+        "value": "90/60",
         "position": 34
       },
       {
@@ -91,6 +97,12 @@
         "label": "bt",
         "value": "38.5",
         "position": 69
+      },
+      {
+        "raw": "산소포화도는 실내 공기에서 95%",
+        "label": "spo2",
+        "value": "95%",
+        "position": 81
       }
     ],
     "dose": [

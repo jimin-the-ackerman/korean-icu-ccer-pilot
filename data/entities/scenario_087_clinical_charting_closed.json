@@ -78,7 +78,20 @@
     ],
     "frequency": [],
     "device": [],
-    "vital_sign": [],
+    "vital_sign": [
+      {
+        "raw": "RR-",
+        "label": "rr",
+        "value": "-",
+        "position": 57
+      },
+      {
+        "raw": "BT-30",
+        "label": "bt",
+        "value": "30",
+        "position": 72
+      }
+    ],
     "dose": [
       {
         "raw": "10mg",

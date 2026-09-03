@@ -53,7 +53,7 @@
         "position": 76
       },
       {
-        "raw": "SpO2 94%.",
+        "raw": "SpO2 94%",
         "label": "spo2",
         "value": "94%",
         "position": 89
@@ -97,10 +97,10 @@
         "position": 44
       },
       {
-        "raw": "SpO2 95.5",
-        "label": "spo2",
-        "value": "95.5",
-        "position": 82
+        "raw": "BT, 37.1",
+        "label": "bt",
+        "value": "37.1",
+        "position": 72
       }
     ],
     "dose": [

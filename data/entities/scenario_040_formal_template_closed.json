@@ -68,9 +68,9 @@
     ],
     "vital_sign": [
       {
-        "raw": "혈압은 160",
+        "raw": "혈압은 160-170",
         "label": "bp",
-        "value": "160",
+        "value": "160/170",
         "position": 73
       },
       {

@@ -61,7 +61,20 @@
     "route": [],
     "frequency": [],
     "device": [],
-    "vital_sign": [],
+    "vital_sign": [
+      {
+        "raw": "RR-92",
+        "label": "rr",
+        "value": "92",
+        "position": 61
+      },
+      {
+        "raw": "BT-",
+        "label": "bt",
+        "value": "-",
+        "position": 68
+      }
+    ],
     "dose": []
   }
 }

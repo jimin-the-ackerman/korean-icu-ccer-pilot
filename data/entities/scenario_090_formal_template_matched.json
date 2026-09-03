@@ -49,7 +49,7 @@
     {
       "entity_type": "vital_sign",
       "label": "bt",
-      "gold_value": "37.5°C",
+      "gold_value": "37.5",
       "whisper_value": "37.56",
       "match_status": "error",
       "error_type": "numeric_error"
@@ -57,10 +57,10 @@
     {
       "entity_type": "vital_sign",
       "label": "spo2",
-      "gold_value": "93% on room air",
-      "whisper_value": null,
-      "match_status": "omission",
-      "error_type": "omission"
+      "gold_value": "93%",
+      "whisper_value": "93%",
+      "match_status": "matched",
+      "error_type": null
     }
   ],
   "open_vocab_matches": {

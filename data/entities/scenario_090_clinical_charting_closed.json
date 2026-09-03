@@ -67,7 +67,14 @@
     ],
     "frequency": [],
     "device": [],
-    "vital_sign": [],
+    "vital_sign": [
+      {
+        "raw": "HR-95",
+        "label": "hr",
+        "value": "95",
+        "position": 126
+      }
+    ],
     "dose": [
       {
         "raw": "1g",

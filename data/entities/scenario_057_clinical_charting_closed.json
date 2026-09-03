@@ -42,7 +42,7 @@
         "position": 112
       },
       {
-        "raw": "SpO2 96%.",
+        "raw": "SpO2 96%",
         "label": "spo2",
         "value": "96%",
         "position": 123
@@ -67,7 +67,20 @@
     ],
     "frequency": [],
     "device": [],
-    "vital_sign": [],
+    "vital_sign": [
+      {
+        "raw": "BP-134-80-",
+        "label": "bp",
+        "value": "134/80-",
+        "position": 59
+      },
+      {
+        "raw": "BT-37.6-",
+        "label": "bt",
+        "value": "37.6-",
+        "position": 76
+      }
+    ],
     "dose": [
       {
         "raw": "125mg",

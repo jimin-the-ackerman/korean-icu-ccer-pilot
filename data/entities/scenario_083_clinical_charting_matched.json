@@ -40,33 +40,33 @@
       "entity_type": "vital_sign",
       "label": "bp",
       "gold_value": "160/90",
-      "whisper_value": "160",
-      "match_status": "error",
-      "error_type": "numeric_error"
+      "whisper_value": "160/90",
+      "match_status": "matched",
+      "error_type": null
     },
     {
       "entity_type": "vital_sign",
       "label": "hr",
       "gold_value": "110",
-      "whisper_value": null,
-      "match_status": "omission",
-      "error_type": "omission"
+      "whisper_value": "-",
+      "match_status": "error",
+      "error_type": "numeric_error"
     },
     {
       "entity_type": "vital_sign",
       "label": "rr",
       "gold_value": "28",
-      "whisper_value": null,
-      "match_status": "omission",
-      "error_type": "omission"
+      "whisper_value": "-",
+      "match_status": "error",
+      "error_type": "numeric_error"
     },
     {
       "entity_type": "vital_sign",
       "label": "bt",
-      "gold_value": "37.2°C",
-      "whisper_value": null,
-      "match_status": "omission",
-      "error_type": "omission"
+      "gold_value": "37.2",
+      "whisper_value": "347.2",
+      "match_status": "error",
+      "error_type": "numeric_error"
     },
     {
       "entity_type": "vital_sign",

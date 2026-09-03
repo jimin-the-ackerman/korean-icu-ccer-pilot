@@ -96,6 +96,12 @@
     ],
     "vital_sign": [
       {
+        "raw": "HR-",
+        "label": "hr",
+        "value": "-",
+        "position": 45
+      },
+      {
         "raw": "BT 36.8",
         "label": "bt",
         "value": "36.8",

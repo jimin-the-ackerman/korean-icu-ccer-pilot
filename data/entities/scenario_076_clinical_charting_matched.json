@@ -63,10 +63,10 @@
     {
       "entity_type": "vital_sign",
       "label": "bt",
-      "gold_value": "36.8°C",
+      "gold_value": "36.8",
       "whisper_value": "36.8",
-      "match_status": "error",
-      "error_type": "numeric_error"
+      "match_status": "matched",
+      "error_type": null
     },
     {
       "entity_type": "vital_sign",

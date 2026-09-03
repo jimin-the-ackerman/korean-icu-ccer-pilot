@@ -86,6 +86,12 @@
         "position": 52
       },
       {
+        "raw": "RR, 24.2",
+        "label": "rr",
+        "value": "24.2",
+        "position": 64
+      },
+      {
         "raw": "SPO2 92%",
         "label": "spo2",
         "value": "92%",

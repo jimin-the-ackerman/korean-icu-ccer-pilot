@@ -75,6 +75,30 @@
     ],
     "vital_sign": [
       {
+        "raw": "BP-36",
+        "label": "bp",
+        "value": "36",
+        "position": 28
+      },
+      {
+        "raw": "HR-112",
+        "label": "hr",
+        "value": "112",
+        "position": 40
+      },
+      {
+        "raw": "RR-20",
+        "label": "rr",
+        "value": "20",
+        "position": 51
+      },
+      {
+        "raw": "BT-36.5",
+        "label": "bt",
+        "value": "36.5",
+        "position": 61
+      },
+      {
         "raw": "SpO2 90%",
         "label": "spo2",
         "value": "90%",

@@ -40,6 +40,12 @@
         "label": "bt",
         "value": "37.2",
         "position": 85
+      },
+      {
+        "raw": "산소포화도는 실온 공기에서 86%",
+        "label": "spo2",
+        "value": "86%",
+        "position": 97
       }
     ],
     "dose": []
@@ -72,6 +78,12 @@
         "label": "bt",
         "value": "37.2",
         "position": 71
+      },
+      {
+        "raw": "산소포화도는 실온공기에서 86%",
+        "label": "spo2",
+        "value": "86%",
+        "position": 83
       }
     ],
     "dose": []

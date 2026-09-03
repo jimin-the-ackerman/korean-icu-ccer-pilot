@@ -48,7 +48,7 @@
         "position": 116
       },
       {
-        "raw": "SpO2 88%.",
+        "raw": "SpO2 88%",
         "label": "spo2",
         "value": "88%",
         "position": 129
@@ -87,10 +87,28 @@
     ],
     "vital_sign": [
       {
-        "raw": "BP 160",
+        "raw": "BP 160-90",
         "label": "bp",
-        "value": "160",
+        "value": "160/90",
         "position": 73
+      },
+      {
+        "raw": "HR-",
+        "label": "hr",
+        "value": "-",
+        "position": 86
+      },
+      {
+        "raw": "RR-",
+        "label": "rr",
+        "value": "-",
+        "position": 98
+      },
+      {
+        "raw": "BT-347.2",
+        "label": "bt",
+        "value": "347.2",
+        "position": 108
       }
     ],
     "dose": [

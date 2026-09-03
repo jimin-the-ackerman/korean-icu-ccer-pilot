@@ -34,6 +34,12 @@
         "label": "bt",
         "value": "37.5",
         "position": 116
+      },
+      {
+        "raw": "산소포화도는 room air에서 93%",
+        "label": "spo2",
+        "value": "93%",
+        "position": 135
       }
     ],
     "dose": []
@@ -66,6 +72,12 @@
         "label": "bt",
         "value": "37.56",
         "position": 105
+      },
+      {
+        "raw": "산소포화도는 룸에어에서 93%",
+        "label": "spo2",
+        "value": "93%",
+        "position": 125
       }
     ],
     "dose": []

@@ -90,7 +90,26 @@
         "position": 196
       }
     ],
-    "vital_sign": [],
+    "vital_sign": [
+      {
+        "raw": "BP-",
+        "label": "bp",
+        "value": "-",
+        "position": 48
+      },
+      {
+        "raw": "HR-110",
+        "label": "hr",
+        "value": "110",
+        "position": 61
+      },
+      {
+        "raw": "BT-37.3",
+        "label": "bt",
+        "value": "37.3",
+        "position": 88
+      }
+    ],
     "dose": [
       {
         "raw": "40mg",

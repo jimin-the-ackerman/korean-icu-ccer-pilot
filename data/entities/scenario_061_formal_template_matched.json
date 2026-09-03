@@ -26,9 +26,9 @@
       "entity_type": "vital_sign",
       "label": "bp",
       "gold_value": "138/85",
-      "whisper_value": "138",
-      "match_status": "error",
-      "error_type": "numeric_error"
+      "whisper_value": "138/85",
+      "match_status": "matched",
+      "error_type": null
     },
     {
       "entity_type": "vital_sign",
@@ -49,18 +49,18 @@
     {
       "entity_type": "vital_sign",
       "label": "bt",
-      "gold_value": "37.8°C",
+      "gold_value": "37.8",
       "whisper_value": "37.8",
-      "match_status": "error",
-      "error_type": "numeric_error"
+      "match_status": "matched",
+      "error_type": null
     },
     {
       "entity_type": "vital_sign",
       "label": "spo2",
-      "gold_value": "96% on room air",
-      "whisper_value": null,
-      "match_status": "omission",
-      "error_type": "omission"
+      "gold_value": "96%",
+      "whisper_value": "96%",
+      "match_status": "matched",
+      "error_type": null
     }
   ],
   "open_vocab_matches": {

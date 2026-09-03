@@ -39,7 +39,7 @@
     {
       "entity_type": "vital_sign",
       "label": "bp",
-      "gold_value": "160/90 mmHg",
+      "gold_value": "160/90",
       "whisper_value": null,
       "match_status": "omission",
       "error_type": "omission"
@@ -47,15 +47,15 @@
     {
       "entity_type": "vital_sign",
       "label": "hr",
-      "gold_value": "95 bpm",
+      "gold_value": "95",
       "whisper_value": "95",
-      "match_status": "error",
-      "error_type": "numeric_error"
+      "match_status": "matched",
+      "error_type": null
     },
     {
       "entity_type": "vital_sign",
       "label": "rr",
-      "gold_value": "22 breaths/min",
+      "gold_value": "22",
       "whisper_value": null,
       "match_status": "omission",
       "error_type": "omission"
@@ -63,7 +63,7 @@
     {
       "entity_type": "vital_sign",
       "label": "bt",
-      "gold_value": "36.8°C",
+      "gold_value": "36.8",
       "whisper_value": "36.82",
       "match_status": "error",
       "error_type": "numeric_error"
@@ -71,7 +71,7 @@
     {
       "entity_type": "vital_sign",
       "label": "spo2",
-      "gold_value": "92% on room air",
+      "gold_value": "92%",
       "whisper_value": null,
       "match_status": "omission",
       "error_type": "omission"

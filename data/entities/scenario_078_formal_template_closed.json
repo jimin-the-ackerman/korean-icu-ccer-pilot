@@ -40,12 +40,6 @@
         "label": "bt",
         "value": "39.0",
         "position": 100
-      },
-      {
-        "raw": "산소포화도는 15",
-        "label": "spo2",
-        "value": "15",
-        "position": 115
       }
     ],
     "dose": []
@@ -84,12 +78,6 @@
         "label": "bt",
         "value": "39.09",
         "position": 94
-      },
-      {
-        "raw": "산소포화도는 15",
-        "label": "spo2",
-        "value": "15",
-        "position": 108
       }
     ],
     "dose": []

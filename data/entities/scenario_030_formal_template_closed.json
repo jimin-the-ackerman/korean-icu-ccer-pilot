@@ -74,9 +74,9 @@
     ],
     "vital_sign": [
       {
-        "raw": "혈압이 140",
+        "raw": "혈압이 140-920",
         "label": "bp",
-        "value": "140",
+        "value": "140/920",
         "position": 62
       },
       {

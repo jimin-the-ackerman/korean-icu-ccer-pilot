@@ -34,6 +34,12 @@
         "label": "bt",
         "value": "37.8",
         "position": 99
+      },
+      {
+        "raw": "산소포화도는 실내 공기에서 88%",
+        "label": "spo2",
+        "value": "88%",
+        "position": 118
       }
     ],
     "dose": []

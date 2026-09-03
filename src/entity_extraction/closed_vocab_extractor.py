@@ -142,9 +142,32 @@ VITAL_SIGN_LABEL_PATTERNS = [
     (re.compile(r"산소포화도"), "spo2"),
 ]
 
-# 라벨 뒤 값 사이에 올 수 있는 구분자(콜론/공백/조사)
-_VALUE_GAP = r"[:\s]*(?:은|는|이|가)?[:\s]*"
-VITAL_SIGN_VALUE_PATTERN = re.compile(rf"^{_VALUE_GAP}([\d./%]+)")
+# 라벨 뒤 값 사이에 올 수 있는 구분자(콜론/공백/조사/구두점)
+# v4 재검토: 콤마/하이픈도 단순 구분자로 흔히 쓰여 추가(SpO2 55건 audit 중
+# 발견, docs/v4_style_invariant_extraction_spec.md 대응 - Gold/Whisper value
+# canonicalization 이슈의 일부)
+_VALUE_GAP = r"[:\s,\-]*(?:은|는|이|가)?[:\s,\-]*"
+VITAL_SIGN_VALUE_PATTERN = re.compile(rf"^{_VALUE_GAP}([\d./%-]+)")
+
+# SpO2 전용: 라벨과 값 사이에 "산소 맥락 수식어"가 끼는 경우가 많음
+# (실측: SpO2 omission 199건 중 55건이 이 패턴, 그중 45건이 room-air류,
+# 2건이 device/oxygen-support류). 임의 길이 윈도우가 아니라 닫힌 표현
+# 집합 + 문법 구조로만 인정한다 - 집합에 없는 표현(예: STT 왜곡으로 생긴
+# "상실기 공기에서")은 의도적으로 매칭하지 않고 limitation으로 남긴다.
+# 값은 반드시 %로 끝나야 함을 명시적으로 요구한다(SpO2는 항상 퍼센트로
+# 표현되므로) - 그렇지 않으면 수식어가 whitelist에 없는 경우(예: "6L O2를
+# 코로 공급받으면서") fallback으로 엉뚱한 숫자(산소 유량 등)를 잘못 잡을
+# 위험이 있다(100개 데이터 false-positive 스캔에서 실제 발견: "산소포화도는
+# 6152를"처럼 유량이 STT로 뭉개진 값을 SpO2로 오인식했던 사례).
+_OXYGEN_CONTEXT_QUALIFIER = (
+    r"(?:실내\s*공기(?:상태)?|실온\s*공기|상온\s*공기|룸에어|대기\s*중|room\s*air|"
+    r"(?:high-?flow\s*)?nasal\s*cannula|비강\s*캐뉼라|NC)"
+)
+SPO2_VALUE_PATTERN = re.compile(
+    rf"^[:\s]*(?:은|는|이|가)?[:\s,\-]*"
+    rf"(?:{_OXYGEN_CONTEXT_QUALIFIER}[:\s]*(?:으로|로|에서|공급받으면서)?[:\s,\-]*)?"
+    rf"(\d+(?:\.\d+)?%)"
+)
 
 # ============================================================
 # dose (entity ownership hierarchy 적용 - v4 spec §3.5)
@@ -241,11 +264,19 @@ def extract_vital_sign(text: str) -> list[dict]:
     results = []
     for pattern, normalized_label in VITAL_SIGN_LABEL_PATTERNS:
         for m in pattern.finditer(text):
-            after = text[m.end():m.end() + 20]
-            value_match = VITAL_SIGN_VALUE_PATTERN.match(after)
+            after = text[m.end():m.end() + 60]
+            value_pattern = SPO2_VALUE_PATTERN if normalized_label == "spo2" else VITAL_SIGN_VALUE_PATTERN
+            value_match = value_pattern.match(after)
             if not value_match:
                 continue
             value_raw = value_match.group(1).rstrip(".")
+            # BP는 수축기/이완기 두 값을 "/"로 구분하는 것이 canonical 형태.
+            # STT가 이를 "-"로 옮기는 경우가 흔해(예: "90-60mmHg") 비교 전에
+            # canonical 구분자로 정규화한다 - Gold(scaffold_as_gold.py)는
+            # 항상 "/"를 쓰므로, 이 정규화 없이는 숫자가 완전히 같아도
+            # 구분자 차이만으로 numeric_error가 발생한다.
+            if normalized_label == "bp":
+                value_raw = re.sub(r"(\d)-(\d)", r"\1/\2", value_raw)
             results.append({
                 "raw": text[m.start():m.end() + value_match.end()],
                 "label": normalized_label,

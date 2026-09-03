@@ -97,12 +97,6 @@
         "position": 50
       },
       {
-        "raw": "SAT 8",
-        "label": "spo2",
-        "value": "8",
-        "position": 84
-      },
-      {
         "raw": "Spo2 92%",
         "label": "spo2",
         "value": "92%",
