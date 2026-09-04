@@ -1,0 +1,35 @@
+{
+  "sample_id": "scenario_100_hybrid",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "복통",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "의식이 혼미한 상태",
+    "medication_identity": "Morphine",
+    "interventions": [
+      "비위관 삽입하여 감압 시행"
+    ],
+    "intake_output": "최근 8시간 동안 소변량 감소 관찰됨",
+    "notification": "수술팀에 긴급 평가를 위해 통보하였다."
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "복통",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "의식이 혼미한 상태",
+    "medication_identity": "몰핀",
+    "interventions": [
+      "감압 시행"
+    ],
+    "intake_output": "최근 8시간 동안 소변량 감소 관찰됨",
+    "notification": "수술팀에 긴급평가를 위해 통보하였다"
+  }
+}

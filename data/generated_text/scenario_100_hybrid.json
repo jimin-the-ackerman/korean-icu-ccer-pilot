@@ -1,0 +1,11 @@
+{
+  "sample_id": "scenario_100_hybrid",
+  "scenario_id": "scenario_100",
+  "document_type": "ICU_observation",
+  "style_condition": "hybrid",
+  "text": "68세 남성 환자가 급성 장폐색이 의심되어 입원하였다. 혈압은 98/60 mmHg, 심박수는 112 bpm, 호흡수는 24회/분, 체온은 37.8°C, 산소포화도는 실내 공기에서 95%로 확인되었다. 환자는 심한 복통을 호소하였다. Morphine 4 mg IV q4h 투여함. 비위관 삽입하여 감압 시행함. NG tube 적용함. 최근 8시간 동안 소변량 감소 관찰됨. 환자는 의식이 혼미한 상태이다. 수술팀에 긴급 평가를 위해 통보하였다.",
+  "generation_metadata": {
+    "model": "gpt-4o",
+    "temperature": 0.7
+  }
+}
