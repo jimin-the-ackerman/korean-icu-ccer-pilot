@@ -171,3 +171,36 @@ entity_type에서 나오는가? Clinical/Telegraphic의 numeric_error 등 다른
 
 문서 확정 후 1 → 2 → 3 → 4 순서로 실행하고, 결과를 그대로 보고한다.
 실행 후 이 문서(분석 방법·weighting scheme)를 결과에 맞춰 수정하지 않는다.
+
+---
+
+## [사후 추가 - v4 최종 결과 해석 과정에서] 5. Macro-CCER Sensitivity Analysis
+
+**추가 시점 명시**: 이 항목은 위 1~4번 freeze 이후, v4 최종 결과를 해석하는
+과정에서 제기된 질문("Formal Template의 aggregate CCER 우위가 단지
+vital_sign — gold entity 1415개 중 500개, 약 35% — 의 높은 등장 빈도
+때문 아닌가?")에 답하기 위해 **사후에 추가**되었다. 1~4번과 달리 결과를
+보기 전에 확정한 항목이 아니므로, 이 사실 자체를 논문에 투명하게 밝힌다.
+
+**연구 질문**: Micro-CCER(기존 primary metric, entity 등장 빈도에 비례해
+가중)의 style 순위가 entity_type 등장 빈도와 무관하게(균등 가중해도)
+유지되는가?
+
+**계산 방법**: entity_type별로 micro-CCER(해당 type만의 weighted error /
+해당 type의 gold count)을 먼저 계산한 뒤, 11개 entity_type에 동일한
+가중치를 부여해 평균(Macro-CCER)을 낸다.
+
+**성격 명시**: micro와 macro 중 어느 쪽이 "정답"인지는 통계적으로 결정할
+문제가 아니라 임상적 판단의 문제다(빈도가 높은 정보를 반복적으로 잘
+지키는 것도 임상적으로 의미가 있을 수 있음). 따라서 이 분석은 weight
+sensitivity analysis(§3)와 같은 성격의 robustness check로 취급하며,
+primary metric(micro-CCER)을 대체하지 않는다.
+
+**결과**: `src/analysis/sap5_macro_ccer.py`,
+`results/full_100_v4/sap5_macro_ccer_summary.csv`,
+`results/full_100_v4/sap5_entity_type_ccer_table.csv` 참고. 순위는
+micro-CCER과 동일하게 유지되나(Formal < Clinical < Telegraphic) 격차가
+크게 좁혀지며, Formal이 11개 entity_type 중 7개에서 최선, 3개(device/
+dose/route — 한계 #14에서 이미 문서화한 잔여 STT 노이즈 영향 카테고리와
+정확히 일치)에서 최악, 1개(symptom)에서 Telegraphic이 근소하게 최선임이
+드러났다.
