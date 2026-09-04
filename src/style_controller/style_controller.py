@@ -69,6 +69,55 @@ STYLE_DEFINITIONS = {
             "Aggressively use standard ICU abbreviations that appear in the Reference abbreviation list.",
             "Represent every clinical fact contained in the Content Scaffold."
         ]
+    },
+
+    "hybrid": {
+        "label": "Hybrid Style (exploratory, entity-informed block combination)",
+        "source": (
+            "Constructed post-hoc from entity-level error patterns observed "
+            "in the 100-scenario v4 final results "
+            "(docs/design_decisions.md Sec 8, results/full_100_v4/sap5_*.csv; "
+            "see docs/hybrid_followup_spec.md for the full design rationale). "
+            "Each rule below reuses the exact rendering rules already "
+            "defined above for formal_template and clinical_charting -- no "
+            "new rule language was introduced for this style."
+        ),
+        "rules": [
+            "Render the note in the SAME clinical information order used by "
+            "Formal Template and Clinical Charting notes for this Content "
+            "Scaffold (the order in which facts naturally occur -- e.g. "
+            "patient context, vital signs, symptom, medication event, "
+            "intervention, device/oxygen support, clinical status, "
+            "notification). Do NOT reorder or regroup facts by rendering "
+            "rule. Each fact stays in its natural position; only HOW it is "
+            "expressed changes, according to the assignment below.",
+
+            "For vital signs, symptom, clinical status, intervention, "
+            "notification, and intake/output, apply these rules to that "
+            "fact's sentence: use complete Korean sentences with "
+            "appropriate subjects and particles (조사) -- do not omit "
+            "them; use descriptive narrative sentence endings (e.g. "
+            "'호흡곤란을 호소하였다', '산소포화도가 88%로 확인되었다'); "
+            "prefer full clinical terms over abbreviations whenever "
+            "natural.",
+
+            "For the medication event (medication name, dose, route, and "
+            "frequency together as one unit -- per the Medication "
+            "Expression Rule below, these four always render as a single "
+            "unit; frequency is included here for the grammatical "
+            "integrity of that unit, not because Clinical Charting was "
+            "independently better for frequency), device, and oxygen "
+            "support, apply these rules to that fact's line: use concise "
+            "Korean-English mixed charting expressions; use "
+            "charting-style verb endings (e.g. '적용함', '유지함', "
+            "'투여함'); use standard clinical abbreviations naturally; "
+            "prefer concise documentation over a complete grammatical "
+            "sentence for this fact.",
+
+            "Represent every clinical fact contained in the Content "
+            "Scaffold, in its natural position, using the rule set "
+            "assigned to it above."
+        ]
     }
 }
 

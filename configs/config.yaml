@@ -12,6 +12,7 @@ experiment:
     - formal_template
     - clinical_charting
     - telegraphic_icu
+    - hybrid                # exploratory follow-up (docs/hybrid_followup_spec.md)
 
 generation:
   provider: "openai"
