@@ -1,0 +1,35 @@
+{
+  "sample_id": "scenario_094_hybrid",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "토혈",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "졸림",
+    "medication_identity": "Pantoprazole",
+    "interventions": [
+      "내시경적 지혈술"
+    ],
+    "intake_output": "수분 균형 음성",
+    "notification": "위장관 팀에 긴급 내시경을 위해 보고하였다."
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "토혈",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "졸림",
+    "medication_identity": "Pantoprazol",
+    "interventions": [
+      "내시경적 지혈술 시행"
+    ],
+    "intake_output": "수분 균형 음성",
+    "notification": "위장관 팀에 긴급 내시경을 위해 보고함"
+  }
+}

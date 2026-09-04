@@ -1,0 +1,114 @@
+{
+  "sample_id": "scenario_071_hybrid",
+  "gold_entities": {
+    "route": [
+      {
+        "raw": "IV",
+        "normalized": "iv",
+        "position": 181
+      },
+      {
+        "raw": "IV",
+        "normalized": "iv",
+        "position": 208
+      }
+    ],
+    "frequency": [],
+    "device": [
+      {
+        "raw": "ventilator",
+        "normalized": "ventilator",
+        "position": 240
+      }
+    ],
+    "vital_sign": [
+      {
+        "raw": "혈압은 118/76",
+        "label": "bp",
+        "value": "118/76",
+        "position": 67
+      },
+      {
+        "raw": "심박수는 98",
+        "label": "hr",
+        "value": "98",
+        "position": 84
+      },
+      {
+        "raw": "호흡수는 28",
+        "label": "rr",
+        "value": "28",
+        "position": 97
+      },
+      {
+        "raw": "체온은 37.5",
+        "label": "bt",
+        "value": "37.5",
+        "position": 118
+      },
+      {
+        "raw": "산소포화도는 실내 공기에서 89%",
+        "label": "spo2",
+        "value": "89%",
+        "position": 132
+      }
+    ],
+    "dose": [
+      {
+        "raw": "0.4 g",
+        "value": "0.4",
+        "unit": "g",
+        "position": 199
+      }
+    ]
+  },
+  "whisper_entities": {
+    "route": [
+      {
+        "raw": "IV",
+        "normalized": "iv",
+        "position": 148
+      },
+      {
+        "raw": "IV",
+        "normalized": "iv",
+        "position": 164
+      }
+    ],
+    "frequency": [],
+    "device": [],
+    "vital_sign": [
+      {
+        "raw": "혈압은 118.76",
+        "label": "bp",
+        "value": "118.76",
+        "position": 50
+      },
+      {
+        "raw": "심박수는 98",
+        "label": "hr",
+        "value": "98",
+        "position": 64
+      },
+      {
+        "raw": "호흡수는 28",
+        "label": "rr",
+        "value": "28",
+        "position": 76
+      },
+      {
+        "raw": "체온은 37.56",
+        "label": "bt",
+        "value": "37.56",
+        "position": 88
+      },
+      {
+        "raw": "산소포화도는 실내 공기에서 89%",
+        "label": "spo2",
+        "value": "89%",
+        "position": 100
+      }
+    ],
+    "dose": []
+  }
+}

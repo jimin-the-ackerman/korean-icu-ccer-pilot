@@ -1,0 +1,11 @@
+{
+  "sample_id": "scenario_063_hybrid",
+  "scenario_id": "scenario_063",
+  "document_type": "ICU_observation",
+  "style_condition": "hybrid",
+  "text": "74세 여성 환자가 간경변증으로 인한 자연발병 세균성 복막염(SBP)으로 입원하였다. 혈압은 100/60 mmHg, 심박수는 98 bpm, 호흡수는 24 breaths/min, 체온은 37.8°C, 산소포화도는 실내 공기에서 92%로 확인되었다. 중등도의 복부 통증을 호소하였다. Ceftriaxone 2g IV q12h 투여함. 산소 공급은 nasal cannula at 2 L/min 유지함. Foley 적용함. 엄격한 입력/출력 모니터링 실시함. 임상 상태는 졸음 상태였다. 소변량 감소 및 복부 팽만에 대해 담당 의사에게 보고하였다.",
+  "generation_metadata": {
+    "model": "gpt-4o",
+    "temperature": 0.7
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "sample_id": "scenario_004_hybrid",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "복통",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "졸린 상태",
+    "medication_identity": "Morphine",
+    "interventions": [
+      "Fluid resuscitation 시행함"
+    ],
+    "intake_output": "4시간 동안 소변량 200 mL 기록됨",
+    "notification": "환자의 혈역학적 상태 악화에 대해 당직 소화기내과 의사에게 보고하였다"
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "복통",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "졸린 상태",
+    "medication_identity": "Morphine",
+    "interventions": [
+      "Fluid resuscitation 시행함"
+    ],
+    "intake_output": "4시간 동안 소변량 200ml 기록됨",
+    "notification": "환자의 혈역학적 상태 악화에 대해 장직 소아기내과 의사에게 보고하였다."
+  }
+}

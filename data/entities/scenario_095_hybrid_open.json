@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_095_hybrid",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "호흡곤란",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "의식 명료",
+    "medication_identity": "Albuterol",
+    "interventions": [],
+    "intake_output": "체액균형 양성",
+    "notification": "호흡치료사에게 ventilator 조정 요청 보고하였다."
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "호흡 곤란",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "의식이 명료함",
+    "medication_identity": "Albuterol",
+    "interventions": [],
+    "intake_output": "체액균형은 양성으로 확인됨",
+    "notification": "호흡치료사에게 Ventilator 조정 요청 보고하였다."
+  }
+}

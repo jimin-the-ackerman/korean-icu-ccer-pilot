@@ -1,0 +1,11 @@
+{
+  "sample_id": "scenario_049_hybrid",
+  "scenario_id": "scenario_049",
+  "document_type": "ICU_observation",
+  "style_condition": "hybrid",
+  "text": "54세 여자 환자가 오른쪽 무릎의 화농성 관절염으로 입원하였다. 혈압은 102/65 mmHg, 심박수는 115 bpm, 호흡수는 24회/분, 체온은 38.5도, 산소포화도는 실내 공기에서 96%로 확인되었다. 무릎 통증은 심한 상태로 호소하였다. Vancomycin 1g IV q12h 투여함. 오른쪽 무릎 관절 천자 시행함. 체액 균형은 500mL의 양성으로 확인되었다. 환자는 의식이 명료하였다. 정형외과 상담을 요청하였다.",
+  "generation_metadata": {
+    "model": "gpt-4o",
+    "temperature": 0.7
+  }
+}

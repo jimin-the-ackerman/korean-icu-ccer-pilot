@@ -1,0 +1,116 @@
+{
+  "sample_id": "scenario_058_hybrid",
+  "gold_entities": {
+    "route": [
+      {
+        "raw": "IV",
+        "normalized": "iv",
+        "position": 178
+      }
+    ],
+    "frequency": [
+      {
+        "raw": "BID",
+        "normalized": "bid",
+        "position": 181
+      }
+    ],
+    "device": [
+      {
+        "raw": "Foley",
+        "normalized": "foley",
+        "position": 215
+      },
+      {
+        "raw": "nasal cannula",
+        "normalized": "nc",
+        "position": 196
+      }
+    ],
+    "vital_sign": [
+      {
+        "raw": "혈압은 150/90",
+        "label": "bp",
+        "value": "150/90",
+        "position": 52
+      },
+      {
+        "raw": "심박수는 110",
+        "label": "hr",
+        "value": "110",
+        "position": 69
+      },
+      {
+        "raw": "호흡수는 24",
+        "label": "rr",
+        "value": "24",
+        "position": 83
+      },
+      {
+        "raw": "체온은 37.2",
+        "label": "bt",
+        "value": "37.2",
+        "position": 104
+      },
+      {
+        "raw": "산소포화도는 실내 공기에서 92%",
+        "label": "spo2",
+        "value": "92%",
+        "position": 116
+      }
+    ],
+    "dose": [
+      {
+        "raw": "40 mg",
+        "value": "40",
+        "unit": "mg",
+        "position": 172
+      }
+    ]
+  },
+  "whisper_entities": {
+    "route": [],
+    "frequency": [],
+    "device": [],
+    "vital_sign": [
+      {
+        "raw": "혈압은 150-90",
+        "label": "bp",
+        "value": "150/90",
+        "position": 50
+      },
+      {
+        "raw": "심박수는 110",
+        "label": "hr",
+        "value": "110",
+        "position": 66
+      },
+      {
+        "raw": "호흡수는 24",
+        "label": "rr",
+        "value": "24",
+        "position": 79
+      },
+      {
+        "raw": "체온은 37.26",
+        "label": "bt",
+        "value": "37.26",
+        "position": 98
+      },
+      {
+        "raw": "산소포화도는 실내 공기에서 92%",
+        "label": "spo2",
+        "value": "92%",
+        "position": 111
+      }
+    ],
+    "dose": [
+      {
+        "raw": "40mg",
+        "value": "40",
+        "unit": "mg",
+        "position": 167
+      }
+    ]
+  }
+}

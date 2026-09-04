@@ -1,0 +1,8 @@
+{
+  "sample_id": "scenario_034_hybrid",
+  "whisper_transcript": "58세 남성 환자가 급성 보상부전 간경변증과 간성 뇌병증으로 입원하였다. 혈압은 95-60mm, 심박수는 122pm, 호흡수는 20 per min, 체온은 36.5℃이며 산소포화도는 실내 공기에서 92%로 확인되었다. 황달이 중등도로 나타났다. Lactulose 30ml POQH 투여함. Nasal cannula at 2 at permamain 적용함. 임상적으로 환자는 졸린 상태였다. 간성 뇌병증 악화에 대해 간 전문팀에게 보고하였다. 체액 균형을 엄격하게 모니터링하였다.",
+  "stt_metadata": {
+    "model": "whisper-1",
+    "language": "ko"
+  }
+}

@@ -1,0 +1,121 @@
+{
+  "sample_id": "scenario_072_hybrid",
+  "gold_entities": {
+    "route": [
+      {
+        "raw": "IV",
+        "normalized": "iv",
+        "position": 200
+      },
+      {
+        "raw": "IV",
+        "normalized": "iv",
+        "position": 212
+      }
+    ],
+    "frequency": [
+      {
+        "raw": "q6h",
+        "normalized": "q6h",
+        "position": 203
+      }
+    ],
+    "device": [],
+    "vital_sign": [
+      {
+        "raw": "혈압은 90/60",
+        "label": "bp",
+        "value": "90/60",
+        "position": 61
+      },
+      {
+        "raw": "심박수는 110",
+        "label": "hr",
+        "value": "110",
+        "position": 79
+      },
+      {
+        "raw": "호흡수는 24",
+        "label": "rr",
+        "value": "24",
+        "position": 93
+      },
+      {
+        "raw": "체온은 37.8",
+        "label": "bt",
+        "value": "37.8",
+        "position": 114
+      },
+      {
+        "raw": "산소포화도는 실내 공기에서 95%",
+        "label": "spo2",
+        "value": "95%",
+        "position": 133
+      }
+    ],
+    "dose": [
+      {
+        "raw": "100 mg",
+        "value": "100",
+        "unit": "mg",
+        "position": 193
+      }
+    ]
+  },
+  "whisper_entities": {
+    "route": [
+      {
+        "raw": "IV",
+        "normalized": "iv",
+        "position": 185
+      },
+      {
+        "raw": "IV",
+        "normalized": "iv",
+        "position": 205
+      }
+    ],
+    "frequency": [],
+    "device": [],
+    "vital_sign": [
+      {
+        "raw": "혈압은 90-60",
+        "label": "bp",
+        "value": "90/60",
+        "position": 61
+      },
+      {
+        "raw": "심박수는 110",
+        "label": "hr",
+        "value": "110",
+        "position": 76
+      },
+      {
+        "raw": "호흡수는 24",
+        "label": "rr",
+        "value": "24",
+        "position": 89
+      },
+      {
+        "raw": "체온은 37.89",
+        "label": "bt",
+        "value": "37.89",
+        "position": 101
+      },
+      {
+        "raw": "산소포화도는 실내 공기에서 95%",
+        "label": "spo2",
+        "value": "95%",
+        "position": 119
+      }
+    ],
+    "dose": [
+      {
+        "raw": "100mg",
+        "value": "100",
+        "unit": "mg",
+        "position": 179
+      }
+    ]
+  }
+}

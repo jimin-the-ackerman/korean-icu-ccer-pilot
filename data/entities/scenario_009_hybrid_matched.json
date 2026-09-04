@@ -1,0 +1,116 @@
+{
+  "sample_id": "scenario_009_hybrid",
+  "closed_vocab_matches": [
+    {
+      "entity_type": "route",
+      "gold_value": "iv",
+      "whisper_value": null,
+      "match_status": "omission",
+      "error_type": "omission"
+    },
+    {
+      "entity_type": "frequency",
+      "gold_value": "q8h",
+      "whisper_value": null,
+      "match_status": "omission",
+      "error_type": "omission"
+    },
+    {
+      "entity_type": "device",
+      "gold_value": "c-line",
+      "whisper_value": null,
+      "match_status": "omission",
+      "error_type": "omission"
+    },
+    {
+      "entity_type": "device",
+      "gold_value": "nc",
+      "whisper_value": null,
+      "match_status": "omission",
+      "error_type": "omission"
+    },
+    {
+      "entity_type": "dose",
+      "gold_value": "4.5g",
+      "whisper_value": "4.5g",
+      "match_status": "matched",
+      "error_type": null
+    },
+    {
+      "entity_type": "vital_sign",
+      "label": "bp",
+      "gold_value": "85/50",
+      "whisper_value": "85/50",
+      "match_status": "matched",
+      "error_type": null
+    },
+    {
+      "entity_type": "vital_sign",
+      "label": "hr",
+      "gold_value": "120",
+      "whisper_value": "120",
+      "match_status": "matched",
+      "error_type": null
+    },
+    {
+      "entity_type": "vital_sign",
+      "label": "rr",
+      "gold_value": "26",
+      "whisper_value": "26",
+      "match_status": "matched",
+      "error_type": null
+    },
+    {
+      "entity_type": "vital_sign",
+      "label": "bt",
+      "gold_value": "38.9",
+      "whisper_value": "38.9",
+      "match_status": "matched",
+      "error_type": null
+    },
+    {
+      "entity_type": "vital_sign",
+      "label": "spo2",
+      "gold_value": "92%",
+      "whisper_value": "92%",
+      "match_status": "matched",
+      "error_type": null
+    }
+  ],
+  "open_vocab_matches": {
+    "symptom_matches": [
+      {
+        "gold_value": "fever",
+        "whisper_value": "발열",
+        "match_basis": "exact",
+        "negation_match": true,
+        "severity_match": true
+      }
+    ],
+    "whisper_only_symptoms": [
+      "저혈압"
+    ],
+    "clinical_status_match": {
+      "gold_value": "drowsy",
+      "whisper_value": "졸림",
+      "match_basis": "exact"
+    },
+    "medication_identity_match": {
+      "gold_value": "Piperacillin/Tazobactam",
+      "whisper_value": "피페라실린 타조박탐",
+      "match_basis": "exact"
+    },
+    "intervention_matches": [],
+    "whisper_only_interventions": [],
+    "intake_output_match": {
+      "gold_value": "Positive fluid balance",
+      "whisper_value": "체액균형은 양성이다",
+      "match_basis": "exact"
+    },
+    "notification_match": {
+      "gold_value": "Informed attending physician about ongoing hypotension and fever.",
+      "whisper_value": "지속적인 저혈압과 발열에 대해 담당 의사에게 보고하였다",
+      "match_basis": "exact"
+    }
+  }
+}

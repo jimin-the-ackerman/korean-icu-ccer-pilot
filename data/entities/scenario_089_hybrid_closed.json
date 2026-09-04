@@ -1,0 +1,110 @@
+{
+  "sample_id": "scenario_089_hybrid",
+  "gold_entities": {
+    "route": [
+      {
+        "raw": "PO",
+        "normalized": "po",
+        "position": 190
+      }
+    ],
+    "frequency": [],
+    "device": [
+      {
+        "raw": "Foley",
+        "normalized": "foley",
+        "position": 238
+      },
+      {
+        "raw": "nasal cannula",
+        "normalized": "nc",
+        "position": 210
+      }
+    ],
+    "vital_sign": [
+      {
+        "raw": "혈압은 92/58",
+        "label": "bp",
+        "value": "92/58",
+        "position": 55
+      },
+      {
+        "raw": "심박수는 115",
+        "label": "hr",
+        "value": "115",
+        "position": 71
+      },
+      {
+        "raw": "호흡수는 24",
+        "label": "rr",
+        "value": "24",
+        "position": 85
+      },
+      {
+        "raw": "체온은 37.2",
+        "label": "bt",
+        "value": "37.2",
+        "position": 106
+      },
+      {
+        "raw": "산소포화도는 실내 공기에서 89%",
+        "label": "spo2",
+        "value": "89%",
+        "position": 125
+      }
+    ],
+    "dose": [
+      {
+        "raw": "100 mg",
+        "value": "100",
+        "unit": "mg",
+        "position": 183
+      }
+    ]
+  },
+  "whisper_entities": {
+    "route": [],
+    "frequency": [],
+    "device": [],
+    "vital_sign": [
+      {
+        "raw": "혈압은 92-58",
+        "label": "bp",
+        "value": "92/58",
+        "position": 50
+      },
+      {
+        "raw": "심박수는 165",
+        "label": "hr",
+        "value": "165",
+        "position": 65
+      },
+      {
+        "raw": "호흡수는 24",
+        "label": "rr",
+        "value": "24",
+        "position": 78
+      },
+      {
+        "raw": "체온은 37.16",
+        "label": "bt",
+        "value": "37.16",
+        "position": 90
+      },
+      {
+        "raw": "산소포화도는 실내 공기에서 89%",
+        "label": "spo2",
+        "value": "89%",
+        "position": 109
+      }
+    ],
+    "dose": [
+      {
+        "raw": "100mg",
+        "value": "100",
+        "unit": "mg",
+        "position": 159
+      }
+    ]
+  }
+}

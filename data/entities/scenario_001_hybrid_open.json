@@ -1,0 +1,41 @@
+{
+  "sample_id": "scenario_001_hybrid",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "호흡곤란",
+        "negation": false,
+        "severity": null
+      },
+      {
+        "name": "기침",
+        "negation": false,
+        "severity": "moderate"
+      }
+    ],
+    "clinical_status": "drowsy",
+    "medication_identity": "Ceftriaxone",
+    "interventions": [],
+    "intake_output": null,
+    "notification": "산소포화도 저하에 대해 호흡 치료사에게 보고하였다"
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "호흡 곤란",
+        "negation": false,
+        "severity": null
+      },
+      {
+        "name": "기침",
+        "negation": false,
+        "severity": "moderate"
+      }
+    ],
+    "clinical_status": "드라우지 상태",
+    "medication_identity": "세프트리약손",
+    "interventions": [],
+    "intake_output": null,
+    "notification": "산소포화도 저하에 대해 호흡치료사에게 보고하였다."
+  }
+}

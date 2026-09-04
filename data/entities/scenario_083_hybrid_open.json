@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_083_hybrid",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "호흡곤란",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "졸려함",
+    "medication_identity": "Furosemide",
+    "interventions": [],
+    "intake_output": null,
+    "notification": null
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "호흡곤란",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "졸려함",
+    "medication_identity": "Furosemide",
+    "interventions": [],
+    "intake_output": null,
+    "notification": null
+  }
+}

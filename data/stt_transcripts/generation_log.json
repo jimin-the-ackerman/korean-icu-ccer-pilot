@@ -9,6 +9,10 @@
       "status": "skipped"
     },
     {
+      "sample_id": "scenario_001_hybrid",
+      "status": "processed"
+    },
+    {
       "sample_id": "scenario_001_telegraphic_icu",
       "status": "skipped"
     },
@@ -19,6 +23,10 @@
     {
       "sample_id": "scenario_002_formal_template",
       "status": "skipped"
+    },
+    {
+      "sample_id": "scenario_002_hybrid",
+      "status": "processed"
     },
     {
       "sample_id": "scenario_002_telegraphic_icu",
@@ -33,6 +41,10 @@
       "status": "skipped"
     },
     {
+      "sample_id": "scenario_003_hybrid",
+      "status": "processed"
+    },
+    {
       "sample_id": "scenario_003_telegraphic_icu",
       "status": "skipped"
     },
@@ -43,6 +55,10 @@
     {
       "sample_id": "scenario_004_formal_template",
       "status": "skipped"
+    },
+    {
+      "sample_id": "scenario_004_hybrid",
+      "status": "processed"
     },
     {
       "sample_id": "scenario_004_telegraphic_icu",
@@ -57,6 +73,10 @@
       "status": "skipped"
     },
     {
+      "sample_id": "scenario_005_hybrid",
+      "status": "processed"
+    },
+    {
       "sample_id": "scenario_005_telegraphic_icu",
       "status": "skipped"
     },
@@ -67,6 +87,10 @@
     {
       "sample_id": "scenario_006_formal_template",
       "status": "skipped"
+    },
+    {
+      "sample_id": "scenario_006_hybrid",
+      "status": "processed"
     },
     {
       "sample_id": "scenario_006_telegraphic_icu",
@@ -81,6 +105,10 @@
       "status": "skipped"
     },
     {
+      "sample_id": "scenario_007_hybrid",
+      "status": "processed"
+    },
+    {
       "sample_id": "scenario_007_telegraphic_icu",
       "status": "skipped"
     },
@@ -91,6 +119,10 @@
     {
       "sample_id": "scenario_008_formal_template",
       "status": "skipped"
+    },
+    {
+      "sample_id": "scenario_008_hybrid",
+      "status": "processed"
     },
     {
       "sample_id": "scenario_008_telegraphic_icu",
@@ -105,6 +137,10 @@
       "status": "skipped"
     },
     {
+      "sample_id": "scenario_009_hybrid",
+      "status": "processed"
+    },
+    {
       "sample_id": "scenario_009_telegraphic_icu",
       "status": "skipped"
     },
@@ -115,6 +151,10 @@
     {
       "sample_id": "scenario_010_formal_template",
       "status": "skipped"
+    },
+    {
+      "sample_id": "scenario_010_hybrid",
+      "status": "processed"
     },
     {
       "sample_id": "scenario_010_telegraphic_icu",
@@ -129,6 +169,10 @@
       "status": "skipped"
     },
     {
+      "sample_id": "scenario_011_hybrid",
+      "status": "processed"
+    },
+    {
       "sample_id": "scenario_011_telegraphic_icu",
       "status": "skipped"
     },
@@ -139,6 +183,10 @@
     {
       "sample_id": "scenario_012_formal_template",
       "status": "skipped"
+    },
+    {
+      "sample_id": "scenario_012_hybrid",
+      "status": "processed"
     },
     {
       "sample_id": "scenario_012_telegraphic_icu",
@@ -153,6 +201,10 @@
       "status": "skipped"
     },
     {
+      "sample_id": "scenario_013_hybrid",
+      "status": "processed"
+    },
+    {
       "sample_id": "scenario_013_telegraphic_icu",
       "status": "skipped"
     },
@@ -163,6 +215,10 @@
     {
       "sample_id": "scenario_014_formal_template",
       "status": "skipped"
+    },
+    {
+      "sample_id": "scenario_014_hybrid",
+      "status": "processed"
     },
     {
       "sample_id": "scenario_014_telegraphic_icu",
@@ -177,6 +233,10 @@
       "status": "skipped"
     },
     {
+      "sample_id": "scenario_015_hybrid",
+      "status": "processed"
+    },
+    {
       "sample_id": "scenario_015_telegraphic_icu",
       "status": "skipped"
     },
@@ -187,6 +247,10 @@
     {
       "sample_id": "scenario_016_formal_template",
       "status": "skipped"
+    },
+    {
+      "sample_id": "scenario_016_hybrid",
+      "status": "processed"
     },
     {
       "sample_id": "scenario_016_telegraphic_icu",
@@ -201,6 +265,10 @@
       "status": "skipped"
     },
     {
+      "sample_id": "scenario_017_hybrid",
+      "status": "processed"
+    },
+    {
       "sample_id": "scenario_017_telegraphic_icu",
       "status": "skipped"
     },
@@ -211,6 +279,10 @@
     {
       "sample_id": "scenario_018_formal_template",
       "status": "skipped"
+    },
+    {
+      "sample_id": "scenario_018_hybrid",
+      "status": "processed"
     },
     {
       "sample_id": "scenario_018_telegraphic_icu",
@@ -225,6 +297,10 @@
       "status": "skipped"
     },
     {
+      "sample_id": "scenario_019_hybrid",
+      "status": "processed"
+    },
+    {
       "sample_id": "scenario_019_telegraphic_icu",
       "status": "skipped"
     },
@@ -235,6 +311,10 @@
     {
       "sample_id": "scenario_020_formal_template",
       "status": "skipped"
+    },
+    {
+      "sample_id": "scenario_020_hybrid",
+      "status": "processed"
     },
     {
       "sample_id": "scenario_020_telegraphic_icu",
@@ -249,6 +329,10 @@
       "status": "skipped"
     },
     {
+      "sample_id": "scenario_021_hybrid",
+      "status": "processed"
+    },
+    {
       "sample_id": "scenario_021_telegraphic_icu",
       "status": "skipped"
     },
@@ -259,6 +343,10 @@
     {
       "sample_id": "scenario_022_formal_template",
       "status": "skipped"
+    },
+    {
+      "sample_id": "scenario_022_hybrid",
+      "status": "processed"
     },
     {
       "sample_id": "scenario_022_telegraphic_icu",
@@ -273,6 +361,10 @@
       "status": "skipped"
     },
     {
+      "sample_id": "scenario_023_hybrid",
+      "status": "processed"
+    },
+    {
       "sample_id": "scenario_023_telegraphic_icu",
       "status": "skipped"
     },
@@ -283,6 +375,10 @@
     {
       "sample_id": "scenario_024_formal_template",
       "status": "skipped"
+    },
+    {
+      "sample_id": "scenario_024_hybrid",
+      "status": "processed"
     },
     {
       "sample_id": "scenario_024_telegraphic_icu",
@@ -297,6 +393,10 @@
       "status": "skipped"
     },
     {
+      "sample_id": "scenario_025_hybrid",
+      "status": "processed"
+    },
+    {
       "sample_id": "scenario_025_telegraphic_icu",
       "status": "skipped"
     },
@@ -307,6 +407,10 @@
     {
       "sample_id": "scenario_026_formal_template",
       "status": "skipped"
+    },
+    {
+      "sample_id": "scenario_026_hybrid",
+      "status": "processed"
     },
     {
       "sample_id": "scenario_026_telegraphic_icu",
@@ -321,6 +425,10 @@
       "status": "skipped"
     },
     {
+      "sample_id": "scenario_027_hybrid",
+      "status": "processed"
+    },
+    {
       "sample_id": "scenario_027_telegraphic_icu",
       "status": "skipped"
     },
@@ -331,6 +439,10 @@
     {
       "sample_id": "scenario_028_formal_template",
       "status": "skipped"
+    },
+    {
+      "sample_id": "scenario_028_hybrid",
+      "status": "processed"
     },
     {
       "sample_id": "scenario_028_telegraphic_icu",
@@ -345,6 +457,10 @@
       "status": "skipped"
     },
     {
+      "sample_id": "scenario_029_hybrid",
+      "status": "processed"
+    },
+    {
       "sample_id": "scenario_029_telegraphic_icu",
       "status": "skipped"
     },
@@ -355,6 +471,10 @@
     {
       "sample_id": "scenario_030_formal_template",
       "status": "skipped"
+    },
+    {
+      "sample_id": "scenario_030_hybrid",
+      "status": "processed"
     },
     {
       "sample_id": "scenario_030_telegraphic_icu",
@@ -369,6 +489,10 @@
       "status": "skipped"
     },
     {
+      "sample_id": "scenario_031_hybrid",
+      "status": "processed"
+    },
+    {
       "sample_id": "scenario_031_telegraphic_icu",
       "status": "skipped"
     },
@@ -379,6 +503,10 @@
     {
       "sample_id": "scenario_032_formal_template",
       "status": "skipped"
+    },
+    {
+      "sample_id": "scenario_032_hybrid",
+      "status": "processed"
     },
     {
       "sample_id": "scenario_032_telegraphic_icu",
@@ -393,6 +521,10 @@
       "status": "skipped"
     },
     {
+      "sample_id": "scenario_033_hybrid",
+      "status": "processed"
+    },
+    {
       "sample_id": "scenario_033_telegraphic_icu",
       "status": "skipped"
     },
@@ -403,6 +535,10 @@
     {
       "sample_id": "scenario_034_formal_template",
       "status": "skipped"
+    },
+    {
+      "sample_id": "scenario_034_hybrid",
+      "status": "processed"
     },
     {
       "sample_id": "scenario_034_telegraphic_icu",
@@ -417,6 +553,10 @@
       "status": "skipped"
     },
     {
+      "sample_id": "scenario_035_hybrid",
+      "status": "processed"
+    },
+    {
       "sample_id": "scenario_035_telegraphic_icu",
       "status": "skipped"
     },
@@ -427,6 +567,10 @@
     {
       "sample_id": "scenario_036_formal_template",
       "status": "skipped"
+    },
+    {
+      "sample_id": "scenario_036_hybrid",
+      "status": "processed"
     },
     {
       "sample_id": "scenario_036_telegraphic_icu",
@@ -441,6 +585,10 @@
       "status": "skipped"
     },
     {
+      "sample_id": "scenario_037_hybrid",
+      "status": "processed"
+    },
+    {
       "sample_id": "scenario_037_telegraphic_icu",
       "status": "skipped"
     },
@@ -451,6 +599,10 @@
     {
       "sample_id": "scenario_038_formal_template",
       "status": "skipped"
+    },
+    {
+      "sample_id": "scenario_038_hybrid",
+      "status": "processed"
     },
     {
       "sample_id": "scenario_038_telegraphic_icu",
@@ -465,6 +617,10 @@
       "status": "skipped"
     },
     {
+      "sample_id": "scenario_039_hybrid",
+      "status": "processed"
+    },
+    {
       "sample_id": "scenario_039_telegraphic_icu",
       "status": "skipped"
     },
@@ -475,6 +631,10 @@
     {
       "sample_id": "scenario_040_formal_template",
       "status": "skipped"
+    },
+    {
+      "sample_id": "scenario_040_hybrid",
+      "status": "processed"
     },
     {
       "sample_id": "scenario_040_telegraphic_icu",
@@ -489,6 +649,10 @@
       "status": "skipped"
     },
     {
+      "sample_id": "scenario_041_hybrid",
+      "status": "processed"
+    },
+    {
       "sample_id": "scenario_041_telegraphic_icu",
       "status": "skipped"
     },
@@ -499,6 +663,10 @@
     {
       "sample_id": "scenario_042_formal_template",
       "status": "skipped"
+    },
+    {
+      "sample_id": "scenario_042_hybrid",
+      "status": "processed"
     },
     {
       "sample_id": "scenario_042_telegraphic_icu",
@@ -513,6 +681,10 @@
       "status": "skipped"
     },
     {
+      "sample_id": "scenario_043_hybrid",
+      "status": "processed"
+    },
+    {
       "sample_id": "scenario_043_telegraphic_icu",
       "status": "skipped"
     },
@@ -523,6 +695,10 @@
     {
       "sample_id": "scenario_044_formal_template",
       "status": "skipped"
+    },
+    {
+      "sample_id": "scenario_044_hybrid",
+      "status": "processed"
     },
     {
       "sample_id": "scenario_044_telegraphic_icu",
@@ -537,6 +713,10 @@
       "status": "skipped"
     },
     {
+      "sample_id": "scenario_045_hybrid",
+      "status": "processed"
+    },
+    {
       "sample_id": "scenario_045_telegraphic_icu",
       "status": "skipped"
     },
@@ -547,6 +727,10 @@
     {
       "sample_id": "scenario_046_formal_template",
       "status": "skipped"
+    },
+    {
+      "sample_id": "scenario_046_hybrid",
+      "status": "processed"
     },
     {
       "sample_id": "scenario_046_telegraphic_icu",
@@ -561,6 +745,10 @@
       "status": "skipped"
     },
     {
+      "sample_id": "scenario_047_hybrid",
+      "status": "processed"
+    },
+    {
       "sample_id": "scenario_047_telegraphic_icu",
       "status": "skipped"
     },
@@ -571,6 +759,10 @@
     {
       "sample_id": "scenario_048_formal_template",
       "status": "skipped"
+    },
+    {
+      "sample_id": "scenario_048_hybrid",
+      "status": "processed"
     },
     {
       "sample_id": "scenario_048_telegraphic_icu",
@@ -585,6 +777,10 @@
       "status": "skipped"
     },
     {
+      "sample_id": "scenario_049_hybrid",
+      "status": "processed"
+    },
+    {
       "sample_id": "scenario_049_telegraphic_icu",
       "status": "skipped"
     },
@@ -595,6 +791,10 @@
     {
       "sample_id": "scenario_050_formal_template",
       "status": "skipped"
+    },
+    {
+      "sample_id": "scenario_050_hybrid",
+      "status": "processed"
     },
     {
       "sample_id": "scenario_050_telegraphic_icu",
@@ -609,6 +809,10 @@
       "status": "skipped"
     },
     {
+      "sample_id": "scenario_051_hybrid",
+      "status": "processed"
+    },
+    {
       "sample_id": "scenario_051_telegraphic_icu",
       "status": "skipped"
     },
@@ -619,6 +823,10 @@
     {
       "sample_id": "scenario_052_formal_template",
       "status": "skipped"
+    },
+    {
+      "sample_id": "scenario_052_hybrid",
+      "status": "processed"
     },
     {
       "sample_id": "scenario_052_telegraphic_icu",
@@ -633,6 +841,10 @@
       "status": "skipped"
     },
     {
+      "sample_id": "scenario_053_hybrid",
+      "status": "processed"
+    },
+    {
       "sample_id": "scenario_053_telegraphic_icu",
       "status": "skipped"
     },
@@ -643,6 +855,10 @@
     {
       "sample_id": "scenario_054_formal_template",
       "status": "skipped"
+    },
+    {
+      "sample_id": "scenario_054_hybrid",
+      "status": "processed"
     },
     {
       "sample_id": "scenario_054_telegraphic_icu",
@@ -657,6 +873,10 @@
       "status": "skipped"
     },
     {
+      "sample_id": "scenario_055_hybrid",
+      "status": "processed"
+    },
+    {
       "sample_id": "scenario_055_telegraphic_icu",
       "status": "skipped"
     },
@@ -667,6 +887,10 @@
     {
       "sample_id": "scenario_056_formal_template",
       "status": "skipped"
+    },
+    {
+      "sample_id": "scenario_056_hybrid",
+      "status": "processed"
     },
     {
       "sample_id": "scenario_056_telegraphic_icu",
@@ -681,6 +905,10 @@
       "status": "skipped"
     },
     {
+      "sample_id": "scenario_057_hybrid",
+      "status": "processed"
+    },
+    {
       "sample_id": "scenario_057_telegraphic_icu",
       "status": "skipped"
     },
@@ -691,6 +919,10 @@
     {
       "sample_id": "scenario_058_formal_template",
       "status": "skipped"
+    },
+    {
+      "sample_id": "scenario_058_hybrid",
+      "status": "processed"
     },
     {
       "sample_id": "scenario_058_telegraphic_icu",
@@ -705,6 +937,10 @@
       "status": "skipped"
     },
     {
+      "sample_id": "scenario_059_hybrid",
+      "status": "processed"
+    },
+    {
       "sample_id": "scenario_059_telegraphic_icu",
       "status": "skipped"
     },
@@ -715,6 +951,10 @@
     {
       "sample_id": "scenario_060_formal_template",
       "status": "skipped"
+    },
+    {
+      "sample_id": "scenario_060_hybrid",
+      "status": "processed"
     },
     {
       "sample_id": "scenario_060_telegraphic_icu",
@@ -729,6 +969,10 @@
       "status": "skipped"
     },
     {
+      "sample_id": "scenario_061_hybrid",
+      "status": "processed"
+    },
+    {
       "sample_id": "scenario_061_telegraphic_icu",
       "status": "skipped"
     },
@@ -741,16 +985,24 @@
       "status": "skipped"
     },
     {
+      "sample_id": "scenario_062_hybrid",
+      "status": "processed"
+    },
+    {
       "sample_id": "scenario_062_telegraphic_icu",
       "status": "skipped"
     },
     {
       "sample_id": "scenario_063_clinical_charting",
-      "status": "processed"
+      "status": "skipped"
     },
     {
       "sample_id": "scenario_063_formal_template",
       "status": "skipped"
+    },
+    {
+      "sample_id": "scenario_063_hybrid",
+      "status": "processed"
     },
     {
       "sample_id": "scenario_063_telegraphic_icu",
@@ -765,6 +1017,10 @@
       "status": "skipped"
     },
     {
+      "sample_id": "scenario_064_hybrid",
+      "status": "processed"
+    },
+    {
       "sample_id": "scenario_064_telegraphic_icu",
       "status": "skipped"
     },
@@ -775,6 +1031,10 @@
     {
       "sample_id": "scenario_065_formal_template",
       "status": "skipped"
+    },
+    {
+      "sample_id": "scenario_065_hybrid",
+      "status": "processed"
     },
     {
       "sample_id": "scenario_065_telegraphic_icu",
@@ -789,6 +1049,10 @@
       "status": "skipped"
     },
     {
+      "sample_id": "scenario_066_hybrid",
+      "status": "processed"
+    },
+    {
       "sample_id": "scenario_066_telegraphic_icu",
       "status": "skipped"
     },
@@ -799,6 +1063,10 @@
     {
       "sample_id": "scenario_067_formal_template",
       "status": "skipped"
+    },
+    {
+      "sample_id": "scenario_067_hybrid",
+      "status": "processed"
     },
     {
       "sample_id": "scenario_067_telegraphic_icu",
@@ -813,6 +1081,10 @@
       "status": "skipped"
     },
     {
+      "sample_id": "scenario_068_hybrid",
+      "status": "processed"
+    },
+    {
       "sample_id": "scenario_068_telegraphic_icu",
       "status": "skipped"
     },
@@ -823,6 +1095,10 @@
     {
       "sample_id": "scenario_069_formal_template",
       "status": "skipped"
+    },
+    {
+      "sample_id": "scenario_069_hybrid",
+      "status": "processed"
     },
     {
       "sample_id": "scenario_069_telegraphic_icu",
@@ -837,6 +1113,10 @@
       "status": "skipped"
     },
     {
+      "sample_id": "scenario_070_hybrid",
+      "status": "processed"
+    },
+    {
       "sample_id": "scenario_070_telegraphic_icu",
       "status": "skipped"
     },
@@ -847,6 +1127,10 @@
     {
       "sample_id": "scenario_071_formal_template",
       "status": "skipped"
+    },
+    {
+      "sample_id": "scenario_071_hybrid",
+      "status": "processed"
     },
     {
       "sample_id": "scenario_071_telegraphic_icu",
@@ -861,6 +1145,10 @@
       "status": "skipped"
     },
     {
+      "sample_id": "scenario_072_hybrid",
+      "status": "processed"
+    },
+    {
       "sample_id": "scenario_072_telegraphic_icu",
       "status": "skipped"
     },
@@ -871,6 +1159,10 @@
     {
       "sample_id": "scenario_073_formal_template",
       "status": "skipped"
+    },
+    {
+      "sample_id": "scenario_073_hybrid",
+      "status": "processed"
     },
     {
       "sample_id": "scenario_073_telegraphic_icu",
@@ -885,6 +1177,10 @@
       "status": "skipped"
     },
     {
+      "sample_id": "scenario_074_hybrid",
+      "status": "processed"
+    },
+    {
       "sample_id": "scenario_074_telegraphic_icu",
       "status": "skipped"
     },
@@ -895,6 +1191,10 @@
     {
       "sample_id": "scenario_075_formal_template",
       "status": "skipped"
+    },
+    {
+      "sample_id": "scenario_075_hybrid",
+      "status": "processed"
     },
     {
       "sample_id": "scenario_075_telegraphic_icu",
@@ -909,6 +1209,10 @@
       "status": "skipped"
     },
     {
+      "sample_id": "scenario_076_hybrid",
+      "status": "processed"
+    },
+    {
       "sample_id": "scenario_076_telegraphic_icu",
       "status": "skipped"
     },
@@ -919,6 +1223,10 @@
     {
       "sample_id": "scenario_077_formal_template",
       "status": "skipped"
+    },
+    {
+      "sample_id": "scenario_077_hybrid",
+      "status": "processed"
     },
     {
       "sample_id": "scenario_077_telegraphic_icu",
@@ -933,6 +1241,10 @@
       "status": "skipped"
     },
     {
+      "sample_id": "scenario_078_hybrid",
+      "status": "processed"
+    },
+    {
       "sample_id": "scenario_078_telegraphic_icu",
       "status": "skipped"
     },
@@ -943,6 +1255,10 @@
     {
       "sample_id": "scenario_079_formal_template",
       "status": "skipped"
+    },
+    {
+      "sample_id": "scenario_079_hybrid",
+      "status": "processed"
     },
     {
       "sample_id": "scenario_079_telegraphic_icu",
@@ -957,6 +1273,10 @@
       "status": "skipped"
     },
     {
+      "sample_id": "scenario_080_hybrid",
+      "status": "processed"
+    },
+    {
       "sample_id": "scenario_080_telegraphic_icu",
       "status": "skipped"
     },
@@ -967,6 +1287,10 @@
     {
       "sample_id": "scenario_081_formal_template",
       "status": "skipped"
+    },
+    {
+      "sample_id": "scenario_081_hybrid",
+      "status": "processed"
     },
     {
       "sample_id": "scenario_081_telegraphic_icu",
@@ -981,6 +1305,10 @@
       "status": "skipped"
     },
     {
+      "sample_id": "scenario_082_hybrid",
+      "status": "processed"
+    },
+    {
       "sample_id": "scenario_082_telegraphic_icu",
       "status": "skipped"
     },
@@ -991,6 +1319,10 @@
     {
       "sample_id": "scenario_083_formal_template",
       "status": "skipped"
+    },
+    {
+      "sample_id": "scenario_083_hybrid",
+      "status": "processed"
     },
     {
       "sample_id": "scenario_083_telegraphic_icu",
@@ -1005,6 +1337,10 @@
       "status": "skipped"
     },
     {
+      "sample_id": "scenario_084_hybrid",
+      "status": "processed"
+    },
+    {
       "sample_id": "scenario_084_telegraphic_icu",
       "status": "skipped"
     },
@@ -1015,6 +1351,10 @@
     {
       "sample_id": "scenario_085_formal_template",
       "status": "skipped"
+    },
+    {
+      "sample_id": "scenario_085_hybrid",
+      "status": "processed"
     },
     {
       "sample_id": "scenario_085_telegraphic_icu",
@@ -1029,6 +1369,10 @@
       "status": "skipped"
     },
     {
+      "sample_id": "scenario_086_hybrid",
+      "status": "processed"
+    },
+    {
       "sample_id": "scenario_086_telegraphic_icu",
       "status": "skipped"
     },
@@ -1039,6 +1383,10 @@
     {
       "sample_id": "scenario_087_formal_template",
       "status": "skipped"
+    },
+    {
+      "sample_id": "scenario_087_hybrid",
+      "status": "processed"
     },
     {
       "sample_id": "scenario_087_telegraphic_icu",
@@ -1053,6 +1401,10 @@
       "status": "skipped"
     },
     {
+      "sample_id": "scenario_088_hybrid",
+      "status": "processed"
+    },
+    {
       "sample_id": "scenario_088_telegraphic_icu",
       "status": "skipped"
     },
@@ -1063,6 +1415,10 @@
     {
       "sample_id": "scenario_089_formal_template",
       "status": "skipped"
+    },
+    {
+      "sample_id": "scenario_089_hybrid",
+      "status": "processed"
     },
     {
       "sample_id": "scenario_089_telegraphic_icu",
@@ -1077,6 +1433,10 @@
       "status": "skipped"
     },
     {
+      "sample_id": "scenario_090_hybrid",
+      "status": "processed"
+    },
+    {
       "sample_id": "scenario_090_telegraphic_icu",
       "status": "skipped"
     },
@@ -1087,6 +1447,10 @@
     {
       "sample_id": "scenario_091_formal_template",
       "status": "skipped"
+    },
+    {
+      "sample_id": "scenario_091_hybrid",
+      "status": "processed"
     },
     {
       "sample_id": "scenario_091_telegraphic_icu",
@@ -1101,6 +1465,10 @@
       "status": "skipped"
     },
     {
+      "sample_id": "scenario_092_hybrid",
+      "status": "processed"
+    },
+    {
       "sample_id": "scenario_092_telegraphic_icu",
       "status": "skipped"
     },
@@ -1111,6 +1479,10 @@
     {
       "sample_id": "scenario_093_formal_template",
       "status": "skipped"
+    },
+    {
+      "sample_id": "scenario_093_hybrid",
+      "status": "processed"
     },
     {
       "sample_id": "scenario_093_telegraphic_icu",
@@ -1125,6 +1497,10 @@
       "status": "skipped"
     },
     {
+      "sample_id": "scenario_094_hybrid",
+      "status": "processed"
+    },
+    {
       "sample_id": "scenario_094_telegraphic_icu",
       "status": "skipped"
     },
@@ -1135,6 +1511,10 @@
     {
       "sample_id": "scenario_095_formal_template",
       "status": "skipped"
+    },
+    {
+      "sample_id": "scenario_095_hybrid",
+      "status": "processed"
     },
     {
       "sample_id": "scenario_095_telegraphic_icu",
@@ -1149,6 +1529,10 @@
       "status": "skipped"
     },
     {
+      "sample_id": "scenario_096_hybrid",
+      "status": "processed"
+    },
+    {
       "sample_id": "scenario_096_telegraphic_icu",
       "status": "skipped"
     },
@@ -1159,6 +1543,10 @@
     {
       "sample_id": "scenario_097_formal_template",
       "status": "skipped"
+    },
+    {
+      "sample_id": "scenario_097_hybrid",
+      "status": "processed"
     },
     {
       "sample_id": "scenario_097_telegraphic_icu",
@@ -1173,6 +1561,10 @@
       "status": "skipped"
     },
     {
+      "sample_id": "scenario_098_hybrid",
+      "status": "processed"
+    },
+    {
       "sample_id": "scenario_098_telegraphic_icu",
       "status": "skipped"
     },
@@ -1183,6 +1575,10 @@
     {
       "sample_id": "scenario_099_formal_template",
       "status": "skipped"
+    },
+    {
+      "sample_id": "scenario_099_hybrid",
+      "status": "processed"
     },
     {
       "sample_id": "scenario_099_telegraphic_icu",
@@ -1197,13 +1593,116 @@
       "status": "skipped"
     },
     {
+      "sample_id": "scenario_100_hybrid",
+      "status": "processed"
+    },
+    {
       "sample_id": "scenario_100_telegraphic_icu",
       "status": "skipped"
     }
   ],
   "summary": {
     "processed": [
-      "scenario_063_clinical_charting"
+      "scenario_001_hybrid",
+      "scenario_002_hybrid",
+      "scenario_003_hybrid",
+      "scenario_004_hybrid",
+      "scenario_005_hybrid",
+      "scenario_006_hybrid",
+      "scenario_007_hybrid",
+      "scenario_008_hybrid",
+      "scenario_009_hybrid",
+      "scenario_010_hybrid",
+      "scenario_011_hybrid",
+      "scenario_012_hybrid",
+      "scenario_013_hybrid",
+      "scenario_014_hybrid",
+      "scenario_015_hybrid",
+      "scenario_016_hybrid",
+      "scenario_017_hybrid",
+      "scenario_018_hybrid",
+      "scenario_019_hybrid",
+      "scenario_020_hybrid",
+      "scenario_021_hybrid",
+      "scenario_022_hybrid",
+      "scenario_023_hybrid",
+      "scenario_024_hybrid",
+      "scenario_025_hybrid",
+      "scenario_026_hybrid",
+      "scenario_027_hybrid",
+      "scenario_028_hybrid",
+      "scenario_029_hybrid",
+      "scenario_030_hybrid",
+      "scenario_031_hybrid",
+      "scenario_032_hybrid",
+      "scenario_033_hybrid",
+      "scenario_034_hybrid",
+      "scenario_035_hybrid",
+      "scenario_036_hybrid",
+      "scenario_037_hybrid",
+      "scenario_038_hybrid",
+      "scenario_039_hybrid",
+      "scenario_040_hybrid",
+      "scenario_041_hybrid",
+      "scenario_042_hybrid",
+      "scenario_043_hybrid",
+      "scenario_044_hybrid",
+      "scenario_045_hybrid",
+      "scenario_046_hybrid",
+      "scenario_047_hybrid",
+      "scenario_048_hybrid",
+      "scenario_049_hybrid",
+      "scenario_050_hybrid",
+      "scenario_051_hybrid",
+      "scenario_052_hybrid",
+      "scenario_053_hybrid",
+      "scenario_054_hybrid",
+      "scenario_055_hybrid",
+      "scenario_056_hybrid",
+      "scenario_057_hybrid",
+      "scenario_058_hybrid",
+      "scenario_059_hybrid",
+      "scenario_060_hybrid",
+      "scenario_061_hybrid",
+      "scenario_062_hybrid",
+      "scenario_063_hybrid",
+      "scenario_064_hybrid",
+      "scenario_065_hybrid",
+      "scenario_066_hybrid",
+      "scenario_067_hybrid",
+      "scenario_068_hybrid",
+      "scenario_069_hybrid",
+      "scenario_070_hybrid",
+      "scenario_071_hybrid",
+      "scenario_072_hybrid",
+      "scenario_073_hybrid",
+      "scenario_074_hybrid",
+      "scenario_075_hybrid",
+      "scenario_076_hybrid",
+      "scenario_077_hybrid",
+      "scenario_078_hybrid",
+      "scenario_079_hybrid",
+      "scenario_080_hybrid",
+      "scenario_081_hybrid",
+      "scenario_082_hybrid",
+      "scenario_083_hybrid",
+      "scenario_084_hybrid",
+      "scenario_085_hybrid",
+      "scenario_086_hybrid",
+      "scenario_087_hybrid",
+      "scenario_088_hybrid",
+      "scenario_089_hybrid",
+      "scenario_090_hybrid",
+      "scenario_091_hybrid",
+      "scenario_092_hybrid",
+      "scenario_093_hybrid",
+      "scenario_094_hybrid",
+      "scenario_095_hybrid",
+      "scenario_096_hybrid",
+      "scenario_097_hybrid",
+      "scenario_098_hybrid",
+      "scenario_099_hybrid",
+      "scenario_100_hybrid"
     ],
     "skipped": [
       "scenario_001_clinical_charting",
@@ -1392,6 +1891,7 @@
       "scenario_062_clinical_charting",
       "scenario_062_formal_template",
       "scenario_062_telegraphic_icu",
+      "scenario_063_clinical_charting",
       "scenario_063_formal_template",
       "scenario_063_telegraphic_icu",
       "scenario_064_clinical_charting",

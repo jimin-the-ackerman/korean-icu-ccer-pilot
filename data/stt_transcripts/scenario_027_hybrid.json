@@ -1,0 +1,8 @@
+{
+  "sample_id": "scenario_027_hybrid",
+  "whisper_transcript": "60세 남성 환자가 급성 허혈성 뇌졸중으로 입원하였다. 혈압은 160mg, 심박수는 88bpm, 호흡수는 18hp, 체온은 37.2도, 산소포화도는 95%로 확인되었다. 환자는 우측의 중등도 약화를 호소하였다. Alteplase 0.9mg Bq IV stat 투여함, C-line 적용함, IV fluids initiated 환자는 졸린 상태였다. 신경과 팀에게 즉시 평가 및 치료를 위해 보고하였다.",
+  "stt_metadata": {
+    "model": "whisper-1",
+    "language": "ko"
+  }
+}

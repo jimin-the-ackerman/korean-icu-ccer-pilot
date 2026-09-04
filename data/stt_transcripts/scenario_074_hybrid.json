@@ -1,0 +1,8 @@
+{
+  "sample_id": "scenario_074_hybrid",
+  "whisper_transcript": "70세 남성 환자가 인슐린 과다 복용으로 인한 급성 저혈당성 혼수상태로 입원하였다. 혈압은 106-70mmHg로 확인되었고, 심박수는 88bpm, 호흡수는 16bpm, 체온은 36.5°C였다. 산소포화도는 98%로 실내 공기상태에서 유지되었다. 심한 무의식 상태를 보였다. Dextrose 50% 50ml IV stat 투여함, IV glucose administration 시행하였다. 환자는 반응이 없었다. 내분비 내과 의사에게 보고하였다.",
+  "stt_metadata": {
+    "model": "whisper-1",
+    "language": "ko"
+  }
+}

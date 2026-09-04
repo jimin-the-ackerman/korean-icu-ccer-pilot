@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_032_hybrid",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "호흡곤란",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "의식이 혼미한 상태",
+    "medication_identity": "Methylprednisolone",
+    "interventions": [],
+    "intake_output": null,
+    "notification": null
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "호흡 곤란",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "의식이 혼미한 상태",
+    "medication_identity": "메틸프레드니솔론",
+    "interventions": [],
+    "intake_output": null,
+    "notification": null
+  }
+}

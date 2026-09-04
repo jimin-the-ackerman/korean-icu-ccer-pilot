@@ -1,0 +1,35 @@
+{
+  "sample_id": "scenario_016_hybrid",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "열",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "졸린 상태",
+    "medication_identity": "Meropenem",
+    "interventions": [
+      "농양 배액술 시행"
+    ],
+    "intake_output": "음성 체액 균형 확인됨",
+    "notification": "유산 수치 상승을 담당 의사에게 보고하였다"
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "열",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "졸린 상태",
+    "medication_identity": "메로프넴",
+    "interventions": [
+      "농양 배액술 시행"
+    ],
+    "intake_output": "음성체 균형 확인됨",
+    "notification": "유산 수치 상승을 담당 의사에게 보고하였다."
+  }
+}

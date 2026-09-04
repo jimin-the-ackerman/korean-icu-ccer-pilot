@@ -1,0 +1,41 @@
+{
+  "sample_id": "scenario_057_hybrid",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "관절 통증",
+        "negation": false,
+        "severity": "severe"
+      },
+      {
+        "name": "부종",
+        "negation": false,
+        "severity": null
+      }
+    ],
+    "clinical_status": "의식이 명료함",
+    "medication_identity": "Methylprednisolone",
+    "interventions": [],
+    "intake_output": null,
+    "notification": null
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "관절 통증",
+        "negation": false,
+        "severity": "severe"
+      },
+      {
+        "name": "부종",
+        "negation": false,
+        "severity": null
+      }
+    ],
+    "clinical_status": "의식 명료",
+    "medication_identity": "메틸프레드니솔론",
+    "interventions": [],
+    "intake_output": null,
+    "notification": null
+  }
+}

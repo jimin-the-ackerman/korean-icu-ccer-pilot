@@ -1,0 +1,11 @@
+{
+  "sample_id": "scenario_003_hybrid",
+  "scenario_id": "scenario_003",
+  "document_type": "ICU_observation",
+  "style_condition": "hybrid",
+  "text": "72세 여성 환자가 급성 심근경색으로 입원하였다. 혈압은 145/90 mmHg, 심박수는 110 bpm, 호흡수는 22 breaths/min, 체온은 37.1 °C, 산소포화도는 2L 비강 캐뉼라로 95%로 확인되었다. 환자는 심한 흉통을 호소하였다. Aspirin 325 mg PO STAT 투여함. 비강 캐뉼라 적용함. 심장 모니터링 시행함. C-line 유지함. 환자는 의식이 명료한 상태이다. 심장내과 팀에 긴급 검토를 위해 통보하였다.",
+  "generation_metadata": {
+    "model": "gpt-4o",
+    "temperature": 0.7
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "sample_id": "scenario_025_hybrid",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "복통",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "alert",
+    "medication_identity": "Ceftriaxone",
+    "interventions": [
+      "복강경 담낭절제술 계획"
+    ],
+    "intake_output": "positive balance",
+    "notification": null
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "복통",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "Alert",
+    "medication_identity": "Ceftraxone",
+    "interventions": [
+      "복강경 담낭절제술 계획됨"
+    ],
+    "intake_output": "체액균형은 Positive Balance로 확인되었다",
+    "notification": null
+  }
+}

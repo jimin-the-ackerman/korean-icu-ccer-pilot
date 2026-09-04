@@ -1,0 +1,35 @@
+{
+  "sample_id": "scenario_082_hybrid",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "복통",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "의식 명료",
+    "medication_identity": "Morphine",
+    "interventions": [
+      "통증 관리 실시"
+    ],
+    "intake_output": "철저한 입출량 모니터링을 수행함",
+    "notification": null
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "복통",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "의식 명료",
+    "medication_identity": "Morphine",
+    "interventions": [
+      "통증관리"
+    ],
+    "intake_output": "철저한 입출약 모니터링을 수행함",
+    "notification": null
+  }
+}

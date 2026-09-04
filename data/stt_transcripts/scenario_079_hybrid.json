@@ -1,0 +1,8 @@
+{
+  "sample_id": "scenario_079_hybrid",
+  "whisper_transcript": "56세 남자 환자는 괴양성 대장염의 급성 악화로 입원하여 심한 복통과 혈변을 호소하였다. 활력 증후는 혈압 1565mg, 심박수 112pm, 호흡수 22breaths min, 체온 37.8L, 산소포화도 97%로 확인되었다. 복통은 심한 정도로 나타났다. 메틀프레드니즐론 40mg IV QCG 투여함, 폴리 적용함, 엄격한 입력 및 출력 모니터링을 시행하였다. 환자는 의식이 명료하였다.",
+  "stt_metadata": {
+    "model": "whisper-1",
+    "language": "ko"
+  }
+}

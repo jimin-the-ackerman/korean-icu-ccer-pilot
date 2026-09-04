@@ -1,0 +1,35 @@
+{
+  "sample_id": "scenario_065_hybrid",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "피부 발진",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "명료 (alert)",
+    "medication_identity": "Methylprednisolone",
+    "interventions": [
+      "상처 처치"
+    ],
+    "intake_output": null,
+    "notification": null
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "피부 발진",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "의식 명료",
+    "medication_identity": "Methylprednisolone",
+    "interventions": [
+      "상처 처치 시행"
+    ],
+    "intake_output": null,
+    "notification": null
+  }
+}

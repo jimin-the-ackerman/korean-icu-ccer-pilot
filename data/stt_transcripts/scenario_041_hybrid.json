@@ -1,0 +1,8 @@
+{
+  "sample_id": "scenario_041_hybrid",
+  "whisper_transcript": "65세 여성 환자가 알코올성 강경변으로 인한 만성 간 질환의 급성 악화로 입원하였다. 혈압은 105-68mmg, 심박수는 112bpm, 호흡수는 22회분, 체온은 37.8°C이며, 산소포화도는 실내 공기에서 92%로 확인되었다. 복수가 중등도로 관찰되었다. Furosemide 40mg IV-Q2H 투여함, 산소 공급은 nasal cannula로 유지함, Foley 유치함, 24시간 소변 배출량은 1,200ml로 기록됨. 환자는 졸림 상태로 관찰되었다.",
+  "stt_metadata": {
+    "model": "whisper-1",
+    "language": "ko"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "sample_id": "scenario_076_hybrid",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "오심",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "졸리고 혼미한 상태",
+    "medication_identity": "Ondansetron",
+    "interventions": [
+      "IV fluid resuscitation"
+    ],
+    "intake_output": "음성 수분 균형 확인됨",
+    "notification": "신장내과 팀에게 AKI 관리에 대해 협의하였다"
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "오심",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "졸리고 혼미한 상태",
+    "medication_identity": "온단세트론",
+    "interventions": [
+      "fluid resuscitation"
+    ],
+    "intake_output": "음성수분균형 확인됨",
+    "notification": "신장내과팀에게 aki 관리에 대해 협의하였다"
+  }
+}

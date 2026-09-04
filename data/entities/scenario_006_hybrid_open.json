@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_006_hybrid",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "편마비",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "혼미 상태",
+    "medication_identity": "Labetalol",
+    "interventions": [],
+    "intake_output": "음성 수분 균형",
+    "notification": "신경과 팀에게 상태 변화를 보고하였다."
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "편마비",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "혼미상태",
+    "medication_identity": "Labetalol",
+    "interventions": [],
+    "intake_output": "음성수분 균형을 보이고 있다",
+    "notification": "신경과 팀에게 상태 변화를 보고하였다"
+  }
+}

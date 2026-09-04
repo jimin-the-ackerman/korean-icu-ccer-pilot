@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_036_hybrid",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "천명음",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "졸림",
+    "medication_identity": "Albuterol",
+    "interventions": [],
+    "intake_output": "수분 균형 음성",
+    "notification": "호흡 치료사를 인공호흡기 관리 위해 통보함"
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "천명음",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "졸림",
+    "medication_identity": "앨부테롤",
+    "interventions": [],
+    "intake_output": "수분 균형은 음성으로 확인됨",
+    "notification": "호흡치료사를 인공호흡기 관리위해 통보함"
+  }
+}

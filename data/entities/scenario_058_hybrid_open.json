@@ -1,0 +1,41 @@
+{
+  "sample_id": "scenario_058_hybrid",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "수분 과다",
+        "negation": false,
+        "severity": null
+      },
+      {
+        "name": "호흡곤란",
+        "negation": false,
+        "severity": "moderate"
+      }
+    ],
+    "clinical_status": "명료",
+    "medication_identity": "Furosemide",
+    "interventions": [],
+    "intake_output": "체액 균형 양성",
+    "notification": null
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "수분 과다",
+        "negation": false,
+        "severity": null
+      },
+      {
+        "name": "호흡곤란",
+        "negation": false,
+        "severity": "moderate"
+      }
+    ],
+    "clinical_status": "명료",
+    "medication_identity": "Furosemide",
+    "interventions": [],
+    "intake_output": "체액균형은 양성",
+    "notification": null
+  }
+}

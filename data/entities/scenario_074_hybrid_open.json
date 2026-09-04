@@ -1,0 +1,55 @@
+{
+  "sample_id": "scenario_074_hybrid",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "저혈당성 혼수",
+        "negation": false,
+        "severity": "severe"
+      },
+      {
+        "name": "무의식",
+        "negation": false,
+        "severity": "severe"
+      },
+      {
+        "name": "반응 없음",
+        "negation": false,
+        "severity": null
+      }
+    ],
+    "clinical_status": "혼수 상태, 무의식, 반응 없음",
+    "medication_identity": "Dextrose 50%",
+    "interventions": [
+      "IV glucose administration"
+    ],
+    "intake_output": null,
+    "notification": "내분비내과 의사에게 보고함"
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "혼수상태",
+        "negation": false,
+        "severity": "severe"
+      },
+      {
+        "name": "무의식",
+        "negation": false,
+        "severity": "severe"
+      },
+      {
+        "name": "반응 없음",
+        "negation": false,
+        "severity": null
+      }
+    ],
+    "clinical_status": "심한 무의식 상태",
+    "medication_identity": "Dextrose 50%",
+    "interventions": [
+      "IV glucose administration"
+    ],
+    "intake_output": null,
+    "notification": "내분비 내과 의사에게 보고하였다"
+  }
+}

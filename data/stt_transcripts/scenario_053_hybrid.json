@@ -1,0 +1,8 @@
+{
+  "sample_id": "scenario_053_hybrid",
+  "whisper_transcript": "60세 남성 환자가 만성 폐쇄성 폐질환, 급성 악화 및 고탄산 혈증성 호흡부전으로 입원하였다. 혈압은 138mmHg, 심박수는 105bpm, 호흡수는 28bpm, 체온은 37.6°C로 확인되었다. 산소포화도는 실내 공기에서 88%로 확인되었다. 환자는 심한 호흡곤란을 호소하였다. Prednisone 40mg POBID 투여함, 환자는 NIB Non-Invasive Ventilation 적용함, 환자는 Ventilator 유지함, 임상상태가 졸림으로 관찰되었다. 추가 관리 및 환기의 설정 조정을 위해 호흡기내과 전문의에게 보고하였다.",
+  "stt_metadata": {
+    "model": "whisper-1",
+    "language": "ko"
+  }
+}

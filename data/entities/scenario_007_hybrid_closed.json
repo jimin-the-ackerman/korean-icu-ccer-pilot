@@ -1,0 +1,117 @@
+{
+  "sample_id": "scenario_007_hybrid",
+  "gold_entities": {
+    "route": [
+      {
+        "raw": "IV",
+        "normalized": "iv",
+        "position": 174
+      }
+    ],
+    "frequency": [
+      {
+        "raw": "q6h",
+        "normalized": "q6h",
+        "position": 177
+      }
+    ],
+    "device": [
+      {
+        "raw": "nasal cannula",
+        "normalized": "nc",
+        "position": 196
+      }
+    ],
+    "vital_sign": [
+      {
+        "raw": "혈압은 130/85",
+        "label": "bp",
+        "value": "130/85",
+        "position": 39
+      },
+      {
+        "raw": "심박수는 95",
+        "label": "hr",
+        "value": "95",
+        "position": 56
+      },
+      {
+        "raw": "호흡수는 28",
+        "label": "rr",
+        "value": "28",
+        "position": 69
+      },
+      {
+        "raw": "체온은 37.2",
+        "label": "bt",
+        "value": "37.2",
+        "position": 90
+      },
+      {
+        "raw": "산소포화도는 실내 공기에서 89%",
+        "label": "spo2",
+        "value": "89%",
+        "position": 102
+      }
+    ],
+    "dose": [
+      {
+        "raw": "60 mg",
+        "value": "60",
+        "unit": "mg",
+        "position": 168
+      }
+    ]
+  },
+  "whisper_entities": {
+    "route": [
+      {
+        "raw": "IV",
+        "normalized": "iv",
+        "position": 151
+      }
+    ],
+    "frequency": [],
+    "device": [],
+    "vital_sign": [
+      {
+        "raw": "혈압은 130-85",
+        "label": "bp",
+        "value": "130/85",
+        "position": 33
+      },
+      {
+        "raw": "심박수는 95",
+        "label": "hr",
+        "value": "95",
+        "position": 48
+      },
+      {
+        "raw": "호흡수는 28",
+        "label": "rr",
+        "value": "28",
+        "position": 60
+      },
+      {
+        "raw": "체온은 37.27",
+        "label": "bt",
+        "value": "37.27",
+        "position": 79
+      },
+      {
+        "raw": "산소포화도는 실내 공기에서 89%",
+        "label": "spo2",
+        "value": "89%",
+        "position": 91
+      }
+    ],
+    "dose": [
+      {
+        "raw": "60mg",
+        "value": "60",
+        "unit": "mg",
+        "position": 146
+      }
+    ]
+  }
+}

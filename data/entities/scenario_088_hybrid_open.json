@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_088_hybrid",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "황달",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "의식 혼미",
+    "medication_identity": "N-acetylcysteine",
+    "interventions": [],
+    "intake_output": "수분균형 500 mL 양성",
+    "notification": "간 전문팀에게 긴급 상담을 위해 보고함"
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "황달",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "의식이 혼미한 상태",
+    "medication_identity": "NS16",
+    "interventions": [],
+    "intake_output": "수분균형은 500ml 양성",
+    "notification": "간 전문팀에게 긴급상담을 위해 보고하였다."
+  }
+}

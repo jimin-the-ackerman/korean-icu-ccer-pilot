@@ -1,0 +1,41 @@
+{
+  "sample_id": "scenario_090_hybrid",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "운동 약화",
+        "negation": false,
+        "severity": "severe"
+      },
+      {
+        "name": "감각 장애",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "졸린 상태",
+    "medication_identity": "Methylprednisolone",
+    "interventions": [],
+    "intake_output": "소변 배출이 적절함",
+    "notification": null
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "운동 약화",
+        "negation": false,
+        "severity": "severe"
+      },
+      {
+        "name": "감각 장애",
+        "negation": false,
+        "severity": null
+      }
+    ],
+    "clinical_status": "졸린 상태",
+    "medication_identity": "메틸프레드니솔론",
+    "interventions": [],
+    "intake_output": "소변 배출이 적절함",
+    "notification": null
+  }
+}

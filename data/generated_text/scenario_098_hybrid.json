@@ -1,0 +1,11 @@
+{
+  "sample_id": "scenario_098_hybrid",
+  "scenario_id": "scenario_098",
+  "document_type": "ICU_observation",
+  "style_condition": "hybrid",
+  "text": "58세 여성 환자가 심각한 용혈성 요독 증후군(HUS)으로 입원하였다. 혈압은 98/65 mmHg, 심박수는 110 bpm, 호흡수는 24 bpm, 체온은 37.8°C, 산소포화도는 92%로 확인되었다. 심한 피로감을 호소하였다. Methylprednisolone 500 mg IV q12h 투여함. Nasal cannula 적용함. C-line 유지함. 수분 균형은 음성으로 나타났다. 환자는 졸린 상태였다. 혈액학과에 추가 관리를 위해 상담하였다.",
+  "generation_metadata": {
+    "model": "gpt-4o",
+    "temperature": 0.7
+  }
+}

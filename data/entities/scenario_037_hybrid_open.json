@@ -1,0 +1,41 @@
+{
+  "sample_id": "scenario_037_hybrid",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "복통",
+        "negation": false,
+        "severity": "severe"
+      },
+      {
+        "name": "설사",
+        "negation": false,
+        "severity": null
+      }
+    ],
+    "clinical_status": "의식 명료",
+    "medication_identity": "Prednisone",
+    "interventions": [],
+    "intake_output": "24시간 동안 2000 ml의 IV fluids 투여됨",
+    "notification": null
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "복통",
+        "negation": false,
+        "severity": "severe"
+      },
+      {
+        "name": "설사",
+        "negation": false,
+        "severity": null
+      }
+    ],
+    "clinical_status": "의식 명료",
+    "medication_identity": "Prednisone",
+    "interventions": [],
+    "intake_output": "24시간 동안 2000mL의 IB Fluids 투여됨",
+    "notification": null
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "sample_id": "scenario_055_hybrid",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "피로감",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "기면 상태",
+    "medication_identity": "Furosemide",
+    "interventions": [
+      "수혈"
+    ],
+    "intake_output": "섭취량 1000 mL, 배설량 1200 mL",
+    "notification": "혈액학 팀에게 추가 관리 및 모니터링을 위해 보고하였다."
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "피로감",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "기면 상태",
+    "medication_identity": "furosemide",
+    "interventions": [
+      "수혈"
+    ],
+    "intake_output": "섭취량 1,000mL, 배설량 1,200mL",
+    "notification": "혈액학팀에게 추가 관리 및 모니터링을 위해 보고함"
+  }
+}

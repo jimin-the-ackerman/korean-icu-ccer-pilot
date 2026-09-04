@@ -1,0 +1,11 @@
+{
+  "sample_id": "scenario_052_hybrid",
+  "scenario_id": "scenario_052",
+  "document_type": "ICU_observation",
+  "style_condition": "hybrid",
+  "text": "72세 남성 환자가 고관절 교체 수술 후 합병증으로 입원하였다. 혈압은 130/85 mmHg로 확인되었고, 심박수는 95 bpm, 호흡수는 18 breaths/min, 체온은 37.5°C로 확인되었다. 산소포화도는 실내 공기에서 97%로 확인되었다. 환자는 중등도의 통증을 호소하였다. Morphine 2 mg IV q4h 투여함. Foley 유지함. 소변 배출량: 400 ml/6 hr 기록됨. 환자는 의식이 명료하다.",
+  "generation_metadata": {
+    "model": "gpt-4o",
+    "temperature": 0.7
+  }
+}

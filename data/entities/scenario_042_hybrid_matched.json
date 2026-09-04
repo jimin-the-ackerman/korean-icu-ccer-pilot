@@ -1,0 +1,113 @@
+{
+  "sample_id": "scenario_042_hybrid",
+  "closed_vocab_matches": [
+    {
+      "entity_type": "route",
+      "gold_value": "iv",
+      "whisper_value": "iv",
+      "match_status": "matched",
+      "error_type": null
+    },
+    {
+      "entity_type": "route",
+      "gold_value": null,
+      "whisper_value": "iv",
+      "match_status": "whisper_only",
+      "error_type": null
+    },
+    {
+      "entity_type": "frequency",
+      "gold_value": "stat",
+      "whisper_value": "stat",
+      "match_status": "matched",
+      "error_type": null
+    },
+    {
+      "entity_type": "dose",
+      "gold_value": "1000ml",
+      "whisper_value": null,
+      "match_status": "omission",
+      "error_type": "omission"
+    },
+    {
+      "entity_type": "vital_sign",
+      "label": "bp",
+      "gold_value": "98/62",
+      "whisper_value": "98/62",
+      "match_status": "matched",
+      "error_type": null
+    },
+    {
+      "entity_type": "vital_sign",
+      "label": "hr",
+      "gold_value": "112",
+      "whisper_value": "122",
+      "match_status": "error",
+      "error_type": "numeric_error"
+    },
+    {
+      "entity_type": "vital_sign",
+      "label": "rr",
+      "gold_value": "24",
+      "whisper_value": "24",
+      "match_status": "matched",
+      "error_type": null
+    },
+    {
+      "entity_type": "vital_sign",
+      "label": "bt",
+      "gold_value": "37.2",
+      "whisper_value": "37.12",
+      "match_status": "error",
+      "error_type": "numeric_error"
+    },
+    {
+      "entity_type": "vital_sign",
+      "label": "spo2",
+      "gold_value": "95%",
+      "whisper_value": "95%",
+      "match_status": "matched",
+      "error_type": null
+    }
+  ],
+  "open_vocab_matches": {
+    "symptom_matches": [
+      {
+        "gold_value": "diarrhea",
+        "whisper_value": "설사",
+        "match_basis": "semantic",
+        "negation_match": true,
+        "severity_match": true
+      }
+    ],
+    "whisper_only_symptoms": [],
+    "clinical_status_match": {
+      "gold_value": "drowsy",
+      "whisper_value": "졸린 상태",
+      "match_basis": "semantic"
+    },
+    "medication_identity_match": {
+      "gold_value": "Normal Saline",
+      "whisper_value": "Normal Saline",
+      "match_basis": "exact"
+    },
+    "intervention_matches": [
+      {
+        "gold_value": "IV fluid resuscitation",
+        "whisper_value": "정맥 내 수액 보충",
+        "match_basis": "semantic"
+      }
+    ],
+    "whisper_only_interventions": [],
+    "intake_output_match": {
+      "gold_value": "Urine output low, 200 mL over 8 hours",
+      "whisper_value": "소변 배출량이 8시간 동안 200ml로 낮게 나타났다",
+      "match_basis": "semantic"
+    },
+    "notification_match": {
+      "gold_value": "Notify physician if urine output remains below 30 mL/hour",
+      "whisper_value": "소변 배출량이 시간당 30ml 이하로 유지되면 담당 의사에게 보고하도록 하였다",
+      "match_basis": "semantic"
+    }
+  }
+}

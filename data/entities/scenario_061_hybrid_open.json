@@ -1,0 +1,35 @@
+{
+  "sample_id": "scenario_061_hybrid",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "복통",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "의식 명료",
+    "medication_identity": "Insulin",
+    "interventions": [
+      "IV fluid resuscitation"
+    ],
+    "intake_output": "체액 균형 양성",
+    "notification": null
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "복통",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "의식 명료",
+    "medication_identity": "Insulin",
+    "interventions": [
+      "fluid resuscitation"
+    ],
+    "intake_output": "체액균형 양성",
+    "notification": null
+  }
+}

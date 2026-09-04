@@ -1,0 +1,11 @@
+{
+  "sample_id": "scenario_076_hybrid",
+  "scenario_id": "scenario_076",
+  "document_type": "ICU_observation",
+  "style_condition": "hybrid",
+  "text": "35세 여성 환자가 임신성 구토로 인한 중증 탈수에 의한 급성 신손상(AKI)으로 입원하였다. 활력징후로 혈압은 92/58 mmHg, 심박수는 110 bpm, 호흡수는 18회/분, 체온은 36.8°C, 산소포화도는 96%로 확인되었다. 환자는 심한 오심을 호소하였다. Ondansetron 8 mg IV q8h 투여함. 산소 지원은 필요하지 않음. 정상 식염수로 IV fluid resuscitation 실시함. Foley 적용함. 음성 수분 균형 확인됨. 임상 상태는 졸리고 혼미한 상태로 확인되었다. 신장내과 팀에게 AKI 관리에 대해 협의하였다.",
+  "generation_metadata": {
+    "model": "gpt-4o",
+    "temperature": 0.7
+  }
+}

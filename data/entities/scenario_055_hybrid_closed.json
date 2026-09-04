@@ -1,0 +1,93 @@
+{
+  "sample_id": "scenario_055_hybrid",
+  "gold_entities": {
+    "route": [
+      {
+        "raw": "IV",
+        "normalized": "iv",
+        "position": 165
+      }
+    ],
+    "frequency": [
+      {
+        "raw": "q12h",
+        "normalized": "q12h",
+        "position": 168
+      }
+    ],
+    "device": [
+      {
+        "raw": "Nasal cannula",
+        "normalized": "nc",
+        "position": 185
+      }
+    ],
+    "vital_sign": [
+      {
+        "raw": "혈압은 90/60",
+        "label": "bp",
+        "value": "90/60",
+        "position": 39
+      },
+      {
+        "raw": "심박수는 120",
+        "label": "hr",
+        "value": "120",
+        "position": 55
+      },
+      {
+        "raw": "호흡수는 22",
+        "label": "rr",
+        "value": "22",
+        "position": 69
+      },
+      {
+        "raw": "체온은 38.1",
+        "label": "bt",
+        "value": "38.1",
+        "position": 82
+      }
+    ],
+    "dose": [
+      {
+        "raw": "40 mg",
+        "value": "40",
+        "unit": "mg",
+        "position": 159
+      }
+    ]
+  },
+  "whisper_entities": {
+    "route": [],
+    "frequency": [],
+    "device": [],
+    "vital_sign": [
+      {
+        "raw": "혈압은 9260",
+        "label": "bp",
+        "value": "9260",
+        "position": 39
+      },
+      {
+        "raw": "심박수는 120",
+        "label": "hr",
+        "value": "120",
+        "position": 52
+      },
+      {
+        "raw": "호흡수는 22",
+        "label": "rr",
+        "value": "22",
+        "position": 65
+      }
+    ],
+    "dose": [
+      {
+        "raw": "40mg",
+        "value": "40",
+        "unit": "mg",
+        "position": 146
+      }
+    ]
+  }
+}

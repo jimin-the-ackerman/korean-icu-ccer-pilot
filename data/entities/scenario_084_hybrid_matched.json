@@ -1,0 +1,107 @@
+{
+  "sample_id": "scenario_084_hybrid",
+  "closed_vocab_matches": [
+    {
+      "entity_type": "route",
+      "gold_value": "iv",
+      "whisper_value": null,
+      "match_status": "omission",
+      "error_type": "omission"
+    },
+    {
+      "entity_type": "frequency",
+      "gold_value": "prn",
+      "whisper_value": null,
+      "match_status": "omission",
+      "error_type": "omission"
+    },
+    {
+      "entity_type": "device",
+      "gold_value": "nc",
+      "whisper_value": null,
+      "match_status": "omission",
+      "error_type": "omission"
+    },
+    {
+      "entity_type": "dose",
+      "gold_value": "2.5mg",
+      "whisper_value": "2.5mg",
+      "match_status": "matched",
+      "error_type": null
+    },
+    {
+      "entity_type": "vital_sign",
+      "label": "bp",
+      "gold_value": "130/85",
+      "whisper_value": "130",
+      "match_status": "error",
+      "error_type": "numeric_error"
+    },
+    {
+      "entity_type": "vital_sign",
+      "label": "hr",
+      "gold_value": "110",
+      "whisper_value": "110",
+      "match_status": "matched",
+      "error_type": null
+    },
+    {
+      "entity_type": "vital_sign",
+      "label": "rr",
+      "gold_value": "28",
+      "whisper_value": "28",
+      "match_status": "matched",
+      "error_type": null
+    },
+    {
+      "entity_type": "vital_sign",
+      "label": "bt",
+      "gold_value": "37.0",
+      "whisper_value": "37.0",
+      "match_status": "matched",
+      "error_type": null
+    },
+    {
+      "entity_type": "vital_sign",
+      "label": "spo2",
+      "gold_value": "88%",
+      "whisper_value": "88%",
+      "match_status": "matched",
+      "error_type": null
+    }
+  ],
+  "open_vocab_matches": {
+    "symptom_matches": [
+      {
+        "gold_value": "wheezing",
+        "whisper_value": "천명음",
+        "match_basis": "semantic",
+        "negation_match": true,
+        "severity_match": true
+      }
+    ],
+    "whisper_only_symptoms": [],
+    "clinical_status_match": {
+      "gold_value": "drowsy",
+      "whisper_value": "졸린 상태",
+      "match_basis": "semantic"
+    },
+    "medication_identity_match": {
+      "gold_value": "albuterol",
+      "whisper_value": "알부테롤",
+      "match_basis": "exact"
+    },
+    "intervention_matches": [],
+    "whisper_only_interventions": [],
+    "intake_output_match": {
+      "gold_value": null,
+      "whisper_value": null,
+      "match_basis": "both_null"
+    },
+    "notification_match": {
+      "gold_value": "Respiratory therapy notified of patient condition and ongoing treatment.",
+      "whisper_value": "호흡치료팀에게 환자의 상태와 지속적인 치료에 대해 보고하였다.",
+      "match_basis": "semantic"
+    }
+  }
+}

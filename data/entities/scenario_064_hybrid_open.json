@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_064_hybrid",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "호흡곤란",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "기면",
+    "medication_identity": "Ceftriaxone",
+    "interventions": [],
+    "intake_output": "양성 체액 균형",
+    "notification": null
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "호흡곤란",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "기면",
+    "medication_identity": "세프트리액손",
+    "interventions": [],
+    "intake_output": "양성체액 균형",
+    "notification": null
+  }
+}

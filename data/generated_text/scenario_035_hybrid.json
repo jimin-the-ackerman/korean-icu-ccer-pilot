@@ -1,0 +1,11 @@
+{
+  "sample_id": "scenario_035_hybrid",
+  "scenario_id": "scenario_035",
+  "document_type": "ICU_observation",
+  "style_condition": "hybrid",
+  "text": "62세 여성 환자가 확장성 심근병증으로 인한 급성 보상부전성 심부전으로 입원하였다. 혈압은 95/60 mmHg로 측정되었고, 심박수는 110 bpm, 호흡수는 24 breaths/min, 체온은 36.8°C, 산소포화도는 실내 공기에서 90%로 확인되었다. 심한 호흡곤란을 호소하였다. Furosemide 40 mg IV q8h 투여함. 산소 공급은 4 L/min via nasal cannula로 적용함. Foley 유지함. 24시간 동안 500 mL 음성 수분 균형을 보였다. 임상 상태는 기면 상태로 확인되었다. 지속적인 저혈압에 대해 심장내과 팀에 보고하였다.",
+  "generation_metadata": {
+    "model": "gpt-4o",
+    "temperature": 0.7
+  }
+}

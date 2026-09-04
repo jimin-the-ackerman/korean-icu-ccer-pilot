@@ -1,0 +1,116 @@
+{
+  "sample_id": "scenario_039_hybrid",
+  "gold_entities": {
+    "route": [
+      {
+        "raw": "PO",
+        "normalized": "po",
+        "position": 200
+      }
+    ],
+    "frequency": [
+      {
+        "raw": "q6h",
+        "normalized": "q6h",
+        "position": 203
+      }
+    ],
+    "device": [
+      {
+        "raw": "Foley",
+        "normalized": "foley",
+        "position": 228
+      },
+      {
+        "raw": "비강 캐뉼라",
+        "normalized": "nc",
+        "position": 216
+      }
+    ],
+    "vital_sign": [
+      {
+        "raw": "혈압은 160/90",
+        "label": "bp",
+        "value": "160/90",
+        "position": 49
+      },
+      {
+        "raw": "심박수는 130",
+        "label": "hr",
+        "value": "130",
+        "position": 73
+      },
+      {
+        "raw": "호흡수는 28",
+        "label": "rr",
+        "value": "28",
+        "position": 90
+      },
+      {
+        "raw": "체온은 38.4",
+        "label": "bt",
+        "value": "38.4",
+        "position": 118
+      }
+    ],
+    "dose": [
+      {
+        "raw": "40 mg",
+        "value": "40",
+        "unit": "mg",
+        "position": 194
+      }
+    ]
+  },
+  "whisper_entities": {
+    "route": [
+      {
+        "raw": "PO",
+        "normalized": "po",
+        "position": 200
+      }
+    ],
+    "frequency": [],
+    "device": [],
+    "vital_sign": [
+      {
+        "raw": "혈압은 160-90",
+        "label": "bp",
+        "value": "160/90",
+        "position": 50
+      },
+      {
+        "raw": "심박수는 130",
+        "label": "hr",
+        "value": "130",
+        "position": 75
+      },
+      {
+        "raw": "호흡수는 28",
+        "label": "rr",
+        "value": "28",
+        "position": 91
+      },
+      {
+        "raw": "체온은 38.4",
+        "label": "bt",
+        "value": "38.4",
+        "position": 120
+      },
+      {
+        "raw": "산소포화도는 실내 공기상태에서 88%",
+        "label": "spo2",
+        "value": "88%",
+        "position": 139
+      }
+    ],
+    "dose": [
+      {
+        "raw": "40mg",
+        "value": "40",
+        "unit": "mg",
+        "position": 195
+      }
+    ]
+  }
+}

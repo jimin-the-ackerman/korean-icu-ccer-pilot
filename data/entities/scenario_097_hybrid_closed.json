@@ -1,0 +1,123 @@
+{
+  "sample_id": "scenario_097_hybrid",
+  "gold_entities": {
+    "route": [
+      {
+        "raw": "IV",
+        "normalized": "iv",
+        "position": 137
+      }
+    ],
+    "frequency": [
+      {
+        "raw": "q12h",
+        "normalized": "q12h",
+        "position": 140
+      }
+    ],
+    "device": [
+      {
+        "raw": "C-line",
+        "normalized": "c-line",
+        "position": 150
+      }
+    ],
+    "vital_sign": [
+      {
+        "raw": "혈압은 110/70",
+        "label": "bp",
+        "value": "110/70",
+        "position": 33
+      },
+      {
+        "raw": "심박수는 98",
+        "label": "hr",
+        "value": "98",
+        "position": 50
+      },
+      {
+        "raw": "호흡수는 22",
+        "label": "rr",
+        "value": "22",
+        "position": 63
+      },
+      {
+        "raw": "체온은 39.5",
+        "label": "bt",
+        "value": "39.5",
+        "position": 76
+      },
+      {
+        "raw": "산소포화도는 95%",
+        "label": "spo2",
+        "value": "95%",
+        "position": 88
+      }
+    ],
+    "dose": [
+      {
+        "raw": "2g",
+        "value": "2",
+        "unit": "g",
+        "position": 134
+      }
+    ]
+  },
+  "whisper_entities": {
+    "route": [
+      {
+        "raw": "IV",
+        "normalized": "iv",
+        "position": 125
+      }
+    ],
+    "frequency": [],
+    "device": [
+      {
+        "raw": "C-Line",
+        "normalized": "c-line",
+        "position": 138
+      }
+    ],
+    "vital_sign": [
+      {
+        "raw": "혈압은 117",
+        "label": "bp",
+        "value": "117",
+        "position": 33
+      },
+      {
+        "raw": "심박수는 98",
+        "label": "hr",
+        "value": "98",
+        "position": 44
+      },
+      {
+        "raw": "호흡수는 22",
+        "label": "rr",
+        "value": "22",
+        "position": 56
+      },
+      {
+        "raw": "체온은 39.5",
+        "label": "bt",
+        "value": "39.5",
+        "position": 68
+      },
+      {
+        "raw": "산소포화도는 95%",
+        "label": "spo2",
+        "value": "95%",
+        "position": 81
+      }
+    ],
+    "dose": [
+      {
+        "raw": "2g",
+        "value": "2",
+        "unit": "g",
+        "position": 122
+      }
+    ]
+  }
+}

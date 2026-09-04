@@ -1,0 +1,8 @@
+{
+  "sample_id": "scenario_056_hybrid",
+  "whisper_transcript": "47세 여성 환자가 급성 중증 천식 악화로 입원하였다. 혈압은 135-85mHrm, 심박수는 110bpm, 호흡수는 32breaths per minute, 체온은 37.55도급수로 확인되었다. 산소포화도는 실내 공기에서 88%로 확인되었다. 심한 천명음을 호소하였다. 알부트로 유젬 5mg IV-Q4H 투여함, 하이플로우 네이절 캐눌라 적용함, NG 튜브 유지함, 체액균형은 500mL 음성으로 확인되었다. 환자는 졸린 상태를 보였다. 폐전문팀에게 긴급평가를 위해 보고하였다.",
+  "stt_metadata": {
+    "model": "whisper-1",
+    "language": "ko"
+  }
+}

@@ -1,0 +1,111 @@
+{
+  "sample_id": "scenario_092_hybrid",
+  "gold_entities": {
+    "route": [
+      {
+        "raw": "IV",
+        "normalized": "iv",
+        "position": 171
+      }
+    ],
+    "frequency": [
+      {
+        "raw": "BID",
+        "normalized": "bid",
+        "position": 174
+      }
+    ],
+    "device": [
+      {
+        "raw": "NG tube",
+        "normalized": "ng tube",
+        "position": 183
+      }
+    ],
+    "vital_sign": [
+      {
+        "raw": "혈압은 135/85",
+        "label": "bp",
+        "value": "135/85",
+        "position": 42
+      },
+      {
+        "raw": "심박수는 110",
+        "label": "hr",
+        "value": "110",
+        "position": 66
+      },
+      {
+        "raw": "호흡수는 22",
+        "label": "rr",
+        "value": "22",
+        "position": 80
+      },
+      {
+        "raw": "체온은 37.8",
+        "label": "bt",
+        "value": "37.8",
+        "position": 93
+      },
+      {
+        "raw": "산소포화도는 실내 공기에서 94%",
+        "label": "spo2",
+        "value": "94%",
+        "position": 107
+      }
+    ],
+    "dose": [
+      {
+        "raw": "40 mg",
+        "value": "40",
+        "unit": "mg",
+        "position": 165
+      }
+    ]
+  },
+  "whisper_entities": {
+    "route": [],
+    "frequency": [],
+    "device": [],
+    "vital_sign": [
+      {
+        "raw": "혈압은 135",
+        "label": "bp",
+        "value": "135",
+        "position": 41
+      },
+      {
+        "raw": "심박수는 110",
+        "label": "hr",
+        "value": "110",
+        "position": 65
+      },
+      {
+        "raw": "호흡수는 22",
+        "label": "rr",
+        "value": "22",
+        "position": 78
+      },
+      {
+        "raw": "체온은 37.8",
+        "label": "bt",
+        "value": "37.8",
+        "position": 90
+      },
+      {
+        "raw": "산소포화도는 실내 공기에서 94%",
+        "label": "spo2",
+        "value": "94%",
+        "position": 104
+      }
+    ],
+    "dose": [
+      {
+        "raw": "40mg",
+        "value": "40",
+        "unit": "mg",
+        "position": 155
+      }
+    ]
+  }
+}

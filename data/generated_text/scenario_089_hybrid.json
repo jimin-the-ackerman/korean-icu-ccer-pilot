@@ -1,0 +1,11 @@
+{
+  "sample_id": "scenario_089_hybrid",
+  "scenario_id": "scenario_089",
+  "document_type": "ICU_observation",
+  "style_condition": "hybrid",
+  "text": "59세 남성 환자가 비알코올성 지방간염(NASH)으로 인한 만성 간질환의 급성 악화로 입원하였다. 혈압은 92/58 mmHg, 심박수는 115 bpm, 호흡수는 24 breaths/min, 체온은 37.2°C로 측정되었다. 산소포화도는 실내 공기에서 89%로 확인되었다. 중등도의 복수가 관찰되었다. Spironolactone 100 mg PO BID로 투여함. 산소 공급은 nasal cannula 3 L/min로 적용함. Foley 유지함. 체액 균형은 음성 500 ml로 기록되었다. 환자는 졸린 상태를 보였다. 간전문팀에게 관리 계획을 위해 보고하였다.",
+  "generation_metadata": {
+    "model": "gpt-4o",
+    "temperature": 0.7
+  }
+}

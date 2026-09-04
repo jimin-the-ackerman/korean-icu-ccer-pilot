@@ -1,0 +1,35 @@
+{
+  "sample_id": "scenario_091_hybrid",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "호흡곤란",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "졸린 상태",
+    "medication_identity": "Prednisone",
+    "interventions": [
+      "코르티코스테로이드 치료"
+    ],
+    "intake_output": null,
+    "notification": null
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "호흡 곤란",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "졸린 상태",
+    "medication_identity": "Prednisone",
+    "interventions": [
+      "Corticosteroid 치료 시작"
+    ],
+    "intake_output": null,
+    "notification": null
+  }
+}

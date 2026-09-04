@@ -1,0 +1,46 @@
+{
+  "sample_id": "scenario_048_hybrid",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "위장관 출혈",
+        "negation": false,
+        "severity": "severe"
+      },
+      {
+        "name": "출혈",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "의식이 흐린 상태",
+    "medication_identity": "Octreotide",
+    "interventions": [
+      "내시경적 결찰술",
+      "엄격한 입출량 모니터링"
+    ],
+    "intake_output": "엄격한 입출량 모니터링을 실시함",
+    "notification": "지속적인 출혈에 대해 소화기내과 팀에게 보고함"
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "위장관 출혈",
+        "negation": false,
+        "severity": "severe"
+      },
+      {
+        "name": "출혈",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "의식이 흐린 상태",
+    "medication_identity": "Octreotide",
+    "interventions": [
+      "내시경적 결찰술"
+    ],
+    "intake_output": "엄격한 입출량 모니터링",
+    "notification": "지속적인 출혈에 대해 소아기내과팀에게 보고하였다"
+  }
+}

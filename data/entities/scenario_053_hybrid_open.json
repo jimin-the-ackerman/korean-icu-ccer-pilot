@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_053_hybrid",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "호흡곤란",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "졸림",
+    "medication_identity": "Prednisone",
+    "interventions": [],
+    "intake_output": null,
+    "notification": "추가 관리 및 환기의 설정 조정을 위해 호흡기내과 전문의에게 보고하였다."
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "호흡곤란",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "졸림",
+    "medication_identity": "Prednisone",
+    "interventions": [],
+    "intake_output": null,
+    "notification": "추가 관리 및 환기의 설정 조정을 위해 호흡기내과 전문의에게 보고하였다."
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "sample_id": "scenario_077_hybrid",
+  "gold_entities": {
+    "route": [
+      {
+        "raw": "IV",
+        "normalized": "iv",
+        "position": 183
+      }
+    ],
+    "frequency": [
+      {
+        "raw": "q8h",
+        "normalized": "q8h",
+        "position": 186
+      }
+    ],
+    "device": [
+      {
+        "raw": "Foley",
+        "normalized": "foley",
+        "position": 220
+      }
+    ],
+    "vital_sign": [
+      {
+        "raw": "혈압은 88/56",
+        "label": "bp",
+        "value": "88/56",
+        "position": 42
+      },
+      {
+        "raw": "심박수는 112",
+        "label": "hr",
+        "value": "112",
+        "position": 58
+      },
+      {
+        "raw": "호흡수는 22",
+        "label": "rr",
+        "value": "22",
+        "position": 72
+      },
+      {
+        "raw": "체온은 36.8",
+        "label": "bt",
+        "value": "36.8",
+        "position": 93
+      }
+    ],
+    "dose": [
+      {
+        "raw": "10 mg",
+        "value": "10",
+        "unit": "mg",
+        "position": 177
+      }
+    ]
+  },
+  "whisper_entities": {
+    "route": [],
+    "frequency": [],
+    "device": [],
+    "vital_sign": [
+      {
+        "raw": "혈압은 88.52",
+        "label": "bp",
+        "value": "88.52",
+        "position": 42
+      },
+      {
+        "raw": "심박수는 172",
+        "label": "hr",
+        "value": "172",
+        "position": 54
+      },
+      {
+        "raw": "호흡수는 21.0",
+        "label": "rr",
+        "value": "21.0",
+        "position": 66
+      },
+      {
+        "raw": "체온은 36.89",
+        "label": "bt",
+        "value": "36.89",
+        "position": 77
+      }
+    ],
+    "dose": [
+      {
+        "raw": "10mg",
+        "value": "10",
+        "unit": "mg",
+        "position": 154
+      }
+    ]
+  }
+}

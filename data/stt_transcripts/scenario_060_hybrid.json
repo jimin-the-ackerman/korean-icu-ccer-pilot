@@ -1,0 +1,8 @@
+{
+  "sample_id": "scenario_060_hybrid",
+  "whisper_transcript": "71세 남자 환자가 파킨슨병의 급성 악화로 입원하였음. 혈압은 142 85mmhg, 심박수는 88bpm, 호흡수는 20hb, 체온은 37.2°C, 산소포화도는 95%로 확인되었다. 환자는 심한 경직을 호소하였다. 레부도파 100mg POTID로 투여함. 폴리 삽입하여 유지함. 섭취량 배출량은 2000mL per 24시간으로 기록되었다. 임상상태는 기면 상태임.",
+  "stt_metadata": {
+    "model": "whisper-1",
+    "language": "ko"
+  }
+}

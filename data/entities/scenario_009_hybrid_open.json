@@ -1,0 +1,41 @@
+{
+  "sample_id": "scenario_009_hybrid",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "발열",
+        "negation": false,
+        "severity": "severe"
+      },
+      {
+        "name": "저혈압",
+        "negation": false,
+        "severity": null
+      }
+    ],
+    "clinical_status": "졸림",
+    "medication_identity": "Piperacillin/Tazobactam",
+    "interventions": [],
+    "intake_output": "체액 균형은 양성이다",
+    "notification": "지속적인 저혈압과 발열에 대해 담당 의사에게 보고하였다"
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "발열",
+        "negation": false,
+        "severity": "severe"
+      },
+      {
+        "name": "저혈압",
+        "negation": false,
+        "severity": null
+      }
+    ],
+    "clinical_status": "졸림",
+    "medication_identity": "피페라실린 타조박탐",
+    "interventions": [],
+    "intake_output": "체액균형은 양성이다",
+    "notification": "지속적인 저혈압과 발열에 대해 담당 의사에게 보고하였다"
+  }
+}

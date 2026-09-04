@@ -1,0 +1,33 @@
+{
+  "sample_id": "scenario_075_hybrid",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "흉통",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "의식 명료",
+    "medication_identity": "Furosemide",
+    "interventions": [
+      "엄격한 수분 섭취-배출 모니터링"
+    ],
+    "intake_output": "엄격한 수분 섭취-배출 모니터링 시행함",
+    "notification": "심장내과 팀에 밸브 교체 가능성에 대해 상담하였다."
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "흉통",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "의식이 명료함",
+    "medication_identity": "퓨로스밋",
+    "interventions": [],
+    "intake_output": "엄격한 수분 섭취, 배출 모니터링 시행함",
+    "notification": "심장 내과 팀의 밸브 교체 가능성에 대해 상담하였다."
+  }
+}

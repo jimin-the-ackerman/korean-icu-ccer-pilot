@@ -1,0 +1,8 @@
+{
+  "sample_id": "scenario_093_hybrid",
+  "whisper_transcript": "52세 남성 환자가 복부 대동맥류 파열로 인한 급성 출혈성 쇼크로 입원하였다. 혈압은 85-50mg, 심박수는 120bpm, 호흡수는 24bpm, 체온은 36.8dL, 산소포화도는 89%로 확인되었다. 환자는 심한 복통을 호소하였다. norepinephrine 8mg per mean IV TID 투여함, 고유량 비강 케튤라 적용함, 응급외과적 수술을 시행함, C-LINE 유지함, 소변 배출량은 시간당 20mL로 관찰됨. 환자는 졸린 상태로 확인되었다. 혈관 수술팀에게 긴급 개입을 위해 통보함.",
+  "stt_metadata": {
+    "model": "whisper-1",
+    "language": "ko"
+  }
+}

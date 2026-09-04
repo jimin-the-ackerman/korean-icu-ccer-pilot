@@ -1,0 +1,11 @@
+{
+  "sample_id": "scenario_033_hybrid",
+  "scenario_id": "scenario_033",
+  "document_type": "ICU_observation",
+  "style_condition": "hybrid",
+  "text": "64세 남성 환자는 심혈관계 불안정성을 동반한 새로운 심방세동의 발현으로 입원하였다. 혈압은 88/54 mmHg, 심박수는 142 bpm, 호흡수는 22 breaths/min, 체온은 36.9°C로 측정되었다. 산소포화도는 상온에서 94%로 확인되었다. 환자는 심한 두근거림을 호소하였다. Diltiazem 20 mg IV STAT 투여함. 전기적 심율동 전환 시행함. C-line 유지함. 1500 mL IV fluids 투여함. 환자는 의식이 명료한 상태이다. 심장내과 팀에게 추가 관리 위해 보고하였다.",
+  "generation_metadata": {
+    "model": "gpt-4o",
+    "temperature": 0.7
+  }
+}

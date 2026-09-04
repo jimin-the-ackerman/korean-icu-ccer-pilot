@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_030_hybrid",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "관절통",
+        "negation": false,
+        "severity": "moderate"
+      }
+    ],
+    "clinical_status": "의식 명료",
+    "medication_identity": "Prednisolone",
+    "interventions": [],
+    "intake_output": "체액 균형 양성",
+    "notification": null
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "관절통",
+        "negation": false,
+        "severity": "moderate"
+      }
+    ],
+    "clinical_status": "의식명료",
+    "medication_identity": "프레드니솔론",
+    "interventions": [],
+    "intake_output": "체액균형은 양성",
+    "notification": null
+  }
+}

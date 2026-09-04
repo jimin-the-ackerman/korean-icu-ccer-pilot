@@ -1,0 +1,116 @@
+{
+  "sample_id": "scenario_014_hybrid",
+  "closed_vocab_matches": [
+    {
+      "entity_type": "route",
+      "gold_value": "iv",
+      "whisper_value": "iv",
+      "match_status": "matched",
+      "error_type": null
+    },
+    {
+      "entity_type": "frequency",
+      "gold_value": "q6h",
+      "whisper_value": "q6h",
+      "match_status": "matched",
+      "error_type": null
+    },
+    {
+      "entity_type": "device",
+      "gold_value": "ventilator",
+      "whisper_value": "ventilator",
+      "match_status": "matched",
+      "error_type": null
+    },
+    {
+      "entity_type": "device",
+      "gold_value": "nc",
+      "whisper_value": null,
+      "match_status": "omission",
+      "error_type": "omission"
+    },
+    {
+      "entity_type": "dose",
+      "gold_value": "125mg",
+      "whisper_value": "125mg",
+      "match_status": "matched",
+      "error_type": null
+    },
+    {
+      "entity_type": "vital_sign",
+      "label": "bp",
+      "gold_value": "135/85",
+      "whisper_value": "135",
+      "match_status": "error",
+      "error_type": "numeric_error"
+    },
+    {
+      "entity_type": "vital_sign",
+      "label": "hr",
+      "gold_value": "110",
+      "whisper_value": "110",
+      "match_status": "matched",
+      "error_type": null
+    },
+    {
+      "entity_type": "vital_sign",
+      "label": "rr",
+      "gold_value": "30",
+      "whisper_value": "30",
+      "match_status": "matched",
+      "error_type": null
+    },
+    {
+      "entity_type": "vital_sign",
+      "label": "bt",
+      "gold_value": "38.3",
+      "whisper_value": "38.3",
+      "match_status": "matched",
+      "error_type": null
+    },
+    {
+      "entity_type": "vital_sign",
+      "label": "spo2",
+      "gold_value": "88%",
+      "whisper_value": "88%",
+      "match_status": "matched",
+      "error_type": null
+    }
+  ],
+  "open_vocab_matches": {
+    "symptom_matches": [
+      {
+        "gold_value": "dyspnea",
+        "whisper_value": "호흡 곤란",
+        "match_basis": "semantic",
+        "negation_match": true,
+        "severity_match": true
+      }
+    ],
+    "whisper_only_symptoms": [],
+    "clinical_status_match": {
+      "gold_value": "drowsy",
+      "whisper_value": "기면상태",
+      "match_basis": "semantic"
+    },
+    "medication_identity_match": {
+      "gold_value": "methylprednisolone",
+      "whisper_value": "Methylprednisolone",
+      "match_basis": "exact"
+    },
+    "intervention_matches": [],
+    "whisper_only_interventions": [
+      "기계적 환기 적용"
+    ],
+    "intake_output_match": {
+      "gold_value": "positive fluid balance",
+      "whisper_value": "수분균형 양성",
+      "match_basis": "semantic"
+    },
+    "notification_match": {
+      "gold_value": null,
+      "whisper_value": null,
+      "match_basis": "both_null"
+    }
+  }
+}

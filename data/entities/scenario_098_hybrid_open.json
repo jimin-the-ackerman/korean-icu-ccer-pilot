@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_098_hybrid",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "피로감",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "졸린 상태",
+    "medication_identity": "Methylprednisolone",
+    "interventions": [],
+    "intake_output": "수분 균형은 음성으로 나타났다",
+    "notification": "혈액학과에 추가 관리를 위해 상담하였다"
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "피로감",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "졸린 상태",
+    "medication_identity": "메틸프레드니솔론",
+    "interventions": [],
+    "intake_output": "수분균형은 음성으로 나타났다",
+    "notification": "혈액학과의 추가 관리를 위해 상담하였다"
+  }
+}

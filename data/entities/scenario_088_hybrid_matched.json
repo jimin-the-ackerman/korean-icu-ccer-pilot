@@ -1,0 +1,114 @@
+{
+  "sample_id": "scenario_088_hybrid",
+  "closed_vocab_matches": [
+    {
+      "entity_type": "route",
+      "gold_value": "iv",
+      "whisper_value": "iv",
+      "match_status": "matched",
+      "error_type": null
+    },
+    {
+      "entity_type": "frequency",
+      "gold_value": "stat",
+      "whisper_value": "stat",
+      "match_status": "matched",
+      "error_type": null
+    },
+    {
+      "entity_type": "dose",
+      "gold_value": "300mgkg",
+      "whisper_value": null,
+      "match_status": "omission",
+      "error_type": "omission"
+    },
+    {
+      "entity_type": "dose",
+      "gold_value": null,
+      "whisper_value": "300mg",
+      "match_status": "whisper_only",
+      "error_type": null
+    },
+    {
+      "entity_type": "dose",
+      "gold_value": null,
+      "whisper_value": "500ml",
+      "match_status": "whisper_only",
+      "error_type": null
+    },
+    {
+      "entity_type": "vital_sign",
+      "label": "bp",
+      "gold_value": "112/70",
+      "whisper_value": "122.70",
+      "match_status": "error",
+      "error_type": "numeric_error"
+    },
+    {
+      "entity_type": "vital_sign",
+      "label": "hr",
+      "gold_value": "105",
+      "whisper_value": "105",
+      "match_status": "matched",
+      "error_type": null
+    },
+    {
+      "entity_type": "vital_sign",
+      "label": "rr",
+      "gold_value": "22",
+      "whisper_value": "22",
+      "match_status": "matched",
+      "error_type": null
+    },
+    {
+      "entity_type": "vital_sign",
+      "label": "bt",
+      "gold_value": "37.8",
+      "whisper_value": "37.86",
+      "match_status": "error",
+      "error_type": "numeric_error"
+    },
+    {
+      "entity_type": "vital_sign",
+      "label": "spo2",
+      "gold_value": "95%",
+      "whisper_value": "95%",
+      "match_status": "matched",
+      "error_type": null
+    }
+  ],
+  "open_vocab_matches": {
+    "symptom_matches": [
+      {
+        "gold_value": "jaundice",
+        "whisper_value": "황달",
+        "match_basis": "exact",
+        "negation_match": true,
+        "severity_match": true
+      }
+    ],
+    "whisper_only_symptoms": [],
+    "clinical_status_match": {
+      "gold_value": "drowsy",
+      "whisper_value": "의식이 혼미한 상태",
+      "match_basis": "semantic"
+    },
+    "medication_identity_match": {
+      "gold_value": "N-acetylcysteine",
+      "whisper_value": "NS16",
+      "match_basis": "value_substitution"
+    },
+    "intervention_matches": [],
+    "whisper_only_interventions": [],
+    "intake_output_match": {
+      "gold_value": "positive fluid balance of 500 mL",
+      "whisper_value": "수분균형은 500ml 양성",
+      "match_basis": "exact"
+    },
+    "notification_match": {
+      "gold_value": "Hepatology team notified for urgent consultation.",
+      "whisper_value": "간 전문팀에게 긴급상담을 위해 보고하였다.",
+      "match_basis": "semantic"
+    }
+  }
+}

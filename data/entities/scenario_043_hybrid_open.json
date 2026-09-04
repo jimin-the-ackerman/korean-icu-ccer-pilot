@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_043_hybrid",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "발열",
+        "negation": false,
+        "severity": "moderate"
+      }
+    ],
+    "clinical_status": "의식 명료",
+    "medication_identity": "Vancomycin",
+    "interventions": [],
+    "intake_output": "수분 균형 양성",
+    "notification": null
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "발열",
+        "negation": false,
+        "severity": "moderate"
+      }
+    ],
+    "clinical_status": "의식 명료",
+    "medication_identity": "뱅커마이슨",
+    "interventions": [],
+    "intake_output": "수분 균형 양성",
+    "notification": null
+  }
+}

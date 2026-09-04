@@ -1,0 +1,127 @@
+{
+  "sample_id": "scenario_003_hybrid",
+  "gold_entities": {
+    "route": [
+      {
+        "raw": "PO",
+        "normalized": "po",
+        "position": 156
+      }
+    ],
+    "frequency": [
+      {
+        "raw": "STAT",
+        "normalized": "stat",
+        "position": 159
+      }
+    ],
+    "device": [
+      {
+        "raw": "C-line",
+        "normalized": "c-line",
+        "position": 194
+      },
+      {
+        "raw": "비강 캐뉼라",
+        "normalized": "nc",
+        "position": 103
+      },
+      {
+        "raw": "비강 캐뉼라",
+        "normalized": "nc",
+        "position": 169
+      }
+    ],
+    "vital_sign": [
+      {
+        "raw": "혈압은 145/90",
+        "label": "bp",
+        "value": "145/90",
+        "position": 28
+      },
+      {
+        "raw": "심박수는 110",
+        "label": "hr",
+        "value": "110",
+        "position": 45
+      },
+      {
+        "raw": "호흡수는 22",
+        "label": "rr",
+        "value": "22",
+        "position": 59
+      },
+      {
+        "raw": "체온은 37.1",
+        "label": "bt",
+        "value": "37.1",
+        "position": 80
+      }
+    ],
+    "dose": [
+      {
+        "raw": "325 mg",
+        "value": "325",
+        "unit": "mg",
+        "position": 149
+      }
+    ]
+  },
+  "whisper_entities": {
+    "route": [
+      {
+        "raw": "PO",
+        "normalized": "po",
+        "position": 146
+      }
+    ],
+    "frequency": [
+      {
+        "raw": "STAT",
+        "normalized": "stat",
+        "position": 149
+      }
+    ],
+    "device": [
+      {
+        "raw": "C-Line",
+        "normalized": "c-line",
+        "position": 183
+      }
+    ],
+    "vital_sign": [
+      {
+        "raw": "혈압은 145-90",
+        "label": "bp",
+        "value": "145/90",
+        "position": 28
+      },
+      {
+        "raw": "심박수는 110",
+        "label": "hr",
+        "value": "110",
+        "position": 43
+      },
+      {
+        "raw": "호흡수는 22",
+        "label": "rr",
+        "value": "22",
+        "position": 56
+      },
+      {
+        "raw": "체온은 37.19",
+        "label": "bt",
+        "value": "37.19",
+        "position": 75
+      }
+    ],
+    "dose": [
+      {
+        "raw": "325mg",
+        "value": "325",
+        "unit": "mg",
+        "position": 140
+      }
+    ]
+  }
+}

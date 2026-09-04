@@ -1,0 +1,8 @@
+{
+  "sample_id": "scenario_094_hybrid",
+  "whisper_transcript": "69세 여성 환자가 소아성 괴양질환에 의한 급성 심각한 위장출혈로 입원하였다. 활력증으로는 혈압 85-55mmHg, 심박수 120bpm, 호흡수 22bpm, 체온 36.8℃, 산소포화도는 실내 공기에서 92%로 확인되었다. 심한 토열을 호소하였다. 약으로 Pantoprazol 80mg IV-QCBH 투여함, 산소 공급은 Nasal Canella 2-Vermine 적용함, 내시경적 지어수를 시행함, C-Line 유지함, 수분 균형은 음성으로 기록되었다. 임상 상태는 졸림이 확인되었다. 위장관 팀에 긴급 내시경을 위해 보고하였다.",
+  "stt_metadata": {
+    "model": "whisper-1",
+    "language": "ko"
+  }
+}

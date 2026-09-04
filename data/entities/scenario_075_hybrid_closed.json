@@ -1,0 +1,121 @@
+{
+  "sample_id": "scenario_075_hybrid",
+  "gold_entities": {
+    "route": [
+      {
+        "raw": "IV",
+        "normalized": "iv",
+        "position": 193
+      }
+    ],
+    "frequency": [
+      {
+        "raw": "q8h",
+        "normalized": "q8h",
+        "position": 196
+      }
+    ],
+    "device": [
+      {
+        "raw": "Foley",
+        "normalized": "foley",
+        "position": 228
+      },
+      {
+        "raw": "비강 캐뉼라",
+        "normalized": "nc",
+        "position": 133
+      },
+      {
+        "raw": "비강 캐뉼라",
+        "normalized": "nc",
+        "position": 205
+      }
+    ],
+    "vital_sign": [
+      {
+        "raw": "혈압은 90/60",
+        "label": "bp",
+        "value": "90/60",
+        "position": 46
+      },
+      {
+        "raw": "심박수는 110",
+        "label": "hr",
+        "value": "110",
+        "position": 70
+      },
+      {
+        "raw": "호흡수는 22",
+        "label": "rr",
+        "value": "22",
+        "position": 84
+      },
+      {
+        "raw": "체온은 36.8",
+        "label": "bt",
+        "value": "36.8",
+        "position": 105
+      }
+    ],
+    "dose": [
+      {
+        "raw": "40 mg",
+        "value": "40",
+        "unit": "mg",
+        "position": 187
+      }
+    ]
+  },
+  "whisper_entities": {
+    "route": [],
+    "frequency": [
+      {
+        "raw": "Q8H",
+        "normalized": "q8h",
+        "position": 177
+      }
+    ],
+    "device": [
+      {
+        "raw": "폴리 카테터",
+        "normalized": "foley",
+        "position": 209
+      }
+    ],
+    "vital_sign": [
+      {
+        "raw": "혈압은 90-60",
+        "label": "bp",
+        "value": "90/60",
+        "position": 46
+      },
+      {
+        "raw": "심박수는 110",
+        "label": "hr",
+        "value": "110",
+        "position": 68
+      },
+      {
+        "raw": "호흡수는 22",
+        "label": "rr",
+        "value": "22",
+        "position": 81
+      },
+      {
+        "raw": "체온은 36.8",
+        "label": "bt",
+        "value": "36.8",
+        "position": 93
+      }
+    ],
+    "dose": [
+      {
+        "raw": "40mg",
+        "value": "40",
+        "unit": "mg",
+        "position": 169
+      }
+    ]
+  }
+}

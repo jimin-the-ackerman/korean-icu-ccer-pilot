@@ -1,0 +1,8 @@
+{
+  "sample_id": "scenario_017_hybrid",
+  "whisper_transcript": "53세 여성 환자가 인슐린 과다 복용으로 인한 심한 저혈당으로 입원하였다. 혈압은 102.65mmHg이고, 심박수는 92bpm, 호흡수는 18breathsmin, 체온은 36.5dl, 산소포화도는 95%로 확인되었다. 환자는 중등도의 혼동을 호소하였다. DEXTROS 50.25g IV STAT 투여함. IV DEXTROS ADMINISTRATION 시행함. IV FLUID로 인해 수액균형이 양성으로 확인되었다. 환자는 졸린 상태이다. 내분비 전문의에게 추가 관리 계획을 위해 보고하였다.",
+  "stt_metadata": {
+    "model": "whisper-1",
+    "language": "ko"
+  }
+}

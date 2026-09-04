@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_089_hybrid",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "복수",
+        "negation": false,
+        "severity": "moderate"
+      }
+    ],
+    "clinical_status": "졸린 상태",
+    "medication_identity": "Spironolactone",
+    "interventions": [],
+    "intake_output": "체액 균형 음성 500 ml",
+    "notification": "간전문팀에게 관리 계획을 위해 보고하였다."
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "복수",
+        "negation": false,
+        "severity": "moderate"
+      }
+    ],
+    "clinical_status": "졸린 상태",
+    "medication_identity": "스피로놀렉톤",
+    "interventions": [],
+    "intake_output": "체액균형 음성 500mL",
+    "notification": "간전문팀에게 관리 계획을 위해 보고하였다."
+  }
+}

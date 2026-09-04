@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_041_hybrid",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "복수",
+        "negation": false,
+        "severity": "moderate"
+      }
+    ],
+    "clinical_status": "졸림",
+    "medication_identity": "Furosemide",
+    "interventions": [],
+    "intake_output": "24시간 소변 배출량은 1200 mL로 기록됨",
+    "notification": null
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "복수",
+        "negation": false,
+        "severity": "moderate"
+      }
+    ],
+    "clinical_status": "졸림 상태",
+    "medication_identity": "Furosemide",
+    "interventions": [],
+    "intake_output": "24시간 소변 배출량은 1,200ml로 기록됨",
+    "notification": null
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "sample_id": "scenario_067_hybrid",
+  "gold_entities": {
+    "route": [
+      {
+        "raw": "IV",
+        "normalized": "iv",
+        "position": 180
+      }
+    ],
+    "frequency": [
+      {
+        "raw": "STAT",
+        "normalized": "stat",
+        "position": 183
+      }
+    ],
+    "device": [
+      {
+        "raw": "C-line",
+        "normalized": "c-line",
+        "position": 205
+      },
+      {
+        "raw": "비강 캐뉼라",
+        "normalized": "nc",
+        "position": 117
+      },
+      {
+        "raw": "비강 캐뉼라",
+        "normalized": "nc",
+        "position": 193
+      }
+    ],
+    "vital_sign": [
+      {
+        "raw": "혈압은 85/60",
+        "label": "bp",
+        "value": "85/60",
+        "position": 31
+      },
+      {
+        "raw": "심박수는 115",
+        "label": "hr",
+        "value": "115",
+        "position": 54
+      },
+      {
+        "raw": "호흡수는 28",
+        "label": "rr",
+        "value": "28",
+        "position": 68
+      },
+      {
+        "raw": "체온은 36.8",
+        "label": "bt",
+        "value": "36.8",
+        "position": 89
+      }
+    ],
+    "dose": []
+  },
+  "whisper_entities": {
+    "route": [
+      {
+        "raw": "IV",
+        "normalized": "iv",
+        "position": 172
+      }
+    ],
+    "frequency": [
+      {
+        "raw": "stat",
+        "normalized": "stat",
+        "position": 175
+      }
+    ],
+    "device": [
+      {
+        "raw": "C-line",
+        "normalized": "c-line",
+        "position": 197
+      }
+    ],
+    "vital_sign": [
+      {
+        "raw": "혈압은 85-60",
+        "label": "bp",
+        "value": "85/60",
+        "position": 31
+      },
+      {
+        "raw": "심박수는 115",
+        "label": "hr",
+        "value": "115",
+        "position": 51
+      },
+      {
+        "raw": "호흡수는 28",
+        "label": "rr",
+        "value": "28",
+        "position": 64
+      },
+      {
+        "raw": "체온은 36.8",
+        "label": "bt",
+        "value": "36.8",
+        "position": 83
+      }
+    ],
+    "dose": []
+  }
+}

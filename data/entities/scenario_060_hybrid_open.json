@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_060_hybrid",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "경직",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "기면 상태",
+    "medication_identity": "Levodopa",
+    "interventions": [],
+    "intake_output": "섭취량/배출량은 2000 mL/24시간으로 기록됨",
+    "notification": null
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "경직",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "기면 상태",
+    "medication_identity": "레부도파",
+    "interventions": [],
+    "intake_output": "섭취량 배출량은 2000mL per 24시간",
+    "notification": null
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_068_hybrid",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "복통",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "졸린 상태",
+    "medication_identity": "Metronidazole",
+    "interventions": [],
+    "intake_output": "음성 수분 균형 기록됨",
+    "notification": null
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "복통",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "졸린 상태",
+    "medication_identity": "메트로니다졸",
+    "interventions": [],
+    "intake_output": "음성 수분 균형",
+    "notification": null
+  }
+}

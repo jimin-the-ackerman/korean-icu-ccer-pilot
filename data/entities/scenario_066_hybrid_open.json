@@ -1,0 +1,35 @@
+{
+  "sample_id": "scenario_066_hybrid",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "복통",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "의식 명료",
+    "medication_identity": "인슐린",
+    "interventions": [
+      "수액 보충 치료"
+    ],
+    "intake_output": "소변 배출량 24시간 동안 1500 mL",
+    "notification": "고중성지방혈증 관리를 위해 내분비과에 상담을 의뢰함"
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "복통",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "의식이 명료한 상태",
+    "medication_identity": "인슐린",
+    "interventions": [
+      "수액 보충 치료"
+    ],
+    "intake_output": "소변 배출량은 24시간 동안 1,500ml로 기록되었다",
+    "notification": "고중성 지방혈증 관리를 위해 내분비과에 상담을 의뢰하였다"
+  }
+}

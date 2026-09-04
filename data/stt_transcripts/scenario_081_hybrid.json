@@ -1,0 +1,8 @@
+{
+  "sample_id": "scenario_081_hybrid",
+  "whisper_transcript": "60세 남성 환자가 고혈압 위기와 관련된 급성 우려성 심부전으로 입원하였다. 혈압은 210mmg로 확인되었고, 심박수는 110bpm, 호흡수는 24breaths min, 체온은 37.47세였다. 산소포화도는 실내 공기에서 88%로 확인되었다. 환자는 심한 호흡 곤란을 호소하였다. Furosemide 40mg IV STAT 투여암, 2-Eter nasal cannula 적용암, Foley 유지암, 체액균형은 500mL 음성으로 확인되었다. 환자는 졸린 상태였다. 심장악팀에게 고혈압 위기와 심부전 악화에 대해 보고하였다.",
+  "stt_metadata": {
+    "model": "whisper-1",
+    "language": "ko"
+  }
+}

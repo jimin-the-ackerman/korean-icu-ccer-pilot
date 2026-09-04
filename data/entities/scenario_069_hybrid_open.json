@@ -1,0 +1,41 @@
+{
+  "sample_id": "scenario_069_hybrid",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "의식불명",
+        "negation": false,
+        "severity": "severe"
+      },
+      {
+        "name": "무반응",
+        "negation": false,
+        "severity": null
+      }
+    ],
+    "clinical_status": "반응이 없음",
+    "medication_identity": "Naloxone",
+    "interventions": [],
+    "intake_output": null,
+    "notification": null
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "의식불명",
+        "negation": false,
+        "severity": "severe"
+      },
+      {
+        "name": "무반응",
+        "negation": false,
+        "severity": null
+      }
+    ],
+    "clinical_status": "의식불명, 반응 없음",
+    "medication_identity": "Naloxone",
+    "interventions": [],
+    "intake_output": null,
+    "notification": null
+  }
+}

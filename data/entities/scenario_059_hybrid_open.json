@@ -1,0 +1,35 @@
+{
+  "sample_id": "scenario_059_hybrid",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "심한 복통",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "졸린 상태",
+    "medication_identity": "Piperacillin/Tazobactam",
+    "interventions": [
+      "수액 소생술 시행"
+    ],
+    "intake_output": "Positive fluid balance 확인됨",
+    "notification": null
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "복통",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "졸린 상태",
+    "medication_identity": "Piperacillin-tazobactam",
+    "interventions": [
+      "수액 소생술 시행"
+    ],
+    "intake_output": "Positive Fluid Balance 확인됨",
+    "notification": null
+  }
+}

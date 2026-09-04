@@ -1,0 +1,8 @@
+{
+  "sample_id": "scenario_022_hybrid",
+  "whisper_transcript": "63세 여성 환자가 급성 악화 심부전 및 폐부종으로 입원하였다. 혈압은 150-95mmg로 확인되었고, 심박수는 110bpm, 호흡수는 28bpm, 체온은 37.21℃였다. 산소포화도는 실내 공기에서 86%로 확인되었다. 환자는 심한 호흡 곤란을 호소하였다. Furosemide 40mg IV-Q Part H 투여암, High Flow Nasal Cannula 적용암, C-Line 유지암, 수액균형은 양성이었다. 임상상태는 졸린 상태였다. 호흡상태 악화에 대해 심장악팀에 보고하였다.",
+  "stt_metadata": {
+    "model": "whisper-1",
+    "language": "ko"
+  }
+}

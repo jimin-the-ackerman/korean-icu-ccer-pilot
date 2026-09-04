@@ -1,0 +1,8 @@
+{
+  "sample_id": "scenario_051_hybrid",
+  "whisper_transcript": "48세 남성 환자가 음주로 인한 급성 최장염으로 입원하였다. 혈압은 117mmg, 심박수는 98pm, 호흡수는 22bpm, 체온은 37.86, 산소포화도는 실내 공기에서 95%로 확인되었다. 환자는 심한 복통을 호소하였다. Morphine 4mg IV PRN 투여함, NPO 상태 유지함, NG 튜브 적용함, 음성수분 균형 확인됨, 의식은 명료하였다. 소화기 전문팀에게 추가 평가 및 관리를 위해 보고하였다.",
+  "stt_metadata": {
+    "model": "whisper-1",
+    "language": "ko"
+  }
+}

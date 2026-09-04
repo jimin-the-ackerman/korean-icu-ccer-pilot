@@ -1,0 +1,11 @@
+{
+  "sample_id": "scenario_001_hybrid",
+  "scenario_id": "scenario_001",
+  "document_type": "ICU_observation",
+  "style_condition": "hybrid",
+  "text": "65세 남성 환자가 폐렴으로 인한 호흡곤란을 호소하며 입원하였다. 혈압은 100/65 mmHg, 심박수는 110 bpm, 호흡수는 28회/분, 체온은 38.1도, 산소포화도는 88%로 확인되었다. 중등도의 기침을 호소하였다. Ceftriaxone 1g IV q12h 투여함. High-flow nasal cannula 적용함. 환자는 drowsy 상태에 있다. ventilator 유지함. 산소포화도 저하에 대해 호흡 치료사에게 보고하였다.",
+  "generation_metadata": {
+    "model": "gpt-4o",
+    "temperature": 0.7
+  }
+}

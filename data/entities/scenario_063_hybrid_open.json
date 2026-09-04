@@ -1,0 +1,55 @@
+{
+  "sample_id": "scenario_063_hybrid",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "복부 통증",
+        "negation": false,
+        "severity": "moderate"
+      },
+      {
+        "name": "소변량 감소",
+        "negation": false,
+        "severity": null
+      },
+      {
+        "name": "복부 팽만",
+        "negation": false,
+        "severity": null
+      }
+    ],
+    "clinical_status": "졸음 상태",
+    "medication_identity": "Ceftriaxone",
+    "interventions": [
+      "엄격한 입력/출력 모니터링"
+    ],
+    "intake_output": "소변량 감소",
+    "notification": "소변량 감소 및 복부 팽만에 대해 담당 의사에게 보고하였다."
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "복부통증",
+        "negation": false,
+        "severity": "moderate"
+      },
+      {
+        "name": "소변량 감소",
+        "negation": false,
+        "severity": null
+      },
+      {
+        "name": "복부 팽만",
+        "negation": false,
+        "severity": null
+      }
+    ],
+    "clinical_status": "졸음상태",
+    "medication_identity": "세프트리악손",
+    "interventions": [
+      "엄격한 입력, 출력 모니터링 실시"
+    ],
+    "intake_output": "소변량 감소",
+    "notification": "소변량 감소 및 복부 팽만에 대해 담당 의사에게 보고함"
+  }
+}

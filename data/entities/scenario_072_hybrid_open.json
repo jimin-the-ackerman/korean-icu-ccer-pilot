@@ -1,0 +1,55 @@
+{
+  "sample_id": "scenario_072_hybrid",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "복통",
+        "negation": false,
+        "severity": "severe"
+      },
+      {
+        "name": "혈변",
+        "negation": false,
+        "severity": null
+      },
+      {
+        "name": "탈수",
+        "negation": false,
+        "severity": null
+      }
+    ],
+    "clinical_status": "의식 명료",
+    "medication_identity": "Hydrocortisone",
+    "interventions": [
+      "IV fluid resuscitation"
+    ],
+    "intake_output": "음성 수분 균형",
+    "notification": null
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "복통",
+        "negation": false,
+        "severity": "severe"
+      },
+      {
+        "name": "혈변",
+        "negation": false,
+        "severity": null
+      },
+      {
+        "name": "탈수",
+        "negation": false,
+        "severity": null
+      }
+    ],
+    "clinical_status": "의식이 명료",
+    "medication_identity": "Hydrocortisone",
+    "interventions": [
+      "IV fluid resuscitation"
+    ],
+    "intake_output": "음성 수분 균형",
+    "notification": null
+  }
+}

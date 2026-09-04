@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_073_hybrid",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "호흡곤란",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "명료",
+    "medication_identity": "Furosemide",
+    "interventions": [],
+    "intake_output": "지난 24시간 동안 체액 균형은 200 mL 양성",
+    "notification": null
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "호흡 곤란",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "명료",
+    "medication_identity": "Furosemide",
+    "interventions": [],
+    "intake_output": "지난 24시간 동안 체액균형은 200mL 양성",
+    "notification": null
+  }
+}

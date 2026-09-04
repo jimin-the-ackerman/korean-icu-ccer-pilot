@@ -1,0 +1,41 @@
+{
+  "sample_id": "scenario_062_hybrid",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "흉통",
+        "negation": false,
+        "severity": "severe"
+      },
+      {
+        "name": "SpO2 저하",
+        "negation": false,
+        "severity": null
+      },
+      {
+        "name": "빈맥",
+        "negation": false,
+        "severity": null
+      }
+    ],
+    "clinical_status": "졸린 상태",
+    "medication_identity": "Heparin",
+    "interventions": [],
+    "intake_output": "음성 수분 균형",
+    "notification": "SpO2 저하 및 빈맥을 폐 전문의에게 보고하였다."
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "흉통",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "졸린 상태",
+    "medication_identity": "Heparin",
+    "interventions": [],
+    "intake_output": "음성수분균형",
+    "notification": "SpO2 저하 및 핀맥을 폐전문의에게 보고하였다."
+  }
+}

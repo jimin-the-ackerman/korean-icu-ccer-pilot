@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_040_hybrid",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "피부 병변",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "졸린 상태",
+    "medication_identity": "Morphine",
+    "interventions": [],
+    "intake_output": null,
+    "notification": null
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "피부 병변",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "졸린 상태",
+    "medication_identity": "Morphine",
+    "interventions": [],
+    "intake_output": null,
+    "notification": null
+  }
+}

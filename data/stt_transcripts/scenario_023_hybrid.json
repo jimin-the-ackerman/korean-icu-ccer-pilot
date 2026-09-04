@@ -1,0 +1,8 @@
+{
+  "sample_id": "scenario_023_hybrid",
+  "whisper_transcript": "69세 여성 환자가 다발성 경화증의 급성 악화로 입원하였다. 혈압은 135-85mmHg로 측정되었고, 심박수는 80bpm, 호흡수는 22breathsmin, 체온은 37.2dL, 산소포화도는 실내 공기에서 96%로 확인되었다. 중등도의 근력 약화를 호소하였다. Methylprednisolone 1g IV QEH 투여함. 환자는 기면 상태로 확인되었다.",
+  "stt_metadata": {
+    "model": "whisper-1",
+    "language": "ko"
+  }
+}

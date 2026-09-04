@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_092_hybrid",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "복통",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "의식 명료",
+    "medication_identity": "Pantoprazole",
+    "interventions": [],
+    "intake_output": null,
+    "notification": "부갑상선기능항진증 관리를 위해 내분비과에 상담 의뢰하였다."
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "복통",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "의식 명료",
+    "medication_identity": "판토프라솔",
+    "interventions": [],
+    "intake_output": null,
+    "notification": "부갑상선기능항진증 관리를 위해 내분비과에 상담 의뢰하였다."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "sample_id": "scenario_032_hybrid",
+  "scenario_id": "scenario_032",
+  "document_type": "ICU_observation",
+  "style_condition": "hybrid",
+  "text": "67세 여자 환자가 간질성 폐질환 악화로 인한 급성 호흡 부전으로 입원하였다. 혈압은 140/85 mmHg, 심박수는 110 bpm, 호흡수는 28 bpm, 체온은 37.6°C, 산소포화도는 88%로 확인되었다. 심한 호흡곤란을 호소하였다. Methylprednisolone 60 mg IV q12h 투여함. High-flow nasal cannula 적용함. Ventilator 적용함. 임상 상태는 의식이 혼미한 상태였다.",
+  "generation_metadata": {
+    "model": "gpt-4o",
+    "temperature": 0.7
+  }
+}

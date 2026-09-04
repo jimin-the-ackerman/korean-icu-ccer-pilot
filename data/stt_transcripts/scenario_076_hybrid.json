@@ -1,0 +1,8 @@
+{
+  "sample_id": "scenario_076_hybrid",
+  "whisper_transcript": "35세 여성 환자가 임신성 구토로 인한 중증 탈수에 의한 급성 신손상 aki로 입원하였다. 활력증으로 혈압은 92% 58mmg, 심박수는 120bpm, 호흡수는 18hp, 체온은 36.8 g, 산소포화도는 96% 확인되었다. 환자는 심한 오심을 호소하였다. 언단세트론 8mg ib q-part-h 투여함, 산소지원은 필요하지 않음, 정상식염 수로 ib fluid resuscitation 실시함, Foley 적용함, 음성수분균형 확인됨, 임상상태는 졸리고 혼미한 상태로 확인되었다. 신장내과팀에게 aki 관리에 대해 협의하였다.",
+  "stt_metadata": {
+    "model": "whisper-1",
+    "language": "ko"
+  }
+}

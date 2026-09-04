@@ -1,0 +1,8 @@
+{
+  "sample_id": "scenario_069_hybrid",
+  "whisper_transcript": "57세 남성 환자가 급성 헤로인 과다 복용으로 입원하였다. 혈압은 98-60mg, 심박수는 45bpm, 호흡수는 8bpm, 체온은 36.5°C이며 산소포화도는 실내 공기에서 85%로 확인되었다. 환자는 심각한 정도의 의식불명을 호소하였다. Naloxone 0.4mg IV STAT 투여함, High Flow Nasal Cannula 적용함. 환자는 반응이 없었다.",
+  "stt_metadata": {
+    "model": "whisper-1",
+    "language": "ko"
+  }
+}

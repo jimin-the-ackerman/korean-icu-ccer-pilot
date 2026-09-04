@@ -1,0 +1,35 @@
+{
+  "sample_id": "scenario_002_hybrid",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "구역감",
+        "negation": false,
+        "severity": "moderate"
+      }
+    ],
+    "clinical_status": "졸린 상태",
+    "medication_identity": "Insulin",
+    "interventions": [
+      "Fluid resuscitation"
+    ],
+    "intake_output": "소변 배출량이 적음",
+    "notification": "내분비내과에 DKA 관리를 위해 컨설트하였다."
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "구역감",
+        "negation": false,
+        "severity": "moderate"
+      }
+    ],
+    "clinical_status": "졸린 상태",
+    "medication_identity": "인슐린",
+    "interventions": [
+      "fluid resuscitation"
+    ],
+    "intake_output": "소변 배출량이 적음",
+    "notification": "내분비내과의 DKA 관리를 위해 컨설트하였다"
+  }
+}

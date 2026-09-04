@@ -1,0 +1,8 @@
+{
+  "sample_id": "scenario_006_hybrid",
+  "whisper_transcript": "70세 여성 환자가 심각한 뇌졸중으로 입원하였다. 혈압은 170%일시 95mmHg로 측정되었고, 심박수는 78bpm이었다. 호흡수는 20hb분으로 확인되었으며, 체온은 37.12℃로 나타났다. 산소포화도는 92%로 확인되었다. 환자는 심각한 편마비를 호소하였다. Labetalol 20mg IV-Q67G 투여함. 산소 공급은 Nasal Canula Tulipermine 적용함, C-Line 유지함, 음성수분 균형을 보이고 있다. 환자는 혼미상태로 확인되었다. 신경과 팀에게 상태 변화를 보고하였다.",
+  "stt_metadata": {
+    "model": "whisper-1",
+    "language": "ko"
+  }
+}

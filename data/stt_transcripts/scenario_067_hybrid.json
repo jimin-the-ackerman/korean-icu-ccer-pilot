@@ -1,0 +1,8 @@
+{
+  "sample_id": "scenario_067_hybrid",
+  "whisper_transcript": "45세 남성 환자가 급성 대량 폐색전증으로 입원하였다. 혈압은 85-60mg로 측정되었고, 심박수는 115bpm, 호흡수는 28breath-min, 체온은 36.8deg. 산소포화도가 1l O2를 비강 케를라로 공급받으며 88%로 확인되었다. 환자는 심한 흉통을 호소하였다. Heparin O10 units IV stat 투여암, 비강 케를라 적용암, C-line 유지암. 환자는 기면 상태를 보였다. 저혈압과 저산소증에 대해 담당위에게 보고하였다.",
+  "stt_metadata": {
+    "model": "whisper-1",
+    "language": "ko"
+  }
+}

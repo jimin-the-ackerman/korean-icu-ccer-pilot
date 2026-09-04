@@ -1,0 +1,11 @@
+{
+  "sample_id": "scenario_061_hybrid",
+  "scenario_id": "scenario_061",
+  "document_type": "ICU_observation",
+  "style_condition": "hybrid",
+  "text": "52세 남성 환자가 고중성지방혈증에 의한 급성 췌장염으로 입원하였다. 혈압은 138/85 mmHg, 심박수는 110 bpm, 호흡수는 22 bpm, 체온은 37.8°C이며, 실내 공기에서 산소포화도는 96%로 확인되었다. 환자는 심한 복통을 호소하였다. Insulin infusion 5 units/hour IV 투여함. IV fluid resuscitation 시행함. 체액 균형은 양성으로 관찰되었으며, 환자는 의식이 명료하였다.",
+  "generation_metadata": {
+    "model": "gpt-4o",
+    "temperature": 0.7
+  }
+}

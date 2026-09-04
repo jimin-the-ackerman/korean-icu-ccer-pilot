@@ -1,0 +1,35 @@
+{
+  "sample_id": "scenario_008_hybrid",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "복통",
+        "negation": false,
+        "severity": "moderate"
+      }
+    ],
+    "clinical_status": "졸림",
+    "medication_identity": "Pantoprazole",
+    "interventions": [
+      "혈액 수혈 시행"
+    ],
+    "intake_output": "수분 균형 음성",
+    "notification": "내시경 검사를 위해 소화기내과 팀에 통보함"
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "복통",
+        "negation": false,
+        "severity": "moderate"
+      }
+    ],
+    "clinical_status": "졸림",
+    "medication_identity": "Pantoprazol",
+    "interventions": [
+      "혈액 수혈 시행"
+    ],
+    "intake_output": "수분 균형 음성",
+    "notification": "내시경 검사를 위해 소아기내과팀에 통보하였다."
+  }
+}

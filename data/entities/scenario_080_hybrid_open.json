@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_080_hybrid",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "황달",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "기면 상태",
+    "medication_identity": "Furosemide",
+    "interventions": [],
+    "intake_output": "음성의 수분 균형",
+    "notification": "간 기능 악화로 간 전문의 상담 요청함"
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "황달",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "기면 상태",
+    "medication_identity": "퓨로세미드",
+    "interventions": [],
+    "intake_output": "음성의 수분균형이 관찰됨",
+    "notification": "간기능 악화로 간 전문의 상담 요청함"
+  }
+}

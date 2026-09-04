@@ -1,0 +1,8 @@
+{
+  "sample_id": "scenario_045_hybrid",
+  "whisper_transcript": "62세 여성 환자가 애디센스 디지즈로 인한 급성 부신 위기로 입원하였다. 혈압은 88,54mg, 심박수는 122bpm, 호흡수는 24bpm, 체온은 37.0kg 되었다. 산소 포화도는 실내 공기에서 92%로 확인되었다. 환자는 심한 복통을 호소하였다. Hydrocortisone 100mg IV STAT 투여함. 산소 지원으로는 Nasal Cannula 2 Albumin을 적용함. 정상 식염수로 체액 보충 시행함. Foley 유지함. 소변 배출량은 시간당 30mg로 측정되었다. 환자는 졸린 상태였다. 부신 기능 부전 관리 위해 내분비과에 상담 의뢰였다.",
+  "stt_metadata": {
+    "model": "whisper-1",
+    "language": "ko"
+  }
+}

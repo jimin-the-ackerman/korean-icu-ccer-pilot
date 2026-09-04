@@ -1,0 +1,35 @@
+{
+  "sample_id": "scenario_071_hybrid",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "근력 약화",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "의식이 혼미한 상태",
+    "medication_identity": "IV immunoglobulin",
+    "interventions": [
+      "호흡기 모니터링"
+    ],
+    "intake_output": null,
+    "notification": "신경과 팀에게 추가 평가 및 관리 위해 통보하였다."
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "근력 약화",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "의식이 혼미한 상태",
+    "medication_identity": "이뮤노글로블린",
+    "interventions": [
+      "호흡기 모니터링"
+    ],
+    "intake_output": null,
+    "notification": "신경과 팀에게 추가 평가 및 관리 위해 통보하였다."
+  }
+}

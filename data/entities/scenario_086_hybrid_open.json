@@ -1,0 +1,40 @@
+{
+  "sample_id": "scenario_086_hybrid",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "발열",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "졸림",
+    "medication_identity": "Piperacillin/Tazobactam",
+    "interventions": [
+      "항생제 치료 시작"
+    ],
+    "intake_output": null,
+    "notification": "발열성 호중구 감소증과 치료 계획에 대해 담당 종양내과 의사에게 보고하였다."
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "발열",
+        "negation": false,
+        "severity": "severe"
+      },
+      {
+        "name": "호중구 감소증",
+        "negation": false,
+        "severity": null
+      }
+    ],
+    "clinical_status": "졸림상태",
+    "medication_identity": "피페라실린 타조박탐",
+    "interventions": [
+      "항생제 치료 시작"
+    ],
+    "intake_output": null,
+    "notification": "발열성 호중구 감소증과 치료계획에 대해 담당 종양내과 의사에게 보고함"
+  }
+}

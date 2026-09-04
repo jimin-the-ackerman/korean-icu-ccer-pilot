@@ -1,0 +1,8 @@
+{
+  "sample_id": "scenario_083_hybrid",
+  "whisper_transcript": "61세 여성 환자가 급성 승모판 역류에 의한 급성 폐부종으로 입원하였다. 혈압은 160-90mg로 확인되었고, 심박수는 110bpm, 호흡수는 28hb, 체온은 37.2db이며, 산소포화도는 88%로 측정되었다. 환자는 심한 호흡곤란을 호소하였다. 약물로 Furosemide 40mg IBEQ-6H 투여함, 산소 공급은 non-rebreather mask 적용함, C-line 유지함, 임상상태는 졸려함.",
+  "stt_metadata": {
+    "model": "whisper-1",
+    "language": "ko"
+  }
+}

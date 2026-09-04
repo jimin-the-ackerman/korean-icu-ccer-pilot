@@ -1,0 +1,8 @@
+{
+  "sample_id": "scenario_012_hybrid",
+  "whisper_transcript": "75세 여성 환자가 우혈성 심부전 악화로 입원하였다. 혈압은 90-60mmg, 심박수는 110bpm, 호흡수는 22breaths per min, 체온은 36.86수, 산소포화도는 실내 공기에서 88%로 확인되었다. 환자는 중등도의 호흡곤란을 호소하였다. Furosemide 40mg Ib-Cupot-H 투여함, Huiter Nasal Cannula 적용함, Foley 유지함, 수분균형은 양성으로 나타났다. 임상상태는 졸림으로 확인되었다. 심장내과팀에게 체액과부암 및 저혈압에 대해 보고하였다.",
+  "stt_metadata": {
+    "model": "whisper-1",
+    "language": "ko"
+  }
+}

@@ -1,0 +1,128 @@
+{
+  "sample_id": "scenario_056_hybrid",
+  "closed_vocab_matches": [
+    {
+      "entity_type": "route",
+      "gold_value": "iv",
+      "whisper_value": "iv",
+      "match_status": "matched",
+      "error_type": null
+    },
+    {
+      "entity_type": "frequency",
+      "gold_value": "q4h",
+      "whisper_value": "q4h",
+      "match_status": "matched",
+      "error_type": null
+    },
+    {
+      "entity_type": "device",
+      "gold_value": "ng tube",
+      "whisper_value": null,
+      "match_status": "omission",
+      "error_type": "omission"
+    },
+    {
+      "entity_type": "device",
+      "gold_value": "nc",
+      "whisper_value": null,
+      "match_status": "omission",
+      "error_type": "omission"
+    },
+    {
+      "entity_type": "dose",
+      "gold_value": "2.5mg",
+      "whisper_value": null,
+      "match_status": "omission",
+      "error_type": "omission"
+    },
+    {
+      "entity_type": "dose",
+      "gold_value": null,
+      "whisper_value": "5mg",
+      "match_status": "whisper_only",
+      "error_type": null
+    },
+    {
+      "entity_type": "dose",
+      "gold_value": null,
+      "whisper_value": "500ml",
+      "match_status": "whisper_only",
+      "error_type": null
+    },
+    {
+      "entity_type": "vital_sign",
+      "label": "bp",
+      "gold_value": "135/85",
+      "whisper_value": "135/85",
+      "match_status": "matched",
+      "error_type": null
+    },
+    {
+      "entity_type": "vital_sign",
+      "label": "hr",
+      "gold_value": "110",
+      "whisper_value": "110",
+      "match_status": "matched",
+      "error_type": null
+    },
+    {
+      "entity_type": "vital_sign",
+      "label": "rr",
+      "gold_value": "32",
+      "whisper_value": "32",
+      "match_status": "matched",
+      "error_type": null
+    },
+    {
+      "entity_type": "vital_sign",
+      "label": "bt",
+      "gold_value": "37.5",
+      "whisper_value": "37.55",
+      "match_status": "error",
+      "error_type": "numeric_error"
+    },
+    {
+      "entity_type": "vital_sign",
+      "label": "spo2",
+      "gold_value": "88%",
+      "whisper_value": "88%",
+      "match_status": "matched",
+      "error_type": null
+    }
+  ],
+  "open_vocab_matches": {
+    "symptom_matches": [
+      {
+        "gold_value": "wheezing",
+        "whisper_value": "천명음",
+        "match_basis": "semantic",
+        "negation_match": true,
+        "severity_match": true
+      }
+    ],
+    "whisper_only_symptoms": [],
+    "clinical_status_match": {
+      "gold_value": "drowsy",
+      "whisper_value": "졸린 상태",
+      "match_basis": "semantic"
+    },
+    "medication_identity_match": {
+      "gold_value": "Albuterol",
+      "whisper_value": "알부테롤",
+      "match_basis": "exact"
+    },
+    "intervention_matches": [],
+    "whisper_only_interventions": [],
+    "intake_output_match": {
+      "gold_value": "Negative fluid balance of 500 ml",
+      "whisper_value": "체액균형 500mL 음성",
+      "match_basis": "semantic"
+    },
+    "notification_match": {
+      "gold_value": "Pulmonology team notified for urgent evaluation",
+      "whisper_value": "폐전문팀에게 긴급평가를 위해 보고하였다.",
+      "match_basis": "semantic"
+    }
+  }
+}

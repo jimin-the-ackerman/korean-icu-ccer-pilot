@@ -1,0 +1,139 @@
+{
+  "sample_id": "scenario_005_hybrid",
+  "gold_entities": {
+    "route": [
+      {
+        "raw": "IV",
+        "normalized": "iv",
+        "position": 172
+      }
+    ],
+    "frequency": [
+      {
+        "raw": "q8h",
+        "normalized": "q8h",
+        "position": 175
+      }
+    ],
+    "device": [
+      {
+        "raw": "Foley",
+        "normalized": "foley",
+        "position": 210
+      },
+      {
+        "raw": "nasal cannula",
+        "normalized": "nc",
+        "position": 191
+      }
+    ],
+    "vital_sign": [
+      {
+        "raw": "혈압이 150/95",
+        "label": "bp",
+        "value": "150/95",
+        "position": 63
+      },
+      {
+        "raw": "심박수가 88",
+        "label": "hr",
+        "value": "88",
+        "position": 80
+      },
+      {
+        "raw": "호흡수가 22",
+        "label": "rr",
+        "value": "22",
+        "position": 93
+      },
+      {
+        "raw": "체온이 37.2",
+        "label": "bt",
+        "value": "37.2",
+        "position": 108
+      },
+      {
+        "raw": "산소포화도가 94%",
+        "label": "spo2",
+        "value": "94%",
+        "position": 120
+      }
+    ],
+    "dose": [
+      {
+        "raw": "40 mg",
+        "value": "40",
+        "unit": "mg",
+        "position": 166
+      }
+    ]
+  },
+  "whisper_entities": {
+    "route": [
+      {
+        "raw": "IV",
+        "normalized": "iv",
+        "position": 164
+      }
+    ],
+    "frequency": [
+      {
+        "raw": "Q8H",
+        "normalized": "q8h",
+        "position": 167
+      }
+    ],
+    "device": [
+      {
+        "raw": "Foley",
+        "normalized": "foley",
+        "position": 202
+      },
+      {
+        "raw": "nasal cannula",
+        "normalized": "nc",
+        "position": 183
+      }
+    ],
+    "vital_sign": [
+      {
+        "raw": "혈압이 150",
+        "label": "bp",
+        "value": "150",
+        "position": 63
+      },
+      {
+        "raw": "심박수가 88",
+        "label": "hr",
+        "value": "88",
+        "position": 79
+      },
+      {
+        "raw": "호흡수가 22",
+        "label": "rr",
+        "value": "22",
+        "position": 91
+      },
+      {
+        "raw": "체온이 37.1",
+        "label": "bt",
+        "value": "37.1",
+        "position": 102
+      },
+      {
+        "raw": "산소포화도가 94%",
+        "label": "spo2",
+        "value": "94%",
+        "position": 113
+      }
+    ],
+    "dose": [
+      {
+        "raw": "40mg",
+        "value": "40",
+        "unit": "mg",
+        "position": 159
+      }
+    ]
+  }
+}

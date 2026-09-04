@@ -1,0 +1,11 @@
+{
+  "sample_id": "scenario_042_hybrid",
+  "scenario_id": "scenario_042",
+  "document_type": "ICU_observation",
+  "style_condition": "hybrid",
+  "text": "73세 남성 환자가 심한 탈수 및 전해질 불균형으로 인한 장기간 설사 후 입원하였다. 혈압은 98/62 mmHg, 심박수는 112 bpm, 호흡수는 24 breaths/min, 체온은 37.2°C로 확인되었으며, 산소포화도는 실내 공기에서 95%로 나타났다. 환자는 심한 설사를 호소하였다. Normal Saline 1000 mL IV STAT 투여함. 정맥 내 수액 보충을 실시하였다. 소변 배출량이 8시간 동안 200 mL로 낮게 나타났다. 환자는 졸린 상태를 보였다. 만약 소변 배출량이 시간당 30 mL 이하로 유지되면 담당 의사에게 보고하도록 하였다.",
+  "generation_metadata": {
+    "model": "gpt-4o",
+    "temperature": 0.7
+  }
+}

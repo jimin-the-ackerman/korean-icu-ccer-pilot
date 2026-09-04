@@ -1,0 +1,138 @@
+{
+  "sample_id": "scenario_095_hybrid",
+  "gold_entities": {
+    "route": [
+      {
+        "raw": "IV",
+        "normalized": "iv",
+        "position": 165
+      }
+    ],
+    "frequency": [
+      {
+        "raw": "PRN",
+        "normalized": "prn",
+        "position": 168
+      }
+    ],
+    "device": [
+      {
+        "raw": "ventilator",
+        "normalized": "ventilator",
+        "position": 197
+      },
+      {
+        "raw": "ventilator",
+        "normalized": "ventilator",
+        "position": 253
+      },
+      {
+        "raw": "비강 캐뉼라",
+        "normalized": "nc",
+        "position": 181
+      }
+    ],
+    "vital_sign": [
+      {
+        "raw": "혈압은 130/85",
+        "label": "bp",
+        "value": "130/85",
+        "position": 38
+      },
+      {
+        "raw": "심박수는 110",
+        "label": "hr",
+        "value": "110",
+        "position": 55
+      },
+      {
+        "raw": "호흡수는 28",
+        "label": "rr",
+        "value": "28",
+        "position": 69
+      },
+      {
+        "raw": "체온은 37.3",
+        "label": "bt",
+        "value": "37.3",
+        "position": 90
+      }
+    ],
+    "dose": [
+      {
+        "raw": "2.5 mg",
+        "value": "2.5",
+        "unit": "mg",
+        "position": 158
+      }
+    ]
+  },
+  "whisper_entities": {
+    "route": [
+      {
+        "raw": "IV",
+        "normalized": "iv",
+        "position": 160
+      }
+    ],
+    "frequency": [
+      {
+        "raw": "PRN",
+        "normalized": "prn",
+        "position": 163
+      }
+    ],
+    "device": [
+      {
+        "raw": "Ventilator",
+        "normalized": "ventilator",
+        "position": 192
+      },
+      {
+        "raw": "Ventilator",
+        "normalized": "ventilator",
+        "position": 248
+      }
+    ],
+    "vital_sign": [
+      {
+        "raw": "혈압은 130-85",
+        "label": "bp",
+        "value": "130/85",
+        "position": 39
+      },
+      {
+        "raw": "심박수는 120",
+        "label": "hr",
+        "value": "120",
+        "position": 54
+      },
+      {
+        "raw": "호흡수는 28",
+        "label": "rr",
+        "value": "28",
+        "position": 67
+      },
+      {
+        "raw": "체온은 37.3",
+        "label": "bt",
+        "value": "37.3",
+        "position": 86
+      },
+      {
+        "raw": "산소포화도는 실내 공기상태에서 89%",
+        "label": "spo2",
+        "value": "89%",
+        "position": 98
+      }
+    ],
+    "dose": [
+      {
+        "raw": "2.5mg",
+        "value": "2.5",
+        "unit": "mg",
+        "position": 154
+      }
+    ]
+  }
+}

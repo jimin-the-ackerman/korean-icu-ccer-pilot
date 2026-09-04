@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_012_hybrid",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "호흡곤란",
+        "negation": false,
+        "severity": "moderate"
+      }
+    ],
+    "clinical_status": "졸림",
+    "medication_identity": "Furosemide",
+    "interventions": [],
+    "intake_output": "수분 균형은 양성으로 나타났다",
+    "notification": "심장내과 팀에게 체액 과부하 및 저혈압에 대해 보고하였다"
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "호흡곤란",
+        "negation": false,
+        "severity": "moderate"
+      }
+    ],
+    "clinical_status": "졸림",
+    "medication_identity": "Furosemide",
+    "interventions": [],
+    "intake_output": "수분균형은 양성으로 나타났다",
+    "notification": "심장내과팀에게 체액과부암 및 저혈압에 대해 보고하였다"
+  }
+}

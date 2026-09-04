@@ -1,0 +1,116 @@
+{
+  "sample_id": "scenario_025_hybrid",
+  "gold_entities": {
+    "route": [
+      {
+        "raw": "IV",
+        "normalized": "iv",
+        "position": 157
+      }
+    ],
+    "frequency": [
+      {
+        "raw": "q12h",
+        "normalized": "q12h",
+        "position": 160
+      }
+    ],
+    "device": [
+      {
+        "raw": "C-line",
+        "normalized": "c-line",
+        "position": 185
+      }
+    ],
+    "vital_sign": [
+      {
+        "raw": "혈압은 138/84",
+        "label": "bp",
+        "value": "138/84",
+        "position": 27
+      },
+      {
+        "raw": "심박수는 92",
+        "label": "hr",
+        "value": "92",
+        "position": 44
+      },
+      {
+        "raw": "호흡수는 20",
+        "label": "rr",
+        "value": "20",
+        "position": 57
+      },
+      {
+        "raw": "체온은 38.2",
+        "label": "bt",
+        "value": "38.2",
+        "position": 78
+      },
+      {
+        "raw": "산소포화도는 실내 공기에서 95%",
+        "label": "spo2",
+        "value": "95%",
+        "position": 97
+      }
+    ],
+    "dose": [
+      {
+        "raw": "1g",
+        "value": "1",
+        "unit": "g",
+        "position": 154
+      }
+    ]
+  },
+  "whisper_entities": {
+    "route": [
+      {
+        "raw": "IV",
+        "normalized": "iv",
+        "position": 157
+      }
+    ],
+    "frequency": [],
+    "device": [
+      {
+        "raw": "C-Line",
+        "normalized": "c-line",
+        "position": 185
+      }
+    ],
+    "vital_sign": [
+      {
+        "raw": "혈압은 138",
+        "label": "bp",
+        "value": "138",
+        "position": 27
+      },
+      {
+        "raw": "심박수는 92",
+        "label": "hr",
+        "value": "92",
+        "position": 44
+      },
+      {
+        "raw": "호흡수는 20",
+        "label": "rr",
+        "value": "20",
+        "position": 56
+      },
+      {
+        "raw": "체온은 38.2",
+        "label": "bt",
+        "value": "38.2",
+        "position": 76
+      },
+      {
+        "raw": "산소포화도는 실내 공기에서 95%",
+        "label": "spo2",
+        "value": "95%",
+        "position": 95
+      }
+    ],
+    "dose": []
+  }
+}

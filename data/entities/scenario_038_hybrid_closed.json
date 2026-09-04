@@ -1,0 +1,128 @@
+{
+  "sample_id": "scenario_038_hybrid",
+  "gold_entities": {
+    "route": [
+      {
+        "raw": "PO",
+        "normalized": "po",
+        "position": 155
+      },
+      {
+        "raw": "근육",
+        "normalized": "im",
+        "position": 120
+      }
+    ],
+    "frequency": [
+      {
+        "raw": "QID",
+        "normalized": "qid",
+        "position": 158
+      }
+    ],
+    "device": [
+      {
+        "raw": "ventilator",
+        "normalized": "ventilator",
+        "position": 187
+      }
+    ],
+    "vital_sign": [
+      {
+        "raw": "혈압은 135/85",
+        "label": "bp",
+        "value": "135/85",
+        "position": 47
+      },
+      {
+        "raw": "심박수는 92",
+        "label": "hr",
+        "value": "92",
+        "position": 64
+      },
+      {
+        "raw": "호흡수는 28",
+        "label": "rr",
+        "value": "28",
+        "position": 77
+      },
+      {
+        "raw": "체온은 37.0",
+        "label": "bt",
+        "value": "37.0",
+        "position": 86
+      },
+      {
+        "raw": "산소포화도는 88%",
+        "label": "spo2",
+        "value": "88%",
+        "position": 98
+      }
+    ],
+    "dose": [
+      {
+        "raw": "60 mg",
+        "value": "60",
+        "unit": "mg",
+        "position": 149
+      }
+    ]
+  },
+  "whisper_entities": {
+    "route": [
+      {
+        "raw": "근육",
+        "normalized": "im",
+        "position": 118
+      }
+    ],
+    "frequency": [],
+    "device": [
+      {
+        "raw": "Ventilator",
+        "normalized": "ventilator",
+        "position": 183
+      }
+    ],
+    "vital_sign": [
+      {
+        "raw": "혈압은 105",
+        "label": "bp",
+        "value": "105",
+        "position": 47
+      },
+      {
+        "raw": "심박수는 92",
+        "label": "hr",
+        "value": "92",
+        "position": 64
+      },
+      {
+        "raw": "호흡수는 28",
+        "label": "rr",
+        "value": "28",
+        "position": 76
+      },
+      {
+        "raw": "체온은 37.6",
+        "label": "bt",
+        "value": "37.6",
+        "position": 85
+      },
+      {
+        "raw": "산소포화도는 88%",
+        "label": "spo2",
+        "value": "88%",
+        "position": 96
+      }
+    ],
+    "dose": [
+      {
+        "raw": "60mg",
+        "value": "60",
+        "unit": "mg",
+        "position": 148
+      }
+    ]
+  }
+}

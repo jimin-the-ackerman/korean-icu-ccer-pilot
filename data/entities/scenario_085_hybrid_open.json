@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_085_hybrid",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "기침",
+        "negation": false,
+        "severity": "moderate"
+      }
+    ],
+    "clinical_status": "졸린 상태",
+    "medication_identity": "Piperacillin-tazobactam",
+    "interventions": [],
+    "intake_output": "체액 균형 양성",
+    "notification": "환자의 호흡 상태에 대해 폐 전문의에게 보고하였음"
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "기침",
+        "negation": false,
+        "severity": "moderate"
+      }
+    ],
+    "clinical_status": "졸린 상태",
+    "medication_identity": "피페라실린 타조박탐",
+    "interventions": [],
+    "intake_output": "체액균형 양성",
+    "notification": "환자의 호흡상태에 대해 폐전문의에게 보고하였음"
+  }
+}

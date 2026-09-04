@@ -1,0 +1,8 @@
+{
+  "sample_id": "scenario_052_hybrid",
+  "whisper_transcript": "72세 남성 환자가 고관절 교체 수술 후 합병증으로 입원하였다. 혈압은 130-85mm로 확인되었고, 심박수는 95bpm, 호흡수는 18bpm, 체온은 37.5g로 확인되었다. 산소포화도는 실내 공기에서 97%로 확인되었다. 환자는 중등도의 통증을 호소하였다. Morphine 2mg IV Q3H 투여암, Foley 유지암, 소변 배출량 400mL per hour 기록됨. 환자는 의식이 명료하다.",
+  "stt_metadata": {
+    "model": "whisper-1",
+    "language": "ko"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "sample_id": "scenario_035_hybrid",
+  "whisper_transcript": "62세 여성 환자가 확장성 싱금병증으로 인한 급성 보상부전성 심부전으로 입원하였다. 혈압은 95-60mg로 측정되었고, 심박수는 110bpm, 호흡수는 24bpm, 체온은 36.8dl, 산소포화도는 실내 공기에서 90%로 확인되었다. 심한 호흡곤란을 호소하였다. Furosemide 40mg IB-Q8H 투여함, 산소공급은 salipreminant via nasal cannula로 적용함, 폴리 유지함, 24시간 동안 500mL 음성수분 균형을 보였다. 임상상태는 기면 상태로 확인되었다. 지속적인 저혈압에 대해 심장내과팀에 보고하였다.",
+  "stt_metadata": {
+    "model": "whisper-1",
+    "language": "ko"
+  }
+}

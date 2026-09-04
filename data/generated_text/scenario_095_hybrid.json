@@ -1,0 +1,11 @@
+{
+  "sample_id": "scenario_095_hybrid",
+  "scenario_id": "scenario_095",
+  "document_type": "ICU_observation",
+  "style_condition": "hybrid",
+  "text": "62세 여성 환자가 천식 악화로 인한 급성 호흡곤란으로 입원하였다. 혈압은 130/85 mmHg, 심박수는 110 bpm, 호흡수는 28 breaths/min, 체온은 37.3°C, 산소포화도는 실내 공기 상태에서 89%로 확인되었다. 심한 호흡곤란을 호소하였다. Albuterol 2.5 mg IV PRN 투여함. 고유량 비강 캐뉼라 적용함. 환자는 ventilator 유지함. 체액균형은 양성으로 확인되었다. 환자는 의식이 명료하다. 호흡치료사에게 ventilator 조정 요청 보고하였다.",
+  "generation_metadata": {
+    "model": "gpt-4o",
+    "temperature": 0.7
+  }
+}

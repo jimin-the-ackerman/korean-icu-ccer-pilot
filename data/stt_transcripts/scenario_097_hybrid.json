@@ -1,0 +1,8 @@
+{
+  "sample_id": "scenario_097_hybrid",
+  "whisper_transcript": "63세 여성 환자가 급성 수막구균성 수막염으로 입원하였다. 혈압은 117mm, 심박수는 98bpm, 호흡수는 22bpm, 체온은 39.5deg, 산소포화도는 95%로 확인되었다. 두통을 심하게 호소하였다. 세프트약소온 2g IV QCBH 투여함, C-Line 적용함. 환자는 졸린 상태로 확인되었다.",
+  "stt_metadata": {
+    "model": "whisper-1",
+    "language": "ko"
+  }
+}

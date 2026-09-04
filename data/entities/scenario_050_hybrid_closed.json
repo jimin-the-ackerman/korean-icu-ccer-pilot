@@ -1,0 +1,121 @@
+{
+  "sample_id": "scenario_050_hybrid",
+  "gold_entities": {
+    "route": [
+      {
+        "raw": "IV",
+        "normalized": "iv",
+        "position": 173
+      }
+    ],
+    "frequency": [
+      {
+        "raw": "TID",
+        "normalized": "tid",
+        "position": 176
+      }
+    ],
+    "device": [
+      {
+        "raw": "중심정맥관",
+        "normalized": "c-line",
+        "position": 201
+      },
+      {
+        "raw": "비강 캐뉼라",
+        "normalized": "nc",
+        "position": 189
+      }
+    ],
+    "vital_sign": [
+      {
+        "raw": "혈압은 220/130",
+        "label": "bp",
+        "value": "220/130",
+        "position": 41
+      },
+      {
+        "raw": "심박수는 110",
+        "label": "hr",
+        "value": "110",
+        "position": 59
+      },
+      {
+        "raw": "호흡수는 28",
+        "label": "rr",
+        "value": "28",
+        "position": 73
+      },
+      {
+        "raw": "체온은 36.7",
+        "label": "bt",
+        "value": "36.7",
+        "position": 94
+      },
+      {
+        "raw": "산소포화도는 대기 중 90%",
+        "label": "spo2",
+        "value": "90%",
+        "position": 106
+      }
+    ],
+    "dose": [
+      {
+        "raw": "10 mcg",
+        "value": "10",
+        "unit": "mcg",
+        "position": 162
+      }
+    ]
+  },
+  "whisper_entities": {
+    "route": [
+      {
+        "raw": "IV",
+        "normalized": "iv",
+        "position": 149
+      }
+    ],
+    "frequency": [
+      {
+        "raw": "TID",
+        "normalized": "tid",
+        "position": 152
+      }
+    ],
+    "device": [
+      {
+        "raw": "중심정맥관",
+        "normalized": "c-line",
+        "position": 177
+      }
+    ],
+    "vital_sign": [
+      {
+        "raw": "혈압은 220-130",
+        "label": "bp",
+        "value": "220/130",
+        "position": 40
+      },
+      {
+        "raw": "심박수는 110",
+        "label": "hr",
+        "value": "110",
+        "position": 56
+      },
+      {
+        "raw": "호흡수는 28",
+        "label": "rr",
+        "value": "28",
+        "position": 69
+      },
+      {
+        "raw": "체온은 36.7",
+        "label": "bt",
+        "value": "36.7",
+        "position": 81
+      }
+    ],
+    "dose": []
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "sample_id": "scenario_029_hybrid",
+  "closed_vocab_matches": [
+    {
+      "entity_type": "route",
+      "gold_value": "iv",
+      "whisper_value": "iv",
+      "match_status": "matched",
+      "error_type": null
+    },
+    {
+      "entity_type": "frequency",
+      "gold_value": "q12h",
+      "whisper_value": null,
+      "match_status": "omission",
+      "error_type": "omission"
+    },
+    {
+      "entity_type": "device",
+      "gold_value": "ventilator",
+      "whisper_value": "ventilator",
+      "match_status": "matched",
+      "error_type": null
+    },
+    {
+      "entity_type": "device",
+      "gold_value": "nc",
+      "whisper_value": null,
+      "match_status": "omission",
+      "error_type": "omission"
+    },
+    {
+      "entity_type": "dose",
+      "gold_value": "0.4gkg",
+      "whisper_value": "0.4g",
+      "match_status": "error",
+      "error_type": "unit_error"
+    },
+    {
+      "entity_type": "vital_sign",
+      "label": "bp",
+      "gold_value": "130/85",
+      "whisper_value": "130",
+      "match_status": "error",
+      "error_type": "numeric_error"
+    },
+    {
+      "entity_type": "vital_sign",
+      "label": "hr",
+      "gold_value": "92",
+      "whisper_value": "92",
+      "match_status": "matched",
+      "error_type": null
+    },
+    {
+      "entity_type": "vital_sign",
+      "label": "rr",
+      "gold_value": "18",
+      "whisper_value": "18",
+      "match_status": "matched",
+      "error_type": null
+    },
+    {
+      "entity_type": "vital_sign",
+      "label": "bt",
+      "gold_value": "36.8",
+      "whisper_value": "36.8",
+      "match_status": "matched",
+      "error_type": null
+    },
+    {
+      "entity_type": "vital_sign",
+      "label": "spo2",
+      "gold_value": "89%",
+      "whisper_value": "89%",
+      "match_status": "matched",
+      "error_type": null
+    }
+  ],
+  "open_vocab_matches": {
+    "symptom_matches": [
+      {
+        "gold_value": "muscle weakness",
+        "whisper_value": "근력 약화",
+        "match_basis": "exact",
+        "negation_match": true,
+        "severity_match": true
+      }
+    ],
+    "whisper_only_symptoms": [
+      "호흡 기능 저하"
+    ],
+    "clinical_status_match": {
+      "gold_value": "drowsy",
+      "whisper_value": "졸린 상태",
+      "match_basis": "exact",
+      "negation_match": null,
+      "severity_match": null
+    },
+    "medication_identity_match": {
+      "gold_value": "IVIG",
+      "whisper_value": "IVIG",
+      "match_basis": "exact"
+    },
+    "intervention_matches": [
+      {
+        "gold_value": "plasmapheresis scheduled",
+        "whisper_value": "혈장 교환술",
+        "match_basis": "semantic"
+      }
+    ],
+    "whisper_only_interventions": [],
+    "intake_output_match": {
+      "gold_value": "Foley catheter in place, urine output 1200 ml/24h",
+      "whisper_value": "소변 배출량 24시간 동안 1,200ml",
+      "match_basis": "semantic"
+    },
+    "notification_match": {
+      "gold_value": "Neurology team updated on patient's status with decreased respiratory function",
+      "whisper_value": "신경과 팀에게 환자의 호흡 기능 저하 상태를 보고하였다.",
+      "match_basis": "semantic"
+    }
+  }
+}

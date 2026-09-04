@@ -1,0 +1,726 @@
+{
+  "totals": {
+    "clinical_block_total": 344,
+    "clinical_block_english_form": 314,
+    "formal_block_total": 488,
+    "formal_block_korean_form": 488
+  },
+  "clinical_block_english_form_rate": 0.9127906976744186,
+  "formal_block_korean_form_rate": 1.0,
+  "per_sample": [
+    {
+      "clinical_block_total": 4,
+      "clinical_block_english_form": 4,
+      "formal_block_total": 5,
+      "formal_block_korean_form": 5,
+      "sample_id": "scenario_001_hybrid"
+    },
+    {
+      "clinical_block_total": 2,
+      "clinical_block_english_form": 2,
+      "formal_block_total": 5,
+      "formal_block_korean_form": 5,
+      "sample_id": "scenario_002_hybrid"
+    },
+    {
+      "clinical_block_total": 5,
+      "clinical_block_english_form": 3,
+      "formal_block_total": 4,
+      "formal_block_korean_form": 4,
+      "sample_id": "scenario_003_hybrid"
+    },
+    {
+      "clinical_block_total": 3,
+      "clinical_block_english_form": 3,
+      "formal_block_total": 5,
+      "formal_block_korean_form": 5,
+      "sample_id": "scenario_004_hybrid"
+    },
+    {
+      "clinical_block_total": 4,
+      "clinical_block_english_form": 4,
+      "formal_block_total": 5,
+      "formal_block_korean_form": 5,
+      "sample_id": "scenario_005_hybrid"
+    },
+    {
+      "clinical_block_total": 4,
+      "clinical_block_english_form": 4,
+      "formal_block_total": 5,
+      "formal_block_korean_form": 5,
+      "sample_id": "scenario_006_hybrid"
+    },
+    {
+      "clinical_block_total": 3,
+      "clinical_block_english_form": 3,
+      "formal_block_total": 5,
+      "formal_block_korean_form": 5,
+      "sample_id": "scenario_007_hybrid"
+    },
+    {
+      "clinical_block_total": 4,
+      "clinical_block_english_form": 4,
+      "formal_block_total": 5,
+      "formal_block_korean_form": 5,
+      "sample_id": "scenario_008_hybrid"
+    },
+    {
+      "clinical_block_total": 4,
+      "clinical_block_english_form": 4,
+      "formal_block_total": 5,
+      "formal_block_korean_form": 5,
+      "sample_id": "scenario_009_hybrid"
+    },
+    {
+      "clinical_block_total": 3,
+      "clinical_block_english_form": 3,
+      "formal_block_total": 5,
+      "formal_block_korean_form": 5,
+      "sample_id": "scenario_010_hybrid"
+    },
+    {
+      "clinical_block_total": 3,
+      "clinical_block_english_form": 3,
+      "formal_block_total": 5,
+      "formal_block_korean_form": 5,
+      "sample_id": "scenario_011_hybrid"
+    },
+    {
+      "clinical_block_total": 4,
+      "clinical_block_english_form": 4,
+      "formal_block_total": 5,
+      "formal_block_korean_form": 5,
+      "sample_id": "scenario_012_hybrid"
+    },
+    {
+      "clinical_block_total": 3,
+      "clinical_block_english_form": 3,
+      "formal_block_total": 5,
+      "formal_block_korean_form": 5,
+      "sample_id": "scenario_013_hybrid"
+    },
+    {
+      "clinical_block_total": 3,
+      "clinical_block_english_form": 3,
+      "formal_block_total": 5,
+      "formal_block_korean_form": 5,
+      "sample_id": "scenario_014_hybrid"
+    },
+    {
+      "clinical_block_total": 4,
+      "clinical_block_english_form": 4,
+      "formal_block_total": 5,
+      "formal_block_korean_form": 5,
+      "sample_id": "scenario_015_hybrid"
+    },
+    {
+      "clinical_block_total": 3,
+      "clinical_block_english_form": 3,
+      "formal_block_total": 5,
+      "formal_block_korean_form": 5,
+      "sample_id": "scenario_016_hybrid"
+    },
+    {
+      "clinical_block_total": 4,
+      "clinical_block_english_form": 4,
+      "formal_block_total": 5,
+      "formal_block_korean_form": 5,
+      "sample_id": "scenario_017_hybrid"
+    },
+    {
+      "clinical_block_total": 2,
+      "clinical_block_english_form": 2,
+      "formal_block_total": 5,
+      "formal_block_korean_form": 5,
+      "sample_id": "scenario_018_hybrid"
+    },
+    {
+      "clinical_block_total": 4,
+      "clinical_block_english_form": 3,
+      "formal_block_total": 5,
+      "formal_block_korean_form": 5,
+      "sample_id": "scenario_019_hybrid"
+    },
+    {
+      "clinical_block_total": 4,
+      "clinical_block_english_form": 4,
+      "formal_block_total": 5,
+      "formal_block_korean_form": 5,
+      "sample_id": "scenario_020_hybrid"
+    },
+    {
+      "clinical_block_total": 5,
+      "clinical_block_english_form": 4,
+      "formal_block_total": 4,
+      "formal_block_korean_form": 4,
+      "sample_id": "scenario_021_hybrid"
+    },
+    {
+      "clinical_block_total": 4,
+      "clinical_block_english_form": 4,
+      "formal_block_total": 5,
+      "formal_block_korean_form": 5,
+      "sample_id": "scenario_022_hybrid"
+    },
+    {
+      "clinical_block_total": 2,
+      "clinical_block_english_form": 2,
+      "formal_block_total": 5,
+      "formal_block_korean_form": 5,
+      "sample_id": "scenario_023_hybrid"
+    },
+    {
+      "clinical_block_total": 2,
+      "clinical_block_english_form": 2,
+      "formal_block_total": 5,
+      "formal_block_korean_form": 5,
+      "sample_id": "scenario_024_hybrid"
+    },
+    {
+      "clinical_block_total": 3,
+      "clinical_block_english_form": 3,
+      "formal_block_total": 5,
+      "formal_block_korean_form": 5,
+      "sample_id": "scenario_025_hybrid"
+    },
+    {
+      "clinical_block_total": 4,
+      "clinical_block_english_form": 3,
+      "formal_block_total": 5,
+      "formal_block_korean_form": 5,
+      "sample_id": "scenario_026_hybrid"
+    },
+    {
+      "clinical_block_total": 5,
+      "clinical_block_english_form": 4,
+      "formal_block_total": 5,
+      "formal_block_korean_form": 5,
+      "sample_id": "scenario_027_hybrid"
+    },
+    {
+      "clinical_block_total": 3,
+      "clinical_block_english_form": 3,
+      "formal_block_total": 5,
+      "formal_block_korean_form": 5,
+      "sample_id": "scenario_028_hybrid"
+    },
+    {
+      "clinical_block_total": 4,
+      "clinical_block_english_form": 2,
+      "formal_block_total": 5,
+      "formal_block_korean_form": 5,
+      "sample_id": "scenario_029_hybrid"
+    },
+    {
+      "clinical_block_total": 3,
+      "clinical_block_english_form": 3,
+      "formal_block_total": 5,
+      "formal_block_korean_form": 5,
+      "sample_id": "scenario_030_hybrid"
+    },
+    {
+      "clinical_block_total": 3,
+      "clinical_block_english_form": 3,
+      "formal_block_total": 5,
+      "formal_block_korean_form": 5,
+      "sample_id": "scenario_031_hybrid"
+    },
+    {
+      "clinical_block_total": 4,
+      "clinical_block_english_form": 4,
+      "formal_block_total": 5,
+      "formal_block_korean_form": 5,
+      "sample_id": "scenario_032_hybrid"
+    },
+    {
+      "clinical_block_total": 4,
+      "clinical_block_english_form": 4,
+      "formal_block_total": 4,
+      "formal_block_korean_form": 4,
+      "sample_id": "scenario_033_hybrid"
+    },
+    {
+      "clinical_block_total": 3,
+      "clinical_block_english_form": 3,
+      "formal_block_total": 5,
+      "formal_block_korean_form": 5,
+      "sample_id": "scenario_034_hybrid"
+    },
+    {
+      "clinical_block_total": 3,
+      "clinical_block_english_form": 3,
+      "formal_block_total": 5,
+      "formal_block_korean_form": 5,
+      "sample_id": "scenario_035_hybrid"
+    },
+    {
+      "clinical_block_total": 5,
+      "clinical_block_english_form": 2,
+      "formal_block_total": 5,
+      "formal_block_korean_form": 5,
+      "sample_id": "scenario_036_hybrid"
+    },
+    {
+      "clinical_block_total": 3,
+      "clinical_block_english_form": 3,
+      "formal_block_total": 5,
+      "formal_block_korean_form": 5,
+      "sample_id": "scenario_037_hybrid"
+    },
+    {
+      "clinical_block_total": 4,
+      "clinical_block_english_form": 3,
+      "formal_block_total": 5,
+      "formal_block_korean_form": 5,
+      "sample_id": "scenario_038_hybrid"
+    },
+    {
+      "clinical_block_total": 4,
+      "clinical_block_english_form": 3,
+      "formal_block_total": 4,
+      "formal_block_korean_form": 4,
+      "sample_id": "scenario_039_hybrid"
+    },
+    {
+      "clinical_block_total": 4,
+      "clinical_block_english_form": 4,
+      "formal_block_total": 5,
+      "formal_block_korean_form": 5,
+      "sample_id": "scenario_040_hybrid"
+    },
+    {
+      "clinical_block_total": 3,
+      "clinical_block_english_form": 3,
+      "formal_block_total": 5,
+      "formal_block_korean_form": 5,
+      "sample_id": "scenario_041_hybrid"
+    },
+    {
+      "clinical_block_total": 3,
+      "clinical_block_english_form": 2,
+      "formal_block_total": 5,
+      "formal_block_korean_form": 5,
+      "sample_id": "scenario_042_hybrid"
+    },
+    {
+      "clinical_block_total": 3,
+      "clinical_block_english_form": 3,
+      "formal_block_total": 5,
+      "formal_block_korean_form": 5,
+      "sample_id": "scenario_043_hybrid"
+    },
+    {
+      "clinical_block_total": 4,
+      "clinical_block_english_form": 4,
+      "formal_block_total": 4,
+      "formal_block_korean_form": 4,
+      "sample_id": "scenario_044_hybrid"
+    },
+    {
+      "clinical_block_total": 4,
+      "clinical_block_english_form": 4,
+      "formal_block_total": 5,
+      "formal_block_korean_form": 5,
+      "sample_id": "scenario_045_hybrid"
+    },
+    {
+      "clinical_block_total": 2,
+      "clinical_block_english_form": 2,
+      "formal_block_total": 5,
+      "formal_block_korean_form": 5,
+      "sample_id": "scenario_046_hybrid"
+    },
+    {
+      "clinical_block_total": 4,
+      "clinical_block_english_form": 4,
+      "formal_block_total": 5,
+      "formal_block_korean_form": 5,
+      "sample_id": "scenario_047_hybrid"
+    },
+    {
+      "clinical_block_total": 4,
+      "clinical_block_english_form": 3,
+      "formal_block_total": 5,
+      "formal_block_korean_form": 5,
+      "sample_id": "scenario_048_hybrid"
+    },
+    {
+      "clinical_block_total": 2,
+      "clinical_block_english_form": 2,
+      "formal_block_total": 5,
+      "formal_block_korean_form": 5,
+      "sample_id": "scenario_049_hybrid"
+    },
+    {
+      "clinical_block_total": 4,
+      "clinical_block_english_form": 2,
+      "formal_block_total": 5,
+      "formal_block_korean_form": 5,
+      "sample_id": "scenario_050_hybrid"
+    },
+    {
+      "clinical_block_total": 3,
+      "clinical_block_english_form": 3,
+      "formal_block_total": 5,
+      "formal_block_korean_form": 5,
+      "sample_id": "scenario_051_hybrid"
+    },
+    {
+      "clinical_block_total": 3,
+      "clinical_block_english_form": 3,
+      "formal_block_total": 5,
+      "formal_block_korean_form": 5,
+      "sample_id": "scenario_052_hybrid"
+    },
+    {
+      "clinical_block_total": 3,
+      "clinical_block_english_form": 3,
+      "formal_block_total": 5,
+      "formal_block_korean_form": 5,
+      "sample_id": "scenario_053_hybrid"
+    },
+    {
+      "clinical_block_total": 4,
+      "clinical_block_english_form": 4,
+      "formal_block_total": 5,
+      "formal_block_korean_form": 5,
+      "sample_id": "scenario_054_hybrid"
+    },
+    {
+      "clinical_block_total": 3,
+      "clinical_block_english_form": 3,
+      "formal_block_total": 4,
+      "formal_block_korean_form": 4,
+      "sample_id": "scenario_055_hybrid"
+    },
+    {
+      "clinical_block_total": 4,
+      "clinical_block_english_form": 4,
+      "formal_block_total": 5,
+      "formal_block_korean_form": 5,
+      "sample_id": "scenario_056_hybrid"
+    },
+    {
+      "clinical_block_total": 2,
+      "clinical_block_english_form": 2,
+      "formal_block_total": 5,
+      "formal_block_korean_form": 5,
+      "sample_id": "scenario_057_hybrid"
+    },
+    {
+      "clinical_block_total": 4,
+      "clinical_block_english_form": 4,
+      "formal_block_total": 5,
+      "formal_block_korean_form": 5,
+      "sample_id": "scenario_058_hybrid"
+    },
+    {
+      "clinical_block_total": 4,
+      "clinical_block_english_form": 3,
+      "formal_block_total": 5,
+      "formal_block_korean_form": 5,
+      "sample_id": "scenario_059_hybrid"
+    },
+    {
+      "clinical_block_total": 2,
+      "clinical_block_english_form": 2,
+      "formal_block_total": 5,
+      "formal_block_korean_form": 5,
+      "sample_id": "scenario_060_hybrid"
+    },
+    {
+      "clinical_block_total": 2,
+      "clinical_block_english_form": 2,
+      "formal_block_total": 5,
+      "formal_block_korean_form": 5,
+      "sample_id": "scenario_061_hybrid"
+    },
+    {
+      "clinical_block_total": 4,
+      "clinical_block_english_form": 4,
+      "formal_block_total": 5,
+      "formal_block_korean_form": 5,
+      "sample_id": "scenario_062_hybrid"
+    },
+    {
+      "clinical_block_total": 4,
+      "clinical_block_english_form": 4,
+      "formal_block_total": 5,
+      "formal_block_korean_form": 5,
+      "sample_id": "scenario_063_hybrid"
+    },
+    {
+      "clinical_block_total": 3,
+      "clinical_block_english_form": 3,
+      "formal_block_total": 5,
+      "formal_block_korean_form": 5,
+      "sample_id": "scenario_064_hybrid"
+    },
+    {
+      "clinical_block_total": 3,
+      "clinical_block_english_form": 3,
+      "formal_block_total": 5,
+      "formal_block_korean_form": 5,
+      "sample_id": "scenario_065_hybrid"
+    },
+    {
+      "clinical_block_total": 2,
+      "clinical_block_english_form": 2,
+      "formal_block_total": 5,
+      "formal_block_korean_form": 5,
+      "sample_id": "scenario_066_hybrid"
+    },
+    {
+      "clinical_block_total": 5,
+      "clinical_block_english_form": 3,
+      "formal_block_total": 4,
+      "formal_block_korean_form": 4,
+      "sample_id": "scenario_067_hybrid"
+    },
+    {
+      "clinical_block_total": 4,
+      "clinical_block_english_form": 4,
+      "formal_block_total": 5,
+      "formal_block_korean_form": 5,
+      "sample_id": "scenario_068_hybrid"
+    },
+    {
+      "clinical_block_total": 3,
+      "clinical_block_english_form": 3,
+      "formal_block_total": 5,
+      "formal_block_korean_form": 5,
+      "sample_id": "scenario_069_hybrid"
+    },
+    {
+      "clinical_block_total": 4,
+      "clinical_block_english_form": 4,
+      "formal_block_total": 5,
+      "formal_block_korean_form": 5,
+      "sample_id": "scenario_070_hybrid"
+    },
+    {
+      "clinical_block_total": 3,
+      "clinical_block_english_form": 3,
+      "formal_block_total": 5,
+      "formal_block_korean_form": 5,
+      "sample_id": "scenario_071_hybrid"
+    },
+    {
+      "clinical_block_total": 3,
+      "clinical_block_english_form": 3,
+      "formal_block_total": 5,
+      "formal_block_korean_form": 5,
+      "sample_id": "scenario_072_hybrid"
+    },
+    {
+      "clinical_block_total": 3,
+      "clinical_block_english_form": 3,
+      "formal_block_total": 5,
+      "formal_block_korean_form": 5,
+      "sample_id": "scenario_073_hybrid"
+    },
+    {
+      "clinical_block_total": 3,
+      "clinical_block_english_form": 3,
+      "formal_block_total": 5,
+      "formal_block_korean_form": 5,
+      "sample_id": "scenario_074_hybrid"
+    },
+    {
+      "clinical_block_total": 5,
+      "clinical_block_english_form": 3,
+      "formal_block_total": 4,
+      "formal_block_korean_form": 4,
+      "sample_id": "scenario_075_hybrid"
+    },
+    {
+      "clinical_block_total": 4,
+      "clinical_block_english_form": 4,
+      "formal_block_total": 5,
+      "formal_block_korean_form": 5,
+      "sample_id": "scenario_076_hybrid"
+    },
+    {
+      "clinical_block_total": 3,
+      "clinical_block_english_form": 3,
+      "formal_block_total": 4,
+      "formal_block_korean_form": 4,
+      "sample_id": "scenario_077_hybrid"
+    },
+    {
+      "clinical_block_total": 3,
+      "clinical_block_english_form": 3,
+      "formal_block_total": 5,
+      "formal_block_korean_form": 5,
+      "sample_id": "scenario_078_hybrid"
+    },
+    {
+      "clinical_block_total": 3,
+      "clinical_block_english_form": 3,
+      "formal_block_total": 5,
+      "formal_block_korean_form": 5,
+      "sample_id": "scenario_079_hybrid"
+    },
+    {
+      "clinical_block_total": 4,
+      "clinical_block_english_form": 4,
+      "formal_block_total": 5,
+      "formal_block_korean_form": 5,
+      "sample_id": "scenario_080_hybrid"
+    },
+    {
+      "clinical_block_total": 4,
+      "clinical_block_english_form": 4,
+      "formal_block_total": 5,
+      "formal_block_korean_form": 5,
+      "sample_id": "scenario_081_hybrid"
+    },
+    {
+      "clinical_block_total": 2,
+      "clinical_block_english_form": 2,
+      "formal_block_total": 5,
+      "formal_block_korean_form": 5,
+      "sample_id": "scenario_082_hybrid"
+    },
+    {
+      "clinical_block_total": 3,
+      "clinical_block_english_form": 3,
+      "formal_block_total": 5,
+      "formal_block_korean_form": 5,
+      "sample_id": "scenario_083_hybrid"
+    },
+    {
+      "clinical_block_total": 3,
+      "clinical_block_english_form": 2,
+      "formal_block_total": 5,
+      "formal_block_korean_form": 5,
+      "sample_id": "scenario_084_hybrid"
+    },
+    {
+      "clinical_block_total": 4,
+      "clinical_block_english_form": 3,
+      "formal_block_total": 5,
+      "formal_block_korean_form": 5,
+      "sample_id": "scenario_085_hybrid"
+    },
+    {
+      "clinical_block_total": 2,
+      "clinical_block_english_form": 2,
+      "formal_block_total": 4,
+      "formal_block_korean_form": 4,
+      "sample_id": "scenario_086_hybrid"
+    },
+    {
+      "clinical_block_total": 6,
+      "clinical_block_english_form": 4,
+      "formal_block_total": 5,
+      "formal_block_korean_form": 5,
+      "sample_id": "scenario_087_hybrid"
+    },
+    {
+      "clinical_block_total": 2,
+      "clinical_block_english_form": 2,
+      "formal_block_total": 5,
+      "formal_block_korean_form": 5,
+      "sample_id": "scenario_088_hybrid"
+    },
+    {
+      "clinical_block_total": 3,
+      "clinical_block_english_form": 3,
+      "formal_block_total": 5,
+      "formal_block_korean_form": 5,
+      "sample_id": "scenario_089_hybrid"
+    },
+    {
+      "clinical_block_total": 2,
+      "clinical_block_english_form": 2,
+      "formal_block_total": 5,
+      "formal_block_korean_form": 5,
+      "sample_id": "scenario_090_hybrid"
+    },
+    {
+      "clinical_block_total": 4,
+      "clinical_block_english_form": 4,
+      "formal_block_total": 5,
+      "formal_block_korean_form": 5,
+      "sample_id": "scenario_091_hybrid"
+    },
+    {
+      "clinical_block_total": 3,
+      "clinical_block_english_form": 3,
+      "formal_block_total": 5,
+      "formal_block_korean_form": 5,
+      "sample_id": "scenario_092_hybrid"
+    },
+    {
+      "clinical_block_total": 4,
+      "clinical_block_english_form": 3,
+      "formal_block_total": 5,
+      "formal_block_korean_form": 5,
+      "sample_id": "scenario_093_hybrid"
+    },
+    {
+      "clinical_block_total": 4,
+      "clinical_block_english_form": 4,
+      "formal_block_total": 5,
+      "formal_block_korean_form": 5,
+      "sample_id": "scenario_094_hybrid"
+    },
+    {
+      "clinical_block_total": 5,
+      "clinical_block_english_form": 4,
+      "formal_block_total": 4,
+      "formal_block_korean_form": 4,
+      "sample_id": "scenario_095_hybrid"
+    },
+    {
+      "clinical_block_total": 4,
+      "clinical_block_english_form": 3,
+      "formal_block_total": 4,
+      "formal_block_korean_form": 4,
+      "sample_id": "scenario_096_hybrid"
+    },
+    {
+      "clinical_block_total": 3,
+      "clinical_block_english_form": 3,
+      "formal_block_total": 5,
+      "formal_block_korean_form": 5,
+      "sample_id": "scenario_097_hybrid"
+    },
+    {
+      "clinical_block_total": 4,
+      "clinical_block_english_form": 4,
+      "formal_block_total": 5,
+      "formal_block_korean_form": 5,
+      "sample_id": "scenario_098_hybrid"
+    },
+    {
+      "clinical_block_total": 3,
+      "clinical_block_english_form": 3,
+      "formal_block_total": 5,
+      "formal_block_korean_form": 5,
+      "sample_id": "scenario_099_hybrid"
+    },
+    {
+      "clinical_block_total": 4,
+      "clinical_block_english_form": 3,
+      "formal_block_total": 5,
+      "formal_block_korean_form": 5,
+      "sample_id": "scenario_100_hybrid"
+    }
+  ],
+  "human_review_subsample": [
+    "scenario_082_hybrid",
+    "scenario_015_hybrid",
+    "scenario_004_hybrid",
+    "scenario_095_hybrid",
+    "scenario_036_hybrid",
+    "scenario_032_hybrid",
+    "scenario_029_hybrid",
+    "scenario_018_hybrid",
+    "scenario_014_hybrid",
+    "scenario_087_hybrid",
+    "scenario_070_hybrid",
+    "scenario_012_hybrid"
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "sample_id": "scenario_096_hybrid",
+  "whisper_transcript": "50세 남성 환자가 좌심부전으로 인한 급성 폐부종으로 입원하였다. 혈압은 160-90mmHg로 측정되었고 맥박수는 110bpm, 호흡수는 28bpm, 체온은 37.0°C였다. 산소포화도는 실온 공기에서 88%로 확인되었으며 비강 케큘라를 통한 두일의 산소 공급 시 95%로 개선되었다. 환자는 심한 호흡 곤란을 호소하였다. Furosemide 40mg을 IV로 BID 투여함, Euter O2 via nasal cannula 유지함, Foley 적용함, 24시간 동안 500mL의 음성수분 균형을 보였다. 환자는 의식이 명료하였다. 심장 내과 팀에게 추가 관리 위해 통보하였다.",
+  "stt_metadata": {
+    "model": "whisper-1",
+    "language": "ko"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "sample_id": "scenario_084_hybrid",
+  "scenario_id": "scenario_084",
+  "document_type": "ICU_observation",
+  "style_condition": "hybrid",
+  "text": "49세 남성 환자가 심한 천식 발작으로 입원하였다. 혈압은 130/85 mmHg로 확인되었고, 심박수는 110 bpm, 호흡수는 28회, 체온은 37.0도, 산소포화도는 88%였다. 심한 천명음을 호소하였다. 알부테롤 2.5mg IV PRN 투여함. 고유량 비강 캐뉼라 적용함. 환자는 졸린 상태였다. 호흡치료팀에게 환자의 상태와 지속적인 치료에 대해 보고하였다.",
+  "generation_metadata": {
+    "model": "gpt-4o",
+    "temperature": 0.7
+  }
+}

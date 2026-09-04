@@ -1,0 +1,11 @@
+{
+  "sample_id": "scenario_010_hybrid",
+  "scenario_id": "scenario_010",
+  "document_type": "ICU_observation",
+  "style_condition": "hybrid",
+  "text": "48세 남성 환자가 교통사고로 인한 심각한 외상성 뇌손상으로 입원하였다. 혈압은 130/85 mmHg로 측정되었고, 심박수는 58 bpm, 호흡수는 14 bpm, 체온은 36.8°C, 산소포화도는 98%로 확인되었다. 두통은 호소하지 않았다. Mannitol 100g IV q6h 투여함. 산소 보조는 필요하지 않음. 뇌압 모니터링을 시행하였고, 환자는 ventilator 사용 중임. 수분 균형은 양성으로 확인되었다. 임상 상태는 혼미 상태로 관찰되었다.",
+  "generation_metadata": {
+    "model": "gpt-4o",
+    "temperature": 0.7
+  }
+}

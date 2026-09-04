@@ -1,0 +1,121 @@
+{
+  "sample_id": "scenario_001_hybrid",
+  "gold_entities": {
+    "route": [
+      {
+        "raw": "IV",
+        "normalized": "iv",
+        "position": 141
+      }
+    ],
+    "frequency": [
+      {
+        "raw": "q12h",
+        "normalized": "q12h",
+        "position": 144
+      }
+    ],
+    "device": [
+      {
+        "raw": "ventilator",
+        "normalized": "ventilator",
+        "position": 202
+      },
+      {
+        "raw": "High-flow nasal cannula",
+        "normalized": "nc",
+        "position": 154
+      }
+    ],
+    "vital_sign": [
+      {
+        "raw": "혈압은 100/65",
+        "label": "bp",
+        "value": "100/65",
+        "position": 37
+      },
+      {
+        "raw": "심박수는 110",
+        "label": "hr",
+        "value": "110",
+        "position": 54
+      },
+      {
+        "raw": "호흡수는 28",
+        "label": "rr",
+        "value": "28",
+        "position": 68
+      },
+      {
+        "raw": "체온은 38.1",
+        "label": "bt",
+        "value": "38.1",
+        "position": 80
+      },
+      {
+        "raw": "산소포화도는 88%",
+        "label": "spo2",
+        "value": "88%",
+        "position": 91
+      }
+    ],
+    "dose": [
+      {
+        "raw": "1g",
+        "value": "1",
+        "unit": "g",
+        "position": 138
+      }
+    ]
+  },
+  "whisper_entities": {
+    "route": [
+      {
+        "raw": "IV",
+        "normalized": "iv",
+        "position": 132
+      }
+    ],
+    "frequency": [
+      {
+        "raw": "Q12H",
+        "normalized": "q12h",
+        "position": 135
+      }
+    ],
+    "device": [],
+    "vital_sign": [
+      {
+        "raw": "혈압은 165",
+        "label": "bp",
+        "value": "165",
+        "position": 38
+      },
+      {
+        "raw": "심박수는 110",
+        "label": "hr",
+        "value": "110",
+        "position": 51
+      },
+      {
+        "raw": "호흡수는 28",
+        "label": "rr",
+        "value": "28",
+        "position": 64
+      },
+      {
+        "raw": "체온은 38.0",
+        "label": "bt",
+        "value": "38.0",
+        "position": 75
+      },
+      {
+        "raw": "산소포화도는 88%",
+        "label": "spo2",
+        "value": "88%",
+        "position": 86
+      }
+    ],
+    "dose": []
+  }
+}

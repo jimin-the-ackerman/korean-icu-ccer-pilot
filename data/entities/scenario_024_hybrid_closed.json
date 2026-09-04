@@ -1,0 +1,98 @@
+{
+  "sample_id": "scenario_024_hybrid",
+  "gold_entities": {
+    "route": [
+      {
+        "raw": "IV",
+        "normalized": "iv",
+        "position": 158
+      }
+    ],
+    "frequency": [
+      {
+        "raw": "BID",
+        "normalized": "bid",
+        "position": 161
+      }
+    ],
+    "device": [],
+    "vital_sign": [
+      {
+        "raw": "혈압은 112/74",
+        "label": "bp",
+        "value": "112/74",
+        "position": 38
+      },
+      {
+        "raw": "심박수는 88",
+        "label": "hr",
+        "value": "88",
+        "position": 62
+      },
+      {
+        "raw": "호흡수는 18",
+        "label": "rr",
+        "value": "18",
+        "position": 75
+      },
+      {
+        "raw": "체온은 37.8",
+        "label": "bt",
+        "value": "37.8",
+        "position": 96
+      },
+      {
+        "raw": "산소포화도는 96%",
+        "label": "spo2",
+        "value": "96%",
+        "position": 108
+      }
+    ],
+    "dose": [
+      {
+        "raw": "1g",
+        "value": "1",
+        "unit": "g",
+        "position": 155
+      }
+    ]
+  },
+  "whisper_entities": {
+    "route": [],
+    "frequency": [],
+    "device": [],
+    "vital_sign": [
+      {
+        "raw": "혈압은 112",
+        "label": "bp",
+        "value": "112",
+        "position": 38
+      },
+      {
+        "raw": "심박수는 88",
+        "label": "hr",
+        "value": "88",
+        "position": 62
+      },
+      {
+        "raw": "호흡수는 18",
+        "label": "rr",
+        "value": "18",
+        "position": 74
+      },
+      {
+        "raw": "체온은 37.8",
+        "label": "bt",
+        "value": "37.8",
+        "position": 98
+      },
+      {
+        "raw": "산소포화도는 96%",
+        "label": "spo2",
+        "value": "96%",
+        "position": 110
+      }
+    ],
+    "dose": []
+  }
+}

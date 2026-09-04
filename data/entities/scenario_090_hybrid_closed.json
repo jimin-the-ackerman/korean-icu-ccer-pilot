@@ -1,0 +1,110 @@
+{
+  "sample_id": "scenario_090_hybrid",
+  "gold_entities": {
+    "route": [
+      {
+        "raw": "IV",
+        "normalized": "iv",
+        "position": 184
+      }
+    ],
+    "frequency": [
+      {
+        "raw": "q12h",
+        "normalized": "q12h",
+        "position": 187
+      }
+    ],
+    "device": [],
+    "vital_sign": [
+      {
+        "raw": "혈압은 130/85",
+        "label": "bp",
+        "value": "130/85",
+        "position": 61
+      },
+      {
+        "raw": "심박수는 95",
+        "label": "hr",
+        "value": "95",
+        "position": 78
+      },
+      {
+        "raw": "호흡수는 20",
+        "label": "rr",
+        "value": "20",
+        "position": 91
+      },
+      {
+        "raw": "체온은 37.5",
+        "label": "bt",
+        "value": "37.5",
+        "position": 104
+      },
+      {
+        "raw": "산소포화도는 실내 공기에서 93%",
+        "label": "spo2",
+        "value": "93%",
+        "position": 118
+      }
+    ],
+    "dose": [
+      {
+        "raw": "1g",
+        "value": "1",
+        "unit": "g",
+        "position": 181
+      }
+    ]
+  },
+  "whisper_entities": {
+    "route": [
+      {
+        "raw": "IV",
+        "normalized": "iv",
+        "position": 171
+      }
+    ],
+    "frequency": [
+      {
+        "raw": "Q12H",
+        "normalized": "q12h",
+        "position": 174
+      }
+    ],
+    "device": [],
+    "vital_sign": [
+      {
+        "raw": "혈압은 130-85",
+        "label": "bp",
+        "value": "130/85",
+        "position": 61
+      },
+      {
+        "raw": "심박수는 95",
+        "label": "hr",
+        "value": "95",
+        "position": 77
+      },
+      {
+        "raw": "호흡수는 20",
+        "label": "rr",
+        "value": "20",
+        "position": 89
+      },
+      {
+        "raw": "체온은 37.5",
+        "label": "bt",
+        "value": "37.5",
+        "position": 101
+      },
+      {
+        "raw": "산소포화도는 실내 공기에서 93%",
+        "label": "spo2",
+        "value": "93%",
+        "position": 114
+      }
+    ],
+    "dose": []
+  }
+}

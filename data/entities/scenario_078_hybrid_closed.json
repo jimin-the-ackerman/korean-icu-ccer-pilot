@@ -1,0 +1,116 @@
+{
+  "sample_id": "scenario_078_hybrid",
+  "gold_entities": {
+    "route": [
+      {
+        "raw": "IV",
+        "normalized": "iv",
+        "position": 193
+      }
+    ],
+    "frequency": [
+      {
+        "raw": "q12h",
+        "normalized": "q12h",
+        "position": 196
+      }
+    ],
+    "device": [
+      {
+        "raw": "Foley",
+        "normalized": "foley",
+        "position": 241
+      }
+    ],
+    "vital_sign": [
+      {
+        "raw": "혈압은 88/54",
+        "label": "bp",
+        "value": "88/54",
+        "position": 49
+      },
+      {
+        "raw": "심박수는 120",
+        "label": "hr",
+        "value": "120",
+        "position": 65
+      },
+      {
+        "raw": "호흡수는 28",
+        "label": "rr",
+        "value": "28",
+        "position": 79
+      },
+      {
+        "raw": "체온은 39.0",
+        "label": "bt",
+        "value": "39.0",
+        "position": 100
+      },
+      {
+        "raw": "산소포화도는 90%",
+        "label": "spo2",
+        "value": "90%",
+        "position": 119
+      }
+    ],
+    "dose": [
+      {
+        "raw": "1g",
+        "value": "1",
+        "unit": "g",
+        "position": 190
+      }
+    ]
+  },
+  "whisper_entities": {
+    "route": [
+      {
+        "raw": "IV",
+        "normalized": "iv",
+        "position": 185
+      }
+    ],
+    "frequency": [
+      {
+        "raw": "Q12H",
+        "normalized": "q12h",
+        "position": 188
+      }
+    ],
+    "device": [],
+    "vital_sign": [
+      {
+        "raw": "혈압은 88",
+        "label": "bp",
+        "value": "88",
+        "position": 49
+      },
+      {
+        "raw": "심박수는 120",
+        "label": "hr",
+        "value": "120",
+        "position": 63
+      },
+      {
+        "raw": "호흡수는 28",
+        "label": "rr",
+        "value": "28",
+        "position": 76
+      },
+      {
+        "raw": "체온은 39.0",
+        "label": "bt",
+        "value": "39.0",
+        "position": 88
+      },
+      {
+        "raw": "산소포화도는 90%",
+        "label": "spo2",
+        "value": "90%",
+        "position": 107
+      }
+    ],
+    "dose": []
+  }
+}

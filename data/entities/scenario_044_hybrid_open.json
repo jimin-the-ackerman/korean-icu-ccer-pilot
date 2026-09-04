@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_044_hybrid",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "복통",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "졸린 상태",
+    "medication_identity": "Morphine",
+    "interventions": [],
+    "intake_output": null,
+    "notification": "통증 관리 팀에 관리 상담을 보고하였다."
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "복통",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "졸린 상태",
+    "medication_identity": "모피인",
+    "interventions": [],
+    "intake_output": null,
+    "notification": "통증관리팀에 관리 상담을 보고하였다"
+  }
+}

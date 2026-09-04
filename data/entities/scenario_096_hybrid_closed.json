@@ -1,0 +1,106 @@
+{
+  "sample_id": "scenario_096_hybrid",
+  "gold_entities": {
+    "route": [],
+    "frequency": [
+      {
+        "raw": "BID",
+        "normalized": "bid",
+        "position": 214
+      }
+    ],
+    "device": [
+      {
+        "raw": "Foley",
+        "normalized": "foley",
+        "position": 252
+      },
+      {
+        "raw": "nasal cannula",
+        "normalized": "nc",
+        "position": 233
+      },
+      {
+        "raw": "비강 캐뉼라",
+        "normalized": "nc",
+        "position": 138
+      }
+    ],
+    "vital_sign": [
+      {
+        "raw": "혈압은 160/90",
+        "label": "bp",
+        "value": "160/90",
+        "position": 37
+      },
+      {
+        "raw": "호흡수는 28",
+        "label": "rr",
+        "value": "28",
+        "position": 75
+      },
+      {
+        "raw": "체온은 37.0",
+        "label": "bt",
+        "value": "37.0",
+        "position": 96
+      },
+      {
+        "raw": "산소포화도는 실온 공기에서 88%",
+        "label": "spo2",
+        "value": "88%",
+        "position": 110
+      }
+    ],
+    "dose": []
+  },
+  "whisper_entities": {
+    "route": [],
+    "frequency": [
+      {
+        "raw": "BID",
+        "normalized": "bid",
+        "position": 202
+      }
+    ],
+    "device": [
+      {
+        "raw": "Foley",
+        "normalized": "foley",
+        "position": 243
+      },
+      {
+        "raw": "nasal cannula",
+        "normalized": "nc",
+        "position": 224
+      }
+    ],
+    "vital_sign": [
+      {
+        "raw": "혈압은 160-90",
+        "label": "bp",
+        "value": "160/90",
+        "position": 37
+      },
+      {
+        "raw": "호흡수는 28",
+        "label": "rr",
+        "value": "28",
+        "position": 72
+      },
+      {
+        "raw": "체온은 37.0",
+        "label": "bt",
+        "value": "37.0",
+        "position": 84
+      },
+      {
+        "raw": "산소포화도는 실온 공기에서 88%",
+        "label": "spo2",
+        "value": "88%",
+        "position": 98
+      }
+    ],
+    "dose": []
+  }
+}

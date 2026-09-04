@@ -1,0 +1,11 @@
+{
+  "sample_id": "scenario_030_hybrid",
+  "scenario_id": "scenario_030",
+  "document_type": "ICU_observation",
+  "style_condition": "hybrid",
+  "text": "56세 여성 환자가 전신성 홍반성 루푸스(SLE)의 급성 악화로 입원하였으며, 루푸스 신염을 동반하고 있습니다. 활력징후는 혈압 142/90 mmHg, 심박수 92 bpm, 호흡수 18회/분, 체온 37.5°C, 산소포화도 96%로 확인되었습니다. 환자는 중등도의 관절통을 호소하였습니다. Prednisolone 40 mg PO q12h 투여함. Foley 적용함. 환자는 의식 명료하며, 체액 균형은 양성입니다.",
+  "generation_metadata": {
+    "model": "gpt-4o",
+    "temperature": 0.7
+  }
+}

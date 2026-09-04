@@ -1,0 +1,120 @@
+{
+  "sample_id": "scenario_070_hybrid",
+  "closed_vocab_matches": [
+    {
+      "entity_type": "route",
+      "gold_value": "iv",
+      "whisper_value": null,
+      "match_status": "omission",
+      "error_type": "omission"
+    },
+    {
+      "entity_type": "frequency",
+      "gold_value": "q12h",
+      "whisper_value": null,
+      "match_status": "omission",
+      "error_type": "omission"
+    },
+    {
+      "entity_type": "device",
+      "gold_value": "ventilator",
+      "whisper_value": null,
+      "match_status": "omission",
+      "error_type": "omission"
+    },
+    {
+      "entity_type": "device",
+      "gold_value": "nc",
+      "whisper_value": null,
+      "match_status": "omission",
+      "error_type": "omission"
+    },
+    {
+      "entity_type": "dose",
+      "gold_value": "750mg",
+      "whisper_value": "759mg",
+      "match_status": "error",
+      "error_type": "numeric_error"
+    },
+    {
+      "entity_type": "vital_sign",
+      "label": "bp",
+      "gold_value": "92/58",
+      "whisper_value": "92.58",
+      "match_status": "error",
+      "error_type": "numeric_error"
+    },
+    {
+      "entity_type": "vital_sign",
+      "label": "hr",
+      "gold_value": "118",
+      "whisper_value": "118",
+      "match_status": "matched",
+      "error_type": null
+    },
+    {
+      "entity_type": "vital_sign",
+      "label": "rr",
+      "gold_value": "28",
+      "whisper_value": "28",
+      "match_status": "matched",
+      "error_type": null
+    },
+    {
+      "entity_type": "vital_sign",
+      "label": "bt",
+      "gold_value": "38.5",
+      "whisper_value": "38.5",
+      "match_status": "matched",
+      "error_type": null
+    },
+    {
+      "entity_type": "vital_sign",
+      "label": "spo2",
+      "gold_value": "86%",
+      "whisper_value": "86%",
+      "match_status": "matched",
+      "error_type": null
+    }
+  ],
+  "open_vocab_matches": {
+    "symptom_matches": [
+      {
+        "gold_value": "cough (severe)",
+        "whisper_value": "기침 (severe)",
+        "match_basis": "exact",
+        "negation_match": true,
+        "severity_match": true
+      }
+    ],
+    "whisper_only_symptoms": [],
+    "clinical_status_match": {
+      "gold_value": "drowsy",
+      "whisper_value": "졸린 상태",
+      "match_basis": "exact",
+      "negation_match": null,
+      "severity_match": null
+    },
+    "medication_identity_match": {
+      "gold_value": "Levofloxacin",
+      "whisper_value": "리버플록세신",
+      "match_basis": "phonetic_artifact",
+      "negation_match": null,
+      "severity_match": null
+    },
+    "intervention_matches": [],
+    "whisper_only_interventions": [],
+    "intake_output_match": {
+      "gold_value": "negative fluid balance",
+      "whisper_value": "음성수분균형 확인되었다",
+      "match_basis": "exact",
+      "negation_match": null,
+      "severity_match": null
+    },
+    "notification_match": {
+      "gold_value": null,
+      "whisper_value": null,
+      "match_basis": "both_null"
+    }
+  }
+}

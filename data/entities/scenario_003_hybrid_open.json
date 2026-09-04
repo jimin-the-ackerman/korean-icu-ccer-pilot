@@ -1,0 +1,35 @@
+{
+  "sample_id": "scenario_003_hybrid",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "흉통",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "의식 명료",
+    "medication_identity": "Aspirin",
+    "interventions": [
+      "심장 모니터링 시행함"
+    ],
+    "intake_output": null,
+    "notification": "심장내과 팀에 긴급 검토를 위해 통보하였다."
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "흉통",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "의식이 명료한 상태",
+    "medication_identity": "에스프린",
+    "interventions": [
+      "심장 모니터링 시행"
+    ],
+    "intake_output": null,
+    "notification": "심장내과팀에 긴급 검토를 위해 통보하였다"
+  }
+}

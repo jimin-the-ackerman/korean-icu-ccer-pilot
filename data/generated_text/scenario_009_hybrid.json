@@ -1,0 +1,11 @@
+{
+  "sample_id": "scenario_009_hybrid",
+  "scenario_id": "scenario_009",
+  "document_type": "ICU_observation",
+  "style_condition": "hybrid",
+  "text": "68세 여성 환자가 요로 감염으로 인한 패혈성 쇼크로 입원하였다. 혈압은 85/50 mmHg, 심박수는 120 bpm, 호흡수는 26 bpm, 체온은 38.9도, 산소포화도는 92%로 확인되었다. 심한 발열을 호소하였다. Piperacillin/Tazobactam 4.5 g IV q8h 투여함. Nasal cannula 3L/min 적용함. C-line 유지함. 체액 균형은 양성이다. 환자는 졸림 상태를 보였다. 지속적인 저혈압과 발열에 대해 담당 의사에게 보고하였다.",
+  "generation_metadata": {
+    "model": "gpt-4o",
+    "temperature": 0.7
+  }
+}

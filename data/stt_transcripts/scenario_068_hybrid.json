@@ -1,0 +1,8 @@
+{
+  "sample_id": "scenario_068_hybrid",
+  "whisper_transcript": "68세 여성 환자가 급성 허혈성 대장염으로 입원하였다. 혈압은 95, 60mmg, 심박수는 110bpm, 호흡수는 22bpm, 체온은 37.56C, 산소포화도는 실내 공기에서 92%로 확인되었다. 환자는 심한 복통을 호소하였다. 메트로니라솔 500mg IV QPRH 투여함, 네이절 캐눌라 2E를 보면 적용함, 폴리 유지함, 음성수분 균형 기록 댐, 환자는 졸린 상태로 관찰되었다.",
+  "stt_metadata": {
+    "model": "whisper-1",
+    "language": "ko"
+  }
+}

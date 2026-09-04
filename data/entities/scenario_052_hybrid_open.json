@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_052_hybrid",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "pain",
+        "negation": false,
+        "severity": "moderate"
+      }
+    ],
+    "clinical_status": "의식이 명료함",
+    "medication_identity": "Morphine",
+    "interventions": [],
+    "intake_output": "소변 배출량: 400 ml/6 hr",
+    "notification": null
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "통증",
+        "negation": false,
+        "severity": "moderate"
+      }
+    ],
+    "clinical_status": "의식이 명료",
+    "medication_identity": "Morphine",
+    "interventions": [],
+    "intake_output": "소변 배출량 400mL per hour",
+    "notification": null
+  }
+}

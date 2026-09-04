@@ -1,0 +1,8 @@
+{
+  "sample_id": "scenario_048_hybrid",
+  "whisper_transcript": "58세 남성 환자가 식도 정맥류로 인한 중증의 위장관 출혈로 입원하였다. 혈압은 90-60mm암, 심박수는 120bpm, 호흡수는 24breathsmin, 체온은 16.8bleks였으며, 산소포화도는 실내 공기에서 92%로 확인되었다. 환자는 심한 출혈을 호소하였다. Octreotide 50mg IV Q-Sach 투여암, 산소는 비강 케켈라로 2Lm 유지암, 내시경적 결찰술을 시행하였다. Foley 적용암, 엄격한 입출량 모니터링을 실시하였다. 환자는 의식이 흐린 상태였다. 지속적인 출혈에 대해 소아기내과팀에게 보고하였다.",
+  "stt_metadata": {
+    "model": "whisper-1",
+    "language": "ko"
+  }
+}

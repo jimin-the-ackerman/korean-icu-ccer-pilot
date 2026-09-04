@@ -1,0 +1,11 @@
+{
+  "sample_id": "scenario_031_hybrid",
+  "scenario_id": "scenario_031",
+  "document_type": "ICU_observation",
+  "style_condition": "hybrid",
+  "text": "43세 남성 환자가 중증 급성 췌장염 및 관련된 전신성 염증 반응 증후군(SIRS)으로 입원하였다. 혈압은 92/58 mmHg로 측정되었고, 심박수는 126 bpm, 호흡수는 28 breaths/min, 체온은 38.5°C였다. 산소포화도는 실내 공기에서 95%로 확인되었다. 환자는 심한 복통을 호소하였다. Morphine 4 mg IV q4h 투여함. IV fluid resuscitation 시행함. 24시간 동안 500 mL의 음성 체액 균형을 보였다. 환자는 졸린 상태로 확인되었다. 추가적인 관리 권고를 위해 소화기내과 전문의와 상담함.",
+  "generation_metadata": {
+    "model": "gpt-4o",
+    "temperature": 0.7
+  }
+}

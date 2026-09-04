@@ -1,0 +1,35 @@
+{
+  "sample_id": "scenario_033_hybrid",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "두근거림",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "의식이 명료한 상태",
+    "medication_identity": "Diltiazem",
+    "interventions": [
+      "전기적 심율동 전환 시행"
+    ],
+    "intake_output": "1500 mL IV fluids 투여함",
+    "notification": "심장내과 팀에게 추가 관리 위해 보고하였다"
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "두근거림",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "의식이 명료한 상태",
+    "medication_identity": "딜티아즘",
+    "interventions": [
+      "정기적 심율동 전환 시행함"
+    ],
+    "intake_output": null,
+    "notification": "심장내과팀에게 추가 관리 위해 보고하였다."
+  }
+}

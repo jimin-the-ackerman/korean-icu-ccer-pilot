@@ -1,0 +1,128 @@
+{
+  "sample_id": "scenario_008_hybrid",
+  "gold_entities": {
+    "route": [
+      {
+        "raw": "IV",
+        "normalized": "iv",
+        "position": 147
+      }
+    ],
+    "frequency": [
+      {
+        "raw": "BID",
+        "normalized": "bid",
+        "position": 150
+      }
+    ],
+    "device": [
+      {
+        "raw": "NG tube",
+        "normalized": "ng tube",
+        "position": 196
+      },
+      {
+        "raw": "nasal cannula",
+        "normalized": "nc",
+        "position": 166
+      }
+    ],
+    "vital_sign": [
+      {
+        "raw": "혈압은 90/60",
+        "label": "bp",
+        "value": "90/60",
+        "position": 26
+      },
+      {
+        "raw": "심박수는 110",
+        "label": "hr",
+        "value": "110",
+        "position": 42
+      },
+      {
+        "raw": "호흡수는 22",
+        "label": "rr",
+        "value": "22",
+        "position": 56
+      },
+      {
+        "raw": "체온은 37.0",
+        "label": "bt",
+        "value": "37.0",
+        "position": 77
+      },
+      {
+        "raw": "산소포화도는 94%",
+        "label": "spo2",
+        "value": "94%",
+        "position": 89
+      }
+    ],
+    "dose": [
+      {
+        "raw": "40 mg",
+        "value": "40",
+        "unit": "mg",
+        "position": 141
+      }
+    ]
+  },
+  "whisper_entities": {
+    "route": [
+      {
+        "raw": "IV",
+        "normalized": "iv",
+        "position": 132
+      }
+    ],
+    "frequency": [],
+    "device": [
+      {
+        "raw": "Nasal Cannula",
+        "normalized": "nc",
+        "position": 151
+      }
+    ],
+    "vital_sign": [
+      {
+        "raw": "혈압은 90-60",
+        "label": "bp",
+        "value": "90/60",
+        "position": 26
+      },
+      {
+        "raw": "심박수는 110",
+        "label": "hr",
+        "value": "110",
+        "position": 39
+      },
+      {
+        "raw": "호흡수는 22",
+        "label": "rr",
+        "value": "22",
+        "position": 52
+      },
+      {
+        "raw": "체온은 37.0",
+        "label": "bt",
+        "value": "37.0",
+        "position": 64
+      },
+      {
+        "raw": "산소포화도는 94%",
+        "label": "spo2",
+        "value": "94%",
+        "position": 76
+      }
+    ],
+    "dose": [
+      {
+        "raw": "40mg",
+        "value": "40",
+        "unit": "mg",
+        "position": 127
+      }
+    ]
+  }
+}

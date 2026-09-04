@@ -1,0 +1,8 @@
+{
+  "sample_id": "scenario_065_hybrid",
+  "whisper_transcript": "56세 여성 환자가 약물 반응에 의한 독성 표피괴사증으로 입원하였다. 혈압은 110-70mmg로 확인되었다. 심박수는 88bpm이었다. 호흡수는 20bpm로 측정되었고, 체온은 38.5°C로 확인되었다. 산소포화도는 실내 공기에서 94%였다. 심한 피부 발진을 호소하였다. Methylprednisolone 125mg IV Q6H 투여함, 상처 처치 시행함, IV fluids 100mL per hour 투여함, 의식은 명료하였다.",
+  "stt_metadata": {
+    "model": "whisper-1",
+    "language": "ko"
+  }
+}

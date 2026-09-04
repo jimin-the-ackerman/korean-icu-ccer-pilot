@@ -1,0 +1,8 @@
+{
+  "sample_id": "scenario_040_hybrid",
+  "whisper_transcript": "42세 여성 환자가 약물 반응 후 심각한 스티븐스-존준스로 입원하였다. 혈압은 110-70mmHg, 심박수는 95bpm, 호흡수는 20hp, 체온은 38.0℃, 산소포화도는 94%로 확인되었다. 피부 병변이 심하게 나타났다. Morphine 3-meter IV Q-slot-H 투여함. 산소는 Nasal cannula 2-yl-vermino 적용함, Foley 유지함. 환자는 졸린 상태이다.",
+  "stt_metadata": {
+    "model": "whisper-1",
+    "language": "ko"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "sample_id": "scenario_054_hybrid",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "두통",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "기면 상태",
+    "medication_identity": "Nimodipine",
+    "interventions": [],
+    "intake_output": null,
+    "notification": "신경과 팀에 반응 저하에 대해 보고하였다."
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "두통",
+        "negation": false,
+        "severity": "severe"
+      },
+      {
+        "name": "반응 저하",
+        "negation": false,
+        "severity": null
+      }
+    ],
+    "clinical_status": "기면 상태",
+    "medication_identity": "니모디핀",
+    "interventions": [],
+    "intake_output": null,
+    "notification": "신경과 팀의 반응 저하에 대해 보고하였다."
+  }
+}

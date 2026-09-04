@@ -1,0 +1,35 @@
+{
+  "sample_id": "scenario_078_hybrid",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "통증",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "기면 상태",
+    "medication_identity": "Vancomycin",
+    "interventions": [
+      "수술적 변연절제술 일정 잡힘"
+    ],
+    "intake_output": "체액 균형은 양성이다",
+    "notification": "감염내과 및 외과 팀에 통보하였다"
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "통증",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "기면 상태",
+    "medication_identity": "Vancomycin",
+    "interventions": [
+      "수술적 변연절제술 일정 잡힘"
+    ],
+    "intake_output": "체액균형은 양성이다",
+    "notification": "감염내과 및 외과팀에 통보하였다"
+  }
+}

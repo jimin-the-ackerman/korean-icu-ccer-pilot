@@ -1,0 +1,41 @@
+{
+  "sample_id": "scenario_035_hybrid",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "호흡곤란",
+        "negation": false,
+        "severity": "severe"
+      },
+      {
+        "name": "저혈압",
+        "negation": false,
+        "severity": null
+      }
+    ],
+    "clinical_status": "기면 상태",
+    "medication_identity": "Furosemide",
+    "interventions": [],
+    "intake_output": "24시간 동안 500 mL 음성 수분 균형",
+    "notification": "지속적인 저혈압에 대해 심장내과 팀에 보고하였다"
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "호흡곤란",
+        "negation": false,
+        "severity": "severe"
+      },
+      {
+        "name": "저혈압",
+        "negation": false,
+        "severity": null
+      }
+    ],
+    "clinical_status": "기면 상태",
+    "medication_identity": "Furosemide",
+    "interventions": [],
+    "intake_output": "24시간 동안 500mL 음성수분 균형",
+    "notification": "지속적인 저혈압에 대해 심장내과팀에 보고하였다"
+  }
+}

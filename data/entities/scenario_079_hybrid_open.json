@@ -1,0 +1,41 @@
+{
+  "sample_id": "scenario_079_hybrid",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "복통",
+        "negation": false,
+        "severity": "severe"
+      },
+      {
+        "name": "혈변",
+        "negation": false,
+        "severity": null
+      }
+    ],
+    "clinical_status": "의식 명료",
+    "medication_identity": "Methylprednisolone",
+    "interventions": [],
+    "intake_output": "엄격한 입력 및 출력 모니터링을 시행하였다",
+    "notification": null
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "복통",
+        "negation": false,
+        "severity": "severe"
+      },
+      {
+        "name": "혈변",
+        "negation": false,
+        "severity": null
+      }
+    ],
+    "clinical_status": "의식 명료",
+    "medication_identity": "메틀프레드니즐론",
+    "interventions": [],
+    "intake_output": "엄격한 입력 및 출력 모니터링",
+    "notification": null
+  }
+}

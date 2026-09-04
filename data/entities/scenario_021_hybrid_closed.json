@@ -1,0 +1,148 @@
+{
+  "sample_id": "scenario_021_hybrid",
+  "gold_entities": {
+    "route": [
+      {
+        "raw": "IV",
+        "normalized": "iv",
+        "position": 212
+      },
+      {
+        "raw": "IV",
+        "normalized": "iv",
+        "position": 225
+      },
+      {
+        "raw": "근육",
+        "normalized": "im",
+        "position": 174
+      }
+    ],
+    "frequency": [
+      {
+        "raw": "STAT",
+        "normalized": "stat",
+        "position": 215
+      }
+    ],
+    "device": [
+      {
+        "raw": "C-line",
+        "normalized": "c-line",
+        "position": 254
+      }
+    ],
+    "vital_sign": [
+      {
+        "raw": "혈압은 145/85",
+        "label": "bp",
+        "value": "145/85",
+        "position": 53
+      },
+      {
+        "raw": "심박수는 110",
+        "label": "hr",
+        "value": "110",
+        "position": 77
+      },
+      {
+        "raw": "호흡수는 22",
+        "label": "rr",
+        "value": "22",
+        "position": 94
+      },
+      {
+        "raw": "체온은 37.2",
+        "label": "bt",
+        "value": "37.2",
+        "position": 123
+      }
+    ],
+    "dose": [
+      {
+        "raw": "10 mL",
+        "value": "10",
+        "unit": "ml",
+        "position": 206
+      }
+    ]
+  },
+  "whisper_entities": {
+    "route": [
+      {
+        "raw": "IV",
+        "normalized": "iv",
+        "position": 210
+      },
+      {
+        "raw": "IV",
+        "normalized": "iv",
+        "position": 223
+      },
+      {
+        "raw": "근육",
+        "normalized": "im",
+        "position": 24
+      },
+      {
+        "raw": "근육",
+        "normalized": "im",
+        "position": 181
+      }
+    ],
+    "frequency": [
+      {
+        "raw": "STAT",
+        "normalized": "stat",
+        "position": 213
+      }
+    ],
+    "device": [
+      {
+        "raw": "C-Line",
+        "normalized": "c-line",
+        "position": 252
+      }
+    ],
+    "vital_sign": [
+      {
+        "raw": "혈압은 145",
+        "label": "bp",
+        "value": "145",
+        "position": 54
+      },
+      {
+        "raw": "심박수는 110",
+        "label": "hr",
+        "value": "110",
+        "position": 78
+      },
+      {
+        "raw": "호흡수는 22",
+        "label": "rr",
+        "value": "22",
+        "position": 95
+      },
+      {
+        "raw": "체온은 37.26",
+        "label": "bt",
+        "value": "37.26",
+        "position": 131
+      },
+      {
+        "raw": "산소포화도는 실내 공기상태에서 95%",
+        "label": "spo2",
+        "value": "95%",
+        "position": 145
+      }
+    ],
+    "dose": [
+      {
+        "raw": "10mL",
+        "value": "10",
+        "unit": "ml",
+        "position": 205
+      }
+    ]
+  }
+}

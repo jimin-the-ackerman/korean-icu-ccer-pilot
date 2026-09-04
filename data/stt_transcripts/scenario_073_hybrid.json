@@ -1,0 +1,8 @@
+{
+  "sample_id": "scenario_073_hybrid",
+  "whisper_transcript": "62세 남성 환자가 중증 승모판막 역류로 인한 급성 폐부종으로 입원하였다. 혈압은 110mg, 심박수는 98bpm, 호흡수는 28bpm, 체온은 36.8°C로 측정되었다. 산소포화도는 실내 공기에서 88%로 확인되었다. 환자는 심한 호흡 곤란을 호소하였다. Furosemide 40mg IV Q-Pad에 투여함. Non-rebreather mask 15-elipromine 적용함. Foley 유지함. 지난 24시간 동안 체액균형은 200mL 양성으로 확인되었다. 환자는 명료한 상태였다.",
+  "stt_metadata": {
+    "model": "whisper-1",
+    "language": "ko"
+  }
+}

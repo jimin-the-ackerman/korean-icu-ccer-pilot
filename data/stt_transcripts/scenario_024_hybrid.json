@@ -1,0 +1,8 @@
+{
+  "sample_id": "scenario_024_hybrid",
+  "whisper_transcript": "47세 남성 환자가 급성 충수염 및 수술 후 합병증으로 입원하였다. 혈압은 112, 74mm암으로 측정되었고, 심박수는 88bpm, 호흡수는 18breaths per min, 체온은 37.8mg, 산소포화도는 96%로 확인되었다. 중등도의 복통을 호소하였다. 세프트리약소인 N-GRAM-IBBID 투여암, 소변 배출량이 약간 감소암, 환자는 의식이 명료암.",
+  "stt_metadata": {
+    "model": "whisper-1",
+    "language": "ko"
+  }
+}

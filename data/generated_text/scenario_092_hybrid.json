@@ -1,0 +1,11 @@
+{
+  "sample_id": "scenario_092_hybrid",
+  "scenario_id": "scenario_092",
+  "document_type": "ICU_observation",
+  "style_condition": "hybrid",
+  "text": "54세 남자 환자가 부갑상선기능항진증으로 인한 급성 췌장염으로 입원하였다. 혈압은 135/85 mmHg로 측정되었고, 심박수는 110 bpm, 호흡수는 22 bpm, 체온은 37.8°C였다. 산소포화도는 실내 공기에서 94%로 확인되었다. 환자는 심한 복통을 호소하였다. Pantoprazole 40 mg IV BID 투여함. NG tube 적용함. 환자는 의식이 명료하였다. 부갑상선기능항진증 관리를 위해 내분비과에 상담 의뢰하였다.",
+  "generation_metadata": {
+    "model": "gpt-4o",
+    "temperature": 0.7
+  }
+}

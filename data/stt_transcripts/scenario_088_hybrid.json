@@ -1,0 +1,8 @@
+{
+  "sample_id": "scenario_088_hybrid",
+  "whisper_transcript": "47세 여성 환자가 아세트아미노펜 과다 복용으로 인한 급성 간부전으로 입원하였다. 혈압은 122.70mmHg, 심박수는 105bpm, 호흡수는 22breathsmin, 체온은 37.86, 산소포화도는 실내 공기에서 95%로 확인되었다. 심한 황달이 관찰되었다. NS16 300mg Kilo IV STAT 투여암, 수분균형은 500ml 양성이다. 환자는 의식이 혼미한 상태였다. 간 전문팀에게 긴급상담을 위해 보고하였다.",
+  "stt_metadata": {
+    "model": "whisper-1",
+    "language": "ko"
+  }
+}

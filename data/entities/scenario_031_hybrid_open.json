@@ -1,0 +1,35 @@
+{
+  "sample_id": "scenario_031_hybrid",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "복통",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "졸린 상태",
+    "medication_identity": "Morphine",
+    "interventions": [
+      "IV fluid resuscitation"
+    ],
+    "intake_output": "24시간 동안 500 mL의 음성 체액 균형",
+    "notification": "추가적인 관리 권고를 위해 소화기내과 전문의와 상담함"
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "복통",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "졸린 상태",
+    "medication_identity": "Morphine",
+    "interventions": [
+      "IV fluid resuscitation"
+    ],
+    "intake_output": "24시간 동안 500mL의 음성 체액 균형",
+    "notification": "추가적인 관리 권고를 위해 소아기내과 전문의와 상담함"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_039_hybrid",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "호흡곤란",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "의식이 흐린 상태",
+    "medication_identity": "Propranolol",
+    "interventions": [],
+    "intake_output": null,
+    "notification": "갑상선 폭풍 관리 위해 내분비 팀에 통보하였다."
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "호흡곤란",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "의식이 흐린 상태",
+    "medication_identity": "프로프라놀롤",
+    "interventions": [],
+    "intake_output": null,
+    "notification": "갑상선 폭풍 관리 위해 내분비팀에 통보하였다."
+  }
+}

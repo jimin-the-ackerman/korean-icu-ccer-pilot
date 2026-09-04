@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_005_hybrid",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "부종",
+        "negation": false,
+        "severity": "moderate"
+      }
+    ],
+    "clinical_status": "졸림",
+    "medication_identity": "Furosemide",
+    "interventions": [],
+    "intake_output": "음성의 수분 균형",
+    "notification": "신장 내과 팀에게 크레아티닌 수치 상승에 대하여 보고하였다."
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "부종",
+        "negation": false,
+        "severity": "moderate"
+      }
+    ],
+    "clinical_status": "졸림",
+    "medication_identity": "Furosemide",
+    "interventions": [],
+    "intake_output": "음성의 수분 균형",
+    "notification": "신장내과팀에게 크레아틴인 수치 상승에 대하여 보고하였다."
+  }
+}

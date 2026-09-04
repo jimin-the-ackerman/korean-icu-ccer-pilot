@@ -1,0 +1,134 @@
+{
+  "sample_id": "scenario_026_hybrid",
+  "gold_entities": {
+    "route": [
+      {
+        "raw": "IV",
+        "normalized": "iv",
+        "position": 177
+      }
+    ],
+    "frequency": [
+      {
+        "raw": "q12h",
+        "normalized": "q12h",
+        "position": 180
+      }
+    ],
+    "device": [
+      {
+        "raw": "High-flow nasal cannula",
+        "normalized": "nc",
+        "position": 190
+      },
+      {
+        "raw": "인공호흡기",
+        "normalized": "ventilator",
+        "position": 245
+      }
+    ],
+    "vital_sign": [
+      {
+        "raw": "혈압은 102/64",
+        "label": "bp",
+        "value": "102/64",
+        "position": 40
+      },
+      {
+        "raw": "심박수는 112",
+        "label": "hr",
+        "value": "112",
+        "position": 64
+      },
+      {
+        "raw": "호흡수는 28",
+        "label": "rr",
+        "value": "28",
+        "position": 80
+      },
+      {
+        "raw": "체온은 38.5",
+        "label": "bt",
+        "value": "38.5",
+        "position": 92
+      },
+      {
+        "raw": "산소포화도는 실내 공기에서 85%",
+        "label": "spo2",
+        "value": "85%",
+        "position": 111
+      }
+    ],
+    "dose": [
+      {
+        "raw": "750 mg",
+        "value": "750",
+        "unit": "mg",
+        "position": 170
+      },
+      {
+        "raw": "60 L/min",
+        "value": "60",
+        "unit": "l/min",
+        "position": 217
+      }
+    ]
+  },
+  "whisper_entities": {
+    "route": [
+      {
+        "raw": "IV",
+        "normalized": "iv",
+        "position": 163
+      }
+    ],
+    "frequency": [],
+    "device": [
+      {
+        "raw": "인공호흡기",
+        "normalized": "ventilator",
+        "position": 214
+      }
+    ],
+    "vital_sign": [
+      {
+        "raw": "혈압은 102-64",
+        "label": "bp",
+        "value": "102/64",
+        "position": 39
+      },
+      {
+        "raw": "심박수는 122",
+        "label": "hr",
+        "value": "122",
+        "position": 62
+      },
+      {
+        "raw": "호흡수는 28",
+        "label": "rr",
+        "value": "28",
+        "position": 76
+      },
+      {
+        "raw": "체온은 38.56",
+        "label": "bt",
+        "value": "38.56",
+        "position": 87
+      },
+      {
+        "raw": "산소포화도는 실내 공기에서 85%",
+        "label": "spo2",
+        "value": "85%",
+        "position": 105
+      }
+    ],
+    "dose": [
+      {
+        "raw": "750mg",
+        "value": "750",
+        "unit": "mg",
+        "position": 157
+      }
+    ]
+  }
+}

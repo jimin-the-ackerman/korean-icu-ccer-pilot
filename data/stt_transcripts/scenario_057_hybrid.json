@@ -1,0 +1,8 @@
+{
+  "sample_id": "scenario_057_hybrid",
+  "whisper_transcript": "58세 여성 환자가 류마티스 관절염의 급성 악화로 입원하였다. 심한 관절 통증과 부종을 호소하였다. 활력 증후는 혈압 134, 82mmHg, 심박수 88ppm, 호흡수 18회분, 제온 37.6글릭스, 산소포화도 96%로 확인되었다. 메틀 베드네즐론에게 25mg IV QCH 투여함. 환자는 의식이 명료함.",
+  "stt_metadata": {
+    "model": "whisper-1",
+    "language": "ko"
+  }
+}

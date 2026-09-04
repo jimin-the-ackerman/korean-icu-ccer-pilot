@@ -1,0 +1,122 @@
+{
+  "sample_id": "scenario_044_hybrid",
+  "gold_entities": {
+    "route": [
+      {
+        "raw": "IV",
+        "normalized": "iv",
+        "position": 178
+      }
+    ],
+    "frequency": [
+      {
+        "raw": "q4h",
+        "normalized": "q4h",
+        "position": 181
+      }
+    ],
+    "device": [
+      {
+        "raw": "Foley catheter",
+        "normalized": "foley",
+        "position": 219
+      },
+      {
+        "raw": "nasal cannula",
+        "normalized": "nc",
+        "position": 200
+      }
+    ],
+    "vital_sign": [
+      {
+        "raw": "혈압은 98/62",
+        "label": "bp",
+        "value": "98/62",
+        "position": 38
+      },
+      {
+        "raw": "심박수는 110",
+        "label": "hr",
+        "value": "110",
+        "position": 61
+      },
+      {
+        "raw": "호흡수는 28",
+        "label": "rr",
+        "value": "28",
+        "position": 78
+      },
+      {
+        "raw": "체온은 37.8",
+        "label": "bt",
+        "value": "37.8",
+        "position": 102
+      }
+    ],
+    "dose": [
+      {
+        "raw": "2 mg",
+        "value": "2",
+        "unit": "mg",
+        "position": 173
+      }
+    ]
+  },
+  "whisper_entities": {
+    "route": [
+      {
+        "raw": "IV",
+        "normalized": "iv",
+        "position": 160
+      }
+    ],
+    "frequency": [
+      {
+        "raw": "Q3H",
+        "normalized": "q3h",
+        "position": 163
+      }
+    ],
+    "device": [],
+    "vital_sign": [
+      {
+        "raw": "혈압은 98",
+        "label": "bp",
+        "value": "98",
+        "position": 38
+      },
+      {
+        "raw": "심박수는 110",
+        "label": "hr",
+        "value": "110",
+        "position": 59
+      },
+      {
+        "raw": "호흡수는 28",
+        "label": "rr",
+        "value": "28",
+        "position": 75
+      },
+      {
+        "raw": "체온은 37.86",
+        "label": "bt",
+        "value": "37.86",
+        "position": 91
+      },
+      {
+        "raw": "산소포화도는 실내 공기상태에서 93%",
+        "label": "spo2",
+        "value": "93%",
+        "position": 110
+      }
+    ],
+    "dose": [
+      {
+        "raw": "2mg",
+        "value": "2",
+        "unit": "mg",
+        "position": 156
+      }
+    ]
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "sample_id": "scenario_082_hybrid",
+  "scenario_id": "scenario_082",
+  "document_type": "ICU_observation",
+  "style_condition": "hybrid",
+  "text": "58세 여성 환자가 담석으로 인한 중증 급성 췌장염으로 입원하였다. 혈압은 145/90 mmHg로 측정되었고, 심박수는 110 bpm, 호흡수는 22 breaths/min, 체온은 38.2°C로 확인되었다. 산소포화도는 실내 공기에서 98%이다. 복통을 심하게 호소하였다. Morphine 5 mg IV q4h 투여함. 통증 관리 실시함. 철저한 입출량 모니터링을 수행함. 환자는 의식이 명료하였다.",
+  "generation_metadata": {
+    "model": "gpt-4o",
+    "temperature": 0.7
+  }
+}

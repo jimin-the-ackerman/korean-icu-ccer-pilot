@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_023_hybrid",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "근력 약화",
+        "negation": false,
+        "severity": "moderate"
+      }
+    ],
+    "clinical_status": "기면 상태",
+    "medication_identity": "Methylprednisolone",
+    "interventions": [],
+    "intake_output": null,
+    "notification": null
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "근력 약화",
+        "negation": false,
+        "severity": "moderate"
+      }
+    ],
+    "clinical_status": "기면 상태",
+    "medication_identity": "Methylprednisolone",
+    "interventions": [],
+    "intake_output": null,
+    "notification": null
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "sample_id": "scenario_008_hybrid",
+  "whisper_transcript": "55세 남성 환자가 위장관 출혈로 입원하였다. 혈압은 90-60mm, 심박수는 110bpm, 호흡수는 22bpm, 체온은 37.0°C, 산소포화도는 94%로 확인되었다. 환자는 중등도의 복통을 호소하였다. Pantoprazol 40mg IV BAD 투여암, 산소 공급은 Nasal Cannula 적용암, 혈액 수혈 시행암, NG 튜브 유지암. 수분 균형은 음성으로 확인되었다. 임상 상태는 졸림이 관찰되었다. 내시경 검사를 위해 소아기내과팀에 통보하였다.",
+  "stt_metadata": {
+    "model": "whisper-1",
+    "language": "ko"
+  }
+}

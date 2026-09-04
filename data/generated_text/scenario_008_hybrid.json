@@ -1,0 +1,11 @@
+{
+  "sample_id": "scenario_008_hybrid",
+  "scenario_id": "scenario_008",
+  "document_type": "ICU_observation",
+  "style_condition": "hybrid",
+  "text": "55세 남성 환자가 위장관 출혈로 입원하였다. 혈압은 90/60 mmHg, 심박수는 110 bpm, 호흡수는 22 breaths/min, 체온은 37.0°C, 산소포화도는 94%로 확인되었다. 환자는 중등도의 복통을 호소하였다. Pantoprazole 40 mg IV BID 투여함. 산소 공급은 nasal cannula 적용함. 혈액 수혈 시행함. NG tube 유지함. 수분 균형은 음성으로 확인되었다. 임상 상태는 졸림이 관찰되었다. 내시경 검사를 위해 소화기내과 팀에 통보하였다.",
+  "generation_metadata": {
+    "model": "gpt-4o",
+    "temperature": 0.7
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_047_hybrid",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "기침",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "졸음",
+    "medication_identity": "Levofloxacin",
+    "interventions": [],
+    "intake_output": "음성 수분 균형 (최근 24시간)",
+    "notification": "감염 질환 전문의에게 환자의 악화된 상태를 보고하였다."
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "기침",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "졸음",
+    "medication_identity": "리버플럭스슨",
+    "interventions": [],
+    "intake_output": "최근 24시간 동안 음성수분 균형을 보였다",
+    "notification": "감염 질환 전문의에게 환자의 악화된 상태를 보고하였다"
+  }
+}

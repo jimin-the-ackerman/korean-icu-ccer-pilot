@@ -1,0 +1,123 @@
+{
+  "sample_id": "scenario_088_hybrid",
+  "gold_entities": {
+    "route": [
+      {
+        "raw": "IV",
+        "normalized": "iv",
+        "position": 176
+      }
+    ],
+    "frequency": [
+      {
+        "raw": "STAT",
+        "normalized": "stat",
+        "position": 179
+      }
+    ],
+    "device": [],
+    "vital_sign": [
+      {
+        "raw": "혈압은 112/70",
+        "label": "bp",
+        "value": "112/70",
+        "position": 45
+      },
+      {
+        "raw": "심박수는 105",
+        "label": "hr",
+        "value": "105",
+        "position": 62
+      },
+      {
+        "raw": "호흡수는 22",
+        "label": "rr",
+        "value": "22",
+        "position": 76
+      },
+      {
+        "raw": "체온은 37.8",
+        "label": "bt",
+        "value": "37.8",
+        "position": 97
+      },
+      {
+        "raw": "산소포화도는 실내공기에서 95%",
+        "label": "spo2",
+        "value": "95%",
+        "position": 109
+      }
+    ],
+    "dose": [
+      {
+        "raw": "300 mg",
+        "value": "300",
+        "unit": "mg",
+        "position": 166
+      }
+    ]
+  },
+  "whisper_entities": {
+    "route": [
+      {
+        "raw": "IV",
+        "normalized": "iv",
+        "position": 162
+      }
+    ],
+    "frequency": [
+      {
+        "raw": "STAT",
+        "normalized": "stat",
+        "position": 165
+      }
+    ],
+    "device": [],
+    "vital_sign": [
+      {
+        "raw": "혈압은 122.70",
+        "label": "bp",
+        "value": "122.70",
+        "position": 46
+      },
+      {
+        "raw": "심박수는 105",
+        "label": "hr",
+        "value": "105",
+        "position": 62
+      },
+      {
+        "raw": "호흡수는 22",
+        "label": "rr",
+        "value": "22",
+        "position": 75
+      },
+      {
+        "raw": "체온은 37.86",
+        "label": "bt",
+        "value": "37.86",
+        "position": 94
+      },
+      {
+        "raw": "산소포화도는 실내 공기에서 95%",
+        "label": "spo2",
+        "value": "95%",
+        "position": 105
+      }
+    ],
+    "dose": [
+      {
+        "raw": "300mg",
+        "value": "300",
+        "unit": "mg",
+        "position": 151
+      },
+      {
+        "raw": "500ml",
+        "value": "500",
+        "unit": "ml",
+        "position": 181
+      }
+    ]
+  }
+}

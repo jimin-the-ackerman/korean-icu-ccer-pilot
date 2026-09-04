@@ -1,0 +1,41 @@
+{
+  "sample_id": "scenario_099_hybrid",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "폐부종",
+        "negation": false,
+        "severity": null
+      },
+      {
+        "name": "호흡곤란",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "졸린 상태",
+    "medication_identity": "Furosemide",
+    "interventions": [],
+    "intake_output": "수분 균형 2000 mL 양성",
+    "notification": "심장내과에 추가 관리를 위한 상담을 요청하였다"
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "폐부종",
+        "negation": false,
+        "severity": null
+      },
+      {
+        "name": "호흡곤란",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "졸린 상태",
+    "medication_identity": "Furosemide",
+    "interventions": [],
+    "intake_output": "수분균형은 2000mm로 양성",
+    "notification": "심장내과의 추가 관리를 위한 상담을 요청하였다."
+  }
+}

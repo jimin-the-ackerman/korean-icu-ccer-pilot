@@ -1,0 +1,35 @@
+{
+  "sample_id": "scenario_077_hybrid",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "쇠약감",
+        "negation": false,
+        "severity": "moderate"
+      }
+    ],
+    "clinical_status": "졸림",
+    "medication_identity": "Labetalol",
+    "interventions": [
+      "수액 소생술 시행함"
+    ],
+    "intake_output": "체액 균형은 양성으로 확인되었다",
+    "notification": "신장 팀에 투석 평가를 위해 보고하였다"
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "쇠약감",
+        "negation": false,
+        "severity": "moderate"
+      }
+    ],
+    "clinical_status": "졸림",
+    "medication_identity": "라베탈론",
+    "interventions": [
+      "수액소생술 시행"
+    ],
+    "intake_output": "체액균형은 양성으로 확인됨",
+    "notification": "신장팀의 투석평가를 위해 보고하였다."
+  }
+}

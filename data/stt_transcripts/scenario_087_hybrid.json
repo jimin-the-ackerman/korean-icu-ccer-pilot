@@ -1,0 +1,8 @@
+{
+  "sample_id": "scenario_087_hybrid",
+  "whisper_transcript": "45세 남성 환자가 발에 천자 상처로 인한 중증 파상풍으로 입원하였다. 혈압은 140-90mg, 심박수는 110bpm, 호흡수는 32breathsmin, 체온은 38.5degrees, 산소포화도는 실내 공기에서 92%로 확인되었다. 심한 근육 경련을 호소하였다. 다이젯밤 10mg IVQ 해치 투여함. 산소는 nasal cannula 2lbm으로 적용함. 상처 절제수를 시행하였다. NG툽 유지함, 엄격히 모니터링함. 임상상태는 졸림이 확인되었다. 신경과의 근육 경련 관리를 위해 상담함.",
+  "stt_metadata": {
+    "model": "whisper-1",
+    "language": "ko"
+  }
+}

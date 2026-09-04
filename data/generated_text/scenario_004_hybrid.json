@@ -1,0 +1,11 @@
+{
+  "sample_id": "scenario_004_hybrid",
+  "scenario_id": "scenario_004",
+  "document_type": "ICU_observation",
+  "style_condition": "hybrid",
+  "text": "45세 남성 환자가 급성 췌장염으로 입원하였다. 혈압은 90/60 mmHg로 측정되었고, 심박수는 120 bpm, 호흡수는 28 breaths/min, 체온은 38.5°C이며, 산소포화도는 실내 공기에서 95%로 확인되었다. 환자는 심한 복통을 호소하였다. Morphine 4 mg IV q4h 투여함. Fluid resuscitation 시행함. Foley 적용함. 4시간 동안 소변량 200 mL 기록됨. 환자는 졸린 상태였다. 환자의 혈역학적 상태 악화에 대해 당직 소화기내과 의사에게 보고하였다.",
+  "generation_metadata": {
+    "model": "gpt-4o",
+    "temperature": 0.7
+  }
+}

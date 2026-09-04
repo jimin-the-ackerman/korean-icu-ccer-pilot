@@ -1,0 +1,11 @@
+{
+  "sample_id": "scenario_079_hybrid",
+  "scenario_id": "scenario_079",
+  "document_type": "ICU_observation",
+  "style_condition": "hybrid",
+  "text": "56세 남자 환자는 궤양성 대장염의 급성 악화로 입원하여 심한 복통과 혈변을 호소하였다. 활력징후는 혈압 105/65 mmHg, 심박수 110 bpm, 호흡수 22 breaths/min, 체온 37.8°C, 산소포화도 97%로 확인되었다. 복통은 심한 정도로 나타났다. Methylprednisolone 40 mg IV q6h 투여함. Foley 적용함. 엄격한 입력 및 출력 모니터링을 시행하였다. 환자는 의식이 명료하였다.",
+  "generation_metadata": {
+    "model": "gpt-4o",
+    "temperature": 0.7
+  }
+}

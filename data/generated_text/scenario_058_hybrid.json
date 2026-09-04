@@ -1,0 +1,11 @@
+{
+  "sample_id": "scenario_058_hybrid",
+  "scenario_id": "scenario_058",
+  "document_type": "ICU_observation",
+  "style_condition": "hybrid",
+  "text": "68세 남성 환자가 만성 심부전의 급성 악화로 입원하였으며, 수분 과다와 호흡곤란을 보였다. 혈압은 150/90 mmHg, 심박수는 110 bpm, 호흡수는 24 breaths/min, 체온은 37.2°C, 산소포화도는 실내 공기에서 92%로 확인되었다. 중등도의 호흡곤란을 호소하였다. Furosemide 40 mg IV BID 투여함. 산소 2L nasal cannula 적용함. Foley 유지함. 체액 균형은 양성으로 나타났다. 환자는 명료하였다.",
+  "generation_metadata": {
+    "model": "gpt-4o",
+    "temperature": 0.7
+  }
+}

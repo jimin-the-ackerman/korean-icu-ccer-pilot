@@ -1,0 +1,8 @@
+{
+  "sample_id": "scenario_054_hybrid",
+  "whisper_transcript": "55세 여성 환자가 뇌동맥류 파열로 인한 지주마카출혈로 입원하였다. 혈압은 160mg, 심박수는 95bpm, 호흡수는 22min, 체온은 36.8°C였으며, 산소포화도는 실내 공기에서 92%로 확인되었다. 환자는 심한 두통을 호소하였다. 니모리핀 60mg POQ-SRH 투여암, 산소 공급은 네이설캐눌라 3-1-3mine 적용암, C-Line 유지암, 환자는 기면 상태로 확인되었다. 신경과 팀의 반응 저하에 대해 보고하였다.",
+  "stt_metadata": {
+    "model": "whisper-1",
+    "language": "ko"
+  }
+}

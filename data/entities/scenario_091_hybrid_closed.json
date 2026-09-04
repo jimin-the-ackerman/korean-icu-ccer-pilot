@@ -1,0 +1,121 @@
+{
+  "sample_id": "scenario_091_hybrid",
+  "gold_entities": {
+    "route": [
+      {
+        "raw": "PO",
+        "normalized": "po",
+        "position": 161
+      }
+    ],
+    "frequency": [
+      {
+        "raw": "BID",
+        "normalized": "bid",
+        "position": 164
+      }
+    ],
+    "device": [
+      {
+        "raw": "ventilator",
+        "normalized": "ventilator",
+        "position": 220
+      },
+      {
+        "raw": "High-flow nasal cannula",
+        "normalized": "nc",
+        "position": 173
+      }
+    ],
+    "vital_sign": [
+      {
+        "raw": "혈압은 125/80",
+        "label": "bp",
+        "value": "125/80",
+        "position": 40
+      },
+      {
+        "raw": "심박수는 96",
+        "label": "hr",
+        "value": "96",
+        "position": 57
+      },
+      {
+        "raw": "호흡수는 28",
+        "label": "rr",
+        "value": "28",
+        "position": 70
+      },
+      {
+        "raw": "체온은 37.6",
+        "label": "bt",
+        "value": "37.6",
+        "position": 83
+      },
+      {
+        "raw": "산소포화도는 88%",
+        "label": "spo2",
+        "value": "88%",
+        "position": 105
+      }
+    ],
+    "dose": [
+      {
+        "raw": "40 mg",
+        "value": "40",
+        "unit": "mg",
+        "position": 155
+      }
+    ]
+  },
+  "whisper_entities": {
+    "route": [],
+    "frequency": [],
+    "device": [
+      {
+        "raw": "Ventilator",
+        "normalized": "ventilator",
+        "position": 223
+      },
+      {
+        "raw": "Nasal Cannula",
+        "normalized": "nc",
+        "position": 181
+      }
+    ],
+    "vital_sign": [
+      {
+        "raw": "혈압은 125",
+        "label": "bp",
+        "value": "125",
+        "position": 41
+      },
+      {
+        "raw": "심박수는 96",
+        "label": "hr",
+        "value": "96",
+        "position": 58
+      },
+      {
+        "raw": "호흡수는 28",
+        "label": "rr",
+        "value": "28",
+        "position": 70
+      },
+      {
+        "raw": "체온은 37.6",
+        "label": "bt",
+        "value": "37.6",
+        "position": 82
+      }
+    ],
+    "dose": [
+      {
+        "raw": "40mg",
+        "value": "40",
+        "unit": "mg",
+        "position": 155
+      }
+    ]
+  }
+}

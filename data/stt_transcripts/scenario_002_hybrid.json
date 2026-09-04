@@ -1,0 +1,8 @@
+{
+  "sample_id": "scenario_002_hybrid",
+  "whisper_transcript": "50세 여성 환자가 당뇨병성 케톤산증으로 입원하였다. 혈압은 90-60mmHg, 심박수는 128핑, 호흡수는 28, 체온은 37.8°C, 산소포화도는 95%로 확인되었다. 중등도의 구역감을 호소하였다. 인슐린, 샘유닛, IV, QSOH 투여함, fluid resuscitation 시행하였다. 소변 배출량이 적음을 관찰하였다. 환자는 졸린 상태로 확인되었다. 내분비내과의 DK관리를 위해 컨설트하였다.",
+  "stt_metadata": {
+    "model": "whisper-1",
+    "language": "ko"
+  }
+}

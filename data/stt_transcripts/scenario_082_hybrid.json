@@ -1,0 +1,8 @@
+{
+  "sample_id": "scenario_082_hybrid",
+  "whisper_transcript": "58세 여성 환자가 담석으로 인한 중증 급성 최장염으로 입원하였다. 혈압은 145-90mmhg로 측정되었고, 심박수는 110bpm, 호흡수는 22breathsmin, 체온은 38.2dex로 확인되었다. 산소포화도는 실내 공기에서 98%이다. 복통을 심하게 호소하였다. Morphine-Omg-IV-Q2H 투여함. 통증관리 실시함. 철저한 입출약 모니터링을 수행함. 환자는 의식이 명료하였다.",
+  "stt_metadata": {
+    "model": "whisper-1",
+    "language": "ko"
+  }
+}

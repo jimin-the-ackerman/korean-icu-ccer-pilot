@@ -1,0 +1,8 @@
+{
+  "sample_id": "scenario_059_hybrid",
+  "whisper_transcript": "46세 남자 환자가 청공성 게시렴에 의한 중증 폐혈증으로 입원하였다. 혈압은 85-60mmHg, 심박수는 125bpm, 호흡수는 28bpm, 체온은 39.0°C. 산소포화도는 실내 공기에서 89%로 확인되었다. 심한 복통을 호소하였다. Piperacillin-tazobactam 4.5g Ivac-Q Part H 투여암, 고유량 비강 케귤라 적용암, 수액 소생술 시행암, C-Line 유지암, Positive Fluid Balance 확인됨. 환자는 졸린 상태를 보였다.",
+  "stt_metadata": {
+    "model": "whisper-1",
+    "language": "ko"
+  }
+}

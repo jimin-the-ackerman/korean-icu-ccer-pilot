@@ -1,0 +1,8 @@
+{
+  "sample_id": "scenario_031_hybrid",
+  "whisper_transcript": "43세 남성 환자가 중증 급성 최장염 및 관련된 전신성 염증 반응 증후군 입원하였다. 혈압은 92, 58mmHg로 측정되었고, 심박수는 126bpm, 호흡수는 28bpm, 체온은 38.59kg이었다. 산소포화도는 실내 공기에서 95%로 확인되었다. 환자는 심한 복통을 호소하였다. Morphine 4mg IV Q4H 투여암, IV fluid resuscitation 시행암. 24시간 동안 500mL의 음성 체액 균형을 보였다. 환자는 졸린 상태로 확인되었다. 추가적인 관리 권고를 위해 소아기내과 전문의와 상담함.",
+  "stt_metadata": {
+    "model": "whisper-1",
+    "language": "ko"
+  }
+}

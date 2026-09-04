@@ -1,0 +1,8 @@
+{
+  "sample_id": "scenario_063_hybrid",
+  "whisper_transcript": "74세 여성 환자가 간경변증으로 인한 자연 발병 세균성 복마겸으로 입원하였다. 혈압은 160mg, 심박수는 98bpm, 호흡수는 24bpm, 체온은 37.8dL, 산소포화도는 실내 공기에서 92%로 확인되었다. 중등도의 복부통증을 호소하였다. 세프트레액선 2gib, CbH 투여암, 산소 공급은 nasal cannula at 2lmg 유지암, Foley 적용암, 엄격한 입력, 출력 모니터링 실시암, 임상상태는 졸음상태였다. 소변량 감소 및 복부 팩만에 대해 담당 의사에게 보고하였다.",
+  "stt_metadata": {
+    "model": "whisper-1",
+    "language": "ko"
+  }
+}

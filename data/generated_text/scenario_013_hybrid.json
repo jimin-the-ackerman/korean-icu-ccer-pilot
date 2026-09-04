@@ -1,0 +1,11 @@
+{
+  "sample_id": "scenario_013_hybrid",
+  "scenario_id": "scenario_013",
+  "document_type": "ICU_observation",
+  "style_condition": "hybrid",
+  "text": "34세 여성 환자가 급성 세균성 뇌수막염으로 입원하였다. 혈압은 110/70 mmHg, 심박수는 102 bpm, 호흡수는 24 breaths/min, 체온은 39.0°C, 산소포화도는 실내 공기에서 95%로 확인되었다. 환자는 심한 두통을 호소하였다. Ceftriaxone 2g IV q12h 투여함. C-line 적용함. 환자는 졸린 상태로 관찰되었다.",
+  "generation_metadata": {
+    "model": "gpt-4o",
+    "temperature": 0.7
+  }
+}

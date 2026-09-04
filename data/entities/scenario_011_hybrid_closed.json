@@ -1,0 +1,111 @@
+{
+  "sample_id": "scenario_011_hybrid",
+  "gold_entities": {
+    "route": [
+      {
+        "raw": "PO",
+        "normalized": "po",
+        "position": 148
+      }
+    ],
+    "frequency": [
+      {
+        "raw": "TID",
+        "normalized": "tid",
+        "position": 151
+      }
+    ],
+    "device": [
+      {
+        "raw": "Foley",
+        "normalized": "foley",
+        "position": 197
+      }
+    ],
+    "vital_sign": [
+      {
+        "raw": "혈압은 102/68",
+        "label": "bp",
+        "value": "102/68",
+        "position": 38
+      },
+      {
+        "raw": "심박수는 88",
+        "label": "hr",
+        "value": "88",
+        "position": 62
+      },
+      {
+        "raw": "호흡수는 20",
+        "label": "rr",
+        "value": "20",
+        "position": 75
+      },
+      {
+        "raw": "체온은 37.2",
+        "label": "bt",
+        "value": "37.2",
+        "position": 87
+      },
+      {
+        "raw": "산소포화도는 95%",
+        "label": "spo2",
+        "value": "95%",
+        "position": 99
+      }
+    ],
+    "dose": [
+      {
+        "raw": "30 ml",
+        "value": "30",
+        "unit": "ml",
+        "position": 142
+      }
+    ]
+  },
+  "whisper_entities": {
+    "route": [],
+    "frequency": [],
+    "device": [],
+    "vital_sign": [
+      {
+        "raw": "혈압은 102",
+        "label": "bp",
+        "value": "102",
+        "position": 38
+      },
+      {
+        "raw": "심박수는 88",
+        "label": "hr",
+        "value": "88",
+        "position": 62
+      },
+      {
+        "raw": "호흡수는 20",
+        "label": "rr",
+        "value": "20",
+        "position": 74
+      },
+      {
+        "raw": "체온은 37.26",
+        "label": "bt",
+        "value": "37.26",
+        "position": 85
+      },
+      {
+        "raw": "산소포화도는 95%",
+        "label": "spo2",
+        "value": "95%",
+        "position": 97
+      }
+    ],
+    "dose": [
+      {
+        "raw": "30ml",
+        "value": "30",
+        "unit": "ml",
+        "position": 135
+      }
+    ]
+  }
+}

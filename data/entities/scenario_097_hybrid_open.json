@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_097_hybrid",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "두통",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "졸린 상태",
+    "medication_identity": "Ceftriaxone",
+    "interventions": [],
+    "intake_output": null,
+    "notification": null
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "두통",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "졸린 상태",
+    "medication_identity": "세프트약소온",
+    "interventions": [],
+    "intake_output": null,
+    "notification": null
+  }
+}

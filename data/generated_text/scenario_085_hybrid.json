@@ -1,0 +1,11 @@
+{
+  "sample_id": "scenario_085_hybrid",
+  "scenario_id": "scenario_085",
+  "document_type": "ICU_observation",
+  "style_condition": "hybrid",
+  "text": "73세 남성 환자가 흡인성 폐렴으로 인한 급성 호흡 부전으로 입원하였음. 혈압은 110/70 mmHg, 심박수는 95 bpm, 호흡수는 28 bpm, 체온은 37.8°C로 기록되었으며, 산소포화도는 실내 공기에서 88%로 확인되었다. 환자는 중등도의 기침을 호소하였다. Piperacillin-tazobactam 4.5g IV q8h 투여함. 고유량 비강 캐뉼라 적용함. 환자는 ventilator 유지함. 체액 균형은 양성으로 확인되었음. 임상 상태는 졸린 상태로 나타남. 환자의 호흡 상태에 대해 폐 전문의에게 보고하였음.",
+  "generation_metadata": {
+    "model": "gpt-4o",
+    "temperature": 0.7
+  }
+}

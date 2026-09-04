@@ -1,0 +1,137 @@
+{
+  "sample_id": "scenario_017_hybrid",
+  "gold_entities": {
+    "route": [
+      {
+        "raw": "IV",
+        "normalized": "iv",
+        "position": 163
+      },
+      {
+        "raw": "IV",
+        "normalized": "iv",
+        "position": 176
+      },
+      {
+        "raw": "IV",
+        "normalized": "iv",
+        "position": 208
+      }
+    ],
+    "frequency": [
+      {
+        "raw": "STAT",
+        "normalized": "stat",
+        "position": 166
+      }
+    ],
+    "device": [],
+    "vital_sign": [
+      {
+        "raw": "혈압은 102/65",
+        "label": "bp",
+        "value": "102/65",
+        "position": 42
+      },
+      {
+        "raw": "심박수는 92",
+        "label": "hr",
+        "value": "92",
+        "position": 61
+      },
+      {
+        "raw": "호흡수는 18",
+        "label": "rr",
+        "value": "18",
+        "position": 74
+      },
+      {
+        "raw": "체온은 36.5",
+        "label": "bt",
+        "value": "36.5",
+        "position": 95
+      },
+      {
+        "raw": "산소포화도는 95%",
+        "label": "spo2",
+        "value": "95%",
+        "position": 107
+      }
+    ],
+    "dose": [
+      {
+        "raw": "25g",
+        "value": "25",
+        "unit": "g",
+        "position": 159
+      }
+    ]
+  },
+  "whisper_entities": {
+    "route": [
+      {
+        "raw": "IV",
+        "normalized": "iv",
+        "position": 157
+      },
+      {
+        "raw": "IV",
+        "normalized": "iv",
+        "position": 170
+      },
+      {
+        "raw": "IV",
+        "normalized": "iv",
+        "position": 201
+      }
+    ],
+    "frequency": [
+      {
+        "raw": "STAT",
+        "normalized": "stat",
+        "position": 160
+      }
+    ],
+    "device": [],
+    "vital_sign": [
+      {
+        "raw": "혈압은 102.65",
+        "label": "bp",
+        "value": "102.65",
+        "position": 42
+      },
+      {
+        "raw": "심박수는 92",
+        "label": "hr",
+        "value": "92",
+        "position": 60
+      },
+      {
+        "raw": "호흡수는 18",
+        "label": "rr",
+        "value": "18",
+        "position": 72
+      },
+      {
+        "raw": "체온은 36.5",
+        "label": "bt",
+        "value": "36.5",
+        "position": 91
+      },
+      {
+        "raw": "산소포화도는 95%",
+        "label": "spo2",
+        "value": "95%",
+        "position": 103
+      }
+    ],
+    "dose": [
+      {
+        "raw": "50.25g",
+        "value": "50.25",
+        "unit": "g",
+        "position": 150
+      }
+    ]
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "sample_id": "scenario_049_hybrid",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "무릎 통증",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "의식 명료",
+    "medication_identity": "Vancomycin",
+    "interventions": [
+      "오른쪽 무릎 관절 천자"
+    ],
+    "intake_output": "체액 균형 500mL 양성",
+    "notification": "정형외과 상담 요청"
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "무릎통증",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "의식이 명료함",
+    "medication_identity": "vancomycin",
+    "interventions": [
+      "오른쪽 무릎 관절 천자 시행함"
+    ],
+    "intake_output": "체액균형은 500mL의 양성으로 확인됨",
+    "notification": "정형외과 상담을 요청함"
+  }
+}

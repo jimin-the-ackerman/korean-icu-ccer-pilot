@@ -1,0 +1,35 @@
+{
+  "sample_id": "scenario_051_hybrid",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "복통",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "의식 명료",
+    "medication_identity": "Morphine",
+    "interventions": [
+      "NPO 상태 유지"
+    ],
+    "intake_output": "음성 수분 균형 확인됨",
+    "notification": "소화기 전문팀에게 추가 평가 및 관리를 위해 보고하였다."
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "복통",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "의식 명료",
+    "medication_identity": "Morphine",
+    "interventions": [
+      "NPO 상태 유지"
+    ],
+    "intake_output": "음성수분 균형 확인됨",
+    "notification": "소화기 전문팀에게 추가 평가 및 관리를 위해 보고하였다."
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "sample_id": "scenario_058_hybrid",
+  "whisper_transcript": "68세 남성 환자가 만성심부전의 급성 악화로 입원하였으며 수분 과다와 호흡곤란을 보였다. 혈압은 150-90mmHg, 심박수는 110bpm, 호흡수는 24breathsmin, 체온은 37.26dl, 산소포화도는 실내 공기에서 92%로 확인되었다. 중등도의 호흡곤란을 호소하였다. Furosemide 40mg IBBID 투여암, 산소튜이더 네이절이 케눌라 적용암, 폴리 유지암, 체액균형은 양성으로 나타났다. 환자는 명료하였다.",
+  "stt_metadata": {
+    "model": "whisper-1",
+    "language": "ko"
+  }
+}

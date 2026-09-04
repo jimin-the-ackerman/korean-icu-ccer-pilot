@@ -1,0 +1,123 @@
+{
+  "sample_id": "scenario_028_hybrid",
+  "gold_entities": {
+    "route": [
+      {
+        "raw": "IV",
+        "normalized": "iv",
+        "position": 152
+      }
+    ],
+    "frequency": [
+      {
+        "raw": "STAT",
+        "normalized": "stat",
+        "position": 155
+      }
+    ],
+    "device": [
+      {
+        "raw": "C-line",
+        "normalized": "c-line",
+        "position": 180
+      }
+    ],
+    "vital_sign": [
+      {
+        "raw": "혈압은 180/100",
+        "label": "bp",
+        "value": "180/100",
+        "position": 31
+      },
+      {
+        "raw": "심박수는 88",
+        "label": "hr",
+        "value": "88",
+        "position": 49
+      },
+      {
+        "raw": "호흡수는 22",
+        "label": "rr",
+        "value": "22",
+        "position": 62
+      },
+      {
+        "raw": "체온은 36.8",
+        "label": "bt",
+        "value": "36.8",
+        "position": 83
+      },
+      {
+        "raw": "산소포화도는 실내 공기에서 95%",
+        "label": "spo2",
+        "value": "95%",
+        "position": 95
+      }
+    ],
+    "dose": [
+      {
+        "raw": "20 mg",
+        "value": "20",
+        "unit": "mg",
+        "position": 146
+      }
+    ]
+  },
+  "whisper_entities": {
+    "route": [
+      {
+        "raw": "IV",
+        "normalized": "iv",
+        "position": 129
+      }
+    ],
+    "frequency": [],
+    "device": [
+      {
+        "raw": "C-Line",
+        "normalized": "c-line",
+        "position": 155
+      }
+    ],
+    "vital_sign": [
+      {
+        "raw": "혈압은 180",
+        "label": "bp",
+        "value": "180",
+        "position": 31
+      },
+      {
+        "raw": "심박수는 88",
+        "label": "hr",
+        "value": "88",
+        "position": 42
+      },
+      {
+        "raw": "호흡수는 22",
+        "label": "rr",
+        "value": "22",
+        "position": 54
+      },
+      {
+        "raw": "체온은 36.8",
+        "label": "bt",
+        "value": "36.8",
+        "position": 66
+      },
+      {
+        "raw": "산소포화도는 실내 공기에서 95%",
+        "label": "spo2",
+        "value": "95%",
+        "position": 78
+      }
+    ],
+    "dose": [
+      {
+        "raw": "20mg",
+        "value": "20",
+        "unit": "mg",
+        "position": 124
+      }
+    ]
+  }
+}

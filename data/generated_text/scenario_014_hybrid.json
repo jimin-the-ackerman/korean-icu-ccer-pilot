@@ -1,0 +1,11 @@
+{
+  "sample_id": "scenario_014_hybrid",
+  "scenario_id": "scenario_014",
+  "document_type": "ICU_observation",
+  "style_condition": "hybrid",
+  "text": "59세 남성 환자가 가정 화재로 인한 흡입 손상 후 급성 호흡곤란 증후군 (ARDS)으로 입원하였다. 혈압은 135/85 mmHg, 심박수는 110 bpm, 호흡수는 30 breaths/min, 체온은 38.3°C, 산소포화도는 실내 공기에서 88%로 확인되었다. 환자는 심한 호흡곤란을 호소하였다. Methylprednisolone 125 mg IV q6h 투여함. 기계적 환기 적용함. Ventilator 유지함. 수분 균형은 양성으로 확인되었다. 환자는 기면 상태였다.",
+  "generation_metadata": {
+    "model": "gpt-4o",
+    "temperature": 0.7
+  }
+}

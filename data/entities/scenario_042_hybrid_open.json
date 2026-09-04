@@ -1,0 +1,40 @@
+{
+  "sample_id": "scenario_042_hybrid",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "설사",
+        "negation": false,
+        "severity": "severe"
+      },
+      {
+        "name": "졸린 상태",
+        "negation": false,
+        "severity": null
+      }
+    ],
+    "clinical_status": "졸린 상태",
+    "medication_identity": "Normal Saline",
+    "interventions": [
+      "정맥 내 수액 보충"
+    ],
+    "intake_output": "소변 배출량이 8시간 동안 200 mL로 낮게 나타남",
+    "notification": "소변 배출량이 시간당 30 mL 이하로 유지되면 담당 의사에게 보고하도록 함"
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "설사",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "졸린 상태",
+    "medication_identity": "Normal Saline",
+    "interventions": [
+      "정맥 내 수액 보충"
+    ],
+    "intake_output": "소변 배출량이 8시간 동안 200ml로 낮게 나타났다",
+    "notification": "소변 배출량이 시간당 30ml 이하로 유지되면 담당 의사에게 보고하도록 하였다"
+  }
+}

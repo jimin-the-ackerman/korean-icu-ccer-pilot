@@ -1,0 +1,41 @@
+{
+  "sample_id": "scenario_017_hybrid",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "저혈당",
+        "negation": false,
+        "severity": "severe"
+      },
+      {
+        "name": "혼동",
+        "negation": false,
+        "severity": "moderate"
+      }
+    ],
+    "clinical_status": "졸린 상태",
+    "medication_identity": "Dextrose 50%",
+    "interventions": [],
+    "intake_output": "수액 균형이 양성으로 확인됨",
+    "notification": "내분비 전문의에게 추가 관리 계획을 위해 보고하였다."
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "저혈당",
+        "negation": false,
+        "severity": "severe"
+      },
+      {
+        "name": "혼동",
+        "negation": false,
+        "severity": "moderate"
+      }
+    ],
+    "clinical_status": "졸린 상태",
+    "medication_identity": "DEXTROS",
+    "interventions": [],
+    "intake_output": "수액균형이 양성으로 확인됨",
+    "notification": "내분비 전문의에게 추가 관리 계획을 위해 보고하였다."
+  }
+}

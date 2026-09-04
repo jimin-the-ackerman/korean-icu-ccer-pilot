@@ -1,0 +1,38 @@
+{
+  "sample_id": "scenario_087_hybrid",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "근육 경련",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "졸림",
+    "medication_identity": "Diazepam",
+    "interventions": [
+      "상처 절제술",
+      "엄격히 모니터링"
+    ],
+    "intake_output": null,
+    "notification": "신경과에 근육 경련 관리를 위해 상담함"
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "근육 경련",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "졸림",
+    "medication_identity": "다이젯밤",
+    "interventions": [
+      "상처 절제술",
+      "엄격히 모니터링함",
+      "신경과 상담"
+    ],
+    "intake_output": null,
+    "notification": "신경과의 근육 경련 관리를 위해 상담함"
+  }
+}

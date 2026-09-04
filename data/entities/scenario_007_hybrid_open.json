@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_007_hybrid",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "호흡곤란",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "졸림",
+    "medication_identity": "Methylprednisolone",
+    "interventions": [],
+    "intake_output": "양성 수분 균형",
+    "notification": "환자의 악화된 호흡 상태에 대해 폐 전문의에게 보고하였다."
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "호흡곤란",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "졸림",
+    "medication_identity": "메틀페르니슬론",
+    "interventions": [],
+    "intake_output": "양성수분 균형",
+    "notification": "환자의 악화된 호흡상태에 대해 폐전문의에게 보고하였다."
+  }
+}

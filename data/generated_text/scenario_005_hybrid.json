@@ -1,0 +1,11 @@
+{
+  "sample_id": "scenario_005_hybrid",
+  "scenario_id": "scenario_005",
+  "document_type": "ICU_observation",
+  "style_condition": "hybrid",
+  "text": "58세 남성 환자가 만성 신장 질환 병력으로 급성 신부전의 모니터링 및 관리를 위해 입원하였다. 현재 활력징후는 혈압이 150/95 mmHg, 심박수가 88 bpm, 호흡수가 22 회/min, 체온이 37.2°C, 산소포화도가 94%로 확인되었다. 중등도의 부종을 호소하였다. Furosemide 40 mg IV q8h 투여함. 산소 공급은 nasal cannula 적용함. Foley 유지함. 음성의 수분 균형을 보였다. 임상 상태는 졸림이 관찰되었다. 신장 내과 팀에게 크레아티닌 수치 상승에 대하여 보고하였다.",
+  "generation_metadata": {
+    "model": "gpt-4o",
+    "temperature": 0.7
+  }
+}

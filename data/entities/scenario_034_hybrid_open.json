@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_034_hybrid",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "황달",
+        "negation": false,
+        "severity": "moderate"
+      }
+    ],
+    "clinical_status": "졸린 상태",
+    "medication_identity": "Lactulose",
+    "interventions": [],
+    "intake_output": "체액 균형을 엄격하게 모니터링함",
+    "notification": "간성 뇌병증 악화에 대해 간 전문팀에게 보고함"
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "황달",
+        "negation": false,
+        "severity": "moderate"
+      }
+    ],
+    "clinical_status": "졸린 상태",
+    "medication_identity": "Lactulose",
+    "interventions": [],
+    "intake_output": "체액 균형을 엄격하게 모니터링하였다",
+    "notification": "간성 뇌병증 악화에 대해 간 전문팀에게 보고하였다"
+  }
+}

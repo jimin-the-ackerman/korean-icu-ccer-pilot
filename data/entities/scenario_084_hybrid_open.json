@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_084_hybrid",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "천명음",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "졸린 상태",
+    "medication_identity": "알부테롤",
+    "interventions": [],
+    "intake_output": null,
+    "notification": "호흡치료팀에게 환자의 상태와 지속적인 치료에 대해 보고하였다."
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "천명음",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "졸린 상태",
+    "medication_identity": "알부테롤",
+    "interventions": [],
+    "intake_output": null,
+    "notification": "호흡치료팀에게 환자의 상태와 지속적인 치료에 대해 보고하였다."
+  }
+}

@@ -1,0 +1,149 @@
+{
+  "sample_id": "scenario_027_hybrid",
+  "gold_entities": {
+    "route": [
+      {
+        "raw": "IV",
+        "normalized": "iv",
+        "position": 146
+      },
+      {
+        "raw": "IV",
+        "normalized": "iv",
+        "position": 171
+      }
+    ],
+    "frequency": [
+      {
+        "raw": "STAT",
+        "normalized": "stat",
+        "position": 149
+      },
+      {
+        "raw": "즉시",
+        "normalized": "stat",
+        "position": 213
+      }
+    ],
+    "device": [
+      {
+        "raw": "C-line",
+        "normalized": "c-line",
+        "position": 159
+      }
+    ],
+    "vital_sign": [
+      {
+        "raw": "혈압은 160/90",
+        "label": "bp",
+        "value": "160/90",
+        "position": 31
+      },
+      {
+        "raw": "심박수는 88",
+        "label": "hr",
+        "value": "88",
+        "position": 48
+      },
+      {
+        "raw": "호흡수는 18",
+        "label": "rr",
+        "value": "18",
+        "position": 61
+      },
+      {
+        "raw": "체온은 37.2",
+        "label": "bt",
+        "value": "37.2",
+        "position": 73
+      },
+      {
+        "raw": "산소포화도는 95%",
+        "label": "spo2",
+        "value": "95%",
+        "position": 84
+      }
+    ],
+    "dose": [
+      {
+        "raw": "0.9 mg",
+        "value": "0.9",
+        "unit": "mg",
+        "position": 136
+      }
+    ]
+  },
+  "whisper_entities": {
+    "route": [
+      {
+        "raw": "IV",
+        "normalized": "iv",
+        "position": 137
+      },
+      {
+        "raw": "IV",
+        "normalized": "iv",
+        "position": 162
+      }
+    ],
+    "frequency": [
+      {
+        "raw": "stat",
+        "normalized": "stat",
+        "position": 140
+      },
+      {
+        "raw": "즉시",
+        "normalized": "stat",
+        "position": 203
+      }
+    ],
+    "device": [
+      {
+        "raw": "C-line",
+        "normalized": "c-line",
+        "position": 150
+      }
+    ],
+    "vital_sign": [
+      {
+        "raw": "혈압은 160",
+        "label": "bp",
+        "value": "160",
+        "position": 31
+      },
+      {
+        "raw": "심박수는 88",
+        "label": "hr",
+        "value": "88",
+        "position": 42
+      },
+      {
+        "raw": "호흡수는 18",
+        "label": "rr",
+        "value": "18",
+        "position": 54
+      },
+      {
+        "raw": "체온은 37.2",
+        "label": "bt",
+        "value": "37.2",
+        "position": 65
+      },
+      {
+        "raw": "산소포화도는 95%",
+        "label": "spo2",
+        "value": "95%",
+        "position": 76
+      }
+    ],
+    "dose": [
+      {
+        "raw": "0.9mg",
+        "value": "0.9",
+        "unit": "mg",
+        "position": 128
+      }
+    ]
+  }
+}

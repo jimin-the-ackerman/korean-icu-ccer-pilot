@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_056_hybrid",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "천명음",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "졸린 상태",
+    "medication_identity": "Albuterol",
+    "interventions": [],
+    "intake_output": "체액균형 500 ml 음성",
+    "notification": "폐 전문팀에게 긴급 평가를 위해 보고하였다"
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "천명음",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "졸린 상태",
+    "medication_identity": "알부테롤",
+    "interventions": [],
+    "intake_output": "체액균형 500mL 음성",
+    "notification": "폐전문팀에게 긴급평가를 위해 보고하였다."
+  }
+}

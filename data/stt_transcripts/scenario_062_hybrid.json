@@ -1,0 +1,8 @@
+{
+  "sample_id": "scenario_062_hybrid",
+  "whisper_transcript": "44세 남성 환자가 심한 폐색전증으로 입원하였다. 혈압은 90-60mmg, 심박수는 125bpm, 호흡수는 28bpm, 체온은 37.2dHc로 확인되었고, 산소포화도는 실내 공기에서 86%였다. 심한 흉통을 호소하였다. Heparin 5000 units IV Q4H 투여함, 산소치료로 High-Flow Nasal Cannula 적용함, C-line 유지함, 음성수분균형이 확인되었다. 환자는 졸린 상태였다. SpO2 저하 및 핀맥을 폐전문의에게 보고하였다.",
+  "stt_metadata": {
+    "model": "whisper-1",
+    "language": "ko"
+  }
+}

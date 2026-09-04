@@ -1,0 +1,11 @@
+{
+  "sample_id": "scenario_025_hybrid",
+  "scenario_id": "scenario_025",
+  "document_type": "ICU_observation",
+  "style_condition": "hybrid",
+  "text": "60세 여성 환자가 급성 담낭염으로 입원하였다. 혈압은 138/84 mmHg, 심박수는 92 bpm, 호흡수는 20 breaths/min, 체온은 38.2°C로 확인되었다. 산소포화도는 실내 공기에서 95%로 측정되었다. 환자는 심한 복통을 호소하였다. Ceftriaxone 1g IV q12h 투여함. 복강경 담낭절제술 계획됨. C-line 적용함. 체액 균형은 positive balance로 확인되었다. 의식은 alert 상태이다.",
+  "generation_metadata": {
+    "model": "gpt-4o",
+    "temperature": 0.7
+  }
+}
