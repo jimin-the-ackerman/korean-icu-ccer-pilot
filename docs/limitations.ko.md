@@ -251,10 +251,33 @@ v4 style-invariant extraction audit(`docs/v4_style_invariant_extraction_spec.md`
   추출 공백이 아니라 진짜 STT 노이즈라는 것을) 확실히 확인하는 것은
   Future Work로 남긴다.
 
+## 15. 탐색적 Hybrid Register: 단일 설계, 완전히 분리되지 않은 confound 가능성
+
+Hybrid register(`docs/hybrid_followup_spec.md`, 결과는
+`results/hybrid_followup/`)는 여러 후보 설계를 반복 비교하지 않고
+단일한, 확정된 mapping으로 설계·평가됐다 — 더 미묘한 형태의 post-hoc
+tuning을 피하기 위한 의도적 선택이지만, 이는 동시에 다른 block
+mapping이 더 나았을지 더 나빴을지 비교 검증이 안 됐다는 뜻이기도
+하다. Formal Template과 Hybrid 사이에 렌더링 규칙이 **바뀌지 않은**
+일부 entity type(`vital_sign`, `symptom`, `intervention`,
+`notification`)도 Hybrid 하에서 CCER이 개선됐는데, 이는 block
+재설계 설계 자체로는 메커니즘적으로 설명할 수 없고 통상적인 TTS/STT
+run-to-run 확률적 변동을 반영할 가능성이 있다 — 즉 Formal Template
+대비 Hybrid의 aggregate 우위 중 일부는 register 재설계가 아니라
+노이즈로 부풀려졌을 수 있다(다만 렌더링 규칙이 실제로 바뀐
+device/dose/route의 개선과 유의한 scenario-level 쌍체 검정에는
+이 유보가 적용되지 않는다). 역-hybrid 대조군(예: 활력징후는
+Clinical-style로, 투약 사건은 Formal-style로 렌더링)은 테스트하지
+않았으므로, "어떤 hybrid 설계든" 효과가 있는 것인지 아니면 각 block
+배정의 구체적인 인과적 기여인지는 분리되지 않았다.
+
 ---
 
 ## Future Work
 
+- 역-hybrid 대조군을 포함한, 제대로 검정력을 갖춘 전용 Hybrid 후속
+  연구로 어떤 register-대-entity 배정이 관찰된 개선을 이끄는지 분리
+  (한계 15 대응)
 - [v2에서 완료, 프롬프트 레벨] 표준 의료 용어 온톨로지(SNOMED CT, UMLS)
   또는 한국어 의료 개체명 인식(NER) 모델을 활용한 Entity Normalization은
   `phonetic_artifact` 프롬프트 수정보다 더 구조적인 대안으로 여전히 열려

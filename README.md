@@ -257,6 +257,102 @@ itself guarantee freedom from evaluator bias -- the entity extraction
 layer underneath it must be audited with the same rigor as the metric
 itself.
 
+### 3.6 Macro-CCER: Is Formal Template's Advantage Uniform?
+
+The primary (micro-averaged) CCER above weights each entity type by its
+frequency in the Gold Standard -- vital signs, present five times per
+scenario, account for ~35% of all Gold entities (500 of 1415). A
+post-hoc sensitivity analysis (added *after* seeing the aggregate
+results, and documented as such in `docs/statistical_analysis_plan.md`)
+checked whether Formal Template's advantage was explained by this
+frequency imbalance by computing a **macro-CCER**: an entity-type-specific
+CCER averaged with equal weight across all 11 entity types regardless of
+frequency.
+
+| Register | Micro-CCER | Macro-CCER | Entity types won (of 11) |
+|---|---|---|---|
+| Formal Template | 0.8417 | **0.8021** | **7** |
+| Clinical Charting | 1.1682 | 0.8469 | 3 |
+| Telegraphic ICU | 1.2134 | 0.9563 | 1 |
+
+The ranking held under macro-averaging, so Formal Template's advantage
+is not purely a vital-sign-frequency artifact -- but the margin narrowed
+substantially (from a ~0.33-0.37 micro-CCER gap to a ~0.04-0.15
+macro-CCER gap), and the advantage is **not uniform**: Formal Template
+outperformed the other two registers in 8 of 11 entity types
+(dramatically so for `vital_sign`), but *underperformed* Clinical
+Charting specifically on `device`, `dose`, and `route` -- the entity
+types describing medication administration and physical equipment. This
+motivated the exploratory follow-up in Section 3.7.
+
+### 3.7 Exploratory Follow-up: An Entity-Informed Hybrid Register
+
+The entity-dependent pattern above raises a natural design question:
+rather than applying one register uniformly to an entire note, could
+combining registers at the level of individual clinical facts recover
+the strengths of each? This question -- and the Hybrid register built to
+test it -- was motivated by observing the primary experiment's results,
+so it is treated throughout as an **exploratory follow-up**, not a
+confirmatory test (full design, pre-registered hypotheses, and
+manipulation-check plan frozen *before* any Hybrid data was generated:
+`docs/hybrid_followup_spec.md`).
+
+**Design**: Hybrid renders vital signs, symptom, clinical status,
+intervention, notification, and intake/output in the Formal Template
+style, and the medication event (name+dose+route+frequency, rendered as
+one grammatical unit per the existing Medication Expression Rule) plus
+device/oxygen-support in the Clinical Charting style -- while strictly
+preserving the Content Scaffold's natural fact order (an earlier draft
+that grouped Formal-style facts before Clinical-style facts was
+rejected specifically because it would confound register with
+information order). Frequency's inclusion in the Clinical block is
+grammatical necessity, not because Clinical outperformed Formal on
+frequency alone (it did not: 0.687 vs. 1.192).
+
+A deterministic **manipulation check** (no additional API calls) run on
+all 100 generated Hybrid notes before speech synthesis confirmed the
+intended register was actually produced: 314/344 (91.3%) of
+route/frequency/device instances rendered in English-abbreviated form,
+and 488/488 (100.0%) of vital-sign instances rendered in Korean
+full-form, as intended. This result was recorded as-is and did not
+prompt re-tuning of the generation prompt.
+
+**Results** (n=100 scenarios, same underlying scaffolds as the primary
+experiment):
+
+| Register | nWER | Entity F1 | Micro-CCER | Macro-CCER |
+|---|---|---|---|---|
+| **Hybrid** | 0.3342 | **0.8084** | **0.6664** | **0.6340** |
+| Formal Template | 0.3038 | 0.7484 | 0.8417 | 0.8021 |
+| Clinical Charting | 0.4517 | 0.6341 | 1.1682 | 0.8469 |
+| Telegraphic ICU | 0.5640 | 0.6101 | 1.2134 | 0.9563 |
+
+Hybrid achieved the best Entity F1, micro-CCER, and macro-CCER of all
+four registers -- a 21% reduction in micro-CCER relative to Formal
+Template (0.842 -> 0.666), confirmed scenario-by-scenario with a paired
+Wilcoxon signed-rank test against Formal Template (the primary
+inferential comparison, since both share the same 100 scaffolds):
+**W = 1070.00, p = 7.07 x 10^-6** (68/100 scenarios improved, 27
+worsened, 5 tied).
+
+Entity-level results confirmed the motivating pattern: `device`, `dose`,
+and `route` all improved substantially relative to Formal Template,
+moving toward -- and for `dose`, past -- Clinical Charting's level.
+However, `vital_sign` and several other Formal-block entity types *also*
+improved despite an *unchanged* rendering rule between Formal and
+Hybrid, suggesting part of the overall gain may reflect ordinary
+TTS/STT run-to-run variation rather than the register redesign alone --
+a caveat that does not apply to `device`/`dose`/`route`, whose
+rendering rule did change. Most importantly, **`frequency` got worse
+under Hybrid (0.687 -> 1.343) than under either original register**,
+including Clinical Charting's own already-worse frequency performance
+(1.192) -- exactly the a priori-documented risk of forcing a
+linguistically coupled quartet of facts (medication name/dose/route/
+frequency) across two different registers. This is reported as a
+genuine, informative negative finding: entity-specific advantages
+observed descriptively do not automatically compose into a uniformly
+superior mixed-register note.
+
 ---
 
 ## 4. Repository Structure
@@ -272,29 +368,32 @@ korean-icu-ccer-pilot/
 │   ├── taxonomy_audit.md        # v3: independent CCER taxonomy audit & freeze
 │   ├── v4_style_invariant_extraction_spec.md  # v4: style-bias audit, spec, freeze
 │   ├── statistical_analysis_plan.md           # Pre-registered SAP (frozen)
+│   ├── hybrid_followup_spec.md                # Exploratory Hybrid register design (frozen)
 │   └── full_run_execution_order.md            # Locked execution order for scale-ups
 ├── data/
 │   ├── scenarios/                # Content Scaffold (GPT-4o generated)
-│   ├── generated_text/           # Style-controlled Gold Transcripts
+│   ├── generated_text/           # Style-controlled Gold Transcripts (incl. Hybrid)
 │   ├── audio/                    # TTS audio files (not tracked in git)
 │   ├── stt_transcripts/          # Whisper transcription results
 │   └── entities/                 # Entity extraction/matching results
 ├── src/
 │   ├── pipeline_utils.py          # Skip-by-default safety mechanism (RunLog, --overwrite)
 │   ├── scaffold/                  # Content Scaffold schema and generation
-│   ├── style_controller/          # Documentation Register rules
+│   ├── style_controller/          # Documentation Register rules (incl. Hybrid)
 │   ├── generation/                # GPT-4o documentation generation
 │   ├── tts/                       # Speech synthesis
 │   ├── stt/                       # Speech recognition
 │   ├── entity_extraction/         # Closed/open-vocabulary extraction
 │   ├── matching/                  # Entity matching, semantic matching
 │   ├── evaluation/                # WER, entity evaluation, CCER
-│   └── analysis/                  # Error profile, power analysis, statistical tests, SAP 1-4
+│   └── analysis/                  # Error profile, statistical tests, SAP 1-5,
+│                                     hybrid_followup, hybrid_manipulation_check
 ├── results/
 │   ├── pilot_15/                  # v1/v2/v3 checkpoints (15-sample pilot, preserved)
 │   ├── full_50/                   # 50-scenario checkpoint (preserved)
 │   ├── full_100/                  # v3 (pre-v4-fix) 100-scenario checkpoint (preserved)
-│   └── full_100_v4/               # FINAL results (100 scenarios, bias-corrected)
+│   ├── full_100_v4/               # FINAL results, 3-register primary analysis (bias-corrected)
+│   └── hybrid_followup/           # Exploratory Hybrid register results (separate from full_100_v4/)
 └── tests/                          # Unit tests
 ```
 
@@ -392,7 +491,12 @@ pytest tests/ -q
   v4 -- audit, specification, and freeze of the style-invariant
   closed-vocabulary extraction fix described in Sec 3.5 above
 - [`docs/statistical_analysis_plan.md`](docs/statistical_analysis_plan.md):
-  pre-registered statistical analysis plan (frozen before execution)
+  pre-registered statistical analysis plan (frozen before execution),
+  including the post-hoc Macro-CCER addition described in Sec 3.6
+- [`docs/hybrid_followup_spec.md`](docs/hybrid_followup_spec.md):
+  design specification (block mapping, pre-registered hypotheses,
+  manipulation-check plan) for the exploratory Hybrid register
+  described in Sec 3.7, frozen before any Hybrid data was generated
 - [`docs/full_run_execution_order.md`](docs/full_run_execution_order.md):
   locked execution checklist used for scaling the pilot from 5 to 100
   scenarios without risking already-computed results

@@ -224,6 +224,93 @@ evaluator가 내렸을 결론과는 정반대다.
 계층도 지표 자체와 동일한 엄밀함으로 감사돼야 한다**는 것을 보여주는
 데 있다.
 
+### 3.6 Macro-CCER — Formal Template의 우위는 균일한가?
+
+위의 primary(micro-averaged) CCER은 Gold Standard 내 등장 빈도에 따라
+각 entity type을 가중한다 — 활력징후는 시나리오당 5회 등장해 전체
+Gold entity의 약 35%(1415개 중 500개)를 차지한다. Aggregate 결과를
+**본 뒤에** 추가한 사후(post-hoc) 민감도 분석(`docs/statistical_analysis_plan.md`
+에 그렇게 명시)으로, entity type 11개에 빈도와 무관하게 동일한
+가중치를 부여하는 **macro-CCER**을 계산해 Formal Template의 우위가
+이 빈도 불균형만의 인공물인지 확인했다.
+
+| Register | Micro-CCER | Macro-CCER | 승리한 entity type 수(11개 중) |
+|---|---|---|---|
+| Formal Template | 0.8417 | **0.8021** | **7** |
+| Clinical Charting | 1.1682 | 0.8469 | 3 |
+| Telegraphic ICU | 1.2134 | 0.9563 | 1 |
+
+Macro-averaging 하에서도 순위는 유지됐다 — 즉 Formal Template의 우위가
+순수히 활력징후 빈도만의 인공물은 아니다. 하지만 격차는 상당히 좁아졌고
+(micro 기준 약 0.33~0.37 격차 → macro 기준 약 0.04~0.15 격차), 그
+우위는 **균일하지 않다**: Formal Template은 11개 중 8개
+entity type에서 나머지 두 register보다 우수했지만(`vital_sign`에서는
+큰 격차로), `device`, `dose`, `route` — 투약 및 물리적 장비를
+서술하는 entity type — 에서는 오히려 Clinical Charting에 **뒤졌다.**
+이 발견이 3.7절의 탐색적 후속 실험을 직접 동기부여했다.
+
+### 3.7 탐색적 후속 실험: Entity-Informed Hybrid Register
+
+위의 entity-의존적 패턴은 자연스러운 설계 질문을 낳는다: 하나의
+register를 노트 전체에 균일하게 적용하는 대신, 개별 임상 사실 단위로
+register를 조합하면 각각의 강점을 회복할 수 있을까? 이 질문 — 그리고
+이를 검증하기 위해 만든 Hybrid register — 는 primary 실험 결과를
+관찰한 뒤 동기부여됐으므로, 처음부터 끝까지 **탐색적(exploratory)
+후속 실험**으로 취급하며 확증적 검정으로 다루지 않는다(전체 설계,
+사전 등록 가설, manipulation-check 계획을 Hybrid 데이터 생성
+**이전에** 확정: `docs/hybrid_followup_spec.md`).
+
+**설계**: Hybrid는 활력징후·증상·임상상태·처치·통보·섭취배설은
+Formal Template 방식으로, 투약 사건(약물명+용량+투여경로+투여빈도,
+기존 Medication Expression Rule에 따라 하나의 문법적 단위로 렌더링)과
+장치/산소공급은 Clinical Charting 방식으로 렌더링하며, Content
+Scaffold의 자연스러운 정보 순서를 엄격히 유지한다(Formal 표현
+사실을 앞에, Clinical 표현 사실을 뒤에 배치했던 초기 설계안은
+register와 정보 순서가 뒤섞이는 confound를 만든다는 이유로 명시적으로
+기각됐다). Frequency를 Clinical block에 포함시킨 건 문법적 필요성
+때문이지, Clinical이 frequency 단독 항목에서 더 나아서가 아니다
+(실제로는 그 반대: 0.687 vs. 1.192).
+
+음성합성 이전에 실행한 결정론적 **manipulation check**(추가 API
+호출 없음)는 생성된 Hybrid 노트 100개 전부에서 의도한 register가
+실제로 구현됐는지 확인했다: route/frequency/device 344건 중
+314건(91.3%)이 영어 약어 형태로, 활력징후 488건 중 488건(100.0%)이
+한국어 완전 표기로 렌더링됨을 확인했다. 이 결과는 있는 그대로
+기록했고 생성 프롬프트를 재조정하는 근거로 쓰지 않았다.
+
+**결과**(n=100 시나리오, primary 실험과 동일한 원본 scaffold 기준):
+
+| Register | nWER | Entity F1 | Micro-CCER | Macro-CCER |
+|---|---|---|---|---|
+| **Hybrid** | 0.3342 | **0.8084** | **0.6664** | **0.6340** |
+| Formal Template | 0.3038 | 0.7484 | 0.8417 | 0.8021 |
+| Clinical Charting | 0.4517 | 0.6341 | 1.1682 | 0.8469 |
+| Telegraphic ICU | 0.5640 | 0.6101 | 1.2134 | 0.9563 |
+
+Hybrid는 4개 register 중 Entity F1, micro-CCER, macro-CCER 전부에서
+최선을 기록했다 — Formal Template 대비 micro-CCER이 21% 감소(0.842→
+0.666)했으며, 이는 (두 조건이 같은 100개 scaffold를 공유하므로 primary
+inferential comparison으로 쓴) Formal Template과의 scenario 단위
+쌍체 Wilcoxon signed-rank test로 확인됐다: **W = 1070.00, p = 7.07 ×
+10⁻⁶**(100개 시나리오 중 68개 개선, 27개 악화, 5개 동률).
+
+Entity-level 결과는 애초 동기가 됐던 패턴을 확인해줬다: `device`,
+`dose`, `route`가 Formal Template 대비 실질적으로 개선되어 Clinical
+Charting 수준으로(dose는 그 이상으로) 이동했다. 다만 `vital_sign`을
+포함한 여러 Formal-block entity type도 렌더링 규칙이 **바뀌지 않았음
+에도** 함께 개선됐는데, 이는 전체 개선분의 일부가 register 재설계
+자체가 아니라 TTS/STT의 통상적인 run-to-run 변동을 반영할 가능성을
+시사한다 — 렌더링 규칙이 실제로 바뀐 `device`/`dose`/`route`에는
+이 유보가 적용되지 않는다. 가장 중요한 건, **`frequency`가 Hybrid
+하에서 원본 두 register 어느 쪽보다도 악화**됐다는 점이다(0.687→
+1.343) — Clinical Charting 자체의 이미 더 나빴던 frequency 성능
+(1.192)보다도 나쁘다. 이는 정확히 사전에 문서화했던 위험(약물명/
+용량/투여경로/투여빈도라는 언어적으로 결합된 사실들을 두 개의 다른
+register에 억지로 분산시키는 것)이 실현된 것이다. 이를 정직하고
+유용한 negative finding으로 보고한다: entity별로 서술적으로 관찰된
+장점들이 자동으로 균일하게 우수한 mixed-register 노트로 합성되지는
+않는다.
+
 ---
 
 ## 4. Repository Structure
@@ -239,29 +326,32 @@ korean-icu-ccer-pilot/
 │   ├── taxonomy_audit.md        # v3: 독립적 CCER taxonomy 감사 및 확정
 │   ├── v4_style_invariant_extraction_spec.md  # v4: 스타일 편향 감사·스펙·확정
 │   ├── statistical_analysis_plan.md           # 사전 등록 SAP (확정본)
+│   ├── hybrid_followup_spec.md                # 탐색적 Hybrid register 설계(확정본)
 │   └── full_run_execution_order.md            # 확장 실행 순서 고정 문서
 ├── data/
 │   ├── scenarios/                # Content Scaffold (GPT-4o 생성)
-│   ├── generated_text/           # 스타일별 Gold Transcript
+│   ├── generated_text/           # 스타일별 Gold Transcript(Hybrid 포함)
 │   ├── audio/                    # TTS 음성 파일 (git 추적 안 함)
 │   ├── stt_transcripts/          # Whisper 전사 결과
 │   └── entities/                 # Entity 추출/매칭 결과
 ├── src/
 │   ├── pipeline_utils.py          # Skip-by-default 안전장치 (RunLog, --overwrite)
 │   ├── scaffold/                  # Content Scaffold schema 및 생성
-│   ├── style_controller/          # Documentation Register 규칙
+│   ├── style_controller/          # Documentation Register 규칙(Hybrid 포함)
 │   ├── generation/                # GPT-4o 문서 생성
 │   ├── tts/                       # 음성 합성
 │   ├── stt/                       # 음성 인식
 │   ├── entity_extraction/         # Closed/open-vocabulary 추출
 │   ├── matching/                  # Entity 매칭, semantic matching
 │   ├── evaluation/                # WER, entity evaluation, CCER
-│   └── analysis/                  # Error profile, power analysis, 통계 검정, SAP 1-4
+│   └── analysis/                  # Error profile, 통계 검정, SAP 1-5,
+│                                     hybrid_followup, hybrid_manipulation_check
 ├── results/
 │   ├── pilot_15/                  # v1/v2/v3 체크포인트(15샘플 파일럿, 보존)
 │   ├── full_50/                   # 50-scenario 체크포인트(보존)
 │   ├── full_100/                  # v3(v4 수정 전) 100-scenario 체크포인트(보존)
-│   └── full_100_v4/               # 최종 결과 (100 시나리오, 편향 보정)
+│   ├── full_100_v4/               # 최종 결과, 3-register primary 분석(편향 보정)
+│   └── hybrid_followup/           # 탐색적 Hybrid register 결과(full_100_v4/와 분리)
 └── tests/                          # 유닛 테스트
 ```
 
@@ -354,7 +444,12 @@ pytest tests/ -q
   v4 — 위 §3.5에서 설명한 style-invariant closed-vocabulary 추출 수정의
   감사·스펙·확정 문서
 - [`docs/statistical_analysis_plan.md`](docs/statistical_analysis_plan.md):
-  사전 등록된 통계 분석 계획(실행 전 확정)
+  사전 등록된 통계 분석 계획(실행 전 확정), §3.6에서 설명한 사후
+  추가된 Macro-CCER 분석 포함
+- [`docs/hybrid_followup_spec.md`](docs/hybrid_followup_spec.md):
+  §3.7에서 설명한 탐색적 Hybrid register의 설계 명세(block mapping,
+  사전 등록 가설, manipulation-check 계획) — Hybrid 데이터 생성
+  이전에 확정
 - [`docs/full_run_execution_order.md`](docs/full_run_execution_order.md):
   5→100 시나리오 확장 시 이미 계산된 결과를 훼손하지 않도록 고정한 실행
   체크리스트

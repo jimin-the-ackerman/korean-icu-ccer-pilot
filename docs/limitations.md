@@ -284,8 +284,33 @@ STT-noise effect unrelated to the style bias v4 was designed to fix.
   attribution with certainty (as opposed to a remaining, undetected
   extraction gap) is left as Future Work.
 
+## 15. Exploratory Hybrid Register: Single Design, Possible Confounds Not Fully Isolated
+
+The Hybrid register (`docs/hybrid_followup_spec.md`, results in
+`results/hybrid_followup/`) was built and evaluated as a single, frozen
+mapping rather than iterated over multiple candidate designs, specifically
+to avoid a subtler form of post-hoc tuning — but this also means no
+alternative block mapping was tested for comparison, so it is not known
+whether a different entity-to-register assignment would perform better
+or worse. Several entity types that use an *unchanged* rendering rule
+between Formal Template and Hybrid (`vital_sign`, `symptom`,
+`intervention`, `notification`) nonetheless showed improved CCER under
+Hybrid, which cannot be mechanistically attributed to the block-remapping
+design itself and plausibly reflects ordinary TTS/STT run-to-run
+stochastic variation; this means part of Hybrid's aggregate advantage
+over Formal Template may be inflated by noise rather than the register
+redesign, although the `device`/`dose`/`route` improvements (where the
+rendering rule *did* change) and the significant scenario-level paired
+test are not subject to this particular caveat. No reverse-Hybrid control
+condition (e.g. vital signs rendered Clinical-style, medication events
+rendered Formal-style) was tested, so the specific causal contribution of
+each block assignment, versus "any hybrid design," is not isolated.
+
 ## Future Work
 
+- A dedicated, properly powered Hybrid follow-up with a reverse-hybrid
+  control condition to isolate which specific register-to-entity
+  assignment drives the observed improvement (addresses Limitation 15)
 - Deduplicate identical closed-vocab values within a single text before
   matching, so a device mentioned twice in one note is not double-counted
   (addresses Limitation 11)
