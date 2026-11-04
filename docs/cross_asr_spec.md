@@ -145,6 +145,7 @@ that CCER measures patient harm; general evaluator stability from two runs.
 | 2026-11-04 | CLOVA params: added `diarization: {enable: false}` (before: not specified, i.e. API default `enable: true`) | See note 10.1 |
 | 2026-11-04 | Protocol revision 1.1: CLOVA excluded from main analysis; Google Chirp 3 added; language-configuration conditions A/B; scope, TTS and analysis priorities fixed | See Section 11 |
 | 2026-11-04 | Protocol revision 1.2: Condition B extended from pilot 30 to all 300 (deviation from 11.2) | See Section 11.5 |
+| 2026-11-04 | Transcription completed; one empty response (chirp3_auto); suspected TTS defects and their handling recorded | See Section 12 |
 
 ### 10.1 CLOVA diarization setting (2026-11-04)
 
@@ -251,3 +252,56 @@ The config key `version` stays "1.0" because the settings of the existing condit
 - Implementation: `scope: pilot` removed from the three Condition B keys in
   `configs/cross_asr.yaml`. Scope is not part of the reuse metadata, so outputs already generated
   remain valid and are not re-sent; `version` stays "1.0".
+
+## 12. Transcription run notes (2026-11-04)
+
+### 12.1 Completion
+
+| Condition | Valid outputs | How produced |
+|---|---|---|
+| `whisper1` (A) | 300 | existing v4 transcripts reused (0 requests) |
+| `gpt4o_transcribe` (A) | 300 | 6 diagnostic + 294 (294 requests) |
+| `chirp3_ko` (A) | 300 | 1 access test + 299 (299 requests) |
+| `whisper1_auto` (B) | 300 | 30 pilot + 270 after revision 1.2 |
+| `gpt4o_transcribe_auto` (B) | 300 | 300 |
+| `chirp3_auto` (B) | 299 | 1 access test + 187 + 111; 1 empty response (12.2) |
+
+In the run summaries of the main runs (after revision 1.1) the number of API requests equals the
+number of outputs written, except for the stopped `chirp3_auto` run (188 requests, 187 outputs; the
+extra request is the empty response in 12.2), so no retry occurred. Run logs in
+`data/cross_asr/<condition>/logs/` are kept locally.
+
+### 12.2 Empty response: `chirp3_auto` / `scenario_063_telegraphic_icu`
+
+- One request for this sample returned without error but with no transcript text. By design an
+  empty transcript stops the run (to catch configuration faults), so the run stopped and no file was
+  written for this sample. The raw response is not retained; the sample was not re-requested.
+- The remaining 111 samples were transcribed with `--samples` listing all other samples (no code change).
+- Handling rule, fixed before any evaluation: in the CCER evaluation this sample is scored for
+  `chirp3_auto` as an empty transcript (no entity extracted, so every gold entity counts as an
+  omission). The rule is applied in the evaluation step, not by writing a file into
+  `stt_transcripts/`. Reported as 1 empty response out of 300.
+
+### 12.3 Suspected TTS defects
+
+- `scenario_007_clinical_charting`: on listening (2026-11-04), some vital-sign numbers appear to be
+  spoken differently from the Gold text (BP 130/85, HR 95, BT 37.2); all ASR systems mis-transcribe
+  this span.
+- `scenario_063_telegraphic_icu`: on listening (2026-11-04), the first part (age to vital signs) is
+  unintelligible. All five other ASR outputs fail on this span (Condition A CER 0.73-0.94;
+  gpt-4o-transcribe produced Irish-like text), while the English span that follows is mostly recognized.
+- Audio and Gold texts are not modified. Both samples are also part of the completed v4 baseline,
+  whose results are not changed.
+- Screening: a fixed criterion (CER >= 0.5, as computed by `compare_transcripts.py`, in all three
+  Condition A systems) flagged only `scenario_063_telegraphic_icu`. The criterion detects whole-span
+  failures, not number-level mispronunciations such as in `scenario_007`; further cases may be
+  checked by limited listening and will be added here.
+- Analysis: the primary analysis includes both samples. A sensitivity analysis excludes scenarios
+  007 and 063 (all three styles, so that paired style comparisons stay balanced). Errors in these
+  spans are not interpreted as ASR errors alone.
+
+### 12.4 Chirp 3 language detection (descriptive)
+
+- `chirp3_ko`: `detected_language_codes` = `ko-KR` for all 300.
+- `chirp3_auto`: `ko` 245, `en` 52, `gn` 1, `und` 1, plus the empty response (12.2).
+  Reported descriptively within Condition B.
