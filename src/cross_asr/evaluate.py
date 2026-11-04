@@ -40,6 +40,8 @@ Safety
     Gold-text    if the (unused) gold-text extraction fails the v4 structure check in all 3 v4 attempts
     exception    and every attempt was a successful API response, gold_entities is stored as null with
                  the cause (spec 12.5); API errors, transcript extraction and matching failures still stop
+    Nested JSON  an extraction response whose only field "symptoms" is a JSON-object string that passes
+    repair       the v4 check after parsing is used as that object (spec 12.6); recorded per call
     Lock         data/cross_asr/<asr>/logs/.evaluate.lock prevents two runs of the same condition
     Writes       atomic (temporary file + rename); existing outputs are never overwritten
     Checks       --plan: whisper1 closed-vocab matches vs saved v4; empty-response rule output vs the
@@ -58,6 +60,7 @@ import sys
 import time
 import traceback
 from collections import Counter
+from types import SimpleNamespace
 from pathlib import Path
 
 from dotenv import load_dotenv
@@ -89,6 +92,7 @@ class LoggingClient:
         self._real = real
         self.calls = []
         self.current = None
+        self.stage = None            # "gold" | "transcript" | "matching" (set by the loop, for the log)
         self.reference_model = reference_model
         self.messages = self
 
@@ -121,8 +125,48 @@ class LoggingClient:
             self.calls.append(rec)
             raise FatalAPIError(f"response model {got!r} differs from reference {self.reference_model!r} "
                                 f"(response not used)")
+        rec["stage"] = self.stage
+        resp = repair_nested_extraction(resp, kwargs, rec)
         self.calls.append(rec)
         return resp
+
+
+EXTRACTION_TOOL_NAME = "record_clinical_entities"
+
+
+def repair_nested_extraction(resp, kwargs: dict, rec: dict):
+    """Spec 12.6: complete the v4 nested-JSON repair for open-vocab extraction responses.
+
+    The model sometimes returns the whole extraction as a JSON string inside "symptoms". The v4
+    repair (repair_nested_json_string) restores only "symptoms" and drops the other fields, so the
+    response fails the v4 check. Here the first tool_use block of the extraction tool (the block v4
+    reads) is replaced by the parsed object only if ALL hold:
+      1. its input has exactly one key, "symptoms";
+      2. that value is a string that parses (json.loads) to a JSON object;
+      3. the parsed object passes the v4 check is_valid_extraction.
+    Nothing is generated, changed or filled in; otherwise the response is returned untouched and the
+    v4 retry / stop policy applies. Matching responses are never touched."""
+    if (kwargs.get("tool_choice") or {}).get("name") != EXTRACTION_TOOL_NAME:
+        return resp
+    content = list(getattr(resp, "content", None) or [])
+    idx = next((i for i, b in enumerate(content)
+                if getattr(b, "type", None) == "tool_use" and getattr(b, "name", None) == EXTRACTION_TOOL_NAME), None)
+    if idx is None:
+        return resp
+    inp = getattr(content[idx], "input", None)
+    if not (isinstance(inp, dict) and list(inp) == ["symptoms"] and isinstance(inp["symptoms"], str)):
+        return resp
+    try:
+        parsed = json.loads(inp["symptoms"])
+    except (json.JSONDecodeError, TypeError):
+        return resp
+    from src.entity_extraction.run_open_vocab_extraction import is_valid_extraction
+    if not (isinstance(parsed, dict) and is_valid_extraction(parsed)):
+        return resp
+    content[idx] = SimpleNamespace(type="tool_use", name=EXTRACTION_TOOL_NAME, input=parsed)
+    rec["nested_json_repaired"] = True
+    return SimpleNamespace(content=content, model=getattr(resp, "model", None),
+                           usage=getattr(resp, "usage", None), stop_reason=getattr(resp, "stop_reason", None))
 
 
 # ---------- helpers ----------
@@ -435,6 +479,7 @@ def main() -> int:
                         rec = {"sample_id": sid}
                         n_gold = len(client.calls)
                         try:
+                            client.stage = "gold"
                             rec["gold_entities"] = extract_with_retry(client, model, gold_text, "gold")
                         except RuntimeError as e:
                             # Gold-text exception rule (spec 12.5): the gold-text extraction is not used
@@ -452,6 +497,7 @@ def main() -> int:
                                 "output_tokens": [c.get("output_tokens") for c in gold_calls]}
                             entry["gold_extraction_null"] = rec["gold_extraction_failed"]
                             print(f"  [{sid}] gold-text extraction stored as null (spec 12.5; not used by CCER)")
+                        client.stage = "transcript"
                         rec["whisper_entities"] = extract_with_retry(client, model, text, "whisper")
                     write_json_atomic(ent_dir / f"{sid}_open.json", rec)
                 stage = "matching"
@@ -469,6 +515,7 @@ def main() -> int:
                     matched["open_vocab_matches"] = om
                     matched["empty_response_rule"] = "docs/cross_asr_spec.md 12.2 (no API call)"
                 else:
+                    client.stage = "matching"
                     matched["open_vocab_matches"] = match_with_retry(client, model, gold_open,
                                                                      opened["whisper_entities"], sid)
                 write_json_atomic(ent_dir / f"{sid}_matched.json", matched)
@@ -508,6 +555,8 @@ def main() -> int:
             "output_tokens": sum(c.get("output_tokens") or 0 for c in ok_calls),
             "abort": abort,
             "gold_extraction_null": [e["sample_id"] for e in log["entries"] if e.get("gold_extraction_null")],
+            "nested_json_repaired": [{"sample_id": c["sample_id"], "stage": c["stage"]}
+                                     for c in client.calls if c.get("nested_json_repaired")],
         }
         if n_proc:
             log["summary"]["per_sample_tokens"] = {"input": round(log["summary"]["input_tokens"] / n_proc),
@@ -527,6 +576,8 @@ def main() -> int:
     print(f"response models    : {sm['response_models']}")
     if sm["gold_extraction_null"]:
         print(f"gold-text null     : {sm['gold_extraction_null']}  (spec 12.5; not used by CCER)")
+    if sm["nested_json_repaired"]:
+        print(f"nested JSON repair : {sm['nested_json_repaired']}  (spec 12.6)")
     if "per_sample_tokens" in sm:
         print(f"per sample (mean)  : {sm['per_sample_tokens']['input']} input / "
               f"{sm['per_sample_tokens']['output']} output tokens")

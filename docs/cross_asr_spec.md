@@ -137,6 +137,9 @@ ICU audio; how its size differs by system; limits on interpretation from notatio
 Cannot claim: generalisation to real ICU nurse speech; causal superiority of an ASR architecture;
 that CCER measures patient harm; general evaluator stability from two runs.
 
+Evaluation-procedure differences from the September v4 run (Sections 12.5 and 12.6) are reported
+as methodological limitations.
+
 ## 10. Change log
 
 | Date | Change | Reason |
@@ -147,6 +150,7 @@ that CCER measures patient harm; general evaluator stability from two runs.
 | 2026-11-04 | Protocol revision 1.2: Condition B extended from pilot 30 to all 300 (deviation from 11.2) | See Section 11.5 |
 | 2026-11-04 | Transcription completed; one empty response (chirp3_auto); suspected TTS defects and their handling recorded | See Section 12 |
 | 2026-11-05 | Gold-text extraction exception rule (unused field; API errors still stop the run) | See Section 12.5 |
+| 2026-11-05 | Completed nested-JSON repair for open-vocab extraction (parsing only; prompts and settings unchanged) | See Section 12.6 |
 
 ### 10.1 CLOVA diarization setting (2026-11-04)
 
@@ -327,3 +331,30 @@ extra request is the empty response in 12.2), so no retry occurred. Run logs in
   September v4 results are unchanged.
 - Occurrences: listed per condition when the evaluation is complete. Known so far:
   `whisper1` / `scenario_075_clinical_charting`.
+
+### 12.6 Completed nested-JSON repair for open-vocab extraction (2026-11-05)
+
+- Diagnosis (2 diagnostic calls with the unchanged v4 extraction call; raw responses in
+  `data/cross_asr/diagnostics/eval_extraction/`): the failures in 12.5 (`whisper1` /
+  `scenario_075_clinical_charting`, gold text) and in `whisper1` / `scenario_083_telegraphic_icu`
+  (transcript extraction; the run stopped after 3 of 3 attempts) were single tool_use responses in
+  which the model returned the complete extraction as a JSON string inside the `symptoms` field.
+  The v4 function `repair_nested_json_string` (added for this case in `926f938`) restores only
+  `symptoms` and drops the other five fields, so the v4 check fails. In the diagnostic call the 083
+  transcript extraction came back normally (intermittent); the 075 gold-text response was nested again.
+- Rule (in `src/cross_asr/evaluate.py`; v4 code unchanged): an extraction response is used as the
+  parsed object only if all hold: (1) the first extraction tool_use block has exactly one key,
+  `symptoms`; (2) its value is a string that parses to a JSON object; (3) the parsed object passes
+  the v4 check `is_valid_extraction`. Nothing is generated, modified or filled with defaults. Any
+  other failure follows the v4 retry and stop policy (and 12.5 for the unused gold-text field).
+  Matching responses are never modified.
+- Scope: gold-text and transcript extraction of all conditions evaluated after this change. The 248
+  `whisper1` samples evaluated before it are not changed or re-evaluated; a nested response fails the
+  v4 check, so none of them used one.
+- Logged: each repaired call has `nested_json_repaired: true` with sample_id and stage
+  (gold / transcript) in the run log, and each run summary lists them. Counts per condition and
+  stage are reported here when the evaluation is complete.
+- Method difference from v4 (stated as a limitation): in the September run such responses were
+  discarded and the call retried by the v4 loop; here they are used. Both are complete extractions
+  by the same model, so no systematic score difference is expected, but the two runs are not
+  procedurally identical.
