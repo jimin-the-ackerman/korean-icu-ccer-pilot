@@ -60,7 +60,7 @@ and fixes the pilot set (10 scenarios × 3 styles, seed 20261103).
 |---|---|---|
 | `whisper1` | existing transcripts reused (no new call) | `whisper-1`, language `ko`, no prompt |
 | `gpt4o_transcribe` | new | `gpt-4o-transcribe`, language `ko`, no prompt |
-| `clova_enko` | new | CLOVA Speech `/recognizer/upload`, language `enko`, completion `sync`, other params API default; no boostings/forbiddens/domain boosting |
+| `clova_enko` | new | CLOVA Speech `/recognizer/upload`, language `enko`, completion `sync`, `diarization.enable=false` (added 2026-11-04, Section 10), other params API default; no boostings/forbiddens/domain boosting |
 
 Settings were fixed from documentation before any pilot output was seen. Because language
 options differ in meaning across systems, the comparison is between ASR *systems* as configured,
@@ -142,3 +142,25 @@ that CCER measures patient harm; general evaluator stability from two runs.
 | Date | Change | Reason |
 |---|---|---|
 | 2026-11-03 | Protocol frozen (Version 1.0) | — |
+| 2026-11-04 | CLOVA params: added `diarization: {enable: false}` (before: not specified, i.e. API default `enable: true`) | See note 10.1 |
+
+### 10.1 CLOVA diarization setting (2026-11-04)
+
+- What happened: the access check (`--pilot --limit 1`, sample `scenario_007_clinical_charting`, 1 request)
+  returned HTTP 400 `{"result":"ERROR_REQUEST_PARAMETER","message":"speaker detect is off"}`.
+  No transcript was produced and no output file was written.
+- Presumed cause (not confirmed): the request did not set `diarization`, so the API default
+  `diarization.enable = true` (speaker diarization) applied, while speaker detection appears to be
+  off for the CLOVA Speech domain used. The error code is not listed on the local-file recognition
+  page; the cause is inferred from the message and the documented default.
+- Parameter check: Ncloud API docs, CLOVA Speech local file recognition — `params.diarization`
+  (Object, optional) and `params.diarization.enable` (Boolean, optional, default `true`;
+  `true` = speaker diarization, `false` = no speaker diarization).
+- Change: `diarization: {enable: false}` added to `asr_systems.clova_enko.params` in
+  `configs/cross_asr.yaml`. All other CLOVA params remain API defaults; language `enko` and
+  completion `sync` unchanged. `version` stays "1.0" so that existing whisper1/gpt4o outputs remain
+  valid; CLOVA outputs record the full `params` in `stt_metadata`, so the setting is traceable.
+- Rationale: the audio is single-speaker TTS and diarization only assigns speaker labels; it is not
+  a transcription-text setting. The decision was made before any valid CLOVA transcript existed,
+  so it was not informed by CLOVA output.
+- Whether this resolves the error is verified by one further request (`--limit 1`).

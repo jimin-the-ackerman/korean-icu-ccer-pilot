@@ -43,6 +43,8 @@ asr_systems:
     params:                            # all other params left at API defaults
       language: enko                   # Korean+English simultaneous recognition
       completion: sync
+      diarization:                     # added 2026-11-04 (docs/cross_asr_spec.md Section 10):
+        enable: false                  # API default true was rejected: HTTP 400 "speaker detect is off"
     # no boostings, no forbiddens, no useDomainBoostings
 
 analysis:
