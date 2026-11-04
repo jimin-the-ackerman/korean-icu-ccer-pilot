@@ -1,10 +1,15 @@
 """
 ASR transcription for the Cross-ASR experiment (docs/cross_asr_spec.md, Section 4).
 
-Systems (settings fixed in configs/cross_asr.yaml):
-    whisper1          reuse existing data/stt_transcripts (no API call; copies the 300 primary files)
-    gpt4o_transcribe  OpenAI gpt-4o-transcribe, language "ko", no prompt          (paid API)
-    clova_enko        CLOVA Speech /recognizer/upload, language "enko", sync     (paid API)
+Conditions (settings fixed in configs/cross_asr.yaml; see docs/cross_asr_spec.md Section 11):
+    whisper1               reuse existing data/stt_transcripts (no API call)        Condition A
+    gpt4o_transcribe       OpenAI gpt-4o-transcribe, language "ko"                  Condition A
+    chirp3_ko              Google Speech-to-Text V2 chirp_3, language_codes [ko-KR] Condition A
+    whisper1_auto          OpenAI whisper-1, language parameter omitted             Condition B (pilot only)
+    gpt4o_transcribe_auto  OpenAI gpt-4o-transcribe, language parameter omitted     Condition B (pilot only)
+    chirp3_auto            chirp_3, language_codes [auto]                           Condition B (pilot only)
+    clova_enko             CLOVA Speech (excluded from main analysis; code kept)
+    All paid conditions: no prompt, no vocabulary/phrase adaptation.
 
 Input  : the 300 primary audio files listed in data/cross_asr/audio_manifest.csv
          (the manifest outputs must be complete and consistent; each audio file's SHA-256 is
@@ -16,8 +21,8 @@ Logs   : data/cross_asr/<asr>/logs/transcribe_<UTC timestamp>.json
          (kept outside stt_transcripts/ because the existing loaders read every *.json there)
 
 Request control:
-    - At most MAX_ATTEMPTS (3) requests per sample. The OpenAI SDK's own retries are disabled
-      (max_retries=0), so every request that reaches the API is one counted by this script.
+    - At most MAX_ATTEMPTS (3) requests per sample. Client-library retries are disabled
+      (OpenAI max_retries=0; Google retry=None), so every request is one counted by this script.
     - Retried only on transient errors: HTTP 429, HTTP 5xx, connection errors and timeouts.
     - Stopped immediately (whole run) on configuration/authentication errors: other HTTP 4xx
       (400/401/403/404 ...), an unexpected CLOVA result, or an empty transcript.
@@ -29,6 +34,9 @@ Safety:
     --pilot      only the 30 pilot samples (data/cross_asr/pilot_samples.json)
     --limit N    process at most N samples that still need transcription (e.g. --limit 1 access check)
     --samples    comma-separated sample_ids, restricted to the selected targets (e.g. pilot samples)
+    Scope        a condition with `scope: pilot` in the config refuses to run without --pilot
+    Chirp limit  synchronous Recognize accepts local audio up to 60 s / 10 MB; longer files are
+                 refused before sending
     Resume       an existing output is reused only if sample_id, audio SHA-256, ASR system, provider,
                  model/language (or CLOVA endpoint/params) and config version all match; otherwise
                  the run stops before any API call (nothing is overwritten)
@@ -56,11 +64,13 @@ from src.cross_asr.common import load_cross_asr_config, sha256_file, git_commit,
 MANIFEST, PILOT, SUMMARY = "audio_manifest.csv", "pilot_samples.json", "manifest_summary.json"
 MAX_ATTEMPTS = 3                 # total requests per sample, including the first
 BACKOFF_SECONDS = [5, 20]        # wait before attempt 2 and 3 (or Retry-After, capped at 60 s)
-REQUIRED_ENV = {
-    "whisper1": [],
-    "gpt4o_transcribe": ["OPENAI_API_KEY"],
-    "clova_enko": ["CLOVA_SPEECH_INVOKE_URL", "CLOVA_SPEECH_SECRET_KEY"],
+REQUIRED_ENV = {                 # by provider
+    "reuse_existing": [],
+    "openai": ["OPENAI_API_KEY"],
+    "clova": ["CLOVA_SPEECH_INVOKE_URL", "CLOVA_SPEECH_SECRET_KEY"],
+    "google": ["GOOGLE_CLOUD_PROJECT"],      # credentials via gcloud Application Default Credentials
 }
+GOOGLE_SYNC_MAX_SECONDS, GOOGLE_SYNC_MAX_BYTES = 60.0, 10_000_000
 
 
 class FatalError(Exception):
@@ -117,6 +127,9 @@ def expected_metadata(asr: str, settings: dict, cfg: dict) -> dict:
     exp = {"asr_system": asr, "provider": settings["provider"], "config_version": cfg["version"]}
     if settings["provider"] in ("openai", "reuse_existing"):
         exp.update({"model": settings["model"], "language": settings["language"]})
+    if settings["provider"] == "google":
+        exp.update({"model": settings["model"], "location": settings["location"],
+                    "language_codes": settings["language_codes"]})
     if settings["provider"] == "clova":
         exp.update({"endpoint": settings["endpoint"], "params": settings["params"]})
     return exp
@@ -184,14 +197,16 @@ class OpenAIBackend:
         # max_retries=0: the SDK does not retry on its own; this script counts every request.
         self.client = openai.OpenAI(max_retries=0, timeout=600)   # key from OPENAI_API_KEY
         self.model = settings["model"]
-        self.language = settings["language"]
+        self.language = settings["language"]      # None = parameter omitted (Condition B)
 
     def __call__(self, cfg, sample_id, audio_path: Path):
         o = self.openai
+        kwargs = {"model": self.model}
+        if self.language is not None:
+            kwargs["language"] = self.language
         try:
             with open(audio_path, "rb") as f:
-                resp = self.client.audio.transcriptions.create(
-                    model=self.model, language=self.language, file=f)
+                resp = self.client.audio.transcriptions.create(file=f, **kwargs)
         except o.APIStatusError as e:
             msg = f"HTTP {e.status_code}: {str(e)[:300]}"
             if e.status_code == 429 or e.status_code >= 500:
@@ -256,6 +271,44 @@ class ClovaBackend:
         return raw.get("text", ""), raw
 
 
+class GoogleChirpBackend:
+    """Speech-to-Text V2 synchronous Recognize with chirp_3 (inline MP3, auto decoding).
+    Credentials: Application Default Credentials (gcloud auth application-default login)."""
+
+    def __init__(self, settings: dict):
+        from google.api_core import exceptions as gexc
+        from google.api_core.client_options import ClientOptions
+        from google.cloud.speech_v2 import SpeechClient
+        from google.cloud.speech_v2.types import cloud_speech
+        self.gexc, self.cs = gexc, cloud_speech
+        loc = settings["location"]
+        self.client = SpeechClient(client_options=ClientOptions(api_endpoint=f"{loc}-speech.googleapis.com"))
+        self.recognizer = f"projects/{os.environ['GOOGLE_CLOUD_PROJECT']}/locations/{loc}/recognizers/_"
+        self.config = cloud_speech.RecognitionConfig(
+            auto_decoding_config=cloud_speech.AutoDetectDecodingConfig(),
+            language_codes=list(settings["language_codes"]),
+            model=settings["model"],
+        )
+
+    def __call__(self, cfg, sample_id, audio_path: Path):
+        g = self.gexc
+        content = audio_path.read_bytes()
+        req = self.cs.RecognizeRequest(recognizer=self.recognizer, config=self.config, content=content)
+        try:
+            resp = self.client.recognize(request=req, retry=None, timeout=600)
+        except (g.TooManyRequests, g.ResourceExhausted, g.ServiceUnavailable,
+                g.InternalServerError, g.DeadlineExceeded, g.GatewayTimeout) as e:
+            raise TransientError(f"{type(e).__name__}: {str(e)[:300]}")
+        except g.GoogleAPICallError as e:          # 400/401/403/404 ... configuration or access
+            raise FatalError(f"{type(e).__name__}: {str(e)[:300]}")
+        except Exception as e:                     # e.g. credentials not found
+            raise FatalError(f"{type(e).__name__}: {str(e)[:300]}")
+        raw = type(resp).to_dict(resp)
+        parts = [r.alternatives[0].transcript.strip() for r in resp.results if r.alternatives]
+        raw["detected_language_codes"] = [r.language_code for r in resp.results]
+        return " ".join(p for p in parts if p), raw
+
+
 def make_backend(settings: dict):
     if settings["provider"] == "reuse_existing":
         return transcribe_whisper1_reuse
@@ -263,6 +316,8 @@ def make_backend(settings: dict):
         return OpenAIBackend(settings)
     if settings["provider"] == "clova":
         return ClovaBackend(settings)
+    if settings["provider"] == "google":
+        return GoogleChirpBackend(settings)
     raise SystemExit(f"STOP: unknown provider {settings['provider']}")
 
 
@@ -270,7 +325,7 @@ def make_backend(settings: dict):
 
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
-    ap.add_argument("--asr", required=True, choices=["whisper1", "gpt4o_transcribe", "clova_enko"])
+    ap.add_argument("--asr", required=True, help="condition key in configs/cross_asr.yaml asr_systems")
     ap.add_argument("--pilot", action="store_true", help="only the 30 pilot samples")
     ap.add_argument("--plan", action="store_true", help="no API call, no file written")
     ap.add_argument("--limit", type=int, default=None, help="process at most N samples needing work")
@@ -281,7 +336,13 @@ def main() -> int:
 
     load_dotenv()
     cfg = load_cross_asr_config()
+    if args.asr not in cfg["asr_systems"]:
+        print(f"STOP: unknown condition {args.asr!r}; available: {sorted(cfg['asr_systems'])}")
+        return 1
     settings = cfg["asr_systems"][args.asr]
+    if settings.get("scope") == "pilot" and not args.pilot:
+        print(f"STOP: {args.asr} is limited to the pilot by protocol (scope: pilot) - add --pilot")
+        return 1
     manifest = load_manifest(cfg)
     targets = select_samples(cfg, manifest, args.pilot)
     if args.samples:
@@ -303,11 +364,15 @@ def main() -> int:
     if args.limit is not None:
         todo = todo[:args.limit]
     leftovers = sorted(p.name for p in stt_dir.glob(".*.tmp-*")) if stt_dir.exists() else []
-    env_ok = {k: bool(os.environ.get(k)) for k in REQUIRED_ENV[args.asr]}
+    env_ok = {k: bool(os.environ.get(k)) for k in REQUIRED_ENV[settings["provider"]]}
     paid = settings["provider"] != "reuse_existing"
     minutes = sum(float(manifest[s]["duration_sec"]) for s in todo) / 60
 
     url_note = ""
+    too_long = []
+    if settings["provider"] == "google":
+        too_long = [s for s in todo if float(manifest[s]["duration_sec"]) > GOOGLE_SYNC_MAX_SECONDS
+                    or int(manifest[s]["bytes"]) > GOOGLE_SYNC_MAX_BYTES]
     if settings["provider"] == "clova" and env_ok.get("CLOVA_SPEECH_INVOKE_URL"):
         try:
             u = clova_url(os.environ["CLOVA_SPEECH_INVOKE_URL"], settings["endpoint"])
@@ -325,11 +390,22 @@ def main() -> int:
     if paid:
         print(f"audio to send      : {minutes:.2f} min")
         print(f"API requests       : {len(todo)} minimum, {len(todo) * MAX_ATTEMPTS} maximum "
-              f"(<= {MAX_ATTEMPTS} per sample, transient errors only; SDK retries disabled)")
+              f"(<= {MAX_ATTEMPTS} per sample, transient errors only; client-library retries disabled)")
     else:
         print("API requests       : 0 (no API call)")
     if url_note:
         print(f"CLOVA URL check    : {url_note}")
+    if settings["provider"] == "google":
+        longest = max((float(manifest[s]["duration_sec"]) for s in todo), default=0.0)
+        print(f"sync limit check   : longest {longest:.1f} s; over 60 s / 10 MB: {len(too_long)}")
+        adc = "not checked"
+        try:
+            import google.auth
+            google.auth.default()
+            adc = "available"
+        except Exception as e:
+            adc = f"NOT AVAILABLE ({type(e).__name__})"
+        print(f"Google ADC         : {adc}  (no credential details shown)")
     print(f"output dir         : {stt_dir}")
     if todo:
         print(f"files to create    : {len(todo)} x {stt_dir}/<sample_id>.json  (first: {todo[0]}.json)")
@@ -349,6 +425,12 @@ def main() -> int:
         return 1
     if url_note.startswith("INVALID"):
         print("STOP: CLOVA Invoke URL is not usable")
+        return 1
+    if too_long:
+        print(f"STOP: {len(too_long)} file(s) exceed the synchronous Recognize limit: {too_long[:3]}")
+        return 1
+    if settings["provider"] == "google" and adc != "available":
+        print("STOP: Google Application Default Credentials not available")
         return 1
     if args.plan:
         print("PLAN ONLY - no API call, no file written")

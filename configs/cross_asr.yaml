@@ -46,6 +46,33 @@ asr_systems:
       diarization:                     # added 2026-11-04 (docs/cross_asr_spec.md Section 10):
         enable: false                  # API default true was rejected: HTTP 400 "speaker detect is off"
     # no boostings, no forbiddens, no useDomainBoostings
+    # 2026-11-04: excluded from the main analysis (docs/cross_asr_spec.md Section 11); kept for record
+
+  # ---- added 2026-11-04 (protocol revision 1.1, docs/cross_asr_spec.md Section 11) ----
+  # Settings below were fixed before any output of these conditions existed.
+  # Existing conditions above are unchanged, so `version` stays "1.0" and their outputs remain valid.
+  chirp3_ko:                           # Condition A (primary, all 300)
+    provider: google
+    model: chirp_3
+    location: us                       # Speech-to-Text V2 multi-region (GA for chirp_3)
+    language_codes: [ko-KR]
+    # synchronous Recognize, inline MP3, AutoDetectDecodingConfig; no adaptation, no denoiser
+  whisper1_auto:                       # Condition B (exploratory, pilot 30 only)
+    provider: openai
+    model: whisper-1
+    language: null                     # `language` parameter omitted
+    scope: pilot
+  gpt4o_transcribe_auto:               # Condition B (exploratory, pilot 30 only)
+    provider: openai
+    model: gpt-4o-transcribe
+    language: null                     # `language` parameter omitted
+    scope: pilot
+  chirp3_auto:                         # Condition B (exploratory, pilot 30 only)
+    provider: google
+    model: chirp_3
+    location: us
+    language_codes: [auto]             # documented as inferring the most prevalent language
+    scope: pilot
 
 analysis:
   bootstrap_iterations: 2000

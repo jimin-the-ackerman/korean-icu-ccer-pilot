@@ -143,6 +143,7 @@ that CCER measures patient harm; general evaluator stability from two runs.
 |---|---|---|
 | 2026-11-03 | Protocol frozen (Version 1.0) | — |
 | 2026-11-04 | CLOVA params: added `diarization: {enable: false}` (before: not specified, i.e. API default `enable: true`) | See note 10.1 |
+| 2026-11-04 | Protocol revision 1.1: CLOVA excluded from main analysis; Google Chirp 3 added; language-configuration conditions A/B; scope, TTS and analysis priorities fixed | See Section 11 |
 
 ### 10.1 CLOVA diarization setting (2026-11-04)
 
@@ -164,3 +165,72 @@ that CCER measures patient harm; general evaluator stability from two runs.
   a transcription-text setting. The decision was made before any valid CLOVA transcript existed,
   so it was not informed by CLOVA output.
 - Whether this resolves the error is verified by one further request (`--limit 1`).
+
+## 11. Protocol revision 1.1 (2026-11-04)
+
+Sections 1–10 remain the record of Version 1.0. Where this section differs, it takes precedence.
+The config key `version` stays "1.0" because the settings of the existing conditions (`whisper1`,
+`gpt4o_transcribe`) are unchanged and their outputs remain valid; revision 1.1 only adds conditions.
+
+### 11.1 ASR systems
+
+- **CLOVA Speech excluded from the main analysis.** After the diarization fix (note 10.1), one
+  CLOVA `enko` transcript (`scenario_007_clinical_charting`) rendered most Korean segments in
+  Latin-script romanization (e.g. "aquaro eonam" for "악화로 입원함") and lost most vital-sign values.
+  The exclusion was decided after viewing this single transcript and a 6-sample whisper-1 vs
+  gpt-4o-transcribe comparison; it is therefore a results-informed change and is reported as such.
+  The CLOVA code, the CLOVA transcript, the `ko-KR` diagnostic and all run logs are kept.
+- **Google Speech-to-Text V2 `chirp_3` added** as the third system. Settings fixed before any Chirp
+  output existed: location `us` (multi-region), synchronous `Recognize` with inline MP3 and
+  `AutoDetectDecodingConfig`, no adaptation/phrase hints, no denoiser; credentials via Application
+  Default Credentials. All 300 files are within the synchronous limit (60 s / 10 MB; longest 59.4 s,
+  largest 0.95 MB). **Inclusion criterion: feasibility only** (runs without error, outputs saved,
+  cost and time); transcription quality is a result and is not a reason for exclusion.
+- Note: the OpenAI API reference (accessed 2026-11-04) lists `whisper-1` and `gpt-4o-transcribe` as
+  deprecated with shutdown on 2027-02-26; this affects later reproduction, not this study.
+
+### 11.2 Language-configuration conditions
+
+| Condition | whisper-1 | gpt-4o-transcribe | chirp_3 | Scope |
+|---|---|---|---|---|
+| A (Korean specified) | `language="ko"` (existing) | `language="ko"` | `language_codes=["ko-KR"]` | all 300, **primary** |
+| B (not specified / auto) | `language` omitted | `language` omitted | `language_codes=["auto"]` | pilot 30 only, **exploratory** |
+
+- The scope (A: 300; B: pilot 30) was decided on 2026-11-04 for schedule reasons, **before any
+  Condition B output existed**. B is not extended or dropped on the basis of its results.
+- The two conditions are **not equivalent mechanisms across systems**: the OpenAI reference marks
+  `language` as optional and says supplying it improves accuracy and latency, but does not document
+  behaviour when it is omitted; Chirp 3 `auto` is documented as inferring the most prevalent language.
+  Neither documents intra-sentence code-switching. Language-configuration differences are therefore
+  interpreted per system, not as one common "auto-detection effect".
+- Condition labels: A = `whisper1`, `gpt4o_transcribe`, `chirp3_ko`;
+  B = `whisper1_auto`, `gpt4o_transcribe_auto`, `chirp3_auto` (config keys enforce `scope: pilot`).
+- The existing whisper-1 + `ko` result is the reference condition for comparison with the
+  completed CCER v4 study.
+
+### 11.3 Other scope decisions
+
+- **TTS:** the existing single TTS engine/voice only; cross-TTS is deferred to the journal extension.
+- **whisper-1 repeatability diagnostic (planned, low priority):** one representative file per style
+  (`scenario_007_clinical_charting`, `scenario_012_formal_template`, `scenario_018_telegraphic_icu`),
+  3 repeated `language="ko"` transcriptions each, stored under `data/cross_asr/diagnostics/`.
+  Differences from the September transcripts cannot separate a change over time from run-to-run
+  stochasticity; repeated runs only indicate the size of the latter.
+- **Evaluation reuse:** whether the September CCER v4 evaluation of the whisper-1 transcripts can be
+  reused instead of re-evaluation (Section 5) will be decided after a same-condition check; until
+  then the Version 1.0 rule (re-evaluate all conditions in the same run) applies. Evaluation rules
+  are not changed.
+- **Notation diagnostics (Section 8) additionally record** Hangul transliteration or translation of
+  English clinical terms, English spelled-out numbers/units ("percent", "milligram") and
+  romanized Korean, and classify CCER v4 misses of semantically preserved expressions separately.
+  Primary evaluation rules are not modified.
+
+### 11.4 Analysis priorities
+
+1. Primary (Condition A): per-system pooled micro-CCER by style, paired Δ_FC and Δ_FT with joint
+   scenario-level bootstrap CIs; Friedman / Wilcoxon-Holm as in v4.
+2. Condition B: exploratory descriptive statistics and error-case analysis only.
+3. Mixed-effects models (style × system, style × language configuration): only if time allows.
+4. Limitation stated in all outputs: language configuration does not mean the same thing across
+   systems (11.2).
+
