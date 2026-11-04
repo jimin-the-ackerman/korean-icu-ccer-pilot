@@ -146,6 +146,7 @@ that CCER measures patient harm; general evaluator stability from two runs.
 | 2026-11-04 | Protocol revision 1.1: CLOVA excluded from main analysis; Google Chirp 3 added; language-configuration conditions A/B; scope, TTS and analysis priorities fixed | See Section 11 |
 | 2026-11-04 | Protocol revision 1.2: Condition B extended from pilot 30 to all 300 (deviation from 11.2) | See Section 11.5 |
 | 2026-11-04 | Transcription completed; one empty response (chirp3_auto); suspected TTS defects and their handling recorded | See Section 12 |
+| 2026-11-05 | Gold-text extraction exception rule (unused field; API errors still stop the run) | See Section 12.5 |
 
 ### 10.1 CLOVA diarization setting (2026-11-04)
 
@@ -305,3 +306,24 @@ extra request is the empty response in 12.2), so no retry occurred. Run logs in
 - `chirp3_ko`: `detected_language_codes` = `ko-KR` for all 300.
 - `chirp3_auto`: `ko` 245, `en` 52, `gn` 1, `und` 1, plus the empty response (12.2).
   Reported descriptively within Condition B.
+
+### 12.5 Gold-text extraction exception (2026-11-05)
+
+- Background: per sample, the v4 procedure makes one open-vocab extraction call on the gold text.
+  Its result is not used by matching or CCER (matching uses the content scaffold; Section 5).
+  For `whisper1` / `scenario_075_clinical_charting` this call returned a successful API response
+  containing only `symptoms` (5 of the 6 required fields missing) in 3 of 3 v4 attempts, and again in
+  3 of 3 attempts in a resumed run (output 134-156 tokens, far below `max_tokens` 1024; response
+  model `claude-sonnet-5`). The run stopped both times.
+- Rule (decided 2026-11-05): if the gold-text extraction fails the v4 structure check
+  (`is_valid_extraction`) in all 3 v4 attempts and every attempt was a successful API response,
+  `gold_entities` is stored as null; the rule, cause, number of attempts and output tokens are
+  written to `_open.json` and the run log. Transcript extraction and semantic matching then proceed
+  unchanged.
+- Not covered (the run stops as before): any API error in any attempt (authentication, connection,
+  rate limit, server error, model change), and any failure of transcript extraction or semantic
+  matching.
+- Effect: none on matching or CCER (the field is not used). Prompts, scaffold, CCER formula and the
+  September v4 results are unchanged.
+- Occurrences: listed per condition when the evaluation is complete. Known so far:
+  `whisper1` / `scenario_075_clinical_charting`.

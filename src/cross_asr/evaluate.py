@@ -37,6 +37,9 @@ Safety
                  any unexpected error; the sample_id, stage and cause are written to the run log
     Model guard  every response must report the same model ID as earlier evaluate runs (any
                  condition) or, in the first run, as the first response; otherwise the run stops
+    Gold-text    if the (unused) gold-text extraction fails the v4 structure check in all 3 v4 attempts
+    exception    and every attempt was a successful API response, gold_entities is stored as null with
+                 the cause (spec 12.5); API errors, transcript extraction and matching failures still stop
     Lock         data/cross_asr/<asr>/logs/.evaluate.lock prevents two runs of the same condition
     Writes       atomic (temporary file + rename); existing outputs are never overwritten
     Checks       --plan: whisper1 closed-vocab matches vs saved v4; empty-response rule output vs the
@@ -325,6 +328,9 @@ def main() -> int:
     print(f"empty-response rule: {sorted(rule) or 'none'}  (spec 12.2; evaluated without API call)")
     print(f"already evaluated  : {len(done)}/300 (kept, not re-sent)")
     print(f"invalid existing   : {len(invalid)}")
+    gold_null = sorted(s["sample_id"] for s in samples
+                       if (load_json(ent_dir / f"{s['sample_id']}_open.json") or {}).get("gold_extraction_failed"))
+    print(f"gold-text null     : {len(gold_null)} {gold_null[:5]}  (spec 12.5; not used by CCER)")
     print(f"to process now     : {len(todo)}" + (" (limited by --limit)" if args.limit is not None else "")
           + f"  [needing Claude: {len(paid)} = fresh {stage_counts[(False, False)] + stage_counts[(True, False)]}"
             f" (3 calls), open done {stage_counts[(True, True)] + stage_counts[(False, True)]} (1 call)]")
@@ -380,7 +386,7 @@ def main() -> int:
 
     from anthropic import Anthropic
     from src.entity_extraction.closed_vocab_extractor import extract_closed_vocab_entities
-    from src.entity_extraction.run_open_vocab_extraction import extract_with_retry
+    from src.entity_extraction.run_open_vocab_extraction import extract_with_retry, MAX_RETRIES as V4_MAX_RETRIES
     from src.entity_extraction.scaffold_as_gold import scaffold_to_closed_vocab, scaffold_to_open_vocab
     from src.matching.entity_matcher import match_closed_vocab
     from src.matching.run_semantic_matching import match_with_retry
@@ -426,9 +432,27 @@ def main() -> int:
                         rec = {"sample_id": sid, "gold_entities": None, "whisper_entities": dict(EMPTY_OPEN),
                                "empty_response_rule": "docs/cross_asr_spec.md 12.2 (no API call)"}
                     else:
-                        rec = {"sample_id": sid,
-                               "gold_entities": extract_with_retry(client, model, gold_text, "gold"),
-                               "whisper_entities": extract_with_retry(client, model, text, "whisper")}
+                        rec = {"sample_id": sid}
+                        n_gold = len(client.calls)
+                        try:
+                            rec["gold_entities"] = extract_with_retry(client, model, gold_text, "gold")
+                        except RuntimeError as e:
+                            # Gold-text exception rule (spec 12.5): the gold-text extraction is not used
+                            # by matching or CCER. Allowed only when all v4 attempts were successful API
+                            # responses that failed the v4 structure check; anything else stops the run.
+                            gold_calls = client.calls[n_gold:]
+                            if not (len(gold_calls) == V4_MAX_RETRIES and all(c.get("ok") for c in gold_calls)):
+                                raise
+                            rec["gold_entities"] = None
+                            rec["gold_extraction_failed"] = {
+                                "rule": "docs/cross_asr_spec.md 12.5",
+                                "cause": f"{e}: {V4_MAX_RETRIES} successful API responses, none passed the v4 "
+                                         f"structure check (is_valid_extraction)",
+                                "attempts": len(gold_calls),
+                                "output_tokens": [c.get("output_tokens") for c in gold_calls]}
+                            entry["gold_extraction_null"] = rec["gold_extraction_failed"]
+                            print(f"  [{sid}] gold-text extraction stored as null (spec 12.5; not used by CCER)")
+                        rec["whisper_entities"] = extract_with_retry(client, model, text, "whisper")
                     write_json_atomic(ent_dir / f"{sid}_open.json", rec)
                 stage = "matching"
                 closed = json.load(open(ent_dir / f"{sid}_closed.json", encoding="utf-8"))
@@ -483,6 +507,7 @@ def main() -> int:
             "input_tokens": sum(c.get("input_tokens") or 0 for c in ok_calls),
             "output_tokens": sum(c.get("output_tokens") or 0 for c in ok_calls),
             "abort": abort,
+            "gold_extraction_null": [e["sample_id"] for e in log["entries"] if e.get("gold_extraction_null")],
         }
         if n_proc:
             log["summary"]["per_sample_tokens"] = {"input": round(log["summary"]["input_tokens"] / n_proc),
@@ -500,6 +525,8 @@ def main() -> int:
     print(f"\n=== processed={sm['processed']} calls={sm['calls']} failed_calls={sm['failed_calls']} "
           f"tokens in/out={sm['input_tokens']}/{sm['output_tokens']} -> log {log_path}")
     print(f"response models    : {sm['response_models']}")
+    if sm["gold_extraction_null"]:
+        print(f"gold-text null     : {sm['gold_extraction_null']}  (spec 12.5; not used by CCER)")
     if "per_sample_tokens" in sm:
         print(f"per sample (mean)  : {sm['per_sample_tokens']['input']} input / "
               f"{sm['per_sample_tokens']['output']} output tokens")
