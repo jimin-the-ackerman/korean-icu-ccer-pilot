@@ -57,22 +57,22 @@ asr_systems:
     location: us                       # Speech-to-Text V2 multi-region (GA for chirp_3)
     language_codes: [ko-KR]
     # synchronous Recognize, inline MP3, AutoDetectDecodingConfig; no adaptation, no denoiser
-  whisper1_auto:                       # Condition B (exploratory, pilot 30 only)
+  whisper1_auto:                       # Condition B (exploratory; pilot 30 extended to all 300 in revision 1.2)
     provider: openai
     model: whisper-1
     language: null                     # `language` parameter omitted
-    scope: pilot
-  gpt4o_transcribe_auto:               # Condition B (exploratory, pilot 30 only)
+    # scope: pilot removed 2026-11-04 (revision 1.2, docs/cross_asr_spec.md 11.5)
+  gpt4o_transcribe_auto:               # Condition B (exploratory; pilot 30 extended to all 300 in revision 1.2)
     provider: openai
     model: gpt-4o-transcribe
     language: null                     # `language` parameter omitted
-    scope: pilot
-  chirp3_auto:                         # Condition B (exploratory, pilot 30 only)
+    # scope: pilot removed 2026-11-04 (revision 1.2, docs/cross_asr_spec.md 11.5)
+  chirp3_auto:                         # Condition B (exploratory; pilot 30 extended to all 300 in revision 1.2)
     provider: google
     model: chirp_3
     location: us
     language_codes: [auto]             # documented as inferring the most prevalent language
-    scope: pilot
+    # scope: pilot removed 2026-11-04 (revision 1.2, docs/cross_asr_spec.md 11.5)
 
 analysis:
   bootstrap_iterations: 2000

@@ -144,6 +144,7 @@ that CCER measures patient harm; general evaluator stability from two runs.
 | 2026-11-03 | Protocol frozen (Version 1.0) | — |
 | 2026-11-04 | CLOVA params: added `diarization: {enable: false}` (before: not specified, i.e. API default `enable: true`) | See note 10.1 |
 | 2026-11-04 | Protocol revision 1.1: CLOVA excluded from main analysis; Google Chirp 3 added; language-configuration conditions A/B; scope, TTS and analysis priorities fixed | See Section 11 |
+| 2026-11-04 | Protocol revision 1.2: Condition B extended from pilot 30 to all 300 (deviation from 11.2) | See Section 11.5 |
 
 ### 10.1 CLOVA diarization setting (2026-11-04)
 
@@ -234,3 +235,19 @@ The config key `version` stays "1.0" because the settings of the existing condit
 4. Limitation stated in all outputs: language configuration does not mean the same thing across
    systems (11.2).
 
+### 11.5 Revision 1.2 (2026-11-04): Condition B extended to all 300
+
+- Decision: Condition B (`whisper1_auto`, `gpt4o_transcribe_auto`, `chirp3_auto`) is extended from
+  the pilot 30 to all 300 samples, so that A and B can be compared on the same sample set.
+- Timing: decided on 2026-11-04 after Condition A was complete and after the 30 `whisper1_auto`
+  pilot transcripts had been generated; at that point `gpt4o_transcribe_auto` had no output and
+  `chirp3_auto` had 1 test output. No Condition B transcript had been evaluated or compared with
+  Gold; only the run progress lines (first ~40 characters of each transcript) had been displayed.
+  The reason was the low additional cost and time (about USD 3.7 at list prices), not Condition B results.
+- This is a deviation from the 11.2 statement that B would not be extended, and is reported as such.
+- Analysis: Condition A remains the primary analysis and Condition B remains exploratory. The
+  pre-specified pilot 30 subset of B is reported as originally specified (descriptive); the
+  300-sample B analysis is reported as an additional exploratory analysis, labelled as an extension.
+- Implementation: `scope: pilot` removed from the three Condition B keys in
+  `configs/cross_asr.yaml`. Scope is not part of the reuse metadata, so outputs already generated
+  remain valid and are not re-sent; `version` stays "1.0".
