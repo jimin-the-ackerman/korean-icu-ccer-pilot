@@ -153,6 +153,7 @@ as methodological limitations.
 | 2026-11-05 | Completed nested-JSON repair for open-vocab extraction (parsing only; prompts and settings unchanged) | See Section 12.6 |
 | 2026-11-05 | Evaluation of all six conditions completed; run notes recorded | See Section 12.7 |
 | 2026-11-05 | Notation diagnostics results and manual check of notation-suspect records | See Section 12.8 |
+| 2026-11-05 | Post hoc evaluator sensitivity analysis S1 (Korean particle attachment) designed; v4 stays primary | See Section 13 |
 
 ### 10.1 CLOVA diarization setting (2026-11-04)
 
@@ -419,3 +420,78 @@ Primary CCER values and evaluation rules are unchanged; the figures below are di
   limitation.
 - Known issue: in the case-review sheets the reviewer column is named `label`, which overwrites the
   vital-sign `label` field of flattened records; to be renamed before the remaining strata are labelled.
+
+## 13. Post hoc evaluator sensitivity analysis S1: Korean particle attachment (2026-11-05)
+
+**Status.** This analysis was designed after the notation diagnostics (12.8), i.e. after the results
+were seen. The v4 evaluation (Sections 5-7, 12) remains the primary analysis; S1 is reported only as
+an evaluator sensitivity analysis. No v4 code, gold scaffold, ASR transcript or earlier result is
+changed or overwritten.
+
+**Where the error arises.** Only in closed-vocab extraction (`closed_vocab_extractor.py`). 41 v4
+patterns for ASCII tokens end with the word boundary `\b` (route 12, frequency 12, device 6,
+vital-sign labels 10, dose 1). Python `re` treats Hangul as word characters, so in "IV로" or "2g을"
+there is no boundary after the token and the token is not extracted; the matcher then records an
+omission (or, with one omission and one extra value, a substitution). Matching, flattening, weights,
+the scaffold gold and the open-vocab (LLM) steps are not involved.
+
+**Rule S1 (only change).** In those 41 patterns the final `\b` becomes
+`(?:\b|(?=(?:PARTICLE)(?:\s|[PUNCT]|\Z)))`: every v4 match is kept, and an ASCII token followed
+directly by one of 27 particles is also accepted only when the particle is followed by whitespace,
+punctuation `.,;:!?)]}"'/·…` or the end of the text. Particles: 으로써 으로 에서 에게 까지 부터 이며 이고 이다
+이나 이라 라고 마다 와 과 을 를 이 가 은 는 의 에 로 도 만 씩. Pattern flags (case-insensitivity) are kept.
+Implemented in `src/cross_asr/ko_particle_extractor.py` by re-binding the v4 function code to a copy of
+the v4 namespace in which only these 41 pattern objects are replaced; the v4 module is not edited.
+
+**Not changed / not covered.** Leading boundaries; Korean patterns; value, unit and canonical forms;
+the dose ownership hierarchy; matching (including duplicate mentions); flattening; weights; gold;
+open-vocab results (reused unchanged). Not handled by S1: transliterations ("캐테터", "네이잘",
+"C라인"), Korean unit words ("밀리그램", "퍼센트"), Sino-Korean numerals, non-particle Hangul suffixes
+("IV주사", "IV투여"), ASR misspellings ("IB로" is not corrected).
+
+**False-positive boundaries (unit tests, `tests/test_ko_particle_extractor.py`).** Not accepted:
+IVIG, IVF로, IB로, PR간격, IV주사, IV투여, IV로ABC, IV로123, IV로써먹, IV로-1, BPM, NCT, Foleyx를, 2gram을,
+40mg을test, Q8H로ABC, STATUS로; 40mg씩 without administration context (v4 dose rule). Tests also check
+the 41-pattern count, that v4 itself is unchanged, every particle (including prefix pairs such as
+이/이며/이다 and 로/으로/으로써), case-insensitivity, identical output on texts without attached
+particles, and that every span matched by a v4 pattern is matched by its S1 pattern.
+
+**Expected side effects (kept, audited, not corrected).** Because S1 reads more tokens, unchanged v4
+rules can act on them: a repeated mention can become an extra value scored as hallucination
+(e.g. "IV로" for the drug and "IV 플루이드" for fluids); a fluid volume can be read as a dose when the
+fluid word is not in the v4 denylist ("플루이드"); a newly read vital-sign label can take a number that
+v4 had scored as a dose hallucination ("BP는 60mg"). S1 extraction is therefore not a strict superset
+of v4 at the sample level.
+
+**Re-evaluation.** `src/cross_asr/sensitivity_ko_particle.py`; no Claude or ASR call. For the
+September v4 run and the six conditions, closed-vocab matches are recomputed from the saved
+transcripts and the scaffold (the v4 matches are re-derived first; any mismatch stops the run);
+open-vocab matches are reused from the saved match files. A read-only mode (`--verify-v4`) runs the
+v4 re-derivation check on the real data and writes nothing. `--run` writes into a temporary folder
+and moves it to the output folder only after every output file exists; on any failure the temporary
+folder is removed. Record pairing for the transition table is by (entity_type, label, gold_value);
+when a key occurs more than once in a sample and the judgements differ, the key is reported once as
+an `ambiguous_group` (v4 judgements -> S1 judgements) and not as individual transitions; aggregate
+counts do not depend on pairing (`tests/test_sensitivity_ko_particle_align.py`). Statistics use the functions of
+`src/cross_asr/analysis.py` with the same seed (20261103, 2,000 resamples), for all 100 scenarios and
+for n = 98 (scenarios 007 and 063 excluded). Outputs in `results/cross_asr/sensitivity_ko_particle/`:
+pooled CCER, ranks, Delta with CIs and between-system differences (v4 vs S1), Friedman and
+Wilcoxon-Holm (S1), error-type counts, the full v4 -> S1 transition table, every changed record,
+a side-effect audit of every changed record not ending as matched (automatic flag: duplicate
+mention / possible fluid volume / other insertion / new error on a gold entity / removed; manual
+review column), a stratified review sample of omission -> matched changes (2 per condition x style
+x entity type, seed 20261103; written with its full column structure even when there is no such
+change), the 15 manually reviewed notation-suspect records (extraction and final matching reported
+separately; for each, the number of gold records with that value, the number matched under v4 and
+S1, and the match level all / partial / none; improvement is not required; a code-checkable fact
+is recorded - whether an ASCII form of the value occurs in the transcript and whether it is followed
+by a listed particle - and every case that is not fully extracted and matched is marked for human
+review rather than given an automatic cause; helper tests in
+`tests/test_sensitivity_ko_particle_helpers.py`), meta.json (code
+hashes, particles, regexes, seeds, pairing rule) and inputs_sha256.csv (configuration files, pilot
+list, case-review sheets, the 300 generated-text files, all 100 scaffold files, and every match file
+and transcript read).
+
+**Limitations.** Post hoc rule; incomplete particle list; closed-vocab only; other v4 limitations
+(duplicate mentions, dose ownership) can add or remove errors; the September v4 result has the same
+notation bias. Results of the run are recorded in 13.1.
