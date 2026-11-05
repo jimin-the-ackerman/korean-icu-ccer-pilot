@@ -151,6 +151,7 @@ as methodological limitations.
 | 2026-11-04 | Transcription completed; one empty response (chirp3_auto); suspected TTS defects and their handling recorded | See Section 12 |
 | 2026-11-05 | Gold-text extraction exception rule (unused field; API errors still stop the run) | See Section 12.5 |
 | 2026-11-05 | Completed nested-JSON repair for open-vocab extraction (parsing only; prompts and settings unchanged) | See Section 12.6 |
+| 2026-11-05 | Evaluation of all six conditions completed; run notes recorded | See Section 12.7 |
 
 ### 10.1 CLOVA diarization setting (2026-11-04)
 
@@ -358,3 +359,31 @@ extra request is the empty response in 12.2), so no retry occurred. Run logs in
   discarded and the call retried by the v4 loop; here they are used. Both are complete extractions
   by the same model, so no systematic score difference is expected, but the two runs are not
   procedurally identical.
+
+### 12.7 Evaluation run notes (2026-11-05)
+
+| Condition | Claude calls | Failed calls | 12.6 repairs (transcript / gold) | 12.5 gold-text null | Gold count differing from scaffold |
+|---|---|---|---|---|---|
+| `whisper1` | 916 (incl. 9 in the 3-sample trial and calls of stopped runs) | 0 | 3 / 0 | 1 (`075_clinical_charting`) | `063_clinical_charting` 15 -> 16 |
+| `gpt4o_transcribe` | 900 | 0 | 3 / 3 | 0 | none |
+| `chirp3_ko` | 902 | 0 | 0 / 0 | 0 | none |
+| `whisper1_auto` | 901 | 0 | 0 / 0 | 0 | none |
+| `gpt4o_transcribe_auto` | 903 | 0 | 1 / 0 | 0 | `063_clinical_charting` 15 -> 16 |
+| `chirp3_auto` | 900 (299 samples; `063_telegraphic_icu` by the 12.2 rule, no call) | 0 | 0 / 0 | 0 | none |
+
+- Every call reported the model `claude-sonnet-5`; there was no API error. Calls above 3 per sample
+  are v4 structure-check retries.
+- 12.6 repairs: `whisper1` 083_telegraphic, 091_telegraphic, 095_clinical (transcript);
+  `gpt4o_transcribe` 030_formal, 048_clinical, 076_clinical (transcript), 034_clinical, 056_clinical,
+  075_clinical (gold); `gpt4o_transcribe_auto` 006_telegraphic (transcript).
+- Gold count (recorded only, not corrected; decided 2026-11-05): the scaffold of `scenario_063` has
+  no intervention, but in 2 of 6 conditions the LLM matcher listed a gold intervention "none" for
+  `scenario_063_clinical_charting`, so the Clinical gold total is 1,416 instead of 1,415 there. v4
+  counts gold entities from the matcher output; the rule is unchanged. Effect on pooled Clinical
+  CCER < 0.001.
+- Cross-run (same `whisper1` transcripts, September v4 vs November): 244/300 identical sample CCER,
+  max absolute sample change 0.4; pooled Formal / Clinical / Telegraphic 0.8417 / 1.1682 / 1.2134
+  (September) vs 0.8367 / 1.1801 / 1.1943 (November).
+- Analysis output: `results/cross_asr/analysis_prelim_condA/` (`src/cross_asr/analysis.py`). Although
+  named "prelim", it was produced after all six conditions were complete and includes Condition B; the
+  analysis is deterministic, so it is the final analysis output.
