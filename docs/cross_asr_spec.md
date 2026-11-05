@@ -152,6 +152,7 @@ as methodological limitations.
 | 2026-11-05 | Gold-text extraction exception rule (unused field; API errors still stop the run) | See Section 12.5 |
 | 2026-11-05 | Completed nested-JSON repair for open-vocab extraction (parsing only; prompts and settings unchanged) | See Section 12.6 |
 | 2026-11-05 | Evaluation of all six conditions completed; run notes recorded | See Section 12.7 |
+| 2026-11-05 | Notation diagnostics results and manual check of notation-suspect records | See Section 12.8 |
 
 ### 10.1 CLOVA diarization setting (2026-11-04)
 
@@ -387,3 +388,34 @@ extra request is the empty response in 12.2), so no retry occurred. Run logs in
 - Analysis output: `results/cross_asr/analysis_prelim_condA/` (`src/cross_asr/analysis.py`). Although
   named "prelim", it was produced after all six conditions were complete and includes Condition B; the
   analysis is deterministic, so it is the final analysis output.
+
+### 12.8 Notation diagnostics results (2026-11-05)
+
+Output: `results/cross_asr/notation_diagnostics/` (`src/cross_asr/notation_diagnostics.py`, Section 8).
+Primary CCER values and evaluation rules are unchanged; the figures below are diagnostic.
+
+- Finding: the v4 closed-vocab extractor uses `\b` word boundaries, so an ASCII token followed
+  directly by a Hangul particle ("2g을", "IV로", "C-line을") is not read, and correctly transcribed
+  route, dose, frequency and device information is scored as an omission. Formal Template has about 6
+  such forms per transcript (Clinical about 2.4, Telegraphic about 1), in every condition.
+- Lenient closed-vocab rewrite (particle spacing, device aliases, Korean unit words; open-vocab
+  unchanged), Formal Template: closed records changed 143 (`whisper1`), 167 (`gpt4o_transcribe`),
+  204 (`chirp3_ko`), of which 96-99% change from omission to matched; Formal CCER 0.837 -> 0.652,
+  0.636 -> 0.429, 0.672 -> 0.415. Clinical and Telegraphic change by 0.01 or less.
+- Condition A contrasts, v4 vs lenient (95% joint bootstrap CI): Delta_FT `whisper1` -0.358
+  [-0.431, -0.282] vs -0.539 [-0.615, -0.460]; `gpt4o_transcribe` -0.160 [-0.251, -0.070] vs -0.364
+  [-0.451, -0.279]; `chirp3_ko` -0.113 [-0.209, -0.028] vs -0.367 [-0.464, -0.279]. Delta_CT is
+  essentially unchanged (`gpt4o_transcribe` 0.129 vs 0.124).
+- Manual check (2026-11-05, user): the 15 notation-suspect records of the case-review sheets
+  (5 per Condition A system, fixed seed) were all labelled "evaluator miss due to notation" (15/15):
+  dose or route written correctly with an attached particle, or a device written as a
+  transliteration ("폴리 캐테터", "네이잘 캐뉼라"). This stratum is diagnostic and does not estimate a
+  population rate; the random-transcript and random-error strata are not yet labelled.
+- Interpretation (Section 8 rule): the Formal advantage is present in every system under both
+  scorings, but its attenuation in `gpt4o_transcribe` and `chirp3_ko` relative to `whisper1` is
+  partly due to this evaluator notation bias, which is larger for those systems; the ASR effect on the
+  size of the Formal advantage and the evaluator bias are therefore not fully separable. The
+  September v4 Formal value (0.8417) is affected by the same bias, which is reported as a v4
+  limitation.
+- Known issue: in the case-review sheets the reviewer column is named `label`, which overwrites the
+  vital-sign `label` field of flattened records; to be renamed before the remaining strata are labelled.
