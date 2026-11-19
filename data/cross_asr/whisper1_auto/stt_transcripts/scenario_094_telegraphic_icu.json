@@ -1,0 +1,25 @@
+{
+  "sample_id": "scenario_094_telegraphic_icu",
+  "whisper_transcript": "60 Junsai Yeosong Kyupseong Chungcheong Suhwagi Churyeollo E1, BP 85, 11 mmHg, 180 BPM, RR22 BPM, BD36.8 Rooth, SpO2, 90 T% room air. Hematempsis severe. Pantoprazole 80 mg, IV Q12, Nasal Candela 2, Endoscopic Hemostasis Yejeong. C-line UG, negative fluid balance, drowsy. Gastroenterology team notify.",
+  "stt_metadata": {
+    "asr_system": "whisper1_auto",
+    "provider": "openai",
+    "model": "whisper-1",
+    "language": null,
+    "audio_path": "data/audio/scenario_094_telegraphic_icu.mp3",
+    "audio_sha256": "59e4a22478e74b18e7846a8bb4c3f01e633ea65ae3489dbe7efd5dde71ad2769",
+    "transcribed_at": "2026-11-04T14:01:36+00:00",
+    "request_seconds": 1.62,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "60 Junsai Yeosong Kyupseong Chungcheong Suhwagi Churyeollo E1, BP 85, 11 mmHg, 180 BPM, RR22 BPM, BD36.8 Rooth, SpO2, 90 T% room air. Hematempsis severe. Pantoprazole 80 mg, IV Q12, Nasal Candela 2, Endoscopic Hemostasis Yejeong. C-line UG, negative fluid balance, drowsy. Gastroenterology team notify.",
+    "logprobs": null,
+    "usage": {
+      "seconds": 22.0,
+      "type": "duration"
+    }
+  }
+}

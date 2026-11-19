@@ -1,0 +1,25 @@
+{
+  "sample_id": "scenario_087_telegraphic_icu",
+  "whisper_transcript": "Sasha Wilson I'm song severe tetanus to e1 bpx azing kushima her gram HRA clumpy mr. Sanjeev breathes min bt3rd site from friend sp o 2g person room air severe muscle spasms diazepam tamil gamma acute h nasal cannula to wound debridement Xiang and g-tubes hubby IO strict monitoring drowsy sancta neurology consultant",
+  "stt_metadata": {
+    "asr_system": "whisper1_auto",
+    "provider": "openai",
+    "model": "whisper-1",
+    "language": null,
+    "audio_path": "data/audio/scenario_087_telegraphic_icu.mp3",
+    "audio_sha256": "e5706c57984fc7557031a2cac167ba3c989e3fa92212f5f3ae8953ce9f1f839e",
+    "transcribed_at": "2026-11-04T14:00:39+00:00",
+    "request_seconds": 1.94,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "Sasha Wilson I'm song severe tetanus to e1 bpx azing kushima her gram HRA clumpy mr. Sanjeev breathes min bt3rd site from friend sp o 2g person room air severe muscle spasms diazepam tamil gamma acute h nasal cannula to wound debridement Xiang and g-tubes hubby IO strict monitoring drowsy sancta neurology consultant",
+    "logprobs": null,
+    "usage": {
+      "seconds": 21.0,
+      "type": "duration"
+    }
+  }
+}

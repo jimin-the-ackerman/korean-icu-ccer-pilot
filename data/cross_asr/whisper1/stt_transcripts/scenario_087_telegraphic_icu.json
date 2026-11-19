@@ -1,0 +1,25 @@
+{
+  "sample_id": "scenario_087_telegraphic_icu",
+  "whisper_transcript": "45세 남성, severe tetanus to E1, BP excising, 90mHg, HRA clumpium, R3GD breaths min, BT 3rd site, SPO2, GDPRS room air, severe muscle spasms, diazepam 10mg acute H, nasal cannula 2, wound debridement, NG tubes habib, IO strict monitoring, drowsy sangtae, neurology consultum.",
+  "stt_metadata": {
+    "asr_system": "whisper1",
+    "provider": "reuse_existing",
+    "model": "whisper-1",
+    "language": "ko",
+    "audio_path": "data/audio/scenario_087_telegraphic_icu.mp3",
+    "audio_sha256": "e5706c57984fc7557031a2cac167ba3c989e3fa92212f5f3ae8953ce9f1f839e",
+    "copied_at": "2026-11-04T04:31:12+00:00",
+    "request_seconds": 0.0,
+    "attempts": 1,
+    "git_commit": "b3490181b3fb3f88b56cde5be78a01cfdcef3007",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "source_file": "data/stt_transcripts/scenario_087_telegraphic_icu.json",
+    "source_sha256": "00702bba45fd645b1bf3d6e86ff74ca95301b6635cbc648d79704962f1d1e536",
+    "source_stt_metadata": {
+      "model": "whisper-1",
+      "language": "ko"
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_039_formal_template",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "호흡곤란",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "졸린 상태",
+    "medication_identity": "Propranolol",
+    "interventions": [],
+    "intake_output": null,
+    "notification": "갑상선 위기 관리에 대해 내분비학 팀에게 보고하였다."
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "호흡 곤란",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "졸린 상태",
+    "medication_identity": "프로프라놀롤",
+    "interventions": [],
+    "intake_output": null,
+    "notification": "갑상선 위기 관리에 대해 내분비약 팀에게 보고하였다."
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "sample_id": "scenario_025_telegraphic_icu",
+  "whisper_transcript": "60 seyoja, kupsong tamnaya miwon, BP 138, 84 mm, HR 92 BPM, RR20 breaths, min T38.2 greeks, SPO2 95%, room air, severe abdominal pain, ceftriaxone one guy VQ12H, laparoscopic cholecystectomy planned, C-line, positive balance, alert.",
+  "stt_metadata": {
+    "asr_system": "whisper1_auto",
+    "provider": "openai",
+    "model": "whisper-1",
+    "language": null,
+    "scope": "pilot",
+    "audio_path": "data/audio/scenario_025_telegraphic_icu.mp3",
+    "audio_sha256": "2e8ef237805a75ebfa757cb7a9b4120eec43ef76278d0b7e0076ae6aa6cf82eb",
+    "transcribed_at": "2026-11-04T13:41:07+00:00",
+    "request_seconds": 2.28,
+    "attempts": 1,
+    "git_commit": "5b6d73fb63e1509a79e1a160176d606ed1b104c4",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "60 seyoja, kupsong tamnaya miwon, BP 138, 84 mm, HR 92 BPM, RR20 breaths, min T38.2 greeks, SPO2 95%, room air, severe abdominal pain, ceftriaxone one guy VQ12H, laparoscopic cholecystectomy planned, C-line, positive balance, alert.",
+    "logprobs": null,
+    "usage": {
+      "seconds": 18.0,
+      "type": "duration"
+    }
+  }
+}

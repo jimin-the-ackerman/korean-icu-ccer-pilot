@@ -1,0 +1,43 @@
+{
+  "sample_id": "scenario_079_formal_template",
+  "whisper_transcript": "환자 정보에 따르면 56세 남성 환자가 급성 궤양성 대장염 악화로 입원하였으며 심한 복통과 혈변을 호소하였다. 환자의 활력 징후는 다음과 같다. 혈압은 106mmHg, 심박수는 110bpm, 호흡수는 22 breath/min, 체온은 37.8도이며 산소 포화도는 97%로 확인되었다. 환자는 심한 복통을 호소하였다. 약물로는 메틸프레드니솔론 40mg을 IV로 8시간마다 투여하였다. 현재 산소 지원은 필요하지 않으며 환자는 Foley 카테터를 삽입하고 있다. 환자는 수분 섭취와 배출을 엄격히 모니터링하고 있으며 의식이 명료한 상태로 확인되었다.",
+  "stt_metadata": {
+    "asr_system": "chirp3_auto",
+    "provider": "google",
+    "model": "chirp_3",
+    "location": "us",
+    "language_codes": [
+      "auto"
+    ],
+    "audio_path": "data/audio/scenario_079_formal_template.mp3",
+    "audio_sha256": "577b0a4c911d90f47546a713c062281025b25e1ce76c9e3ea9a00fdbaaa21448",
+    "transcribed_at": "2026-11-04T14:50:20+00:00",
+    "request_seconds": 6.71,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "metadata": {
+      "total_billed_duration": "43s",
+      "request_id": "6dd0a562-0000-2ee3-8d7c-14223bb80056",
+      "prompt": "Transcribe the following speech segment. Follow these specific instructions for formatting the answer:\n* Only output the transcript, with no newlines.\n* When transcribing numbers, write the digits, i.e. write 1.7 and not one point seven, and write 100 instead of one hundred etc.\n* Only output the transcript, exactly as said in the speech segment.\n* Do not continue the speech segment.\n* Include everything said in the speech segment.\n* Use mathematical notation where needed, eg. x ^ 6Y.\n* If there is background speech that is not part of the main conversation, discard the background speech and only output the main conversation.\n* If there is no clear speech, just output [BACKGROUND].\n* Respond in the original language of the speech."
+    },
+    "results": [
+      {
+        "alternatives": [
+          {
+            "transcript": "환자 정보에 따르면 56세 남성 환자가 급성 궤양성 대장염 악화로 입원하였으며 심한 복통과 혈변을 호소하였다. 환자의 활력 징후는 다음과 같다. 혈압은 106mmHg, 심박수는 110bpm, 호흡수는 22 breath/min, 체온은 37.8도이며 산소 포화도는 97%로 확인되었다. 환자는 심한 복통을 호소하였다. 약물로는 메틸프레드니솔론 40mg을 IV로 8시간마다 투여하였다. 현재 산소 지원은 필요하지 않으며 환자는 Foley 카테터를 삽입하고 있다. 환자는 수분 섭취와 배출을 엄격히 모니터링하고 있으며 의식이 명료한 상태로 확인되었다.",
+            "confidence": 0.0,
+            "words": []
+          }
+        ],
+        "language_code": "ko",
+        "channel_tag": 0
+      }
+    ],
+    "detected_language_codes": [
+      "ko"
+    ]
+  }
+}

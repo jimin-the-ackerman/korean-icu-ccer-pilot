@@ -1,0 +1,35 @@
+{
+  "sample_id": "scenario_055_formal_template",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "피로",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "의식이 혼미한 상태",
+    "medication_identity": "Furosemide",
+    "interventions": [
+      "수혈"
+    ],
+    "intake_output": "입력 1000 mL, 출력 1200 mL",
+    "notification": "혈액학 팀에게 보고하였다"
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "피로",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "의식이 혼미한 상태",
+    "medication_identity": "피로 스밋",
+    "interventions": [
+      "수혈"
+    ],
+    "intake_output": "입력 1000mL, 출력 1200mL",
+    "notification": "혈액학팀에게 보고하였다"
+  }
+}

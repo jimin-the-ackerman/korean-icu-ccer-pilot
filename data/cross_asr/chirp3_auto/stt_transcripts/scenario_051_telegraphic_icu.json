@@ -1,0 +1,43 @@
+{
+  "sample_id": "scenario_051_telegraphic_icu",
+  "whisper_transcript": "48-year-old male with acute pancreatitis, BP 70/40, HR 98 BPM, R 22, T 37.8, O2 95% on RA, severe abdominal pain, mild fever, IV PRN O, NG tube, negative fluid balance, alert, GI team notify.",
+  "stt_metadata": {
+    "asr_system": "chirp3_auto",
+    "provider": "google",
+    "model": "chirp_3",
+    "location": "us",
+    "language_codes": [
+      "auto"
+    ],
+    "audio_path": "data/audio/scenario_051_telegraphic_icu.mp3",
+    "audio_sha256": "badc41f2124b0a732709d69524d49d21baa55b0195dfc60b77f13fccbf4b223b",
+    "transcribed_at": "2026-11-04T14:29:57+00:00",
+    "request_seconds": 2.36,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "metadata": {
+      "total_billed_duration": "16s",
+      "request_id": "6b0a33b9-0000-2987-ae68-2405886d0cac",
+      "prompt": "Transcribe the following speech segment. Follow these specific instructions for formatting the answer:\n* Only output the transcript, with no newlines.\n* When transcribing numbers, write the digits, i.e. write 1.7 and not one point seven, and write 100 instead of one hundred etc.\n* Only output the transcript, exactly as said in the speech segment.\n* Do not continue the speech segment.\n* Include everything said in the speech segment.\n* Use mathematical notation where needed, eg. x ^ 6Y.\n* If there is background speech that is not part of the main conversation, discard the background speech and only output the main conversation.\n* If there is no clear speech, just output [BACKGROUND].\n* Respond in the original language of the speech."
+    },
+    "results": [
+      {
+        "alternatives": [
+          {
+            "transcript": "48-year-old male with acute pancreatitis, BP 70/40, HR 98 BPM, R 22, T 37.8, O2 95% on RA, severe abdominal pain, mild fever, IV PRN O, NG tube, negative fluid balance, alert, GI team notify.",
+            "confidence": 0.0,
+            "words": []
+          }
+        ],
+        "language_code": "en",
+        "channel_tag": 0
+      }
+    ],
+    "detected_language_codes": [
+      "en"
+    ]
+  }
+}

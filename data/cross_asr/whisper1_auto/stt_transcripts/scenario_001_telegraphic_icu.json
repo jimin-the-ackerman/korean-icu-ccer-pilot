@@ -1,0 +1,25 @@
+{
+  "sample_id": "scenario_001_telegraphic_icu",
+  "whisper_transcript": "Ulcerative colitis, BP 165, HR 28, BT 38.1, SpO2 88%, cough moderate. Ceftriaxone 1 gram IV Q12H, high flow nasal cannula use, ventilator use. Drowsy, RT notify.",
+  "stt_metadata": {
+    "asr_system": "whisper1_auto",
+    "provider": "openai",
+    "model": "whisper-1",
+    "language": null,
+    "audio_path": "data/audio/scenario_001_telegraphic_icu.mp3",
+    "audio_sha256": "80e211a4616297fe75ebbb1d08b2b2afe21553aee6dfc03cb5d7f7bfbb164a3d",
+    "transcribed_at": "2026-11-04T13:49:16+00:00",
+    "request_seconds": 3.56,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "Ulcerative colitis, BP 165, HR 28, BT 38.1, SpO2 88%, cough moderate. Ceftriaxone 1 gram IV Q12H, high flow nasal cannula use, ventilator use. Drowsy, RT notify.",
+    "logprobs": null,
+    "usage": {
+      "seconds": 16.0,
+      "type": "duration"
+    }
+  }
+}

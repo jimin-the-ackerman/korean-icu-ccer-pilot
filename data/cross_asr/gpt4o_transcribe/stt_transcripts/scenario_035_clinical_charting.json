@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_035_clinical_charting",
+  "whisper_transcript": "60세 여성 환자, acute decompensated heart failure로 입원, dilated cardiomyopathy 기이남. BP 95/60 mmHg, HR bpm R 24 breaths/min, BT 36.8 degrees, SpO2 90% on room air 확인됨. Shortness of breath severe. Furosemide 40mg IV q8h 적용함. 4L/min via nasal cannula 산소 공급 유지함. Foley 유지함. I/O negative balance of 500ml over 24 hours. Clinical status drowsy 확인됨. Cardiology team notify함 for persistent hypotension.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": "ko",
+    "audio_path": "data/audio/scenario_035_clinical_charting.mp3",
+    "audio_sha256": "fb85f12693372d504dbfa8d33f909792a15041f1cba1c7c59e4ad269aa9c6346",
+    "transcribed_at": "2026-11-04T12:57:10+00:00",
+    "request_seconds": 1.81,
+    "attempts": 1,
+    "git_commit": "5b6d73fb63e1509a79e1a160176d606ed1b104c4",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "60세 여성 환자, acute decompensated heart failure로 입원, dilated cardiomyopathy 기이남. BP 95/60 mmHg, HR bpm R 24 breaths/min, BT 36.8 degrees, SpO2 90% on room air 확인됨. Shortness of breath severe. Furosemide 40mg IV q8h 적용함. 4L/min via nasal cannula 산소 공급 유지함. Foley 유지함. I/O negative balance of 500ml over 24 hours. Clinical status drowsy 확인됨. Cardiology team notify함 for persistent hypotension.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 319,
+      "output_tokens": 132,
+      "total_tokens": 451,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 319,
+        "text_tokens": 0
+      }
+    }
+  }
+}

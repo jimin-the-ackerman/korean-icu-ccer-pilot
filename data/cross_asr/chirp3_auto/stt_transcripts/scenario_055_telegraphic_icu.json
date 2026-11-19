@@ -1,0 +1,43 @@
+{
+  "sample_id": "scenario_055_telegraphic_icu",
+  "whisper_transcript": "53세 여성, acute hemolytic anemia로 2번. BP 130/80, RR 22, BT 37.1, SpO2 95% on 2 L nasal cannula. severe fatigue, furosemide 40 mg IV Q2H, nasal cannula 적용 중, compatible blood transfusion 실시, input 1000 ml, output 200 ml, drowsy 상태, hematology team notify.",
+  "stt_metadata": {
+    "asr_system": "chirp3_auto",
+    "provider": "google",
+    "model": "chirp_3",
+    "location": "us",
+    "language_codes": [
+      "auto"
+    ],
+    "audio_path": "data/audio/scenario_055_telegraphic_icu.mp3",
+    "audio_sha256": "6a2a500fc552915496b0b7b401300e2a0643cf608944b410072c33ef7e364946",
+    "transcribed_at": "2026-11-04T14:30:56+00:00",
+    "request_seconds": 3.44,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "metadata": {
+      "total_billed_duration": "23s",
+      "request_id": "76186da1-0000-2149-bd26-582429c94324",
+      "prompt": "Transcribe the following speech segment. Follow these specific instructions for formatting the answer:\n* Only output the transcript, with no newlines.\n* When transcribing numbers, write the digits, i.e. write 1.7 and not one point seven, and write 100 instead of one hundred etc.\n* Only output the transcript, exactly as said in the speech segment.\n* Do not continue the speech segment.\n* Include everything said in the speech segment.\n* Use mathematical notation where needed, eg. x ^ 6Y.\n* If there is background speech that is not part of the main conversation, discard the background speech and only output the main conversation.\n* If there is no clear speech, just output [BACKGROUND].\n* Respond in the original language of the speech."
+    },
+    "results": [
+      {
+        "alternatives": [
+          {
+            "transcript": "53세 여성, acute hemolytic anemia로 2번. BP 130/80, RR 22, BT 37.1, SpO2 95% on 2 L nasal cannula. severe fatigue, furosemide 40 mg IV Q2H, nasal cannula 적용 중, compatible blood transfusion 실시, input 1000 ml, output 200 ml, drowsy 상태, hematology team notify.",
+            "confidence": 0.0,
+            "words": []
+          }
+        ],
+        "language_code": "ko",
+        "channel_tag": 0
+      }
+    ],
+    "detected_language_codes": [
+      "ko"
+    ]
+  }
+}

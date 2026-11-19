@@ -1,0 +1,117 @@
+{
+  "sample_id": "scenario_010_clinical_charting",
+  "gold_entities": {
+    "route": [
+      {
+        "raw": "IV",
+        "normalized": "iv",
+        "position": 132
+      }
+    ],
+    "frequency": [
+      {
+        "raw": "q6h",
+        "normalized": "q6h",
+        "position": 135
+      }
+    ],
+    "device": [
+      {
+        "raw": "ventilator",
+        "normalized": "ventilator",
+        "position": 149
+      }
+    ],
+    "vital_sign": [
+      {
+        "raw": "BP 130/85",
+        "label": "bp",
+        "value": "130/85",
+        "position": 54
+      },
+      {
+        "raw": "HR 58",
+        "label": "hr",
+        "value": "58",
+        "position": 65
+      },
+      {
+        "raw": "RR 14",
+        "label": "rr",
+        "value": "14",
+        "position": 72
+      },
+      {
+        "raw": "BT 36.8",
+        "label": "bt",
+        "value": "36.8",
+        "position": 79
+      },
+      {
+        "raw": "SpO2 98%",
+        "label": "spo2",
+        "value": "98%",
+        "position": 90
+      }
+    ],
+    "dose": [
+      {
+        "raw": "100g",
+        "value": "100",
+        "unit": "g",
+        "position": 127
+      }
+    ]
+  },
+  "whisper_entities": {
+    "route": [
+      {
+        "raw": "IV",
+        "normalized": "iv",
+        "position": 116
+      }
+    ],
+    "frequency": [],
+    "device": [
+      {
+        "raw": "ventilator",
+        "normalized": "ventilator",
+        "position": 130
+      }
+    ],
+    "vital_sign": [
+      {
+        "raw": "BP 103/85",
+        "label": "bp",
+        "value": "103/85",
+        "position": 51
+      },
+      {
+        "raw": "HR 57",
+        "label": "hr",
+        "value": "57",
+        "position": 62
+      },
+      {
+        "raw": "BT 36.1",
+        "label": "bt",
+        "value": "36.1",
+        "position": 75
+      },
+      {
+        "raw": "SpO2 98%",
+        "label": "spo2",
+        "value": "98%",
+        "position": 86
+      }
+    ],
+    "dose": [
+      {
+        "raw": "100g",
+        "value": "100",
+        "unit": "g",
+        "position": 111
+      }
+    ]
+  }
+}

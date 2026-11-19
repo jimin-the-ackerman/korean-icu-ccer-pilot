@@ -1,0 +1,25 @@
+{
+  "sample_id": "scenario_089_clinical_charting",
+  "whisper_transcript": "56세 남성 환자, NASH로 인한 만성간질환 급성 악화로 입원함. BPD OTD 8mm HR, HR BPM RR 20C Breaths Min, BT 37.2 to Excels, SpO2 89% Remair. 아사이티스 모더릿 확인됨. 스페이로노-락톤 100mg POBID 적용함. 네이처 캐니라 3 유지함, 폴리 유지함. 네이티브 플루이드 밸런스 500ml 확인됨. 클리니컬 스타디스 드라우지 확인됨. 헵피톨로지 팀 노티파이함.",
+  "stt_metadata": {
+    "asr_system": "whisper1",
+    "provider": "reuse_existing",
+    "model": "whisper-1",
+    "language": "ko",
+    "audio_path": "data/audio/scenario_089_clinical_charting.mp3",
+    "audio_sha256": "ce8e4abc3cdb561d34f6f11281eab4d6a5b935bd2c7502e16825c32f5806c22b",
+    "copied_at": "2026-11-04T04:31:12+00:00",
+    "request_seconds": 0.0,
+    "attempts": 1,
+    "git_commit": "b3490181b3fb3f88b56cde5be78a01cfdcef3007",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "source_file": "data/stt_transcripts/scenario_089_clinical_charting.json",
+    "source_sha256": "89fed10e8c424c53d58c7eef29f8f8f1acd7923d51c74e61797f4fc6f6ba1b9e",
+    "source_stt_metadata": {
+      "model": "whisper-1",
+      "language": "ko"
+    }
+  }
+}

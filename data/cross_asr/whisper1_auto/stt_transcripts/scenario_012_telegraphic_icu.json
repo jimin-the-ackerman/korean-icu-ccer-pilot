@@ -1,0 +1,26 @@
+{
+  "sample_id": "scenario_012_telegraphic_icu",
+  "whisper_transcript": "75-year-old girl with BP 90-60 mmHg, HR with 10 BPM, RR22, BT 36.8°, SpO2 88% room air, dyspnea moderate, furosemide 40mZ IV QAH, O2 2L-NC, Foley, fluid balance positive, drowsy, cardiology team notify.",
+  "stt_metadata": {
+    "asr_system": "whisper1_auto",
+    "provider": "openai",
+    "model": "whisper-1",
+    "language": null,
+    "scope": "pilot",
+    "audio_path": "data/audio/scenario_012_telegraphic_icu.mp3",
+    "audio_sha256": "3226fd93b5575353fa04e4651346c04b47667ff280346875e17fb057d8fdb451",
+    "transcribed_at": "2026-11-04T13:40:32+00:00",
+    "request_seconds": 1.47,
+    "attempts": 1,
+    "git_commit": "5b6d73fb63e1509a79e1a160176d606ed1b104c4",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "75-year-old girl with BP 90-60 mmHg, HR with 10 BPM, RR22, BT 36.8°, SpO2 88% room air, dyspnea moderate, furosemide 40mZ IV QAH, O2 2L-NC, Foley, fluid balance positive, drowsy, cardiology team notify.",
+    "logprobs": null,
+    "usage": {
+      "seconds": 17.0,
+      "type": "duration"
+    }
+  }
+}

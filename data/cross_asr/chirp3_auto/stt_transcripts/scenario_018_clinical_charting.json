@@ -1,0 +1,43 @@
+{
+  "sample_id": "scenario_018_clinical_charting",
+  "whisper_transcript": "66세 남성 환자, 급성 gastrointestinal perforation으로 입원함. BP 160 mmHg, HR 110 BPM, RR 21 breaths/min, BT 38.5°C, SpO2 94%. severe abdominal pain 호소함. Piperacillin-tazobactam 4.5 g IV q8h 적용함. nasal cannula 산소 유지함. emergency laparotomy 시행함. negative fluid balance 확인됨. 환자 alert 상태 유지함. surgical team notify함.",
+  "stt_metadata": {
+    "asr_system": "chirp3_auto",
+    "provider": "google",
+    "model": "chirp_3",
+    "location": "us",
+    "language_codes": [
+      "auto"
+    ],
+    "audio_path": "data/audio/scenario_018_clinical_charting.mp3",
+    "audio_sha256": "fd1e12fbf3a3bc04155584ced5152d675ebf3abfad3913208e51ca1c32baeac9",
+    "transcribed_at": "2026-11-04T14:21:22+00:00",
+    "request_seconds": 4.66,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "metadata": {
+      "total_billed_duration": "26s",
+      "request_id": "713c0462-0000-21af-b08b-582429c20174",
+      "prompt": "Transcribe the following speech segment. Follow these specific instructions for formatting the answer:\n* Only output the transcript, with no newlines.\n* When transcribing numbers, write the digits, i.e. write 1.7 and not one point seven, and write 100 instead of one hundred etc.\n* Only output the transcript, exactly as said in the speech segment.\n* Do not continue the speech segment.\n* Include everything said in the speech segment.\n* Use mathematical notation where needed, eg. x ^ 6Y.\n* If there is background speech that is not part of the main conversation, discard the background speech and only output the main conversation.\n* If there is no clear speech, just output [BACKGROUND].\n* Respond in the original language of the speech."
+    },
+    "results": [
+      {
+        "alternatives": [
+          {
+            "transcript": "66세 남성 환자, 급성 gastrointestinal perforation으로 입원함. BP 160 mmHg, HR 110 BPM, RR 21 breaths/min, BT 38.5°C, SpO2 94%. severe abdominal pain 호소함. Piperacillin-tazobactam 4.5 g IV q8h 적용함. nasal cannula 산소 유지함. emergency laparotomy 시행함. negative fluid balance 확인됨. 환자 alert 상태 유지함. surgical team notify함.",
+            "confidence": 0.0,
+            "words": []
+          }
+        ],
+        "language_code": "ko",
+        "channel_tag": 0
+      }
+    ],
+    "detected_language_codes": [
+      "ko"
+    ]
+  }
+}

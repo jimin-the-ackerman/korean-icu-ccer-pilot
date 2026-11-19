@@ -1,0 +1,43 @@
+{
+  "sample_id": "scenario_014_clinical_charting",
+  "whisper_transcript": "59세 남성 환자 ARDS로 입원함. 집 화재로 인한 흡입 손상 후 상태 BP 130/80, P 110, R 30, BT 38.5, SpO2 92% room air. dyspnea severe 호소함. medazolam 2mg IV Q6 투여 중. mechanical ventilation 적용함. ventilator 사용 중. positive fluid balance 확인됨. clinical status drowsy 확인됨.",
+  "stt_metadata": {
+    "asr_system": "chirp3_auto",
+    "provider": "google",
+    "model": "chirp_3",
+    "location": "us",
+    "language_codes": [
+      "auto"
+    ],
+    "audio_path": "data/audio/scenario_014_clinical_charting.mp3",
+    "audio_sha256": "d4c9a01e7af0872f7c8544c354d5917d9aa43572adf75178678183de14a8faa6",
+    "transcribed_at": "2026-11-04T14:20:20+00:00",
+    "request_seconds": 4.49,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "metadata": {
+      "total_billed_duration": "26s",
+      "request_id": "7470dd75-0000-2ead-a9c6-582429a7d3b8",
+      "prompt": "Transcribe the following speech segment. Follow these specific instructions for formatting the answer:\n* Only output the transcript, with no newlines.\n* When transcribing numbers, write the digits, i.e. write 1.7 and not one point seven, and write 100 instead of one hundred etc.\n* Only output the transcript, exactly as said in the speech segment.\n* Do not continue the speech segment.\n* Include everything said in the speech segment.\n* Use mathematical notation where needed, eg. x ^ 6Y.\n* If there is background speech that is not part of the main conversation, discard the background speech and only output the main conversation.\n* If there is no clear speech, just output [BACKGROUND].\n* Respond in the original language of the speech."
+    },
+    "results": [
+      {
+        "alternatives": [
+          {
+            "transcript": "59세 남성 환자 ARDS로 입원함. 집 화재로 인한 흡입 손상 후 상태 BP 130/80, P 110, R 30, BT 38.5, SpO2 92% room air. dyspnea severe 호소함. medazolam 2mg IV Q6 투여 중. mechanical ventilation 적용함. ventilator 사용 중. positive fluid balance 확인됨. clinical status drowsy 확인됨.",
+            "confidence": 0.0,
+            "words": []
+          }
+        ],
+        "language_code": "ko",
+        "channel_tag": 0
+      }
+    ],
+    "detected_language_codes": [
+      "ko"
+    ]
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_096_telegraphic_icu",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "dyspnea",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "Alert",
+    "medication_identity": "Furosemide",
+    "interventions": [],
+    "intake_output": "Negative fluid balance 500 mL/24h",
+    "notification": "Cardiology team notify"
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "호흡곤란",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": null,
+    "medication_identity": "furosemide",
+    "interventions": [],
+    "intake_output": "음성 수액 균형 500 ml",
+    "notification": "심장내과 팀에 알림"
+  }
+}

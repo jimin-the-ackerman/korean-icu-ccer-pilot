@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_026_telegraphic_icu",
+  "whisper_transcript": "우심이세야상. Severe CAP ICU 관리 필요. BP는 118/63 mmHg, HR 118 bpm, RR 30, BT 37.5도, SpO2 95% on RA. Severe dyspnea. Levofloxacin 0.5 mg IV q12h. HFNC 60 gain min, FiO2 0.6. Ventilator 사용 중. Drowsy 상태.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": "ko",
+    "audio_path": "data/audio/scenario_026_telegraphic_icu.mp3",
+    "audio_sha256": "eb1a980c7c18baa1260bdd63f1a4c2cdbdab3953df78b4ad517c1747087b095a",
+    "transcribed_at": "2026-11-04T12:56:15+00:00",
+    "request_seconds": 1.74,
+    "attempts": 1,
+    "git_commit": "5b6d73fb63e1509a79e1a160176d606ed1b104c4",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "우심이세야상. Severe CAP ICU 관리 필요. BP는 118/63 mmHg, HR 118 bpm, RR 30, BT 37.5도, SpO2 95% on RA. Severe dyspnea. Levofloxacin 0.5 mg IV q12h. HFNC 60 gain min, FiO2 0.6. Ventilator 사용 중. Drowsy 상태.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 181,
+      "output_tokens": 93,
+      "total_tokens": 274,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 181,
+        "text_tokens": 0
+      }
+    }
+  }
+}

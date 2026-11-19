@@ -1,0 +1,43 @@
+{
+  "sample_id": "scenario_022_clinical_charting",
+  "whisper_transcript": "63세 여성 환자, 급성 심부전 및 폐부종으로 입원함. BP 160/90 mmHg 확인됨. HR 110 bpm 확인됨. RR 28 breaths/min 확인됨. BT 37.5°C 확인됨. SpO2 86% on room air 확인됨. severe shortness of breath 호소함. Furosemide 40 mg IV qH 투여함. high-flow nasal cannula 적용함. C-line 유지함. positive fluid balance 확인됨. 임상 상태 drowsy 확인됨. cardiology 팀 notify함.",
+  "stt_metadata": {
+    "asr_system": "chirp3_auto",
+    "provider": "google",
+    "model": "chirp_3",
+    "location": "us",
+    "language_codes": [
+      "auto"
+    ],
+    "audio_path": "data/audio/scenario_022_clinical_charting.mp3",
+    "audio_sha256": "ccc28a1a5316e0654d8fd9bef324ee4a0a6fad059c385c657bc636608bb7a1df",
+    "transcribed_at": "2026-11-04T14:22:29+00:00",
+    "request_seconds": 8.33,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "metadata": {
+      "total_billed_duration": "29s",
+      "request_id": "6b092a99-0000-235b-b74f-f4f5e80cfce0",
+      "prompt": "Transcribe the following speech segment. Follow these specific instructions for formatting the answer:\n* Only output the transcript, with no newlines.\n* When transcribing numbers, write the digits, i.e. write 1.7 and not one point seven, and write 100 instead of one hundred etc.\n* Only output the transcript, exactly as said in the speech segment.\n* Do not continue the speech segment.\n* Include everything said in the speech segment.\n* Use mathematical notation where needed, eg. x ^ 6Y.\n* If there is background speech that is not part of the main conversation, discard the background speech and only output the main conversation.\n* If there is no clear speech, just output [BACKGROUND].\n* Respond in the original language of the speech."
+    },
+    "results": [
+      {
+        "alternatives": [
+          {
+            "transcript": "63세 여성 환자, 급성 심부전 및 폐부종으로 입원함. BP 160/90 mmHg 확인됨. HR 110 bpm 확인됨. RR 28 breaths/min 확인됨. BT 37.5°C 확인됨. SpO2 86% on room air 확인됨. severe shortness of breath 호소함. Furosemide 40 mg IV qH 투여함. high-flow nasal cannula 적용함. C-line 유지함. positive fluid balance 확인됨. 임상 상태 drowsy 확인됨. cardiology 팀 notify함.",
+            "confidence": 0.0,
+            "words": []
+          }
+        ],
+        "language_code": "ko",
+        "channel_tag": 0
+      }
+    ],
+    "detected_language_codes": [
+      "ko"
+    ]
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_015_telegraphic_icu",
+  "whisper_transcript": "Severe 남자 환자, 급성 폐색전증 의심, BP 145/90 mmHg, HR 110 bpm, RR 28 breaths/min, BT 36.8°C, SpO2 88% on room air, severe chest pain, heparin 5000 units IV q6h, high-flow nasal cannulas 사용, thrombolytic therapy 시작, 2L IV fluids 투여. 환자 alert, cardiology team notify.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe_auto",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": null,
+    "audio_path": "data/audio/scenario_015_telegraphic_icu.mp3",
+    "audio_sha256": "a5db5bd99c770cc23f4ca5aac477176232181ad97a2413851c1571c39de94952",
+    "transcribed_at": "2026-11-04T14:05:15+00:00",
+    "request_seconds": 1.9,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "Severe 남자 환자, 급성 폐색전증 의심, BP 145/90 mmHg, HR 110 bpm, RR 28 breaths/min, BT 36.8°C, SpO2 88% on room air, severe chest pain, heparin 5000 units IV q6h, high-flow nasal cannulas 사용, thrombolytic therapy 시작, 2L IV fluids 투여. 환자 alert, cardiology team notify.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 227,
+      "output_tokens": 100,
+      "total_tokens": 327,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 227,
+        "text_tokens": 0
+      }
+    }
+  }
+}

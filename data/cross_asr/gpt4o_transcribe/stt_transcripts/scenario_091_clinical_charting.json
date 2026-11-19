@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_091_clinical_charting",
+  "whisper_transcript": "60세 여자 환자 acute respiratory failure e1, pulmonary fibrosis exacerbation 관련, BP 125 id mmHg, HR 96 bpm R min BT 37.62, SpO2 80 white% on room air, dyspnea 심함, 프레드니손 40mg po bid 적용함, high flow nasal cannula 유정, 코르티코스테로이드 테라피 시작함, 벤틀레이터 사용함. Clinical status: drowsy.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": "ko",
+    "audio_path": "data/audio/scenario_091_clinical_charting.mp3",
+    "audio_sha256": "085cf109d4362d782e9764c2d324ee29f18fd6678c2eea3b963351d6c905a318",
+    "transcribed_at": "2026-11-04T13:04:26+00:00",
+    "request_seconds": 2.14,
+    "attempts": 1,
+    "git_commit": "5b6d73fb63e1509a79e1a160176d606ed1b104c4",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "60세 여자 환자 acute respiratory failure e1, pulmonary fibrosis exacerbation 관련, BP 125 id mmHg, HR 96 bpm R min BT 37.62, SpO2 80 white% on room air, dyspnea 심함, 프레드니손 40mg po bid 적용함, high flow nasal cannula 유정, 코르티코스테로이드 테라피 시작함, 벤틀레이터 사용함. Clinical status: drowsy.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 234,
+      "output_tokens": 105,
+      "total_tokens": 339,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 234,
+        "text_tokens": 0
+      }
+    }
+  }
+}

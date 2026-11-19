@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_096_clinical_charting",
+  "whisper_transcript": "50세 남성 환자 급성 pulmonary edema로 입원 중. 원인은 좌심부전. BP는 60/90mmHg, HR 100bpm, RR 28 breaths/min, BT 37.5°C, SpO2 88% on room air, 95% on 2L O2 via nasal cannula. Severe dyspnea 호소함. Furosemide 40mg IV BID 적용함. 2L O2 via nasal cannula 유지함. Foley 유지함. 24시간 동안 음성 fluid balance 500mL 확인됨. Clinical status alert 확인됨. Cardiology team notify함.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe_auto",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": null,
+    "audio_path": "data/audio/scenario_096_clinical_charting.mp3",
+    "audio_sha256": "a1d64f9a912db3a9243152ccf4296145bcd2e5bc2424bf27d42cc82b4e251c46",
+    "transcribed_at": "2026-11-04T14:14:55+00:00",
+    "request_seconds": 2.13,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "50세 남성 환자 급성 pulmonary edema로 입원 중. 원인은 좌심부전. BP는 60/90mmHg, HR 100bpm, RR 28 breaths/min, BT 37.5°C, SpO2 88% on room air, 95% on 2L O2 via nasal cannula. Severe dyspnea 호소함. Furosemide 40mg IV BID 적용함. 2L O2 via nasal cannula 유지함. Foley 유지함. 24시간 동안 음성 fluid balance 500mL 확인됨. Clinical status alert 확인됨. Cardiology team notify함.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 305,
+      "output_tokens": 141,
+      "total_tokens": 446,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 305,
+        "text_tokens": 0
+      }
+    }
+  }
+}

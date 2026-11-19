@@ -1,0 +1,43 @@
+{
+  "sample_id": "scenario_035_telegraphic_icu",
+  "whisper_transcript": "60세 여성 급성 악화 심부전 확장성 심근병증 BP 95/60 mmHg, AT 10 BPM, RR 24 breaths/min, BT 36.8°C, SpO2 90% room air, severe SOB, Furosemide 40 mg IV Q8H, O2 4 L/min NC, Foley in place, I/O 500/2400, drowsy, doctor notify.",
+  "stt_metadata": {
+    "asr_system": "chirp3_ko",
+    "provider": "google",
+    "model": "chirp_3",
+    "location": "us",
+    "language_codes": [
+      "ko-KR"
+    ],
+    "audio_path": "data/audio/scenario_035_telegraphic_icu.mp3",
+    "audio_sha256": "18322eb740a17abeab66838b8edf1cc43adbf4532b837a3c0d1138b8e67370c1",
+    "transcribed_at": "2026-11-04T13:18:06+00:00",
+    "request_seconds": 5.4,
+    "attempts": 1,
+    "git_commit": "5b6d73fb63e1509a79e1a160176d606ed1b104c4",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "metadata": {
+      "total_billed_duration": "20s",
+      "request_id": "6dc7daac-0000-2cc9-91db-582429ac2ca8",
+      "prompt": "Transcribe the following speech segment in Korean. Follow these specific instructions for formatting the answer:\n* Only output the transcript, with no newlines.\n* When transcribing numbers, write the digits, i.e. write 1.7 and not one point seven, and write 100 instead of one hundred etc.\n* Only output the transcript, exactly as said in the speech segment.\n* Do not continue the speech segment.\n* Include everything said in the speech segment.\n* Use mathematical notation where needed, eg. x ^ 6Y.\n* If there is background speech that is not part of the main conversation, discard the background speech and only output the main conversation.\n* If there is no clear speech, just output [BACKGROUND].\n* Respond in the original language of the speech, Korean."
+    },
+    "results": [
+      {
+        "alternatives": [
+          {
+            "transcript": "60세 여성 급성 악화 심부전 확장성 심근병증 BP 95/60 mmHg, AT 10 BPM, RR 24 breaths/min, BT 36.8°C, SpO2 90% room air, severe SOB, Furosemide 40 mg IV Q8H, O2 4 L/min NC, Foley in place, I/O 500/2400, drowsy, doctor notify.",
+            "confidence": 0.0,
+            "words": []
+          }
+        ],
+        "language_code": "ko-KR",
+        "channel_tag": 0
+      }
+    ],
+    "detected_language_codes": [
+      "ko-KR"
+    ]
+  }
+}

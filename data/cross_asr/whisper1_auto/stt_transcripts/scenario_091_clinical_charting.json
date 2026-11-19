@@ -1,0 +1,25 @@
+{
+  "sample_id": "scenario_091_clinical_charting",
+  "whisper_transcript": "60. Suosei Yeoja Hwanja, Acute Respiratory Failure E1, Pulmonary Fibrosis Exacerbation Kwaylian. BPUN E5, 80 mmHg, HR-96 BPM R-min, BT-37.6, SpO2 80% on room air, dyspnea shimum, prednisone 40 mg POBID chogyeomum, high flow nasal cannula eugenium, corticosteroid therapy shijakkeum, ventilators hayeomum, clinical status drowsy.",
+  "stt_metadata": {
+    "asr_system": "whisper1_auto",
+    "provider": "openai",
+    "model": "whisper-1",
+    "language": null,
+    "audio_path": "data/audio/scenario_091_clinical_charting.mp3",
+    "audio_sha256": "085cf109d4362d782e9764c2d324ee29f18fd6678c2eea3b963351d6c905a318",
+    "transcribed_at": "2026-11-04T14:01:08+00:00",
+    "request_seconds": 2.7,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "60. Suosei Yeoja Hwanja, Acute Respiratory Failure E1, Pulmonary Fibrosis Exacerbation Kwaylian. BPUN E5, 80 mmHg, HR-96 BPM R-min, BT-37.6, SpO2 80% on room air, dyspnea shimum, prednisone 40 mg POBID chogyeomum, high flow nasal cannula eugenium, corticosteroid therapy shijakkeum, ventilators hayeomum, clinical status drowsy.",
+    "logprobs": null,
+    "usage": {
+      "seconds": 24.0,
+      "type": "duration"
+    }
+  }
+}

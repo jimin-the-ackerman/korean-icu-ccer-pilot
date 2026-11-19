@@ -1,0 +1,25 @@
+{
+  "sample_id": "scenario_083_telegraphic_icu",
+  "whisper_transcript": "61. 세이�fia capacity press pause acute pulmonary edema secondary to acute mitral valve regurgitation E1 BP 1690 HR 110 RRR 28 bt 37.23 sbo 288% dyspnea severe fuerosemide 40mg IV q6h non rebreather mask C line DROWSY",
+  "stt_metadata": {
+    "asr_system": "whisper1",
+    "provider": "reuse_existing",
+    "model": "whisper-1",
+    "language": "ko",
+    "audio_path": "data/audio/scenario_083_telegraphic_icu.mp3",
+    "audio_sha256": "6cd57bf686900c0a237ef6b26aa3064216b920fdfa87d8d2d8d1b519677ece50",
+    "copied_at": "2026-11-04T04:31:12+00:00",
+    "request_seconds": 0.0,
+    "attempts": 1,
+    "git_commit": "b3490181b3fb3f88b56cde5be78a01cfdcef3007",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "source_file": "data/stt_transcripts/scenario_083_telegraphic_icu.json",
+    "source_sha256": "5564d72dfb77964d997c5773ea01aaba43212b31ddb68fe3226721bbf3850db8",
+    "source_stt_metadata": {
+      "model": "whisper-1",
+      "language": "ko"
+    }
+  }
+}

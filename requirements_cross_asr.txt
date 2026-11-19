@@ -1,0 +1,2 @@
+# Additional dependency for the Cross-ASR experiment (src/cross_asr); base dependencies: requirements.txt
+google-cloud-speech==2.41.0

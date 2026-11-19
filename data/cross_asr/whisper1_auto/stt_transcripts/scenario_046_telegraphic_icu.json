@@ -1,0 +1,25 @@
+{
+  "sample_id": "scenario_046_telegraphic_icu",
+  "whisper_transcript": "Zikzibizet Namsong, acute subdural hematoma E1, BP Wexada-Pycic, HR-Zikziva-R-SA, BT-30-Zyktom-8, SpO2, 28%. Severe headache, mannitol-begram-IV-Q6H, intracranial pressure monitoring, Hwanja-Drauzi.",
+  "stt_metadata": {
+    "asr_system": "whisper1_auto",
+    "provider": "openai",
+    "model": "whisper-1",
+    "language": null,
+    "audio_path": "data/audio/scenario_046_telegraphic_icu.mp3",
+    "audio_sha256": "31ee686ba3dbce91b5eb4bf5a175852410415a4380afd7d7c79bcd365a882c81",
+    "transcribed_at": "2026-11-04T13:54:36+00:00",
+    "request_seconds": 3.45,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "Zikzibizet Namsong, acute subdural hematoma E1, BP Wexada-Pycic, HR-Zikziva-R-SA, BT-30-Zyktom-8, SpO2, 28%. Severe headache, mannitol-begram-IV-Q6H, intracranial pressure monitoring, Hwanja-Drauzi.",
+    "logprobs": null,
+    "usage": {
+      "seconds": 15.0,
+      "type": "duration"
+    }
+  }
+}

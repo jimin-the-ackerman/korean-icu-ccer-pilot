@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_025_formal_template",
+  "whisper_transcript": "환자 정보: 60세 여성 환자가 급성 담낭염으로 입원하였다. 활력 징후: 혈압이 138/84 mmHg로 확인되었고, 심박수는 92 bpm, 호흡수는 20 breaths/min이다. 체온은 38.2℃으로 측정되었으며, 산소 포화도는 실내 공기에서 95%이다. 증상: 심한 복통을 호소하였다. 투약: Ceftriaxone 1g을 IV로 q12h 투여 중이다. 중재: 복강경 담낭절제술이 계획되어 있다. 기구: C-line이 삽입되어 있다. 수분 출입량: 양성 균형으로 확인되었다. 임상 상태: 환을 명료한 상태이다.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe_auto",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": null,
+    "audio_path": "data/audio/scenario_025_formal_template.mp3",
+    "audio_sha256": "a8e6cd5e3c94d9bc66ec3fd387ecf430b69af38b1db650b7dd9eb63f33a61e76",
+    "transcribed_at": "2026-11-04T14:06:23+00:00",
+    "request_seconds": 2.89,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "환자 정보: 60세 여성 환자가 급성 담낭염으로 입원하였다. 활력 징후: 혈압이 138/84 mmHg로 확인되었고, 심박수는 92 bpm, 호흡수는 20 breaths/min이다. 체온은 38.2℃으로 측정되었으며, 산소 포화도는 실내 공기에서 95%이다. 증상: 심한 복통을 호소하였다. 투약: Ceftriaxone 1g을 IV로 q12h 투여 중이다. 중재: 복강경 담낭절제술이 계획되어 있다. 기구: C-line이 삽입되어 있다. 수분 출입량: 양성 균형으로 확인되었다. 임상 상태: 환을 명료한 상태이다.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 355,
+      "output_tokens": 183,
+      "total_tokens": 538,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 355,
+        "text_tokens": 0
+      }
+    }
+  }
+}

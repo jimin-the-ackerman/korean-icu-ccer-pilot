@@ -1,0 +1,25 @@
+{
+  "sample_id": "scenario_051_telegraphic_icu",
+  "whisper_transcript": "48-cent Namsung Kapsung Chijang ME1, BPF7 metacyclic amine, HR98 BPM, R22 B-bis-7-8-d-d-c-q, SpO2 90-p-n-r-a, severe abdominal pain, myofascial granuloma IV PRNO, NG tube, negative fluid balance, alert, GI team notify.",
+  "stt_metadata": {
+    "asr_system": "whisper1_auto",
+    "provider": "openai",
+    "model": "whisper-1",
+    "language": null,
+    "audio_path": "data/audio/scenario_051_telegraphic_icu.mp3",
+    "audio_sha256": "badc41f2124b0a732709d69524d49d21baa55b0195dfc60b77f13fccbf4b223b",
+    "transcribed_at": "2026-11-04T13:55:20+00:00",
+    "request_seconds": 2.41,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "48-cent Namsung Kapsung Chijang ME1, BPF7 metacyclic amine, HR98 BPM, R22 B-bis-7-8-d-d-c-q, SpO2 90-p-n-r-a, severe abdominal pain, myofascial granuloma IV PRNO, NG tube, negative fluid balance, alert, GI team notify.",
+    "logprobs": null,
+    "usage": {
+      "seconds": 16.0,
+      "type": "duration"
+    }
+  }
+}

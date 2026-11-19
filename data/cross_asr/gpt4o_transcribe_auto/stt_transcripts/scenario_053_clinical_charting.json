@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_053_clinical_charting",
+  "whisper_transcript": "60세 남성 환자, COPD 급성 악화 및 hypercapnic respiratory failure로 입원함. BP 135/85 mmHg, HR 125, RR 20회 breaths/min, BT 37.2°C, SpO2 82% on room air 확인됨. Severe dyspnea 호소함. Prednisone 40mg PO 적용함. Ventilator 통한 NIV oxygen support 유지함. Clinical status drowsy 확인됨. 담당 pulmonologist notify 함.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe_auto",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": null,
+    "audio_path": "data/audio/scenario_053_clinical_charting.mp3",
+    "audio_sha256": "b2b54c0fe6f67e52a7e862c8adfd8fff42c8dc784c6674ff6dc6d7488e474d35",
+    "transcribed_at": "2026-11-04T14:10:02+00:00",
+    "request_seconds": 2.15,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "60세 남성 환자, COPD 급성 악화 및 hypercapnic respiratory failure로 입원함. BP 135/85 mmHg, HR 125, RR 20회 breaths/min, BT 37.2°C, SpO2 82% on room air 확인됨. Severe dyspnea 호소함. Prednisone 40mg PO 적용함. Ventilator 통한 NIV oxygen support 유지함. Clinical status drowsy 확인됨. 담당 pulmonologist notify 함.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 248,
+      "output_tokens": 103,
+      "total_tokens": 351,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 248,
+        "text_tokens": 0
+      }
+    }
+  }
+}

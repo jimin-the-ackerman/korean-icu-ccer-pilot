@@ -1,0 +1,36 @@
+{
+  "sample_id": "scenario_038_telegraphic_icu",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "muscle weakness",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "stuporous",
+    "medication_identity": "Pyridostigmine",
+    "interventions": [],
+    "intake_output": null,
+    "notification": null
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "muscle weakness",
+        "negation": false,
+        "severity": "severe"
+      },
+      {
+        "name": "호흡 보조 필요",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "stuporous",
+    "medication_identity": "Pyridostigmine",
+    "interventions": [],
+    "intake_output": null,
+    "notification": null
+  }
+}

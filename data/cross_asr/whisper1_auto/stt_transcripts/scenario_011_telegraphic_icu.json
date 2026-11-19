@@ -1,0 +1,25 @@
+{
+  "sample_id": "scenario_011_telegraphic_icu",
+  "whisper_transcript": "62세 남성 급성 간부전이 보완. BPD-R16-R.PHRRSTO-2-95% 존 다이스 심각. Lactulose 36mg nasal cannula 2-datamormin. Fully 사용중. 의식상태 혼미. Hepatology team notify.",
+  "stt_metadata": {
+    "asr_system": "whisper1_auto",
+    "provider": "openai",
+    "model": "whisper-1",
+    "language": null,
+    "audio_path": "data/audio/scenario_011_telegraphic_icu.mp3",
+    "audio_sha256": "d14e80f36258d66c401142503784f217d43d96c44ee644d4e05df73c1cba7382",
+    "transcribed_at": "2026-11-04T13:50:36+00:00",
+    "request_seconds": 1.59,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "62세 남성 급성 간부전이 보완. BPD-R16-R.PHRRSTO-2-95% 존 다이스 심각. Lactulose 36mg nasal cannula 2-datamormin. Fully 사용중. 의식상태 혼미. Hepatology team notify.",
+    "logprobs": null,
+    "usage": {
+      "seconds": 16.0,
+      "type": "duration"
+    }
+  }
+}

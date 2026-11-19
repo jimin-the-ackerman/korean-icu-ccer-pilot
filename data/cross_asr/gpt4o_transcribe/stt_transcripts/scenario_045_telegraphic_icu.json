@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_045_telegraphic_icu",
+  "whisper_transcript": "60VCA a song, Addison's disease rowinan kupsong pusee yiwan, BP 8 e V sawg tipa pamrim, RR 24 breaths min biladzi seth, SpO2 90% RA. Severe abdominal pain, hydrocortisone 100 mg IV stat, nasal cannula 2L min, fluid resuscitation with NS, Foley present, urine output put 30 ml/hr drowsy. Endocrinology consult.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": "ko",
+    "audio_path": "data/audio/scenario_045_telegraphic_icu.mp3",
+    "audio_sha256": "1131ad8ecf3b06648fd717a109f257f8e736feda6092726153b347a10c10510b",
+    "transcribed_at": "2026-11-04T12:58:21+00:00",
+    "request_seconds": 1.75,
+    "attempts": 1,
+    "git_commit": "5b6d73fb63e1509a79e1a160176d606ed1b104c4",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "60VCA a song, Addison's disease rowinan kupsong pusee yiwan, BP 8 e V sawg tipa pamrim, RR 24 breaths min biladzi seth, SpO2 90% RA. Severe abdominal pain, hydrocortisone 100 mg IV stat, nasal cannula 2L min, fluid resuscitation with NS, Foley present, urine output put 30 ml/hr drowsy. Endocrinology consult.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 230,
+      "output_tokens": 101,
+      "total_tokens": 331,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 230,
+        "text_tokens": 0
+      }
+    }
+  }
+}

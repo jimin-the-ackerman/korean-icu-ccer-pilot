@@ -1,0 +1,35 @@
+{
+  "sample_id": "scenario_008_clinical_charting",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "abdominal pain",
+        "negation": false,
+        "severity": "moderate"
+      }
+    ],
+    "clinical_status": "drowsy",
+    "medication_identity": "Pantoprazole",
+    "interventions": [
+      "Blood transfusion"
+    ],
+    "intake_output": "I/O negative",
+    "notification": "Gastroenterology team notify함 for endoscopy"
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "Abdominal Pain",
+        "negation": false,
+        "severity": "moderate"
+      }
+    ],
+    "clinical_status": "Drowsy",
+    "medication_identity": "Pantoprazole",
+    "interventions": [
+      "Blood Transfusion"
+    ],
+    "intake_output": "IO Negative",
+    "notification": "Gastroenterology Team Notify함 for Endoscopy"
+  }
+}

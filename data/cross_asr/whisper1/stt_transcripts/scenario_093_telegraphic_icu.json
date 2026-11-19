@@ -1,0 +1,25 @@
+{
+  "sample_id": "scenario_093_telegraphic_icu",
+  "whisper_transcript": "52세 남성, 심각한 혈압 충격, 엉덩이 아이오틱 아니어리즘, bp 8550, hr120, rr24, bt36.8, sp02 89%, 심각한 엉덩이 아픔, 드라우지, 노르페네프린-8-미스크렘-민-이비-TID, 하이플로-네즐-캐뉴리스-하이옹, C-라인-토겸, 뱃수 수출 20mPa, emergency-surgical-repair-caric-them, vascular-surgery-team-notify.",
+  "stt_metadata": {
+    "asr_system": "whisper1",
+    "provider": "reuse_existing",
+    "model": "whisper-1",
+    "language": "ko",
+    "audio_path": "data/audio/scenario_093_telegraphic_icu.mp3",
+    "audio_sha256": "50ec72147db07606f2e57ccb408c8707de254e33f4e1f4ec4ca4905c1fb6e8c3",
+    "copied_at": "2026-11-04T04:31:12+00:00",
+    "request_seconds": 0.0,
+    "attempts": 1,
+    "git_commit": "b3490181b3fb3f88b56cde5be78a01cfdcef3007",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "source_file": "data/stt_transcripts/scenario_093_telegraphic_icu.json",
+    "source_sha256": "ecb7622e40d112904a7f56d6e44606b51a1dafc22d541b1b0efbf521268c4d18",
+    "source_stt_metadata": {
+      "model": "whisper-1",
+      "language": "ko"
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_046_telegraphic_icu",
+  "whisper_transcript": "60 فیصد نمونہ، ایکیوٹ سب ڈورل ہیمیٹوما ایون، بی پی ویکسہٹہ پائشتک، ایچ آر 60 واہ آر سا بی ٹی سڑیزکتوم آئی، ایس پی او ٹو کائشی بائٹ پرسنٹ، سیویر ہیڈیک، مینیٹول بیگرم آئی وی کیو سکس ایچ، انٹرا کرینیال پریشر مونیٹرنگ، ہنچہ ڈراوزی۔",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": "ko",
+    "audio_path": "data/audio/scenario_046_telegraphic_icu.mp3",
+    "audio_sha256": "31ee686ba3dbce91b5eb4bf5a175852410415a4380afd7d7c79bcd365a882c81",
+    "transcribed_at": "2026-11-04T12:58:27+00:00",
+    "request_seconds": 1.64,
+    "attempts": 1,
+    "git_commit": "5b6d73fb63e1509a79e1a160176d606ed1b104c4",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "60 فیصد نمونہ، ایکیوٹ سب ڈورل ہیمیٹوما ایون، بی پی ویکسہٹہ پائشتک، ایچ آر 60 واہ آر سا بی ٹی سڑیزکتوم آئی، ایس پی او ٹو کائشی بائٹ پرسنٹ، سیویر ہیڈیک، مینیٹول بیگرم آئی وی کیو سکس ایچ، انٹرا کرینیال پریشر مونیٹرنگ، ہنچہ ڈراوزی۔",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 143,
+      "output_tokens": 110,
+      "total_tokens": 253,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 143,
+        "text_tokens": 0
+      }
+    }
+  }
+}

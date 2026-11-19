@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_048_telegraphic_icu",
+  "whisper_transcript": "58세 남성, 식도정맥류로 심한 알럿, 인터뷰 다인디 60mL/hr, 120bpm, RR 24 breaths/min, BT 36.8℃, SpO2 92% RA, hemorrhage c/drowsy. Octreotide 50mcg IV q6h, N/S 2L/min. Endoscopic band ligation, Foley 적용, I/O strict monitoring, Dr. notify.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe_auto",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": null,
+    "audio_path": "data/audio/scenario_048_telegraphic_icu.mp3",
+    "audio_sha256": "232533ef41eea1fcd0b042cb6ecc9ac79a4d0fc297c7aee1060fb8f95d8ee750",
+    "transcribed_at": "2026-11-04T14:09:35+00:00",
+    "request_seconds": 1.95,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "58세 남성, 식도정맥류로 심한 알럿, 인터뷰 다인디 60mL/hr, 120bpm, RR 24 breaths/min, BT 36.8℃, SpO2 92% RA, hemorrhage c/drowsy. Octreotide 50mcg IV q6h, N/S 2L/min. Endoscopic band ligation, Foley 적용, I/O strict monitoring, Dr. notify.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 196,
+      "output_tokens": 100,
+      "total_tokens": 296,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 196,
+        "text_tokens": 0
+      }
+    }
+  }
+}

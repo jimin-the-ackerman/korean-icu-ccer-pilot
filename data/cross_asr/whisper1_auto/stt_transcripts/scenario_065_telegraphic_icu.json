@@ -1,0 +1,25 @@
+{
+  "sample_id": "scenario_065_telegraphic_icu",
+  "whisper_transcript": "56 sales on BP1107mHg, HR88BPM, RR20Breastmin, BT38 on hybrid cells, SpO2, 94% RA, severe skin rash, methylprednisolone on 25mg IV, wound care shishi, IV fluids 100ml per hour, alert.",
+  "stt_metadata": {
+    "asr_system": "whisper1_auto",
+    "provider": "openai",
+    "model": "whisper-1",
+    "language": null,
+    "audio_path": "data/audio/scenario_065_telegraphic_icu.mp3",
+    "audio_sha256": "d315b97f84199a4d8e6147c7ccd4dc3d61c7426938c9a8813882d8c5865365b6",
+    "transcribed_at": "2026-11-04T13:57:57+00:00",
+    "request_seconds": 1.62,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "56 sales on BP1107mHg, HR88BPM, RR20Breastmin, BT38 on hybrid cells, SpO2, 94% RA, severe skin rash, methylprednisolone on 25mg IV, wound care shishi, IV fluids 100ml per hour, alert.",
+    "logprobs": null,
+    "usage": {
+      "seconds": 16.0,
+      "type": "duration"
+    }
+  }
+}

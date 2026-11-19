@@ -1,0 +1,25 @@
+{
+  "sample_id": "scenario_073_clinical_charting",
+  "whisper_transcript": "62세 남자 환자, 아큐트 폴머네리아디마로 입원함. 심한 마이트롤 valve regurgitation 배경. BP 환자 세리 밀미허그롱 HR-GAI-G8 BPM, RR28 Breaths Min, BT 36.8dSbO2 80% on room air. severe shortness of breath 호소함. furosemide 40mg IV-Q8H 투여함. non-rebreather mask at 15mL min 적용함. Fully 유지함. Positive fluid balance 200mL over the last 24 hours 확인됨. 환자 알러트 상태.",
+  "stt_metadata": {
+    "asr_system": "whisper1",
+    "provider": "reuse_existing",
+    "model": "whisper-1",
+    "language": "ko",
+    "audio_path": "data/audio/scenario_073_clinical_charting.mp3",
+    "audio_sha256": "01d87ecaab55610d6156e24c71c5d8ef96fc63532540364992e2a0d3eb584c32",
+    "copied_at": "2026-11-04T04:31:12+00:00",
+    "request_seconds": 0.0,
+    "attempts": 1,
+    "git_commit": "b3490181b3fb3f88b56cde5be78a01cfdcef3007",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "source_file": "data/stt_transcripts/scenario_073_clinical_charting.json",
+    "source_sha256": "52f4aea4fc31e4d7e167b4a23988b00c077316f90f550bf7b461896a40de1a57",
+    "source_stt_metadata": {
+      "model": "whisper-1",
+      "language": "ko"
+    }
+  }
+}

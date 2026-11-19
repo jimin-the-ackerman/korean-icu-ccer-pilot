@@ -1,0 +1,25 @@
+{
+  "sample_id": "scenario_083_telegraphic_icu",
+  "whisper_transcript": "61 Sayodzha, acute pulmonary edema secondary to acute mitral valve regurgitation E1. BP 1,690, HR 1,10, RR 28, BT 37.2 degrees, SBO 2, 88%. Dyspnea severe, furosemide 40 milligram IV Q6H, non-rebreather mask, C-line, drowsy.",
+  "stt_metadata": {
+    "asr_system": "whisper1_auto",
+    "provider": "openai",
+    "model": "whisper-1",
+    "language": null,
+    "audio_path": "data/audio/scenario_083_telegraphic_icu.mp3",
+    "audio_sha256": "6cd57bf686900c0a237ef6b26aa3064216b920fdfa87d8d2d8d1b519677ece50",
+    "transcribed_at": "2026-11-04T14:00:03+00:00",
+    "request_seconds": 1.9,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "61 Sayodzha, acute pulmonary edema secondary to acute mitral valve regurgitation E1. BP 1,690, HR 1,10, RR 28, BT 37.2 degrees, SBO 2, 88%. Dyspnea severe, furosemide 40 milligram IV Q6H, non-rebreather mask, C-line, drowsy.",
+    "logprobs": null,
+    "usage": {
+      "seconds": 17.0,
+      "type": "duration"
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_076_telegraphic_icu",
+  "whisper_transcript": "35세 여자 환자, AKI, Hyperemesis Gravidarum로 인한 Severe Dehydration Secondary, BP 72/58, HR 128, BT 36.8, SPO2 72%, Nausea Severe, Ondansetron 8mg IV q8h, IV Fluid Resuscitation with NS Foley Catheter, Negative Fluid Balance Drowsy, Nephrology Team Consult",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe_auto",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": null,
+    "audio_path": "data/audio/scenario_076_telegraphic_icu.mp3",
+    "audio_sha256": "70397965db6a25496327462b68561b66b7b29e6feba715b6b6e89dca6afb9d71",
+    "transcribed_at": "2026-11-04T14:12:35+00:00",
+    "request_seconds": 1.61,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "35세 여자 환자, AKI, Hyperemesis Gravidarum로 인한 Severe Dehydration Secondary, BP 72/58, HR 128, BT 36.8, SPO2 72%, Nausea Severe, Ondansetron 8mg IV q8h, IV Fluid Resuscitation with NS Foley Catheter, Negative Fluid Balance Drowsy, Nephrology Team Consult",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 203,
+      "output_tokens": 86,
+      "total_tokens": 289,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 203,
+        "text_tokens": 0
+      }
+    }
+  }
+}

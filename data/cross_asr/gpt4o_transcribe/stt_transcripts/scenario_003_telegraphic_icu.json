@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_003_telegraphic_icu",
+  "whisper_transcript": "Subq T세열성, BP 145/95 mmHg, HR 22, BT 37.1℃, SpO2 95% on NC. Severe chest pain. Aspirin 325mg PO stat, NC 사용 중, cardiac monitoring 중, C line 유지 중, alert. Cardiology team notify.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": "ko",
+    "audio_path": "data/audio/scenario_003_telegraphic_icu.mp3",
+    "audio_sha256": "660ec7926413427ce9fd7c661161efa0a0abcc4f7973d26b501b7631d89e5e95",
+    "transcribed_at": "2026-11-04T12:53:54+00:00",
+    "request_seconds": 1.42,
+    "attempts": 1,
+    "git_commit": "5b6d73fb63e1509a79e1a160176d606ed1b104c4",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "Subq T세열성, BP 145/95 mmHg, HR 22, BT 37.1℃, SpO2 95% on NC. Severe chest pain. Aspirin 325mg PO stat, NC 사용 중, cardiac monitoring 중, C line 유지 중, alert. Cardiology team notify.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 168,
+      "output_tokens": 69,
+      "total_tokens": 237,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 168,
+        "text_tokens": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "sample_id": "scenario_012_telegraphic_icu",
+  "whisper_transcript": "75-y female, 신부전, acute r u b p 90/60 mmHg, HR 10 BPM, RR 22, BT 36.8 degrees, SpO2 88% room air, dyspnea moderate. Furosemide 40 mg IV q8h, O2 2L NC, Foley, fluid balance positive, drowsy, cardiology team notify.",
+  "stt_metadata": {
+    "asr_system": "chirp3_auto",
+    "provider": "google",
+    "model": "chirp_3",
+    "location": "us",
+    "language_codes": [
+      "auto"
+    ],
+    "audio_path": "data/audio/scenario_012_telegraphic_icu.mp3",
+    "audio_sha256": "3226fd93b5575353fa04e4651346c04b47667ff280346875e17fb057d8fdb451",
+    "transcribed_at": "2026-11-04T14:20:03+00:00",
+    "request_seconds": 3.67,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "metadata": {
+      "total_billed_duration": "17s",
+      "request_id": "73ed7efd-0000-23ec-b118-ac3eb14847c0",
+      "prompt": "Transcribe the following speech segment. Follow these specific instructions for formatting the answer:\n* Only output the transcript, with no newlines.\n* When transcribing numbers, write the digits, i.e. write 1.7 and not one point seven, and write 100 instead of one hundred etc.\n* Only output the transcript, exactly as said in the speech segment.\n* Do not continue the speech segment.\n* Include everything said in the speech segment.\n* Use mathematical notation where needed, eg. x ^ 6Y.\n* If there is background speech that is not part of the main conversation, discard the background speech and only output the main conversation.\n* If there is no clear speech, just output [BACKGROUND].\n* Respond in the original language of the speech."
+    },
+    "results": [
+      {
+        "alternatives": [
+          {
+            "transcript": "75-y female, 신부전, acute r u b p 90/60 mmHg, HR 10 BPM, RR 22, BT 36.8 degrees, SpO2 88% room air, dyspnea moderate. Furosemide 40 mg IV q8h, O2 2L NC, Foley, fluid balance positive, drowsy, cardiology team notify.",
+            "confidence": 0.0,
+            "words": []
+          }
+        ],
+        "language_code": "en",
+        "channel_tag": 0
+      }
+    ],
+    "detected_language_codes": [
+      "en"
+    ]
+  }
+}

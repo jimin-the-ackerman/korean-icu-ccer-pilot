@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_071_telegraphic_icu",
+  "whisper_transcript": "40배트 세어성, GBS 소의 환, BP 108/76mmHg, HR 88 BPM, RR 28, BT 37.9, SpO2 89%. Severe muscle weakness. IV immunoglobulin 0.4g/kg IV q12h. Non-rebreather mask 사용 중, ventilator 사용 중, drowsy. Neurology team notify함.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": "ko",
+    "audio_path": "data/audio/scenario_071_telegraphic_icu.mp3",
+    "audio_sha256": "9c6b213b2c0cd48dd32dbcc336b7858346e520b18a8b7bc2e5c887a42bd8ff23",
+    "transcribed_at": "2026-11-04T13:01:45+00:00",
+    "request_seconds": 1.69,
+    "attempts": 1,
+    "git_commit": "5b6d73fb63e1509a79e1a160176d606ed1b104c4",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "40배트 세어성, GBS 소의 환, BP 108/76mmHg, HR 88 BPM, RR 28, BT 37.9, SpO2 89%. Severe muscle weakness. IV immunoglobulin 0.4g/kg IV q12h. Non-rebreather mask 사용 중, ventilator 사용 중, drowsy. Neurology team notify함.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 180,
+      "output_tokens": 86,
+      "total_tokens": 266,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 180,
+        "text_tokens": 0
+      }
+    }
+  }
+}

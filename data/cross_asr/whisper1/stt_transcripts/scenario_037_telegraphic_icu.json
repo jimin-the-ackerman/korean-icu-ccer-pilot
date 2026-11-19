@@ -1,0 +1,25 @@
+{
+  "sample_id": "scenario_037_telegraphic_icu",
+  "whisper_transcript": "51세 남성 크롱즈 디지즈, 급성 아쿠아 심한 복부 아픔, 다이어리, bp1n70, hr95, rr18, bt37.5, spO2 98% 프렌듀존 40mg POBD, IV 플루이드 2000mL 24 알러트",
+  "stt_metadata": {
+    "asr_system": "whisper1",
+    "provider": "reuse_existing",
+    "model": "whisper-1",
+    "language": "ko",
+    "audio_path": "data/audio/scenario_037_telegraphic_icu.mp3",
+    "audio_sha256": "771b89cc81cfeffcd5891be3831ae51cfdee7cf522dc0a53b66eff30e0aaae4f",
+    "copied_at": "2026-11-04T04:31:11+00:00",
+    "request_seconds": 0.0,
+    "attempts": 1,
+    "git_commit": "b3490181b3fb3f88b56cde5be78a01cfdcef3007",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "source_file": "data/stt_transcripts/scenario_037_telegraphic_icu.json",
+    "source_sha256": "64f3779df62173a562871527db326c2f435d5e6244ec0488392e026e03d6bd8b",
+    "source_stt_metadata": {
+      "model": "whisper-1",
+      "language": "ko"
+    }
+  }
+}

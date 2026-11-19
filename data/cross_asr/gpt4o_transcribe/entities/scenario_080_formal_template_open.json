@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_080_formal_template",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "jaundice",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "drowsy",
+    "medication_identity": "Furosemide",
+    "interventions": [],
+    "intake_output": "negative fluid balance",
+    "notification": "간 전문의 상담이 요청되었다 (hepatology consult requested)"
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "jaundice",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "drowsy",
+    "medication_identity": "Furosemide",
+    "interventions": [],
+    "intake_output": "negative fluid balance",
+    "notification": "간전문의 상담이 요청되었다 (hepatology consult requested)"
+  }
+}

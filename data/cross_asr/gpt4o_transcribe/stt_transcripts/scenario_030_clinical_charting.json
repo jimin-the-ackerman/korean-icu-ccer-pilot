@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_030_clinical_charting",
+  "whisper_transcript": "56세 여성, acute exacerbation of SLE로 입원함. lupus nephritis 확인됨 BP 142/82 HR 12 BT 37.5 SpO2 97%. Moderate joint pain 호소함. prednisolone 40mg PO q8h 투여함. Foley 유지함, IO positive. 환자 alert 상태 유지함.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": "ko",
+    "audio_path": "data/audio/scenario_030_clinical_charting.mp3",
+    "audio_sha256": "d8a4f2d801689060bd8cd1ecb1726bba628a082ae5793409280e9d0f5c45d891",
+    "transcribed_at": "2026-11-04T12:56:37+00:00",
+    "request_seconds": 1.62,
+    "attempts": 1,
+    "git_commit": "5b6d73fb63e1509a79e1a160176d606ed1b104c4",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "56세 여성, acute exacerbation of SLE로 입원함. lupus nephritis 확인됨 BP 142/82 HR 12 BT 37.5 SpO2 97%. Moderate joint pain 호소함. prednisolone 40mg PO q8h 투여함. Foley 유지함, IO positive. 환자 alert 상태 유지함.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 187,
+      "output_tokens": 76,
+      "total_tokens": 263,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 187,
+        "text_tokens": 0
+      }
+    }
+  }
+}

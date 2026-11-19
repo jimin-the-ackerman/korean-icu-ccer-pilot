@@ -1,0 +1,26 @@
+{
+  "sample_id": "scenario_033_clinical_charting",
+  "whisper_transcript": "64-year-old male, hospitalized due to atrial fibrillation onset, unstable hemodynamics, BP 88, 54 mmHg, HR 142 BPM, RRHB breaths min, BT 36.0, SbO2 94% room air, severe palpitations, dilatation, 20 mg IV stat, electrical cardioversion, C-line maintenance, IV fluids, 10-500 mL, cardiology team notify.",
+  "stt_metadata": {
+    "asr_system": "whisper1_auto",
+    "provider": "openai",
+    "model": "whisper-1",
+    "language": null,
+    "scope": "pilot",
+    "audio_path": "data/audio/scenario_033_clinical_charting.mp3",
+    "audio_sha256": "5ec5cbee4aafef28d5a3695a33ebf9d15bc0da9ca4f118ad2c3146bc476af2a8",
+    "transcribed_at": "2026-11-04T13:41:09+00:00",
+    "request_seconds": 2.05,
+    "attempts": 1,
+    "git_commit": "5b6d73fb63e1509a79e1a160176d606ed1b104c4",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "64-year-old male, hospitalized due to atrial fibrillation onset, unstable hemodynamics, BP 88, 54 mmHg, HR 142 BPM, RRHB breaths min, BT 36.0, SbO2 94% room air, severe palpitations, dilatation, 20 mg IV stat, electrical cardioversion, C-line maintenance, IV fluids, 10-500 mL, cardiology team notify.",
+    "logprobs": null,
+    "usage": {
+      "seconds": 26.0,
+      "type": "duration"
+    }
+  }
+}

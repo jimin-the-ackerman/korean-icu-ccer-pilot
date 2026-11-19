@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_069_clinical_charting",
+  "whisper_transcript": "의식체세 남성 환자 acute heroin overdose로 입원함. BP 92/60mmHg, HR 45 bpm, RR 8 breaths/min, BT 36.5도C, SpO2 85% on room air. Severe unconsciousness 호소함. Naloxone 4mg IV stat 적용함. High-flow nasal cannula 적용함. Clinical status unresponsive.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": "ko",
+    "audio_path": "data/audio/scenario_069_clinical_charting.mp3",
+    "audio_sha256": "116463f5e09249c4c11d85f5e99642d2b63e0d952f3db1c071f51ac1fc2ec2e9",
+    "transcribed_at": "2026-11-04T13:01:11+00:00",
+    "request_seconds": 1.51,
+    "attempts": 1,
+    "git_commit": "5b6d73fb63e1509a79e1a160176d606ed1b104c4",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "의식체세 남성 환자 acute heroin overdose로 입원함. BP 92/60mmHg, HR 45 bpm, RR 8 breaths/min, BT 36.5도C, SpO2 85% on room air. Severe unconsciousness 호소함. Naloxone 4mg IV stat 적용함. High-flow nasal cannula 적용함. Clinical status unresponsive.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 189,
+      "output_tokens": 86,
+      "total_tokens": 275,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 189,
+        "text_tokens": 0
+      }
+    }
+  }
+}

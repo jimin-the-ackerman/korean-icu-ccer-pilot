@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_077_formal_template",
+  "whisper_transcript": "64세 여성 환자가 탈수로 인한 만성 신장질환 악화로 입원하였다. 활력징후는 혈압 88mmHg, 심박수 22bpm, 호흡수 22bpm, 체온 36.8도로 확인되었다. 산소포화도는 EOT를 비강캐글라로 공급받으면서 94%로 측정되었다. 환자는 중등도의 위크니스를 호소하였다. 라베탈롤 10mg을 IV로 Q8H 투여 중이다. 비강캐글라로 산소를 공급받고 있으며 수액 보충 치료를 진행하였다. 폴리 카테터가 삽입되어 있으며 환자는 수분 균형이 양성으로 확인되었다. 임상 상태는 졸린 상태를 보이고 있다. 신장팀에게 투석 평가를 위해 보고하였다.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": "ko",
+    "audio_path": "data/audio/scenario_077_formal_template.mp3",
+    "audio_sha256": "0071268ecc727880a5d00bf4dc6fe258c406d7156931cdf9c66be48e1372a922",
+    "transcribed_at": "2026-11-04T13:02:38+00:00",
+    "request_seconds": 16.49,
+    "attempts": 1,
+    "git_commit": "5b6d73fb63e1509a79e1a160176d606ed1b104c4",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "64세 여성 환자가 탈수로 인한 만성 신장질환 악화로 입원하였다. 활력징후는 혈압 88mmHg, 심박수 22bpm, 호흡수 22bpm, 체온 36.8도로 확인되었다. 산소포화도는 EOT를 비강캐글라로 공급받으면서 94%로 측정되었다. 환자는 중등도의 위크니스를 호소하였다. 라베탈롤 10mg을 IV로 Q8H 투여 중이다. 비강캐글라로 산소를 공급받고 있으며 수액 보충 치료를 진행하였다. 폴리 카테터가 삽입되어 있으며 환자는 수분 균형이 양성으로 확인되었다. 임상 상태는 졸린 상태를 보이고 있다. 신장팀에게 투석 평가를 위해 보고하였다.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 430,
+      "output_tokens": 197,
+      "total_tokens": 627,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 430,
+        "text_tokens": 0
+      }
+    }
+  }
+}

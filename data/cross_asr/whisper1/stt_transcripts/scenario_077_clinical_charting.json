@@ -1,0 +1,25 @@
+{
+  "sample_id": "scenario_077_clinical_charting",
+  "whisper_transcript": "육수 시세 여성 환자, 크로닉 키드니 질환으로 입원합니다. BPH 856mHg, HR-BPM, R, SUD, Breaths Min, BT 36.8 Lease 확인합니다. SbO2 규치 4%, 202 via Nasal Cannon, Moderate Weakness 호소합니다. 레베틀롤 10mg IV QH 추효중, Nasal Cannula 적용합니다. Fluid Resuscitation 시행함, Fully Eugene, Positive Fluid Balance 확인합니다. 의료 정보 드라우지 레베틀롤 10mg IV QH 추효중, Nasal Cannon, Moderate Weakness 호소합니다.",
+  "stt_metadata": {
+    "asr_system": "whisper1",
+    "provider": "reuse_existing",
+    "model": "whisper-1",
+    "language": "ko",
+    "audio_path": "data/audio/scenario_077_clinical_charting.mp3",
+    "audio_sha256": "0e7ce7c14ce41d7aedb37dbca5a4f0522e60a9e1d40e925d6f47bc65bac1a762",
+    "copied_at": "2026-11-04T04:31:12+00:00",
+    "request_seconds": 0.0,
+    "attempts": 1,
+    "git_commit": "b3490181b3fb3f88b56cde5be78a01cfdcef3007",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "source_file": "data/stt_transcripts/scenario_077_clinical_charting.json",
+    "source_sha256": "80cf5474481a8572c9c733580b5704607201fde68bd68217857f9d9a21021c7f",
+    "source_stt_metadata": {
+      "model": "whisper-1",
+      "language": "ko"
+    }
+  }
+}

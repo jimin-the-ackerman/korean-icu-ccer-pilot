@@ -1,0 +1,5 @@
+verify existing outputs in data/cross_asr (not overwritten)
+  samples=300 scenarios=100 by_style={'clinical_charting': 100, 'formal_template': 100, 'telegraphic_icu': 100}
+  pilot scenarios=['scenario_007', 'scenario_012', 'scenario_018', 'scenario_019', 'scenario_021', 'scenario_025', 'scenario_033', 'scenario_068', 'scenario_079', 'scenario_080']
+  audio missing=0 changed=0
+MANIFEST VERIFIED

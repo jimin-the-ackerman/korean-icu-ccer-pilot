@@ -1,0 +1,25 @@
+{
+  "sample_id": "scenario_048_telegraphic_icu",
+  "whisper_transcript": "58C Namsung. Shiktojongmengniroshimani. Alimentary of E-Dyne-D-Lyoxymil-HR-R-120BPM. R24 breaths min. BT 36.8 degrees C. SpO2 92% RA. Hemorrhage Civ-Drowsy. Octreotide 50-mixerium-IV-QxH. NC2L min. Endoscopic band ligation fully jogyeong. IO strict monitoring. Doctor notify.",
+  "stt_metadata": {
+    "asr_system": "whisper1_auto",
+    "provider": "openai",
+    "model": "whisper-1",
+    "language": null,
+    "audio_path": "data/audio/scenario_048_telegraphic_icu.mp3",
+    "audio_sha256": "232533ef41eea1fcd0b042cb6ecc9ac79a4d0fc297c7aee1060fb8f95d8ee750",
+    "transcribed_at": "2026-11-04T13:54:55+00:00",
+    "request_seconds": 3.15,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "58C Namsung. Shiktojongmengniroshimani. Alimentary of E-Dyne-D-Lyoxymil-HR-R-120BPM. R24 breaths min. BT 36.8 degrees C. SpO2 92% RA. Hemorrhage Civ-Drowsy. Octreotide 50-mixerium-IV-QxH. NC2L min. Endoscopic band ligation fully jogyeong. IO strict monitoring. Doctor notify.",
+    "logprobs": null,
+    "usage": {
+      "seconds": 20.0,
+      "type": "duration"
+    }
+  }
+}

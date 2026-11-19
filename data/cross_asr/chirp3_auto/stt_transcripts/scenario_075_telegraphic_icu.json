@@ -1,0 +1,43 @@
+{
+  "sample_id": "scenario_075_telegraphic_icu",
+  "whisper_transcript": "72m acute decompensated heart failure, severe aortic stenosis, BP 90/60 mmHg, HR 110 BPM, R 22 breaths/min, BT 36.8 C, SpO2 88% on 4 L O2 via NC, severe chest pain, furosemide 40 mg IV QAH, Foley, strict I&O monitoring, alert, cardiology team consult for valve replacement.",
+  "stt_metadata": {
+    "asr_system": "chirp3_auto",
+    "provider": "google",
+    "model": "chirp_3",
+    "location": "us",
+    "language_codes": [
+      "auto"
+    ],
+    "audio_path": "data/audio/scenario_075_telegraphic_icu.mp3",
+    "audio_sha256": "b06c758a428f8ce86010a8563090227062a99aec8227266c215849b15141026b",
+    "transcribed_at": "2026-11-04T14:49:20+00:00",
+    "request_seconds": 3.31,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "metadata": {
+      "total_billed_duration": "21s",
+      "request_id": "6cba92d6-0000-2597-9590-c82add8031b8",
+      "prompt": "Transcribe the following speech segment. Follow these specific instructions for formatting the answer:\n* Only output the transcript, with no newlines.\n* When transcribing numbers, write the digits, i.e. write 1.7 and not one point seven, and write 100 instead of one hundred etc.\n* Only output the transcript, exactly as said in the speech segment.\n* Do not continue the speech segment.\n* Include everything said in the speech segment.\n* Use mathematical notation where needed, eg. x ^ 6Y.\n* If there is background speech that is not part of the main conversation, discard the background speech and only output the main conversation.\n* If there is no clear speech, just output [BACKGROUND].\n* Respond in the original language of the speech."
+    },
+    "results": [
+      {
+        "alternatives": [
+          {
+            "transcript": "72m acute decompensated heart failure, severe aortic stenosis, BP 90/60 mmHg, HR 110 BPM, R 22 breaths/min, BT 36.8 C, SpO2 88% on 4 L O2 via NC, severe chest pain, furosemide 40 mg IV QAH, Foley, strict I&O monitoring, alert, cardiology team consult for valve replacement.",
+            "confidence": 0.0,
+            "words": []
+          }
+        ],
+        "language_code": "en",
+        "channel_tag": 0
+      }
+    ],
+    "detected_language_codes": [
+      "en"
+    ]
+  }
+}

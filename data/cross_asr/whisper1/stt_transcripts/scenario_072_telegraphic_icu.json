@@ -1,0 +1,25 @@
+{
+  "sample_id": "scenario_072_telegraphic_icu",
+  "whisper_transcript": "67센 암성, 급성 괴양성 대장염, 심각한 복부 아픔, 혈압, 다이어트, BP 90, 60mHg, HR 110b, RR 24, B37.8b, SPO 200%RA, Hydrocortisone 100, Milium IV, Q6, IV Fluid Resuscitation, Negative Fluid Balance Alert.",
+  "stt_metadata": {
+    "asr_system": "whisper1",
+    "provider": "reuse_existing",
+    "model": "whisper-1",
+    "language": "ko",
+    "audio_path": "data/audio/scenario_072_telegraphic_icu.mp3",
+    "audio_sha256": "af454b01cbad3b4c9b4504910ff79c6d3ecba821dfe9b576a0865240ac3e1c75",
+    "copied_at": "2026-11-04T04:31:12+00:00",
+    "request_seconds": 0.0,
+    "attempts": 1,
+    "git_commit": "b3490181b3fb3f88b56cde5be78a01cfdcef3007",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "source_file": "data/stt_transcripts/scenario_072_telegraphic_icu.json",
+    "source_sha256": "a642dd26f407882516941b72d0a0f98874941966bf4c4542d17c880b22fdef79",
+    "source_stt_metadata": {
+      "model": "whisper-1",
+      "language": "ko"
+    }
+  }
+}

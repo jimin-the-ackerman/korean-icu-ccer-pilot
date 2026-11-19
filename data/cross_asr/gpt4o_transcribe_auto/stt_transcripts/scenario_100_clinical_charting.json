@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_100_clinical_charting",
+  "whisper_transcript": "62세 남성 환자, suspected acute bowel obstruction으로 입원함. BP 98/60mmHg, R 54 breaths/min, BT 37.8°C, SpO2 95% on room air. Severe abdominal pain, morphine 4mg IV q4h 적용함. NG tube로 nasogastric decompression 시행함. 8시간 동안 urine output 감소 확인됨. 환자 drowsy 상태임, surgical team notify함.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe_auto",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": null,
+    "audio_path": "data/audio/scenario_100_clinical_charting.mp3",
+    "audio_sha256": "2535a304a11c41ee252d0e40e0d9e73aa8d084bdc6d2a4c5b1cd40f826e8a381",
+    "transcribed_at": "2026-11-04T14:15:22+00:00",
+    "request_seconds": 2.09,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "62세 남성 환자, suspected acute bowel obstruction으로 입원함. BP 98/60mmHg, R 54 breaths/min, BT 37.8°C, SpO2 95% on room air. Severe abdominal pain, morphine 4mg IV q4h 적용함. NG tube로 nasogastric decompression 시행함. 8시간 동안 urine output 감소 확인됨. 환자 drowsy 상태임, surgical team notify함.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 249,
+      "output_tokens": 100,
+      "total_tokens": 349,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 249,
+        "text_tokens": 0
+      }
+    }
+  }
+}

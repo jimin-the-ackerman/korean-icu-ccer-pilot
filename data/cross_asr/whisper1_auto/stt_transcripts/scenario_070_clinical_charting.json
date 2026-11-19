@@ -1,0 +1,25 @@
+{
+  "sample_id": "scenario_070_clinical_charting",
+  "whisper_transcript": "60, Susan Amsung, acute respiratory failure to E1. Severe community-acquired pneumonia, Hwagin Dem. BP, DIGD, 58 millimeter, Hergreat, BHR, HEM, RR28, breaths min, BT38.5, GCCs, SpO2, 86%, Fosor. Civivofloxacin, 750 milligram, IVQ12H, Tuyeojung. Oxygen support, high-flow nasal cannula, Cheogyeongam. Ventilator, Seoyeongjung. Negative fluid balance, Hwagin. Clinical status, drowsy.",
+  "stt_metadata": {
+    "asr_system": "whisper1_auto",
+    "provider": "openai",
+    "model": "whisper-1",
+    "language": null,
+    "audio_path": "data/audio/scenario_070_clinical_charting.mp3",
+    "audio_sha256": "943ddf45db2169275702efc52bbe2337bc79b20e6ac2521ff9f75c3c1e25f276",
+    "transcribed_at": "2026-11-04T13:58:23+00:00",
+    "request_seconds": 2.4,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "60, Susan Amsung, acute respiratory failure to E1. Severe community-acquired pneumonia, Hwagin Dem. BP, DIGD, 58 millimeter, Hergreat, BHR, HEM, RR28, breaths min, BT38.5, GCCs, SpO2, 86%, Fosor. Civivofloxacin, 750 milligram, IVQ12H, Tuyeojung. Oxygen support, high-flow nasal cannula, Cheogyeongam. Ventilator, Seoyeongjung. Negative fluid balance, Hwagin. Clinical status, drowsy.",
+    "logprobs": null,
+    "usage": {
+      "seconds": 27.0,
+      "type": "duration"
+    }
+  }
+}

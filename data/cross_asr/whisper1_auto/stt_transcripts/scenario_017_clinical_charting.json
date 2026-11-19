@@ -1,0 +1,25 @@
+{
+  "sample_id": "scenario_017_clinical_charting",
+  "whisper_transcript": "Usi samseh yeosong hwanja, severe hypoglycemia ro ibonam. BP 11.65 mmHg, HrQGD BPAM, RR, CPANT, BREATHSMIN, BT, 36.56, SpO2, 25%. Moderate confusion hwagindem. Dextrose, fushipriparisibogram, IV stat tokyoam. IV dextrose administration, shiengam. Positive fluid balance due to IV fluids hwagindem. Hwanja drowsy sangtae yujiam. Endocrinologist notify ham.",
+  "stt_metadata": {
+    "asr_system": "whisper1_auto",
+    "provider": "openai",
+    "model": "whisper-1",
+    "language": null,
+    "audio_path": "data/audio/scenario_017_clinical_charting.mp3",
+    "audio_sha256": "52124a1d361026f2bb6868a243c2a5cf37914e363d42a352e9a25a18e2fcaa3e",
+    "transcribed_at": "2026-11-04T13:51:13+00:00",
+    "request_seconds": 1.82,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "Usi samseh yeosong hwanja, severe hypoglycemia ro ibonam. BP 11.65 mmHg, HrQGD BPAM, RR, CPANT, BREATHSMIN, BT, 36.56, SpO2, 25%. Moderate confusion hwagindem. Dextrose, fushipriparisibogram, IV stat tokyoam. IV dextrose administration, shiengam. Positive fluid balance due to IV fluids hwagindem. Hwanja drowsy sangtae yujiam. Endocrinologist notify ham.",
+    "logprobs": null,
+    "usage": {
+      "seconds": 24.0,
+      "type": "duration"
+    }
+  }
+}

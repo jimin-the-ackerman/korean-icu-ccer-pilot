@@ -1,0 +1,25 @@
+{
+  "sample_id": "scenario_088_clinical_charting",
+  "whisper_transcript": "47-year-old female patient admitted to hospital with acute liver failure. Acetaminophen overdose. BP 170mg, HR 1.5 per gram, RRT 2 breaths min, Bt, SbO2 25% room air. Severe jaundice confirmed. Patient drowsy. N-acetylcysteine 100mg per kilogram IV stat applied. Positive fluid balance 500mg recorded. Hepatology team notified.",
+  "stt_metadata": {
+    "asr_system": "whisper1_auto",
+    "provider": "openai",
+    "model": "whisper-1",
+    "language": null,
+    "audio_path": "data/audio/scenario_088_clinical_charting.mp3",
+    "audio_sha256": "1b079d19820b704eaa3c8fcb3e0dad4593a8aa74b7653c7370dcf95136f9bb65",
+    "transcribed_at": "2026-11-04T14:00:40+00:00",
+    "request_seconds": 1.46,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "47-year-old female patient admitted to hospital with acute liver failure. Acetaminophen overdose. BP 170mg, HR 1.5 per gram, RRT 2 breaths min, Bt, SbO2 25% room air. Severe jaundice confirmed. Patient drowsy. N-acetylcysteine 100mg per kilogram IV stat applied. Positive fluid balance 500mg recorded. Hepatology team notified.",
+    "logprobs": null,
+    "usage": {
+      "seconds": 24.0,
+      "type": "duration"
+    }
+  }
+}

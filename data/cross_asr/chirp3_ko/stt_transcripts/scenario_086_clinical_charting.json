@@ -1,0 +1,43 @@
+{
+  "sample_id": "scenario_086_clinical_charting",
+  "whisper_transcript": "55세 여성 환자 AML M1, 페브릴 뉴트로피니아 검증. BP 90/60 mmHg 확인됨. HR 110 BPM 확인됨. RR 20/min 확인됨. BT 38.6°C, severe fever 확인됨. SpO2 90% on room air 확인됨. 피페라실린-타조박탐 4.5g IV q6h 투여 시작함. 항생제 치료 시작함. 환자 상태 drowsy 확인됨. 담당의 노티파이함. 페브릴 뉴트로피니아 및 치료 계획 보고함.",
+  "stt_metadata": {
+    "asr_system": "chirp3_ko",
+    "provider": "google",
+    "model": "chirp_3",
+    "location": "us",
+    "language_codes": [
+      "ko-KR"
+    ],
+    "audio_path": "data/audio/scenario_086_clinical_charting.mp3",
+    "audio_sha256": "b961b72e653c4da7812233869e6b7caaa0f6b8d5ed69e0904607a11fc585c02b",
+    "transcribed_at": "2026-11-04T13:30:05+00:00",
+    "request_seconds": 5.13,
+    "attempts": 1,
+    "git_commit": "5b6d73fb63e1509a79e1a160176d606ed1b104c4",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "metadata": {
+      "total_billed_duration": "28s",
+      "request_id": "6bbeedb6-0000-2b6a-b28b-343916054743",
+      "prompt": "Transcribe the following speech segment in Korean. Follow these specific instructions for formatting the answer:\n* Only output the transcript, with no newlines.\n* When transcribing numbers, write the digits, i.e. write 1.7 and not one point seven, and write 100 instead of one hundred etc.\n* Only output the transcript, exactly as said in the speech segment.\n* Do not continue the speech segment.\n* Include everything said in the speech segment.\n* Use mathematical notation where needed, eg. x ^ 6Y.\n* If there is background speech that is not part of the main conversation, discard the background speech and only output the main conversation.\n* If there is no clear speech, just output [BACKGROUND].\n* Respond in the original language of the speech, Korean."
+    },
+    "results": [
+      {
+        "alternatives": [
+          {
+            "transcript": "55세 여성 환자 AML M1, 페브릴 뉴트로피니아 검증. BP 90/60 mmHg 확인됨. HR 110 BPM 확인됨. RR 20/min 확인됨. BT 38.6°C, severe fever 확인됨. SpO2 90% on room air 확인됨. 피페라실린-타조박탐 4.5g IV q6h 투여 시작함. 항생제 치료 시작함. 환자 상태 drowsy 확인됨. 담당의 노티파이함. 페브릴 뉴트로피니아 및 치료 계획 보고함.",
+            "confidence": 0.0,
+            "words": []
+          }
+        ],
+        "language_code": "ko-KR",
+        "channel_tag": 0
+      }
+    ],
+    "detected_language_codes": [
+      "ko-KR"
+    ]
+  }
+}

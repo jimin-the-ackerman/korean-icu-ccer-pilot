@@ -1,0 +1,36 @@
+{
+  "sample_id": "scenario_060_telegraphic_icu",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "rigidity",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "Drowsy",
+    "medication_identity": "Levodopa",
+    "interventions": [],
+    "intake_output": "IO 2000 mL/24h",
+    "notification": null
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "경직",
+        "negation": false,
+        "severity": "severe"
+      },
+      {
+        "name": "졸음",
+        "negation": false,
+        "severity": null
+      }
+    ],
+    "clinical_status": "졸음",
+    "medication_identity": "레보도파",
+    "interventions": [],
+    "intake_output": "IO 2000/24",
+    "notification": null
+  }
+}

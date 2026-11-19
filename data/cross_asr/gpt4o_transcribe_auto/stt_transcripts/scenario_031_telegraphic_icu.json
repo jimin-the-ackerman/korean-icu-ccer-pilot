@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_031_telegraphic_icu",
+  "whisper_transcript": "43세 남성, 급성 췌장염이 의심됨. BP 92/58 mmHg, HR 126 bpm, RR 28 breaths/min, BT 38.4℃, SpO2 95% room air. Severe abdominal pain, morphine 4mg IV q4h, IV fluid resuscitation, negative fluid balance 500ml/24h. Drowsy, GI specialist consult.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe_auto",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": null,
+    "audio_path": "data/audio/scenario_031_telegraphic_icu.mp3",
+    "audio_sha256": "2088eac35ac99cee3b538c1260af3e8840a5abc41ade6589fff9c2e9010657e3",
+    "transcribed_at": "2026-11-04T14:07:08+00:00",
+    "request_seconds": 1.48,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "43세 남성, 급성 췌장염이 의심됨. BP 92/58 mmHg, HR 126 bpm, RR 28 breaths/min, BT 38.4℃, SpO2 95% room air. Severe abdominal pain, morphine 4mg IV q4h, IV fluid resuscitation, negative fluid balance 500ml/24h. Drowsy, GI specialist consult.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 194,
+      "output_tokens": 92,
+      "total_tokens": 286,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 194,
+        "text_tokens": 0
+      }
+    }
+  }
+}

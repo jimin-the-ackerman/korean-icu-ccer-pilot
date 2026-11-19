@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_066_telegraphic_icu",
+  "whisper_transcript": "59세 남성 급성 췌장염으로 입원. BP 140/85, HR 110, RR 하이다, BT 38.5, SpO2 95%. Abdominal pain severe. Insulin 10 units IV q6h, fluid resuscitation 시행, urine output 10ml/h, alert 상태. Endocrinology consult함.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": "ko",
+    "audio_path": "data/audio/scenario_066_telegraphic_icu.mp3",
+    "audio_sha256": "9b83480b927f04c203b77f6bba4e16239f73f2339874dfd0890efb22bae15959",
+    "transcribed_at": "2026-11-04T13:00:54+00:00",
+    "request_seconds": 1.53,
+    "attempts": 1,
+    "git_commit": "5b6d73fb63e1509a79e1a160176d606ed1b104c4",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "59세 남성 급성 췌장염으로 입원. BP 140/85, HR 110, RR 하이다, BT 38.5, SpO2 95%. Abdominal pain severe. Insulin 10 units IV q6h, fluid resuscitation 시행, urine output 10ml/h, alert 상태. Endocrinology consult함.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 189,
+      "output_tokens": 81,
+      "total_tokens": 270,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 189,
+        "text_tokens": 0
+      }
+    }
+  }
+}

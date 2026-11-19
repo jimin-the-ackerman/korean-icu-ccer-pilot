@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_070_formal_template",
+  "whisper_transcript": "64세 남성 환자가 심각한 지역사회 획득 폐렴으로 인한 급성 호흡 부전으로 입원하였다. 활력징후로는 혈압이 92/58mmHg, 심박수가 118bpm, 호흡수가 28breaths/min, 체온이 38.5도로 측정되었으며, 산소포화도는 실내 공기에서 86%로 확인되었다. 환자는 심한 기침을 호소하였다. 리보플록사신 750mg IV로 q12h 투여 중이다. 고유량 비강 캐큘라를 통해 산소를 공급 중이며, 환자는 현재 인공호흡기를 사용 중이다. 체액 균형은 음성으로 나타났으며, 임상 상태는 졸린 상태로 관찰되었다.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": "ko",
+    "audio_path": "data/audio/scenario_070_formal_template.mp3",
+    "audio_sha256": "2488285d005d04c730e97321fa0b4f984bf1dae21800c2094bc9791f1eb55c82",
+    "transcribed_at": "2026-11-04T13:01:20+00:00",
+    "request_seconds": 2.62,
+    "attempts": 1,
+    "git_commit": "5b6d73fb63e1509a79e1a160176d606ed1b104c4",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "64세 남성 환자가 심각한 지역사회 획득 폐렴으로 인한 급성 호흡 부전으로 입원하였다. 활력징후로는 혈압이 92/58mmHg, 심박수가 118bpm, 호흡수가 28breaths/min, 체온이 38.5도로 측정되었으며, 산소포화도는 실내 공기에서 86%로 확인되었다. 환자는 심한 기침을 호소하였다. 리보플록사신 750mg IV로 q12h 투여 중이다. 고유량 비강 캐큘라를 통해 산소를 공급 중이며, 환자는 현재 인공호흡기를 사용 중이다. 체액 균형은 음성으로 나타났으며, 임상 상태는 졸린 상태로 관찰되었다.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 395,
+      "output_tokens": 185,
+      "total_tokens": 580,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 395,
+        "text_tokens": 0
+      }
+    }
+  }
+}

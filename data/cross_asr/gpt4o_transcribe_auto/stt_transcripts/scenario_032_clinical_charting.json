@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_032_clinical_charting",
+  "whisper_transcript": "63세 여자 환자. 폐질환 악화로 인한 급성 호흡부전으로 입원함. BP 140/85mmHg, HR 110bpm, RR 12rpm, BT 37.6℃, SpO2 75%. Severe dyspnea 호소함. Methylprednisolone 60mg IV q12h 적용함. High flow nasal cannula 유지함. 벤틸레이터 사용 중임. 의식 상태 drowsy 확인됨.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe_auto",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": null,
+    "audio_path": "data/audio/scenario_032_clinical_charting.mp3",
+    "audio_sha256": "7cbd3a63f808e7c873ae57ee4c6bdd44a9b3490e1428948e26d873aa0bb0e900",
+    "transcribed_at": "2026-11-04T14:07:10+00:00",
+    "request_seconds": 1.82,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "63세 여자 환자. 폐질환 악화로 인한 급성 호흡부전으로 입원함. BP 140/85mmHg, HR 110bpm, RR 12rpm, BT 37.6℃, SpO2 75%. Severe dyspnea 호소함. Methylprednisolone 60mg IV q12h 적용함. High flow nasal cannula 유지함. 벤틸레이터 사용 중임. 의식 상태 drowsy 확인됨.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 221,
+      "output_tokens": 109,
+      "total_tokens": 330,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 221,
+        "text_tokens": 0
+      }
+    }
+  }
+}

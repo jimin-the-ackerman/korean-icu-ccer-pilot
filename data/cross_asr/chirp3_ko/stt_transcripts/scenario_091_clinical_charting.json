@@ -1,0 +1,43 @@
+{
+  "sample_id": "scenario_091_clinical_charting",
+  "whisper_transcript": "60세 여자 혼자 acute respiratory failure 2번. pulmonary fibrosis exacerbation 관련 BP 105/80 mmHg, HR 66 bpm, BT 37.2도, SpO2 81% on room air, dyspnea 심함. Prednisone 40mg PO BID 적용함. high-flow nasal cannula 유지함. corticosteroid therapy 시작함. ventilator 사용함. clinical status drowsy.",
+  "stt_metadata": {
+    "asr_system": "chirp3_ko",
+    "provider": "google",
+    "model": "chirp_3",
+    "location": "us",
+    "language_codes": [
+      "ko-KR"
+    ],
+    "audio_path": "data/audio/scenario_091_clinical_charting.mp3",
+    "audio_sha256": "085cf109d4362d782e9764c2d324ee29f18fd6678c2eea3b963351d6c905a318",
+    "transcribed_at": "2026-11-04T13:31:18+00:00",
+    "request_seconds": 4.23,
+    "attempts": 1,
+    "git_commit": "5b6d73fb63e1509a79e1a160176d606ed1b104c4",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "metadata": {
+      "total_billed_duration": "24s",
+      "request_id": "7481d3b5-0000-20fb-be89-ac3eb14196f0",
+      "prompt": "Transcribe the following speech segment in Korean. Follow these specific instructions for formatting the answer:\n* Only output the transcript, with no newlines.\n* When transcribing numbers, write the digits, i.e. write 1.7 and not one point seven, and write 100 instead of one hundred etc.\n* Only output the transcript, exactly as said in the speech segment.\n* Do not continue the speech segment.\n* Include everything said in the speech segment.\n* Use mathematical notation where needed, eg. x ^ 6Y.\n* If there is background speech that is not part of the main conversation, discard the background speech and only output the main conversation.\n* If there is no clear speech, just output [BACKGROUND].\n* Respond in the original language of the speech, Korean."
+    },
+    "results": [
+      {
+        "alternatives": [
+          {
+            "transcript": "60세 여자 혼자 acute respiratory failure 2번. pulmonary fibrosis exacerbation 관련 BP 105/80 mmHg, HR 66 bpm, BT 37.2도, SpO2 81% on room air, dyspnea 심함. Prednisone 40mg PO BID 적용함. high-flow nasal cannula 유지함. corticosteroid therapy 시작함. ventilator 사용함. clinical status drowsy.",
+            "confidence": 0.0,
+            "words": []
+          }
+        ],
+        "language_code": "ko-KR",
+        "channel_tag": 0
+      }
+    ],
+    "detected_language_codes": [
+      "ko-KR"
+    ]
+  }
+}

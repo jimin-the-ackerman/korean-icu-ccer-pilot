@@ -1,0 +1,30 @@
+{
+  "sample_id": "scenario_075_clinical_charting",
+  "gold_entities": null,
+  "gold_extraction_failed": {
+    "rule": "docs/cross_asr_spec.md 12.5",
+    "cause": "MAX_RETRIES 초과 (gold): 3 successful API responses, none passed the v4 structure check (is_valid_extraction)",
+    "attempts": 3,
+    "output_tokens": [
+      156,
+      156,
+      147
+    ]
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "chest pain",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "alert",
+    "medication_identity": "Furosemide",
+    "interventions": [
+      "strict input-output monitoring"
+    ],
+    "intake_output": null,
+    "notification": "Cardiology team consult, possible valve replacement 위해"
+  }
+}

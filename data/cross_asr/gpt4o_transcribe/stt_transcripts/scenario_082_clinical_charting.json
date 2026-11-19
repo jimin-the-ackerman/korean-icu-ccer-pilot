@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_082_clinical_charting",
+  "whisper_transcript": "58세 여성 환자, severe acute pancreatitis로 입원함. BP 100/50mmHg, HR 80bpm, BT 38.5 degrees, SpO2 95% on room air. Abdominal pain severe 호소함. Morphine 5mg IV Q4H 투여함. Pain management 적용함. Strict input-output monitoring 유지함. Clinical status alert.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": "ko",
+    "audio_path": "data/audio/scenario_082_clinical_charting.mp3",
+    "audio_sha256": "319f4cdac811b36eb52c5e431f4e58cf25caa727fb9e182dcbd0d1c438e41a87",
+    "transcribed_at": "2026-11-04T13:03:27+00:00",
+    "request_seconds": 1.41,
+    "attempts": 1,
+    "git_commit": "5b6d73fb63e1509a79e1a160176d606ed1b104c4",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "58세 여성 환자, severe acute pancreatitis로 입원함. BP 100/50mmHg, HR 80bpm, BT 38.5 degrees, SpO2 95% on room air. Abdominal pain severe 호소함. Morphine 5mg IV Q4H 투여함. Pain management 적용함. Strict input-output monitoring 유지함. Clinical status alert.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 215,
+      "output_tokens": 85,
+      "total_tokens": 300,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 215,
+        "text_tokens": 0
+      }
+    }
+  }
+}

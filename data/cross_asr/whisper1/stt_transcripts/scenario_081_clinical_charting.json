@@ -1,0 +1,25 @@
+{
+  "sample_id": "scenario_081_clinical_charting",
+  "whisper_transcript": "60세 남성 환자, acute congestive heart failure로 입원함. BP-EBK-King, HR-110bpm, RRS breast-min, BT-37.3, TSBO-TPEP room air에서 측정됨. Severe dyspnea 호소함. Furosemide 40mg IV stat 투여함. Tuidonasal cannula 적용함. Foley 유지함. Negative fluid balance 500ml 확인됨. 환자 drowsy 상태 확인됨. Cardiology team notify함.",
+  "stt_metadata": {
+    "asr_system": "whisper1",
+    "provider": "reuse_existing",
+    "model": "whisper-1",
+    "language": "ko",
+    "audio_path": "data/audio/scenario_081_clinical_charting.mp3",
+    "audio_sha256": "4c75b25cd74df0c49c0e5530cc4010c57342ae88160a2d42b66746312b69ce47",
+    "copied_at": "2026-11-04T04:31:12+00:00",
+    "request_seconds": 0.0,
+    "attempts": 1,
+    "git_commit": "b3490181b3fb3f88b56cde5be78a01cfdcef3007",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "source_file": "data/stt_transcripts/scenario_081_clinical_charting.json",
+    "source_sha256": "4d0ca00239080e94cdac792f9e891bc5517df33fa9d3c7e97b7d7f817aae5efa",
+    "source_stt_metadata": {
+      "model": "whisper-1",
+      "language": "ko"
+    }
+  }
+}

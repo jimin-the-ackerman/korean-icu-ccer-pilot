@@ -1,0 +1,43 @@
+{
+  "sample_id": "scenario_084_formal_template",
+  "whisper_transcript": "49세 남성 환자는 심각한 천식 발작으로 입원하였다. 활력징후로는 혈압 130/85 mmHg, 심박수 110 BPM, 호흡수 28 BPM, 체온 37.0 섭씨, 산소포화도 88%로 확인되었다. 환자는 심한 위징 증상을 보였으며 에브롤 2.5 mg을 IV로 PRN 투여하였다. 산소치료는 하이플로우 네이설 캐눌라를 사용하고 있다. 환자는 졸린 상태로 확인되었으며, 호흡치료팀에게 환자의 상태와 진행 중인 치료를 보고하였다.",
+  "stt_metadata": {
+    "asr_system": "chirp3_auto",
+    "provider": "google",
+    "model": "chirp_3",
+    "location": "us",
+    "language_codes": [
+      "auto"
+    ],
+    "audio_path": "data/audio/scenario_084_formal_template.mp3",
+    "audio_sha256": "40e88d1d60b6fe65a3e8b8b547592915bb8af48991af536f0e78911349ee7ba1",
+    "transcribed_at": "2026-11-04T14:51:26+00:00",
+    "request_seconds": 5.58,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "metadata": {
+      "total_billed_duration": "32s",
+      "request_id": "6e8e6638-0000-21f2-a2d1-ac3eb146cefc",
+      "prompt": "Transcribe the following speech segment. Follow these specific instructions for formatting the answer:\n* Only output the transcript, with no newlines.\n* When transcribing numbers, write the digits, i.e. write 1.7 and not one point seven, and write 100 instead of one hundred etc.\n* Only output the transcript, exactly as said in the speech segment.\n* Do not continue the speech segment.\n* Include everything said in the speech segment.\n* Use mathematical notation where needed, eg. x ^ 6Y.\n* If there is background speech that is not part of the main conversation, discard the background speech and only output the main conversation.\n* If there is no clear speech, just output [BACKGROUND].\n* Respond in the original language of the speech."
+    },
+    "results": [
+      {
+        "alternatives": [
+          {
+            "transcript": "49세 남성 환자는 심각한 천식 발작으로 입원하였다. 활력징후로는 혈압 130/85 mmHg, 심박수 110 BPM, 호흡수 28 BPM, 체온 37.0 섭씨, 산소포화도 88%로 확인되었다. 환자는 심한 위징 증상을 보였으며 에브롤 2.5 mg을 IV로 PRN 투여하였다. 산소치료는 하이플로우 네이설 캐눌라를 사용하고 있다. 환자는 졸린 상태로 확인되었으며, 호흡치료팀에게 환자의 상태와 진행 중인 치료를 보고하였다.",
+            "confidence": 0.0,
+            "words": []
+          }
+        ],
+        "language_code": "ko",
+        "channel_tag": 0
+      }
+    ],
+    "detected_language_codes": [
+      "ko"
+    ]
+  }
+}

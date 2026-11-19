@@ -1,0 +1,25 @@
+{
+  "sample_id": "scenario_072_clinical_charting",
+  "whisper_transcript": "67세 남성 환자, Ulcerative colitis acute exacerbation으로 입원함. Severe abdominal pain, bloody diarrhea, dehydration 호소함. BP KJ 60mHrm, HR Hakim BPM, RR Hwanisa Breathsmin, BT 30 Tepion 8 Sexing, SpO2 95% on room air 확인됨. Hydrocortisone 100mg IV Q6H 투여함. IV fluid resuscitation 적용함. Negative fluid balance 확인됨. 환자 알러트 상태 유지함.",
+  "stt_metadata": {
+    "asr_system": "whisper1",
+    "provider": "reuse_existing",
+    "model": "whisper-1",
+    "language": "ko",
+    "audio_path": "data/audio/scenario_072_clinical_charting.mp3",
+    "audio_sha256": "30e0056cda214d179df5ac4b28195e8cd50dc57b366399f743ec060511079401",
+    "copied_at": "2026-11-04T04:31:12+00:00",
+    "request_seconds": 0.0,
+    "attempts": 1,
+    "git_commit": "b3490181b3fb3f88b56cde5be78a01cfdcef3007",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "source_file": "data/stt_transcripts/scenario_072_clinical_charting.json",
+    "source_sha256": "b0d4b0285cb262eb7474ddfd11b19e077989764562edb41836488713d7c4ac69",
+    "source_stt_metadata": {
+      "model": "whisper-1",
+      "language": "ko"
+    }
+  }
+}

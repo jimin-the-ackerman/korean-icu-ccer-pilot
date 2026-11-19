@@ -1,0 +1,25 @@
+{
+  "sample_id": "scenario_045_telegraphic_icu",
+  "whisper_transcript": "60-V-C-L-sung, Addison's disease-related acute respiratory disease, BP-80, V-sol-t-p-p-m-r-r-r-24-b-s-m-b-l-t-c-s-s-p-o-2-90-percent-R-A. Severe abdominal pain, hydrocortisone 100 mg IV stat, nasal cannula 2-L-min, fluid resuscitation with NS fully present, urine output put 30 mHr drowsy. Endocrinology consult.",
+  "stt_metadata": {
+    "asr_system": "whisper1_auto",
+    "provider": "openai",
+    "model": "whisper-1",
+    "language": null,
+    "audio_path": "data/audio/scenario_045_telegraphic_icu.mp3",
+    "audio_sha256": "1131ad8ecf3b06648fd717a109f257f8e736feda6092726153b347a10c10510b",
+    "transcribed_at": "2026-11-04T13:54:28+00:00",
+    "request_seconds": 1.6,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "60-V-C-L-sung, Addison's disease-related acute respiratory disease, BP-80, V-sol-t-p-p-m-r-r-r-24-b-s-m-b-l-t-c-s-s-p-o-2-90-percent-R-A. Severe abdominal pain, hydrocortisone 100 mg IV stat, nasal cannula 2-L-min, fluid resuscitation with NS fully present, urine output put 30 mHr drowsy. Endocrinology consult.",
+    "logprobs": null,
+    "usage": {
+      "seconds": 24.0,
+      "type": "duration"
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_036_telegraphic_icu",
+  "whisper_transcript": "급성 천식 악화로 입원, BP 120/35 mmHg, RR 28 breaths/min, BT 37.2°C, SpO2 88% room air, wheezing severe, 알부테롤 2.5mg IV q4h, high flow nasal cannula 사용, 벤틸레이터 사용 중, negative fluid balance, drowsy, RT notify 벤틸레이터 권리.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe_auto",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": null,
+    "audio_path": "data/audio/scenario_036_telegraphic_icu.mp3",
+    "audio_sha256": "82906fb425a531d96259c668a21bc4b5a3381ed447c5f8c12d9040a2e5afd90b",
+    "transcribed_at": "2026-11-04T14:07:41+00:00",
+    "request_seconds": 1.41,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "급성 천식 악화로 입원, BP 120/35 mmHg, RR 28 breaths/min, BT 37.2°C, SpO2 88% room air, wheezing severe, 알부테롤 2.5mg IV q4h, high flow nasal cannula 사용, 벤틸레이터 사용 중, negative fluid balance, drowsy, RT notify 벤틸레이터 권리.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 206,
+      "output_tokens": 95,
+      "total_tokens": 301,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 206,
+        "text_tokens": 0
+      }
+    }
+  }
+}

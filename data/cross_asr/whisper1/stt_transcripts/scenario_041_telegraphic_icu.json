@@ -1,0 +1,25 @@
+{
+  "sample_id": "scenario_041_telegraphic_icu",
+  "whisper_transcript": "65세 여성, 급성악화, 만성간주환, 알코올 관련 간경화, BPN05 68mmHg, HR 112bpm, R22mBt3783c, SpO92% room air, ascitis moderate, furosemide 40mg IVQH, nasal cannula, foley, urine output 1200mL 24hr, drowsy",
+  "stt_metadata": {
+    "asr_system": "whisper1",
+    "provider": "reuse_existing",
+    "model": "whisper-1",
+    "language": "ko",
+    "audio_path": "data/audio/scenario_041_telegraphic_icu.mp3",
+    "audio_sha256": "f49f33435e0c22bfb2a52c276514fc2addcaf3094ced2b351b70e69d3084d14d",
+    "copied_at": "2026-11-04T04:31:11+00:00",
+    "request_seconds": 0.0,
+    "attempts": 1,
+    "git_commit": "b3490181b3fb3f88b56cde5be78a01cfdcef3007",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "source_file": "data/stt_transcripts/scenario_041_telegraphic_icu.json",
+    "source_sha256": "d91d703db5c1bc6dd483b639b1573df1aa167c2c31767b9e2835ece6956705d2",
+    "source_stt_metadata": {
+      "model": "whisper-1",
+      "language": "ko"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "sample_id": "scenario_031_clinical_charting",
+  "whisper_transcript": "43세 남성, Severe Acute Pancreatitis Meets SIRS으로 입원함. BP 92, 55mmHg, HR, BTRPX6 BPM, RR Scent Pipe, Breaths Min, Breaths Mean, B-Sunny JVAP, Homo Verticus Cells, SbO2 95%, Room Air. Severe Abdominal Pain 호소함, Morphine Vanadium IV Q4H 적용함. IV Fluid Resuscitation 유지함. Negative Fluid Balance Fibreg Millimeter Lasts 24 Hours 확인됨. 임상상태 Drowsy, GI Specialist Consult 위에 담당해 Notify함.",
+  "stt_metadata": {
+    "asr_system": "whisper1_auto",
+    "provider": "openai",
+    "model": "whisper-1",
+    "language": null,
+    "audio_path": "data/audio/scenario_031_clinical_charting.mp3",
+    "audio_sha256": "20d27b5d7c2feac2da6abfacb3a9dcdd7a51f45af7a17ca660575f807feaf70f",
+    "transcribed_at": "2026-11-04T13:52:36+00:00",
+    "request_seconds": 2.59,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "43세 남성, Severe Acute Pancreatitis Meets SIRS으로 입원함. BP 92, 55mmHg, HR, BTRPX6 BPM, RR Scent Pipe, Breaths Min, Breaths Mean, B-Sunny JVAP, Homo Verticus Cells, SbO2 95%, Room Air. Severe Abdominal Pain 호소함, Morphine Vanadium IV Q4H 적용함. IV Fluid Resuscitation 유지함. Negative Fluid Balance Fibreg Millimeter Lasts 24 Hours 확인됨. 임상상태 Drowsy, GI Specialist Consult 위에 담당해 Notify함.",
+    "logprobs": null,
+    "usage": {
+      "seconds": 27.0,
+      "type": "duration"
+    }
+  }
+}

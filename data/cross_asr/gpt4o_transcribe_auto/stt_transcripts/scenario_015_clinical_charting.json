@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_015_clinical_charting",
+  "whisper_transcript": "지파센 남성 환자 급성 pulmonary embolism으로 입원함. BP 140W 92mmHg, HR 110bpm, RR 52bpm, BT 36.8°C, SpO2 82% on room air 심한 chest pain 호소함. 헤퍼린 볼턴 유닛 Q6H 적용함. High flow nasal cannula 산소 지원 중. Thrombolytic therapy 시작함. IV fluids 210mL 투여함. 의식 alert 상태 유지함. Cardiology 팀 notify함.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe_auto",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": null,
+    "audio_path": "data/audio/scenario_015_clinical_charting.mp3",
+    "audio_sha256": "e57d6c8d795ba8ab701e2089426508434ea57719042943f33c8e17b36c88c795",
+    "transcribed_at": "2026-11-04T14:05:10+00:00",
+    "request_seconds": 2.86,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "지파센 남성 환자 급성 pulmonary embolism으로 입원함. BP 140W 92mmHg, HR 110bpm, RR 52bpm, BT 36.8°C, SpO2 82% on room air 심한 chest pain 호소함. 헤퍼린 볼턴 유닛 Q6H 적용함. High flow nasal cannula 산소 지원 중. Thrombolytic therapy 시작함. IV fluids 210mL 투여함. 의식 alert 상태 유지함. Cardiology 팀 notify함.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 268,
+      "output_tokens": 119,
+      "total_tokens": 387,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 268,
+        "text_tokens": 0
+      }
+    }
+  }
+}

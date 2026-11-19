@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_094_telegraphic_icu",
+  "whisper_transcript": "62세 여성 급성 중증 수액이 출혈로 입원. BP 85/50 mmHg, HR 120 bpm, RR 22 bpm, BT 36.8°C, SpO2 92% room air. Hematemesis severe. Pantoprazole 80mg IV q12h, nasal cannula 2L, endoscopic hemostasis 예정. C-line 유지, negative fluid balance. Drowsy, gastroenterology 팀 notify.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": "ko",
+    "audio_path": "data/audio/scenario_094_telegraphic_icu.mp3",
+    "audio_sha256": "59e4a22478e74b18e7846a8bb4c3f01e633ea65ae3489dbe7efd5dde71ad2769",
+    "transcribed_at": "2026-11-04T13:04:51+00:00",
+    "request_seconds": 2.36,
+    "attempts": 1,
+    "git_commit": "5b6d73fb63e1509a79e1a160176d606ed1b104c4",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "62세 여성 급성 중증 수액이 출혈로 입원. BP 85/50 mmHg, HR 120 bpm, RR 22 bpm, BT 36.8°C, SpO2 92% room air. Hematemesis severe. Pantoprazole 80mg IV q12h, nasal cannula 2L, endoscopic hemostasis 예정. C-line 유지, negative fluid balance. Drowsy, gastroenterology 팀 notify.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 218,
+      "output_tokens": 101,
+      "total_tokens": 319,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 218,
+        "text_tokens": 0
+      }
+    }
+  }
+}

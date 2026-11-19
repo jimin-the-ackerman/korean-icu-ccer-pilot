@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_055_clinical_charting",
+  "whisper_transcript": "53세 여성 환자 incompatible blood transfusion 후 acute hemolytic anemia로 입원함. Vital signs, BP 92mmHg, HR 120bpm, RR 12, BT 38.1C, SpO2 85% on 2L nasal cannula. Severe fatigue 호소함, furosemide 40mg IV q12h 적용함. Oxygen support nasal cannula 유지함. Compatible blood transfusion 시행함. IO input 1000mL, output 200mL. Clinical status drowsy 확인됨. Hematology team notify 함.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": "ko",
+    "audio_path": "data/audio/scenario_055_clinical_charting.mp3",
+    "audio_sha256": "0596980cf1e25e4299537907c97dc166d9d2229d3dfae80e7f85127b3b02cd27",
+    "transcribed_at": "2026-11-04T12:59:23+00:00",
+    "request_seconds": 2.26,
+    "attempts": 1,
+    "git_commit": "5b6d73fb63e1509a79e1a160176d606ed1b104c4",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "53세 여성 환자 incompatible blood transfusion 후 acute hemolytic anemia로 입원함. Vital signs, BP 92mmHg, HR 120bpm, RR 12, BT 38.1C, SpO2 85% on 2L nasal cannula. Severe fatigue 호소함, furosemide 40mg IV q12h 적용함. Oxygen support nasal cannula 유지함. Compatible blood transfusion 시행함. IO input 1000mL, output 200mL. Clinical status drowsy 확인됨. Hematology team notify 함.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 311,
+      "output_tokens": 126,
+      "total_tokens": 437,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 311,
+        "text_tokens": 0
+      }
+    }
+  }
+}

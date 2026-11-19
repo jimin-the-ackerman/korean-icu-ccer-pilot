@@ -1,0 +1,121 @@
+{
+  "sample_id": "scenario_007_clinical_charting",
+  "whisper_transcript": "10세 여성 환자 COPD 악화로 입원 확인됨.",
+  "stt_metadata": {
+    "asr_system": "clova_ko-KR_diagnostic",
+    "purpose": "diagnostic only",
+    "provider": "clova",
+    "endpoint": "/recognizer/upload",
+    "params": {
+      "language": "ko-KR",
+      "completion": "sync",
+      "diarization": {
+        "enable": false
+      }
+    },
+    "audio_path": "data/audio/scenario_007_clinical_charting.mp3",
+    "audio_sha256": "2a8e9d8d4176300179109e6970b27bf18078456b0f1482510ef806345c6c925b",
+    "transcribed_at": "2026-11-04T05:49:46+00:00",
+    "request_seconds": 2.75,
+    "git_commit": "b3490181b3fb3f88b56cde5be78a01cfdcef3007",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "result": "COMPLETED",
+    "message": "Succeeded",
+    "token": "90900ee31e9c45df81abc1db45bbbfb3",
+    "version": "ncp_v2_v2.4.25-a1675e0-20260630__v4.2.20.1_ko_firedepartment_20250923_",
+    "params": {
+      "service": "ncp",
+      "domain": "general",
+      "lang": "ko",
+      "completion": "sync",
+      "diarization": {
+        "enable": false
+      },
+      "sed": {
+        "enable": false
+      },
+      "boostings": [],
+      "forbiddens": "",
+      "wordAlignment": true,
+      "fullText": true,
+      "noiseFiltering": true,
+      "resultToObs": false,
+      "priority": 0,
+      "userdata": {
+        "_ncp_DomainCode": "ccer-cross-asr",
+        "_ncp_DomainId": 18324,
+        "_ncp_TaskId": 69867698,
+        "_ncp_TraceId": "e55b4bd0433e4ca086e59d0323965ba4"
+      }
+    },
+    "progress": 100,
+    "keywords": {},
+    "segments": [
+      {
+        "start": 0,
+        "end": 12200,
+        "text": "10세 여성 환자 COPD 악화로 입원 확인됨.",
+        "confidence": 0.5987,
+        "diarization": {
+          "label": ""
+        },
+        "speaker": {
+          "label": "",
+          "name": "",
+          "edited": false
+        },
+        "words": [
+          [
+            130,
+            520,
+            "10세"
+          ],
+          [
+            530,
+            840,
+            "여성"
+          ],
+          [
+            870,
+            1120,
+            "환자"
+          ],
+          [
+            1230,
+            1740,
+            "COPD"
+          ],
+          [
+            1770,
+            2160,
+            "악화로"
+          ],
+          [
+            2160,
+            2380,
+            "입원"
+          ],
+          [
+            11510,
+            11840,
+            "확인됨."
+          ]
+        ],
+        "textEdited": "10세 여성 환자 COPD 악화로 입원 확인됨."
+      }
+    ],
+    "text": "10세 여성 환자 COPD 악화로 입원 확인됨.",
+    "confidence": 0.5987,
+    "speakers": [
+      {
+        "label": "",
+        "name": "",
+        "edited": false
+      }
+    ],
+    "events": [],
+    "eventTypes": []
+  }
+}

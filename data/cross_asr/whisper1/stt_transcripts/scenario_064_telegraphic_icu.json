@@ -1,0 +1,25 @@
+{
+  "sample_id": "scenario_064_telegraphic_icu",
+  "whisper_transcript": "65세 여성 AR-BPNAT7D HR95R30 BT37.8 글씨레스 SBO2 85% RSVSOB 세프트 리액션 2-GAM IV Q12H 메카니컬 벤틀레이션 벤틀레이터 사용 포지티브 플루이드 밸런스 스튜퍼러스",
+  "stt_metadata": {
+    "asr_system": "whisper1",
+    "provider": "reuse_existing",
+    "model": "whisper-1",
+    "language": "ko",
+    "audio_path": "data/audio/scenario_064_telegraphic_icu.mp3",
+    "audio_sha256": "bd665fe94dd2a4c0ab6a32038ea0bf40b99d8f74188b42bee9ac9f04e952925c",
+    "copied_at": "2026-11-04T04:31:12+00:00",
+    "request_seconds": 0.0,
+    "attempts": 1,
+    "git_commit": "b3490181b3fb3f88b56cde5be78a01cfdcef3007",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "source_file": "data/stt_transcripts/scenario_064_telegraphic_icu.json",
+    "source_sha256": "11c3815f4cfded6b08506308198745cced39e6248c1a539c92e23c1cea1d0378",
+    "source_stt_metadata": {
+      "model": "whisper-1",
+      "language": "ko"
+    }
+  }
+}

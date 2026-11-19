@@ -1,0 +1,43 @@
+{
+  "sample_id": "scenario_017_telegraphic_icu",
+  "whisper_transcript": "53-year-old male, severe hypoglycemia due to IV, BP 100/60, mental status altered, SBPMR, mean BT 30, SpO2 95%, confusion moderate, dextrose 50/20 g IV stat, IV dextrose administration, pauses due to IV fluids, drowsy, endocrinologist notify.",
+  "stt_metadata": {
+    "asr_system": "chirp3_auto",
+    "provider": "google",
+    "model": "chirp_3",
+    "location": "us",
+    "language_codes": [
+      "auto"
+    ],
+    "audio_path": "data/audio/scenario_017_telegraphic_icu.mp3",
+    "audio_sha256": "8046d4f2555322933e0ae813b8a1cf1e1521bd2dc9d60cdb2b545b66b61bedb5",
+    "transcribed_at": "2026-11-04T14:21:18+00:00",
+    "request_seconds": 2.96,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "metadata": {
+      "total_billed_duration": "20s",
+      "request_id": "6b3ebb61-0000-291b-9ce0-7474463f846d",
+      "prompt": "Transcribe the following speech segment. Follow these specific instructions for formatting the answer:\n* Only output the transcript, with no newlines.\n* When transcribing numbers, write the digits, i.e. write 1.7 and not one point seven, and write 100 instead of one hundred etc.\n* Only output the transcript, exactly as said in the speech segment.\n* Do not continue the speech segment.\n* Include everything said in the speech segment.\n* Use mathematical notation where needed, eg. x ^ 6Y.\n* If there is background speech that is not part of the main conversation, discard the background speech and only output the main conversation.\n* If there is no clear speech, just output [BACKGROUND].\n* Respond in the original language of the speech."
+    },
+    "results": [
+      {
+        "alternatives": [
+          {
+            "transcript": "53-year-old male, severe hypoglycemia due to IV, BP 100/60, mental status altered, SBPMR, mean BT 30, SpO2 95%, confusion moderate, dextrose 50/20 g IV stat, IV dextrose administration, pauses due to IV fluids, drowsy, endocrinologist notify.",
+            "confidence": 0.0,
+            "words": []
+          }
+        ],
+        "language_code": "en",
+        "channel_tag": 0
+      }
+    ],
+    "detected_language_codes": [
+      "en"
+    ]
+  }
+}

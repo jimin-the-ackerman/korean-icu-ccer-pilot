@@ -1,0 +1,25 @@
+{
+  "sample_id": "scenario_010_telegraphic_icu",
+  "whisper_transcript": "48세 남성 중증 TBI 이원 bpx 385 hr5 spread rr14 bt 36.8 spu 98% 헤드에이크 부정 manitobacram ivq 소지원 없음 icp 모니터링 중 ventilator 사용 io positive 의식상태 stuporous",
+  "stt_metadata": {
+    "asr_system": "whisper1_auto",
+    "provider": "openai",
+    "model": "whisper-1",
+    "language": null,
+    "audio_path": "data/audio/scenario_010_telegraphic_icu.mp3",
+    "audio_sha256": "1d79bc48eeb4d35e44a326cea9e22de649e9ab62ca495faa2e3a70d02c8a0de7",
+    "transcribed_at": "2026-11-04T13:50:28+00:00",
+    "request_seconds": 2.41,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "48세 남성 중증 TBI 이원 bpx 385 hr5 spread rr14 bt 36.8 spu 98% 헤드에이크 부정 manitobacram ivq 소지원 없음 icp 모니터링 중 ventilator 사용 io positive 의식상태 stuporous",
+    "logprobs": null,
+    "usage": {
+      "seconds": 16.0,
+      "type": "duration"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "sample_id": "scenario_060_formal_template",
+  "whisper_transcript": "71세 남성 환자가 Parkinson's Disease의 급성 악화로 입원하였다. 활력징후 측정 결과, 혈압은 142 x 85mmg, 심박수는 88bpm, 호흡수는 20회 분, 체온은 37.16, 산소포화도는 95%로 확인되었다. 환자는 심한 Rigidity를 보였다. Levodopa 100mg 경고로 하루 3번 처방되었다. Foley가 삽입되어 있으며 24시간 동안의 소변 배출량은 2,000mL로 기록되었다. 환자는 졸린 상태로 관찰되었다.",
+  "stt_metadata": {
+    "asr_system": "whisper1_auto",
+    "provider": "openai",
+    "model": "whisper-1",
+    "language": null,
+    "audio_path": "data/audio/scenario_060_formal_template.mp3",
+    "audio_sha256": "f097043b50f824611ec109999121506fd7755016641c3064d4153433a3116d98",
+    "transcribed_at": "2026-11-04T13:57:16+00:00",
+    "request_seconds": 3.56,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "71세 남성 환자가 Parkinson's Disease의 급성 악화로 입원하였다. 활력징후 측정 결과, 혈압은 142 x 85mmg, 심박수는 88bpm, 호흡수는 20회 분, 체온은 37.16, 산소포화도는 95%로 확인되었다. 환자는 심한 Rigidity를 보였다. Levodopa 100mg 경고로 하루 3번 처방되었다. Foley가 삽입되어 있으며 24시간 동안의 소변 배출량은 2,000mL로 기록되었다. 환자는 졸린 상태로 관찰되었다.",
+    "logprobs": null,
+    "usage": {
+      "seconds": 33.0,
+      "type": "duration"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "sample_id": "scenario_064_clinical_charting",
+  "whisper_transcript": "65-year-old woman admitted to ARDS. BP, Pneumothorax, IVF, BTRT, 8 degrees Celsius. SpO2 removal per room air. Severe shortness of breath. Cephtriaxone, 2 gram IV, Q2RH 2.0. Mechanical ventilation. Ventilator maintained. Positive fluid balance. Stupor status confirmed.",
+  "stt_metadata": {
+    "asr_system": "whisper1_auto",
+    "provider": "openai",
+    "model": "whisper-1",
+    "language": null,
+    "audio_path": "data/audio/scenario_064_clinical_charting.mp3",
+    "audio_sha256": "0e37acb712961aae0b995b1ca6fad0a9cc29447a8cb26edbdebcc30c334853fe",
+    "transcribed_at": "2026-11-04T13:57:44+00:00",
+    "request_seconds": 2.73,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "65-year-old woman admitted to ARDS. BP, Pneumothorax, IVF, BTRT, 8 degrees Celsius. SpO2 removal per room air. Severe shortness of breath. Cephtriaxone, 2 gram IV, Q2RH 2.0. Mechanical ventilation. Ventilator maintained. Positive fluid balance. Stupor status confirmed.",
+    "logprobs": null,
+    "usage": {
+      "seconds": 21.0,
+      "type": "duration"
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_093_formal_template",
+  "whisper_transcript": "환자는 52세 남성으로 복부 대동맥류 파열로 인한 급성 출혈성 쇼크로 입원하였다. 활력징후는 혈압 85, 50mmHg, 심박수 120bpm, 호흡수 24회분, 체온 36.8로스, 산소 포화도 89%로 확인되었다. 환자는 심한 복부 통증을 호소하였다. 현재 노르피네프린 8mg인 IV로 투여 중이며 빈도는 하루 3회이다. 고유량 비강 캐콜라를 통해 산소 공급 중이다. 응급 수술적 복구가 계획되어 있으며 C라인이 삽입되어 있다. 시간당 소변 배출량은 20ml이다. 환자는 의식이 흐린 상태이다. 혈관외과팀에게 긴급 개입을 위해 보고하였다.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": "ko",
+    "audio_path": "data/audio/scenario_093_formal_template.mp3",
+    "audio_sha256": "c379bcf38bc6cc9345a3ba88cc04a8e62f1132861f01df416a15570cb606359b",
+    "transcribed_at": "2026-11-04T13:04:42+00:00",
+    "request_seconds": 3.33,
+    "attempts": 1,
+    "git_commit": "5b6d73fb63e1509a79e1a160176d606ed1b104c4",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "환자는 52세 남성으로 복부 대동맥류 파열로 인한 급성 출혈성 쇼크로 입원하였다. 활력징후는 혈압 85, 50mmHg, 심박수 120bpm, 호흡수 24회분, 체온 36.8로스, 산소 포화도 89%로 확인되었다. 환자는 심한 복부 통증을 호소하였다. 현재 노르피네프린 8mg인 IV로 투여 중이며 빈도는 하루 3회이다. 고유량 비강 캐콜라를 통해 산소 공급 중이다. 응급 수술적 복구가 계획되어 있으며 C라인이 삽입되어 있다. 시간당 소변 배출량은 20ml이다. 환자는 의식이 흐린 상태이다. 혈관외과팀에게 긴급 개입을 위해 보고하였다.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 415,
+      "output_tokens": 199,
+      "total_tokens": 614,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 415,
+        "text_tokens": 0
+      }
+    }
+  }
+}

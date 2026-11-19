@@ -1,0 +1,25 @@
+{
+  "sample_id": "scenario_013_telegraphic_icu",
+  "whisper_transcript": "Thursday, a song, 급성, 세균성, 스마겜, E1, BP1, 세럼, 비타민, 흑돼, HR100, BPM, R24, Breaths, Min, B13, 담버트, 내헬스, SpO2, 95%, Room Air, Headache, Severe, Cephtriaxone, 2-Gam, IV, Q12H, C-Line, In Place, 상태, Drowsy",
+  "stt_metadata": {
+    "asr_system": "whisper1",
+    "provider": "reuse_existing",
+    "model": "whisper-1",
+    "language": "ko",
+    "audio_path": "data/audio/scenario_013_telegraphic_icu.mp3",
+    "audio_sha256": "6a471452fca88dbcdd06745edca3f623ef780576ae398690a4ef43e2d42c8281",
+    "copied_at": "2026-11-04T04:31:11+00:00",
+    "request_seconds": 0.0,
+    "attempts": 1,
+    "git_commit": "b3490181b3fb3f88b56cde5be78a01cfdcef3007",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "source_file": "data/stt_transcripts/scenario_013_telegraphic_icu.json",
+    "source_sha256": "0bda44e19b531604d3c89fcfaeda7208e746c7bd2d9cc6042361ce656a998e24",
+    "source_stt_metadata": {
+      "model": "whisper-1",
+      "language": "ko"
+    }
+  }
+}

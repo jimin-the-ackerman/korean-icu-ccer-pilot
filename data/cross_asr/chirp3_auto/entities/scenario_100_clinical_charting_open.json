@@ -1,0 +1,33 @@
+{
+  "sample_id": "scenario_100_clinical_charting",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "abdominal pain",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "drowsy",
+    "medication_identity": "Morphine",
+    "interventions": [
+      "nasogastric decompression"
+    ],
+    "intake_output": "8시간 동안 urine output 감소 확인됨",
+    "notification": "Surgical team notify함"
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "abdominal pain",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "drowsy",
+    "medication_identity": "morphine",
+    "interventions": [],
+    "intake_output": "8시간 동안 urine output 감소 확인됨",
+    "notification": "surgical 팀 notify함"
+  }
+}

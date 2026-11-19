@@ -1,0 +1,25 @@
+{
+  "sample_id": "scenario_071_clinical_charting",
+  "whisper_transcript": "Sorbet seoseong, Guillain-Barre syndrome, GBS severe case admission. Respiratory monitoring, close PO. BP 108, 76 membrane, HR, tidy 8, BR, 28 breaths min. BT 131 by McGee's, SBO2, 89% on room air, hwagindem. Severe muscle weakness, hosowam. IV immunoglobulin, 0.4 mg IV, Q12H, jeogyungam. Non-rebreather masks, hanso jeogyungam. Ventilator, sayongjung. Clinical status, drowsy sangtae. Neurology team, notifiam.",
+  "stt_metadata": {
+    "asr_system": "whisper1_auto",
+    "provider": "openai",
+    "model": "whisper-1",
+    "language": null,
+    "audio_path": "data/audio/scenario_071_clinical_charting.mp3",
+    "audio_sha256": "ebc930d56423e976b3872e7a1976b8f0a66849724d73565408d875323115500f",
+    "transcribed_at": "2026-11-04T13:58:32+00:00",
+    "request_seconds": 2.19,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "Sorbet seoseong, Guillain-Barre syndrome, GBS severe case admission. Respiratory monitoring, close PO. BP 108, 76 membrane, HR, tidy 8, BR, 28 breaths min. BT 131 by McGee's, SBO2, 89% on room air, hwagindem. Severe muscle weakness, hosowam. IV immunoglobulin, 0.4 mg IV, Q12H, jeogyungam. Non-rebreather masks, hanso jeogyungam. Ventilator, sayongjung. Clinical status, drowsy sangtae. Neurology team, notifiam.",
+    "logprobs": null,
+    "usage": {
+      "seconds": 28.0,
+      "type": "duration"
+    }
+  }
+}

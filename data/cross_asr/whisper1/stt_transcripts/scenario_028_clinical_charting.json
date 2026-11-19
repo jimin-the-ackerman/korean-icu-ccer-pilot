@@ -1,0 +1,25 @@
+{
+  "sample_id": "scenario_028_clinical_charting",
+  "whisper_transcript": "54세 남자 환자, acute hemorrhagic stroke로 입원함. BP 0.8-100mg, HR 100 BPM, RR, RCD breaths min, BT 36.8, CELS, SpO2 95% on room air. severe headache 호소함, labetalol 8mg의 stat 투여함, CT scan of the head 시행함, C-line 적용함. 익숙해 시간 동안 500mL positive fluid balance 확인됨. 환자 stuporous 상태임. Neurology team notify함.",
+  "stt_metadata": {
+    "asr_system": "whisper1",
+    "provider": "reuse_existing",
+    "model": "whisper-1",
+    "language": "ko",
+    "audio_path": "data/audio/scenario_028_clinical_charting.mp3",
+    "audio_sha256": "f9b11792d76b117a3ccad1c2425fe342b717087861243980c25519f227539b3b",
+    "copied_at": "2026-11-04T04:31:11+00:00",
+    "request_seconds": 0.0,
+    "attempts": 1,
+    "git_commit": "b3490181b3fb3f88b56cde5be78a01cfdcef3007",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "source_file": "data/stt_transcripts/scenario_028_clinical_charting.json",
+    "source_sha256": "527c5d40c55ed8c6a5ce52613eebaca92e6b590bddd916fd81689f5c7f0c337c",
+    "source_stt_metadata": {
+      "model": "whisper-1",
+      "language": "ko"
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_036_clinical_charting",
+  "whisper_transcript": "55세 여성, severe acute asthma exacerbation으로 입원함. BP 132/85 mmHg, HR 100 bpm, RR 30 breaths/min, BT 37.6°C, SpO2 88% on room air, wheezing severe함. 알부테롤 2.5mg IV q4h 적용함, high flow nasal cannula 산소 지원 중, ventilator 사용함. negative fluid balance 확인됨, drowsy 상태임, respiratory therapist notify함.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": "ko",
+    "audio_path": "data/audio/scenario_036_clinical_charting.mp3",
+    "audio_sha256": "7c447c6d8fad4823137cd6e240b7d3b0db2f4aa12edd355ae3464afd47cc14e4",
+    "transcribed_at": "2026-11-04T12:57:17+00:00",
+    "request_seconds": 1.76,
+    "attempts": 1,
+    "git_commit": "5b6d73fb63e1509a79e1a160176d606ed1b104c4",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "55세 여성, severe acute asthma exacerbation으로 입원함. BP 132/85 mmHg, HR 100 bpm, RR 30 breaths/min, BT 37.6°C, SpO2 88% on room air, wheezing severe함. 알부테롤 2.5mg IV q4h 적용함, high flow nasal cannula 산소 지원 중, ventilator 사용함. negative fluid balance 확인됨, drowsy 상태임, respiratory therapist notify함.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 245,
+      "output_tokens": 105,
+      "total_tokens": 350,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 245,
+        "text_tokens": 0
+      }
+    }
+  }
+}

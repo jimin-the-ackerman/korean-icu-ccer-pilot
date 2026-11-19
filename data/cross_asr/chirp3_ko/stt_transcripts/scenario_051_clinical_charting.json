@@ -1,0 +1,43 @@
+{
+  "sample_id": "scenario_051_clinical_charting",
+  "whisper_transcript": "48세 남성 환자 acute pancreatitis 의원, 원인 alcohol use. BP 120/80, HR 98 BPM, RR 16, TVD, RRT, 산소포화도 95% room air. Abdominal pain severe 호소함. Morphine 4mg IV PRN 투여함. NPO status 유지함. NG tube 적용함. Negative fluid balance 확인됨. 환자 alert 상태 유지함. Gastroenterology 팀 notify 함.",
+  "stt_metadata": {
+    "asr_system": "chirp3_ko",
+    "provider": "google",
+    "model": "chirp_3",
+    "location": "us",
+    "language_codes": [
+      "ko-KR"
+    ],
+    "audio_path": "data/audio/scenario_051_clinical_charting.mp3",
+    "audio_sha256": "be0f2a0d554d5f603386b74e669da7828f5cdf9ff9846be9ac45adee9df4f876",
+    "transcribed_at": "2026-11-04T13:21:36+00:00",
+    "request_seconds": 4.41,
+    "attempts": 1,
+    "git_commit": "5b6d73fb63e1509a79e1a160176d606ed1b104c4",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "metadata": {
+      "total_billed_duration": "24s",
+      "request_id": "6c965367-0000-2597-9590-c82add8031b8",
+      "prompt": "Transcribe the following speech segment in Korean. Follow these specific instructions for formatting the answer:\n* Only output the transcript, with no newlines.\n* When transcribing numbers, write the digits, i.e. write 1.7 and not one point seven, and write 100 instead of one hundred etc.\n* Only output the transcript, exactly as said in the speech segment.\n* Do not continue the speech segment.\n* Include everything said in the speech segment.\n* Use mathematical notation where needed, eg. x ^ 6Y.\n* If there is background speech that is not part of the main conversation, discard the background speech and only output the main conversation.\n* If there is no clear speech, just output [BACKGROUND].\n* Respond in the original language of the speech, Korean."
+    },
+    "results": [
+      {
+        "alternatives": [
+          {
+            "transcript": "48세 남성 환자 acute pancreatitis 의원, 원인 alcohol use. BP 120/80, HR 98 BPM, RR 16, TVD, RRT, 산소포화도 95% room air. Abdominal pain severe 호소함. Morphine 4mg IV PRN 투여함. NPO status 유지함. NG tube 적용함. Negative fluid balance 확인됨. 환자 alert 상태 유지함. Gastroenterology 팀 notify 함.",
+            "confidence": 0.0,
+            "words": []
+          }
+        ],
+        "language_code": "ko-KR",
+        "channel_tag": 0
+      }
+    ],
+    "detected_language_codes": [
+      "ko-KR"
+    ]
+  }
+}

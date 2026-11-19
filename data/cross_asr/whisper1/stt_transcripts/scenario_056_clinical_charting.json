@@ -1,0 +1,25 @@
+{
+  "sample_id": "scenario_056_clinical_charting",
+  "whisper_transcript": "47세 여성, acute severe asthma extubation으로 입원함. BP 0.3585 mmHg, HR pectibium, RR 3GD breath mimin, BT 3G7.556 cells, SB280 propensin on room air 확인됨. Severe wheezing 확인됨. Albuterol 2.5mg IV Q storage 적용함. High flow nasal cannula 산소공급 유지함. NG tubes 합입됨. Negative fluid balance of 500ml 확인됨. 환자상태 drowsy, pulmonology team notify함.",
+  "stt_metadata": {
+    "asr_system": "whisper1",
+    "provider": "reuse_existing",
+    "model": "whisper-1",
+    "language": "ko",
+    "audio_path": "data/audio/scenario_056_clinical_charting.mp3",
+    "audio_sha256": "001c99835b3ff9505247e3e9daf173200b66ac082e856f84233c159872060367",
+    "copied_at": "2026-11-04T04:31:12+00:00",
+    "request_seconds": 0.0,
+    "attempts": 1,
+    "git_commit": "b3490181b3fb3f88b56cde5be78a01cfdcef3007",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "source_file": "data/stt_transcripts/scenario_056_clinical_charting.json",
+    "source_sha256": "c13c6c41f68dba555c005d01493f1f508a7945c4aad933b079e2492c5a95d099",
+    "source_stt_metadata": {
+      "model": "whisper-1",
+      "language": "ko"
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_009_clinical_charting",
+  "whisper_transcript": "64세 여성 환자, UTI로 인한 septic shock, BP 85/50 mmHg, HR 120 bpm, RR 36/min, BT 38.9°C, SpO2 92%. Severe fever 확인됨. Piperacillin/tazobactam 4.5 g IV q 12h 적용함. Nasal cannula 3 L/min 산소 유지함. C-line 유지함. Positive fluid balance 확인됨. 환자 상태 drowsy. 담당의 notify함. 지속적인 저혈압 및 발열 관련.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": "ko",
+    "audio_path": "data/audio/scenario_009_clinical_charting.mp3",
+    "audio_sha256": "68dc3cf97e5591ab74db509b22aa22ac8f8f945c4d1e7f38acf6e3ebf0cc3195",
+    "transcribed_at": "2026-11-04T12:54:28+00:00",
+    "request_seconds": 2.05,
+    "attempts": 1,
+    "git_commit": "5b6d73fb63e1509a79e1a160176d606ed1b104c4",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "64세 여성 환자, UTI로 인한 septic shock, BP 85/50 mmHg, HR 120 bpm, RR 36/min, BT 38.9°C, SpO2 92%. Severe fever 확인됨. Piperacillin/tazobactam 4.5 g IV q 12h 적용함. Nasal cannula 3 L/min 산소 유지함. C-line 유지함. Positive fluid balance 확인됨. 환자 상태 drowsy. 담당의 notify함. 지속적인 저혈압 및 발열 관련.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 245,
+      "output_tokens": 119,
+      "total_tokens": 364,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 245,
+        "text_tokens": 0
+      }
+    }
+  }
+}

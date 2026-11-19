@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_011_telegraphic_icu",
+  "whisper_transcript": "60세 남성 급성 간부전 입원, BP: 110/70, HR: 88, RR: 24, SpO2: 95%. Jaundice 심각. Lactulose 30mL nasal cannula 투여 다음으로 사용 중. 의식 상태 혼미. Hepatology 팀 notify.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe_auto",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": null,
+    "audio_path": "data/audio/scenario_011_telegraphic_icu.mp3",
+    "audio_sha256": "d14e80f36258d66c401142503784f217d43d96c44ee644d4e05df73c1cba7382",
+    "transcribed_at": "2026-11-04T14:04:45+00:00",
+    "request_seconds": 1.28,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "60세 남성 급성 간부전 입원, BP: 110/70, HR: 88, RR: 24, SpO2: 95%. Jaundice 심각. Lactulose 30mL nasal cannula 투여 다음으로 사용 중. 의식 상태 혼미. Hepatology 팀 notify.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 156,
+      "output_tokens": 72,
+      "total_tokens": 228,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 156,
+        "text_tokens": 0
+      }
+    }
+  }
+}

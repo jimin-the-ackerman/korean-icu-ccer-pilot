@@ -1,0 +1,25 @@
+{
+  "sample_id": "scenario_046_telegraphic_icu",
+  "whisper_transcript": "직수 비세 남성, acute subdural hematoma E1, BP wexata pysic, HR-ZXIV-R-SA, BT-30-Zytom, SpO2 28%, severe headache, mannitol-begram IV Q6H, intracranial pressure monitoring, 환자 드라우지.",
+  "stt_metadata": {
+    "asr_system": "whisper1",
+    "provider": "reuse_existing",
+    "model": "whisper-1",
+    "language": "ko",
+    "audio_path": "data/audio/scenario_046_telegraphic_icu.mp3",
+    "audio_sha256": "31ee686ba3dbce91b5eb4bf5a175852410415a4380afd7d7c79bcd365a882c81",
+    "copied_at": "2026-11-04T04:31:11+00:00",
+    "request_seconds": 0.0,
+    "attempts": 1,
+    "git_commit": "b3490181b3fb3f88b56cde5be78a01cfdcef3007",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "source_file": "data/stt_transcripts/scenario_046_telegraphic_icu.json",
+    "source_sha256": "9d5a2c3e1e63f5f988ae32fffa572eebdc7bbbeb6c84cbed6160da96e9d1854c",
+    "source_stt_metadata": {
+      "model": "whisper-1",
+      "language": "ko"
+    }
+  }
+}

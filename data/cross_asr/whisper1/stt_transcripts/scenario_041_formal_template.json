@@ -1,0 +1,25 @@
+{
+  "sample_id": "scenario_041_formal_template",
+  "whisper_transcript": "65세 여자 환자가 알코올 관련 강경변으로 인한 만성간질환의 급성악화로 입원하였다. 활력징후는 혈압 105-68mmHg, 심박수 112bpm, 호흡수 22breathsmin, 체온 37.8°C로 확인되었으며, 산소포화도는 실내 공기에서 92%로 측정되었다. 복수는 중등도 수준으로 관찰되었다. 환자는 의식이 혼미한 상태로 확인되었다. 약물로 furosemide 40mg이 IV로 8시간마다 투여되고 있다. 산소는 nasal cannula로 투여 중이다. 폴리 카테터가 삽입되어 있으며, 24시간 동안 소변 배출량은 1,021L로 기록되었다.",
+  "stt_metadata": {
+    "asr_system": "whisper1",
+    "provider": "reuse_existing",
+    "model": "whisper-1",
+    "language": "ko",
+    "audio_path": "data/audio/scenario_041_formal_template.mp3",
+    "audio_sha256": "cb82581d14837b61e34278e72a98dfeda023feac0ef20ae29ee6557bc9101ced",
+    "copied_at": "2026-11-04T04:31:11+00:00",
+    "request_seconds": 0.0,
+    "attempts": 1,
+    "git_commit": "b3490181b3fb3f88b56cde5be78a01cfdcef3007",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "source_file": "data/stt_transcripts/scenario_041_formal_template.json",
+    "source_sha256": "0b5afd1b37b0517cb38a492d92276709e209cb4d6bf8eab64288280b4cf89c66",
+    "source_stt_metadata": {
+      "model": "whisper-1",
+      "language": "ko"
+    }
+  }
+}

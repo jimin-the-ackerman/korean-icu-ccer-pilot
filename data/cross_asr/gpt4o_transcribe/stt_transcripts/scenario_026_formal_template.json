@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_026_formal_template",
+  "whisper_transcript": "52세 여성 환자가 중증의 지역사회 획득 폐렴으로 중환자실에 입원하였다. 혈압은 100이 64mmHg로 측정되었으며 심박수는 112bpm으로 확인되었다. 호흡수는 28breaths/m로 체온은 38.5도 그롭스스로 발열이 관찰되었다. 산소포화도는 실내 공기에서 85%로 확인되었다. 환자는 심한 호흡곤란을 호소하였다. 리보플록스는 705mg이 정맥으로 12시간마다 투여되고 있다. 환자는 고유량 비강 캐콜라로 61Lpm, FiO2 0.6의 산소 지원을 받고 있으며 인공호흡기가 사용 중이다. 환자는 기면 상태를 보이고 있다.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": "ko",
+    "audio_path": "data/audio/scenario_026_formal_template.mp3",
+    "audio_sha256": "5b28a84bb14e94041ccb3ee9b3c38a333fad13584934a2f1374a521e1fb9e994",
+    "transcribed_at": "2026-11-04T12:56:13+00:00",
+    "request_seconds": 2.36,
+    "attempts": 1,
+    "git_commit": "5b6d73fb63e1509a79e1a160176d606ed1b104c4",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "52세 여성 환자가 중증의 지역사회 획득 폐렴으로 중환자실에 입원하였다. 혈압은 100이 64mmHg로 측정되었으며 심박수는 112bpm으로 확인되었다. 호흡수는 28breaths/m로 체온은 38.5도 그롭스스로 발열이 관찰되었다. 산소포화도는 실내 공기에서 85%로 확인되었다. 환자는 심한 호흡곤란을 호소하였다. 리보플록스는 705mg이 정맥으로 12시간마다 투여되고 있다. 환자는 고유량 비강 캐콜라로 61Lpm, FiO2 0.6의 산소 지원을 받고 있으며 인공호흡기가 사용 중이다. 환자는 기면 상태를 보이고 있다.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 406,
+      "output_tokens": 189,
+      "total_tokens": 595,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 406,
+        "text_tokens": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_041_clinical_charting",
+  "whisper_transcript": "65세 여성 알코올성 간경변으로 인한 만성 간질환 급성 악화로 입원함. BP 앵고 68mmHg, HR 112 BPM, RR 52 Breath/Min, BT 37.8°C, SpO2 92% on room air, ascites moderate 확인됨. Furosemide 40mg IV q8h 적용함. Nasal cannula 산소 적용 중, Foley 유지함, urine output 켄텐디머가드미리래시나타 RR. Clinical status drowsy 확인됨.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": "ko",
+    "audio_path": "data/audio/scenario_041_clinical_charting.mp3",
+    "audio_sha256": "d867484e693e2f2d4cea4f416b618c756e1b8122cddffa4e2d27d9b915001cc6",
+    "transcribed_at": "2026-11-04T12:57:48+00:00",
+    "request_seconds": 2.03,
+    "attempts": 1,
+    "git_commit": "5b6d73fb63e1509a79e1a160176d606ed1b104c4",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "65세 여성 알코올성 간경변으로 인한 만성 간질환 급성 악화로 입원함. BP 앵고 68mmHg, HR 112 BPM, RR 52 Breath/Min, BT 37.8°C, SpO2 92% on room air, ascites moderate 확인됨. Furosemide 40mg IV q8h 적용함. Nasal cannula 산소 적용 중, Foley 유지함, urine output 켄텐디머가드미리래시나타 RR. Clinical status drowsy 확인됨.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 253,
+      "output_tokens": 125,
+      "total_tokens": 378,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 253,
+        "text_tokens": 0
+      }
+    }
+  }
+}

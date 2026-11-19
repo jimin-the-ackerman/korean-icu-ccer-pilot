@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_069_telegraphic_icu",
+  "whisper_transcript": "우시 체세 남성 급성 heroin overdose로 입원. BP가 하이트스미워 메서렛 브렛스민, 알브랫 터햇 브렛스민. SPO 퍼프레림 룸 에어, severe unconsciousness. Naloxone 네오뱀 4mg IV high-flow nasal cannulas 사용 중 unresponsive.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe_auto",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": null,
+    "audio_path": "data/audio/scenario_069_telegraphic_icu.mp3",
+    "audio_sha256": "b9a80c5ea57903d203c957613a0b1d007b9f4e317b136880d523a066b2abafe7",
+    "transcribed_at": "2026-11-04T14:11:48+00:00",
+    "request_seconds": 1.97,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "우시 체세 남성 급성 heroin overdose로 입원. BP가 하이트스미워 메서렛 브렛스민, 알브랫 터햇 브렛스민. SPO 퍼프레림 룸 에어, severe unconsciousness. Naloxone 네오뱀 4mg IV high-flow nasal cannulas 사용 중 unresponsive.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 161,
+      "output_tokens": 78,
+      "total_tokens": 239,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 161,
+        "text_tokens": 0
+      }
+    }
+  }
+}

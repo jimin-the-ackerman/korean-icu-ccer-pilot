@@ -1,0 +1,43 @@
+{
+  "sample_id": "scenario_024_clinical_charting",
+  "whisper_transcript": "47세 남성 환자, 급성 appendicitis 및 수술 후 합병증으로 입원함. BP 170/100 mmHg, HR 85 bpm, RR 18 breaths/min, BT 37.5°C, SpO2 96%. abdominal pain moderate 호소함. ceftriaxone 1g IV BID 투여 중임. urine output mildly reduced 확인됨. 환자 의식 alert 상태 유지함.",
+  "stt_metadata": {
+    "asr_system": "chirp3_ko",
+    "provider": "google",
+    "model": "chirp_3",
+    "location": "us",
+    "language_codes": [
+      "ko-KR"
+    ],
+    "audio_path": "data/audio/scenario_024_clinical_charting.mp3",
+    "audio_sha256": "516424e47f5c0293c094b9b13a12a915b01555906300fccfe9250e00931c344f",
+    "transcribed_at": "2026-11-04T13:15:19+00:00",
+    "request_seconds": 4.14,
+    "attempts": 1,
+    "git_commit": "5b6d73fb63e1509a79e1a160176d606ed1b104c4",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "metadata": {
+      "total_billed_duration": "21s",
+      "request_id": "706e3955-0000-286c-b3d7-3439160151cb",
+      "prompt": "Transcribe the following speech segment in Korean. Follow these specific instructions for formatting the answer:\n* Only output the transcript, with no newlines.\n* When transcribing numbers, write the digits, i.e. write 1.7 and not one point seven, and write 100 instead of one hundred etc.\n* Only output the transcript, exactly as said in the speech segment.\n* Do not continue the speech segment.\n* Include everything said in the speech segment.\n* Use mathematical notation where needed, eg. x ^ 6Y.\n* If there is background speech that is not part of the main conversation, discard the background speech and only output the main conversation.\n* If there is no clear speech, just output [BACKGROUND].\n* Respond in the original language of the speech, Korean."
+    },
+    "results": [
+      {
+        "alternatives": [
+          {
+            "transcript": "47세 남성 환자, 급성 appendicitis 및 수술 후 합병증으로 입원함. BP 170/100 mmHg, HR 85 bpm, RR 18 breaths/min, BT 37.5°C, SpO2 96%. abdominal pain moderate 호소함. ceftriaxone 1g IV BID 투여 중임. urine output mildly reduced 확인됨. 환자 의식 alert 상태 유지함.",
+            "confidence": 0.0,
+            "words": []
+          }
+        ],
+        "language_code": "ko-KR",
+        "channel_tag": 0
+      }
+    ],
+    "detected_language_codes": [
+      "ko-KR"
+    ]
+  }
+}

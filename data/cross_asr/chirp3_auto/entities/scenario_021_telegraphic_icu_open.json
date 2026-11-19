@@ -1,0 +1,50 @@
+{
+  "sample_id": "scenario_021_telegraphic_icu",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "muscle weakness",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "Alert",
+    "medication_identity": "Calcium gluconate",
+    "interventions": [
+      "IV fluid administration"
+    ],
+    "intake_output": "I/O strict monitoring",
+    "notification": "Renal team notify"
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "hyperkalemia",
+        "negation": false,
+        "severity": "severe"
+      },
+      {
+        "name": "rhabdomyolysis",
+        "negation": false,
+        "severity": null
+      },
+      {
+        "name": "prolonged immobilization",
+        "negation": false,
+        "severity": null
+      },
+      {
+        "name": "muscle weakness",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "Alert",
+    "medication_identity": "Calcium gluconate",
+    "interventions": [
+      "IV fluid administration"
+    ],
+    "intake_output": "IO strict monitoring",
+    "notification": "Renal team notify"
+  }
+}

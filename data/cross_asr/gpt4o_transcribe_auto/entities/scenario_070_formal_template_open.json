@@ -1,0 +1,36 @@
+{
+  "sample_id": "scenario_070_formal_template",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "기침",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "졸린 상태",
+    "medication_identity": "Levofloxacin",
+    "interventions": [],
+    "intake_output": "체액 균형 음성",
+    "notification": null
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "기침",
+        "negation": false,
+        "severity": "severe"
+      },
+      {
+        "name": "호흡부전",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "졸린 상태",
+    "medication_identity": "리보플록사신",
+    "interventions": [],
+    "intake_output": "체액 균형 음성",
+    "notification": null
+  }
+}

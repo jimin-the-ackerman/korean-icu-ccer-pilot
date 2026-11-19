@@ -1,0 +1,25 @@
+{
+  "sample_id": "scenario_029_telegraphic_icu",
+  "whisper_transcript": "40 June Seyo Song, GBS to E1. BP on third, 85 millituggering. HR, 92 BPM. RR, 18 breaths min. BT, 36.8 glease. SpO2, 89% room air. Severe muscle weakness, IVIG 0.4 gram, kelogen IV, Q12H. Nasal cannula 2, min plasmapheresis scheduled. Ventilator, chunbi them. Foley catheter, urine, 1, 1200 milli, 24. Drowsy sangtae. Neurology team notify.",
+  "stt_metadata": {
+    "asr_system": "whisper1_auto",
+    "provider": "openai",
+    "model": "whisper-1",
+    "language": null,
+    "audio_path": "data/audio/scenario_029_telegraphic_icu.mp3",
+    "audio_sha256": "ad6fa28bafe4f0a8c2c870d49e6ef94e19f6ad1160f6af631744596623b98afb",
+    "transcribed_at": "2026-11-04T13:52:26+00:00",
+    "request_seconds": 3.89,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "40 June Seyo Song, GBS to E1. BP on third, 85 millituggering. HR, 92 BPM. RR, 18 breaths min. BT, 36.8 glease. SpO2, 89% room air. Severe muscle weakness, IVIG 0.4 gram, kelogen IV, Q12H. Nasal cannula 2, min plasmapheresis scheduled. Ventilator, chunbi them. Foley catheter, urine, 1, 1200 milli, 24. Drowsy sangtae. Neurology team notify.",
+    "logprobs": null,
+    "usage": {
+      "seconds": 23.0,
+      "type": "duration"
+    }
+  }
+}

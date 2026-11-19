@@ -1,0 +1,25 @@
+{
+  "sample_id": "scenario_026_clinical_charting",
+  "whisper_transcript": "52-year-old woman has severe community-acquired pneumonia and is in the ICU. BP, PILN, 6C, PATR, HER, HERG, HR, RR, HG, PET, BREATH, SMIN, BT, SANTIPAT, DEMO, BROOKS, SBO2, ULIP, PESENPIN, RUMER, severe dyspnea, HOSOAM, levofloxacin, TURBO, MINGUMEV, KH, CHOKYOAM, high-flow nasal cannula, 60 LELIPRMIN, PHYO2, NYX, UGM, ventilator in use. Clinical status, DROWSY, confirmed.",
+  "stt_metadata": {
+    "asr_system": "whisper1_auto",
+    "provider": "openai",
+    "model": "whisper-1",
+    "language": null,
+    "audio_path": "data/audio/scenario_026_clinical_charting.mp3",
+    "audio_sha256": "42949b739a1fe326e651839c975193fb208ee3daf4052f4edb49ad9fe39eef94",
+    "transcribed_at": "2026-11-04T13:51:54+00:00",
+    "request_seconds": 3.35,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "52-year-old woman has severe community-acquired pneumonia and is in the ICU. BP, PILN, 6C, PATR, HER, HERG, HR, RR, HG, PET, BREATH, SMIN, BT, SANTIPAT, DEMO, BROOKS, SBO2, ULIP, PESENPIN, RUMER, severe dyspnea, HOSOAM, levofloxacin, TURBO, MINGUMEV, KH, CHOKYOAM, high-flow nasal cannula, 60 LELIPRMIN, PHYO2, NYX, UGM, ventilator in use. Clinical status, DROWSY, confirmed.",
+    "logprobs": null,
+    "usage": {
+      "seconds": 25.0,
+      "type": "duration"
+    }
+  }
+}

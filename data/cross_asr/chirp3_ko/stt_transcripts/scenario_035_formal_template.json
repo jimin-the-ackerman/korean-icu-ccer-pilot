@@ -1,0 +1,43 @@
+{
+  "sample_id": "scenario_035_formal_template",
+  "whisper_transcript": "62세 여성 환자는 확장성 심근병증으로 인한 급성 악화 심부전으로 입원하였다. 활력 증후는 혈압 95/60 mmHg, 심박수 110 bpm, 호흡수 24 breaths/min, 체온 36.8도, 산소 포화도 90%로 실내 공기에서 확인되었다. 환자는 심한 정도의 호흡 곤란을 호소하였다. 푸로세미드 40 mg이 IV로 8시간마다 투여되고 있다. 산소는 비강 캐눌라를 통해 4 L/min으로 공급 중이다. 폴리 카테터가 삽입되어 있으며 24시간 동안 500 ml의 음성 수분 균형이 확인되었다. 환자는 졸린 상태로 관찰되었다. 지속적인 저혈압에 대해 심장학 팀에게 보고하였다.",
+  "stt_metadata": {
+    "asr_system": "chirp3_ko",
+    "provider": "google",
+    "model": "chirp_3",
+    "location": "us",
+    "language_codes": [
+      "ko-KR"
+    ],
+    "audio_path": "data/audio/scenario_035_formal_template.mp3",
+    "audio_sha256": "23ed30edc6f796c3f72b6dced2fab734894610f6f6c1b81fdf55e93d09542515",
+    "transcribed_at": "2026-11-04T13:18:01+00:00",
+    "request_seconds": 6.29,
+    "attempts": 1,
+    "git_commit": "5b6d73fb63e1509a79e1a160176d606ed1b104c4",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "metadata": {
+      "total_billed_duration": "43s",
+      "request_id": "6af9415d-0000-231b-bd15-30fd38105560",
+      "prompt": "Transcribe the following speech segment in Korean. Follow these specific instructions for formatting the answer:\n* Only output the transcript, with no newlines.\n* When transcribing numbers, write the digits, i.e. write 1.7 and not one point seven, and write 100 instead of one hundred etc.\n* Only output the transcript, exactly as said in the speech segment.\n* Do not continue the speech segment.\n* Include everything said in the speech segment.\n* Use mathematical notation where needed, eg. x ^ 6Y.\n* If there is background speech that is not part of the main conversation, discard the background speech and only output the main conversation.\n* If there is no clear speech, just output [BACKGROUND].\n* Respond in the original language of the speech, Korean."
+    },
+    "results": [
+      {
+        "alternatives": [
+          {
+            "transcript": "62세 여성 환자는 확장성 심근병증으로 인한 급성 악화 심부전으로 입원하였다. 활력 증후는 혈압 95/60 mmHg, 심박수 110 bpm, 호흡수 24 breaths/min, 체온 36.8도, 산소 포화도 90%로 실내 공기에서 확인되었다. 환자는 심한 정도의 호흡 곤란을 호소하였다. 푸로세미드 40 mg이 IV로 8시간마다 투여되고 있다. 산소는 비강 캐눌라를 통해 4 L/min으로 공급 중이다. 폴리 카테터가 삽입되어 있으며 24시간 동안 500 ml의 음성 수분 균형이 확인되었다. 환자는 졸린 상태로 관찰되었다. 지속적인 저혈압에 대해 심장학 팀에게 보고하였다.",
+            "confidence": 0.0,
+            "words": []
+          }
+        ],
+        "language_code": "ko-KR",
+        "channel_tag": 0
+      }
+    ],
+    "detected_language_codes": [
+      "ko-KR"
+    ]
+  }
+}

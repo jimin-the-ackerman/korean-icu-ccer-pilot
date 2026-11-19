@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_051_clinical_charting",
+  "whisper_transcript": "40세 남성 환자 acute pancreatitis 위원. 원인 alcohol use, BP 100/70 HR 98 bpm, RR 9, BT 37.8℃, SpO2 95% on room air. Abdominal pain severe 호소함, morphine 4mg IV PRN 투여함. NPO status 유지함, NG tube 삽입 적용함, negative fluid balance 확인됨. 환자 alert 상태 유지함. Gastroenterology team notify 함.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe_auto",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": null,
+    "audio_path": "data/audio/scenario_051_clinical_charting.mp3",
+    "audio_sha256": "be0f2a0d554d5f603386b74e669da7828f5cdf9ff9846be9ac45adee9df4f876",
+    "transcribed_at": "2026-11-04T14:09:50+00:00",
+    "request_seconds": 1.82,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "40세 남성 환자 acute pancreatitis 위원. 원인 alcohol use, BP 100/70 HR 98 bpm, RR 9, BT 37.8℃, SpO2 95% on room air. Abdominal pain severe 호소함, morphine 4mg IV PRN 투여함. NPO status 유지함, NG tube 삽입 적용함, negative fluid balance 확인됨. 환자 alert 상태 유지함. Gastroenterology team notify 함.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 236,
+      "output_tokens": 104,
+      "total_tokens": 340,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 236,
+        "text_tokens": 0
+      }
+    }
+  }
+}

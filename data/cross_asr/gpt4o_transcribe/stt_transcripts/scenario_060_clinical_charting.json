@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_060_clinical_charting",
+  "whisper_transcript": "지시읍스앤암성 파킨슨스 디지즈 acute exacerbation으로 입원. BP 144/58 mmHg, HR 88 bpm, BT 37.2°C, SpO2 95%. Rigidity severe 확인됨. Levodopa 100 mg TID 적용함. Foley 유지함. IO 10ml 24h 기록됨. Clinical status drowsy 확인됨.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": "ko",
+    "audio_path": "data/audio/scenario_060_clinical_charting.mp3",
+    "audio_sha256": "b5bb23e6fa399f6a22ca3ab1f2bb4fed248940d7d86fbc646af8ef3c10dcc733",
+    "transcribed_at": "2026-11-04T12:59:54+00:00",
+    "request_seconds": 1.61,
+    "attempts": 1,
+    "git_commit": "5b6d73fb63e1509a79e1a160176d606ed1b104c4",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "지시읍스앤암성 파킨슨스 디지즈 acute exacerbation으로 입원. BP 144/58 mmHg, HR 88 bpm, BT 37.2°C, SpO2 95%. Rigidity severe 확인됨. Levodopa 100 mg TID 적용함. Foley 유지함. IO 10ml 24h 기록됨. Clinical status drowsy 확인됨.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 200,
+      "output_tokens": 89,
+      "total_tokens": 289,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 200,
+        "text_tokens": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "sample_id": "scenario_099_telegraphic_icu",
+  "whisper_transcript": "71세 여성 chf acute exacerbation pulmonary edema bp 160 90 hr 105 bpm rr 28 breast min bt 37.5 deg c sb02 88 percent room air severe dyspnea furosemide 40 milligrams iv q8 h high flow nasal canal 40 positive fluid balance 2000 clinical status drowsy cardiology consult requested",
+  "stt_metadata": {
+    "asr_system": "whisper1",
+    "provider": "reuse_existing",
+    "model": "whisper-1",
+    "language": "ko",
+    "audio_path": "data/audio/scenario_099_telegraphic_icu.mp3",
+    "audio_sha256": "aa91339c5853e2553dd68f8695b13874aeb3e4036b29d5d526a2c64830811979",
+    "copied_at": "2026-11-04T04:31:12+00:00",
+    "request_seconds": 0.0,
+    "attempts": 1,
+    "git_commit": "b3490181b3fb3f88b56cde5be78a01cfdcef3007",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "source_file": "data/stt_transcripts/scenario_099_telegraphic_icu.json",
+    "source_sha256": "dadf7f28b0f4b0f69c47cb17df82054ab0e99d19096f93dd253932e7524725dd",
+    "source_stt_metadata": {
+      "model": "whisper-1",
+      "language": "ko"
+    }
+  }
+}

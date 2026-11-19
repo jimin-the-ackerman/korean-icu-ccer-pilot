@@ -1,0 +1,25 @@
+{
+  "sample_id": "scenario_004_telegraphic_icu",
+  "whisper_transcript": "40세 남성, 급성 큐장염, BP9, 디에스 60mg, RR28, Breast Fet Min, BT30, AVXLC, SpO2 95%, Room Air, Abdominal Pain Severe, Morphine 4mg, IV, Q4H, Fluid Resuscitation Tinnang, Foley UG, Urine Output 200mL 4hrs, Drowsy 상태, Docker Notify",
+  "stt_metadata": {
+    "asr_system": "whisper1",
+    "provider": "reuse_existing",
+    "model": "whisper-1",
+    "language": "ko",
+    "audio_path": "data/audio/scenario_004_telegraphic_icu.mp3",
+    "audio_sha256": "076ac1d0450cd07b0ace52a09c2958e5b7c6187e856d08445f6fc82c5694e938",
+    "copied_at": "2026-11-04T04:31:11+00:00",
+    "request_seconds": 0.0,
+    "attempts": 1,
+    "git_commit": "b3490181b3fb3f88b56cde5be78a01cfdcef3007",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "source_file": "data/stt_transcripts/scenario_004_telegraphic_icu.json",
+    "source_sha256": "145c034c8644f17fcf5b973c06cf69c46785a0a3ad7ba5852270522f2ddbca7b",
+    "source_stt_metadata": {
+      "model": "whisper-1",
+      "language": "ko"
+    }
+  }
+}

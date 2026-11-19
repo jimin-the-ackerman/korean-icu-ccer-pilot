@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_076_clinical_charting",
+  "whisper_transcript": "35세 여성 환자 hyperemesis gravidarum으로 인한 심한 탈수로 acute kidney injury에 입원함. BP 92/98 mmHg, HR 110 bpm, RR 18, BT 36.8°C, SpO2 96%. Severe nausea 호소함. Ondansetron 8 mg IV q8h 적용함. IV fluid resuscitation with normal saline 시행함. Foley 유점. Negative fluid balance 확인됨. Drowsy 상태 관찰됨. Nephrology team notify함.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe_auto",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": null,
+    "audio_path": "data/audio/scenario_076_clinical_charting.mp3",
+    "audio_sha256": "a11021b6ee6d1f61c04bfbd52c45156aa0b7696a7f9d342c939b436be230da9b",
+    "transcribed_at": "2026-11-04T14:12:30+00:00",
+    "request_seconds": 1.79,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "35세 여성 환자 hyperemesis gravidarum으로 인한 심한 탈수로 acute kidney injury에 입원함. BP 92/98 mmHg, HR 110 bpm, RR 18, BT 36.8°C, SpO2 96%. Severe nausea 호소함. Ondansetron 8 mg IV q8h 적용함. IV fluid resuscitation with normal saline 시행함. Foley 유점. Negative fluid balance 확인됨. Drowsy 상태 관찰됨. Nephrology team notify함.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 259,
+      "output_tokens": 114,
+      "total_tokens": 373,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 259,
+        "text_tokens": 0
+      }
+    }
+  }
+}

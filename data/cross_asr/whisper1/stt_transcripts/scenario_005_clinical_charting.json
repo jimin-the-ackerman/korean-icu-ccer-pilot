@@ -1,0 +1,25 @@
+{
+  "sample_id": "scenario_005_clinical_charting",
+  "whisper_transcript": "58세 남성 환자, Chronic Kidney Disease 병력, Acute Renal Failure 모니터링 및 관리 위해 입원함. BP HAB 59.5 BPM, HR 80.0 BPM, BT 37.0 UTGERS, SBU 95%. Moderate edema 확인됨. Furosemide 40mg IV QOH 적용함. Oxygen support, nasal cannula 유지함, Foley catheter 유지함. Negative fluid balance 확인됨. 임상상태 drowsy 확인됨. Nephrology team increased creatinine levels 관련 notify함.",
+  "stt_metadata": {
+    "asr_system": "whisper1",
+    "provider": "reuse_existing",
+    "model": "whisper-1",
+    "language": "ko",
+    "audio_path": "data/audio/scenario_005_clinical_charting.mp3",
+    "audio_sha256": "6da6b191684896dd2ac43feb6fe6fd300983d9efc5ecc6540ac78f735d3d984e",
+    "copied_at": "2026-11-04T04:31:11+00:00",
+    "request_seconds": 0.0,
+    "attempts": 1,
+    "git_commit": "b3490181b3fb3f88b56cde5be78a01cfdcef3007",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "source_file": "data/stt_transcripts/scenario_005_clinical_charting.json",
+    "source_sha256": "ce40b6a3faea5f14799dbe5a2ee284c0543d8b5d902ac7bad7930129c9c40996",
+    "source_stt_metadata": {
+      "model": "whisper-1",
+      "language": "ko"
+    }
+  }
+}

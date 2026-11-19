@@ -1,0 +1,25 @@
+{
+  "sample_id": "scenario_094_telegraphic_icu",
+  "whisper_transcript": "60주인세 여성 급성 중증 수확이 출혈로 이완. BP 85.5mL HR 1nBPM, RR22BPM, BD36.8RoS, SpO2, 90T% room air. 희마 템사스 severe. Pantoprazole 80mg IV Q12, Nasal Candela 2, Endoscopic Hemostasis 예정. C-Line 유지. Negative fluid balance. Drowsy. Gastroenterology team notify.",
+  "stt_metadata": {
+    "asr_system": "whisper1",
+    "provider": "reuse_existing",
+    "model": "whisper-1",
+    "language": "ko",
+    "audio_path": "data/audio/scenario_094_telegraphic_icu.mp3",
+    "audio_sha256": "59e4a22478e74b18e7846a8bb4c3f01e633ea65ae3489dbe7efd5dde71ad2769",
+    "copied_at": "2026-11-04T04:31:12+00:00",
+    "request_seconds": 0.0,
+    "attempts": 1,
+    "git_commit": "b3490181b3fb3f88b56cde5be78a01cfdcef3007",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "source_file": "data/stt_transcripts/scenario_094_telegraphic_icu.json",
+    "source_sha256": "d4acd5551caf88b9ca521bf057822a9398718342a6de61825749fe64e46d45cf",
+    "source_stt_metadata": {
+      "model": "whisper-1",
+      "language": "ko"
+    }
+  }
+}

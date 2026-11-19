@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_099_formal_template",
+  "whisper_transcript": "환자는 71세 여성으로 만성 심부전의 급성 악화를 이유로 입원하였다. 폐부종과 심한 호흡곤란을 호소하는 상태로 관찰되었다. 환자의 활력징후는 혈압이 160/90mmHg, 심박수가 105bpm, 호흡수가 28breaths/min, 체온이 37.5℃로 측정되었다. 산소포화도는 실내 공기에서 88%로 확인되었다. 환자는 심한 호흡곤란을 호소하였다. 현재 퓨로스마이드 40mg이 IV 경로로 8시간마다 투여되고 있다. 산소 지원을 위해 40ml/min의 고유량 비강 캐겔라가 적용되었다. 환자의 체액 균형은 2000ml의 양성 수분 균형을 보이고 있다. 임상 상태는 졸린 상태로 기록되었다. 심장내과의 추가 관리를 위한 상담이 요청되었다.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe_auto",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": null,
+    "audio_path": "data/audio/scenario_099_formal_template.mp3",
+    "audio_sha256": "5029e8620afda968fad651a61521cf955f361a85cd01b7b69935626c89852204",
+    "transcribed_at": "2026-11-04T14:15:17+00:00",
+    "request_seconds": 3.83,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "환자는 71세 여성으로 만성 심부전의 급성 악화를 이유로 입원하였다. 폐부종과 심한 호흡곤란을 호소하는 상태로 관찰되었다. 환자의 활력징후는 혈압이 160/90mmHg, 심박수가 105bpm, 호흡수가 28breaths/min, 체온이 37.5℃로 측정되었다. 산소포화도는 실내 공기에서 88%로 확인되었다. 환자는 심한 호흡곤란을 호소하였다. 현재 퓨로스마이드 40mg이 IV 경로로 8시간마다 투여되고 있다. 산소 지원을 위해 40ml/min의 고유량 비강 캐겔라가 적용되었다. 환자의 체액 균형은 2000ml의 양성 수분 균형을 보이고 있다. 임상 상태는 졸린 상태로 기록되었다. 심장내과의 추가 관리를 위한 상담이 요청되었다.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 489,
+      "output_tokens": 227,
+      "total_tokens": 716,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 489,
+        "text_tokens": 0
+      }
+    }
+  }
+}

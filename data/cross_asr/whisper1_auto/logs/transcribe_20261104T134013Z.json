@@ -1,0 +1,205 @@
+{
+  "asr": "whisper1_auto",
+  "settings": {
+    "provider": "openai",
+    "model": "whisper-1",
+    "language": null,
+    "scope": "pilot"
+  },
+  "pilot": true,
+  "limit": null,
+  "started_at": "2026-11-04T13:40:13+00:00",
+  "git_commit": "5b6d73fb63e1509a79e1a160176d606ed1b104c4",
+  "config_version": "1.0",
+  "max_attempts": 3,
+  "entries": [
+    {
+      "sample_id": "scenario_007_clinical_charting",
+      "status": "processed",
+      "request_seconds": 4.05,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_007_formal_template",
+      "status": "processed",
+      "request_seconds": 2.72,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_007_telegraphic_icu",
+      "status": "processed",
+      "request_seconds": 2.96,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_012_clinical_charting",
+      "status": "processed",
+      "request_seconds": 3.25,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_012_formal_template",
+      "status": "processed",
+      "request_seconds": 4.13,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_012_telegraphic_icu",
+      "status": "processed",
+      "request_seconds": 1.47,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_018_clinical_charting",
+      "status": "processed",
+      "request_seconds": 2.45,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_018_formal_template",
+      "status": "processed",
+      "request_seconds": 3.21,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_018_telegraphic_icu",
+      "status": "processed",
+      "request_seconds": 2.07,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_019_clinical_charting",
+      "status": "processed",
+      "request_seconds": 3.86,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_019_formal_template",
+      "status": "processed",
+      "request_seconds": 3.22,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_019_telegraphic_icu",
+      "status": "processed",
+      "request_seconds": 1.63,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_021_clinical_charting",
+      "status": "processed",
+      "request_seconds": 2.47,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_021_formal_template",
+      "status": "processed",
+      "request_seconds": 3.72,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_021_telegraphic_icu",
+      "status": "processed",
+      "request_seconds": 2.94,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_025_clinical_charting",
+      "status": "processed",
+      "request_seconds": 2.84,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_025_formal_template",
+      "status": "processed",
+      "request_seconds": 4.1,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_025_telegraphic_icu",
+      "status": "processed",
+      "request_seconds": 2.28,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_033_clinical_charting",
+      "status": "processed",
+      "request_seconds": 2.05,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_033_formal_template",
+      "status": "processed",
+      "request_seconds": 73.21,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_033_telegraphic_icu",
+      "status": "processed",
+      "request_seconds": 1.99,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_068_clinical_charting",
+      "status": "processed",
+      "request_seconds": 3.27,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_068_formal_template",
+      "status": "processed",
+      "request_seconds": 3.86,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_068_telegraphic_icu",
+      "status": "processed",
+      "request_seconds": 1.72,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_079_clinical_charting",
+      "status": "processed",
+      "request_seconds": 1.59,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_079_formal_template",
+      "status": "processed",
+      "request_seconds": 4.07,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_079_telegraphic_icu",
+      "status": "processed",
+      "request_seconds": 3.6,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_080_clinical_charting",
+      "status": "processed",
+      "request_seconds": 2.46,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_080_formal_template",
+      "status": "processed",
+      "request_seconds": 2.5,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_080_telegraphic_icu",
+      "status": "processed",
+      "request_seconds": 1.69,
+      "attempts": 1
+    }
+  ],
+  "finished_at": "2026-11-04T13:42:49+00:00",
+  "summary": {
+    "processed": 30,
+    "api_requests": 30,
+    "aborted": null,
+    "skipped_valid": 0,
+    "targets": 30
+  }
+}

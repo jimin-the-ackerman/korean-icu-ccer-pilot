@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_034_formal_template",
+  "whisper_transcript": "환자는 급성 악화된 간경변증과 간성 뇌증으로 입원한 58세 남성이다. 활력 징후는 혈압이 95/60mmHg, 심박수가 110bpm, 호흡수가 20breaths/min, 체온이 36.5°C이며 산소포화도는 실내 공기에서 92%로 확인되었다. 중등도의 황달이 관찰되었다. 환자는 경구로 락툴로즈 30mL를 8시간마다 복용하고 있다. 산소는 비강 캐눌라를 통해 2L/min로 공급 중이다. 환자는 졸음이 있으며, 엄격한 체액 균형 모니터링이 필요하다. 간성 뇌증 악화를 간 전문 팀에게 보고하였다.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": "ko",
+    "audio_path": "data/audio/scenario_034_formal_template.mp3",
+    "audio_sha256": "e3399ad5bc5fa3eeaeb34c72a6e2b92b2d505e231f0d23b79996c68af6424d83",
+    "transcribed_at": "2026-11-04T12:57:07+00:00",
+    "request_seconds": 2.95,
+    "attempts": 1,
+    "git_commit": "5b6d73fb63e1509a79e1a160176d606ed1b104c4",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "환자는 급성 악화된 간경변증과 간성 뇌증으로 입원한 58세 남성이다. 활력 징후는 혈압이 95/60mmHg, 심박수가 110bpm, 호흡수가 20breaths/min, 체온이 36.5°C이며 산소포화도는 실내 공기에서 92%로 확인되었다. 중등도의 황달이 관찰되었다. 환자는 경구로 락툴로즈 30mL를 8시간마다 복용하고 있다. 산소는 비강 캐눌라를 통해 2L/min로 공급 중이다. 환자는 졸음이 있으며, 엄격한 체액 균형 모니터링이 필요하다. 간성 뇌증 악화를 간 전문 팀에게 보고하였다.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 375,
+      "output_tokens": 185,
+      "total_tokens": 560,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 375,
+        "text_tokens": 0
+      }
+    }
+  }
+}

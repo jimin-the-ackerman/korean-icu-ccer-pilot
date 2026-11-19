@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_020_telegraphic_icu",
+  "whisper_transcript": "61세 남성, 급성 췌장염 발생기침, 브라디카디아, 젠젠젤 85, RR 22, BT 37.8, SpO2 94%, 심한 복통, 모르핀 4mg IV q4h, O2 via NC at 2L/min, NG 튜브 인 플레이스, IO 뉴 500ml/24, 졸음, 닥터 노티파이 가스트로 컨설트",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe_auto",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": null,
+    "audio_path": "data/audio/scenario_020_telegraphic_icu.mp3",
+    "audio_sha256": "4307c8fdd28d0dce946090ba9d6a46bfd29b1b5d0a06bc442426c27f8ba9bdb7",
+    "transcribed_at": "2026-11-04T14:05:51+00:00",
+    "request_seconds": 1.88,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "61세 남성, 급성 췌장염 발생기침, 브라디카디아, 젠젠젤 85, RR 22, BT 37.8, SpO2 94%, 심한 복통, 모르핀 4mg IV q4h, O2 via NC at 2L/min, NG 튜브 인 플레이스, IO 뉴 500ml/24, 졸음, 닥터 노티파이 가스트로 컨설트",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 184,
+      "output_tokens": 107,
+      "total_tokens": 291,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 184,
+        "text_tokens": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "sample_id": "scenario_046_telegraphic_icu",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "headache",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "drowsy",
+    "medication_identity": "Mannitol",
+    "interventions": [
+      "Intracranial pressure 모니터링"
+    ],
+    "intake_output": null,
+    "notification": null
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "headache",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "드라우지",
+    "medication_identity": "mannitol",
+    "interventions": [
+      "intracranial pressure monitoring"
+    ],
+    "intake_output": null,
+    "notification": null
+  }
+}

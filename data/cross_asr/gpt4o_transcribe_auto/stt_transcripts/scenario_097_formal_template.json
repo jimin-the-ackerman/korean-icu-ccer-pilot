@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_097_formal_template",
+  "whisper_transcript": "63세 여자 환자가 급성 수막구균성 수막염으로 입원하였다. 활력징후로는 혈압 117/70mmHg, 심박수 98bpm, 호흡수 22회분, 체온 39.5도, 산소포화도 95%로 확인되었다. 환자는 심한 두통을 호소하였다. 약물로는 세프트리악손 2g을 IV로 12시간마다 투여하였다. 현재 C 라인이 삽입되어 있으며, 임상 상태는 기면 상태이다.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe_auto",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": null,
+    "audio_path": "data/audio/scenario_097_formal_template.mp3",
+    "audio_sha256": "3a003b48ed00ba157ffa13866570a2028b643199302f3e5b38f6d1b3ffd833ab",
+    "transcribed_at": "2026-11-04T14:15:04+00:00",
+    "request_seconds": 1.96,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "63세 여자 환자가 급성 수막구균성 수막염으로 입원하였다. 활력징후로는 혈압 117/70mmHg, 심박수 98bpm, 호흡수 22회분, 체온 39.5도, 산소포화도 95%로 확인되었다. 환자는 심한 두통을 호소하였다. 약물로는 세프트리악손 2g을 IV로 12시간마다 투여하였다. 현재 C 라인이 삽입되어 있으며, 임상 상태는 기면 상태이다.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 265,
+      "output_tokens": 128,
+      "total_tokens": 393,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 265,
+        "text_tokens": 0
+      }
+    }
+  }
+}

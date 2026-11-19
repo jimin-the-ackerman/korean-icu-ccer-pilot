@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_084_telegraphic_icu",
+  "whisper_transcript": "40kg 남성, 심한 천식 발작 입원. BP 135/HR 110, RR 28, BT 37.0, SpO2 88%, 심한 천명. 알부테롤 2.0mg IV PRN, 하이 플로우 비강 캐뉼라 사용 중, 졸린 상태. 호흡 치료 알림.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe_auto",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": null,
+    "audio_path": "data/audio/scenario_084_telegraphic_icu.mp3",
+    "audio_sha256": "937769fc4739880b33de48bbb03dcc2d2c168c11a20ccad5026e8fabc156bd07",
+    "transcribed_at": "2026-11-04T14:13:35+00:00",
+    "request_seconds": 1.27,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "40kg 남성, 심한 천식 발작 입원. BP 135/HR 110, RR 28, BT 37.0, SpO2 88%, 심한 천명. 알부테롤 2.0mg IV PRN, 하이 플로우 비강 캐뉼라 사용 중, 졸린 상태. 호흡 치료 알림.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 157,
+      "output_tokens": 84,
+      "total_tokens": 241,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 157,
+        "text_tokens": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_063_telegraphic_icu",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "abdominal pain",
+        "negation": false,
+        "severity": "moderate"
+      }
+    ],
+    "clinical_status": "Drowsy",
+    "medication_identity": "Ceftriaxone",
+    "interventions": [],
+    "intake_output": "Strict I/O",
+    "notification": "Dr notify"
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "abdominal pain",
+        "negation": false,
+        "severity": "moderate"
+      }
+    ],
+    "clinical_status": "drowsy",
+    "medication_identity": "Ceftriaxone",
+    "interventions": [],
+    "intake_output": null,
+    "notification": null
+  }
+}

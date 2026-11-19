@@ -1,0 +1,25 @@
+{
+  "sample_id": "scenario_013_clinical_charting",
+  "whisper_transcript": "34세 여성 환자, acute bacterial meningitis로 입원함. BP-BHX 70mg, HRRR-EBS-MNM, BT-SRNG-GOPIN-PNEUMOGROOSIS, SPF 25% on room air. SEVERE HEADACHE, 호소함. CEPH3XONE 2g IV-QTELH 적용함. C-LINE 유지함. CLINICAL STATUS, DROWSY.",
+  "stt_metadata": {
+    "asr_system": "whisper1",
+    "provider": "reuse_existing",
+    "model": "whisper-1",
+    "language": "ko",
+    "audio_path": "data/audio/scenario_013_clinical_charting.mp3",
+    "audio_sha256": "03da27d34eb8450cd1ed7081e728d9e1f66b8cb90fe24fd4a7260547f307d283",
+    "copied_at": "2026-11-04T04:31:11+00:00",
+    "request_seconds": 0.0,
+    "attempts": 1,
+    "git_commit": "b3490181b3fb3f88b56cde5be78a01cfdcef3007",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "source_file": "data/stt_transcripts/scenario_013_clinical_charting.json",
+    "source_sha256": "fcf7aebf5812a1956d0959add605a89e1a321f4b15ea891be8c792818196241b",
+    "source_stt_metadata": {
+      "model": "whisper-1",
+      "language": "ko"
+    }
+  }
+}

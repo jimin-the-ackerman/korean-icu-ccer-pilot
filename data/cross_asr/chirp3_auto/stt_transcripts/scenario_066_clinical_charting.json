@@ -1,0 +1,43 @@
+{
+  "sample_id": "scenario_066_clinical_charting",
+  "whisper_transcript": "59세 남성 환자, 어큐트 팽크레아타이티스, 하이퍼트라이글리세라이데미아로 입원함. 바이탈 사인, BP 140/90 mmHg, HR 110 BPM, RR 22, BT 38.5도, SpO2 95%. 어브도미널 페인, 시비어 호소함. 인슐린 10 유닛 IV Q6H 적용함. 플루이드 레서시테이션 시행함. 유린 아웃풋 1528 기록됨. 환자 알러트 상태 유지함. 엔도크리놀로지 컨설트 필요함.",
+  "stt_metadata": {
+    "asr_system": "chirp3_auto",
+    "provider": "google",
+    "model": "chirp_3",
+    "location": "us",
+    "language_codes": [
+      "auto"
+    ],
+    "audio_path": "data/audio/scenario_066_clinical_charting.mp3",
+    "audio_sha256": "4fc454d34929993ec39e0018fbfb0f1f2a637c3fead986216098ed34f49c5eac",
+    "transcribed_at": "2026-11-04T14:47:00+00:00",
+    "request_seconds": 5.14,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "metadata": {
+      "total_billed_duration": "26s",
+      "request_id": "7089a3d3-0000-286c-b3d7-3439160151cb",
+      "prompt": "Transcribe the following speech segment. Follow these specific instructions for formatting the answer:\n* Only output the transcript, with no newlines.\n* When transcribing numbers, write the digits, i.e. write 1.7 and not one point seven, and write 100 instead of one hundred etc.\n* Only output the transcript, exactly as said in the speech segment.\n* Do not continue the speech segment.\n* Include everything said in the speech segment.\n* Use mathematical notation where needed, eg. x ^ 6Y.\n* If there is background speech that is not part of the main conversation, discard the background speech and only output the main conversation.\n* If there is no clear speech, just output [BACKGROUND].\n* Respond in the original language of the speech."
+    },
+    "results": [
+      {
+        "alternatives": [
+          {
+            "transcript": "59세 남성 환자, 어큐트 팽크레아타이티스, 하이퍼트라이글리세라이데미아로 입원함. 바이탈 사인, BP 140/90 mmHg, HR 110 BPM, RR 22, BT 38.5도, SpO2 95%. 어브도미널 페인, 시비어 호소함. 인슐린 10 유닛 IV Q6H 적용함. 플루이드 레서시테이션 시행함. 유린 아웃풋 1528 기록됨. 환자 알러트 상태 유지함. 엔도크리놀로지 컨설트 필요함.",
+            "confidence": 0.0,
+            "words": []
+          }
+        ],
+        "language_code": "ko",
+        "channel_tag": 0
+      }
+    ],
+    "detected_language_codes": [
+      "ko"
+    ]
+  }
+}

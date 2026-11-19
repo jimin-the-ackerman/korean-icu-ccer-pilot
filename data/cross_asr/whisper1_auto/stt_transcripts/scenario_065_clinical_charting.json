@@ -1,0 +1,25 @@
+{
+  "sample_id": "scenario_065_clinical_charting",
+  "whisper_transcript": "56세 여성 환자, 텐으로 입원함, BP-7mg, HR-88pm, R-17bm, BP-38.0dx, SPR-97pm. SEVERE SKIN RASH 확인됨, Methylprednisolone-Retinol-15mg IV-Q-6n-HR-CM, IV Fluids 100ml per hour 유지함. 환자 알러트 상태 유지함.",
+  "stt_metadata": {
+    "asr_system": "whisper1_auto",
+    "provider": "openai",
+    "model": "whisper-1",
+    "language": null,
+    "audio_path": "data/audio/scenario_065_clinical_charting.mp3",
+    "audio_sha256": "ca1d10b0fced77fc569b37d1dd1c602e1d08fccd6dcb25aad09c971d3efb2984",
+    "transcribed_at": "2026-11-04T13:57:52+00:00",
+    "request_seconds": 2.65,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "56세 여성 환자, 텐으로 입원함, BP-7mg, HR-88pm, R-17bm, BP-38.0dx, SPR-97pm. SEVERE SKIN RASH 확인됨, Methylprednisolone-Retinol-15mg IV-Q-6n-HR-CM, IV Fluids 100ml per hour 유지함. 환자 알러트 상태 유지함.",
+    "logprobs": null,
+    "usage": {
+      "seconds": 21.0,
+      "type": "duration"
+    }
+  }
+}

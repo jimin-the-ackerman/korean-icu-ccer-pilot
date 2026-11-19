@@ -1,0 +1,43 @@
+{
+  "sample_id": "scenario_042_telegraphic_icu",
+  "whisper_transcript": "73 say no man E1 severe dehydration electrolyte imbalance BP 98 62 2 mg HR 1:00 p.m. R 24 breaths min BT 37. SBO2 95% RA. Severe diarrhea. Normal saline 1,000 ml IV stat. IV fluid resuscitation. UO low 200 ml per 8R. Drowsy. UO 30 ml she doctor notify.",
+  "stt_metadata": {
+    "asr_system": "chirp3_auto",
+    "provider": "google",
+    "model": "chirp_3",
+    "location": "us",
+    "language_codes": [
+      "auto"
+    ],
+    "audio_path": "data/audio/scenario_042_telegraphic_icu.mp3",
+    "audio_sha256": "6e239629b0c4d7784cf76b2496919edfd5ee069a4af6b1fdd51727e887b3d45e",
+    "transcribed_at": "2026-11-04T14:27:33+00:00",
+    "request_seconds": 3.01,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "metadata": {
+      "total_billed_duration": "21s",
+      "request_id": "6b0b6612-0000-2064-ae37-2405887ac040",
+      "prompt": "Transcribe the following speech segment. Follow these specific instructions for formatting the answer:\n* Only output the transcript, with no newlines.\n* When transcribing numbers, write the digits, i.e. write 1.7 and not one point seven, and write 100 instead of one hundred etc.\n* Only output the transcript, exactly as said in the speech segment.\n* Do not continue the speech segment.\n* Include everything said in the speech segment.\n* Use mathematical notation where needed, eg. x ^ 6Y.\n* If there is background speech that is not part of the main conversation, discard the background speech and only output the main conversation.\n* If there is no clear speech, just output [BACKGROUND].\n* Respond in the original language of the speech."
+    },
+    "results": [
+      {
+        "alternatives": [
+          {
+            "transcript": "73 say no man E1 severe dehydration electrolyte imbalance BP 98 62 2 mg HR 1:00 p.m. R 24 breaths min BT 37. SBO2 95% RA. Severe diarrhea. Normal saline 1,000 ml IV stat. IV fluid resuscitation. UO low 200 ml per 8R. Drowsy. UO 30 ml she doctor notify.",
+            "confidence": 0.0,
+            "words": []
+          }
+        ],
+        "language_code": "en",
+        "channel_tag": 0
+      }
+    ],
+    "detected_language_codes": [
+      "en"
+    ]
+  }
+}

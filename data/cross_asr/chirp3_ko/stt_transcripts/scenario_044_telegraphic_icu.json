@@ -1,0 +1,43 @@
+{
+  "sample_id": "scenario_044_telegraphic_icu",
+  "whisper_transcript": "30세 남성 BP 98/62, 100, RR 28, BT 37.8, 93% RA. 심한 통증에 모르핀 투여, 비강 캐뉔라 사용, 폴리 카테터 삽입, 졸음, 통증 팀 협진.",
+  "stt_metadata": {
+    "asr_system": "chirp3_ko",
+    "provider": "google",
+    "model": "chirp_3",
+    "location": "us",
+    "language_codes": [
+      "ko-KR"
+    ],
+    "audio_path": "data/audio/scenario_044_telegraphic_icu.mp3",
+    "audio_sha256": "8262470e35f02170636ec090b9891313e0db31ee906f705b3e8bde5dff623ba0",
+    "transcribed_at": "2026-11-04T13:20:05+00:00",
+    "request_seconds": 3.53,
+    "attempts": 1,
+    "git_commit": "5b6d73fb63e1509a79e1a160176d606ed1b104c4",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "metadata": {
+      "total_billed_duration": "16s",
+      "request_id": "6ddde7ba-0000-2f86-a262-34391606c50b",
+      "prompt": "Transcribe the following speech segment in Korean. Follow these specific instructions for formatting the answer:\n* Only output the transcript, with no newlines.\n* When transcribing numbers, write the digits, i.e. write 1.7 and not one point seven, and write 100 instead of one hundred etc.\n* Only output the transcript, exactly as said in the speech segment.\n* Do not continue the speech segment.\n* Include everything said in the speech segment.\n* Use mathematical notation where needed, eg. x ^ 6Y.\n* If there is background speech that is not part of the main conversation, discard the background speech and only output the main conversation.\n* If there is no clear speech, just output [BACKGROUND].\n* Respond in the original language of the speech, Korean."
+    },
+    "results": [
+      {
+        "alternatives": [
+          {
+            "transcript": "30세 남성 BP 98/62, 100, RR 28, BT 37.8, 93% RA. 심한 통증에 모르핀 투여, 비강 캐뉔라 사용, 폴리 카테터 삽입, 졸음, 통증 팀 협진.",
+            "confidence": 0.0,
+            "words": []
+          }
+        ],
+        "language_code": "ko-KR",
+        "channel_tag": 0
+      }
+    ],
+    "detected_language_codes": [
+      "ko-KR"
+    ]
+  }
+}

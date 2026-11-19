@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_067_telegraphic_icu",
+  "whisper_transcript": "59세 남성 환자, 급성 대량 폐색전증으로 입원, BP 80/60 mmHg, HR 100 bpm, RR 10회, breath min, BT 36.9도, SpO2 88% on 6L O2 via NC. Severe chest pain, Heparin 510 units IV stat, NC 사용 중, C-line 삽입됨, stuporous 상태, DOCTOR notify.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe_auto",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": null,
+    "audio_path": "data/audio/scenario_067_telegraphic_icu.mp3",
+    "audio_sha256": "f1310d23a9a3758bf13f0023adb3e37b3760c754c63d4a2764a98f5547655b88",
+    "transcribed_at": "2026-11-04T14:11:35+00:00",
+    "request_seconds": 1.74,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "59세 남성 환자, 급성 대량 폐색전증으로 입원, BP 80/60 mmHg, HR 100 bpm, RR 10회, breath min, BT 36.9도, SpO2 88% on 6L O2 via NC. Severe chest pain, Heparin 510 units IV stat, NC 사용 중, C-line 삽입됨, stuporous 상태, DOCTOR notify.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 190,
+      "output_tokens": 96,
+      "total_tokens": 286,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 190,
+        "text_tokens": 0
+      }
+    }
+  }
+}

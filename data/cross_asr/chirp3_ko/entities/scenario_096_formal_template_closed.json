@@ -1,0 +1,113 @@
+{
+  "sample_id": "scenario_096_formal_template",
+  "gold_entities": {
+    "route": [],
+    "frequency": [
+      {
+        "raw": "BID",
+        "normalized": "bid",
+        "position": 207
+      }
+    ],
+    "device": [
+      {
+        "raw": "Foley",
+        "normalized": "foley",
+        "position": 244
+      },
+      {
+        "raw": "비강 캐뉼라",
+        "normalized": "nc",
+        "position": 137
+      },
+      {
+        "raw": "비강 캐뉼라",
+        "normalized": "nc",
+        "position": 226
+      }
+    ],
+    "vital_sign": [
+      {
+        "raw": "혈압 160/90",
+        "label": "bp",
+        "value": "160/90",
+        "position": 46
+      },
+      {
+        "raw": "심박수 110",
+        "label": "hr",
+        "value": "110",
+        "position": 62
+      },
+      {
+        "raw": "호흡수 28",
+        "label": "rr",
+        "value": "28",
+        "position": 75
+      },
+      {
+        "raw": "체온 37.0",
+        "label": "bt",
+        "value": "37.0",
+        "position": 95
+      },
+      {
+        "raw": "산소포화도는 실내 공기에서 88%",
+        "label": "spo2",
+        "value": "88%",
+        "position": 108
+      }
+    ],
+    "dose": []
+  },
+  "whisper_entities": {
+    "route": [],
+    "frequency": [
+      {
+        "raw": "BID",
+        "normalized": "bid",
+        "position": 202
+      }
+    ],
+    "device": [
+      {
+        "raw": "Foley",
+        "normalized": "foley",
+        "position": 240
+      }
+    ],
+    "vital_sign": [
+      {
+        "raw": "혈압 160/90",
+        "label": "bp",
+        "value": "160/90",
+        "position": 45
+      },
+      {
+        "raw": "심박수 110",
+        "label": "hr",
+        "value": "110",
+        "position": 61
+      },
+      {
+        "raw": "호흡수 28",
+        "label": "rr",
+        "value": "28",
+        "position": 74
+      },
+      {
+        "raw": "체온 37.0",
+        "label": "bt",
+        "value": "37.0",
+        "position": 94
+      },
+      {
+        "raw": "산소포화도는 실내 공기에서 88%",
+        "label": "spo2",
+        "value": "88%",
+        "position": 107
+      }
+    ],
+    "dose": []
+  }
+}

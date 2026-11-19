@@ -1,0 +1,43 @@
+{
+  "sample_id": "scenario_031_telegraphic_icu",
+  "whisper_transcript": "43세 남성, 급성 췌장염, BP 92/58 mmHg, HR 126 BPM, R 28 breaths/min, BT 38.4°C, SpO2 95% room air, severe abdominal pain, morphine 4 mg IV q4h, IV fluid resuscitation, negative fluid balance 500 mL/24h, drowsy, GI specialist consult.",
+  "stt_metadata": {
+    "asr_system": "chirp3_auto",
+    "provider": "google",
+    "model": "chirp_3",
+    "location": "us",
+    "language_codes": [
+      "auto"
+    ],
+    "audio_path": "data/audio/scenario_031_telegraphic_icu.mp3",
+    "audio_sha256": "2088eac35ac99cee3b538c1260af3e8840a5abc41ade6589fff9c2e9010657e3",
+    "transcribed_at": "2026-11-04T14:24:51+00:00",
+    "request_seconds": 4.16,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "metadata": {
+      "total_billed_duration": "20s",
+      "request_id": "6b0a0aa6-0000-29e4-b075-d4f547efb418",
+      "prompt": "Transcribe the following speech segment. Follow these specific instructions for formatting the answer:\n* Only output the transcript, with no newlines.\n* When transcribing numbers, write the digits, i.e. write 1.7 and not one point seven, and write 100 instead of one hundred etc.\n* Only output the transcript, exactly as said in the speech segment.\n* Do not continue the speech segment.\n* Include everything said in the speech segment.\n* Use mathematical notation where needed, eg. x ^ 6Y.\n* If there is background speech that is not part of the main conversation, discard the background speech and only output the main conversation.\n* If there is no clear speech, just output [BACKGROUND].\n* Respond in the original language of the speech."
+    },
+    "results": [
+      {
+        "alternatives": [
+          {
+            "transcript": "43세 남성, 급성 췌장염, BP 92/58 mmHg, HR 126 BPM, R 28 breaths/min, BT 38.4°C, SpO2 95% room air, severe abdominal pain, morphine 4 mg IV q4h, IV fluid resuscitation, negative fluid balance 500 mL/24h, drowsy, GI specialist consult.",
+            "confidence": 0.0,
+            "words": []
+          }
+        ],
+        "language_code": "en",
+        "channel_tag": 0
+      }
+    ],
+    "detected_language_codes": [
+      "en"
+    ]
+  }
+}

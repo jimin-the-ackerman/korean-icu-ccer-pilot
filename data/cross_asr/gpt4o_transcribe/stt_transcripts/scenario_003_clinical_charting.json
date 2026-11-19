@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_003_clinical_charting",
+  "whisper_transcript": "70세 여성 환자, AMI로 입원함. BP 130/90 mmHg, HR 120 bpm, RR HD breast min, BT 37.1도기 스펠스, SpO2 간지 5% 투어네이절 캔뉴엘 적용 중. 체스트 페인 세비어 호소함. 아스피린 320mg POstat 투여함. 네이절 캔뉴엘 유지함. 카디약 모니터링 적용함. C라인 유지함. 환자 얼럿 상태임. 카디올로지 팀 노티파이함.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": "ko",
+    "audio_path": "data/audio/scenario_003_clinical_charting.mp3",
+    "audio_sha256": "1337318a7caa8036093c145a82d999c18f74c6715c473582982884dcae7db04e",
+    "transcribed_at": "2026-11-04T12:53:49+00:00",
+    "request_seconds": 2.14,
+    "attempts": 1,
+    "git_commit": "5b6d73fb63e1509a79e1a160176d606ed1b104c4",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "70세 여성 환자, AMI로 입원함. BP 130/90 mmHg, HR 120 bpm, RR HD breast min, BT 37.1도기 스펠스, SpO2 간지 5% 투어네이절 캔뉴엘 적용 중. 체스트 페인 세비어 호소함. 아스피린 320mg POstat 투여함. 네이절 캔뉴엘 유지함. 카디약 모니터링 적용함. C라인 유지함. 환자 얼럿 상태임. 카디올로지 팀 노티파이함.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 230,
+      "output_tokens": 134,
+      "total_tokens": 364,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 230,
+        "text_tokens": 0
+      }
+    }
+  }
+}

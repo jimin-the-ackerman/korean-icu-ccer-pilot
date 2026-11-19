@@ -1,0 +1,10 @@
+condition,contrast,role,estimate_v4,ci_low_v4,ci_high_v4,ci_excludes_0_v4,estimate_lenient,ci_low_lenient,ci_high_lenient,ci_excludes_0_lenient
+whisper1,Delta_FC,primary,-0.3433,-0.4215,-0.272,True,-0.525,-0.6011,-0.4545,True
+whisper1,Delta_FT,primary,-0.3576,-0.4306,-0.2822,True,-0.5392,-0.6145,-0.4597,True
+whisper1,Delta_CT,secondary,-0.0143,-0.0966,0.0697,False,-0.0143,-0.0939,0.0714,False
+gpt4o_transcribe,Delta_FC,primary,-0.289,-0.3664,-0.2122,True,-0.4876,-0.5609,-0.415,True
+gpt4o_transcribe,Delta_FT,primary,-0.1597,-0.2514,-0.0702,True,-0.364,-0.4513,-0.2786,True
+gpt4o_transcribe,Delta_CT,secondary,0.1293,0.0375,0.225,True,0.1237,0.0329,0.2162,True
+chirp3_ko,Delta_FC,primary,-0.1724,-0.2546,-0.0922,True,-0.4212,-0.4954,-0.347,True
+chirp3_ko,Delta_FT,primary,-0.1131,-0.2085,-0.0283,True,-0.3668,-0.4639,-0.2793,True
+chirp3_ko,Delta_CT,secondary,0.0594,-0.04,0.1557,False,0.0544,-0.0462,0.15,False

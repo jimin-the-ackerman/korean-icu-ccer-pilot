@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_063_clinical_charting",
+  "whisper_transcript": "72세 여성 환자, SBP secondary to cirrhosis로 입원함. BP 160mmHg, HR 98bpm, RR FC sub-breaths/min, BT 37.8, SpO2 92% on room air. Abdominal pain moderate 호소함. Ceftriaxone 2g IV Q12H 투여 중. Nasal cannula 2L/min 적용함. Foley 유지함. Strict input-output monitoring 시행 중. Clinical status drowsy 확인됨. Decreased urine output, abdominal distension 담당해 notify함.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": "ko",
+    "audio_path": "data/audio/scenario_063_clinical_charting.mp3",
+    "audio_sha256": "a8f5f9804792697097c03faa6c3e66975cbbc97c2b50de17bd5ab1d25f8ddda3",
+    "transcribed_at": "2026-11-04T13:00:30+00:00",
+    "request_seconds": 19.33,
+    "attempts": 1,
+    "git_commit": "5b6d73fb63e1509a79e1a160176d606ed1b104c4",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "72세 여성 환자, SBP secondary to cirrhosis로 입원함. BP 160mmHg, HR 98bpm, RR FC sub-breaths/min, BT 37.8, SpO2 92% on room air. Abdominal pain moderate 호소함. Ceftriaxone 2g IV Q12H 투여 중. Nasal cannula 2L/min 적용함. Foley 유지함. Strict input-output monitoring 시행 중. Clinical status drowsy 확인됨. Decreased urine output, abdominal distension 담당해 notify함.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 283,
+      "output_tokens": 123,
+      "total_tokens": 406,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 283,
+        "text_tokens": 0
+      }
+    }
+  }
+}

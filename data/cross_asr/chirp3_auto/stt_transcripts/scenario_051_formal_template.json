@@ -1,0 +1,43 @@
+{
+  "sample_id": "scenario_051_formal_template",
+  "whisper_transcript": "환자는 48세 남성으로 알코올 사용으로 인한 급성 췌장염으로 입원하였다. 활력 증후는 혈압이 110/70 mmHg, 심박수가 98 bpm, 호흡수가 22 bpm, 체온이 37.8℃, 산소 포화도가 실내 공기에서 95%로 확인되었다. 환자는 심한 복통을 호소하였다. 진통제로 모르핀 4 mg이 필요시마다 정맥으로 투여되고 있다. 환자는 금식 상태이며 비위관이 삽입되어 있다. 수분 출납은 음성이다. 환자는 의식이 명료하다. 추가 평가와 관리를 위해 소화기 내과 팀에게 보고하였다.",
+  "stt_metadata": {
+    "asr_system": "chirp3_auto",
+    "provider": "google",
+    "model": "chirp_3",
+    "location": "us",
+    "language_codes": [
+      "auto"
+    ],
+    "audio_path": "data/audio/scenario_051_formal_template.mp3",
+    "audio_sha256": "cdf74ec7893b48b06610dee2d8cacdf51bb0580c446a83a4195d53c76f33c340",
+    "transcribed_at": "2026-11-04T14:29:55+00:00",
+    "request_seconds": 5.21,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "metadata": {
+      "total_billed_duration": "37s",
+      "request_id": "6b0b8c0f-0000-27ce-8e1f-f4f5e8087f78",
+      "prompt": "Transcribe the following speech segment. Follow these specific instructions for formatting the answer:\n* Only output the transcript, with no newlines.\n* When transcribing numbers, write the digits, i.e. write 1.7 and not one point seven, and write 100 instead of one hundred etc.\n* Only output the transcript, exactly as said in the speech segment.\n* Do not continue the speech segment.\n* Include everything said in the speech segment.\n* Use mathematical notation where needed, eg. x ^ 6Y.\n* If there is background speech that is not part of the main conversation, discard the background speech and only output the main conversation.\n* If there is no clear speech, just output [BACKGROUND].\n* Respond in the original language of the speech."
+    },
+    "results": [
+      {
+        "alternatives": [
+          {
+            "transcript": "환자는 48세 남성으로 알코올 사용으로 인한 급성 췌장염으로 입원하였다. 활력 증후는 혈압이 110/70 mmHg, 심박수가 98 bpm, 호흡수가 22 bpm, 체온이 37.8℃, 산소 포화도가 실내 공기에서 95%로 확인되었다. 환자는 심한 복통을 호소하였다. 진통제로 모르핀 4 mg이 필요시마다 정맥으로 투여되고 있다. 환자는 금식 상태이며 비위관이 삽입되어 있다. 수분 출납은 음성이다. 환자는 의식이 명료하다. 추가 평가와 관리를 위해 소화기 내과 팀에게 보고하였다.",
+            "confidence": 0.0,
+            "words": []
+          }
+        ],
+        "language_code": "ko",
+        "channel_tag": 0
+      }
+    ],
+    "detected_language_codes": [
+      "ko"
+    ]
+  }
+}

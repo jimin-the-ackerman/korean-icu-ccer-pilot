@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_099_clinical_charting",
+  "whisper_transcript": "72세 여성 환자 급성 악화된 만성 신부전으로 입원함. Pulmonary edema 및 severe dyspnea 관찰됨. Vital signs: BP 160/90mmHg, HR 100bpm, RR 24breaths/min, BT 37.5도, SpO2 88%. Severe dyspnea 확인됨. Furosemide 40mg IV Q8H 투여 중. High-flow nasal cannula 40L/min 적용함. Positive fluid balance 2000mL 확인됨. 환자 drowsy 상태. Cardiology consult 요청함.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe_auto",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": null,
+    "audio_path": "data/audio/scenario_099_clinical_charting.mp3",
+    "audio_sha256": "63ddb931e43aaf2f4300436b315222e167fcdbea8590670be7856b7998bc4064",
+    "transcribed_at": "2026-11-04T14:15:14+00:00",
+    "request_seconds": 2.94,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "72세 여성 환자 급성 악화된 만성 신부전으로 입원함. Pulmonary edema 및 severe dyspnea 관찰됨. Vital signs: BP 160/90mmHg, HR 100bpm, RR 24breaths/min, BT 37.5도, SpO2 88%. Severe dyspnea 확인됨. Furosemide 40mg IV Q8H 투여 중. High-flow nasal cannula 40L/min 적용함. Positive fluid balance 2000mL 확인됨. 환자 drowsy 상태. Cardiology consult 요청함.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 295,
+      "output_tokens": 129,
+      "total_tokens": 424,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 295,
+        "text_tokens": 0
+      }
+    }
+  }
+}

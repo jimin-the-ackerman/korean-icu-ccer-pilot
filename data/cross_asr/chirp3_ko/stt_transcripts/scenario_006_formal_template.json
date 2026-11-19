@@ -1,0 +1,43 @@
+{
+  "sample_id": "scenario_006_formal_template",
+  "whisper_transcript": "환자는 70세 여성으로 심각한 뇌졸중으로 입원하였다. 활력징후로는 혈압이 170/95 mmHg, 심박수가 78 bpm, 호흡수가 20 bpm, 체온이 37.2°C로 측정되었다. 산소포화도는 92%로 확인되었다. 심각한 정도의 편마비가 관찰되었다. 현재 라베타롤 20 mg을 IV로 6시간마다 투여 중이다. 산소 공급은 네이설 캐눌라로 2 L/min 제공되고 있다. C-line이 삽입되어 있으며, 체액 균형은 음성으로 기록되었다. 임상 상태는 혼미 상태로 관찰되었다. 신경과 팀에게 상태 변화에 대해 보고하였다.",
+  "stt_metadata": {
+    "asr_system": "chirp3_ko",
+    "provider": "google",
+    "model": "chirp_3",
+    "location": "us",
+    "language_codes": [
+      "ko-KR"
+    ],
+    "audio_path": "data/audio/scenario_006_formal_template.mp3",
+    "audio_sha256": "ee57985c61fdd65acf4deb08602122d67ab1bd36f4737368f0b16ee7ab9ef5ac",
+    "transcribed_at": "2026-11-04T13:11:18+00:00",
+    "request_seconds": 5.66,
+    "attempts": 1,
+    "git_commit": "5b6d73fb63e1509a79e1a160176d606ed1b104c4",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "metadata": {
+      "total_billed_duration": "38s",
+      "request_id": "755f777a-0000-2332-a289-582429c95ee4",
+      "prompt": "Transcribe the following speech segment in Korean. Follow these specific instructions for formatting the answer:\n* Only output the transcript, with no newlines.\n* When transcribing numbers, write the digits, i.e. write 1.7 and not one point seven, and write 100 instead of one hundred etc.\n* Only output the transcript, exactly as said in the speech segment.\n* Do not continue the speech segment.\n* Include everything said in the speech segment.\n* Use mathematical notation where needed, eg. x ^ 6Y.\n* If there is background speech that is not part of the main conversation, discard the background speech and only output the main conversation.\n* If there is no clear speech, just output [BACKGROUND].\n* Respond in the original language of the speech, Korean."
+    },
+    "results": [
+      {
+        "alternatives": [
+          {
+            "transcript": "환자는 70세 여성으로 심각한 뇌졸중으로 입원하였다. 활력징후로는 혈압이 170/95 mmHg, 심박수가 78 bpm, 호흡수가 20 bpm, 체온이 37.2°C로 측정되었다. 산소포화도는 92%로 확인되었다. 심각한 정도의 편마비가 관찰되었다. 현재 라베타롤 20 mg을 IV로 6시간마다 투여 중이다. 산소 공급은 네이설 캐눌라로 2 L/min 제공되고 있다. C-line이 삽입되어 있으며, 체액 균형은 음성으로 기록되었다. 임상 상태는 혼미 상태로 관찰되었다. 신경과 팀에게 상태 변화에 대해 보고하였다.",
+            "confidence": 0.0,
+            "words": []
+          }
+        ],
+        "language_code": "ko-KR",
+        "channel_tag": 0
+      }
+    ],
+    "detected_language_codes": [
+      "ko-KR"
+    ]
+  }
+}

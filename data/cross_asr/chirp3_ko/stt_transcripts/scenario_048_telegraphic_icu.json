@@ -1,0 +1,43 @@
+{
+  "sample_id": "scenario_048_telegraphic_icu",
+  "whisper_transcript": "58세 남성 식도 정맥류로 심한 혈흔 출혈. BP 90/60, HR 120 BPM, RR 24 breaths/min, BT 36.8°C, SpO2 92% RA, Hemorrhagic shock, drowsy. Octreotide 50 mcg IV q6h, NC 2 L/min, Endoscopic band ligation, Foley 적용, I/O strict monitoring, doctor notify.",
+  "stt_metadata": {
+    "asr_system": "chirp3_ko",
+    "provider": "google",
+    "model": "chirp_3",
+    "location": "us",
+    "language_codes": [
+      "ko-KR"
+    ],
+    "audio_path": "data/audio/scenario_048_telegraphic_icu.mp3",
+    "audio_sha256": "232533ef41eea1fcd0b042cb6ecc9ac79a4d0fc297c7aee1060fb8f95d8ee750",
+    "transcribed_at": "2026-11-04T13:21:00+00:00",
+    "request_seconds": 3.05,
+    "attempts": 1,
+    "git_commit": "5b6d73fb63e1509a79e1a160176d606ed1b104c4",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "metadata": {
+      "total_billed_duration": "20s",
+      "request_id": "6dc84a94-0000-2cc9-91db-582429ac2ca8",
+      "prompt": "Transcribe the following speech segment in Korean. Follow these specific instructions for formatting the answer:\n* Only output the transcript, with no newlines.\n* When transcribing numbers, write the digits, i.e. write 1.7 and not one point seven, and write 100 instead of one hundred etc.\n* Only output the transcript, exactly as said in the speech segment.\n* Do not continue the speech segment.\n* Include everything said in the speech segment.\n* Use mathematical notation where needed, eg. x ^ 6Y.\n* If there is background speech that is not part of the main conversation, discard the background speech and only output the main conversation.\n* If there is no clear speech, just output [BACKGROUND].\n* Respond in the original language of the speech, Korean."
+    },
+    "results": [
+      {
+        "alternatives": [
+          {
+            "transcript": "58세 남성 식도 정맥류로 심한 혈흔 출혈. BP 90/60, HR 120 BPM, RR 24 breaths/min, BT 36.8°C, SpO2 92% RA, Hemorrhagic shock, drowsy. Octreotide 50 mcg IV q6h, NC 2 L/min, Endoscopic band ligation, Foley 적용, I/O strict monitoring, doctor notify.",
+            "confidence": 0.0,
+            "words": []
+          }
+        ],
+        "language_code": "ko-KR",
+        "channel_tag": 0
+      }
+    ],
+    "detected_language_codes": [
+      "ko-KR"
+    ]
+  }
+}

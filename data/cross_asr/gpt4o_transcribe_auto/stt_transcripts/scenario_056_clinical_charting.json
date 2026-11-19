@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_056_clinical_charting",
+  "whisper_transcript": "사시 칠세 여성 acute severe asthma exacerbation으로 입원함. BP 132/85 mmHg, HR 110 bpm, RR 32 breath/m, BT 37.5-6°C, SpO2 80% on room air 확인됨. Severe wheezing 확인됨. Albuterol 2.5mg IV q4h 적용함. High-flow nasal cannula 산소 공급 유지함. NG tubes 삽입됨. Negative fluid balance of 500 mL 확인됨. 환자 상태 drowsy, pulmonology team notify함.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe_auto",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": null,
+    "audio_path": "data/audio/scenario_056_clinical_charting.mp3",
+    "audio_sha256": "001c99835b3ff9505247e3e9daf173200b66ac082e856f84233c159872060367",
+    "transcribed_at": "2026-11-04T14:10:23+00:00",
+    "request_seconds": 1.97,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "사시 칠세 여성 acute severe asthma exacerbation으로 입원함. BP 132/85 mmHg, HR 110 bpm, RR 32 breath/m, BT 37.5-6°C, SpO2 80% on room air 확인됨. Severe wheezing 확인됨. Albuterol 2.5mg IV q4h 적용함. High-flow nasal cannula 산소 공급 유지함. NG tubes 삽입됨. Negative fluid balance of 500 mL 확인됨. 환자 상태 drowsy, pulmonology team notify함.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 268,
+      "output_tokens": 120,
+      "total_tokens": 388,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 268,
+        "text_tokens": 0
+      }
+    }
+  }
+}

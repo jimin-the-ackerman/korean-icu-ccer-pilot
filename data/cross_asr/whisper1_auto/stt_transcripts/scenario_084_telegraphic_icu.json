@@ -1,0 +1,25 @@
+{
+  "sample_id": "scenario_084_telegraphic_icu",
+  "whisper_transcript": "40-guin-sen-am-song, shi-man-cheon-shik-pal-jak-yi-won, BP 0135, HR 1 to 10, RR128, BT 37NO, SpO2 88%, severe wheezing. Albuterol 2.5mg IV PRN, high flow nasal cannula sa-yong-jung, drowsy sang-tae. Respiratory therapy notify.",
+  "stt_metadata": {
+    "asr_system": "whisper1_auto",
+    "provider": "openai",
+    "model": "whisper-1",
+    "language": null,
+    "audio_path": "data/audio/scenario_084_telegraphic_icu.mp3",
+    "audio_sha256": "937769fc4739880b33de48bbb03dcc2d2c168c11a20ccad5026e8fabc156bd07",
+    "transcribed_at": "2026-11-04T14:00:12+00:00",
+    "request_seconds": 2.69,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "40-guin-sen-am-song, shi-man-cheon-shik-pal-jak-yi-won, BP 0135, HR 1 to 10, RR128, BT 37NO, SpO2 88%, severe wheezing. Albuterol 2.5mg IV PRN, high flow nasal cannula sa-yong-jung, drowsy sang-tae. Respiratory therapy notify.",
+    "logprobs": null,
+    "usage": {
+      "seconds": 16.0,
+      "type": "duration"
+    }
+  }
+}

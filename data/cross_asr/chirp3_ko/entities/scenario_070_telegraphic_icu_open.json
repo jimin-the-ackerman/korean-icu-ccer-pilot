@@ -1,0 +1,41 @@
+{
+  "sample_id": "scenario_070_telegraphic_icu",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "cough",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "Drowsy",
+    "medication_identity": "Levofloxacin",
+    "interventions": [],
+    "intake_output": "Negative fluid balance",
+    "notification": null
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "급성 호흡 부전",
+        "negation": false,
+        "severity": null
+      },
+      {
+        "name": "저혈압",
+        "negation": false,
+        "severity": "severe"
+      },
+      {
+        "name": "기침",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "졸음",
+    "medication_identity": "레보플록사신",
+    "interventions": [],
+    "intake_output": "네거티브 플루이드 밸런스",
+    "notification": null
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "sample_id": "scenario_088_telegraphic_icu",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "jaundice",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "Drowsy",
+    "medication_identity": "N-acetylcysteine",
+    "interventions": [],
+    "intake_output": "Positive fluid balance 500 mL",
+    "notification": "Hepatology team notified"
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "황달",
+        "negation": false,
+        "severity": "severe"
+      },
+      {
+        "name": "드로우지",
+        "negation": false,
+        "severity": null
+      }
+    ],
+    "clinical_status": "드로우지",
+    "medication_identity": "N-아세틸시스테인",
+    "interventions": [],
+    "intake_output": "포지티브 플루이드 밸런스 500 ml",
+    "notification": "헤파톨로지 팀 노티파이드"
+  }
+}

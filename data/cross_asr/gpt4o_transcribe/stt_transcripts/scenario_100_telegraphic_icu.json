@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_100_telegraphic_icu",
+  "whisper_transcript": "Sixty-eight senamzong kpsong chang pezegushim, BP 998 xuks HR 112, RR 24 breaths/min, BT 37.8 degrees Celsius, SpO2 95% room air, abdominal pain severe, morphine 4mg IV q4h, NG tube sapipdem, nasogastric decompression shiangdem, urine output kamsoh age gantawan drowsy, surgical team notify.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": "ko",
+    "audio_path": "data/audio/scenario_100_telegraphic_icu.mp3",
+    "audio_sha256": "7a1273d3f58c24998ac405450e8b9a2239c0ec0f122b919e2550ec4e2d27b9a1",
+    "transcribed_at": "2026-11-04T13:05:32+00:00",
+    "request_seconds": 1.83,
+    "attempts": 1,
+    "git_commit": "5b6d73fb63e1509a79e1a160176d606ed1b104c4",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "Sixty-eight senamzong kpsong chang pezegushim, BP 998 xuks HR 112, RR 24 breaths/min, BT 37.8 degrees Celsius, SpO2 95% room air, abdominal pain severe, morphine 4mg IV q4h, NG tube sapipdem, nasogastric decompression shiangdem, urine output kamsoh age gantawan drowsy, surgical team notify.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 202,
+      "output_tokens": 96,
+      "total_tokens": 298,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 202,
+        "text_tokens": 0
+      }
+    }
+  }
+}

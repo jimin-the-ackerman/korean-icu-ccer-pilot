@@ -1,0 +1,115 @@
+{
+  "sample_id": "scenario_071_formal_template",
+  "gold_entities": {
+    "route": [
+      {
+        "raw": "IV",
+        "normalized": "iv",
+        "position": 207
+      },
+      {
+        "raw": "경구",
+        "normalized": "po",
+        "position": 235
+      }
+    ],
+    "frequency": [
+      {
+        "raw": "q12h",
+        "normalized": "q12h",
+        "position": 241
+      }
+    ],
+    "device": [],
+    "vital_sign": [
+      {
+        "raw": "혈압 118/76",
+        "label": "bp",
+        "value": "118/76",
+        "position": 81
+      },
+      {
+        "raw": "심박수 98",
+        "label": "hr",
+        "value": "98",
+        "position": 97
+      },
+      {
+        "raw": "호흡수 28",
+        "label": "rr",
+        "value": "28",
+        "position": 109
+      },
+      {
+        "raw": "체온 37.5",
+        "label": "bt",
+        "value": "37.5",
+        "position": 129
+      },
+      {
+        "raw": "산소포화도는 실내 공기에서 89%",
+        "label": "spo2",
+        "value": "89%",
+        "position": 140
+      }
+    ],
+    "dose": [
+      {
+        "raw": "0.4 g",
+        "value": "0.4",
+        "unit": "g",
+        "position": 225
+      }
+    ]
+  },
+  "whisper_entities": {
+    "route": [
+      {
+        "raw": "IV",
+        "normalized": "iv",
+        "position": 190
+      },
+      {
+        "raw": "경구",
+        "normalized": "po",
+        "position": 217
+      }
+    ],
+    "frequency": [],
+    "device": [],
+    "vital_sign": [
+      {
+        "raw": "혈압 118/76",
+        "label": "bp",
+        "value": "118/76",
+        "position": 63
+      },
+      {
+        "raw": "심박수 98",
+        "label": "hr",
+        "value": "98",
+        "position": 79
+      },
+      {
+        "raw": "호흡수 28",
+        "label": "rr",
+        "value": "28",
+        "position": 91
+      },
+      {
+        "raw": "체온 37.5",
+        "label": "bt",
+        "value": "37.5",
+        "position": 111
+      }
+    ],
+    "dose": [
+      {
+        "raw": "0.4 g",
+        "value": "0.4",
+        "unit": "g",
+        "position": 208
+      }
+    ]
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_071_clinical_charting",
+  "whisper_transcript": "Sorbase osong, Guillain-Barré syndrome (GBS) severe case admission. Respiratory monitoring close PO. BP 108/76 mmHg, HR 88, BR 28 breaths/min, BT 37.5°C, SpO2 89% on room air. Severe muscle weakness hosuam. IV immunoglobulin 0.4g/kg IV q12h togyeongham. Non-rebreather masks hanso jeogyeongham. Ventilator sayongjung. Clinical status drowsy sangtae. Neurology team notifyham.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe_auto",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": null,
+    "audio_path": "data/audio/scenario_071_clinical_charting.mp3",
+    "audio_sha256": "ebc930d56423e976b3872e7a1976b8f0a66849724d73565408d875323115500f",
+    "transcribed_at": "2026-11-04T14:11:56+00:00",
+    "request_seconds": 2.13,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "Sorbase osong, Guillain-Barré syndrome (GBS) severe case admission. Respiratory monitoring close PO. BP 108/76 mmHg, HR 88, BR 28 breaths/min, BT 37.5°C, SpO2 89% on room air. Severe muscle weakness hosuam. IV immunoglobulin 0.4g/kg IV q12h togyeongham. Non-rebreather masks hanso jeogyeongham. Ventilator sayongjung. Clinical status drowsy sangtae. Neurology team notifyham.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 272,
+      "output_tokens": 121,
+      "total_tokens": 393,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 272,
+        "text_tokens": 0
+      }
+    }
+  }
+}

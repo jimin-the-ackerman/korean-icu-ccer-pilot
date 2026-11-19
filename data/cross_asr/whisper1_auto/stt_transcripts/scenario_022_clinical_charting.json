@@ -1,0 +1,25 @@
+{
+  "sample_id": "scenario_022_clinical_charting",
+  "whisper_transcript": "63세 여성 환자, 급성 심부전 및 폐부종으로 입원함. BP 헤모 65mm 확인됨. HR 헥릿 BPM 확인됨. RR Acetabate Breaths Min 확인됨. BT 37.5 Duke Cells 확인됨. SpO2 86% on room air 확인됨. Severe shortness of breath 호소함. Furosemide 40mg IV QH 투여함. High flow nasal cannula 적용함. C-line 유지함. Positive fluid balance 확인됨. 임상상태 drowsy 확인됨. Cardiology team notify함.",
+  "stt_metadata": {
+    "asr_system": "whisper1_auto",
+    "provider": "openai",
+    "model": "whisper-1",
+    "language": null,
+    "audio_path": "data/audio/scenario_022_clinical_charting.mp3",
+    "audio_sha256": "ccc28a1a5316e0654d8fd9bef324ee4a0a6fad059c385c657bc636608bb7a1df",
+    "transcribed_at": "2026-11-04T13:51:28+00:00",
+    "request_seconds": 2.54,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "63세 여성 환자, 급성 심부전 및 폐부종으로 입원함. BP 헤모 65mm 확인됨. HR 헥릿 BPM 확인됨. RR Acetabate Breaths Min 확인됨. BT 37.5 Duke Cells 확인됨. SpO2 86% on room air 확인됨. Severe shortness of breath 호소함. Furosemide 40mg IV QH 투여함. High flow nasal cannula 적용함. C-line 유지함. Positive fluid balance 확인됨. 임상상태 drowsy 확인됨. Cardiology team notify함.",
+    "logprobs": null,
+    "usage": {
+      "seconds": 29.0,
+      "type": "duration"
+    }
+  }
+}

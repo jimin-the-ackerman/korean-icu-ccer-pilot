@@ -1,0 +1,35 @@
+{
+  "sample_id": "scenario_004_clinical_charting",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "abdominal pain",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "Drowsy",
+    "medication_identity": "Morphine",
+    "interventions": [
+      "Fluid resuscitation"
+    ],
+    "intake_output": "urine output 200 mL over 4 hours",
+    "notification": "담당의 notify함"
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "복통",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "졸음 상태",
+    "medication_identity": "모르핀",
+    "interventions": [
+      "수액 소생술"
+    ],
+    "intake_output": "소변량 200ml/4시간",
+    "notification": "담당의에게 보고함"
+  }
+}

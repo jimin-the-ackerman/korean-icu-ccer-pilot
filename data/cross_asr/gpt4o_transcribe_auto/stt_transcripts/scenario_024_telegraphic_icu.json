@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_024_telegraphic_icu",
+  "whisper_transcript": "47세 남환자. 급성 충수염 및 수술합병증 BP 74 mmHg HR 81 breath/ min, BT 37.8 grease SP02 96%, abdominal pain moderate. Ceftriaxone 1g IV BID, urine output mildly reduced. Alert.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe_auto",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": null,
+    "audio_path": "data/audio/scenario_024_telegraphic_icu.mp3",
+    "audio_sha256": "6f4f9d0bdc39e2b47fb6ee30a67a72400b274ff9df7cef67e29c01892e31665e",
+    "transcribed_at": "2026-11-04T14:06:18+00:00",
+    "request_seconds": 1.79,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "47세 남환자. 급성 충수염 및 수술합병증 BP 74 mmHg HR 81 breath/ min, BT 37.8 grease SP02 96%, abdominal pain moderate. Ceftriaxone 1g IV BID, urine output mildly reduced. Alert.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 157,
+      "output_tokens": 63,
+      "total_tokens": 220,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 157,
+        "text_tokens": 0
+      }
+    }
+  }
+}

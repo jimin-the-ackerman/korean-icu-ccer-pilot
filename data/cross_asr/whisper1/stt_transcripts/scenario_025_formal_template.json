@@ -1,0 +1,25 @@
+{
+  "sample_id": "scenario_025_formal_template",
+  "whisper_transcript": "환자 정보 60세 여성 환자가 급성 담낭염으로 입원하였다. 활력증후 혈압이 138, 84mBhz로 확인되었고 심박수는 92bpm, 호흡수는 20breathsmin이다. 체온은 38.2도로 측정되었으며 산소포화도는 실내 공기에서 95%이다. 증상 심한 복통을 호소하였다. 투약 세프트랙손 인그라믈 IV로 QCVH 투여 중이다. 중재 복관경 담낭 절제술이 계획되어 있다. 기구 C라인이 삽입되어 있다. 수분출입량 양성균형으로 확인되었다. 임상상태 환을 명료한 상태이다.",
+  "stt_metadata": {
+    "asr_system": "whisper1",
+    "provider": "reuse_existing",
+    "model": "whisper-1",
+    "language": "ko",
+    "audio_path": "data/audio/scenario_025_formal_template.mp3",
+    "audio_sha256": "a8e6cd5e3c94d9bc66ec3fd387ecf430b69af38b1db650b7dd9eb63f33a61e76",
+    "copied_at": "2026-11-04T04:31:11+00:00",
+    "request_seconds": 0.0,
+    "attempts": 1,
+    "git_commit": "b3490181b3fb3f88b56cde5be78a01cfdcef3007",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "source_file": "data/stt_transcripts/scenario_025_formal_template.json",
+    "source_sha256": "b85b682bf10d6f9b40c6e46c8c62d9f53d58445936bb93a889239040f35f5e44",
+    "source_stt_metadata": {
+      "model": "whisper-1",
+      "language": "ko"
+    }
+  }
+}

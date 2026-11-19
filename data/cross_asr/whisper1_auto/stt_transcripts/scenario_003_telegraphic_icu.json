@@ -1,0 +1,25 @@
+{
+  "sample_id": "scenario_003_telegraphic_icu",
+  "whisper_transcript": "Severe chest pain, aspirin 3D25mg POSTAT, NC 사용중, cardiac monitoring 중, C-line 유지중, alert, cardiology team notify.",
+  "stt_metadata": {
+    "asr_system": "whisper1_auto",
+    "provider": "openai",
+    "model": "whisper-1",
+    "language": null,
+    "audio_path": "data/audio/scenario_003_telegraphic_icu.mp3",
+    "audio_sha256": "660ec7926413427ce9fd7c661161efa0a0abcc4f7973d26b501b7631d89e5e95",
+    "transcribed_at": "2026-11-04T13:49:33+00:00",
+    "request_seconds": 2.46,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "Severe chest pain, aspirin 3D25mg POSTAT, NC 사용중, cardiac monitoring 중, C-line 유지중, alert, cardiology team notify.",
+    "logprobs": null,
+    "usage": {
+      "seconds": 17.0,
+      "type": "duration"
+    }
+  }
+}

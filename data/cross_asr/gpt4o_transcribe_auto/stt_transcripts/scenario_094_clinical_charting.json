@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_094_clinical_charting",
+  "whisper_transcript": "즉시 구세 여성 환자, 급성 severe GI bleeding secondary to peptic ulcer disease로 입원. BP 80/50 mmHg, HR 100 bpm, RR 22 bpm, BT 36.8°C, SpO2 92% room air. Severe hematemesis 호소함. Pantoprazole 80 mg IV q12h 적용함. Nasal cannula at 2 L/min 유지함. Endoscopic hemostasis 시행함. C-line 유지함. Negative fluid balance 확인됨. 환자 drowsy 상태. Gastroenterology team notify 함 for urgent endoscopy.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe_auto",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": null,
+    "audio_path": "data/audio/scenario_094_clinical_charting.mp3",
+    "audio_sha256": "88b1427f69a3d70eef53e845b851712dfed7a090e0c3dbf89422c7a0ed59a262",
+    "transcribed_at": "2026-11-04T14:14:41+00:00",
+    "request_seconds": 2.27,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "즉시 구세 여성 환자, 급성 severe GI bleeding secondary to peptic ulcer disease로 입원. BP 80/50 mmHg, HR 100 bpm, RR 22 bpm, BT 36.8°C, SpO2 92% room air. Severe hematemesis 호소함. Pantoprazole 80 mg IV q12h 적용함. Nasal cannula at 2 L/min 유지함. Endoscopic hemostasis 시행함. C-line 유지함. Negative fluid balance 확인됨. 환자 drowsy 상태. Gastroenterology team notify 함 for urgent endoscopy.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 295,
+      "output_tokens": 133,
+      "total_tokens": 428,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 295,
+        "text_tokens": 0
+      }
+    }
+  }
+}

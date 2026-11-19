@@ -1,0 +1,25 @@
+{
+  "sample_id": "scenario_057_telegraphic_icu",
+  "whisper_transcript": "68세 여성 환자, acute exacerbation of rheumatoid arthritis로 입원, severe joint pain means swelling. BP Wensarisol, page right, RRCP, BT-3276, SbO2, Qg2, Procynopenten, Methylpimethafenamide H. 환자 알러트",
+  "stt_metadata": {
+    "asr_system": "whisper1",
+    "provider": "reuse_existing",
+    "model": "whisper-1",
+    "language": "ko",
+    "audio_path": "data/audio/scenario_057_telegraphic_icu.mp3",
+    "audio_sha256": "9da16682e9f422054244fa54e60988aa6ed1e2c775659bee2c12a7802df114e2",
+    "copied_at": "2026-11-04T04:31:12+00:00",
+    "request_seconds": 0.0,
+    "attempts": 1,
+    "git_commit": "b3490181b3fb3f88b56cde5be78a01cfdcef3007",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "source_file": "data/stt_transcripts/scenario_057_telegraphic_icu.json",
+    "source_sha256": "659d2d13c21243aa62e0693c37a61ecd739e4a3d5029bc423388dbf41006e4a6",
+    "source_stt_metadata": {
+      "model": "whisper-1",
+      "language": "ko"
+    }
+  }
+}

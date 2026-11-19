@@ -1,0 +1,43 @@
+{
+  "sample_id": "scenario_008_telegraphic_icu",
+  "whisper_transcript": "95세 남성 환자 위장관 출혈로 입원. BP 160 mmHg, HR 80, RR 22 breaths/min, BT 37.0 degrees, SpO2 94%. Abdominal pain, moderate. Pantoprazole 40 mg IV, nasal cannula 적용. Blood transfusion 시행. NG tube 삽입. IO negative. 환자 drowsy 상태. Gastroenterology 팀 notify.",
+  "stt_metadata": {
+    "asr_system": "chirp3_auto",
+    "provider": "google",
+    "model": "chirp_3",
+    "location": "us",
+    "language_codes": [
+      "auto"
+    ],
+    "audio_path": "data/audio/scenario_008_telegraphic_icu.mp3",
+    "audio_sha256": "753c11aea2071c4bf76c8c764931373c1fb60736137007cf0be221660a2e37a5",
+    "transcribed_at": "2026-11-04T14:19:08+00:00",
+    "request_seconds": 3.81,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "metadata": {
+      "total_billed_duration": "21s",
+      "request_id": "713b1817-0000-21af-b08b-582429c20174",
+      "prompt": "Transcribe the following speech segment. Follow these specific instructions for formatting the answer:\n* Only output the transcript, with no newlines.\n* When transcribing numbers, write the digits, i.e. write 1.7 and not one point seven, and write 100 instead of one hundred etc.\n* Only output the transcript, exactly as said in the speech segment.\n* Do not continue the speech segment.\n* Include everything said in the speech segment.\n* Use mathematical notation where needed, eg. x ^ 6Y.\n* If there is background speech that is not part of the main conversation, discard the background speech and only output the main conversation.\n* If there is no clear speech, just output [BACKGROUND].\n* Respond in the original language of the speech."
+    },
+    "results": [
+      {
+        "alternatives": [
+          {
+            "transcript": "95세 남성 환자 위장관 출혈로 입원. BP 160 mmHg, HR 80, RR 22 breaths/min, BT 37.0 degrees, SpO2 94%. Abdominal pain, moderate. Pantoprazole 40 mg IV, nasal cannula 적용. Blood transfusion 시행. NG tube 삽입. IO negative. 환자 drowsy 상태. Gastroenterology 팀 notify.",
+            "confidence": 0.0,
+            "words": []
+          }
+        ],
+        "language_code": "ko",
+        "channel_tag": 0
+      }
+    ],
+    "detected_language_codes": [
+      "ko"
+    ]
+  }
+}

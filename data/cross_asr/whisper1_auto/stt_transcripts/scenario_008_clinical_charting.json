@@ -1,0 +1,25 @@
+{
+  "sample_id": "scenario_008_clinical_charting",
+  "whisper_transcript": "55-year-old male patient admitted to the hospital for GI bleeding. BP 96.6 mg, HR 110 bpm, RRHU breath smin, BT 37.0°C, SbO2 94%. Abdominal pain moderate. Pantoprazole 20 mg IVBID. Oxygen support nasal cannula. Blood transfusion. NG tubes inserted. IO negative confirmed. Patient looks drowsy. Gastroenterology team notify him for endoscopy.",
+  "stt_metadata": {
+    "asr_system": "whisper1_auto",
+    "provider": "openai",
+    "model": "whisper-1",
+    "language": null,
+    "audio_path": "data/audio/scenario_008_clinical_charting.mp3",
+    "audio_sha256": "8debff67174ffa97b895f5df75695c7173460aa6477195dc6cdf51ac8717b3bb",
+    "transcribed_at": "2026-11-04T13:50:02+00:00",
+    "request_seconds": 2.76,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "55-year-old male patient admitted to the hospital for GI bleeding. BP 96.6 mg, HR 110 bpm, RRHU breath smin, BT 37.0°C, SbO2 94%. Abdominal pain moderate. Pantoprazole 20 mg IVBID. Oxygen support nasal cannula. Blood transfusion. NG tubes inserted. IO negative confirmed. Patient looks drowsy. Gastroenterology team notify him for endoscopy.",
+    "logprobs": null,
+    "usage": {
+      "seconds": 27.0,
+      "type": "duration"
+    }
+  }
+}

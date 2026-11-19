@@ -1,0 +1,43 @@
+{
+  "sample_id": "scenario_058_telegraphic_icu",
+  "whisper_transcript": "Acute exacerbation CLF fluid overload Disney moderate BP 150/90 90 mm Hg H 110 BPM RR 24.2 billion SPO2 92% RA Furosemide 40 mg IV BID O22LNC Foley in place but a fluid balance alert.",
+  "stt_metadata": {
+    "asr_system": "chirp3_auto",
+    "provider": "google",
+    "model": "chirp_3",
+    "location": "us",
+    "language_codes": [
+      "auto"
+    ],
+    "audio_path": "data/audio/scenario_058_telegraphic_icu.mp3",
+    "audio_sha256": "a326784a287bafe77d468d21ddbf7e78d9411d4c38eae860ad5f7dfcbafefbfc",
+    "transcribed_at": "2026-11-04T14:31:32+00:00",
+    "request_seconds": 2.45,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "metadata": {
+      "total_billed_duration": "17s",
+      "request_id": "734a2855-0000-209a-97e3-582429a6e2e8",
+      "prompt": "Transcribe the following speech segment. Follow these specific instructions for formatting the answer:\n* Only output the transcript, with no newlines.\n* When transcribing numbers, write the digits, i.e. write 1.7 and not one point seven, and write 100 instead of one hundred etc.\n* Only output the transcript, exactly as said in the speech segment.\n* Do not continue the speech segment.\n* Include everything said in the speech segment.\n* Use mathematical notation where needed, eg. x ^ 6Y.\n* If there is background speech that is not part of the main conversation, discard the background speech and only output the main conversation.\n* If there is no clear speech, just output [BACKGROUND].\n* Respond in the original language of the speech."
+    },
+    "results": [
+      {
+        "alternatives": [
+          {
+            "transcript": "Acute exacerbation CLF fluid overload Disney moderate BP 150/90 90 mm Hg H 110 BPM RR 24.2 billion SPO2 92% RA Furosemide 40 mg IV BID O22LNC Foley in place but a fluid balance alert.",
+            "confidence": 0.0,
+            "words": []
+          }
+        ],
+        "language_code": "en",
+        "channel_tag": 0
+      }
+    ],
+    "detected_language_codes": [
+      "en"
+    ]
+  }
+}

@@ -1,0 +1,111 @@
+{
+  "sample_id": "scenario_014_clinical_charting",
+  "gold_entities": {
+    "route": [
+      {
+        "raw": "IV",
+        "normalized": "iv",
+        "position": 170
+      }
+    ],
+    "frequency": [
+      {
+        "raw": "q6h",
+        "normalized": "q6h",
+        "position": 173
+      }
+    ],
+    "device": [
+      {
+        "raw": "Ventilator",
+        "normalized": "ventilator",
+        "position": 212
+      }
+    ],
+    "vital_sign": [
+      {
+        "raw": "BP 135/85",
+        "label": "bp",
+        "value": "135/85",
+        "position": 44
+      },
+      {
+        "raw": "HR 110",
+        "label": "hr",
+        "value": "110",
+        "position": 60
+      },
+      {
+        "raw": "RR 30",
+        "label": "rr",
+        "value": "30",
+        "position": 72
+      },
+      {
+        "raw": "BT 38.3",
+        "label": "bt",
+        "value": "38.3",
+        "position": 91
+      },
+      {
+        "raw": "SpO2 88%",
+        "label": "spo2",
+        "value": "88%",
+        "position": 102
+      }
+    ],
+    "dose": [
+      {
+        "raw": "125 mg",
+        "value": "125",
+        "unit": "mg",
+        "position": 163
+      }
+    ]
+  },
+  "whisper_entities": {
+    "route": [
+      {
+        "raw": "IV",
+        "normalized": "iv",
+        "position": 127
+      }
+    ],
+    "frequency": [],
+    "device": [
+      {
+        "raw": "ventilator",
+        "normalized": "ventilator",
+        "position": 167
+      }
+    ],
+    "vital_sign": [
+      {
+        "raw": "BP 130/80",
+        "label": "bp",
+        "value": "130/80",
+        "position": 41
+      },
+      {
+        "raw": "BT 38.5",
+        "label": "bt",
+        "value": "38.5",
+        "position": 65
+      },
+      {
+        "raw": "SpO2 92%",
+        "label": "spo2",
+        "value": "92%",
+        "position": 74
+      }
+    ],
+    "dose": [
+      {
+        "raw": "2mg",
+        "value": "2",
+        "unit": "mg",
+        "position": 123
+      }
+    ]
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_006_telegraphic_icu",
+  "whisper_transcript": "70세 여성 심각한 스트록으로 입원, BP 현재 7g7g/80 BT37.0, SpO2 95% severe hemiplegia. Labetalol 12mg IV q6h, Nasal cannula 2L/min 적용, C-line 유지 중, Negative fluid balance, stuporous 상태. Neuro team notify.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe_auto",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": null,
+    "audio_path": "data/audio/scenario_006_telegraphic_icu.mp3",
+    "audio_sha256": "502b5fa31fcf30c6fb8cb26f09f9c22bd25ea040077435c61adfbba45807dcbf",
+    "transcribed_at": "2026-11-04T14:04:14+00:00",
+    "request_seconds": 1.49,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "70세 여성 심각한 스트록으로 입원, BP 현재 7g7g/80 BT37.0, SpO2 95% severe hemiplegia. Labetalol 12mg IV q6h, Nasal cannula 2L/min 적용, C-line 유지 중, Negative fluid balance, stuporous 상태. Neuro team notify.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 175,
+      "output_tokens": 79,
+      "total_tokens": 254,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 175,
+        "text_tokens": 0
+      }
+    }
+  }
+}

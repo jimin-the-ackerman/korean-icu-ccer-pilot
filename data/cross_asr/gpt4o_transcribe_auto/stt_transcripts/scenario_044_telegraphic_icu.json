@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_044_telegraphic_icu",
+  "whisper_transcript": "Thirty-eight-year-old female, BP 98/62 mmHg, HR 110 bpm, RR 28, BT 37.8, RA. Severe abdominal pain, morphine 2L agent, nasal cannula, Hion, Foley in place. Drowsy, pain team consult him.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe_auto",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": null,
+    "audio_path": "data/audio/scenario_044_telegraphic_icu.mp3",
+    "audio_sha256": "8262470e35f02170636ec090b9891313e0db31ee906f705b3e8bde5dff623ba0",
+    "transcribed_at": "2026-11-04T14:08:51+00:00",
+    "request_seconds": 2.22,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "Thirty-eight-year-old female, BP 98/62 mmHg, HR 110 bpm, RR 28, BT 37.8, RA. Severe abdominal pain, morphine 2L agent, nasal cannula, Hion, Foley in place. Drowsy, pain team consult him.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 151,
+      "output_tokens": 64,
+      "total_tokens": 215,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 151,
+        "text_tokens": 0
+      }
+    }
+  }
+}

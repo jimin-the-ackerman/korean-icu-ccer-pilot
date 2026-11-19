@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_049_formal_template",
+  "whisper_transcript": "54세 여자 환자가 우측 무릎에 Septic Arthritis로 입원하였다. 활력 징후는 혈압 102/65 mmHg, 심박수 125 bpm, 호흡수 24회분, 체온 38.5도, 산소포화도 96%로 실온 공기에서 측정되었다. 환자는 심한 무릎 통증을 호소하였다. 투약으로는 Vancomycin 1g IV로 12시간마다 투여 중이다. 우측 무릎 관절 천자가 시행되었다. 수분 균형은 500ml의 양성으로 확인되었다. 환자는 의식이 또렷한 상태로 관찰되었다. 정형외과 전문의 상담을 요청하였다.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": "ko",
+    "audio_path": "data/audio/scenario_049_formal_template.mp3",
+    "audio_sha256": "e52acd9ca6b896253285b85636d35d78ac6e3f50c42598f9e15fafe4364582ed",
+    "transcribed_at": "2026-11-04T12:58:47+00:00",
+    "request_seconds": 2.7,
+    "attempts": 1,
+    "git_commit": "5b6d73fb63e1509a79e1a160176d606ed1b104c4",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "54세 여자 환자가 우측 무릎에 Septic Arthritis로 입원하였다. 활력 징후는 혈압 102/65 mmHg, 심박수 125 bpm, 호흡수 24회분, 체온 38.5도, 산소포화도 96%로 실온 공기에서 측정되었다. 환자는 심한 무릎 통증을 호소하였다. 투약으로는 Vancomycin 1g IV로 12시간마다 투여 중이다. 우측 무릎 관절 천자가 시행되었다. 수분 균형은 500ml의 양성으로 확인되었다. 환자는 의식이 또렷한 상태로 관찰되었다. 정형외과 전문의 상담을 요청하였다.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 363,
+      "output_tokens": 171,
+      "total_tokens": 534,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 363,
+        "text_tokens": 0
+      }
+    }
+  }
+}

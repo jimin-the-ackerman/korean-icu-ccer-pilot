@@ -1,0 +1,25 @@
+{
+  "sample_id": "scenario_063_telegraphic_icu",
+  "whisper_transcript": "태규스 포세, 요원, BP1. BP, 케비릭블링, 하이치, 콰이팸, 뷰아더, 나니스, 서디체뽕, 에이딧스티에스, 프로쿠르페르틴, RA. 모더릿 업도미놀, 페인, 세프트리약슨, 투그램아이비큐, 노웨치, 엔씨투, 폴리유지, 스트릭다이오, 드라우지, 닥노디파이.",
+  "stt_metadata": {
+    "asr_system": "whisper1",
+    "provider": "reuse_existing",
+    "model": "whisper-1",
+    "language": "ko",
+    "audio_path": "data/audio/scenario_063_telegraphic_icu.mp3",
+    "audio_sha256": "2a614286c278c486d2305e04fe22c3c757f99b0f69647f06bfba2320f10bcbe7",
+    "copied_at": "2026-11-04T04:31:12+00:00",
+    "request_seconds": 0.0,
+    "attempts": 1,
+    "git_commit": "b3490181b3fb3f88b56cde5be78a01cfdcef3007",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "source_file": "data/stt_transcripts/scenario_063_telegraphic_icu.json",
+    "source_sha256": "a84fe55f7eab78b909aecf94f8c240e0d61d0fe3d9f3a66dfda0b2291b3bb6c2",
+    "source_stt_metadata": {
+      "model": "whisper-1",
+      "language": "ko"
+    }
+  }
+}

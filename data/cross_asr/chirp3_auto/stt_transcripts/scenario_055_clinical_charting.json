@@ -1,0 +1,43 @@
+{
+  "sample_id": "scenario_055_clinical_charting",
+  "whisper_transcript": "53세 여성 환자 incompatible blood transfusion 후 acute hemolytic anemia로 입원함. vital signs BP 90/60 mmHg, HR 120 bpm, RR 22, BT 38.1°C, SpO2 95% on 2L nasal cannula. severe fatigue 호소함. furosemide 40 mg IV q12h, oxygen support nasal cannula 유지함. compatible blood transfusion 시행함. IO input 1,000 mL, output 200 mL. clinical status drowsy 함. hematology team notify 함.",
+  "stt_metadata": {
+    "asr_system": "chirp3_auto",
+    "provider": "google",
+    "model": "chirp_3",
+    "location": "us",
+    "language_codes": [
+      "auto"
+    ],
+    "audio_path": "data/audio/scenario_055_clinical_charting.mp3",
+    "audio_sha256": "0596980cf1e25e4299537907c97dc166d9d2229d3dfae80e7f85127b3b02cd27",
+    "transcribed_at": "2026-11-04T14:30:45+00:00",
+    "request_seconds": 6.04,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "metadata": {
+      "total_billed_duration": "32s",
+      "request_id": "73a5d923-0000-245d-9337-ac3eb1486d20",
+      "prompt": "Transcribe the following speech segment. Follow these specific instructions for formatting the answer:\n* Only output the transcript, with no newlines.\n* When transcribing numbers, write the digits, i.e. write 1.7 and not one point seven, and write 100 instead of one hundred etc.\n* Only output the transcript, exactly as said in the speech segment.\n* Do not continue the speech segment.\n* Include everything said in the speech segment.\n* Use mathematical notation where needed, eg. x ^ 6Y.\n* If there is background speech that is not part of the main conversation, discard the background speech and only output the main conversation.\n* If there is no clear speech, just output [BACKGROUND].\n* Respond in the original language of the speech."
+    },
+    "results": [
+      {
+        "alternatives": [
+          {
+            "transcript": "53세 여성 환자 incompatible blood transfusion 후 acute hemolytic anemia로 입원함. vital signs BP 90/60 mmHg, HR 120 bpm, RR 22, BT 38.1°C, SpO2 95% on 2L nasal cannula. severe fatigue 호소함. furosemide 40 mg IV q12h, oxygen support nasal cannula 유지함. compatible blood transfusion 시행함. IO input 1,000 mL, output 200 mL. clinical status drowsy 함. hematology team notify 함.",
+            "confidence": 0.0,
+            "words": []
+          }
+        ],
+        "language_code": "ko",
+        "channel_tag": 0
+      }
+    ],
+    "detected_language_codes": [
+      "ko"
+    ]
+  }
+}

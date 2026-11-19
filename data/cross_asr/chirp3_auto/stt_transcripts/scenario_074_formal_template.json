@@ -1,0 +1,43 @@
+{
+  "sample_id": "scenario_074_formal_template",
+  "whisper_transcript": "70세 남성 환자가 인슐린 과다복용으로 인한 급성 저혈당성 혼수 상태로 입원하였다. 입원 당시 혈압은 110 70mm Hg, 심박수는 88 BPM, 호흡수는 16 breath/min, 체온은 36.5°C로 기록되었다. 산소포화도는 실내 공기에서 98%로 확인되었다. 환자는 심한 무의식 상태를 보였다. 덱스트로스 50% 50ml를 정맥으로 즉시 투여하였다. 현재 환자는 반응이 없으며 내분비학 전문의에게 보고하였다.",
+  "stt_metadata": {
+    "asr_system": "chirp3_auto",
+    "provider": "google",
+    "model": "chirp_3",
+    "location": "us",
+    "language_codes": [
+      "auto"
+    ],
+    "audio_path": "data/audio/scenario_074_formal_template.mp3",
+    "audio_sha256": "5f7465aae633153a8d405edae38d2f85bd5f121a429f8a0d71afcffc158e3f4e",
+    "transcribed_at": "2026-11-04T14:49:02+00:00",
+    "request_seconds": 5.26,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "metadata": {
+      "total_billed_duration": "32s",
+      "request_id": "6b12b41a-0000-20d6-864b-f403043c1ec8",
+      "prompt": "Transcribe the following speech segment. Follow these specific instructions for formatting the answer:\n* Only output the transcript, with no newlines.\n* When transcribing numbers, write the digits, i.e. write 1.7 and not one point seven, and write 100 instead of one hundred etc.\n* Only output the transcript, exactly as said in the speech segment.\n* Do not continue the speech segment.\n* Include everything said in the speech segment.\n* Use mathematical notation where needed, eg. x ^ 6Y.\n* If there is background speech that is not part of the main conversation, discard the background speech and only output the main conversation.\n* If there is no clear speech, just output [BACKGROUND].\n* Respond in the original language of the speech."
+    },
+    "results": [
+      {
+        "alternatives": [
+          {
+            "transcript": "70세 남성 환자가 인슐린 과다복용으로 인한 급성 저혈당성 혼수 상태로 입원하였다. 입원 당시 혈압은 110 70mm Hg, 심박수는 88 BPM, 호흡수는 16 breath/min, 체온은 36.5°C로 기록되었다. 산소포화도는 실내 공기에서 98%로 확인되었다. 환자는 심한 무의식 상태를 보였다. 덱스트로스 50% 50ml를 정맥으로 즉시 투여하였다. 현재 환자는 반응이 없으며 내분비학 전문의에게 보고하였다.",
+            "confidence": 0.0,
+            "words": []
+          }
+        ],
+        "language_code": "ko",
+        "channel_tag": 0
+      }
+    ],
+    "detected_language_codes": [
+      "ko"
+    ]
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_067_clinical_charting",
+  "whisper_transcript": "40% 남성 환자, acute massive pulmonary embolism으로 입원함. BP 85/60 mmHg, HR 150 BPM, RR 28 breaths/min, BT 36.8℃, SpO2 88% (O2 via nasal cannula). Severe chest pain 호소함. Heparin 5,000 units IV stat 투약함. Nasal cannula 적용 중. C-line 유지함. 환자 stupor 상태. Hypotension과 hypoxia에 대해 담당의 notify함.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": "ko",
+    "audio_path": "data/audio/scenario_067_clinical_charting.mp3",
+    "audio_sha256": "2b58dfd3710cfd6e85f2d8d00b3d8889fa896f4e3bc3d2686c908c245b4c604c",
+    "transcribed_at": "2026-11-04T13:00:56+00:00",
+    "request_seconds": 1.79,
+    "attempts": 1,
+    "git_commit": "5b6d73fb63e1509a79e1a160176d606ed1b104c4",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "40% 남성 환자, acute massive pulmonary embolism으로 입원함. BP 85/60 mmHg, HR 150 BPM, RR 28 breaths/min, BT 36.8℃, SpO2 88% (O2 via nasal cannula). Severe chest pain 호소함. Heparin 5,000 units IV stat 투약함. Nasal cannula 적용 중. C-line 유지함. 환자 stupor 상태. Hypotension과 hypoxia에 대해 담당의 notify함.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 252,
+      "output_tokens": 111,
+      "total_tokens": 363,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 252,
+        "text_tokens": 0
+      }
+    }
+  }
+}

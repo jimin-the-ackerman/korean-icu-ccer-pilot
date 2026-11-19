@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_008_clinical_charting",
+  "whisper_transcript": "55세 남성 환자 GI bleeding으로 입원함. BP 96/60mmHg, HR 110 bpm, RR 12 breaths/min, BT 37.0°C, SpO2 94%. Abdominal pain moderate 호소함. Pantoprazole 40mg IV BID 투여함. Oxygen 지원으로 nasal cannula 적용함. Blood transfusion 시행함. NG tubes 삽입됨. I/O negative 확인됨. 환자 drowsy 상태 보임. Gastroenterology team notify함 for endoscopy.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe_auto",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": null,
+    "audio_path": "data/audio/scenario_008_clinical_charting.mp3",
+    "audio_sha256": "8debff67174ffa97b895f5df75695c7173460aa6477195dc6cdf51ac8717b3bb",
+    "transcribed_at": "2026-11-04T14:04:23+00:00",
+    "request_seconds": 2.35,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "55세 남성 환자 GI bleeding으로 입원함. BP 96/60mmHg, HR 110 bpm, RR 12 breaths/min, BT 37.0°C, SpO2 94%. Abdominal pain moderate 호소함. Pantoprazole 40mg IV BID 투여함. Oxygen 지원으로 nasal cannula 적용함. Blood transfusion 시행함. NG tubes 삽입됨. I/O negative 확인됨. 환자 drowsy 상태 보임. Gastroenterology team notify함 for endoscopy.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 260,
+      "output_tokens": 115,
+      "total_tokens": 375,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 260,
+        "text_tokens": 0
+      }
+    }
+  }
+}

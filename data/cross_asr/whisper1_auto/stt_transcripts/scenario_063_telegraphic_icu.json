@@ -1,0 +1,25 @@
+{
+  "sample_id": "scenario_063_telegraphic_icu",
+  "whisper_transcript": "Tidgis Fawzi, Yowon, BP1. BP, Keverikbling, Haichi, Kuipem, Biharar, Lani, Sardichepem, 86, Prokaryotepethin RA. Moderate abdominal pain. Cephtriaxone, 2-gram IVQ, no retch. NC2, and FoliUG. Strict IO, drowsy. Doc notify.",
+  "stt_metadata": {
+    "asr_system": "whisper1_auto",
+    "provider": "openai",
+    "model": "whisper-1",
+    "language": null,
+    "audio_path": "data/audio/scenario_063_telegraphic_icu.mp3",
+    "audio_sha256": "2a614286c278c486d2305e04fe22c3c757f99b0f69647f06bfba2320f10bcbe7",
+    "transcribed_at": "2026-11-04T13:57:42+00:00",
+    "request_seconds": 2.6,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "Tidgis Fawzi, Yowon, BP1. BP, Keverikbling, Haichi, Kuipem, Biharar, Lani, Sardichepem, 86, Prokaryotepethin RA. Moderate abdominal pain. Cephtriaxone, 2-gram IVQ, no retch. NC2, and FoliUG. Strict IO, drowsy. Doc notify.",
+    "logprobs": null,
+    "usage": {
+      "seconds": 15.0,
+      "type": "duration"
+    }
+  }
+}

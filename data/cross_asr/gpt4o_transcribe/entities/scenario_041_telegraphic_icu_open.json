@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_041_telegraphic_icu",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "ascites",
+        "negation": false,
+        "severity": "moderate"
+      }
+    ],
+    "clinical_status": "Drowsy",
+    "medication_identity": "Furosemide",
+    "interventions": [],
+    "intake_output": "Urine output 1200 mL/24hr",
+    "notification": null
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "사이디스 (ascites)",
+        "negation": false,
+        "severity": "moderate"
+      }
+    ],
+    "clinical_status": "드라우지",
+    "medication_identity": "퓨로스마이드",
+    "interventions": [],
+    "intake_output": "유린 아웃풋 1200ml 24R",
+    "notification": null
+  }
+}

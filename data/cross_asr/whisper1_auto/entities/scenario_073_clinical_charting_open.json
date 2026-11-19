@@ -1,0 +1,36 @@
+{
+  "sample_id": "scenario_073_clinical_charting",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "shortness of breath",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "alert",
+    "medication_identity": "Furosemide",
+    "interventions": [],
+    "intake_output": "Positive fluid balance 200 mL over the last 24 hours",
+    "notification": null
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "shortness of breath",
+        "negation": false,
+        "severity": "severe"
+      },
+      {
+        "name": "mitral valve regurgitation",
+        "negation": false,
+        "severity": null
+      }
+    ],
+    "clinical_status": "alert",
+    "medication_identity": "Furosemide",
+    "interventions": [],
+    "intake_output": "Positive fluid balance 200 ml over the last 24 hours",
+    "notification": null
+  }
+}

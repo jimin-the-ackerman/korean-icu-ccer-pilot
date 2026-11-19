@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_053_telegraphic_icu",
+  "whisper_transcript": "67 남성 환자, COPD 급성 악화 및 곱부전으로 입원, BP 85/85 mmHg, BPM 8R 28 bpm, BT 37.6, SpO2 88% Room Air, Dyspnea severe, Prednisone 40 mg PO, NIV 사용, Ventilator 사용, Clinical status Drowsy, Pulmonologist notify.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": "ko",
+    "audio_path": "data/audio/scenario_053_telegraphic_icu.mp3",
+    "audio_sha256": "fc155fea6af7001060227f25983265f2f9f759488582bfb16b3b90511701137c",
+    "transcribed_at": "2026-11-04T12:59:15+00:00",
+    "request_seconds": 1.51,
+    "attempts": 1,
+    "git_commit": "5b6d73fb63e1509a79e1a160176d606ed1b104c4",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "67 남성 환자, COPD 급성 악화 및 곱부전으로 입원, BP 85/85 mmHg, BPM 8R 28 bpm, BT 37.6, SpO2 88% Room Air, Dyspnea severe, Prednisone 40 mg PO, NIV 사용, Ventilator 사용, Clinical status Drowsy, Pulmonologist notify.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 200,
+      "output_tokens": 83,
+      "total_tokens": 283,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 200,
+        "text_tokens": 0
+      }
+    }
+  }
+}

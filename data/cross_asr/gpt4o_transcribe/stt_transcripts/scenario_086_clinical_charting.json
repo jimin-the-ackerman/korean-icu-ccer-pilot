@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_086_clinical_charting",
+  "whisper_transcript": "55세 여성 환자 AML로 입원, febrile neutropenia 경험 중. BP 96 mmHg 확인됨. HR 110 bpm 확인됨. RR 52 min 확인됨. BT 39.6°C severe fever 확인됨. SpO2 96% on room air 확인됨. Piperacillin tazobactam 4g IV q6h 투여 시작함. Antibiotic therapy initiated. 환자 상태 drowsy 확인됨. 담당에 notify함 febrile neutropenia 및 치료 계획 복원.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": "ko",
+    "audio_path": "data/audio/scenario_086_clinical_charting.mp3",
+    "audio_sha256": "b961b72e653c4da7812233869e6b7caaa0f6b8d5ed69e0904607a11fc585c02b",
+    "transcribed_at": "2026-11-04T13:03:51+00:00",
+    "request_seconds": 1.94,
+    "attempts": 1,
+    "git_commit": "5b6d73fb63e1509a79e1a160176d606ed1b104c4",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "55세 여성 환자 AML로 입원, febrile neutropenia 경험 중. BP 96 mmHg 확인됨. HR 110 bpm 확인됨. RR 52 min 확인됨. BT 39.6°C severe fever 확인됨. SpO2 96% on room air 확인됨. Piperacillin tazobactam 4g IV q6h 투여 시작함. Antibiotic therapy initiated. 환자 상태 drowsy 확인됨. 담당에 notify함 febrile neutropenia 및 치료 계획 복원.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 270,
+      "output_tokens": 116,
+      "total_tokens": 386,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 270,
+        "text_tokens": 0
+      }
+    }
+  }
+}

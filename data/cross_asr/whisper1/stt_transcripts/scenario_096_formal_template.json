@@ -1,0 +1,25 @@
+{
+  "sample_id": "scenario_096_formal_template",
+  "whisper_transcript": "환자는 50세 남성으로 좌심부전으로 인한 급성 폐부종으로 입원하였다. 활력증후는 혈압 160mg, 심박수 110bpm, 호흡수 28breaths 및 제온 37.0°C이며 산소포화도는 실내 공기에서 88%였고, Urea O2를 비강 케큘라로 투여시 95%로 확인되었다. 환자는 심한 호흡곤란을 호소하였다. 현재 Furosemide 40mg을 IV로 BID 투여 중이다. Urea O2를 비강 케큘라로 제공받고 있으며 폴리 카테터가 삽입되어 있다. 24시간 동안 500ml의 음성 수분 균형이 확인되었다. 환자는 의식이 명료한 상태이다. 추가 관리가 필요하여 심장내과팀에 보고하였다.",
+  "stt_metadata": {
+    "asr_system": "whisper1",
+    "provider": "reuse_existing",
+    "model": "whisper-1",
+    "language": "ko",
+    "audio_path": "data/audio/scenario_096_formal_template.mp3",
+    "audio_sha256": "9d94136770cc84b7e7ec452a8f00787a73346545c1480f96d925ad434433c48e",
+    "copied_at": "2026-11-04T04:31:12+00:00",
+    "request_seconds": 0.0,
+    "attempts": 1,
+    "git_commit": "b3490181b3fb3f88b56cde5be78a01cfdcef3007",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "source_file": "data/stt_transcripts/scenario_096_formal_template.json",
+    "source_sha256": "9b0bb4e25a85fa9b8f81c51930e6d0b8879473de39597a30bc5c31f7cfae596b",
+    "source_stt_metadata": {
+      "model": "whisper-1",
+      "language": "ko"
+    }
+  }
+}

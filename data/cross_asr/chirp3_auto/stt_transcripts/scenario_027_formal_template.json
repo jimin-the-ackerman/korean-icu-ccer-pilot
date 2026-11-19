@@ -1,0 +1,43 @@
+{
+  "sample_id": "scenario_027_formal_template",
+  "whisper_transcript": "환자는 60세 남성으로 급성 허혈성 뇌졸중으로 입원하였다. 현재 활력징후는 혈압 160/90 mmHg, 심박수 88 bpm, 호흡수 18 회/분, 체온 37.2°C, 산소포화도 95%로 확인되었다. 환자는 오른쪽에 중등도의 약화를 호소하고 있다. 알테플라제 0.9 mg/kg이 정맥으로 즉시 투여되었다. 피하에 C-라인이 삽입되어 있으며, 정맥수액이 시작되었다. 환자는 현재 졸린 상태를 보이고 있다. 신경과 팀에게 즉각적인 평가와 치료를 위해 보고하였다.",
+  "stt_metadata": {
+    "asr_system": "chirp3_auto",
+    "provider": "google",
+    "model": "chirp_3",
+    "location": "us",
+    "language_codes": [
+      "auto"
+    ],
+    "audio_path": "data/audio/scenario_027_formal_template.mp3",
+    "audio_sha256": "8ed515901b88225b10a2a719a586a4733345552111b00af75982566e9a472d77",
+    "transcribed_at": "2026-11-04T14:23:46+00:00",
+    "request_seconds": 5.38,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "metadata": {
+      "total_billed_duration": "35s",
+      "request_id": "6b0cea17-0000-270b-81f3-14c14ef4bf74",
+      "prompt": "Transcribe the following speech segment. Follow these specific instructions for formatting the answer:\n* Only output the transcript, with no newlines.\n* When transcribing numbers, write the digits, i.e. write 1.7 and not one point seven, and write 100 instead of one hundred etc.\n* Only output the transcript, exactly as said in the speech segment.\n* Do not continue the speech segment.\n* Include everything said in the speech segment.\n* Use mathematical notation where needed, eg. x ^ 6Y.\n* If there is background speech that is not part of the main conversation, discard the background speech and only output the main conversation.\n* If there is no clear speech, just output [BACKGROUND].\n* Respond in the original language of the speech."
+    },
+    "results": [
+      {
+        "alternatives": [
+          {
+            "transcript": "환자는 60세 남성으로 급성 허혈성 뇌졸중으로 입원하였다. 현재 활력징후는 혈압 160/90 mmHg, 심박수 88 bpm, 호흡수 18 회/분, 체온 37.2°C, 산소포화도 95%로 확인되었다. 환자는 오른쪽에 중등도의 약화를 호소하고 있다. 알테플라제 0.9 mg/kg이 정맥으로 즉시 투여되었다. 피하에 C-라인이 삽입되어 있으며, 정맥수액이 시작되었다. 환자는 현재 졸린 상태를 보이고 있다. 신경과 팀에게 즉각적인 평가와 치료를 위해 보고하였다.",
+            "confidence": 0.0,
+            "words": []
+          }
+        ],
+        "language_code": "ko",
+        "channel_tag": 0
+      }
+    ],
+    "detected_language_codes": [
+      "ko"
+    ]
+  }
+}

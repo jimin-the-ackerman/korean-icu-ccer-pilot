@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_073_telegraphic_icu",
+  "whisper_transcript": "62세 남성 환자. Acute pulmonary edema, severe mitral valve regurgitation E1. BP 110 70mmHgams. HR 98 BPM, RR 28 breaths min. BT 36.8 grease. SpO2 88% on room air, shortness of breath severe. Furosemide 40mg IV Q8H. Non-rebreather mask 15ml min, fully ud. Positive fluid balance 200ml 24 and 환자 alert.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe_auto",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": null,
+    "audio_path": "data/audio/scenario_073_telegraphic_icu.mp3",
+    "audio_sha256": "fba5f9665cc7a1810e578771a69457c1b474a6566c15627554bed9a27e7f5cce",
+    "transcribed_at": "2026-11-04T14:12:16+00:00",
+    "request_seconds": 1.78,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "62세 남성 환자. Acute pulmonary edema, severe mitral valve regurgitation E1. BP 110 70mmHgams. HR 98 BPM, RR 28 breaths min. BT 36.8 grease. SpO2 88% on room air, shortness of breath severe. Furosemide 40mg IV Q8H. Non-rebreather mask 15ml min, fully ud. Positive fluid balance 200ml 24 and 환자 alert.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 236,
+      "output_tokens": 104,
+      "total_tokens": 340,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 236,
+        "text_tokens": 0
+      }
+    }
+  }
+}

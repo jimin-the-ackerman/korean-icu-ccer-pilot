@@ -1,0 +1,36 @@
+{
+  "sample_id": "scenario_083_telegraphic_icu",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "dyspnea",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "Drowsy",
+    "medication_identity": "Furosemide",
+    "interventions": [],
+    "intake_output": null,
+    "notification": null
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "呼吸困難",
+        "negation": false,
+        "severity": "severe"
+      },
+      {
+        "name": "眠気",
+        "negation": false,
+        "severity": null
+      }
+    ],
+    "clinical_status": "眠気",
+    "medication_identity": "フロセミド",
+    "interventions": [],
+    "intake_output": null,
+    "notification": null
+  }
+}

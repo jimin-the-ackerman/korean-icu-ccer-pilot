@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_098_clinical_charting",
+  "whisper_transcript": "58세 여성 환자 severe hemolytic uremic syndrome로 입원함. BP 98/61mmHg, HR 110 bpm, RR 24 bpm, BT 선지차점, SpO2 92%임. severe fatigue 호소함. methylprednisolone 500mg IV q4h 적용함. nasal cannula로 oxygen support 유지함. C-line 유지함. negative fluid balance 확인됨. 환자 drowsy 상태임. hematology notify함.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": "ko",
+    "audio_path": "data/audio/scenario_098_clinical_charting.mp3",
+    "audio_sha256": "a0a0c5b747742b9f3b86d42aa97fe28a33ab951485dbfffa63e0192394bc45ab",
+    "transcribed_at": "2026-11-04T13:05:12+00:00",
+    "request_seconds": 1.89,
+    "attempts": 1,
+    "git_commit": "5b6d73fb63e1509a79e1a160176d606ed1b104c4",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "58세 여성 환자 severe hemolytic uremic syndrome로 입원함. BP 98/61mmHg, HR 110 bpm, RR 24 bpm, BT 선지차점, SpO2 92%임. severe fatigue 호소함. methylprednisolone 500mg IV q4h 적용함. nasal cannula로 oxygen support 유지함. C-line 유지함. negative fluid balance 확인됨. 환자 drowsy 상태임. hematology notify함.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 244,
+      "output_tokens": 105,
+      "total_tokens": 349,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 244,
+        "text_tokens": 0
+      }
+    }
+  }
+}

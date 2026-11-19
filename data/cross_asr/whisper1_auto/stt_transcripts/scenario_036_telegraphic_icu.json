@@ -1,0 +1,25 @@
+{
+  "sample_id": "scenario_036_telegraphic_icu",
+  "whisper_transcript": "We've said that to incapsulant on she got quite a one BP hitting on 35 millimeter Herman HR BPM are 28 breaths min BT 37.2 degrees Celsius SBO to 88% room air wheezing severe albuterol 2.5 milligram IV Q4 H high flow nasal cannulas high on ventilator sound you negative fluid balance drowsy RT notify ventilator quantity.",
+  "stt_metadata": {
+    "asr_system": "whisper1_auto",
+    "provider": "openai",
+    "model": "whisper-1",
+    "language": null,
+    "audio_path": "data/audio/scenario_036_telegraphic_icu.mp3",
+    "audio_sha256": "82906fb425a531d96259c668a21bc4b5a3381ed447c5f8c12d9040a2e5afd90b",
+    "transcribed_at": "2026-11-04T13:53:14+00:00",
+    "request_seconds": 2.37,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "We've said that to incapsulant on she got quite a one BP hitting on 35 millimeter Herman HR BPM are 28 breaths min BT 37.2 degrees Celsius SBO to 88% room air wheezing severe albuterol 2.5 milligram IV Q4 H high flow nasal cannulas high on ventilator sound you negative fluid balance drowsy RT notify ventilator quantity.",
+    "logprobs": null,
+    "usage": {
+      "seconds": 21.0,
+      "type": "duration"
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_062_telegraphic_icu",
+  "whisper_transcript": "44 남성 이글원, BP 96mmHg, HR 125, RR 28 breaths/min, BT 37.2, SPO2 86% room air, severe chest pain, 헤파린 5000 units IV q4h, high flow nasal cannula 적용, C-line 유지, negative fluid balance, drowsy, Dr. notify.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe_auto",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": null,
+    "audio_path": "data/audio/scenario_062_telegraphic_icu.mp3",
+    "audio_sha256": "f5ffcfbbdd29615e633e2f8aa99c4fdfe653af3f0e355499cf498612da08df37",
+    "transcribed_at": "2026-11-04T14:11:03+00:00",
+    "request_seconds": 1.37,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "44 남성 이글원, BP 96mmHg, HR 125, RR 28 breaths/min, BT 37.2, SPO2 86% room air, severe chest pain, 헤파린 5000 units IV q4h, high flow nasal cannula 적용, C-line 유지, negative fluid balance, drowsy, Dr. notify.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 192,
+      "output_tokens": 78,
+      "total_tokens": 270,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 192,
+        "text_tokens": 0
+      }
+    }
+  }
+}

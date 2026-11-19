@@ -1,0 +1,25 @@
+{
+  "sample_id": "scenario_013_telegraphic_icu",
+  "whisper_transcript": "Thursday, I sang Cupsong Sagan Song Smagam Iwon, BP1700HR100BPM, R24 Breaths Min, B30 Nambutanahirs, SpO2 95% room air, headache severe, Cephtriaxone 2 Gam IV Q12H, C-line in place, Sangtae Drowzee.",
+  "stt_metadata": {
+    "asr_system": "whisper1_auto",
+    "provider": "openai",
+    "model": "whisper-1",
+    "language": null,
+    "audio_path": "data/audio/scenario_013_telegraphic_icu.mp3",
+    "audio_sha256": "6a471452fca88dbcdd06745edca3f623ef780576ae398690a4ef43e2d42c8281",
+    "transcribed_at": "2026-11-04T13:50:44+00:00",
+    "request_seconds": 3.34,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "Thursday, I sang Cupsong Sagan Song Smagam Iwon, BP1700HR100BPM, R24 Breaths Min, B30 Nambutanahirs, SpO2 95% room air, headache severe, Cephtriaxone 2 Gam IV Q12H, C-line in place, Sangtae Drowzee.",
+    "logprobs": null,
+    "usage": {
+      "seconds": 16.0,
+      "type": "duration"
+    }
+  }
+}

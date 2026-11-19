@@ -1,0 +1,25 @@
+{
+  "sample_id": "scenario_028_clinical_charting",
+  "whisper_transcript": "54-year-old male patient with acute hemorrhagic stroke. BP 0.8 and 100 milligrams. HR, thyroid BP, RR, RCD breaths, MIN, BT, 36.8 Celsius, SpO2 starting at 5% on room air. Severe headache complaint. Levitolol is a milligram stat 2. CT scan of the head. C-line application. For 24 hours, 500 milliliter positive fluid balance is confirmed. The patient is in a stupor. Neurology team notify him.",
+  "stt_metadata": {
+    "asr_system": "whisper1_auto",
+    "provider": "openai",
+    "model": "whisper-1",
+    "language": null,
+    "audio_path": "data/audio/scenario_028_clinical_charting.mp3",
+    "audio_sha256": "f9b11792d76b117a3ccad1c2425fe342b717087861243980c25519f227539b3b",
+    "transcribed_at": "2026-11-04T13:52:10+00:00",
+    "request_seconds": 2.13,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "54-year-old male patient with acute hemorrhagic stroke. BP 0.8 and 100 milligrams. HR, thyroid BP, RR, RCD breaths, MIN, BT, 36.8 Celsius, SpO2 starting at 5% on room air. Severe headache complaint. Levitolol is a milligram stat 2. CT scan of the head. C-line application. For 24 hours, 500 milliliter positive fluid balance is confirmed. The patient is in a stupor. Neurology team notify him.",
+    "logprobs": null,
+    "usage": {
+      "seconds": 27.0,
+      "type": "duration"
+    }
+  }
+}

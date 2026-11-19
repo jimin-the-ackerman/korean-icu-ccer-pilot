@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_083_telegraphic_icu",
+  "whisper_transcript": "61歳男性、急性肺水腫二次性急性僧帽弁逆流E1、BP1690、HR110、RR28、BT37.2度、SpO288%、呼吸困難重度、フロセミド40mg IVQ6H、非再呼吸マスク、Cライン、傾眠。",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": "ko",
+    "audio_path": "data/audio/scenario_083_telegraphic_icu.mp3",
+    "audio_sha256": "6cd57bf686900c0a237ef6b26aa3064216b920fdfa87d8d2d8d1b519677ece50",
+    "transcribed_at": "2026-11-04T13:03:37+00:00",
+    "request_seconds": 1.56,
+    "attempts": 1,
+    "git_commit": "5b6d73fb63e1509a79e1a160176d606ed1b104c4",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "61歳男性、急性肺水腫二次性急性僧帽弁逆流E1、BP1690、HR110、RR28、BT37.2度、SpO288%、呼吸困難重度、フロセミド40mg IVQ6H、非再呼吸マスク、Cライン、傾眠。",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 166,
+      "output_tokens": 80,
+      "total_tokens": 246,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 166,
+        "text_tokens": 0
+      }
+    }
+  }
+}

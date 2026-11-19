@@ -1,0 +1,40 @@
+{
+  "sample_id": "scenario_048_telegraphic_icu",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "위장출혈",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "Drowsy",
+    "medication_identity": "Octreotide",
+    "interventions": [
+      "Endoscopic band ligation"
+    ],
+    "intake_output": "I/O strict monitoring",
+    "notification": "Dr notify"
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "hematemesis/hemorrhage (혈흔 출혈)",
+        "negation": false,
+        "severity": "severe"
+      },
+      {
+        "name": "drowsy",
+        "negation": false,
+        "severity": null
+      }
+    ],
+    "clinical_status": "drowsy",
+    "medication_identity": "Octreotide",
+    "interventions": [
+      "Endoscopic band ligation"
+    ],
+    "intake_output": "I/O strict monitoring",
+    "notification": "doctor notify"
+  }
+}

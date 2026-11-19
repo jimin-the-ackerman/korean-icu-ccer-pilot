@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_045_clinical_charting",
+  "whisper_transcript": "육십이세 여성 환자, 애디슨스 디지즈로 인한 acute adrenal crisis로 입원. BP H8bpm 53mmHg, HR 112bpm, RR 14 breaths/min, BT 37.0°C, SpO2 92% room air. Severe abdominal pain 호소함. Hydrocortisone 100mg IV stat 투여함. Nasal cannula 2L/min 적용함. Fluid resuscitation with normal saline 시행함. Foley UGM, urine output 30ml/hr 확인됨. 환자 drowsy 상태임. Endocrinology consult for management of adrenal insufficiency.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": "ko",
+    "audio_path": "data/audio/scenario_045_clinical_charting.mp3",
+    "audio_sha256": "cbe4a48db156760a301a43aff9965304419b07a21308b7db679a478c895445f5",
+    "transcribed_at": "2026-11-04T12:58:16+00:00",
+    "request_seconds": 2.47,
+    "attempts": 1,
+    "git_commit": "5b6d73fb63e1509a79e1a160176d606ed1b104c4",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "육십이세 여성 환자, 애디슨스 디지즈로 인한 acute adrenal crisis로 입원. BP H8bpm 53mmHg, HR 112bpm, RR 14 breaths/min, BT 37.0°C, SpO2 92% room air. Severe abdominal pain 호소함. Hydrocortisone 100mg IV stat 투여함. Nasal cannula 2L/min 적용함. Fluid resuscitation with normal saline 시행함. Foley UGM, urine output 30ml/hr 확인됨. 환자 drowsy 상태임. Endocrinology consult for management of adrenal insufficiency.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 316,
+      "output_tokens": 139,
+      "total_tokens": 455,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 316,
+        "text_tokens": 0
+      }
+    }
+  }
+}

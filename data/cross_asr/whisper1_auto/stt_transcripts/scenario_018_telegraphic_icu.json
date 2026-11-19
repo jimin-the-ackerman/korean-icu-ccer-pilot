@@ -1,0 +1,26 @@
+{
+  "sample_id": "scenario_018_telegraphic_icu",
+  "whisper_transcript": "66-NAMAN, KBSONG WI JANGGWAN CHUNGGONG, BP100, 60HR110BR, 20BREATH20BRAND, BT38% SPO2, 94% SEVERE ABDOMINAL PAIN, PIPERACILLIN TAZOBACTIM, 4-POINT BRAVS IVQ6H, NASAL CANNULA, EMERGENCY LAPAROTOMY, NEGATIVE FLUID BALANCE, ALERT, SURGICAL TEAM NOTIFY.",
+  "stt_metadata": {
+    "asr_system": "whisper1_auto",
+    "provider": "openai",
+    "model": "whisper-1",
+    "language": null,
+    "scope": "pilot",
+    "audio_path": "data/audio/scenario_018_telegraphic_icu.mp3",
+    "audio_sha256": "866d79daf134d412b4e1a8bcc6c150b11cd2acf7f8212521b25606c9d4e025c9",
+    "transcribed_at": "2026-11-04T13:40:40+00:00",
+    "request_seconds": 2.07,
+    "attempts": 1,
+    "git_commit": "5b6d73fb63e1509a79e1a160176d606ed1b104c4",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "66-NAMAN, KBSONG WI JANGGWAN CHUNGGONG, BP100, 60HR110BR, 20BREATH20BRAND, BT38% SPO2, 94% SEVERE ABDOMINAL PAIN, PIPERACILLIN TAZOBACTIM, 4-POINT BRAVS IVQ6H, NASAL CANNULA, EMERGENCY LAPAROTOMY, NEGATIVE FLUID BALANCE, ALERT, SURGICAL TEAM NOTIFY.",
+    "logprobs": null,
+    "usage": {
+      "seconds": 19.0,
+      "type": "duration"
+    }
+  }
+}

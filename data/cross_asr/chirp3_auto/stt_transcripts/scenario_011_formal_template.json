@@ -1,0 +1,43 @@
+{
+  "sample_id": "scenario_011_formal_template",
+  "whisper_transcript": "62세 남자 환자가 B형 간염으로 인한 급성 간부전으로 입원하였다. 활력증후는 혈압 102/68 mmHg, 심박수 88 bpm, 호흡수 20회/분, 체온 37.2°C, 산소포화도 95%로 확인되었다. 환자는 중증의 황달 증상을 보이고 있으며, 락툴로스 30 ml가 경구로 하루 3회 투여 중이다. 산소 지원은 비강 캐눌라로 1 L/min 제공되고 있다. 폴리 카테터가 삽입되어 있으며, 임상 상태는 졸린 상태로 확인되었다. 간 기능 검사 악화에 대해 간 전문 팀에게 보고하였다.",
+  "stt_metadata": {
+    "asr_system": "chirp3_auto",
+    "provider": "google",
+    "model": "chirp_3",
+    "location": "us",
+    "language_codes": [
+      "auto"
+    ],
+    "audio_path": "data/audio/scenario_011_formal_template.mp3",
+    "audio_sha256": "bb7c9f935d1bf88333977a3e471e21e31f8646b53030920e0aa41dc268976428",
+    "transcribed_at": "2026-11-04T14:19:43+00:00",
+    "request_seconds": 6.04,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "metadata": {
+      "total_billed_duration": "36s",
+      "request_id": "73a11c83-0000-245d-9337-ac3eb1486d20",
+      "prompt": "Transcribe the following speech segment. Follow these specific instructions for formatting the answer:\n* Only output the transcript, with no newlines.\n* When transcribing numbers, write the digits, i.e. write 1.7 and not one point seven, and write 100 instead of one hundred etc.\n* Only output the transcript, exactly as said in the speech segment.\n* Do not continue the speech segment.\n* Include everything said in the speech segment.\n* Use mathematical notation where needed, eg. x ^ 6Y.\n* If there is background speech that is not part of the main conversation, discard the background speech and only output the main conversation.\n* If there is no clear speech, just output [BACKGROUND].\n* Respond in the original language of the speech."
+    },
+    "results": [
+      {
+        "alternatives": [
+          {
+            "transcript": "62세 남자 환자가 B형 간염으로 인한 급성 간부전으로 입원하였다. 활력증후는 혈압 102/68 mmHg, 심박수 88 bpm, 호흡수 20회/분, 체온 37.2°C, 산소포화도 95%로 확인되었다. 환자는 중증의 황달 증상을 보이고 있으며, 락툴로스 30 ml가 경구로 하루 3회 투여 중이다. 산소 지원은 비강 캐눌라로 1 L/min 제공되고 있다. 폴리 카테터가 삽입되어 있으며, 임상 상태는 졸린 상태로 확인되었다. 간 기능 검사 악화에 대해 간 전문 팀에게 보고하였다.",
+            "confidence": 0.0,
+            "words": []
+          }
+        ],
+        "language_code": "ko",
+        "channel_tag": 0
+      }
+    ],
+    "detected_language_codes": [
+      "ko"
+    ]
+  }
+}

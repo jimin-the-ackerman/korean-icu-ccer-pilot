@@ -1,0 +1,43 @@
+{
+  "sample_id": "scenario_019_formal_template",
+  "whisper_transcript": "환자는 40세 여성으로 땅콩 노출로 심각한 알레르기 반응 아나필락시스로 입원하였다. 활력 징후는 혈압 85/50 mmHg, 심박수 120 bpm, 호흡수 28 breath/min, 체온 36.8°C, 산소 포화도는 실내 공기에서 89%로 확인되었다. 환자는 안면과 입술에 심한 부종을 보였다. 에피네프린 0.3 mg을 근육 주사로 즉시 투여하였다. 고유량 비강 캐눌라를 사용하여 산소를 공급하고 있으며 정맥 내 수액을 투여하였다. 소변 배출량은 시간당 50 ml로 측정되었다. 환자는 졸린 상태로 관찰되었다. 알레르기 팀에게 추가 관리를 위해 보고하였다.",
+  "stt_metadata": {
+    "asr_system": "chirp3_ko",
+    "provider": "google",
+    "model": "chirp_3",
+    "location": "us",
+    "language_codes": [
+      "ko-KR"
+    ],
+    "audio_path": "data/audio/scenario_019_formal_template.mp3",
+    "audio_sha256": "485f083f6beb555ff09e07c59466d7decf59aec0be34b4e07f791c4e5b8ab7ee",
+    "transcribed_at": "2026-11-04T13:14:11+00:00",
+    "request_seconds": 5.87,
+    "attempts": 1,
+    "git_commit": "5b6d73fb63e1509a79e1a160176d606ed1b104c4",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "metadata": {
+      "total_billed_duration": "43s",
+      "request_id": "74ed6051-0000-2618-bd98-fc41166d0851",
+      "prompt": "Transcribe the following speech segment in Korean. Follow these specific instructions for formatting the answer:\n* Only output the transcript, with no newlines.\n* When transcribing numbers, write the digits, i.e. write 1.7 and not one point seven, and write 100 instead of one hundred etc.\n* Only output the transcript, exactly as said in the speech segment.\n* Do not continue the speech segment.\n* Include everything said in the speech segment.\n* Use mathematical notation where needed, eg. x ^ 6Y.\n* If there is background speech that is not part of the main conversation, discard the background speech and only output the main conversation.\n* If there is no clear speech, just output [BACKGROUND].\n* Respond in the original language of the speech, Korean."
+    },
+    "results": [
+      {
+        "alternatives": [
+          {
+            "transcript": "환자는 40세 여성으로 땅콩 노출로 심각한 알레르기 반응 아나필락시스로 입원하였다. 활력 징후는 혈압 85/50 mmHg, 심박수 120 bpm, 호흡수 28 breath/min, 체온 36.8°C, 산소 포화도는 실내 공기에서 89%로 확인되었다. 환자는 안면과 입술에 심한 부종을 보였다. 에피네프린 0.3 mg을 근육 주사로 즉시 투여하였다. 고유량 비강 캐눌라를 사용하여 산소를 공급하고 있으며 정맥 내 수액을 투여하였다. 소변 배출량은 시간당 50 ml로 측정되었다. 환자는 졸린 상태로 관찰되었다. 알레르기 팀에게 추가 관리를 위해 보고하였다.",
+            "confidence": 0.0,
+            "words": []
+          }
+        ],
+        "language_code": "ko-KR",
+        "channel_tag": 0
+      }
+    ],
+    "detected_language_codes": [
+      "ko-KR"
+    ]
+  }
+}

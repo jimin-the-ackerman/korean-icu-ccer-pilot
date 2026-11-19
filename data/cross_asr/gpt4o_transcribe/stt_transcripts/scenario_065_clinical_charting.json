@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_065_clinical_charting",
+  "whisper_transcript": "56세 여성 환자, TEN으로 입원함. BP 113/68mmHg, HR 88 bpm, RR 20 breaths/min, BP 38.5도 Celsius, SpO2 97%. Severe skin rash 확인됨. Methylprednisolone 1000mg IV q6h 투여함, IV fluids 1000mL/hr 유지함. 환자 alert 상태 유지함.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": "ko",
+    "audio_path": "data/audio/scenario_065_clinical_charting.mp3",
+    "audio_sha256": "ca1d10b0fced77fc569b37d1dd1c602e1d08fccd6dcb25aad09c971d3efb2984",
+    "transcribed_at": "2026-11-04T13:00:43+00:00",
+    "request_seconds": 1.66,
+    "attempts": 1,
+    "git_commit": "5b6d73fb63e1509a79e1a160176d606ed1b104c4",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "56세 여성 환자, TEN으로 입원함. BP 113/68mmHg, HR 88 bpm, RR 20 breaths/min, BP 38.5도 Celsius, SpO2 97%. Severe skin rash 확인됨. Methylprednisolone 1000mg IV q6h 투여함, IV fluids 1000mL/hr 유지함. 환자 alert 상태 유지함.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 204,
+      "output_tokens": 88,
+      "total_tokens": 292,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 204,
+        "text_tokens": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_046_telegraphic_icu",
+  "whisper_transcript": "61歲男患者，acute subdural hematoma E1，BP輕微上升，HR60左右，BT37.8，SpO2介於百分之八十，severe headache，Mannitol Begram IV q6h，intracranial pressure monitoring，患者drowsy.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe_auto",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": null,
+    "audio_path": "data/audio/scenario_046_telegraphic_icu.mp3",
+    "audio_sha256": "31ee686ba3dbce91b5eb4bf5a175852410415a4380afd7d7c79bcd365a882c81",
+    "transcribed_at": "2026-11-04T14:09:21+00:00",
+    "request_seconds": 1.3,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "61歲男患者，acute subdural hematoma E1，BP輕微上升，HR60左右，BT37.8，SpO2介於百分之八十，severe headache，Mannitol Begram IV q6h，intracranial pressure monitoring，患者drowsy.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 143,
+      "output_tokens": 68,
+      "total_tokens": 211,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 143,
+        "text_tokens": 0
+      }
+    }
+  }
+}

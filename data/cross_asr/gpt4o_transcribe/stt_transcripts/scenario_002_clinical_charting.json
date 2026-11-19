@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_002_clinical_charting",
+  "whisper_transcript": "50세 여성 환자 DKA로 입원함. BP 60/40, HR variable, RR s/p at grace, SpO2 75%. Nausea moderate 호소함. 인슐린 units q8 적용함. Fluid resuscitation 시행함. Urine output low 확인됨. Patient drowsy 상태임. Endocrinology consult 함.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": "ko",
+    "audio_path": "data/audio/scenario_002_clinical_charting.mp3",
+    "audio_sha256": "14384213b0ac67b48bd1172a54928469a44bb6221f1fed2ce0f34d6e9d43b983",
+    "transcribed_at": "2026-11-04T12:53:42+00:00",
+    "request_seconds": 1.79,
+    "attempts": 1,
+    "git_commit": "5b6d73fb63e1509a79e1a160176d606ed1b104c4",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "50세 여성 환자 DKA로 입원함. BP 60/40, HR variable, RR s/p at grace, SpO2 75%. Nausea moderate 호소함. 인슐린 units q8 적용함. Fluid resuscitation 시행함. Urine output low 확인됨. Patient drowsy 상태임. Endocrinology consult 함.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 193,
+      "output_tokens": 81,
+      "total_tokens": 274,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 193,
+        "text_tokens": 0
+      }
+    }
+  }
+}

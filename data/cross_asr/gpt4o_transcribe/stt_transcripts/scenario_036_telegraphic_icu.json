@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_036_telegraphic_icu",
+  "whisper_transcript": "급성 천식 악화로 입원, BP 120/35mmHg, BPM RR 28 breaths/min, BT 37.2°C, SpO2 88% room air, wheezing severe, albuterol 2.5mg IV q4h, high flow nasal cannula 사용, ventilator 사용 중, negative fluid balance, drowsy, RT notify ventilator 권리.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": "ko",
+    "audio_path": "data/audio/scenario_036_telegraphic_icu.mp3",
+    "audio_sha256": "82906fb425a531d96259c668a21bc4b5a3381ed447c5f8c12d9040a2e5afd90b",
+    "transcribed_at": "2026-11-04T12:57:22+00:00",
+    "request_seconds": 1.7,
+    "attempts": 1,
+    "git_commit": "5b6d73fb63e1509a79e1a160176d606ed1b104c4",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "급성 천식 악화로 입원, BP 120/35mmHg, BPM RR 28 breaths/min, BT 37.2°C, SpO2 88% room air, wheezing severe, albuterol 2.5mg IV q4h, high flow nasal cannula 사용, ventilator 사용 중, negative fluid balance, drowsy, RT notify ventilator 권리.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 206,
+      "output_tokens": 86,
+      "total_tokens": 292,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 206,
+        "text_tokens": 0
+      }
+    }
+  }
+}

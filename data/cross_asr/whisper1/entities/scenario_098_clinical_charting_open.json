@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_098_clinical_charting",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "fatigue",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "drowsy",
+    "medication_identity": "Methylprednisolone",
+    "interventions": [],
+    "intake_output": "negative fluid balance",
+    "notification": "Hematology notify함"
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "fatigue",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "드라우지 상태 (drowsy)",
+    "medication_identity": "Methylprednisolone",
+    "interventions": [],
+    "intake_output": "Negative fluid balance 확인됨",
+    "notification": "Hematology notify함"
+  }
+}

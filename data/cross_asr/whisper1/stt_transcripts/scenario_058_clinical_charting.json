@@ -1,0 +1,25 @@
+{
+  "sample_id": "scenario_058_clinical_charting",
+  "whisper_transcript": "68세 남성 환자, acute exacerbation of chronic heart failure로 입원. Fluid overload 및 디스티니아 호소함. BP 140-90mmHg, HR 핵심비햄, RRW4 breaths min, BT32.6 cells, SbO2dcg%, room air. 디스티니아 moderate level 확인됨. Furosemide 40mg IVBID 적용함. Oxygen support 2L nasal cannula 적용함. Foley 유지함. Positive fluid balance 확인됨. Clinical status alert 유지함.",
+  "stt_metadata": {
+    "asr_system": "whisper1",
+    "provider": "reuse_existing",
+    "model": "whisper-1",
+    "language": "ko",
+    "audio_path": "data/audio/scenario_058_clinical_charting.mp3",
+    "audio_sha256": "b9b363877bcbaaa34c19732224c19627ca2c2ae2687c4ce71831178eefb6591e",
+    "copied_at": "2026-11-04T04:31:12+00:00",
+    "request_seconds": 0.0,
+    "attempts": 1,
+    "git_commit": "b3490181b3fb3f88b56cde5be78a01cfdcef3007",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "source_file": "data/stt_transcripts/scenario_058_clinical_charting.json",
+    "source_sha256": "f2eaa4f3818f2d3bd67d7d7eecc621a227c66559c86bb7e8c46fa67c74f715a9",
+    "source_stt_metadata": {
+      "model": "whisper-1",
+      "language": "ko"
+    }
+  }
+}

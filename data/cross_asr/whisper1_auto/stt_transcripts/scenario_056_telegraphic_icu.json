@@ -1,0 +1,25 @@
+{
+  "sample_id": "scenario_056_telegraphic_icu",
+  "whisper_transcript": "SORTISAE YEOSUNG, KUPSUNG CHUNSHIGAK HWARU IWON, BPUN5 PEDIVALUM BRAIN, HR HEKSHINK BPM RR 32 BREATHS MIN, BT37 DON'T HOVER GRAY CELLS, SPO2 88% RA, WHEEZING SEVERE, ALBEDORAL 2.0 mg IV Q4H, HFNG TUBES HABIPDEM, NEGATIVE FLUID BALANCE 500 ml DROWSY SANGTAE. PULMOTEAM NOTIFY.",
+  "stt_metadata": {
+    "asr_system": "whisper1_auto",
+    "provider": "openai",
+    "model": "whisper-1",
+    "language": null,
+    "audio_path": "data/audio/scenario_056_telegraphic_icu.mp3",
+    "audio_sha256": "1cf2a3fd57a376d914fc5e7ae5c6f0963275a61ac5c1d0c08de71b381b120351",
+    "transcribed_at": "2026-11-04T13:56:44+00:00",
+    "request_seconds": 1.7,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "SORTISAE YEOSUNG, KUPSUNG CHUNSHIGAK HWARU IWON, BPUN5 PEDIVALUM BRAIN, HR HEKSHINK BPM RR 32 BREATHS MIN, BT37 DON'T HOVER GRAY CELLS, SPO2 88% RA, WHEEZING SEVERE, ALBEDORAL 2.0 mg IV Q4H, HFNG TUBES HABIPDEM, NEGATIVE FLUID BALANCE 500 ml DROWSY SANGTAE. PULMOTEAM NOTIFY.",
+    "logprobs": null,
+    "usage": {
+      "seconds": 20.0,
+      "type": "duration"
+    }
+  }
+}

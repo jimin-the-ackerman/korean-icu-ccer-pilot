@@ -1,0 +1,1103 @@
+{
+  "asr": "whisper1",
+  "limit": null,
+  "started_at": "2026-11-04T17:58:19+00:00",
+  "git_commit": "bac3cb0c177b50cd807eba98f392caec6bc53c44",
+  "git_dirty_tracked": [
+    "results/full_100_v4/sap3_weight_sensitivity_summary.csv"
+  ],
+  "config_version": "1.0",
+  "evaluator_model": "claude-sonnet-5",
+  "reference_model_at_start": "claude-sonnet-5",
+  "entries": [
+    {
+      "sample_id": "scenario_075_clinical_charting",
+      "empty_response_rule": false,
+      "transcript_sha256": "7b8241116681bf021c6c4074979f40827bdcb7f6fe4cc57572433f57b7944ae6",
+      "gold_extraction_null": {
+        "rule": "docs/cross_asr_spec.md 12.5",
+        "cause": "MAX_RETRIES 초과 (gold): 3 successful API responses, none passed the v4 structure check (is_valid_extraction)",
+        "attempts": 3,
+        "output_tokens": [
+          156,
+          156,
+          147
+        ]
+      },
+      "status": "processed",
+      "calls": 5,
+      "seconds": 14.23
+    },
+    {
+      "sample_id": "scenario_075_formal_template",
+      "empty_response_rule": false,
+      "transcript_sha256": "6efce33c507e2bd42378c6746a18880a6e791d30cf54f151c92ff85de7b7304a",
+      "status": "processed",
+      "calls": 3,
+      "seconds": 8.15
+    },
+    {
+      "sample_id": "scenario_075_telegraphic_icu",
+      "empty_response_rule": false,
+      "transcript_sha256": "6db3888131aa4edf8f540b2de252162ff7699c3593544b8047c2be8b38689bfa",
+      "status": "processed",
+      "calls": 3,
+      "seconds": 9.14
+    },
+    {
+      "sample_id": "scenario_076_clinical_charting",
+      "empty_response_rule": false,
+      "transcript_sha256": "903499af538d678fa57f872008f9dc93880f4c07ea6ada4e7fe2d891bf3b8e3c",
+      "status": "processed",
+      "calls": 3,
+      "seconds": 8.24
+    },
+    {
+      "sample_id": "scenario_076_formal_template",
+      "empty_response_rule": false,
+      "transcript_sha256": "d85c8dd14fea916956acec569a05b323642fd1c516d99a4bb1724f27f923831d",
+      "status": "processed",
+      "calls": 3,
+      "seconds": 12.26
+    },
+    {
+      "sample_id": "scenario_076_telegraphic_icu",
+      "empty_response_rule": false,
+      "transcript_sha256": "1d8b8f06dc8dcb1b63616d4c9e766df8021f1c5a730211abbad68c7d93db904e",
+      "status": "processed",
+      "calls": 3,
+      "seconds": 9.51
+    },
+    {
+      "sample_id": "scenario_077_clinical_charting",
+      "empty_response_rule": false,
+      "transcript_sha256": "65213dc4df3427fdb603e7f7e8da4fc016e8b43083775b1547713d5945f13f7d",
+      "status": "processed",
+      "calls": 3,
+      "seconds": 7.98
+    },
+    {
+      "sample_id": "scenario_077_formal_template",
+      "empty_response_rule": false,
+      "transcript_sha256": "1be60b5956a9b39efed077390e76bf67ea76f101ca60d876f3a55ae486e84a05",
+      "status": "processed",
+      "calls": 3,
+      "seconds": 8.31
+    },
+    {
+      "sample_id": "scenario_077_telegraphic_icu",
+      "empty_response_rule": false,
+      "transcript_sha256": "16828b141cc626f77aa2b5881c2408b2cb81c2ab77d5543c99c7bbbceb305322",
+      "status": "processed",
+      "calls": 3,
+      "seconds": 8.12
+    },
+    {
+      "sample_id": "scenario_078_clinical_charting",
+      "empty_response_rule": false,
+      "transcript_sha256": "f115cf6ad175a82b56358e2e012391c8e0717f81972e806fd96245f384913c96",
+      "status": "processed",
+      "calls": 3,
+      "seconds": 8.31
+    },
+    {
+      "sample_id": "scenario_078_formal_template",
+      "empty_response_rule": false,
+      "transcript_sha256": "fb44f216bb46c05a4a9eea16250214b5e4976e11b403fa5c57b38fc1ecf4b252",
+      "status": "processed",
+      "calls": 3,
+      "seconds": 8.75
+    },
+    {
+      "sample_id": "scenario_078_telegraphic_icu",
+      "empty_response_rule": false,
+      "transcript_sha256": "c5b0965ce71b9dd54654a71465fcd04da86cc3c73b3df39f3f7c1d024f7e2ad7",
+      "status": "processed",
+      "calls": 3,
+      "seconds": 8.92
+    },
+    {
+      "sample_id": "scenario_079_clinical_charting",
+      "empty_response_rule": false,
+      "transcript_sha256": "0ce9ec787b646ec2aa061764f5c672c2b37db8e6650ca2355980997a97a3b2d3",
+      "status": "processed",
+      "calls": 3,
+      "seconds": 8.06
+    },
+    {
+      "sample_id": "scenario_079_formal_template",
+      "empty_response_rule": false,
+      "transcript_sha256": "7d2aec7b0a94d6dabfc1640d0d95f59c697c38676f44e1258b858b6137392c88",
+      "status": "processed",
+      "calls": 3,
+      "seconds": 8.54
+    },
+    {
+      "sample_id": "scenario_079_telegraphic_icu",
+      "empty_response_rule": false,
+      "transcript_sha256": "590eb58e63287a809dadd248e566667ce6a805f4a631c74c7a4814b12e104dc0",
+      "status": "processed",
+      "calls": 3,
+      "seconds": 8.0
+    },
+    {
+      "sample_id": "scenario_080_clinical_charting",
+      "empty_response_rule": false,
+      "transcript_sha256": "a94d92f67076ae6b064eec57c0469dcad14ae09f057fc0701cb4028cbcf9e32f",
+      "status": "processed",
+      "calls": 3,
+      "seconds": 7.96
+    },
+    {
+      "sample_id": "scenario_080_formal_template",
+      "empty_response_rule": false,
+      "transcript_sha256": "06b9ed24190e203e353a17cba7578f185170b3f59e8b79f52b9d1538a4f136cc",
+      "status": "processed",
+      "calls": 3,
+      "seconds": 8.93
+    },
+    {
+      "sample_id": "scenario_080_telegraphic_icu",
+      "empty_response_rule": false,
+      "transcript_sha256": "3f8bc3e8fce4ae380782d9d5c3f98a57f486799ee3fe436894e2fe136a174680",
+      "status": "processed",
+      "calls": 3,
+      "seconds": 8.61
+    },
+    {
+      "sample_id": "scenario_081_clinical_charting",
+      "empty_response_rule": false,
+      "transcript_sha256": "06768ae64884754dd3f6821c2d247a24d6f1daff0e7d39b86f00eaac4226f408",
+      "status": "processed",
+      "calls": 3,
+      "seconds": 7.44
+    },
+    {
+      "sample_id": "scenario_081_formal_template",
+      "empty_response_rule": false,
+      "transcript_sha256": "7fe7f1f15aaf6032740ea7ebecbae6eb3e58bcd50989d89b5d4eb766e40a02aa",
+      "status": "processed",
+      "calls": 3,
+      "seconds": 8.24
+    },
+    {
+      "sample_id": "scenario_081_telegraphic_icu",
+      "empty_response_rule": false,
+      "transcript_sha256": "cd15e82f41fd1bffca01c9c1d912e46e87b8f861aac2e5699454ce0d8014eb0c",
+      "status": "processed",
+      "calls": 3,
+      "seconds": 10.78
+    },
+    {
+      "sample_id": "scenario_082_clinical_charting",
+      "empty_response_rule": false,
+      "transcript_sha256": "628b9ed4cd33c0bd1e2a5751cdce185e9b8a4081c18d9cd2e01b21ab4cfea474",
+      "status": "processed",
+      "calls": 3,
+      "seconds": 7.89
+    },
+    {
+      "sample_id": "scenario_082_formal_template",
+      "empty_response_rule": false,
+      "transcript_sha256": "8bbf789c601f441f276c97c4ff1ad9e4a955be50d2742b0edad8fa5cfbc8dd74",
+      "status": "processed",
+      "calls": 3,
+      "seconds": 8.05
+    },
+    {
+      "sample_id": "scenario_082_telegraphic_icu",
+      "empty_response_rule": false,
+      "transcript_sha256": "a1c92a3b15841eee74b622902f211a0f96c7223596292b49e02255e00120b9e5",
+      "status": "processed",
+      "calls": 3,
+      "seconds": 7.89
+    },
+    {
+      "sample_id": "scenario_083_clinical_charting",
+      "empty_response_rule": false,
+      "transcript_sha256": "cef7e2779ae161914e7aa8e7c5daa4c03009ad4b0e7b07a4ce23fd6fab8d38bc",
+      "status": "processed",
+      "calls": 3,
+      "seconds": 7.47
+    },
+    {
+      "sample_id": "scenario_083_formal_template",
+      "empty_response_rule": false,
+      "transcript_sha256": "4cf57354a7ce9a3baf16441ea7197a4f3d18f226f6bb8e0d9bcd1f447902be2f",
+      "status": "processed",
+      "calls": 3,
+      "seconds": 7.55
+    },
+    {
+      "sample_id": "scenario_083_telegraphic_icu",
+      "empty_response_rule": false,
+      "transcript_sha256": "188e2c79b0d5af603a800aefa03dd5b9635c58e4ebd3ca66fe3c9c9cc31ed2e4",
+      "traceback": "Traceback (most recent call last):\n  File \"/home/jimin/korean-icu-ccer-pilot/src/cross_asr/evaluate.py\", line 455, in main\n    rec[\"whisper_entities\"] = extract_with_retry(client, model, text, \"whisper\")\n  File \"/home/jimin/korean-icu-ccer-pilot/src/entity_extraction/run_open_vocab_extraction.py\", line 97, in extract_with_retry\n    raise RuntimeError(f\"MAX_RETRIES 초과 ({label})\")\nRuntimeError: MAX_RETRIES 초과 (whisper)\n",
+      "status": "failed",
+      "calls": 4,
+      "seconds": 8.98,
+      "error": "scenario_083_telegraphic_icu: RuntimeError: MAX_RETRIES 초과 (whisper) (stage open)"
+    }
+  ],
+  "calls": [
+    {
+      "sample_id": "scenario_075_clinical_charting",
+      "requested_model": "claude-sonnet-5",
+      "tool": "record_clinical_entities",
+      "ok": true,
+      "response_model": "claude-sonnet-5",
+      "input_tokens": 2884,
+      "output_tokens": 156,
+      "seconds": 1.82
+    },
+    {
+      "sample_id": "scenario_075_clinical_charting",
+      "requested_model": "claude-sonnet-5",
+      "tool": "record_clinical_entities",
+      "ok": true,
+      "response_model": "claude-sonnet-5",
+      "input_tokens": 2884,
+      "output_tokens": 156,
+      "seconds": 1.81
+    },
+    {
+      "sample_id": "scenario_075_clinical_charting",
+      "requested_model": "claude-sonnet-5",
+      "tool": "record_clinical_entities",
+      "ok": true,
+      "response_model": "claude-sonnet-5",
+      "input_tokens": 2884,
+      "output_tokens": 147,
+      "seconds": 1.95
+    },
+    {
+      "sample_id": "scenario_075_clinical_charting",
+      "requested_model": "claude-sonnet-5",
+      "tool": "record_clinical_entities",
+      "ok": true,
+      "response_model": "claude-sonnet-5",
+      "input_tokens": 2863,
+      "output_tokens": 214,
+      "seconds": 2.08
+    },
+    {
+      "sample_id": "scenario_075_clinical_charting",
+      "requested_model": "claude-sonnet-5",
+      "tool": "record_semantic_matches",
+      "ok": true,
+      "response_model": "claude-sonnet-5",
+      "input_tokens": 4447,
+      "output_tokens": 452,
+      "seconds": 3.55
+    },
+    {
+      "sample_id": "scenario_075_formal_template",
+      "requested_model": "claude-sonnet-5",
+      "tool": "record_clinical_entities",
+      "ok": true,
+      "response_model": "claude-sonnet-5",
+      "input_tokens": 2998,
+      "output_tokens": 229,
+      "seconds": 2.22
+    },
+    {
+      "sample_id": "scenario_075_formal_template",
+      "requested_model": "claude-sonnet-5",
+      "tool": "record_clinical_entities",
+      "ok": true,
+      "response_model": "claude-sonnet-5",
+      "input_tokens": 2973,
+      "output_tokens": 227,
+      "seconds": 2.13
+    },
+    {
+      "sample_id": "scenario_075_formal_template",
+      "requested_model": "claude-sonnet-5",
+      "tool": "record_semantic_matches",
+      "ok": true,
+      "response_model": "claude-sonnet-5",
+      "input_tokens": 4454,
+      "output_tokens": 480,
+      "seconds": 3.77
+    },
+    {
+      "sample_id": "scenario_075_telegraphic_icu",
+      "requested_model": "claude-sonnet-5",
+      "tool": "record_clinical_entities",
+      "ok": true,
+      "response_model": "claude-sonnet-5",
+      "input_tokens": 2827,
+      "output_tokens": 209,
+      "seconds": 2.38
+    },
+    {
+      "sample_id": "scenario_075_telegraphic_icu",
+      "requested_model": "claude-sonnet-5",
+      "tool": "record_clinical_entities",
+      "ok": true,
+      "response_model": "claude-sonnet-5",
+      "input_tokens": 2842,
+      "output_tokens": 221,
+      "seconds": 2.99
+    },
+    {
+      "sample_id": "scenario_075_telegraphic_icu",
+      "requested_model": "claude-sonnet-5",
+      "tool": "record_semantic_matches",
+      "ok": true,
+      "response_model": "claude-sonnet-5",
+      "input_tokens": 4457,
+      "output_tokens": 472,
+      "seconds": 3.75
+    },
+    {
+      "sample_id": "scenario_076_clinical_charting",
+      "requested_model": "claude-sonnet-5",
+      "tool": "record_clinical_entities",
+      "ok": true,
+      "response_model": "claude-sonnet-5",
+      "input_tokens": 2874,
+      "output_tokens": 233,
+      "seconds": 2.06
+    },
+    {
+      "sample_id": "scenario_076_clinical_charting",
+      "requested_model": "claude-sonnet-5",
+      "tool": "record_clinical_entities",
+      "ok": true,
+      "response_model": "claude-sonnet-5",
+      "input_tokens": 2924,
+      "output_tokens": 211,
+      "seconds": 2.07
+    },
+    {
+      "sample_id": "scenario_076_clinical_charting",
+      "requested_model": "claude-sonnet-5",
+      "tool": "record_semantic_matches",
+      "ok": true,
+      "response_model": "claude-sonnet-5",
+      "input_tokens": 4464,
+      "output_tokens": 503,
+      "seconds": 4.08
+    },
+    {
+      "sample_id": "scenario_076_formal_template",
+      "requested_model": "claude-sonnet-5",
+      "tool": "record_clinical_entities",
+      "ok": true,
+      "response_model": "claude-sonnet-5",
+      "input_tokens": 3019,
+      "output_tokens": 241,
+      "seconds": 2.43
+    },
+    {
+      "sample_id": "scenario_076_formal_template",
+      "requested_model": "claude-sonnet-5",
+      "tool": "record_clinical_entities",
+      "ok": true,
+      "response_model": "claude-sonnet-5",
+      "input_tokens": 3008,
+      "output_tokens": 250,
+      "seconds": 5.51
+    },
+    {
+      "sample_id": "scenario_076_formal_template",
+      "requested_model": "claude-sonnet-5",
+      "tool": "record_semantic_matches",
+      "ok": true,
+      "response_model": "claude-sonnet-5",
+      "input_tokens": 4502,
+      "output_tokens": 542,
+      "seconds": 4.28
+    },
+    {
+      "sample_id": "scenario_076_telegraphic_icu",
+      "requested_model": "claude-sonnet-5",
+      "tool": "record_clinical_entities",
+      "ok": true,
+      "response_model": "claude-sonnet-5",
+      "input_tokens": 2833,
+      "output_tokens": 241,
+      "seconds": 2.37
+    },
+    {
+      "sample_id": "scenario_076_telegraphic_icu",
+      "requested_model": "claude-sonnet-5",
+      "tool": "record_clinical_entities",
+      "ok": true,
+      "response_model": "claude-sonnet-5",
+      "input_tokens": 2871,
+      "output_tokens": 254,
+      "seconds": 2.82
+    },
+    {
+      "sample_id": "scenario_076_telegraphic_icu",
+      "requested_model": "claude-sonnet-5",
+      "tool": "record_semantic_matches",
+      "ok": true,
+      "response_model": "claude-sonnet-5",
+      "input_tokens": 4516,
+      "output_tokens": 532,
+      "seconds": 4.29
+    },
+    {
+      "sample_id": "scenario_077_clinical_charting",
+      "requested_model": "claude-sonnet-5",
+      "tool": "record_clinical_entities",
+      "ok": true,
+      "response_model": "claude-sonnet-5",
+      "input_tokens": 2896,
+      "output_tokens": 219,
+      "seconds": 2.02
+    },
+    {
+      "sample_id": "scenario_077_clinical_charting",
+      "requested_model": "claude-sonnet-5",
+      "tool": "record_clinical_entities",
+      "ok": true,
+      "response_model": "claude-sonnet-5",
+      "input_tokens": 2921,
+      "output_tokens": 209,
+      "seconds": 2.27
+    },
+    {
+      "sample_id": "scenario_077_clinical_charting",
+      "requested_model": "claude-sonnet-5",
+      "tool": "record_semantic_matches",
+      "ok": true,
+      "response_model": "claude-sonnet-5",
+      "input_tokens": 4456,
+      "output_tokens": 492,
+      "seconds": 3.68
+    },
+    {
+      "sample_id": "scenario_077_formal_template",
+      "requested_model": "claude-sonnet-5",
+      "tool": "record_clinical_entities",
+      "ok": true,
+      "response_model": "claude-sonnet-5",
+      "input_tokens": 2994,
+      "output_tokens": 234,
+      "seconds": 2.14
+    },
+    {
+      "sample_id": "scenario_077_formal_template",
+      "requested_model": "claude-sonnet-5",
+      "tool": "record_clinical_entities",
+      "ok": true,
+      "response_model": "claude-sonnet-5",
+      "input_tokens": 2973,
+      "output_tokens": 231,
+      "seconds": 2.15
+    },
+    {
+      "sample_id": "scenario_077_formal_template",
+      "requested_model": "claude-sonnet-5",
+      "tool": "record_semantic_matches",
+      "ok": true,
+      "response_model": "claude-sonnet-5",
+      "input_tokens": 4479,
+      "output_tokens": 504,
+      "seconds": 3.99
+    },
+    {
+      "sample_id": "scenario_077_telegraphic_icu",
+      "requested_model": "claude-sonnet-5",
+      "tool": "record_clinical_entities",
+      "ok": true,
+      "response_model": "claude-sonnet-5",
+      "input_tokens": 2871,
+      "output_tokens": 211,
+      "seconds": 2.0
+    },
+    {
+      "sample_id": "scenario_077_telegraphic_icu",
+      "requested_model": "claude-sonnet-5",
+      "tool": "record_clinical_entities",
+      "ok": true,
+      "response_model": "claude-sonnet-5",
+      "input_tokens": 2859,
+      "output_tokens": 216,
+      "seconds": 2.29
+    },
+    {
+      "sample_id": "scenario_077_telegraphic_icu",
+      "requested_model": "claude-sonnet-5",
+      "tool": "record_semantic_matches",
+      "ok": true,
+      "response_model": "claude-sonnet-5",
+      "input_tokens": 4464,
+      "output_tokens": 499,
+      "seconds": 3.8
+    },
+    {
+      "sample_id": "scenario_078_clinical_charting",
+      "requested_model": "claude-sonnet-5",
+      "tool": "record_clinical_entities",
+      "ok": true,
+      "response_model": "claude-sonnet-5",
+      "input_tokens": 2888,
+      "output_tokens": 226,
+      "seconds": 2.37
+    },
+    {
+      "sample_id": "scenario_078_clinical_charting",
+      "requested_model": "claude-sonnet-5",
+      "tool": "record_clinical_entities",
+      "ok": true,
+      "response_model": "claude-sonnet-5",
+      "input_tokens": 2985,
+      "output_tokens": 220,
+      "seconds": 2.08
+    },
+    {
+      "sample_id": "scenario_078_clinical_charting",
+      "requested_model": "claude-sonnet-5",
+      "tool": "record_semantic_matches",
+      "ok": true,
+      "response_model": "claude-sonnet-5",
+      "input_tokens": 4466,
+      "output_tokens": 491,
+      "seconds": 3.84
+    },
+    {
+      "sample_id": "scenario_078_formal_template",
+      "requested_model": "claude-sonnet-5",
+      "tool": "record_clinical_entities",
+      "ok": true,
+      "response_model": "claude-sonnet-5",
+      "input_tokens": 2984,
+      "output_tokens": 219,
+      "seconds": 2.15
+    },
+    {
+      "sample_id": "scenario_078_formal_template",
+      "requested_model": "claude-sonnet-5",
+      "tool": "record_clinical_entities",
+      "ok": true,
+      "response_model": "claude-sonnet-5",
+      "input_tokens": 2978,
+      "output_tokens": 225,
+      "seconds": 2.16
+    },
+    {
+      "sample_id": "scenario_078_formal_template",
+      "requested_model": "claude-sonnet-5",
+      "tool": "record_semantic_matches",
+      "ok": true,
+      "response_model": "claude-sonnet-5",
+      "input_tokens": 4471,
+      "output_tokens": 523,
+      "seconds": 4.42
+    },
+    {
+      "sample_id": "scenario_078_telegraphic_icu",
+      "requested_model": "claude-sonnet-5",
+      "tool": "record_clinical_entities",
+      "ok": true,
+      "response_model": "claude-sonnet-5",
+      "input_tokens": 2877,
+      "output_tokens": 276,
+      "seconds": 2.64
+    },
+    {
+      "sample_id": "scenario_078_telegraphic_icu",
+      "requested_model": "claude-sonnet-5",
+      "tool": "record_clinical_entities",
+      "ok": true,
+      "response_model": "claude-sonnet-5",
+      "input_tokens": 2849,
+      "output_tokens": 222,
+      "seconds": 2.46
+    },
+    {
+      "sample_id": "scenario_078_telegraphic_icu",
+      "requested_model": "claude-sonnet-5",
+      "tool": "record_semantic_matches",
+      "ok": true,
+      "response_model": "claude-sonnet-5",
+      "input_tokens": 4468,
+      "output_tokens": 495,
+      "seconds": 3.78
+    },
+    {
+      "sample_id": "scenario_079_clinical_charting",
+      "requested_model": "claude-sonnet-5",
+      "tool": "record_clinical_entities",
+      "ok": true,
+      "response_model": "claude-sonnet-5",
+      "input_tokens": 2845,
+      "output_tokens": 230,
+      "seconds": 2.24
+    },
+    {
+      "sample_id": "scenario_079_clinical_charting",
+      "requested_model": "claude-sonnet-5",
+      "tool": "record_clinical_entities",
+      "ok": true,
+      "response_model": "claude-sonnet-5",
+      "input_tokens": 2834,
+      "output_tokens": 237,
+      "seconds": 2.3
+    },
+    {
+      "sample_id": "scenario_079_clinical_charting",
+      "requested_model": "claude-sonnet-5",
+      "tool": "record_semantic_matches",
+      "ok": true,
+      "response_model": "claude-sonnet-5",
+      "input_tokens": 4461,
+      "output_tokens": 451,
+      "seconds": 3.5
+    },
+    {
+      "sample_id": "scenario_079_formal_template",
+      "requested_model": "claude-sonnet-5",
+      "tool": "record_clinical_entities",
+      "ok": true,
+      "response_model": "claude-sonnet-5",
+      "input_tokens": 2980,
+      "output_tokens": 236,
+      "seconds": 2.48
+    },
+    {
+      "sample_id": "scenario_079_formal_template",
+      "requested_model": "claude-sonnet-5",
+      "tool": "record_clinical_entities",
+      "ok": true,
+      "response_model": "claude-sonnet-5",
+      "input_tokens": 2962,
+      "output_tokens": 236,
+      "seconds": 2.38
+    },
+    {
+      "sample_id": "scenario_079_formal_template",
+      "requested_model": "claude-sonnet-5",
+      "tool": "record_semantic_matches",
+      "ok": true,
+      "response_model": "claude-sonnet-5",
+      "input_tokens": 4460,
+      "output_tokens": 460,
+      "seconds": 3.66
+    },
+    {
+      "sample_id": "scenario_079_telegraphic_icu",
+      "requested_model": "claude-sonnet-5",
+      "tool": "record_clinical_entities",
+      "ok": true,
+      "response_model": "claude-sonnet-5",
+      "input_tokens": 2818,
+      "output_tokens": 223,
+      "seconds": 2.25
+    },
+    {
+      "sample_id": "scenario_079_telegraphic_icu",
+      "requested_model": "claude-sonnet-5",
+      "tool": "record_clinical_entities",
+      "ok": true,
+      "response_model": "claude-sonnet-5",
+      "input_tokens": 2795,
+      "output_tokens": 222,
+      "seconds": 2.05
+    },
+    {
+      "sample_id": "scenario_079_telegraphic_icu",
+      "requested_model": "claude-sonnet-5",
+      "tool": "record_semantic_matches",
+      "ok": true,
+      "response_model": "claude-sonnet-5",
+      "input_tokens": 4446,
+      "output_tokens": 444,
+      "seconds": 3.67
+    },
+    {
+      "sample_id": "scenario_080_clinical_charting",
+      "requested_model": "claude-sonnet-5",
+      "tool": "record_clinical_entities",
+      "ok": true,
+      "response_model": "claude-sonnet-5",
+      "input_tokens": 2892,
+      "output_tokens": 211,
+      "seconds": 2.13
+    },
+    {
+      "sample_id": "scenario_080_clinical_charting",
+      "requested_model": "claude-sonnet-5",
+      "tool": "record_clinical_entities",
+      "ok": true,
+      "response_model": "claude-sonnet-5",
+      "input_tokens": 2891,
+      "output_tokens": 211,
+      "seconds": 2.14
+    },
+    {
+      "sample_id": "scenario_080_clinical_charting",
+      "requested_model": "claude-sonnet-5",
+      "tool": "record_semantic_matches",
+      "ok": true,
+      "response_model": "claude-sonnet-5",
+      "input_tokens": 4440,
+      "output_tokens": 451,
+      "seconds": 3.66
+    },
+    {
+      "sample_id": "scenario_080_formal_template",
+      "requested_model": "claude-sonnet-5",
+      "tool": "record_clinical_entities",
+      "ok": true,
+      "response_model": "claude-sonnet-5",
+      "input_tokens": 2959,
+      "output_tokens": 222,
+      "seconds": 2.44
+    },
+    {
+      "sample_id": "scenario_080_formal_template",
+      "requested_model": "claude-sonnet-5",
+      "tool": "record_clinical_entities",
+      "ok": true,
+      "response_model": "claude-sonnet-5",
+      "input_tokens": 2952,
+      "output_tokens": 219,
+      "seconds": 2.46
+    },
+    {
+      "sample_id": "scenario_080_formal_template",
+      "requested_model": "claude-sonnet-5",
+      "tool": "record_semantic_matches",
+      "ok": true,
+      "response_model": "claude-sonnet-5",
+      "input_tokens": 4447,
+      "output_tokens": 462,
+      "seconds": 4.01
+    },
+    {
+      "sample_id": "scenario_080_telegraphic_icu",
+      "requested_model": "claude-sonnet-5",
+      "tool": "record_clinical_entities",
+      "ok": true,
+      "response_model": "claude-sonnet-5",
+      "input_tokens": 2846,
+      "output_tokens": 204,
+      "seconds": 2.81
+    },
+    {
+      "sample_id": "scenario_080_telegraphic_icu",
+      "requested_model": "claude-sonnet-5",
+      "tool": "record_clinical_entities",
+      "ok": true,
+      "response_model": "claude-sonnet-5",
+      "input_tokens": 2808,
+      "output_tokens": 201,
+      "seconds": 2.16
+    },
+    {
+      "sample_id": "scenario_080_telegraphic_icu",
+      "requested_model": "claude-sonnet-5",
+      "tool": "record_semantic_matches",
+      "ok": true,
+      "response_model": "claude-sonnet-5",
+      "input_tokens": 4430,
+      "output_tokens": 452,
+      "seconds": 3.59
+    },
+    {
+      "sample_id": "scenario_081_clinical_charting",
+      "requested_model": "claude-sonnet-5",
+      "tool": "record_clinical_entities",
+      "ok": true,
+      "response_model": "claude-sonnet-5",
+      "input_tokens": 2870,
+      "output_tokens": 208,
+      "seconds": 1.94
+    },
+    {
+      "sample_id": "scenario_081_clinical_charting",
+      "requested_model": "claude-sonnet-5",
+      "tool": "record_clinical_entities",
+      "ok": true,
+      "response_model": "claude-sonnet-5",
+      "input_tokens": 2847,
+      "output_tokens": 208,
+      "seconds": 1.81
+    },
+    {
+      "sample_id": "scenario_081_clinical_charting",
+      "requested_model": "claude-sonnet-5",
+      "tool": "record_semantic_matches",
+      "ok": true,
+      "response_model": "claude-sonnet-5",
+      "input_tokens": 4455,
+      "output_tokens": 467,
+      "seconds": 3.66
+    },
+    {
+      "sample_id": "scenario_081_formal_template",
+      "requested_model": "claude-sonnet-5",
+      "tool": "record_clinical_entities",
+      "ok": true,
+      "response_model": "claude-sonnet-5",
+      "input_tokens": 2969,
+      "output_tokens": 232,
+      "seconds": 2.17
+    },
+    {
+      "sample_id": "scenario_081_formal_template",
+      "requested_model": "claude-sonnet-5",
+      "tool": "record_clinical_entities",
+      "ok": true,
+      "response_model": "claude-sonnet-5",
+      "input_tokens": 2963,
+      "output_tokens": 231,
+      "seconds": 2.19
+    },
+    {
+      "sample_id": "scenario_081_formal_template",
+      "requested_model": "claude-sonnet-5",
+      "tool": "record_semantic_matches",
+      "ok": true,
+      "response_model": "claude-sonnet-5",
+      "input_tokens": 4478,
+      "output_tokens": 508,
+      "seconds": 3.87
+    },
+    {
+      "sample_id": "scenario_081_telegraphic_icu",
+      "requested_model": "claude-sonnet-5",
+      "tool": "record_clinical_entities",
+      "ok": true,
+      "response_model": "claude-sonnet-5",
+      "input_tokens": 2827,
+      "output_tokens": 209,
+      "seconds": 4.98
+    },
+    {
+      "sample_id": "scenario_081_telegraphic_icu",
+      "requested_model": "claude-sonnet-5",
+      "tool": "record_clinical_entities",
+      "ok": true,
+      "response_model": "claude-sonnet-5",
+      "input_tokens": 2809,
+      "output_tokens": 212,
+      "seconds": 2.02
+    },
+    {
+      "sample_id": "scenario_081_telegraphic_icu",
+      "requested_model": "claude-sonnet-5",
+      "tool": "record_semantic_matches",
+      "ok": true,
+      "response_model": "claude-sonnet-5",
+      "input_tokens": 4459,
+      "output_tokens": 479,
+      "seconds": 3.76
+    },
+    {
+      "sample_id": "scenario_082_clinical_charting",
+      "requested_model": "claude-sonnet-5",
+      "tool": "record_clinical_entities",
+      "ok": true,
+      "response_model": "claude-sonnet-5",
+      "input_tokens": 2821,
+      "output_tokens": 205,
+      "seconds": 2.03
+    },
+    {
+      "sample_id": "scenario_082_clinical_charting",
+      "requested_model": "claude-sonnet-5",
+      "tool": "record_clinical_entities",
+      "ok": true,
+      "response_model": "claude-sonnet-5",
+      "input_tokens": 2865,
+      "output_tokens": 212,
+      "seconds": 2.09
+    },
+    {
+      "sample_id": "scenario_082_clinical_charting",
+      "requested_model": "claude-sonnet-5",
+      "tool": "record_semantic_matches",
+      "ok": true,
+      "response_model": "claude-sonnet-5",
+      "input_tokens": 4437,
+      "output_tokens": 465,
+      "seconds": 3.73
+    },
+    {
+      "sample_id": "scenario_082_formal_template",
+      "requested_model": "claude-sonnet-5",
+      "tool": "record_clinical_entities",
+      "ok": true,
+      "response_model": "claude-sonnet-5",
+      "input_tokens": 2880,
+      "output_tokens": 205,
+      "seconds": 2.22
+    },
+    {
+      "sample_id": "scenario_082_formal_template",
+      "requested_model": "claude-sonnet-5",
+      "tool": "record_clinical_entities",
+      "ok": true,
+      "response_model": "claude-sonnet-5",
+      "input_tokens": 2877,
+      "output_tokens": 209,
+      "seconds": 2.14
+    },
+    {
+      "sample_id": "scenario_082_formal_template",
+      "requested_model": "claude-sonnet-5",
+      "tool": "record_semantic_matches",
+      "ok": true,
+      "response_model": "claude-sonnet-5",
+      "input_tokens": 4428,
+      "output_tokens": 467,
+      "seconds": 3.68
+    },
+    {
+      "sample_id": "scenario_082_telegraphic_icu",
+      "requested_model": "claude-sonnet-5",
+      "tool": "record_clinical_entities",
+      "ok": true,
+      "response_model": "claude-sonnet-5",
+      "input_tokens": 2793,
+      "output_tokens": 202,
+      "seconds": 2.2
+    },
+    {
+      "sample_id": "scenario_082_telegraphic_icu",
+      "requested_model": "claude-sonnet-5",
+      "tool": "record_clinical_entities",
+      "ok": true,
+      "response_model": "claude-sonnet-5",
+      "input_tokens": 2749,
+      "output_tokens": 196,
+      "seconds": 1.92
+    },
+    {
+      "sample_id": "scenario_082_telegraphic_icu",
+      "requested_model": "claude-sonnet-5",
+      "tool": "record_semantic_matches",
+      "ok": true,
+      "response_model": "claude-sonnet-5",
+      "input_tokens": 4421,
+      "output_tokens": 450,
+      "seconds": 3.74
+    },
+    {
+      "sample_id": "scenario_083_clinical_charting",
+      "requested_model": "claude-sonnet-5",
+      "tool": "record_clinical_entities",
+      "ok": true,
+      "response_model": "claude-sonnet-5",
+      "input_tokens": 2845,
+      "output_tokens": 189,
+      "seconds": 1.88
+    },
+    {
+      "sample_id": "scenario_083_clinical_charting",
+      "requested_model": "claude-sonnet-5",
+      "tool": "record_clinical_entities",
+      "ok": true,
+      "response_model": "claude-sonnet-5",
+      "input_tokens": 2841,
+      "output_tokens": 199,
+      "seconds": 1.94
+    },
+    {
+      "sample_id": "scenario_083_clinical_charting",
+      "requested_model": "claude-sonnet-5",
+      "tool": "record_semantic_matches",
+      "ok": true,
+      "response_model": "claude-sonnet-5",
+      "input_tokens": 4401,
+      "output_tokens": 441,
+      "seconds": 3.64
+    },
+    {
+      "sample_id": "scenario_083_formal_template",
+      "requested_model": "claude-sonnet-5",
+      "tool": "record_clinical_entities",
+      "ok": true,
+      "response_model": "claude-sonnet-5",
+      "input_tokens": 2906,
+      "output_tokens": 191,
+      "seconds": 2.01
+    },
+    {
+      "sample_id": "scenario_083_formal_template",
+      "requested_model": "claude-sonnet-5",
+      "tool": "record_clinical_entities",
+      "ok": true,
+      "response_model": "claude-sonnet-5",
+      "input_tokens": 2893,
+      "output_tokens": 191,
+      "seconds": 1.99
+    },
+    {
+      "sample_id": "scenario_083_formal_template",
+      "requested_model": "claude-sonnet-5",
+      "tool": "record_semantic_matches",
+      "ok": true,
+      "response_model": "claude-sonnet-5",
+      "input_tokens": 4393,
+      "output_tokens": 420,
+      "seconds": 3.54
+    },
+    {
+      "sample_id": "scenario_083_telegraphic_icu",
+      "requested_model": "claude-sonnet-5",
+      "tool": "record_clinical_entities",
+      "ok": true,
+      "response_model": "claude-sonnet-5",
+      "input_tokens": 2798,
+      "output_tokens": 190,
+      "seconds": 1.75
+    },
+    {
+      "sample_id": "scenario_083_telegraphic_icu",
+      "requested_model": "claude-sonnet-5",
+      "tool": "record_clinical_entities",
+      "ok": true,
+      "response_model": "claude-sonnet-5",
+      "input_tokens": 2781,
+      "output_tokens": 70,
+      "seconds": 1.26
+    },
+    {
+      "sample_id": "scenario_083_telegraphic_icu",
+      "requested_model": "claude-sonnet-5",
+      "tool": "record_clinical_entities",
+      "ok": true,
+      "response_model": "claude-sonnet-5",
+      "input_tokens": 2781,
+      "output_tokens": 116,
+      "seconds": 1.59
+    },
+    {
+      "sample_id": "scenario_083_telegraphic_icu",
+      "requested_model": "claude-sonnet-5",
+      "tool": "record_clinical_entities",
+      "ok": true,
+      "response_model": "claude-sonnet-5",
+      "input_tokens": 2781,
+      "output_tokens": 70,
+      "seconds": 1.37
+    }
+  ],
+  "finished_at": "2026-11-04T18:02:16+00:00",
+  "summary": {
+    "processed": 26,
+    "calls": 84,
+    "failed_calls": 0,
+    "response_models": {
+      "claude-sonnet-5": 84
+    },
+    "input_tokens": 283037,
+    "output_tokens": 24496,
+    "abort": "scenario_083_telegraphic_icu: RuntimeError: MAX_RETRIES 초과 (whisper) (stage open)",
+    "gold_extraction_null": [
+      "scenario_075_clinical_charting"
+    ],
+    "per_sample_tokens": {
+      "input": 10886,
+      "output": 942
+    }
+  }
+}

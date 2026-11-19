@@ -1,0 +1,25 @@
+{
+  "sample_id": "scenario_046_clinical_charting",
+  "whisper_transcript": "62세 남성 환자 Acute Subdural Hematoma로 입원함 BP 1,480, HR 65, RR 14, BT 36.8, SBO 98.2 Severe Headache 호소함, Manitou 100g IV QH 투여중, Intracranial Pressure Monitoring 적용함, Drowsy 상태 확인됨",
+  "stt_metadata": {
+    "asr_system": "whisper1",
+    "provider": "reuse_existing",
+    "model": "whisper-1",
+    "language": "ko",
+    "audio_path": "data/audio/scenario_046_clinical_charting.mp3",
+    "audio_sha256": "409b822a89f85f2827779d2d5dda1750eea4862e4f52734f914465bb12296299",
+    "copied_at": "2026-11-04T04:31:11+00:00",
+    "request_seconds": 0.0,
+    "attempts": 1,
+    "git_commit": "b3490181b3fb3f88b56cde5be78a01cfdcef3007",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "source_file": "data/stt_transcripts/scenario_046_clinical_charting.json",
+    "source_sha256": "d50500be60671cc8a63f87b196c60ffecfd75be74be41317afba101b48456618",
+    "source_stt_metadata": {
+      "model": "whisper-1",
+      "language": "ko"
+    }
+  }
+}

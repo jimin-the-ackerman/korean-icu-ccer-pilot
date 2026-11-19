@@ -1,0 +1,41 @@
+{
+  "sample_id": "scenario_017_telegraphic_icu",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "hypoglycemia",
+        "negation": false,
+        "severity": "severe"
+      },
+      {
+        "name": "confusion",
+        "negation": false,
+        "severity": "moderate"
+      }
+    ],
+    "clinical_status": "Drowsy",
+    "medication_identity": "Dextrose 50%",
+    "interventions": [],
+    "intake_output": "Positive fluid balance due to IV fluids",
+    "notification": "Endocrinologist notify"
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "severe hypoglycemia",
+        "negation": false,
+        "severity": "severe"
+      },
+      {
+        "name": "Confusion",
+        "negation": false,
+        "severity": "moderate"
+      }
+    ],
+    "clinical_status": "Drowsy",
+    "medication_identity": "dextrose",
+    "interventions": [],
+    "intake_output": null,
+    "notification": "Endocrinologist notify"
+  }
+}

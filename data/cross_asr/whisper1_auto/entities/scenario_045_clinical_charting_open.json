@@ -1,0 +1,37 @@
+{
+  "sample_id": "scenario_045_clinical_charting",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "abdominal pain",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "drowsy",
+    "medication_identity": "Hydrocortisone",
+    "interventions": [
+      "Fluid resuscitation with normal saline",
+      "Endocrinology consult"
+    ],
+    "intake_output": "urine output 30 mL/hr",
+    "notification": null
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "abdominal pain",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "drowsy",
+    "medication_identity": "hydrocortisone",
+    "interventions": [
+      "fluid resuscitation",
+      "endocrinology consult"
+    ],
+    "intake_output": "urine output 30 mRRR confirmed",
+    "notification": null
+  }
+}

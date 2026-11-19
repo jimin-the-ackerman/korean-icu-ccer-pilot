@@ -1,0 +1,43 @@
+{
+  "sample_id": "scenario_086_clinical_charting",
+  "whisper_transcript": "55세 여성 환자 AML 2-1 Febrile neutropenia 의심, BP 90/60 mmHg 확인, HR 110 BPM 확인, RR 22/min 확인, BT 38.6 섭씨, severe fever 확인, SpO2 92% on room air 확인. Piperacillin-tazobactam 4.5 g IV q6h 투여 시작. Antibiotic therapy initiated. 환자 상태 drowsy 확인. 담당의 notify 함. Febrile neutropenia 및 치료 계획 보고.",
+  "stt_metadata": {
+    "asr_system": "chirp3_auto",
+    "provider": "google",
+    "model": "chirp_3",
+    "location": "us",
+    "language_codes": [
+      "auto"
+    ],
+    "audio_path": "data/audio/scenario_086_clinical_charting.mp3",
+    "audio_sha256": "b961b72e653c4da7812233869e6b7caaa0f6b8d5ed69e0904607a11fc585c02b",
+    "transcribed_at": "2026-11-04T14:51:50+00:00",
+    "request_seconds": 4.96,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "metadata": {
+      "total_billed_duration": "28s",
+      "request_id": "6e716320-0000-26a3-b5eb-14223bc6e2be",
+      "prompt": "Transcribe the following speech segment. Follow these specific instructions for formatting the answer:\n* Only output the transcript, with no newlines.\n* When transcribing numbers, write the digits, i.e. write 1.7 and not one point seven, and write 100 instead of one hundred etc.\n* Only output the transcript, exactly as said in the speech segment.\n* Do not continue the speech segment.\n* Include everything said in the speech segment.\n* Use mathematical notation where needed, eg. x ^ 6Y.\n* If there is background speech that is not part of the main conversation, discard the background speech and only output the main conversation.\n* If there is no clear speech, just output [BACKGROUND].\n* Respond in the original language of the speech."
+    },
+    "results": [
+      {
+        "alternatives": [
+          {
+            "transcript": "55세 여성 환자 AML 2-1 Febrile neutropenia 의심, BP 90/60 mmHg 확인, HR 110 BPM 확인, RR 22/min 확인, BT 38.6 섭씨, severe fever 확인, SpO2 92% on room air 확인. Piperacillin-tazobactam 4.5 g IV q6h 투여 시작. Antibiotic therapy initiated. 환자 상태 drowsy 확인. 담당의 notify 함. Febrile neutropenia 및 치료 계획 보고.",
+            "confidence": 0.0,
+            "words": []
+          }
+        ],
+        "language_code": "ko",
+        "channel_tag": 0
+      }
+    ],
+    "detected_language_codes": [
+      "ko"
+    ]
+  }
+}

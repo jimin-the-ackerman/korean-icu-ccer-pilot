@@ -1,0 +1,43 @@
+{
+  "sample_id": "scenario_041_formal_template",
+  "whisper_transcript": "65세 여자 환자가 알코올 관련 간경변으로 인한 만성 간질환의 급성 악화로 입원하였다. 활력 징후는 혈압 105/68 mmHg, 심박수 112 bpm, 호흡수 22 breath/min, 체온 37.8°C로 확인되었으며, 산소 포화도는 실내 공기에서 92%로 측정되었다. 복수는 중등도 수준으로 관찰되었다. 환자는 의식이 혼미한 상태로 확인되었다. 약물로 furosemide 40 mg이 IV로 8시간마다 투여되고 있다. 산소는 nasal cannula로 투여 중이다. Foley 카테터가 삽입되어 있으며, 24시간 동안 소변 배출량은 1200 ml로 기록되었다.",
+  "stt_metadata": {
+    "asr_system": "chirp3_auto",
+    "provider": "google",
+    "model": "chirp_3",
+    "location": "us",
+    "language_codes": [
+      "auto"
+    ],
+    "audio_path": "data/audio/scenario_041_formal_template.mp3",
+    "audio_sha256": "cb82581d14837b61e34278e72a98dfeda023feac0ef20ae29ee6557bc9101ced",
+    "transcribed_at": "2026-11-04T14:27:14+00:00",
+    "request_seconds": 5.76,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "metadata": {
+      "total_billed_duration": "41s",
+      "request_id": "6b0a93db-0000-27ce-8e1f-f4f5e8087f78",
+      "prompt": "Transcribe the following speech segment. Follow these specific instructions for formatting the answer:\n* Only output the transcript, with no newlines.\n* When transcribing numbers, write the digits, i.e. write 1.7 and not one point seven, and write 100 instead of one hundred etc.\n* Only output the transcript, exactly as said in the speech segment.\n* Do not continue the speech segment.\n* Include everything said in the speech segment.\n* Use mathematical notation where needed, eg. x ^ 6Y.\n* If there is background speech that is not part of the main conversation, discard the background speech and only output the main conversation.\n* If there is no clear speech, just output [BACKGROUND].\n* Respond in the original language of the speech."
+    },
+    "results": [
+      {
+        "alternatives": [
+          {
+            "transcript": "65세 여자 환자가 알코올 관련 간경변으로 인한 만성 간질환의 급성 악화로 입원하였다. 활력 징후는 혈압 105/68 mmHg, 심박수 112 bpm, 호흡수 22 breath/min, 체온 37.8°C로 확인되었으며, 산소 포화도는 실내 공기에서 92%로 측정되었다. 복수는 중등도 수준으로 관찰되었다. 환자는 의식이 혼미한 상태로 확인되었다. 약물로 furosemide 40 mg이 IV로 8시간마다 투여되고 있다. 산소는 nasal cannula로 투여 중이다. Foley 카테터가 삽입되어 있으며, 24시간 동안 소변 배출량은 1200 ml로 기록되었다.",
+            "confidence": 0.0,
+            "words": []
+          }
+        ],
+        "language_code": "ko",
+        "channel_tag": 0
+      }
+    ],
+    "detected_language_codes": [
+      "ko"
+    ]
+  }
+}

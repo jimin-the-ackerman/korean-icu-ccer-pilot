@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_088_clinical_charting",
+  "whisper_transcript": "44세 여성 환자 acute liver failure로 입원, acetaminophen overdose 병력, BP 175/90 mmHg, HR 102 회/분, RR 22 breaths/min, BT 38.5℃, SpO2 95% room air. Severe jaundice 확인됨, 환자 drowsy. Acetylcysteine 300 mg/kg IV stat 처방함. Positive fluid balance 500 mL 기록됨. Hepatology team notify함.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe_auto",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": null,
+    "audio_path": "data/audio/scenario_088_clinical_charting.mp3",
+    "audio_sha256": "1b079d19820b704eaa3c8fcb3e0dad4593a8aa74b7653c7370dcf95136f9bb65",
+    "transcribed_at": "2026-11-04T14:14:01+00:00",
+    "request_seconds": 2.2,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "44세 여성 환자 acute liver failure로 입원, acetaminophen overdose 병력, BP 175/90 mmHg, HR 102 회/분, RR 22 breaths/min, BT 38.5℃, SpO2 95% room air. Severe jaundice 확인됨, 환자 drowsy. Acetylcysteine 300 mg/kg IV stat 처방함. Positive fluid balance 500 mL 기록됨. Hepatology team notify함.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 232,
+      "output_tokens": 103,
+      "total_tokens": 335,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 232,
+        "text_tokens": 0
+      }
+    }
+  }
+}

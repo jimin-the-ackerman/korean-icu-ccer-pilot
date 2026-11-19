@@ -1,0 +1,25 @@
+{
+  "sample_id": "scenario_086_clinical_charting",
+  "whisper_transcript": "55세 여성 환자 AMLO-E1 fibrile neutropenia 경험 중 BP 960mmHg 확인됨 HR 110bpm 확인됨 RR waspister-min 확인됨 BT 39.1g cells severe fever 확인됨 SbO2 96% on room air 확인됨 piperacillin-tuzelbactam 4.5g IVQ6H 투여 시작함 Antibiotic therapy initiated 환자상태 drowsy 확인됨 담당의 notify함 fibrile neutropenia 미치료계획 복원",
+  "stt_metadata": {
+    "asr_system": "whisper1_auto",
+    "provider": "openai",
+    "model": "whisper-1",
+    "language": null,
+    "audio_path": "data/audio/scenario_086_clinical_charting.mp3",
+    "audio_sha256": "b961b72e653c4da7812233869e6b7caaa0f6b8d5ed69e0904607a11fc585c02b",
+    "transcribed_at": "2026-11-04T14:00:24+00:00",
+    "request_seconds": 3.25,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "55세 여성 환자 AMLO-E1 fibrile neutropenia 경험 중 BP 960mmHg 확인됨 HR 110bpm 확인됨 RR waspister-min 확인됨 BT 39.1g cells severe fever 확인됨 SbO2 96% on room air 확인됨 piperacillin-tuzelbactam 4.5g IVQ6H 투여 시작함 Antibiotic therapy initiated 환자상태 drowsy 확인됨 담당의 notify함 fibrile neutropenia 미치료계획 복원",
+    "logprobs": null,
+    "usage": {
+      "seconds": 28.0,
+      "type": "duration"
+    }
+  }
+}

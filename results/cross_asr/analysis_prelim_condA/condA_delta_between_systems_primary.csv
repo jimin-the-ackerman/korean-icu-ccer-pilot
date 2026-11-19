@@ -1,0 +1,10 @@
+comparison,contrast,estimate,ci_low,ci_high
+whisper1 - gpt4o_transcribe,Delta_FC,-0.0543,-0.1367,0.0206
+whisper1 - gpt4o_transcribe,Delta_FT,-0.1979,-0.2845,-0.1117
+whisper1 - gpt4o_transcribe,Delta_CT,-0.1436,-0.2421,-0.0372
+whisper1 - chirp3_ko,Delta_FC,-0.1709,-0.2755,-0.0717
+whisper1 - chirp3_ko,Delta_FT,-0.2445,-0.3397,-0.1438
+whisper1 - chirp3_ko,Delta_CT,-0.0736,-0.187,0.0462
+gpt4o_transcribe - chirp3_ko,Delta_FC,-0.1166,-0.2097,-0.032
+gpt4o_transcribe - chirp3_ko,Delta_FT,-0.0466,-0.1411,0.0436
+gpt4o_transcribe - chirp3_ko,Delta_CT,0.07,-0.0324,0.1749

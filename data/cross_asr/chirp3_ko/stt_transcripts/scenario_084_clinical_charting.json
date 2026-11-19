@@ -1,0 +1,43 @@
+{
+  "sample_id": "scenario_084_clinical_charting",
+  "whisper_transcript": "49세 남자 환자 severe asthma attack으로 입원. BP 104/85 mmHg, HR 100 bpm, RR 18, BT 37.5도. Grace S 95%. severe wheezing 확인됨. Albuterol 2.5 mg IV PRN 적용함. high flow nasal cannula 산소 공급 유지함. 환자 drowsy 상태. respiratory therapy notify함.",
+  "stt_metadata": {
+    "asr_system": "chirp3_ko",
+    "provider": "google",
+    "model": "chirp_3",
+    "location": "us",
+    "language_codes": [
+      "ko-KR"
+    ],
+    "audio_path": "data/audio/scenario_084_clinical_charting.mp3",
+    "audio_sha256": "f8d59790daeb105bfaa67bf51ce3cd96906211320794dce9fc484588a53914d8",
+    "transcribed_at": "2026-11-04T13:29:39+00:00",
+    "request_seconds": 3.0,
+    "attempts": 1,
+    "git_commit": "5b6d73fb63e1509a79e1a160176d606ed1b104c4",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "metadata": {
+      "total_billed_duration": "20s",
+      "request_id": "6c986ed4-0000-2597-9590-c82add8031b8",
+      "prompt": "Transcribe the following speech segment in Korean. Follow these specific instructions for formatting the answer:\n* Only output the transcript, with no newlines.\n* When transcribing numbers, write the digits, i.e. write 1.7 and not one point seven, and write 100 instead of one hundred etc.\n* Only output the transcript, exactly as said in the speech segment.\n* Do not continue the speech segment.\n* Include everything said in the speech segment.\n* Use mathematical notation where needed, eg. x ^ 6Y.\n* If there is background speech that is not part of the main conversation, discard the background speech and only output the main conversation.\n* If there is no clear speech, just output [BACKGROUND].\n* Respond in the original language of the speech, Korean."
+    },
+    "results": [
+      {
+        "alternatives": [
+          {
+            "transcript": "49세 남자 환자 severe asthma attack으로 입원. BP 104/85 mmHg, HR 100 bpm, RR 18, BT 37.5도. Grace S 95%. severe wheezing 확인됨. Albuterol 2.5 mg IV PRN 적용함. high flow nasal cannula 산소 공급 유지함. 환자 drowsy 상태. respiratory therapy notify함.",
+            "confidence": 0.0,
+            "words": []
+          }
+        ],
+        "language_code": "ko-KR",
+        "channel_tag": 0
+      }
+    ],
+    "detected_language_codes": [
+      "ko-KR"
+    ]
+  }
+}

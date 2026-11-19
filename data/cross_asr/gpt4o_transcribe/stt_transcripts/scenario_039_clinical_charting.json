@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_039_clinical_charting",
+  "whisper_transcript": "70세 여성 환자 acute pulmonary edema로 입원. Hyperthyroidism 악화 원인 BP 협력스무꾸물림즘, HR 왓산지 BPM, RR 웨스바이트 브레스 민, BT 서리엣범 소르드셀설, SpO2 80왓퍼센트 on room air. Severe shortness of breath 호소함, 프로프라놀롤 파스피오큐세트투엠, high flow nasal cannula 적용함, Foley 유지함, 의식 상태 drowsy 확인됨. Endocrinology team notify함 for thyroid storm 관리.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": "ko",
+    "audio_path": "data/audio/scenario_039_clinical_charting.mp3",
+    "audio_sha256": "a4af142bc5a1e24b97dd89575857073d6f04db65413877a1fbbf29d9e6dfa461",
+    "transcribed_at": "2026-11-04T12:57:37+00:00",
+    "request_seconds": 2.63,
+    "attempts": 1,
+    "git_commit": "5b6d73fb63e1509a79e1a160176d606ed1b104c4",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "70세 여성 환자 acute pulmonary edema로 입원. Hyperthyroidism 악화 원인 BP 협력스무꾸물림즘, HR 왓산지 BPM, RR 웨스바이트 브레스 민, BT 서리엣범 소르드셀설, SpO2 80왓퍼센트 on room air. Severe shortness of breath 호소함, 프로프라놀롤 파스피오큐세트투엠, high flow nasal cannula 적용함, Foley 유지함, 의식 상태 drowsy 확인됨. Endocrinology team notify함 for thyroid storm 관리.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 272,
+      "output_tokens": 132,
+      "total_tokens": 404,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 272,
+        "text_tokens": 0
+      }
+    }
+  }
+}

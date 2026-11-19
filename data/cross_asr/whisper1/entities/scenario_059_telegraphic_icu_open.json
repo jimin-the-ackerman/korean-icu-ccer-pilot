@@ -1,0 +1,35 @@
+{
+  "sample_id": "scenario_059_telegraphic_icu",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "abdominal pain",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "Drowsy",
+    "medication_identity": "Piperacillin/Tazobactam",
+    "interventions": [
+      "Fluid resuscitation"
+    ],
+    "intake_output": "Positive fluid balance",
+    "notification": null
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "복통",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "드라우지 상태",
+    "medication_identity": null,
+    "interventions": [
+      "플루이드 리소시테이션 시행"
+    ],
+    "intake_output": "포지티브 플루이드 밸런스",
+    "notification": null
+  }
+}

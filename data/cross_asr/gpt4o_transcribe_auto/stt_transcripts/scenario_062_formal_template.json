@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_062_formal_template",
+  "whisper_transcript": "44세 남성 환자가 심한 폐색전증으로 입원하였다. 활력 징후는 혈압이 90/60mmHg, 심박수는 125bpm, 호흡수는 28breaths/min, 체온은 37.2℃, 산소포화도는 실온 공기에서 86%로 확인되었다. 환자는 심한 흉통을 호소하였다. 헤파린 5000유닛을 IV로 Q4H 투여 중이다. 고유량 비강 캐귤라를 사용하여 산소를 공급하고 있으며, C 라인이 삽입되어 있다. 체액 균형은 음성으로 확인되었다. 환자는 기면 상태를 보인다. SpO2 감소와 빈맥에 대해 폐 전문의에게 보고하였다.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe_auto",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": null,
+    "audio_path": "data/audio/scenario_062_formal_template.mp3",
+    "audio_sha256": "ae2e8ce83a45fd5576faa1ef01706fd787db7a864e5068181923df03fac0fd6e",
+    "transcribed_at": "2026-11-04T14:11:02+00:00",
+    "request_seconds": 3.31,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "44세 남성 환자가 심한 폐색전증으로 입원하였다. 활력 징후는 혈압이 90/60mmHg, 심박수는 125bpm, 호흡수는 28breaths/min, 체온은 37.2℃, 산소포화도는 실온 공기에서 86%로 확인되었다. 환자는 심한 흉통을 호소하였다. 헤파린 5000유닛을 IV로 Q4H 투여 중이다. 고유량 비강 캐귤라를 사용하여 산소를 공급하고 있으며, C 라인이 삽입되어 있다. 체액 균형은 음성으로 확인되었다. 환자는 기면 상태를 보인다. SpO2 감소와 빈맥에 대해 폐 전문의에게 보고하였다.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 374,
+      "output_tokens": 180,
+      "total_tokens": 554,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 374,
+        "text_tokens": 0
+      }
+    }
+  }
+}

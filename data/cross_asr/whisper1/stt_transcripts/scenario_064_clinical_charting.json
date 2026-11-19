@@ -1,0 +1,25 @@
+{
+  "sample_id": "scenario_064_clinical_charting",
+  "whisper_transcript": "65세 여완 ARDS로 입원함. BP 링드체다이비누 데이콜서퍼 BT 설지체봄 8드그리스티스피오 2파이치보 퍼트 룸 에어 severe shortness of breath 호소함. 셉트리액손 2g IV Q2RH 투여중. mechanical ventilation 적용함. ventilator 유지함. positive fluid balance 확인됨. stuporous 상태 확인됨.",
+  "stt_metadata": {
+    "asr_system": "whisper1",
+    "provider": "reuse_existing",
+    "model": "whisper-1",
+    "language": "ko",
+    "audio_path": "data/audio/scenario_064_clinical_charting.mp3",
+    "audio_sha256": "0e37acb712961aae0b995b1ca6fad0a9cc29447a8cb26edbdebcc30c334853fe",
+    "copied_at": "2026-11-04T04:31:12+00:00",
+    "request_seconds": 0.0,
+    "attempts": 1,
+    "git_commit": "b3490181b3fb3f88b56cde5be78a01cfdcef3007",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "source_file": "data/stt_transcripts/scenario_064_clinical_charting.json",
+    "source_sha256": "c94f853174c9cfba596e6d7de3e3bfd7ebff92c074f9c2379eec3cd8539e599f",
+    "source_stt_metadata": {
+      "model": "whisper-1",
+      "language": "ko"
+    }
+  }
+}

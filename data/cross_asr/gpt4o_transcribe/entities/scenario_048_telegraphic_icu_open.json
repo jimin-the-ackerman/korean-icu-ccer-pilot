@@ -1,0 +1,34 @@
+{
+  "sample_id": "scenario_048_telegraphic_icu",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "hemorrhage",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "Drowsy",
+    "medication_identity": "Octreotide",
+    "interventions": [
+      "Endoscopic band ligation"
+    ],
+    "intake_output": "I/O strict monitoring",
+    "notification": "Dr notify"
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "drowsy",
+        "negation": false
+      }
+    ],
+    "clinical_status": "hemorrhagic drowsy",
+    "medication_identity": "Octreotide",
+    "interventions": [
+      "endoscopic band ligation"
+    ],
+    "intake_output": "IO strict monitoring",
+    "notification": "Dr. Notify"
+  }
+}

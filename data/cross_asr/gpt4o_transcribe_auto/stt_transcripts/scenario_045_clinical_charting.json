@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_045_clinical_charting",
+  "whisper_transcript": "육십이세 여성환자 애디슨스 디지즈로 인한 Acute adrenal crisis로 입원. BP H밧 우스삼밀리메터 허그람, HR 베르스루 BPM, RR 브르사 브레스민, BT 선지첩도 뇽그레이스 SPO 디크스퍼시 룸에어. Severe abdominal pain 호소함. 하이드로코르티손 백밀리그램 IV 스탯 투여함. 네이즐 캐눌라 투인민 적용함. Fluid resuscitation with normal saline 시행함. 폴리 유지함. 유린 아웃풋 산치 밀리에러 확인됨. 환자 드라우지 상태임. Endocrinology consult for management of adrenal insufficiency.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe_auto",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": null,
+    "audio_path": "data/audio/scenario_045_clinical_charting.mp3",
+    "audio_sha256": "cbe4a48db156760a301a43aff9965304419b07a21308b7db679a478c895445f5",
+    "transcribed_at": "2026-11-04T14:09:11+00:00",
+    "request_seconds": 19.25,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "육십이세 여성환자 애디슨스 디지즈로 인한 Acute adrenal crisis로 입원. BP H밧 우스삼밀리메터 허그람, HR 베르스루 BPM, RR 브르사 브레스민, BT 선지첩도 뇽그레이스 SPO 디크스퍼시 룸에어. Severe abdominal pain 호소함. 하이드로코르티손 백밀리그램 IV 스탯 투여함. 네이즐 캐눌라 투인민 적용함. Fluid resuscitation with normal saline 시행함. 폴리 유지함. 유린 아웃풋 산치 밀리에러 확인됨. 환자 드라우지 상태임. Endocrinology consult for management of adrenal insufficiency.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 316,
+      "output_tokens": 169,
+      "total_tokens": 485,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 316,
+        "text_tokens": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_039_telegraphic_icu",
+  "whisper_transcript": "70세 여성 환자, 급성 폐부종으로 입원, 갑상선 기능 항진중독증, bpm 96 91hr x bpm, rr 68 breaths min, btt 83cds, spo2 88% ra. severe sob, propranolol 40mg po q6h, hfnc 적용. foley 삽입, drowsy 상태, endocrinology team notify.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe_auto",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": null,
+    "audio_path": "data/audio/scenario_039_telegraphic_icu.mp3",
+    "audio_sha256": "3a0ee07b72f99620f9bc3be997b5550f3a1095c435ed2b6f7b6393d4956333e8",
+    "transcribed_at": "2026-11-04T14:08:02+00:00",
+    "request_seconds": 1.71,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "70세 여성 환자, 급성 폐부종으로 입원, 갑상선 기능 항진중독증, bpm 96 91hr x bpm, rr 68 breaths min, btt 83cds, spo2 88% ra. severe sob, propranolol 40mg po q6h, hfnc 적용. foley 삽입, drowsy 상태, endocrinology team notify.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 204,
+      "output_tokens": 92,
+      "total_tokens": 296,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 204,
+        "text_tokens": 0
+      }
+    }
+  }
+}

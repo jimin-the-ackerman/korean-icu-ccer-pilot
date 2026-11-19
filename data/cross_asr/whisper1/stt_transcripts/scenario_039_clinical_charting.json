@@ -1,0 +1,25 @@
+{
+  "sample_id": "scenario_039_clinical_charting",
+  "whisper_transcript": "74세 이상 환자, 아큐트 폴메나리아디마로 입원 하이퍼따이로이디즘 악화, 원인 BP, 헴역증, 굶음증 HR, 웻산지, BPM, RR, 웨스파이트, 브레스민 BT, 38.4도, 엑셀솔 SBO2, 80만 퍼센트, 룸웨어 심각한 숨의 짧음, 호소함 프로페놀, 포스피오, Q, 섹치, 튜함 하이플로, 내슬, 캔눌라, 적용함 폴리, 유지함 의식상태, 드라우지, 확인됨",
+  "stt_metadata": {
+    "asr_system": "whisper1",
+    "provider": "reuse_existing",
+    "model": "whisper-1",
+    "language": "ko",
+    "audio_path": "data/audio/scenario_039_clinical_charting.mp3",
+    "audio_sha256": "a4af142bc5a1e24b97dd89575857073d6f04db65413877a1fbbf29d9e6dfa461",
+    "copied_at": "2026-11-04T04:31:11+00:00",
+    "request_seconds": 0.0,
+    "attempts": 1,
+    "git_commit": "b3490181b3fb3f88b56cde5be78a01cfdcef3007",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "source_file": "data/stt_transcripts/scenario_039_clinical_charting.json",
+    "source_sha256": "1d500c666f6c3a97d68a790170ba1fe0500a538cffe4f551d409b33f0db8ee33",
+    "source_stt_metadata": {
+      "model": "whisper-1",
+      "language": "ko"
+    }
+  }
+}

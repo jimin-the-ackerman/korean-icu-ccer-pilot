@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_041_telegraphic_icu",
+  "whisper_transcript": "65세 여성 급성 악화 만성 간질환, 알코올 관련 간경화, BPO 568mmHg, HR 112bpm, R 22min BT 37.83C, SpO 92% 룸 에어, Ascites Moderate, Furosemide 40mg IV QH, Nasal Cannula, Foley, Urine Output 1200ml 24hr, Drowsy",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe_auto",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": null,
+    "audio_path": "data/audio/scenario_041_telegraphic_icu.mp3",
+    "audio_sha256": "f49f33435e0c22bfb2a52c276514fc2addcaf3094ced2b351b70e69d3084d14d",
+    "transcribed_at": "2026-11-04T14:08:16+00:00",
+    "request_seconds": 2.38,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "65세 여성 급성 악화 만성 간질환, 알코올 관련 간경화, BPO 568mmHg, HR 112bpm, R 22min BT 37.83C, SpO 92% 룸 에어, Ascites Moderate, Furosemide 40mg IV QH, Nasal Cannula, Foley, Urine Output 1200ml 24hr, Drowsy",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 199,
+      "output_tokens": 93,
+      "total_tokens": 292,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 199,
+        "text_tokens": 0
+      }
+    }
+  }
+}

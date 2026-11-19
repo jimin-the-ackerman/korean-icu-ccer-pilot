@@ -1,0 +1,25 @@
+{
+  "sample_id": "scenario_069_clinical_charting",
+  "whisper_transcript": "57세 남성 환자 아큐트 헤러윈 오버도스로 입원함 BP 96.6% HR 45 BPM RR 8 Breaths Min BT 36.5°C SpO2 85% on room air Severe unconsciousness 호소함 Naloxone melum IV STAT 착용함 High flow nasal cannula 착용함 Clinical status unresponsive",
+  "stt_metadata": {
+    "asr_system": "whisper1",
+    "provider": "reuse_existing",
+    "model": "whisper-1",
+    "language": "ko",
+    "audio_path": "data/audio/scenario_069_clinical_charting.mp3",
+    "audio_sha256": "116463f5e09249c4c11d85f5e99642d2b63e0d952f3db1c071f51ac1fc2ec2e9",
+    "copied_at": "2026-11-04T04:31:12+00:00",
+    "request_seconds": 0.0,
+    "attempts": 1,
+    "git_commit": "b3490181b3fb3f88b56cde5be78a01cfdcef3007",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "source_file": "data/stt_transcripts/scenario_069_clinical_charting.json",
+    "source_sha256": "1dd32955c91c97c67617c3bde3dc45a6d52ed1f6a8a4bd462523ce9e9f9b0766",
+    "source_stt_metadata": {
+      "model": "whisper-1",
+      "language": "ko"
+    }
+  }
+}

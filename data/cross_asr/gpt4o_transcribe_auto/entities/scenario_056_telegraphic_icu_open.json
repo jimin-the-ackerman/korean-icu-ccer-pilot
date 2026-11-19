@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_056_telegraphic_icu",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "wheezing",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "Drowsy",
+    "medication_identity": "Albuterol",
+    "interventions": [],
+    "intake_output": "Negative fluid balance 500 ml",
+    "notification": "Pulmo team notify"
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "쌕쌕거림",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "졸음 상태",
+    "medication_identity": "알부테롤",
+    "interventions": [],
+    "intake_output": "네거티브 플루이드 밸런스 500ml",
+    "notification": "Pulmo 팀 notify"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "sample_id": "scenario_085_clinical_charting",
+  "whisper_transcript": "73세 남성 환자, Aspiration pneumonia로 인한 acute respiratory failure로 입원함. BP 핵에 70mm 흐름, HR 95RR18 BPM, BT, 산티체돔, 애드릭삭스, SbO2 upper present 확인됨. Cough moderate 호소함. Piperacillin tezobactam foltum gravi QH 적용함. High flow nasal cannula 적용중. Ventilator 사용중. Positive fluid balance 확인됨. Drowsy 상태 확인됨. Pulmonologist notify함.",
+  "stt_metadata": {
+    "asr_system": "whisper1",
+    "provider": "reuse_existing",
+    "model": "whisper-1",
+    "language": "ko",
+    "audio_path": "data/audio/scenario_085_clinical_charting.mp3",
+    "audio_sha256": "a4730fd0eae97dd97866c86f421c975e12361e9fb4c931a23a19d4cb7c694ccb",
+    "copied_at": "2026-11-04T04:31:12+00:00",
+    "request_seconds": 0.0,
+    "attempts": 1,
+    "git_commit": "b3490181b3fb3f88b56cde5be78a01cfdcef3007",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "source_file": "data/stt_transcripts/scenario_085_clinical_charting.json",
+    "source_sha256": "87b1e08a52934792d705820bd87c07add57c7bfd1e8c2fca8a44183310a98b7e",
+    "source_stt_metadata": {
+      "model": "whisper-1",
+      "language": "ko"
+    }
+  }
+}

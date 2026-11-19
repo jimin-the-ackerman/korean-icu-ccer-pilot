@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_021_telegraphic_icu",
+  "whisper_transcript": "57's in MSOJ, severe hyperkalemia, rhabdomyolysis, prolonged immobilization one-in, B145-85 mmHg, HR 110 bpm, RR 22 breaths min, BT 37.2°C, SpO2 95% RA, muscle weakness severe, calcium gluconate 10 ml IV stat, IV fluid administration, C-line in place, IO strict monitoring. Alert, renal team notify.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": "ko",
+    "audio_path": "data/audio/scenario_021_telegraphic_icu.mp3",
+    "audio_sha256": "dd05d70682a1bb99bd832b21c59b53736940890235aee02dd0ff3884722c519a",
+    "transcribed_at": "2026-11-04T12:55:46+00:00",
+    "request_seconds": 1.84,
+    "attempts": 1,
+    "git_commit": "5b6d73fb63e1509a79e1a160176d606ed1b104c4",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "57's in MSOJ, severe hyperkalemia, rhabdomyolysis, prolonged immobilization one-in, B145-85 mmHg, HR 110 bpm, RR 22 breaths min, BT 37.2°C, SpO2 95% RA, muscle weakness severe, calcium gluconate 10 ml IV stat, IV fluid administration, C-line in place, IO strict monitoring. Alert, renal team notify.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 222,
+      "output_tokens": 92,
+      "total_tokens": 314,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 222,
+        "text_tokens": 0
+      }
+    }
+  }
+}

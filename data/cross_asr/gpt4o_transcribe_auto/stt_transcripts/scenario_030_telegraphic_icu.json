@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_030_telegraphic_icu",
+  "whisper_transcript": "66세 여성, SLA과로 입원. 루푸스 네프라이트스 동반 비표현은 혈압 수그레르, HR 가르저, RR 스피티 37 포머, SpO2 피운은 96%, 조인트 페인 모더렛, 40mg PO Q12H Foley 사용 중 I/O positive, alert.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe_auto",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": null,
+    "audio_path": "data/audio/scenario_030_telegraphic_icu.mp3",
+    "audio_sha256": "feb39ee23e8cbe441b888c8a63aac4edeffdbcc9c72528942250fb0b9a8d1abe",
+    "transcribed_at": "2026-11-04T14:07:00+00:00",
+    "request_seconds": 1.94,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "66세 여성, SLA과로 입원. 루푸스 네프라이트스 동반 비표현은 혈압 수그레르, HR 가르저, RR 스피티 37 포머, SpO2 피운은 96%, 조인트 페인 모더렛, 40mg PO Q12H Foley 사용 중 I/O positive, alert.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 147,
+      "output_tokens": 80,
+      "total_tokens": 227,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 147,
+        "text_tokens": 0
+      }
+    }
+  }
+}

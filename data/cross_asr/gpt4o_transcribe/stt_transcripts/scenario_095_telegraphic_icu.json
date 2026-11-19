@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_095_telegraphic_icu",
+  "whisper_transcript": "육십이세 F 환자, 급성 호흡곤란으로 중증 천식 악화로 입원, BP 130/85mmHg, HR 190bpm, RR/SpO2, T 37.3°C, SpO2 89%RA, severe SOB 알부테롤 투제 호흡 미리그램 IV PRN. 고유량 비강 캐놀라 사용 중 환기장치 ventilator, fluid balance positive, 정신 상태 alert, RT ventilator 조정 위해 notify.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": "ko",
+    "audio_path": "data/audio/scenario_095_telegraphic_icu.mp3",
+    "audio_sha256": "142d7f5143a9fc1efa183c5a748d83ce532bf7bea38ad5241f51169f9f1b360f",
+    "transcribed_at": "2026-11-04T13:04:57+00:00",
+    "request_seconds": 1.98,
+    "attempts": 1,
+    "git_commit": "5b6d73fb63e1509a79e1a160176d606ed1b104c4",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "육십이세 F 환자, 급성 호흡곤란으로 중증 천식 악화로 입원, BP 130/85mmHg, HR 190bpm, RR/SpO2, T 37.3°C, SpO2 89%RA, severe SOB 알부테롤 투제 호흡 미리그램 IV PRN. 고유량 비강 캐놀라 사용 중 환기장치 ventilator, fluid balance positive, 정신 상태 alert, RT ventilator 조정 위해 notify.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 218,
+      "output_tokens": 112,
+      "total_tokens": 330,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 218,
+        "text_tokens": 0
+      }
+    }
+  }
+}

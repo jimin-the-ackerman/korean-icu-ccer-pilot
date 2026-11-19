@@ -1,0 +1,25 @@
+{
+  "sample_id": "scenario_093_clinical_charting",
+  "whisper_transcript": "52세 남성 환자, 급성 Hemorrhagic Shock으로 입원. 원인은 Ruptured Abdominal Aortic Aneurysm. BP 85dmg, HR 100pm, RR rib drowsum, BT 36.8dS, SpO2 80.9%. Severe Abdominal Pain 호소함. Norepinephrine 8-Myscrimin IVT 적용함. High Flow Nasal Cannula 산소 공급 유지함. Emergency Surgical Repair 계획댐. C-Line 적용댐. Urine Output 20mL 확인댐. Drowsy 상태 확인댐. Vascular Surgery Team Notify함.",
+  "stt_metadata": {
+    "asr_system": "whisper1_auto",
+    "provider": "openai",
+    "model": "whisper-1",
+    "language": null,
+    "audio_path": "data/audio/scenario_093_clinical_charting.mp3",
+    "audio_sha256": "165593168e111c3edbeace0b3944967db14bc4d4f248352bdd7714c8808d9cc2",
+    "transcribed_at": "2026-11-04T14:01:23+00:00",
+    "request_seconds": 2.75,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "52세 남성 환자, 급성 Hemorrhagic Shock으로 입원. 원인은 Ruptured Abdominal Aortic Aneurysm. BP 85dmg, HR 100pm, RR rib drowsum, BT 36.8dS, SpO2 80.9%. Severe Abdominal Pain 호소함. Norepinephrine 8-Myscrimin IVT 적용함. High Flow Nasal Cannula 산소 공급 유지함. Emergency Surgical Repair 계획댐. C-Line 적용댐. Urine Output 20mL 확인댐. Drowsy 상태 확인댐. Vascular Surgery Team Notify함.",
+    "logprobs": null,
+    "usage": {
+      "seconds": 30.0,
+      "type": "duration"
+    }
+  }
+}

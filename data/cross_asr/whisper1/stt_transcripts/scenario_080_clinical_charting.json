@@ -1,0 +1,25 @@
+{
+  "sample_id": "scenario_080_clinical_charting",
+  "whisper_transcript": "50세 남성 환자, 알코올릭 세로시스로 인한 acute exacerbation of chronic liver failure to E1. Vital signs, BP 25, 60mg, HR, Regular BPM, RR, ECD, Breathsmen, BT, Sanitizer, Fluxes, SpO2, PT, PrEP, Room air. Severe jaundice 확인됨. Furosemide, 40mg, IV, BID 적용함. Oxygen to ital nasal cannula 유지함, Foley 유지함. Negative fluid balance 기록됨. Drowsy 상태 확인됨. Hepatology consult 요청함.",
+  "stt_metadata": {
+    "asr_system": "whisper1",
+    "provider": "reuse_existing",
+    "model": "whisper-1",
+    "language": "ko",
+    "audio_path": "data/audio/scenario_080_clinical_charting.mp3",
+    "audio_sha256": "6cf0576e59ee28160e99fbb474a4b66dbc9bce4c0ced7a9152ef231fc0b6c4d0",
+    "copied_at": "2026-11-04T04:31:12+00:00",
+    "request_seconds": 0.0,
+    "attempts": 1,
+    "git_commit": "b3490181b3fb3f88b56cde5be78a01cfdcef3007",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "source_file": "data/stt_transcripts/scenario_080_clinical_charting.json",
+    "source_sha256": "d87fbdb8359629bdae53c336e6ac86f1dbd38d8741c1845ef31bd70dcd31ff02",
+    "source_stt_metadata": {
+      "model": "whisper-1",
+      "language": "ko"
+    }
+  }
+}

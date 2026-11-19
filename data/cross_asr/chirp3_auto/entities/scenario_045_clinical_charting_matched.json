@@ -1,0 +1,131 @@
+{
+  "sample_id": "scenario_045_clinical_charting",
+  "closed_vocab_matches": [
+    {
+      "entity_type": "route",
+      "gold_value": "iv",
+      "whisper_value": "iv",
+      "match_status": "matched",
+      "error_type": null
+    },
+    {
+      "entity_type": "frequency",
+      "gold_value": "stat",
+      "whisper_value": "stat",
+      "match_status": "matched",
+      "error_type": null
+    },
+    {
+      "entity_type": "device",
+      "gold_value": "foley",
+      "whisper_value": null,
+      "match_status": "omission",
+      "error_type": "omission"
+    },
+    {
+      "entity_type": "device",
+      "gold_value": "nc",
+      "whisper_value": null,
+      "match_status": "omission",
+      "error_type": "omission"
+    },
+    {
+      "entity_type": "dose",
+      "gold_value": "100mg",
+      "whisper_value": "100mg",
+      "match_status": "matched",
+      "error_type": null
+    },
+    {
+      "entity_type": "dose",
+      "gold_value": null,
+      "whisper_value": "2l/min",
+      "match_status": "whisper_only",
+      "error_type": null
+    },
+    {
+      "entity_type": "vital_sign",
+      "label": "bp",
+      "gold_value": "88/54",
+      "whisper_value": "85/55",
+      "match_status": "error",
+      "error_type": "numeric_error"
+    },
+    {
+      "entity_type": "vital_sign",
+      "label": "hr",
+      "gold_value": "112",
+      "whisper_value": "110",
+      "match_status": "error",
+      "error_type": "numeric_error"
+    },
+    {
+      "entity_type": "vital_sign",
+      "label": "rr",
+      "gold_value": "24",
+      "whisper_value": "24",
+      "match_status": "matched",
+      "error_type": null
+    },
+    {
+      "entity_type": "vital_sign",
+      "label": "bt",
+      "gold_value": "37.0",
+      "whisper_value": "37.0",
+      "match_status": "matched",
+      "error_type": null
+    },
+    {
+      "entity_type": "vital_sign",
+      "label": "spo2",
+      "gold_value": "92%",
+      "whisper_value": "92%",
+      "match_status": "matched",
+      "error_type": null
+    }
+  ],
+  "open_vocab_matches": {
+    "symptom_matches": [
+      {
+        "gold_value": "abdominal pain",
+        "whisper_value": "abdominal pain",
+        "match_basis": "exact",
+        "negation_match": true,
+        "severity_match": true
+      }
+    ],
+    "whisper_only_symptoms": [],
+    "clinical_status_match": {
+      "gold_value": "drowsy",
+      "whisper_value": "드라우지 (drowsy)",
+      "match_basis": "semantic",
+      "negation_match": null,
+      "severity_match": null
+    },
+    "medication_identity_match": {
+      "gold_value": "Hydrocortisone",
+      "whisper_value": "하이드로코르티손 (hydrocortisone)",
+      "match_basis": "semantic"
+    },
+    "intervention_matches": [
+      {
+        "gold_value": "fluid resuscitation with normal saline",
+        "whisper_value": "플루이드 리서시테이션 (fluid resuscitation)",
+        "match_basis": "semantic"
+      }
+    ],
+    "whisper_only_interventions": [
+      "엔도크리놀로지 컨설트 (endocrinology consult)"
+    ],
+    "intake_output_match": {
+      "gold_value": "urine output 30 mL/hr",
+      "whisper_value": "유린 아웃풋 30 ml/hr",
+      "match_basis": "semantic"
+    },
+    "notification_match": {
+      "gold_value": "Endocrinology consulted for management of adrenal insufficiency",
+      "whisper_value": null,
+      "match_basis": "omission"
+    }
+  }
+}

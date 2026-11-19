@@ -1,0 +1,25 @@
+{
+  "sample_id": "scenario_084_clinical_charting",
+  "whisper_transcript": "49세 남성 환자, Severe Asthma Attack으로 입원. BP Gexcept 85mg, HR-Pekin BPM, RR-SMPUT, BT-37.0 Grace S.B.P. Severe Wheezing 확인됨. Albuterol 6.5mg IV PRN 적용함. High Flow Nasal Cannula 산소 공급 유지함. 환자 Drowsy 상태. Respiratory Therapy Notify함.",
+  "stt_metadata": {
+    "asr_system": "whisper1_auto",
+    "provider": "openai",
+    "model": "whisper-1",
+    "language": null,
+    "audio_path": "data/audio/scenario_084_clinical_charting.mp3",
+    "audio_sha256": "f8d59790daeb105bfaa67bf51ce3cd96906211320794dce9fc484588a53914d8",
+    "transcribed_at": "2026-11-04T14:00:06+00:00",
+    "request_seconds": 2.66,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "49세 남성 환자, Severe Asthma Attack으로 입원. BP Gexcept 85mg, HR-Pekin BPM, RR-SMPUT, BT-37.0 Grace S.B.P. Severe Wheezing 확인됨. Albuterol 6.5mg IV PRN 적용함. High Flow Nasal Cannula 산소 공급 유지함. 환자 Drowsy 상태. Respiratory Therapy Notify함.",
+    "logprobs": null,
+    "usage": {
+      "seconds": 20.0,
+      "type": "duration"
+    }
+  }
+}

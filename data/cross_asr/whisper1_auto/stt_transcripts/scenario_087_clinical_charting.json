@@ -1,0 +1,25 @@
+{
+  "sample_id": "scenario_087_clinical_charting",
+  "whisper_transcript": "45-year-old male patient admitted with severe tetanus. Puncture wound foot. BP 1-sartorin 2-gering. HR, head sheath BPM. RR, surfacity breaths min. BT, 30-bite film aldehydes. SpO2, night GD, persistent room air. Severe muscle spasms, 확인 됨. Diazepam, 10-milligram IV QRH 적용함. Nasal cannula 2-L min-in 유지함. Wound debridement 시행함. NG tubes 합입됨. IO strict monitoring 유지함. 환자상태 drowsy, 확인 됨. Neurology consult, muscle spasms management 위에 담당해 Notify him.",
+  "stt_metadata": {
+    "asr_system": "whisper1_auto",
+    "provider": "openai",
+    "model": "whisper-1",
+    "language": null,
+    "audio_path": "data/audio/scenario_087_clinical_charting.mp3",
+    "audio_sha256": "5b2372306e164cd522fa58238ce8b6208cd0151e67aef3e696b6d30430f058bf",
+    "transcribed_at": "2026-11-04T14:00:33+00:00",
+    "request_seconds": 3.83,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "45-year-old male patient admitted with severe tetanus. Puncture wound foot. BP 1-sartorin 2-gering. HR, head sheath BPM. RR, surfacity breaths min. BT, 30-bite film aldehydes. SpO2, night GD, persistent room air. Severe muscle spasms, 확인 됨. Diazepam, 10-milligram IV QRH 적용함. Nasal cannula 2-L min-in 유지함. Wound debridement 시행함. NG tubes 합입됨. IO strict monitoring 유지함. 환자상태 drowsy, 확인 됨. Neurology consult, muscle spasms management 위에 담당해 Notify him.",
+    "logprobs": null,
+    "usage": {
+      "seconds": 30.0,
+      "type": "duration"
+    }
+  }
+}

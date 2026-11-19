@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_037_clinical_charting",
+  "whisper_transcript": "52세 남성 환자, 크론스 디지즈 악화로 입원함. Severe abdominal pain 및 diarrhea 호소함. BP 110/70 mmHg, HR 150 bpm, RR 8, BT 37.5°C, SpO2 98% 확인됨. Prednisone 40 mg PO BID 처방. 24시간 동안 2000 mL IV fluids 투여함. 환자 alert 상태 유지함.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe_auto",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": null,
+    "audio_path": "data/audio/scenario_037_clinical_charting.mp3",
+    "audio_sha256": "b240f96dd2381061b30bb682b245b0b4bacd872d33c73e0f3bf46bcb7b1e8f9e",
+    "transcribed_at": "2026-11-04T14:07:42+00:00",
+    "request_seconds": 1.59,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "52세 남성 환자, 크론스 디지즈 악화로 입원함. Severe abdominal pain 및 diarrhea 호소함. BP 110/70 mmHg, HR 150 bpm, RR 8, BT 37.5°C, SpO2 98% 확인됨. Prednisone 40 mg PO BID 처방. 24시간 동안 2000 mL IV fluids 투여함. 환자 alert 상태 유지함.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 210,
+      "output_tokens": 96,
+      "total_tokens": 306,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 210,
+        "text_tokens": 0
+      }
+    }
+  }
+}

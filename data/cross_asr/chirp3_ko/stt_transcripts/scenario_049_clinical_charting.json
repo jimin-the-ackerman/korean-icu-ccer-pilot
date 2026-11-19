@@ -1,0 +1,43 @@
+{
+  "sample_id": "scenario_049_clinical_charting",
+  "whisper_transcript": "54세 여자 환자, right knee septic arthritis로 입원. BP 102/65 mmHg, HR 115 bpm, RR 24 bpm, BT 38.5°C, SpO2 96% room air에서 severe knee pain 호소함. Vancomycin 1g IV q12h 투여 중. right knee joint aspiration 시행함. positive fluid balance 500ml 기록됨. 환자 alert 상태 유지함. 정형외과 consult 요청함.",
+  "stt_metadata": {
+    "asr_system": "chirp3_ko",
+    "provider": "google",
+    "model": "chirp_3",
+    "location": "us",
+    "language_codes": [
+      "ko-KR"
+    ],
+    "audio_path": "data/audio/scenario_049_clinical_charting.mp3",
+    "audio_sha256": "8a17ed445ff7f24f419bbf06f2b3cfede176b5715b22c9da661d267461a1fb72",
+    "transcribed_at": "2026-11-04T13:21:04+00:00",
+    "request_seconds": 4.49,
+    "attempts": 1,
+    "git_commit": "5b6d73fb63e1509a79e1a160176d606ed1b104c4",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "metadata": {
+      "total_billed_duration": "25s",
+      "request_id": "73920568-0000-245d-9337-ac3eb1486d20",
+      "prompt": "Transcribe the following speech segment in Korean. Follow these specific instructions for formatting the answer:\n* Only output the transcript, with no newlines.\n* When transcribing numbers, write the digits, i.e. write 1.7 and not one point seven, and write 100 instead of one hundred etc.\n* Only output the transcript, exactly as said in the speech segment.\n* Do not continue the speech segment.\n* Include everything said in the speech segment.\n* Use mathematical notation where needed, eg. x ^ 6Y.\n* If there is background speech that is not part of the main conversation, discard the background speech and only output the main conversation.\n* If there is no clear speech, just output [BACKGROUND].\n* Respond in the original language of the speech, Korean."
+    },
+    "results": [
+      {
+        "alternatives": [
+          {
+            "transcript": "54세 여자 환자, right knee septic arthritis로 입원. BP 102/65 mmHg, HR 115 bpm, RR 24 bpm, BT 38.5°C, SpO2 96% room air에서 severe knee pain 호소함. Vancomycin 1g IV q12h 투여 중. right knee joint aspiration 시행함. positive fluid balance 500ml 기록됨. 환자 alert 상태 유지함. 정형외과 consult 요청함.",
+            "confidence": 0.0,
+            "words": []
+          }
+        ],
+        "language_code": "ko-KR",
+        "channel_tag": 0
+      }
+    ],
+    "detected_language_codes": [
+      "ko-KR"
+    ]
+  }
+}

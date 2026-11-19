@@ -1,0 +1,43 @@
+{
+  "sample_id": "scenario_042_clinical_charting",
+  "whisper_transcript": "73세 남성 severe dehydration 및 electrolyte imbalance로 2번 내원. BP 98/60 mmHg, HR 102 bpm, RR 24 breaths/min, BT 37.4도, 이 곳은 SpO2 95% on room air. severe diarrhea 확인됨. normal saline 10 ml IV stat 적용함. IV fluid resuscitation 시행함. urine output low 2 ml/hr. 환자 drowsy 상태. urine output 30 ml/hr 미만 시 담당의 notify함.",
+  "stt_metadata": {
+    "asr_system": "chirp3_auto",
+    "provider": "google",
+    "model": "chirp_3",
+    "location": "us",
+    "language_codes": [
+      "auto"
+    ],
+    "audio_path": "data/audio/scenario_042_clinical_charting.mp3",
+    "audio_sha256": "9a8e51c3948752ca1c7d0e3b477bf9108a09123da6c3f02b5581d10fb1d99f62",
+    "transcribed_at": "2026-11-04T14:27:23+00:00",
+    "request_seconds": 4.95,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "metadata": {
+      "total_billed_duration": "27s",
+      "request_id": "6b0e63df-0000-270b-81f3-14c14ef4bf74",
+      "prompt": "Transcribe the following speech segment. Follow these specific instructions for formatting the answer:\n* Only output the transcript, with no newlines.\n* When transcribing numbers, write the digits, i.e. write 1.7 and not one point seven, and write 100 instead of one hundred etc.\n* Only output the transcript, exactly as said in the speech segment.\n* Do not continue the speech segment.\n* Include everything said in the speech segment.\n* Use mathematical notation where needed, eg. x ^ 6Y.\n* If there is background speech that is not part of the main conversation, discard the background speech and only output the main conversation.\n* If there is no clear speech, just output [BACKGROUND].\n* Respond in the original language of the speech."
+    },
+    "results": [
+      {
+        "alternatives": [
+          {
+            "transcript": "73세 남성 severe dehydration 및 electrolyte imbalance로 2번 내원. BP 98/60 mmHg, HR 102 bpm, RR 24 breaths/min, BT 37.4도, 이 곳은 SpO2 95% on room air. severe diarrhea 확인됨. normal saline 10 ml IV stat 적용함. IV fluid resuscitation 시행함. urine output low 2 ml/hr. 환자 drowsy 상태. urine output 30 ml/hr 미만 시 담당의 notify함.",
+            "confidence": 0.0,
+            "words": []
+          }
+        ],
+        "language_code": "ko",
+        "channel_tag": 0
+      }
+    ],
+    "detected_language_codes": [
+      "ko"
+    ]
+  }
+}

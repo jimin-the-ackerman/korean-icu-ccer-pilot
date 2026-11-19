@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_073_clinical_charting",
+  "whisper_transcript": "62세 남자 환자 Acute Pulmonary Edema로 입원함. 심한 Mitral Valve Regurgitation 배경. BP 132 mmHg, HR 98 bpm, RR 28 breaths/min, BT 36.8도, SpO2 88% on room air. Severe Shortness of Breath 호소함. Furosemide 40mg IV q8h 투여함. Non-rebreather mask at 15L/min 적용함. Foley 유지함. Positive fluid balance 200ml over the last 24 hours 확인됨. 환자 Alert 상태.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": "ko",
+    "audio_path": "data/audio/scenario_073_clinical_charting.mp3",
+    "audio_sha256": "01d87ecaab55610d6156e24c71c5d8ef96fc63532540364992e2a0d3eb584c32",
+    "transcribed_at": "2026-11-04T13:01:54+00:00",
+    "request_seconds": 2.32,
+    "attempts": 1,
+    "git_commit": "5b6d73fb63e1509a79e1a160176d606ed1b104c4",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "62세 남자 환자 Acute Pulmonary Edema로 입원함. 심한 Mitral Valve Regurgitation 배경. BP 132 mmHg, HR 98 bpm, RR 28 breaths/min, BT 36.8도, SpO2 88% on room air. Severe Shortness of Breath 호소함. Furosemide 40mg IV q8h 투여함. Non-rebreather mask at 15L/min 적용함. Foley 유지함. Positive fluid balance 200ml over the last 24 hours 확인됨. 환자 Alert 상태.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 284,
+      "output_tokens": 124,
+      "total_tokens": 408,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 284,
+        "text_tokens": 0
+      }
+    }
+  }
+}

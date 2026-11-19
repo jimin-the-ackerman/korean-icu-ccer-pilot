@@ -1,0 +1,85 @@
+{
+  "sample_id": "scenario_064_telegraphic_icu",
+  "gold_entities": {
+    "route": [
+      {
+        "raw": "IV",
+        "normalized": "iv",
+        "position": 106
+      }
+    ],
+    "frequency": [
+      {
+        "raw": "q12h",
+        "normalized": "q12h",
+        "position": 109
+      }
+    ],
+    "device": [
+      {
+        "raw": "Ventilator",
+        "normalized": "ventilator",
+        "position": 143
+      }
+    ],
+    "vital_sign": [
+      {
+        "raw": "BP 110/70.",
+        "label": "bp",
+        "value": "110/70",
+        "position": 18
+      },
+      {
+        "raw": "HR 95.",
+        "label": "hr",
+        "value": "95",
+        "position": 31
+      },
+      {
+        "raw": "RR 30.",
+        "label": "rr",
+        "value": "30",
+        "position": 40
+      },
+      {
+        "raw": "BT 37.8",
+        "label": "bt",
+        "value": "37.8",
+        "position": 49
+      },
+      {
+        "raw": "SpO2 85%",
+        "label": "spo2",
+        "value": "85%",
+        "position": 62
+      }
+    ],
+    "dose": [
+      {
+        "raw": "2g",
+        "value": "2",
+        "unit": "g",
+        "position": 103
+      }
+    ]
+  },
+  "whisper_entities": {
+    "route": [
+      {
+        "raw": "IV",
+        "normalized": "iv",
+        "position": 68
+      }
+    ],
+    "frequency": [
+      {
+        "raw": "Q12H",
+        "normalized": "q12h",
+        "position": 71
+      }
+    ],
+    "device": [],
+    "vital_sign": [],
+    "dose": []
+  }
+}

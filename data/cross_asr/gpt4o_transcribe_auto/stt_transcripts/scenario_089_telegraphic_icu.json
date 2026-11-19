@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_089_telegraphic_icu",
+  "whisper_transcript": "입시 규제 남환자, 나흘 전에 만성 간질환 급설로 입원, BP 92, 98mmHg, HR 24 breaths min, BT 37.2 dCels, SpO2 89% 선룸에어, 아싸이디즈 모더렛, 스파이로날락톤 100mg POBID, 네이저 캔율러 3호 폴리, 네거티브 플루이드 밸런스 500ml, 드라우지, 헤파톨로지 팀 노티파이.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe_auto",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": null,
+    "audio_path": "data/audio/scenario_089_telegraphic_icu.mp3",
+    "audio_sha256": "c92b3dd1a9c65918d354a7e64ed4e562140ab0f73105204ffc9459b80c1587bc",
+    "transcribed_at": "2026-11-04T14:14:12+00:00",
+    "request_seconds": 1.83,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "입시 규제 남환자, 나흘 전에 만성 간질환 급설로 입원, BP 92, 98mmHg, HR 24 breaths min, BT 37.2 dCels, SpO2 89% 선룸에어, 아싸이디즈 모더렛, 스파이로날락톤 100mg POBID, 네이저 캔율러 3호 폴리, 네거티브 플루이드 밸런스 500ml, 드라우지, 헤파톨로지 팀 노티파이.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 217,
+      "output_tokens": 128,
+      "total_tokens": 345,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 217,
+        "text_tokens": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_014_clinical_charting",
+  "whisper_transcript": "59세 남성 환자 ARDS로 입원함. 집 화재로 인한 흡입 손상 상태, BP 130/110mmHg 110bpm, RR 30 breaths/min, BT 38.5℃, SpO2 85% room air. Dyspnea severe 호소함. Methylprednisolone 100mg IV q6h 투여 중. Mechanical ventilation 적용함. Ventilator 사용 중. Positive fluid balance 확인됨. Clinical status drowsy 확인됨.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": "ko",
+    "audio_path": "data/audio/scenario_014_clinical_charting.mp3",
+    "audio_sha256": "d4c9a01e7af0872f7c8544c354d5917d9aa43572adf75178678183de14a8faa6",
+    "transcribed_at": "2026-11-04T12:55:01+00:00",
+    "request_seconds": 2.18,
+    "attempts": 1,
+    "git_commit": "5b6d73fb63e1509a79e1a160176d606ed1b104c4",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "59세 남성 환자 ARDS로 입원함. 집 화재로 인한 흡입 손상 상태, BP 130/110mmHg 110bpm, RR 30 breaths/min, BT 38.5℃, SpO2 85% room air. Dyspnea severe 호소함. Methylprednisolone 100mg IV q6h 투여 중. Mechanical ventilation 적용함. Ventilator 사용 중. Positive fluid balance 확인됨. Clinical status drowsy 확인됨.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 253,
+      "output_tokens": 110,
+      "total_tokens": 363,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 253,
+        "text_tokens": 0
+      }
+    }
+  }
+}

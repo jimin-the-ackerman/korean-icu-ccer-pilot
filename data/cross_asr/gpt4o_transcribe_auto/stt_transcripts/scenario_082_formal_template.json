@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_082_formal_template",
+  "whisper_transcript": "58세 여성 환자가 담석으로 인한 중증 급성 췌장염으로 입원하였다. 활력 징후는 혈압 145/90mmHg, 심박수 110bpm, 호흡수 22 breaths/min, 체온 38.2℃, 산소포화도 98% 실내 공기로 확인되었다. 환자는 심한 복통을 호소하였다. 통증 관리를 위해 모르핀 5mg IV push로 투여하였다. 환자는 의식이 명료하였다. 엄격한 수액 출입량 모니터링을 시행 중이다.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe_auto",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": null,
+    "audio_path": "data/audio/scenario_082_formal_template.mp3",
+    "audio_sha256": "4edbc4c1983670827d1a42208b34bf67181b98f4605f07c2031225132939acbd",
+    "transcribed_at": "2026-11-04T14:13:23+00:00",
+    "request_seconds": 3.33,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "58세 여성 환자가 담석으로 인한 중증 급성 췌장염으로 입원하였다. 활력 징후는 혈압 145/90mmHg, 심박수 110bpm, 호흡수 22 breaths/min, 체온 38.2℃, 산소포화도 98% 실내 공기로 확인되었다. 환자는 심한 복통을 호소하였다. 통증 관리를 위해 모르핀 5mg IV push로 투여하였다. 환자는 의식이 명료하였다. 엄격한 수액 출입량 모니터링을 시행 중이다.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 291,
+      "output_tokens": 135,
+      "total_tokens": 426,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 291,
+        "text_tokens": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "sample_id": "scenario_091_telegraphic_icu",
+  "whisper_transcript": "64-year-old woman, admitted to the emergency room after awakening. Pulmonary fibrosis acquired. BP 195, HR, tiz6, RN8, BT 37.6, SbO2 88% room air, dyspnea severe. Prednisone 40 milligram, POBI, high flow nasal cannula used. Corticosteroid therapy started. Ventilator used. Clinical status drowsy.",
+  "stt_metadata": {
+    "asr_system": "whisper1_auto",
+    "provider": "openai",
+    "model": "whisper-1",
+    "language": null,
+    "audio_path": "data/audio/scenario_091_telegraphic_icu.mp3",
+    "audio_sha256": "f738392111be28c8b4d1835de7a129e29e9e321beb40ac993b02cd4e7717077e",
+    "transcribed_at": "2026-11-04T14:01:14+00:00",
+    "request_seconds": 1.85,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "64-year-old woman, admitted to the emergency room after awakening. Pulmonary fibrosis acquired. BP 195, HR, tiz6, RN8, BT 37.6, SbO2 88% room air, dyspnea severe. Prednisone 40 milligram, POBI, high flow nasal cannula used. Corticosteroid therapy started. Ventilator used. Clinical status drowsy.",
+    "logprobs": null,
+    "usage": {
+      "seconds": 20.0,
+      "type": "duration"
+    }
+  }
+}

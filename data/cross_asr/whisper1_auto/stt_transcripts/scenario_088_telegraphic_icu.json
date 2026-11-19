@@ -1,0 +1,25 @@
+{
+  "sample_id": "scenario_088_telegraphic_icu",
+  "whisper_transcript": "47 say a song acute liver failure due to acetaminophen overdose BP in 1270 mill at 105 BPM are 22 breaths min bt-37 at bundles of SpO 2 95% on room air severe jaundice drowsy N-acetylcysteine 300 milligram per kilo IV stat positive fluid balance 500 milliliters hepatology team notified",
+  "stt_metadata": {
+    "asr_system": "whisper1_auto",
+    "provider": "openai",
+    "model": "whisper-1",
+    "language": null,
+    "audio_path": "data/audio/scenario_088_telegraphic_icu.mp3",
+    "audio_sha256": "0f37c3f5ebe9b3635df3ab930f2af8f04d5870238f99afdab908ae84b5f404f4",
+    "transcribed_at": "2026-11-04T14:00:46+00:00",
+    "request_seconds": 2.45,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "47 say a song acute liver failure due to acetaminophen overdose BP in 1270 mill at 105 BPM are 22 breaths min bt-37 at bundles of SpO 2 95% on room air severe jaundice drowsy N-acetylcysteine 300 milligram per kilo IV stat positive fluid balance 500 milliliters hepatology team notified",
+    "logprobs": null,
+    "usage": {
+      "seconds": 21.0,
+      "type": "duration"
+    }
+  }
+}

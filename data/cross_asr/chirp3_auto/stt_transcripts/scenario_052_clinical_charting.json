@@ -1,0 +1,43 @@
+{
+  "sample_id": "scenario_052_clinical_charting",
+  "whisper_transcript": "72세 남성 hip replacement 2 post op complication으로 입원함. BP 185/90 mmHg 확인됨. HR 95 BPM 유지됨. RR 18 breaths/min 확인됨. BT 37.5도씨로 확인됨. SpO2 92% on room air 확인됨. moderate pain 호소함. morphine 2 mg IV Q4H 적용함. foley 유지 중임. urine output 400 ml/8 hr 확인됨. clinical status alert 상태 유지함.",
+  "stt_metadata": {
+    "asr_system": "chirp3_auto",
+    "provider": "google",
+    "model": "chirp_3",
+    "location": "us",
+    "language_codes": [
+      "auto"
+    ],
+    "audio_path": "data/audio/scenario_052_clinical_charting.mp3",
+    "audio_sha256": "bbf4067e617de3853fffd235bd9a22a24a214e61e195204b7bdc9508664ed540",
+    "transcribed_at": "2026-11-04T14:30:02+00:00",
+    "request_seconds": 4.26,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "metadata": {
+      "total_billed_duration": "26s",
+      "request_id": "6b0bc7c8-0000-231b-bd15-30fd38105560",
+      "prompt": "Transcribe the following speech segment. Follow these specific instructions for formatting the answer:\n* Only output the transcript, with no newlines.\n* When transcribing numbers, write the digits, i.e. write 1.7 and not one point seven, and write 100 instead of one hundred etc.\n* Only output the transcript, exactly as said in the speech segment.\n* Do not continue the speech segment.\n* Include everything said in the speech segment.\n* Use mathematical notation where needed, eg. x ^ 6Y.\n* If there is background speech that is not part of the main conversation, discard the background speech and only output the main conversation.\n* If there is no clear speech, just output [BACKGROUND].\n* Respond in the original language of the speech."
+    },
+    "results": [
+      {
+        "alternatives": [
+          {
+            "transcript": "72세 남성 hip replacement 2 post op complication으로 입원함. BP 185/90 mmHg 확인됨. HR 95 BPM 유지됨. RR 18 breaths/min 확인됨. BT 37.5도씨로 확인됨. SpO2 92% on room air 확인됨. moderate pain 호소함. morphine 2 mg IV Q4H 적용함. foley 유지 중임. urine output 400 ml/8 hr 확인됨. clinical status alert 상태 유지함.",
+            "confidence": 0.0,
+            "words": []
+          }
+        ],
+        "language_code": "ko",
+        "channel_tag": 0
+      }
+    ],
+    "detected_language_codes": [
+      "ko"
+    ]
+  }
+}

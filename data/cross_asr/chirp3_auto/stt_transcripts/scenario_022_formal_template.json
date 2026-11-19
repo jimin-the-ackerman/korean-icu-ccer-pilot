@@ -1,0 +1,43 @@
+{
+  "sample_id": "scenario_022_formal_template",
+  "whisper_transcript": "63세 여성 환자가 급성 심부전 악화 및 폐부종으로 입원하였다. 활력 징후를 확인한 결과, 혈압은 150/95 mmHg, 심박수는 110 bpm, 호흡수는 28 breaths/min, 체온은 37.2°C, 산소 포화도는 실내 공기에서 86%로 나타났다. 환자는 심한 호흡 곤란을 호소하였다. 현재 furosemide 40 mg을 IV로 매 8시간마다 투여 중이다. 고유량 비강 캐눌라를 사용하여 산소를 공급받고 있으며, 중심 정맥관이 삽입되어 있다. 환자의 수분 균형 상태는 양성이고, 임상 상태는 졸림이 확인되었다. 호흡 상태 악화에 대해 심장내과 팀에게 보고하였다.",
+  "stt_metadata": {
+    "asr_system": "chirp3_auto",
+    "provider": "google",
+    "model": "chirp_3",
+    "location": "us",
+    "language_codes": [
+      "auto"
+    ],
+    "audio_path": "data/audio/scenario_022_formal_template.mp3",
+    "audio_sha256": "e97ab021a72a562da1f3a269bd821759ae83bebb657dfc972bc225de506b9417",
+    "transcribed_at": "2026-11-04T14:22:36+00:00",
+    "request_seconds": 6.59,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "metadata": {
+      "total_billed_duration": "42s",
+      "request_id": "6dd860c1-0000-2cc9-91db-582429ac2ca8",
+      "prompt": "Transcribe the following speech segment. Follow these specific instructions for formatting the answer:\n* Only output the transcript, with no newlines.\n* When transcribing numbers, write the digits, i.e. write 1.7 and not one point seven, and write 100 instead of one hundred etc.\n* Only output the transcript, exactly as said in the speech segment.\n* Do not continue the speech segment.\n* Include everything said in the speech segment.\n* Use mathematical notation where needed, eg. x ^ 6Y.\n* If there is background speech that is not part of the main conversation, discard the background speech and only output the main conversation.\n* If there is no clear speech, just output [BACKGROUND].\n* Respond in the original language of the speech."
+    },
+    "results": [
+      {
+        "alternatives": [
+          {
+            "transcript": "63세 여성 환자가 급성 심부전 악화 및 폐부종으로 입원하였다. 활력 징후를 확인한 결과, 혈압은 150/95 mmHg, 심박수는 110 bpm, 호흡수는 28 breaths/min, 체온은 37.2°C, 산소 포화도는 실내 공기에서 86%로 나타났다. 환자는 심한 호흡 곤란을 호소하였다. 현재 furosemide 40 mg을 IV로 매 8시간마다 투여 중이다. 고유량 비강 캐눌라를 사용하여 산소를 공급받고 있으며, 중심 정맥관이 삽입되어 있다. 환자의 수분 균형 상태는 양성이고, 임상 상태는 졸림이 확인되었다. 호흡 상태 악화에 대해 심장내과 팀에게 보고하였다.",
+            "confidence": 0.0,
+            "words": []
+          }
+        ],
+        "language_code": "ko",
+        "channel_tag": 0
+      }
+    ],
+    "detected_language_codes": [
+      "ko"
+    ]
+  }
+}

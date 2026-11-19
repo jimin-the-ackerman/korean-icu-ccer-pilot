@@ -1,0 +1,25 @@
+{
+  "sample_id": "scenario_077_telegraphic_icu",
+  "whisper_transcript": "64세 여성, 급성 악화 만성 심장 탈수료 입원, BP 88, 56mmHRM, HR 100 BPM, RR22 Breaths Min, BT 36.8 Lysixius, SbO2 94% on 2L O2 NC, Moderate Weakness Present, Labetalol 10mg IV Q8H, Nasal Cannula O2 Support, Fluid Resuscitation Xing, Fully Catheters Habib, Positive Fluid Balance, Drowsy Sangtae, Renal Team Notify",
+  "stt_metadata": {
+    "asr_system": "whisper1",
+    "provider": "reuse_existing",
+    "model": "whisper-1",
+    "language": "ko",
+    "audio_path": "data/audio/scenario_077_telegraphic_icu.mp3",
+    "audio_sha256": "19139481b9570f926ae6d5f9c5349472bcc49f1bfb6afbab16a5f0f3d2d9f4e4",
+    "copied_at": "2026-11-04T04:31:12+00:00",
+    "request_seconds": 0.0,
+    "attempts": 1,
+    "git_commit": "b3490181b3fb3f88b56cde5be78a01cfdcef3007",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "source_file": "data/stt_transcripts/scenario_077_telegraphic_icu.json",
+    "source_sha256": "61aaa9b7b9199c201f6a17cd248ac4d28ecdc575cca4a1688ea7048d22963f1b",
+    "source_stt_metadata": {
+      "model": "whisper-1",
+      "language": "ko"
+    }
+  }
+}

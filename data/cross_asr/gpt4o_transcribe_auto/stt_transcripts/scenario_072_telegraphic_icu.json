@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_072_telegraphic_icu",
+  "whisper_transcript": "67세 남성, 급성 괴양성 대장염. severe abdominal pain, bloody diarrhea, dehydration, BP 90/60mmHg, HR 110bpm, RR 24 breaths/min, BT 37.8°C, SpO2 100% RA. Hydrocortisone 100mg IV q6h, IV fluid resuscitation, negative fluid balance. Alert.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe_auto",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": null,
+    "audio_path": "data/audio/scenario_072_telegraphic_icu.mp3",
+    "audio_sha256": "af454b01cbad3b4c9b4504910ff79c6d3ecba821dfe9b576a0865240ac3e1c75",
+    "transcribed_at": "2026-11-04T14:12:09+00:00",
+    "request_seconds": 1.58,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "67세 남성, 급성 괴양성 대장염. severe abdominal pain, bloody diarrhea, dehydration, BP 90/60mmHg, HR 110bpm, RR 24 breaths/min, BT 37.8°C, SpO2 100% RA. Hydrocortisone 100mg IV q6h, IV fluid resuscitation, negative fluid balance. Alert.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 186,
+      "output_tokens": 85,
+      "total_tokens": 271,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 186,
+        "text_tokens": 0
+      }
+    }
+  }
+}

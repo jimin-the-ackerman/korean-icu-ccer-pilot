@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_092_telegraphic_icu",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "abdominal pain",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "Alert",
+    "medication_identity": "Pantoprazole",
+    "interventions": [],
+    "intake_output": null,
+    "notification": "Endocrinology consult notify"
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "abdominal pain",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "alert",
+    "medication_identity": "panoprazol",
+    "interventions": [],
+    "intake_output": null,
+    "notification": "endocrinology consult notify"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "sample_id": "scenario_059_clinical_charting",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "abdominal pain",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "drowsy",
+    "medication_identity": "Piperacillin/Tazobactam",
+    "interventions": [
+      "fluid resuscitation"
+    ],
+    "intake_output": "positive fluid balance",
+    "notification": null
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "abdominal pain",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": null,
+    "medication_identity": "Piperacillin-Tazobactam",
+    "interventions": [
+      "Fluid resuscitation",
+      "C-line maintenance"
+    ],
+    "intake_output": "Positive fluid balance",
+    "notification": null
+  }
+}

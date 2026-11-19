@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_025_telegraphic_icu",
+  "whisper_transcript": "60-year-old 급성 담낭염 여성. BP 138/84 mmHg, HR 92 bpm, RR 20 breaths/min, T 38.2°C, SpO2 95% room air, severe abdominal pain. Ceftriaxone 1 g IV q12h. Laparoscopic cholecystectomy planned. C-line, positive balance. Alert.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": "ko",
+    "audio_path": "data/audio/scenario_025_telegraphic_icu.mp3",
+    "audio_sha256": "2e8ef237805a75ebfa757cb7a9b4120eec43ef76278d0b7e0076ae6aa6cf82eb",
+    "transcribed_at": "2026-11-04T06:13:44+00:00",
+    "request_seconds": 1.82,
+    "attempts": 1,
+    "git_commit": "b3490181b3fb3f88b56cde5be78a01cfdcef3007",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "60-year-old 급성 담낭염 여성. BP 138/84 mmHg, HR 92 bpm, RR 20 breaths/min, T 38.2°C, SpO2 95% room air, severe abdominal pain. Ceftriaxone 1 g IV q12h. Laparoscopic cholecystectomy planned. C-line, positive balance. Alert.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 174,
+      "output_tokens": 82,
+      "total_tokens": 256,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 174,
+        "text_tokens": 0
+      }
+    }
+  }
+}

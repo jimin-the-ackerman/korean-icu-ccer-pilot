@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_035_formal_template",
+  "whisper_transcript": "62세 여성 환자는 확장성 심근병증으로 인한 급성 악화 심부전으로 입원하였다. 활력 증후는 혈압 95 60mmHg, 심박수 110bpm, 호흡수 24bpm, 체온 36.8도C, 산소포화도 90%로 실내 공기에서 확인되었다. 환자는 심한 정도의 호흡곤란을 호소하였다. 퓨로스미즈 40mg이 IV로 너를 시간마다 투여되고 있다. 산소는 비강 캐츌라를 통해 4Lpm으로 공급 중이다. 폴리 카테터가 삽입되어 있으며, 24시간 동안 500ml의 음성 수분 균형이 확인되었다. 환자는 졸린 상태로 관찰되었다. 지속적인 저혈압에 대해 심장학팀에게 보고하였다.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe_auto",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": null,
+    "audio_path": "data/audio/scenario_035_formal_template.mp3",
+    "audio_sha256": "23ed30edc6f796c3f72b6dced2fab734894610f6f6c1b81fdf55e93d09542515",
+    "transcribed_at": "2026-11-04T14:07:33+00:00",
+    "request_seconds": 2.67,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "62세 여성 환자는 확장성 심근병증으로 인한 급성 악화 심부전으로 입원하였다. 활력 증후는 혈압 95 60mmHg, 심박수 110bpm, 호흡수 24bpm, 체온 36.8도C, 산소포화도 90%로 실내 공기에서 확인되었다. 환자는 심한 정도의 호흡곤란을 호소하였다. 퓨로스미즈 40mg이 IV로 너를 시간마다 투여되고 있다. 산소는 비강 캐츌라를 통해 4Lpm으로 공급 중이다. 폴리 카테터가 삽입되어 있으며, 24시간 동안 500ml의 음성 수분 균형이 확인되었다. 환자는 졸린 상태로 관찰되었다. 지속적인 저혈압에 대해 심장학팀에게 보고하였다.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 429,
+      "output_tokens": 202,
+      "total_tokens": 631,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 429,
+        "text_tokens": 0
+      }
+    }
+  }
+}

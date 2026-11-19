@@ -1,0 +1,25 @@
+{
+  "sample_id": "scenario_082_clinical_charting",
+  "whisper_transcript": "58-year-old female patient with severe acute pancreatitis. BP, myxia, fibromyalgia, myeloma, HRM, RR, RGV, breath, CYMIN, BT, Suntiphyte, don't use grease, asthma to a person on room air. Abdominal pain, severe nausea. Morphine, 5-milligram IV, Q4H2. Pain management, strict input-output monitoring. Clinical status, alert.",
+  "stt_metadata": {
+    "asr_system": "whisper1_auto",
+    "provider": "openai",
+    "model": "whisper-1",
+    "language": null,
+    "audio_path": "data/audio/scenario_082_clinical_charting.mp3",
+    "audio_sha256": "319f4cdac811b36eb52c5e431f4e58cf25caa727fb9e182dcbd0d1c438e41a87",
+    "transcribed_at": "2026-11-04T13:59:50+00:00",
+    "request_seconds": 2.95,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "58-year-old female patient with severe acute pancreatitis. BP, myxia, fibromyalgia, myeloma, HRM, RR, RGV, breath, CYMIN, BT, Suntiphyte, don't use grease, asthma to a person on room air. Abdominal pain, severe nausea. Morphine, 5-milligram IV, Q4H2. Pain management, strict input-output monitoring. Clinical status, alert.",
+    "logprobs": null,
+    "usage": {
+      "seconds": 22.0,
+      "type": "duration"
+    }
+  }
+}

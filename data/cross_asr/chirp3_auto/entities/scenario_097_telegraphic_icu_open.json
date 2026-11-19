@@ -1,0 +1,36 @@
+{
+  "sample_id": "scenario_097_telegraphic_icu",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "headache",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "drowsy",
+    "medication_identity": "Ceftriaxone",
+    "interventions": [],
+    "intake_output": null,
+    "notification": null
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "paralysis",
+        "negation": false,
+        "severity": null
+      },
+      {
+        "name": "headache",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "drowsy",
+    "medication_identity": "ceftriaxone",
+    "interventions": [],
+    "intake_output": null,
+    "notification": null
+  }
+}

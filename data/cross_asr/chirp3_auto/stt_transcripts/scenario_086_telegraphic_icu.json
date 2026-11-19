@@ -1,0 +1,43 @@
+{
+  "sample_id": "scenario_086_telegraphic_icu",
+  "whisper_transcript": "55-year-old AML, febrile neutropenia, BP 90/60, HR 110 BPM, RR 24 breaths/min, B 39.2, SpO2 96% on room air. Severe fever, piperacillin-tazobactam 4.5 g IV Q6H. Antibiotic therapy shock, drowsy, oncologist notify.",
+  "stt_metadata": {
+    "asr_system": "chirp3_auto",
+    "provider": "google",
+    "model": "chirp_3",
+    "location": "us",
+    "language_codes": [
+      "auto"
+    ],
+    "audio_path": "data/audio/scenario_086_telegraphic_icu.mp3",
+    "audio_sha256": "a82ecaa91f239ff8914cf156ee2d229261a195329404fc0944a182df0f7894d1",
+    "transcribed_at": "2026-11-04T14:52:00+00:00",
+    "request_seconds": 3.67,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "metadata": {
+      "total_billed_duration": "17s",
+      "request_id": "7366f9a3-0000-21cb-907c-d43a2cc7e73f",
+      "prompt": "Transcribe the following speech segment. Follow these specific instructions for formatting the answer:\n* Only output the transcript, with no newlines.\n* When transcribing numbers, write the digits, i.e. write 1.7 and not one point seven, and write 100 instead of one hundred etc.\n* Only output the transcript, exactly as said in the speech segment.\n* Do not continue the speech segment.\n* Include everything said in the speech segment.\n* Use mathematical notation where needed, eg. x ^ 6Y.\n* If there is background speech that is not part of the main conversation, discard the background speech and only output the main conversation.\n* If there is no clear speech, just output [BACKGROUND].\n* Respond in the original language of the speech."
+    },
+    "results": [
+      {
+        "alternatives": [
+          {
+            "transcript": "55-year-old AML, febrile neutropenia, BP 90/60, HR 110 BPM, RR 24 breaths/min, B 39.2, SpO2 96% on room air. Severe fever, piperacillin-tazobactam 4.5 g IV Q6H. Antibiotic therapy shock, drowsy, oncologist notify.",
+            "confidence": 0.0,
+            "words": []
+          }
+        ],
+        "language_code": "en",
+        "channel_tag": 0
+      }
+    ],
+    "detected_language_codes": [
+      "en"
+    ]
+  }
+}

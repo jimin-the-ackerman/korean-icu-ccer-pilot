@@ -1,0 +1,123 @@
+{
+  "sample_id": "scenario_053_formal_template",
+  "gold_entities": {
+    "route": [
+      {
+        "raw": "경구로",
+        "normalized": "po",
+        "position": 201
+      }
+    ],
+    "frequency": [],
+    "device": [
+      {
+        "raw": "인공호흡기",
+        "normalized": "ventilator",
+        "position": 225
+      },
+      {
+        "raw": "인공호흡기",
+        "normalized": "ventilator",
+        "position": 256
+      },
+      {
+        "raw": "인공호흡기",
+        "normalized": "ventilator",
+        "position": 304
+      }
+    ],
+    "vital_sign": [
+      {
+        "raw": "혈압이 135/85",
+        "label": "bp",
+        "value": "135/85",
+        "position": 65
+      },
+      {
+        "raw": "심박수가 105",
+        "label": "hr",
+        "value": "105",
+        "position": 82
+      },
+      {
+        "raw": "호흡수가 28",
+        "label": "rr",
+        "value": "28",
+        "position": 96
+      },
+      {
+        "raw": "체온이 37.6",
+        "label": "bt",
+        "value": "37.6",
+        "position": 117
+      },
+      {
+        "raw": "산소포화도가 실내 공기에서 88%",
+        "label": "spo2",
+        "value": "88%",
+        "position": 129
+      }
+    ],
+    "dose": []
+  },
+  "whisper_entities": {
+    "route": [
+      {
+        "raw": "경구로",
+        "normalized": "po",
+        "position": 194
+      }
+    ],
+    "frequency": [],
+    "device": [
+      {
+        "raw": "인공호흡기",
+        "normalized": "ventilator",
+        "position": 218
+      },
+      {
+        "raw": "인공호흡기",
+        "normalized": "ventilator",
+        "position": 243
+      },
+      {
+        "raw": "인공호흡기",
+        "normalized": "ventilator",
+        "position": 291
+      }
+    ],
+    "vital_sign": [
+      {
+        "raw": "혈압이 135/85",
+        "label": "bp",
+        "value": "135/85",
+        "position": 63
+      },
+      {
+        "raw": "심박수가 105",
+        "label": "hr",
+        "value": "105",
+        "position": 80
+      },
+      {
+        "raw": "호흡수가 28",
+        "label": "rr",
+        "value": "28",
+        "position": 94
+      },
+      {
+        "raw": "체온이 37.6",
+        "label": "bt",
+        "value": "37.6",
+        "position": 115
+      },
+      {
+        "raw": "산소포화도가 실내 공기에서 88%",
+        "label": "spo2",
+        "value": "88%",
+        "position": 127
+      }
+    ],
+    "dose": []
+  }
+}

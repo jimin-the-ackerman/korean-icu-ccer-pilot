@@ -1,0 +1,25 @@
+{
+  "sample_id": "scenario_054_telegraphic_icu",
+  "whisper_transcript": "55-year-old woman, hospitalized for brain tumor and hematoma. BP 6.6 mg, HR-95 BPAM, RRD 2 breaths min, BT 36.8 dries, SpO2 90% at room air, severe headache, nemotopine 60 mg, POQ 4H, nasal cannula 3 elements, C-line, drowsy. Neuro team notify.",
+  "stt_metadata": {
+    "asr_system": "whisper1_auto",
+    "provider": "openai",
+    "model": "whisper-1",
+    "language": null,
+    "audio_path": "data/audio/scenario_054_telegraphic_icu.mp3",
+    "audio_sha256": "31d397671ba27b6306d29bb2cc9e19b90e0916819bffe8129fadea0199614b2c",
+    "transcribed_at": "2026-11-04T13:56:26+00:00",
+    "request_seconds": 3.5,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "55-year-old woman, hospitalized for brain tumor and hematoma. BP 6.6 mg, HR-95 BPAM, RRD 2 breaths min, BT 36.8 dries, SpO2 90% at room air, severe headache, nemotopine 60 mg, POQ 4H, nasal cannula 3 elements, C-line, drowsy. Neuro team notify.",
+    "logprobs": null,
+    "usage": {
+      "seconds": 19.0,
+      "type": "duration"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "sample_id": "scenario_087_clinical_charting",
+  "whisper_transcript": "45세 남성 환자 심한 테트너스로 입원. 펑쳐, 부위, 발. BP 환자룐 2J. HR 헤드쉽 BPM. RR-SRTD 브레스 민. BT-30백병 알드레그스. SBO2 나이지디퍼세센트 룸 에어. 세베어 모습 스파즘 확인 댐. 다이소팸 10mg IV QRH 적용함. 네이처 캐니라 2L 민은 유지함. 부위 부상 시행함. NG 튜브 삽입 댐. IO 스트릭 모니터링 유지함. 환자상태 드라우지 확인 댐. 뇌무증 검사. 뇌무증 관리 위해 탐당해 노티파임.",
+  "stt_metadata": {
+    "asr_system": "whisper1",
+    "provider": "reuse_existing",
+    "model": "whisper-1",
+    "language": "ko",
+    "audio_path": "data/audio/scenario_087_clinical_charting.mp3",
+    "audio_sha256": "5b2372306e164cd522fa58238ce8b6208cd0151e67aef3e696b6d30430f058bf",
+    "copied_at": "2026-11-04T04:31:12+00:00",
+    "request_seconds": 0.0,
+    "attempts": 1,
+    "git_commit": "b3490181b3fb3f88b56cde5be78a01cfdcef3007",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "source_file": "data/stt_transcripts/scenario_087_clinical_charting.json",
+    "source_sha256": "e849770c598f666a4f57f4daf91d726f62f46344feca06d72d9382ab9e32bd6d",
+    "source_stt_metadata": {
+      "model": "whisper-1",
+      "language": "ko"
+    }
+  }
+}

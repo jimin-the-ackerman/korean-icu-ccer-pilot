@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_039_formal_template",
+  "whisper_transcript": "환자는 70세 여성으로 갑상선 기능 항진증 악화, 갑상선 위기로 인한 급성 폐부종으로 입원하였다. 활력 증후는 혈압 160/90 mmHg, 심박수 130 bpm, 호흡수 28 breaths/min, 체온 38.4℃로 측정되었다. 산소포화도는 실내 공기에서 88%로 확인되었다. 환자는 심한 호흡곤란을 호소하였다. 프로프라놀롤 40mg을 경구로 매 6시간마다 투여 중이다. 고유량 비강 캐늘라를 통한 산소 지원이 이루어지고 있으며, 폴리 카테터가 삽입되어 있다. 환자는 졸린 상태를 보였다. 갑상선 위기 관리에 대해 내분비약 팀에게 보고하였다.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": "ko",
+    "audio_path": "data/audio/scenario_039_formal_template.mp3",
+    "audio_sha256": "069dfa8850e36ad3b0e75602d3ef4531aaa474c4870b12dc5b9986c697a38b2a",
+    "transcribed_at": "2026-11-04T12:57:39+00:00",
+    "request_seconds": 2.36,
+    "attempts": 1,
+    "git_commit": "5b6d73fb63e1509a79e1a160176d606ed1b104c4",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "환자는 70세 여성으로 갑상선 기능 항진증 악화, 갑상선 위기로 인한 급성 폐부종으로 입원하였다. 활력 증후는 혈압 160/90 mmHg, 심박수 130 bpm, 호흡수 28 breaths/min, 체온 38.4℃로 측정되었다. 산소포화도는 실내 공기에서 88%로 확인되었다. 환자는 심한 호흡곤란을 호소하였다. 프로프라놀롤 40mg을 경구로 매 6시간마다 투여 중이다. 고유량 비강 캐늘라를 통한 산소 지원이 이루어지고 있으며, 폴리 카테터가 삽입되어 있다. 환자는 졸린 상태를 보였다. 갑상선 위기 관리에 대해 내분비약 팀에게 보고하였다.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 406,
+      "output_tokens": 191,
+      "total_tokens": 597,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 406,
+        "text_tokens": 0
+      }
+    }
+  }
+}

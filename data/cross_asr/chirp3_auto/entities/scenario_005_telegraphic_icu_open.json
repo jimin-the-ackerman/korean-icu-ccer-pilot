@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_005_telegraphic_icu",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "edema",
+        "negation": false,
+        "severity": "moderate"
+      }
+    ],
+    "clinical_status": "drowsy",
+    "medication_identity": "Furosemide",
+    "interventions": [],
+    "intake_output": "Negative fluid balance",
+    "notification": "Nephrology team notify"
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "edema",
+        "negation": false,
+        "severity": "moderate"
+      }
+    ],
+    "clinical_status": "drowsy",
+    "medication_identity": "Furosemide",
+    "interventions": [],
+    "intake_output": "negative fluid balance",
+    "notification": "nephrology 팀 notify"
+  }
+}

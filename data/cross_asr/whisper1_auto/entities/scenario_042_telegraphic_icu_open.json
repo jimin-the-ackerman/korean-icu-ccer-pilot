@@ -1,0 +1,55 @@
+{
+  "sample_id": "scenario_042_telegraphic_icu",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "dehydration",
+        "negation": false,
+        "severity": "severe"
+      },
+      {
+        "name": "electrolyte imbalance",
+        "negation": false,
+        "severity": null
+      },
+      {
+        "name": "diarrhea",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "Drowsy",
+    "medication_identity": "Normal Saline",
+    "interventions": [
+      "IV fluid resuscitation"
+    ],
+    "intake_output": "UO low, 200 mL/8hr",
+    "notification": "UO <30 mL/hr 시 Dr notify"
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "Severe Dehydration",
+        "negation": false,
+        "severity": "severe"
+      },
+      {
+        "name": "Electrolyte Imbalance",
+        "negation": false,
+        "severity": null
+      },
+      {
+        "name": "Severe Diarrhea",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "Drowsy",
+    "medication_identity": "Normal Saline",
+    "interventions": [
+      "IV Fluid Resuscitation"
+    ],
+    "intake_output": "UO Low 200mL per 8hr, UO 30mL",
+    "notification": "Shedocker Notify"
+  }
+}

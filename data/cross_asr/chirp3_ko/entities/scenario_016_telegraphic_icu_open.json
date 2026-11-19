@@ -1,0 +1,35 @@
+{
+  "sample_id": "scenario_016_telegraphic_icu",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "fever",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "Drowsy",
+    "medication_identity": "Meropenem",
+    "interventions": [
+      "Abscess drainage"
+    ],
+    "intake_output": "Negative fluid balance",
+    "notification": "Elevated lactate, Dr notify"
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "fever",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "drowsy",
+    "medication_identity": "meropenem",
+    "interventions": [
+      "abscess drainage"
+    ],
+    "intake_output": "negative fluid balance",
+    "notification": "doctor notify"
+  }
+}

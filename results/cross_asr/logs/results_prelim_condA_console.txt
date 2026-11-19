@@ -1,0 +1,147 @@
+conditions analysed : ['whisper1_v4_sept', 'whisper1', 'gpt4o_transcribe', 'chirp3_ko', 'whisper1_auto', 'gpt4o_transcribe_auto', 'chirp3_auto']
+not complete (skipped): none
+check vs ccer_summary.json: OK for all analysed conditions
+bootstrap: 2000 resamples of 100 scenarios, seed 20261103, 95% percentile CI
+
+====================================================================================================
+[primary] pooled micro-CCER (rank by style)
+style             formal_template  clinical_charting  telegraphic_icu       rank
+condition                                                                       
+whisper1_v4_sept           0.8417             1.1682           1.2134  F < C < T
+whisper1                   0.8367             1.1801           1.1943  F < C < T
+gpt4o_transcribe           0.6360             0.9251           0.7958  F < T < C
+chirp3_ko                  0.6721             0.8445           0.7852  F < T < C
+
+[primary] Delta with 95% joint scenario bootstrap CI (negative = first style lower)
+       condition contrast      role  estimate  ci_low  ci_high  ci_excludes_0
+whisper1_v4_sept Delta_FC   primary   -0.3265 -0.3969  -0.2602           True
+whisper1_v4_sept Delta_FT   primary   -0.3717 -0.4456  -0.2970           True
+whisper1_v4_sept Delta_CT secondary   -0.0452 -0.1235   0.0380          False
+        whisper1 Delta_FC   primary   -0.3433 -0.4215  -0.2720           True
+        whisper1 Delta_FT   primary   -0.3576 -0.4306  -0.2822           True
+        whisper1 Delta_CT secondary   -0.0143 -0.0966   0.0697          False
+gpt4o_transcribe Delta_FC   primary   -0.2890 -0.3664  -0.2122           True
+gpt4o_transcribe Delta_FT   primary   -0.1597 -0.2514  -0.0702           True
+gpt4o_transcribe Delta_CT secondary    0.1293  0.0375   0.2250           True
+       chirp3_ko Delta_FC   primary   -0.1724 -0.2546  -0.0922           True
+       chirp3_ko Delta_FT   primary   -0.1131 -0.2085  -0.0283           True
+       chirp3_ko Delta_CT secondary    0.0594 -0.0400   0.1557          False
+
+[primary] between-system differences of Delta (secondary)
+                  comparison contrast  estimate  ci_low  ci_high
+ whisper1 - gpt4o_transcribe Delta_FC   -0.0543 -0.1367   0.0206
+ whisper1 - gpt4o_transcribe Delta_FT   -0.1979 -0.2845  -0.1117
+ whisper1 - gpt4o_transcribe Delta_CT   -0.1436 -0.2421  -0.0372
+        whisper1 - chirp3_ko Delta_FC   -0.1709 -0.2755  -0.0717
+        whisper1 - chirp3_ko Delta_FT   -0.2445 -0.3397  -0.1438
+        whisper1 - chirp3_ko Delta_CT   -0.0736 -0.1870   0.0462
+gpt4o_transcribe - chirp3_ko Delta_FC   -0.1166 -0.2097  -0.0320
+gpt4o_transcribe - chirp3_ko Delta_FT   -0.0466 -0.1411   0.0436
+gpt4o_transcribe - chirp3_ko Delta_CT    0.0700 -0.0324   0.1749
+
+[primary] Friedman (sample-level CCER, as in v4)
+       condition  n_scenarios         Q    p_unc  kendalls_W
+whisper1_v4_sept          100 78.116402 0.000000    0.390582
+        whisper1          100 75.681462 0.000000    0.378407
+gpt4o_transcribe          100 35.545692 0.000000    0.177728
+       chirp3_ko          100  8.140260 0.017075    0.040701
+
+[primary] Wilcoxon signed-rank + Holm
+       condition   pair  W_stat    p_unc       RBC   p_holm
+whisper1_v4_sept F vs C   411.0 0.000000 -0.815901 0.000000
+whisper1_v4_sept F vs T   374.0 0.000000 -0.839347 0.000000
+whisper1_v4_sept C vs T  1657.5 0.211872 -0.153473 0.211872
+        whisper1 F vs C   418.5 0.000000 -0.816447 0.000000
+        whisper1 F vs T   360.0 0.000000 -0.838746 0.000000
+        whisper1 C vs T  2136.0 0.717306 -0.043225 0.717306
+gpt4o_transcribe F vs C   690.5 0.000000 -0.703393 0.000000
+gpt4o_transcribe F vs T  1347.5 0.000851 -0.396417 0.001702
+gpt4o_transcribe C vs T  1508.5 0.009536  0.309769 0.009536
+       chirp3_ko F vs C  1308.5 0.000196 -0.437930 0.000588
+       chirp3_ko F vs T  1705.5 0.033108 -0.251974 0.066215
+       chirp3_ko C vs T  1918.5 0.237102  0.140649 0.237102
+
+====================================================================================================
+[sensitivity_excl_007_063] pooled micro-CCER (rank by style)
+style             formal_template  clinical_charting  telegraphic_icu       rank
+condition                                                                       
+whisper1_v4_sept           0.8377             1.1587           1.2157  F < C < T
+whisper1                   0.8362             1.1703           1.1962  F < C < T
+gpt4o_transcribe           0.6342             0.9250           0.7958  F < T < C
+chirp3_ko                  0.6710             0.8456           0.7763  F < T < C
+
+[sensitivity_excl_007_063] Delta with 95% joint scenario bootstrap CI (negative = first style lower)
+       condition contrast      role  estimate  ci_low  ci_high  ci_excludes_0
+whisper1_v4_sept Delta_FC   primary   -0.3211 -0.3935  -0.2495           True
+whisper1_v4_sept Delta_FT   primary   -0.3781 -0.4522  -0.3019           True
+whisper1_v4_sept Delta_CT secondary   -0.0570 -0.1385   0.0254          False
+        whisper1 Delta_FC   primary   -0.3341 -0.4151  -0.2606           True
+        whisper1 Delta_FT   primary   -0.3600 -0.4311  -0.2817           True
+        whisper1 Delta_CT secondary   -0.0260 -0.1125   0.0628          False
+gpt4o_transcribe Delta_FC   primary   -0.2908 -0.3722  -0.2114           True
+gpt4o_transcribe Delta_FT   primary   -0.1616 -0.2487  -0.0675           True
+gpt4o_transcribe Delta_CT secondary    0.1291  0.0354   0.2246           True
+       chirp3_ko Delta_FC   primary   -0.1746 -0.2592  -0.0916           True
+       chirp3_ko Delta_FT   primary   -0.1053 -0.1949  -0.0191           True
+       chirp3_ko Delta_CT secondary    0.0693 -0.0298   0.1675          False
+
+[sensitivity_excl_007_063] between-system differences of Delta (secondary)
+                  comparison contrast  estimate  ci_low  ci_high
+ whisper1 - gpt4o_transcribe Delta_FC   -0.0433 -0.1237   0.0383
+ whisper1 - gpt4o_transcribe Delta_FT   -0.1984 -0.2861  -0.1130
+ whisper1 - gpt4o_transcribe Delta_CT   -0.1551 -0.2597  -0.0513
+        whisper1 - chirp3_ko Delta_FC   -0.1595 -0.2628  -0.0610
+        whisper1 - chirp3_ko Delta_FT   -0.2547 -0.3525  -0.1562
+        whisper1 - chirp3_ko Delta_CT   -0.0952 -0.2061   0.0153
+gpt4o_transcribe - chirp3_ko Delta_FC   -0.1162 -0.2165  -0.0296
+gpt4o_transcribe - chirp3_ko Delta_FT   -0.0563 -0.1476   0.0335
+gpt4o_transcribe - chirp3_ko Delta_CT    0.0599 -0.0403   0.1621
+
+[sensitivity_excl_007_063] Friedman (sample-level CCER, as in v4)
+       condition  n_scenarios         Q    p_unc  kendalls_W
+whisper1_v4_sept           98 76.479784 0.000000    0.390203
+        whisper1           98 73.792553 0.000000    0.376493
+gpt4o_transcribe           98 33.712000 0.000000    0.172000
+       chirp3_ko           98  8.063492 0.017743    0.041140
+
+[sensitivity_excl_007_063] Wilcoxon signed-rank + Holm
+       condition   pair  W_stat    p_unc       RBC   p_holm
+whisper1_v4_sept F vs C   408.0 0.000000 -0.809257 0.000000
+whisper1_v4_sept F vs T   365.0 0.000000 -0.839912 0.000000
+whisper1_v4_sept C vs T  1510.5 0.121566 -0.192462 0.121566
+        whisper1 F vs C   414.5 0.000000 -0.810341 0.000000
+        whisper1 F vs T   358.0 0.000000 -0.836193 0.000000
+        whisper1 C vs T  1979.0 0.534487 -0.074801 0.534487
+gpt4o_transcribe F vs C   667.5 0.000000 -0.701008 0.000000
+gpt4o_transcribe F vs T  1294.0 0.001007 -0.395044 0.002014
+gpt4o_transcribe C vs T  1453.0 0.011367  0.305781 0.011367
+       chirp3_ko F vs C  1248.0 0.000207 -0.440985 0.000620
+       chirp3_ko F vs T  1705.5 0.047082 -0.236058 0.094165
+       chirp3_ko C vs T  1806.5 0.196060  0.155446 0.196060
+
+====================================================================================================
+cross-run whisper-1 (Sept v4 vs Nov): {'identical_sample_ccer': 244, 'n_samples': 300, 'max_abs_sample_change': 0.4, 'gold_count_changed': ['scenario_063_clinical_charting']}
+
+====================================================================================================
+Condition B (descriptive; pilot30 pre-specified, all300 = extension)
+               scope           system             style  ko_specified  not_specified  difference_B_minus_A
+pilot30_prespecified         whisper1   formal_template        0.8414         0.8621                0.0207
+pilot30_prespecified         whisper1 clinical_charting        1.1931         1.1724               -0.0207
+pilot30_prespecified         whisper1   telegraphic_icu        1.0828         1.0207               -0.0621
+    all300_extension         whisper1   formal_template        0.8367         0.8353               -0.0014
+    all300_extension         whisper1 clinical_charting        1.1801         1.1880                0.0079
+    all300_extension         whisper1   telegraphic_icu        1.1943         1.1618               -0.0325
+pilot30_prespecified gpt4o_transcribe   formal_template        0.6138         0.5931               -0.0207
+pilot30_prespecified gpt4o_transcribe clinical_charting        0.7379         0.7034               -0.0345
+pilot30_prespecified gpt4o_transcribe   telegraphic_icu        0.4552         0.4483               -0.0069
+    all300_extension gpt4o_transcribe   formal_template        0.6360         0.6269               -0.0091
+    all300_extension gpt4o_transcribe clinical_charting        0.9251         0.8432               -0.0819
+    all300_extension gpt4o_transcribe   telegraphic_icu        0.7958         0.7951               -0.0007
+pilot30_prespecified        chirp3_ko   formal_template        0.6414         0.6897                0.0483
+pilot30_prespecified        chirp3_ko clinical_charting        0.6690         0.7517                0.0827
+pilot30_prespecified        chirp3_ko   telegraphic_icu        0.5103         0.4483               -0.0620
+    all300_extension        chirp3_ko   formal_template        0.6721         0.6919                0.0198
+    all300_extension        chirp3_ko clinical_charting        0.8445         0.8240               -0.0205
+    all300_extension        chirp3_ko   telegraphic_icu        0.7852         0.8049                0.0197
+
+written: results/cross_asr/analysis_prelim_condA/

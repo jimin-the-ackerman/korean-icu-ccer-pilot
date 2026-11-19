@@ -1,0 +1,25 @@
+{
+  "sample_id": "scenario_027_telegraphic_icu",
+  "whisper_transcript": "60세 남성 급성 허혈성 뇌졸중으로 E1, BP669, HR88, RRCPAT, BTSunnyChipDenu, SpO2%, Right Side Weakness Moderate, Alteplase 609mgkg IV Stat, C-Line 유지중, IV Fluids 시작, Drowsy 상태, Neurology Team Notify",
+  "stt_metadata": {
+    "asr_system": "whisper1",
+    "provider": "reuse_existing",
+    "model": "whisper-1",
+    "language": "ko",
+    "audio_path": "data/audio/scenario_027_telegraphic_icu.mp3",
+    "audio_sha256": "652e7e5a9c8a2f28975b949694bffebc9530064f56e840c14c21a498b6819967",
+    "copied_at": "2026-11-04T04:31:11+00:00",
+    "request_seconds": 0.0,
+    "attempts": 1,
+    "git_commit": "b3490181b3fb3f88b56cde5be78a01cfdcef3007",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "source_file": "data/stt_transcripts/scenario_027_telegraphic_icu.json",
+    "source_sha256": "ffa38f3837a3657af9dca857c0121a2dbd86521b405c6d156524ecb5c6e899a3",
+    "source_stt_metadata": {
+      "model": "whisper-1",
+      "language": "ko"
+    }
+  }
+}

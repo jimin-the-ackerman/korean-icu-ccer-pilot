@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_085_formal_template",
+  "whisper_transcript": "환자 정보: 73세 남성 환자가 흡인성 폐렴으로 인한 급성 호흡부전으로 입원하였다. 활력징후: 혈압은 110/70mmHg, 심박수는 95bpm, 호흡수는 28rpm, 체온은 37.8도로 확인되었다. 산소포화도는 실내 공기에서 88%로 확인되었다. 환자는 중등도의 기침을 호소하였다. 파이페라실린 테조박탐 4.5g이 IV로 Q8H 투여되었다. 산소 공급은 하이플로우 네이잘 캐널라를 통해 이루어지고 있으며, 환자는 벤틸레이터를 사용 중이다. 체액 균형은 양성으로 확인되었다. 환자는 현재 졸림 상태를 보이고 있다. 환자의 호흡 상태에 대해 폐 전문의에게 보고하였다.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe_auto",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": null,
+    "audio_path": "data/audio/scenario_085_formal_template.mp3",
+    "audio_sha256": "dbbd33eaebe6caf35b1bfe471d5591a8978747ceaf10c34fccc36fb22f9284a4",
+    "transcribed_at": "2026-11-04T14:13:41+00:00",
+    "request_seconds": 3.31,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "환자 정보: 73세 남성 환자가 흡인성 폐렴으로 인한 급성 호흡부전으로 입원하였다. 활력징후: 혈압은 110/70mmHg, 심박수는 95bpm, 호흡수는 28rpm, 체온은 37.8도로 확인되었다. 산소포화도는 실내 공기에서 88%로 확인되었다. 환자는 중등도의 기침을 호소하였다. 파이페라실린 테조박탐 4.5g이 IV로 Q8H 투여되었다. 산소 공급은 하이플로우 네이잘 캐널라를 통해 이루어지고 있으며, 환자는 벤틸레이터를 사용 중이다. 체액 균형은 양성으로 확인되었다. 환자는 현재 졸림 상태를 보이고 있다. 환자의 호흡 상태에 대해 폐 전문의에게 보고하였다.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 431,
+      "output_tokens": 210,
+      "total_tokens": 641,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 431,
+        "text_tokens": 0
+      }
+    }
+  }
+}

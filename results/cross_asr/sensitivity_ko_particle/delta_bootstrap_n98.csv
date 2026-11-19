@@ -1,0 +1,13 @@
+condition,contrast,role,estimate_v4,ci_low_v4,ci_high_v4,ci_excludes_0_v4,estimate_s1,ci_low_s1,ci_high_s1,ci_excludes_0_s1
+whisper1_v4_sept,Delta_FC,primary,-0.3211,-0.3935,-0.2495,True,-0.4877,-0.5583,-0.4167,True
+whisper1_v4_sept,Delta_FT,primary,-0.3781,-0.4522,-0.3019,True,-0.544,-0.6196,-0.4638,True
+whisper1_v4_sept,Delta_CT,secondary,-0.057,-0.1385,0.0254,False,-0.0563,-0.1373,0.0268,False
+whisper1,Delta_FC,primary,-0.3341,-0.4151,-0.2606,True,-0.5007,-0.5753,-0.4269,True
+whisper1,Delta_FT,primary,-0.36,-0.4311,-0.2817,True,-0.526,-0.6032,-0.4418,True
+whisper1,Delta_CT,secondary,-0.026,-0.1125,0.0628,False,-0.0253,-0.1112,0.0638,False
+gpt4o_transcribe,Delta_FC,primary,-0.2908,-0.3722,-0.2114,True,-0.4567,-0.5352,-0.3822,True
+gpt4o_transcribe,Delta_FT,primary,-0.1616,-0.2487,-0.0675,True,-0.3312,-0.4183,-0.2408,True
+gpt4o_transcribe,Delta_CT,secondary,0.1291,0.0354,0.2246,True,0.1255,0.0315,0.2208,True
+chirp3_ko,Delta_FC,primary,-0.1746,-0.2592,-0.0916,True,-0.386,-0.4644,-0.3072,True
+chirp3_ko,Delta_FT,primary,-0.1053,-0.1949,-0.0191,True,-0.3211,-0.4136,-0.2334,True
+chirp3_ko,Delta_CT,secondary,0.0693,-0.0298,0.1675,False,0.0649,-0.0353,0.1629,False

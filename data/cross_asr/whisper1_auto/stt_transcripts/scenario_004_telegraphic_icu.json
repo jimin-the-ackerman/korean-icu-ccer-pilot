@@ -1,0 +1,25 @@
+{
+  "sample_id": "scenario_004_telegraphic_icu",
+  "whisper_transcript": "40% Namsung, Kapsung, Kujangyeom, BP9, D60mg, RR28, breath that min, BT30, AVXLC, SpO2, 95%, room air, abdominal pain severe, morphine 4 milligrams, IV, Q4H, fluid resuscitation to NENG, Foley, UG, urine output 200 milliliter, 4 hours, drowsy, 상태, docker notify.",
+  "stt_metadata": {
+    "asr_system": "whisper1_auto",
+    "provider": "openai",
+    "model": "whisper-1",
+    "language": null,
+    "audio_path": "data/audio/scenario_004_telegraphic_icu.mp3",
+    "audio_sha256": "076ac1d0450cd07b0ace52a09c2958e5b7c6187e856d08445f6fc82c5694e938",
+    "transcribed_at": "2026-11-04T13:49:41+00:00",
+    "request_seconds": 2.28,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "40% Namsung, Kapsung, Kujangyeom, BP9, D60mg, RR28, breath that min, BT30, AVXLC, SpO2, 95%, room air, abdominal pain severe, morphine 4 milligrams, IV, Q4H, fluid resuscitation to NENG, Foley, UG, urine output 200 milliliter, 4 hours, drowsy, 상태, docker notify.",
+    "logprobs": null,
+    "usage": {
+      "seconds": 19.0,
+      "type": "duration"
+    }
+  }
+}

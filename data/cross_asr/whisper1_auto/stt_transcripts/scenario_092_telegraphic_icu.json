@@ -1,0 +1,25 @@
+{
+  "sample_id": "scenario_092_telegraphic_icu",
+  "whisper_transcript": "54 San Amsong Phuocab Seng Zimting, BP 135, 85 mL head and PM, RR22BM, BT sedate, accept SPO at 94% room air, abdominal pain severe, panoprazol 40 milligrams IVB-IED, NG tube in place, alert. Endocrinology consult notify.",
+  "stt_metadata": {
+    "asr_system": "whisper1_auto",
+    "provider": "openai",
+    "model": "whisper-1",
+    "language": null,
+    "audio_path": "data/audio/scenario_092_telegraphic_icu.mp3",
+    "audio_sha256": "95c0ce752fb90141433ef0b86793eab345854bf501a52b1a0a99f664525aa439",
+    "transcribed_at": "2026-11-04T14:01:20+00:00",
+    "request_seconds": 2.48,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "54 San Amsong Phuocab Seng Zimting, BP 135, 85 mL head and PM, RR22BM, BT sedate, accept SPO at 94% room air, abdominal pain severe, panoprazol 40 milligrams IVB-IED, NG tube in place, alert. Endocrinology consult notify.",
+    "logprobs": null,
+    "usage": {
+      "seconds": 17.0,
+      "type": "duration"
+    }
+  }
+}

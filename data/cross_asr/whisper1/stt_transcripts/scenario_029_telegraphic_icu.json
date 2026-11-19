@@ -1,0 +1,25 @@
+{
+  "sample_id": "scenario_029_telegraphic_icu",
+  "whisper_transcript": "42세 여성, GBS로 이원. BP on 3rd, 85mT, HR 92bpm, RR 18breaths min, BT 36.8g, SpO2 89%, room air. Severe muscle weakness, IVIG 0.4g, KD IV Q12H. Nasal cannula 2mm, plasma pheresis scheduled, ventilator 준비됨. Foley catheter, urine 112m24, drowsy 상태. Neurology team notify.",
+  "stt_metadata": {
+    "asr_system": "whisper1",
+    "provider": "reuse_existing",
+    "model": "whisper-1",
+    "language": "ko",
+    "audio_path": "data/audio/scenario_029_telegraphic_icu.mp3",
+    "audio_sha256": "ad6fa28bafe4f0a8c2c870d49e6ef94e19f6ad1160f6af631744596623b98afb",
+    "copied_at": "2026-11-04T04:31:11+00:00",
+    "request_seconds": 0.0,
+    "attempts": 1,
+    "git_commit": "b3490181b3fb3f88b56cde5be78a01cfdcef3007",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "source_file": "data/stt_transcripts/scenario_029_telegraphic_icu.json",
+    "source_sha256": "77792190907d7e73c34c951eef3685f5831cd2d7ab352441756971f265af3970",
+    "source_stt_metadata": {
+      "model": "whisper-1",
+      "language": "ko"
+    }
+  }
+}

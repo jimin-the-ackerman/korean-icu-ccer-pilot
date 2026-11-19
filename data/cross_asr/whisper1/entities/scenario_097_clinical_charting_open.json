@@ -1,0 +1,25 @@
+{
+  "sample_id": "scenario_097_clinical_charting",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "headache",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "drowsy",
+    "medication_identity": "Ceftriaxone",
+    "interventions": [],
+    "intake_output": null,
+    "notification": null
+  },
+  "whisper_entities": {
+    "symptoms": [],
+    "clinical_status": "드라우지 상태",
+    "medication_identity": "세프트리액션",
+    "interventions": [],
+    "intake_output": null,
+    "notification": null
+  }
+}

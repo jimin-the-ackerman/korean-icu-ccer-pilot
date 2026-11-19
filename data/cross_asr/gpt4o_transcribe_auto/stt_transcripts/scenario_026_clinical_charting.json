@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_026_clinical_charting",
+  "whisper_transcript": "52세 여성 severe community acquired pneumonia로 ICU 입원함. BP 86시 88/78, HR 18 breaths/min, BT 38.5ºC, SpO2 85% room air. severe dyspnea 호소함. Levofloxacin 2g IV qh 적용함. high flow nasal cannula 60L/min FiO2 60% 사용 중. ventilator 사용 중. clinical status drowsy 확인됨.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe_auto",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": null,
+    "audio_path": "data/audio/scenario_026_clinical_charting.mp3",
+    "audio_sha256": "42949b739a1fe326e651839c975193fb208ee3daf4052f4edb49ad9fe39eef94",
+    "transcribed_at": "2026-11-04T14:06:27+00:00",
+    "request_seconds": 1.99,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "52세 여성 severe community acquired pneumonia로 ICU 입원함. BP 86시 88/78, HR 18 breaths/min, BT 38.5ºC, SpO2 85% room air. severe dyspnea 호소함. Levofloxacin 2g IV qh 적용함. high flow nasal cannula 60L/min FiO2 60% 사용 중. ventilator 사용 중. clinical status drowsy 확인됨.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 243,
+      "output_tokens": 99,
+      "total_tokens": 342,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 243,
+        "text_tokens": 0
+      }
+    }
+  }
+}

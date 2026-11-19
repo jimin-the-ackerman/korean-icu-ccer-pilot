@@ -1,0 +1,43 @@
+{
+  "sample_id": "scenario_061_clinical_charting",
+  "whisper_transcript": "52세 남성 환자, acute pancreatitis secondary to hypertriglyceridemia로 입원함. BP 158/85, HR 180, RR 23, BT 37.8°C, SpO2 96% 확인. abdominal pain 심각함. insulin infusion 5 units/hour IV 적용함. IV fluid resuscitation 유지함. positive fluid balance 확인됨. 환자 상태 alert.",
+  "stt_metadata": {
+    "asr_system": "chirp3_auto",
+    "provider": "google",
+    "model": "chirp_3",
+    "location": "us",
+    "language_codes": [
+      "auto"
+    ],
+    "audio_path": "data/audio/scenario_061_clinical_charting.mp3",
+    "audio_sha256": "49b94960720f4a4ef088768c2dc375e6bf5b3f0dc5c3e3662742f57e562c8aa7",
+    "transcribed_at": "2026-11-04T14:32:02+00:00",
+    "request_seconds": 3.32,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "metadata": {
+      "total_billed_duration": "22s",
+      "request_id": "73dd964b-0000-20af-9ed7-14c14ef7de84",
+      "prompt": "Transcribe the following speech segment. Follow these specific instructions for formatting the answer:\n* Only output the transcript, with no newlines.\n* When transcribing numbers, write the digits, i.e. write 1.7 and not one point seven, and write 100 instead of one hundred etc.\n* Only output the transcript, exactly as said in the speech segment.\n* Do not continue the speech segment.\n* Include everything said in the speech segment.\n* Use mathematical notation where needed, eg. x ^ 6Y.\n* If there is background speech that is not part of the main conversation, discard the background speech and only output the main conversation.\n* If there is no clear speech, just output [BACKGROUND].\n* Respond in the original language of the speech."
+    },
+    "results": [
+      {
+        "alternatives": [
+          {
+            "transcript": "52세 남성 환자, acute pancreatitis secondary to hypertriglyceridemia로 입원함. BP 158/85, HR 180, RR 23, BT 37.8°C, SpO2 96% 확인. abdominal pain 심각함. insulin infusion 5 units/hour IV 적용함. IV fluid resuscitation 유지함. positive fluid balance 확인됨. 환자 상태 alert.",
+            "confidence": 0.0,
+            "words": []
+          }
+        ],
+        "language_code": "ko",
+        "channel_tag": 0
+      }
+    ],
+    "detected_language_codes": [
+      "ko"
+    ]
+  }
+}

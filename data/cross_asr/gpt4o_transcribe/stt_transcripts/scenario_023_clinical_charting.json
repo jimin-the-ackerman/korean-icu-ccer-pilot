@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_023_clinical_charting",
+  "whisper_transcript": "69세 여성 환자 급성 악화된 multiple sclerosis로 입원함. BP 140/80 mmHg, HR 80 bpm, RR 10 breaths per min, BT 37.0도, SpO2 97% on room air. Muscle weakness moderate 호소함. Methylprednisolone 1g IV q12h 투여함. 환자 상태 drowsy 확인됨.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": "ko",
+    "audio_path": "data/audio/scenario_023_clinical_charting.mp3",
+    "audio_sha256": "39e521e9798ddcad85e71fe70c7d5f371f8bfdb55c5f8e0628a5e0d9470fb84a",
+    "transcribed_at": "2026-11-04T12:55:55+00:00",
+    "request_seconds": 1.54,
+    "attempts": 1,
+    "git_commit": "5b6d73fb63e1509a79e1a160176d606ed1b104c4",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "69세 여성 환자 급성 악화된 multiple sclerosis로 입원함. BP 140/80 mmHg, HR 80 bpm, RR 10 breaths per min, BT 37.0도, SpO2 97% on room air. Muscle weakness moderate 호소함. Methylprednisolone 1g IV q12h 투여함. 환자 상태 drowsy 확인됨.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 190,
+      "output_tokens": 88,
+      "total_tokens": 278,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 190,
+        "text_tokens": 0
+      }
+    }
+  }
+}

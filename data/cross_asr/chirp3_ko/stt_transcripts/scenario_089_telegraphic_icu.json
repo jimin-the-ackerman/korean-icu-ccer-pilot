@@ -1,0 +1,43 @@
+{
+  "sample_id": "scenario_089_telegraphic_icu",
+  "whisper_transcript": "69세 남환자 내쉬는 만성 간질환 급성으로 입원. BP 92/58 mmHg, HR 24 breaths/min, BT 37.2°C, SpO2 89% room air, ascites moderate, spironolactone 100 mg PO BID, nasal cannula 3 L, Foley, negative fluid balance 500 mL, drowsy, hepatology 팀 notify.",
+  "stt_metadata": {
+    "asr_system": "chirp3_ko",
+    "provider": "google",
+    "model": "chirp_3",
+    "location": "us",
+    "language_codes": [
+      "ko-KR"
+    ],
+    "audio_path": "data/audio/scenario_089_telegraphic_icu.mp3",
+    "audio_sha256": "c92b3dd1a9c65918d354a7e64ed4e562140ab0f73105204ffc9459b80c1587bc",
+    "transcribed_at": "2026-11-04T13:31:02+00:00",
+    "request_seconds": 3.99,
+    "attempts": 1,
+    "git_commit": "5b6d73fb63e1509a79e1a160176d606ed1b104c4",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "metadata": {
+      "total_billed_duration": "22s",
+      "request_id": "6af75689-0000-206f-aa92-14c14eee58e0",
+      "prompt": "Transcribe the following speech segment in Korean. Follow these specific instructions for formatting the answer:\n* Only output the transcript, with no newlines.\n* When transcribing numbers, write the digits, i.e. write 1.7 and not one point seven, and write 100 instead of one hundred etc.\n* Only output the transcript, exactly as said in the speech segment.\n* Do not continue the speech segment.\n* Include everything said in the speech segment.\n* Use mathematical notation where needed, eg. x ^ 6Y.\n* If there is background speech that is not part of the main conversation, discard the background speech and only output the main conversation.\n* If there is no clear speech, just output [BACKGROUND].\n* Respond in the original language of the speech, Korean."
+    },
+    "results": [
+      {
+        "alternatives": [
+          {
+            "transcript": "69세 남환자 내쉬는 만성 간질환 급성으로 입원. BP 92/58 mmHg, HR 24 breaths/min, BT 37.2°C, SpO2 89% room air, ascites moderate, spironolactone 100 mg PO BID, nasal cannula 3 L, Foley, negative fluid balance 500 mL, drowsy, hepatology 팀 notify.",
+            "confidence": 0.0,
+            "words": []
+          }
+        ],
+        "language_code": "ko-KR",
+        "channel_tag": 0
+      }
+    ],
+    "detected_language_codes": [
+      "ko-KR"
+    ]
+  }
+}

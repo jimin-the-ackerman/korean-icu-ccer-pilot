@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_029_clinical_charting",
+  "whisper_transcript": "49세 여자 환자 GBS로 입원. 중증 머슬 위크니스 호소, 호흡 상태 밀착 모니터링 필요. BP 138/55 mmHg, HR 92 bpm, RR 18 breaths/min, BT 37.8℃, SpO2 89% room air. IVIG 0.4g/kg IV Q6H 적용함. Nasal cannula 2L/min 산소 공급 유지함. Plasmapheresis 예정됨. Ventilator 필요함. Foley catheter 유중 소변량 1200mL per 24hrs 확인됨. 의식 drowsy 확인됨. Neurology 팀에 호흡 기능 저하 상태 업데이트함.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe_auto",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": null,
+    "audio_path": "data/audio/scenario_029_clinical_charting.mp3",
+    "audio_sha256": "c992c14c44c6cb0c44c6b3df72466d5677a1a8f7d621083e9b230c6262b2b71d",
+    "transcribed_at": "2026-11-04T14:06:48+00:00",
+    "request_seconds": 2.36,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "49세 여자 환자 GBS로 입원. 중증 머슬 위크니스 호소, 호흡 상태 밀착 모니터링 필요. BP 138/55 mmHg, HR 92 bpm, RR 18 breaths/min, BT 37.8℃, SpO2 89% room air. IVIG 0.4g/kg IV Q6H 적용함. Nasal cannula 2L/min 산소 공급 유지함. Plasmapheresis 예정됨. Ventilator 필요함. Foley catheter 유중 소변량 1200mL per 24hrs 확인됨. 의식 drowsy 확인됨. Neurology 팀에 호흡 기능 저하 상태 업데이트함.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 317,
+      "output_tokens": 151,
+      "total_tokens": 468,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 317,
+        "text_tokens": 0
+      }
+    }
+  }
+}

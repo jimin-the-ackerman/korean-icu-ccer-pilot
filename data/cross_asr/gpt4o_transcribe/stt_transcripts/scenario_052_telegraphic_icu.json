@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_052_telegraphic_icu",
+  "whisper_transcript": "72yo NM, hip replacement post-op complications, BP 135/85 mmHg, HR 95 bpm, RR 18 breaths/min, BT 37.5°C, SpO2 97% room air, pain moderate, morphine 2mg IV q4h, Foley in place, urine output 400ml/6hr, alert.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": "ko",
+    "audio_path": "data/audio/scenario_052_telegraphic_icu.mp3",
+    "audio_sha256": "f44813e92a7f0750673ee8482cc9360bf2b6327b20105234cbd35444ee1d88aa",
+    "transcribed_at": "2026-11-04T12:59:08+00:00",
+    "request_seconds": 1.53,
+    "attempts": 1,
+    "git_commit": "5b6d73fb63e1509a79e1a160176d606ed1b104c4",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "72yo NM, hip replacement post-op complications, BP 135/85 mmHg, HR 95 bpm, RR 18 breaths/min, BT 37.5°C, SpO2 97% room air, pain moderate, morphine 2mg IV q4h, Foley in place, urine output 400ml/6hr, alert.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 171,
+      "output_tokens": 75,
+      "total_tokens": 246,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 171,
+        "text_tokens": 0
+      }
+    }
+  }
+}

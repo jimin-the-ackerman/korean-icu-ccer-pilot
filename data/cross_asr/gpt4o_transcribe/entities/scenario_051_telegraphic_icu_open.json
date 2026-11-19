@@ -1,0 +1,33 @@
+{
+  "sample_id": "scenario_051_telegraphic_icu",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "abdominal pain",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "Alert",
+    "medication_identity": "Morphine",
+    "interventions": [
+      "NPO"
+    ],
+    "intake_output": "Negative fluid balance",
+    "notification": "GI team notify"
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "복통",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": null,
+    "medication_identity": "마약성 진통제",
+    "interventions": [],
+    "intake_output": "음성 액 균형",
+    "notification": "GI 팀 통보하십시오"
+  }
+}

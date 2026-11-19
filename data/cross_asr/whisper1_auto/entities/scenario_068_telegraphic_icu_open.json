@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_068_telegraphic_icu",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "abdominal pain",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "Drowsy",
+    "medication_identity": "Metronidazole",
+    "interventions": [],
+    "intake_output": "Negative fluid balance",
+    "notification": null
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "abdominal pain",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "drowsy",
+    "medication_identity": "metronidazole",
+    "interventions": [],
+    "intake_output": "Negative fluid balance",
+    "notification": null
+  }
+}

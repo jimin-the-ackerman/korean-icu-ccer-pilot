@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_087_formal_template",
+  "whisper_transcript": "45세 남성 환자가 발이 자상 후 심한 테타누스로 입원하였다. 활력징후로는 혈압이 140/90 mmHg, 심박수가 110 bpm, 호흡수가 32 breaths/min, 체온이 38.5℃이며, 산소포화도는 실내 공기에서 92%로 확인되었다. 환자는 심한 머슬 스파즘스를 호소하고 있으며, 의식상태는 드라우지로 관찰되었다. 환자는 다이아제팜 10mg을 IV로 8시간 간격으로 투여받고 있으며, 산소 보조로는 네이절 캔들라를 통해 2L/min으로 공급받고 있다. 상처 부위에 대한 wound debridement가 시행되었고, NG 튜브가 삽입되었다. I/O는 스트릭트 모니터링 중이다. 머슬 스파즘스 관리에 대해 뉴롤러지에 상담하였다.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe_auto",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": null,
+    "audio_path": "data/audio/scenario_087_formal_template.mp3",
+    "audio_sha256": "d6154230ef349b48e789d7f47a56aec9d007351b7741444fb2d0ebb9414703cd",
+    "transcribed_at": "2026-11-04T14:13:57+00:00",
+    "request_seconds": 3.95,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "45세 남성 환자가 발이 자상 후 심한 테타누스로 입원하였다. 활력징후로는 혈압이 140/90 mmHg, 심박수가 110 bpm, 호흡수가 32 breaths/min, 체온이 38.5℃이며, 산소포화도는 실내 공기에서 92%로 확인되었다. 환자는 심한 머슬 스파즘스를 호소하고 있으며, 의식상태는 드라우지로 관찰되었다. 환자는 다이아제팜 10mg을 IV로 8시간 간격으로 투여받고 있으며, 산소 보조로는 네이절 캔들라를 통해 2L/min으로 공급받고 있다. 상처 부위에 대한 wound debridement가 시행되었고, NG 튜브가 삽입되었다. I/O는 스트릭트 모니터링 중이다. 머슬 스파즘스 관리에 대해 뉴롤러지에 상담하였다.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 445,
+      "output_tokens": 220,
+      "total_tokens": 665,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 445,
+        "text_tokens": 0
+      }
+    }
+  }
+}

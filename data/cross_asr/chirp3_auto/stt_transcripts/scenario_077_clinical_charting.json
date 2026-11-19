@@ -1,0 +1,43 @@
+{
+  "sample_id": "scenario_077_clinical_charting",
+  "whisper_transcript": "66세 여성 환자 acute exacerbation of chronic kidney disease로 입원함. BPH 150 mmHg, HR 72 BPM, RR 18 breaths/min, BT 36.8도 확인됨. SpO2 94% on 2 L O2 via nasal cannula. Moderate weakness 호소함. Labetalol 5 mg IV q6h 투여 중. Nasal cannula 적용함. Fluid resuscitation 시행함. Folly 유지 중. Positive fluid balance 확인됨. Clinical status, drowsy. Renal team notify 함 for dialysis evaluation.",
+  "stt_metadata": {
+    "asr_system": "chirp3_auto",
+    "provider": "google",
+    "model": "chirp_3",
+    "location": "us",
+    "language_codes": [
+      "auto"
+    ],
+    "audio_path": "data/audio/scenario_077_clinical_charting.mp3",
+    "audio_sha256": "0e7ce7c14ce41d7aedb37dbca5a4f0522e60a9e1d40e925d6f47bc65bac1a762",
+    "transcribed_at": "2026-11-04T14:49:40+00:00",
+    "request_seconds": 5.06,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "metadata": {
+      "total_billed_duration": "30s",
+      "request_id": "6b12f8d7-0000-27ce-8e1f-f4f5e8087f78",
+      "prompt": "Transcribe the following speech segment. Follow these specific instructions for formatting the answer:\n* Only output the transcript, with no newlines.\n* When transcribing numbers, write the digits, i.e. write 1.7 and not one point seven, and write 100 instead of one hundred etc.\n* Only output the transcript, exactly as said in the speech segment.\n* Do not continue the speech segment.\n* Include everything said in the speech segment.\n* Use mathematical notation where needed, eg. x ^ 6Y.\n* If there is background speech that is not part of the main conversation, discard the background speech and only output the main conversation.\n* If there is no clear speech, just output [BACKGROUND].\n* Respond in the original language of the speech."
+    },
+    "results": [
+      {
+        "alternatives": [
+          {
+            "transcript": "66세 여성 환자 acute exacerbation of chronic kidney disease로 입원함. BPH 150 mmHg, HR 72 BPM, RR 18 breaths/min, BT 36.8도 확인됨. SpO2 94% on 2 L O2 via nasal cannula. Moderate weakness 호소함. Labetalol 5 mg IV q6h 투여 중. Nasal cannula 적용함. Fluid resuscitation 시행함. Folly 유지 중. Positive fluid balance 확인됨. Clinical status, drowsy. Renal team notify 함 for dialysis evaluation.",
+            "confidence": 0.0,
+            "words": []
+          }
+        ],
+        "language_code": "ko",
+        "channel_tag": 0
+      }
+    ],
+    "detected_language_codes": [
+      "ko"
+    ]
+  }
+}

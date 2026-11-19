@@ -1,0 +1,43 @@
+{
+  "sample_id": "scenario_032_clinical_charting",
+  "whisper_transcript": "67세 여자 환자, 폐질환 악화로 인한 급성 호흡 부전으로 입원함. BP 140/85 mmHg, HR 110 BPM, RR 24/min, BT 37.6°C, SpO2 88%. severe dyspnea 호소함. methylprednisolone 60mg IV Q 8 hr 적용함. high flow nasal cannula 유지함. ventilator 사용 중임. 의식 상태 drowsy 확인됨.",
+  "stt_metadata": {
+    "asr_system": "chirp3_auto",
+    "provider": "google",
+    "model": "chirp_3",
+    "location": "us",
+    "language_codes": [
+      "auto"
+    ],
+    "audio_path": "data/audio/scenario_032_clinical_charting.mp3",
+    "audio_sha256": "7cbd3a63f808e7c873ae57ee4c6bdd44a9b3490e1428948e26d873aa0bb0e900",
+    "transcribed_at": "2026-11-04T14:24:54+00:00",
+    "request_seconds": 3.41,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "metadata": {
+      "total_billed_duration": "23s",
+      "request_id": "6b0952e2-0000-25c2-a3f1-f4f5e807f0d8",
+      "prompt": "Transcribe the following speech segment. Follow these specific instructions for formatting the answer:\n* Only output the transcript, with no newlines.\n* When transcribing numbers, write the digits, i.e. write 1.7 and not one point seven, and write 100 instead of one hundred etc.\n* Only output the transcript, exactly as said in the speech segment.\n* Do not continue the speech segment.\n* Include everything said in the speech segment.\n* Use mathematical notation where needed, eg. x ^ 6Y.\n* If there is background speech that is not part of the main conversation, discard the background speech and only output the main conversation.\n* If there is no clear speech, just output [BACKGROUND].\n* Respond in the original language of the speech."
+    },
+    "results": [
+      {
+        "alternatives": [
+          {
+            "transcript": "67세 여자 환자, 폐질환 악화로 인한 급성 호흡 부전으로 입원함. BP 140/85 mmHg, HR 110 BPM, RR 24/min, BT 37.6°C, SpO2 88%. severe dyspnea 호소함. methylprednisolone 60mg IV Q 8 hr 적용함. high flow nasal cannula 유지함. ventilator 사용 중임. 의식 상태 drowsy 확인됨.",
+            "confidence": 0.0,
+            "words": []
+          }
+        ],
+        "language_code": "ko",
+        "channel_tag": 0
+      }
+    ],
+    "detected_language_codes": [
+      "ko"
+    ]
+  }
+}

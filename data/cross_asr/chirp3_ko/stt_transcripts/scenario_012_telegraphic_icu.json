@@ -1,0 +1,43 @@
+{
+  "sample_id": "scenario_012_telegraphic_icu",
+  "whisper_transcript": "75세 여성, 심부전 악화로 BP 90/60 mmHg, HR 50 BPM, RR 22, BT 36.8°C, SpO2 88% room air, dyspnea moderate, Furosemide 40mg IV Q8H, O2 2L NC, Foley, fluid balance positive, drowsy, cardiology 팀 notify.",
+  "stt_metadata": {
+    "asr_system": "chirp3_ko",
+    "provider": "google",
+    "model": "chirp_3",
+    "location": "us",
+    "language_codes": [
+      "ko-KR"
+    ],
+    "audio_path": "data/audio/scenario_012_telegraphic_icu.mp3",
+    "audio_sha256": "3226fd93b5575353fa04e4651346c04b47667ff280346875e17fb057d8fdb451",
+    "transcribed_at": "2026-11-04T13:12:43+00:00",
+    "request_seconds": 2.94,
+    "attempts": 1,
+    "git_commit": "5b6d73fb63e1509a79e1a160176d606ed1b104c4",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "metadata": {
+      "total_billed_duration": "17s",
+      "request_id": "6b2cc2bd-0000-291b-9ce0-7474463f846d",
+      "prompt": "Transcribe the following speech segment in Korean. Follow these specific instructions for formatting the answer:\n* Only output the transcript, with no newlines.\n* When transcribing numbers, write the digits, i.e. write 1.7 and not one point seven, and write 100 instead of one hundred etc.\n* Only output the transcript, exactly as said in the speech segment.\n* Do not continue the speech segment.\n* Include everything said in the speech segment.\n* Use mathematical notation where needed, eg. x ^ 6Y.\n* If there is background speech that is not part of the main conversation, discard the background speech and only output the main conversation.\n* If there is no clear speech, just output [BACKGROUND].\n* Respond in the original language of the speech, Korean."
+    },
+    "results": [
+      {
+        "alternatives": [
+          {
+            "transcript": "75세 여성, 심부전 악화로 BP 90/60 mmHg, HR 50 BPM, RR 22, BT 36.8°C, SpO2 88% room air, dyspnea moderate, Furosemide 40mg IV Q8H, O2 2L NC, Foley, fluid balance positive, drowsy, cardiology 팀 notify.",
+            "confidence": 0.0,
+            "words": []
+          }
+        ],
+        "language_code": "ko-KR",
+        "channel_tag": 0
+      }
+    ],
+    "detected_language_codes": [
+      "ko-KR"
+    ]
+  }
+}

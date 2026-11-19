@@ -1,0 +1,43 @@
+{
+  "sample_id": "scenario_036_formal_template",
+  "whisper_transcript": "55세 여성 환자가 중증 급성 천식 악화로 입원하였다. 활력 징후를 확인한 결과, 혈압은 130/85 mmHg, 심박수는 110 BPM, 호흡수는 28 breath/min, 체온은 37.2°C, 산소 포화도는 실내 공기에서 88%로 확인되었다. 환자는 심한 위징을 호소하였다. 알부테롤 2.5 mg을 IV로 Q4H 투여 중이다. 산소 보조로는 고유량 비강 캐눌라를 사용하고 있으며, 벤틸레이터도 사용 중이다. 체액 균형은 음성으로 나타났다. 환자의 임상 상태는 졸림이 관찰되었다. 환기 관리 위해 호흡 치료사에게 보고하였다.",
+  "stt_metadata": {
+    "asr_system": "chirp3_auto",
+    "provider": "google",
+    "model": "chirp_3",
+    "location": "us",
+    "language_codes": [
+      "auto"
+    ],
+    "audio_path": "data/audio/scenario_036_formal_template.mp3",
+    "audio_sha256": "34c5440b722aec149bbed167278c987d2070a51079118e1e0d13f9b94496cce9",
+    "transcribed_at": "2026-11-04T14:26:04+00:00",
+    "request_seconds": 5.54,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "metadata": {
+      "total_billed_duration": "39s",
+      "request_id": "747313ac-0000-2ead-a9c6-582429a7d3b8",
+      "prompt": "Transcribe the following speech segment. Follow these specific instructions for formatting the answer:\n* Only output the transcript, with no newlines.\n* When transcribing numbers, write the digits, i.e. write 1.7 and not one point seven, and write 100 instead of one hundred etc.\n* Only output the transcript, exactly as said in the speech segment.\n* Do not continue the speech segment.\n* Include everything said in the speech segment.\n* Use mathematical notation where needed, eg. x ^ 6Y.\n* If there is background speech that is not part of the main conversation, discard the background speech and only output the main conversation.\n* If there is no clear speech, just output [BACKGROUND].\n* Respond in the original language of the speech."
+    },
+    "results": [
+      {
+        "alternatives": [
+          {
+            "transcript": "55세 여성 환자가 중증 급성 천식 악화로 입원하였다. 활력 징후를 확인한 결과, 혈압은 130/85 mmHg, 심박수는 110 BPM, 호흡수는 28 breath/min, 체온은 37.2°C, 산소 포화도는 실내 공기에서 88%로 확인되었다. 환자는 심한 위징을 호소하였다. 알부테롤 2.5 mg을 IV로 Q4H 투여 중이다. 산소 보조로는 고유량 비강 캐눌라를 사용하고 있으며, 벤틸레이터도 사용 중이다. 체액 균형은 음성으로 나타났다. 환자의 임상 상태는 졸림이 관찰되었다. 환기 관리 위해 호흡 치료사에게 보고하였다.",
+            "confidence": 0.0,
+            "words": []
+          }
+        ],
+        "language_code": "ko",
+        "channel_tag": 0
+      }
+    ],
+    "detected_language_codes": [
+      "ko"
+    ]
+  }
+}

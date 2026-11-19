@@ -1,0 +1,34 @@
+{
+  "n_samples": 300,
+  "n_scenarios": 100,
+  "by_style": {
+    "clinical_charting": 100,
+    "formal_template": 100,
+    "telegraphic_icu": 100
+  },
+  "audio_exists": 300,
+  "decode_ok_yes": 300,
+  "scaffold_exists": 300,
+  "gold_text_nonempty": 300,
+  "original_transcript_exists": 300,
+  "original_matched_exists": 300,
+  "pilot_scenarios": [
+    "scenario_007",
+    "scenario_012",
+    "scenario_018",
+    "scenario_019",
+    "scenario_021",
+    "scenario_025",
+    "scenario_033",
+    "scenario_068",
+    "scenario_079",
+    "scenario_080"
+  ],
+  "files_sha256": {
+    "audio_manifest.csv": "d9f3adac2ba0189e2edc263e3ec056b43eb89e455db8f457eb718e6a512d7bf6",
+    "pilot_samples.json": "6c35456eb56316be2bbbfbd569aecb0d81a30e74ce2c2b17368f43b66d7fd5d8"
+  },
+  "created_at": "2026-11-03T12:44:49+00:00",
+  "git_commit": "2f33d88ea06fe82b64d37de66062c8d16af160cb",
+  "config_version": "1.0"
+}

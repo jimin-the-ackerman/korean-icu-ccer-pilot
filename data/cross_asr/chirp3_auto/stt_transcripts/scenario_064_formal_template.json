@@ -1,0 +1,43 @@
+{
+  "sample_id": "scenario_064_formal_template",
+  "whisper_transcript": "환자 기록. 65세 여성 환자가 흡인성 폐렴에 이차적으로 급성 호흡곤란 증후군 ARDS로 입원하였다. 활력 증후는 혈압 110/70 mmHg, 심박수 95 bpm, 호흡수 30회/분, 체온 37.8°C. 실내 공기에서 산소 포화도 85%로 확인되었다. 환자는 심한 정도의 호흡곤란을 호소하였다. 환자는 세프트리악손 2g을 IV로 12시간마다 투여받고 있다. 기계적 환기를 위해 환자는 벤틸레이터를 사용 중이며, 체액 균형은 양성으로 나타났다. 현재 임상 상태는 혼미함으로 평가되었다.",
+  "stt_metadata": {
+    "asr_system": "chirp3_auto",
+    "provider": "google",
+    "model": "chirp_3",
+    "location": "us",
+    "language_codes": [
+      "auto"
+    ],
+    "audio_path": "data/audio/scenario_064_formal_template.mp3",
+    "audio_sha256": "f2a52fba8f16f8ba6a714b68771f239d962a142a339bb4bed99b8ef1909a4caa",
+    "transcribed_at": "2026-11-04T14:46:35+00:00",
+    "request_seconds": 6.49,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "metadata": {
+      "total_billed_duration": "37s",
+      "request_id": "73c81adc-0000-2a32-88a1-582429a622b0",
+      "prompt": "Transcribe the following speech segment. Follow these specific instructions for formatting the answer:\n* Only output the transcript, with no newlines.\n* When transcribing numbers, write the digits, i.e. write 1.7 and not one point seven, and write 100 instead of one hundred etc.\n* Only output the transcript, exactly as said in the speech segment.\n* Do not continue the speech segment.\n* Include everything said in the speech segment.\n* Use mathematical notation where needed, eg. x ^ 6Y.\n* If there is background speech that is not part of the main conversation, discard the background speech and only output the main conversation.\n* If there is no clear speech, just output [BACKGROUND].\n* Respond in the original language of the speech."
+    },
+    "results": [
+      {
+        "alternatives": [
+          {
+            "transcript": "환자 기록. 65세 여성 환자가 흡인성 폐렴에 이차적으로 급성 호흡곤란 증후군 ARDS로 입원하였다. 활력 증후는 혈압 110/70 mmHg, 심박수 95 bpm, 호흡수 30회/분, 체온 37.8°C. 실내 공기에서 산소 포화도 85%로 확인되었다. 환자는 심한 정도의 호흡곤란을 호소하였다. 환자는 세프트리악손 2g을 IV로 12시간마다 투여받고 있다. 기계적 환기를 위해 환자는 벤틸레이터를 사용 중이며, 체액 균형은 양성으로 나타났다. 현재 임상 상태는 혼미함으로 평가되었다.",
+            "confidence": 0.0,
+            "words": []
+          }
+        ],
+        "language_code": "ko",
+        "channel_tag": 0
+      }
+    ],
+    "detected_language_codes": [
+      "ko"
+    ]
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_007_telegraphic_icu",
+  "whisper_transcript": "60 saO2 COPD aquado E1, BP 1/3 85 mmHg, HR 95 bpm 28 br/s BT 37.2, dyspnea, SpO2 89% room air, Severe shortness of breath, methylprednisolone 60 mg IV q6h, O2 2LNC, positive fluid balance, drowsy, pulmonologist notify.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe_auto",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": null,
+    "audio_path": "data/audio/scenario_007_telegraphic_icu.mp3",
+    "audio_sha256": "fea448d33c2c9013aee96eddf3a2e737d053f1d9c1fa5f2079f816cf4f2c117d",
+    "transcribed_at": "2026-11-04T14:04:21+00:00",
+    "request_seconds": 1.82,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "60 saO2 COPD aquado E1, BP 1/3 85 mmHg, HR 95 bpm 28 br/s BT 37.2, dyspnea, SpO2 89% room air, Severe shortness of breath, methylprednisolone 60 mg IV q6h, O2 2LNC, positive fluid balance, drowsy, pulmonologist notify.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 182,
+      "output_tokens": 86,
+      "total_tokens": 268,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 182,
+        "text_tokens": 0
+      }
+    }
+  }
+}

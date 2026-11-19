@@ -1,0 +1,25 @@
+{
+  "sample_id": "scenario_045_clinical_charting",
+  "whisper_transcript": "62-year-old female patient admitted to the hospital due to acute adrenal crisis caused by Addison's disease. BPH by 54 mmHg, HR by 16 bpm, RRV by 4 breaths min, BT by 30.4 mg SpO by Dx per seat, room air. Severe abdominal pain complaint, hydrocortisone 100 mg IV stat injection, nasal cannula 2 in min injection, fluid resuscitation with normal saline test, Foley UGM, urine output 30 mRRR confirmed. 환자 드라우지 상태임, endocrinology consult for management of adrenal insufficiency.",
+  "stt_metadata": {
+    "asr_system": "whisper1_auto",
+    "provider": "openai",
+    "model": "whisper-1",
+    "language": null,
+    "audio_path": "data/audio/scenario_045_clinical_charting.mp3",
+    "audio_sha256": "cbe4a48db156760a301a43aff9965304419b07a21308b7db679a478c895445f5",
+    "transcribed_at": "2026-11-04T13:54:23+00:00",
+    "request_seconds": 3.05,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "62-year-old female patient admitted to the hospital due to acute adrenal crisis caused by Addison's disease. BPH by 54 mmHg, HR by 16 bpm, RRV by 4 breaths min, BT by 30.4 mg SpO by Dx per seat, room air. Severe abdominal pain complaint, hydrocortisone 100 mg IV stat injection, nasal cannula 2 in min injection, fluid resuscitation with normal saline test, Foley UGM, urine output 30 mRRR confirmed. 환자 드라우지 상태임, endocrinology consult for management of adrenal insufficiency.",
+    "logprobs": null,
+    "usage": {
+      "seconds": 32.0,
+      "type": "duration"
+    }
+  }
+}

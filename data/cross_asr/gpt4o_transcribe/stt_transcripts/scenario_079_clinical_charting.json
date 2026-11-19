@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_079_clinical_charting",
+  "whisper_transcript": "우심육세 남성, acute exacerbation of ulcerative colitis로 입원. Severe abdominal pain 및 bloody diarrhea 호소함. BP 예고 60mmHg, HR 100 bpm, RR 20 breaths/min, BT 37.2, SpO2는 100%. Methylprednisolone 40mg IV q6h 적용, Foley 유치함. I&O strict monitoring 유치함. 환자 의식 alert 확인됨.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": "ko",
+    "audio_path": "data/audio/scenario_079_clinical_charting.mp3",
+    "audio_sha256": "4492f239d23db039e6257f4343fc39af0c0e992966af269b1b6dd0c59bcd0260",
+    "transcribed_at": "2026-11-04T13:03:07+00:00",
+    "request_seconds": 18.73,
+    "attempts": 1,
+    "git_commit": "5b6d73fb63e1509a79e1a160176d606ed1b104c4",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "우심육세 남성, acute exacerbation of ulcerative colitis로 입원. Severe abdominal pain 및 bloody diarrhea 호소함. BP 예고 60mmHg, HR 100 bpm, RR 20 breaths/min, BT 37.2, SpO2는 100%. Methylprednisolone 40mg IV q6h 적용, Foley 유치함. I&O strict monitoring 유치함. 환자 의식 alert 확인됨.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 219,
+      "output_tokens": 98,
+      "total_tokens": 317,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 219,
+        "text_tokens": 0
+      }
+    }
+  }
+}

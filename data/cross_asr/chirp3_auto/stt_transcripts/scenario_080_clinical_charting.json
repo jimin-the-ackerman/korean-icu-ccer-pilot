@@ -1,0 +1,43 @@
+{
+  "sample_id": "scenario_080_clinical_charting",
+  "whisper_transcript": "50세 남성 환자, 알코올성 간경화로 인한 급성 악화로 2번 입원. 활력징후, BP 155/60 mmHg, HR 104 bpm, RR 22 breath/min, BT 37.6°C, SpO2 92% room air. 심한 황달 확인됨. 푸로세미드 40 mg IV BID 적용함. 산소 2L 나 비강 캐뉔라 유지함. 폴리 유지함. 음성 수액 균형 기록함. 졸음 상태 확인됨. 간담췌과 협진 요청함.",
+  "stt_metadata": {
+    "asr_system": "chirp3_auto",
+    "provider": "google",
+    "model": "chirp_3",
+    "location": "us",
+    "language_codes": [
+      "auto"
+    ],
+    "audio_path": "data/audio/scenario_080_clinical_charting.mp3",
+    "audio_sha256": "6cf0576e59ee28160e99fbb474a4b66dbc9bce4c0ced7a9152ef231fc0b6c4d0",
+    "transcribed_at": "2026-11-04T14:50:29+00:00",
+    "request_seconds": 5.62,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "metadata": {
+      "total_billed_duration": "28s",
+      "request_id": "6b12dbce-0000-25c2-a3f1-f4f5e807f0d8",
+      "prompt": "Transcribe the following speech segment. Follow these specific instructions for formatting the answer:\n* Only output the transcript, with no newlines.\n* When transcribing numbers, write the digits, i.e. write 1.7 and not one point seven, and write 100 instead of one hundred etc.\n* Only output the transcript, exactly as said in the speech segment.\n* Do not continue the speech segment.\n* Include everything said in the speech segment.\n* Use mathematical notation where needed, eg. x ^ 6Y.\n* If there is background speech that is not part of the main conversation, discard the background speech and only output the main conversation.\n* If there is no clear speech, just output [BACKGROUND].\n* Respond in the original language of the speech."
+    },
+    "results": [
+      {
+        "alternatives": [
+          {
+            "transcript": "50세 남성 환자, 알코올성 간경화로 인한 급성 악화로 2번 입원. 활력징후, BP 155/60 mmHg, HR 104 bpm, RR 22 breath/min, BT 37.6°C, SpO2 92% room air. 심한 황달 확인됨. 푸로세미드 40 mg IV BID 적용함. 산소 2L 나 비강 캐뉔라 유지함. 폴리 유지함. 음성 수액 균형 기록함. 졸음 상태 확인됨. 간담췌과 협진 요청함.",
+            "confidence": 0.0,
+            "words": []
+          }
+        ],
+        "language_code": "ko",
+        "channel_tag": 0
+      }
+    ],
+    "detected_language_codes": [
+      "ko"
+    ]
+  }
+}

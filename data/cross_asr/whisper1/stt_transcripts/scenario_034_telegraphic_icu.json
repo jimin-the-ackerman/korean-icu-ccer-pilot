@@ -1,0 +1,25 @@
+{
+  "sample_id": "scenario_034_telegraphic_icu",
+  "whisper_transcript": "욕심받으신 남성, 급성 악화된 간성 혼수로 입원. BP-36C 면역력, HR-112bpm, RR-20min, BT-36.5gth, SpO2 90% room air, jaundice moderate, Lactulose 30ml POQ-8, Nasal cannula 2, Strict fluid balance monitoring, drowsy, Hepatology team notify.",
+  "stt_metadata": {
+    "asr_system": "whisper1",
+    "provider": "reuse_existing",
+    "model": "whisper-1",
+    "language": "ko",
+    "audio_path": "data/audio/scenario_034_telegraphic_icu.mp3",
+    "audio_sha256": "5dc84e85bdca7546e8b3426fb6d6edab874e4491321cb07dff8dd50c11d1ed0b",
+    "copied_at": "2026-11-04T04:31:11+00:00",
+    "request_seconds": 0.0,
+    "attempts": 1,
+    "git_commit": "b3490181b3fb3f88b56cde5be78a01cfdcef3007",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "source_file": "data/stt_transcripts/scenario_034_telegraphic_icu.json",
+    "source_sha256": "9f84462bfbc893df73f43d874a698424243c64e22b5952c7616e4e5609d07120",
+    "source_stt_metadata": {
+      "model": "whisper-1",
+      "language": "ko"
+    }
+  }
+}

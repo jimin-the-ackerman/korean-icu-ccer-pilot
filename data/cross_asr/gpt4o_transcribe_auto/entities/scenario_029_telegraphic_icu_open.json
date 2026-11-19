@@ -1,0 +1,35 @@
+{
+  "sample_id": "scenario_029_telegraphic_icu",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "muscle weakness",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "Drowsy",
+    "medication_identity": "IVIG",
+    "interventions": [
+      "Plasmapheresis"
+    ],
+    "intake_output": "Urine 1200 ml/24h",
+    "notification": "Neurology team notify"
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "근력 약화",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "졸음 상태",
+    "medication_identity": "IVIG",
+    "interventions": [
+      "혈장분리교환"
+    ],
+    "intake_output": "소변 1200ml/24hr",
+    "notification": "신경학 팀 통보"
+  }
+}

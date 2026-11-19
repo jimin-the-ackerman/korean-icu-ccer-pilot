@@ -1,0 +1,43 @@
+{
+  "sample_id": "scenario_089_clinical_charting",
+  "whisper_transcript": "59세 남성 환자, 나수에 의한 만성 간 질환 급성 악화로 입원함. BP 90/50 mmHg, HR 110 bpm, RR 20 breaths/min, BT 37.2°C, SpO2 89% 확인됨. spironolactone 100 mg PO BID 적용함. nasal cannula 3L 유지함. foley 유지함. negative fluid balance 500 mL 확인됨. clinical status drowsy 확인됨. hepatology 팀 notify 함.",
+  "stt_metadata": {
+    "asr_system": "chirp3_ko",
+    "provider": "google",
+    "model": "chirp_3",
+    "location": "us",
+    "language_codes": [
+      "ko-KR"
+    ],
+    "audio_path": "data/audio/scenario_089_clinical_charting.mp3",
+    "audio_sha256": "ce8e4abc3cdb561d34f6f11281eab4d6a5b935bd2c7502e16825c32f5806c22b",
+    "transcribed_at": "2026-11-04T13:30:51+00:00",
+    "request_seconds": 3.92,
+    "attempts": 1,
+    "git_commit": "5b6d73fb63e1509a79e1a160176d606ed1b104c4",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "metadata": {
+      "total_billed_duration": "27s",
+      "request_id": "6e55e0a5-0000-26a3-b5eb-14223bc6e2be",
+      "prompt": "Transcribe the following speech segment in Korean. Follow these specific instructions for formatting the answer:\n* Only output the transcript, with no newlines.\n* When transcribing numbers, write the digits, i.e. write 1.7 and not one point seven, and write 100 instead of one hundred etc.\n* Only output the transcript, exactly as said in the speech segment.\n* Do not continue the speech segment.\n* Include everything said in the speech segment.\n* Use mathematical notation where needed, eg. x ^ 6Y.\n* If there is background speech that is not part of the main conversation, discard the background speech and only output the main conversation.\n* If there is no clear speech, just output [BACKGROUND].\n* Respond in the original language of the speech, Korean."
+    },
+    "results": [
+      {
+        "alternatives": [
+          {
+            "transcript": "59세 남성 환자, 나수에 의한 만성 간 질환 급성 악화로 입원함. BP 90/50 mmHg, HR 110 bpm, RR 20 breaths/min, BT 37.2°C, SpO2 89% 확인됨. spironolactone 100 mg PO BID 적용함. nasal cannula 3L 유지함. foley 유지함. negative fluid balance 500 mL 확인됨. clinical status drowsy 확인됨. hepatology 팀 notify 함.",
+            "confidence": 0.0,
+            "words": []
+          }
+        ],
+        "language_code": "ko-KR",
+        "channel_tag": 0
+      }
+    ],
+    "detected_language_codes": [
+      "ko-KR"
+    ]
+  }
+}

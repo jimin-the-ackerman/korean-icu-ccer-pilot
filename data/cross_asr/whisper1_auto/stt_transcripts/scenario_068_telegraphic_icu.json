@@ -1,0 +1,26 @@
+{
+  "sample_id": "scenario_068_telegraphic_icu",
+  "whisper_transcript": "68-year-old female patient with acute ischemic colitis. BP 95, 60 mmHg, HR Mbpm, RR 22 breaths min, BTTO2 92% RA, abdominal pain severe, metronidazole 500 mg IVQ 8H, nasal cannula 2 mm, fully tongue-tucked M. Negative fluid balance, drowsy state.",
+  "stt_metadata": {
+    "asr_system": "whisper1_auto",
+    "provider": "openai",
+    "model": "whisper-1",
+    "language": null,
+    "scope": "pilot",
+    "audio_path": "data/audio/scenario_068_telegraphic_icu.mp3",
+    "audio_sha256": "a932e160553e7a2dc263a3afbcbf753f29424525b9484a7cb5b86f6a8c70b21b",
+    "transcribed_at": "2026-11-04T13:42:33+00:00",
+    "request_seconds": 1.72,
+    "attempts": 1,
+    "git_commit": "5b6d73fb63e1509a79e1a160176d606ed1b104c4",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "68-year-old female patient with acute ischemic colitis. BP 95, 60 mmHg, HR Mbpm, RR 22 breaths min, BTTO2 92% RA, abdominal pain severe, metronidazole 500 mg IVQ 8H, nasal cannula 2 mm, fully tongue-tucked M. Negative fluid balance, drowsy state.",
+    "logprobs": null,
+    "usage": {
+      "seconds": 19.0,
+      "type": "duration"
+    }
+  }
+}

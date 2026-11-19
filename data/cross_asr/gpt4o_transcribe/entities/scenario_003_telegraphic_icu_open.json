@@ -1,0 +1,35 @@
+{
+  "sample_id": "scenario_003_telegraphic_icu",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "chest pain",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "Alert",
+    "medication_identity": "Aspirin",
+    "interventions": [
+      "Cardiac monitoring"
+    ],
+    "intake_output": null,
+    "notification": "Cardiology team notify"
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "chest pain",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "alert",
+    "medication_identity": "Aspirin",
+    "interventions": [
+      "cardiac monitoring"
+    ],
+    "intake_output": null,
+    "notification": "Cardiology team notify"
+  }
+}

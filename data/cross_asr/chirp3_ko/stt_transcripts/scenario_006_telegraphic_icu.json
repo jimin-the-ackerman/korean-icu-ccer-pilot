@@ -1,0 +1,43 @@
+{
+  "sample_id": "scenario_006_telegraphic_icu",
+  "whisper_transcript": "70세 여성 심각한 스트로크로 입원. BP 100/70, PR 70, BT 37.5, SpO2 95%. severe hemiplegia. labetalol 10mg IV q 6 hr. nasal cannula 2 L/min 적용. C-line 유지 중. negative fluid balance. stuporous 상태. neuro team notify.",
+  "stt_metadata": {
+    "asr_system": "chirp3_ko",
+    "provider": "google",
+    "model": "chirp_3",
+    "location": "us",
+    "language_codes": [
+      "ko-KR"
+    ],
+    "audio_path": "data/audio/scenario_006_telegraphic_icu.mp3",
+    "audio_sha256": "502b5fa31fcf30c6fb8cb26f09f9c22bd25ea040077435c61adfbba45807dcbf",
+    "transcribed_at": "2026-11-04T13:11:21+00:00",
+    "request_seconds": 2.86,
+    "attempts": 1,
+    "git_commit": "5b6d73fb63e1509a79e1a160176d606ed1b104c4",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "metadata": {
+      "total_billed_duration": "18s",
+      "request_id": "740e6ee9-0000-25e6-ae05-c82add70e314",
+      "prompt": "Transcribe the following speech segment in Korean. Follow these specific instructions for formatting the answer:\n* Only output the transcript, with no newlines.\n* When transcribing numbers, write the digits, i.e. write 1.7 and not one point seven, and write 100 instead of one hundred etc.\n* Only output the transcript, exactly as said in the speech segment.\n* Do not continue the speech segment.\n* Include everything said in the speech segment.\n* Use mathematical notation where needed, eg. x ^ 6Y.\n* If there is background speech that is not part of the main conversation, discard the background speech and only output the main conversation.\n* If there is no clear speech, just output [BACKGROUND].\n* Respond in the original language of the speech, Korean."
+    },
+    "results": [
+      {
+        "alternatives": [
+          {
+            "transcript": "70세 여성 심각한 스트로크로 입원. BP 100/70, PR 70, BT 37.5, SpO2 95%. severe hemiplegia. labetalol 10mg IV q 6 hr. nasal cannula 2 L/min 적용. C-line 유지 중. negative fluid balance. stuporous 상태. neuro team notify.",
+            "confidence": 0.0,
+            "words": []
+          }
+        ],
+        "language_code": "ko-KR",
+        "channel_tag": 0
+      }
+    ],
+    "detected_language_codes": [
+      "ko-KR"
+    ]
+  }
+}

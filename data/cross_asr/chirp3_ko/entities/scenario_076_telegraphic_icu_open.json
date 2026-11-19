@@ -1,0 +1,40 @@
+{
+  "sample_id": "scenario_076_telegraphic_icu",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "nausea",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "Drowsy",
+    "medication_identity": "Ondansetron",
+    "interventions": [
+      "IV fluid resuscitation"
+    ],
+    "intake_output": "Negative fluid balance",
+    "notification": "Nephrology team consult함"
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "nausea",
+        "negation": false,
+        "severity": "severe"
+      },
+      {
+        "name": "dehydration",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "drowsy",
+    "medication_identity": "ondansetron",
+    "interventions": [
+      "fluid resuscitation"
+    ],
+    "intake_output": "negative fluid balance",
+    "notification": "nephrology team consult"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "sample_id": "scenario_090_formal_template",
+  "whisper_transcript": "57세 여성 환자가 다발성 경화증의 급성 악화로 입원하였다. 환자는 심각한 모터 위크니스와 감각 장애를 보였다. 활력징후로는 혈압이 130/85 mmHg, 심박수가 95 bpm, 호흡수가 20, 체온이 37.56 섭씨로 확인되었다. 산소포화도는 룸 에어에서 93%로 확인되었다. 환자는 메틸 프레드니솔론 1g을 IV로 q12h 투여받고 있다. 소변 배출량은 적절하다. 현재 환자는 드라우지 상태에 있다.",
+  "stt_metadata": {
+    "asr_system": "chirp3_ko",
+    "provider": "google",
+    "model": "chirp_3",
+    "location": "us",
+    "language_codes": [
+      "ko-KR"
+    ],
+    "audio_path": "data/audio/scenario_090_formal_template.mp3",
+    "audio_sha256": "a18fbfbc19383f16a43d37d9bc2f75b5545db259e21b0906fb06fa48297f17a5",
+    "transcribed_at": "2026-11-04T13:31:11+00:00",
+    "request_seconds": 5.3,
+    "attempts": 1,
+    "git_commit": "5b6d73fb63e1509a79e1a160176d606ed1b104c4",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "metadata": {
+      "total_billed_duration": "31s",
+      "request_id": "6dca2bb7-0000-2cc9-91db-582429ac2ca8",
+      "prompt": "Transcribe the following speech segment in Korean. Follow these specific instructions for formatting the answer:\n* Only output the transcript, with no newlines.\n* When transcribing numbers, write the digits, i.e. write 1.7 and not one point seven, and write 100 instead of one hundred etc.\n* Only output the transcript, exactly as said in the speech segment.\n* Do not continue the speech segment.\n* Include everything said in the speech segment.\n* Use mathematical notation where needed, eg. x ^ 6Y.\n* If there is background speech that is not part of the main conversation, discard the background speech and only output the main conversation.\n* If there is no clear speech, just output [BACKGROUND].\n* Respond in the original language of the speech, Korean."
+    },
+    "results": [
+      {
+        "alternatives": [
+          {
+            "transcript": "57세 여성 환자가 다발성 경화증의 급성 악화로 입원하였다. 환자는 심각한 모터 위크니스와 감각 장애를 보였다. 활력징후로는 혈압이 130/85 mmHg, 심박수가 95 bpm, 호흡수가 20, 체온이 37.56 섭씨로 확인되었다. 산소포화도는 룸 에어에서 93%로 확인되었다. 환자는 메틸 프레드니솔론 1g을 IV로 q12h 투여받고 있다. 소변 배출량은 적절하다. 현재 환자는 드라우지 상태에 있다.",
+            "confidence": 0.0,
+            "words": []
+          }
+        ],
+        "language_code": "ko-KR",
+        "channel_tag": 0
+      }
+    ],
+    "detected_language_codes": [
+      "ko-KR"
+    ]
+  }
+}

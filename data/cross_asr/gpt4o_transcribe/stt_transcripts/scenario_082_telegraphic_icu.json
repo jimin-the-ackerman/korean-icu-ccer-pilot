@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_082_telegraphic_icu",
+  "whisper_transcript": "58 sayo sankhadab speciate 145/90 mmHg, HR 110 bpm, RR 22, T 38.2 degrees, SpO2 98% room air. Abdominal pain severe, morphine 5 mg IV q4h pain management, strict IO monitoring, alert.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": "ko",
+    "audio_path": "data/audio/scenario_082_telegraphic_icu.mp3",
+    "audio_sha256": "41a3549146a5d793cad820e180a7285df125c1c9ce9e5564dc356224e7b50877",
+    "transcribed_at": "2026-11-04T13:03:31+00:00",
+    "request_seconds": 1.55,
+    "attempts": 1,
+    "git_commit": "5b6d73fb63e1509a79e1a160176d606ed1b104c4",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "58 sayo sankhadab speciate 145/90 mmHg, HR 110 bpm, RR 22, T 38.2 degrees, SpO2 98% room air. Abdominal pain severe, morphine 5 mg IV q4h pain management, strict IO monitoring, alert.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 146,
+      "output_tokens": 65,
+      "total_tokens": 211,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 146,
+        "text_tokens": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,121 @@
+{
+  "sample_id": "scenario_081_telegraphic_icu",
+  "gold_entities": {
+    "route": [
+      {
+        "raw": "IV",
+        "normalized": "iv",
+        "position": 138
+      }
+    ],
+    "frequency": [
+      {
+        "raw": "STAT",
+        "normalized": "stat",
+        "position": 141
+      }
+    ],
+    "device": [
+      {
+        "raw": "Foley",
+        "normalized": "foley",
+        "position": 161
+      },
+      {
+        "raw": "NC",
+        "normalized": "nc",
+        "position": 155
+      }
+    ],
+    "vital_sign": [
+      {
+        "raw": "BP 200/110",
+        "label": "bp",
+        "value": "200/110",
+        "position": 33
+      },
+      {
+        "raw": "HR 110",
+        "label": "hr",
+        "value": "110",
+        "position": 52
+      },
+      {
+        "raw": "RR 24.",
+        "label": "rr",
+        "value": "24",
+        "position": 66
+      },
+      {
+        "raw": "BT 37.4",
+        "label": "bt",
+        "value": "37.4",
+        "position": 75
+      },
+      {
+        "raw": "SpO2 88%",
+        "label": "spo2",
+        "value": "88%",
+        "position": 88
+      }
+    ],
+    "dose": [
+      {
+        "raw": "40 mg",
+        "value": "40",
+        "unit": "mg",
+        "position": 132
+      }
+    ]
+  },
+  "whisper_entities": {
+    "route": [
+      {
+        "raw": "IV",
+        "normalized": "iv",
+        "position": 147
+      }
+    ],
+    "frequency": [
+      {
+        "raw": "stat",
+        "normalized": "stat",
+        "position": 150
+      }
+    ],
+    "device": [],
+    "vital_sign": [
+      {
+        "raw": "BP 200",
+        "label": "bp",
+        "value": "200",
+        "position": 31
+      },
+      {
+        "raw": "HR 1",
+        "label": "hr",
+        "value": "1",
+        "position": 53
+      },
+      {
+        "raw": "RR 24",
+        "label": "rr",
+        "value": "24",
+        "position": 71
+      },
+      {
+        "raw": "BT 37.4",
+        "label": "bt",
+        "value": "37.4",
+        "position": 78
+      },
+      {
+        "raw": "SpO2, 88%",
+        "label": "spo2",
+        "value": "88%",
+        "position": 91
+      }
+    ],
+    "dose": []
+  }
+}

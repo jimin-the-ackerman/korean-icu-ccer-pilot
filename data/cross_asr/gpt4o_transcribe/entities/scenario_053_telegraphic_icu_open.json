@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_053_telegraphic_icu",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "Dyspnea",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "drowsy",
+    "medication_identity": "Prednisone",
+    "interventions": [],
+    "intake_output": null,
+    "notification": "Pulmonologist notify"
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "Dyspnea",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "Drowsy",
+    "medication_identity": "Prednisone",
+    "interventions": [],
+    "intake_output": null,
+    "notification": "Pulmonologist notify"
+  }
+}

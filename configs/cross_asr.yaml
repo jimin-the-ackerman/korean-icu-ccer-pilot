@@ -1,0 +1,86 @@
+# Cross-ASR Robustness experiment - Version 1.0 (frozen 2026-11-03)
+# Protocol: docs/cross_asr_spec.md
+# This file never replaces configs/config.yaml; it only adds settings for the new experiment.
+
+version: "1.0"
+frozen_on: "2026-11-03"
+baseline_tag: v4-kosmi-baseline
+base_config: configs/config.yaml   # read-only; evaluator model is taken from here and checked
+
+styles: [formal_template, clinical_charting, telegraphic_icu]   # Hybrid excluded
+
+evaluator:
+  claude_model: claude-sonnet-5    # must equal base_config entity_extraction.claude_model
+
+paths:
+  # existing inputs (read-only)
+  audio_dir: data/audio
+  generated_text_dir: data/generated_text
+  scenarios_dir: data/scenarios
+  original_stt_dir: data/stt_transcripts
+  original_entities_dir: data/entities
+  original_results_dir: results/full_100_v4
+  # new outputs only
+  output_root: data/cross_asr          # data/cross_asr/<asr>/stt_transcripts, .../entities
+  results_root: results/cross_asr      # results/cross_asr/<asr>/, results/cross_asr/analysis/
+
+pilot:
+  n_scenarios: 10                      # x 3 styles = 30 samples, fixed by seed
+  seed: 20261103
+
+asr_systems:
+  whisper1:
+    provider: reuse_existing           # copies data/stt_transcripts (no new transcription call)
+    model: whisper-1
+    language: ko
+  gpt4o_transcribe:
+    provider: openai
+    model: gpt-4o-transcribe
+    language: ko                       # same as whisper-1; no prompt
+  clova_enko:
+    provider: clova
+    endpoint: /recognizer/upload       # local file upload API
+    params:                            # all other params left at API defaults
+      language: enko                   # Korean+English simultaneous recognition
+      completion: sync
+      diarization:                     # added 2026-11-04 (docs/cross_asr_spec.md Section 10):
+        enable: false                  # API default true was rejected: HTTP 400 "speaker detect is off"
+    # no boostings, no forbiddens, no useDomainBoostings
+    # 2026-11-04: excluded from the main analysis (docs/cross_asr_spec.md Section 11); kept for record
+
+  # ---- added 2026-11-04 (protocol revision 1.1, docs/cross_asr_spec.md Section 11) ----
+  # Settings below were fixed before any output of these conditions existed.
+  # Existing conditions above are unchanged, so `version` stays "1.0" and their outputs remain valid.
+  chirp3_ko:                           # Condition A (primary, all 300)
+    provider: google
+    model: chirp_3
+    location: us                       # Speech-to-Text V2 multi-region (GA for chirp_3)
+    language_codes: [ko-KR]
+    # synchronous Recognize, inline MP3, AutoDetectDecodingConfig; no adaptation, no denoiser
+  whisper1_auto:                       # Condition B (exploratory; pilot 30 extended to all 300 in revision 1.2)
+    provider: openai
+    model: whisper-1
+    language: null                     # `language` parameter omitted
+    # scope: pilot removed 2026-11-04 (revision 1.2, docs/cross_asr_spec.md 11.5)
+  gpt4o_transcribe_auto:               # Condition B (exploratory; pilot 30 extended to all 300 in revision 1.2)
+    provider: openai
+    model: gpt-4o-transcribe
+    language: null                     # `language` parameter omitted
+    # scope: pilot removed 2026-11-04 (revision 1.2, docs/cross_asr_spec.md 11.5)
+  chirp3_auto:                         # Condition B (exploratory; pilot 30 extended to all 300 in revision 1.2)
+    provider: google
+    model: chirp_3
+    location: us
+    language_codes: [auto]             # documented as inferring the most prevalent language
+    # scope: pilot removed 2026-11-04 (revision 1.2, docs/cross_asr_spec.md 11.5)
+
+analysis:
+  bootstrap_iterations: 2000
+  bootstrap_seed: 20261103
+  ci_level: 0.95
+
+case_review:
+  seed: 20261103
+  n_random_transcripts: 10
+  n_random_error_records: 5
+  n_notation_suspect_records: 5

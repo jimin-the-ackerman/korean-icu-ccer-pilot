@@ -1,0 +1,25 @@
+{
+  "sample_id": "scenario_061_telegraphic_icu",
+  "whisper_transcript": "52세남성급성치유P13885HR1R22BT37.8°C SPO2 96% room air Severe abdominal pain Insulin infusion 5 units hour IV IV fluid resuscitation shearing Positive fluid balance Alert",
+  "stt_metadata": {
+    "asr_system": "whisper1",
+    "provider": "reuse_existing",
+    "model": "whisper-1",
+    "language": "ko",
+    "audio_path": "data/audio/scenario_061_telegraphic_icu.mp3",
+    "audio_sha256": "96b74eb20b6df823b062ba861aefe505a409472d7cddb186dc95e1a69fb5b615",
+    "copied_at": "2026-11-04T04:31:12+00:00",
+    "request_seconds": 0.0,
+    "attempts": 1,
+    "git_commit": "b3490181b3fb3f88b56cde5be78a01cfdcef3007",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "source_file": "data/stt_transcripts/scenario_061_telegraphic_icu.json",
+    "source_sha256": "fd089b0d3b93e4c4666b48dcfa715325d3529ba42ccc54a03ef9fe89f433649c",
+    "source_stt_metadata": {
+      "model": "whisper-1",
+      "language": "ko"
+    }
+  }
+}

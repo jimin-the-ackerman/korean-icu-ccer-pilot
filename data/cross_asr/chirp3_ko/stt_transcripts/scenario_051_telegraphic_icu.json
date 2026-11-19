@@ -1,0 +1,43 @@
+{
+  "sample_id": "scenario_051_telegraphic_icu",
+  "whisper_transcript": "48세 남성 급성 췌장염으로 입원. BP 130/70, HR 98 BPM, R 22, T 37.8, SpO2 95%. 심한 복통, 경미한 발열, IV PRN O, NG 튜브, 음성 수액 균형, 알림, GI 팀에 알림.",
+  "stt_metadata": {
+    "asr_system": "chirp3_ko",
+    "provider": "google",
+    "model": "chirp_3",
+    "location": "us",
+    "language_codes": [
+      "ko-KR"
+    ],
+    "audio_path": "data/audio/scenario_051_telegraphic_icu.mp3",
+    "audio_sha256": "badc41f2124b0a732709d69524d49d21baa55b0195dfc60b77f13fccbf4b223b",
+    "transcribed_at": "2026-11-04T13:21:48+00:00",
+    "request_seconds": 2.63,
+    "attempts": 1,
+    "git_commit": "5b6d73fb63e1509a79e1a160176d606ed1b104c4",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "metadata": {
+      "total_billed_duration": "16s",
+      "request_id": "73de2461-0000-23ec-b118-ac3eb14847c0",
+      "prompt": "Transcribe the following speech segment in Korean. Follow these specific instructions for formatting the answer:\n* Only output the transcript, with no newlines.\n* When transcribing numbers, write the digits, i.e. write 1.7 and not one point seven, and write 100 instead of one hundred etc.\n* Only output the transcript, exactly as said in the speech segment.\n* Do not continue the speech segment.\n* Include everything said in the speech segment.\n* Use mathematical notation where needed, eg. x ^ 6Y.\n* If there is background speech that is not part of the main conversation, discard the background speech and only output the main conversation.\n* If there is no clear speech, just output [BACKGROUND].\n* Respond in the original language of the speech, Korean."
+    },
+    "results": [
+      {
+        "alternatives": [
+          {
+            "transcript": "48세 남성 급성 췌장염으로 입원. BP 130/70, HR 98 BPM, R 22, T 37.8, SpO2 95%. 심한 복통, 경미한 발열, IV PRN O, NG 튜브, 음성 수액 균형, 알림, GI 팀에 알림.",
+            "confidence": 0.0,
+            "words": []
+          }
+        ],
+        "language_code": "ko-KR",
+        "channel_tag": 0
+      }
+    ],
+    "detected_language_codes": [
+      "ko-KR"
+    ]
+  }
+}

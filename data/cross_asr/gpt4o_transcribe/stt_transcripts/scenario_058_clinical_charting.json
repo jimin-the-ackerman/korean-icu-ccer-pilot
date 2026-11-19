@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_058_clinical_charting",
+  "whisper_transcript": "육십팔세 남성 환자 acute exacerbation of chronic heart failure로 입원. Fluid overload 및 dyspnea 호소함. BP 150/90 mmHg, HR 핵심 비험, RR 외치스포 breaths/min, BT 37.26 cells, SpO2 22% room air. Dyspnea moderate level 확인됨. Furosemide 40 mg IV BID 적용함. Oxygen support 2L nasal cannula 적용함. Foley 유지함. Positive fluid balance 확인됨. Clinical status alert 유지함.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": "ko",
+    "audio_path": "data/audio/scenario_058_clinical_charting.mp3",
+    "audio_sha256": "b9b363877bcbaaa34c19732224c19627ca2c2ae2687c4ce71831178eefb6591e",
+    "transcribed_at": "2026-11-04T12:59:42+00:00",
+    "request_seconds": 2.7,
+    "attempts": 1,
+    "git_commit": "5b6d73fb63e1509a79e1a160176d606ed1b104c4",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "육십팔세 남성 환자 acute exacerbation of chronic heart failure로 입원. Fluid overload 및 dyspnea 호소함. BP 150/90 mmHg, HR 핵심 비험, RR 외치스포 breaths/min, BT 37.26 cells, SpO2 22% room air. Dyspnea moderate level 확인됨. Furosemide 40 mg IV BID 적용함. Oxygen support 2L nasal cannula 적용함. Foley 유지함. Positive fluid balance 확인됨. Clinical status alert 유지함.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 271,
+      "output_tokens": 116,
+      "total_tokens": 387,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 271,
+        "text_tokens": 0
+      }
+    }
+  }
+}

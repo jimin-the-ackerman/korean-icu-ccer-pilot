@@ -1,0 +1,43 @@
+{
+  "sample_id": "scenario_058_clinical_charting",
+  "whisper_transcript": "65세 남성 환자 acute exacerbation of chronic heart failure로 입원. fluid overload 및 dyspnea 호소함. BP 150/90 mmHg, HR 110 bpm, RR 24 breaths/min, BT 37.2°C, SpO2 92% room air. dyspnea moderate level 확인됨. furosemide 40 mg IV BID 적용함. oxygen support 2L nasal cannula 적용함. foley 유지함. positive fluid balance 확인됨. clinical status alert 유지함.",
+  "stt_metadata": {
+    "asr_system": "chirp3_auto",
+    "provider": "google",
+    "model": "chirp_3",
+    "location": "us",
+    "language_codes": [
+      "auto"
+    ],
+    "audio_path": "data/audio/scenario_058_clinical_charting.mp3",
+    "audio_sha256": "b9b363877bcbaaa34c19732224c19627ca2c2ae2687c4ce71831178eefb6591e",
+    "transcribed_at": "2026-11-04T14:31:24+00:00",
+    "request_seconds": 4.74,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "metadata": {
+      "total_billed_duration": "28s",
+      "request_id": "6e68f5e3-0000-26a3-b5eb-14223bc6e2be",
+      "prompt": "Transcribe the following speech segment. Follow these specific instructions for formatting the answer:\n* Only output the transcript, with no newlines.\n* When transcribing numbers, write the digits, i.e. write 1.7 and not one point seven, and write 100 instead of one hundred etc.\n* Only output the transcript, exactly as said in the speech segment.\n* Do not continue the speech segment.\n* Include everything said in the speech segment.\n* Use mathematical notation where needed, eg. x ^ 6Y.\n* If there is background speech that is not part of the main conversation, discard the background speech and only output the main conversation.\n* If there is no clear speech, just output [BACKGROUND].\n* Respond in the original language of the speech."
+    },
+    "results": [
+      {
+        "alternatives": [
+          {
+            "transcript": "65세 남성 환자 acute exacerbation of chronic heart failure로 입원. fluid overload 및 dyspnea 호소함. BP 150/90 mmHg, HR 110 bpm, RR 24 breaths/min, BT 37.2°C, SpO2 92% room air. dyspnea moderate level 확인됨. furosemide 40 mg IV BID 적용함. oxygen support 2L nasal cannula 적용함. foley 유지함. positive fluid balance 확인됨. clinical status alert 유지함.",
+            "confidence": 0.0,
+            "words": []
+          }
+        ],
+        "language_code": "ko",
+        "channel_tag": 0
+      }
+    ],
+    "detected_language_codes": [
+      "ko"
+    ]
+  }
+}

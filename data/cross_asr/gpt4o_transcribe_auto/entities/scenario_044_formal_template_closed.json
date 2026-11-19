@@ -1,0 +1,103 @@
+{
+  "sample_id": "scenario_044_formal_template",
+  "gold_entities": {
+    "route": [],
+    "frequency": [
+      {
+        "raw": "4시간마다",
+        "normalized": "q4h",
+        "position": 178
+      }
+    ],
+    "device": [
+      {
+        "raw": "Foley",
+        "normalized": "foley",
+        "position": 226
+      }
+    ],
+    "vital_sign": [
+      {
+        "raw": "혈압은 98/62",
+        "label": "bp",
+        "value": "98/62",
+        "position": 48
+      },
+      {
+        "raw": "심박수는 110",
+        "label": "hr",
+        "value": "110",
+        "position": 64
+      },
+      {
+        "raw": "호흡수는 28",
+        "label": "rr",
+        "value": "28",
+        "position": 78
+      },
+      {
+        "raw": "체온은 37.8",
+        "label": "bt",
+        "value": "37.8",
+        "position": 99
+      },
+      {
+        "raw": "산소포화도는 실내 공기에서 93%",
+        "label": "spo2",
+        "value": "93%",
+        "position": 111
+      }
+    ],
+    "dose": []
+  },
+  "whisper_entities": {
+    "route": [],
+    "frequency": [
+      {
+        "raw": "4시간마다",
+        "normalized": "q4h",
+        "position": 168
+      }
+    ],
+    "device": [
+      {
+        "raw": "폴리 카테터",
+        "normalized": "foley",
+        "position": 210
+      }
+    ],
+    "vital_sign": [
+      {
+        "raw": "혈압은 98/62",
+        "label": "bp",
+        "value": "98/62",
+        "position": 48
+      },
+      {
+        "raw": "심박수는 110",
+        "label": "hr",
+        "value": "110",
+        "position": 63
+      },
+      {
+        "raw": "호흡수는 28",
+        "label": "rr",
+        "value": "28",
+        "position": 76
+      },
+      {
+        "raw": "체온은 37.8",
+        "label": "bt",
+        "value": "37.8",
+        "position": 96
+      },
+      {
+        "raw": "산소포화도는 실내 공기에서 93%",
+        "label": "spo2",
+        "value": "93%",
+        "position": 107
+      }
+    ],
+    "dose": []
+  }
+}

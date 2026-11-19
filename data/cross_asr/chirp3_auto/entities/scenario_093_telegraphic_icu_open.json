@@ -1,0 +1,40 @@
+{
+  "sample_id": "scenario_093_telegraphic_icu",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "abdominal pain",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "Drowsy",
+    "medication_identity": "Norepinephrine",
+    "interventions": [
+      "Emergency surgical repair"
+    ],
+    "intake_output": "Urine output 20 mL/hr",
+    "notification": "Vascular surgery team notify"
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "abdominal pain",
+        "negation": false,
+        "severity": "severe"
+      },
+      {
+        "name": "drowsy",
+        "negation": false,
+        "severity": null
+      }
+    ],
+    "clinical_status": "drowsy",
+    "medication_identity": "norepinephrine",
+    "interventions": [
+      "emergency surgical repair"
+    ],
+    "intake_output": "urine output 20 mL/hour",
+    "notification": "vascular surgery team notify"
+  }
+}

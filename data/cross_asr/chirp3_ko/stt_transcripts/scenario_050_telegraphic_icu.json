@@ -1,0 +1,43 @@
+{
+  "sample_id": "scenario_050_telegraphic_icu",
+  "whisper_transcript": "67m acute heart failure hypertensive emergency BP 211 HR 104 28 breaths BT 36.7° SPO2 90% RA severe chest pain nitroglycerin 10 mg IV TID HFNC applied C line in place positive fluid balance drowsy cardiology team notify.",
+  "stt_metadata": {
+    "asr_system": "chirp3_ko",
+    "provider": "google",
+    "model": "chirp_3",
+    "location": "us",
+    "language_codes": [
+      "ko-KR"
+    ],
+    "audio_path": "data/audio/scenario_050_telegraphic_icu.mp3",
+    "audio_sha256": "befbd07d65e0a47695e7c38642caf6bdea1dab6878445065206344212a3c06d7",
+    "transcribed_at": "2026-11-04T13:21:32+00:00",
+    "request_seconds": 3.69,
+    "attempts": 1,
+    "git_commit": "5b6d73fb63e1509a79e1a160176d606ed1b104c4",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "metadata": {
+      "total_billed_duration": "20s",
+      "request_id": "756223a8-0000-2332-a289-582429c95ee4",
+      "prompt": "Transcribe the following speech segment in Korean. Follow these specific instructions for formatting the answer:\n* Only output the transcript, with no newlines.\n* When transcribing numbers, write the digits, i.e. write 1.7 and not one point seven, and write 100 instead of one hundred etc.\n* Only output the transcript, exactly as said in the speech segment.\n* Do not continue the speech segment.\n* Include everything said in the speech segment.\n* Use mathematical notation where needed, eg. x ^ 6Y.\n* If there is background speech that is not part of the main conversation, discard the background speech and only output the main conversation.\n* If there is no clear speech, just output [BACKGROUND].\n* Respond in the original language of the speech, Korean."
+    },
+    "results": [
+      {
+        "alternatives": [
+          {
+            "transcript": "67m acute heart failure hypertensive emergency BP 211 HR 104 28 breaths BT 36.7° SPO2 90% RA severe chest pain nitroglycerin 10 mg IV TID HFNC applied C line in place positive fluid balance drowsy cardiology team notify.",
+            "confidence": 0.0,
+            "words": []
+          }
+        ],
+        "language_code": "ko-KR",
+        "channel_tag": 0
+      }
+    ],
+    "detected_language_codes": [
+      "ko-KR"
+    ]
+  }
+}

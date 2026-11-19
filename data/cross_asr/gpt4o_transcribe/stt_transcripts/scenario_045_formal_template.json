@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_045_formal_template",
+  "whisper_transcript": "62세 여성 환자가 에디슨스 디지즈로 인한 급성 부신 위기로 입원하였다. 활력징후는 혈압 88/54mmHg, 심박수 112bpm, 호흡수 24breaths/min, 체온 37.0℃이며 산소포화도는 상온 공기에서 92%로 확인되었다. 환자는 심한 복통을 호소하였다. 하이드로코르티손 100mg IV stat로 투여되었다. 산소는 비강 캐놀라를 통해 2L/min으로 공급 중이다. 정상 식염수로 체액 보충이 시행되었다. 폴리 카테터가 삽입되어 있으며 소변 배출량은 시간당 30ml로 기록되었다. 환자는 약간 졸리는 상태이다. 부신 기능 부전 관리에 대해 내분비과에 상담하였다.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": "ko",
+    "audio_path": "data/audio/scenario_045_formal_template.mp3",
+    "audio_sha256": "85fb9c74e1e0ea60707139741ee31f0178244d7bfba8dcd640763e12903996d4",
+    "transcribed_at": "2026-11-04T12:58:19+00:00",
+    "request_seconds": 3.59,
+    "attempts": 1,
+    "git_commit": "5b6d73fb63e1509a79e1a160176d606ed1b104c4",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "62세 여성 환자가 에디슨스 디지즈로 인한 급성 부신 위기로 입원하였다. 활력징후는 혈압 88/54mmHg, 심박수 112bpm, 호흡수 24breaths/min, 체온 37.0℃이며 산소포화도는 상온 공기에서 92%로 확인되었다. 환자는 심한 복통을 호소하였다. 하이드로코르티손 100mg IV stat로 투여되었다. 산소는 비강 캐놀라를 통해 2L/min으로 공급 중이다. 정상 식염수로 체액 보충이 시행되었다. 폴리 카테터가 삽입되어 있으며 소변 배출량은 시간당 30ml로 기록되었다. 환자는 약간 졸리는 상태이다. 부신 기능 부전 관리에 대해 내분비과에 상담하였다.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 430,
+      "output_tokens": 201,
+      "total_tokens": 631,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 430,
+        "text_tokens": 0
+      }
+    }
+  }
+}

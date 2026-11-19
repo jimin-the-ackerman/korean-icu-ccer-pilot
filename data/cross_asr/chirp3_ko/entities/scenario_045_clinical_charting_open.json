@@ -1,0 +1,36 @@
+{
+  "sample_id": "scenario_045_clinical_charting",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "abdominal pain",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "drowsy",
+    "medication_identity": "Hydrocortisone",
+    "interventions": [
+      "Fluid resuscitation with normal saline",
+      "Endocrinology consult"
+    ],
+    "intake_output": "urine output 30 mL/hr",
+    "notification": "Endocrinology consult함 for management of adrenal insufficiency"
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "abdominal pain",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "drowsy",
+    "medication_identity": "hydrocortisone",
+    "interventions": [
+      "fluid resuscitation"
+    ],
+    "intake_output": "urine output 30 ml/hr",
+    "notification": "엔도크리놀로지 컨설트 for 매니지먼트 오브 아드레날 인서피션시"
+  }
+}

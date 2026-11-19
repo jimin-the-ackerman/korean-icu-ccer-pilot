@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_017_telegraphic_icu",
+  "whisper_transcript": "56M seoc, severe hypoglycemia to E1, BP 100/60, HR 60 bpm, RR 20, BT 36.2, SpO2 95% (vent), confusion moderate, dextrose 50 per 20g IV stat, IV dextrose administration, pauses due to IV fluids, drowsy. Endocrinologist notify.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe_auto",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": null,
+    "audio_path": "data/audio/scenario_017_telegraphic_icu.mp3",
+    "audio_sha256": "8046d4f2555322933e0ae813b8a1cf1e1521bd2dc9d60cdb2b545b66b61bedb5",
+    "transcribed_at": "2026-11-04T14:05:31+00:00",
+    "request_seconds": 1.78,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "56M seoc, severe hypoglycemia to E1, BP 100/60, HR 60 bpm, RR 20, BT 36.2, SpO2 95% (vent), confusion moderate, dextrose 50 per 20g IV stat, IV dextrose administration, pauses due to IV fluids, drowsy. Endocrinologist notify.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 193,
+      "output_tokens": 82,
+      "total_tokens": 275,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 193,
+        "text_tokens": 0
+      }
+    }
+  }
+}

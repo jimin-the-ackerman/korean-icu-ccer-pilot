@@ -1,0 +1,43 @@
+{
+  "sample_id": "scenario_028_clinical_charting",
+  "whisper_transcript": "의식 사정 남자 환자, acute hemorrhagic stroke로 입원함. BP 122/100 mmHg, HR 78 bpm, RR 18 breaths/min, BT 36.8°C, SpO2 95% on room air. severe headache 호소함. labetalol 20 mg IV stat, CT scan of the head 시행함. C-line 적용함. 24시간 동안 500 mL positive fluid balance 확인됨. 혼잣말 하는 상태임. neurology team notify.",
+  "stt_metadata": {
+    "asr_system": "chirp3_auto",
+    "provider": "google",
+    "model": "chirp_3",
+    "location": "us",
+    "language_codes": [
+      "auto"
+    ],
+    "audio_path": "data/audio/scenario_028_clinical_charting.mp3",
+    "audio_sha256": "f9b11792d76b117a3ccad1c2425fe342b717087861243980c25519f227539b3b",
+    "transcribed_at": "2026-11-04T14:23:54+00:00",
+    "request_seconds": 5.12,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "metadata": {
+      "total_billed_duration": "27s",
+      "request_id": "6b0a1da8-0000-2064-ae37-2405887ac040",
+      "prompt": "Transcribe the following speech segment. Follow these specific instructions for formatting the answer:\n* Only output the transcript, with no newlines.\n* When transcribing numbers, write the digits, i.e. write 1.7 and not one point seven, and write 100 instead of one hundred etc.\n* Only output the transcript, exactly as said in the speech segment.\n* Do not continue the speech segment.\n* Include everything said in the speech segment.\n* Use mathematical notation where needed, eg. x ^ 6Y.\n* If there is background speech that is not part of the main conversation, discard the background speech and only output the main conversation.\n* If there is no clear speech, just output [BACKGROUND].\n* Respond in the original language of the speech."
+    },
+    "results": [
+      {
+        "alternatives": [
+          {
+            "transcript": "의식 사정 남자 환자, acute hemorrhagic stroke로 입원함. BP 122/100 mmHg, HR 78 bpm, RR 18 breaths/min, BT 36.8°C, SpO2 95% on room air. severe headache 호소함. labetalol 20 mg IV stat, CT scan of the head 시행함. C-line 적용함. 24시간 동안 500 mL positive fluid balance 확인됨. 혼잣말 하는 상태임. neurology team notify.",
+            "confidence": 0.0,
+            "words": []
+          }
+        ],
+        "language_code": "ko",
+        "channel_tag": 0
+      }
+    ],
+    "detected_language_codes": [
+      "ko"
+    ]
+  }
+}

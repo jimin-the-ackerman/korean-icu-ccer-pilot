@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_049_telegraphic_icu",
+  "whisper_transcript": "54세 여성. Septic arthritis right knee BP 165 HR 110 RR 24 BT 38.5 SpO2 86% RA Severe knee pain. Vancomycin 1 Q12H Right knee joint aspiration 시행함 Positive fluid balance by 5ml. Alert. Orthopedic consult 요청함.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe_auto",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": null,
+    "audio_path": "data/audio/scenario_049_telegraphic_icu.mp3",
+    "audio_sha256": "416724d1e895e7846471bf8a540d88fc44fceb0d59cee4c57f4f3705933a216b",
+    "transcribed_at": "2026-11-04T14:09:42+00:00",
+    "request_seconds": 1.22,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "54세 여성. Septic arthritis right knee BP 165 HR 110 RR 24 BT 38.5 SpO2 86% RA Severe knee pain. Vancomycin 1 Q12H Right knee joint aspiration 시행함 Positive fluid balance by 5ml. Alert. Orthopedic consult 요청함.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 184,
+      "output_tokens": 67,
+      "total_tokens": 251,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 184,
+        "text_tokens": 0
+      }
+    }
+  }
+}

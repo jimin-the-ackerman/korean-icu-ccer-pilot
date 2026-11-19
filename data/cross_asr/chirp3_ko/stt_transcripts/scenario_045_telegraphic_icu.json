@@ -1,0 +1,43 @@
+{
+  "sample_id": "scenario_045_telegraphic_icu",
+  "whisper_transcript": "62세 여성 애디슨스 디지즈로 인한 급성 부신 위기. BP 80/50, RR 24 breaths/min, Bilateral rales, SpO2 92% RA. Severe abdominal pain. Hydrocortisone 100mg IV stat. Nasal cannula 2L/min. Fluid resuscitation with NS. Foley present. Urine output 30ml/hr. Drowsy. Endocrinology consult.",
+  "stt_metadata": {
+    "asr_system": "chirp3_ko",
+    "provider": "google",
+    "model": "chirp_3",
+    "location": "us",
+    "language_codes": [
+      "ko-KR"
+    ],
+    "audio_path": "data/audio/scenario_045_telegraphic_icu.mp3",
+    "audio_sha256": "1131ad8ecf3b06648fd717a109f257f8e736feda6092726153b347a10c10510b",
+    "transcribed_at": "2026-11-04T13:20:20+00:00",
+    "request_seconds": 3.47,
+    "attempts": 1,
+    "git_commit": "5b6d73fb63e1509a79e1a160176d606ed1b104c4",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "metadata": {
+      "total_billed_duration": "24s",
+      "request_id": "73ad2e16-0000-2a32-88a1-582429a622b0",
+      "prompt": "Transcribe the following speech segment in Korean. Follow these specific instructions for formatting the answer:\n* Only output the transcript, with no newlines.\n* When transcribing numbers, write the digits, i.e. write 1.7 and not one point seven, and write 100 instead of one hundred etc.\n* Only output the transcript, exactly as said in the speech segment.\n* Do not continue the speech segment.\n* Include everything said in the speech segment.\n* Use mathematical notation where needed, eg. x ^ 6Y.\n* If there is background speech that is not part of the main conversation, discard the background speech and only output the main conversation.\n* If there is no clear speech, just output [BACKGROUND].\n* Respond in the original language of the speech, Korean."
+    },
+    "results": [
+      {
+        "alternatives": [
+          {
+            "transcript": "62세 여성 애디슨스 디지즈로 인한 급성 부신 위기. BP 80/50, RR 24 breaths/min, Bilateral rales, SpO2 92% RA. Severe abdominal pain. Hydrocortisone 100mg IV stat. Nasal cannula 2L/min. Fluid resuscitation with NS. Foley present. Urine output 30ml/hr. Drowsy. Endocrinology consult.",
+            "confidence": 0.0,
+            "words": []
+          }
+        ],
+        "language_code": "ko-KR",
+        "channel_tag": 0
+      }
+    ],
+    "detected_language_codes": [
+      "ko-KR"
+    ]
+  }
+}

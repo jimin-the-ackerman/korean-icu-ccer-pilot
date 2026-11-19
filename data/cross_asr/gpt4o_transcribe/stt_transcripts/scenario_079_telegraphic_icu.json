@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_079_telegraphic_icu",
+  "whisper_transcript": "64세 남성, 급성 괴양성 대장염 악화로 입원. Severe abdominal pain, bloody diarrhea, BP 95/60mmHg, HR 110bpm, RR 22, BT 37.8℃, SpO2 93%, methylprednisolone 40mg IV q6h, foley, I/O strict, alert.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": "ko",
+    "audio_path": "data/audio/scenario_079_telegraphic_icu.mp3",
+    "audio_sha256": "fe507a498507dc653194a9fdefb69581bd445ec44dfbd07dc9abe45f4ab44be0",
+    "transcribed_at": "2026-11-04T13:03:11+00:00",
+    "request_seconds": 1.25,
+    "attempts": 1,
+    "git_commit": "5b6d73fb63e1509a79e1a160176d606ed1b104c4",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "64세 남성, 급성 괴양성 대장염 악화로 입원. Severe abdominal pain, bloody diarrhea, BP 95/60mmHg, HR 110bpm, RR 22, BT 37.8℃, SpO2 93%, methylprednisolone 40mg IV q6h, foley, I/O strict, alert.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 162,
+      "output_tokens": 81,
+      "total_tokens": 243,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 162,
+        "text_tokens": 0
+      }
+    }
+  }
+}

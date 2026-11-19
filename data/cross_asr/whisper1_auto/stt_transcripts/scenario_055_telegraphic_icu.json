@@ -1,0 +1,25 @@
+{
+  "sample_id": "scenario_055_telegraphic_icu",
+  "whisper_transcript": "53-year-old female admitted to the hospital with acute hemolytic anemia. BP-Type Rebellion, RRBR, BT-Certibate 1, SpO2-90Y-Propescent-Ontua nasal cannula. Severe fatigue. Furosemide 40mg IV-Q2H. Nasal cannula in use. Compatible blood transfusion initiated. Input 10mm, output on D-100m. Drowsy condition. Hematology team notified.",
+  "stt_metadata": {
+    "asr_system": "whisper1_auto",
+    "provider": "openai",
+    "model": "whisper-1",
+    "language": null,
+    "audio_path": "data/audio/scenario_055_telegraphic_icu.mp3",
+    "audio_sha256": "6a2a500fc552915496b0b7b401300e2a0643cf608944b410072c33ef7e364946",
+    "transcribed_at": "2026-11-04T13:56:35+00:00",
+    "request_seconds": 1.66,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "53-year-old female admitted to the hospital with acute hemolytic anemia. BP-Type Rebellion, RRBR, BT-Certibate 1, SpO2-90Y-Propescent-Ontua nasal cannula. Severe fatigue. Furosemide 40mg IV-Q2H. Nasal cannula in use. Compatible blood transfusion initiated. Input 10mm, output on D-100m. Drowsy condition. Hematology team notified.",
+    "logprobs": null,
+    "usage": {
+      "seconds": 23.0,
+      "type": "duration"
+    }
+  }
+}

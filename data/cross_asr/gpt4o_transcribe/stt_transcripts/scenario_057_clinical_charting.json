@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_057_clinical_charting",
+  "whisper_transcript": "58세 여성 환자 acute exacerbation of rheumatoid arthritis로 입원함. severe joint pain 호소함. BP 130/80, HR 100, BT 37.6℃, SpO2 96%임. Methylprednisolone 125mg IV q 3hr 적용함. Patient alert 상태 유지함.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": "ko",
+    "audio_path": "data/audio/scenario_057_clinical_charting.mp3",
+    "audio_sha256": "83752f0f49def58fb550133cd9f015475d3dbef9d6a452cda4b3be807a0e458e",
+    "transcribed_at": "2026-11-04T12:59:36+00:00",
+    "request_seconds": 1.38,
+    "attempts": 1,
+    "git_commit": "5b6d73fb63e1509a79e1a160176d606ed1b104c4",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "58세 여성 환자 acute exacerbation of rheumatoid arthritis로 입원함. severe joint pain 호소함. BP 130/80, HR 100, BT 37.6℃, SpO2 96%임. Methylprednisolone 125mg IV q 3hr 적용함. Patient alert 상태 유지함.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 176,
+      "output_tokens": 72,
+      "total_tokens": 248,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 176,
+        "text_tokens": 0
+      }
+    }
+  }
+}

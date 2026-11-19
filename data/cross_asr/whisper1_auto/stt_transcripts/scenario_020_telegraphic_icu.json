@@ -1,0 +1,25 @@
+{
+  "sample_id": "scenario_020_telegraphic_icu",
+  "whisper_transcript": "61-day Namsung. Kupseong, Jeollabuk-do, Arsan, Gichim, Burak, Giseong, Denet, 85, RR22, BT37, 8, SBO2, 94%. Severe abdominal pain. Morphine, 4 milligram, IVQ4H. O2 via NC at 2 lamin, NG tube in place. IO, new 500 milliliters per 24, drowsy. Docker notify gastro consult.",
+  "stt_metadata": {
+    "asr_system": "whisper1_auto",
+    "provider": "openai",
+    "model": "whisper-1",
+    "language": null,
+    "audio_path": "data/audio/scenario_020_telegraphic_icu.mp3",
+    "audio_sha256": "4307c8fdd28d0dce946090ba9d6a46bfd29b1b5d0a06bc442426c27f8ba9bdb7",
+    "transcribed_at": "2026-11-04T13:51:26+00:00",
+    "request_seconds": 2.68,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "61-day Namsung. Kupseong, Jeollabuk-do, Arsan, Gichim, Burak, Giseong, Denet, 85, RR22, BT37, 8, SBO2, 94%. Severe abdominal pain. Morphine, 4 milligram, IVQ4H. O2 via NC at 2 lamin, NG tube in place. IO, new 500 milliliters per 24, drowsy. Docker notify gastro consult.",
+    "logprobs": null,
+    "usage": {
+      "seconds": 19.0,
+      "type": "duration"
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_014_clinical_charting",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "dyspnea",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "drowsy",
+    "medication_identity": "Methylprednisolone",
+    "interventions": [],
+    "intake_output": "positive fluid balance",
+    "notification": null
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "호흡곤란",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "졸음",
+    "medication_identity": "메틸도파",
+    "interventions": [],
+    "intake_output": "양성 수액 균형 확인됨",
+    "notification": null
+  }
+}

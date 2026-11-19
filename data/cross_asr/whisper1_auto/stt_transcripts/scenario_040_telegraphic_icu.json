@@ -1,0 +1,25 @@
+{
+  "sample_id": "scenario_040_telegraphic_icu",
+  "whisper_transcript": "SASHI BISAYASAN, SJSRO IBUAN, BP ETISHITA, HR GUISHIWU, RRBT SENPENO, SBO2 GUISHISAPROFESSIN, SEVERE SKIN LESIONS, MORPHINE, FORMULA IV, Q4H, NASAL CANNULUM, AND FOLEY.",
+  "stt_metadata": {
+    "asr_system": "whisper1_auto",
+    "provider": "openai",
+    "model": "whisper-1",
+    "language": null,
+    "audio_path": "data/audio/scenario_040_telegraphic_icu.mp3",
+    "audio_sha256": "f66246e575c861a9851f3d8cd66728b84fd1d583c05f4d8e5dacb8bdda88ed37",
+    "transcribed_at": "2026-11-04T13:53:46+00:00",
+    "request_seconds": 1.69,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "SASHI BISAYASAN, SJSRO IBUAN, BP ETISHITA, HR GUISHIWU, RRBT SENPENO, SBO2 GUISHISAPROFESSIN, SEVERE SKIN LESIONS, MORPHINE, FORMULA IV, Q4H, NASAL CANNULUM, AND FOLEY.",
+    "logprobs": null,
+    "usage": {
+      "seconds": 13.0,
+      "type": "duration"
+    }
+  }
+}

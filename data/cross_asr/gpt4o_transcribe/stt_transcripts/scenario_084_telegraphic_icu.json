@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_084_telegraphic_icu",
+  "whisper_transcript": "포티균세 남성 시만 천십팔짝 이원, BP 135 HR 110 RR 128 BT 37.0, SPO2 88%, severe wheezing, 알부테롤 2.5mg IV PRN, 하이 플로우 네이절 캐뉼라 사용중, 드라우지 상태. Respiratory Therapy Notify.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": "ko",
+    "audio_path": "data/audio/scenario_084_telegraphic_icu.mp3",
+    "audio_sha256": "937769fc4739880b33de48bbb03dcc2d2c168c11a20ccad5026e8fabc156bd07",
+    "transcribed_at": "2026-11-04T13:03:42+00:00",
+    "request_seconds": 1.47,
+    "attempts": 1,
+    "git_commit": "5b6d73fb63e1509a79e1a160176d606ed1b104c4",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "포티균세 남성 시만 천십팔짝 이원, BP 135 HR 110 RR 128 BT 37.0, SPO2 88%, severe wheezing, 알부테롤 2.5mg IV PRN, 하이 플로우 네이절 캐뉼라 사용중, 드라우지 상태. Respiratory Therapy Notify.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 157,
+      "output_tokens": 80,
+      "total_tokens": 237,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 157,
+        "text_tokens": 0
+      }
+    }
+  }
+}

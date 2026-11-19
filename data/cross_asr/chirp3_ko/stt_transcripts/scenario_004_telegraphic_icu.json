@@ -1,0 +1,43 @@
+{
+  "sample_id": "scenario_004_telegraphic_icu",
+  "whisper_transcript": "40세 남성 급성 췌장염 BP 90/60 mmHg RR 28 breath per min BT 38.6°C SpO2 95% room air abdominal pain severe morphine 4mg IV Q4H fluid resuscitation 진행 Foley 유지 urine output 200 ml/4 hours drowsy 상태 doctor notify",
+  "stt_metadata": {
+    "asr_system": "chirp3_ko",
+    "provider": "google",
+    "model": "chirp_3",
+    "location": "us",
+    "language_codes": [
+      "ko-KR"
+    ],
+    "audio_path": "data/audio/scenario_004_telegraphic_icu.mp3",
+    "audio_sha256": "076ac1d0450cd07b0ace52a09c2958e5b7c6187e856d08445f6fc82c5694e938",
+    "transcribed_at": "2026-11-04T13:10:50+00:00",
+    "request_seconds": 4.02,
+    "attempts": 1,
+    "git_commit": "5b6d73fb63e1509a79e1a160176d606ed1b104c4",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "metadata": {
+      "total_billed_duration": "19s",
+      "request_id": "73901698-0000-245d-9337-ac3eb1486d20",
+      "prompt": "Transcribe the following speech segment in Korean. Follow these specific instructions for formatting the answer:\n* Only output the transcript, with no newlines.\n* When transcribing numbers, write the digits, i.e. write 1.7 and not one point seven, and write 100 instead of one hundred etc.\n* Only output the transcript, exactly as said in the speech segment.\n* Do not continue the speech segment.\n* Include everything said in the speech segment.\n* Use mathematical notation where needed, eg. x ^ 6Y.\n* If there is background speech that is not part of the main conversation, discard the background speech and only output the main conversation.\n* If there is no clear speech, just output [BACKGROUND].\n* Respond in the original language of the speech, Korean."
+    },
+    "results": [
+      {
+        "alternatives": [
+          {
+            "transcript": "40세 남성 급성 췌장염 BP 90/60 mmHg RR 28 breath per min BT 38.6°C SpO2 95% room air abdominal pain severe morphine 4mg IV Q4H fluid resuscitation 진행 Foley 유지 urine output 200 ml/4 hours drowsy 상태 doctor notify",
+            "confidence": 0.0,
+            "words": []
+          }
+        ],
+        "language_code": "ko-KR",
+        "channel_tag": 0
+      }
+    ],
+    "detected_language_codes": [
+      "ko-KR"
+    ]
+  }
+}

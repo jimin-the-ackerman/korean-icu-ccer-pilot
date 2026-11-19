@@ -1,0 +1,43 @@
+{
+  "sample_id": "scenario_013_formal_template",
+  "whisper_transcript": "34세 여성 환자가 급성 세균성 뇌수막염으로 입원하였다. 혈압은 110/70mm로 하향으로 측정되었으며, 심박수는 102 BPM, 호흡수는 24 breath/min으로 확인되었다. 체온은 39.0°C로 확인되었고, 산소포화도는 실내 공기에서 95%로 확인되었다. 환자는 심한 두통을 호소하였다. 세프트리악손 2g을 IV로 Q12H 투여 중이다. 환자는 C-line을 삽입한 상태이며, 임상적으로 약간 졸린 상태이다.",
+  "stt_metadata": {
+    "asr_system": "chirp3_auto",
+    "provider": "google",
+    "model": "chirp_3",
+    "location": "us",
+    "language_codes": [
+      "auto"
+    ],
+    "audio_path": "data/audio/scenario_013_formal_template.mp3",
+    "audio_sha256": "152a8202206fa8eeb07ef372bcb0d5e6a1f1ff3353d6317cdd4076bc6340c617",
+    "transcribed_at": "2026-11-04T14:20:11+00:00",
+    "request_seconds": 5.26,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "metadata": {
+      "total_billed_duration": "31s",
+      "request_id": "73b6818a-0000-2d6e-ba97-14223bc550aa",
+      "prompt": "Transcribe the following speech segment. Follow these specific instructions for formatting the answer:\n* Only output the transcript, with no newlines.\n* When transcribing numbers, write the digits, i.e. write 1.7 and not one point seven, and write 100 instead of one hundred etc.\n* Only output the transcript, exactly as said in the speech segment.\n* Do not continue the speech segment.\n* Include everything said in the speech segment.\n* Use mathematical notation where needed, eg. x ^ 6Y.\n* If there is background speech that is not part of the main conversation, discard the background speech and only output the main conversation.\n* If there is no clear speech, just output [BACKGROUND].\n* Respond in the original language of the speech."
+    },
+    "results": [
+      {
+        "alternatives": [
+          {
+            "transcript": "34세 여성 환자가 급성 세균성 뇌수막염으로 입원하였다. 혈압은 110/70mm로 하향으로 측정되었으며, 심박수는 102 BPM, 호흡수는 24 breath/min으로 확인되었다. 체온은 39.0°C로 확인되었고, 산소포화도는 실내 공기에서 95%로 확인되었다. 환자는 심한 두통을 호소하였다. 세프트리악손 2g을 IV로 Q12H 투여 중이다. 환자는 C-line을 삽입한 상태이며, 임상적으로 약간 졸린 상태이다.",
+            "confidence": 0.0,
+            "words": []
+          }
+        ],
+        "language_code": "ko",
+        "channel_tag": 0
+      }
+    ],
+    "detected_language_codes": [
+      "ko"
+    ]
+  }
+}

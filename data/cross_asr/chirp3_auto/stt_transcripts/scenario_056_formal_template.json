@@ -1,0 +1,43 @@
+{
+  "sample_id": "scenario_056_formal_template",
+  "whisper_transcript": "47세 여성 환자가 급성 중증 천식 악화로 입원하였다. 활력 증후는 혈압이 135/85 mmHg, 심박수가 110 BPM, 호흡수가 32 breaths/min, 체온이 37.5°C로 확인되었다. 산소 포화도는 실내 공기에서 88%로 나타났다. 환자는 심한 위징을 호소하였다. 아비터럴 2.5 mg을 IV로 4시간마다 투여하고 있다. 현재 하이플로 네이설 캐눌라로 산소 치료를 받고 있으며 NG 튜브가 삽입되어 있다. 수분 균형 상태는 500 ml 음성이다. 환자는 졸린 상태를 보이고 있다. 급한 평가가 필요하여 pulmonology 팀에 보고하였다.",
+  "stt_metadata": {
+    "asr_system": "chirp3_auto",
+    "provider": "google",
+    "model": "chirp_3",
+    "location": "us",
+    "language_codes": [
+      "auto"
+    ],
+    "audio_path": "data/audio/scenario_056_formal_template.mp3",
+    "audio_sha256": "a08aa2bde556240d5ec77d8ad3e2626e249cd15f25d73ccb7acdd3b57e6803fe",
+    "transcribed_at": "2026-11-04T14:31:06+00:00",
+    "request_seconds": 6.5,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "metadata": {
+      "total_billed_duration": "40s",
+      "request_id": "6bd829fc-0000-2c48-bd7b-582429a65e2c",
+      "prompt": "Transcribe the following speech segment. Follow these specific instructions for formatting the answer:\n* Only output the transcript, with no newlines.\n* When transcribing numbers, write the digits, i.e. write 1.7 and not one point seven, and write 100 instead of one hundred etc.\n* Only output the transcript, exactly as said in the speech segment.\n* Do not continue the speech segment.\n* Include everything said in the speech segment.\n* Use mathematical notation where needed, eg. x ^ 6Y.\n* If there is background speech that is not part of the main conversation, discard the background speech and only output the main conversation.\n* If there is no clear speech, just output [BACKGROUND].\n* Respond in the original language of the speech."
+    },
+    "results": [
+      {
+        "alternatives": [
+          {
+            "transcript": "47세 여성 환자가 급성 중증 천식 악화로 입원하였다. 활력 증후는 혈압이 135/85 mmHg, 심박수가 110 BPM, 호흡수가 32 breaths/min, 체온이 37.5°C로 확인되었다. 산소 포화도는 실내 공기에서 88%로 나타났다. 환자는 심한 위징을 호소하였다. 아비터럴 2.5 mg을 IV로 4시간마다 투여하고 있다. 현재 하이플로 네이설 캐눌라로 산소 치료를 받고 있으며 NG 튜브가 삽입되어 있다. 수분 균형 상태는 500 ml 음성이다. 환자는 졸린 상태를 보이고 있다. 급한 평가가 필요하여 pulmonology 팀에 보고하였다.",
+            "confidence": 0.0,
+            "words": []
+          }
+        ],
+        "language_code": "ko",
+        "channel_tag": 0
+      }
+    ],
+    "detected_language_codes": [
+      "ko"
+    ]
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_018_formal_template",
+  "whisper_transcript": "66세 남성 환자가 급성 위장관 천공으로 입원하였다. 활력징후로는 혈압이 160mmHg, 심박수는 110ppm, 호흡수는 20breaths/min, 체온은 38.5℃, 산소포화도는 94%로 확인되었다. 환자는 심한 복통을 호소하였다. 파이페라실린 타조박탐 4.5g이 IV로 6시간마다 투여 중이다. 산소 보조로는 네이즐 캐눌라가 사용되고 있다. 응급 개복술이 계획되었으며 수액 균형은 음성이었다. 환자는 의식이 명료하다. 긴급한 중재를 위해 외과팀에게 보고하였다.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": "ko",
+    "audio_path": "data/audio/scenario_018_formal_template.mp3",
+    "audio_sha256": "d4ab98f58baacb9c00bafa2ba488ccbb6dfd32b732fed9bb5d1001548ca17847",
+    "transcribed_at": "2026-11-04T12:55:31+00:00",
+    "request_seconds": 3.02,
+    "attempts": 1,
+    "git_commit": "5b6d73fb63e1509a79e1a160176d606ed1b104c4",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "66세 남성 환자가 급성 위장관 천공으로 입원하였다. 활력징후로는 혈압이 160mmHg, 심박수는 110ppm, 호흡수는 20breaths/min, 체온은 38.5℃, 산소포화도는 94%로 확인되었다. 환자는 심한 복통을 호소하였다. 파이페라실린 타조박탐 4.5g이 IV로 6시간마다 투여 중이다. 산소 보조로는 네이즐 캐눌라가 사용되고 있다. 응급 개복술이 계획되었으며 수액 균형은 음성이었다. 환자는 의식이 명료하다. 긴급한 중재를 위해 외과팀에게 보고하였다.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 356,
+      "output_tokens": 175,
+      "total_tokens": 531,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 356,
+        "text_tokens": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_080_telegraphic_icu",
+  "whisper_transcript": "50세 남성, I코어성 간경화로 인한 만성 간부전 합성 악화 입원. BP 95/60, HR 150 BPM, RR 22 breaths/min, BT 37.8, SpO2 88% on room air. 심한 황달, 푸로세미드 40 mg IV BID, 2L nasal cannula, Foley, 음성 수분 균형, 졸림, 간병학 자문 요청.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe_auto",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": null,
+    "audio_path": "data/audio/scenario_080_telegraphic_icu.mp3",
+    "audio_sha256": "d32fb27d3315cba782b2d3fd428a678ef3e932bed3e2d8c7a2eae048a2361d1a",
+    "transcribed_at": "2026-11-04T14:13:09+00:00",
+    "request_seconds": 1.66,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "50세 남성, I코어성 간경화로 인한 만성 간부전 합성 악화 입원. BP 95/60, HR 150 BPM, RR 22 breaths/min, BT 37.8, SpO2 88% on room air. 심한 황달, 푸로세미드 40 mg IV BID, 2L nasal cannula, Foley, 음성 수분 균형, 졸림, 간병학 자문 요청.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 208,
+      "output_tokens": 107,
+      "total_tokens": 315,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 208,
+        "text_tokens": 0
+      }
+    }
+  }
+}

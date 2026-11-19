@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_092_clinical_charting",
+  "whisper_transcript": "우측 사제 남환, acute pancreatitis로 입원. 원인 hyperparathyroidism. BP 130/80mmHg, HR 100bpm, RR 22bpm, BT 37.8, SpO2 92% room air. Severe abdominal pain 호소함. Pantoprazole 40mg IV 적용함. NG tube 유지함. 의식 상태 alert 확인됨. Endocrinology consult 위해 담당의 notify함.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": "ko",
+    "audio_path": "data/audio/scenario_092_clinical_charting.mp3",
+    "audio_sha256": "81a6b10dd84ff66fa060f40b72487a9e487a2d7f6cde243db32f48761b6cb0a5",
+    "transcribed_at": "2026-11-04T13:04:32+00:00",
+    "request_seconds": 1.86,
+    "attempts": 1,
+    "git_commit": "5b6d73fb63e1509a79e1a160176d606ed1b104c4",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "우측 사제 남환, acute pancreatitis로 입원. 원인 hyperparathyroidism. BP 130/80mmHg, HR 100bpm, RR 22bpm, BT 37.8, SpO2 92% room air. Severe abdominal pain 호소함. Pantoprazole 40mg IV 적용함. NG tube 유지함. 의식 상태 alert 확인됨. Endocrinology consult 위해 담당의 notify함.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 220,
+      "output_tokens": 100,
+      "total_tokens": 320,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 220,
+        "text_tokens": 0
+      }
+    }
+  }
+}

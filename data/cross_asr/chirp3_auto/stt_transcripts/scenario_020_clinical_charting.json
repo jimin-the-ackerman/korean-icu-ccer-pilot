@@ -1,0 +1,43 @@
+{
+  "sample_id": "scenario_020_clinical_charting",
+  "whisper_transcript": "61세 남성 severe acute pancreatitis로 입원. 다장기 침범 있음. 안정적이나 합병증 감시 중. BP 170, HR 95, RR 20, BT 37.8, SpO2 94%. severe abdominal pain 호소함. morphine 3mg IV Q4H 적용함. nasal cannula 2L/min 유지함. NG tube 유지함. negative fluid balance 500ml/hr 확인됨. drowsy 상태 확인됨. 담당의 notify함. gastroenterology consult 요청함.",
+  "stt_metadata": {
+    "asr_system": "chirp3_auto",
+    "provider": "google",
+    "model": "chirp_3",
+    "location": "us",
+    "language_codes": [
+      "auto"
+    ],
+    "audio_path": "data/audio/scenario_020_clinical_charting.mp3",
+    "audio_sha256": "6cb584711c8c645ce50dcc5b893e368948bf28b4cbadc3b3540177b6faf9e926",
+    "transcribed_at": "2026-11-04T14:21:53+00:00",
+    "request_seconds": 4.79,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "metadata": {
+      "total_billed_duration": "29s",
+      "request_id": "6e8c2218-0000-29e7-b7d8-582429a65674",
+      "prompt": "Transcribe the following speech segment. Follow these specific instructions for formatting the answer:\n* Only output the transcript, with no newlines.\n* When transcribing numbers, write the digits, i.e. write 1.7 and not one point seven, and write 100 instead of one hundred etc.\n* Only output the transcript, exactly as said in the speech segment.\n* Do not continue the speech segment.\n* Include everything said in the speech segment.\n* Use mathematical notation where needed, eg. x ^ 6Y.\n* If there is background speech that is not part of the main conversation, discard the background speech and only output the main conversation.\n* If there is no clear speech, just output [BACKGROUND].\n* Respond in the original language of the speech."
+    },
+    "results": [
+      {
+        "alternatives": [
+          {
+            "transcript": "61세 남성 severe acute pancreatitis로 입원. 다장기 침범 있음. 안정적이나 합병증 감시 중. BP 170, HR 95, RR 20, BT 37.8, SpO2 94%. severe abdominal pain 호소함. morphine 3mg IV Q4H 적용함. nasal cannula 2L/min 유지함. NG tube 유지함. negative fluid balance 500ml/hr 확인됨. drowsy 상태 확인됨. 담당의 notify함. gastroenterology consult 요청함.",
+            "confidence": 0.0,
+            "words": []
+          }
+        ],
+        "language_code": "ko",
+        "channel_tag": 0
+      }
+    ],
+    "detected_language_codes": [
+      "ko"
+    ]
+  }
+}

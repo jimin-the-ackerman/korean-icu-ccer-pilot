@@ -1,0 +1,43 @@
+{
+  "sample_id": "scenario_081_formal_template",
+  "whisper_transcript": "60세 남성 환자가 고혈압 위기로 인한 급성 울혈성 심부전으로 입원하였다. 활력 증후로는 혈압이 200/110 mmHg, 심박수가 110 BPM, 호흡수가 24 breaths/min, 체온이 37.4°C, 산소 포화도가 실내 공기에서 88%로 확인되었다. 환자는 심한 디스니를 호소하였다. 푸로세마이드 40 mg을 IV로 스타트하였다. 산소 공급은 2 L nasal cannula로 시행 중이다. 폴리 카테터가 삽입되어 있으며, 체액 균형은 -500 ml이다. 임상 상태는 drowsy 상태로 확인되었다. 고혈압 위기 및 심부전 악화에 대해 심장내과 팀에게 보고하였다.",
+  "stt_metadata": {
+    "asr_system": "chirp3_auto",
+    "provider": "google",
+    "model": "chirp_3",
+    "location": "us",
+    "language_codes": [
+      "auto"
+    ],
+    "audio_path": "data/audio/scenario_081_formal_template.mp3",
+    "audio_sha256": "811544d00abb60ba6870dc81e6f598b9cc041ee946f54b62dbdd8490d07527bb",
+    "transcribed_at": "2026-11-04T14:50:49+00:00",
+    "request_seconds": 5.65,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "metadata": {
+      "total_billed_duration": "41s",
+      "request_id": "7148f485-0000-21af-b08b-582429c20174",
+      "prompt": "Transcribe the following speech segment. Follow these specific instructions for formatting the answer:\n* Only output the transcript, with no newlines.\n* When transcribing numbers, write the digits, i.e. write 1.7 and not one point seven, and write 100 instead of one hundred etc.\n* Only output the transcript, exactly as said in the speech segment.\n* Do not continue the speech segment.\n* Include everything said in the speech segment.\n* Use mathematical notation where needed, eg. x ^ 6Y.\n* If there is background speech that is not part of the main conversation, discard the background speech and only output the main conversation.\n* If there is no clear speech, just output [BACKGROUND].\n* Respond in the original language of the speech."
+    },
+    "results": [
+      {
+        "alternatives": [
+          {
+            "transcript": "60세 남성 환자가 고혈압 위기로 인한 급성 울혈성 심부전으로 입원하였다. 활력 증후로는 혈압이 200/110 mmHg, 심박수가 110 BPM, 호흡수가 24 breaths/min, 체온이 37.4°C, 산소 포화도가 실내 공기에서 88%로 확인되었다. 환자는 심한 디스니를 호소하였다. 푸로세마이드 40 mg을 IV로 스타트하였다. 산소 공급은 2 L nasal cannula로 시행 중이다. 폴리 카테터가 삽입되어 있으며, 체액 균형은 -500 ml이다. 임상 상태는 drowsy 상태로 확인되었다. 고혈압 위기 및 심부전 악화에 대해 심장내과 팀에게 보고하였다.",
+            "confidence": 0.0,
+            "words": []
+          }
+        ],
+        "language_code": "ko",
+        "channel_tag": 0
+      }
+    ],
+    "detected_language_codes": [
+      "ko"
+    ]
+  }
+}

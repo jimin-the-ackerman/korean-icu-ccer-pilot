@@ -1,0 +1,25 @@
+{
+  "sample_id": "scenario_010_formal_template",
+  "whisper_transcript": "48세 남성 환자가 교통사고로 인한 중증 외상성 뇌손상으로 입원하였다. 혈압은 138.5mm로 측정되었으며, 심박수는 58bpm, 호흡수는 14bpm, 체온은 300mg, 산소포화도는 98%로 확인되었다. 두통은 호소하지 않았다. Manitou 100g을 IB로 6시간마다 투여 중이다. 현재 산소 공급은 필요하지 않으며, 환자는 벤틀레이터를 사용하고 있다. 뇌압 ICP, 모니터링이 시행되고 있으며, 수액균형은 포지티브이다. 임상상태는 stuporous로 관찰되었다.",
+  "stt_metadata": {
+    "asr_system": "whisper1_auto",
+    "provider": "openai",
+    "model": "whisper-1",
+    "language": null,
+    "audio_path": "data/audio/scenario_010_formal_template.mp3",
+    "audio_sha256": "5f9eb6f27c0518d3ff5299d7dc37830d810ae17a55ea8aaf4d3d8a4d87f83b34",
+    "transcribed_at": "2026-11-04T13:50:26+00:00",
+    "request_seconds": 5.1,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "48세 남성 환자가 교통사고로 인한 중증 외상성 뇌손상으로 입원하였다. 혈압은 138.5mm로 측정되었으며, 심박수는 58bpm, 호흡수는 14bpm, 체온은 300mg, 산소포화도는 98%로 확인되었다. 두통은 호소하지 않았다. Manitou 100g을 IB로 6시간마다 투여 중이다. 현재 산소 공급은 필요하지 않으며, 환자는 벤틀레이터를 사용하고 있다. 뇌압 ICP, 모니터링이 시행되고 있으며, 수액균형은 포지티브이다. 임상상태는 stuporous로 관찰되었다.",
+    "logprobs": null,
+    "usage": {
+      "seconds": 36.0,
+      "type": "duration"
+    }
+  }
+}

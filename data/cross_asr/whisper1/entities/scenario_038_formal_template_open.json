@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_038_formal_template",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "근육 약화",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "stuporous",
+    "medication_identity": "Pyridostigmine",
+    "interventions": [],
+    "intake_output": null,
+    "notification": null
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "근육 약화",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "stuporous",
+    "medication_identity": "Periodostigmine",
+    "interventions": [],
+    "intake_output": null,
+    "notification": null
+  }
+}

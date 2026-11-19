@@ -1,0 +1,43 @@
+{
+  "sample_id": "scenario_088_telegraphic_icu",
+  "whisper_transcript": "47-year-old male song, acute liver failure due to acetaminophen overdose. BP 12/70, 105 BPM, RR 22 breaths/min, BT 37.0, SpO2 95% on room air, severe jaundice, drowsy. N-acetylcysteine 300 mg/kg IV stat. Positive fluid balance 500 mL. Hepatology team notified.",
+  "stt_metadata": {
+    "asr_system": "chirp3_auto",
+    "provider": "google",
+    "model": "chirp_3",
+    "location": "us",
+    "language_codes": [
+      "auto"
+    ],
+    "audio_path": "data/audio/scenario_088_telegraphic_icu.mp3",
+    "audio_sha256": "0f37c3f5ebe9b3635df3ab930f2af8f04d5870238f99afdab908ae84b5f404f4",
+    "transcribed_at": "2026-11-04T14:52:27+00:00",
+    "request_seconds": 3.82,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "metadata": {
+      "total_billed_duration": "21s",
+      "request_id": "6b4a23bc-0000-291b-9ce0-7474463f846d",
+      "prompt": "Transcribe the following speech segment. Follow these specific instructions for formatting the answer:\n* Only output the transcript, with no newlines.\n* When transcribing numbers, write the digits, i.e. write 1.7 and not one point seven, and write 100 instead of one hundred etc.\n* Only output the transcript, exactly as said in the speech segment.\n* Do not continue the speech segment.\n* Include everything said in the speech segment.\n* Use mathematical notation where needed, eg. x ^ 6Y.\n* If there is background speech that is not part of the main conversation, discard the background speech and only output the main conversation.\n* If there is no clear speech, just output [BACKGROUND].\n* Respond in the original language of the speech."
+    },
+    "results": [
+      {
+        "alternatives": [
+          {
+            "transcript": "47-year-old male song, acute liver failure due to acetaminophen overdose. BP 12/70, 105 BPM, RR 22 breaths/min, BT 37.0, SpO2 95% on room air, severe jaundice, drowsy. N-acetylcysteine 300 mg/kg IV stat. Positive fluid balance 500 mL. Hepatology team notified.",
+            "confidence": 0.0,
+            "words": []
+          }
+        ],
+        "language_code": "en",
+        "channel_tag": 0
+      }
+    ],
+    "detected_language_codes": [
+      "en"
+    ]
+  }
+}

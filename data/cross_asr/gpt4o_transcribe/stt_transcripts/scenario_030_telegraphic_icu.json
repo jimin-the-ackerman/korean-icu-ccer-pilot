@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_030_telegraphic_icu",
+  "whisper_transcript": "66세 여성, SLA와 과로위반 루푸스 신염 B 표에는 흑혈수기혈, HR, RR은 B, T,37. SPSP는 96%, 관절통 moderate, 14mg PO, QTORH Foley 사용 중 IO positive, alert.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": "ko",
+    "audio_path": "data/audio/scenario_030_telegraphic_icu.mp3",
+    "audio_sha256": "feb39ee23e8cbe441b888c8a63aac4edeffdbcc9c72528942250fb0b9a8d1abe",
+    "transcribed_at": "2026-11-04T12:56:42+00:00",
+    "request_seconds": 1.45,
+    "attempts": 1,
+    "git_commit": "5b6d73fb63e1509a79e1a160176d606ed1b104c4",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "66세 여성, SLA와 과로위반 루푸스 신염 B 표에는 흑혈수기혈, HR, RR은 B, T,37. SPSP는 96%, 관절통 moderate, 14mg PO, QTORH Foley 사용 중 IO positive, alert.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 147,
+      "output_tokens": 64,
+      "total_tokens": 211,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 147,
+        "text_tokens": 0
+      }
+    }
+  }
+}

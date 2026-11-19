@@ -1,0 +1,110 @@
+{
+  "sample_id": "scenario_040_formal_template",
+  "gold_entities": {
+    "route": [],
+    "frequency": [
+      {
+        "raw": "4시간마다",
+        "normalized": "q4h",
+        "position": 196
+      }
+    ],
+    "device": [
+      {
+        "raw": "Foley",
+        "normalized": "foley",
+        "position": 253
+      }
+    ],
+    "vital_sign": [
+      {
+        "raw": "혈압은 110/70",
+        "label": "bp",
+        "value": "110/70",
+        "position": 77
+      },
+      {
+        "raw": "심박수는 95",
+        "label": "hr",
+        "value": "95",
+        "position": 94
+      },
+      {
+        "raw": "호흡수는 20",
+        "label": "rr",
+        "value": "20",
+        "position": 107
+      },
+      {
+        "raw": "체온은 38.0",
+        "label": "bt",
+        "value": "38.0",
+        "position": 120
+      },
+      {
+        "raw": "산소포화도는 94%",
+        "label": "spo2",
+        "value": "94%",
+        "position": 132
+      }
+    ],
+    "dose": []
+  },
+  "whisper_entities": {
+    "route": [],
+    "frequency": [
+      {
+        "raw": "4시간마다",
+        "normalized": "q4h",
+        "position": 193
+      }
+    ],
+    "device": [
+      {
+        "raw": "Foley",
+        "normalized": "foley",
+        "position": 251
+      }
+    ],
+    "vital_sign": [
+      {
+        "raw": "혈압은 117/70",
+        "label": "bp",
+        "value": "117/70",
+        "position": 75
+      },
+      {
+        "raw": "심박수는 95",
+        "label": "hr",
+        "value": "95",
+        "position": 92
+      },
+      {
+        "raw": "호흡수는 20",
+        "label": "rr",
+        "value": "20",
+        "position": 105
+      },
+      {
+        "raw": "체온은 38.0",
+        "label": "bt",
+        "value": "38.0",
+        "position": 118
+      },
+      {
+        "raw": "산소포화도는 94%",
+        "label": "spo2",
+        "value": "94%",
+        "position": 130
+      }
+    ],
+    "dose": [
+      {
+        "raw": "4 mg",
+        "value": "4",
+        "unit": "mg",
+        "position": 184
+      }
+    ]
+  }
+}

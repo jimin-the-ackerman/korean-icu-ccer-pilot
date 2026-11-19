@@ -1,0 +1,111 @@
+{
+  "sample_id": "scenario_082_clinical_charting",
+  "gold_entities": {
+    "route": [
+      {
+        "raw": "IV",
+        "normalized": "iv",
+        "position": 162
+      }
+    ],
+    "frequency": [
+      {
+        "raw": "q4h",
+        "normalized": "q4h",
+        "position": 165
+      }
+    ],
+    "device": [],
+    "vital_sign": [
+      {
+        "raw": "BP 145/90",
+        "label": "bp",
+        "value": "145/90",
+        "position": 44
+      },
+      {
+        "raw": "HR 110",
+        "label": "hr",
+        "value": "110",
+        "position": 59
+      },
+      {
+        "raw": "RR 22",
+        "label": "rr",
+        "value": "22",
+        "position": 70
+      },
+      {
+        "raw": "BT 38.2",
+        "label": "bt",
+        "value": "38.2",
+        "position": 88
+      },
+      {
+        "raw": "SpO2 98%",
+        "label": "spo2",
+        "value": "98%",
+        "position": 98
+      }
+    ],
+    "dose": [
+      {
+        "raw": "5 mg",
+        "value": "5",
+        "unit": "mg",
+        "position": 157
+      }
+    ]
+  },
+  "whisper_entities": {
+    "route": [
+      {
+        "raw": "IV",
+        "normalized": "iv",
+        "position": 147
+      }
+    ],
+    "frequency": [
+      {
+        "raw": "Q4H",
+        "normalized": "q4h",
+        "position": 150
+      }
+    ],
+    "device": [],
+    "vital_sign": [
+      {
+        "raw": "BP 100/50",
+        "label": "bp",
+        "value": "100/50",
+        "position": 43
+      },
+      {
+        "raw": "HR 80",
+        "label": "hr",
+        "value": "80",
+        "position": 58
+      },
+      {
+        "raw": "BT 38.5",
+        "label": "bt",
+        "value": "38.5",
+        "position": 68
+      },
+      {
+        "raw": "SpO2 95%",
+        "label": "spo2",
+        "value": "95%",
+        "position": 85
+      }
+    ],
+    "dose": [
+      {
+        "raw": "5mg",
+        "value": "5",
+        "unit": "mg",
+        "position": 143
+      }
+    ]
+  }
+}

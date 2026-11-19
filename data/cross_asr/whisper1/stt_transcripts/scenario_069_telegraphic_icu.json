@@ -1,0 +1,25 @@
+{
+  "sample_id": "scenario_069_telegraphic_icu",
+  "whisper_transcript": "우시치스 남성, 급성 헤로인 오버도스 입원 BP가 하이투스 스티미워드, 메이쳐아라, 브레스맨, 아브라타페아, 브레스민, 에스피오프레디, 룸에어, 세비어 언컨시스니스 날록소, 네오팬, 4mg, IV, 하이플로, 네이처 캔뉼라스, 하영중, 안 리스폰시브",
+  "stt_metadata": {
+    "asr_system": "whisper1",
+    "provider": "reuse_existing",
+    "model": "whisper-1",
+    "language": "ko",
+    "audio_path": "data/audio/scenario_069_telegraphic_icu.mp3",
+    "audio_sha256": "b9a80c5ea57903d203c957613a0b1d007b9f4e317b136880d523a066b2abafe7",
+    "copied_at": "2026-11-04T04:31:12+00:00",
+    "request_seconds": 0.0,
+    "attempts": 1,
+    "git_commit": "b3490181b3fb3f88b56cde5be78a01cfdcef3007",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "source_file": "data/stt_transcripts/scenario_069_telegraphic_icu.json",
+    "source_sha256": "61671ab0fb2d526bd9089ed37bd38ee4b9e41eac2fc8d89d762e180d6175e422",
+    "source_stt_metadata": {
+      "model": "whisper-1",
+      "language": "ko"
+    }
+  }
+}

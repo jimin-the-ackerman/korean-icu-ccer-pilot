@@ -1,0 +1,25 @@
+{
+  "sample_id": "scenario_002_formal_template",
+  "whisper_transcript": "50세 여성 환자가 당뇨병성 케톤산증, DK로 입원하였다. 활력증후는 혈압 90-60mmg, 심박수 120bpm, 호흡수 28hb, 체온 37.8L, 산소포화도 95%로 확인되었다. 환자는 중등도의 나우지아를 호소하였다. 인슐린 10유닛을 IV로 매 4시간마다 투여 중이다. 환자에게 fluid resuscitation이 시행되었으며 소변량은 저하된 상태였다. 환자는 약간의 기면 상태를 보이고 있다. DK의 관리를 위해 내분비 내과에 상담을 요청하였다.",
+  "stt_metadata": {
+    "asr_system": "whisper1",
+    "provider": "reuse_existing",
+    "model": "whisper-1",
+    "language": "ko",
+    "audio_path": "data/audio/scenario_002_formal_template.mp3",
+    "audio_sha256": "7771564bf7eb9ba3e8606120e940f7615db25aa68e19e0c88bfd2be46a3505c0",
+    "copied_at": "2026-11-04T04:31:11+00:00",
+    "request_seconds": 0.0,
+    "attempts": 1,
+    "git_commit": "b3490181b3fb3f88b56cde5be78a01cfdcef3007",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "source_file": "data/stt_transcripts/scenario_002_formal_template.json",
+    "source_sha256": "23b642c1ab8df876225405b2ebb2e2c7a70b963baa5b8d0b7172c7e92da85cf3",
+    "source_stt_metadata": {
+      "model": "whisper-1",
+      "language": "ko"
+    }
+  }
+}

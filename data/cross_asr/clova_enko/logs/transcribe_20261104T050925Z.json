@@ -1,0 +1,36 @@
+{
+  "asr": "clova_enko",
+  "settings": {
+    "provider": "clova",
+    "endpoint": "/recognizer/upload",
+    "params": {
+      "language": "enko",
+      "completion": "sync",
+      "diarization": {
+        "enable": false
+      }
+    }
+  },
+  "pilot": true,
+  "limit": 1,
+  "started_at": "2026-11-04T05:09:25+00:00",
+  "git_commit": "b3490181b3fb3f88b56cde5be78a01cfdcef3007",
+  "config_version": "1.0",
+  "max_attempts": 3,
+  "entries": [
+    {
+      "sample_id": "scenario_007_clinical_charting",
+      "status": "processed",
+      "request_seconds": 3.12,
+      "attempts": 1
+    }
+  ],
+  "finished_at": "2026-11-04T05:09:28+00:00",
+  "summary": {
+    "processed": 1,
+    "api_requests": 1,
+    "aborted": null,
+    "skipped_valid": 0,
+    "targets": 30
+  }
+}

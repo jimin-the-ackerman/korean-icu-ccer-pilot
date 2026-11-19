@@ -1,0 +1,25 @@
+{
+  "sample_id": "scenario_016_telegraphic_icu",
+  "whisper_transcript": "소리보세 여성 복부 농양으로 인한 중증 폐혈증 이완 bp 85 hr watch i reward hwanai bt 30 9.2 sp o2 diet d percent severe fever meropenem 1 gram iv q8 h nasal cannula 사용 abscess drainage c-line 삽입 negative fluid balance drowsy 상태 elevated lactate doctor notify",
+  "stt_metadata": {
+    "asr_system": "whisper1",
+    "provider": "reuse_existing",
+    "model": "whisper-1",
+    "language": "ko",
+    "audio_path": "data/audio/scenario_016_telegraphic_icu.mp3",
+    "audio_sha256": "37e7a884a8f8843a0182150babfd5fa27fd9feb29f38d59463b77952a0b83b78",
+    "copied_at": "2026-11-04T04:31:11+00:00",
+    "request_seconds": 0.0,
+    "attempts": 1,
+    "git_commit": "b3490181b3fb3f88b56cde5be78a01cfdcef3007",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "source_file": "data/stt_transcripts/scenario_016_telegraphic_icu.json",
+    "source_sha256": "ce04b9c3a49710dbaab8715b3529f4fd7d6c78ec4a51162d776ee59217632eb6",
+    "source_stt_metadata": {
+      "model": "whisper-1",
+      "language": "ko"
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_042_clinical_charting",
+  "whisper_transcript": "70세 남성 severe dehydration 및 electrolyte imbalance로 입원함. BP 98/62 mmHg, HR 182 bpm, RR 54 breaths/min, BT 37.6℃, SpO2 95% on room air. Severe diarrhea 확인됨. Normal saline 1000ml IV stat 적용함. IV fluid resuscitation 시행함. Urine output low, 200ml/hr. 환자 drowsy 상태. Urine output 30ml/hr 미만 시 담당의 notify함.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": "ko",
+    "audio_path": "data/audio/scenario_042_clinical_charting.mp3",
+    "audio_sha256": "9a8e51c3948752ca1c7d0e3b477bf9108a09123da6c3f02b5581d10fb1d99f62",
+    "transcribed_at": "2026-11-04T12:57:56+00:00",
+    "request_seconds": 2.16,
+    "attempts": 1,
+    "git_commit": "5b6d73fb63e1509a79e1a160176d606ed1b104c4",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "70세 남성 severe dehydration 및 electrolyte imbalance로 입원함. BP 98/62 mmHg, HR 182 bpm, RR 54 breaths/min, BT 37.6℃, SpO2 95% on room air. Severe diarrhea 확인됨. Normal saline 1000ml IV stat 적용함. IV fluid resuscitation 시행함. Urine output low, 200ml/hr. 환자 drowsy 상태. Urine output 30ml/hr 미만 시 담당의 notify함.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 266,
+      "output_tokens": 108,
+      "total_tokens": 374,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 266,
+        "text_tokens": 0
+      }
+    }
+  }
+}

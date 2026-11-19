@@ -1,0 +1,43 @@
+{
+  "sample_id": "scenario_019_telegraphic_icu",
+  "whisper_transcript": "40세 여성, 중증 알레르기, BP 85/50, HR 120 BPM, RR 28, BT 36.8, SpO2 89% on room air, severe swelling of face, lips, epinephrine 0.3 mg IM stat, high-flow nasal cannula, IV fluids 2 L, urine output 50 mL, drowsy, allergy team notify.",
+  "stt_metadata": {
+    "asr_system": "chirp3_auto",
+    "provider": "google",
+    "model": "chirp_3",
+    "location": "us",
+    "language_codes": [
+      "auto"
+    ],
+    "audio_path": "data/audio/scenario_019_telegraphic_icu.mp3",
+    "audio_sha256": "5c37d5b7d547e412579a2a5cdc5f68d815ebd7639985e6cb7a1f6ffce3afa7bb",
+    "transcribed_at": "2026-11-04T14:21:48+00:00",
+    "request_seconds": 3.93,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "metadata": {
+      "total_billed_duration": "22s",
+      "request_id": "6c9cf61b-0000-213d-8de7-582429c364c4",
+      "prompt": "Transcribe the following speech segment. Follow these specific instructions for formatting the answer:\n* Only output the transcript, with no newlines.\n* When transcribing numbers, write the digits, i.e. write 1.7 and not one point seven, and write 100 instead of one hundred etc.\n* Only output the transcript, exactly as said in the speech segment.\n* Do not continue the speech segment.\n* Include everything said in the speech segment.\n* Use mathematical notation where needed, eg. x ^ 6Y.\n* If there is background speech that is not part of the main conversation, discard the background speech and only output the main conversation.\n* If there is no clear speech, just output [BACKGROUND].\n* Respond in the original language of the speech."
+    },
+    "results": [
+      {
+        "alternatives": [
+          {
+            "transcript": "40세 여성, 중증 알레르기, BP 85/50, HR 120 BPM, RR 28, BT 36.8, SpO2 89% on room air, severe swelling of face, lips, epinephrine 0.3 mg IM stat, high-flow nasal cannula, IV fluids 2 L, urine output 50 mL, drowsy, allergy team notify.",
+            "confidence": 0.0,
+            "words": []
+          }
+        ],
+        "language_code": "ko",
+        "channel_tag": 0
+      }
+    ],
+    "detected_language_codes": [
+      "ko"
+    ]
+  }
+}

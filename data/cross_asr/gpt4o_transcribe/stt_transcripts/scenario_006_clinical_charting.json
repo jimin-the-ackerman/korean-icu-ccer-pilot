@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_006_clinical_charting",
+  "whisper_transcript": "70세 여성 severe stroke로 입원함. BP 170/100, BT 37.6, SpO2 92% 확인됨. severe hemiplegia 확인됨. labetalol 20mg IV Q6H 투여함. nasal cannula 2L/m 통해 산소 공급 유지함. C-line 적용됨. negative fluid balance 확인됨. stupor 상태임. neurology team notify함.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": "ko",
+    "audio_path": "data/audio/scenario_006_clinical_charting.mp3",
+    "audio_sha256": "2fa88636cdabad8e76a4777b8c0156909e244c8420d26ce2477394d334cfffa2",
+    "transcribed_at": "2026-11-04T12:54:10+00:00",
+    "request_seconds": 1.77,
+    "attempts": 1,
+    "git_commit": "5b6d73fb63e1509a79e1a160176d606ed1b104c4",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "70세 여성 severe stroke로 입원함. BP 170/100, BT 37.6, SpO2 92% 확인됨. severe hemiplegia 확인됨. labetalol 20mg IV Q6H 투여함. nasal cannula 2L/m 통해 산소 공급 유지함. C-line 적용됨. negative fluid balance 확인됨. stupor 상태임. neurology team notify함.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 216,
+      "output_tokens": 91,
+      "total_tokens": 307,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 216,
+        "text_tokens": 0
+      }
+    }
+  }
+}

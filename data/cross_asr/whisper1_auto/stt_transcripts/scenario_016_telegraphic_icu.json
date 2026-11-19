@@ -1,0 +1,25 @@
+{
+  "sample_id": "scenario_016_telegraphic_icu",
+  "whisper_transcript": "Soribos's woman has severe pneumonia due to abdominal malnutrition. BP 85 or HR watch IRR 1I, BT 30, Dampon 2, SpO2, Dited D%. Severe fever, Meropinem 1 gram IV Q8H, nasal cannula usage. Abscess drainage, C-line insertion, negative fluid balance, drowsy condition, elevated lactate. Doctor notified.",
+  "stt_metadata": {
+    "asr_system": "whisper1_auto",
+    "provider": "openai",
+    "model": "whisper-1",
+    "language": null,
+    "audio_path": "data/audio/scenario_016_telegraphic_icu.mp3",
+    "audio_sha256": "37e7a884a8f8843a0182150babfd5fa27fd9feb29f38d59463b77952a0b83b78",
+    "transcribed_at": "2026-11-04T13:51:11+00:00",
+    "request_seconds": 1.44,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "Soribos's woman has severe pneumonia due to abdominal malnutrition. BP 85 or HR watch IRR 1I, BT 30, Dampon 2, SpO2, Dited D%. Severe fever, Meropinem 1 gram IV Q8H, nasal cannula usage. Abscess drainage, C-line insertion, negative fluid balance, drowsy condition, elevated lactate. Doctor notified.",
+    "logprobs": null,
+    "usage": {
+      "seconds": 19.0,
+      "type": "duration"
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "sample_id": "scenario_091_formal_template",
+  "whisper_transcript": "64세 여성 환자가 폐섬유증 악화로 인한 급성 호흡부전으로 입원하였다. 활력징후는 혈압 125/80 mmHg, 심박수 96 bpm, 호흡수 28 bpm, 체온 37.6도였으며, 산소포화도는 실내 공기에서 88%로 확인되었다. 환자는 심한 호흡곤란을 호소하였다. 프레드니손 40 mg을 경구로 하루 두 번 처방하였으며, 고유량 비강 캐눌라를 통해 산소를 제공하였다. 코르티코스테로이드 치료를 시작하였다. 환자는 인공호흡기에 의존하고 있으며, 임상 상태는 졸림이 확인되었다.",
+  "stt_metadata": {
+    "asr_system": "chirp3_ko",
+    "provider": "google",
+    "model": "chirp_3",
+    "location": "us",
+    "language_codes": [
+      "ko-KR"
+    ],
+    "audio_path": "data/audio/scenario_091_formal_template.mp3",
+    "audio_sha256": "52cec9bffbe98d8bdd6676d572c492316b6170567b0fb6778459292ceb9d831f",
+    "transcribed_at": "2026-11-04T13:31:23+00:00",
+    "request_seconds": 5.31,
+    "attempts": 1,
+    "git_commit": "5b6d73fb63e1509a79e1a160176d606ed1b104c4",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "metadata": {
+      "total_billed_duration": "36s",
+      "request_id": "73943ceb-0000-245d-9337-ac3eb1486d20",
+      "prompt": "Transcribe the following speech segment in Korean. Follow these specific instructions for formatting the answer:\n* Only output the transcript, with no newlines.\n* When transcribing numbers, write the digits, i.e. write 1.7 and not one point seven, and write 100 instead of one hundred etc.\n* Only output the transcript, exactly as said in the speech segment.\n* Do not continue the speech segment.\n* Include everything said in the speech segment.\n* Use mathematical notation where needed, eg. x ^ 6Y.\n* If there is background speech that is not part of the main conversation, discard the background speech and only output the main conversation.\n* If there is no clear speech, just output [BACKGROUND].\n* Respond in the original language of the speech, Korean."
+    },
+    "results": [
+      {
+        "alternatives": [
+          {
+            "transcript": "64세 여성 환자가 폐섬유증 악화로 인한 급성 호흡부전으로 입원하였다. 활력징후는 혈압 125/80 mmHg, 심박수 96 bpm, 호흡수 28 bpm, 체온 37.6도였으며, 산소포화도는 실내 공기에서 88%로 확인되었다. 환자는 심한 호흡곤란을 호소하였다. 프레드니손 40 mg을 경구로 하루 두 번 처방하였으며, 고유량 비강 캐눌라를 통해 산소를 제공하였다. 코르티코스테로이드 치료를 시작하였다. 환자는 인공호흡기에 의존하고 있으며, 임상 상태는 졸림이 확인되었다.",
+            "confidence": 0.0,
+            "words": []
+          }
+        ],
+        "language_code": "ko-KR",
+        "channel_tag": 0
+      }
+    ],
+    "detected_language_codes": [
+      "ko-KR"
+    ]
+  }
+}

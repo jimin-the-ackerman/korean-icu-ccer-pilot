@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_059_formal_template",
+  "whisper_transcript": "46세 남성 환자가 천공성 개실염으로 인한 중증 폐혈증으로 입원하였다. 활력 징후는 혈압 85-60mmg, 심박수 125 bpm, 호흡수 28breatmin, 체온 39.0℃, 산소포화도 89% 실내 공기 조건으로 확인되었다. 환자는 심한 복통을 호소하였다. 피페라실린 타조박탐 4.5g IVQH8로 투여 중이다. 환자는 고유량 비강 캐큘라를 통한 산소 공급을 받고 있으며 C라인이 삽입되었다. 체액량이 양성 균형을 보이고 있으며 수액 보충이 시행되고 있다. 임상 상태는 기면 상태이다.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe_auto",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": null,
+    "audio_path": "data/audio/scenario_059_formal_template.mp3",
+    "audio_sha256": "0c362182b73a8e9eef0323e303b3a8c6f8db354b6f0c9f76e9af868cc26fd25d",
+    "transcribed_at": "2026-11-04T14:10:43+00:00",
+    "request_seconds": 3.19,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "46세 남성 환자가 천공성 개실염으로 인한 중증 폐혈증으로 입원하였다. 활력 징후는 혈압 85-60mmg, 심박수 125 bpm, 호흡수 28breatmin, 체온 39.0℃, 산소포화도 89% 실내 공기 조건으로 확인되었다. 환자는 심한 복통을 호소하였다. 피페라실린 타조박탐 4.5g IVQH8로 투여 중이다. 환자는 고유량 비강 캐큘라를 통한 산소 공급을 받고 있으며 C라인이 삽입되었다. 체액량이 양성 균형을 보이고 있으며 수액 보충이 시행되고 있다. 임상 상태는 기면 상태이다.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 371,
+      "output_tokens": 179,
+      "total_tokens": 550,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 371,
+        "text_tokens": 0
+      }
+    }
+  }
+}

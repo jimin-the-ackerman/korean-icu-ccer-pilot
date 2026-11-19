@@ -1,0 +1,41 @@
+{
+  "sample_id": "scenario_057_formal_template",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "joint pain",
+        "negation": false,
+        "severity": "severe"
+      },
+      {
+        "name": "swelling",
+        "negation": false,
+        "severity": null
+      }
+    ],
+    "clinical_status": "alert",
+    "medication_identity": "Methylprednisolone",
+    "interventions": [],
+    "intake_output": null,
+    "notification": null
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "joint pain",
+        "negation": false,
+        "severity": "severe"
+      },
+      {
+        "name": "swelling",
+        "negation": false,
+        "severity": null
+      }
+    ],
+    "clinical_status": "알러트한 상태 (alert)",
+    "medication_identity": "Methylprednisolone",
+    "interventions": [],
+    "intake_output": null,
+    "notification": null
+  }
+}

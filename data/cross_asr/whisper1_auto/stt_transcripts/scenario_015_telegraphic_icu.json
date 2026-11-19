@@ -1,0 +1,25 @@
+{
+  "sample_id": "scenario_015_telegraphic_icu",
+  "whisper_transcript": "Severe chest pain, heparin 5,000 units IV Q6H, high flow nasal cannulas, thrombolytic therapy, 2,000 milliliter IV fluids. Patient alert. Cardiology team notify.",
+  "stt_metadata": {
+    "asr_system": "whisper1_auto",
+    "provider": "openai",
+    "model": "whisper-1",
+    "language": null,
+    "audio_path": "data/audio/scenario_015_telegraphic_icu.mp3",
+    "audio_sha256": "a5db5bd99c770cc23f4ca5aac477176232181ad97a2413851c1571c39de94952",
+    "transcribed_at": "2026-11-04T13:51:03+00:00",
+    "request_seconds": 1.59,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "Severe chest pain, heparin 5,000 units IV Q6H, high flow nasal cannulas, thrombolytic therapy, 2,000 milliliter IV fluids. Patient alert. Cardiology team notify.",
+    "logprobs": null,
+    "usage": {
+      "seconds": 23.0,
+      "type": "duration"
+    }
+  }
+}

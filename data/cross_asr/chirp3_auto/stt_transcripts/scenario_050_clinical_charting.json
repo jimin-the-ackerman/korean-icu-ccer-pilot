@@ -1,0 +1,43 @@
+{
+  "sample_id": "scenario_050_clinical_charting",
+  "whisper_transcript": "식시 1000 남성 환자, acute heart failure로 입원. Hypertensive emergency 확인됨. Vital signs: BP 230 mmHg, HR 120 bpm, RR 28 breath/min, BT 36.7°C, SpO2 90% room air. Chest pain severe 호소함. Nitroglycerin 10 mg/min IV drip 적용함. High flow nasal cannula 적용함. C-line 유지 중. Positive fluid balance 확인됨. Clinical status drowsy 확인됨. Cardiology team notify 함.",
+  "stt_metadata": {
+    "asr_system": "chirp3_auto",
+    "provider": "google",
+    "model": "chirp_3",
+    "location": "us",
+    "language_codes": [
+      "auto"
+    ],
+    "audio_path": "data/audio/scenario_050_clinical_charting.mp3",
+    "audio_sha256": "a5fa748e094713f70d612638f05e0f621100f0694fa720903ec64bf938ea4ce5",
+    "transcribed_at": "2026-11-04T14:29:36+00:00",
+    "request_seconds": 4.61,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "metadata": {
+      "total_billed_duration": "28s",
+      "request_id": "6b0c0876-0000-2064-ae37-2405887ac040",
+      "prompt": "Transcribe the following speech segment. Follow these specific instructions for formatting the answer:\n* Only output the transcript, with no newlines.\n* When transcribing numbers, write the digits, i.e. write 1.7 and not one point seven, and write 100 instead of one hundred etc.\n* Only output the transcript, exactly as said in the speech segment.\n* Do not continue the speech segment.\n* Include everything said in the speech segment.\n* Use mathematical notation where needed, eg. x ^ 6Y.\n* If there is background speech that is not part of the main conversation, discard the background speech and only output the main conversation.\n* If there is no clear speech, just output [BACKGROUND].\n* Respond in the original language of the speech."
+    },
+    "results": [
+      {
+        "alternatives": [
+          {
+            "transcript": "식시 1000 남성 환자, acute heart failure로 입원. Hypertensive emergency 확인됨. Vital signs: BP 230 mmHg, HR 120 bpm, RR 28 breath/min, BT 36.7°C, SpO2 90% room air. Chest pain severe 호소함. Nitroglycerin 10 mg/min IV drip 적용함. High flow nasal cannula 적용함. C-line 유지 중. Positive fluid balance 확인됨. Clinical status drowsy 확인됨. Cardiology team notify 함.",
+            "confidence": 0.0,
+            "words": []
+          }
+        ],
+        "language_code": "ko",
+        "channel_tag": 0
+      }
+    ],
+    "detected_language_codes": [
+      "ko"
+    ]
+  }
+}

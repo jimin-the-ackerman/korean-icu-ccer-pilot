@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_031_formal_template",
+  "whisper_transcript": "환자는 43세 남성으로 급성 최장염과 연관된 전신 염증 반응증으로 입원하였다. 활력징후는 혈압이 92/58 mmHg, 심박수가 126 bpm, 호흡수가 28 breaths/min, 체온이 38.5°C, 산소포화도가 대기 중 95%로 확인되었다. 환자는 심한 복통을 호소하였다. 약물로는 모르핀 4mg을 IV로 매시간 간격으로 투여하였다. 중재로는 IV fluid resuscitation이 시행되었다. 지난 24시간 동안의 체액 균형은 500mL의 음성으로 확인되었다. 환자는 졸음이 있는 상태이다. 추가적인 관리 권고를 위해 소화기내과 전문의에게 상담하였다.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe_auto",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": null,
+    "audio_path": "data/audio/scenario_031_formal_template.mp3",
+    "audio_sha256": "2a8d479fa8afe65d1b23fbea64792ff307d4ef79f1efddeece21b33907944465",
+    "transcribed_at": "2026-11-04T14:07:06+00:00",
+    "request_seconds": 3.53,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "환자는 43세 남성으로 급성 최장염과 연관된 전신 염증 반응증으로 입원하였다. 활력징후는 혈압이 92/58 mmHg, 심박수가 126 bpm, 호흡수가 28 breaths/min, 체온이 38.5°C, 산소포화도가 대기 중 95%로 확인되었다. 환자는 심한 복통을 호소하였다. 약물로는 모르핀 4mg을 IV로 매시간 간격으로 투여하였다. 중재로는 IV fluid resuscitation이 시행되었다. 지난 24시간 동안의 체액 균형은 500mL의 음성으로 확인되었다. 환자는 졸음이 있는 상태이다. 추가적인 관리 권고를 위해 소화기내과 전문의에게 상담하였다.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 423,
+      "output_tokens": 185,
+      "total_tokens": 608,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 423,
+        "text_tokens": 0
+      }
+    }
+  }
+}

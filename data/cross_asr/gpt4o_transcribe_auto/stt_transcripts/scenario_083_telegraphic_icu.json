@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_083_telegraphic_icu",
+  "whisper_transcript": "61歳女性。急性肺水腫二次的急性僧帽弁逆流E1。BP160/90、HR110、RR28、BT37.2度、SpO288%、呼吸困難重度、フロセミド40mg IV q6h、非再呼吸マスク、Cライン、眠気",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe_auto",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": null,
+    "audio_path": "data/audio/scenario_083_telegraphic_icu.mp3",
+    "audio_sha256": "6cd57bf686900c0a237ef6b26aa3064216b920fdfa87d8d2d8d1b519677ece50",
+    "transcribed_at": "2026-11-04T14:13:30+00:00",
+    "request_seconds": 1.5,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "61歳女性。急性肺水腫二次的急性僧帽弁逆流E1。BP160/90、HR110、RR28、BT37.2度、SpO288%、呼吸困難重度、フロセミド40mg IV q6h、非再呼吸マスク、Cライン、眠気",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 166,
+      "output_tokens": 79,
+      "total_tokens": 245,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 166,
+        "text_tokens": 0
+      }
+    }
+  }
+}

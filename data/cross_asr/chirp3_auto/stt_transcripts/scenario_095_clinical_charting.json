@@ -1,0 +1,43 @@
+{
+  "sample_id": "scenario_095_clinical_charting",
+  "whisper_transcript": "62세 여성, severe asthma exacerbation으로 acute respiratory distress 입원. BP 132/90 mmHg, HR 108 bpm, 25 breaths/min, BT 37.7도, SpO2 92%. Shortness of breath severe로 호소함. Albuterol 2.5 mg IV PRN 적용함. High-flow nasal cannula 산소 공급 유지함. Ventilator 사용 중. Positive fluid balance 확인됨. Patient alert 상태 유지함. Respiratory therapist notify함.",
+  "stt_metadata": {
+    "asr_system": "chirp3_auto",
+    "provider": "google",
+    "model": "chirp_3",
+    "location": "us",
+    "language_codes": [
+      "auto"
+    ],
+    "audio_path": "data/audio/scenario_095_clinical_charting.mp3",
+    "audio_sha256": "3ea9a9f64d9257a09fcc66e59936f78993c4a842979c42aea72214be8856f69a",
+    "transcribed_at": "2026-11-04T14:53:57+00:00",
+    "request_seconds": 5.13,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "metadata": {
+      "total_billed_duration": "28s",
+      "request_id": "742d385e-0000-25e6-ae05-c82add70e314",
+      "prompt": "Transcribe the following speech segment. Follow these specific instructions for formatting the answer:\n* Only output the transcript, with no newlines.\n* When transcribing numbers, write the digits, i.e. write 1.7 and not one point seven, and write 100 instead of one hundred etc.\n* Only output the transcript, exactly as said in the speech segment.\n* Do not continue the speech segment.\n* Include everything said in the speech segment.\n* Use mathematical notation where needed, eg. x ^ 6Y.\n* If there is background speech that is not part of the main conversation, discard the background speech and only output the main conversation.\n* If there is no clear speech, just output [BACKGROUND].\n* Respond in the original language of the speech."
+    },
+    "results": [
+      {
+        "alternatives": [
+          {
+            "transcript": "62세 여성, severe asthma exacerbation으로 acute respiratory distress 입원. BP 132/90 mmHg, HR 108 bpm, 25 breaths/min, BT 37.7도, SpO2 92%. Shortness of breath severe로 호소함. Albuterol 2.5 mg IV PRN 적용함. High-flow nasal cannula 산소 공급 유지함. Ventilator 사용 중. Positive fluid balance 확인됨. Patient alert 상태 유지함. Respiratory therapist notify함.",
+            "confidence": 0.0,
+            "words": []
+          }
+        ],
+        "language_code": "ko",
+        "channel_tag": 0
+      }
+    ],
+    "detected_language_codes": [
+      "ko"
+    ]
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "sample_id": "scenario_079_telegraphic_icu",
+  "whisper_transcript": "66-year-old male, admitted to acute gastroenteritis. Severe abdominal pain, bloody diarrhea, Bp and Y of 65mHg, Hr1, DnBpm, Rr22, Bt37.8u, SpO2 90%, methylprednisolone 40mIvQ6H, Foley, IO strict, alert.",
+  "stt_metadata": {
+    "asr_system": "whisper1_auto",
+    "provider": "openai",
+    "model": "whisper-1",
+    "language": null,
+    "scope": "pilot",
+    "audio_path": "data/audio/scenario_079_telegraphic_icu.mp3",
+    "audio_sha256": "fe507a498507dc653194a9fdefb69581bd445ec44dfbd07dc9abe45f4ab44be0",
+    "transcribed_at": "2026-11-04T13:42:42+00:00",
+    "request_seconds": 3.6,
+    "attempts": 1,
+    "git_commit": "5b6d73fb63e1509a79e1a160176d606ed1b104c4",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "66-year-old male, admitted to acute gastroenteritis. Severe abdominal pain, bloody diarrhea, Bp and Y of 65mHg, Hr1, DnBpm, Rr22, Bt37.8u, SpO2 90%, methylprednisolone 40mIvQ6H, Foley, IO strict, alert.",
+    "logprobs": null,
+    "usage": {
+      "seconds": 17.0,
+      "type": "duration"
+    }
+  }
+}

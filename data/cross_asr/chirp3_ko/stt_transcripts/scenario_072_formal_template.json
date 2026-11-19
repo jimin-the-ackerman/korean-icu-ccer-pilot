@@ -1,0 +1,43 @@
+{
+  "sample_id": "scenario_072_formal_template",
+  "whisper_transcript": "환자는 67세 남성으로 급성 궤양성 대장염 악화로 입원하였다. 환자는 심한 복통, 혈변, 탈수 증상을 보였다. 혈압은 90/60mm로 확인되었고, 심박수는 110bpm, 호흡수는 24 breath/min, 체온은 37.8°C로 측정되었다. 산소 포화도는 실내 공기에서 95%로 확인되었다. 환자는 심한 복통을 호소하였다. 약물로는 하이드로코르티손 100mg을 IV로 6시간마다 투여받고 있다. 환자에겐 IV fluid resuscitation이 실시되었고, 음성 수분 평형이 확인되었다. 환자는 의식이 명료하다.",
+  "stt_metadata": {
+    "asr_system": "chirp3_ko",
+    "provider": "google",
+    "model": "chirp_3",
+    "location": "us",
+    "language_codes": [
+      "ko-KR"
+    ],
+    "audio_path": "data/audio/scenario_072_formal_template.mp3",
+    "audio_sha256": "0a0119745de200a7d33df0239dbacbace907a4fc7c4cf7de76074ff38f212bea",
+    "transcribed_at": "2026-11-04T13:26:51+00:00",
+    "request_seconds": 5.46,
+    "attempts": 1,
+    "git_commit": "5b6d73fb63e1509a79e1a160176d606ed1b104c4",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "metadata": {
+      "total_billed_duration": "38s",
+      "request_id": "6e798c37-0000-29e7-b7d8-582429a65674",
+      "prompt": "Transcribe the following speech segment in Korean. Follow these specific instructions for formatting the answer:\n* Only output the transcript, with no newlines.\n* When transcribing numbers, write the digits, i.e. write 1.7 and not one point seven, and write 100 instead of one hundred etc.\n* Only output the transcript, exactly as said in the speech segment.\n* Do not continue the speech segment.\n* Include everything said in the speech segment.\n* Use mathematical notation where needed, eg. x ^ 6Y.\n* If there is background speech that is not part of the main conversation, discard the background speech and only output the main conversation.\n* If there is no clear speech, just output [BACKGROUND].\n* Respond in the original language of the speech, Korean."
+    },
+    "results": [
+      {
+        "alternatives": [
+          {
+            "transcript": "환자는 67세 남성으로 급성 궤양성 대장염 악화로 입원하였다. 환자는 심한 복통, 혈변, 탈수 증상을 보였다. 혈압은 90/60mm로 확인되었고, 심박수는 110bpm, 호흡수는 24 breath/min, 체온은 37.8°C로 측정되었다. 산소 포화도는 실내 공기에서 95%로 확인되었다. 환자는 심한 복통을 호소하였다. 약물로는 하이드로코르티손 100mg을 IV로 6시간마다 투여받고 있다. 환자에겐 IV fluid resuscitation이 실시되었고, 음성 수분 평형이 확인되었다. 환자는 의식이 명료하다.",
+            "confidence": 0.0,
+            "words": []
+          }
+        ],
+        "language_code": "ko-KR",
+        "channel_tag": 0
+      }
+    ],
+    "detected_language_codes": [
+      "ko-KR"
+    ]
+  }
+}

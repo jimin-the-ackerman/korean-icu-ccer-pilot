@@ -1,0 +1,25 @@
+{
+  "sample_id": "scenario_068_clinical_charting",
+  "whisper_transcript": "68세 여성 아큐트 이스키믹 클리드스토 입원함 BP 9560mHr, HR 120bpm, RRCB Breast Mints, BT 선치첩, 정우국 셀스, SPO2 92% 룸웨어 severe abdominal pain 호소함 Metronidazole 500mg IV-Q HUT-H 적용함 Nasal cannula 2일 미는 유지함 Foley 유지함 Negative fluid balance 확인됨 환자 drowsy 상태 확인됨",
+  "stt_metadata": {
+    "asr_system": "whisper1",
+    "provider": "reuse_existing",
+    "model": "whisper-1",
+    "language": "ko",
+    "audio_path": "data/audio/scenario_068_clinical_charting.mp3",
+    "audio_sha256": "5fa6c33d0c872a0fb86e994a88ce63f278d8fc417483bf71e7f597fc69a0dbb2",
+    "copied_at": "2026-11-04T04:31:12+00:00",
+    "request_seconds": 0.0,
+    "attempts": 1,
+    "git_commit": "b3490181b3fb3f88b56cde5be78a01cfdcef3007",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "source_file": "data/stt_transcripts/scenario_068_clinical_charting.json",
+    "source_sha256": "2d82cf6e68defd9ad1410419f0c15d7d38538642c3450f99eec0b7d0b196e2fb",
+    "source_stt_metadata": {
+      "model": "whisper-1",
+      "language": "ko"
+    }
+  }
+}

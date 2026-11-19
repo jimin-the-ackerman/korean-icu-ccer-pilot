@@ -1,0 +1,25 @@
+{
+  "sample_id": "scenario_013_formal_template",
+  "whisper_transcript": "34세 여성 환자가 급성 세균성 뇌수마겸으로 입원하였다. 혈압은 110-170mm로 하락으로 측정되었으며, 심박수는 102bpm, 호흡수는 24breathsmin로 확인되었다. 체온은 39.0℃로 확인되었고, 산소포화도는 실내 공기에서 95%로 확인되었다. 환자는 심한 두통을 호소하였다. 세프트리액션 2g을 IB로 Q12H 투여 중이다. 환자는 C라인을 삽입한 상태이며 임상적으로 약간 졸린 상태이다.",
+  "stt_metadata": {
+    "asr_system": "whisper1_auto",
+    "provider": "openai",
+    "model": "whisper-1",
+    "language": null,
+    "audio_path": "data/audio/scenario_013_formal_template.mp3",
+    "audio_sha256": "152a8202206fa8eeb07ef372bcb0d5e6a1f1ff3353d6317cdd4076bc6340c617",
+    "transcribed_at": "2026-11-04T13:50:41+00:00",
+    "request_seconds": 2.64,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "34세 여성 환자가 급성 세균성 뇌수마겸으로 입원하였다. 혈압은 110-170mm로 하락으로 측정되었으며, 심박수는 102bpm, 호흡수는 24breathsmin로 확인되었다. 체온은 39.0℃로 확인되었고, 산소포화도는 실내 공기에서 95%로 확인되었다. 환자는 심한 두통을 호소하였다. 세프트리액션 2g을 IB로 Q12H 투여 중이다. 환자는 C라인을 삽입한 상태이며 임상적으로 약간 졸린 상태이다.",
+    "logprobs": null,
+    "usage": {
+      "seconds": 31.0,
+      "type": "duration"
+    }
+  }
+}

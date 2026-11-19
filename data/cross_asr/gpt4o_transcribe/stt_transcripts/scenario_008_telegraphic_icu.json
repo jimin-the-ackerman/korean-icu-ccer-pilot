@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_008_telegraphic_icu",
+  "whisper_transcript": "52세 남성 환자, 위장관 출혈로 입원, BP 120/60 mmHg, HR 100, RR 22 breaths/min, BT 37.0℃, SpO2 94%. Abdominal pain moderate, pantoprazole 40mg IV, nasal cannula 적용, blood transfusion 시행, NG tube 삽입하여 negative, 환자 drowsy 상태, gastroenterology team notify.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": "ko",
+    "audio_path": "data/audio/scenario_008_telegraphic_icu.mp3",
+    "audio_sha256": "753c11aea2071c4bf76c8c764931373c1fb60736137007cf0be221660a2e37a5",
+    "transcribed_at": "2026-11-04T12:54:26+00:00",
+    "request_seconds": 1.73,
+    "attempts": 1,
+    "git_commit": "5b6d73fb63e1509a79e1a160176d606ed1b104c4",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "52세 남성 환자, 위장관 출혈로 입원, BP 120/60 mmHg, HR 100, RR 22 breaths/min, BT 37.0℃, SpO2 94%. Abdominal pain moderate, pantoprazole 40mg IV, nasal cannula 적용, blood transfusion 시행, NG tube 삽입하여 negative, 환자 drowsy 상태, gastroenterology team notify.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 208,
+      "output_tokens": 94,
+      "total_tokens": 302,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 208,
+        "text_tokens": 0
+      }
+    }
+  }
+}

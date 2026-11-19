@@ -1,0 +1,43 @@
+{
+  "sample_id": "scenario_066_formal_template",
+  "whisper_transcript": "환자 정보. 59세 남성 환자가 고중성지방혈증으로 인한 급성 췌장염으로 입원하였다. 활력 징후. 혈압은 140/85mmHg로 측정되었고, 심박수는 110bpm으로 확인되었다. 호흡수는 22회/분이었으며, 체온은 38.5°C로 발열 상태이다. 산소 포화도는 95%로 확인되었다. 증상. 환자는 심한 복통을 호소하였다. 투약. 환자는 인슐린 10 units를 IV로 q6h 투여받고 있다. 중재. 환자에게는 수액 보충이 시행되었다. 배설. 24시간 동안의 소변 배출량은 1,500ml로 기록되었다. 임상 상태. 환자는 의식이 명료하였다. 통보. 고중성지방혈증 관리에 대한 내분비내과 상담이 필요함을 보고하였다.",
+  "stt_metadata": {
+    "asr_system": "chirp3_auto",
+    "provider": "google",
+    "model": "chirp_3",
+    "location": "us",
+    "language_codes": [
+      "auto"
+    ],
+    "audio_path": "data/audio/scenario_066_formal_template.mp3",
+    "audio_sha256": "bf2b98fcd45aa6119492d66cfcc817521e97bdd6e6d576ed9035e4a01521690a",
+    "transcribed_at": "2026-11-04T14:47:08+00:00",
+    "request_seconds": 7.6,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "metadata": {
+      "total_billed_duration": "47s",
+      "request_id": "749a93d8-0000-20fb-be89-ac3eb14196f0",
+      "prompt": "Transcribe the following speech segment. Follow these specific instructions for formatting the answer:\n* Only output the transcript, with no newlines.\n* When transcribing numbers, write the digits, i.e. write 1.7 and not one point seven, and write 100 instead of one hundred etc.\n* Only output the transcript, exactly as said in the speech segment.\n* Do not continue the speech segment.\n* Include everything said in the speech segment.\n* Use mathematical notation where needed, eg. x ^ 6Y.\n* If there is background speech that is not part of the main conversation, discard the background speech and only output the main conversation.\n* If there is no clear speech, just output [BACKGROUND].\n* Respond in the original language of the speech."
+    },
+    "results": [
+      {
+        "alternatives": [
+          {
+            "transcript": "환자 정보. 59세 남성 환자가 고중성지방혈증으로 인한 급성 췌장염으로 입원하였다. 활력 징후. 혈압은 140/85mmHg로 측정되었고, 심박수는 110bpm으로 확인되었다. 호흡수는 22회/분이었으며, 체온은 38.5°C로 발열 상태이다. 산소 포화도는 95%로 확인되었다. 증상. 환자는 심한 복통을 호소하였다. 투약. 환자는 인슐린 10 units를 IV로 q6h 투여받고 있다. 중재. 환자에게는 수액 보충이 시행되었다. 배설. 24시간 동안의 소변 배출량은 1,500ml로 기록되었다. 임상 상태. 환자는 의식이 명료하였다. 통보. 고중성지방혈증 관리에 대한 내분비내과 상담이 필요함을 보고하였다.",
+            "confidence": 0.0,
+            "words": []
+          }
+        ],
+        "language_code": "ko",
+        "channel_tag": 0
+      }
+    ],
+    "detected_language_codes": [
+      "ko"
+    ]
+  }
+}

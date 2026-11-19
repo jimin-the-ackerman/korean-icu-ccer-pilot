@@ -1,0 +1,43 @@
+{
+  "sample_id": "scenario_035_clinical_charting",
+  "whisper_transcript": "62세 여성 환자 acute decompensated heart failure, dilated cardiomyopathy 기납. BP 85/60 mmHg, HR 110 bpm, R 24 breaths/min, BT 36.8°C, SpO2 90% on room air 확인됨. Shortness of breath severe. Furosemide 40 mg IV Q8H 적용함. 4 L/min via nasal cannula 산소 공급 유지함. Folly 유지함. I/O negative balance of 500 ml over 24 hours. Clinical status drowsy 확인됨. Cardiology 팀 notify 함 for persistent hypotension.",
+  "stt_metadata": {
+    "asr_system": "chirp3_ko",
+    "provider": "google",
+    "model": "chirp_3",
+    "location": "us",
+    "language_codes": [
+      "ko-KR"
+    ],
+    "audio_path": "data/audio/scenario_035_clinical_charting.mp3",
+    "audio_sha256": "fb85f12693372d504dbfa8d33f909792a15041f1cba1c7c59e4ad269aa9c6346",
+    "transcribed_at": "2026-11-04T13:17:54+00:00",
+    "request_seconds": 4.55,
+    "attempts": 1,
+    "git_commit": "5b6d73fb63e1509a79e1a160176d606ed1b104c4",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "metadata": {
+      "total_billed_duration": "32s",
+      "request_id": "6af87bfd-0000-29e4-b075-d4f547efb418",
+      "prompt": "Transcribe the following speech segment in Korean. Follow these specific instructions for formatting the answer:\n* Only output the transcript, with no newlines.\n* When transcribing numbers, write the digits, i.e. write 1.7 and not one point seven, and write 100 instead of one hundred etc.\n* Only output the transcript, exactly as said in the speech segment.\n* Do not continue the speech segment.\n* Include everything said in the speech segment.\n* Use mathematical notation where needed, eg. x ^ 6Y.\n* If there is background speech that is not part of the main conversation, discard the background speech and only output the main conversation.\n* If there is no clear speech, just output [BACKGROUND].\n* Respond in the original language of the speech, Korean."
+    },
+    "results": [
+      {
+        "alternatives": [
+          {
+            "transcript": "62세 여성 환자 acute decompensated heart failure, dilated cardiomyopathy 기납. BP 85/60 mmHg, HR 110 bpm, R 24 breaths/min, BT 36.8°C, SpO2 90% on room air 확인됨. Shortness of breath severe. Furosemide 40 mg IV Q8H 적용함. 4 L/min via nasal cannula 산소 공급 유지함. Folly 유지함. I/O negative balance of 500 ml over 24 hours. Clinical status drowsy 확인됨. Cardiology 팀 notify 함 for persistent hypotension.",
+            "confidence": 0.0,
+            "words": []
+          }
+        ],
+        "language_code": "ko-KR",
+        "channel_tag": 0
+      }
+    ],
+    "detected_language_codes": [
+      "ko-KR"
+    ]
+  }
+}

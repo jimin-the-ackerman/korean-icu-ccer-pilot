@@ -1,0 +1,25 @@
+{
+  "sample_id": "scenario_011_clinical_charting",
+  "whisper_transcript": "62-year-old male patient with acute liver failure. Cause of death is Hepatitis B. Vital signs, BP, 1, 0, ortho, 68, HRP, 80, RR, Huanqi, BT, CERN, Chitinosis, SpO2, 25%. Severe jaundice observed. Lactulose 30 milliliter POTA prescribed. Oxygen support, nasal cannulate 2 laminate applied. Fully maintained. Clinical status, drowsy status confirmed. Hepatology team notify him.",
+  "stt_metadata": {
+    "asr_system": "whisper1_auto",
+    "provider": "openai",
+    "model": "whisper-1",
+    "language": null,
+    "audio_path": "data/audio/scenario_011_clinical_charting.mp3",
+    "audio_sha256": "b82d6aa5c769d3440e9c47c11e5120b0db8f39dbb6a8b253c34bf780257b81d3",
+    "transcribed_at": "2026-11-04T13:50:30+00:00",
+    "request_seconds": 2.06,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "62-year-old male patient with acute liver failure. Cause of death is Hepatitis B. Vital signs, BP, 1, 0, ortho, 68, HRP, 80, RR, Huanqi, BT, CERN, Chitinosis, SpO2, 25%. Severe jaundice observed. Lactulose 30 milliliter POTA prescribed. Oxygen support, nasal cannulate 2 laminate applied. Fully maintained. Clinical status, drowsy status confirmed. Hepatology team notify him.",
+    "logprobs": null,
+    "usage": {
+      "seconds": 24.0,
+      "type": "duration"
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_011_clinical_charting",
+  "whisper_transcript": "60세 남성 환자 acute liver failure로 입원. 원인은 hepatitis B. Vital signs: BP 150/68, HR 88, RR 36, BT 37.7도, SpO2 95%. Severe jaundice 관찰됨. Lactulose 30mL PO qd 처방됨. Oxygen support nasal cannula 2L/min 적용함. Foley 유지함. Clinical status drowsy 상태 확인됨. Hepatology team notify 함.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": "ko",
+    "audio_path": "data/audio/scenario_011_clinical_charting.mp3",
+    "audio_sha256": "b82d6aa5c769d3440e9c47c11e5120b0db8f39dbb6a8b253c34bf780257b81d3",
+    "transcribed_at": "2026-11-04T12:54:41+00:00",
+    "request_seconds": 2.12,
+    "attempts": 1,
+    "git_commit": "5b6d73fb63e1509a79e1a160176d606ed1b104c4",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "60세 남성 환자 acute liver failure로 입원. 원인은 hepatitis B. Vital signs: BP 150/68, HR 88, RR 36, BT 37.7도, SpO2 95%. Severe jaundice 관찰됨. Lactulose 30mL PO qd 처방됨. Oxygen support nasal cannula 2L/min 적용함. Foley 유지함. Clinical status drowsy 상태 확인됨. Hepatology team notify 함.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 230,
+      "output_tokens": 102,
+      "total_tokens": 332,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 230,
+        "text_tokens": 0
+      }
+    }
+  }
+}

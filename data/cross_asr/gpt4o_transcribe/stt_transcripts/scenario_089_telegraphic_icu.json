@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_089_telegraphic_icu",
+  "whisper_transcript": "입시 그새 남환자. 나시로 인한 만성 간질환 급서로 입원. BP 92, 98 mmHg, HR, RR 24 breaths min, BT 37.2 dC, SpO2 89% sun room air, ascites moderate, spironolactone 100 mg PO BID, nasal cannula 3L Foley, negative fluid balance 500 mL, drowsy, hepatology team notify.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": "ko",
+    "audio_path": "data/audio/scenario_089_telegraphic_icu.mp3",
+    "audio_sha256": "c92b3dd1a9c65918d354a7e64ed4e562140ab0f73105204ffc9459b80c1587bc",
+    "transcribed_at": "2026-11-04T13:04:19+00:00",
+    "request_seconds": 1.9,
+    "attempts": 1,
+    "git_commit": "5b6d73fb63e1509a79e1a160176d606ed1b104c4",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "입시 그새 남환자. 나시로 인한 만성 간질환 급서로 입원. BP 92, 98 mmHg, HR, RR 24 breaths min, BT 37.2 dC, SpO2 89% sun room air, ascites moderate, spironolactone 100 mg PO BID, nasal cannula 3L Foley, negative fluid balance 500 mL, drowsy, hepatology team notify.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 217,
+      "output_tokens": 101,
+      "total_tokens": 318,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 217,
+        "text_tokens": 0
+      }
+    }
+  }
+}

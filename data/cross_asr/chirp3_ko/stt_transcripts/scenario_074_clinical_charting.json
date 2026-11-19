@@ -1,0 +1,43 @@
+{
+  "sample_id": "scenario_074_clinical_charting",
+  "whisper_transcript": "70세 남성 급성 하이퍼글라이세믹 코마로 입원. BP 110/70, HR 55, RR 16 breath/min, BT 36.2, 98% room air. Severe unconsciousness 확인됨. 덱스트로스 50% 50ml IV stat 투여함. IV 글루코스 어드민스트레이션 적용함. 임상 상태, unresponsive. 내분비내과 의사에게 알림.",
+  "stt_metadata": {
+    "asr_system": "chirp3_ko",
+    "provider": "google",
+    "model": "chirp_3",
+    "location": "us",
+    "language_codes": [
+      "ko-KR"
+    ],
+    "audio_path": "data/audio/scenario_074_clinical_charting.mp3",
+    "audio_sha256": "5abe9700ee0df2177437c89feab050ed5e6b86dd95eff33e1f93f0b6e0de68cb",
+    "transcribed_at": "2026-11-04T13:27:15+00:00",
+    "request_seconds": 3.36,
+    "attempts": 1,
+    "git_commit": "5b6d73fb63e1509a79e1a160176d606ed1b104c4",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "metadata": {
+      "total_billed_duration": "22s",
+      "request_id": "6afbbb8e-0000-243e-a18d-d4f547f46094",
+      "prompt": "Transcribe the following speech segment in Korean. Follow these specific instructions for formatting the answer:\n* Only output the transcript, with no newlines.\n* When transcribing numbers, write the digits, i.e. write 1.7 and not one point seven, and write 100 instead of one hundred etc.\n* Only output the transcript, exactly as said in the speech segment.\n* Do not continue the speech segment.\n* Include everything said in the speech segment.\n* Use mathematical notation where needed, eg. x ^ 6Y.\n* If there is background speech that is not part of the main conversation, discard the background speech and only output the main conversation.\n* If there is no clear speech, just output [BACKGROUND].\n* Respond in the original language of the speech, Korean."
+    },
+    "results": [
+      {
+        "alternatives": [
+          {
+            "transcript": "70세 남성 급성 하이퍼글라이세믹 코마로 입원. BP 110/70, HR 55, RR 16 breath/min, BT 36.2, 98% room air. Severe unconsciousness 확인됨. 덱스트로스 50% 50ml IV stat 투여함. IV 글루코스 어드민스트레이션 적용함. 임상 상태, unresponsive. 내분비내과 의사에게 알림.",
+            "confidence": 0.0,
+            "words": []
+          }
+        ],
+        "language_code": "ko-KR",
+        "channel_tag": 0
+      }
+    ],
+    "detected_language_codes": [
+      "ko-KR"
+    ]
+  }
+}

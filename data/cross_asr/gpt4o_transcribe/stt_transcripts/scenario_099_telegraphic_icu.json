@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_099_telegraphic_icu",
+  "whisper_transcript": "71yoM, CHF acute exacerbation, pulmonary edema, BP 160/90, HR 105 bpm, RR 28 breaths/min, BT 37.5°C, SpO2 88% room air, severe dyspnea. Furosemide 40mg IV q8h, high-flow nasal cannula 40LPM, positive fluid balance 2000ml, clinical status drowsy. Cardiology consult requested.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": "ko",
+    "audio_path": "data/audio/scenario_099_telegraphic_icu.mp3",
+    "audio_sha256": "aa91339c5853e2553dd68f8695b13874aeb3e4036b29d5d526a2c64830811979",
+    "transcribed_at": "2026-11-04T13:05:25+00:00",
+    "request_seconds": 1.74,
+    "attempts": 1,
+    "git_commit": "5b6d73fb63e1509a79e1a160176d606ed1b104c4",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "71yoM, CHF acute exacerbation, pulmonary edema, BP 160/90, HR 105 bpm, RR 28 breaths/min, BT 37.5°C, SpO2 88% room air, severe dyspnea. Furosemide 40mg IV q8h, high-flow nasal cannula 40LPM, positive fluid balance 2000ml, clinical status drowsy. Cardiology consult requested.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 226,
+      "output_tokens": 93,
+      "total_tokens": 319,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 226,
+        "text_tokens": 0
+      }
+    }
+  }
+}

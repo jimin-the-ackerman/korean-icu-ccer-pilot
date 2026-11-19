@@ -1,0 +1,13 @@
+{
+  "sample_id": "scenario_063_telegraphic_icu",
+  "gold_entities": null,
+  "whisper_entities": {
+    "symptoms": [],
+    "clinical_status": null,
+    "medication_identity": null,
+    "interventions": [],
+    "intake_output": null,
+    "notification": null
+  },
+  "empty_response_rule": "docs/cross_asr_spec.md 12.2 (no API call)"
+}

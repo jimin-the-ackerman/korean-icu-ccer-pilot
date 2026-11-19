@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_049_clinical_charting",
+  "whisper_transcript": "54세 여자 환자 라이트니 셉틱 아르트라이더스로 입원. BPOE 65mmHg, HR 175bpm, RR 24bpm, BT 38.5℃, SpO2 96% 룸에어에서. 세비어 니 페인 호소함, 뱅코마이신 윈관 IV QCBH 투여 중. 라이트니 조인트 아스퍼레이션 시행함. 파지티브 플루이드 밸런스 500ml 기록됨. 환자 얼럿 상태 유지함. 정형외과 컨설트 요청함.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": "ko",
+    "audio_path": "data/audio/scenario_049_clinical_charting.mp3",
+    "audio_sha256": "8a17ed445ff7f24f419bbf06f2b3cfede176b5715b22c9da661d267461a1fb72",
+    "transcribed_at": "2026-11-04T12:58:45+00:00",
+    "request_seconds": 2.87,
+    "attempts": 1,
+    "git_commit": "5b6d73fb63e1509a79e1a160176d606ed1b104c4",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "54세 여자 환자 라이트니 셉틱 아르트라이더스로 입원. BPOE 65mmHg, HR 175bpm, RR 24bpm, BT 38.5℃, SpO2 96% 룸에어에서. 세비어 니 페인 호소함, 뱅코마이신 윈관 IV QCBH 투여 중. 라이트니 조인트 아스퍼레이션 시행함. 파지티브 플루이드 밸런스 500ml 기록됨. 환자 얼럿 상태 유지함. 정형외과 컨설트 요청함.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 245,
+      "output_tokens": 138,
+      "total_tokens": 383,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 245,
+        "text_tokens": 0
+      }
+    }
+  }
+}

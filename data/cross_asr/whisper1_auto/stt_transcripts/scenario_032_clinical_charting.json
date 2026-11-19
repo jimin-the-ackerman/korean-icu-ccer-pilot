@@ -1,0 +1,25 @@
+{
+  "sample_id": "scenario_032_clinical_charting",
+  "whisper_transcript": "67세 여자 환자, 폐질환 악화로 인한 급성 호흡 부전으로 입원함. BP 140, 85mmHr, HR 약 80bpm, RR 아스트라제네임, BT 37.6, 50% Severe dyspnea 호소함. Methylprednisolone 60mg IV Q-SHREG 적용함. High flow nasal cannula 유지함. Ventilator 사용 중임. 의식상태 drowsy 확인됨.",
+  "stt_metadata": {
+    "asr_system": "whisper1_auto",
+    "provider": "openai",
+    "model": "whisper-1",
+    "language": null,
+    "audio_path": "data/audio/scenario_032_clinical_charting.mp3",
+    "audio_sha256": "7cbd3a63f808e7c873ae57ee4c6bdd44a9b3490e1428948e26d873aa0bb0e900",
+    "transcribed_at": "2026-11-04T13:52:45+00:00",
+    "request_seconds": 2.74,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "67세 여자 환자, 폐질환 악화로 인한 급성 호흡 부전으로 입원함. BP 140, 85mmHr, HR 약 80bpm, RR 아스트라제네임, BT 37.6, 50% Severe dyspnea 호소함. Methylprednisolone 60mg IV Q-SHREG 적용함. High flow nasal cannula 유지함. Ventilator 사용 중임. 의식상태 drowsy 확인됨.",
+    "logprobs": null,
+    "usage": {
+      "seconds": 23.0,
+      "type": "duration"
+    }
+  }
+}

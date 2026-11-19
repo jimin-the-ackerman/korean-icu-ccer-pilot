@@ -1,0 +1,26 @@
+{
+  "sample_id": "scenario_007_clinical_charting",
+  "whisper_transcript": "60-year-old female patient admitted to COPD Aquarium. BP 1,85 millimeter, HR, DIGIVI, BPM. RR28 breaths min, B3 seal confirmed. SBO2 89% on room air confirmed. Severe shortness of breath reported. Methylprednisolone 60 milligram IVQ6H2. 2L nasal cannula applied. Positive fluid balance confirmed. Clinical status drowsy confirmed. Pulmonologist notify.",
+  "stt_metadata": {
+    "asr_system": "whisper1_auto",
+    "provider": "openai",
+    "model": "whisper-1",
+    "language": null,
+    "scope": "pilot",
+    "audio_path": "data/audio/scenario_007_clinical_charting.mp3",
+    "audio_sha256": "2a8e9d8d4176300179109e6970b27bf18078456b0f1482510ef806345c6c925b",
+    "transcribed_at": "2026-11-04T13:40:17+00:00",
+    "request_seconds": 4.05,
+    "attempts": 1,
+    "git_commit": "5b6d73fb63e1509a79e1a160176d606ed1b104c4",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "60-year-old female patient admitted to COPD Aquarium. BP 1,85 millimeter, HR, DIGIVI, BPM. RR28 breaths min, B3 seal confirmed. SBO2 89% on room air confirmed. Severe shortness of breath reported. Methylprednisolone 60 milligram IVQ6H2. 2L nasal cannula applied. Positive fluid balance confirmed. Clinical status drowsy confirmed. Pulmonologist notify.",
+    "logprobs": null,
+    "usage": {
+      "seconds": 25.0,
+      "type": "duration"
+    }
+  }
+}

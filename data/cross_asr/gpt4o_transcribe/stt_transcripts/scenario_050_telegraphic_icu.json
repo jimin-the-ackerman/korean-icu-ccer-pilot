@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_050_telegraphic_icu",
+  "whisper_transcript": "67M acute heart failure hypertensive emergency BP 221/ HR 101 RR 28 breaths BT 36.7℃ SpO2 90% RA severe chest pain nitroglycerin 10 mg min IV TID HFNC applied C line in place positive fluid balance drowsy cardiology team notify",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": "ko",
+    "audio_path": "data/audio/scenario_050_telegraphic_icu.mp3",
+    "audio_sha256": "befbd07d65e0a47695e7c38642caf6bdea1dab6878445065206344212a3c06d7",
+    "transcribed_at": "2026-11-04T12:58:56+00:00",
+    "request_seconds": 1.49,
+    "attempts": 1,
+    "git_commit": "5b6d73fb63e1509a79e1a160176d606ed1b104c4",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "67M acute heart failure hypertensive emergency BP 221/ HR 101 RR 28 breaths BT 36.7℃ SpO2 90% RA severe chest pain nitroglycerin 10 mg min IV TID HFNC applied C line in place positive fluid balance drowsy cardiology team notify",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 194,
+      "output_tokens": 65,
+      "total_tokens": 259,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 194,
+        "text_tokens": 0
+      }
+    }
+  }
+}

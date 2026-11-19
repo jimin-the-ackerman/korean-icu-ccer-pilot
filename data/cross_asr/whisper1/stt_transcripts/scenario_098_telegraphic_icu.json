@@ -1,0 +1,25 @@
+{
+  "sample_id": "scenario_098_telegraphic_icu",
+  "whisper_transcript": "50베이트 세여성 H2O 입원 중 BP 98, 65, HR10, RR24, BT37, 8, SbO2 92%, Severe fatigue, methylprednisolone 500mg IVQ12H, nasal cannula, C-line, negative fluid balance, drowsy, hematology consult.",
+  "stt_metadata": {
+    "asr_system": "whisper1",
+    "provider": "reuse_existing",
+    "model": "whisper-1",
+    "language": "ko",
+    "audio_path": "data/audio/scenario_098_telegraphic_icu.mp3",
+    "audio_sha256": "dc1b7cb4da129e22a20c20a109927be24e4b60e0e5c606b49c429a6d5ff90ac7",
+    "copied_at": "2026-11-04T04:31:12+00:00",
+    "request_seconds": 0.0,
+    "attempts": 1,
+    "git_commit": "b3490181b3fb3f88b56cde5be78a01cfdcef3007",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "source_file": "data/stt_transcripts/scenario_098_telegraphic_icu.json",
+    "source_sha256": "136cbd7c58e7d493a30b763666a48eea676760c3ffd23885e7b84a0d76d3b81f",
+    "source_stt_metadata": {
+      "model": "whisper-1",
+      "language": "ko"
+    }
+  }
+}

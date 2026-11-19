@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_080_clinical_charting",
+  "whisper_transcript": "50세 남성 환자. 알코홀릭 시로시스로 인한 acute exacerbation of chronic liver failure로 입원. Vital signs: BP 75/60 mmHg, HR regular 80 bpm, RR 22 breaths/min, BT 37.9°C, SpO2 87% room air. Severe jaundice 확인됨. Furosemide 40 mg IV BID 적용함. Oxygen 2L nasal cannula 유지함. Foley 유지함. Negative fluid balance 기록됨. Drowsy 상태 확인됨. Hepatology consult 요청함.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": "ko",
+    "audio_path": "data/audio/scenario_080_clinical_charting.mp3",
+    "audio_sha256": "6cf0576e59ee28160e99fbb474a4b66dbc9bce4c0ced7a9152ef231fc0b6c4d0",
+    "transcribed_at": "2026-11-04T13:03:13+00:00",
+    "request_seconds": 1.97,
+    "attempts": 1,
+    "git_commit": "5b6d73fb63e1509a79e1a160176d606ed1b104c4",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "50세 남성 환자. 알코홀릭 시로시스로 인한 acute exacerbation of chronic liver failure로 입원. Vital signs: BP 75/60 mmHg, HR regular 80 bpm, RR 22 breaths/min, BT 37.9°C, SpO2 87% room air. Severe jaundice 확인됨. Furosemide 40 mg IV BID 적용함. Oxygen 2L nasal cannula 유지함. Foley 유지함. Negative fluid balance 기록됨. Drowsy 상태 확인됨. Hepatology consult 요청함.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 275,
+      "output_tokens": 121,
+      "total_tokens": 396,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 275,
+        "text_tokens": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "sample_id": "scenario_060_clinical_charting",
+  "whisper_transcript": "70세 남성 파킨슨스 디지즈 어큐트 엑사서베이션으로 입원. BP 185/55 mmHg, HR 88 bpm, BT 37.2도, SpO2 95%. 리지디티 시비어 확인됨. 레보도파 100mg tid 적용함. 폴리 유지함. IoT 챔버를 24시간 기록됨. 클리니컬 스테이터스 드라우지 확인됨.",
+  "stt_metadata": {
+    "asr_system": "chirp3_ko",
+    "provider": "google",
+    "model": "chirp_3",
+    "location": "us",
+    "language_codes": [
+      "ko-KR"
+    ],
+    "audio_path": "data/audio/scenario_060_clinical_charting.mp3",
+    "audio_sha256": "b5bb23e6fa399f6a22ca3ab1f2bb4fed248940d7d86fbc646af8ef3c10dcc733",
+    "transcribed_at": "2026-11-04T13:23:39+00:00",
+    "request_seconds": 4.29,
+    "attempts": 1,
+    "git_commit": "5b6d73fb63e1509a79e1a160176d606ed1b104c4",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "metadata": {
+      "total_billed_duration": "21s",
+      "request_id": "6db4bebf-0000-2ee3-8d7c-14223bb80056",
+      "prompt": "Transcribe the following speech segment in Korean. Follow these specific instructions for formatting the answer:\n* Only output the transcript, with no newlines.\n* When transcribing numbers, write the digits, i.e. write 1.7 and not one point seven, and write 100 instead of one hundred etc.\n* Only output the transcript, exactly as said in the speech segment.\n* Do not continue the speech segment.\n* Include everything said in the speech segment.\n* Use mathematical notation where needed, eg. x ^ 6Y.\n* If there is background speech that is not part of the main conversation, discard the background speech and only output the main conversation.\n* If there is no clear speech, just output [BACKGROUND].\n* Respond in the original language of the speech, Korean."
+    },
+    "results": [
+      {
+        "alternatives": [
+          {
+            "transcript": "70세 남성 파킨슨스 디지즈 어큐트 엑사서베이션으로 입원. BP 185/55 mmHg, HR 88 bpm, BT 37.2도, SpO2 95%. 리지디티 시비어 확인됨. 레보도파 100mg tid 적용함. 폴리 유지함. IoT 챔버를 24시간 기록됨. 클리니컬 스테이터스 드라우지 확인됨.",
+            "confidence": 0.0,
+            "words": []
+          }
+        ],
+        "language_code": "ko-KR",
+        "channel_tag": 0
+      }
+    ],
+    "detected_language_codes": [
+      "ko-KR"
+    ]
+  }
+}

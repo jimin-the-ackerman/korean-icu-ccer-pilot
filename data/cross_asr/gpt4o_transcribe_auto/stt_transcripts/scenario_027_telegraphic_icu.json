@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_027_telegraphic_icu",
+  "whisper_transcript": "60세 남성 급성 허혈성 뇌졸중으로 입원. BP 160/90, HR 88, RR 18, BT 37.5, SpO2 99%. 오른쪽 약화 중등도. 알테플레이스 0.9mg/kg IV STAT, C-line 유지 중, IV fluids 시작, 졸린 상태. 신경과 팀 알림하십시오.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe_auto",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": null,
+    "audio_path": "data/audio/scenario_027_telegraphic_icu.mp3",
+    "audio_sha256": "652e7e5a9c8a2f28975b949694bffebc9530064f56e840c14c21a498b6819967",
+    "transcribed_at": "2026-11-04T14:06:37+00:00",
+    "request_seconds": 1.68,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "60세 남성 급성 허혈성 뇌졸중으로 입원. BP 160/90, HR 88, RR 18, BT 37.5, SpO2 99%. 오른쪽 약화 중등도. 알테플레이스 0.9mg/kg IV STAT, C-line 유지 중, IV fluids 시작, 졸린 상태. 신경과 팀 알림하십시오.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 168,
+      "output_tokens": 90,
+      "total_tokens": 258,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 168,
+        "text_tokens": 0
+      }
+    }
+  }
+}

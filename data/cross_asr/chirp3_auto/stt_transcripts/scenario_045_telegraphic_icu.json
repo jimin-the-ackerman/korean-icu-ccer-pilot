@@ -1,0 +1,43 @@
+{
+  "sample_id": "scenario_045_telegraphic_icu",
+  "whisper_transcript": "60-y-o male, Addison's disease, room 201. BP 80/50, soft, T 98.6, RR 24 breaths/min, Bilat LS, SpO2 98% RA. Severe abdominal pain. Hydrocortisone 100 mg IV stat. Nasal cannula 2 L/min. Fluid resuscitation with NS. Foley present. Urine output 30 mL/hr. Drowsy. Endocrinology consult.",
+  "stt_metadata": {
+    "asr_system": "chirp3_auto",
+    "provider": "google",
+    "model": "chirp_3",
+    "location": "us",
+    "language_codes": [
+      "auto"
+    ],
+    "audio_path": "data/audio/scenario_045_telegraphic_icu.mp3",
+    "audio_sha256": "1131ad8ecf3b06648fd717a109f257f8e736feda6092726153b347a10c10510b",
+    "transcribed_at": "2026-11-04T14:28:16+00:00",
+    "request_seconds": 4.84,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "metadata": {
+      "total_billed_duration": "24s",
+      "request_id": "6e679a89-0000-26a3-b5eb-14223bc6e2be",
+      "prompt": "Transcribe the following speech segment. Follow these specific instructions for formatting the answer:\n* Only output the transcript, with no newlines.\n* When transcribing numbers, write the digits, i.e. write 1.7 and not one point seven, and write 100 instead of one hundred etc.\n* Only output the transcript, exactly as said in the speech segment.\n* Do not continue the speech segment.\n* Include everything said in the speech segment.\n* Use mathematical notation where needed, eg. x ^ 6Y.\n* If there is background speech that is not part of the main conversation, discard the background speech and only output the main conversation.\n* If there is no clear speech, just output [BACKGROUND].\n* Respond in the original language of the speech."
+    },
+    "results": [
+      {
+        "alternatives": [
+          {
+            "transcript": "60-y-o male, Addison's disease, room 201. BP 80/50, soft, T 98.6, RR 24 breaths/min, Bilat LS, SpO2 98% RA. Severe abdominal pain. Hydrocortisone 100 mg IV stat. Nasal cannula 2 L/min. Fluid resuscitation with NS. Foley present. Urine output 30 mL/hr. Drowsy. Endocrinology consult.",
+            "confidence": 0.0,
+            "words": []
+          }
+        ],
+        "language_code": "en",
+        "channel_tag": 0
+      }
+    ],
+    "detected_language_codes": [
+      "en"
+    ]
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_054_telegraphic_icu",
+  "whisper_transcript": "55세 여성, 뇌동맥류 파열로 인한 지주막하출혈로 입원. BP 160mmHg, HR 80bpm, RR 22 breaths/min, BT 36.8℃, SpO2 92% room air, severe headache, nimodipine 60mg PO q4hr, nasal cannula 3L/min, C-line, drowsy. Neuro team notify.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe_auto",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": null,
+    "audio_path": "data/audio/scenario_054_telegraphic_icu.mp3",
+    "audio_sha256": "31d397671ba27b6306d29bb2cc9e19b90e0916819bffe8129fadea0199614b2c",
+    "transcribed_at": "2026-11-04T14:10:13+00:00",
+    "request_seconds": 1.57,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "55세 여성, 뇌동맥류 파열로 인한 지주막하출혈로 입원. BP 160mmHg, HR 80bpm, RR 22 breaths/min, BT 36.8℃, SpO2 92% room air, severe headache, nimodipine 60mg PO q4hr, nasal cannula 3L/min, C-line, drowsy. Neuro team notify.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 184,
+      "output_tokens": 94,
+      "total_tokens": 278,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 184,
+        "text_tokens": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "sample_id": "scenario_087_clinical_charting",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "muscle spasms",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "drowsy",
+    "medication_identity": "Diazepam",
+    "interventions": [
+      "wound debridement"
+    ],
+    "intake_output": "I/O strict monitoring 유지함",
+    "notification": "Neurology consult muscle spasms management 위해 담당의 notify함"
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "tetanus",
+        "negation": false,
+        "severity": "severe"
+      },
+      {
+        "name": "puncture wound foot",
+        "negation": false,
+        "severity": null
+      },
+      {
+        "name": "muscle spasms",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "drowsy",
+    "medication_identity": "디아제팜",
+    "interventions": [
+      "Wound debridement"
+    ],
+    "intake_output": "IO strict monitoring",
+    "notification": "Neurology 컨설트 muscle spasms management 위해 담당에 notify 함"
+  }
+}

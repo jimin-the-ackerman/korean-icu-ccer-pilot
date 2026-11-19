@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_056_formal_template",
+  "whisper_transcript": "47세 여성 환자가 급성 중증 천식 악화로 입원하였다. 활력징후는 혈압이 135/85mmHg, 심박수가 110bpm, 호흡수가 32breaths/min, 체온이 37.5℃로 확인되었다. 산소포화도는 실내 공기에서 88%로 나타났다. 환자는 심한 위징을 호소하였다. 알부테롤 2.5mg을 IV로 4시간마다 투여하고 있다. 현재 하이 플로우 네이절 캐뉼라로 산소치료를 받고 있으며 NG 튜브가 삽입되어 있다. 수분 균형 상태는 500mL 음성이다. 환자는 졸린 상태를 보이고 있다. 급한 평가가 필요하여 펄모놀로지 팀에 보고하였다.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe_auto",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": null,
+    "audio_path": "data/audio/scenario_056_formal_template.mp3",
+    "audio_sha256": "a08aa2bde556240d5ec77d8ad3e2626e249cd15f25d73ccb7acdd3b57e6803fe",
+    "transcribed_at": "2026-11-04T14:10:26+00:00",
+    "request_seconds": 3.23,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "47세 여성 환자가 급성 중증 천식 악화로 입원하였다. 활력징후는 혈압이 135/85mmHg, 심박수가 110bpm, 호흡수가 32breaths/min, 체온이 37.5℃로 확인되었다. 산소포화도는 실내 공기에서 88%로 나타났다. 환자는 심한 위징을 호소하였다. 알부테롤 2.5mg을 IV로 4시간마다 투여하고 있다. 현재 하이 플로우 네이절 캐뉼라로 산소치료를 받고 있으며 NG 튜브가 삽입되어 있다. 수분 균형 상태는 500mL 음성이다. 환자는 졸린 상태를 보이고 있다. 급한 평가가 필요하여 펄모놀로지 팀에 보고하였다.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 399,
+      "output_tokens": 191,
+      "total_tokens": 590,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 399,
+        "text_tokens": 0
+      }
+    }
+  }
+}

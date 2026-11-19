@@ -1,0 +1,25 @@
+{
+  "sample_id": "scenario_086_telegraphic_icu",
+  "whisper_transcript": "55 Sayosong, AML, febrile neutropenia, BP 90, 60, miniature hair garden, 10 BPM, R, 24 breaths, min B, 39.2, SbO2, 96% remer, severe fever, piperalizontazobactam, 4.5 gram IV, Q6H. Antibiotic therapy schtack, drowsy. Oncologist notify.",
+  "stt_metadata": {
+    "asr_system": "whisper1_auto",
+    "provider": "openai",
+    "model": "whisper-1",
+    "language": null,
+    "audio_path": "data/audio/scenario_086_telegraphic_icu.mp3",
+    "audio_sha256": "a82ecaa91f239ff8914cf156ee2d229261a195329404fc0944a182df0f7894d1",
+    "transcribed_at": "2026-11-04T14:00:29+00:00",
+    "request_seconds": 1.75,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "55 Sayosong, AML, febrile neutropenia, BP 90, 60, miniature hair garden, 10 BPM, R, 24 breaths, min B, 39.2, SbO2, 96% remer, severe fever, piperalizontazobactam, 4.5 gram IV, Q6H. Antibiotic therapy schtack, drowsy. Oncologist notify.",
+    "logprobs": null,
+    "usage": {
+      "seconds": 17.0,
+      "type": "duration"
+    }
+  }
+}

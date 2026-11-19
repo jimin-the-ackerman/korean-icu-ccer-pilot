@@ -1,0 +1,25 @@
+{
+  "sample_id": "scenario_047_formal_template",
+  "whisper_transcript": "45세 여성 환자가 레지오넬라 감염으로 인한 중증 폐렴으로 입원하였다. 활력증 후로는 혈압이 110mg, 심박수가 95bpm, 호흡수가 28bpm, 체온이 38.5°C, 산소포화도가 실내 공기에서 88%로 확인되었다. 환자는 심한 기침을 호소하였다. 레버플럭셋은 750mg을 IB로 12시간 간격으로 투여 중이다. 고유속 비강 캐큘라를 통해 산소 공급을 받고 있으며 인공호흡기를 사용하고 있다. 지난 24시간 동안의 체액균형은 음성이었다. 환자는 기면 상태를 보였다. 환자의 상태 악화에 대해 감염내과 전문의에게 보고하였다.",
+  "stt_metadata": {
+    "asr_system": "whisper1",
+    "provider": "reuse_existing",
+    "model": "whisper-1",
+    "language": "ko",
+    "audio_path": "data/audio/scenario_047_formal_template.mp3",
+    "audio_sha256": "17fdc7cd80f2e70b14a1e5636cf7df1e002a25afb25520c75a7614a856a4a991",
+    "copied_at": "2026-11-04T04:31:11+00:00",
+    "request_seconds": 0.0,
+    "attempts": 1,
+    "git_commit": "b3490181b3fb3f88b56cde5be78a01cfdcef3007",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "source_file": "data/stt_transcripts/scenario_047_formal_template.json",
+    "source_sha256": "6268175aa9ce9160951e75a4cb71163de1829e684f5b016fb26db5514d3d05a0",
+    "source_stt_metadata": {
+      "model": "whisper-1",
+      "language": "ko"
+    }
+  }
+}

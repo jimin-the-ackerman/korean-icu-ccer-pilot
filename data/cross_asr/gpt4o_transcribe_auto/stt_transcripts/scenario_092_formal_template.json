@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_092_formal_template",
+  "whisper_transcript": "54세 남자 환자가 고칼슘 혈증으로 인한 급성 췌장염으로 입원하였다. 활력 징후는 혈압 135/85mmHg, 심박수 110bpm, 호흡수 22bpm, 체온 37.8도C, 산소포화도 94%로 실내 공기 상태이다. 환자는 심한 복통을 호소하였다. 현재 판토프라졸 40mg을 IV로 BID 투여 중이다. NG 튜브가 삽입되어 있다. 환자는 의식이 명료하다. 고칼슘 혈증 관리를 위해 내분비과에 협진을 요청하였다.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe_auto",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": null,
+    "audio_path": "data/audio/scenario_092_formal_template.mp3",
+    "audio_sha256": "0072892e0e99af536bfdc3c168d9c23aa439a890d65fab7ec45fcd38aef4601f",
+    "transcribed_at": "2026-11-04T14:14:28+00:00",
+    "request_seconds": 2.75,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "54세 남자 환자가 고칼슘 혈증으로 인한 급성 췌장염으로 입원하였다. 활력 징후는 혈압 135/85mmHg, 심박수 110bpm, 호흡수 22bpm, 체온 37.8도C, 산소포화도 94%로 실내 공기 상태이다. 환자는 심한 복통을 호소하였다. 현재 판토프라졸 40mg을 IV로 BID 투여 중이다. NG 튜브가 삽입되어 있다. 환자는 의식이 명료하다. 고칼슘 혈증 관리를 위해 내분비과에 협진을 요청하였다.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 304,
+      "output_tokens": 155,
+      "total_tokens": 459,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 304,
+        "text_tokens": 0
+      }
+    }
+  }
+}

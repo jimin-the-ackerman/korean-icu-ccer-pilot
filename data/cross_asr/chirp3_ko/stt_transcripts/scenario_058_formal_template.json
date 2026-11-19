@@ -1,0 +1,43 @@
+{
+  "sample_id": "scenario_058_formal_template",
+  "whisper_transcript": "68세 남성 환자가 만성 신부전의 급성 악화로 입원하였다. 환자는 체액 과다와 호흡 곤란을 호소하고 있다. 활력 징후로는 혈압이 150/90 mmHg, 심박수가 110 bpm, 호흡수가 24 breaths/min, 체온이 37.2°C이며, 산소 포화도는 상온 공기에서 92%로 확인되었다. 환자는 중등도의 호흡 곤란을 호소하고 있으며, 푸로세미드 40 mg을 IV로 BID로 투여 중이다. 산소 공급은 2 L/min 나잘 캐눌라를 통해 이루어지고 있으며, 폴리 카테터가 삽입되어 있다. 환자는 양성 체액 균형을 보이고 있으며, 임상 상태는 alert 하다.",
+  "stt_metadata": {
+    "asr_system": "chirp3_ko",
+    "provider": "google",
+    "model": "chirp_3",
+    "location": "us",
+    "language_codes": [
+      "ko-KR"
+    ],
+    "audio_path": "data/audio/scenario_058_formal_template.mp3",
+    "audio_sha256": "6d517971769d9ee2d75552e9e0d8caed2138e2d3126270c0b8ee1218b40c56ad",
+    "transcribed_at": "2026-11-04T13:23:18+00:00",
+    "request_seconds": 7.16,
+    "attempts": 1,
+    "git_commit": "5b6d73fb63e1509a79e1a160176d606ed1b104c4",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "metadata": {
+      "total_billed_duration": "40s",
+      "request_id": "756287a9-0000-2332-a289-582429c95ee4",
+      "prompt": "Transcribe the following speech segment in Korean. Follow these specific instructions for formatting the answer:\n* Only output the transcript, with no newlines.\n* When transcribing numbers, write the digits, i.e. write 1.7 and not one point seven, and write 100 instead of one hundred etc.\n* Only output the transcript, exactly as said in the speech segment.\n* Do not continue the speech segment.\n* Include everything said in the speech segment.\n* Use mathematical notation where needed, eg. x ^ 6Y.\n* If there is background speech that is not part of the main conversation, discard the background speech and only output the main conversation.\n* If there is no clear speech, just output [BACKGROUND].\n* Respond in the original language of the speech, Korean."
+    },
+    "results": [
+      {
+        "alternatives": [
+          {
+            "transcript": "68세 남성 환자가 만성 신부전의 급성 악화로 입원하였다. 환자는 체액 과다와 호흡 곤란을 호소하고 있다. 활력 징후로는 혈압이 150/90 mmHg, 심박수가 110 bpm, 호흡수가 24 breaths/min, 체온이 37.2°C이며, 산소 포화도는 상온 공기에서 92%로 확인되었다. 환자는 중등도의 호흡 곤란을 호소하고 있으며, 푸로세미드 40 mg을 IV로 BID로 투여 중이다. 산소 공급은 2 L/min 나잘 캐눌라를 통해 이루어지고 있으며, 폴리 카테터가 삽입되어 있다. 환자는 양성 체액 균형을 보이고 있으며, 임상 상태는 alert 하다.",
+            "confidence": 0.0,
+            "words": []
+          }
+        ],
+        "language_code": "ko-KR",
+        "channel_tag": 0
+      }
+    ],
+    "detected_language_codes": [
+      "ko-KR"
+    ]
+  }
+}

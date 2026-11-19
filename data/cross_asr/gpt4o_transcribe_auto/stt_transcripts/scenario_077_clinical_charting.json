@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_077_clinical_charting",
+  "whisper_transcript": "اکسیسیسی یاوسون ہانجہ acute exacerbation of chronic kidney disease رو ایبونم. بی پی ایچ بایٹ وشٹیک ملمہ ہرجرم، ایچ آر ہوچرج بی پی ایم، آر ایشوڈی بریتھس من، بی ٹی سرجسکستم آئٹ لیس ہاگن دم. ایس پی او ٹو کوچھی سات پرسنٹ سانٹ آن ٹو او ٹو ویا نیزل کینم، مادرک ویکنس ہوسوام، لیبٹلال چھن ملگرامز آئی وی کیو ایچ ٹو یوجنگ، نیزل کینیل اچھاگیومم، فلوڈ رسسٹیٹیشن شیینگم، فولی یوجیم، پوزیٹیو فلوڈ بالنس ہاگن دم. کلینکل سٹیٹس ڈراوزی، رینال ٹیم نوٹیفائی ہم فر ڈائیالیسس ایوالیوئیشن.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe_auto",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": null,
+    "audio_path": "data/audio/scenario_077_clinical_charting.mp3",
+    "audio_sha256": "0e7ce7c14ce41d7aedb37dbca5a4f0522e60a9e1d40e925d6f47bc65bac1a762",
+    "transcribed_at": "2026-11-04T14:12:39+00:00",
+    "request_seconds": 3.67,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "اکسیسیسی یاوسون ہانجہ acute exacerbation of chronic kidney disease رو ایبونم. بی پی ایچ بایٹ وشٹیک ملمہ ہرجرم، ایچ آر ہوچرج بی پی ایم، آر ایشوڈی بریتھس من، بی ٹی سرجسکستم آئٹ لیس ہاگن دم. ایس پی او ٹو کوچھی سات پرسنٹ سانٹ آن ٹو او ٹو ویا نیزل کینم، مادرک ویکنس ہوسوام، لیبٹلال چھن ملگرامز آئی وی کیو ایچ ٹو یوجنگ، نیزل کینیل اچھاگیومم، فلوڈ رسسٹیٹیشن شیینگم، فولی یوجیم، پوزیٹیو فلوڈ بالنس ہاگن دم. کلینکل سٹیٹس ڈراوزی، رینال ٹیم نوٹیفائی ہم فر ڈائیالیسس ایوالیوئیشن.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 299,
+      "output_tokens": 211,
+      "total_tokens": 510,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 299,
+        "text_tokens": 0
+      }
+    }
+  }
+}

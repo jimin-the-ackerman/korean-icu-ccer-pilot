@@ -1,0 +1,43 @@
+{
+  "sample_id": "scenario_095_formal_template",
+  "whisper_transcript": "62세 여성 환자가 중증 천식 악화로 인한 급성 호흡곤란으로 입원하였다. 활력징후는 혈압 130/85 mmHg, 심박수 110 bpm, 호흡수 28 breaths/min, 체온 37.3°C, 산소포화도는 실내 공기에서 89%로 확인되었다. 환자는 심한 호흡곤란을 호소하였다. 약물은 알부테롤 2.5 mg을 IV로 PRN 투여하였다. 환자는 고유량 비강 캐눌라를 통한 산소 지원을 받고 있으며 인공호흡기를 사용 중이다. 수분 출입은 양성 균형으로 확인되었으며 임상 상태는 명료하다. 인공호흡기 조정을 위해 호흡치료사에게 보고하였다.",
+  "stt_metadata": {
+    "asr_system": "chirp3_ko",
+    "provider": "google",
+    "model": "chirp_3",
+    "location": "us",
+    "language_codes": [
+      "ko-KR"
+    ],
+    "audio_path": "data/audio/scenario_095_formal_template.mp3",
+    "audio_sha256": "fdac0fce9ea0b5fac5cc2a7a4331be285128d79846026391576c0a9d2a3b76dd",
+    "transcribed_at": "2026-11-04T13:32:20+00:00",
+    "request_seconds": 5.84,
+    "attempts": 1,
+    "git_commit": "5b6d73fb63e1509a79e1a160176d606ed1b104c4",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "metadata": {
+      "total_billed_duration": "41s",
+      "request_id": "73a9a314-0000-2d6e-ba97-14223bc550aa",
+      "prompt": "Transcribe the following speech segment in Korean. Follow these specific instructions for formatting the answer:\n* Only output the transcript, with no newlines.\n* When transcribing numbers, write the digits, i.e. write 1.7 and not one point seven, and write 100 instead of one hundred etc.\n* Only output the transcript, exactly as said in the speech segment.\n* Do not continue the speech segment.\n* Include everything said in the speech segment.\n* Use mathematical notation where needed, eg. x ^ 6Y.\n* If there is background speech that is not part of the main conversation, discard the background speech and only output the main conversation.\n* If there is no clear speech, just output [BACKGROUND].\n* Respond in the original language of the speech, Korean."
+    },
+    "results": [
+      {
+        "alternatives": [
+          {
+            "transcript": "62세 여성 환자가 중증 천식 악화로 인한 급성 호흡곤란으로 입원하였다. 활력징후는 혈압 130/85 mmHg, 심박수 110 bpm, 호흡수 28 breaths/min, 체온 37.3°C, 산소포화도는 실내 공기에서 89%로 확인되었다. 환자는 심한 호흡곤란을 호소하였다. 약물은 알부테롤 2.5 mg을 IV로 PRN 투여하였다. 환자는 고유량 비강 캐눌라를 통한 산소 지원을 받고 있으며 인공호흡기를 사용 중이다. 수분 출입은 양성 균형으로 확인되었으며 임상 상태는 명료하다. 인공호흡기 조정을 위해 호흡치료사에게 보고하였다.",
+            "confidence": 0.0,
+            "words": []
+          }
+        ],
+        "language_code": "ko-KR",
+        "channel_tag": 0
+      }
+    ],
+    "detected_language_codes": [
+      "ko-KR"
+    ]
+  }
+}

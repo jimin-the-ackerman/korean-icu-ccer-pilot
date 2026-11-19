@@ -1,0 +1,117 @@
+{
+  "sample_id": "scenario_086_clinical_charting",
+  "gold_entities": {
+    "route": [
+      {
+        "raw": "IV",
+        "normalized": "iv",
+        "position": 194
+      }
+    ],
+    "frequency": [
+      {
+        "raw": "q6h",
+        "normalized": "q6h",
+        "position": 197
+      }
+    ],
+    "device": [],
+    "vital_sign": [
+      {
+        "raw": "BP 90/60",
+        "label": "bp",
+        "value": "90/60",
+        "position": 46
+      },
+      {
+        "raw": "HR 110",
+        "label": "hr",
+        "value": "110",
+        "position": 66
+      },
+      {
+        "raw": "RR 24",
+        "label": "rr",
+        "value": "24",
+        "position": 83
+      },
+      {
+        "raw": "BT 39.2",
+        "label": "bt",
+        "value": "39.2",
+        "position": 107
+      },
+      {
+        "raw": "SpO2 96%",
+        "label": "spo2",
+        "value": "96%",
+        "position": 137
+      }
+    ],
+    "dose": [
+      {
+        "raw": "4.5 g",
+        "value": "4.5",
+        "unit": "g",
+        "position": 188
+      }
+    ]
+  },
+  "whisper_entities": {
+    "route": [
+      {
+        "raw": "IV",
+        "normalized": "iv",
+        "position": 173
+      }
+    ],
+    "frequency": [
+      {
+        "raw": "q6h",
+        "normalized": "q6h",
+        "position": 176
+      }
+    ],
+    "device": [],
+    "vital_sign": [
+      {
+        "raw": "BP 96",
+        "label": "bp",
+        "value": "96",
+        "position": 45
+      },
+      {
+        "raw": "HR 110",
+        "label": "hr",
+        "value": "110",
+        "position": 61
+      },
+      {
+        "raw": "RR 52",
+        "label": "rr",
+        "value": "52",
+        "position": 77
+      },
+      {
+        "raw": "BT 39.6",
+        "label": "bt",
+        "value": "39.6",
+        "position": 92
+      },
+      {
+        "raw": "SpO2 96%",
+        "label": "spo2",
+        "value": "96%",
+        "position": 120
+      }
+    ],
+    "dose": [
+      {
+        "raw": "4g",
+        "value": "4",
+        "unit": "g",
+        "position": 170
+      }
+    ]
+  }
+}

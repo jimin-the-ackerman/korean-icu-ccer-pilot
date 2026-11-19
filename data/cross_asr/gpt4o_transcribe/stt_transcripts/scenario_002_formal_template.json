@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_002_formal_template",
+  "whisper_transcript": "50세 여성 환자가 당뇨병성 케톤산증 TKA로 입원하였다. 활력 징후는 혈압 90/60mmHg, 심박수 120bpm, 호흡수 28회분, 체온 37.8lg, 산소포화도 95%로 확인되었다. 환자는 중등도의 nausea를 호소하였다. 인슐린 10units를 IV로 매 4시간마다 투여 중이다. 환자에게 fluid resuscitation이 시행되었으며 소변량은 저하된 상태였다. 환자는 약간의 기면 상태를 보이고 있다. TKA 관리를 위해 내분비내과에 상담을 요청하였다.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": "ko",
+    "audio_path": "data/audio/scenario_002_formal_template.mp3",
+    "audio_sha256": "7771564bf7eb9ba3e8606120e940f7615db25aa68e19e0c88bfd2be46a3505c0",
+    "transcribed_at": "2026-11-04T12:53:45+00:00",
+    "request_seconds": 3.44,
+    "attempts": 1,
+    "git_commit": "5b6d73fb63e1509a79e1a160176d606ed1b104c4",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "50세 여성 환자가 당뇨병성 케톤산증 TKA로 입원하였다. 활력 징후는 혈압 90/60mmHg, 심박수 120bpm, 호흡수 28회분, 체온 37.8lg, 산소포화도 95%로 확인되었다. 환자는 중등도의 nausea를 호소하였다. 인슐린 10units를 IV로 매 4시간마다 투여 중이다. 환자에게 fluid resuscitation이 시행되었으며 소변량은 저하된 상태였다. 환자는 약간의 기면 상태를 보이고 있다. TKA 관리를 위해 내분비내과에 상담을 요청하였다.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 336,
+      "output_tokens": 159,
+      "total_tokens": 495,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 336,
+        "text_tokens": 0
+      }
+    }
+  }
+}

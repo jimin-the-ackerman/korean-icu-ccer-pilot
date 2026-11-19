@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_049_telegraphic_icu",
+  "whisper_transcript": "54세 여성, septic arthritis right knee, BP 165, HR 1wh, RR 24, BT 38.5, SpO2 76% RA, severe knee pain, vancomycin 1q12h, right knee joint aspiration 시행함, positive fluid balance by 5 mL, alert, orthopedic consult 요청함.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": "ko",
+    "audio_path": "data/audio/scenario_049_telegraphic_icu.mp3",
+    "audio_sha256": "416724d1e895e7846471bf8a540d88fc44fceb0d59cee4c57f4f3705933a216b",
+    "transcribed_at": "2026-11-04T12:58:50+00:00",
+    "request_seconds": 2.67,
+    "attempts": 1,
+    "git_commit": "5b6d73fb63e1509a79e1a160176d606ed1b104c4",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "54세 여성, septic arthritis right knee, BP 165, HR 1wh, RR 24, BT 38.5, SpO2 76% RA, severe knee pain, vancomycin 1q12h, right knee joint aspiration 시행함, positive fluid balance by 5 mL, alert, orthopedic consult 요청함.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 184,
+      "output_tokens": 75,
+      "total_tokens": 259,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 184,
+        "text_tokens": 0
+      }
+    }
+  }
+}

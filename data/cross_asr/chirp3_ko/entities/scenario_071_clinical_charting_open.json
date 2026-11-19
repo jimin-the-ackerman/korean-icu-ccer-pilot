@@ -1,0 +1,35 @@
+{
+  "sample_id": "scenario_071_clinical_charting",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "muscle weakness",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "drowsy",
+    "medication_identity": "IV immunoglobulin",
+    "interventions": [
+      "Respiratory monitoring"
+    ],
+    "intake_output": null,
+    "notification": "Neurology team notify함"
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "근력 약화 (muscle weakness)",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "drowsy",
+    "medication_identity": "이뮤노글로불린",
+    "interventions": [
+      "respiratory monitoring"
+    ],
+    "intake_output": null,
+    "notification": "뉴롤로지 팀 노티파이함"
+  }
+}

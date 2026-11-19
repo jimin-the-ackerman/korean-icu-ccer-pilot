@@ -1,0 +1,43 @@
+{
+  "sample_id": "scenario_093_telegraphic_icu",
+  "whisper_transcript": "52-year-old male song, acute hemorrhagic shock, ruptured abdominal aortic aneurysm, BP 85/50, HR 120, RR 24, BT 36.8, SpO2 89%, severe abdominal pain, drowsy, norepinephrine 8 mg/min IV TID, high flow nasal cannula, C-line, urine output 20 mL/hour, emergency surgical repair, vascular surgery team notify.",
+  "stt_metadata": {
+    "asr_system": "chirp3_auto",
+    "provider": "google",
+    "model": "chirp_3",
+    "location": "us",
+    "language_codes": [
+      "auto"
+    ],
+    "audio_path": "data/audio/scenario_093_telegraphic_icu.mp3",
+    "audio_sha256": "50ec72147db07606f2e57ccb408c8707de254e33f4e1f4ec4ca4905c1fb6e8c3",
+    "transcribed_at": "2026-11-04T14:53:37+00:00",
+    "request_seconds": 3.57,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "metadata": {
+      "total_billed_duration": "23s",
+      "request_id": "73e51a21-0000-20af-9ed7-14c14ef7de84",
+      "prompt": "Transcribe the following speech segment. Follow these specific instructions for formatting the answer:\n* Only output the transcript, with no newlines.\n* When transcribing numbers, write the digits, i.e. write 1.7 and not one point seven, and write 100 instead of one hundred etc.\n* Only output the transcript, exactly as said in the speech segment.\n* Do not continue the speech segment.\n* Include everything said in the speech segment.\n* Use mathematical notation where needed, eg. x ^ 6Y.\n* If there is background speech that is not part of the main conversation, discard the background speech and only output the main conversation.\n* If there is no clear speech, just output [BACKGROUND].\n* Respond in the original language of the speech."
+    },
+    "results": [
+      {
+        "alternatives": [
+          {
+            "transcript": "52-year-old male song, acute hemorrhagic shock, ruptured abdominal aortic aneurysm, BP 85/50, HR 120, RR 24, BT 36.8, SpO2 89%, severe abdominal pain, drowsy, norepinephrine 8 mg/min IV TID, high flow nasal cannula, C-line, urine output 20 mL/hour, emergency surgical repair, vascular surgery team notify.",
+            "confidence": 0.0,
+            "words": []
+          }
+        ],
+        "language_code": "en",
+        "channel_tag": 0
+      }
+    ],
+    "detected_language_codes": [
+      "en"
+    ]
+  }
+}

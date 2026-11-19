@@ -1,0 +1,64 @@
+=== evaluate plan: whisper1 ===
+evaluator model    : claude-sonnet-5  (configs/config.yaml; no temperature set, as in v4)
+reference model    : ['claude-sonnet-5']  (earlier evaluate runs, all conditions)
+transcripts        : 300/300 in data/cross_asr/whisper1/stt_transcripts
+empty-response rule: none  (spec 12.2; evaluated without API call)
+already evaluated  : 222/300 (kept, not re-sent)
+invalid existing   : 0
+gold-text null     : 0 []  (spec 12.5; not used by CCER)
+to process now     : 78  [needing Claude: 78 = fresh 78 (3 calls), open done 0 (1 call)]
+Claude calls       : 234 planned (minimum; the v4 retry loop may repeat a call up to 3 times, the SDK retries 429/5xx internally)
+token estimate     : ~0.56 M input, ~0.09 M output (rough; measured after a --limit trial)
+outputs            : data/cross_asr/whisper1/entities/<sample_id>_closed|_open|_matched.json
+results            : results/cross_asr/whisper1/ccer_results.csv, ccer_summary.json (only when 300/300)
+run log            : data/cross_asr/whisper1/logs/evaluate_<UTC timestamp>.json
+env vars present   : {'ANTHROPIC_API_KEY': True}  (values not shown)
+transcript check   : 0 unreadable / not JSON / wrong sample_id / empty
+v4 equivalence     : closed-vocab matches identical to saved v4 for 300/300 samples
+  재시도 1/3 (gold): 응답 구조 검증 실패
+  실제 응답: {"symptoms": [{"name": "chest pain", "negation": false, "severity": "severe"}]}
+  재시도 2/3 (gold): 응답 구조 검증 실패
+  실제 응답: {"symptoms": [{"name": "chest pain", "negation": false, "severity": "severe"}]}
+  재시도 3/3 (gold): 응답 구조 검증 실패
+  실제 응답: {"symptoms": [{"name": "chest pain", "negation": false, "severity": "severe"}]}
+  [scenario_075_clinical_charting] gold-text extraction stored as null (spec 12.5; not used by CCER)
+[1/78] scenario_075_clinical_charting ok (5 calls, 15962/1125 tokens, 14.2s)
+[2/78] scenario_075_formal_template ok (3 calls, 10425/936 tokens, 8.1s)
+[3/78] scenario_075_telegraphic_icu ok (3 calls, 10126/902 tokens, 9.1s)
+[4/78] scenario_076_clinical_charting ok (3 calls, 10262/947 tokens, 8.2s)
+[5/78] scenario_076_formal_template ok (3 calls, 10529/1033 tokens, 12.3s)
+[6/78] scenario_076_telegraphic_icu ok (3 calls, 10220/1027 tokens, 9.5s)
+[7/78] scenario_077_clinical_charting ok (3 calls, 10273/920 tokens, 8.0s)
+[8/78] scenario_077_formal_template ok (3 calls, 10446/969 tokens, 8.3s)
+[9/78] scenario_077_telegraphic_icu ok (3 calls, 10194/926 tokens, 8.1s)
+[10/78] scenario_078_clinical_charting ok (3 calls, 10339/937 tokens, 8.3s)
+[11/78] scenario_078_formal_template ok (3 calls, 10433/967 tokens, 8.7s)
+[12/78] scenario_078_telegraphic_icu ok (3 calls, 10194/993 tokens, 8.9s)
+[13/78] scenario_079_clinical_charting ok (3 calls, 10140/918 tokens, 8.1s)
+[14/78] scenario_079_formal_template ok (3 calls, 10402/932 tokens, 8.5s)
+[15/78] scenario_079_telegraphic_icu ok (3 calls, 10059/889 tokens, 8.0s)
+[16/78] scenario_080_clinical_charting ok (3 calls, 10223/873 tokens, 8.0s)
+[17/78] scenario_080_formal_template ok (3 calls, 10358/903 tokens, 8.9s)
+[18/78] scenario_080_telegraphic_icu ok (3 calls, 10084/857 tokens, 8.6s)
+[19/78] scenario_081_clinical_charting ok (3 calls, 10172/883 tokens, 7.4s)
+[20/78] scenario_081_formal_template ok (3 calls, 10410/971 tokens, 8.2s)
+[21/78] scenario_081_telegraphic_icu ok (3 calls, 10095/900 tokens, 10.8s)
+[22/78] scenario_082_clinical_charting ok (3 calls, 10123/882 tokens, 7.9s)
+[23/78] scenario_082_formal_template ok (3 calls, 10185/881 tokens, 8.1s)
+[24/78] scenario_082_telegraphic_icu ok (3 calls, 9963/848 tokens, 7.9s)
+[25/78] scenario_083_clinical_charting ok (3 calls, 10087/829 tokens, 7.5s)
+[26/78] scenario_083_formal_template ok (3 calls, 10192/802 tokens, 7.6s)
+  재시도 1/3 (whisper): 응답 구조 검증 실패
+  실제 응답: {"symptoms": [{"name": "dyspnea", "negation": false, "severity": "severe"}]}
+  재시도 2/3 (whisper): 응답 구조 검증 실패
+  실제 응답: {"symptoms": [{"name": "dyspnea", "negation": false, "severity": "severe"}]}
+  재시도 3/3 (whisper): 응답 구조 검증 실패
+  실제 응답: {"symptoms": [{"name": "dyspnea", "negation": false, "severity": "severe"}]}
+[27/78] scenario_083_telegraphic_icu FAILED: scenario_083_telegraphic_icu: RuntimeError: MAX_RETRIES 초과 (whisper) (stage open)
+
+=== processed=26 calls=84 failed_calls=0 tokens in/out=283037/24496 -> log data/cross_asr/whisper1/logs/evaluate_20261104T175819Z_99764.json
+response models    : {'claude-sonnet-5': 84}
+gold-text null     : ['scenario_075_clinical_charting']  (spec 12.5; not used by CCER)
+per sample (mean)  : 10886 input / 942 output tokens
+evaluated now      : 248/300
+RUN STOPPED: scenario_083_telegraphic_icu: RuntimeError: MAX_RETRIES 초과 (whisper) (stage open)

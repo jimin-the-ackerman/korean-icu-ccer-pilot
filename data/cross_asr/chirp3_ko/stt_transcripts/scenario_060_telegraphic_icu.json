@@ -1,0 +1,43 @@
+{
+  "sample_id": "scenario_060_telegraphic_icu",
+  "whisper_transcript": "71세 남성 파킨슨병, 급성 악화, BP 142/85, HR 88, RR 20, BT 37.2°C, SpO2 95%, 경직 심함, 레보도파 100mg PO TID, 폴리, IO 2000/24, 졸음",
+  "stt_metadata": {
+    "asr_system": "chirp3_ko",
+    "provider": "google",
+    "model": "chirp_3",
+    "location": "us",
+    "language_codes": [
+      "ko-KR"
+    ],
+    "audio_path": "data/audio/scenario_060_telegraphic_icu.mp3",
+    "audio_sha256": "dade6df284c49342c0c8d6eaaeac2b6d43fb741b4f06bcda5d4d852655d9832c",
+    "transcribed_at": "2026-11-04T13:23:47+00:00",
+    "request_seconds": 2.68,
+    "attempts": 1,
+    "git_commit": "5b6d73fb63e1509a79e1a160176d606ed1b104c4",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "metadata": {
+      "total_billed_duration": "15s",
+      "request_id": "73929849-0000-245d-9337-ac3eb1486d20",
+      "prompt": "Transcribe the following speech segment in Korean. Follow these specific instructions for formatting the answer:\n* Only output the transcript, with no newlines.\n* When transcribing numbers, write the digits, i.e. write 1.7 and not one point seven, and write 100 instead of one hundred etc.\n* Only output the transcript, exactly as said in the speech segment.\n* Do not continue the speech segment.\n* Include everything said in the speech segment.\n* Use mathematical notation where needed, eg. x ^ 6Y.\n* If there is background speech that is not part of the main conversation, discard the background speech and only output the main conversation.\n* If there is no clear speech, just output [BACKGROUND].\n* Respond in the original language of the speech, Korean."
+    },
+    "results": [
+      {
+        "alternatives": [
+          {
+            "transcript": "71세 남성 파킨슨병, 급성 악화, BP 142/85, HR 88, RR 20, BT 37.2°C, SpO2 95%, 경직 심함, 레보도파 100mg PO TID, 폴리, IO 2000/24, 졸음",
+            "confidence": 0.0,
+            "words": []
+          }
+        ],
+        "language_code": "ko-KR",
+        "channel_tag": 0
+      }
+    ],
+    "detected_language_codes": [
+      "ko-KR"
+    ]
+  }
+}

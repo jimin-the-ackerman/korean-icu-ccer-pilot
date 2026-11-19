@@ -1,0 +1,40 @@
+{
+  "sample_id": "scenario_093_telegraphic_icu",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "abdominal pain",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "Drowsy",
+    "medication_identity": "Norepinephrine",
+    "interventions": [
+      "Emergency surgical repair"
+    ],
+    "intake_output": "Urine output 20 mL/hr",
+    "notification": "Vascular surgery team notify"
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "복통",
+        "negation": false,
+        "severity": "severe"
+      },
+      {
+        "name": "졸음",
+        "negation": false,
+        "severity": null
+      }
+    ],
+    "clinical_status": "졸음",
+    "medication_identity": "노르에피네프린",
+    "interventions": [
+      "응급 수술 계획"
+    ],
+    "intake_output": "소변량 20ml/시간",
+    "notification": "혈관 외과 팀에 알림"
+  }
+}

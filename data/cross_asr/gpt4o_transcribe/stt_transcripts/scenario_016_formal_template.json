@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_016_formal_template",
+  "whisper_transcript": "45세 여성 환자가 중증 폐혈증으로 복부 농양에 의해 입원하였다. 활력징후는 혈압 85/55mmHg, 심박수 120bpm, 호흡수 28회/분, 체온 39.2도, 산소포화도 92%로 확인되었다. 환자는 심한 발열을 호소하였다. 메로페넴 1g이 IV로 8시간마다 투여되고 있으며, 산소 공급을 위해 네이잘 캐뉼라가 사용되고 있다. 환자는 복부 농양의 배액 처치를 받았으며, C 라인이 삽입되어 있다. 수분 균형은 음성으로 기록되었다. 임상 상태는 졸림이 관찰되었다. 젖산 수치 상승이 담당 의사에게 보고되었다.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": "ko",
+    "audio_path": "data/audio/scenario_016_formal_template.mp3",
+    "audio_sha256": "f9c7a1823824de399d29777c43d91e2007b90ce855cde61efff383e7ee6a8b14",
+    "transcribed_at": "2026-11-04T12:55:17+00:00",
+    "request_seconds": 2.73,
+    "attempts": 1,
+    "git_commit": "5b6d73fb63e1509a79e1a160176d606ed1b104c4",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "45세 여성 환자가 중증 폐혈증으로 복부 농양에 의해 입원하였다. 활력징후는 혈압 85/55mmHg, 심박수 120bpm, 호흡수 28회/분, 체온 39.2도, 산소포화도 92%로 확인되었다. 환자는 심한 발열을 호소하였다. 메로페넴 1g이 IV로 8시간마다 투여되고 있으며, 산소 공급을 위해 네이잘 캐뉼라가 사용되고 있다. 환자는 복부 농양의 배액 처치를 받았으며, C 라인이 삽입되어 있다. 수분 균형은 음성으로 기록되었다. 임상 상태는 졸림이 관찰되었다. 젖산 수치 상승이 담당 의사에게 보고되었다.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 382,
+      "output_tokens": 189,
+      "total_tokens": 571,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 382,
+        "text_tokens": 0
+      }
+    }
+  }
+}

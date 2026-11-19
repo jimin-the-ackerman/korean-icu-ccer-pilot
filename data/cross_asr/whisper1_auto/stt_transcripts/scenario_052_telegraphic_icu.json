@@ -1,0 +1,25 @@
+{
+  "sample_id": "scenario_052_telegraphic_icu",
+  "whisper_transcript": "72ZN1, hip replacement, post-op complications, BP 1, 3, 85 millimeter, HR 95 BPM, RR 18 breaths min, BT 37.5, SpO2 97% room air, pain moderate, morphine 2-mylarmyve Q4H, fully in place, urine output 400 millisix RR, alert.",
+  "stt_metadata": {
+    "asr_system": "whisper1_auto",
+    "provider": "openai",
+    "model": "whisper-1",
+    "language": null,
+    "audio_path": "data/audio/scenario_052_telegraphic_icu.mp3",
+    "audio_sha256": "f44813e92a7f0750673ee8482cc9360bf2b6327b20105234cbd35444ee1d88aa",
+    "transcribed_at": "2026-11-04T13:56:10+00:00",
+    "request_seconds": 1.84,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "72ZN1, hip replacement, post-op complications, BP 1, 3, 85 millimeter, HR 95 BPM, RR 18 breaths min, BT 37.5, SpO2 97% room air, pain moderate, morphine 2-mylarmyve Q4H, fully in place, urine output 400 millisix RR, alert.",
+    "logprobs": null,
+    "usage": {
+      "seconds": 18.0,
+      "type": "duration"
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_034_clinical_charting",
+  "whisper_transcript": "우시 8세 남성 환자, acute decompensated cirrhosis with hepatic encephalopathy로 입원함. BP 75/60 mmHg, HR 100 bpm, RR 20 breaths/min, BT 37.5°C, SpO2 92% on room air. Moderate jaundice 확인됨. 환자 drowsy 상태 유지함. Lactulose 30 mL PO q8h 투여함. Nasal cannula at 2 L/min 적용함. Strict fluid balance monitoring 유지함. Hepatology team notify함.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": "ko",
+    "audio_path": "data/audio/scenario_034_clinical_charting.mp3",
+    "audio_sha256": "4b1386b64be97e0254ffd1407a68812d5cc4725e4fa1e7ba8ad515faf6de826d",
+    "transcribed_at": "2026-11-04T12:57:04+00:00",
+    "request_seconds": 1.89,
+    "attempts": 1,
+    "git_commit": "5b6d73fb63e1509a79e1a160176d606ed1b104c4",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "우시 8세 남성 환자, acute decompensated cirrhosis with hepatic encephalopathy로 입원함. BP 75/60 mmHg, HR 100 bpm, RR 20 breaths/min, BT 37.5°C, SpO2 92% on room air. Moderate jaundice 확인됨. 환자 drowsy 상태 유지함. Lactulose 30 mL PO q8h 투여함. Nasal cannula at 2 L/min 적용함. Strict fluid balance monitoring 유지함. Hepatology team notify함.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 262,
+      "output_tokens": 122,
+      "total_tokens": 384,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 262,
+        "text_tokens": 0
+      }
+    }
+  }
+}

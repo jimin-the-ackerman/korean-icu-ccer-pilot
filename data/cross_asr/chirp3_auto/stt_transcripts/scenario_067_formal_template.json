@@ -1,0 +1,43 @@
+{
+  "sample_id": "scenario_067_formal_template",
+  "whisper_transcript": "45세 남성 환자가 급성 대량 폐색전증으로 입원하였다. 활력 징후를 확인한 결과, 혈압은 85/60 mmHg, 심박수는 115 bpm, 호흡수는 28 breaths/min, 체온은 36.8°C, 산소 포화도는 6L O2를 코로 공급받으면서 88%로 확인되었다. 환자는 심한 가슴 통증을 호소하였다. 헤파린 5,000 units가 정맥 주사로 투여되었다. 산소 공급은 nasal cannula를 사용하여 이루어지고 있으며, C-line이 삽입되어 있다. 환자의 임상 상태는 혼미 상태로 관찰되었다. 저혈압과 저산소증에 대해 담당 의사에게 보고하였다.",
+  "stt_metadata": {
+    "asr_system": "chirp3_auto",
+    "provider": "google",
+    "model": "chirp_3",
+    "location": "us",
+    "language_codes": [
+      "auto"
+    ],
+    "audio_path": "data/audio/scenario_067_formal_template.mp3",
+    "audio_sha256": "59a600c0eb9b2dbeb1f43b2a4809a8f09acc8ec21f76ed534ab99a2ac59a3663",
+    "transcribed_at": "2026-11-04T14:47:22+00:00",
+    "request_seconds": 6.74,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "metadata": {
+      "total_billed_duration": "40s",
+      "request_id": "757c9057-0000-2332-a289-582429c95ee4",
+      "prompt": "Transcribe the following speech segment. Follow these specific instructions for formatting the answer:\n* Only output the transcript, with no newlines.\n* When transcribing numbers, write the digits, i.e. write 1.7 and not one point seven, and write 100 instead of one hundred etc.\n* Only output the transcript, exactly as said in the speech segment.\n* Do not continue the speech segment.\n* Include everything said in the speech segment.\n* Use mathematical notation where needed, eg. x ^ 6Y.\n* If there is background speech that is not part of the main conversation, discard the background speech and only output the main conversation.\n* If there is no clear speech, just output [BACKGROUND].\n* Respond in the original language of the speech."
+    },
+    "results": [
+      {
+        "alternatives": [
+          {
+            "transcript": "45세 남성 환자가 급성 대량 폐색전증으로 입원하였다. 활력 징후를 확인한 결과, 혈압은 85/60 mmHg, 심박수는 115 bpm, 호흡수는 28 breaths/min, 체온은 36.8°C, 산소 포화도는 6L O2를 코로 공급받으면서 88%로 확인되었다. 환자는 심한 가슴 통증을 호소하였다. 헤파린 5,000 units가 정맥 주사로 투여되었다. 산소 공급은 nasal cannula를 사용하여 이루어지고 있으며, C-line이 삽입되어 있다. 환자의 임상 상태는 혼미 상태로 관찰되었다. 저혈압과 저산소증에 대해 담당 의사에게 보고하였다.",
+            "confidence": 0.0,
+            "words": []
+          }
+        ],
+        "language_code": "ko",
+        "channel_tag": 0
+      }
+    ],
+    "detected_language_codes": [
+      "ko"
+    ]
+  }
+}

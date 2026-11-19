@@ -1,0 +1,35 @@
+{
+  "sample_id": "scenario_003_telegraphic_icu",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "chest pain",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "Alert",
+    "medication_identity": "Aspirin",
+    "interventions": [
+      "Cardiac monitoring"
+    ],
+    "intake_output": null,
+    "notification": "Cardiology team notify"
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "흉통",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "alert",
+    "medication_identity": "아스피린",
+    "interventions": [
+      "심장 모니터링"
+    ],
+    "intake_output": null,
+    "notification": "심장학 팀 통보"
+  }
+}

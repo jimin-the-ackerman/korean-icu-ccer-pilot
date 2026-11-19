@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_095_telegraphic_icu",
+  "whisper_transcript": "64세 F 환자, 급성 호흡곤란으로 중증 천식 악화로 입원, BP 120/85mmHg, HR 190 bpm, RR 15, T 37.3℃, SPO2 89% 아래, severe SOB, 알부테롤 2.5mg IV PRN, 고유량 비강 캐뉼라 사용 중 환기장치 ventilator, fluid balance positive, 정신상태 alert, RT ventilator 조정 위해 notify.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe_auto",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": null,
+    "audio_path": "data/audio/scenario_095_telegraphic_icu.mp3",
+    "audio_sha256": "142d7f5143a9fc1efa183c5a748d83ce532bf7bea38ad5241f51169f9f1b360f",
+    "transcribed_at": "2026-11-04T14:14:53+00:00",
+    "request_seconds": 2.08,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "64세 F 환자, 급성 호흡곤란으로 중증 천식 악화로 입원, BP 120/85mmHg, HR 190 bpm, RR 15, T 37.3℃, SPO2 89% 아래, severe SOB, 알부테롤 2.5mg IV PRN, 고유량 비강 캐뉼라 사용 중 환기장치 ventilator, fluid balance positive, 정신상태 alert, RT ventilator 조정 위해 notify.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 218,
+      "output_tokens": 108,
+      "total_tokens": 326,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 218,
+        "text_tokens": 0
+      }
+    }
+  }
+}

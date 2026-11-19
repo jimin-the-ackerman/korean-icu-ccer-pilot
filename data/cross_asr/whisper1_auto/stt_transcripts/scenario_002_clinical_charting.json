@@ -1,0 +1,25 @@
+{
+  "sample_id": "scenario_002_clinical_charting",
+  "whisper_transcript": "50-year-old female patient admitted to DKA. BP 60% and HR 5% are at grace for 2 GCP. Nausea-moderate complaint. Insulin unit QA applied. Fluid resuscitation performed. Urine output low confirmed. Patient in a drowsy state. Endocrinology consultant.",
+  "stt_metadata": {
+    "asr_system": "whisper1_auto",
+    "provider": "openai",
+    "model": "whisper-1",
+    "language": null,
+    "audio_path": "data/audio/scenario_002_clinical_charting.mp3",
+    "audio_sha256": "14384213b0ac67b48bd1172a54928469a44bb6221f1fed2ce0f34d6e9d43b983",
+    "transcribed_at": "2026-11-04T13:49:18+00:00",
+    "request_seconds": 1.76,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "50-year-old female patient admitted to DKA. BP 60% and HR 5% are at grace for 2 GCP. Nausea-moderate complaint. Insulin unit QA applied. Fluid resuscitation performed. Urine output low confirmed. Patient in a drowsy state. Endocrinology consultant.",
+    "logprobs": null,
+    "usage": {
+      "seconds": 20.0,
+      "type": "duration"
+    }
+  }
+}

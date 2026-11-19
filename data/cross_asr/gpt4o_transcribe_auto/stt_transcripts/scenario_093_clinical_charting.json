@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_093_clinical_charting",
+  "whisper_transcript": "OCB 새 남성 환자, 급성 hemorrhagic shock로 입원, 원인은 ruptured abdominal aortic aneurysm. BP 85/50 mmHg, HR 100 bpm, RR 24, BT 36.8도C, SpO2 80%. Severe abdominal pain 호소함. Norepinephrine 8 mcg/min IVT 적용함. High-flow nasal cannula 산소 공급 유지함. Emergency surgical repair 계획됨. C-line 적용됨. Urine output 20 ml/h 확인됨. Drowsy 상태 확인됨. Vascular surgery team notify 함.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe_auto",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": null,
+    "audio_path": "data/audio/scenario_093_clinical_charting.mp3",
+    "audio_sha256": "165593168e111c3edbeace0b3944967db14bc4d4f248352bdd7714c8808d9cc2",
+    "transcribed_at": "2026-11-04T14:14:33+00:00",
+    "request_seconds": 2.64,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "OCB 새 남성 환자, 급성 hemorrhagic shock로 입원, 원인은 ruptured abdominal aortic aneurysm. BP 85/50 mmHg, HR 100 bpm, RR 24, BT 36.8도C, SpO2 80%. Severe abdominal pain 호소함. Norepinephrine 8 mcg/min IVT 적용함. High-flow nasal cannula 산소 공급 유지함. Emergency surgical repair 계획됨. C-line 적용됨. Urine output 20 ml/h 확인됨. Drowsy 상태 확인됨. Vascular surgery team notify 함.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 294,
+      "output_tokens": 128,
+      "total_tokens": 422,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 294,
+        "text_tokens": 0
+      }
+    }
+  }
+}

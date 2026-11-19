@@ -1,0 +1,25 @@
+{
+  "sample_id": "scenario_076_clinical_charting",
+  "whisper_transcript": "35세 여성 환자 Hypermesis Gravidarum으로 인한 심한 탈수로 아큐 키드니 인이에 입원함. BP 92.6백 배미 비트허그그린 HR 100 식 BPM RRC-BUTT BT 36.8 AIR PIG BAIT SBO2 96.6% SEVERE NAUSEA 호소함 ONDENSITRON 8mg IV QE8H 적용함 IV FLUID RESUSCITATION WITH NORMAL SALINE 시행함 FOLEY 유지함 NEGATIVE FLUID BALANCE 확인됨 DROWSY 상태 관찰됨 NEPHROLOGY TEAM NOTIFIAM",
+  "stt_metadata": {
+    "asr_system": "whisper1_auto",
+    "provider": "openai",
+    "model": "whisper-1",
+    "language": null,
+    "audio_path": "data/audio/scenario_076_clinical_charting.mp3",
+    "audio_sha256": "a11021b6ee6d1f61c04bfbd52c45156aa0b7696a7f9d342c939b436be230da9b",
+    "transcribed_at": "2026-11-04T13:59:18+00:00",
+    "request_seconds": 2.27,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "35세 여성 환자 Hypermesis Gravidarum으로 인한 심한 탈수로 아큐 키드니 인이에 입원함. BP 92.6백 배미 비트허그그린 HR 100 식 BPM RRC-BUTT BT 36.8 AIR PIG BAIT SBO2 96.6% SEVERE NAUSEA 호소함 ONDENSITRON 8mg IV QE8H 적용함 IV FLUID RESUSCITATION WITH NORMAL SALINE 시행함 FOLEY 유지함 NEGATIVE FLUID BALANCE 확인됨 DROWSY 상태 관찰됨 NEPHROLOGY TEAM NOTIFIAM",
+    "logprobs": null,
+    "usage": {
+      "seconds": 26.0,
+      "type": "duration"
+    }
+  }
+}

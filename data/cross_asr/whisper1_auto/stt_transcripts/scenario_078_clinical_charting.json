@@ -1,0 +1,25 @@
+{
+  "sample_id": "scenario_078_clinical_charting",
+  "whisper_transcript": "66-year-old female patient is hospitalized with severe sepsis caused by necrotizing fasciitis. BP, HR, and RZBPM are our 28-breaths men BT30-globulin greases. SbO2 diaciprocentin on Ciflil-O2 via non-rebreather mask. Severe pain complaint. Vancomycin 1g IV Q2H injection. High-flow oxygen therapy. Surgical debridement scheduled. Fully maintained. Positive balance confirmed. Drowsy condition. Infectious disease and surgical teams notify.",
+  "stt_metadata": {
+    "asr_system": "whisper1_auto",
+    "provider": "openai",
+    "model": "whisper-1",
+    "language": null,
+    "audio_path": "data/audio/scenario_078_clinical_charting.mp3",
+    "audio_sha256": "6240fa820c6b9d3f36ccfc4681a5bce96a2cadf3eb66252cc7159d2b5ab58e67",
+    "transcribed_at": "2026-11-04T13:59:35+00:00",
+    "request_seconds": 2.92,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "66-year-old female patient is hospitalized with severe sepsis caused by necrotizing fasciitis. BP, HR, and RZBPM are our 28-breaths men BT30-globulin greases. SbO2 diaciprocentin on Ciflil-O2 via non-rebreather mask. Severe pain complaint. Vancomycin 1g IV Q2H injection. High-flow oxygen therapy. Surgical debridement scheduled. Fully maintained. Positive balance confirmed. Drowsy condition. Infectious disease and surgical teams notify.",
+    "logprobs": null,
+    "usage": {
+      "seconds": 30.0,
+      "type": "duration"
+    }
+  }
+}

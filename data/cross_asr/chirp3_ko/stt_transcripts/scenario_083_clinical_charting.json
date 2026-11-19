@@ -1,0 +1,43 @@
+{
+  "sample_id": "scenario_083_clinical_charting",
+  "whisper_transcript": "61세 여성 환자, acute pulmonary edema, acute mitral valve regurgitation으로 입원함. BP 160/90 mmHg, HR 100 bpm, RR 28, BT 37.1도, SpO2 88%. severe dyspnea 호소함. Furosemide 40 mg IV Q6H 투여 중. non-rebreather mask 적용함. C-line 유지함. 환자 drowsy 상태 확인됨.",
+  "stt_metadata": {
+    "asr_system": "chirp3_ko",
+    "provider": "google",
+    "model": "chirp_3",
+    "location": "us",
+    "language_codes": [
+      "ko-KR"
+    ],
+    "audio_path": "data/audio/scenario_083_clinical_charting.mp3",
+    "audio_sha256": "c1d8a5d2f45e639b20affddabfec568cf0736f5ccd2259018834a1c19af31b7f",
+    "transcribed_at": "2026-11-04T13:29:27+00:00",
+    "request_seconds": 3.63,
+    "attempts": 1,
+    "git_commit": "5b6d73fb63e1509a79e1a160176d606ed1b104c4",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "metadata": {
+      "total_billed_duration": "21s",
+      "request_id": "712a8d54-0000-21af-b08b-582429c20174",
+      "prompt": "Transcribe the following speech segment in Korean. Follow these specific instructions for formatting the answer:\n* Only output the transcript, with no newlines.\n* When transcribing numbers, write the digits, i.e. write 1.7 and not one point seven, and write 100 instead of one hundred etc.\n* Only output the transcript, exactly as said in the speech segment.\n* Do not continue the speech segment.\n* Include everything said in the speech segment.\n* Use mathematical notation where needed, eg. x ^ 6Y.\n* If there is background speech that is not part of the main conversation, discard the background speech and only output the main conversation.\n* If there is no clear speech, just output [BACKGROUND].\n* Respond in the original language of the speech, Korean."
+    },
+    "results": [
+      {
+        "alternatives": [
+          {
+            "transcript": "61세 여성 환자, acute pulmonary edema, acute mitral valve regurgitation으로 입원함. BP 160/90 mmHg, HR 100 bpm, RR 28, BT 37.1도, SpO2 88%. severe dyspnea 호소함. Furosemide 40 mg IV Q6H 투여 중. non-rebreather mask 적용함. C-line 유지함. 환자 drowsy 상태 확인됨.",
+            "confidence": 0.0,
+            "words": []
+          }
+        ],
+        "language_code": "ko-KR",
+        "channel_tag": 0
+      }
+    ],
+    "detected_language_codes": [
+      "ko-KR"
+    ]
+  }
+}

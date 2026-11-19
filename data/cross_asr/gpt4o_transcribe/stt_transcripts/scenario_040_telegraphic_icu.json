@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_040_telegraphic_icu",
+  "whisper_transcript": "Sashi bi seyosong. SJS o ibwan. BP etishita. HR kushiyū. RR BT senpeno. SpO2 kushisa pufusen. Severe skin lesions morphine formula mi IV Q4h nasal cannula and Foley.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": "ko",
+    "audio_path": "data/audio/scenario_040_telegraphic_icu.mp3",
+    "audio_sha256": "f66246e575c861a9851f3d8cd66728b84fd1d583c05f4d8e5dacb8bdda88ed37",
+    "transcribed_at": "2026-11-04T12:57:46+00:00",
+    "request_seconds": 1.46,
+    "attempts": 1,
+    "git_commit": "5b6d73fb63e1509a79e1a160176d606ed1b104c4",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "Sashi bi seyosong. SJS o ibwan. BP etishita. HR kushiyū. RR BT senpeno. SpO2 kushisa pufusen. Severe skin lesions morphine formula mi IV Q4h nasal cannula and Foley.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 123,
+      "output_tokens": 57,
+      "total_tokens": 180,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 123,
+        "text_tokens": 0
+      }
+    }
+  }
+}

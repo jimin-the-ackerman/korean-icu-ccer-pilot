@@ -1,0 +1,25 @@
+{
+  "sample_id": "scenario_005_telegraphic_icu",
+  "whisper_transcript": "58세 남성, 만성 신장 질환 병력, 급성 심부전 모니터링 및 관리 위해 입원 BP 155, HR Pipe Putt, RORCB BT, 37.1, SpO2 95.5, EDMA Moderate, Furosemide 40mg IV-Q at H, Nasal cannula 사용, Foley 삽입, Negative fluid balance, 임상상태 drowsy, Nephrology team notify",
+  "stt_metadata": {
+    "asr_system": "whisper1",
+    "provider": "reuse_existing",
+    "model": "whisper-1",
+    "language": "ko",
+    "audio_path": "data/audio/scenario_005_telegraphic_icu.mp3",
+    "audio_sha256": "098f6565ae51b7418f9705da7cc5eeb4fea187afd81216dce50844471c5e0c35",
+    "copied_at": "2026-11-04T04:31:11+00:00",
+    "request_seconds": 0.0,
+    "attempts": 1,
+    "git_commit": "b3490181b3fb3f88b56cde5be78a01cfdcef3007",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "source_file": "data/stt_transcripts/scenario_005_telegraphic_icu.json",
+    "source_sha256": "71f75ebdc52edb1c691e291aa177c37a2c40b0a522787685a83dc5f93d6eb97c",
+    "source_stt_metadata": {
+      "model": "whisper-1",
+      "language": "ko"
+    }
+  }
+}

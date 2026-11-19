@@ -1,0 +1,43 @@
+{
+  "sample_id": "scenario_048_clinical_charting",
+  "whisper_transcript": "58세 남성 esophageal varices로 인한 severe gastrointestinal bleeding으로 입원함. vital signs BP 120/60 mmHg, HR 100 bpm, RR 24 breaths/min, BT 36.8℃, SpO2 92% on room air. severe hemorrhage 확인됨. octreotide 50 mcg IV Q6H 투여 중. oxygen support nasal cannula 2L/min 적용함. endoscopic band ligation 시행함. foley 유지함. strict monitoring of input and output. clinical status drowsy 상태 확인됨. gastroenterology 팀 notify함.",
+  "stt_metadata": {
+    "asr_system": "chirp3_ko",
+    "provider": "google",
+    "model": "chirp_3",
+    "location": "us",
+    "language_codes": [
+      "ko-KR"
+    ],
+    "audio_path": "data/audio/scenario_048_clinical_charting.mp3",
+    "audio_sha256": "cab2da8f73fe491f0359d75fec6b78279bf86261b021eda1e439ef78481e5d2e",
+    "transcribed_at": "2026-11-04T13:20:50+00:00",
+    "request_seconds": 4.63,
+    "attempts": 1,
+    "git_commit": "5b6d73fb63e1509a79e1a160176d606ed1b104c4",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "metadata": {
+      "total_billed_duration": "33s",
+      "request_id": "7605a954-0000-2149-bd26-582429c94324",
+      "prompt": "Transcribe the following speech segment in Korean. Follow these specific instructions for formatting the answer:\n* Only output the transcript, with no newlines.\n* When transcribing numbers, write the digits, i.e. write 1.7 and not one point seven, and write 100 instead of one hundred etc.\n* Only output the transcript, exactly as said in the speech segment.\n* Do not continue the speech segment.\n* Include everything said in the speech segment.\n* Use mathematical notation where needed, eg. x ^ 6Y.\n* If there is background speech that is not part of the main conversation, discard the background speech and only output the main conversation.\n* If there is no clear speech, just output [BACKGROUND].\n* Respond in the original language of the speech, Korean."
+    },
+    "results": [
+      {
+        "alternatives": [
+          {
+            "transcript": "58세 남성 esophageal varices로 인한 severe gastrointestinal bleeding으로 입원함. vital signs BP 120/60 mmHg, HR 100 bpm, RR 24 breaths/min, BT 36.8℃, SpO2 92% on room air. severe hemorrhage 확인됨. octreotide 50 mcg IV Q6H 투여 중. oxygen support nasal cannula 2L/min 적용함. endoscopic band ligation 시행함. foley 유지함. strict monitoring of input and output. clinical status drowsy 상태 확인됨. gastroenterology 팀 notify함.",
+            "confidence": 0.0,
+            "words": []
+          }
+        ],
+        "language_code": "ko-KR",
+        "channel_tag": 0
+      }
+    ],
+    "detected_language_codes": [
+      "ko-KR"
+    ]
+  }
+}

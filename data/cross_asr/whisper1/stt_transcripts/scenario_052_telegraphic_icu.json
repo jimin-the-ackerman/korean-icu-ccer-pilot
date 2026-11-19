@@ -1,0 +1,25 @@
+{
+  "sample_id": "scenario_052_telegraphic_icu",
+  "whisper_transcript": "72ZN1, 힙 대치, 포스톱 복잡성, BP13, 85mmHg, HR95bpm, RR18breathsmin, BT37.5, SbO2 97% room air, pain moderate, morphine 2mLrmIVQ4H, fully in place, urine output 400mL6RR, alert.",
+  "stt_metadata": {
+    "asr_system": "whisper1",
+    "provider": "reuse_existing",
+    "model": "whisper-1",
+    "language": "ko",
+    "audio_path": "data/audio/scenario_052_telegraphic_icu.mp3",
+    "audio_sha256": "f44813e92a7f0750673ee8482cc9360bf2b6327b20105234cbd35444ee1d88aa",
+    "copied_at": "2026-11-04T04:31:12+00:00",
+    "request_seconds": 0.0,
+    "attempts": 1,
+    "git_commit": "b3490181b3fb3f88b56cde5be78a01cfdcef3007",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "source_file": "data/stt_transcripts/scenario_052_telegraphic_icu.json",
+    "source_sha256": "39a16849276c60550b21e71b4deabfdea3e2aa4a3f92d52a0b27c6dc1a3b8382",
+    "source_stt_metadata": {
+      "model": "whisper-1",
+      "language": "ko"
+    }
+  }
+}

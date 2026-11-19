@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_081_telegraphic_icu",
+  "whisper_transcript": "60M admitted CHF, HTN crisis. BP 200/110 mmHg, HR 110 bpm, RR 24, BT 37.4 degC. SpO2 88% RA, severe dyspnea. Furosemide 40 mg IV stat, O2 2L NC, Foley in place, negative fluid balance 500 mL, drowsy, cardiology team notified.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe_auto",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": null,
+    "audio_path": "data/audio/scenario_081_telegraphic_icu.mp3",
+    "audio_sha256": "2e80dd7dff809341f221b8d63449a64d90e7843c5e6eb90b4beadded69556fd9",
+    "transcribed_at": "2026-11-04T14:13:16+00:00",
+    "request_seconds": 1.97,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "60M admitted CHF, HTN crisis. BP 200/110 mmHg, HR 110 bpm, RR 24, BT 37.4 degC. SpO2 88% RA, severe dyspnea. Furosemide 40 mg IV stat, O2 2L NC, Foley in place, negative fluid balance 500 mL, drowsy, cardiology team notified.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 181,
+      "output_tokens": 87,
+      "total_tokens": 268,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 181,
+        "text_tokens": 0
+      }
+    }
+  }
+}

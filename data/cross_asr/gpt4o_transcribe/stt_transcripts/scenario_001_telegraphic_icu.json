@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_001_telegraphic_icu",
+  "whisper_transcript": "우선암성 후 골람 폐렴, BP 165/HR 128, BT 38.1, SpO2 88%, cough moderate. 세프트리악손 1g IV Q 12h, 하이 플로우 비강 캐뉼라 사용, 벤틸레이터 사용, 임상 상태 drowsy, RT notify.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": "ko",
+    "audio_path": "data/audio/scenario_001_telegraphic_icu.mp3",
+    "audio_sha256": "80e211a4616297fe75ebbb1d08b2b2afe21553aee6dfc03cb5d7f7bfbb164a3d",
+    "transcribed_at": "2026-11-04T12:53:40+00:00",
+    "request_seconds": 1.83,
+    "attempts": 1,
+    "git_commit": "5b6d73fb63e1509a79e1a160176d606ed1b104c4",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "우선암성 후 골람 폐렴, BP 165/HR 128, BT 38.1, SpO2 88%, cough moderate. 세프트리악손 1g IV Q 12h, 하이 플로우 비강 캐뉼라 사용, 벤틸레이터 사용, 임상 상태 drowsy, RT notify.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 155,
+      "output_tokens": 82,
+      "total_tokens": 237,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 155,
+        "text_tokens": 0
+      }
+    }
+  }
+}

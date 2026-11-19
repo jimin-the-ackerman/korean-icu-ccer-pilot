@@ -1,0 +1,43 @@
+{
+  "sample_id": "scenario_045_formal_template",
+  "whisper_transcript": "62세 여성 환자가 애디슨스 디지즈로 인한 급성 부신 위기로 입원하였다. 활력 증후는 혈압 88/54 mmHg, 심박수 112 bpm, 호흡수 24 breath/min, 체온 37.0°C이며, 산소 포화도는 상온 공기에서 92%로 확인되었다. 환자는 심한 복통을 호소하였다. 하이드로코르티손 100 mg IV stat으로 투여되었다. 산소는 비강 캐눌라를 통해 2 L/min으로 공급 중이다. 정상 식염수로 체액 보충이 시행되었다. 폴리 카테터가 삽입되어 있으며, 소변 배출량은 시간당 30 ml로 기록되었다. 환자는 약간 졸리는 상태이다. 부신 기능 부전 관리에 대해 내분비과에 상담하였다.",
+  "stt_metadata": {
+    "asr_system": "chirp3_auto",
+    "provider": "google",
+    "model": "chirp_3",
+    "location": "us",
+    "language_codes": [
+      "auto"
+    ],
+    "audio_path": "data/audio/scenario_045_formal_template.mp3",
+    "audio_sha256": "85fb9c74e1e0ea60707139741ee31f0178244d7bfba8dcd640763e12903996d4",
+    "transcribed_at": "2026-11-04T14:28:11+00:00",
+    "request_seconds": 6.94,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "metadata": {
+      "total_billed_duration": "44s",
+      "request_id": "73f05c09-0000-23ec-b118-ac3eb14847c0",
+      "prompt": "Transcribe the following speech segment. Follow these specific instructions for formatting the answer:\n* Only output the transcript, with no newlines.\n* When transcribing numbers, write the digits, i.e. write 1.7 and not one point seven, and write 100 instead of one hundred etc.\n* Only output the transcript, exactly as said in the speech segment.\n* Do not continue the speech segment.\n* Include everything said in the speech segment.\n* Use mathematical notation where needed, eg. x ^ 6Y.\n* If there is background speech that is not part of the main conversation, discard the background speech and only output the main conversation.\n* If there is no clear speech, just output [BACKGROUND].\n* Respond in the original language of the speech."
+    },
+    "results": [
+      {
+        "alternatives": [
+          {
+            "transcript": "62세 여성 환자가 애디슨스 디지즈로 인한 급성 부신 위기로 입원하였다. 활력 증후는 혈압 88/54 mmHg, 심박수 112 bpm, 호흡수 24 breath/min, 체온 37.0°C이며, 산소 포화도는 상온 공기에서 92%로 확인되었다. 환자는 심한 복통을 호소하였다. 하이드로코르티손 100 mg IV stat으로 투여되었다. 산소는 비강 캐눌라를 통해 2 L/min으로 공급 중이다. 정상 식염수로 체액 보충이 시행되었다. 폴리 카테터가 삽입되어 있으며, 소변 배출량은 시간당 30 ml로 기록되었다. 환자는 약간 졸리는 상태이다. 부신 기능 부전 관리에 대해 내분비과에 상담하였다.",
+            "confidence": 0.0,
+            "words": []
+          }
+        ],
+        "language_code": "ko",
+        "channel_tag": 0
+      }
+    ],
+    "detected_language_codes": [
+      "ko"
+    ]
+  }
+}

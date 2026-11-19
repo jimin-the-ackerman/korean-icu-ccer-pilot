@@ -1,0 +1,43 @@
+{
+  "sample_id": "scenario_059_telegraphic_icu",
+  "whisper_transcript": "46-year-old male, severe sepsis, perforated diverticulitis, BP 85/ HR 105 BPM, RR 28 breaths/min, BT 39. neuro gcs, SPO2 89% RA, severe abdominal pain, piperacillin-tazobactam 4.5 g IV Q8H, HFN's high-flow, fluid resuscitation, C-line, positive fluid balance, drowsy.",
+  "stt_metadata": {
+    "asr_system": "chirp3_auto",
+    "provider": "google",
+    "model": "chirp_3",
+    "location": "us",
+    "language_codes": [
+      "auto"
+    ],
+    "audio_path": "data/audio/scenario_059_telegraphic_icu.mp3",
+    "audio_sha256": "ce89224b5760efe3f91672b40821632ddab8fc60b7e1b2efe6cb0bb4f8bd2c9f",
+    "transcribed_at": "2026-11-04T14:31:46+00:00",
+    "request_seconds": 3.35,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "metadata": {
+      "total_billed_duration": "21s",
+      "request_id": "6df28d6a-0000-2f86-a262-34391606c50b",
+      "prompt": "Transcribe the following speech segment. Follow these specific instructions for formatting the answer:\n* Only output the transcript, with no newlines.\n* When transcribing numbers, write the digits, i.e. write 1.7 and not one point seven, and write 100 instead of one hundred etc.\n* Only output the transcript, exactly as said in the speech segment.\n* Do not continue the speech segment.\n* Include everything said in the speech segment.\n* Use mathematical notation where needed, eg. x ^ 6Y.\n* If there is background speech that is not part of the main conversation, discard the background speech and only output the main conversation.\n* If there is no clear speech, just output [BACKGROUND].\n* Respond in the original language of the speech."
+    },
+    "results": [
+      {
+        "alternatives": [
+          {
+            "transcript": "46-year-old male, severe sepsis, perforated diverticulitis, BP 85/ HR 105 BPM, RR 28 breaths/min, BT 39. neuro gcs, SPO2 89% RA, severe abdominal pain, piperacillin-tazobactam 4.5 g IV Q8H, HFN's high-flow, fluid resuscitation, C-line, positive fluid balance, drowsy.",
+            "confidence": 0.0,
+            "words": []
+          }
+        ],
+        "language_code": "en",
+        "channel_tag": 0
+      }
+    ],
+    "detected_language_codes": [
+      "en"
+    ]
+  }
+}

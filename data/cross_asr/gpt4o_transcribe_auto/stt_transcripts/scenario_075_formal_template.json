@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_075_formal_template",
+  "whisper_transcript": "환자는 72세 남성으로 심각한 대동맥 판막 협착증으로 인한 급성 악화 심부전으로 입원하였다. 활력징으로는 혈압 90 60힙힙힙 호흡수 22 breaths min 체온 36.8 럭데이스 산소포화도 4리트 5투를 비강캐틀라로 투여받는 상태에서 88%로 확인되었다. 환자는 심한 흉통을 호소하였다. 약물로는 브로스미드 40mg을 아이비로 8시간마다 투여 중이다. 산소는 비강캐틀라를 이용하여 지원하고 있으며 폴리 카테터가 삽입되어 있고 엄격한 입출량 모니터링이 이루어지고 있다. 환자는 의식이 명료하다. 심장내과팀에게 판막 교체 가능성에 대해 상담하였다.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe_auto",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": null,
+    "audio_path": "data/audio/scenario_075_formal_template.mp3",
+    "audio_sha256": "7cf11f6aa588668be46066ce8ed6259602c0fc9c42759db2bd5cc4044d7f5901",
+    "transcribed_at": "2026-11-04T14:12:27+00:00",
+    "request_seconds": 2.81,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "환자는 72세 남성으로 심각한 대동맥 판막 협착증으로 인한 급성 악화 심부전으로 입원하였다. 활력징으로는 혈압 90 60힙힙힙 호흡수 22 breaths min 체온 36.8 럭데이스 산소포화도 4리트 5투를 비강캐틀라로 투여받는 상태에서 88%로 확인되었다. 환자는 심한 흉통을 호소하였다. 약물로는 브로스미드 40mg을 아이비로 8시간마다 투여 중이다. 산소는 비강캐틀라를 이용하여 지원하고 있으며 폴리 카테터가 삽입되어 있고 엄격한 입출량 모니터링이 이루어지고 있다. 환자는 의식이 명료하다. 심장내과팀에게 판막 교체 가능성에 대해 상담하였다.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 434,
+      "output_tokens": 208,
+      "total_tokens": 642,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 434,
+        "text_tokens": 0
+      }
+    }
+  }
+}

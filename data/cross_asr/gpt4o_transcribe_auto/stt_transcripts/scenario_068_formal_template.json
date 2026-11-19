@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_068_formal_template",
+  "whisper_transcript": "68세 여성 환자가 급성 허혈성 대장염으로 입원하였다. 활력징후는 혈압 95/60mmHg, 심박수 110bpm, 호흡수 22breaths/min, 체온 37°C, 산소포화도 92%로 확인되었으며 실내 공기 상태이다. 환자는 심한 복통을 호소하였다. 메트로니다졸 500mg이 IV 경로로 8시간마다 투여되고 있다. 산소는 네이젤 캐눌라를 통해 2L/min로 공급되고 있다. 폴리 카테터가 삽입되어 있으며 체액 균형은 음성으로 기록되었다. 환자는 졸음이 있는 상태이다.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe_auto",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": null,
+    "audio_path": "data/audio/scenario_068_formal_template.mp3",
+    "audio_sha256": "07b5c27782ec0ae206179ac723a871aa7dcfc78bbd700ca2c1010d6bfdfcd327",
+    "transcribed_at": "2026-11-04T14:11:40+00:00",
+    "request_seconds": 2.75,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "68세 여성 환자가 급성 허혈성 대장염으로 입원하였다. 활력징후는 혈압 95/60mmHg, 심박수 110bpm, 호흡수 22breaths/min, 체온 37°C, 산소포화도 92%로 확인되었으며 실내 공기 상태이다. 환자는 심한 복통을 호소하였다. 메트로니다졸 500mg이 IV 경로로 8시간마다 투여되고 있다. 산소는 네이젤 캐눌라를 통해 2L/min로 공급되고 있다. 폴리 카테터가 삽입되어 있으며 체액 균형은 음성으로 기록되었다. 환자는 졸음이 있는 상태이다.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 351,
+      "output_tokens": 168,
+      "total_tokens": 519,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 351,
+        "text_tokens": 0
+      }
+    }
+  }
+}

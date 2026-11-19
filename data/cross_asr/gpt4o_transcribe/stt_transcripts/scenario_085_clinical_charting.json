@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_085_clinical_charting",
+  "whisper_transcript": "77세 남성 환자, aspiration pneumonia로 인한 acute respiratory failure로 입원함. BP 120mmHg, HR 95bpm, RR 18bpm, BT 37.1도, 에드릭 사스 SpO2 9% 확인됨. Cough moderate 호소함. Piperacillin tazobactam 4g IV qh 적용함. High flow nasal cannula 적용 중, ventilator 사용 중. Positive fluid balance 확인됨. Drowsy 상태 확인됨. Pulmonologist notify함.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": "ko",
+    "audio_path": "data/audio/scenario_085_clinical_charting.mp3",
+    "audio_sha256": "a4730fd0eae97dd97866c86f421c975e12361e9fb4c931a23a19d4cb7c694ccb",
+    "transcribed_at": "2026-11-04T13:03:44+00:00",
+    "request_seconds": 1.69,
+    "attempts": 1,
+    "git_commit": "5b6d73fb63e1509a79e1a160176d606ed1b104c4",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "77세 남성 환자, aspiration pneumonia로 인한 acute respiratory failure로 입원함. BP 120mmHg, HR 95bpm, RR 18bpm, BT 37.1도, 에드릭 사스 SpO2 9% 확인됨. Cough moderate 호소함. Piperacillin tazobactam 4g IV qh 적용함. High flow nasal cannula 적용 중, ventilator 사용 중. Positive fluid balance 확인됨. Drowsy 상태 확인됨. Pulmonologist notify함.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 265,
+      "output_tokens": 117,
+      "total_tokens": 382,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 265,
+        "text_tokens": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_096_telegraphic_icu",
+  "whisper_transcript": "Fifty-seven amwan, kabsong peibutwashemona. BPM 1690 mmHg. HR 110 BPM, R hornate breaths min, BT 37 more eggs, SpO2 88% RA, 95% 2L O2 NC. Dyspnea severe, furosemide 40 mg BID, 2L O2 ends fully in place. Negative fluid balance 500 ml alert. Cardiology team notify.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe_auto",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": null,
+    "audio_path": "data/audio/scenario_096_telegraphic_icu.mp3",
+    "audio_sha256": "aafc3a3ee56dcca8366ca3d09125ad6e43faadf0c5965fbc1ebdb928950c8cf3",
+    "transcribed_at": "2026-11-04T14:15:00+00:00",
+    "request_seconds": 1.59,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "Fifty-seven amwan, kabsong peibutwashemona. BPM 1690 mmHg. HR 110 BPM, R hornate breaths min, BT 37 more eggs, SpO2 88% RA, 95% 2L O2 NC. Dyspnea severe, furosemide 40 mg BID, 2L O2 ends fully in place. Negative fluid balance 500 ml alert. Cardiology team notify.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 208,
+      "output_tokens": 97,
+      "total_tokens": 305,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 208,
+        "text_tokens": 0
+      }
+    }
+  }
+}

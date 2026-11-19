@@ -1,0 +1,25 @@
+{
+  "created_at": "2026-11-05T05:25:14+00:00",
+  "git_commit": "391e226aab776f1fd94148ee5b3570070127b70f",
+  "config_version": "1.0",
+  "bootstrap": {
+    "iterations": 2000,
+    "seed": 20261103,
+    "ci": 0.95
+  },
+  "conditions": [
+    "whisper1_v4_sept",
+    "whisper1",
+    "gpt4o_transcribe",
+    "chirp3_ko",
+    "whisper1_auto",
+    "gpt4o_transcribe_auto",
+    "chirp3_auto"
+  ],
+  "skipped_incomplete": [],
+  "sensitivity_excluded_scenarios": [
+    "scenario_007",
+    "scenario_063"
+  ],
+  "note": "pooled micro-CCER = sum weighted errors / sum gold entities (v4 formula); sample_mean_ccer is the mean of sample-level CCER (used by Friedman/Wilcoxon, as in v4)"
+}

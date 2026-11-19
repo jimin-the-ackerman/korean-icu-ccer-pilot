@@ -1,0 +1,43 @@
+{
+  "sample_id": "scenario_080_telegraphic_icu",
+  "whisper_transcript": "50세 남성, 알코올성 간경화로 인한 만성 간부전, 급성 악화로 입원. BP 95/60, HR 115 BPM, RR 22 breaths/min, BT 37.5°C, SpO2 88% on room air. Severe jaundice. Furosemide 40 mg IV BID. 2L nasal cannula. Foley. Negative fluid balance. Drowsy. Hepatology consult requested.",
+  "stt_metadata": {
+    "asr_system": "chirp3_ko",
+    "provider": "google",
+    "model": "chirp_3",
+    "location": "us",
+    "language_codes": [
+      "ko-KR"
+    ],
+    "audio_path": "data/audio/scenario_080_telegraphic_icu.mp3",
+    "audio_sha256": "d32fb27d3315cba782b2d3fd428a678ef3e932bed3e2d8c7a2eae048a2361d1a",
+    "transcribed_at": "2026-11-04T13:28:57+00:00",
+    "request_seconds": 4.54,
+    "attempts": 1,
+    "git_commit": "5b6d73fb63e1509a79e1a160176d606ed1b104c4",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "metadata": {
+      "total_billed_duration": "21s",
+      "request_id": "7393c612-0000-245d-9337-ac3eb1486d20",
+      "prompt": "Transcribe the following speech segment in Korean. Follow these specific instructions for formatting the answer:\n* Only output the transcript, with no newlines.\n* When transcribing numbers, write the digits, i.e. write 1.7 and not one point seven, and write 100 instead of one hundred etc.\n* Only output the transcript, exactly as said in the speech segment.\n* Do not continue the speech segment.\n* Include everything said in the speech segment.\n* Use mathematical notation where needed, eg. x ^ 6Y.\n* If there is background speech that is not part of the main conversation, discard the background speech and only output the main conversation.\n* If there is no clear speech, just output [BACKGROUND].\n* Respond in the original language of the speech, Korean."
+    },
+    "results": [
+      {
+        "alternatives": [
+          {
+            "transcript": "50세 남성, 알코올성 간경화로 인한 만성 간부전, 급성 악화로 입원. BP 95/60, HR 115 BPM, RR 22 breaths/min, BT 37.5°C, SpO2 88% on room air. Severe jaundice. Furosemide 40 mg IV BID. 2L nasal cannula. Foley. Negative fluid balance. Drowsy. Hepatology consult requested.",
+            "confidence": 0.0,
+            "words": []
+          }
+        ],
+        "language_code": "ko-KR",
+        "channel_tag": 0
+      }
+    ],
+    "detected_language_codes": [
+      "ko-KR"
+    ]
+  }
+}

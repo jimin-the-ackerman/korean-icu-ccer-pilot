@@ -1,0 +1,25 @@
+{
+  "sample_id": "scenario_089_telegraphic_icu",
+  "whisper_transcript": "59-year-old male, admitted to the hospital with a chronic itch. BP 92, 58-millimeter herdram. HRRR, 24 breaths min. BT, 37.2 decels. SpO2, 89% in room air. Ascites, moderate. Spironolactone, 100 milligrams POBID. Nasal cannula, 3 foli. Negative fluid balance, 500 milliliter. Drowsy. Hepatology team notify.",
+  "stt_metadata": {
+    "asr_system": "whisper1_auto",
+    "provider": "openai",
+    "model": "whisper-1",
+    "language": null,
+    "audio_path": "data/audio/scenario_089_telegraphic_icu.mp3",
+    "audio_sha256": "c92b3dd1a9c65918d354a7e64ed4e562140ab0f73105204ffc9459b80c1587bc",
+    "transcribed_at": "2026-11-04T14:00:58+00:00",
+    "request_seconds": 2.82,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "59-year-old male, admitted to the hospital with a chronic itch. BP 92, 58-millimeter herdram. HRRR, 24 breaths min. BT, 37.2 decels. SpO2, 89% in room air. Ascites, moderate. Spironolactone, 100 milligrams POBID. Nasal cannula, 3 foli. Negative fluid balance, 500 milliliter. Drowsy. Hepatology team notify.",
+    "logprobs": null,
+    "usage": {
+      "seconds": 22.0,
+      "type": "duration"
+    }
+  }
+}

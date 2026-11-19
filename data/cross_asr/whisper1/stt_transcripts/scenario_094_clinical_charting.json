@@ -1,0 +1,25 @@
+{
+  "sample_id": "scenario_094_clinical_charting",
+  "whisper_transcript": "69세 여성 환자, 급성 세벌 GI 블리딩 세컨데리 to Peptic Ulcer Disease로 입원. BP 85.575mHg, HR 580bpm, RRC 2bpm, BT 36.8dCLC, SbO2 90d%, Room Air. 세벌 희미세스 호소함, Pantoprazole 80mg IV Q12H 적용함. Nasal cannula at 2LDM 유지함. Endoscopic hemostasis 시행함, C-Line 유지함. Negative fluid balance 확인됨. 환자 드라우지 상태. gastroenterology team notify him for urgent endoscopy.",
+  "stt_metadata": {
+    "asr_system": "whisper1",
+    "provider": "reuse_existing",
+    "model": "whisper-1",
+    "language": "ko",
+    "audio_path": "data/audio/scenario_094_clinical_charting.mp3",
+    "audio_sha256": "88b1427f69a3d70eef53e845b851712dfed7a090e0c3dbf89422c7a0ed59a262",
+    "copied_at": "2026-11-04T04:31:12+00:00",
+    "request_seconds": 0.0,
+    "attempts": 1,
+    "git_commit": "b3490181b3fb3f88b56cde5be78a01cfdcef3007",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "source_file": "data/stt_transcripts/scenario_094_clinical_charting.json",
+    "source_sha256": "ed54c79a37d6ffced306519c49b581e576761af726dabbcc564a96511cc18615",
+    "source_stt_metadata": {
+      "model": "whisper-1",
+      "language": "ko"
+    }
+  }
+}

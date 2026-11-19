@@ -1,0 +1,25 @@
+{
+  "sample_id": "scenario_014_clinical_charting",
+  "whisper_transcript": "59세 남성 환자 ARDS로 입원함 집 화재로 인한 흡입 손상 상태 BP 130 웹추움 의미과 110 BPM RR30 Breaths and Fuss BT 35톤 라이플생 SbO2 Etiolite Viprafensin Room Air 디스피니에 세벌 호소함 Methadone Accurate 11mg IV Q6 투여중 메카니컬 벤틀레이션 적용함 벤틀레이터 사용중 포지티브 플루이드 밸런스 확인됨 클리니컬 스테이터스 드라우지 확인됨",
+  "stt_metadata": {
+    "asr_system": "whisper1",
+    "provider": "reuse_existing",
+    "model": "whisper-1",
+    "language": "ko",
+    "audio_path": "data/audio/scenario_014_clinical_charting.mp3",
+    "audio_sha256": "d4c9a01e7af0872f7c8544c354d5917d9aa43572adf75178678183de14a8faa6",
+    "copied_at": "2026-11-04T04:31:11+00:00",
+    "request_seconds": 0.0,
+    "attempts": 1,
+    "git_commit": "b3490181b3fb3f88b56cde5be78a01cfdcef3007",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "source_file": "data/stt_transcripts/scenario_014_clinical_charting.json",
+    "source_sha256": "f5d254f39cb4747ca900499881c21daff48f158e2993d60e30a3b771b0225f85",
+    "source_stt_metadata": {
+      "model": "whisper-1",
+      "language": "ko"
+    }
+  }
+}

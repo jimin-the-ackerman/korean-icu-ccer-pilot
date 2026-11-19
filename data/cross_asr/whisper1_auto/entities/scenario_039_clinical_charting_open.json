@@ -1,0 +1,36 @@
+{
+  "sample_id": "scenario_039_clinical_charting",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "shortness of breath",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "drowsy",
+    "medication_identity": "Propranolol",
+    "interventions": [],
+    "intake_output": null,
+    "notification": "Endocrinology team notify함 for thyroid storm 관리"
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "shortness of breath",
+        "negation": false,
+        "severity": "severe"
+      },
+      {
+        "name": "hoarseness",
+        "negation": false,
+        "severity": null
+      }
+    ],
+    "clinical_status": "drowsy",
+    "medication_identity": "Propranolol",
+    "interventions": [],
+    "intake_output": null,
+    "notification": "Endocrinology team notify him for thyroid storm management"
+  }
+}

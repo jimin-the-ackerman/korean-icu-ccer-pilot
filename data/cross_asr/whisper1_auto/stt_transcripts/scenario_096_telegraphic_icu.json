@@ -1,0 +1,25 @@
+{
+  "sample_id": "scenario_096_telegraphic_icu",
+  "whisper_transcript": "Fifty-seven, nine, one, capsone, pay, butrachium, BPN 60, 90 mmHg, HR 110, BPM, R8 breaths, min, BT 37, more eggs, SpO2, 88%, RA, 95%, 2L, O2Nc, dyspnea severe, furosemide, 40 milligrams, IBID, 2L, O2N is fully in place. Negative fluid balance, 500 milliliter alert. Cardiology team notify.",
+  "stt_metadata": {
+    "asr_system": "whisper1_auto",
+    "provider": "openai",
+    "model": "whisper-1",
+    "language": null,
+    "audio_path": "data/audio/scenario_096_telegraphic_icu.mp3",
+    "audio_sha256": "aafc3a3ee56dcca8366ca3d09125ad6e43faadf0c5965fbc1ebdb928950c8cf3",
+    "transcribed_at": "2026-11-04T14:01:53+00:00",
+    "request_seconds": 1.53,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "Fifty-seven, nine, one, capsone, pay, butrachium, BPN 60, 90 mmHg, HR 110, BPM, R8 breaths, min, BT 37, more eggs, SpO2, 88%, RA, 95%, 2L, O2Nc, dyspnea severe, furosemide, 40 milligrams, IBID, 2L, O2N is fully in place. Negative fluid balance, 500 milliliter alert. Cardiology team notify.",
+    "logprobs": null,
+    "usage": {
+      "seconds": 21.0,
+      "type": "duration"
+    }
+  }
+}

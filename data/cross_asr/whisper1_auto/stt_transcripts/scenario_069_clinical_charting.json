@@ -1,0 +1,25 @@
+{
+  "sample_id": "scenario_069_clinical_charting",
+  "whisper_transcript": "57-year-old male patient admitted to hospital with acute heroin overdose. BP 96.6 mg, HR 45 BPM, RR 8 breaths min, BT 36.5 degrees, SpO2 85% on room air, severe unconsciousness, naloxone melamine IV stat, high-flow nasal cannula, clinical status unresponsive.",
+  "stt_metadata": {
+    "asr_system": "whisper1_auto",
+    "provider": "openai",
+    "model": "whisper-1",
+    "language": null,
+    "audio_path": "data/audio/scenario_069_clinical_charting.mp3",
+    "audio_sha256": "116463f5e09249c4c11d85f5e99642d2b63e0d952f3db1c071f51ac1fc2ec2e9",
+    "transcribed_at": "2026-11-04T13:58:17+00:00",
+    "request_seconds": 2.42,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "57-year-old male patient admitted to hospital with acute heroin overdose. BP 96.6 mg, HR 45 BPM, RR 8 breaths min, BT 36.5 degrees, SpO2 85% on room air, severe unconsciousness, naloxone melamine IV stat, high-flow nasal cannula, clinical status unresponsive.",
+    "logprobs": null,
+    "usage": {
+      "seconds": 19.0,
+      "type": "duration"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "sample_id": "scenario_060_clinical_charting",
+  "whisper_transcript": "77-year-old male, Parkinson's disease, acute exacerbation. BP 145 mmHg, HR 85 Bt, Bt, C37.X, SpO2 95%. Rigidity severe, confirmed. Levodopaic milligram TI applied. Fully maintained. IOT 724 recorded. Clinical status drowsy, confirmed.",
+  "stt_metadata": {
+    "asr_system": "whisper1_auto",
+    "provider": "openai",
+    "model": "whisper-1",
+    "language": null,
+    "audio_path": "data/audio/scenario_060_clinical_charting.mp3",
+    "audio_sha256": "b5bb23e6fa399f6a22ca3ab1f2bb4fed248940d7d86fbc646af8ef3c10dcc733",
+    "transcribed_at": "2026-11-04T13:57:12+00:00",
+    "request_seconds": 2.45,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "77-year-old male, Parkinson's disease, acute exacerbation. BP 145 mmHg, HR 85 Bt, Bt, C37.X, SpO2 95%. Rigidity severe, confirmed. Levodopaic milligram TI applied. Fully maintained. IOT 724 recorded. Clinical status drowsy, confirmed.",
+    "logprobs": null,
+    "usage": {
+      "seconds": 21.0,
+      "type": "duration"
+    }
+  }
+}

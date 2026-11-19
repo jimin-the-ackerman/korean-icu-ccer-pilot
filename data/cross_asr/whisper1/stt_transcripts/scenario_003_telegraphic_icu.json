@@ -1,0 +1,25 @@
+{
+  "sample_id": "scenario_003_telegraphic_icu",
+  "whisper_transcript": "70T세 여성 BP 145, 9mHg, HRMM R22, BT37, 1mRLC, SBO2 95% onto NC, Severe chest pain, Aspirin 3D25mg POstat, NC 사용 중, Cardiac monitoring 중, C-line 유지 중, Alert, Cardiology team notify.",
+  "stt_metadata": {
+    "asr_system": "whisper1",
+    "provider": "reuse_existing",
+    "model": "whisper-1",
+    "language": "ko",
+    "audio_path": "data/audio/scenario_003_telegraphic_icu.mp3",
+    "audio_sha256": "660ec7926413427ce9fd7c661161efa0a0abcc4f7973d26b501b7631d89e5e95",
+    "copied_at": "2026-11-04T04:31:11+00:00",
+    "request_seconds": 0.0,
+    "attempts": 1,
+    "git_commit": "b3490181b3fb3f88b56cde5be78a01cfdcef3007",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "source_file": "data/stt_transcripts/scenario_003_telegraphic_icu.json",
+    "source_sha256": "9def2a622de60a90a30619fdba4e0fccc24d06267bb5450beb367e3e2ce3d6fc",
+    "source_stt_metadata": {
+      "model": "whisper-1",
+      "language": "ko"
+    }
+  }
+}

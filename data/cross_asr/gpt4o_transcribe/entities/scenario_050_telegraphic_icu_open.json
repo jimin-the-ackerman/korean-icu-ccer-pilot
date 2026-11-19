@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_050_telegraphic_icu",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "chest pain",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "Drowsy",
+    "medication_identity": "Nitroglycerin",
+    "interventions": [],
+    "intake_output": "Positive fluid balance",
+    "notification": "Cardiology team notify"
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "chest pain",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "drowsy",
+    "medication_identity": "nitroglycerin",
+    "interventions": [],
+    "intake_output": "positive fluid balance",
+    "notification": "cardiology team notify"
+  }
+}

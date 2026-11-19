@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_034_telegraphic_icu",
+  "whisper_transcript": "64세 남성 급성 악화된 간성 혼수로 입원. BP 100/60 mmHg, HR 112 bpm, RR 20/min, BT 36.5°C, SpO2 90% room air, jaundice moderate. Lactulose 30 ml PO q8h, nasal cannula 2L, strict fluid balance monitoring, drowsy hepatology team notify him.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe_auto",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": null,
+    "audio_path": "data/audio/scenario_034_telegraphic_icu.mp3",
+    "audio_sha256": "5dc84e85bdca7546e8b3426fb6d6edab874e4491321cb07dff8dd50c11d1ed0b",
+    "transcribed_at": "2026-11-04T14:07:28+00:00",
+    "request_seconds": 1.94,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "64세 남성 급성 악화된 간성 혼수로 입원. BP 100/60 mmHg, HR 112 bpm, RR 20/min, BT 36.5°C, SpO2 90% room air, jaundice moderate. Lactulose 30 ml PO q8h, nasal cannula 2L, strict fluid balance monitoring, drowsy hepatology team notify him.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 204,
+      "output_tokens": 88,
+      "total_tokens": 292,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 204,
+        "text_tokens": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "sample_id": "scenario_094_clinical_charting",
+  "whisper_transcript": "69-year-old female patient has been diagnosed with severe GI bleeding secondary to peptic ulcer disease. BP 85.575mHg, HR 180bpm, RRC 2bpm, BT 36.8dCLC, SbO2 90d%, room air. Severe hemesis, pantoprazole 80mg IV Q12H, nasal cannula at 2LDM, endoscopic hemostasis, C-line, negative fluid balance. Patient is in a drowsy state. Gastroenterology team notify him for urgent endoscopy.",
+  "stt_metadata": {
+    "asr_system": "whisper1_auto",
+    "provider": "openai",
+    "model": "whisper-1",
+    "language": null,
+    "audio_path": "data/audio/scenario_094_clinical_charting.mp3",
+    "audio_sha256": "88b1427f69a3d70eef53e845b851712dfed7a090e0c3dbf89422c7a0ed59a262",
+    "transcribed_at": "2026-11-04T14:01:32+00:00",
+    "request_seconds": 2.23,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "69-year-old female patient has been diagnosed with severe GI bleeding secondary to peptic ulcer disease. BP 85.575mHg, HR 180bpm, RRC 2bpm, BT 36.8dCLC, SbO2 90d%, room air. Severe hemesis, pantoprazole 80mg IV Q12H, nasal cannula at 2LDM, endoscopic hemostasis, C-line, negative fluid balance. Patient is in a drowsy state. Gastroenterology team notify him for urgent endoscopy.",
+    "logprobs": null,
+    "usage": {
+      "seconds": 30.0,
+      "type": "duration"
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_020_telegraphic_icu",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "abdominal pain",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "Drowsy",
+    "medication_identity": "Morphine",
+    "interventions": [],
+    "intake_output": "-500 mL/24hr",
+    "notification": "Dr notify gastro consult"
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "abdominal pain",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "drowsy",
+    "medication_identity": "morphine",
+    "interventions": [],
+    "intake_output": "IO 500ml per 24",
+    "notification": "Docker notify gastro consult"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "sample_id": "scenario_029_clinical_charting",
+  "whisper_transcript": "49세 여자 환자 GBS로 입원. 중증 muscle weakness 호소. 호흡 상태 밀착 모니터링 필요. BP 130/85 mmHg, HR 92 BPM, RR 18 breath/min, BT 36.8°C, SpO2 89% room air. IVIG 1g/kg IV Q12H 적용함. nasal cannula 2L/min 산소 공급 유지함. plasma phoresis 예정됨. ventilator 필요함. foley catheter 유지 중 소변량 1200ml/24hr 확인됨. 의식 drowsy 확인됨. neurology 팀에 호흡 기능 저하 상태 업데이트 함.",
+  "stt_metadata": {
+    "asr_system": "chirp3_auto",
+    "provider": "google",
+    "model": "chirp_3",
+    "location": "us",
+    "language_codes": [
+      "auto"
+    ],
+    "audio_path": "data/audio/scenario_029_clinical_charting.mp3",
+    "audio_sha256": "c992c14c44c6cb0c44c6b3df72466d5677a1a8f7d621083e9b230c6262b2b71d",
+    "transcribed_at": "2026-11-04T14:24:09+00:00",
+    "request_seconds": 4.85,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "metadata": {
+      "total_billed_duration": "32s",
+      "request_id": "6b0a31ee-0000-2064-ae37-2405887ac040",
+      "prompt": "Transcribe the following speech segment. Follow these specific instructions for formatting the answer:\n* Only output the transcript, with no newlines.\n* When transcribing numbers, write the digits, i.e. write 1.7 and not one point seven, and write 100 instead of one hundred etc.\n* Only output the transcript, exactly as said in the speech segment.\n* Do not continue the speech segment.\n* Include everything said in the speech segment.\n* Use mathematical notation where needed, eg. x ^ 6Y.\n* If there is background speech that is not part of the main conversation, discard the background speech and only output the main conversation.\n* If there is no clear speech, just output [BACKGROUND].\n* Respond in the original language of the speech."
+    },
+    "results": [
+      {
+        "alternatives": [
+          {
+            "transcript": "49세 여자 환자 GBS로 입원. 중증 muscle weakness 호소. 호흡 상태 밀착 모니터링 필요. BP 130/85 mmHg, HR 92 BPM, RR 18 breath/min, BT 36.8°C, SpO2 89% room air. IVIG 1g/kg IV Q12H 적용함. nasal cannula 2L/min 산소 공급 유지함. plasma phoresis 예정됨. ventilator 필요함. foley catheter 유지 중 소변량 1200ml/24hr 확인됨. 의식 drowsy 확인됨. neurology 팀에 호흡 기능 저하 상태 업데이트 함.",
+            "confidence": 0.0,
+            "words": []
+          }
+        ],
+        "language_code": "ko",
+        "channel_tag": 0
+      }
+    ],
+    "detected_language_codes": [
+      "ko"
+    ]
+  }
+}

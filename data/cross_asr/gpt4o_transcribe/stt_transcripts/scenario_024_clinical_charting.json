@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_024_clinical_charting",
+  "whisper_transcript": "40세 남성 환자, 급성 어펜디사이티스 및 수술 후 합병증으로 입원함. BP 80/70 mmHg, HR 88 bpm, RR 10 breaths/min, BT 37.0°C, SpO2 92% 확인됨. Abdominal pain moderate 호소함. Ceftriaxone 1g IV BID 투여 중임. Urine output mildly reduced 확인됨. 환자 의식 alert 상태 유지함.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": "ko",
+    "audio_path": "data/audio/scenario_024_clinical_charting.mp3",
+    "audio_sha256": "516424e47f5c0293c094b9b13a12a915b01555906300fccfe9250e00931c344f",
+    "transcribed_at": "2026-11-04T12:56:01+00:00",
+    "request_seconds": 2.11,
+    "attempts": 1,
+    "git_commit": "5b6d73fb63e1509a79e1a160176d606ed1b104c4",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "40세 남성 환자, 급성 어펜디사이티스 및 수술 후 합병증으로 입원함. BP 80/70 mmHg, HR 88 bpm, RR 10 breaths/min, BT 37.0°C, SpO2 92% 확인됨. Abdominal pain moderate 호소함. Ceftriaxone 1g IV BID 투여 중임. Urine output mildly reduced 확인됨. 환자 의식 alert 상태 유지함.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 207,
+      "output_tokens": 105,
+      "total_tokens": 312,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 207,
+        "text_tokens": 0
+      }
+    }
+  }
+}

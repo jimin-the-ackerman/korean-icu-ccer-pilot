@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_020_clinical_charting",
+  "whisper_transcript": "60세 남성, severe acute pancreatitis로 입원. 자장기 침범 있음, 안정적이나 합증 감시 중, BP 개끗 70, HR 95, RR 20, BT 37.8, SpO2 94%. severe abdominal pain 호소함. 모르핀 4mg IV Q4H 적용함. 네이저 캐널라 2에드민 유지함. NG 튜브 유지함. 네거티브 플루이드 밸런스 500ml per 호스사라 확인됨. 드라우지 상태 확인됨. 담당에 노티파함. 가스트로엔터롤로지 컨설트 요청함.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": "ko",
+    "audio_path": "data/audio/scenario_020_clinical_charting.mp3",
+    "audio_sha256": "6cb584711c8c645ce50dcc5b893e368948bf28b4cbadc3b3540177b6faf9e926",
+    "transcribed_at": "2026-11-04T12:55:38+00:00",
+    "request_seconds": 2.19,
+    "attempts": 1,
+    "git_commit": "5b6d73fb63e1509a79e1a160176d606ed1b104c4",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "60세 남성, severe acute pancreatitis로 입원. 자장기 침범 있음, 안정적이나 합증 감시 중, BP 개끗 70, HR 95, RR 20, BT 37.8, SpO2 94%. severe abdominal pain 호소함. 모르핀 4mg IV Q4H 적용함. 네이저 캐널라 2에드민 유지함. NG 튜브 유지함. 네거티브 플루이드 밸런스 500ml per 호스사라 확인됨. 드라우지 상태 확인됨. 담당에 노티파함. 가스트로엔터롤로지 컨설트 요청함.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 280,
+      "output_tokens": 148,
+      "total_tokens": 428,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 280,
+        "text_tokens": 0
+      }
+    }
+  }
+}
