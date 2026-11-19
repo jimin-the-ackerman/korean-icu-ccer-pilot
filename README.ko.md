@@ -11,6 +11,16 @@
 > 생성형 AI를 활용하여 ICU 간호기록 생성–음성 합성–음성 인식–Entity Evaluation–CCER까지의
 > 전체 파이프라인을 구현하였습니다.
 
+![연구 흐름도: scaffold, 시나리오(gold), 문서 스타일, TTS, 세 ASR 시스템, 전사문, CCER 평가](docs/figures/research_flow.png)
+
+*연구 흐름도와 예시 1건(scenario_012). 강조 표시는 ASR 오류가 아니라 평가기의 판정을
+나타내며, \*는 올바르게 전사됐지만 v4 평가기가 추출하지 못한 표현이다(§3.9 참고).*
+
+**KOSMI 2026 추계학술대회 e-포스터(EP 8-6)**로 발표:
+*Evaluating Clinical Information Preservation Across Documentation Styles in Korean-English
+Code-Switched ICU Speech Recognition* — 포스터 PDF는
+[awards-and-posters](https://github.com/jimin-the-ackerman/awards-and-posters)에 있다.
+
 ---
 
 ## 1. 연구 개요
@@ -32,6 +42,14 @@
    Precision/Recall/F1, Clinical Critical Error Rate(CCER)로 평가하는 프레임워크
 4. 사전 등록된 통계 분석 계획(Friedman/Wilcoxon/mixed-effects, WER-CCER
    상관, within-scenario disagreement, CCER 가중치 민감도 분석)
+5. **Cross-ASR 강건성 점검**(2026년 11월): 같은 300개 음성을 세 ASR
+   시스템(Whisper-1, gpt-4o-transcribe, Google Chirp 3)으로 전사하고 수정하지
+   않은 v4 평가기로 채점(`docs/cross_asr_spec.md`)
+6. **사후 평가기 민감도 분석(S1)**: 영어 임상 용어 뒤에 한국어 조사가 붙으면
+   v4 추출기가 놓치는 문제에 대한 분석(`docs/cross_asr_spec.md` §13)
+
+각 분석의 역할은 고정되어 있다. 9월 v4 Whisper-1 분석이 **주분석**,
+Cross-ASR는 **강건성 점검**, S1은 주분석을 대체하지 않는 **사후 민감도 분석**이다.
 
 평가 방법론은 결과와 무관하게 독립적으로 감사·수정된 4번의 문서화된 개정
 (`docs/design_decisions.md`, `docs/taxonomy_audit.md`,
@@ -52,7 +70,8 @@ Reference Analysis
     -> Style Controller
     -> GPT-4o: Style-controlled Documentation Generation
     -> OpenAI TTS: Speech Synthesis
-    -> OpenAI Whisper: Speech Recognition
+    -> ASR: OpenAI Whisper-1(주분석); gpt-4o-transcribe, Google Chirp 3
+       (Cross-ASR 강건성 점검)
     -> Entity Extraction (Closed-vocabulary / Open-vocabulary)
     -> Entity Matching & Error Type Classification
     -> Evaluation (WER / Entity-level P,R,F1 / CCER)
@@ -81,6 +100,13 @@ Telegraphic ICU 세 가지 스타일로 표현하도록 GPT-4o에 지시한다. 
 생성된 간호기록 텍스트를 OpenAI TTS로 음성화하고(`src/tts/synthesize_speech.py`),
 OpenAI Whisper API로 다시 텍스트로 전사한다(`src/stt/transcribe.py`).
 화자(voice)는 모든 샘플에 대해 단일하게 고정하여 통제변수로 유지한다.
+
+Cross-ASR 강건성 점검에서는 같은 300개 음성을 `gpt-4o-transcribe`(OpenAI)와
+`chirp_3`(Google Speech-to-Text V2)로 추가 전사했다. 프롬프트, 어휘 부스팅,
+용어 목록은 쓰지 않았다(`src/cross_asr/transcribe.py`, `configs/cross_asr.yaml`).
+Condition A(한국어 지정)가 주 조건이고, Condition B(언어 미지정/자동)는
+탐색적 조건이다. CLOVA Speech는 시험 후 본 분석 전에 제외했다(한국어가
+로마자로 출력됨; `docs/cross_asr_spec.md` §11.1).
 
 ### 2.4 Entity Extraction
 전사된 텍스트에서 임상 정보를 두 갈래로 추출하며, 결과와 무관하게 독립
@@ -243,11 +269,13 @@ Gold entity의 약 35%(1415개 중 500개)를 차지한다. Aggregate 결과를
 Macro-averaging 하에서도 순위는 유지됐다 — 즉 Formal Template의 우위가
 순수히 활력징후 빈도만의 인공물은 아니다. 하지만 격차는 상당히 좁아졌고
 (micro 기준 약 0.33~0.37 격차 → macro 기준 약 0.04~0.15 격차), 그
-우위는 **균일하지 않다**: Formal Template은 11개 중 8개
-entity type에서 나머지 두 register보다 우수했지만(`vital_sign`에서는
-큰 격차로), `device`, `dose`, `route` — 투약 및 물리적 장비를
-서술하는 entity type — 에서는 오히려 Clinical Charting에 **뒤졌다.**
-이 발견이 3.7절의 탐색적 후속 실험을 직접 동기부여했다.
+우위는 **균일하지 않다**: Formal Template은 11개 중 7개
+entity type에서 entity type별 CCER이 가장 낮았지만(그중 `medication_identity`는
+Clinical Charting과 동률; `vital_sign`에서는 큰 격차로), `device`, `dose`,
+`route` — 투약 및 물리적 장비를 서술하는 entity type — 에서는 오히려
+Clinical Charting에 **뒤졌고**, `symptom`에서는 가장 높았다.
+이 발견이 3.7절의 탐색적 후속 실험을 직접 동기부여했다. 이후 `dose`/`route`
+격차의 대부분은 평가기 효과였던 것으로 확인됐다(3.9절).
 
 ### 3.7 탐색적 후속 실험: Entity-Informed Hybrid Register
 
@@ -311,6 +339,110 @@ register에 억지로 분산시키는 것)이 실현된 것이다. 이를 정직
 장점들이 자동으로 균일하게 우수한 mixed-register 노트로 합성되지는
 않는다.
 
+> **갱신(2026년 11월).** 사후 조사 처리 민감도 분석(3.9절)에서는 Hybrid의
+> Formal Template 대비 우위가 나타나지 않는다(micro-CCER 0.674 vs 0.675,
+> macro-CCER 0.645 vs 0.598; pooled 값, 검정 없음). Hybrid는 약물 정보를
+> Clinical 스타일("40 mg IV")로 써서, Formal Template의 "40mg을", "IV로"에만
+> 생기던 추출 누락을 피해 갔다. 따라서 Hybrid 개선분의 대부분은 전사가 좋아진
+> 효과보다 평가기 효과였을 가능성이 크다.
+
+### 3.8 Cross-ASR 강건성 점검 (2026년 11월)
+
+같은 300개 음성, 같은 scaffold, 수정하지 않은 v4 평가기를 사용했다. 세 시스템은
+같은 실행에서 평가했으며, 9월 Whisper-1 전사문도 다시 평가했다(Condition A,
+한국어 지정, n = 100 시나리오). 프로토콜과 실행 기록: `docs/cross_asr_spec.md`;
+결과: `results/cross_asr/`.
+
+| ASR | Style | nWER | Entity F1 | Micro-CCER | Macro-CCER |
+|---|---|---|---|---|---|
+| Whisper-1\* | Formal | **0.304** | **0.750** | **0.837** | **0.785** |
+| | Clinical | 0.452 | 0.627 | 1.180 | 0.864 |
+| | Telegraphic | 0.564 | 0.617 | 1.194 | 0.917 |
+| gpt-4o-transcribe | Formal | **0.246** | **0.822** | **0.636** | 0.671 |
+| | Clinical | 0.277 | 0.722 | 0.925 | 0.643 |
+| | Telegraphic | 0.360 | 0.770 | 0.796 | **0.559** |
+| Chirp 3 | Formal | **0.155** | **0.813** | **0.672** | 0.685 |
+| | Clinical | 0.243 | 0.745 | 0.845 | **0.560** |
+| | Telegraphic | 0.305 | 0.768 | 0.785 | 0.582 |
+
+\*주분석과 같은 전사문을 2026년 11월에 다시 평가한 값이다. pooled CCER은 9월
+실행과 최대 0.02 차이였고 스타일 순위는 같았다(평가 LLM의 실행 간 변동;
+temperature 미설정). 굵은 글씨 = 시스템 내 최선값.
+
+| ASR (v4, n = 100) | Friedman chi-sq (W) | F vs C (Holm p) | F vs T (Holm p) | C vs T (Holm p) |
+|---|---|---|---|---|
+| Whisper-1\* | 75.7 (0.38) | 9.8e-12 | 5.0e-12 | 0.72 |
+| gpt-4o-transcribe | 35.5 (0.18) | 6.6e-9 | 0.0017 | 0.0095 (T가 낮음) |
+| Chirp 3 | 8.1 (0.04) | 5.9e-4 | **0.066** | 0.24 |
+
+- **세 시스템 모두에서 Formal Template의 nWER가 가장 낮고, Entity F1이 가장
+  높고, micro-CCER이 가장 낮았다.** Clinical Charting과 Telegraphic ICU의
+  순서는 시스템마다 달랐다.
+- v4에서 Chirp 3의 Formal vs Telegraphic 차이는 유의하지 않았고(Holm p = 0.066),
+  **macro-CCER에서는 gpt-4o-transcribe와 Chirp 3에서 Formal이 3위**였다.
+  이유는 3.9절에 있다.
+- Condition B(언어 미지정, 탐색적)에서도 micro-CCER 양상은 같았다(세 시스템
+  모두 Formal이 가장 낮음).
+- TTS 결함이 의심되는 두 시나리오(007, 063; `docs/cross_asr_spec.md` §12.3)를
+  빼도 결론은 바뀌지 않는다.
+
+### 3.9 사후 평가기 민감도 분석 S1: 한국어 조사 결합
+
+Cross-ASR 연구의 표기 진단에서, 올바르게 전사된 영어 용어 뒤에 한국어 조사가
+붙은 표현 — 예: "40mg**을**", "IV**로**", "nasal cannula**를**" — 을 v4
+closed-vocabulary 추출기가 놓친다는 것이 확인됐다. 파이썬의 `\b`가 한글을
+단어 문자로 취급하기 때문이다. S1은 closed-vocabulary 패턴 41개의 단어 경계
+조건만 바꿔 한국어 조사 27개가 뒤에 와도 인정한다(조사는 추출 값에 포함되지
+않는다). open-vocabulary 매칭은 그대로 재사용한다. 결과를 본 뒤 설계했으므로
+**사후 민감도 분석**으로 보고하며, v4가 주분석으로 유지된다
+(`docs/cross_asr_spec.md` §13, §13.1; API 호출 없음).
+
+| ASR | Formal micro-CCER (v4 -> S1) | Formal macro-CCER (v4 -> S1) | Macro 순위 (v4 -> S1) |
+|---|---|---|---|
+| Whisper-1 (9월, 주분석 실행) | 0.842 -> 0.675 | 0.802 -> 0.598 | F < C < T -> F < C < T |
+| Whisper-1\* (11월) | 0.837 -> 0.670 | 0.785 -> 0.581 | F < C < T -> F < C < T |
+| gpt-4o-transcribe | 0.636 -> 0.466 | 0.671 -> 0.455 | T < C < **F** -> **F** < T < C |
+| Chirp 3 | 0.672 -> 0.455 | 0.685 -> 0.419 | C < T < **F** -> **F** < C < T |
+
+- S1이 바꾼 것은 **Formal Template뿐**이다. Clinical Charting과 Telegraphic
+  ICU는 0.005 이하로 변했다(micro, macro 모두).
+- S1에서는 모든 시스템에서 Formal이 나머지 두 스타일과 유의하게 달랐고
+  (Holm p < 1e-8), Kendall's W가 커졌다(9월 Whisper-1 0.39 -> 0.51,
+  gpt-4o-transcribe 0.18 -> 0.40, Chirp 3 0.04 -> 0.33).
+- Entity 수준(9월 Whisper-1, Formal v4 -> S1; 괄호는 Clinical Charting):
+  `dose` 1.820 -> **0.640**(1.040; 순위 역전), `route` 1.770 -> 1.090(1.010),
+  `device` 1.618 -> 1.309(0.890; 남은 격차는 "폴리 캐테터" 같은 한국어 음차
+  표기 때문일 가능성이 크며, 이는 S1 범위 밖이다).
+- 수동 검토(Condition A; 전사문과 scaffold 기준, 음성 미청취): omission ->
+  matched로 바뀐 기록을 층화 추출한 30건은 모두 올바른 매칭이었다. 부작용 감사
+  40건에서는 잔여 평가기 산물 24건이 확인됐다(예: IV 중복 언급, 산소 유량이나
+  수액량을 용량으로 읽음). **따라서 S1 값에도 잔여 평가기 산물이 남아 있으며,
+  보정된 값으로 보고하지 않는다.**
+- S1의 macro-CCER과 Hybrid S1 확인은 KOSMI 포스터를 위해 추가 계산했다
+  (`src/cross_asr/kosmi2026_tables.py`, `results/cross_asr/kosmi2026_tables/`,
+  명세 §13.2).
+
+### 3.10 종합 결론
+
+1. **스타일 결과.** 세 ASR 시스템 모두에서 Formal Template의 micro-CCER이
+   가장 낮았다(nWER도 가장 낮고 Entity F1은 가장 높음). 이 우위는 사후 조사
+   보정 뒤에도 유지됐고 오히려 커졌다.
+2. **평가기 결과.** 평가기가 한국어·영어 혼용 표현을 어떻게 처리하느냐가
+   결론을 두 번 바꿨다. v3 -> v4 재설계(한국어 라벨, 값 형식)는 전체 스타일
+   순위를 뒤집었고(3.5절), 조사 처리(S1)는 `dose` 순위, 두 시스템의
+   macro-CCER 순위, Hybrid의 우위를 바꿨다. 한국어·영어 코드 스위칭 ASR을
+   임상 가중치로 평가하려면 스타일에 영향받지 않는 추출과, 사람의 판정으로
+   검증한 평가기가 필요하다.
+
+**한계.** LLM이 생성한 기록과 단일 화자 TTS 음성을 사용했으며 실제 ICU 음성이
+아니다. entity taxonomy와 중증도 가중치는 외부 자료에 근거했고 의료진 검토를
+거치지 않았다. 평가기의 판정(LLM 기반 open-vocabulary 매칭 포함)을 사람의
+판정으로 검증하지 않았다.
+
+**향후 연구.** 의료진이 검토한 시나리오·entity 정의·가중치와 실제 ICU 음성으로
+검증 → 사람의 판정으로 검증한 코드 스위칭 대응 평가기 → CCER 정보를 반영한
+ASR 파인튜닝.
+
 ---
 
 ## 4. Repository Structure
@@ -327,13 +459,16 @@ korean-icu-ccer-pilot/
 │   ├── v4_style_invariant_extraction_spec.md  # v4: 스타일 편향 감사·스펙·확정
 │   ├── statistical_analysis_plan.md           # 사전 등록 SAP (확정본)
 │   ├── hybrid_followup_spec.md                # 탐색적 Hybrid register 설계(확정본)
+│   ├── cross_asr_spec.md                      # Cross-ASR 프로토콜, 실행 기록, S1(§13)
+│   ├── figures/research_flow.png              # 연구 흐름도 (KOSMI 2026)
 │   └── full_run_execution_order.md            # 확장 실행 순서 고정 문서
 ├── data/
 │   ├── scenarios/                # Content Scaffold (GPT-4o 생성)
 │   ├── generated_text/           # 스타일별 Gold Transcript(Hybrid 포함)
 │   ├── audio/                    # TTS 음성 파일 (git 추적 안 함)
 │   ├── stt_transcripts/          # Whisper 전사 결과
-│   └── entities/                 # Entity 추출/매칭 결과
+│   ├── entities/                 # Entity 추출/매칭 결과
+│   └── cross_asr/<condition>/    # Cross-ASR 전사문, entity 결과, 실행 로그
 ├── src/
 │   ├── pipeline_utils.py          # Skip-by-default 안전장치 (RunLog, --overwrite)
 │   ├── scaffold/                  # Content Scaffold schema 및 생성
@@ -344,14 +479,19 @@ korean-icu-ccer-pilot/
 │   ├── entity_extraction/         # Closed/open-vocabulary 추출
 │   ├── matching/                  # Entity 매칭, semantic matching
 │   ├── evaluation/                # WER, entity evaluation, CCER
-│   └── analysis/                  # Error profile, 통계 검정, SAP 1-5,
-│                                     hybrid_followup, hybrid_manipulation_check
+│   ├── analysis/                  # Error profile, 통계 검정, SAP 1-5,
+│   │                                 hybrid_followup, hybrid_manipulation_check
+│   └── cross_asr/                 # Cross-ASR 전사, 평가, 분석, 표기 진단, S1,
+│                                     KOSMI 표 재계산
 ├── results/
 │   ├── pilot_15/                  # v1/v2/v3 체크포인트(15샘플 파일럿, 보존)
 │   ├── full_50/                   # 50-scenario 체크포인트(보존)
 │   ├── full_100/                  # v3(v4 수정 전) 100-scenario 체크포인트(보존)
 │   ├── full_100_v4/               # 최종 결과, 3-register primary 분석(편향 보정)
-│   └── hybrid_followup/           # 탐색적 Hybrid register 결과(full_100_v4/와 분리)
+│   ├── hybrid_followup/           # 탐색적 Hybrid register 결과(full_100_v4/와 분리)
+│   ├── cross_asr/                 # Cross-ASR 분석(analysis_prelim_condA = 최종), 표기
+│   │                                 진단, sensitivity_ko_particle(S1), kosmi2026_tables
+│   └── _env/                      # Cross-ASR 실행 환경 기록
 └── tests/                          # 유닛 테스트
 ```
 
@@ -422,7 +562,24 @@ python3 -m src.analysis.sap4_error_profile_final --output-dir results/full_100_v
 5→50→100 시나리오로 확장할 때 쓴 정확한 체크리스트(사전 점검, 무결성
 확인, 하지 않을 것 목록 포함)는 `docs/full_run_execution_order.md` 참고.
 
-### 5.4 테스트
+### 5.4 Cross-ASR 강건성 점검과 S1
+
+설정은 `configs/cross_asr.yaml`에 있다. 전사에는 `OPENAI_API_KEY`와 Google
+Application Default Credentials(Chirp 3)가, 평가에는 `ANTHROPIC_API_KEY`가
+필요하다. 정확한 인자, 실행 순서, 중단 규칙은 `docs/cross_asr_spec.md`(§3-13)와
+각 모듈의 `--help`에 있다.
+
+```bash
+python3 -m src.cross_asr.manifest              # 음성 manifest와 파일럿 세트
+python3 -m src.cross_asr.transcribe            # 조건별 전사 (API)
+python3 -m src.cross_asr.evaluate              # 조건별 CCER v4 평가 (API)
+python3 -m src.cross_asr.analysis              # pooled CCER, Delta, Friedman/Wilcoxon (API 불필요)
+python3 -m src.cross_asr.notation_diagnostics  # 표기 집계와 사례 검토 (API 불필요)
+python3 -m src.cross_asr.sensitivity_ko_particle --run   # S1 (API 불필요)
+python3 -m src.cross_asr.kosmi2026_tables      # KOSMI 포스터 표 (API 불필요)
+```
+
+### 5.5 테스트
 
 ```bash
 pytest tests/ -q
@@ -453,9 +610,21 @@ pytest tests/ -q
 - [`docs/full_run_execution_order.md`](docs/full_run_execution_order.md):
   5→100 시나리오 확장 시 이미 계산된 결과를 훼손하지 않도록 고정한 실행
   체크리스트
+- [`docs/cross_asr_spec.md`](docs/cross_asr_spec.md): Cross-ASR 프로토콜
+  (2026-11-03 확정), 개정, 실행 기록, 표기 진단, 사후 S1 분석과 수동 검토
+  (§13, §13.1), KOSMI 포스터 재계산(§13.2)
 
 ---
 
-## 7. Author
+## 7. 발표
+
+- **KOSMI 2026 추계학술대회**, e-포스터 EP 8-6 — *Evaluating Clinical
+  Information Preservation Across Documentation Styles in Korean-English
+  Code-Switched ICU Speech Recognition* (김지민). 포스터 PDF:
+  [awards-and-posters](https://github.com/jimin-the-ackerman/awards-and-posters).
+
+---
+
+## 8. Author
 
 Jimin (jimin-the-ackerman)
