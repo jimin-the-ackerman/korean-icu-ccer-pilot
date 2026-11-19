@@ -155,6 +155,7 @@ as methodological limitations.
 | 2026-11-05 | Notation diagnostics results and manual check of notation-suspect records | See Section 12.8 |
 | 2026-11-05 | Post hoc evaluator sensitivity analysis S1 (Korean particle attachment) designed; v4 stays primary | See Section 13 |
 | 2026-11-06 | S1 results and manual review of Condition A (70 records) | See Section 13.1 |
+| 2026-11-17 | Post hoc recomputations for the KOSMI 2026 poster | See Section 13.2 |
 
 ### 10.1 CLOVA diarization setting (2026-11-04)
 
@@ -533,3 +534,22 @@ notation bias. Results of the run are recorded in 13.1.
   or validated; no corrected value is reported. For KOSMI 2026 only the existence of residual
   evaluator artifacts is stated. Further verification (remaining strata, other conditions, audio
   review of the 5 records) is deferred to the journal paper; no further evaluator change is made.
+
+### 13.2 Post hoc recomputations for KOSMI 2026 (2026-11-16 to 2026-11-17)
+
+- Purpose: poster tables. No API call; no evaluator change; v4 remains primary; S1 as defined in
+  Section 13. Script: `src/cross_asr/kosmi2026_tables.py`; outputs in
+  `results/cross_asr/kosmi2026_tables/`. Saved v4 closed-vocab matches were re-derived from the
+  transcripts and reproduced for all samples before S1 was applied.
+- Beyond the scope of Section 13: (a) Hybrid (September run) under S1; (b) nWER, Entity F1 and
+  Macro-CCER (SAP5 definition) for Condition A; (c) Macro-CCER under S1.
+- Hybrid: Micro-CCER 0.666 (v4) -> 0.674 (S1), Formal 0.842 -> 0.675; Macro-CCER 0.634 -> 0.645,
+  Formal 0.802 -> 0.598. The Hybrid advantage over Formal under v4 is not present under S1
+  (pooled values; not tested).
+- Macro-CCER under v4: Formal is lowest for `whisper1` but highest for `gpt4o_transcribe`
+  (F 0.671, C 0.643, T 0.559) and `chirp3_ko` (F 0.685, C 0.560, T 0.582). Under S1 Formal is lowest
+  for all three (0.581, 0.455, 0.419); Clinical and Telegraphic change by 0.005 or less. The
+  statement in 13.1 that style ranks are unchanged refers to Micro-CCER. Macro comparisons are
+  pooled values only; no test.
+- The September S1 Friedman and Wilcoxon-Holm values in 13.1 outputs were cross-checked by an
+  independent recomputation and matched.
