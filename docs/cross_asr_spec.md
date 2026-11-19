@@ -154,6 +154,7 @@ as methodological limitations.
 | 2026-11-05 | Evaluation of all six conditions completed; run notes recorded | See Section 12.7 |
 | 2026-11-05 | Notation diagnostics results and manual check of notation-suspect records | See Section 12.8 |
 | 2026-11-05 | Post hoc evaluator sensitivity analysis S1 (Korean particle attachment) designed; v4 stays primary | See Section 13 |
+| 2026-11-06 | S1 results and manual review of Condition A (70 records) | See Section 13.1 |
 
 ### 10.1 CLOVA diarization setting (2026-11-04)
 
@@ -495,3 +496,40 @@ and transcript read).
 **Limitations.** Post hoc rule; incomplete particle list; closed-vocab only; other v4 limitations
 (duplicate mentions, dose ownership) can add or remove errors; the September v4 result has the same
 notation bias. Results of the run are recorded in 13.1.
+
+### 13.1 S1 results and manual review (2026-11-06)
+
+- Run: `python -m src.cross_asr.sensitivity_ko_particle --run` at commit `7f89ca0`; outputs in
+  `results/cross_asr/sensitivity_ko_particle/` (20 files); `--verify-v4` reproduced the saved v4
+  closed-vocab matches of all 7 conditions (300/300 each). No API call.
+- Main results (S1 is a post hoc sensitivity analysis; v4 remains primary): S1 lowers Formal pooled
+  CCER (`whisper1` 0.837 -> 0.670, `gpt4o_transcribe` 0.636 -> 0.466, `chirp3_ko` 0.672 -> 0.455);
+  Clinical and Telegraphic change by 0.005 or less; style ranks are unchanged in all 7 conditions.
+  Delta_FT (95% CI) v4 -> S1: `whisper1` -0.358 [-0.431, -0.282] -> -0.523 [-0.600, -0.441];
+  `gpt4o_transcribe` -0.160 [-0.251, -0.070] -> -0.331 [-0.422, -0.244]; `chirp3_ko` -0.113
+  [-0.209, -0.028] -> -0.330 [-0.425, -0.246]. Between-system difference of Delta_FT: whisper1 -
+  gpt4o -0.198 -> -0.192, whisper1 - chirp3_ko -0.245 -> -0.193 (CIs exclude 0 under both); gpt4o -
+  chirp3_ko Delta_FC -0.117 (CI excludes 0) -> -0.072 (CI includes 0). Delta_CT and the n = 98
+  analysis lead to the same conclusions under both scorers. The 15 notation-suspect records: 13
+  extracted and fully matched under S1, 2 (device transliterations) not extracted (outside S1 scope).
+- Manual review (Condition A only; files and label definitions in
+  `results/cross_asr/sensitivity_ko_particle_review/`): based on transcript text and scaffold, no
+  audio; labels proposed by Claude and adopted by the researcher.
+  - Omission -> matched stratified sample (30 records): `valid_match` 30. This is a stratified-sample
+    result; it does not estimate the accuracy or false-match rate of all 992 omission -> matched changes.
+  - Side-effect audit (40 records): `evaluator_artifact` 24 (duplicate IV mention 14, duplicate device
+    mention 2, fluid volume read as dose 3, oxygen flow read as dose 3, mg/kg unit representation 2),
+    `gold_transcript_mismatch` 10 (source ASR or TTS not determined), `needs_audio_review` 5 (same gold
+    value wrong in two or more systems; audio not yet checked - not an established TTS error),
+    `evaluator_correction` 1. One `gold_transcript_mismatch` (S12) has a compound cause: a correct
+    transcript would also be scored as a hallucination under v4 (oxygen flow read as dose). Two
+    `evaluator_artifact` records (S11, S28; mg/kg) are also compound: the transcripts lack the gold
+    "/kg" as well.
+- v4 limitations made visible (not corrected; also present in the primary v4 scoring for forms
+  without attached particles): an IV route mention for fluids is matched like a drug route; oxygen flow
+  ("L/min") is a v4 dose unit and is not excluded by the ownership rule; a gold dose "mg/kg" is
+  canonicalised to unit "mgkg", which the extractor never produces, so it is always a unit error.
+- Limitation: the S1 CCER values contain residual evaluator artifacts. Their size was not recomputed
+  or validated; no corrected value is reported. For KOSMI 2026 only the existence of residual
+  evaluator artifacts is stated. Further verification (remaining strata, other conditions, audio
+  review of the 5 records) is deferred to the journal paper; no further evaluator change is made.
