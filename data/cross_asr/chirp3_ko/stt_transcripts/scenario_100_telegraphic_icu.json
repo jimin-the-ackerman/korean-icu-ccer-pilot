@@ -1,0 +1,43 @@
+{
+  "sample_id": "scenario_100_telegraphic_icu",
+  "whisper_transcript": "68세 남성 급성 장폐쇄기시오. BP 98/60, HR 112, RR 24 breath/min, BT 37.8°C, SpO2 95% room air. abdominal pain severe. morphine 4mg IV Q4H. NG tube 삽입됨. nasogastric decompression 시행됨. urine output 감소. 8시간 동안 drowsy. surgical team notify.",
+  "stt_metadata": {
+    "asr_system": "chirp3_ko",
+    "provider": "google",
+    "model": "chirp_3",
+    "location": "us",
+    "language_codes": [
+      "ko-KR"
+    ],
+    "audio_path": "data/audio/scenario_100_telegraphic_icu.mp3",
+    "audio_sha256": "7a1273d3f58c24998ac405450e8b9a2239c0ec0f122b919e2550ec4e2d27b9a1",
+    "transcribed_at": "2026-11-04T13:33:36+00:00",
+    "request_seconds": 4.03,
+    "attempts": 1,
+    "git_commit": "5b6d73fb63e1509a79e1a160176d606ed1b104c4",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "metadata": {
+      "total_billed_duration": "21s",
+      "request_id": "74631c98-0000-2ead-a9c6-582429a7d3b8",
+      "prompt": "Transcribe the following speech segment in Korean. Follow these specific instructions for formatting the answer:\n* Only output the transcript, with no newlines.\n* When transcribing numbers, write the digits, i.e. write 1.7 and not one point seven, and write 100 instead of one hundred etc.\n* Only output the transcript, exactly as said in the speech segment.\n* Do not continue the speech segment.\n* Include everything said in the speech segment.\n* Use mathematical notation where needed, eg. x ^ 6Y.\n* If there is background speech that is not part of the main conversation, discard the background speech and only output the main conversation.\n* If there is no clear speech, just output [BACKGROUND].\n* Respond in the original language of the speech, Korean."
+    },
+    "results": [
+      {
+        "alternatives": [
+          {
+            "transcript": "68세 남성 급성 장폐쇄기시오. BP 98/60, HR 112, RR 24 breath/min, BT 37.8°C, SpO2 95% room air. abdominal pain severe. morphine 4mg IV Q4H. NG tube 삽입됨. nasogastric decompression 시행됨. urine output 감소. 8시간 동안 drowsy. surgical team notify.",
+            "confidence": 0.0,
+            "words": []
+          }
+        ],
+        "language_code": "ko-KR",
+        "channel_tag": 0
+      }
+    ],
+    "detected_language_codes": [
+      "ko-KR"
+    ]
+  }
+}

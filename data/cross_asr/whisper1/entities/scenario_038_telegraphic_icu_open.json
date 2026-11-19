@@ -1,0 +1,41 @@
+{
+  "sample_id": "scenario_038_telegraphic_icu",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "muscle weakness",
+        "negation": false,
+        "severity": "severe"
+      },
+      {
+        "name": "myasthenic crisis",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "stuporous",
+    "medication_identity": "Pyridostigmine",
+    "interventions": [],
+    "intake_output": null,
+    "notification": null
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "급성 중증호흡보조필요",
+        "negation": false,
+        "severity": "severe"
+      },
+      {
+        "name": "근육 부족",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "의식 스튜퍼리스",
+    "medication_identity": null,
+    "interventions": [],
+    "intake_output": null,
+    "notification": null
+  }
+}

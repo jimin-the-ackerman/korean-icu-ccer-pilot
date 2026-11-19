@@ -1,0 +1,25 @@
+{
+  "sample_id": "scenario_100_formal_template",
+  "whisper_transcript": "환자는 68세 남성으로 급성 장폐색이 의심되어 입원하였다. 현재 활력증후는 혈압 98, 60mmHg, 심박수 112bpm, 호흡수 24breaths, 체온 37.8°C이며 산소포화도는 실내 공기에서 95%로 확인하였다. 환자는 심한 복통을 호소하고 있다. 약물로는 몰핀 4mg을 IV로 4시간마다 투여 중이다. 현재 산소 보조는 받지 않고 있다. 중제로는 내소가스트릭 디컴프레션을 시행하고 있으며 NG 튜브가 삽입되어 있다. 최근 8시간 동안 소변량이 감소하였다. 임상상태는 졸림상태로 확인되었다. 긴급평가를 위해 외과팀에 보고하였다.",
+  "stt_metadata": {
+    "asr_system": "whisper1_auto",
+    "provider": "openai",
+    "model": "whisper-1",
+    "language": null,
+    "audio_path": "data/audio/scenario_100_formal_template.mp3",
+    "audio_sha256": "6e0daf1a2f8c0d2b64c7b67b63340db19c5a7ac66adf5528378d008ba529f6a6",
+    "transcribed_at": "2026-11-04T14:02:24+00:00",
+    "request_seconds": 4.14,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "환자는 68세 남성으로 급성 장폐색이 의심되어 입원하였다. 현재 활력증후는 혈압 98, 60mmHg, 심박수 112bpm, 호흡수 24breaths, 체온 37.8°C이며 산소포화도는 실내 공기에서 95%로 확인하였다. 환자는 심한 복통을 호소하고 있다. 약물로는 몰핀 4mg을 IV로 4시간마다 투여 중이다. 현재 산소 보조는 받지 않고 있다. 중제로는 내소가스트릭 디컴프레션을 시행하고 있으며 NG 튜브가 삽입되어 있다. 최근 8시간 동안 소변량이 감소하였다. 임상상태는 졸림상태로 확인되었다. 긴급평가를 위해 외과팀에 보고하였다.",
+    "logprobs": null,
+    "usage": {
+      "seconds": 42.0,
+      "type": "duration"
+    }
+  }
+}

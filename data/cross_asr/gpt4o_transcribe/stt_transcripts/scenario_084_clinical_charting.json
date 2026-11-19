@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_084_clinical_charting",
+  "whisper_transcript": "사시 구세 남자 환자, severe asthma attack으로 입원. BP 격세 패시움 미미그램 HR 100킹 BPM RRSM PAT BT 산지 7정 그레이스 S 바이스 파이 퍼센트. severe wheezing 확인됨. 알부트롤 유전 5밀리그램 IV PRN 적용함. high flow nasal cannula 산소 공급 유지함. 환자 drowsy 상태. respiratory therapy notify 함.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": "ko",
+    "audio_path": "data/audio/scenario_084_clinical_charting.mp3",
+    "audio_sha256": "f8d59790daeb105bfaa67bf51ce3cd96906211320794dce9fc484588a53914d8",
+    "transcribed_at": "2026-11-04T13:03:38+00:00",
+    "request_seconds": 1.6,
+    "attempts": 1,
+    "git_commit": "5b6d73fb63e1509a79e1a160176d606ed1b104c4",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "사시 구세 남자 환자, severe asthma attack으로 입원. BP 격세 패시움 미미그램 HR 100킹 BPM RRSM PAT BT 산지 7정 그레이스 S 바이스 파이 퍼센트. severe wheezing 확인됨. 알부트롤 유전 5밀리그램 IV PRN 적용함. high flow nasal cannula 산소 공급 유지함. 환자 drowsy 상태. respiratory therapy notify 함.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 198,
+      "output_tokens": 101,
+      "total_tokens": 299,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 198,
+        "text_tokens": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_006_formal_template",
+  "whisper_transcript": "환자는 70세 여성으로 심각한 뇌졸중으로 입원하였다. 활력징후로는 혈압이 170/95mmHg, 심박수가 78bpm, 호흡수가 20bpm, 체온이 37.2룩스로 측정되었다. 산소포화도는 92%로 확인되었다. 심각한 정도의 편마비가 관찰되었다. 현재 라베타롤 20mg을 IV로 6시간마다 투여 중이다. 산소 공급은 네이즐 캐눌라로 2dL/min 제공되고 있다. C라인이 삽입되어 있으며, 체액 균형은 음성으로 기록되었다. 임상 상태는 혼미 상태로 관찰되었다. 신경과 팀에게 상태 변화에 대해 보고하였다.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe_auto",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": null,
+    "audio_path": "data/audio/scenario_006_formal_template.mp3",
+    "audio_sha256": "ee57985c61fdd65acf4deb08602122d67ab1bd36f4737368f0b16ee7ab9ef5ac",
+    "transcribed_at": "2026-11-04T14:04:13+00:00",
+    "request_seconds": 2.65,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "환자는 70세 여성으로 심각한 뇌졸중으로 입원하였다. 활력징후로는 혈압이 170/95mmHg, 심박수가 78bpm, 호흡수가 20bpm, 체온이 37.2룩스로 측정되었다. 산소포화도는 92%로 확인되었다. 심각한 정도의 편마비가 관찰되었다. 현재 라베타롤 20mg을 IV로 6시간마다 투여 중이다. 산소 공급은 네이즐 캐눌라로 2dL/min 제공되고 있다. C라인이 삽입되어 있으며, 체액 균형은 음성으로 기록되었다. 임상 상태는 혼미 상태로 관찰되었다. 신경과 팀에게 상태 변화에 대해 보고하였다.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 378,
+      "output_tokens": 185,
+      "total_tokens": 563,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 378,
+        "text_tokens": 0
+      }
+    }
+  }
+}

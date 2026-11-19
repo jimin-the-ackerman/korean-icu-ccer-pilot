@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_041_formal_template",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "복수",
+        "negation": false,
+        "severity": "moderate"
+      }
+    ],
+    "clinical_status": "의식이 혼미한 상태",
+    "medication_identity": "Furosemide",
+    "interventions": [],
+    "intake_output": "24시간 동안 소변 배출량 1200 mL",
+    "notification": null
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "복수",
+        "negation": false,
+        "severity": "moderate"
+      }
+    ],
+    "clinical_status": "의식이 혼미한 상태",
+    "medication_identity": "furosemide",
+    "interventions": [],
+    "intake_output": "24시간 동안 소변 배출량은 1200 ml",
+    "notification": null
+  }
+}

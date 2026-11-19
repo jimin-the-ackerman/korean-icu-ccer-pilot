@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_033_formal_template",
+  "whisper_transcript": "64세 남성 환자가 새로 발생한 심방세동과 불안정한 혈역학적 상태로 입원하였다. 활력징후는 혈압 88/54mmHg, 심박수 142ppm, 호흡수 22bpm, 체온 36.9도, 산소포화도 94%로 확인되었다. 환자는 심계항진을 심하게 호소하였다. 딜티아젬 20mg을 정맥으로 즉시 투여하였다. 전기적 심율동 전환이 시행되었다. 중심정맥관이 삽입되어 있으며, 1500ml의 수액이 정맥으로 투여되었다. 환자는 의식이 명료하다. 추가적인 관리를 위해 심장내과 팀에게 보고하였다.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe_auto",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": null,
+    "audio_path": "data/audio/scenario_033_formal_template.mp3",
+    "audio_sha256": "f4525da6adc593e5a5b3abfd4ccc7510abf50fa021244b27faea36d9440bfb7f",
+    "transcribed_at": "2026-11-04T14:07:19+00:00",
+    "request_seconds": 3.01,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "64세 남성 환자가 새로 발생한 심방세동과 불안정한 혈역학적 상태로 입원하였다. 활력징후는 혈압 88/54mmHg, 심박수 142ppm, 호흡수 22bpm, 체온 36.9도, 산소포화도 94%로 확인되었다. 환자는 심계항진을 심하게 호소하였다. 딜티아젬 20mg을 정맥으로 즉시 투여하였다. 전기적 심율동 전환이 시행되었다. 중심정맥관이 삽입되어 있으며, 1500ml의 수액이 정맥으로 투여되었다. 환자는 의식이 명료하다. 추가적인 관리를 위해 심장내과 팀에게 보고하였다.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 379,
+      "output_tokens": 176,
+      "total_tokens": 555,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 379,
+        "text_tokens": 0
+      }
+    }
+  }
+}

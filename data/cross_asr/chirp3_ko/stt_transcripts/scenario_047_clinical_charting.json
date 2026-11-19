@@ -1,0 +1,43 @@
+{
+  "sample_id": "scenario_047_clinical_charting",
+  "whisper_transcript": "45세 여성, 레지오넬라 감염에 의한 severe pneumonia로 입원함. BP 170 mmHg, HR 95 BPM, RR 28 breath/min, BT 38.5°C, SpO2 88% on room air. severe cough 호소함. levofloxacin 750 mg IV q12h 투여 중. 하이플로 네이설 캐눌라 적용함. 벤틸레이터 사용 중임. 지난 24시간 동안 fluid balance negative 기록됨. 환자 drowsy 상태 확인됨. 담당의 notify함.",
+  "stt_metadata": {
+    "asr_system": "chirp3_ko",
+    "provider": "google",
+    "model": "chirp_3",
+    "location": "us",
+    "language_codes": [
+      "ko-KR"
+    ],
+    "audio_path": "data/audio/scenario_047_clinical_charting.mp3",
+    "audio_sha256": "f235404e9c96c422d46ffcbc559cc082d54a7f2248213295e5f2efd2f2f109d7",
+    "transcribed_at": "2026-11-04T13:20:35+00:00",
+    "request_seconds": 4.25,
+    "attempts": 1,
+    "git_commit": "5b6d73fb63e1509a79e1a160176d606ed1b104c4",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "metadata": {
+      "total_billed_duration": "28s",
+      "request_id": "6c961b72-0000-2597-9590-c82add8031b8",
+      "prompt": "Transcribe the following speech segment in Korean. Follow these specific instructions for formatting the answer:\n* Only output the transcript, with no newlines.\n* When transcribing numbers, write the digits, i.e. write 1.7 and not one point seven, and write 100 instead of one hundred etc.\n* Only output the transcript, exactly as said in the speech segment.\n* Do not continue the speech segment.\n* Include everything said in the speech segment.\n* Use mathematical notation where needed, eg. x ^ 6Y.\n* If there is background speech that is not part of the main conversation, discard the background speech and only output the main conversation.\n* If there is no clear speech, just output [BACKGROUND].\n* Respond in the original language of the speech, Korean."
+    },
+    "results": [
+      {
+        "alternatives": [
+          {
+            "transcript": "45세 여성, 레지오넬라 감염에 의한 severe pneumonia로 입원함. BP 170 mmHg, HR 95 BPM, RR 28 breath/min, BT 38.5°C, SpO2 88% on room air. severe cough 호소함. levofloxacin 750 mg IV q12h 투여 중. 하이플로 네이설 캐눌라 적용함. 벤틸레이터 사용 중임. 지난 24시간 동안 fluid balance negative 기록됨. 환자 drowsy 상태 확인됨. 담당의 notify함.",
+            "confidence": 0.0,
+            "words": []
+          }
+        ],
+        "language_code": "ko-KR",
+        "channel_tag": 0
+      }
+    ],
+    "detected_language_codes": [
+      "ko-KR"
+    ]
+  }
+}

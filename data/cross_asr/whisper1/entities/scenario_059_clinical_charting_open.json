@@ -1,0 +1,35 @@
+{
+  "sample_id": "scenario_059_clinical_charting",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "abdominal pain",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "drowsy",
+    "medication_identity": "Piperacillin/Tazobactam",
+    "interventions": [
+      "Fluid resuscitation"
+    ],
+    "intake_output": "Positive fluid balance 확인됨",
+    "notification": null
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "복통(엉덩이 아픔)",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "드라우지 상태",
+    "medication_identity": "피페라실린타조박탐",
+    "interventions": [
+      "플루이드 리소시테이션 시행함"
+    ],
+    "intake_output": "포지티브 플루이드 밸런스 확인됨",
+    "notification": null
+  }
+}

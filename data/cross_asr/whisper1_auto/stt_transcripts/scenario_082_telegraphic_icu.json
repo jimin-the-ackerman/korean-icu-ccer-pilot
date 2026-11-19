@@ -1,0 +1,25 @@
+{
+  "sample_id": "scenario_082_telegraphic_icu",
+  "whisper_transcript": "58 say a song could have sped ea 145 90 being the her team hr 110 bpm r 22 t 38.2 degrees spo 298 percent room air abdominal pain severe morphine five milligrams ivy q48 pain management strict io monitoring alert",
+  "stt_metadata": {
+    "asr_system": "whisper1_auto",
+    "provider": "openai",
+    "model": "whisper-1",
+    "language": null,
+    "audio_path": "data/audio/scenario_082_telegraphic_icu.mp3",
+    "audio_sha256": "41a3549146a5d793cad820e180a7285df125c1c9ce9e5564dc356224e7b50877",
+    "transcribed_at": "2026-11-04T13:59:56+00:00",
+    "request_seconds": 2.33,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "58 say a song could have sped ea 145 90 being the her team hr 110 bpm r 22 t 38.2 degrees spo 298 percent room air abdominal pain severe morphine five milligrams ivy q48 pain management strict io monitoring alert",
+    "logprobs": null,
+    "usage": {
+      "seconds": 15.0,
+      "type": "duration"
+    }
+  }
+}

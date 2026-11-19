@@ -1,0 +1,40 @@
+{
+  "sample_id": "scenario_019_clinical_charting",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "severe swelling of the face and lips",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "drowsy",
+    "medication_identity": "Epinephrine",
+    "interventions": [
+      "IV fluids administration"
+    ],
+    "intake_output": "urine output 50 mL/hr 유지됨",
+    "notification": "Allergy team notify함 for further management"
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "severe allergic reaction anaphylaxis",
+        "negation": false,
+        "severity": "severe"
+      },
+      {
+        "name": "swelling of the face and lips",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "drowsy",
+    "medication_identity": "Epinephrine",
+    "interventions": [
+      "IV fluids administration"
+    ],
+    "intake_output": "urine output 50 mL/hr 유지됨",
+    "notification": "Allergy 팀 notify함 for further management"
+  }
+}

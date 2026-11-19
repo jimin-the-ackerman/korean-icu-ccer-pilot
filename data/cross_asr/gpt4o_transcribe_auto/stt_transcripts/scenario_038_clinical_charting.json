@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_038_clinical_charting",
+  "whisper_transcript": "59세 여성 환자, acute myasthenic crisis로 입원하여 호흡 보조 필요함. BP 135/85, HR 92, RR 28, BT 37.0, SpO2 88% 확인됨. Severe muscle weakness 호소함. Pyridostigmine 60mg PO QID 적용함. Mechanical ventilation 유지함, ventilator 사용 중임. 임상 상태 stuporous 확인됨.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe_auto",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": null,
+    "audio_path": "data/audio/scenario_038_clinical_charting.mp3",
+    "audio_sha256": "6066a3bed894089df845cdd4ccbea09d52822dd8a511eda63371c8cc6ce5a81c",
+    "transcribed_at": "2026-11-04T14:07:49+00:00",
+    "request_seconds": 2.07,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "59세 여성 환자, acute myasthenic crisis로 입원하여 호흡 보조 필요함. BP 135/85, HR 92, RR 28, BT 37.0, SpO2 88% 확인됨. Severe muscle weakness 호소함. Pyridostigmine 60mg PO QID 적용함. Mechanical ventilation 유지함, ventilator 사용 중임. 임상 상태 stuporous 확인됨.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 214,
+      "output_tokens": 94,
+      "total_tokens": 308,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 214,
+        "text_tokens": 0
+      }
+    }
+  }
+}

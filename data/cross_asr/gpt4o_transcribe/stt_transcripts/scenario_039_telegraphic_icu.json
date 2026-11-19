@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_039_telegraphic_icu",
+  "whisper_transcript": "77세 여성 환자, 급성 폐부종으로 입원, 갑상선 기능 항진 중독증, BPM 69 심리머허 드람, HR 109 BPM, RR 유에치파이 브레스민, BTT 83 디스바타스트, SpO2 88% RA, Severe SOB, 프로프라놀롤 파도메리암 피오큐 6H, HFNC 적용, 폴리 삽입, 드라우지 상태, 엔도크린놀로지 팀 노티파이.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": "ko",
+    "audio_path": "data/audio/scenario_039_telegraphic_icu.mp3",
+    "audio_sha256": "3a0ee07b72f99620f9bc3be997b5550f3a1095c435ed2b6f7b6393d4956333e8",
+    "transcribed_at": "2026-11-04T12:57:41+00:00",
+    "request_seconds": 1.79,
+    "attempts": 1,
+    "git_commit": "5b6d73fb63e1509a79e1a160176d606ed1b104c4",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "77세 여성 환자, 급성 폐부종으로 입원, 갑상선 기능 항진 중독증, BPM 69 심리머허 드람, HR 109 BPM, RR 유에치파이 브레스민, BTT 83 디스바타스트, SpO2 88% RA, Severe SOB, 프로프라놀롤 파도메리암 피오큐 6H, HFNC 적용, 폴리 삽입, 드라우지 상태, 엔도크린놀로지 팀 노티파이.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 204,
+      "output_tokens": 119,
+      "total_tokens": 323,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 204,
+        "text_tokens": 0
+      }
+    }
+  }
+}

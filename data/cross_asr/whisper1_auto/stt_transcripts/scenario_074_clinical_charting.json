@@ -1,0 +1,25 @@
+{
+  "sample_id": "scenario_074_clinical_charting",
+  "whisper_transcript": "Tissue synapses, hypoglycemic coma, BP, HR, RR, Chinook breath, BT, severe unconsciousness. Dextrose, 50 milliliter IV stat, IV glucose administration. Clinical status, unresponsive. Endocrinologist notify him.",
+  "stt_metadata": {
+    "asr_system": "whisper1_auto",
+    "provider": "openai",
+    "model": "whisper-1",
+    "language": null,
+    "audio_path": "data/audio/scenario_074_clinical_charting.mp3",
+    "audio_sha256": "5abe9700ee0df2177437c89feab050ed5e6b86dd95eff33e1f93f0b6e0de68cb",
+    "transcribed_at": "2026-11-04T13:58:58+00:00",
+    "request_seconds": 3.53,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "Tissue synapses, hypoglycemic coma, BP, HR, RR, Chinook breath, BT, severe unconsciousness. Dextrose, 50 milliliter IV stat, IV glucose administration. Clinical status, unresponsive. Endocrinologist notify him.",
+    "logprobs": null,
+    "usage": {
+      "seconds": 22.0,
+      "type": "duration"
+    }
+  }
+}

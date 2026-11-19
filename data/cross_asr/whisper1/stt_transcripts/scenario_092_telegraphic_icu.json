@@ -1,0 +1,25 @@
+{
+  "sample_id": "scenario_092_telegraphic_icu",
+  "whisper_transcript": "54세 남성 부합상증 dng bp 135 85 mm pm rr 22 bm bt 스탠드 에이카셉 sp 94% room air abdominal pain severe panoprazol 40 milligrams ivb id ng tube in place alert endocrinology consult notify",
+  "stt_metadata": {
+    "asr_system": "whisper1",
+    "provider": "reuse_existing",
+    "model": "whisper-1",
+    "language": "ko",
+    "audio_path": "data/audio/scenario_092_telegraphic_icu.mp3",
+    "audio_sha256": "95c0ce752fb90141433ef0b86793eab345854bf501a52b1a0a99f664525aa439",
+    "copied_at": "2026-11-04T04:31:12+00:00",
+    "request_seconds": 0.0,
+    "attempts": 1,
+    "git_commit": "b3490181b3fb3f88b56cde5be78a01cfdcef3007",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "source_file": "data/stt_transcripts/scenario_092_telegraphic_icu.json",
+    "source_sha256": "5b6205ef9b0214e28cf091009effef88c2923fe6519c26bcbb061ee592b13f81",
+    "source_stt_metadata": {
+      "model": "whisper-1",
+      "language": "ko"
+    }
+  }
+}

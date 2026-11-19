@@ -1,0 +1,43 @@
+{
+  "sample_id": "scenario_075_formal_template",
+  "whisper_transcript": "환자는 72세 남성으로 심각한 대동맥 판막 협착증으로 인한 급성 악화 심부전으로 입원하였다. 활력증으로는 혈압 90/60 mmHg, 호흡수 22 breath/min, 체온 36.8도, 산소포화도 4 L O2를 비강 캐뉔라로 투여받는 상태에서 88%로 확인되었다. 환자는 심한 흉통을 호소하였다. 약물로는 furosemide 40 mg을 IV로 8시간마다 투여 중이다. 산소는 비강 캐뉔라를 이용하여 지원하고 있으며, Foley 카테터가 삽입되어 있고 엄격한 입출량 모니터링이 이루어지고 있다. 환자는 의식이 명료하다. 심장내과 팀에게 판막 교체 가능성에 대해 상담하였다.",
+  "stt_metadata": {
+    "asr_system": "chirp3_ko",
+    "provider": "google",
+    "model": "chirp_3",
+    "location": "us",
+    "language_codes": [
+      "ko-KR"
+    ],
+    "audio_path": "data/audio/scenario_075_formal_template.mp3",
+    "audio_sha256": "7cf11f6aa588668be46066ce8ed6259602c0fc9c42759db2bd5cc4044d7f5901",
+    "transcribed_at": "2026-11-04T13:27:36+00:00",
+    "request_seconds": 6.29,
+    "attempts": 1,
+    "git_commit": "5b6d73fb63e1509a79e1a160176d606ed1b104c4",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "metadata": {
+      "total_billed_duration": "44s",
+      "request_id": "6bc60c4e-0000-2c48-bd7b-582429a65e2c",
+      "prompt": "Transcribe the following speech segment in Korean. Follow these specific instructions for formatting the answer:\n* Only output the transcript, with no newlines.\n* When transcribing numbers, write the digits, i.e. write 1.7 and not one point seven, and write 100 instead of one hundred etc.\n* Only output the transcript, exactly as said in the speech segment.\n* Do not continue the speech segment.\n* Include everything said in the speech segment.\n* Use mathematical notation where needed, eg. x ^ 6Y.\n* If there is background speech that is not part of the main conversation, discard the background speech and only output the main conversation.\n* If there is no clear speech, just output [BACKGROUND].\n* Respond in the original language of the speech, Korean."
+    },
+    "results": [
+      {
+        "alternatives": [
+          {
+            "transcript": "환자는 72세 남성으로 심각한 대동맥 판막 협착증으로 인한 급성 악화 심부전으로 입원하였다. 활력증으로는 혈압 90/60 mmHg, 호흡수 22 breath/min, 체온 36.8도, 산소포화도 4 L O2를 비강 캐뉔라로 투여받는 상태에서 88%로 확인되었다. 환자는 심한 흉통을 호소하였다. 약물로는 furosemide 40 mg을 IV로 8시간마다 투여 중이다. 산소는 비강 캐뉔라를 이용하여 지원하고 있으며, Foley 카테터가 삽입되어 있고 엄격한 입출량 모니터링이 이루어지고 있다. 환자는 의식이 명료하다. 심장내과 팀에게 판막 교체 가능성에 대해 상담하였다.",
+            "confidence": 0.0,
+            "words": []
+          }
+        ],
+        "language_code": "ko-KR",
+        "channel_tag": 0
+      }
+    ],
+    "detected_language_codes": [
+      "ko-KR"
+    ]
+  }
+}

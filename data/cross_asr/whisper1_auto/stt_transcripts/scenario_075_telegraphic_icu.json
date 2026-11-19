@@ -1,0 +1,25 @@
+{
+  "sample_id": "scenario_075_telegraphic_icu",
+  "whisper_transcript": "72m Acute Decompensated Heart Failure, Severe Aortic Stenosis, BP 90, 60 mmHg, HR 110 BPM, RR22 Breaths Min, BT 36.8 Slowing, SbO2 88% on 4-L02 via NC, Severe Chest Pain, Furosemide 40mg IVQAH Fully, Strict IO Monitoring, Alert, Cardiology Team Consult for Valve Replacement.",
+  "stt_metadata": {
+    "asr_system": "whisper1_auto",
+    "provider": "openai",
+    "model": "whisper-1",
+    "language": null,
+    "audio_path": "data/audio/scenario_075_telegraphic_icu.mp3",
+    "audio_sha256": "b06c758a428f8ce86010a8563090227062a99aec8227266c215849b15141026b",
+    "transcribed_at": "2026-11-04T13:59:15+00:00",
+    "request_seconds": 2.0,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "72m Acute Decompensated Heart Failure, Severe Aortic Stenosis, BP 90, 60 mmHg, HR 110 BPM, RR22 Breaths Min, BT 36.8 Slowing, SbO2 88% on 4-L02 via NC, Severe Chest Pain, Furosemide 40mg IVQAH Fully, Strict IO Monitoring, Alert, Cardiology Team Consult for Valve Replacement.",
+    "logprobs": null,
+    "usage": {
+      "seconds": 21.0,
+      "type": "duration"
+    }
+  }
+}

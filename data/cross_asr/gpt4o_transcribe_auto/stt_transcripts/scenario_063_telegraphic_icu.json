@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_063_telegraphic_icu",
+  "whisper_transcript": "Tudus fáse jóan BP1. BP caibhrigh bping, hái chúipeípheam, bioráir, an níos 30 teipán, 80s prócaidúpeirtain arae. Moderate abdominal pain. Ceftriaxone 2 gram IV Q no reċ. NC2 and Folie UJ. Strict IO, drowsy, doc notify.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe_auto",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": null,
+    "audio_path": "data/audio/scenario_063_telegraphic_icu.mp3",
+    "audio_sha256": "2a614286c278c486d2305e04fe22c3c757f99b0f69647f06bfba2320f10bcbe7",
+    "transcribed_at": "2026-11-04T14:11:10+00:00",
+    "request_seconds": 1.58,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "Tudus fáse jóan BP1. BP caibhrigh bping, hái chúipeípheam, bioráir, an níos 30 teipán, 80s prócaidúpeirtain arae. Moderate abdominal pain. Ceftriaxone 2 gram IV Q no reċ. NC2 and Folie UJ. Strict IO, drowsy, doc notify.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 149,
+      "output_tokens": 89,
+      "total_tokens": 238,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 149,
+        "text_tokens": 0
+      }
+    }
+  }
+}

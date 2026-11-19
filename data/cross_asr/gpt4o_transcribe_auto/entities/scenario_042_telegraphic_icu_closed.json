@@ -1,0 +1,120 @@
+{
+  "sample_id": "scenario_042_telegraphic_icu",
+  "gold_entities": {
+    "route": [
+      {
+        "raw": "IV",
+        "normalized": "iv",
+        "position": 179
+      },
+      {
+        "raw": "IV",
+        "normalized": "iv",
+        "position": 190
+      }
+    ],
+    "frequency": [
+      {
+        "raw": "STAT",
+        "normalized": "stat",
+        "position": 182
+      }
+    ],
+    "device": [],
+    "vital_sign": [
+      {
+        "raw": "BP 98/62",
+        "label": "bp",
+        "value": "98/62",
+        "position": 58
+      },
+      {
+        "raw": "HR 112",
+        "label": "hr",
+        "value": "112",
+        "position": 75
+      },
+      {
+        "raw": "RR 24",
+        "label": "rr",
+        "value": "24",
+        "position": 89
+      },
+      {
+        "raw": "BT 37.2",
+        "label": "bt",
+        "value": "37.2",
+        "position": 110
+      },
+      {
+        "raw": "SpO2 95%",
+        "label": "spo2",
+        "value": "95%",
+        "position": 123
+      }
+    ],
+    "dose": []
+  },
+  "whisper_entities": {
+    "route": [
+      {
+        "raw": "IV",
+        "normalized": "iv",
+        "position": 146
+      },
+      {
+        "raw": "IV",
+        "normalized": "iv",
+        "position": 155
+      }
+    ],
+    "frequency": [
+      {
+        "raw": "stat",
+        "normalized": "stat",
+        "position": 149
+      }
+    ],
+    "device": [],
+    "vital_sign": [
+      {
+        "raw": "BP 98/62",
+        "label": "bp",
+        "value": "98/62",
+        "position": 54
+      },
+      {
+        "raw": "HR 1",
+        "label": "hr",
+        "value": "1",
+        "position": 72
+      },
+      {
+        "raw": "BT 37.2",
+        "label": "bt",
+        "value": "37.2",
+        "position": 97
+      },
+      {
+        "raw": "SpO2 95%",
+        "label": "spo2",
+        "value": "95%",
+        "position": 106
+      }
+    ],
+    "dose": [
+      {
+        "raw": "200ml",
+        "value": "200",
+        "unit": "ml",
+        "position": 186
+      },
+      {
+        "raw": "30ml",
+        "value": "30",
+        "unit": "ml",
+        "position": 212
+      }
+    ]
+  }
+}

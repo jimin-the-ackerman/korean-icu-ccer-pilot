@@ -1,0 +1,43 @@
+{
+  "sample_id": "scenario_049_formal_template",
+  "whisper_transcript": "54세 여자 환자가 우측 무릎에 셉틱 아쓰리티스로 입원하였다. 활력 증후는 혈압 102/65 mmHg, 심박수 125 bpm, 호흡수 24회/분, 체온 38.5도, 산소 포화도 96%로 실온 공기에서 측정되었다. 환자는 심한 무릎 통증을 호소하였다. 투약으로는 벤코마이신 1g을 IV로 12시간마다 투여 중이다. 우측 무릎 관절 천자가 시행되었다. 수분 균형은 500 ml의 양성으로 확인되었다. 환자는 의식이 또렷한 상태로 관찰되었다. 정형외과 전문의 상담을 요청하였다.",
+  "stt_metadata": {
+    "asr_system": "chirp3_ko",
+    "provider": "google",
+    "model": "chirp_3",
+    "location": "us",
+    "language_codes": [
+      "ko-KR"
+    ],
+    "audio_path": "data/audio/scenario_049_formal_template.mp3",
+    "audio_sha256": "e52acd9ca6b896253285b85636d35d78ac6e3f50c42598f9e15fafe4364582ed",
+    "transcribed_at": "2026-11-04T13:21:09+00:00",
+    "request_seconds": 5.37,
+    "attempts": 1,
+    "git_commit": "5b6d73fb63e1509a79e1a160176d606ed1b104c4",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "metadata": {
+      "total_billed_duration": "37s",
+      "request_id": "6afa09b5-0000-27ce-8e1f-f4f5e8087f78",
+      "prompt": "Transcribe the following speech segment in Korean. Follow these specific instructions for formatting the answer:\n* Only output the transcript, with no newlines.\n* When transcribing numbers, write the digits, i.e. write 1.7 and not one point seven, and write 100 instead of one hundred etc.\n* Only output the transcript, exactly as said in the speech segment.\n* Do not continue the speech segment.\n* Include everything said in the speech segment.\n* Use mathematical notation where needed, eg. x ^ 6Y.\n* If there is background speech that is not part of the main conversation, discard the background speech and only output the main conversation.\n* If there is no clear speech, just output [BACKGROUND].\n* Respond in the original language of the speech, Korean."
+    },
+    "results": [
+      {
+        "alternatives": [
+          {
+            "transcript": "54세 여자 환자가 우측 무릎에 셉틱 아쓰리티스로 입원하였다. 활력 증후는 혈압 102/65 mmHg, 심박수 125 bpm, 호흡수 24회/분, 체온 38.5도, 산소 포화도 96%로 실온 공기에서 측정되었다. 환자는 심한 무릎 통증을 호소하였다. 투약으로는 벤코마이신 1g을 IV로 12시간마다 투여 중이다. 우측 무릎 관절 천자가 시행되었다. 수분 균형은 500 ml의 양성으로 확인되었다. 환자는 의식이 또렷한 상태로 관찰되었다. 정형외과 전문의 상담을 요청하였다.",
+            "confidence": 0.0,
+            "words": []
+          }
+        ],
+        "language_code": "ko-KR",
+        "channel_tag": 0
+      }
+    ],
+    "detected_language_codes": [
+      "ko-KR"
+    ]
+  }
+}

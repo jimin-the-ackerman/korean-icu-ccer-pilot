@@ -1,0 +1,25 @@
+{
+  "sample_id": "scenario_031_telegraphic_icu",
+  "whisper_transcript": "43-cent Namsung, Kupseong, Chujang, Yumi, CIRS, BP 92, 58 mm, HR 126, BPM, RR28 breaths min, BT 38.4th, SbO2 95% room air, severe abdominal pain, morphine 4 mg IV Q4H, IV fluid resuscitation, negative fluid balance, 500 ml 24H, drowsy, GI specialist consult.",
+  "stt_metadata": {
+    "asr_system": "whisper1_auto",
+    "provider": "openai",
+    "model": "whisper-1",
+    "language": null,
+    "audio_path": "data/audio/scenario_031_telegraphic_icu.mp3",
+    "audio_sha256": "2088eac35ac99cee3b538c1260af3e8840a5abc41ade6589fff9c2e9010657e3",
+    "transcribed_at": "2026-11-04T13:52:42+00:00",
+    "request_seconds": 1.41,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "43-cent Namsung, Kupseong, Chujang, Yumi, CIRS, BP 92, 58 mm, HR 126, BPM, RR28 breaths min, BT 38.4th, SbO2 95% room air, severe abdominal pain, morphine 4 mg IV Q4H, IV fluid resuscitation, negative fluid balance, 500 ml 24H, drowsy, GI specialist consult.",
+    "logprobs": null,
+    "usage": {
+      "seconds": 20.0,
+      "type": "duration"
+    }
+  }
+}

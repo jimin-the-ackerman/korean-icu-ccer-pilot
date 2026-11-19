@@ -1,0 +1,43 @@
+{
+  "sample_id": "scenario_029_telegraphic_icu",
+  "whisper_transcript": "42-year-old male on CPAP, sO2 89% room air, severe muscle weakness, IVIG 0.4 g/kg IV q12h, nasal cannula 2 L/min, plasmapheresis scheduled, ventilator, Foley catheter, urine 1200 mL/24 h, drowsy, neurology team notify.",
+  "stt_metadata": {
+    "asr_system": "chirp3_auto",
+    "provider": "google",
+    "model": "chirp_3",
+    "location": "us",
+    "language_codes": [
+      "auto"
+    ],
+    "audio_path": "data/audio/scenario_029_telegraphic_icu.mp3",
+    "audio_sha256": "ad6fa28bafe4f0a8c2c870d49e6ef94e19f6ad1160f6af631744596623b98afb",
+    "transcribed_at": "2026-11-04T14:24:24+00:00",
+    "request_seconds": 3.22,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "metadata": {
+      "total_billed_duration": "23s",
+      "request_id": "6b0a464c-0000-2064-ae37-2405887ac040",
+      "prompt": "Transcribe the following speech segment. Follow these specific instructions for formatting the answer:\n* Only output the transcript, with no newlines.\n* When transcribing numbers, write the digits, i.e. write 1.7 and not one point seven, and write 100 instead of one hundred etc.\n* Only output the transcript, exactly as said in the speech segment.\n* Do not continue the speech segment.\n* Include everything said in the speech segment.\n* Use mathematical notation where needed, eg. x ^ 6Y.\n* If there is background speech that is not part of the main conversation, discard the background speech and only output the main conversation.\n* If there is no clear speech, just output [BACKGROUND].\n* Respond in the original language of the speech."
+    },
+    "results": [
+      {
+        "alternatives": [
+          {
+            "transcript": "42-year-old male on CPAP, sO2 89% room air, severe muscle weakness, IVIG 0.4 g/kg IV q12h, nasal cannula 2 L/min, plasmapheresis scheduled, ventilator, Foley catheter, urine 1200 mL/24 h, drowsy, neurology team notify.",
+            "confidence": 0.0,
+            "words": []
+          }
+        ],
+        "language_code": "en",
+        "channel_tag": 0
+      }
+    ],
+    "detected_language_codes": [
+      "en"
+    ]
+  }
+}

@@ -1,0 +1,123 @@
+{
+  "sample_id": "scenario_010_clinical_charting",
+  "gold_entities": {
+    "route": [
+      {
+        "raw": "IV",
+        "normalized": "iv",
+        "position": 132
+      }
+    ],
+    "frequency": [
+      {
+        "raw": "q6h",
+        "normalized": "q6h",
+        "position": 135
+      }
+    ],
+    "device": [
+      {
+        "raw": "ventilator",
+        "normalized": "ventilator",
+        "position": 149
+      }
+    ],
+    "vital_sign": [
+      {
+        "raw": "BP 130/85",
+        "label": "bp",
+        "value": "130/85",
+        "position": 54
+      },
+      {
+        "raw": "HR 58",
+        "label": "hr",
+        "value": "58",
+        "position": 65
+      },
+      {
+        "raw": "RR 14",
+        "label": "rr",
+        "value": "14",
+        "position": 72
+      },
+      {
+        "raw": "BT 36.8",
+        "label": "bt",
+        "value": "36.8",
+        "position": 79
+      },
+      {
+        "raw": "SpO2 98%",
+        "label": "spo2",
+        "value": "98%",
+        "position": 90
+      }
+    ],
+    "dose": [
+      {
+        "raw": "100g",
+        "value": "100",
+        "unit": "g",
+        "position": 127
+      }
+    ]
+  },
+  "whisper_entities": {
+    "route": [
+      {
+        "raw": "IV",
+        "normalized": "iv",
+        "position": 119
+      }
+    ],
+    "frequency": [
+      {
+        "raw": "Q3H",
+        "normalized": "q3h",
+        "position": 122
+      }
+    ],
+    "device": [
+      {
+        "raw": "ventilator",
+        "normalized": "ventilator",
+        "position": 134
+      }
+    ],
+    "vital_sign": [
+      {
+        "raw": "BP 135/85",
+        "label": "bp",
+        "value": "135/85",
+        "position": 51
+      },
+      {
+        "raw": "HR 50",
+        "label": "hr",
+        "value": "50",
+        "position": 61
+      },
+      {
+        "raw": "RR 13",
+        "label": "rr",
+        "value": "13",
+        "position": 67
+      },
+      {
+        "raw": "BT 36.2",
+        "label": "bt",
+        "value": "36.2",
+        "position": 73
+      }
+    ],
+    "dose": [
+      {
+        "raw": "100g",
+        "value": "100",
+        "unit": "g",
+        "position": 114
+      }
+    ]
+  }
+}

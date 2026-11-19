@@ -1,0 +1,25 @@
+{
+  "sample_id": "scenario_092_formal_template",
+  "whisper_transcript": "54세 남자 환자가 고칼슘 혈증으로 인한 급성 최장염으로 입원하였다. 활력증후는 혈압 135, 85mmg, 심박수 110pm, 호흡수 22bpm, 체온 37.8°C, 산소포화도 94%로 실내 공기상태이다. 환자는 심한 복통을 호소하였다. 현재 판토프라솔 40mg을 IB로 BID 투여 중이다. NG 튜브가 삽입되어 있다. 환자는 의식이 명료하다. 고칼슘 혈증 관리를 위해 내분비과에 협진을 요청하였다.",
+  "stt_metadata": {
+    "asr_system": "whisper1",
+    "provider": "reuse_existing",
+    "model": "whisper-1",
+    "language": "ko",
+    "audio_path": "data/audio/scenario_092_formal_template.mp3",
+    "audio_sha256": "0072892e0e99af536bfdc3c168d9c23aa439a890d65fab7ec45fcd38aef4601f",
+    "copied_at": "2026-11-04T04:31:12+00:00",
+    "request_seconds": 0.0,
+    "attempts": 1,
+    "git_commit": "b3490181b3fb3f88b56cde5be78a01cfdcef3007",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "source_file": "data/stt_transcripts/scenario_092_formal_template.json",
+    "source_sha256": "d946613fe78efc661efd7156e34708ceccce3a2ae0f47ab5f94d36f7a8f7b434",
+    "source_stt_metadata": {
+      "model": "whisper-1",
+      "language": "ko"
+    }
+  }
+}

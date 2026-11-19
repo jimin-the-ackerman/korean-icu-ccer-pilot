@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_027_telegraphic_icu",
+  "whisper_transcript": "60세 남성 급성 허혈성 뇌졸중으로 입원. BP 166/99, HR 88, RR 18, BT 37.5, SpO2 100%. Right side weakness moderate. Alteplase 0.9mg/kg IV stat, C-line 유지 중, IV fluids 시작, drowsy 상태. Neurology team notify.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": "ko",
+    "audio_path": "data/audio/scenario_027_telegraphic_icu.mp3",
+    "audio_sha256": "652e7e5a9c8a2f28975b949694bffebc9530064f56e840c14c21a498b6819967",
+    "transcribed_at": "2026-11-04T12:56:21+00:00",
+    "request_seconds": 1.54,
+    "attempts": 1,
+    "git_commit": "5b6d73fb63e1509a79e1a160176d606ed1b104c4",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "60세 남성 급성 허혈성 뇌졸중으로 입원. BP 166/99, HR 88, RR 18, BT 37.5, SpO2 100%. Right side weakness moderate. Alteplase 0.9mg/kg IV stat, C-line 유지 중, IV fluids 시작, drowsy 상태. Neurology team notify.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 168,
+      "output_tokens": 82,
+      "total_tokens": 250,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 168,
+        "text_tokens": 0
+      }
+    }
+  }
+}

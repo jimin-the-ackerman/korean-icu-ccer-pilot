@@ -1,0 +1,25 @@
+{
+  "sample_id": "scenario_050_telegraphic_icu",
+  "whisper_transcript": "67m acute heart failure hypertensive emergency bp21 hr 100.28 breaths bt 36.7 grease spo2 90 percent ra severe chest pain nitroglycerin 10 miscarin miniv tid hfnc applied c line in place positive fluid balance drowsy cardiology team notify",
+  "stt_metadata": {
+    "asr_system": "whisper1",
+    "provider": "reuse_existing",
+    "model": "whisper-1",
+    "language": "ko",
+    "audio_path": "data/audio/scenario_050_telegraphic_icu.mp3",
+    "audio_sha256": "befbd07d65e0a47695e7c38642caf6bdea1dab6878445065206344212a3c06d7",
+    "copied_at": "2026-11-04T04:31:12+00:00",
+    "request_seconds": 0.0,
+    "attempts": 1,
+    "git_commit": "b3490181b3fb3f88b56cde5be78a01cfdcef3007",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "source_file": "data/stt_transcripts/scenario_050_telegraphic_icu.json",
+    "source_sha256": "a643ddd9f349a8f3ef14bee5de9d2eeec3145cb08b4d184609458593c52db8c5",
+    "source_stt_metadata": {
+      "model": "whisper-1",
+      "language": "ko"
+    }
+  }
+}

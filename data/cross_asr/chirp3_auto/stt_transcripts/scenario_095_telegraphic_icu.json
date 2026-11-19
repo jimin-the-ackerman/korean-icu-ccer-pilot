@@ -1,0 +1,43 @@
+{
+  "sample_id": "scenario_095_telegraphic_icu",
+  "whisper_transcript": "62세 F 환자, 급성 호흡곤란으로 중증 천식으로 입원. BP 130/85 mmHg, HR 190 BPM, RR 25, T 37.5°C, SpO2 89%. Severe SOB. Albuterol 2.5 mg IV PRN. 고유량 비강 캐눌라 사용 중. 환기장치 ventilator. Fluid balance positive. 정신 상태 alert. RT ventilator 조정 위해 notify.",
+  "stt_metadata": {
+    "asr_system": "chirp3_auto",
+    "provider": "google",
+    "model": "chirp_3",
+    "location": "us",
+    "language_codes": [
+      "auto"
+    ],
+    "audio_path": "data/audio/scenario_095_telegraphic_icu.mp3",
+    "audio_sha256": "142d7f5143a9fc1efa183c5a748d83ce532bf7bea38ad5241f51169f9f1b360f",
+    "transcribed_at": "2026-11-04T14:54:08+00:00",
+    "request_seconds": 4.66,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "metadata": {
+      "total_billed_duration": "22s",
+      "request_id": "6b163ae8-0000-2e08-bd0d-f4f5e80cfca8",
+      "prompt": "Transcribe the following speech segment. Follow these specific instructions for formatting the answer:\n* Only output the transcript, with no newlines.\n* When transcribing numbers, write the digits, i.e. write 1.7 and not one point seven, and write 100 instead of one hundred etc.\n* Only output the transcript, exactly as said in the speech segment.\n* Do not continue the speech segment.\n* Include everything said in the speech segment.\n* Use mathematical notation where needed, eg. x ^ 6Y.\n* If there is background speech that is not part of the main conversation, discard the background speech and only output the main conversation.\n* If there is no clear speech, just output [BACKGROUND].\n* Respond in the original language of the speech."
+    },
+    "results": [
+      {
+        "alternatives": [
+          {
+            "transcript": "62세 F 환자, 급성 호흡곤란으로 중증 천식으로 입원. BP 130/85 mmHg, HR 190 BPM, RR 25, T 37.5°C, SpO2 89%. Severe SOB. Albuterol 2.5 mg IV PRN. 고유량 비강 캐눌라 사용 중. 환기장치 ventilator. Fluid balance positive. 정신 상태 alert. RT ventilator 조정 위해 notify.",
+            "confidence": 0.0,
+            "words": []
+          }
+        ],
+        "language_code": "ko",
+        "channel_tag": 0
+      }
+    ],
+    "detected_language_codes": [
+      "ko"
+    ]
+  }
+}

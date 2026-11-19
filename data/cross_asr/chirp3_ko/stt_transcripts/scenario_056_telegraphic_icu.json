@@ -1,0 +1,43 @@
+{
+  "sample_id": "scenario_056_telegraphic_icu",
+  "whisper_transcript": "47세 여성, 급성 천식 악화로 입원. BP 105/80, HR 110, BPM 32 breaths/min, BT 37.5°C, SpO2 88% RA, wheezing severe, albuterol 2.5 mg IV q4h, HNG tube 삽입됨. negative fluid balance 500 mL, drowsy 상태. pulmo team notify.",
+  "stt_metadata": {
+    "asr_system": "chirp3_ko",
+    "provider": "google",
+    "model": "chirp_3",
+    "location": "us",
+    "language_codes": [
+      "ko-KR"
+    ],
+    "audio_path": "data/audio/scenario_056_telegraphic_icu.mp3",
+    "audio_sha256": "1cf2a3fd57a376d914fc5e7ae5c6f0963275a61ac5c1d0c08de71b381b120351",
+    "transcribed_at": "2026-11-04T13:22:58+00:00",
+    "request_seconds": 3.27,
+    "attempts": 1,
+    "git_commit": "5b6d73fb63e1509a79e1a160176d606ed1b104c4",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "metadata": {
+      "total_billed_duration": "20s",
+      "request_id": "6f8b5239-0000-29bf-aea8-ac3eb1486518",
+      "prompt": "Transcribe the following speech segment in Korean. Follow these specific instructions for formatting the answer:\n* Only output the transcript, with no newlines.\n* When transcribing numbers, write the digits, i.e. write 1.7 and not one point seven, and write 100 instead of one hundred etc.\n* Only output the transcript, exactly as said in the speech segment.\n* Do not continue the speech segment.\n* Include everything said in the speech segment.\n* Use mathematical notation where needed, eg. x ^ 6Y.\n* If there is background speech that is not part of the main conversation, discard the background speech and only output the main conversation.\n* If there is no clear speech, just output [BACKGROUND].\n* Respond in the original language of the speech, Korean."
+    },
+    "results": [
+      {
+        "alternatives": [
+          {
+            "transcript": "47세 여성, 급성 천식 악화로 입원. BP 105/80, HR 110, BPM 32 breaths/min, BT 37.5°C, SpO2 88% RA, wheezing severe, albuterol 2.5 mg IV q4h, HNG tube 삽입됨. negative fluid balance 500 mL, drowsy 상태. pulmo team notify.",
+            "confidence": 0.0,
+            "words": []
+          }
+        ],
+        "language_code": "ko-KR",
+        "channel_tag": 0
+      }
+    ],
+    "detected_language_codes": [
+      "ko-KR"
+    ]
+  }
+}

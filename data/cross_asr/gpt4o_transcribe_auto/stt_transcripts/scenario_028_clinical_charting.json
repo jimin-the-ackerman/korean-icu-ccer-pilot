@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_028_clinical_charting",
+  "whisper_transcript": "우시 사세 남조환자. Acute hemorrhagic stroke로 입원함. BP 뱀바이스더 100mmHg, HR 터치바이트 BPM, RR 어시디 브레스 민, BT 36.1C, SpO2 카이시 Y% on room air. Severe headache 호소함. Labetalol 20mg stat 투여함. CT scan of the head 시행함. C-line 적용함. 익수폐시간 동안 500mL positive fluid balance 확인됨. 환자 stuporous 상태임. Neurology team notify함.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe_auto",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": null,
+    "audio_path": "data/audio/scenario_028_clinical_charting.mp3",
+    "audio_sha256": "f9b11792d76b117a3ccad1c2425fe342b717087861243980c25519f227539b3b",
+    "transcribed_at": "2026-11-04T14:06:39+00:00",
+    "request_seconds": 2.05,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "우시 사세 남조환자. Acute hemorrhagic stroke로 입원함. BP 뱀바이스더 100mmHg, HR 터치바이트 BPM, RR 어시디 브레스 민, BT 36.1C, SpO2 카이시 Y% on room air. Severe headache 호소함. Labetalol 20mg stat 투여함. CT scan of the head 시행함. C-line 적용함. 익수폐시간 동안 500mL positive fluid balance 확인됨. 환자 stuporous 상태임. Neurology team notify함.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 260,
+      "output_tokens": 126,
+      "total_tokens": 386,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 260,
+        "text_tokens": 0
+      }
+    }
+  }
+}

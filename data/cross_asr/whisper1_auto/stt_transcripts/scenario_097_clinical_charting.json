@@ -1,0 +1,25 @@
+{
+  "sample_id": "scenario_097_clinical_charting",
+  "whisper_transcript": "63세 여자 환자 큐트 메민고카클 멘엔자이디스로 입원함. BP 170, HR 98, R21, BT36 등 워스트 SPO95 세해대에 고소함. 세프트리액션 2그라운드 IVQH 2여중 C-Line 유지함. 환자 드라우지 상태 확인됨.",
+  "stt_metadata": {
+    "asr_system": "whisper1_auto",
+    "provider": "openai",
+    "model": "whisper-1",
+    "language": null,
+    "audio_path": "data/audio/scenario_097_clinical_charting.mp3",
+    "audio_sha256": "7cef8cbc10120f123c175c37137fbd332529e906ee72b24e771afcd20b759203",
+    "transcribed_at": "2026-11-04T14:01:55+00:00",
+    "request_seconds": 2.63,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "63세 여자 환자 큐트 메민고카클 멘엔자이디스로 입원함. BP 170, HR 98, R21, BT36 등 워스트 SPO95 세해대에 고소함. 세프트리액션 2그라운드 IVQH 2여중 C-Line 유지함. 환자 드라우지 상태 확인됨.",
+    "logprobs": null,
+    "usage": {
+      "seconds": 17.0,
+      "type": "duration"
+    }
+  }
+}

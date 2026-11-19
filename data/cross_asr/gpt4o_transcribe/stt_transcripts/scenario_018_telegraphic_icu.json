@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_018_telegraphic_icu",
+  "whisper_transcript": "66세 남환, 급성 위장관 천공, BP 160 HR 110 비혈압 20 브레스 20 브레인, BT 38%, SpO2 94%, 심한 복통, Piperacillin/Tazobactam 4.5gr IV q6h, 비강 캐뉼라, 응급 개복술, 음성 체액 균형, 알림, 외과 팀 통보.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": "ko",
+    "audio_path": "data/audio/scenario_018_telegraphic_icu.mp3",
+    "audio_sha256": "866d79daf134d412b4e1a8bcc6c150b11cd2acf7f8212521b25606c9d4e025c9",
+    "transcribed_at": "2026-11-04T06:13:35+00:00",
+    "request_seconds": 2.16,
+    "attempts": 1,
+    "git_commit": "b3490181b3fb3f88b56cde5be78a01cfdcef3007",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "66세 남환, 급성 위장관 천공, BP 160 HR 110 비혈압 20 브레스 20 브레인, BT 38%, SpO2 94%, 심한 복통, Piperacillin/Tazobactam 4.5gr IV q6h, 비강 캐뉼라, 응급 개복술, 음성 체액 균형, 알림, 외과 팀 통보.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 190,
+      "output_tokens": 98,
+      "total_tokens": 288,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 190,
+        "text_tokens": 0
+      }
+    }
+  }
+}

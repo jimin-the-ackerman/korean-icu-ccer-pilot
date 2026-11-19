@@ -1,0 +1,155 @@
+{
+  "sample_id": "scenario_029_telegraphic_icu",
+  "gold_entities": {
+    "route": [
+      {
+        "raw": "IV",
+        "normalized": "iv",
+        "position": 147
+      }
+    ],
+    "frequency": [
+      {
+        "raw": "q12h",
+        "normalized": "q12h",
+        "position": 150
+      }
+    ],
+    "device": [
+      {
+        "raw": "Foley catheter",
+        "normalized": "foley",
+        "position": 228
+      },
+      {
+        "raw": "Ventilator",
+        "normalized": "ventilator",
+        "position": 210
+      },
+      {
+        "raw": "Nasal cannula",
+        "normalized": "nc",
+        "position": 158
+      }
+    ],
+    "vital_sign": [
+      {
+        "raw": "BP 130/85",
+        "label": "bp",
+        "value": "130/85",
+        "position": 19
+      },
+      {
+        "raw": "HR 92",
+        "label": "hr",
+        "value": "92",
+        "position": 37
+      },
+      {
+        "raw": "RR 18",
+        "label": "rr",
+        "value": "18",
+        "position": 50
+      },
+      {
+        "raw": "BT 36.8",
+        "label": "bt",
+        "value": "36.8",
+        "position": 71
+      },
+      {
+        "raw": "SpO2 89%",
+        "label": "spo2",
+        "value": "89%",
+        "position": 84
+      }
+    ],
+    "dose": [
+      {
+        "raw": "0.4 g",
+        "value": "0.4",
+        "unit": "g",
+        "position": 138
+      }
+    ]
+  },
+  "whisper_entities": {
+    "route": [
+      {
+        "raw": "IV",
+        "normalized": "iv",
+        "position": 113
+      }
+    ],
+    "frequency": [
+      {
+        "raw": "Q12H",
+        "normalized": "q12h",
+        "position": 116
+      }
+    ],
+    "device": [
+      {
+        "raw": "폴리 카테터",
+        "normalized": "foley",
+        "position": 159
+      },
+      {
+        "raw": "인공호흡기",
+        "normalized": "ventilator",
+        "position": 148
+      },
+      {
+        "raw": "비강 캐뉼라",
+        "normalized": "nc",
+        "position": 122
+      }
+    ],
+    "vital_sign": [
+      {
+        "raw": "BP 138/85",
+        "label": "bp",
+        "value": "138/85",
+        "position": 15
+      },
+      {
+        "raw": "HR 92",
+        "label": "hr",
+        "value": "92",
+        "position": 30
+      },
+      {
+        "raw": "RR 18",
+        "label": "rr",
+        "value": "18",
+        "position": 41
+      },
+      {
+        "raw": "BT 36.8",
+        "label": "bt",
+        "value": "36.8",
+        "position": 60
+      },
+      {
+        "raw": "SpO2 89%",
+        "label": "spo2",
+        "value": "89%",
+        "position": 71
+      }
+    ],
+    "dose": [
+      {
+        "raw": "0.4g",
+        "value": "0.4",
+        "unit": "g",
+        "position": 105
+      },
+      {
+        "raw": "2L/min",
+        "value": "2",
+        "unit": "l/min",
+        "position": 129
+      }
+    ]
+  }
+}

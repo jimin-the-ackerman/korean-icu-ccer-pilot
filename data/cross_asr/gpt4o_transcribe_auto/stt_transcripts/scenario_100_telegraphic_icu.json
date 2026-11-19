@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_100_telegraphic_icu",
+  "whisper_transcript": "60岁男病患，血压90/50 mmHg，HR 112 bpm，RR 24 breaths/min，BT 37.8°C，SPO2 95% room air，abdominal pain severe，morphine 4 mg IV q4h，NG tube 삽입됨，nasogastric decompression 시행됨，urine output 감소 및 drowsy，surgical team notify.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe_auto",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": null,
+    "audio_path": "data/audio/scenario_100_telegraphic_icu.mp3",
+    "audio_sha256": "7a1273d3f58c24998ac405450e8b9a2239c0ec0f122b919e2550ec4e2d27b9a1",
+    "transcribed_at": "2026-11-04T14:15:27+00:00",
+    "request_seconds": 1.92,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "60岁男病患，血压90/50 mmHg，HR 112 bpm，RR 24 breaths/min，BT 37.8°C，SPO2 95% room air，abdominal pain severe，morphine 4 mg IV q4h，NG tube 삽입됨，nasogastric decompression 시행됨，urine output 감소 및 drowsy，surgical team notify.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 202,
+      "output_tokens": 89,
+      "total_tokens": 291,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 202,
+        "text_tokens": 0
+      }
+    }
+  }
+}

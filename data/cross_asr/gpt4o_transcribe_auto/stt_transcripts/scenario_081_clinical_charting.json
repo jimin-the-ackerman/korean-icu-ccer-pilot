@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_081_clinical_charting",
+  "whisper_transcript": "60세 남성 환자 acute congestive heart failure로 입원함. BP 620, HR 110 BPM, RR 10 breath/min, BT 37.3, SpO2 70% room air에서 측정됨. Severe dyspnea 호소함. Furosemide 40mg IV stat 투여함. 2L nasal cannula 적용함. Foley 유지함. Negative fluid balance 500ml 확인됨. 환자 drowsy 상태 확인됨. Cardiology team notify 함.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe_auto",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": null,
+    "audio_path": "data/audio/scenario_081_clinical_charting.mp3",
+    "audio_sha256": "4c75b25cd74df0c49c0e5530cc4010c57342ae88160a2d42b66746312b69ce47",
+    "transcribed_at": "2026-11-04T14:13:11+00:00",
+    "request_seconds": 2.06,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "60세 남성 환자 acute congestive heart failure로 입원함. BP 620, HR 110 BPM, RR 10 breath/min, BT 37.3, SpO2 70% room air에서 측정됨. Severe dyspnea 호소함. Furosemide 40mg IV stat 투여함. 2L nasal cannula 적용함. Foley 유지함. Negative fluid balance 500ml 확인됨. 환자 drowsy 상태 확인됨. Cardiology team notify 함.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 263,
+      "output_tokens": 110,
+      "total_tokens": 373,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 263,
+        "text_tokens": 0
+      }
+    }
+  }
+}

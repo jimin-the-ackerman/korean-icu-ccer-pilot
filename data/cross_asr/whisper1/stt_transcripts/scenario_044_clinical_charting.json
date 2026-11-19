@@ -1,0 +1,25 @@
+{
+  "sample_id": "scenario_044_clinical_charting",
+  "whisper_transcript": "38세 남자 환자, 급성 취장염으로 입원함. BP 90B, 200mg. HR, MEGAR, RRB, BT 산지체봄 8, 80백 셀스. SPO2, PAMPER, FENCET ON, ROOM AIR 확인됨. SEVERE ABDOMINAL PAIN 호소함. MORPHINE 2mg IVQ4H 투여함. NASAL CANNULA 적용함, FULLY 유지함. PATIENT DROWSY 상태 확인됨. PAIN TEAM CONSULT함.",
+  "stt_metadata": {
+    "asr_system": "whisper1",
+    "provider": "reuse_existing",
+    "model": "whisper-1",
+    "language": "ko",
+    "audio_path": "data/audio/scenario_044_clinical_charting.mp3",
+    "audio_sha256": "13909c8b006927ead5933341e4e0715a5356678e495a1450018decf6dce26355",
+    "copied_at": "2026-11-04T04:31:11+00:00",
+    "request_seconds": 0.0,
+    "attempts": 1,
+    "git_commit": "b3490181b3fb3f88b56cde5be78a01cfdcef3007",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "source_file": "data/stt_transcripts/scenario_044_clinical_charting.json",
+    "source_sha256": "4c65ab6b007cda02fb99e5e6789f095a8d05323fd5ab0737d13e7d5776abce8e",
+    "source_stt_metadata": {
+      "model": "whisper-1",
+      "language": "ko"
+    }
+  }
+}

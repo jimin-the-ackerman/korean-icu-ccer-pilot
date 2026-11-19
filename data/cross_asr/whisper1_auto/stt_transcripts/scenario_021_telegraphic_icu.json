@@ -1,0 +1,26 @@
+{
+  "sample_id": "scenario_021_telegraphic_icu",
+  "whisper_transcript": "57-ZNAMSA1-JA, severe hyperkalemia, rhabdomyolysis. Prolonged demobilization 1 in B145, 85 milliliter HRAB, HR110 BPM, RR22 breaths min, BT 37.23 Celsius, SBO2 95% RA, muscle weakness severe. Calcium gluconate 10 milliliter IV stat, IV fluid administration. C-line in place, IO strict monitoring. Alert, renal team notify.",
+  "stt_metadata": {
+    "asr_system": "whisper1_auto",
+    "provider": "openai",
+    "model": "whisper-1",
+    "language": null,
+    "scope": "pilot",
+    "audio_path": "data/audio/scenario_021_telegraphic_icu.mp3",
+    "audio_sha256": "dd05d70682a1bb99bd832b21c59b53736940890235aee02dd0ff3884722c519a",
+    "transcribed_at": "2026-11-04T13:40:58+00:00",
+    "request_seconds": 2.94,
+    "attempts": 1,
+    "git_commit": "5b6d73fb63e1509a79e1a160176d606ed1b104c4",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "57-ZNAMSA1-JA, severe hyperkalemia, rhabdomyolysis. Prolonged demobilization 1 in B145, 85 milliliter HRAB, HR110 BPM, RR22 breaths min, BT 37.23 Celsius, SBO2 95% RA, muscle weakness severe. Calcium gluconate 10 milliliter IV stat, IV fluid administration. C-line in place, IO strict monitoring. Alert, renal team notify.",
+    "logprobs": null,
+    "usage": {
+      "seconds": 23.0,
+      "type": "duration"
+    }
+  }
+}

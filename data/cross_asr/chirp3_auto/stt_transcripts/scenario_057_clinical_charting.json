@@ -1,0 +1,43 @@
+{
+  "sample_id": "scenario_057_clinical_charting",
+  "whisper_transcript": "58세 여성 환자 acute exacerbation of rheumatoid arthritis로 입원함. severe joint pain 호소함. BP 134/88, HR 18, BT 37.6°C, SpO2 96%. methylprednisolone 125mg IV q8h 적용함. patient alert 상태 유지함.",
+  "stt_metadata": {
+    "asr_system": "chirp3_auto",
+    "provider": "google",
+    "model": "chirp_3",
+    "location": "us",
+    "language_codes": [
+      "auto"
+    ],
+    "audio_path": "data/audio/scenario_057_clinical_charting.mp3",
+    "audio_sha256": "83752f0f49def58fb550133cd9f015475d3dbef9d6a452cda4b3be807a0e458e",
+    "transcribed_at": "2026-11-04T14:31:12+00:00",
+    "request_seconds": 2.77,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "metadata": {
+      "total_billed_duration": "18s",
+      "request_id": "70561414-0000-23f8-866f-d43a2cc78e1f",
+      "prompt": "Transcribe the following speech segment. Follow these specific instructions for formatting the answer:\n* Only output the transcript, with no newlines.\n* When transcribing numbers, write the digits, i.e. write 1.7 and not one point seven, and write 100 instead of one hundred etc.\n* Only output the transcript, exactly as said in the speech segment.\n* Do not continue the speech segment.\n* Include everything said in the speech segment.\n* Use mathematical notation where needed, eg. x ^ 6Y.\n* If there is background speech that is not part of the main conversation, discard the background speech and only output the main conversation.\n* If there is no clear speech, just output [BACKGROUND].\n* Respond in the original language of the speech."
+    },
+    "results": [
+      {
+        "alternatives": [
+          {
+            "transcript": "58세 여성 환자 acute exacerbation of rheumatoid arthritis로 입원함. severe joint pain 호소함. BP 134/88, HR 18, BT 37.6°C, SpO2 96%. methylprednisolone 125mg IV q8h 적용함. patient alert 상태 유지함.",
+            "confidence": 0.0,
+            "words": []
+          }
+        ],
+        "language_code": "ko",
+        "channel_tag": 0
+      }
+    ],
+    "detected_language_codes": [
+      "ko"
+    ]
+  }
+}

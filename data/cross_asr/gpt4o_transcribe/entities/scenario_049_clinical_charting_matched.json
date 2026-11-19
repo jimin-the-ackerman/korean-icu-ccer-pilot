@@ -1,0 +1,106 @@
+{
+  "sample_id": "scenario_049_clinical_charting",
+  "closed_vocab_matches": [
+    {
+      "entity_type": "route",
+      "gold_value": "iv",
+      "whisper_value": "iv",
+      "match_status": "matched",
+      "error_type": null
+    },
+    {
+      "entity_type": "frequency",
+      "gold_value": "q12h",
+      "whisper_value": null,
+      "match_status": "omission",
+      "error_type": "omission"
+    },
+    {
+      "entity_type": "dose",
+      "gold_value": "1g",
+      "whisper_value": null,
+      "match_status": "omission",
+      "error_type": "omission"
+    },
+    {
+      "entity_type": "vital_sign",
+      "label": "bp",
+      "gold_value": "102/65",
+      "whisper_value": null,
+      "match_status": "omission",
+      "error_type": "omission"
+    },
+    {
+      "entity_type": "vital_sign",
+      "label": "hr",
+      "gold_value": "115",
+      "whisper_value": "175",
+      "match_status": "error",
+      "error_type": "numeric_error"
+    },
+    {
+      "entity_type": "vital_sign",
+      "label": "rr",
+      "gold_value": "24",
+      "whisper_value": "24",
+      "match_status": "matched",
+      "error_type": null
+    },
+    {
+      "entity_type": "vital_sign",
+      "label": "bt",
+      "gold_value": "38.5",
+      "whisper_value": "38.5",
+      "match_status": "matched",
+      "error_type": null
+    },
+    {
+      "entity_type": "vital_sign",
+      "label": "spo2",
+      "gold_value": "96%",
+      "whisper_value": "96%",
+      "match_status": "matched",
+      "error_type": null
+    }
+  ],
+  "open_vocab_matches": {
+    "symptom_matches": [
+      {
+        "gold_value": "knee pain",
+        "whisper_value": "니 페인",
+        "match_basis": "phonetic_artifact",
+        "negation_match": null,
+        "severity_match": null
+      }
+    ],
+    "whisper_only_symptoms": [],
+    "clinical_status_match": {
+      "gold_value": "alert",
+      "whisper_value": "얼럿 상태 유지함",
+      "match_basis": "semantic"
+    },
+    "medication_identity_match": {
+      "gold_value": "vancomycin",
+      "whisper_value": "뱅코마이신",
+      "match_basis": "semantic"
+    },
+    "intervention_matches": [
+      {
+        "gold_value": "right knee joint aspiration",
+        "whisper_value": "라이트니 조인트 아스퍼레이션",
+        "match_basis": "phonetic_artifact"
+      }
+    ],
+    "whisper_only_interventions": [],
+    "intake_output_match": {
+      "gold_value": "positive fluid balance of 500ml",
+      "whisper_value": "파지티브 플루이드 밸런스 500ml 기록됨",
+      "match_basis": "semantic"
+    },
+    "notification_match": {
+      "gold_value": "orthopedic consultation requested",
+      "whisper_value": "정형외과 컨설트 요청함",
+      "match_basis": "semantic"
+    }
+  }
+}

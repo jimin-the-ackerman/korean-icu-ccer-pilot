@@ -1,0 +1,25 @@
+{
+  "sample_id": "scenario_048_clinical_charting",
+  "whisper_transcript": "58-year-old male, hospitalized with severe gastrointestinal bleeding due to esophageal varices. Vital signs, BP, dysregulation 60 mm, HR, gastritis, RR, Wachy-saw breath, MIN. BT, 36.8 degrees Celsius, SpO2, DIGD percent on room air. Severe hemorrhage confirmed. Octreotide 50 msg IV Q6H injected. Oxygen support. Nasal cannula 2L per MIN injected. Endoscopic band ligation tested. Fully maintained. Strict monitoring of input and output. Clinical status. Drowsy sancti hoagindem. Gastroenterology team notify him.",
+  "stt_metadata": {
+    "asr_system": "whisper1_auto",
+    "provider": "openai",
+    "model": "whisper-1",
+    "language": null,
+    "audio_path": "data/audio/scenario_048_clinical_charting.mp3",
+    "audio_sha256": "cab2da8f73fe491f0359d75fec6b78279bf86261b021eda1e439ef78481e5d2e",
+    "transcribed_at": "2026-11-04T13:54:47+00:00",
+    "request_seconds": 2.3,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "58-year-old male, hospitalized with severe gastrointestinal bleeding due to esophageal varices. Vital signs, BP, dysregulation 60 mm, HR, gastritis, RR, Wachy-saw breath, MIN. BT, 36.8 degrees Celsius, SpO2, DIGD percent on room air. Severe hemorrhage confirmed. Octreotide 50 msg IV Q6H injected. Oxygen support. Nasal cannula 2L per MIN injected. Endoscopic band ligation tested. Fully maintained. Strict monitoring of input and output. Clinical status. Drowsy sancti hoagindem. Gastroenterology team notify him.",
+    "logprobs": null,
+    "usage": {
+      "seconds": 33.0,
+      "type": "duration"
+    }
+  }
+}

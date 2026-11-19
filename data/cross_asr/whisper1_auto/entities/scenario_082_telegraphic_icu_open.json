@@ -1,0 +1,35 @@
+{
+  "sample_id": "scenario_082_telegraphic_icu",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "abdominal pain",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "Alert",
+    "medication_identity": "Morphine",
+    "interventions": [
+      "Pain management"
+    ],
+    "intake_output": "Strict I/O monitoring",
+    "notification": null
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "abdominal pain",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "alert",
+    "medication_identity": "morphine",
+    "interventions": [
+      "pain management"
+    ],
+    "intake_output": "strict io monitoring",
+    "notification": null
+  }
+}

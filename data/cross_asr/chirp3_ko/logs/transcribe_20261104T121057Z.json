@@ -1,0 +1,33 @@
+{
+  "asr": "chirp3_ko",
+  "settings": {
+    "provider": "google",
+    "model": "chirp_3",
+    "location": "us",
+    "language_codes": [
+      "ko-KR"
+    ]
+  },
+  "pilot": true,
+  "limit": 1,
+  "started_at": "2026-11-04T12:10:57+00:00",
+  "git_commit": "5b6d73fb63e1509a79e1a160176d606ed1b104c4",
+  "config_version": "1.0",
+  "max_attempts": 3,
+  "entries": [
+    {
+      "sample_id": "scenario_007_clinical_charting",
+      "status": "processed",
+      "request_seconds": 5.25,
+      "attempts": 1
+    }
+  ],
+  "finished_at": "2026-11-04T12:11:03+00:00",
+  "summary": {
+    "processed": 1,
+    "api_requests": 1,
+    "aborted": null,
+    "skipped_valid": 0,
+    "targets": 30
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "sample_id": "scenario_062_telegraphic_icu",
+  "whisper_transcript": "44 nanosecond equal to 1. BP 96 millimicroherdrime, HR1, RR28 breast min. BT 37.2, SpO2 86% room air. Severe chest pain. Heparin 5,000 units IV Q4H. High flow nasal cannula. C-line UZ. Negative fluid balance. Drowsy. Doctor notify.",
+  "stt_metadata": {
+    "asr_system": "whisper1_auto",
+    "provider": "openai",
+    "model": "whisper-1",
+    "language": null,
+    "audio_path": "data/audio/scenario_062_telegraphic_icu.mp3",
+    "audio_sha256": "f5ffcfbbdd29615e633e2f8aa99c4fdfe653af3f0e355499cf498612da08df37",
+    "transcribed_at": "2026-11-04T13:57:33+00:00",
+    "request_seconds": 2.6,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "44 nanosecond equal to 1. BP 96 millimicroherdrime, HR1, RR28 breast min. BT 37.2, SpO2 86% room air. Severe chest pain. Heparin 5,000 units IV Q4H. High flow nasal cannula. C-line UZ. Negative fluid balance. Drowsy. Doctor notify.",
+    "logprobs": null,
+    "usage": {
+      "seconds": 20.0,
+      "type": "duration"
+    }
+  }
+}

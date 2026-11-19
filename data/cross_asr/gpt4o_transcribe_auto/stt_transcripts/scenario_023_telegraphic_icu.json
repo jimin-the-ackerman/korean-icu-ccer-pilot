@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_023_telegraphic_icu",
+  "whisper_transcript": "60yo M c/o a quadrue burner, HPI: pershived mmhtarm, HR: HR Wtachadew breath min BT 30s de o2 6% RA. Muscle weakness moderate. Methylprednisolone 1 gm IV Qh drowsy",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe_auto",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": null,
+    "audio_path": "data/audio/scenario_023_telegraphic_icu.mp3",
+    "audio_sha256": "81022cc07e3c0f9029b0f459b3bdf52ce8bb7240dccfe7546a1b2b91a01e0434",
+    "transcribed_at": "2026-11-04T14:06:12+00:00",
+    "request_seconds": 1.56,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "60yo M c/o a quadrue burner, HPI: pershived mmhtarm, HR: HR Wtachadew breath min BT 30s de o2 6% RA. Muscle weakness moderate. Methylprednisolone 1 gm IV Qh drowsy",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 140,
+      "output_tokens": 61,
+      "total_tokens": 201,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 140,
+        "text_tokens": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "sample_id": "scenario_076_formal_template",
+  "whisper_transcript": "환자 정보 35세 여성 환자가 하이퍼미세스 그라비드암으로 인한 심한 탈수로 급성 신손상 진단을 받고 입원하였다. 활력증후 혈압은 92부 58mmg로 측정되었으며 심박수는 110ppm, 호흡수는 18회분, 체온은 36.8극서, 산소포화도는 96%로 확인되었다. 증상 환자는 심한 나우제를 호소하였다. 약물 언단세트론 8mg을 IV로 QIH로 투여 중이다. 중재 환자는 정상 식염수로 IV 플루이드 리사세테이션을 받고 있다. 장치 폴리 캐세터가 삽입되어 있다. 수분균형, 음성수분균형이 확인되었다. 임상상태, 환자는 의식이 혼미한 상태이다. 보고, 급성 신손상 관리 목적으로 신장내과팀과 상의하였다.",
+  "stt_metadata": {
+    "asr_system": "whisper1",
+    "provider": "reuse_existing",
+    "model": "whisper-1",
+    "language": "ko",
+    "audio_path": "data/audio/scenario_076_formal_template.mp3",
+    "audio_sha256": "e4f674ebb8ca748df7d5353744ac969844fa06e85555eac266fde3fb423051e0",
+    "copied_at": "2026-11-04T04:31:12+00:00",
+    "request_seconds": 0.0,
+    "attempts": 1,
+    "git_commit": "b3490181b3fb3f88b56cde5be78a01cfdcef3007",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "source_file": "data/stt_transcripts/scenario_076_formal_template.json",
+    "source_sha256": "25caac60e2cc89ee390eccf8b6e082dc6da47a0dec787bf659902cc407ba77f3",
+    "source_stt_metadata": {
+      "model": "whisper-1",
+      "language": "ko"
+    }
+  }
+}

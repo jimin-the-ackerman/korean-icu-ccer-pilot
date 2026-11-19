@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_046_clinical_charting",
+  "whisper_transcript": "61세 남성 환자 acute subdural hematoma로 입원함. BP 144/80, HR 65, RR 14, BT 36.8, SpO2 98% severe headache 호소함. Mannitol 100g IV qh 투여 중, Intracranial pressure monitoring 적용함. drowsy 상태 확인됨.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": "ko",
+    "audio_path": "data/audio/scenario_046_clinical_charting.mp3",
+    "audio_sha256": "409b822a89f85f2827779d2d5dda1750eea4862e4f52734f914465bb12296299",
+    "transcribed_at": "2026-11-04T12:58:22+00:00",
+    "request_seconds": 1.35,
+    "attempts": 1,
+    "git_commit": "5b6d73fb63e1509a79e1a160176d606ed1b104c4",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "61세 남성 환자 acute subdural hematoma로 입원함. BP 144/80, HR 65, RR 14, BT 36.8, SpO2 98% severe headache 호소함. Mannitol 100g IV qh 투여 중, Intracranial pressure monitoring 적용함. drowsy 상태 확인됨.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 173,
+      "output_tokens": 79,
+      "total_tokens": 252,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 173,
+        "text_tokens": 0
+      }
+    }
+  }
+}

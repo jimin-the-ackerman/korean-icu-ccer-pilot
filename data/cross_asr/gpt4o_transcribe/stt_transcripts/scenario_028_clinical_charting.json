@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_028_clinical_charting",
+  "whisper_transcript": "오시 사세 남자 환자. Acute hemorrhagic stroke로 입원함. BP 100/40 mmHg, HR 78 bpm, RR 82 breaths/min, BT 36.1°C, SpO2 95% on room air. Severe headache 호소함. Labetalol 20 mg IV stat 투여함. CT scan of the head 시행함. C-line 적용함. 익수 3시간 동안 500 mL positive fluid balance 확인됨. 환자 stuporous 상태임. Neurology team notify함.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": "ko",
+    "audio_path": "data/audio/scenario_028_clinical_charting.mp3",
+    "audio_sha256": "f9b11792d76b117a3ccad1c2425fe342b717087861243980c25519f227539b3b",
+    "transcribed_at": "2026-11-04T12:56:23+00:00",
+    "request_seconds": 1.86,
+    "attempts": 1,
+    "git_commit": "5b6d73fb63e1509a79e1a160176d606ed1b104c4",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "오시 사세 남자 환자. Acute hemorrhagic stroke로 입원함. BP 100/40 mmHg, HR 78 bpm, RR 82 breaths/min, BT 36.1°C, SpO2 95% on room air. Severe headache 호소함. Labetalol 20 mg IV stat 투여함. CT scan of the head 시행함. C-line 적용함. 익수 3시간 동안 500 mL positive fluid balance 확인됨. 환자 stuporous 상태임. Neurology team notify함.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 260,
+      "output_tokens": 118,
+      "total_tokens": 378,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 260,
+        "text_tokens": 0
+      }
+    }
+  }
+}

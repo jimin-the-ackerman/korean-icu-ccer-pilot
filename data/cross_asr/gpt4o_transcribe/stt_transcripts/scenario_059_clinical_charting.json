@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_059_clinical_charting",
+  "whisper_transcript": "46세 남성 환자 severe sepsis with perforated diverticulitis, BP 85-60mmHg HR 125bpm, RR 28breaths/min, BT 39.0, SpO2 89% room air. Severe abdominal pain 호소함. Piperacillin-tazobactam 4.5g IV q8h 투여 중. High flow nasal cannula 적용함. Fluid resuscitation 시행함. C-line 유지함. Positive fluid balance 확인됨. 환자 drowsy 상태임.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": "ko",
+    "audio_path": "data/audio/scenario_059_clinical_charting.mp3",
+    "audio_sha256": "2e79a351c92864f5af0409f551b81b4ea9384a21d2d27b3ded8086f806196314",
+    "transcribed_at": "2026-11-04T12:59:48+00:00",
+    "request_seconds": 1.68,
+    "attempts": 1,
+    "git_commit": "5b6d73fb63e1509a79e1a160176d606ed1b104c4",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "46세 남성 환자 severe sepsis with perforated diverticulitis, BP 85-60mmHg HR 125bpm, RR 28breaths/min, BT 39.0, SpO2 89% room air. Severe abdominal pain 호소함. Piperacillin-tazobactam 4.5g IV q8h 투여 중. High flow nasal cannula 적용함. Fluid resuscitation 시행함. C-line 유지함. Positive fluid balance 확인됨. 환자 drowsy 상태임.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 256,
+      "output_tokens": 115,
+      "total_tokens": 371,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 256,
+        "text_tokens": 0
+      }
+    }
+  }
+}

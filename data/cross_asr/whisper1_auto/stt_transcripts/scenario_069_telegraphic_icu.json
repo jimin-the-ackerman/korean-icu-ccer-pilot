@@ -1,0 +1,25 @@
+{
+  "sample_id": "scenario_069_telegraphic_icu",
+  "whisper_transcript": "Oocytocin amsong, Kapsong Heroin Overdose Reborn. Bp-Cahydrostimibort, Maitreya Breaths Memm. Arparataphep Breaths Min. Sp. Oproprietary Room Air. Severe Unconsciousness. Naloxone, Neopent-4mg IV. High Flow Nasal Cannulas, Hayungjung. Unresponsive.",
+  "stt_metadata": {
+    "asr_system": "whisper1_auto",
+    "provider": "openai",
+    "model": "whisper-1",
+    "language": null,
+    "audio_path": "data/audio/scenario_069_telegraphic_icu.mp3",
+    "audio_sha256": "b9a80c5ea57903d203c957613a0b1d007b9f4e317b136880d523a066b2abafe7",
+    "transcribed_at": "2026-11-04T13:58:21+00:00",
+    "request_seconds": 1.71,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "Oocytocin amsong, Kapsong Heroin Overdose Reborn. Bp-Cahydrostimibort, Maitreya Breaths Memm. Arparataphep Breaths Min. Sp. Oproprietary Room Air. Severe Unconsciousness. Naloxone, Neopent-4mg IV. High Flow Nasal Cannulas, Hayungjung. Unresponsive.",
+    "logprobs": null,
+    "usage": {
+      "seconds": 17.0,
+      "type": "duration"
+    }
+  }
+}

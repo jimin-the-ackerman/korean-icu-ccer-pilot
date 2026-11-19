@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_070_telegraphic_icu",
+  "whisper_transcript": "64세 남성, 급성 호흡부전, 심한 지혈, 그레이 HR 108 BPM, RR 28, BT 38.5, O2 86% room air, severe cough, levofloxacin 750mg IV q12h, HFNC 적용 ventilator 사용 중, negative fluid balance, drowsy.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe_auto",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": null,
+    "audio_path": "data/audio/scenario_070_telegraphic_icu.mp3",
+    "audio_sha256": "8c825d57db072e4ef52a828bce709f5b4222d6788653b67a76f98798ae843184",
+    "transcribed_at": "2026-11-04T14:11:54+00:00",
+    "request_seconds": 1.73,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "64세 남성, 급성 호흡부전, 심한 지혈, 그레이 HR 108 BPM, RR 28, BT 38.5, O2 86% room air, severe cough, levofloxacin 750mg IV q12h, HFNC 적용 ventilator 사용 중, negative fluid balance, drowsy.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 180,
+      "output_tokens": 75,
+      "total_tokens": 255,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 180,
+        "text_tokens": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "sample_id": "scenario_006_clinical_charting",
+  "whisper_transcript": "70세 여성, Severe Stroke로 입원함. BP 179.5, HG 20, BT 37.5, SBU 92% 확인됨. Severe Hemipyo 확인됨. Labetalol 20mg, IV Q6H 투여함. Nasal cannula 2를 밀면으로 산소 공급 유지함. C-Line 적용됨. Negative fluid balance 확인됨. Stupor 상태임. Neurology team notify함.",
+  "stt_metadata": {
+    "asr_system": "whisper1",
+    "provider": "reuse_existing",
+    "model": "whisper-1",
+    "language": "ko",
+    "audio_path": "data/audio/scenario_006_clinical_charting.mp3",
+    "audio_sha256": "2fa88636cdabad8e76a4777b8c0156909e244c8420d26ce2477394d334cfffa2",
+    "copied_at": "2026-11-04T04:31:11+00:00",
+    "request_seconds": 0.0,
+    "attempts": 1,
+    "git_commit": "b3490181b3fb3f88b56cde5be78a01cfdcef3007",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "source_file": "data/stt_transcripts/scenario_006_clinical_charting.json",
+    "source_sha256": "6965f56914d1d688a0cd3cc533ebf18ea7ac7acbdc6851549c071c4d084474e8",
+    "source_stt_metadata": {
+      "model": "whisper-1",
+      "language": "ko"
+    }
+  }
+}

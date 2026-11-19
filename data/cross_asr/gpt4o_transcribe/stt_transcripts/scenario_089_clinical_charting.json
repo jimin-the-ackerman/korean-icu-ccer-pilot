@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_089_clinical_charting",
+  "whisper_transcript": "52세 남성 환자, NASH로 인한 만성 간질환 급성 악화로 입원함. BPD 88mmHg, HR bpm, RR 20 breaths/min, BT 37.22C, SpO2 89% rmair. Ascites moderate 확인됨. Spironolactone 100mg PO BID 적용함. Nasal cannula 3L UGM, Foley UGM. Negative fluid balance 500mL 확인됨. Clinical status drowsy 확인됨. Hepatology team notify함.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": "ko",
+    "audio_path": "data/audio/scenario_089_clinical_charting.mp3",
+    "audio_sha256": "ce8e4abc3cdb561d34f6f11281eab4d6a5b935bd2c7502e16825c32f5806c22b",
+    "transcribed_at": "2026-11-04T13:04:13+00:00",
+    "request_seconds": 2.1,
+    "attempts": 1,
+    "git_commit": "5b6d73fb63e1509a79e1a160176d606ed1b104c4",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "52세 남성 환자, NASH로 인한 만성 간질환 급성 악화로 입원함. BPD 88mmHg, HR bpm, RR 20 breaths/min, BT 37.22C, SpO2 89% rmair. Ascites moderate 확인됨. Spironolactone 100mg PO BID 적용함. Nasal cannula 3L UGM, Foley UGM. Negative fluid balance 500mL 확인됨. Clinical status drowsy 확인됨. Hepatology team notify함.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 266,
+      "output_tokens": 118,
+      "total_tokens": 384,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 266,
+        "text_tokens": 0
+      }
+    }
+  }
+}

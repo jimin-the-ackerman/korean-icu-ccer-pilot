@@ -1,0 +1,25 @@
+{
+  "sample_id": "scenario_056_clinical_charting",
+  "whisper_transcript": "47-year-old female, admitted with acute severe asthma extubation. BP 0.3585 mmHg. HR pectibium. RR 3GD breath mimin. BT 3G7.556 cells. SB 80 propensin on room air confirmed. Severe wheezing confirmed. Albuterol 2.5 mg IV Q storage applied. High flow nasal cannula oxygen supply maintained. NG tubes inserted. Negative fluid balance of 500 mL confirmed. Patient condition drowsy. Pulmonology team notified.",
+  "stt_metadata": {
+    "asr_system": "whisper1_auto",
+    "provider": "openai",
+    "model": "whisper-1",
+    "language": null,
+    "audio_path": "data/audio/scenario_056_clinical_charting.mp3",
+    "audio_sha256": "001c99835b3ff9505247e3e9daf173200b66ac082e856f84233c159872060367",
+    "transcribed_at": "2026-11-04T13:56:39+00:00",
+    "request_seconds": 4.21,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "47-year-old female, admitted with acute severe asthma extubation. BP 0.3585 mmHg. HR pectibium. RR 3GD breath mimin. BT 3G7.556 cells. SB 80 propensin on room air confirmed. Severe wheezing confirmed. Albuterol 2.5 mg IV Q storage applied. High flow nasal cannula oxygen supply maintained. NG tubes inserted. Negative fluid balance of 500 mL confirmed. Patient condition drowsy. Pulmonology team notified.",
+    "logprobs": null,
+    "usage": {
+      "seconds": 27.0,
+      "type": "duration"
+    }
+  }
+}

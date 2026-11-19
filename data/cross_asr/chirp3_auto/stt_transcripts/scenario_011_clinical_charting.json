@@ -1,0 +1,43 @@
+{
+  "sample_id": "scenario_011_clinical_charting",
+  "whisper_transcript": "62세 남성 환자 acute liver failure로 입원. 원인은 hepatitis B. Vital signs BP 105/68, HR 108, R 20, BT 37.2, SpO2 95%. Severe jaundice 관찰됨. Lactulose 30ml PO q8h 처방됨. Oxygen support nasal cannula 2 L/min 적용함. Foley 유지함. Clinical status drowsy 상태 확인됨. Hepatology 팀 notify 함.",
+  "stt_metadata": {
+    "asr_system": "chirp3_auto",
+    "provider": "google",
+    "model": "chirp_3",
+    "location": "us",
+    "language_codes": [
+      "auto"
+    ],
+    "audio_path": "data/audio/scenario_011_clinical_charting.mp3",
+    "audio_sha256": "b82d6aa5c769d3440e9c47c11e5120b0db8f39dbb6a8b253c34bf780257b81d3",
+    "transcribed_at": "2026-11-04T14:19:37+00:00",
+    "request_seconds": 4.39,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "metadata": {
+      "total_billed_duration": "24s",
+      "request_id": "6b3454cf-0000-2a38-8faf-d43a2ccb3137",
+      "prompt": "Transcribe the following speech segment. Follow these specific instructions for formatting the answer:\n* Only output the transcript, with no newlines.\n* When transcribing numbers, write the digits, i.e. write 1.7 and not one point seven, and write 100 instead of one hundred etc.\n* Only output the transcript, exactly as said in the speech segment.\n* Do not continue the speech segment.\n* Include everything said in the speech segment.\n* Use mathematical notation where needed, eg. x ^ 6Y.\n* If there is background speech that is not part of the main conversation, discard the background speech and only output the main conversation.\n* If there is no clear speech, just output [BACKGROUND].\n* Respond in the original language of the speech."
+    },
+    "results": [
+      {
+        "alternatives": [
+          {
+            "transcript": "62세 남성 환자 acute liver failure로 입원. 원인은 hepatitis B. Vital signs BP 105/68, HR 108, R 20, BT 37.2, SpO2 95%. Severe jaundice 관찰됨. Lactulose 30ml PO q8h 처방됨. Oxygen support nasal cannula 2 L/min 적용함. Foley 유지함. Clinical status drowsy 상태 확인됨. Hepatology 팀 notify 함.",
+            "confidence": 0.0,
+            "words": []
+          }
+        ],
+        "language_code": "ko",
+        "channel_tag": 0
+      }
+    ],
+    "detected_language_codes": [
+      "ko"
+    ]
+  }
+}

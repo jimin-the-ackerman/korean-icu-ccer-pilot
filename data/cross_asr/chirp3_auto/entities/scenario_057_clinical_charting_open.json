@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_057_clinical_charting",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "joint pain",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "alert",
+    "medication_identity": "Methylprednisolone",
+    "interventions": [],
+    "intake_output": null,
+    "notification": null
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "joint pain",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "alert",
+    "medication_identity": "methylprednisolone",
+    "interventions": [],
+    "intake_output": null,
+    "notification": null
+  }
+}

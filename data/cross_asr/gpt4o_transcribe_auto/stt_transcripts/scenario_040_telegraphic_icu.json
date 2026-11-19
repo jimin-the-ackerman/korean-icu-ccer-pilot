@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_040_telegraphic_icu",
+  "whisper_transcript": "Sashi bi seyo song. SJS wo ibuan. BP eteshita, HR kuishi yu, RR bt senpeno, SpO2 kuishi sa perfusin. Severe skin lesions, morphine formula IV q4h, nasal cannula and Foley.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe_auto",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": null,
+    "audio_path": "data/audio/scenario_040_telegraphic_icu.mp3",
+    "audio_sha256": "f66246e575c861a9851f3d8cd66728b84fd1d583c05f4d8e5dacb8bdda88ed37",
+    "transcribed_at": "2026-11-04T14:08:07+00:00",
+    "request_seconds": 1.33,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "Sashi bi seyo song. SJS wo ibuan. BP eteshita, HR kuishi yu, RR bt senpeno, SpO2 kuishi sa perfusin. Severe skin lesions, morphine formula IV q4h, nasal cannula and Foley.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 123,
+      "output_tokens": 58,
+      "total_tokens": 181,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 123,
+        "text_tokens": 0
+      }
+    }
+  }
+}

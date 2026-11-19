@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_018_telegraphic_icu",
+  "whisper_transcript": "66세 남환, 급성 위장관 천공, BP 160, HR 110, BEAR 20, Breath 20, Brand BT 38% SPo2 94%, Severe Abdominal pain, Piperacillin Tazobactam 4.5g IV q6h, Nasal cannula, Emergency laparotomy, Negative fluid balance, Alert: Surgical team notify",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe_auto",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": null,
+    "audio_path": "data/audio/scenario_018_telegraphic_icu.mp3",
+    "audio_sha256": "866d79daf134d412b4e1a8bcc6c150b11cd2acf7f8212521b25606c9d4e025c9",
+    "transcribed_at": "2026-11-04T14:05:37+00:00",
+    "request_seconds": 1.71,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "66세 남환, 급성 위장관 천공, BP 160, HR 110, BEAR 20, Breath 20, Brand BT 38% SPo2 94%, Severe Abdominal pain, Piperacillin Tazobactam 4.5g IV q6h, Nasal cannula, Emergency laparotomy, Negative fluid balance, Alert: Surgical team notify",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 190,
+      "output_tokens": 84,
+      "total_tokens": 274,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 190,
+        "text_tokens": 0
+      }
+    }
+  }
+}

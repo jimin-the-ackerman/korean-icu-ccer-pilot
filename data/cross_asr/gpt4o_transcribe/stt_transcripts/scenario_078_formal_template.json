@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_078_formal_template",
+  "whisper_transcript": "66세 여성 환자가 괴사성 근막염 감염에 의한 중증 패혈증으로 입원하였다. 활력징후로는 혈압이 88/54mmHg, 심박수가 120bpm, 호흡수가 28breaths/min, 체온이 39.0℃였으며 산소포화도는 15L O2를 비제호흡 마스크로 공급받는 가운데 90%로 확인되었다. 환자는 심한 통증을 호소하였다. 현재 고유량 산소치료를 받고 있으며 폴리 카테터가 삽입되어 있다. 수액 균형은 양성이다. 환자의 임상 상태는 기면 상태이다. 항생제로는 반코마이신은 grm IV로 Q12H 투여되고 있다. 외과적 제거술이 예정되어 있다. 감염내과와 외과팀에 보고하였다.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": "ko",
+    "audio_path": "data/audio/scenario_078_formal_template.mp3",
+    "audio_sha256": "13a829d68c94f656808f62971cd0e2e7707ce7deb0c5a76f8b36f3b62342f852",
+    "transcribed_at": "2026-11-04T13:02:46+00:00",
+    "request_seconds": 3.23,
+    "attempts": 1,
+    "git_commit": "5b6d73fb63e1509a79e1a160176d606ed1b104c4",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "66세 여성 환자가 괴사성 근막염 감염에 의한 중증 패혈증으로 입원하였다. 활력징후로는 혈압이 88/54mmHg, 심박수가 120bpm, 호흡수가 28breaths/min, 체온이 39.0℃였으며 산소포화도는 15L O2를 비제호흡 마스크로 공급받는 가운데 90%로 확인되었다. 환자는 심한 통증을 호소하였다. 현재 고유량 산소치료를 받고 있으며 폴리 카테터가 삽입되어 있다. 수액 균형은 양성이다. 환자의 임상 상태는 기면 상태이다. 항생제로는 반코마이신은 grm IV로 Q12H 투여되고 있다. 외과적 제거술이 예정되어 있다. 감염내과와 외과팀에 보고하였다.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 433,
+      "output_tokens": 203,
+      "total_tokens": 636,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 433,
+        "text_tokens": 0
+      }
+    }
+  }
+}

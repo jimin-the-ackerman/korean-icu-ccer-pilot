@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_044_clinical_charting",
+  "whisper_transcript": "38세 남자 환자, 급성 췌장염으로 입원함. BP 90/50 mmHg, HR 120회/분, BT 37.8 °C, SpO2 100% on room air 확인됨. Severe abdominal pain 호소함, Morphine 2mg IV q4h 투여함, nasal cannula 적용함 (4L/분). Patient drowsy 상태 확인됨. Pain team consult 함.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": "ko",
+    "audio_path": "data/audio/scenario_044_clinical_charting.mp3",
+    "audio_sha256": "13909c8b006927ead5933341e4e0715a5356678e495a1450018decf6dce26355",
+    "transcribed_at": "2026-11-04T12:58:09+00:00",
+    "request_seconds": 2.18,
+    "attempts": 1,
+    "git_commit": "5b6d73fb63e1509a79e1a160176d606ed1b104c4",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "38세 남자 환자, 급성 췌장염으로 입원함. BP 90/50 mmHg, HR 120회/분, BT 37.8 °C, SpO2 100% on room air 확인됨. Severe abdominal pain 호소함, Morphine 2mg IV q4h 투여함, nasal cannula 적용함 (4L/분). Patient drowsy 상태 확인됨. Pain team consult 함.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 214,
+      "output_tokens": 100,
+      "total_tokens": 314,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 214,
+        "text_tokens": 0
+      }
+    }
+  }
+}

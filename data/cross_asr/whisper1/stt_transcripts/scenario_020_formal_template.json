@@ -1,0 +1,25 @@
+{
+  "sample_id": "scenario_020_formal_template",
+  "whisper_transcript": "61세 남성 환자가 급성 중증 최장염으로 다장기 침범이 발생하여 입원하였다. 현재 상태는 안정적이나 합병증 발생에 대한 면밀한 관찰이 필요하다. 활력증으로는 혈압이 170mg, 심박수가 95bpm, 호흡수가 22bpm, 체온이 37.8도, 산소포화도가 94%로 확인되었다. 환자는 심한 복통을 호소하였다. 현재 몰핀 4mg을 IV로 4시간마다 투여 중이다. 산소는 nasal cannula를 통해 E-meme로 공급받고 있으며 NG 튜브가 삽입되어 있다. 24시간 동안 500mL의 음성체 균형이 확인되었다. 임상 상태는 졸린 상태이다. 최장염의 지속적인 관리를 위해 소아기내과에 자문을 요청하였다.",
+  "stt_metadata": {
+    "asr_system": "whisper1",
+    "provider": "reuse_existing",
+    "model": "whisper-1",
+    "language": "ko",
+    "audio_path": "data/audio/scenario_020_formal_template.mp3",
+    "audio_sha256": "5921f9addbecafdd991ca393b7d21ed46adb85b66916a7dbbab32c57753e1456",
+    "copied_at": "2026-11-04T04:31:11+00:00",
+    "request_seconds": 0.0,
+    "attempts": 1,
+    "git_commit": "b3490181b3fb3f88b56cde5be78a01cfdcef3007",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "source_file": "data/stt_transcripts/scenario_020_formal_template.json",
+    "source_sha256": "fe5d298a956a1be2dedbfd5f5e1deff1ae76550d80477a9bb82ca8779648cba3",
+    "source_stt_metadata": {
+      "model": "whisper-1",
+      "language": "ko"
+    }
+  }
+}

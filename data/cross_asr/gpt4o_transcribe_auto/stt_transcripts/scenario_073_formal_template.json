@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_073_formal_template",
+  "whisper_transcript": "환자는 62세 남성으로 심한 승모판 역류에 따른 급성 폐부종으로 입원하였다. 혈압은 110샙 70mm로 측정되었고 심박수는 98bpm, 호흡수는 28bpm, 체온은 36.8dBx로 확인되었다. 산소포화도는 실내 공기에서 88%로 확인되었다. 환자는 심한 호흡곤란을 호소하였다. 현재 퓨로스미드 40mg이 아이비로 12시간마다 투여되고 있다. 비제호흡 마스크로 15일버미인의 산소가 제공되고 있다. 폴리가 삽입되어 있고 지난 24시간 동안 200ml의 양성 수분 균형이 관찰되었다. 환자는 의식이 명료하다.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe_auto",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": null,
+    "audio_path": "data/audio/scenario_073_formal_template.mp3",
+    "audio_sha256": "b01d2dfac884d92f2f5344455ff752e32296aca4910b74038868fdee8183fe63",
+    "transcribed_at": "2026-11-04T14:12:14+00:00",
+    "request_seconds": 3.39,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "환자는 62세 남성으로 심한 승모판 역류에 따른 급성 폐부종으로 입원하였다. 혈압은 110샙 70mm로 측정되었고 심박수는 98bpm, 호흡수는 28bpm, 체온은 36.8dBx로 확인되었다. 산소포화도는 실내 공기에서 88%로 확인되었다. 환자는 심한 호흡곤란을 호소하였다. 현재 퓨로스미드 40mg이 아이비로 12시간마다 투여되고 있다. 비제호흡 마스크로 15일버미인의 산소가 제공되고 있다. 폴리가 삽입되어 있고 지난 24시간 동안 200ml의 양성 수분 균형이 관찰되었다. 환자는 의식이 명료하다.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 398,
+      "output_tokens": 191,
+      "total_tokens": 589,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 398,
+        "text_tokens": 0
+      }
+    }
+  }
+}

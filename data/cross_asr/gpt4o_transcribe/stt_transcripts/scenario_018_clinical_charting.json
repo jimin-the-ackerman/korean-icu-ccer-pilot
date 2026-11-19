@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_018_clinical_charting",
+  "whisper_transcript": "62세 남성 환자 급성 gastrointestinal perforation으로 입원함. BP 560mmHg, HR 110 bpm, RR 20 breaths/min, BT 38.0도씨, SpO2 94%. Severe abdominal pain 호소함. Piperacillin-tazobactam 4.5g IV Q6h 적용함. Nasal cannula 산소 유지함. Emergency laparotomy 시행함. Negative fluid balance 확인됨. 환자 alert 상태 유지함. Surgical team notify함.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": "ko",
+    "audio_path": "data/audio/scenario_018_clinical_charting.mp3",
+    "audio_sha256": "fd1e12fbf3a3bc04155584ced5152d675ebf3abfad3913208e51ca1c32baeac9",
+    "transcribed_at": "2026-11-04T12:55:28+00:00",
+    "request_seconds": 1.9,
+    "attempts": 1,
+    "git_commit": "5b6d73fb63e1509a79e1a160176d606ed1b104c4",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "62세 남성 환자 급성 gastrointestinal perforation으로 입원함. BP 560mmHg, HR 110 bpm, RR 20 breaths/min, BT 38.0도씨, SpO2 94%. Severe abdominal pain 호소함. Piperacillin-tazobactam 4.5g IV Q6h 적용함. Nasal cannula 산소 유지함. Emergency laparotomy 시행함. Negative fluid balance 확인됨. 환자 alert 상태 유지함. Surgical team notify함.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 259,
+      "output_tokens": 109,
+      "total_tokens": 368,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 259,
+        "text_tokens": 0
+      }
+    }
+  }
+}

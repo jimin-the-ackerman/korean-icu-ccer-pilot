@@ -1,0 +1,46 @@
+{
+  "sample_id": "scenario_020_telegraphic_icu",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "abdominal pain",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "Drowsy",
+    "medication_identity": "Morphine",
+    "interventions": [],
+    "intake_output": "-500 mL/24hr",
+    "notification": "Dr notify gastro consult"
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "기침",
+        "negation": false,
+        "severity": null
+      },
+      {
+        "name": "브라디카디아",
+        "negation": false,
+        "severity": null
+      },
+      {
+        "name": "복통",
+        "negation": false,
+        "severity": "severe"
+      },
+      {
+        "name": "졸음",
+        "negation": false,
+        "severity": null
+      }
+    ],
+    "clinical_status": "졸음",
+    "medication_identity": "모르핀",
+    "interventions": [],
+    "intake_output": "IO 뉴 500ml/24",
+    "notification": "닥터 노티파이 가스트로 컨설트"
+  }
+}

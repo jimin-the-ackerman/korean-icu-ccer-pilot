@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_025_clinical_charting",
+  "whisper_transcript": "육십세 여성 환자, acute cholecystitis로 입원함. BP 140/84 mmHg, HR 92 bpm, RR 20 breaths/min, BT 38.2℃, SpO2 95% room air. Severe abdominal pain 호소함. Ceftriaxone 1g IV q12hr 적용함. Laparoscopic cholecystectomy planned. C-line 유지함. I/O positive balance 확인됨. Alert 상태 유지함.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": "ko",
+    "audio_path": "data/audio/scenario_025_clinical_charting.mp3",
+    "audio_sha256": "e74f8c5c6e47203b798445ff8bee286bcb23a958b47fc7c75366615d4aedb680",
+    "transcribed_at": "2026-11-04T12:56:07+00:00",
+    "request_seconds": 1.86,
+    "attempts": 1,
+    "git_commit": "5b6d73fb63e1509a79e1a160176d606ed1b104c4",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "육십세 여성 환자, acute cholecystitis로 입원함. BP 140/84 mmHg, HR 92 bpm, RR 20 breaths/min, BT 38.2℃, SpO2 95% room air. Severe abdominal pain 호소함. Ceftriaxone 1g IV q12hr 적용함. Laparoscopic cholecystectomy planned. C-line 유지함. I/O positive balance 확인됨. Alert 상태 유지함.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 219,
+      "output_tokens": 104,
+      "total_tokens": 323,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 219,
+        "text_tokens": 0
+      }
+    }
+  }
+}

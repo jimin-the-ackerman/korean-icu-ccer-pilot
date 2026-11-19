@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_058_clinical_charting",
+  "whisper_transcript": "육습하이슨 암성환자 acute exacerbation of chronic heart failure로 입원. Fluid overload 및 dyspnea 호소함. BP 150/90mmHg, HR 핵심 비햄, RR 외치스포브레aths/min, BT 37.26℃, SpO2 92% room air. Dyspnea moderate level 확인됨. Furosemide 40mg IV BID 적용함. Oxygen support 2L nasal cannula 적용함. Foley 유지함. Positive fluid balance 확인됨. Clinical status alert 유지함.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe_auto",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": null,
+    "audio_path": "data/audio/scenario_058_clinical_charting.mp3",
+    "audio_sha256": "b9b363877bcbaaa34c19732224c19627ca2c2ae2687c4ce71831178eefb6591e",
+    "transcribed_at": "2026-11-04T14:10:34+00:00",
+    "request_seconds": 2.26,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "육습하이슨 암성환자 acute exacerbation of chronic heart failure로 입원. Fluid overload 및 dyspnea 호소함. BP 150/90mmHg, HR 핵심 비햄, RR 외치스포브레aths/min, BT 37.26℃, SpO2 92% room air. Dyspnea moderate level 확인됨. Furosemide 40mg IV BID 적용함. Oxygen support 2L nasal cannula 적용함. Foley 유지함. Positive fluid balance 확인됨. Clinical status alert 유지함.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 271,
+      "output_tokens": 121,
+      "total_tokens": 392,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 271,
+        "text_tokens": 0
+      }
+    }
+  }
+}

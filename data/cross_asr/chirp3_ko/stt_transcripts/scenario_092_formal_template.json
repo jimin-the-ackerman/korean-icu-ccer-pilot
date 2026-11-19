@@ -1,0 +1,43 @@
+{
+  "sample_id": "scenario_092_formal_template",
+  "whisper_transcript": "54세 남자 환자가 고칼슘혈증으로 인한 급성 췌장염으로 입원하였다. 활력징후는 혈압 135/85 mmHg, 심박수 110 bpm, 호흡수 22 bpm, 체온 37.8도, 산소포화도 94%로 실내 공기 상태이다. 환자는 심한 복통을 호소하였다. 현재 판토프라졸 40 mg을 IV로 BID 투여 중이다. NG 튜브가 삽입되어 있다. 환자는 의식이 명료하다. 고칼슘혈증 관리를 위해 내분비과에 협진을 요청하였다.",
+  "stt_metadata": {
+    "asr_system": "chirp3_ko",
+    "provider": "google",
+    "model": "chirp_3",
+    "location": "us",
+    "language_codes": [
+      "ko-KR"
+    ],
+    "audio_path": "data/audio/scenario_092_formal_template.mp3",
+    "audio_sha256": "0072892e0e99af536bfdc3c168d9c23aa439a890d65fab7ec45fcd38aef4601f",
+    "transcribed_at": "2026-11-04T13:31:35+00:00",
+    "request_seconds": 4.66,
+    "attempts": 1,
+    "git_commit": "5b6d73fb63e1509a79e1a160176d606ed1b104c4",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "metadata": {
+      "total_billed_duration": "31s",
+      "request_id": "734e6869-0000-21cb-907c-d43a2cc7e73f",
+      "prompt": "Transcribe the following speech segment in Korean. Follow these specific instructions for formatting the answer:\n* Only output the transcript, with no newlines.\n* When transcribing numbers, write the digits, i.e. write 1.7 and not one point seven, and write 100 instead of one hundred etc.\n* Only output the transcript, exactly as said in the speech segment.\n* Do not continue the speech segment.\n* Include everything said in the speech segment.\n* Use mathematical notation where needed, eg. x ^ 6Y.\n* If there is background speech that is not part of the main conversation, discard the background speech and only output the main conversation.\n* If there is no clear speech, just output [BACKGROUND].\n* Respond in the original language of the speech, Korean."
+    },
+    "results": [
+      {
+        "alternatives": [
+          {
+            "transcript": "54세 남자 환자가 고칼슘혈증으로 인한 급성 췌장염으로 입원하였다. 활력징후는 혈압 135/85 mmHg, 심박수 110 bpm, 호흡수 22 bpm, 체온 37.8도, 산소포화도 94%로 실내 공기 상태이다. 환자는 심한 복통을 호소하였다. 현재 판토프라졸 40 mg을 IV로 BID 투여 중이다. NG 튜브가 삽입되어 있다. 환자는 의식이 명료하다. 고칼슘혈증 관리를 위해 내분비과에 협진을 요청하였다.",
+            "confidence": 0.0,
+            "words": []
+          }
+        ],
+        "language_code": "ko-KR",
+        "channel_tag": 0
+      }
+    ],
+    "detected_language_codes": [
+      "ko-KR"
+    ]
+  }
+}

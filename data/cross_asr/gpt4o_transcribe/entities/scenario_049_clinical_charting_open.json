@@ -1,0 +1,35 @@
+{
+  "sample_id": "scenario_049_clinical_charting",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "knee pain",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "alert",
+    "medication_identity": "Vancomycin",
+    "interventions": [
+      "right knee joint aspiration"
+    ],
+    "intake_output": "Positive fluid balance 500 mL",
+    "notification": "정형외과 consult 요청함"
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "니 페인",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "얼럿 상태 유지함",
+    "medication_identity": "뱅코마이신",
+    "interventions": [
+      "라이트니 조인트 아스퍼레이션"
+    ],
+    "intake_output": "파지티브 플루이드 밸런스 500ml 기록됨",
+    "notification": "정형외과 컨설트 요청함"
+  }
+}

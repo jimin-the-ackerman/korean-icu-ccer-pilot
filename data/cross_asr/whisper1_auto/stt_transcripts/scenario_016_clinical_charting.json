@@ -1,0 +1,25 @@
+{
+  "sample_id": "scenario_016_clinical_charting",
+  "whisper_transcript": "45세 여성 환자, Severe sepsis로 입원, Abdominal abscess으로 인한 상태. Vital signs, BPH1550W, HR HERI, CRR58, BT36.U, SpO2, QQ21 Provencin. Severe fever 확인됨, Meripenem 1g, IVQH 투여중. Nasal cannula 적용함, Abscess drainage 시행함, C-line 유지함. Negative fluid balance 확인됨, 환자 Drowsy 상태, Elevated Lactate 담당해 Notify함.",
+  "stt_metadata": {
+    "asr_system": "whisper1_auto",
+    "provider": "openai",
+    "model": "whisper-1",
+    "language": null,
+    "audio_path": "data/audio/scenario_016_clinical_charting.mp3",
+    "audio_sha256": "bef13cc233b13e40e0b009f073d93a81f15f0a4fcfbe45638f4ddc90973c0b5a",
+    "transcribed_at": "2026-11-04T13:51:05+00:00",
+    "request_seconds": 2.07,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "45세 여성 환자, Severe sepsis로 입원, Abdominal abscess으로 인한 상태. Vital signs, BPH1550W, HR HERI, CRR58, BT36.U, SpO2, QQ21 Provencin. Severe fever 확인됨, Meripenem 1g, IVQH 투여중. Nasal cannula 적용함, Abscess drainage 시행함, C-line 유지함. Negative fluid balance 확인됨, 환자 Drowsy 상태, Elevated Lactate 담당해 Notify함.",
+    "logprobs": null,
+    "usage": {
+      "seconds": 25.0,
+      "type": "duration"
+    }
+  }
+}

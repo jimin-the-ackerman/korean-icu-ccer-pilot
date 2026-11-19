@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_076_clinical_charting",
+  "whisper_transcript": "35세 여성 환자 hyperemesis gravidarum으로 인한 심한 탈수로 acute kidney injury에 입원함. BP 92/78 mmHg, HR 110 bpm, RR 18, BT 36.8°C, SpO2 96%. severe nausea 호소함. ondansetron 8 mg IV q8h 적용함. IV fluid resuscitation with normal saline 시행함. Foley 유점. negative fluid balance 확인됨. drowsy 상태 관찰됨. nephrology team notify함.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": "ko",
+    "audio_path": "data/audio/scenario_076_clinical_charting.mp3",
+    "audio_sha256": "a11021b6ee6d1f61c04bfbd52c45156aa0b7696a7f9d342c939b436be230da9b",
+    "transcribed_at": "2026-11-04T13:02:14+00:00",
+    "request_seconds": 2.34,
+    "attempts": 1,
+    "git_commit": "5b6d73fb63e1509a79e1a160176d606ed1b104c4",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "35세 여성 환자 hyperemesis gravidarum으로 인한 심한 탈수로 acute kidney injury에 입원함. BP 92/78 mmHg, HR 110 bpm, RR 18, BT 36.8°C, SpO2 96%. severe nausea 호소함. ondansetron 8 mg IV q8h 적용함. IV fluid resuscitation with normal saline 시행함. Foley 유점. negative fluid balance 확인됨. drowsy 상태 관찰됨. nephrology team notify함.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 259,
+      "output_tokens": 113,
+      "total_tokens": 372,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 259,
+        "text_tokens": 0
+      }
+    }
+  }
+}

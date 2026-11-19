@@ -1,0 +1,43 @@
+{
+  "sample_id": "scenario_005_clinical_charting",
+  "whisper_transcript": "58세 남성 환자, chronic kidney disease 병력, acute renal failure 모니터링 및 관리 위해 입원함. BP 159/90 mmHg, HR 75 bpm, BT 37.6 degrees, SpO2 94%. moderate edema 확인됨. Furosemide 40 mg IV Q8H 적용함. oxygen support nasal cannula 유지함. foley catheter 유지함. negative fluid balance 확인됨. 임상 상태 drowsy 확인됨. nephrology 팀 increased creatinine levels 관련 notify함.",
+  "stt_metadata": {
+    "asr_system": "chirp3_auto",
+    "provider": "google",
+    "model": "chirp_3",
+    "location": "us",
+    "language_codes": [
+      "auto"
+    ],
+    "audio_path": "data/audio/scenario_005_clinical_charting.mp3",
+    "audio_sha256": "6da6b191684896dd2ac43feb6fe6fd300983d9efc5ecc6540ac78f735d3d984e",
+    "transcribed_at": "2026-11-04T14:18:14+00:00",
+    "request_seconds": 5.53,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "metadata": {
+      "total_billed_duration": "29s",
+      "request_id": "6b33ae11-0000-2a38-8faf-d43a2ccb3137",
+      "prompt": "Transcribe the following speech segment. Follow these specific instructions for formatting the answer:\n* Only output the transcript, with no newlines.\n* When transcribing numbers, write the digits, i.e. write 1.7 and not one point seven, and write 100 instead of one hundred etc.\n* Only output the transcript, exactly as said in the speech segment.\n* Do not continue the speech segment.\n* Include everything said in the speech segment.\n* Use mathematical notation where needed, eg. x ^ 6Y.\n* If there is background speech that is not part of the main conversation, discard the background speech and only output the main conversation.\n* If there is no clear speech, just output [BACKGROUND].\n* Respond in the original language of the speech."
+    },
+    "results": [
+      {
+        "alternatives": [
+          {
+            "transcript": "58세 남성 환자, chronic kidney disease 병력, acute renal failure 모니터링 및 관리 위해 입원함. BP 159/90 mmHg, HR 75 bpm, BT 37.6 degrees, SpO2 94%. moderate edema 확인됨. Furosemide 40 mg IV Q8H 적용함. oxygen support nasal cannula 유지함. foley catheter 유지함. negative fluid balance 확인됨. 임상 상태 drowsy 확인됨. nephrology 팀 increased creatinine levels 관련 notify함.",
+            "confidence": 0.0,
+            "words": []
+          }
+        ],
+        "language_code": "ko",
+        "channel_tag": 0
+      }
+    ],
+    "detected_language_codes": [
+      "ko"
+    ]
+  }
+}

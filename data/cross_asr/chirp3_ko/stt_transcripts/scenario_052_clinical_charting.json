@@ -1,0 +1,43 @@
+{
+  "sample_id": "scenario_052_clinical_charting",
+  "whisper_transcript": "72세 남성 hip replacement 후 post-op complication으로 입원함. BP 165/85 mmHg 확인됨. HR 95 bpm 유지됨. RR 12 breaths/min 확인됨. BT 38.5℃로 오르는 것 확인됨. SpO2 92% O2 2L/min으로 확인됨. moderate pain 호소함. morphine 2 mg IV q4h 적용함. Foley 유지 중임. urine output 400 mL/8 hr 확인됨. clinical status alert 상태 유지함.",
+  "stt_metadata": {
+    "asr_system": "chirp3_ko",
+    "provider": "google",
+    "model": "chirp_3",
+    "location": "us",
+    "language_codes": [
+      "ko-KR"
+    ],
+    "audio_path": "data/audio/scenario_052_clinical_charting.mp3",
+    "audio_sha256": "bbf4067e617de3853fffd235bd9a22a24a214e61e195204b7bdc9508664ed540",
+    "transcribed_at": "2026-11-04T13:21:52+00:00",
+    "request_seconds": 3.94,
+    "attempts": 1,
+    "git_commit": "5b6d73fb63e1509a79e1a160176d606ed1b104c4",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "metadata": {
+      "total_billed_duration": "26s",
+      "request_id": "7605d6ba-0000-2149-bd26-582429c94324",
+      "prompt": "Transcribe the following speech segment in Korean. Follow these specific instructions for formatting the answer:\n* Only output the transcript, with no newlines.\n* When transcribing numbers, write the digits, i.e. write 1.7 and not one point seven, and write 100 instead of one hundred etc.\n* Only output the transcript, exactly as said in the speech segment.\n* Do not continue the speech segment.\n* Include everything said in the speech segment.\n* Use mathematical notation where needed, eg. x ^ 6Y.\n* If there is background speech that is not part of the main conversation, discard the background speech and only output the main conversation.\n* If there is no clear speech, just output [BACKGROUND].\n* Respond in the original language of the speech, Korean."
+    },
+    "results": [
+      {
+        "alternatives": [
+          {
+            "transcript": "72세 남성 hip replacement 후 post-op complication으로 입원함. BP 165/85 mmHg 확인됨. HR 95 bpm 유지됨. RR 12 breaths/min 확인됨. BT 38.5℃로 오르는 것 확인됨. SpO2 92% O2 2L/min으로 확인됨. moderate pain 호소함. morphine 2 mg IV q4h 적용함. Foley 유지 중임. urine output 400 mL/8 hr 확인됨. clinical status alert 상태 유지함.",
+            "confidence": 0.0,
+            "words": []
+          }
+        ],
+        "language_code": "ko-KR",
+        "channel_tag": 0
+      }
+    ],
+    "detected_language_codes": [
+      "ko-KR"
+    ]
+  }
+}

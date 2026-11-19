@@ -1,0 +1,25 @@
+{
+  "sample_id": "scenario_064_telegraphic_icu",
+  "whisper_transcript": "65C Yeosong AR-BPNAT7D HR95R30 BT37.8 Glix Series SbO2 85% RS-VSOB Cephtriaxone 2-Gam IV Q12H Mechanical Ventilation Ventilator Saeyoung Positive Fluid Balance Stuporous",
+  "stt_metadata": {
+    "asr_system": "whisper1_auto",
+    "provider": "openai",
+    "model": "whisper-1",
+    "language": null,
+    "audio_path": "data/audio/scenario_064_telegraphic_icu.mp3",
+    "audio_sha256": "bd665fe94dd2a4c0ab6a32038ea0bf40b99d8f74188b42bee9ac9f04e952925c",
+    "transcribed_at": "2026-11-04T13:57:49+00:00",
+    "request_seconds": 1.28,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "65C Yeosong AR-BPNAT7D HR95R30 BT37.8 Glix Series SbO2 85% RS-VSOB Cephtriaxone 2-Gam IV Q12H Mechanical Ventilation Ventilator Saeyoung Positive Fluid Balance Stuporous",
+    "logprobs": null,
+    "usage": {
+      "seconds": 15.0,
+      "type": "duration"
+    }
+  }
+}

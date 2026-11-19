@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_068_clinical_charting",
+  "whisper_transcript": "육수 팔세 여성 acute ischemic colitis로 입원함. BP 95 60mmHg, HR 120 bpm, RR 12 breaths/min, BT 37.5℃, SpO2 92% room air. Severe abdominal pain 호소함. Metronidazole 500mg IV Q6H 적용함. Nasal cannula 2L/min 유지함. Foley 유지함. Negative fluid balance 확인됨. 환자 drowsy 상태 확인됨.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe_auto",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": null,
+    "audio_path": "data/audio/scenario_068_clinical_charting.mp3",
+    "audio_sha256": "5fa6c33d0c872a0fb86e994a88ce63f278d8fc417483bf71e7f597fc69a0dbb2",
+    "transcribed_at": "2026-11-04T14:11:37+00:00",
+    "request_seconds": 1.69,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "육수 팔세 여성 acute ischemic colitis로 입원함. BP 95 60mmHg, HR 120 bpm, RR 12 breaths/min, BT 37.5℃, SpO2 92% room air. Severe abdominal pain 호소함. Metronidazole 500mg IV Q6H 적용함. Nasal cannula 2L/min 유지함. Foley 유지함. Negative fluid balance 확인됨. 환자 drowsy 상태 확인됨.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 226,
+      "output_tokens": 103,
+      "total_tokens": 329,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 226,
+        "text_tokens": 0
+      }
+    }
+  }
+}

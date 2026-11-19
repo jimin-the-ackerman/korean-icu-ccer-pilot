@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_088_telegraphic_icu",
+  "whisper_transcript": "47 seah song. Acute liver failure due to acetaminophen overdose. BP 112/70 mmHg, 105 bpm, RR 22 breaths/min, BT 37.8°C, SpO2 95% on room air. Severe jaundice, drowsy. N-acetylcysteine 300 mg/kg IV stat. Positive fluid balance 500 ml. Hepatology team notified.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe_auto",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": null,
+    "audio_path": "data/audio/scenario_088_telegraphic_icu.mp3",
+    "audio_sha256": "0f37c3f5ebe9b3635df3ab930f2af8f04d5870238f99afdab908ae84b5f404f4",
+    "transcribed_at": "2026-11-04T14:14:05+00:00",
+    "request_seconds": 1.71,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "47 seah song. Acute liver failure due to acetaminophen overdose. BP 112/70 mmHg, 105 bpm, RR 22 breaths/min, BT 37.8°C, SpO2 95% on room air. Severe jaundice, drowsy. N-acetylcysteine 300 mg/kg IV stat. Positive fluid balance 500 ml. Hepatology team notified.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 201,
+      "output_tokens": 87,
+      "total_tokens": 288,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 201,
+        "text_tokens": 0
+      }
+    }
+  }
+}

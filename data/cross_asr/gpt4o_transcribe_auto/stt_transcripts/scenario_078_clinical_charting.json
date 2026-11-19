@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_078_clinical_charting",
+  "whisper_transcript": "66세 여성 환자, 네크타이징 파시아티스로 인한 severe sepsis로 입원함. BP, 타이치벨 위사아스미페람, HR 왓 RZ BPM, RR 20베이트 브레스민 BT 30여병 그리스, SpO2 다이치퍼센텐 온 시피딜 O2 via non-rebreather mask, severe pain 호소함, Vancomycin 1g IV 큐토릿 치료 중, 하이플로 산소 치료 적용함, 서지컬 드브라이드먼트 스케줄드, 폴리 유지 중, 포지티브 밸런스 확인됨, 드라우지 상태, 인펙셔스 디지즈와 서지컬 팀즈 노티파이함.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe_auto",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": null,
+    "audio_path": "data/audio/scenario_078_clinical_charting.mp3",
+    "audio_sha256": "6240fa820c6b9d3f36ccfc4681a5bce96a2cadf3eb66252cc7159d2b5ab58e67",
+    "transcribed_at": "2026-11-04T14:12:47+00:00",
+    "request_seconds": 2.8,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "66세 여성 환자, 네크타이징 파시아티스로 인한 severe sepsis로 입원함. BP, 타이치벨 위사아스미페람, HR 왓 RZ BPM, RR 20베이트 브레스민 BT 30여병 그리스, SpO2 다이치퍼센텐 온 시피딜 O2 via non-rebreather mask, severe pain 호소함, Vancomycin 1g IV 큐토릿 치료 중, 하이플로 산소 치료 적용함, 서지컬 드브라이드먼트 스케줄드, 폴리 유지 중, 포지티브 밸런스 확인됨, 드라우지 상태, 인펙셔스 디지즈와 서지컬 팀즈 노티파이함.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 291,
+      "output_tokens": 175,
+      "total_tokens": 466,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 291,
+        "text_tokens": 0
+      }
+    }
+  }
+}

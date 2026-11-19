@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_012_clinical_charting",
+  "whisper_transcript": "75세 여성환자 CHF exacerbation으로 입원함. Vital signs BP 기치의 의미는 효 저익 샤벡치 BP RR 얼스트 비민, BT 선진육점 8 80 degree CGU's SpO2 페이지왑 퍼센트 온 룸 에어. Dyspnea moderate 호소함. Furosemith 40mg IV 큐왓 H 투여중. Oxygen support 2 2에어 네이절 캐널라 적용함. 폴리 유지함. Positive fluid balance 확인됨. 환자 드라우지 상태 확인됨. Cardiology 팀 노티파이함.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe_auto",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": null,
+    "audio_path": "data/audio/scenario_012_clinical_charting.mp3",
+    "audio_sha256": "ab7b1241b47e7ee2d13fb5a66384eb519f2e0aae295e23df0ba9afc4f81e29bd",
+    "transcribed_at": "2026-11-04T14:04:47+00:00",
+    "request_seconds": 1.89,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "75세 여성환자 CHF exacerbation으로 입원함. Vital signs BP 기치의 의미는 효 저익 샤벡치 BP RR 얼스트 비민, BT 선진육점 8 80 degree CGU's SpO2 페이지왑 퍼센트 온 룸 에어. Dyspnea moderate 호소함. Furosemith 40mg IV 큐왓 H 투여중. Oxygen support 2 2에어 네이절 캐널라 적용함. 폴리 유지함. Positive fluid balance 확인됨. 환자 드라우지 상태 확인됨. Cardiology 팀 노티파이함.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 260,
+      "output_tokens": 138,
+      "total_tokens": 398,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 260,
+        "text_tokens": 0
+      }
+    }
+  }
+}

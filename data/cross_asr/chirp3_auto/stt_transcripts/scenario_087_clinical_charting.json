@@ -1,0 +1,43 @@
+{
+  "sample_id": "scenario_087_clinical_charting",
+  "whisper_transcript": "35세 남성 환자 심한 테트누스로 입원. puncture wound foot. BP 140/90. HR 110 BPM. RR 32 breaths/min. BT 38.5 degrees. SpO2 92% room air. severe muscle spasms 확인됨. diazepam 10 mg IV q4h 적용함. nasal cannula 2 L/min 유지함. wound debridement 시행함. NG tube 삽입함. I/O strict monitoring 유지함. 환자 상태 drowsy 확인됨. neurology consult, muscle spasms management 위해 담당의 notify함.",
+  "stt_metadata": {
+    "asr_system": "chirp3_auto",
+    "provider": "google",
+    "model": "chirp_3",
+    "location": "us",
+    "language_codes": [
+      "auto"
+    ],
+    "audio_path": "data/audio/scenario_087_clinical_charting.mp3",
+    "audio_sha256": "5b2372306e164cd522fa58238ce8b6208cd0151e67aef3e696b6d30430f058bf",
+    "transcribed_at": "2026-11-04T14:52:05+00:00",
+    "request_seconds": 4.99,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "metadata": {
+      "total_billed_duration": "30s",
+      "request_id": "74bff26f-0000-23f4-ac3e-582429cf79b0",
+      "prompt": "Transcribe the following speech segment. Follow these specific instructions for formatting the answer:\n* Only output the transcript, with no newlines.\n* When transcribing numbers, write the digits, i.e. write 1.7 and not one point seven, and write 100 instead of one hundred etc.\n* Only output the transcript, exactly as said in the speech segment.\n* Do not continue the speech segment.\n* Include everything said in the speech segment.\n* Use mathematical notation where needed, eg. x ^ 6Y.\n* If there is background speech that is not part of the main conversation, discard the background speech and only output the main conversation.\n* If there is no clear speech, just output [BACKGROUND].\n* Respond in the original language of the speech."
+    },
+    "results": [
+      {
+        "alternatives": [
+          {
+            "transcript": "35세 남성 환자 심한 테트누스로 입원. puncture wound foot. BP 140/90. HR 110 BPM. RR 32 breaths/min. BT 38.5 degrees. SpO2 92% room air. severe muscle spasms 확인됨. diazepam 10 mg IV q4h 적용함. nasal cannula 2 L/min 유지함. wound debridement 시행함. NG tube 삽입함. I/O strict monitoring 유지함. 환자 상태 drowsy 확인됨. neurology consult, muscle spasms management 위해 담당의 notify함.",
+            "confidence": 0.0,
+            "words": []
+          }
+        ],
+        "language_code": "ko",
+        "channel_tag": 0
+      }
+    ],
+    "detected_language_codes": [
+      "ko"
+    ]
+  }
+}

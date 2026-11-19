@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_066_clinical_charting",
+  "whisper_transcript": "59세 남성 환자, acute pancreatitis, hypertriglyceridemia로 입원함. Vital signs: BP 140/90mmHg, HR 120bpm, RR 22, BT 38.5도C, SpO2 95%. Abdominal pain severe 호소함. Insulin 10 units IV q6h 적용함. Fluid resuscitation 시행함. Urine output 150ml/hr 기록됨. 환자 alert 상태 유지함. Endocrinology consult 필요함.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": "ko",
+    "audio_path": "data/audio/scenario_066_clinical_charting.mp3",
+    "audio_sha256": "4fc454d34929993ec39e0018fbfb0f1f2a637c3fead986216098ed34f49c5eac",
+    "transcribed_at": "2026-11-04T13:00:49+00:00",
+    "request_seconds": 2.03,
+    "attempts": 1,
+    "git_commit": "5b6d73fb63e1509a79e1a160176d606ed1b104c4",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "59세 남성 환자, acute pancreatitis, hypertriglyceridemia로 입원함. Vital signs: BP 140/90mmHg, HR 120bpm, RR 22, BT 38.5도C, SpO2 95%. Abdominal pain severe 호소함. Insulin 10 units IV q6h 적용함. Fluid resuscitation 시행함. Urine output 150ml/hr 기록됨. 환자 alert 상태 유지함. Endocrinology consult 필요함.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 258,
+      "output_tokens": 111,
+      "total_tokens": 369,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 258,
+        "text_tokens": 0
+      }
+    }
+  }
+}

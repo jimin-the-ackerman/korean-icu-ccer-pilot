@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_014_formal_template",
+  "whisper_transcript": "환자는 59세 남성으로 주택 화재로 인한 흡입 손상 후 급성 호흡곤란 증후군 AS로 입원하였다. 활력징후는 혈압 135/85mmHg, 심박수 110bpm, 호흡수 30breath/min, 체온 38.3도였다. 산소포화도는 실내 공기에서 88%로 확인되었다. 환자는 심한 호흡곤란을 호소하였다. 현재 환자는 기계적 환기를 받고 있으며 벤틸레이터를 사용 중이다. 투약으로는 메틸프레드니솔론 125mg IV로 6시간마다 투여하고 있다. 수분 균형은 양성으로 확인되었다. 환자는 현재 의식이 둔한 상태이다.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe_auto",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": null,
+    "audio_path": "data/audio/scenario_014_formal_template.mp3",
+    "audio_sha256": "9492a11d996ee34fdf1a6482d908cc7e1bf803254a3974e1646de2f58e36ca19",
+    "transcribed_at": "2026-11-04T14:05:05+00:00",
+    "request_seconds": 2.43,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "환자는 59세 남성으로 주택 화재로 인한 흡입 손상 후 급성 호흡곤란 증후군 AS로 입원하였다. 활력징후는 혈압 135/85mmHg, 심박수 110bpm, 호흡수 30breath/min, 체온 38.3도였다. 산소포화도는 실내 공기에서 88%로 확인되었다. 환자는 심한 호흡곤란을 호소하였다. 현재 환자는 기계적 환기를 받고 있으며 벤틸레이터를 사용 중이다. 투약으로는 메틸프레드니솔론 125mg IV로 6시간마다 투여하고 있다. 수분 균형은 양성으로 확인되었다. 환자는 현재 의식이 둔한 상태이다.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 388,
+      "output_tokens": 183,
+      "total_tokens": 571,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 388,
+        "text_tokens": 0
+      }
+    }
+  }
+}

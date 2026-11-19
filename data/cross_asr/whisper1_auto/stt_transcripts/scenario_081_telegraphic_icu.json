@@ -1,0 +1,25 @@
+{
+  "sample_id": "scenario_081_telegraphic_icu",
+  "whisper_transcript": "60M, admitted CHF, HTN crisis. BP 200, 1 and 10 mHg, HR 1 and 10 bpam, RR 24, BT 37.4 dix. SpO2, 88% RA. Severe dyspnea. Furosemide, 40 milligrams IV stat. O2 2Nc fully in place. Negative fluid balance, 500 milliliters. Drowsy. Cardiology team notified.",
+  "stt_metadata": {
+    "asr_system": "whisper1_auto",
+    "provider": "openai",
+    "model": "whisper-1",
+    "language": null,
+    "audio_path": "data/audio/scenario_081_telegraphic_icu.mp3",
+    "audio_sha256": "2e80dd7dff809341f221b8d63449a64d90e7843c5e6eb90b4beadded69556fd9",
+    "transcribed_at": "2026-11-04T13:59:47+00:00",
+    "request_seconds": 1.45,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "60M, admitted CHF, HTN crisis. BP 200, 1 and 10 mHg, HR 1 and 10 bpam, RR 24, BT 37.4 dix. SpO2, 88% RA. Severe dyspnea. Furosemide, 40 milligrams IV stat. O2 2Nc fully in place. Negative fluid balance, 500 milliliters. Drowsy. Cardiology team notified.",
+    "logprobs": null,
+    "usage": {
+      "seconds": 19.0,
+      "type": "duration"
+    }
+  }
+}

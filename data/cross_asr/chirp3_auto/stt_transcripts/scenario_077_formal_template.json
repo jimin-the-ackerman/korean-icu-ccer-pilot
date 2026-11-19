@@ -1,0 +1,43 @@
+{
+  "sample_id": "scenario_077_formal_template",
+  "whisper_transcript": "64세 여성 환자가 탈수로 인한 만성 신장 질환 악화로 입원하였다. 활력 증후는 혈압 88, 신박수 22 BPM, 호흡수 22, 체온 36.8도로 확인되었다. 산소 포화도는 이 오투를 비강 캐눌라로 공급받으면서 94%로 측정되었다. 환자는 중등도의 위크니스를 호소하였다. 라베탈올 10mg을 아이비로 큐8H 투여 중이다. 비강 캐눌라로 산소를 공급받고 있으며 수액 보충 치료를 진행하였다. 폴리 카테터가 삽입되어 있으며 환자는 수분 균형이 양성으로 확인되었다. 임상 상태는 졸린 상태를 보이고 있다. 신장 팀에게 투석 평가를 위해 보고하였다.",
+  "stt_metadata": {
+    "asr_system": "chirp3_auto",
+    "provider": "google",
+    "model": "chirp_3",
+    "location": "us",
+    "language_codes": [
+      "auto"
+    ],
+    "audio_path": "data/audio/scenario_077_formal_template.mp3",
+    "audio_sha256": "0071268ecc727880a5d00bf4dc6fe258c406d7156931cdf9c66be48e1372a922",
+    "transcribed_at": "2026-11-04T14:49:46+00:00",
+    "request_seconds": 6.2,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "metadata": {
+      "total_billed_duration": "44s",
+      "request_id": "73d7a7ca-0000-2b02-9a38-747446fb4768",
+      "prompt": "Transcribe the following speech segment. Follow these specific instructions for formatting the answer:\n* Only output the transcript, with no newlines.\n* When transcribing numbers, write the digits, i.e. write 1.7 and not one point seven, and write 100 instead of one hundred etc.\n* Only output the transcript, exactly as said in the speech segment.\n* Do not continue the speech segment.\n* Include everything said in the speech segment.\n* Use mathematical notation where needed, eg. x ^ 6Y.\n* If there is background speech that is not part of the main conversation, discard the background speech and only output the main conversation.\n* If there is no clear speech, just output [BACKGROUND].\n* Respond in the original language of the speech."
+    },
+    "results": [
+      {
+        "alternatives": [
+          {
+            "transcript": "64세 여성 환자가 탈수로 인한 만성 신장 질환 악화로 입원하였다. 활력 증후는 혈압 88, 신박수 22 BPM, 호흡수 22, 체온 36.8도로 확인되었다. 산소 포화도는 이 오투를 비강 캐눌라로 공급받으면서 94%로 측정되었다. 환자는 중등도의 위크니스를 호소하였다. 라베탈올 10mg을 아이비로 큐8H 투여 중이다. 비강 캐눌라로 산소를 공급받고 있으며 수액 보충 치료를 진행하였다. 폴리 카테터가 삽입되어 있으며 환자는 수분 균형이 양성으로 확인되었다. 임상 상태는 졸린 상태를 보이고 있다. 신장 팀에게 투석 평가를 위해 보고하였다.",
+            "confidence": 0.0,
+            "words": []
+          }
+        ],
+        "language_code": "ko",
+        "channel_tag": 0
+      }
+    ],
+    "detected_language_codes": [
+      "ko"
+    ]
+  }
+}

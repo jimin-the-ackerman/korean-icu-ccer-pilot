@@ -1,0 +1,25 @@
+{
+  "sample_id": "scenario_014_telegraphic_icu",
+  "whisper_transcript": "50d9성 ardse1 bp135 admins hr 180qm r 30 breaths min bt 38.3 cis sp02 88% room air severe dyspnea methylprednisolone 125mg ivq6h mechanical ventilations hayoungjung ventilator tungtup positive fluid balance clinical status drowsy",
+  "stt_metadata": {
+    "asr_system": "whisper1",
+    "provider": "reuse_existing",
+    "model": "whisper-1",
+    "language": "ko",
+    "audio_path": "data/audio/scenario_014_telegraphic_icu.mp3",
+    "audio_sha256": "0c21779cd95e8dc209124ab9b104979b80dd54966a64ec705849f812cd4362bc",
+    "copied_at": "2026-11-04T04:31:11+00:00",
+    "request_seconds": 0.0,
+    "attempts": 1,
+    "git_commit": "b3490181b3fb3f88b56cde5be78a01cfdcef3007",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "source_file": "data/stt_transcripts/scenario_014_telegraphic_icu.json",
+    "source_sha256": "200237b11e2ca9682ee4cb92c9ae9a8edb22242051fd97c152c09d5e8aa7764a",
+    "source_stt_metadata": {
+      "model": "whisper-1",
+      "language": "ko"
+    }
+  }
+}

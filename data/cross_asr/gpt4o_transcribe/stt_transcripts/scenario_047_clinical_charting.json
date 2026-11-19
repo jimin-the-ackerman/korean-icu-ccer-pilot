@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_047_clinical_charting",
+  "whisper_transcript": "45세 여성, 리조넬라 감염에 의한 severe pneumonia로 입원함. BP 170mmHg, HR 95bpm, RR 10 breath/min, BT 38.5 degrees, SpO2 80% on room air. Severe cough 호소함. Level fluxes in tibial mg IVQ sugar H 투여 중. High flow nasal cannula 적용함. Ventilator 사용 중임. 지난 24시간 동안 fluid balance negative 기록됨. 환자 drowsy 상태 확인됨. 담당에 notify함.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": "ko",
+    "audio_path": "data/audio/scenario_047_clinical_charting.mp3",
+    "audio_sha256": "f235404e9c96c422d46ffcbc559cc082d54a7f2248213295e5f2efd2f2f109d7",
+    "transcribed_at": "2026-11-04T12:58:29+00:00",
+    "request_seconds": 2.01,
+    "attempts": 1,
+    "git_commit": "5b6d73fb63e1509a79e1a160176d606ed1b104c4",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "45세 여성, 리조넬라 감염에 의한 severe pneumonia로 입원함. BP 170mmHg, HR 95bpm, RR 10 breath/min, BT 38.5 degrees, SpO2 80% on room air. Severe cough 호소함. Level fluxes in tibial mg IVQ sugar H 투여 중. High flow nasal cannula 적용함. Ventilator 사용 중임. 지난 24시간 동안 fluid balance negative 기록됨. 환자 drowsy 상태 확인됨. 담당에 notify함.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 272,
+      "output_tokens": 118,
+      "total_tokens": 390,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 272,
+        "text_tokens": 0
+      }
+    }
+  }
+}

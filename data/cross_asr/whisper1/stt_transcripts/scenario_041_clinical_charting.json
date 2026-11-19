@@ -1,0 +1,25 @@
+{
+  "sample_id": "scenario_041_clinical_charting",
+  "whisper_transcript": "65세 여성 알코올성강견별을 인한 만성간질환 급성 악화를 입원함. BP N고 62mm함. HR 116 BPM, RR RSV breast min, BT SAT 8 grey cell cam. Spo2 92% on room air, ascites moderate 확인됨. Furosemide 40mg IV QRH 적용함. Nasal cannula 산소 적용중, foley 유지함, urine output KDMGFRR. Clinical status drowsy 확인됨.",
+  "stt_metadata": {
+    "asr_system": "whisper1",
+    "provider": "reuse_existing",
+    "model": "whisper-1",
+    "language": "ko",
+    "audio_path": "data/audio/scenario_041_clinical_charting.mp3",
+    "audio_sha256": "d867484e693e2f2d4cea4f416b618c756e1b8122cddffa4e2d27d9b915001cc6",
+    "copied_at": "2026-11-04T04:31:11+00:00",
+    "request_seconds": 0.0,
+    "attempts": 1,
+    "git_commit": "b3490181b3fb3f88b56cde5be78a01cfdcef3007",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "source_file": "data/stt_transcripts/scenario_041_clinical_charting.json",
+    "source_sha256": "34d8fc73ccaaaa3f153d8788cf645da3740f1d6931aa3b586202d9182d35ffa0",
+    "source_stt_metadata": {
+      "model": "whisper-1",
+      "language": "ko"
+    }
+  }
+}

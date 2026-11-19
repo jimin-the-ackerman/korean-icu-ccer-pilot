@@ -1,0 +1,25 @@
+{
+  "sample_id": "scenario_059_telegraphic_icu",
+  "whisper_transcript": "46-annum zonghanjia, severe sepsis, perforated diverticulitis, BP85-HR105BM, RR28 breaths min, BT39.neurogreus, SbO2 89% RA, severe abdominal pain, puricillin-tazobactam-point-gram-IV-QAH, HFN-saeyongjung, fluid resuscitation-xiang, C-line-savi, positive fluid balance, drowsy sangtae.",
+  "stt_metadata": {
+    "asr_system": "whisper1_auto",
+    "provider": "openai",
+    "model": "whisper-1",
+    "language": null,
+    "audio_path": "data/audio/scenario_059_telegraphic_icu.mp3",
+    "audio_sha256": "ce89224b5760efe3f91672b40821632ddab8fc60b7e1b2efe6cb0bb4f8bd2c9f",
+    "transcribed_at": "2026-11-04T13:57:10+00:00",
+    "request_seconds": 2.22,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "46-annum zonghanjia, severe sepsis, perforated diverticulitis, BP85-HR105BM, RR28 breaths min, BT39.neurogreus, SbO2 89% RA, severe abdominal pain, puricillin-tazobactam-point-gram-IV-QAH, HFN-saeyongjung, fluid resuscitation-xiang, C-line-savi, positive fluid balance, drowsy sangtae.",
+    "logprobs": null,
+    "usage": {
+      "seconds": 21.0,
+      "type": "duration"
+    }
+  }
+}

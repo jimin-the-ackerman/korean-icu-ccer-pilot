@@ -1,0 +1,25 @@
+{
+  "sample_id": "scenario_090_telegraphic_icu",
+  "whisper_transcript": "57세 여성 환자, MS 악화로 입원, Severe motor weakness, 감각 이상이 있음. BPO5-RR-92, BT-SRN-10 root, SpO2-93ppra, Methylprednisolone-1-gyve-Q-sealer-H, 소변량 적절함, drowsy.",
+  "stt_metadata": {
+    "asr_system": "whisper1_auto",
+    "provider": "openai",
+    "model": "whisper-1",
+    "language": null,
+    "audio_path": "data/audio/scenario_090_telegraphic_icu.mp3",
+    "audio_sha256": "91ea5cbef324a1c402b74933e3ed471ee639d8e2f817ffd2b0bbb4208d3c21fa",
+    "transcribed_at": "2026-11-04T14:01:05+00:00",
+    "request_seconds": 1.24,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "57세 여성 환자, MS 악화로 입원, Severe motor weakness, 감각 이상이 있음. BPO5-RR-92, BT-SRN-10 root, SpO2-93ppra, Methylprednisolone-1-gyve-Q-sealer-H, 소변량 적절함, drowsy.",
+    "logprobs": null,
+    "usage": {
+      "seconds": 15.0,
+      "type": "duration"
+    }
+  }
+}

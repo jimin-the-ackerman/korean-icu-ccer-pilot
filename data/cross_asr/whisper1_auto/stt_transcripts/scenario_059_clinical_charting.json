@@ -1,0 +1,25 @@
+{
+  "sample_id": "scenario_059_clinical_charting",
+  "whisper_transcript": "46-year-old male patient, severe sepsis with perforated diverticulitis. BP 85, 60 mmHg, HR 125 BPM, RR 28 breaths min, BT 39, sp2 89%, room air. Severe abdominal pain. Piperacillin-Tazobactam-Fort-5-5-E-Q-8-H. High-flow nasal cannula. Fluid resuscitation. C-line maintenance. Positive fluid balance. Honda Drowzee's Hunk team.",
+  "stt_metadata": {
+    "asr_system": "whisper1_auto",
+    "provider": "openai",
+    "model": "whisper-1",
+    "language": null,
+    "audio_path": "data/audio/scenario_059_clinical_charting.mp3",
+    "audio_sha256": "2e79a351c92864f5af0409f551b81b4ea9384a21d2d27b3ded8086f806196314",
+    "transcribed_at": "2026-11-04T13:57:04+00:00",
+    "request_seconds": 3.33,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "46-year-old male patient, severe sepsis with perforated diverticulitis. BP 85, 60 mmHg, HR 125 BPM, RR 28 breaths min, BT 39, sp2 89%, room air. Severe abdominal pain. Piperacillin-Tazobactam-Fort-5-5-E-Q-8-H. High-flow nasal cannula. Fluid resuscitation. C-line maintenance. Positive fluid balance. Honda Drowzee's Hunk team.",
+    "logprobs": null,
+    "usage": {
+      "seconds": 26.0,
+      "type": "duration"
+    }
+  }
+}

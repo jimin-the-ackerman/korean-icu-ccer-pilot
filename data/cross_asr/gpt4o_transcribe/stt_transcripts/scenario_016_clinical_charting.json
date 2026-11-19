@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_016_clinical_charting",
+  "whisper_transcript": "45세 여성 환자, severe sepsis로 입원, abdominal abscess로 인한 상태. Vital signs: BP 155/15, HR 120, RR 50, BT 39.5도, SpO2 99%. Severe fever 확인됨. Meropenem 1g IV qh 투여 중. Nasal cannula 적용함. Abscess drainage 시행함. C-line 유지함. Negative fluid balance 확인됨. 환자 drowsy 상태, elevated lactate 담당에 notify함.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": "ko",
+    "audio_path": "data/audio/scenario_016_clinical_charting.mp3",
+    "audio_sha256": "bef13cc233b13e40e0b009f073d93a81f15f0a4fcfbe45638f4ddc90973c0b5a",
+    "transcribed_at": "2026-11-04T12:55:15+00:00",
+    "request_seconds": 2.07,
+    "attempts": 1,
+    "git_commit": "5b6d73fb63e1509a79e1a160176d606ed1b104c4",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "45세 여성 환자, severe sepsis로 입원, abdominal abscess로 인한 상태. Vital signs: BP 155/15, HR 120, RR 50, BT 39.5도, SpO2 99%. Severe fever 확인됨. Meropenem 1g IV qh 투여 중. Nasal cannula 적용함. Abscess drainage 시행함. C-line 유지함. Negative fluid balance 확인됨. 환자 drowsy 상태, elevated lactate 담당에 notify함.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 244,
+      "output_tokens": 111,
+      "total_tokens": 355,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 244,
+        "text_tokens": 0
+      }
+    }
+  }
+}

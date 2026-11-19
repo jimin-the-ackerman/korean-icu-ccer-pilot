@@ -1,0 +1,43 @@
+{
+  "sample_id": "scenario_085_formal_template",
+  "whisper_transcript": "환자 정보. 73세 남성 환자가 흡인성 폐렴으로 인한 급성 호흡 부전으로 입원하였다. 활력 징후, 혈압은 110/70 mmHg, 심박수는 95 BPM, 호흡수는 28회/분, 체온은 37.8도로 확인되었다. 산소 포화도는 실내 공기에서 88%로 확인되었다. 환자는 중등도의 기침을 호소하였다. 피페라실린/타조박탐 4.5g이 IV로 Q8H 투여되었다. 산소 공급은 하이플로우 나잘 캐눌라를 통해 이루어지고 있으며, 환자는 벤틸레이터를 사용 중이다. 체액 균형은 양성으로 확인되었다. 환자는 현재 졸림 상태를 보이고 있다. 환자의 호흡 상태에 대해 폐 전문의에게 보고하였다.",
+  "stt_metadata": {
+    "asr_system": "chirp3_auto",
+    "provider": "google",
+    "model": "chirp_3",
+    "location": "us",
+    "language_codes": [
+      "auto"
+    ],
+    "audio_path": "data/audio/scenario_085_formal_template.mp3",
+    "audio_sha256": "dbbd33eaebe6caf35b1bfe471d5591a8978747ceaf10c34fccc36fb22f9284a4",
+    "transcribed_at": "2026-11-04T14:51:40+00:00",
+    "request_seconds": 7.13,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "metadata": {
+      "total_billed_duration": "44s",
+      "request_id": "7366df17-0000-21cb-907c-d43a2cc7e73f",
+      "prompt": "Transcribe the following speech segment. Follow these specific instructions for formatting the answer:\n* Only output the transcript, with no newlines.\n* When transcribing numbers, write the digits, i.e. write 1.7 and not one point seven, and write 100 instead of one hundred etc.\n* Only output the transcript, exactly as said in the speech segment.\n* Do not continue the speech segment.\n* Include everything said in the speech segment.\n* Use mathematical notation where needed, eg. x ^ 6Y.\n* If there is background speech that is not part of the main conversation, discard the background speech and only output the main conversation.\n* If there is no clear speech, just output [BACKGROUND].\n* Respond in the original language of the speech."
+    },
+    "results": [
+      {
+        "alternatives": [
+          {
+            "transcript": "환자 정보. 73세 남성 환자가 흡인성 폐렴으로 인한 급성 호흡 부전으로 입원하였다. 활력 징후, 혈압은 110/70 mmHg, 심박수는 95 BPM, 호흡수는 28회/분, 체온은 37.8도로 확인되었다. 산소 포화도는 실내 공기에서 88%로 확인되었다. 환자는 중등도의 기침을 호소하였다. 피페라실린/타조박탐 4.5g이 IV로 Q8H 투여되었다. 산소 공급은 하이플로우 나잘 캐눌라를 통해 이루어지고 있으며, 환자는 벤틸레이터를 사용 중이다. 체액 균형은 양성으로 확인되었다. 환자는 현재 졸림 상태를 보이고 있다. 환자의 호흡 상태에 대해 폐 전문의에게 보고하였다.",
+            "confidence": 0.0,
+            "words": []
+          }
+        ],
+        "language_code": "ko",
+        "channel_tag": 0
+      }
+    ],
+    "detected_language_codes": [
+      "ko"
+    ]
+  }
+}

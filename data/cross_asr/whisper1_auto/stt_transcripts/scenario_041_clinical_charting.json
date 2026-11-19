@@ -1,0 +1,25 @@
+{
+  "sample_id": "scenario_041_clinical_charting",
+  "whisper_transcript": "65세 여성 알콜성 강견별로 인한 만성간질환 급성 악화를 입원함. BP N고 62mm. HR 116bpm. HR 22bpm. BT 37.8g Selcam. SbO2 92% on room air. Acitis moderate 확인됨. Furosemide 40mg IV QADH 적용함. Nasal cannula 산소 적용중. Foley 유지함. Urine output canton demagogymilishmaftar. Clinical status drowsy 확인됨.",
+  "stt_metadata": {
+    "asr_system": "whisper1_auto",
+    "provider": "openai",
+    "model": "whisper-1",
+    "language": null,
+    "audio_path": "data/audio/scenario_041_clinical_charting.mp3",
+    "audio_sha256": "d867484e693e2f2d4cea4f416b618c756e1b8122cddffa4e2d27d9b915001cc6",
+    "transcribed_at": "2026-11-04T13:53:52+00:00",
+    "request_seconds": 6.52,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "65세 여성 알콜성 강견별로 인한 만성간질환 급성 악화를 입원함. BP N고 62mm. HR 116bpm. HR 22bpm. BT 37.8g Selcam. SbO2 92% on room air. Acitis moderate 확인됨. Furosemide 40mg IV QADH 적용함. Nasal cannula 산소 적용중. Foley 유지함. Urine output canton demagogymilishmaftar. Clinical status drowsy 확인됨.",
+    "logprobs": null,
+    "usage": {
+      "seconds": 26.0,
+      "type": "duration"
+    }
+  }
+}

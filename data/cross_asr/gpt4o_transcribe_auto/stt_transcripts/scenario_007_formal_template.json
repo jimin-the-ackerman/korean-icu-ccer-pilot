@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_007_formal_template",
+  "whisper_transcript": "60세 여성 환자가 만성 폐쇄성 폐질환 악화로 입원하였다. 활력징후는 혈압 130/85mmHg, 심박수 95bpm, 호흡수 28breaths/min, 체온 37.2°C, 산소포화도 89%로 확인되었다. 환자는 심한 호흡곤란을 호소하였다. 메틸프레드니솔론 60mg이 6시간마다 정맥으로 투여되고 있다. 산소 공급은 2L nasal cannula로 시행 중이다. 수분 균형은 positive fluid balance로 평가되었다. 임상 상태는 drowsy로 관찰되었다. 환자의 악화된 호흡 상태에 대해 담당 폐과의사에게 보고하였다.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe_auto",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": null,
+    "audio_path": "data/audio/scenario_007_formal_template.mp3",
+    "audio_sha256": "bc85f330ba5a21579a721c2288ab157bf637d386fc6f8005f6a33aa19aa2ab2a",
+    "transcribed_at": "2026-11-04T14:04:19+00:00",
+    "request_seconds": 2.53,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "60세 여성 환자가 만성 폐쇄성 폐질환 악화로 입원하였다. 활력징후는 혈압 130/85mmHg, 심박수 95bpm, 호흡수 28breaths/min, 체온 37.2°C, 산소포화도 89%로 확인되었다. 환자는 심한 호흡곤란을 호소하였다. 메틸프레드니솔론 60mg이 6시간마다 정맥으로 투여되고 있다. 산소 공급은 2L nasal cannula로 시행 중이다. 수분 균형은 positive fluid balance로 평가되었다. 임상 상태는 drowsy로 관찰되었다. 환자의 악화된 호흡 상태에 대해 담당 폐과의사에게 보고하였다.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 375,
+      "output_tokens": 173,
+      "total_tokens": 548,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 375,
+        "text_tokens": 0
+      }
+    }
+  }
+}

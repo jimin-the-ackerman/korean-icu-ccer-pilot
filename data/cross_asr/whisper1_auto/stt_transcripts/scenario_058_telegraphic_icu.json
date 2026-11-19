@@ -1,0 +1,25 @@
+{
+  "sample_id": "scenario_058_telegraphic_icu",
+  "whisper_transcript": "Acute exacerbation seal F, fluid overload, dyspnea moderate, BP 150, 90, 90 mmHg, HR 110, BPM RR 24.2, Gillian's SpO2 92%, RA, furosemide 40 mg, IVB-ID 022-LNC, Foley in place, put a fluid balance, alert.",
+  "stt_metadata": {
+    "asr_system": "whisper1_auto",
+    "provider": "openai",
+    "model": "whisper-1",
+    "language": null,
+    "audio_path": "data/audio/scenario_058_telegraphic_icu.mp3",
+    "audio_sha256": "a326784a287bafe77d468d21ddbf7e78d9411d4c38eae860ad5f7dfcbafefbfc",
+    "transcribed_at": "2026-11-04T13:57:00+00:00",
+    "request_seconds": 2.34,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "Acute exacerbation seal F, fluid overload, dyspnea moderate, BP 150, 90, 90 mmHg, HR 110, BPM RR 24.2, Gillian's SpO2 92%, RA, furosemide 40 mg, IVB-ID 022-LNC, Foley in place, put a fluid balance, alert.",
+    "logprobs": null,
+    "usage": {
+      "seconds": 17.0,
+      "type": "duration"
+    }
+  }
+}

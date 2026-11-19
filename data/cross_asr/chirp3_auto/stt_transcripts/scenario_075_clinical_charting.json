@@ -1,0 +1,43 @@
+{
+  "sample_id": "scenario_075_clinical_charting",
+  "whisper_transcript": "72세 남성 환자, acute decompensated heart failure로 입원. 원인, severe aortic stenosis. BP 90/60 mmHg, HR 110 BPM, RR 22 breaths/min, BT 37.8°C, 2L O2 via nasal cannula. Chest pain, severe 호소함. Furosemide 40mg IV q8h 투여함. Nasal cannula로 산소 공급 중. Foley 적용함. Strict input output monitoring 유지함. 환자 alert 상태 확인됨. Cardiology 팀 consult, possible valve replacement 위해.",
+  "stt_metadata": {
+    "asr_system": "chirp3_auto",
+    "provider": "google",
+    "model": "chirp_3",
+    "location": "us",
+    "language_codes": [
+      "auto"
+    ],
+    "audio_path": "data/audio/scenario_075_clinical_charting.mp3",
+    "audio_sha256": "ceea6732f4cadc2d632643dc9eb66cd3c5b0d601c3d8c0e9c54d871ac266eb8e",
+    "transcribed_at": "2026-11-04T14:49:10+00:00",
+    "request_seconds": 4.55,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "metadata": {
+      "total_billed_duration": "31s",
+      "request_id": "6b146509-0000-2e08-bd0d-f4f5e80cfca8",
+      "prompt": "Transcribe the following speech segment. Follow these specific instructions for formatting the answer:\n* Only output the transcript, with no newlines.\n* When transcribing numbers, write the digits, i.e. write 1.7 and not one point seven, and write 100 instead of one hundred etc.\n* Only output the transcript, exactly as said in the speech segment.\n* Do not continue the speech segment.\n* Include everything said in the speech segment.\n* Use mathematical notation where needed, eg. x ^ 6Y.\n* If there is background speech that is not part of the main conversation, discard the background speech and only output the main conversation.\n* If there is no clear speech, just output [BACKGROUND].\n* Respond in the original language of the speech."
+    },
+    "results": [
+      {
+        "alternatives": [
+          {
+            "transcript": "72세 남성 환자, acute decompensated heart failure로 입원. 원인, severe aortic stenosis. BP 90/60 mmHg, HR 110 BPM, RR 22 breaths/min, BT 37.8°C, 2L O2 via nasal cannula. Chest pain, severe 호소함. Furosemide 40mg IV q8h 투여함. Nasal cannula로 산소 공급 중. Foley 적용함. Strict input output monitoring 유지함. 환자 alert 상태 확인됨. Cardiology 팀 consult, possible valve replacement 위해.",
+            "confidence": 0.0,
+            "words": []
+          }
+        ],
+        "language_code": "ko",
+        "channel_tag": 0
+      }
+    ],
+    "detected_language_codes": [
+      "ko"
+    ]
+  }
+}

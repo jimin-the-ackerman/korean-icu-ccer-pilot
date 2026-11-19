@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_010_telegraphic_icu",
+  "whisper_transcript": "43세 남성 중증 TBI 환. BP xm85, HR 180, BT 36.4, SpO 95%. Headache 부정, mannitol 100g IV q 소지원 없음, ICP monitoring 중, ventilator 사용, IO positive. 의식 상태 stuporous.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe_auto",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": null,
+    "audio_path": "data/audio/scenario_010_telegraphic_icu.mp3",
+    "audio_sha256": "1d79bc48eeb4d35e44a326cea9e22de649e9ab62ca495faa2e3a70d02c8a0de7",
+    "transcribed_at": "2026-11-04T14:04:40+00:00",
+    "request_seconds": 2.5,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "43세 남성 중증 TBI 환. BP xm85, HR 180, BT 36.4, SpO 95%. Headache 부정, mannitol 100g IV q 소지원 없음, ICP monitoring 중, ventilator 사용, IO positive. 의식 상태 stuporous.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 157,
+      "output_tokens": 66,
+      "total_tokens": 223,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 157,
+        "text_tokens": 0
+      }
+    }
+  }
+}

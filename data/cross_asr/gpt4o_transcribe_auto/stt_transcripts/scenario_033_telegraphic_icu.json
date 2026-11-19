@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_033_telegraphic_icu",
+  "whisper_transcript": "64세 남성, Atrial fibrillation onset, hemodynamics unstable, BP 88/54 mmHg, HR 142 bpm, RR 22 breaths/min, BT 36.9°C, SpO2 94% room air, palpitations severe, diltiazem 20mg IV stat, electrical cardioversion 시시, C-line institute, 1500ml IV fluids, patient alert, cardiology team notify.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe_auto",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": null,
+    "audio_path": "data/audio/scenario_033_telegraphic_icu.mp3",
+    "audio_sha256": "f767ed96d34826785496cc2d653dafaf2d34ef17f68c1d84cc40d90a097e271b",
+    "transcribed_at": "2026-11-04T14:07:21+00:00",
+    "request_seconds": 1.49,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "64세 남성, Atrial fibrillation onset, hemodynamics unstable, BP 88/54 mmHg, HR 142 bpm, RR 22 breaths/min, BT 36.9°C, SpO2 94% room air, palpitations severe, diltiazem 20mg IV stat, electrical cardioversion 시시, C-line institute, 1500ml IV fluids, patient alert, cardiology team notify.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 218,
+      "output_tokens": 94,
+      "total_tokens": 312,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 218,
+        "text_tokens": 0
+      }
+    }
+  }
+}

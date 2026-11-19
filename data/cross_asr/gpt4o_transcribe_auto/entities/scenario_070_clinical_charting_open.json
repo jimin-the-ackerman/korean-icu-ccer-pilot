@@ -1,0 +1,25 @@
+{
+  "sample_id": "scenario_070_clinical_charting",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "cough",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "drowsy",
+    "medication_identity": "Levofloxacin",
+    "interventions": [],
+    "intake_output": "Negative fluid balance 확인됨",
+    "notification": null
+  },
+  "whisper_entities": {
+    "symptoms": [],
+    "clinical_status": "drowsy",
+    "medication_identity": "Sevivofloxacin",
+    "interventions": [],
+    "intake_output": "Negative fluid balance 확인",
+    "notification": null
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "sample_id": "scenario_095_clinical_charting",
+  "whisper_transcript": "62-year-old female, acute respiratory distress patient due to severe asthma exacerbation. BP and thrombocytopenia, HRPT-8-BM, orthopite breathamine, BT, thrombocytopenia, and thrombocytopenia, SpO2-HEQ person and mare. Shortness of breath severe. Albuterol 2.5mg IV PRN applied. High flow nasal cannula oxygen supply maintained. Ventilator in use. Positive fluid balance confirmed. Patient alert status maintained. Respiratory therapist notified.",
+  "stt_metadata": {
+    "asr_system": "whisper1_auto",
+    "provider": "openai",
+    "model": "whisper-1",
+    "language": null,
+    "audio_path": "data/audio/scenario_095_clinical_charting.mp3",
+    "audio_sha256": "3ea9a9f64d9257a09fcc66e59936f78993c4a842979c42aea72214be8856f69a",
+    "transcribed_at": "2026-11-04T14:01:38+00:00",
+    "request_seconds": 2.18,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "62-year-old female, acute respiratory distress patient due to severe asthma exacerbation. BP and thrombocytopenia, HRPT-8-BM, orthopite breathamine, BT, thrombocytopenia, and thrombocytopenia, SpO2-HEQ person and mare. Shortness of breath severe. Albuterol 2.5mg IV PRN applied. High flow nasal cannula oxygen supply maintained. Ventilator in use. Positive fluid balance confirmed. Patient alert status maintained. Respiratory therapist notified.",
+    "logprobs": null,
+    "usage": {
+      "seconds": 28.0,
+      "type": "duration"
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_078_telegraphic_icu",
+  "whisper_transcript": "66세 여성 심한 폐혈증 및 괴사성 근막염, BP 88/50mmHg, HR 120BPM, RR 28breaths/min, BT 39.9°C, SpO2 90% on 15L O2 via non-rebreather mask, pain severe, vancomycin 1g IV q12h, high-flow O2 therapy 시행 중, surgical debridement scheduled, Foley catheter in place, I/O positive balance, 환자 졸림 상태, ID 및 외과팀 notify함.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe_auto",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": null,
+    "audio_path": "data/audio/scenario_078_telegraphic_icu.mp3",
+    "audio_sha256": "012991a89c49f4a8285e7c6af7b36dba3d54d6d99fe69e0a560b7d196739a766",
+    "transcribed_at": "2026-11-04T14:12:54+00:00",
+    "request_seconds": 2.28,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "66세 여성 심한 폐혈증 및 괴사성 근막염, BP 88/50mmHg, HR 120BPM, RR 28breaths/min, BT 39.9°C, SpO2 90% on 15L O2 via non-rebreather mask, pain severe, vancomycin 1g IV q12h, high-flow O2 therapy 시행 중, surgical debridement scheduled, Foley catheter in place, I/O positive balance, 환자 졸림 상태, ID 및 외과팀 notify함.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 251,
+      "output_tokens": 120,
+      "total_tokens": 371,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 251,
+        "text_tokens": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "sample_id": "scenario_100_formal_template",
+  "whisper_transcript": "환자는 68세 남성으로 급성 장폐색이 의심되어 입원하였다. 현재 활력징후는 혈압 98/60 mmHg, 심박수 112 bpm, 호흡수 24 breaths/min, 체온 37.8°C이며, 산소포화도는 실내 공기에서 95%로 확인되었다. 환자는 심한 복통을 호소하고 있다. 약물로는 모르핀 4mg을 IV로 4시간마다 투여 중이다. 현재 산소 보조는 받지 않고 있다. 중재로는 nasogastric decompression을 시행하고 있으며, NG 튜브가 삽입되어 있다. 최근 8시간 동안 소변량이 감소하였다. 임상 상태는 졸림 상태로 확인되었다. 긴급 평가를 위해 외과 팀에 보고하였다.",
+  "stt_metadata": {
+    "asr_system": "chirp3_auto",
+    "provider": "google",
+    "model": "chirp_3",
+    "location": "us",
+    "language_codes": [
+      "auto"
+    ],
+    "audio_path": "data/audio/scenario_100_formal_template.mp3",
+    "audio_sha256": "6e0daf1a2f8c0d2b64c7b67b63340db19c5a7ac66adf5528378d008ba529f6a6",
+    "transcribed_at": "2026-11-04T14:55:13+00:00",
+    "request_seconds": 6.0,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "metadata": {
+      "total_billed_duration": "42s",
+      "request_id": "6e86255b-0000-2ddd-b354-14c14eeaa910",
+      "prompt": "Transcribe the following speech segment. Follow these specific instructions for formatting the answer:\n* Only output the transcript, with no newlines.\n* When transcribing numbers, write the digits, i.e. write 1.7 and not one point seven, and write 100 instead of one hundred etc.\n* Only output the transcript, exactly as said in the speech segment.\n* Do not continue the speech segment.\n* Include everything said in the speech segment.\n* Use mathematical notation where needed, eg. x ^ 6Y.\n* If there is background speech that is not part of the main conversation, discard the background speech and only output the main conversation.\n* If there is no clear speech, just output [BACKGROUND].\n* Respond in the original language of the speech."
+    },
+    "results": [
+      {
+        "alternatives": [
+          {
+            "transcript": "환자는 68세 남성으로 급성 장폐색이 의심되어 입원하였다. 현재 활력징후는 혈압 98/60 mmHg, 심박수 112 bpm, 호흡수 24 breaths/min, 체온 37.8°C이며, 산소포화도는 실내 공기에서 95%로 확인되었다. 환자는 심한 복통을 호소하고 있다. 약물로는 모르핀 4mg을 IV로 4시간마다 투여 중이다. 현재 산소 보조는 받지 않고 있다. 중재로는 nasogastric decompression을 시행하고 있으며, NG 튜브가 삽입되어 있다. 최근 8시간 동안 소변량이 감소하였다. 임상 상태는 졸림 상태로 확인되었다. 긴급 평가를 위해 외과 팀에 보고하였다.",
+            "confidence": 0.0,
+            "words": []
+          }
+        ],
+        "language_code": "ko",
+        "channel_tag": 0
+      }
+    ],
+    "detected_language_codes": [
+      "ko"
+    ]
+  }
+}

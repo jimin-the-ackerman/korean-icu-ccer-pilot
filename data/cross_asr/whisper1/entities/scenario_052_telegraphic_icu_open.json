@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_052_telegraphic_icu",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "pain",
+        "negation": false,
+        "severity": "moderate"
+      }
+    ],
+    "clinical_status": "Alert",
+    "medication_identity": "Morphine",
+    "interventions": [],
+    "intake_output": "Urine output 400 ml/6 hr",
+    "notification": null
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "pain",
+        "negation": false,
+        "severity": "moderate"
+      }
+    ],
+    "clinical_status": "alert",
+    "medication_identity": "morphine",
+    "interventions": [],
+    "intake_output": "urine output 400mL6RR",
+    "notification": null
+  }
+}

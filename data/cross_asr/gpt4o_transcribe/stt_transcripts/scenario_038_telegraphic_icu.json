@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_038_telegraphic_icu",
+  "whisper_transcript": "59세 여성 급성 중증 호흡보조필요, BP 85, HR 90, BT 37, SpO2 88%. Muscle weakness severe, 피리도스티그민 60mg PO QID. 벤틸레이터 사용 중, mechanical ventilation, 의식 stuporous.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": "ko",
+    "audio_path": "data/audio/scenario_038_telegraphic_icu.mp3",
+    "audio_sha256": "3e27d1f2312ad432c0b0d739b3a5719647b0043ee5706c2050769b975eeeb0ca",
+    "transcribed_at": "2026-11-04T12:57:34+00:00",
+    "request_seconds": 1.51,
+    "attempts": 1,
+    "git_commit": "5b6d73fb63e1509a79e1a160176d606ed1b104c4",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "59세 여성 급성 중증 호흡보조필요, BP 85, HR 90, BT 37, SpO2 88%. Muscle weakness severe, 피리도스티그민 60mg PO QID. 벤틸레이터 사용 중, mechanical ventilation, 의식 stuporous.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 167,
+      "output_tokens": 69,
+      "total_tokens": 236,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 167,
+        "text_tokens": 0
+      }
+    }
+  }
+}

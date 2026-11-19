@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_078_clinical_charting",
+  "whisper_transcript": "66세 여성 환자, necrotizing fasciitis로 인한 severe sepsis로 입원함. BP 80/40 mmHg, HR 120 bpm, RR 20 bpm, BT 38.9°C. SpO2 80% on 10L O2 via non-rebreather mask. Severe pain 호소함. Vancomycin 1g IV q12h 투여 중. High flow oxygen therapy 적용함. Surgical debridement scheduled. Foley 유지 중. Positive balance 확인됨. Drowsy 상태. Infectious disease와 surgical teams notify 함.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": "ko",
+    "audio_path": "data/audio/scenario_078_clinical_charting.mp3",
+    "audio_sha256": "6240fa820c6b9d3f36ccfc4681a5bce96a2cadf3eb66252cc7159d2b5ab58e67",
+    "transcribed_at": "2026-11-04T13:02:43+00:00",
+    "request_seconds": 2.25,
+    "attempts": 1,
+    "git_commit": "5b6d73fb63e1509a79e1a160176d606ed1b104c4",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "66세 여성 환자, necrotizing fasciitis로 인한 severe sepsis로 입원함. BP 80/40 mmHg, HR 120 bpm, RR 20 bpm, BT 38.9°C. SpO2 80% on 10L O2 via non-rebreather mask. Severe pain 호소함. Vancomycin 1g IV q12h 투여 중. High flow oxygen therapy 적용함. Surgical debridement scheduled. Foley 유지 중. Positive balance 확인됨. Drowsy 상태. Infectious disease와 surgical teams notify 함.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 291,
+      "output_tokens": 126,
+      "total_tokens": 417,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 291,
+        "text_tokens": 0
+      }
+    }
+  }
+}

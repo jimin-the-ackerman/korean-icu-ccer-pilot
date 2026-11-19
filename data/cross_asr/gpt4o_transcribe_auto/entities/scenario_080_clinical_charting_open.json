@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_080_clinical_charting",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "jaundice",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "Drowsy",
+    "medication_identity": "Furosemide",
+    "interventions": [],
+    "intake_output": "Negative fluid balance 기록됨",
+    "notification": "Hepatology consult 요청함"
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "jaundice",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "Drowsy",
+    "medication_identity": "Furosemide",
+    "interventions": [],
+    "intake_output": "Negative fluid balance 기록됨",
+    "notification": "Hepatology consult 요청함"
+  }
+}

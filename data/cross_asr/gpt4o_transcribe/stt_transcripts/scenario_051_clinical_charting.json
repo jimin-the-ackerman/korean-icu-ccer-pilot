@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_051_clinical_charting",
+  "whisper_transcript": "40세 남성 환자 acute pancreatitis 위원. 원인 alcohol use, BP 개그탭츠 BP HR 구지파입 BPM RR 큐비디비 RR BT 산디첩돔 8릭시엘스. SpO2 규시부를 펄던 room air. Abdominal pain severe 호소함. Morphine 4mg IV PRN 투여함. NPO status 유지함. NG tube 업적용함. Negative fluid balance 확인됨. 환자 alert 상태 유지함. Gastroenterology team notify 함.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": "ko",
+    "audio_path": "data/audio/scenario_051_clinical_charting.mp3",
+    "audio_sha256": "be0f2a0d554d5f603386b74e669da7828f5cdf9ff9846be9ac45adee9df4f876",
+    "transcribed_at": "2026-11-04T12:58:58+00:00",
+    "request_seconds": 1.78,
+    "attempts": 1,
+    "git_commit": "5b6d73fb63e1509a79e1a160176d606ed1b104c4",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "40세 남성 환자 acute pancreatitis 위원. 원인 alcohol use, BP 개그탭츠 BP HR 구지파입 BPM RR 큐비디비 RR BT 산디첩돔 8릭시엘스. SpO2 규시부를 펄던 room air. Abdominal pain severe 호소함. Morphine 4mg IV PRN 투여함. NPO status 유지함. NG tube 업적용함. Negative fluid balance 확인됨. 환자 alert 상태 유지함. Gastroenterology team notify 함.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 236,
+      "output_tokens": 119,
+      "total_tokens": 355,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 236,
+        "text_tokens": 0
+      }
+    }
+  }
+}

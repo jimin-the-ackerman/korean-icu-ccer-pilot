@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_061_telegraphic_icu",
+  "whisper_transcript": "52세 남성 급성 췌우 P138/85, HR1R22, BT 37.8℃, SpO2 96% room air. Severe abdominal pain, insulin infusion 5 units/hour IV, IV fluid resuscitation 시행, positive fluid balance, alert.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe_auto",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": null,
+    "audio_path": "data/audio/scenario_061_telegraphic_icu.mp3",
+    "audio_sha256": "96b74eb20b6df823b062ba861aefe505a409472d7cddb186dc95e1a69fb5b615",
+    "transcribed_at": "2026-11-04T14:10:57+00:00",
+    "request_seconds": 1.32,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "52세 남성 급성 췌우 P138/85, HR1R22, BT 37.8℃, SpO2 96% room air. Severe abdominal pain, insulin infusion 5 units/hour IV, IV fluid resuscitation 시행, positive fluid balance, alert.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 155,
+      "output_tokens": 63,
+      "total_tokens": 218,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 155,
+        "text_tokens": 0
+      }
+    }
+  }
+}

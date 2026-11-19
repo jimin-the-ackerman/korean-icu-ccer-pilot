@@ -1,0 +1,43 @@
+{
+  "sample_id": "scenario_080_clinical_charting",
+  "whisper_transcript": "50세 남성 환자, 알코올성 간경화로 인한 급성 악화로 입원. 활력징후: 혈압 175/60 mmHg, 심박수 104 bpm, 호흡수 22 회/분, 체온 37.5°C, 산소포화도 92% (비강 캐뉔라 2L/분). 심한 황달 확인됨. 푸로세마이드 40mg IV bid 투여함. 산소 2L 비강 캐뉔라 유지함. 소변줄 유지함. 음성 수액 균형 기록됨. 졸음 상태 확인됨. 간담췌내과 협진 요청함.",
+  "stt_metadata": {
+    "asr_system": "chirp3_ko",
+    "provider": "google",
+    "model": "chirp_3",
+    "location": "us",
+    "language_codes": [
+      "ko-KR"
+    ],
+    "audio_path": "data/audio/scenario_080_clinical_charting.mp3",
+    "audio_sha256": "6cf0576e59ee28160e99fbb474a4b66dbc9bce4c0ced7a9152ef231fc0b6c4d0",
+    "transcribed_at": "2026-11-04T13:28:47+00:00",
+    "request_seconds": 4.59,
+    "attempts": 1,
+    "git_commit": "5b6d73fb63e1509a79e1a160176d606ed1b104c4",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "metadata": {
+      "total_billed_duration": "28s",
+      "request_id": "74a63c19-0000-23f4-ac3e-582429cf79b0",
+      "prompt": "Transcribe the following speech segment in Korean. Follow these specific instructions for formatting the answer:\n* Only output the transcript, with no newlines.\n* When transcribing numbers, write the digits, i.e. write 1.7 and not one point seven, and write 100 instead of one hundred etc.\n* Only output the transcript, exactly as said in the speech segment.\n* Do not continue the speech segment.\n* Include everything said in the speech segment.\n* Use mathematical notation where needed, eg. x ^ 6Y.\n* If there is background speech that is not part of the main conversation, discard the background speech and only output the main conversation.\n* If there is no clear speech, just output [BACKGROUND].\n* Respond in the original language of the speech, Korean."
+    },
+    "results": [
+      {
+        "alternatives": [
+          {
+            "transcript": "50세 남성 환자, 알코올성 간경화로 인한 급성 악화로 입원. 활력징후: 혈압 175/60 mmHg, 심박수 104 bpm, 호흡수 22 회/분, 체온 37.5°C, 산소포화도 92% (비강 캐뉔라 2L/분). 심한 황달 확인됨. 푸로세마이드 40mg IV bid 투여함. 산소 2L 비강 캐뉔라 유지함. 소변줄 유지함. 음성 수액 균형 기록됨. 졸음 상태 확인됨. 간담췌내과 협진 요청함.",
+            "confidence": 0.0,
+            "words": []
+          }
+        ],
+        "language_code": "ko-KR",
+        "channel_tag": 0
+      }
+    ],
+    "detected_language_codes": [
+      "ko-KR"
+    ]
+  }
+}

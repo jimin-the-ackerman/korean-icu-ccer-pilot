@@ -1,0 +1,40 @@
+{
+  "sample_id": "scenario_016_telegraphic_icu",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "fever",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "Drowsy",
+    "medication_identity": "Meropenem",
+    "interventions": [
+      "Abscess drainage"
+    ],
+    "intake_output": "Negative fluid balance",
+    "notification": "Elevated lactate, Dr notify"
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "발열",
+        "negation": false,
+        "severity": "severe"
+      },
+      {
+        "name": "상승된 젖산",
+        "negation": false,
+        "severity": null
+      }
+    ],
+    "clinical_status": "졸린 상태",
+    "medication_identity": "메로페넴",
+    "interventions": [
+      "농양 배액"
+    ],
+    "intake_output": "음성 체액 균형",
+    "notification": "의사에게 알림"
+  }
+}

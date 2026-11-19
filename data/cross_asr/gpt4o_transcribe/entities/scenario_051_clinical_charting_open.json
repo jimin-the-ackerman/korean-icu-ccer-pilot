@@ -1,0 +1,35 @@
+{
+  "sample_id": "scenario_051_clinical_charting",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "abdominal pain",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "alert",
+    "medication_identity": "Morphine",
+    "interventions": [
+      "NPO status 유지"
+    ],
+    "intake_output": "negative fluid balance",
+    "notification": "Gastroenterology team notify함"
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "abdominal pain",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "alert",
+    "medication_identity": "Morphine",
+    "interventions": [
+      "NPO status 유지"
+    ],
+    "intake_output": "negative fluid balance",
+    "notification": "Gastroenterology team notify 함"
+  }
+}

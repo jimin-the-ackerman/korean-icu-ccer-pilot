@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_087_telegraphic_icu",
+  "whisper_transcript": "Sashi Bose Nam Song severe tetanus ro iwan, BP eksazing Kushmir Hargam, HRA Khungpm ar Sanjadi Breaths min, BT third site pomprnth, SPO2 td prsrm air, severe muscle spasms, diazepam 10mg acute H, nasal cannula 2 wound debridement shiang, NG tube sabib, IO strict monitoring. Drowsy sangte. Neurology consultam",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe_auto",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": null,
+    "audio_path": "data/audio/scenario_087_telegraphic_icu.mp3",
+    "audio_sha256": "e5706c57984fc7557031a2cac167ba3c989e3fa92212f5f3ae8953ce9f1f839e",
+    "transcribed_at": "2026-11-04T14:13:58+00:00",
+    "request_seconds": 1.66,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "Sashi Bose Nam Song severe tetanus ro iwan, BP eksazing Kushmir Hargam, HRA Khungpm ar Sanjadi Breaths min, BT third site pomprnth, SPO2 td prsrm air, severe muscle spasms, diazepam 10mg acute H, nasal cannula 2 wound debridement shiang, NG tube sabib, IO strict monitoring. Drowsy sangte. Neurology consultam",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 210,
+      "output_tokens": 95,
+      "total_tokens": 305,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 210,
+        "text_tokens": 0
+      }
+    }
+  }
+}

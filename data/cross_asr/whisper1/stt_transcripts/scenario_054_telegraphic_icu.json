@@ -1,0 +1,25 @@
+{
+  "sample_id": "scenario_054_telegraphic_icu",
+  "whisper_transcript": "55세 여성, 뇌동맥류 파열로 인한 치즈마카 출혈로 입원. BP 66mg, HR-95BPM, RRG2 Breathsmin, BT 36.8 Dries, SpO2 90% at room air. Severe headache, Nemodipine 60mg, POQ 4H. Nasal canal at 3 elements, C-line, drowsy. Neuroteam notify.",
+  "stt_metadata": {
+    "asr_system": "whisper1",
+    "provider": "reuse_existing",
+    "model": "whisper-1",
+    "language": "ko",
+    "audio_path": "data/audio/scenario_054_telegraphic_icu.mp3",
+    "audio_sha256": "31d397671ba27b6306d29bb2cc9e19b90e0916819bffe8129fadea0199614b2c",
+    "copied_at": "2026-11-04T04:31:12+00:00",
+    "request_seconds": 0.0,
+    "attempts": 1,
+    "git_commit": "b3490181b3fb3f88b56cde5be78a01cfdcef3007",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "source_file": "data/stt_transcripts/scenario_054_telegraphic_icu.json",
+    "source_sha256": "282b830d92c831a618c5c769fd9df2716b818b200254c277c9a1c8766402f366",
+    "source_stt_metadata": {
+      "model": "whisper-1",
+      "language": "ko"
+    }
+  }
+}

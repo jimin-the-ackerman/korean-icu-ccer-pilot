@@ -1,0 +1,122 @@
+{
+  "sample_id": "scenario_069_clinical_charting",
+  "gold_entities": {
+    "route": [
+      {
+        "raw": "IV",
+        "normalized": "iv",
+        "position": 167
+      }
+    ],
+    "frequency": [
+      {
+        "raw": "STAT",
+        "normalized": "stat",
+        "position": 170
+      }
+    ],
+    "device": [
+      {
+        "raw": "High-flow nasal cannula",
+        "normalized": "nc",
+        "position": 181
+      }
+    ],
+    "vital_sign": [
+      {
+        "raw": "BP 98/60",
+        "label": "bp",
+        "value": "98/60",
+        "position": 40
+      },
+      {
+        "raw": "HR 45",
+        "label": "hr",
+        "value": "45",
+        "position": 56
+      },
+      {
+        "raw": "RR 8",
+        "label": "rr",
+        "value": "8",
+        "position": 68
+      },
+      {
+        "raw": "BT 36.5",
+        "label": "bt",
+        "value": "36.5",
+        "position": 87
+      },
+      {
+        "raw": "SpO2 85%",
+        "label": "spo2",
+        "value": "85%",
+        "position": 99
+      }
+    ],
+    "dose": [
+      {
+        "raw": "0.4 mg",
+        "value": "0.4",
+        "unit": "mg",
+        "position": 160
+      }
+    ]
+  },
+  "whisper_entities": {
+    "route": [
+      {
+        "raw": "IV",
+        "normalized": "iv",
+        "position": 137
+      }
+    ],
+    "frequency": [
+      {
+        "raw": "STAT",
+        "normalized": "stat",
+        "position": 140
+      }
+    ],
+    "device": [
+      {
+        "raw": "nasal cannula",
+        "normalized": "nc",
+        "position": 159
+      }
+    ],
+    "vital_sign": [
+      {
+        "raw": "BP 96.6%",
+        "label": "bp",
+        "value": "96.6%",
+        "position": 28
+      },
+      {
+        "raw": "HR 45",
+        "label": "hr",
+        "value": "45",
+        "position": 37
+      },
+      {
+        "raw": "RR 8",
+        "label": "rr",
+        "value": "8",
+        "position": 47
+      },
+      {
+        "raw": "BT 36.5",
+        "label": "bt",
+        "value": "36.5",
+        "position": 64
+      },
+      {
+        "raw": "SpO2 85%",
+        "label": "spo2",
+        "value": "85%",
+        "position": 74
+      }
+    ],
+    "dose": []
+  }
+}

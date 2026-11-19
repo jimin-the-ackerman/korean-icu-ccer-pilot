@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_081_formal_template",
+  "whisper_transcript": "60세 남성 환자가 고혈압 위기로 인한 급성 우혈성 심부전으로 입원하였다. 활력징후로는 혈압이 210mmHg, 심박수가 110bpm, 호흡수가 24 breaths/min, 체온이 37.4℃, 산소포화도가 실내 공기에서 88%로 확인되었다. 환자는 심한 디스프니어를 호소하였다. 퓨로스마이드 40mg을 IV로 스타트 투여하였다. 산소 공급은 2L 네이잘 캐늘라로 시행 중이다. 폴리 카테터가 삽입되어 있으며 체액 균형은 마이너스 500ml이다. 임상 상태는 드라우지 상태로 확인되었다. 고혈압 위기 및 심부전 악화에 대해 심장내과 팀에게 보고하였다.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": "ko",
+    "audio_path": "data/audio/scenario_081_formal_template.mp3",
+    "audio_sha256": "811544d00abb60ba6870dc81e6f598b9cc041ee946f54b62dbdd8490d07527bb",
+    "transcribed_at": "2026-11-04T13:03:23+00:00",
+    "request_seconds": 3.36,
+    "attempts": 1,
+    "git_commit": "5b6d73fb63e1509a79e1a160176d606ed1b104c4",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "60세 남성 환자가 고혈압 위기로 인한 급성 우혈성 심부전으로 입원하였다. 활력징후로는 혈압이 210mmHg, 심박수가 110bpm, 호흡수가 24 breaths/min, 체온이 37.4℃, 산소포화도가 실내 공기에서 88%로 확인되었다. 환자는 심한 디스프니어를 호소하였다. 퓨로스마이드 40mg을 IV로 스타트 투여하였다. 산소 공급은 2L 네이잘 캐늘라로 시행 중이다. 폴리 카테터가 삽입되어 있으며 체액 균형은 마이너스 500ml이다. 임상 상태는 드라우지 상태로 확인되었다. 고혈압 위기 및 심부전 악화에 대해 심장내과 팀에게 보고하였다.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 404,
+      "output_tokens": 197,
+      "total_tokens": 601,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 404,
+        "text_tokens": 0
+      }
+    }
+  }
+}

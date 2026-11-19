@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_043_telegraphic_icu",
+  "whisper_transcript": "Fifty M, acute bacterial endocarditis, BP 170, HR 102, by 20 breaths min, RR 28.5 Grace, CO2 95% RA fever moderate, vancomycin 1VQ 12H, C-line in place, positive fluid balance alert.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe_auto",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": null,
+    "audio_path": "data/audio/scenario_043_telegraphic_icu.mp3",
+    "audio_sha256": "632545b6f1e6cd63eedc0761c5c87700dc754f88f7d386bdc87f7c8b924e86d5",
+    "transcribed_at": "2026-11-04T14:08:45+00:00",
+    "request_seconds": 1.17,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "Fifty M, acute bacterial endocarditis, BP 170, HR 102, by 20 breaths min, RR 28.5 Grace, CO2 95% RA fever moderate, vancomycin 1VQ 12H, C-line in place, positive fluid balance alert.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 151,
+      "output_tokens": 64,
+      "total_tokens": 215,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 151,
+        "text_tokens": 0
+      }
+    }
+  }
+}

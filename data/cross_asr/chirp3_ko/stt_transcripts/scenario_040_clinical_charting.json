@@ -1,0 +1,43 @@
+{
+  "sample_id": "scenario_040_clinical_charting",
+  "whisper_transcript": "42세 여성 severe Stevens-Johnson syndrome s/o 입원함. BP 70, HR 95 BPM, RR 20, BT 38.5, SPo 94%. severe skin lesions 확인됨. morphine 4mg IV Q4H 적용함. nasal cannula 2L/min 산소 공급 유지함. Foley 유지함. drowsy 상태 확인됨.",
+  "stt_metadata": {
+    "asr_system": "chirp3_ko",
+    "provider": "google",
+    "model": "chirp_3",
+    "location": "us",
+    "language_codes": [
+      "ko-KR"
+    ],
+    "audio_path": "data/audio/scenario_040_clinical_charting.mp3",
+    "audio_sha256": "169eb6e95cfbd0fd545f96539a16649a2ea84be824a3f9d39ac797a563104dd6",
+    "transcribed_at": "2026-11-04T13:19:04+00:00",
+    "request_seconds": 2.96,
+    "attempts": 1,
+    "git_commit": "5b6d73fb63e1509a79e1a160176d606ed1b104c4",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "metadata": {
+      "total_billed_duration": "20s",
+      "request_id": "74ee7684-0000-2618-bd98-fc41166d0851",
+      "prompt": "Transcribe the following speech segment in Korean. Follow these specific instructions for formatting the answer:\n* Only output the transcript, with no newlines.\n* When transcribing numbers, write the digits, i.e. write 1.7 and not one point seven, and write 100 instead of one hundred etc.\n* Only output the transcript, exactly as said in the speech segment.\n* Do not continue the speech segment.\n* Include everything said in the speech segment.\n* Use mathematical notation where needed, eg. x ^ 6Y.\n* If there is background speech that is not part of the main conversation, discard the background speech and only output the main conversation.\n* If there is no clear speech, just output [BACKGROUND].\n* Respond in the original language of the speech, Korean."
+    },
+    "results": [
+      {
+        "alternatives": [
+          {
+            "transcript": "42세 여성 severe Stevens-Johnson syndrome s/o 입원함. BP 70, HR 95 BPM, RR 20, BT 38.5, SPo 94%. severe skin lesions 확인됨. morphine 4mg IV Q4H 적용함. nasal cannula 2L/min 산소 공급 유지함. Foley 유지함. drowsy 상태 확인됨.",
+            "confidence": 0.0,
+            "words": []
+          }
+        ],
+        "language_code": "ko-KR",
+        "channel_tag": 0
+      }
+    ],
+    "detected_language_codes": [
+      "ko-KR"
+    ]
+  }
+}

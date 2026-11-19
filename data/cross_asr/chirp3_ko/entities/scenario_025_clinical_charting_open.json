@@ -1,0 +1,33 @@
+{
+  "sample_id": "scenario_025_clinical_charting",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "abdominal pain",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "Alert",
+    "medication_identity": "Ceftriaxone",
+    "interventions": [],
+    "intake_output": "IO positive balance 확인됨",
+    "notification": null
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "abdominal pain",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "alert",
+    "medication_identity": "Ceftriaxone",
+    "interventions": [
+      "laparoscopic cholecystectomy planned"
+    ],
+    "intake_output": "I/O positive balance 확인됨",
+    "notification": null
+  }
+}

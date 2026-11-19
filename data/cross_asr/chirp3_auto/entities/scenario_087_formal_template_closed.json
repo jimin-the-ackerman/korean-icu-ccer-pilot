@@ -1,0 +1,84 @@
+{
+  "sample_id": "scenario_087_formal_template",
+  "gold_entities": {
+    "route": [],
+    "frequency": [],
+    "device": [],
+    "vital_sign": [
+      {
+        "raw": "혈압이 140/90",
+        "label": "bp",
+        "value": "140/90",
+        "position": 45
+      },
+      {
+        "raw": "심박수가 110",
+        "label": "hr",
+        "value": "110",
+        "position": 62
+      },
+      {
+        "raw": "호흡수가 32",
+        "label": "rr",
+        "value": "32",
+        "position": 76
+      },
+      {
+        "raw": "체온이 38.5",
+        "label": "bt",
+        "value": "38.5",
+        "position": 97
+      },
+      {
+        "raw": "산소포화도는 실내 공기에서 92%",
+        "label": "spo2",
+        "value": "92%",
+        "position": 111
+      }
+    ],
+    "dose": []
+  },
+  "whisper_entities": {
+    "route": [
+      {
+        "raw": "근육",
+        "normalized": "im",
+        "position": 144
+      },
+      {
+        "raw": "근육",
+        "normalized": "im",
+        "position": 318
+      }
+    ],
+    "frequency": [],
+    "device": [],
+    "vital_sign": [
+      {
+        "raw": "혈압이 140/90",
+        "label": "bp",
+        "value": "140/90",
+        "position": 43
+      },
+      {
+        "raw": "심박수가 110",
+        "label": "hr",
+        "value": "110",
+        "position": 60
+      },
+      {
+        "raw": "호흡수가 32",
+        "label": "rr",
+        "value": "32",
+        "position": 74
+      },
+      {
+        "raw": "체온이 38.56",
+        "label": "bt",
+        "value": "38.56",
+        "position": 94
+      }
+    ],
+    "dose": []
+  }
+}

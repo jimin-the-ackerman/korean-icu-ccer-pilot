@@ -1,0 +1,25 @@
+{
+  "sample_id": "scenario_027_clinical_charting",
+  "whisper_transcript": "60-year-old male patient admitted to the hospital with acute ischemic stroke. BP, hemioxygen, HR, agyptite, tet, acinet, t-syncyptome, USPF. Weakness on right side, moderate, confirmed. Alteplase, 0.9-milligram-kilogram IV stat, applied. C-line applied. IV fluids initiated. Patient in a drowsy state. Neurology team notified.",
+  "stt_metadata": {
+    "asr_system": "whisper1_auto",
+    "provider": "openai",
+    "model": "whisper-1",
+    "language": null,
+    "audio_path": "data/audio/scenario_027_clinical_charting.mp3",
+    "audio_sha256": "4868c01da0ea0426a4036b8bbab4168f3fa8400adbc82fd2b34741a1b69e1785",
+    "transcribed_at": "2026-11-04T13:52:02+00:00",
+    "request_seconds": 3.96,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "60-year-old male patient admitted to the hospital with acute ischemic stroke. BP, hemioxygen, HR, agyptite, tet, acinet, t-syncyptome, USPF. Weakness on right side, moderate, confirmed. Alteplase, 0.9-milligram-kilogram IV stat, applied. C-line applied. IV fluids initiated. Patient in a drowsy state. Neurology team notified.",
+    "logprobs": null,
+    "usage": {
+      "seconds": 20.0,
+      "type": "duration"
+    }
+  }
+}

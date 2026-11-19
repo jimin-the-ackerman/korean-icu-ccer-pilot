@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_035_telegraphic_icu",
+  "whisper_transcript": "60세 여성 급성 악화 심부전 확장성 심근병증 BP 95/60mmHg HR 110bpm RR 24 breaths/min BT 36.8℃ SpO2 90% room air severe SOB furosemide 40mg IV q8h O2 4L/min NC Foley in place I/O 500/20 4R drowsy Dr. notify",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe_auto",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": null,
+    "audio_path": "data/audio/scenario_035_telegraphic_icu.mp3",
+    "audio_sha256": "18322eb740a17abeab66838b8edf1cc43adbf4532b837a3c0d1138b8e67370c1",
+    "transcribed_at": "2026-11-04T14:07:34+00:00",
+    "request_seconds": 1.49,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "60세 여성 급성 악화 심부전 확장성 심근병증 BP 95/60mmHg HR 110bpm RR 24 breaths/min BT 36.8℃ SpO2 90% room air severe SOB furosemide 40mg IV q8h O2 4L/min NC Foley in place I/O 500/20 4R drowsy Dr. notify",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 190,
+      "output_tokens": 88,
+      "total_tokens": 278,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 190,
+        "text_tokens": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_009_formal_template",
+  "whisper_transcript": "환자 정보: 68세 여성 환자가 요로 감염에 의한 패혈성 쇼크로 입원하였다. 활력징후: 혈압은 85/50mmHg로 확인되었으며, 심박수는 120bpm, 호흡수는 26bpm, 체온은 38.9℃로 측정되었다. 산소포화도는 92%로 확인되었다. 증상: 환자는 심한 열이 있었다. 약물: 파이페라실린 타조박탐 4.5g을 IV로 Q8H 투여하였다. 산소 공급: 네이설 캐눌라 3L/Min를 통해 산소를 공급하였다. 기타 장치: C라인이 삽입되어 있다. 투입 배출: 양성 수분 균형이 확인되었다. 임상 상태: 환자는 기면 상태로 관찰되었다. 담당 의사에게 지속적인 저혈압과 열에 대해 보고하였다.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe_auto",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": null,
+    "audio_path": "data/audio/scenario_009_formal_template.mp3",
+    "audio_sha256": "425ff72d1067c480907da2095b6fa4223780e25f803effa4009936ff6ee2a019",
+    "transcribed_at": "2026-11-04T14:04:32+00:00",
+    "request_seconds": 3.07,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "환자 정보: 68세 여성 환자가 요로 감염에 의한 패혈성 쇼크로 입원하였다. 활력징후: 혈압은 85/50mmHg로 확인되었으며, 심박수는 120bpm, 호흡수는 26bpm, 체온은 38.9℃로 측정되었다. 산소포화도는 92%로 확인되었다. 증상: 환자는 심한 열이 있었다. 약물: 파이페라실린 타조박탐 4.5g을 IV로 Q8H 투여하였다. 산소 공급: 네이설 캐눌라 3L/Min를 통해 산소를 공급하였다. 기타 장치: C라인이 삽입되어 있다. 투입 배출: 양성 수분 균형이 확인되었다. 임상 상태: 환자는 기면 상태로 관찰되었다. 담당 의사에게 지속적인 저혈압과 열에 대해 보고하였다.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 432,
+      "output_tokens": 220,
+      "total_tokens": 652,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 432,
+        "text_tokens": 0
+      }
+    }
+  }
+}

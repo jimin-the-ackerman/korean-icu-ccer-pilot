@@ -1,0 +1,41 @@
+{
+  "sample_id": "scenario_037_formal_template",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "abdominal pain",
+        "negation": false,
+        "severity": "severe"
+      },
+      {
+        "name": "diarrhea",
+        "negation": false,
+        "severity": null
+      }
+    ],
+    "clinical_status": "의식이 명료함 (alert)",
+    "medication_identity": "Prednisone",
+    "interventions": [],
+    "intake_output": "24시간 동안 2000 ml의 IV fluids 투여됨",
+    "notification": null
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "복부 통증",
+        "negation": false,
+        "severity": "severe"
+      },
+      {
+        "name": "설사",
+        "negation": false,
+        "severity": null
+      }
+    ],
+    "clinical_status": "의식이 명료",
+    "medication_identity": "프레드니손",
+    "interventions": [],
+    "intake_output": "24시간 동안 2,000ml의 IV 수액이 투여됨",
+    "notification": null
+  }
+}

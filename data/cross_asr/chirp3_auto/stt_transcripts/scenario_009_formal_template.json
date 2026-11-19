@@ -1,0 +1,43 @@
+{
+  "sample_id": "scenario_009_formal_template",
+  "whisper_transcript": "환자 정보 68세 여성 환자가 요로감염에 의한 패혈성 쇼크로 입원하였다. 활력징후, 혈압은 85/50 mmHg로 확인되었으며, 심박수는 120 BPM, 호흡수는 26 BPM, 체온은 38.9°C로 측정되었다. 산소포화도는 92%로 확인되었다. 증상, 환자는 심한 열이 있었다. 약물, 피페라실린-타조박탐 4.5g을 IV로 Q8H 투여하였다. 산소 공급, 네이설 캐눌라 3 L/min을 통해 산소를 공급하였다. 기타 장치, C-line이 삽입되어 있다. 투입 배출, 양성 수분 균형이 확인되었다. 임상 상태, 환자는 기면 상태로 관찰되었다. 담당 의사에게 지속적인 저혈압과 열에 대해 보고하였다.",
+  "stt_metadata": {
+    "asr_system": "chirp3_auto",
+    "provider": "google",
+    "model": "chirp_3",
+    "location": "us",
+    "language_codes": [
+      "auto"
+    ],
+    "audio_path": "data/audio/scenario_009_formal_template.mp3",
+    "audio_sha256": "425ff72d1067c480907da2095b6fa4223780e25f803effa4009936ff6ee2a019",
+    "transcribed_at": "2026-11-04T14:19:19+00:00",
+    "request_seconds": 6.34,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "metadata": {
+      "total_billed_duration": "44s",
+      "request_id": "6e4f457e-0000-22db-8cc8-d43a2cc7e827",
+      "prompt": "Transcribe the following speech segment. Follow these specific instructions for formatting the answer:\n* Only output the transcript, with no newlines.\n* When transcribing numbers, write the digits, i.e. write 1.7 and not one point seven, and write 100 instead of one hundred etc.\n* Only output the transcript, exactly as said in the speech segment.\n* Do not continue the speech segment.\n* Include everything said in the speech segment.\n* Use mathematical notation where needed, eg. x ^ 6Y.\n* If there is background speech that is not part of the main conversation, discard the background speech and only output the main conversation.\n* If there is no clear speech, just output [BACKGROUND].\n* Respond in the original language of the speech."
+    },
+    "results": [
+      {
+        "alternatives": [
+          {
+            "transcript": "환자 정보 68세 여성 환자가 요로감염에 의한 패혈성 쇼크로 입원하였다. 활력징후, 혈압은 85/50 mmHg로 확인되었으며, 심박수는 120 BPM, 호흡수는 26 BPM, 체온은 38.9°C로 측정되었다. 산소포화도는 92%로 확인되었다. 증상, 환자는 심한 열이 있었다. 약물, 피페라실린-타조박탐 4.5g을 IV로 Q8H 투여하였다. 산소 공급, 네이설 캐눌라 3 L/min을 통해 산소를 공급하였다. 기타 장치, C-line이 삽입되어 있다. 투입 배출, 양성 수분 균형이 확인되었다. 임상 상태, 환자는 기면 상태로 관찰되었다. 담당 의사에게 지속적인 저혈압과 열에 대해 보고하였다.",
+            "confidence": 0.0,
+            "words": []
+          }
+        ],
+        "language_code": "ko",
+        "channel_tag": 0
+      }
+    ],
+    "detected_language_codes": [
+      "ko"
+    ]
+  }
+}

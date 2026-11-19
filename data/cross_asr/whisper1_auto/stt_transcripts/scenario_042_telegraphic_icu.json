@@ -1,0 +1,25 @@
+{
+  "sample_id": "scenario_042_telegraphic_icu",
+  "whisper_transcript": "73 Sanaman E1, Severe Dehydration, Electrolyte Imbalance, BP 98, 62 2mHg, HR 1pm, R24 Breaths Min, BT 37.0 SbO2 95% RA, Severe Diarrhea, Normal Saline 1000mL IV Stat, IV Fluid Resuscitation, UO Low 200mL per 8hr, Drowsy, UO 30mL Shedocker Notify",
+  "stt_metadata": {
+    "asr_system": "whisper1_auto",
+    "provider": "openai",
+    "model": "whisper-1",
+    "language": null,
+    "audio_path": "data/audio/scenario_042_telegraphic_icu.mp3",
+    "audio_sha256": "6e239629b0c4d7784cf76b2496919edfd5ee069a4af6b1fdd51727e887b3d45e",
+    "transcribed_at": "2026-11-04T13:54:04+00:00",
+    "request_seconds": 1.34,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "73 Sanaman E1, Severe Dehydration, Electrolyte Imbalance, BP 98, 62 2mHg, HR 1pm, R24 Breaths Min, BT 37.0 SbO2 95% RA, Severe Diarrhea, Normal Saline 1000mL IV Stat, IV Fluid Resuscitation, UO Low 200mL per 8hr, Drowsy, UO 30mL Shedocker Notify",
+    "logprobs": null,
+    "usage": {
+      "seconds": 21.0,
+      "type": "duration"
+    }
+  }
+}

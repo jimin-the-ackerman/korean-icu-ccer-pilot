@@ -1,0 +1,43 @@
+{
+  "sample_id": "scenario_086_formal_template",
+  "whisper_transcript": "55세 여성 환자가 급성 골수성 백혈병으로 입원하였으며, 발열성 호중구 감소증을 경험하고 있다. 활력징후로는 혈압이 90/60 mmHg, 심박수가 110 BPM, 호흡수가 24 breath/min, 체온이 39.2°C로 확인되었다. 산소포화도는 실내 공기에서 96%로 정상 범위이다. 환자는 심한 발열을 호소하였다. 피페라실린 타조박탐 4.5g을 IV로 6시간마다 투여하는 항생제 치료가 시작되었다. 환자의 임상 상태는 졸림으로 관찰되었다. 발열성 호중구 감소증과 시작된 치료 계획에 대해 담당 종양내과 의사에게 보고하였다.",
+  "stt_metadata": {
+    "asr_system": "chirp3_auto",
+    "provider": "google",
+    "model": "chirp_3",
+    "location": "us",
+    "language_codes": [
+      "auto"
+    ],
+    "audio_path": "data/audio/scenario_086_formal_template.mp3",
+    "audio_sha256": "57c34dd0054f0c2a04d959bdf2efd579fc8bceaa1f401e063fa3ba7c2ef33033",
+    "transcribed_at": "2026-11-04T14:51:56+00:00",
+    "request_seconds": 5.69,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "metadata": {
+      "total_billed_duration": "41s",
+      "request_id": "6b4a03d8-0000-291b-9ce0-7474463f846d",
+      "prompt": "Transcribe the following speech segment. Follow these specific instructions for formatting the answer:\n* Only output the transcript, with no newlines.\n* When transcribing numbers, write the digits, i.e. write 1.7 and not one point seven, and write 100 instead of one hundred etc.\n* Only output the transcript, exactly as said in the speech segment.\n* Do not continue the speech segment.\n* Include everything said in the speech segment.\n* Use mathematical notation where needed, eg. x ^ 6Y.\n* If there is background speech that is not part of the main conversation, discard the background speech and only output the main conversation.\n* If there is no clear speech, just output [BACKGROUND].\n* Respond in the original language of the speech."
+    },
+    "results": [
+      {
+        "alternatives": [
+          {
+            "transcript": "55세 여성 환자가 급성 골수성 백혈병으로 입원하였으며, 발열성 호중구 감소증을 경험하고 있다. 활력징후로는 혈압이 90/60 mmHg, 심박수가 110 BPM, 호흡수가 24 breath/min, 체온이 39.2°C로 확인되었다. 산소포화도는 실내 공기에서 96%로 정상 범위이다. 환자는 심한 발열을 호소하였다. 피페라실린 타조박탐 4.5g을 IV로 6시간마다 투여하는 항생제 치료가 시작되었다. 환자의 임상 상태는 졸림으로 관찰되었다. 발열성 호중구 감소증과 시작된 치료 계획에 대해 담당 종양내과 의사에게 보고하였다.",
+            "confidence": 0.0,
+            "words": []
+          }
+        ],
+        "language_code": "ko",
+        "channel_tag": 0
+      }
+    ],
+    "detected_language_codes": [
+      "ko"
+    ]
+  }
+}

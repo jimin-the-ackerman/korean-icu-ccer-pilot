@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_023_telegraphic_icu",
+  "whisper_transcript": "60-year-old male with a history of MS presents with a 25-minute history of HR, HR Wetchadoo Breastman BT32 minutes. SPO2D 6% RA. Muscle weakness moderate. Methylprednisolone 1 gram IV qh. Drowsy.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": "ko",
+    "audio_path": "data/audio/scenario_023_telegraphic_icu.mp3",
+    "audio_sha256": "81022cc07e3c0f9029b0f459b3bdf52ce8bb7240dccfe7546a1b2b91a01e0434",
+    "transcribed_at": "2026-11-04T12:55:58+00:00",
+    "request_seconds": 1.46,
+    "attempts": 1,
+    "git_commit": "5b6d73fb63e1509a79e1a160176d606ed1b104c4",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "60-year-old male with a history of MS presents with a 25-minute history of HR, HR Wetchadoo Breastman BT32 minutes. SPO2D 6% RA. Muscle weakness moderate. Methylprednisolone 1 gram IV qh. Drowsy.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 140,
+      "output_tokens": 59,
+      "total_tokens": 199,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 140,
+        "text_tokens": 0
+      }
+    }
+  }
+}

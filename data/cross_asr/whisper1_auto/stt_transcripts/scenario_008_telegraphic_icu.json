@@ -1,0 +1,25 @@
+{
+  "sample_id": "scenario_008_telegraphic_icu",
+  "whisper_transcript": "55-year-old male patient with gastrointestinal bleeding. BP is 60 mg. HR, BTEM. RR 22 breaths min. BT 37.0 degrees. SpO2, 94 cent. Abdominal pain moderate. Pantoprazole 40 milligram IV nasal cannula. Blood transfusion showing NG tubes have IO negative. Patient drowsy. Gastroenterology team notify.",
+  "stt_metadata": {
+    "asr_system": "whisper1_auto",
+    "provider": "openai",
+    "model": "whisper-1",
+    "language": null,
+    "audio_path": "data/audio/scenario_008_telegraphic_icu.mp3",
+    "audio_sha256": "753c11aea2071c4bf76c8c764931373c1fb60736137007cf0be221660a2e37a5",
+    "transcribed_at": "2026-11-04T13:50:09+00:00",
+    "request_seconds": 2.31,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "55-year-old male patient with gastrointestinal bleeding. BP is 60 mg. HR, BTEM. RR 22 breaths min. BT 37.0 degrees. SpO2, 94 cent. Abdominal pain moderate. Pantoprazole 40 milligram IV nasal cannula. Blood transfusion showing NG tubes have IO negative. Patient drowsy. Gastroenterology team notify.",
+    "logprobs": null,
+    "usage": {
+      "seconds": 21.0,
+      "type": "duration"
+    }
+  }
+}

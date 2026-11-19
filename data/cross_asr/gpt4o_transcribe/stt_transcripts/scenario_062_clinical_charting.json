@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_062_clinical_charting",
+  "whisper_transcript": "40세 남환, severe pulmonary embolism으로 입원함. BP 96mmHg, HR 150 bpm, RR 10 breaths/min, BT 37.6도, SpO2 86% on room air. Severe chest pain 호소함. Heparin 5,000 units IV q4h 적용함. High flow nasal cannula 적용함. C-line 유지함. Negative fluid balance 확인됨. Drowsy 상태 확인됨. 담당의 notify 함. Decreased SpO2, tachycardia.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": "ko",
+    "audio_path": "data/audio/scenario_062_clinical_charting.mp3",
+    "audio_sha256": "9c88ca95dfc3649d1256a7e55ba9fab536599ed1ca721b3b905fb2340975305c",
+    "transcribed_at": "2026-11-04T13:00:06+00:00",
+    "request_seconds": 2.19,
+    "attempts": 1,
+    "git_commit": "5b6d73fb63e1509a79e1a160176d606ed1b104c4",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "40세 남환, severe pulmonary embolism으로 입원함. BP 96mmHg, HR 150 bpm, RR 10 breaths/min, BT 37.6도, SpO2 86% on room air. Severe chest pain 호소함. Heparin 5,000 units IV q4h 적용함. High flow nasal cannula 적용함. C-line 유지함. Negative fluid balance 확인됨. Drowsy 상태 확인됨. 담당의 notify 함. Decreased SpO2, tachycardia.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 256,
+      "output_tokens": 114,
+      "total_tokens": 370,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 256,
+        "text_tokens": 0
+      }
+    }
+  }
+}

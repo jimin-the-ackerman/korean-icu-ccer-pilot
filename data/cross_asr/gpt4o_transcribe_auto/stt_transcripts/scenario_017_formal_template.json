@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_017_formal_template",
+  "whisper_transcript": "환자 정보에 따르면, 53세 여성 환자는 인슐린 과다 복용으로 인한 심각한 저혈당증으로 입원하였다. 현재 활력 징후는 혈압이 102/65mmHg, 심박수가 92bpm, 호흡수가 18breaths/min, 체온이 36.5℃이며 산소포화도는 95%로 확인되었다. 환자는 중등도의 혼란 상태를 보이고 있으며 의식은 졸음이 있는 상태이다. 치료로서는 즉시 덱스트로스 50% 25g을 정맥으로 투여하였다. 이로 인해 정맥 주사로 인한 체액 균형이 양성으로 나타났다. 추가적인 치료 계획을 위해 내분비 전문의에게 보고하였다.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe_auto",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": null,
+    "audio_path": "data/audio/scenario_017_formal_template.mp3",
+    "audio_sha256": "72812de458fcecd5507bea3dbea2c4dfe9ee8df79529d43f336b2da9b6e9a1a8",
+    "transcribed_at": "2026-11-04T14:05:29+00:00",
+    "request_seconds": 3.64,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "환자 정보에 따르면, 53세 여성 환자는 인슐린 과다 복용으로 인한 심각한 저혈당증으로 입원하였다. 현재 활력 징후는 혈압이 102/65mmHg, 심박수가 92bpm, 호흡수가 18breaths/min, 체온이 36.5℃이며 산소포화도는 95%로 확인되었다. 환자는 중등도의 혼란 상태를 보이고 있으며 의식은 졸음이 있는 상태이다. 치료로서는 즉시 덱스트로스 50% 25g을 정맥으로 투여하였다. 이로 인해 정맥 주사로 인한 체액 균형이 양성으로 나타났다. 추가적인 치료 계획을 위해 내분비 전문의에게 보고하였다.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 396,
+      "output_tokens": 178,
+      "total_tokens": 574,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 396,
+        "text_tokens": 0
+      }
+    }
+  }
+}

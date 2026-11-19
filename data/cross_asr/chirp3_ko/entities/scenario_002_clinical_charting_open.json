@@ -1,0 +1,29 @@
+{
+  "sample_id": "scenario_002_clinical_charting",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "nausea",
+        "negation": false,
+        "severity": "moderate"
+      }
+    ],
+    "clinical_status": "drowsy",
+    "medication_identity": "Insulin",
+    "interventions": [
+      "Fluid resuscitation"
+    ],
+    "intake_output": "Urine output low",
+    "notification": "Endocrinology consult함"
+  },
+  "whisper_entities": {
+    "symptoms": [],
+    "clinical_status": "드라우지 상태 (drowsy)",
+    "medication_identity": "인슐린",
+    "interventions": [
+      "플루이드 리서시테이션 시행"
+    ],
+    "intake_output": "유린 아웃풋 로우 확인됨",
+    "notification": "엔도크리놀로지 컨설트함"
+  }
+}

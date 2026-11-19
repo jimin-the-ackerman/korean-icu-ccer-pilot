@@ -1,0 +1,117 @@
+{
+  "sample_id": "scenario_046_telegraphic_icu",
+  "gold_entities": {
+    "route": [
+      {
+        "raw": "IV",
+        "normalized": "iv",
+        "position": 114
+      }
+    ],
+    "frequency": [
+      {
+        "raw": "q6h",
+        "normalized": "q6h",
+        "position": 117
+      }
+    ],
+    "device": [],
+    "vital_sign": [
+      {
+        "raw": "BP 140/80.",
+        "label": "bp",
+        "value": "140/80",
+        "position": 37
+      },
+      {
+        "raw": "HR 65.",
+        "label": "hr",
+        "value": "65",
+        "position": 48
+      },
+      {
+        "raw": "RR 14.",
+        "label": "rr",
+        "value": "14",
+        "position": 55
+      },
+      {
+        "raw": "BT 36.8.",
+        "label": "bt",
+        "value": "36.8",
+        "position": 62
+      },
+      {
+        "raw": "SpO2 98%",
+        "label": "spo2",
+        "value": "98%",
+        "position": 71
+      }
+    ],
+    "dose": [
+      {
+        "raw": "100g",
+        "value": "100",
+        "unit": "g",
+        "position": 109
+      }
+    ]
+  },
+  "whisper_entities": {
+    "route": [
+      {
+        "raw": "IV",
+        "normalized": "iv",
+        "position": 139
+      }
+    ],
+    "frequency": [
+      {
+        "raw": "Q6H",
+        "normalized": "q6h",
+        "position": 142
+      }
+    ],
+    "device": [],
+    "vital_sign": [
+      {
+        "raw": "BP 120/80",
+        "label": "bp",
+        "value": "120/80",
+        "position": 64
+      },
+      {
+        "raw": "HR 67",
+        "label": "hr",
+        "value": "67",
+        "position": 75
+      },
+      {
+        "raw": "RR 18",
+        "label": "rr",
+        "value": "18",
+        "position": 82
+      },
+      {
+        "raw": "BT 36.8",
+        "label": "bt",
+        "value": "36.8",
+        "position": 89
+      },
+      {
+        "raw": "SpO2 98%",
+        "label": "spo2",
+        "value": "98%",
+        "position": 98
+      }
+    ],
+    "dose": [
+      {
+        "raw": "20 g",
+        "value": "20",
+        "unit": "g",
+        "position": 134
+      }
+    ]
+  }
+}

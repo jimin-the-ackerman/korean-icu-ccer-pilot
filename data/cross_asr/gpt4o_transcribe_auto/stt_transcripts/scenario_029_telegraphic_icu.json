@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_029_telegraphic_icu",
+  "whisper_transcript": "42세 여성 GBS 의심. BP 138/85mmHg, HR 92 bpm, RR 18 breaths/min, BT 36.8°C, SpO2 89% room air. 심한 근력 약화, IVIG 0.4g/kg IV Q12H, 비강 캐뉼라 2L/min, 혈장분리교환 예정, 인공호흡기 고려됨. 폴리 카테터, 소변 1200ml/24hr. 졸음 상태, 신경학 팀 통보.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe_auto",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": null,
+    "audio_path": "data/audio/scenario_029_telegraphic_icu.mp3",
+    "audio_sha256": "ad6fa28bafe4f0a8c2c870d49e6ef94e19f6ad1160f6af631744596623b98afb",
+    "transcribed_at": "2026-11-04T14:06:54+00:00",
+    "request_seconds": 2.12,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "42세 여성 GBS 의심. BP 138/85mmHg, HR 92 bpm, RR 18 breaths/min, BT 36.8°C, SpO2 89% room air. 심한 근력 약화, IVIG 0.4g/kg IV Q12H, 비강 캐뉼라 2L/min, 혈장분리교환 예정, 인공호흡기 고려됨. 폴리 카테터, 소변 1200ml/24hr. 졸음 상태, 신경학 팀 통보.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 226,
+      "output_tokens": 122,
+      "total_tokens": 348,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 226,
+        "text_tokens": 0
+      }
+    }
+  }
+}

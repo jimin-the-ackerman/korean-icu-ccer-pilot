@@ -1,0 +1,35 @@
+{
+  "sample_id": "scenario_078_clinical_charting",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "severe pain",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "Drowsy",
+    "medication_identity": "Vancomycin",
+    "interventions": [
+      "Surgical debridement scheduled"
+    ],
+    "intake_output": "Positive balance 확인됨",
+    "notification": "Infectious Disease와 Surgical teams notify함"
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "severe pain",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "드라우지 상태 (drowsy)",
+    "medication_identity": "Vancomycin",
+    "interventions": [
+      "서지컬 드브라이드먼트 스케줄드 (surgical debridement scheduled)"
+    ],
+    "intake_output": "포지티브 밸런스 확인됨 (positive balance)",
+    "notification": "인펙셔스 디지즈와 서지컬 팀즈 노티파이함 (Infectious Disease and Surgical teams notified)"
+  }
+}

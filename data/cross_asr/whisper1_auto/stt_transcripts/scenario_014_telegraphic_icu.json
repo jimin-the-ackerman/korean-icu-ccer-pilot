@@ -1,0 +1,25 @@
+{
+  "sample_id": "scenario_014_telegraphic_icu",
+  "whisper_transcript": "50d9 song ar ds e1 bp 135 80 environments hr 180 qm r 30 breaths min bt 38.3 cis spo 288 room air severe dyspnea methylprednisolone 125 milligram ivq 6h mechanical ventilations hayoungjung ventilator tongue top positive fluid balance clinical status drowsy",
+  "stt_metadata": {
+    "asr_system": "whisper1_auto",
+    "provider": "openai",
+    "model": "whisper-1",
+    "language": null,
+    "audio_path": "data/audio/scenario_014_telegraphic_icu.mp3",
+    "audio_sha256": "0c21779cd95e8dc209124ab9b104979b80dd54966a64ec705849f812cd4362bc",
+    "transcribed_at": "2026-11-04T13:50:54+00:00",
+    "request_seconds": 2.29,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "50d9 song ar ds e1 bp 135 80 environments hr 180 qm r 30 breaths min bt 38.3 cis spo 288 room air severe dyspnea methylprednisolone 125 milligram ivq 6h mechanical ventilations hayoungjung ventilator tongue top positive fluid balance clinical status drowsy",
+    "logprobs": null,
+    "usage": {
+      "seconds": 20.0,
+      "type": "duration"
+    }
+  }
+}

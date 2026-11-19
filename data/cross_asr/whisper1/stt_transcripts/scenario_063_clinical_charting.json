@@ -1,0 +1,25 @@
+{
+  "sample_id": "scenario_063_clinical_charting",
+  "whisper_transcript": "74세 여성 환자, SBP 2ndary dyscirrhosis 입원함, BP 162mg, HR 90bpm, RRFG subrethesmin, BT 70.8, SpO2 기시 2% on room air, Abdominal pain moderate 호소함, Ceftriaxone 2g IVQ swab H 투여중, Nasal canalate tool mean 적용함, Fully 유지함, Strict input-output monitoring 시행중, Clinical status drowsy 확인됨, Decreased urine output abdominal distention 담당해 notify함.",
+  "stt_metadata": {
+    "asr_system": "whisper1",
+    "provider": "reuse_existing",
+    "model": "whisper-1",
+    "language": "ko",
+    "audio_path": "data/audio/scenario_063_clinical_charting.mp3",
+    "audio_sha256": "a8f5f9804792697097c03faa6c3e66975cbbc97c2b50de17bd5ab1d25f8ddda3",
+    "copied_at": "2026-11-04T04:31:12+00:00",
+    "request_seconds": 0.0,
+    "attempts": 1,
+    "git_commit": "b3490181b3fb3f88b56cde5be78a01cfdcef3007",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "source_file": "data/stt_transcripts/scenario_063_clinical_charting.json",
+    "source_sha256": "8561c22ea88cfd2698c0bfb1ca5590173ad70805d4237b27551c370ec00672c3",
+    "source_stt_metadata": {
+      "model": "whisper-1",
+      "language": "ko"
+    }
+  }
+}

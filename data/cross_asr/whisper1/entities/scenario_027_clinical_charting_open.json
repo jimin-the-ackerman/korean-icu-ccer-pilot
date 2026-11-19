@@ -1,0 +1,33 @@
+{
+  "sample_id": "scenario_027_clinical_charting",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "weakness on right side",
+        "negation": false,
+        "severity": "moderate"
+      }
+    ],
+    "clinical_status": "drowsy",
+    "medication_identity": "Alteplase",
+    "interventions": [],
+    "intake_output": null,
+    "notification": "Neurology team notify함"
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "weakness on right side",
+        "negation": false,
+        "severity": "moderate"
+      }
+    ],
+    "clinical_status": "drowsy",
+    "medication_identity": "Alteplase",
+    "interventions": [
+      "IV fluids initiated"
+    ],
+    "intake_output": null,
+    "notification": "Neurology team notify함"
+  }
+}

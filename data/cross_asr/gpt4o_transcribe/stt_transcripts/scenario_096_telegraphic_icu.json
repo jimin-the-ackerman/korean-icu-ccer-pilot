@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_096_telegraphic_icu",
+  "whisper_transcript": "50 sent Namwan, cup zone pay but washamona. BPM 1690 MMHG. HR 110 BPM. R18 breaths min BT 37 mrx. SPO2 88% RA 95% 2L O2 NC. Dysnia severe furosemide 40 mg BID 2L O2 Ns Foley in place. Negative fluid balance 500 ml alert. Cardiology team notify.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": "ko",
+    "audio_path": "data/audio/scenario_096_telegraphic_icu.mp3",
+    "audio_sha256": "aafc3a3ee56dcca8366ca3d09125ad6e43faadf0c5965fbc1ebdb928950c8cf3",
+    "transcribed_at": "2026-11-04T13:05:04+00:00",
+    "request_seconds": 1.56,
+    "attempts": 1,
+    "git_commit": "5b6d73fb63e1509a79e1a160176d606ed1b104c4",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "50 sent Namwan, cup zone pay but washamona. BPM 1690 MMHG. HR 110 BPM. R18 breaths min BT 37 mrx. SPO2 88% RA 95% 2L O2 NC. Dysnia severe furosemide 40 mg BID 2L O2 Ns Foley in place. Negative fluid balance 500 ml alert. Cardiology team notify.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 208,
+      "output_tokens": 87,
+      "total_tokens": 295,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 208,
+        "text_tokens": 0
+      }
+    }
+  }
+}

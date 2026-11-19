@@ -1,0 +1,43 @@
+{
+  "sample_id": "scenario_044_formal_template",
+  "whisper_transcript": "38세 남성 환자가 담석에 의한 중증 급성 췌장염으로 입원하였다. 활력 징후 측정 결과, 혈압은 98/62 mmHg, 심박수는 110 bpm, 호흡수는 28 breaths/min, 체온은 37.8도, 산소 포화도는 실내 공기에서 93%로 확인되었다. 환자는 심한 복통을 호소하였다. 현재 모르핀 2mg을 IV로 4시간마다 투여하고 있다. 산소 보조를 위해 네이설 캐눌라를 사용 중이다. 폴리 카테터가 삽입되어 있다. 환자는 졸린 상태로 관찰되었다. 통증 조절을 위해 통증 팀에 컨설트하였다.",
+  "stt_metadata": {
+    "asr_system": "chirp3_ko",
+    "provider": "google",
+    "model": "chirp_3",
+    "location": "us",
+    "language_codes": [
+      "ko-KR"
+    ],
+    "audio_path": "data/audio/scenario_044_formal_template.mp3",
+    "audio_sha256": "03bc26d894fb567bb23bbc136d813208b3e91d64b24f7990dfdc1fc0d894ef3b",
+    "transcribed_at": "2026-11-04T13:20:01+00:00",
+    "request_seconds": 5.31,
+    "attempts": 1,
+    "git_commit": "5b6d73fb63e1509a79e1a160176d606ed1b104c4",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "metadata": {
+      "total_billed_duration": "37s",
+      "request_id": "6dc985b9-0000-2f0e-9d01-2405887d536c",
+      "prompt": "Transcribe the following speech segment in Korean. Follow these specific instructions for formatting the answer:\n* Only output the transcript, with no newlines.\n* When transcribing numbers, write the digits, i.e. write 1.7 and not one point seven, and write 100 instead of one hundred etc.\n* Only output the transcript, exactly as said in the speech segment.\n* Do not continue the speech segment.\n* Include everything said in the speech segment.\n* Use mathematical notation where needed, eg. x ^ 6Y.\n* If there is background speech that is not part of the main conversation, discard the background speech and only output the main conversation.\n* If there is no clear speech, just output [BACKGROUND].\n* Respond in the original language of the speech, Korean."
+    },
+    "results": [
+      {
+        "alternatives": [
+          {
+            "transcript": "38세 남성 환자가 담석에 의한 중증 급성 췌장염으로 입원하였다. 활력 징후 측정 결과, 혈압은 98/62 mmHg, 심박수는 110 bpm, 호흡수는 28 breaths/min, 체온은 37.8도, 산소 포화도는 실내 공기에서 93%로 확인되었다. 환자는 심한 복통을 호소하였다. 현재 모르핀 2mg을 IV로 4시간마다 투여하고 있다. 산소 보조를 위해 네이설 캐눌라를 사용 중이다. 폴리 카테터가 삽입되어 있다. 환자는 졸린 상태로 관찰되었다. 통증 조절을 위해 통증 팀에 컨설트하였다.",
+            "confidence": 0.0,
+            "words": []
+          }
+        ],
+        "language_code": "ko-KR",
+        "channel_tag": 0
+      }
+    ],
+    "detected_language_codes": [
+      "ko-KR"
+    ]
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_063_formal_template",
+  "whisper_transcript": "74세 여성 환자가 간경변증에 의한 자발성 세균성 복막염으로 입원하였다. 활력징후는 혈압이 160mmHg, 심박수가 98bpm, 호흡수가 24breaths/min, 체온이 37.8℃, 산소포화도는 실내 공기에서 92%로 확인되었다. 환자는 중등도의 복통을 호소하였다. 현재 세프트렉손 2g을 IB로 12시간마다 투여 중이다. 산소지원은 비강 캐굴라를 통해 2L/min로 제공되고 있다. 폴리 카테터가 삽입되어 있으며, 엄격한 입력 출력 모니터링이 시행되고 있다. 환자는 졸음 상태를 보인다. 소변량 감소와 복부 평안에 대해 담당 의사에게 보고하였다.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe_auto",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": null,
+    "audio_path": "data/audio/scenario_063_formal_template.mp3",
+    "audio_sha256": "8de8617e0a08b9a33e67038b8b8a18ca305d3a0ffc77dc25e1e21e0693416a59",
+    "transcribed_at": "2026-11-04T14:11:08+00:00",
+    "request_seconds": 2.76,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "74세 여성 환자가 간경변증에 의한 자발성 세균성 복막염으로 입원하였다. 활력징후는 혈압이 160mmHg, 심박수가 98bpm, 호흡수가 24breaths/min, 체온이 37.8℃, 산소포화도는 실내 공기에서 92%로 확인되었다. 환자는 중등도의 복통을 호소하였다. 현재 세프트렉손 2g을 IB로 12시간마다 투여 중이다. 산소지원은 비강 캐굴라를 통해 2L/min로 제공되고 있다. 폴리 카테터가 삽입되어 있으며, 엄격한 입력 출력 모니터링이 시행되고 있다. 환자는 졸음 상태를 보인다. 소변량 감소와 복부 평안에 대해 담당 의사에게 보고하였다.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 423,
+      "output_tokens": 194,
+      "total_tokens": 617,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 423,
+        "text_tokens": 0
+      }
+    }
+  }
+}

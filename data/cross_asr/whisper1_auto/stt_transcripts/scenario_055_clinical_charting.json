@@ -1,0 +1,25 @@
+{
+  "sample_id": "scenario_055_clinical_charting",
+  "whisper_transcript": "Wuxi 3-year-old female patient, incompatible blood transfusion who acute hemolytic anemia to E1M. Vital signs, BP kaiju 10 milligram, HR1EBPM, RRSUDU, BT38.1 excels, SbO2, 25% on 2L nasal cannula. Severe fatigue, HOSUAM, furosemide 40 milligrams, IVQ, SROUTH, H-TOKYOAM. Oxygen support, nasal cannula UGM, compatible blood transfusion, SHIENGAM. IO, input 10 milliliters, output 200 milliliter. Clinical status, drowsy, HUAGENDEM. Hematology team notify him.",
+  "stt_metadata": {
+    "asr_system": "whisper1_auto",
+    "provider": "openai",
+    "model": "whisper-1",
+    "language": null,
+    "audio_path": "data/audio/scenario_055_clinical_charting.mp3",
+    "audio_sha256": "0596980cf1e25e4299537907c97dc166d9d2229d3dfae80e7f85127b3b02cd27",
+    "transcribed_at": "2026-11-04T13:56:30+00:00",
+    "request_seconds": 3.62,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "Wuxi 3-year-old female patient, incompatible blood transfusion who acute hemolytic anemia to E1M. Vital signs, BP kaiju 10 milligram, HR1EBPM, RRSUDU, BT38.1 excels, SbO2, 25% on 2L nasal cannula. Severe fatigue, HOSUAM, furosemide 40 milligrams, IVQ, SROUTH, H-TOKYOAM. Oxygen support, nasal cannula UGM, compatible blood transfusion, SHIENGAM. IO, input 10 milliliters, output 200 milliliter. Clinical status, drowsy, HUAGENDEM. Hematology team notify him.",
+    "logprobs": null,
+    "usage": {
+      "seconds": 32.0,
+      "type": "duration"
+    }
+  }
+}

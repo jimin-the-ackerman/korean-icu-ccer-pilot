@@ -1,0 +1,35 @@
+{
+  "sample_id": "scenario_008_telegraphic_icu",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "abdominal pain",
+        "negation": false,
+        "severity": "moderate"
+      }
+    ],
+    "clinical_status": "drowsy",
+    "medication_identity": "Pantoprazole",
+    "interventions": [
+      "blood transfusion"
+    ],
+    "intake_output": "I/O negative",
+    "notification": "Gastroenterology team notify"
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "abdominal pain",
+        "negation": false,
+        "severity": "moderate"
+      }
+    ],
+    "clinical_status": "drowsy",
+    "medication_identity": "pantoprazole",
+    "interventions": [
+      "blood transfusion"
+    ],
+    "intake_output": "negative",
+    "notification": "gastroenterology team notify"
+  }
+}

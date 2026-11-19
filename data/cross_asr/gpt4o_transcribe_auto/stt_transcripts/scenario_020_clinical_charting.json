@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_020_clinical_charting",
+  "whisper_transcript": "61세 남성, severe acute pancreatitis로 입원. 타장기 침범 있음. 안정적이나 합증 감시 중. BP 170, HR 95, RR 20, BT 37.8, SpO2 94%. Severe abdominal pain 호소함. Morphine 4mg IV Q4H 적용함. Nasal cannula 2 at admin 유지함. NG tube 유지함. Negative fluid balance 500ml per 호스사라르 확인됨. Drowsy 상태 확인됨. 담당에 notify함. Gastroenterology consult 요청함.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe_auto",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": null,
+    "audio_path": "data/audio/scenario_020_clinical_charting.mp3",
+    "audio_sha256": "6cb584711c8c645ce50dcc5b893e368948bf28b4cbadc3b3540177b6faf9e926",
+    "transcribed_at": "2026-11-04T14:05:46+00:00",
+    "request_seconds": 2.9,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "61세 남성, severe acute pancreatitis로 입원. 타장기 침범 있음. 안정적이나 합증 감시 중. BP 170, HR 95, RR 20, BT 37.8, SpO2 94%. Severe abdominal pain 호소함. Morphine 4mg IV Q4H 적용함. Nasal cannula 2 at admin 유지함. NG tube 유지함. Negative fluid balance 500ml per 호스사라르 확인됨. Drowsy 상태 확인됨. 담당에 notify함. Gastroenterology consult 요청함.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 280,
+      "output_tokens": 124,
+      "total_tokens": 404,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 280,
+        "text_tokens": 0
+      }
+    }
+  }
+}

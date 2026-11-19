@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_075_telegraphic_icu",
+  "whisper_transcript": "72M acute decompensated heart failure, severe aortic stenosis, BP 90/60 mmHg, HR 110 bpm, RR 22 breaths/min, BT 36.8C, SpO2 88% on 4L O2 via NC. Severe chest pain. Furosemide 40 mg IV q8h, Foley, strict I/O monitoring. ALERT: Cardiology team consult for valve replacement.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": "ko",
+    "audio_path": "data/audio/scenario_075_telegraphic_icu.mp3",
+    "audio_sha256": "b06c758a428f8ce86010a8563090227062a99aec8227266c215849b15141026b",
+    "transcribed_at": "2026-11-04T13:02:12+00:00",
+    "request_seconds": 1.63,
+    "attempts": 1,
+    "git_commit": "5b6d73fb63e1509a79e1a160176d606ed1b104c4",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "72M acute decompensated heart failure, severe aortic stenosis, BP 90/60 mmHg, HR 110 bpm, RR 22 breaths/min, BT 36.8C, SpO2 88% on 4L O2 via NC. Severe chest pain. Furosemide 40 mg IV q8h, Foley, strict I/O monitoring. ALERT: Cardiology team consult for valve replacement.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 207,
+      "output_tokens": 92,
+      "total_tokens": 299,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 207,
+        "text_tokens": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_044_telegraphic_icu",
+  "whisper_transcript": "38yoM s/p BP 98/62 mmHg HR 110 bpm RR 28 BT 37.8 C SpO2 93% RA severe abdominal pain a morphine-tolerant agent nasal cannula sion follium pain in place drowsy pain team consult him",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": "ko",
+    "audio_path": "data/audio/scenario_044_telegraphic_icu.mp3",
+    "audio_sha256": "8262470e35f02170636ec090b9891313e0db31ee906f705b3e8bde5dff623ba0",
+    "transcribed_at": "2026-11-04T12:58:13+00:00",
+    "request_seconds": 1.44,
+    "attempts": 1,
+    "git_commit": "5b6d73fb63e1509a79e1a160176d606ed1b104c4",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "38yoM s/p BP 98/62 mmHg HR 110 bpm RR 28 BT 37.8 C SpO2 93% RA severe abdominal pain a morphine-tolerant agent nasal cannula sion follium pain in place drowsy pain team consult him",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 151,
+      "output_tokens": 61,
+      "total_tokens": 212,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 151,
+        "text_tokens": 0
+      }
+    }
+  }
+}

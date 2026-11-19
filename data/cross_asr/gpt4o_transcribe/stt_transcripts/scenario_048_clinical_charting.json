@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_048_clinical_charting",
+  "whisper_transcript": "58세 남성. Esophageal varices로 인한 severe gastrointestinal bleeding으로 입원함. Vital signs: BP 76/60 mmHg, HR 120 bpm, RR 24 breaths/min, BT 36.8°C, SpO2 92% on room air. Severe hemorrhage 확인됨. Octreotide 50 mcg IV q6h 투여 중. Oxygen support: nasal cannula 2 L/min 적용함. Endoscopic band ligation 시행함. Foley U/GM. Strict monitoring of input and output. Clinical status: drowsy 상태 확인됨. Gastroenterology team notify 함.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": "ko",
+    "audio_path": "data/audio/scenario_048_clinical_charting.mp3",
+    "audio_sha256": "cab2da8f73fe491f0359d75fec6b78279bf86261b021eda1e439ef78481e5d2e",
+    "transcribed_at": "2026-11-04T12:58:36+00:00",
+    "request_seconds": 2.39,
+    "attempts": 1,
+    "git_commit": "5b6d73fb63e1509a79e1a160176d606ed1b104c4",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "58세 남성. Esophageal varices로 인한 severe gastrointestinal bleeding으로 입원함. Vital signs: BP 76/60 mmHg, HR 120 bpm, RR 24 breaths/min, BT 36.8°C, SpO2 92% on room air. Severe hemorrhage 확인됨. Octreotide 50 mcg IV q6h 투여 중. Oxygen support: nasal cannula 2 L/min 적용함. Endoscopic band ligation 시행함. Foley U/GM. Strict monitoring of input and output. Clinical status: drowsy 상태 확인됨. Gastroenterology team notify 함.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 325,
+      "output_tokens": 132,
+      "total_tokens": 457,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 325,
+        "text_tokens": 0
+      }
+    }
+  }
+}

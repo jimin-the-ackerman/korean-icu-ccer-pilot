@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_004_telegraphic_icu",
+  "whisper_transcript": "40세 남성 급성 췌장염, BP 96/60mmHg, RR 28 breaths/min, BT 38°C, SpO2 95% room air, abdominal pain severe, morphine 4mg IV q4hrs, fluid resuscitation 진행, Foley 유지, urine output 200ml/4hrs, drowsy 상태, doctor notify.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": "ko",
+    "audio_path": "data/audio/scenario_004_telegraphic_icu.mp3",
+    "audio_sha256": "076ac1d0450cd07b0ace52a09c2958e5b7c6187e856d08445f6fc82c5694e938",
+    "transcribed_at": "2026-11-04T12:54:01+00:00",
+    "request_seconds": 2.01,
+    "attempts": 1,
+    "git_commit": "5b6d73fb63e1509a79e1a160176d606ed1b104c4",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "40세 남성 급성 췌장염, BP 96/60mmHg, RR 28 breaths/min, BT 38°C, SpO2 95% room air, abdominal pain severe, morphine 4mg IV q4hrs, fluid resuscitation 진행, Foley 유지, urine output 200ml/4hrs, drowsy 상태, doctor notify.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 186,
+      "output_tokens": 82,
+      "total_tokens": 268,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 186,
+        "text_tokens": 0
+      }
+    }
+  }
+}

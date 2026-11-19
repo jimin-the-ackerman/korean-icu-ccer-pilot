@@ -1,0 +1,25 @@
+{
+  "sample_id": "scenario_049_clinical_charting",
+  "whisper_transcript": "54세 여자 환자 Right Knee Septic Arthritis로 입원 BPOE 65mg, HR 115bpm, RR 24bpm, BT 38.59, SBO2 96% room air에서 Severe Knee Pain 호소암, Vancomycin WindGround IV QCBH 투여중 Right Knee Joint Aspiration 시행암, Positive Fluid Balance 500ml 기록됨 환자 알러트 상태 유지암, 정형외과 컨설트 요청암",
+  "stt_metadata": {
+    "asr_system": "whisper1_auto",
+    "provider": "openai",
+    "model": "whisper-1",
+    "language": null,
+    "audio_path": "data/audio/scenario_049_clinical_charting.mp3",
+    "audio_sha256": "8a17ed445ff7f24f419bbf06f2b3cfede176b5715b22c9da661d267461a1fb72",
+    "transcribed_at": "2026-11-04T13:54:57+00:00",
+    "request_seconds": 2.81,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "54세 여자 환자 Right Knee Septic Arthritis로 입원 BPOE 65mg, HR 115bpm, RR 24bpm, BT 38.59, SBO2 96% room air에서 Severe Knee Pain 호소암, Vancomycin WindGround IV QCBH 투여중 Right Knee Joint Aspiration 시행암, Positive Fluid Balance 500ml 기록됨 환자 알러트 상태 유지암, 정형외과 컨설트 요청암",
+    "logprobs": null,
+    "usage": {
+      "seconds": 25.0,
+      "type": "duration"
+    }
+  }
+}

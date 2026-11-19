@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_027_clinical_charting",
+  "whisper_transcript": "60대 남성 환자 acute ischemic stroke로 입원함. BP 160, HR 80, 타이트한 T 선지 채점 우 에스뵤흣. Weakness on right side moderate 확인됨. Alteplase 용량 9mg/kg IV stat 투여함. C-line 적용함. IV fluids initiated. 환자 drowsy 상태임. Neurology team notify함.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": "ko",
+    "audio_path": "data/audio/scenario_027_clinical_charting.mp3",
+    "audio_sha256": "4868c01da0ea0426a4036b8bbab4168f3fa8400adbc82fd2b34741a1b69e1785",
+    "transcribed_at": "2026-11-04T12:56:17+00:00",
+    "request_seconds": 1.78,
+    "attempts": 1,
+    "git_commit": "5b6d73fb63e1509a79e1a160176d606ed1b104c4",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "60대 남성 환자 acute ischemic stroke로 입원함. BP 160, HR 80, 타이트한 T 선지 채점 우 에스뵤흣. Weakness on right side moderate 확인됨. Alteplase 용량 9mg/kg IV stat 투여함. C-line 적용함. IV fluids initiated. 환자 drowsy 상태임. Neurology team notify함.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 192,
+      "output_tokens": 89,
+      "total_tokens": 281,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 192,
+        "text_tokens": 0
+      }
+    }
+  }
+}

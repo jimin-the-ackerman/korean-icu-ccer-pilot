@@ -1,0 +1,25 @@
+{
+  "sample_id": "scenario_090_clinical_charting",
+  "whisper_transcript": "57-year-old female patient with multiple sclerosis with acute exacerbation. Severe motor weakness meets sensory disturbances. BP UHAT 3881mg. HR 95BDT 37.0 SbO2 TG-sine professor room air. Methylprednisolone 1g IV Q-star A. Drowsy. IO adequate urine output confirmed.",
+  "stt_metadata": {
+    "asr_system": "whisper1_auto",
+    "provider": "openai",
+    "model": "whisper-1",
+    "language": null,
+    "audio_path": "data/audio/scenario_090_clinical_charting.mp3",
+    "audio_sha256": "be050af872e945260cd3032e7099409708361c6e67f7556681c5a8e72adffaa8",
+    "transcribed_at": "2026-11-04T14:01:00+00:00",
+    "request_seconds": 2.54,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "57-year-old female patient with multiple sclerosis with acute exacerbation. Severe motor weakness meets sensory disturbances. BP UHAT 3881mg. HR 95BDT 37.0 SbO2 TG-sine professor room air. Methylprednisolone 1g IV Q-star A. Drowsy. IO adequate urine output confirmed.",
+    "logprobs": null,
+    "usage": {
+      "seconds": 22.0,
+      "type": "duration"
+    }
+  }
+}

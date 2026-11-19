@@ -1,0 +1,25 @@
+{
+  "sample_id": "scenario_029_clinical_charting",
+  "whisper_transcript": "49세 여자 환자, GBS로 입원 중증 Muscle Weakness 호소, 호흡상태 밀착 모니터링 필요 BP 138.5 mg, HR 92 bpm, RRR 18 breaths min, BT 36.8 gc, SBO 2.89% room air IVIG 14gcl IV-Q SPH 적용함 Nasal cannula tuilumin 산소 공급 유지함 Plasma phoresis 예정됨 Ventilator 필요함 Foley catheter 유지 중 소변량 1,200 mL per 24h 확인됨 의식 drowsy 확인됨 Neurology팀의 호흡기능저하상태 업데이트함",
+  "stt_metadata": {
+    "asr_system": "whisper1_auto",
+    "provider": "openai",
+    "model": "whisper-1",
+    "language": null,
+    "audio_path": "data/audio/scenario_029_clinical_charting.mp3",
+    "audio_sha256": "c992c14c44c6cb0c44c6b3df72466d5677a1a8f7d621083e9b230c6262b2b71d",
+    "transcribed_at": "2026-11-04T13:52:18+00:00",
+    "request_seconds": 3.44,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "49세 여자 환자, GBS로 입원 중증 Muscle Weakness 호소, 호흡상태 밀착 모니터링 필요 BP 138.5 mg, HR 92 bpm, RRR 18 breaths min, BT 36.8 gc, SBO 2.89% room air IVIG 14gcl IV-Q SPH 적용함 Nasal cannula tuilumin 산소 공급 유지함 Plasma phoresis 예정됨 Ventilator 필요함 Foley catheter 유지 중 소변량 1,200 mL per 24h 확인됨 의식 drowsy 확인됨 Neurology팀의 호흡기능저하상태 업데이트함",
+    "logprobs": null,
+    "usage": {
+      "seconds": 32.0,
+      "type": "duration"
+    }
+  }
+}

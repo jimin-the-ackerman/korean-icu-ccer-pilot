@@ -1,0 +1,43 @@
+{
+  "sample_id": "scenario_039_formal_template",
+  "whisper_transcript": "환자는 70세 여성으로 갑상선 기능 항진증 악화, 갑상선 위기로 인한 급성 폐부종으로 입원하였다. 활력 증후는 혈압 160/90 mmHg, 심박수 130 bpm, 호흡수 28 breath/min, 체온 38.4°C로 측정되었다. 산소 포화도는 실내 공기에서 88%로 확인되었다. 환자는 심한 호흡 곤란을 호소하였다. 프로프라놀롤 40 mg을 경구로 매 6시간마다 투여 중이다. 고유량 비강 캐눌라를 통한 산소 지원이 이루어지고 있으며, 폴리 카테터가 삽입되어 있다. 환자는 졸린 상태를 보였다. 갑상선 위기 관리에 대해 내분비학 팀에게 보고하였다.",
+  "stt_metadata": {
+    "asr_system": "chirp3_auto",
+    "provider": "google",
+    "model": "chirp_3",
+    "location": "us",
+    "language_codes": [
+      "auto"
+    ],
+    "audio_path": "data/audio/scenario_039_formal_template.mp3",
+    "audio_sha256": "069dfa8850e36ad3b0e75602d3ef4531aaa474c4870b12dc5b9986c697a38b2a",
+    "transcribed_at": "2026-11-04T14:26:48+00:00",
+    "request_seconds": 6.14,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "metadata": {
+      "total_billed_duration": "41s",
+      "request_id": "6b0b2371-0000-2064-ae37-2405887ac040",
+      "prompt": "Transcribe the following speech segment. Follow these specific instructions for formatting the answer:\n* Only output the transcript, with no newlines.\n* When transcribing numbers, write the digits, i.e. write 1.7 and not one point seven, and write 100 instead of one hundred etc.\n* Only output the transcript, exactly as said in the speech segment.\n* Do not continue the speech segment.\n* Include everything said in the speech segment.\n* Use mathematical notation where needed, eg. x ^ 6Y.\n* If there is background speech that is not part of the main conversation, discard the background speech and only output the main conversation.\n* If there is no clear speech, just output [BACKGROUND].\n* Respond in the original language of the speech."
+    },
+    "results": [
+      {
+        "alternatives": [
+          {
+            "transcript": "환자는 70세 여성으로 갑상선 기능 항진증 악화, 갑상선 위기로 인한 급성 폐부종으로 입원하였다. 활력 증후는 혈압 160/90 mmHg, 심박수 130 bpm, 호흡수 28 breath/min, 체온 38.4°C로 측정되었다. 산소 포화도는 실내 공기에서 88%로 확인되었다. 환자는 심한 호흡 곤란을 호소하였다. 프로프라놀롤 40 mg을 경구로 매 6시간마다 투여 중이다. 고유량 비강 캐눌라를 통한 산소 지원이 이루어지고 있으며, 폴리 카테터가 삽입되어 있다. 환자는 졸린 상태를 보였다. 갑상선 위기 관리에 대해 내분비학 팀에게 보고하였다.",
+            "confidence": 0.0,
+            "words": []
+          }
+        ],
+        "language_code": "ko",
+        "channel_tag": 0
+      }
+    ],
+    "detected_language_codes": [
+      "ko"
+    ]
+  }
+}

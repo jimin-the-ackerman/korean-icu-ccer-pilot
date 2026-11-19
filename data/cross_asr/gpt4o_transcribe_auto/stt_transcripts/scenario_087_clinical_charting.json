@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_087_clinical_charting",
+  "whisper_transcript": "40보세 남성 환자 심한 테트너스로 입원. Puncture wound foot. BP 환 4룬티쟁. HR head 7 BPM. RR 30D breaths min. BT 30백범 아웃드 그렉스. SpO2 나이지디 퍼센트 룸 에어. Severe muscle spasms 확인됨. 다이아제팜 10mg IVQ at h 적용함. Nasal cannula 2L min in UGEM. Wound debridement 시행함. NG 튜브 삽입됨. IO strict monitoring UGEM. 환자 상태 drowsy 확인됨. Neurology 컨설트 muscle spasms management 위해 담당에 notify 함.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe_auto",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": null,
+    "audio_path": "data/audio/scenario_087_clinical_charting.mp3",
+    "audio_sha256": "5b2372306e164cd522fa58238ce8b6208cd0151e67aef3e696b6d30430f058bf",
+    "transcribed_at": "2026-11-04T14:13:53+00:00",
+    "request_seconds": 2.77,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "40보세 남성 환자 심한 테트너스로 입원. Puncture wound foot. BP 환 4룬티쟁. HR head 7 BPM. RR 30D breaths min. BT 30백범 아웃드 그렉스. SpO2 나이지디 퍼센트 룸 에어. Severe muscle spasms 확인됨. 다이아제팜 10mg IVQ at h 적용함. Nasal cannula 2L min in UGEM. Wound debridement 시행함. NG 튜브 삽입됨. IO strict monitoring UGEM. 환자 상태 drowsy 확인됨. Neurology 컨설트 muscle spasms management 위해 담당에 notify 함.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 293,
+      "output_tokens": 154,
+      "total_tokens": 447,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 293,
+        "text_tokens": 0
+      }
+    }
+  }
+}

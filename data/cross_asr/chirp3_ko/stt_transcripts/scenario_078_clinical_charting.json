@@ -1,0 +1,43 @@
+{
+  "sample_id": "scenario_078_clinical_charting",
+  "whisper_transcript": "66세 여성 환자, 괴사성 근막염으로 인한 중증 패혈증으로 입원. BP 185/110 mmHg, HR 120 bpm, RR 22회/분, BT 38.5°C. SpO2 90%에 비재호흡 마스크로 산소 10L/분 투여 중. 중증 통증 호소. 반코마이신 1g IV 8시간마다 투여 중. 고유량 산소 요법 적용. 수술적 절제술 예정. 유치 도뇨관 유지 중. 양성 균형 확인됨. 졸음 상태. 감염내과와 외과 팀에 보고.",
+  "stt_metadata": {
+    "asr_system": "chirp3_ko",
+    "provider": "google",
+    "model": "chirp_3",
+    "location": "us",
+    "language_codes": [
+      "ko-KR"
+    ],
+    "audio_path": "data/audio/scenario_078_clinical_charting.mp3",
+    "audio_sha256": "6240fa820c6b9d3f36ccfc4681a5bce96a2cadf3eb66252cc7159d2b5ab58e67",
+    "transcribed_at": "2026-11-04T13:28:18+00:00",
+    "request_seconds": 4.44,
+    "attempts": 1,
+    "git_commit": "5b6d73fb63e1509a79e1a160176d606ed1b104c4",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "metadata": {
+      "total_billed_duration": "30s",
+      "request_id": "73ca88ee-0000-20af-9ed7-14c14ef7de84",
+      "prompt": "Transcribe the following speech segment in Korean. Follow these specific instructions for formatting the answer:\n* Only output the transcript, with no newlines.\n* When transcribing numbers, write the digits, i.e. write 1.7 and not one point seven, and write 100 instead of one hundred etc.\n* Only output the transcript, exactly as said in the speech segment.\n* Do not continue the speech segment.\n* Include everything said in the speech segment.\n* Use mathematical notation where needed, eg. x ^ 6Y.\n* If there is background speech that is not part of the main conversation, discard the background speech and only output the main conversation.\n* If there is no clear speech, just output [BACKGROUND].\n* Respond in the original language of the speech, Korean."
+    },
+    "results": [
+      {
+        "alternatives": [
+          {
+            "transcript": "66세 여성 환자, 괴사성 근막염으로 인한 중증 패혈증으로 입원. BP 185/110 mmHg, HR 120 bpm, RR 22회/분, BT 38.5°C. SpO2 90%에 비재호흡 마스크로 산소 10L/분 투여 중. 중증 통증 호소. 반코마이신 1g IV 8시간마다 투여 중. 고유량 산소 요법 적용. 수술적 절제술 예정. 유치 도뇨관 유지 중. 양성 균형 확인됨. 졸음 상태. 감염내과와 외과 팀에 보고.",
+            "confidence": 0.0,
+            "words": []
+          }
+        ],
+        "language_code": "ko-KR",
+        "channel_tag": 0
+      }
+    ],
+    "detected_language_codes": [
+      "ko-KR"
+    ]
+  }
+}

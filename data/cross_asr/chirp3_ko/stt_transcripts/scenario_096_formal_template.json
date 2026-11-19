@@ -1,0 +1,43 @@
+{
+  "sample_id": "scenario_096_formal_template",
+  "whisper_transcript": "환자는 50세 남성으로 좌심부전으로 인한 급성 폐부종으로 입원하였다. 활력징후는 혈압 160/90 mmHg, 심박수 110 bpm, 호흡수 28 breaths/min, 체온 37.0°C이며, 산소포화도는 실내 공기에서 88%였고, 2 L O2를 비강 캐눌라로 투여 시 95%로 확인되었다. 환자는 심한 호흡곤란을 호소하였다. 현재 푸로세미드 40 mg을 IV로 BID 투여 중이다. 5 L O2를 비강 캐눌라로 제공받고 있으며, Foley 카테터가 삽입되어 있다. 24시간 동안 500 mL의 음성 수분 균형이 확인되었다. 환자는 의식이 명료한 상태이다. 추가 관리가 필요하여 심장내과 팀에 보고하였다.",
+  "stt_metadata": {
+    "asr_system": "chirp3_ko",
+    "provider": "google",
+    "model": "chirp_3",
+    "location": "us",
+    "language_codes": [
+      "ko-KR"
+    ],
+    "audio_path": "data/audio/scenario_096_formal_template.mp3",
+    "audio_sha256": "9d94136770cc84b7e7ec452a8f00787a73346545c1480f96d925ad434433c48e",
+    "transcribed_at": "2026-11-04T13:32:35+00:00",
+    "request_seconds": 6.92,
+    "attempts": 1,
+    "git_commit": "5b6d73fb63e1509a79e1a160176d606ed1b104c4",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "metadata": {
+      "total_billed_duration": "45s",
+      "request_id": "6b4c9f7c-0000-2dc3-a1ba-3439160154a3",
+      "prompt": "Transcribe the following speech segment in Korean. Follow these specific instructions for formatting the answer:\n* Only output the transcript, with no newlines.\n* When transcribing numbers, write the digits, i.e. write 1.7 and not one point seven, and write 100 instead of one hundred etc.\n* Only output the transcript, exactly as said in the speech segment.\n* Do not continue the speech segment.\n* Include everything said in the speech segment.\n* Use mathematical notation where needed, eg. x ^ 6Y.\n* If there is background speech that is not part of the main conversation, discard the background speech and only output the main conversation.\n* If there is no clear speech, just output [BACKGROUND].\n* Respond in the original language of the speech, Korean."
+    },
+    "results": [
+      {
+        "alternatives": [
+          {
+            "transcript": "환자는 50세 남성으로 좌심부전으로 인한 급성 폐부종으로 입원하였다. 활력징후는 혈압 160/90 mmHg, 심박수 110 bpm, 호흡수 28 breaths/min, 체온 37.0°C이며, 산소포화도는 실내 공기에서 88%였고, 2 L O2를 비강 캐눌라로 투여 시 95%로 확인되었다. 환자는 심한 호흡곤란을 호소하였다. 현재 푸로세미드 40 mg을 IV로 BID 투여 중이다. 5 L O2를 비강 캐눌라로 제공받고 있으며, Foley 카테터가 삽입되어 있다. 24시간 동안 500 mL의 음성 수분 균형이 확인되었다. 환자는 의식이 명료한 상태이다. 추가 관리가 필요하여 심장내과 팀에 보고하였다.",
+            "confidence": 0.0,
+            "words": []
+          }
+        ],
+        "language_code": "ko-KR",
+        "channel_tag": 0
+      }
+    ],
+    "detected_language_codes": [
+      "ko-KR"
+    ]
+  }
+}

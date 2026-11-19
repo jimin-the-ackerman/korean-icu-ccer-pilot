@@ -1,0 +1,43 @@
+{
+  "sample_id": "scenario_078_telegraphic_icu",
+  "whisper_transcript": "66세 여성, 심한 패혈증 및 괴사성 근막염. BP 88/60 mmHg, HR 120 BPM, R 28 breath/min, BT 39.6°C, SpO2 90% on 15 L O2 via non-rebreather mask. Pain severe. Vancomycin 1 g IV Q12H. High-flow O2 therapy 진행 중. Surgical debridement scheduled. Foley catheter in place. I/O positive balance. 환자 졸음 상태. ID 및 외과 팀 notify 함.",
+  "stt_metadata": {
+    "asr_system": "chirp3_auto",
+    "provider": "google",
+    "model": "chirp_3",
+    "location": "us",
+    "language_codes": [
+      "auto"
+    ],
+    "audio_path": "data/audio/scenario_078_telegraphic_icu.mp3",
+    "audio_sha256": "012991a89c49f4a8285e7c6af7b36dba3d54d6d99fe69e0a560b7d196739a766",
+    "transcribed_at": "2026-11-04T14:50:08+00:00",
+    "request_seconds": 4.53,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "metadata": {
+      "total_billed_duration": "26s",
+      "request_id": "6cbaf77a-0000-2597-9590-c82add8031b8",
+      "prompt": "Transcribe the following speech segment. Follow these specific instructions for formatting the answer:\n* Only output the transcript, with no newlines.\n* When transcribing numbers, write the digits, i.e. write 1.7 and not one point seven, and write 100 instead of one hundred etc.\n* Only output the transcript, exactly as said in the speech segment.\n* Do not continue the speech segment.\n* Include everything said in the speech segment.\n* Use mathematical notation where needed, eg. x ^ 6Y.\n* If there is background speech that is not part of the main conversation, discard the background speech and only output the main conversation.\n* If there is no clear speech, just output [BACKGROUND].\n* Respond in the original language of the speech."
+    },
+    "results": [
+      {
+        "alternatives": [
+          {
+            "transcript": "66세 여성, 심한 패혈증 및 괴사성 근막염. BP 88/60 mmHg, HR 120 BPM, R 28 breath/min, BT 39.6°C, SpO2 90% on 15 L O2 via non-rebreather mask. Pain severe. Vancomycin 1 g IV Q12H. High-flow O2 therapy 진행 중. Surgical debridement scheduled. Foley catheter in place. I/O positive balance. 환자 졸음 상태. ID 및 외과 팀 notify 함.",
+            "confidence": 0.0,
+            "words": []
+          }
+        ],
+        "language_code": "ko",
+        "channel_tag": 0
+      }
+    ],
+    "detected_language_codes": [
+      "ko"
+    ]
+  }
+}

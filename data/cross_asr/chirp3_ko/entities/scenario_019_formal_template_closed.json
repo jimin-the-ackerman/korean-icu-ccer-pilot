@@ -1,0 +1,113 @@
+{
+  "sample_id": "scenario_019_formal_template",
+  "gold_entities": {
+    "route": [
+      {
+        "raw": "정맥 내",
+        "normalized": "iv",
+        "position": 228
+      },
+      {
+        "raw": "근육주사",
+        "normalized": "im",
+        "position": 181
+      }
+    ],
+    "frequency": [
+      {
+        "raw": "즉시",
+        "normalized": "stat",
+        "position": 187
+      }
+    ],
+    "device": [
+      {
+        "raw": "비강 캐뉼라",
+        "normalized": "nc",
+        "position": 201
+      }
+    ],
+    "vital_sign": [
+      {
+        "raw": "혈압 85/50",
+        "label": "bp",
+        "value": "85/50",
+        "position": 57
+      },
+      {
+        "raw": "심박수 120",
+        "label": "hr",
+        "value": "120",
+        "position": 72
+      },
+      {
+        "raw": "호흡수 28",
+        "label": "rr",
+        "value": "28",
+        "position": 85
+      },
+      {
+        "raw": "체온 36.8",
+        "label": "bt",
+        "value": "36.8",
+        "position": 105
+      },
+      {
+        "raw": "산소포화도는 실내 공기에서 89%",
+        "label": "spo2",
+        "value": "89%",
+        "position": 116
+      }
+    ],
+    "dose": []
+  },
+  "whisper_entities": {
+    "route": [
+      {
+        "raw": "정맥 내",
+        "normalized": "iv",
+        "position": 225
+      },
+      {
+        "raw": "근육",
+        "normalized": "im",
+        "position": 178
+      }
+    ],
+    "frequency": [
+      {
+        "raw": "즉시",
+        "normalized": "stat",
+        "position": 185
+      }
+    ],
+    "device": [],
+    "vital_sign": [
+      {
+        "raw": "혈압 85/50",
+        "label": "bp",
+        "value": "85/50",
+        "position": 54
+      },
+      {
+        "raw": "심박수 120",
+        "label": "hr",
+        "value": "120",
+        "position": 69
+      },
+      {
+        "raw": "호흡수 28",
+        "label": "rr",
+        "value": "28",
+        "position": 82
+      },
+      {
+        "raw": "체온 36.8",
+        "label": "bt",
+        "value": "36.8",
+        "position": 101
+      }
+    ],
+    "dose": []
+  }
+}

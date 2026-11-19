@@ -1,0 +1,115 @@
+{
+  "sample_id": "scenario_030_formal_template",
+  "gold_entities": {
+    "route": [
+      {
+        "raw": "경구로",
+        "normalized": "po",
+        "position": 194
+      }
+    ],
+    "frequency": [
+      {
+        "raw": "12시간마다",
+        "normalized": "q12h",
+        "position": 198
+      }
+    ],
+    "device": [
+      {
+        "raw": "Foley",
+        "normalized": "foley",
+        "position": 213
+      }
+    ],
+    "vital_sign": [
+      {
+        "raw": "혈압이 142/90",
+        "label": "bp",
+        "value": "142/90",
+        "position": 67
+      },
+      {
+        "raw": "심박수가 92",
+        "label": "hr",
+        "value": "92",
+        "position": 84
+      },
+      {
+        "raw": "호흡수가 18",
+        "label": "rr",
+        "value": "18",
+        "position": 97
+      },
+      {
+        "raw": "체온이 37.5",
+        "label": "bt",
+        "value": "37.5",
+        "position": 110
+      },
+      {
+        "raw": "산소포화도가 96%",
+        "label": "spo2",
+        "value": "96%",
+        "position": 122
+      }
+    ],
+    "dose": []
+  },
+  "whisper_entities": {
+    "route": [
+      {
+        "raw": "경구로",
+        "normalized": "po",
+        "position": 172
+      }
+    ],
+    "frequency": [
+      {
+        "raw": "12시간마다",
+        "normalized": "q12h",
+        "position": 176
+      }
+    ],
+    "device": [
+      {
+        "raw": "폴리 카테터",
+        "normalized": "foley",
+        "position": 191
+      }
+    ],
+    "vital_sign": [
+      {
+        "raw": "혈압이 140/90",
+        "label": "bp",
+        "value": "140/90",
+        "position": 60
+      },
+      {
+        "raw": "심박수가 92",
+        "label": "hr",
+        "value": "92",
+        "position": 76
+      },
+      {
+        "raw": "호흡수가 18",
+        "label": "rr",
+        "value": "18",
+        "position": 88
+      },
+      {
+        "raw": "체온이 37.5",
+        "label": "bt",
+        "value": "37.5",
+        "position": 100
+      },
+      {
+        "raw": "산소포화도가 96%",
+        "label": "spo2",
+        "value": "96%",
+        "position": 111
+      }
+    ],
+    "dose": []
+  }
+}

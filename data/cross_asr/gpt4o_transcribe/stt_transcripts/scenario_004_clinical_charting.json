@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_004_clinical_charting",
+  "whisper_transcript": "사십오세 남성 환자 acute pancreatitis로 입원함. BP 96m 헐지엄, HRBA이지 BPNR, SPAT Breaths Min, BT 30T 데모슬, SPO2 95%. Severe abdominal pain 호소함. Morphine 4mg IV Q4H 투여함. Fluid resuscitation 적용함. Foley 유지함. Urine output 200ml over 4 hours 확인됨. Drowsy 상태 보임. 담당의 notify함.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": "ko",
+    "audio_path": "data/audio/scenario_004_clinical_charting.mp3",
+    "audio_sha256": "064bbcc97d148bafbf6595899164f1774cdc0b596de4c62f516ad0fe8705bd5e",
+    "transcribed_at": "2026-11-04T12:53:55+00:00",
+    "request_seconds": 1.64,
+    "attempts": 1,
+    "git_commit": "5b6d73fb63e1509a79e1a160176d606ed1b104c4",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "사십오세 남성 환자 acute pancreatitis로 입원함. BP 96m 헐지엄, HRBA이지 BPNR, SPAT Breaths Min, BT 30T 데모슬, SPO2 95%. Severe abdominal pain 호소함. Morphine 4mg IV Q4H 투여함. Fluid resuscitation 적용함. Foley 유지함. Urine output 200ml over 4 hours 확인됨. Drowsy 상태 보임. 담당의 notify함.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 237,
+      "output_tokens": 110,
+      "total_tokens": 347,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 237,
+        "text_tokens": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "sample_id": "scenario_019_clinical_charting",
+  "whisper_transcript": "Sore due to severe allergic reaction, anaphylaxis or E1M. BP 85, 50 millimeter hergram, HR1REBPM, RR28 breaths min, BT36.83, SpO2, 89% room air. Severe swelling of the face and lips, hwagindem. Epinephrine 0.3 milligrams, IM stat tuyoam. High flow nasal cannula tokyoam. IV fluids administration, shishyam. Urine output 50 milliliters per hour, yujidem. Hwaja sangtae drowsy to hwagindem. Allergy team notify him for further management.",
+  "stt_metadata": {
+    "asr_system": "whisper1_auto",
+    "provider": "openai",
+    "model": "whisper-1",
+    "language": null,
+    "scope": "pilot",
+    "audio_path": "data/audio/scenario_019_clinical_charting.mp3",
+    "audio_sha256": "934d35ec2178a7c9f2a428a2ae5481638a1acd280f9100978a6435877f5721cb",
+    "transcribed_at": "2026-11-04T13:40:44+00:00",
+    "request_seconds": 3.86,
+    "attempts": 1,
+    "git_commit": "5b6d73fb63e1509a79e1a160176d606ed1b104c4",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "Sore due to severe allergic reaction, anaphylaxis or E1M. BP 85, 50 millimeter hergram, HR1REBPM, RR28 breaths min, BT36.83, SpO2, 89% room air. Severe swelling of the face and lips, hwagindem. Epinephrine 0.3 milligrams, IM stat tuyoam. High flow nasal cannula tokyoam. IV fluids administration, shishyam. Urine output 50 milliliters per hour, yujidem. Hwaja sangtae drowsy to hwagindem. Allergy team notify him for further management.",
+    "logprobs": null,
+    "usage": {
+      "seconds": 30.0,
+      "type": "duration"
+    }
+  }
+}

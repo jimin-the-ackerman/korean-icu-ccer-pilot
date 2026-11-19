@@ -1,0 +1,43 @@
+{
+  "sample_id": "scenario_063_clinical_charting",
+  "whisper_transcript": "74세 여성 환자 SBP secondary to cirrhosis 의심암 BP 160 mmHg HR 98 BPM RR 24 breaths/min BT 37.8 SpO2 92% on room air. Abdominal pain moderate 호소함. Ceftriaxone 2g IV q12h 투여 중. Nasal cannula 2L/min 적용함. Folly 유지함. Strict input output monitoring 진행 중. Clinical status drowsy 확인됨. Decreased urine output, abdominal distention, 담당의 notify 함.",
+  "stt_metadata": {
+    "asr_system": "chirp3_auto",
+    "provider": "google",
+    "model": "chirp_3",
+    "location": "us",
+    "language_codes": [
+      "auto"
+    ],
+    "audio_path": "data/audio/scenario_063_clinical_charting.mp3",
+    "audio_sha256": "a8f5f9804792697097c03faa6c3e66975cbbc97c2b50de17bd5ab1d25f8ddda3",
+    "transcribed_at": "2026-11-04T14:32:27+00:00",
+    "request_seconds": 3.68,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "metadata": {
+      "total_billed_duration": "29s",
+      "request_id": "6b0c1e0a-0000-20d6-864b-f403043c1ec8",
+      "prompt": "Transcribe the following speech segment. Follow these specific instructions for formatting the answer:\n* Only output the transcript, with no newlines.\n* When transcribing numbers, write the digits, i.e. write 1.7 and not one point seven, and write 100 instead of one hundred etc.\n* Only output the transcript, exactly as said in the speech segment.\n* Do not continue the speech segment.\n* Include everything said in the speech segment.\n* Use mathematical notation where needed, eg. x ^ 6Y.\n* If there is background speech that is not part of the main conversation, discard the background speech and only output the main conversation.\n* If there is no clear speech, just output [BACKGROUND].\n* Respond in the original language of the speech."
+    },
+    "results": [
+      {
+        "alternatives": [
+          {
+            "transcript": "74세 여성 환자 SBP secondary to cirrhosis 의심암 BP 160 mmHg HR 98 BPM RR 24 breaths/min BT 37.8 SpO2 92% on room air. Abdominal pain moderate 호소함. Ceftriaxone 2g IV q12h 투여 중. Nasal cannula 2L/min 적용함. Folly 유지함. Strict input output monitoring 진행 중. Clinical status drowsy 확인됨. Decreased urine output, abdominal distention, 담당의 notify 함.",
+            "confidence": 0.0,
+            "words": []
+          }
+        ],
+        "language_code": "ko",
+        "channel_tag": 0
+      }
+    ],
+    "detected_language_codes": [
+      "ko"
+    ]
+  }
+}

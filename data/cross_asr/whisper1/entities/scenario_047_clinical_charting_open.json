@@ -1,0 +1,30 @@
+{
+  "sample_id": "scenario_047_clinical_charting",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "cough",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "drowsy",
+    "medication_identity": "Levofloxacin",
+    "interventions": [],
+    "intake_output": "fluid balance negative",
+    "notification": "담당의 notify함"
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "세벌 코프",
+        "negation": false
+      }
+    ],
+    "clinical_status": "드라우지 상태",
+    "medication_identity": "Levofloxacin",
+    "interventions": [],
+    "intake_output": "플루이드 밸런스 네기티브",
+    "notification": "담당에 노티파이함"
+  }
+}

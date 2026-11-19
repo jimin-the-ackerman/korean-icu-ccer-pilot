@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_087_telegraphic_icu",
+  "whisper_transcript": "সাশী বোসেন আমসাং সিভিয়ার টেটনেস রো ইওয়ান, BP এক্সাজিং কুশ্মের হর্গম, HRা খুঙ্পিএম আর সন্জিদি ব্রেথ্স মিন, BT সার্জাইত বম্পর্ণ্থ, SPO2 টিজি প্রস্রম এয়ার, সিভিয়ার মাসল স্পাজম্স, ডায়জাপাম 10 মিলগমাইড কিউট এইচ, নেজল কানেলার টু উন ডেব্রাইডমেন্ট শিযাং, এংজি টীউব্স হাবিপ, আয়য় স্ট্রিক্ট মনিটরিং, ড্রাউজি সংগ্তে, নিরালজি কনসল্থাম.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": "ko",
+    "audio_path": "data/audio/scenario_087_telegraphic_icu.mp3",
+    "audio_sha256": "e5706c57984fc7557031a2cac167ba3c989e3fa92212f5f3ae8953ce9f1f839e",
+    "transcribed_at": "2026-11-04T13:04:05+00:00",
+    "request_seconds": 2.57,
+    "attempts": 1,
+    "git_commit": "5b6d73fb63e1509a79e1a160176d606ed1b104c4",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "সাশী বোসেন আমসাং সিভিয়ার টেটনেস রো ইওয়ান, BP এক্সাজিং কুশ্মের হর্গম, HRা খুঙ্পিএম আর সন্জিদি ব্রেথ্স মিন, BT সার্জাইত বম্পর্ণ্থ, SPO2 টিজি প্রস্রম এয়ার, সিভিয়ার মাসল স্পাজম্স, ডায়জাপাম 10 মিলগমাইড কিউট এইচ, নেজল কানেলার টু উন ডেব্রাইডমেন্ট শিযাং, এংজি টীউব্স হাবিপ, আয়য় স্ট্রিক্ট মনিটরিং, ড্রাউজি সংগ্তে, নিরালজি কনসল্থাম.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 210,
+      "output_tokens": 171,
+      "total_tokens": 381,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 210,
+        "text_tokens": 0
+      }
+    }
+  }
+}

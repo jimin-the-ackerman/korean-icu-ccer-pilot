@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_010_clinical_charting",
+  "whisper_transcript": "사십하세 남성 환자 MVA 후 severe traumatic brain injury로 입원. BP 130/85, HR 50, RR 13, BT 36.9℃, SpO2 95% Headache 보임. Mannitol 100g IV Q세 적용함. 환자 ventilator 사용 중. ICP monitoring 유지함, 산소 보조 없음, I/O positive 확인됨. 환자 stuporous 상태.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe_auto",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": null,
+    "audio_path": "data/audio/scenario_010_clinical_charting.mp3",
+    "audio_sha256": "df43c6c9c6a4d0440eff01709bb828fbc5c8e05dbe6e4f4419f016ee6e212a2d",
+    "transcribed_at": "2026-11-04T14:04:35+00:00",
+    "request_seconds": 1.66,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "사십하세 남성 환자 MVA 후 severe traumatic brain injury로 입원. BP 130/85, HR 50, RR 13, BT 36.9℃, SpO2 95% Headache 보임. Mannitol 100g IV Q세 적용함. 환자 ventilator 사용 중. ICP monitoring 유지함, 산소 보조 없음, I/O positive 확인됨. 환자 stuporous 상태.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 209,
+      "output_tokens": 94,
+      "total_tokens": 303,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 209,
+        "text_tokens": 0
+      }
+    }
+  }
+}

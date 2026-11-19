@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_062_telegraphic_icu",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "chest pain",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "Drowsy",
+    "medication_identity": "Heparin",
+    "interventions": [],
+    "intake_output": "Negative fluid balance",
+    "notification": "Dr notify"
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "chest pain",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "drowsy",
+    "medication_identity": "heparin",
+    "interventions": [],
+    "intake_output": "negative fluid balance",
+    "notification": "dr notify"
+  }
+}

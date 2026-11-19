@@ -1,0 +1,93 @@
+{
+  "sample_id": "scenario_003_formal_template",
+  "gold_entities": {
+    "route": [
+      {
+        "raw": "PO",
+        "normalized": "po",
+        "position": 170
+      }
+    ],
+    "frequency": [],
+    "device": [],
+    "vital_sign": [
+      {
+        "raw": "혈압 145/90",
+        "label": "bp",
+        "value": "145/90",
+        "position": 39
+      },
+      {
+        "raw": "심박수 110",
+        "label": "hr",
+        "value": "110",
+        "position": 55
+      },
+      {
+        "raw": "호흡수 22",
+        "label": "rr",
+        "value": "22",
+        "position": 68
+      },
+      {
+        "raw": "체온 37.1",
+        "label": "bt",
+        "value": "37.1",
+        "position": 88
+      }
+    ],
+    "dose": [
+      {
+        "raw": "325 mg",
+        "value": "325",
+        "unit": "mg",
+        "position": 163
+      }
+    ]
+  },
+  "whisper_entities": {
+    "route": [
+      {
+        "raw": "PO",
+        "normalized": "po",
+        "position": 153
+      }
+    ],
+    "frequency": [],
+    "device": [],
+    "vital_sign": [
+      {
+        "raw": "혈압 145",
+        "label": "bp",
+        "value": "145",
+        "position": 35
+      },
+      {
+        "raw": "심박수 110",
+        "label": "hr",
+        "value": "110",
+        "position": 51
+      },
+      {
+        "raw": "호흡수 20",
+        "label": "rr",
+        "value": "20",
+        "position": 63
+      },
+      {
+        "raw": "체온 37.1",
+        "label": "bt",
+        "value": "37.1",
+        "position": 79
+      }
+    ],
+    "dose": [
+      {
+        "raw": "125mg",
+        "value": "125",
+        "unit": "mg",
+        "position": 147
+      }
+    ]
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_003_telegraphic_icu",
+  "whisper_transcript": "상체 T세열성, BP 145/94mmHg, HR 122, BT 37.1℃, SpO2 95% on NC. 심한 흉통. 아스피린 325mg PO stat, NC 사용 중, 심장 모니터링 중, C라인 유지 중, alert. 심장학 팀 통보.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe_auto",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": null,
+    "audio_path": "data/audio/scenario_003_telegraphic_icu.mp3",
+    "audio_sha256": "660ec7926413427ce9fd7c661161efa0a0abcc4f7973d26b501b7631d89e5e95",
+    "transcribed_at": "2026-11-04T14:03:55+00:00",
+    "request_seconds": 1.47,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "상체 T세열성, BP 145/94mmHg, HR 122, BT 37.1℃, SpO2 95% on NC. 심한 흉통. 아스피린 325mg PO stat, NC 사용 중, 심장 모니터링 중, C라인 유지 중, alert. 심장학 팀 통보.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 168,
+      "output_tokens": 79,
+      "total_tokens": 247,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 168,
+        "text_tokens": 0
+      }
+    }
+  }
+}

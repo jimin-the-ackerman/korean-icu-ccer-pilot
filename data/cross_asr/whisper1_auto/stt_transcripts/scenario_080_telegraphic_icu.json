@@ -1,0 +1,26 @@
+{
+  "sample_id": "scenario_080_telegraphic_icu",
+  "whisper_transcript": "50-year-old male, with I-corrosive liver disease, has been admitted to the Manseong General Hospital. BP 95, Fructus HR 152 BPM, RR 22 breaths min, BT 37.5, SpO2 88% on room air, severe jaundice, furosemide 40mg IVBID, 2L nasal cannula, Foley, negative fluid balance, drowsy. Hepatology consult requested.",
+  "stt_metadata": {
+    "asr_system": "whisper1_auto",
+    "provider": "openai",
+    "model": "whisper-1",
+    "language": null,
+    "scope": "pilot",
+    "audio_path": "data/audio/scenario_080_telegraphic_icu.mp3",
+    "audio_sha256": "d32fb27d3315cba782b2d3fd428a678ef3e932bed3e2d8c7a2eae048a2361d1a",
+    "transcribed_at": "2026-11-04T13:42:49+00:00",
+    "request_seconds": 1.69,
+    "attempts": 1,
+    "git_commit": "5b6d73fb63e1509a79e1a160176d606ed1b104c4",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "50-year-old male, with I-corrosive liver disease, has been admitted to the Manseong General Hospital. BP 95, Fructus HR 152 BPM, RR 22 breaths min, BT 37.5, SpO2 88% on room air, severe jaundice, furosemide 40mg IVBID, 2L nasal cannula, Foley, negative fluid balance, drowsy. Hepatology consult requested.",
+    "logprobs": null,
+    "usage": {
+      "seconds": 21.0,
+      "type": "duration"
+    }
+  }
+}

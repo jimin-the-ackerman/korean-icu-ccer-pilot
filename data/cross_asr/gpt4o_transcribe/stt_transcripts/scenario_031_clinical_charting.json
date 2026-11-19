@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_031_clinical_charting",
+  "whisper_transcript": "사르삼세 남성 severe acute pancreatitis 및 설수로 입원함. BP 92/18 mmHg, HR 비챕 X6 bpm, RR 38 breaths min, B32 제한 홍보리기 셀스, SpO2 92% room air. Severe abdominal pain 호소함. Morphine Vellumium IV Q4H 적용함. IV fluid resuscitation UGM. Negative fluid balance 500ml last 24 hours 확인됨. 임상 상태 drowsy, GI specialist consult 위해 담당해 notify함.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": "ko",
+    "audio_path": "data/audio/scenario_031_clinical_charting.mp3",
+    "audio_sha256": "20d27b5d7c2feac2da6abfacb3a9dcdd7a51f45af7a17ca660575f807feaf70f",
+    "transcribed_at": "2026-11-04T12:56:44+00:00",
+    "request_seconds": 2.49,
+    "attempts": 1,
+    "git_commit": "5b6d73fb63e1509a79e1a160176d606ed1b104c4",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "사르삼세 남성 severe acute pancreatitis 및 설수로 입원함. BP 92/18 mmHg, HR 비챕 X6 bpm, RR 38 breaths min, B32 제한 홍보리기 셀스, SpO2 92% room air. Severe abdominal pain 호소함. Morphine Vellumium IV Q4H 적용함. IV fluid resuscitation UGM. Negative fluid balance 500ml last 24 hours 확인됨. 임상 상태 drowsy, GI specialist consult 위해 담당해 notify함.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 262,
+      "output_tokens": 119,
+      "total_tokens": 381,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 262,
+        "text_tokens": 0
+      }
+    }
+  }
+}

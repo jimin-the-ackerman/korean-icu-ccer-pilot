@@ -1,0 +1,43 @@
+{
+  "sample_id": "scenario_016_telegraphic_icu",
+  "whisper_transcript": "소리보세요, 여성. 복부 농양으로 인한 중증 패혈증 입원. BP 85/50, HR 110, RR 22, BT 38.2, SpO2 92%. Severe fever. Meropenem 1g IV Q8H. Nasal cannula 사용. Abscess drainage. C-line 삽입. Negative fluid balance. Drowsy 상태. Elevated lactate. Doctor notify.",
+  "stt_metadata": {
+    "asr_system": "chirp3_auto",
+    "provider": "google",
+    "model": "chirp_3",
+    "location": "us",
+    "language_codes": [
+      "auto"
+    ],
+    "audio_path": "data/audio/scenario_016_telegraphic_icu.mp3",
+    "audio_sha256": "37e7a884a8f8843a0182150babfd5fa27fd9feb29f38d59463b77952a0b83b78",
+    "transcribed_at": "2026-11-04T14:21:00+00:00",
+    "request_seconds": 3.87,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "metadata": {
+      "total_billed_duration": "19s",
+      "request_id": "6e83d3ea-0000-21f2-a2d1-ac3eb146cefc",
+      "prompt": "Transcribe the following speech segment. Follow these specific instructions for formatting the answer:\n* Only output the transcript, with no newlines.\n* When transcribing numbers, write the digits, i.e. write 1.7 and not one point seven, and write 100 instead of one hundred etc.\n* Only output the transcript, exactly as said in the speech segment.\n* Do not continue the speech segment.\n* Include everything said in the speech segment.\n* Use mathematical notation where needed, eg. x ^ 6Y.\n* If there is background speech that is not part of the main conversation, discard the background speech and only output the main conversation.\n* If there is no clear speech, just output [BACKGROUND].\n* Respond in the original language of the speech."
+    },
+    "results": [
+      {
+        "alternatives": [
+          {
+            "transcript": "소리보세요, 여성. 복부 농양으로 인한 중증 패혈증 입원. BP 85/50, HR 110, RR 22, BT 38.2, SpO2 92%. Severe fever. Meropenem 1g IV Q8H. Nasal cannula 사용. Abscess drainage. C-line 삽입. Negative fluid balance. Drowsy 상태. Elevated lactate. Doctor notify.",
+            "confidence": 0.0,
+            "words": []
+          }
+        ],
+        "language_code": "ko",
+        "channel_tag": 0
+      }
+    ],
+    "detected_language_codes": [
+      "ko"
+    ]
+  }
+}

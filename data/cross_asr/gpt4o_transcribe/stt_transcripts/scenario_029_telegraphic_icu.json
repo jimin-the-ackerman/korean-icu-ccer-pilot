@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_029_telegraphic_icu",
+  "whisper_transcript": "42세 여성 GBS로 입원, BP 1385mmHg, HR 92 bpm, RR 18 breaths/min, BT 36.8°C, SpO2 89% room air, severe muscle weakness, IVIG 0.4g/kg IV q12h, nasal cannula 2L/min, plasmapheresis scheduled, ventilator 준비됨, Foley catheter, urine 1200 ml/24h, drowsy 상태, neurology team notify.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": "ko",
+    "audio_path": "data/audio/scenario_029_telegraphic_icu.mp3",
+    "audio_sha256": "ad6fa28bafe4f0a8c2c870d49e6ef94e19f6ad1160f6af631744596623b98afb",
+    "transcribed_at": "2026-11-04T12:56:36+00:00",
+    "request_seconds": 1.84,
+    "attempts": 1,
+    "git_commit": "5b6d73fb63e1509a79e1a160176d606ed1b104c4",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "42세 여성 GBS로 입원, BP 1385mmHg, HR 92 bpm, RR 18 breaths/min, BT 36.8°C, SpO2 89% room air, severe muscle weakness, IVIG 0.4g/kg IV q12h, nasal cannula 2L/min, plasmapheresis scheduled, ventilator 준비됨, Foley catheter, urine 1200 ml/24h, drowsy 상태, neurology team notify.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 226,
+      "output_tokens": 103,
+      "total_tokens": 329,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 226,
+        "text_tokens": 0
+      }
+    }
+  }
+}

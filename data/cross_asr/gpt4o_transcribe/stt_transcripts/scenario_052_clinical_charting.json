@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_052_clinical_charting",
+  "whisper_transcript": "72세 남성, hip replacement 후 post-op complication으로 입원함. BP 130/85mmHg 확인됨. HR 95bpm 유지됨. RR 18 breaths/min 확인됨. BT 37.5도 확인됨. SpO2 97% on room air 확인됨. Moderate pain 호소함. Morphine 2mg IV q4h 적용함. Foley 유지 중임. Urine output 400ml/6hr 확인됨. Clinical status alert 상태 유지함.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": "ko",
+    "audio_path": "data/audio/scenario_052_clinical_charting.mp3",
+    "audio_sha256": "bbf4067e617de3853fffd235bd9a22a24a214e61e195204b7bdc9508664ed540",
+    "transcribed_at": "2026-11-04T12:59:04+00:00",
+    "request_seconds": 1.61,
+    "attempts": 1,
+    "git_commit": "5b6d73fb63e1509a79e1a160176d606ed1b104c4",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "72세 남성, hip replacement 후 post-op complication으로 입원함. BP 130/85mmHg 확인됨. HR 95bpm 유지됨. RR 18 breaths/min 확인됨. BT 37.5도 확인됨. SpO2 97% on room air 확인됨. Moderate pain 호소함. Morphine 2mg IV q4h 적용함. Foley 유지 중임. Urine output 400ml/6hr 확인됨. Clinical status alert 상태 유지함.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 251,
+      "output_tokens": 107,
+      "total_tokens": 358,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 251,
+        "text_tokens": 0
+      }
+    }
+  }
+}

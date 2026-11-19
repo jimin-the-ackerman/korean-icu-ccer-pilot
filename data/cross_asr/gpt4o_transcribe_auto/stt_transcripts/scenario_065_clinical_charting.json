@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_065_clinical_charting",
+  "whisper_transcript": "56세 여성 환자. 텐으로 입원함. BP 110/70mmHg, HR 88bpm, RR 12 breaths/min, BP 38.5도cels, SpO2 97%ur. Severe skin rash 확인됨. Methylprednisolone 렉년 15mg IV q6h 처방심. IV fluids 팩 밀리리터/hr 유지함. 환자 alert 상태 유지함.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe_auto",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": null,
+    "audio_path": "data/audio/scenario_065_clinical_charting.mp3",
+    "audio_sha256": "ca1d10b0fced77fc569b37d1dd1c602e1d08fccd6dcb25aad09c971d3efb2984",
+    "transcribed_at": "2026-11-04T14:11:17+00:00",
+    "request_seconds": 1.55,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "56세 여성 환자. 텐으로 입원함. BP 110/70mmHg, HR 88bpm, RR 12 breaths/min, BP 38.5도cels, SpO2 97%ur. Severe skin rash 확인됨. Methylprednisolone 렉년 15mg IV q6h 처방심. IV fluids 팩 밀리리터/hr 유지함. 환자 alert 상태 유지함.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 204,
+      "output_tokens": 96,
+      "total_tokens": 300,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 204,
+        "text_tokens": 0
+      }
+    }
+  }
+}

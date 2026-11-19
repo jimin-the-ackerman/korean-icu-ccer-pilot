@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_056_telegraphic_icu",
+  "whisper_transcript": "소티세 여성, 급성 천식 악화로 입원 BP 155/100mmHg HR 110 BPM, RR 32 breaths/min BT 37.5°C, SpO2 88% RA, wheezing severe, 알부테롤 2.5mg IV Q4H, HFNZ 튜브 삽입됨, negative fluid balance 500ml, drowsy 상태. Pulmo team notify.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": "ko",
+    "audio_path": "data/audio/scenario_056_telegraphic_icu.mp3",
+    "audio_sha256": "1cf2a3fd57a376d914fc5e7ae5c6f0963275a61ac5c1d0c08de71b381b120351",
+    "transcribed_at": "2026-11-04T12:59:35+00:00",
+    "request_seconds": 1.68,
+    "attempts": 1,
+    "git_commit": "5b6d73fb63e1509a79e1a160176d606ed1b104c4",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "소티세 여성, 급성 천식 악화로 입원 BP 155/100mmHg HR 110 BPM, RR 32 breaths/min BT 37.5°C, SpO2 88% RA, wheezing severe, 알부테롤 2.5mg IV Q4H, HFNZ 튜브 삽입됨, negative fluid balance 500ml, drowsy 상태. Pulmo team notify.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 193,
+      "output_tokens": 94,
+      "total_tokens": 287,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 193,
+        "text_tokens": 0
+      }
+    }
+  }
+}

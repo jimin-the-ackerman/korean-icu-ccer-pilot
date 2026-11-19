@@ -1,0 +1,36 @@
+{
+  "sample_id": "scenario_085_clinical_charting",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "cough",
+        "negation": false,
+        "severity": "moderate"
+      }
+    ],
+    "clinical_status": "Drowsy",
+    "medication_identity": "Piperacillin-tazobactam",
+    "interventions": [],
+    "intake_output": "Positive fluid balance 확인됨",
+    "notification": "Pulmonologist notify함"
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "급성 호흡곤란",
+        "negation": false,
+        "severity": null
+      },
+      {
+        "name": "기침",
+        "negation": false,
+        "severity": "moderate"
+      }
+    ],
+    "clinical_status": "졸음 상태",
+    "medication_identity": "피페라실린-타조박탐",
+    "interventions": [],
+    "intake_output": "양성 수액 균형 확인됨",
+    "notification": "폐과 의사에게 알림"
+  }
+}

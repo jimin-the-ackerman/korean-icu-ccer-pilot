@@ -1,0 +1,25 @@
+{
+  "sample_id": "scenario_017_telegraphic_icu",
+  "whisper_transcript": "50 cymes, AL song, severe hypoglycemia to E1. BP, 1-metastatic stalagmite, lignoarum, TBPM, RL, men, BT, thyrgics don't both, SpO2, 95%. Confusion moderate, dextrose 50 per 20 grams, IV stat, IV dextrose administration, posits due to IV fluids. Drowsy. Endocrinologist notify.",
+  "stt_metadata": {
+    "asr_system": "whisper1_auto",
+    "provider": "openai",
+    "model": "whisper-1",
+    "language": null,
+    "audio_path": "data/audio/scenario_017_telegraphic_icu.mp3",
+    "audio_sha256": "8046d4f2555322933e0ae813b8a1cf1e1521bd2dc9d60cdb2b545b66b61bedb5",
+    "transcribed_at": "2026-11-04T13:51:18+00:00",
+    "request_seconds": 2.69,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "50 cymes, AL song, severe hypoglycemia to E1. BP, 1-metastatic stalagmite, lignoarum, TBPM, RL, men, BT, thyrgics don't both, SpO2, 95%. Confusion moderate, dextrose 50 per 20 grams, IV stat, IV dextrose administration, posits due to IV fluids. Drowsy. Endocrinologist notify.",
+    "logprobs": null,
+    "usage": {
+      "seconds": 20.0,
+      "type": "duration"
+    }
+  }
+}

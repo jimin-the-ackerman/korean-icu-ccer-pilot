@@ -1,0 +1,25 @@
+{
+  "sample_id": "scenario_069_formal_template",
+  "whisper_transcript": "57세 남성 환자가 급성 해로윈 과다 복용으로 입원하였다. 활력 증후는 혈압 98-60mmg, 심박수 45ppm, 호흡수 8breaths min, 체온 36.556C로 확인되었다. 산소 포화도는 실내 공기에서 85%로 측정되었다. 환자는 심각한 수준의 의식 소실을 보였으며 반응이 없었다. 날렉선 0.4mg이 정맥 주사로 즉시 투여되었다. 고유량 비강 케튤라로 산소를 공급하고 있다.",
+  "stt_metadata": {
+    "asr_system": "whisper1_auto",
+    "provider": "openai",
+    "model": "whisper-1",
+    "language": null,
+    "audio_path": "data/audio/scenario_069_formal_template.mp3",
+    "audio_sha256": "a6ba28fc6d9c7b845fc450393c5baf46b7136b52c71acd3ce19fec601cae129c",
+    "transcribed_at": "2026-11-04T13:58:19+00:00",
+    "request_seconds": 1.94,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "57세 남성 환자가 급성 해로윈 과다 복용으로 입원하였다. 활력 증후는 혈압 98-60mmg, 심박수 45ppm, 호흡수 8breaths min, 체온 36.556C로 확인되었다. 산소 포화도는 실내 공기에서 85%로 측정되었다. 환자는 심각한 수준의 의식 소실을 보였으며 반응이 없었다. 날렉선 0.4mg이 정맥 주사로 즉시 투여되었다. 고유량 비강 케튤라로 산소를 공급하고 있다.",
+    "logprobs": null,
+    "usage": {
+      "seconds": 29.0,
+      "type": "duration"
+    }
+  }
+}

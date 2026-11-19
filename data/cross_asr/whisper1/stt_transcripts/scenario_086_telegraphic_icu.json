@@ -1,0 +1,25 @@
+{
+  "sample_id": "scenario_086_telegraphic_icu",
+  "whisper_transcript": "55세 여성 aml fibrin neutropenia bp90 60mg 10 bpm r 24 breaths min b 39.2 sp o 2 96 percent romare severe fever piperlazontas bactum 4.5 gram iv q6 h antibiotic therapy shjak drowsy oncologist notify",
+  "stt_metadata": {
+    "asr_system": "whisper1",
+    "provider": "reuse_existing",
+    "model": "whisper-1",
+    "language": "ko",
+    "audio_path": "data/audio/scenario_086_telegraphic_icu.mp3",
+    "audio_sha256": "a82ecaa91f239ff8914cf156ee2d229261a195329404fc0944a182df0f7894d1",
+    "copied_at": "2026-11-04T04:31:12+00:00",
+    "request_seconds": 0.0,
+    "attempts": 1,
+    "git_commit": "b3490181b3fb3f88b56cde5be78a01cfdcef3007",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "source_file": "data/stt_transcripts/scenario_086_telegraphic_icu.json",
+    "source_sha256": "1d9a4bf5d9798c360ce9c735469a02b840703af5f714c2f8b04560e1a8401800",
+    "source_stt_metadata": {
+      "model": "whisper-1",
+      "language": "ko"
+    }
+  }
+}

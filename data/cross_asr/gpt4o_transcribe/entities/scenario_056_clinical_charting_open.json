@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_056_clinical_charting",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "wheezing",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "drowsy",
+    "medication_identity": "Albuterol",
+    "interventions": [],
+    "intake_output": "Negative fluid balance of 500 ml",
+    "notification": "Pulmonology team notify함"
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "wheezing",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "drowsy",
+    "medication_identity": "알부터럴",
+    "interventions": [],
+    "intake_output": "네거티브 fluid balance of 5 rod milliliter 확인됨",
+    "notification": "pulmonology team notify함"
+  }
+}

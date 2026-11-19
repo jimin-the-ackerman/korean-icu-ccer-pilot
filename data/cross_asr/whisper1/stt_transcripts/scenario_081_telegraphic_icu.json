@@ -1,0 +1,25 @@
+{
+  "sample_id": "scenario_081_telegraphic_icu",
+  "whisper_transcript": "60m CHF-HTN-Crisis, BP-200, 1-10mHg, HR-1-10bpm, RR-24, BT-37.4dx, SpO2-88%Ra, Severe Dyspnea, Furosemide 40mg IV-STAT, O2-2Nc, Fully in Place, Negative Fluid Balance 500mL, Drowsy, Cardiology Team Notified.",
+  "stt_metadata": {
+    "asr_system": "whisper1",
+    "provider": "reuse_existing",
+    "model": "whisper-1",
+    "language": "ko",
+    "audio_path": "data/audio/scenario_081_telegraphic_icu.mp3",
+    "audio_sha256": "2e80dd7dff809341f221b8d63449a64d90e7843c5e6eb90b4beadded69556fd9",
+    "copied_at": "2026-11-04T04:31:12+00:00",
+    "request_seconds": 0.0,
+    "attempts": 1,
+    "git_commit": "b3490181b3fb3f88b56cde5be78a01cfdcef3007",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "source_file": "data/stt_transcripts/scenario_081_telegraphic_icu.json",
+    "source_sha256": "1e4aab33ff3892a2cd24a583dc11c6a4579bec11edc7fbc98eaf38bbf1897a5e",
+    "source_stt_metadata": {
+      "model": "whisper-1",
+      "language": "ko"
+    }
+  }
+}

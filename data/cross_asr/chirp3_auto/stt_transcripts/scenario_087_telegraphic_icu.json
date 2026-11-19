@@ -1,0 +1,43 @@
+{
+  "sample_id": "scenario_087_telegraphic_icu",
+  "whisper_transcript": "45-year-old male, severe tetanus to ICU, BP 140/90, HR 110, RR 25, BT 38.5, SpO2 92% on room air, severe muscle spasms, diazepam 10 mg q8h, nasal cannula 2 L, wound debridement, NG tube, I/O strict monitoring, drowsy, neurology consult.",
+  "stt_metadata": {
+    "asr_system": "chirp3_auto",
+    "provider": "google",
+    "model": "chirp_3",
+    "location": "us",
+    "language_codes": [
+      "auto"
+    ],
+    "audio_path": "data/audio/scenario_087_telegraphic_icu.mp3",
+    "audio_sha256": "e5706c57984fc7557031a2cac167ba3c989e3fa92212f5f3ae8953ce9f1f839e",
+    "transcribed_at": "2026-11-04T14:52:14+00:00",
+    "request_seconds": 3.32,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "metadata": {
+      "total_billed_duration": "21s",
+      "request_id": "6dfa53fa-0000-2f86-a262-34391606c50b",
+      "prompt": "Transcribe the following speech segment. Follow these specific instructions for formatting the answer:\n* Only output the transcript, with no newlines.\n* When transcribing numbers, write the digits, i.e. write 1.7 and not one point seven, and write 100 instead of one hundred etc.\n* Only output the transcript, exactly as said in the speech segment.\n* Do not continue the speech segment.\n* Include everything said in the speech segment.\n* Use mathematical notation where needed, eg. x ^ 6Y.\n* If there is background speech that is not part of the main conversation, discard the background speech and only output the main conversation.\n* If there is no clear speech, just output [BACKGROUND].\n* Respond in the original language of the speech."
+    },
+    "results": [
+      {
+        "alternatives": [
+          {
+            "transcript": "45-year-old male, severe tetanus to ICU, BP 140/90, HR 110, RR 25, BT 38.5, SpO2 92% on room air, severe muscle spasms, diazepam 10 mg q8h, nasal cannula 2 L, wound debridement, NG tube, I/O strict monitoring, drowsy, neurology consult.",
+            "confidence": 0.0,
+            "words": []
+          }
+        ],
+        "language_code": "en",
+        "channel_tag": 0
+      }
+    ],
+    "detected_language_codes": [
+      "en"
+    ]
+  }
+}

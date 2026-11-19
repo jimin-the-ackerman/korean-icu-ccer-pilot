@@ -1,0 +1,46 @@
+{
+  "sample_id": "scenario_074_telegraphic_icu",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "unconsciousness",
+        "negation": false,
+        "severity": "severe"
+      },
+      {
+        "name": "unresponsive",
+        "negation": false,
+        "severity": null
+      }
+    ],
+    "clinical_status": "unresponsive, severe unconsciousness, coma",
+    "medication_identity": "Dextrose 50%",
+    "interventions": [],
+    "intake_output": null,
+    "notification": "Endocrinologist notify"
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "hypoglycemic coma",
+        "negation": false,
+        "severity": "severe"
+      },
+      {
+        "name": "unconsciousness",
+        "negation": false,
+        "severity": "severe"
+      },
+      {
+        "name": "unresponsive",
+        "negation": false,
+        "severity": null
+      }
+    ],
+    "clinical_status": "unconsciousness",
+    "medication_identity": "dextrose 50%",
+    "interventions": [],
+    "intake_output": null,
+    "notification": "endocrinologist notify"
+  }
+}

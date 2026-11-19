@@ -1,0 +1,43 @@
+{
+  "sample_id": "scenario_065_clinical_charting",
+  "whisper_transcript": "56세 여성 환자, 10 15 100 10 55 10 38 92 severe skin rash 확인됨. methylprednisolone 125 mg IV Q6 hr IV fluids 100 mL/hr 유지함. 환자 alert 상태 유지함.",
+  "stt_metadata": {
+    "asr_system": "chirp3_auto",
+    "provider": "google",
+    "model": "chirp_3",
+    "location": "us",
+    "language_codes": [
+      "auto"
+    ],
+    "audio_path": "data/audio/scenario_065_clinical_charting.mp3",
+    "audio_sha256": "ca1d10b0fced77fc569b37d1dd1c602e1d08fccd6dcb25aad09c971d3efb2984",
+    "transcribed_at": "2026-11-04T14:46:43+00:00",
+    "request_seconds": 4.52,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "metadata": {
+      "total_billed_duration": "21s",
+      "request_id": "6bd79fb9-0000-2b6a-b28b-343916054743",
+      "prompt": "Transcribe the following speech segment. Follow these specific instructions for formatting the answer:\n* Only output the transcript, with no newlines.\n* When transcribing numbers, write the digits, i.e. write 1.7 and not one point seven, and write 100 instead of one hundred etc.\n* Only output the transcript, exactly as said in the speech segment.\n* Do not continue the speech segment.\n* Include everything said in the speech segment.\n* Use mathematical notation where needed, eg. x ^ 6Y.\n* If there is background speech that is not part of the main conversation, discard the background speech and only output the main conversation.\n* If there is no clear speech, just output [BACKGROUND].\n* Respond in the original language of the speech."
+    },
+    "results": [
+      {
+        "alternatives": [
+          {
+            "transcript": "56세 여성 환자, 10 15 100 10 55 10 38 92 severe skin rash 확인됨. methylprednisolone 125 mg IV Q6 hr IV fluids 100 mL/hr 유지함. 환자 alert 상태 유지함.",
+            "confidence": 0.0,
+            "words": []
+          }
+        ],
+        "language_code": "ko",
+        "channel_tag": 0
+      }
+    ],
+    "detected_language_codes": [
+      "ko"
+    ]
+  }
+}

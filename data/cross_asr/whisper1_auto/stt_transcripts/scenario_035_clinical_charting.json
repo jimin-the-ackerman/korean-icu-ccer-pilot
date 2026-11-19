@@ -1,0 +1,25 @@
+{
+  "sample_id": "scenario_035_clinical_charting",
+  "whisper_transcript": "60-week pregnancy. Acute decompensated heart failure to E1. Dilated cardiomyopathy. Keenum. BP, Tyne G5, 60-millimeter gram. HR, BPM, R24 breaths min. BT, 36.8. Dixuse, SpO2, 90% on room air. Huagindem. Shortness of breath, severe. Furosemide, 40 milligrams IV. Q8H, Chogyowam. 4-albumin via nasal cannula. Sansogongup, UGM. Foley, UGM. IO, negative balance of 500 milliliter over 24 hours. Clinical status, drowsy. Huagindem. Cardiology team notify him for persistent hypotension.",
+  "stt_metadata": {
+    "asr_system": "whisper1_auto",
+    "provider": "openai",
+    "model": "whisper-1",
+    "language": null,
+    "audio_path": "data/audio/scenario_035_clinical_charting.mp3",
+    "audio_sha256": "fb85f12693372d504dbfa8d33f909792a15041f1cba1c7c59e4ad269aa9c6346",
+    "transcribed_at": "2026-11-04T13:53:02+00:00",
+    "request_seconds": 3.1,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "60-week pregnancy. Acute decompensated heart failure to E1. Dilated cardiomyopathy. Keenum. BP, Tyne G5, 60-millimeter gram. HR, BPM, R24 breaths min. BT, 36.8. Dixuse, SpO2, 90% on room air. Huagindem. Shortness of breath, severe. Furosemide, 40 milligrams IV. Q8H, Chogyowam. 4-albumin via nasal cannula. Sansogongup, UGM. Foley, UGM. IO, negative balance of 500 milliliter over 24 hours. Clinical status, drowsy. Huagindem. Cardiology team notify him for persistent hypotension.",
+    "logprobs": null,
+    "usage": {
+      "seconds": 32.0,
+      "type": "duration"
+    }
+  }
+}

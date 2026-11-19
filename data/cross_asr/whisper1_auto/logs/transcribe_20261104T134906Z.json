@@ -1,0 +1,1644 @@
+{
+  "asr": "whisper1_auto",
+  "settings": {
+    "provider": "openai",
+    "model": "whisper-1",
+    "language": null
+  },
+  "pilot": false,
+  "limit": null,
+  "started_at": "2026-11-04T13:49:06+00:00",
+  "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+  "config_version": "1.0",
+  "max_attempts": 3,
+  "entries": [
+    {
+      "sample_id": "scenario_001_clinical_charting",
+      "status": "processed",
+      "request_seconds": 2.51,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_001_formal_template",
+      "status": "processed",
+      "request_seconds": 4.13,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_001_telegraphic_icu",
+      "status": "processed",
+      "request_seconds": 3.56,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_002_clinical_charting",
+      "status": "processed",
+      "request_seconds": 1.76,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_002_formal_template",
+      "status": "processed",
+      "request_seconds": 2.54,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_002_telegraphic_icu",
+      "status": "processed",
+      "request_seconds": 2.37,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_003_clinical_charting",
+      "status": "processed",
+      "request_seconds": 3.37,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_003_formal_template",
+      "status": "processed",
+      "request_seconds": 3.82,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_003_telegraphic_icu",
+      "status": "processed",
+      "request_seconds": 2.46,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_004_clinical_charting",
+      "status": "processed",
+      "request_seconds": 1.84,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_004_formal_template",
+      "status": "processed",
+      "request_seconds": 4.24,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_004_telegraphic_icu",
+      "status": "processed",
+      "request_seconds": 2.28,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_005_clinical_charting",
+      "status": "processed",
+      "request_seconds": 2.37,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_005_formal_template",
+      "status": "processed",
+      "request_seconds": 4.56,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_005_telegraphic_icu",
+      "status": "processed",
+      "request_seconds": 1.43,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_006_clinical_charting",
+      "status": "processed",
+      "request_seconds": 2.74,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_006_formal_template",
+      "status": "processed",
+      "request_seconds": 3.76,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_006_telegraphic_icu",
+      "status": "processed",
+      "request_seconds": 2.76,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_008_clinical_charting",
+      "status": "processed",
+      "request_seconds": 2.76,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_008_formal_template",
+      "status": "processed",
+      "request_seconds": 5.11,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_008_telegraphic_icu",
+      "status": "processed",
+      "request_seconds": 2.31,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_009_clinical_charting",
+      "status": "processed",
+      "request_seconds": 2.1,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_009_formal_template",
+      "status": "processed",
+      "request_seconds": 4.34,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_009_telegraphic_icu",
+      "status": "processed",
+      "request_seconds": 2.41,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_010_clinical_charting",
+      "status": "processed",
+      "request_seconds": 2.87,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_010_formal_template",
+      "status": "processed",
+      "request_seconds": 5.1,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_010_telegraphic_icu",
+      "status": "processed",
+      "request_seconds": 2.41,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_011_clinical_charting",
+      "status": "processed",
+      "request_seconds": 2.06,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_011_formal_template",
+      "status": "processed",
+      "request_seconds": 3.79,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_011_telegraphic_icu",
+      "status": "processed",
+      "request_seconds": 1.59,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_013_clinical_charting",
+      "status": "processed",
+      "request_seconds": 2.63,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_013_formal_template",
+      "status": "processed",
+      "request_seconds": 2.64,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_013_telegraphic_icu",
+      "status": "processed",
+      "request_seconds": 3.34,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_014_clinical_charting",
+      "status": "processed",
+      "request_seconds": 3.26,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_014_formal_template",
+      "status": "processed",
+      "request_seconds": 3.89,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_014_telegraphic_icu",
+      "status": "processed",
+      "request_seconds": 2.29,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_015_clinical_charting",
+      "status": "processed",
+      "request_seconds": 3.48,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_015_formal_template",
+      "status": "processed",
+      "request_seconds": 4.12,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_015_telegraphic_icu",
+      "status": "processed",
+      "request_seconds": 1.59,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_016_clinical_charting",
+      "status": "processed",
+      "request_seconds": 2.07,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_016_formal_template",
+      "status": "processed",
+      "request_seconds": 4.07,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_016_telegraphic_icu",
+      "status": "processed",
+      "request_seconds": 1.44,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_017_clinical_charting",
+      "status": "processed",
+      "request_seconds": 1.82,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_017_formal_template",
+      "status": "processed",
+      "request_seconds": 2.52,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_017_telegraphic_icu",
+      "status": "processed",
+      "request_seconds": 2.69,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_020_clinical_charting",
+      "status": "processed",
+      "request_seconds": 2.2,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_020_formal_template",
+      "status": "processed",
+      "request_seconds": 3.15,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_020_telegraphic_icu",
+      "status": "processed",
+      "request_seconds": 2.68,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_022_clinical_charting",
+      "status": "processed",
+      "request_seconds": 2.54,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_022_formal_template",
+      "status": "processed",
+      "request_seconds": 5.23,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_022_telegraphic_icu",
+      "status": "processed",
+      "request_seconds": 2.44,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_023_clinical_charting",
+      "status": "processed",
+      "request_seconds": 2.59,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_023_formal_template",
+      "status": "processed",
+      "request_seconds": 1.79,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_023_telegraphic_icu",
+      "status": "processed",
+      "request_seconds": 2.44,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_024_clinical_charting",
+      "status": "processed",
+      "request_seconds": 4.03,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_024_formal_template",
+      "status": "processed",
+      "request_seconds": 2.16,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_024_telegraphic_icu",
+      "status": "processed",
+      "request_seconds": 1.26,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_026_clinical_charting",
+      "status": "processed",
+      "request_seconds": 3.35,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_026_formal_template",
+      "status": "processed",
+      "request_seconds": 2.59,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_026_telegraphic_icu",
+      "status": "processed",
+      "request_seconds": 1.78,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_027_clinical_charting",
+      "status": "processed",
+      "request_seconds": 3.96,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_027_formal_template",
+      "status": "processed",
+      "request_seconds": 3.71,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_027_telegraphic_icu",
+      "status": "processed",
+      "request_seconds": 1.56,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_028_clinical_charting",
+      "status": "processed",
+      "request_seconds": 2.13,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_028_formal_template",
+      "status": "processed",
+      "request_seconds": 4.26,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_028_telegraphic_icu",
+      "status": "processed",
+      "request_seconds": 1.22,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_029_clinical_charting",
+      "status": "processed",
+      "request_seconds": 3.44,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_029_formal_template",
+      "status": "processed",
+      "request_seconds": 3.85,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_029_telegraphic_icu",
+      "status": "processed",
+      "request_seconds": 3.89,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_030_clinical_charting",
+      "status": "processed",
+      "request_seconds": 2.01,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_030_formal_template",
+      "status": "processed",
+      "request_seconds": 3.4,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_030_telegraphic_icu",
+      "status": "processed",
+      "request_seconds": 1.47,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_031_clinical_charting",
+      "status": "processed",
+      "request_seconds": 2.59,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_031_formal_template",
+      "status": "processed",
+      "request_seconds": 4.58,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_031_telegraphic_icu",
+      "status": "processed",
+      "request_seconds": 1.41,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_032_clinical_charting",
+      "status": "processed",
+      "request_seconds": 2.74,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_032_formal_template",
+      "status": "processed",
+      "request_seconds": 3.77,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_032_telegraphic_icu",
+      "status": "processed",
+      "request_seconds": 2.67,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_034_clinical_charting",
+      "status": "processed",
+      "request_seconds": 3.14,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_034_formal_template",
+      "status": "processed",
+      "request_seconds": 2.58,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_034_telegraphic_icu",
+      "status": "processed",
+      "request_seconds": 1.81,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_035_clinical_charting",
+      "status": "processed",
+      "request_seconds": 3.1,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_035_formal_template",
+      "status": "processed",
+      "request_seconds": 3.07,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_035_telegraphic_icu",
+      "status": "processed",
+      "request_seconds": 1.41,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_036_clinical_charting",
+      "status": "processed",
+      "request_seconds": 2.02,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_036_formal_template",
+      "status": "processed",
+      "request_seconds": 3.84,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_036_telegraphic_icu",
+      "status": "processed",
+      "request_seconds": 2.37,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_037_clinical_charting",
+      "status": "processed",
+      "request_seconds": 1.81,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_037_formal_template",
+      "status": "processed",
+      "request_seconds": 3.25,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_037_telegraphic_icu",
+      "status": "processed",
+      "request_seconds": 1.49,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_038_clinical_charting",
+      "status": "processed",
+      "request_seconds": 2.67,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_038_formal_template",
+      "status": "processed",
+      "request_seconds": 2.46,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_038_telegraphic_icu",
+      "status": "processed",
+      "request_seconds": 3.39,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_039_clinical_charting",
+      "status": "processed",
+      "request_seconds": 4.29,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_039_formal_template",
+      "status": "processed",
+      "request_seconds": 3.86,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_039_telegraphic_icu",
+      "status": "processed",
+      "request_seconds": 1.91,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_040_clinical_charting",
+      "status": "processed",
+      "request_seconds": 2.03,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_040_formal_template",
+      "status": "processed",
+      "request_seconds": 2.41,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_040_telegraphic_icu",
+      "status": "processed",
+      "request_seconds": 1.69,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_041_clinical_charting",
+      "status": "processed",
+      "request_seconds": 6.52,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_041_formal_template",
+      "status": "processed",
+      "request_seconds": 3.14,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_041_telegraphic_icu",
+      "status": "processed",
+      "request_seconds": 1.2,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_042_clinical_charting",
+      "status": "processed",
+      "request_seconds": 2.78,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_042_formal_template",
+      "status": "processed",
+      "request_seconds": 3.37,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_042_telegraphic_icu",
+      "status": "processed",
+      "request_seconds": 1.34,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_043_clinical_charting",
+      "status": "processed",
+      "request_seconds": 1.7,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_043_formal_template",
+      "status": "processed",
+      "request_seconds": 3.02,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_043_telegraphic_icu",
+      "status": "processed",
+      "request_seconds": 1.39,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_044_clinical_charting",
+      "status": "processed",
+      "request_seconds": 3.05,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_044_formal_template",
+      "status": "processed",
+      "request_seconds": 4.56,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_044_telegraphic_icu",
+      "status": "processed",
+      "request_seconds": 1.63,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_045_clinical_charting",
+      "status": "processed",
+      "request_seconds": 3.05,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_045_formal_template",
+      "status": "processed",
+      "request_seconds": 3.67,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_045_telegraphic_icu",
+      "status": "processed",
+      "request_seconds": 1.6,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_046_clinical_charting",
+      "status": "processed",
+      "request_seconds": 1.2,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_046_formal_template",
+      "status": "processed",
+      "request_seconds": 3.17,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_046_telegraphic_icu",
+      "status": "processed",
+      "request_seconds": 3.45,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_047_clinical_charting",
+      "status": "processed",
+      "request_seconds": 1.98,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_047_formal_template",
+      "status": "processed",
+      "request_seconds": 5.08,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_047_telegraphic_icu",
+      "status": "processed",
+      "request_seconds": 2.11,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_048_clinical_charting",
+      "status": "processed",
+      "request_seconds": 2.3,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_048_formal_template",
+      "status": "processed",
+      "request_seconds": 4.06,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_048_telegraphic_icu",
+      "status": "processed",
+      "request_seconds": 3.15,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_049_clinical_charting",
+      "status": "processed",
+      "request_seconds": 2.81,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_049_formal_template",
+      "status": "processed",
+      "request_seconds": 3.68,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_049_telegraphic_icu",
+      "status": "processed",
+      "request_seconds": 2.8,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_050_clinical_charting",
+      "status": "processed",
+      "request_seconds": 2.9,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_050_formal_template",
+      "status": "processed",
+      "request_seconds": 2.58,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_050_telegraphic_icu",
+      "status": "processed",
+      "request_seconds": 1.62,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_051_clinical_charting",
+      "status": "processed",
+      "request_seconds": 2.8,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_051_formal_template",
+      "status": "processed",
+      "request_seconds": 3.67,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_051_telegraphic_icu",
+      "status": "processed",
+      "request_seconds": 2.41,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_052_clinical_charting",
+      "status": "processed",
+      "request_seconds": 45.92,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_052_formal_template",
+      "status": "processed",
+      "request_seconds": 2.68,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_052_telegraphic_icu",
+      "status": "processed",
+      "request_seconds": 1.84,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_053_clinical_charting",
+      "status": "processed",
+      "request_seconds": 2.02,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_053_formal_template",
+      "status": "processed",
+      "request_seconds": 4.32,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_053_telegraphic_icu",
+      "status": "processed",
+      "request_seconds": 1.87,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_054_clinical_charting",
+      "status": "processed",
+      "request_seconds": 1.62,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_054_formal_template",
+      "status": "processed",
+      "request_seconds": 2.55,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_054_telegraphic_icu",
+      "status": "processed",
+      "request_seconds": 3.5,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_055_clinical_charting",
+      "status": "processed",
+      "request_seconds": 3.62,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_055_formal_template",
+      "status": "processed",
+      "request_seconds": 3.19,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_055_telegraphic_icu",
+      "status": "processed",
+      "request_seconds": 1.66,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_056_clinical_charting",
+      "status": "processed",
+      "request_seconds": 4.21,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_056_formal_template",
+      "status": "processed",
+      "request_seconds": 3.8,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_056_telegraphic_icu",
+      "status": "processed",
+      "request_seconds": 1.7,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_057_clinical_charting",
+      "status": "processed",
+      "request_seconds": 2.42,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_057_formal_template",
+      "status": "processed",
+      "request_seconds": 2.08,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_057_telegraphic_icu",
+      "status": "processed",
+      "request_seconds": 1.98,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_058_clinical_charting",
+      "status": "processed",
+      "request_seconds": 3.04,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_058_formal_template",
+      "status": "processed",
+      "request_seconds": 3.96,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_058_telegraphic_icu",
+      "status": "processed",
+      "request_seconds": 2.34,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_059_clinical_charting",
+      "status": "processed",
+      "request_seconds": 3.33,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_059_formal_template",
+      "status": "processed",
+      "request_seconds": 3.78,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_059_telegraphic_icu",
+      "status": "processed",
+      "request_seconds": 2.22,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_060_clinical_charting",
+      "status": "processed",
+      "request_seconds": 2.45,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_060_formal_template",
+      "status": "processed",
+      "request_seconds": 3.56,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_060_telegraphic_icu",
+      "status": "processed",
+      "request_seconds": 1.16,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_061_clinical_charting",
+      "status": "processed",
+      "request_seconds": 2.95,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_061_formal_template",
+      "status": "processed",
+      "request_seconds": 2.53,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_061_telegraphic_icu",
+      "status": "processed",
+      "request_seconds": 2.47,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_062_clinical_charting",
+      "status": "processed",
+      "request_seconds": 2.95,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_062_formal_template",
+      "status": "processed",
+      "request_seconds": 2.94,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_062_telegraphic_icu",
+      "status": "processed",
+      "request_seconds": 2.6,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_063_clinical_charting",
+      "status": "processed",
+      "request_seconds": 1.57,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_063_formal_template",
+      "status": "processed",
+      "request_seconds": 4.15,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_063_telegraphic_icu",
+      "status": "processed",
+      "request_seconds": 2.6,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_064_clinical_charting",
+      "status": "processed",
+      "request_seconds": 2.73,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_064_formal_template",
+      "status": "processed",
+      "request_seconds": 3.43,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_064_telegraphic_icu",
+      "status": "processed",
+      "request_seconds": 1.28,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_065_clinical_charting",
+      "status": "processed",
+      "request_seconds": 2.65,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_065_formal_template",
+      "status": "processed",
+      "request_seconds": 3.75,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_065_telegraphic_icu",
+      "status": "processed",
+      "request_seconds": 1.62,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_066_clinical_charting",
+      "status": "processed",
+      "request_seconds": 1.85,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_066_formal_template",
+      "status": "processed",
+      "request_seconds": 4.29,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_066_telegraphic_icu",
+      "status": "processed",
+      "request_seconds": 1.5,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_067_clinical_charting",
+      "status": "processed",
+      "request_seconds": 4.05,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_067_formal_template",
+      "status": "processed",
+      "request_seconds": 3.28,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_067_telegraphic_icu",
+      "status": "processed",
+      "request_seconds": 2.45,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_069_clinical_charting",
+      "status": "processed",
+      "request_seconds": 2.42,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_069_formal_template",
+      "status": "processed",
+      "request_seconds": 1.94,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_069_telegraphic_icu",
+      "status": "processed",
+      "request_seconds": 1.71,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_070_clinical_charting",
+      "status": "processed",
+      "request_seconds": 2.4,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_070_formal_template",
+      "status": "processed",
+      "request_seconds": 5.27,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_070_telegraphic_icu",
+      "status": "processed",
+      "request_seconds": 1.66,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_071_clinical_charting",
+      "status": "processed",
+      "request_seconds": 2.19,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_071_formal_template",
+      "status": "processed",
+      "request_seconds": 3.13,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_071_telegraphic_icu",
+      "status": "processed",
+      "request_seconds": 2.58,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_072_clinical_charting",
+      "status": "processed",
+      "request_seconds": 1.98,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_072_formal_template",
+      "status": "processed",
+      "request_seconds": 2.42,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_072_telegraphic_icu",
+      "status": "processed",
+      "request_seconds": 1.88,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_073_clinical_charting",
+      "status": "processed",
+      "request_seconds": 4.21,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_073_formal_template",
+      "status": "processed",
+      "request_seconds": 2.72,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_073_telegraphic_icu",
+      "status": "processed",
+      "request_seconds": 3.09,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_074_clinical_charting",
+      "status": "processed",
+      "request_seconds": 3.53,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_074_formal_template",
+      "status": "processed",
+      "request_seconds": 3.65,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_074_telegraphic_icu",
+      "status": "processed",
+      "request_seconds": 3.41,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_075_clinical_charting",
+      "status": "processed",
+      "request_seconds": 3.17,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_075_formal_template",
+      "status": "processed",
+      "request_seconds": 5.07,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_075_telegraphic_icu",
+      "status": "processed",
+      "request_seconds": 2.0,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_076_clinical_charting",
+      "status": "processed",
+      "request_seconds": 2.27,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_076_formal_template",
+      "status": "processed",
+      "request_seconds": 4.29,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_076_telegraphic_icu",
+      "status": "processed",
+      "request_seconds": 1.95,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_077_clinical_charting",
+      "status": "processed",
+      "request_seconds": 2.28,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_077_formal_template",
+      "status": "processed",
+      "request_seconds": 2.92,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_077_telegraphic_icu",
+      "status": "processed",
+      "request_seconds": 3.13,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_078_clinical_charting",
+      "status": "processed",
+      "request_seconds": 2.92,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_078_formal_template",
+      "status": "processed",
+      "request_seconds": 3.51,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_078_telegraphic_icu",
+      "status": "processed",
+      "request_seconds": 1.79,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_081_clinical_charting",
+      "status": "processed",
+      "request_seconds": 2.42,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_081_formal_template",
+      "status": "processed",
+      "request_seconds": 2.61,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_081_telegraphic_icu",
+      "status": "processed",
+      "request_seconds": 1.45,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_082_clinical_charting",
+      "status": "processed",
+      "request_seconds": 2.95,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_082_formal_template",
+      "status": "processed",
+      "request_seconds": 3.27,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_082_telegraphic_icu",
+      "status": "processed",
+      "request_seconds": 2.33,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_083_clinical_charting",
+      "status": "processed",
+      "request_seconds": 2.3,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_083_formal_template",
+      "status": "processed",
+      "request_seconds": 3.61,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_083_telegraphic_icu",
+      "status": "processed",
+      "request_seconds": 1.9,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_084_clinical_charting",
+      "status": "processed",
+      "request_seconds": 2.66,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_084_formal_template",
+      "status": "processed",
+      "request_seconds": 3.58,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_084_telegraphic_icu",
+      "status": "processed",
+      "request_seconds": 2.69,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_085_clinical_charting",
+      "status": "processed",
+      "request_seconds": 3.32,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_085_formal_template",
+      "status": "processed",
+      "request_seconds": 2.67,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_085_telegraphic_icu",
+      "status": "processed",
+      "request_seconds": 2.69,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_086_clinical_charting",
+      "status": "processed",
+      "request_seconds": 3.25,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_086_formal_template",
+      "status": "processed",
+      "request_seconds": 2.76,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_086_telegraphic_icu",
+      "status": "processed",
+      "request_seconds": 1.75,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_087_clinical_charting",
+      "status": "processed",
+      "request_seconds": 3.83,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_087_formal_template",
+      "status": "processed",
+      "request_seconds": 4.32,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_087_telegraphic_icu",
+      "status": "processed",
+      "request_seconds": 1.94,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_088_clinical_charting",
+      "status": "processed",
+      "request_seconds": 1.46,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_088_formal_template",
+      "status": "processed",
+      "request_seconds": 3.53,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_088_telegraphic_icu",
+      "status": "processed",
+      "request_seconds": 2.45,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_089_clinical_charting",
+      "status": "processed",
+      "request_seconds": 3.93,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_089_formal_template",
+      "status": "processed",
+      "request_seconds": 4.47,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_089_telegraphic_icu",
+      "status": "processed",
+      "request_seconds": 2.82,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_090_clinical_charting",
+      "status": "processed",
+      "request_seconds": 2.54,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_090_formal_template",
+      "status": "processed",
+      "request_seconds": 3.41,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_090_telegraphic_icu",
+      "status": "processed",
+      "request_seconds": 1.24,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_091_clinical_charting",
+      "status": "processed",
+      "request_seconds": 2.7,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_091_formal_template",
+      "status": "processed",
+      "request_seconds": 4.26,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_091_telegraphic_icu",
+      "status": "processed",
+      "request_seconds": 1.85,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_092_clinical_charting",
+      "status": "processed",
+      "request_seconds": 1.93,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_092_formal_template",
+      "status": "processed",
+      "request_seconds": 2.3,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_092_telegraphic_icu",
+      "status": "processed",
+      "request_seconds": 2.48,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_093_clinical_charting",
+      "status": "processed",
+      "request_seconds": 2.75,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_093_formal_template",
+      "status": "processed",
+      "request_seconds": 4.14,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_093_telegraphic_icu",
+      "status": "processed",
+      "request_seconds": 1.95,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_094_clinical_charting",
+      "status": "processed",
+      "request_seconds": 2.23,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_094_formal_template",
+      "status": "processed",
+      "request_seconds": 3.06,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_094_telegraphic_icu",
+      "status": "processed",
+      "request_seconds": 1.62,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_095_clinical_charting",
+      "status": "processed",
+      "request_seconds": 2.18,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_095_formal_template",
+      "status": "processed",
+      "request_seconds": 3.14,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_095_telegraphic_icu",
+      "status": "processed",
+      "request_seconds": 1.95,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_096_clinical_charting",
+      "status": "processed",
+      "request_seconds": 3.94,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_096_formal_template",
+      "status": "processed",
+      "request_seconds": 3.49,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_096_telegraphic_icu",
+      "status": "processed",
+      "request_seconds": 1.53,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_097_clinical_charting",
+      "status": "processed",
+      "request_seconds": 2.63,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_097_formal_template",
+      "status": "processed",
+      "request_seconds": 1.78,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_097_telegraphic_icu",
+      "status": "processed",
+      "request_seconds": 2.29,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_098_clinical_charting",
+      "status": "processed",
+      "request_seconds": 2.32,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_098_formal_template",
+      "status": "processed",
+      "request_seconds": 3.95,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_098_telegraphic_icu",
+      "status": "processed",
+      "request_seconds": 1.63,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_099_clinical_charting",
+      "status": "processed",
+      "request_seconds": 2.3,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_099_formal_template",
+      "status": "processed",
+      "request_seconds": 4.59,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_099_telegraphic_icu",
+      "status": "processed",
+      "request_seconds": 3.16,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_100_clinical_charting",
+      "status": "processed",
+      "request_seconds": 2.8,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_100_formal_template",
+      "status": "processed",
+      "request_seconds": 4.14,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_100_telegraphic_icu",
+      "status": "processed",
+      "request_seconds": 2.2,
+      "attempts": 1
+    }
+  ],
+  "finished_at": "2026-11-04T14:02:26+00:00",
+  "summary": {
+    "processed": 270,
+    "api_requests": 270,
+    "aborted": null,
+    "skipped_valid": 30,
+    "targets": 300
+  }
+}

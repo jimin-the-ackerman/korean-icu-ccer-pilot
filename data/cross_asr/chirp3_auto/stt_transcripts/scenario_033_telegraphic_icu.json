@@ -1,0 +1,43 @@
+{
+  "sample_id": "scenario_033_telegraphic_icu",
+  "whisper_transcript": "64-year-old male atrial fibrillation onset hemodynamics unstable BP 88/54 mm Hg HR 142 BPM RR 22 breaths/min BT 36.9°C SpO2 94% room air palpitations severe diltiazem 20 mg IV state electrical cardioversion C-line in situ 1500 mL IV fluids patient alert cardiology team notify",
+  "stt_metadata": {
+    "asr_system": "chirp3_auto",
+    "provider": "google",
+    "model": "chirp_3",
+    "location": "us",
+    "language_codes": [
+      "auto"
+    ],
+    "audio_path": "data/audio/scenario_033_telegraphic_icu.mp3",
+    "audio_sha256": "f767ed96d34826785496cc2d653dafaf2d34ef17f68c1d84cc40d90a097e271b",
+    "transcribed_at": "2026-11-04T14:25:22+00:00",
+    "request_seconds": 3.36,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "metadata": {
+      "total_billed_duration": "22s",
+      "request_id": "6dd98200-0000-2cc9-91db-582429ac2ca8",
+      "prompt": "Transcribe the following speech segment. Follow these specific instructions for formatting the answer:\n* Only output the transcript, with no newlines.\n* When transcribing numbers, write the digits, i.e. write 1.7 and not one point seven, and write 100 instead of one hundred etc.\n* Only output the transcript, exactly as said in the speech segment.\n* Do not continue the speech segment.\n* Include everything said in the speech segment.\n* Use mathematical notation where needed, eg. x ^ 6Y.\n* If there is background speech that is not part of the main conversation, discard the background speech and only output the main conversation.\n* If there is no clear speech, just output [BACKGROUND].\n* Respond in the original language of the speech."
+    },
+    "results": [
+      {
+        "alternatives": [
+          {
+            "transcript": "64-year-old male atrial fibrillation onset hemodynamics unstable BP 88/54 mm Hg HR 142 BPM RR 22 breaths/min BT 36.9°C SpO2 94% room air palpitations severe diltiazem 20 mg IV state electrical cardioversion C-line in situ 1500 mL IV fluids patient alert cardiology team notify",
+            "confidence": 0.0,
+            "words": []
+          }
+        ],
+        "language_code": "en",
+        "channel_tag": 0
+      }
+    ],
+    "detected_language_codes": [
+      "en"
+    ]
+  }
+}

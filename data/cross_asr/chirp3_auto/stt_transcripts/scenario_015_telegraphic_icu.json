@@ -1,0 +1,43 @@
+{
+  "sample_id": "scenario_015_telegraphic_icu",
+  "whisper_transcript": "78세 남자 환자, 급성 폐색성 전증 입원. BP 145/90 mmHg, HR 110 bpm, RR 28 breaths/min, BT 36.8°C, SpO2 88% on room air. Severe chest pain. Heparin 5,000 units IV q6h. High-flow nasal cannula 사용. Thrombolytic therapy 시작. 2,000 mL IV fluids 투여. 환자 alert. Cardiology team notify.",
+  "stt_metadata": {
+    "asr_system": "chirp3_auto",
+    "provider": "google",
+    "model": "chirp_3",
+    "location": "us",
+    "language_codes": [
+      "auto"
+    ],
+    "audio_path": "data/audio/scenario_015_telegraphic_icu.mp3",
+    "audio_sha256": "a5db5bd99c770cc23f4ca5aac477176232181ad97a2413851c1571c39de94952",
+    "transcribed_at": "2026-11-04T14:20:44+00:00",
+    "request_seconds": 3.52,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "metadata": {
+      "total_billed_duration": "23s",
+      "request_id": "6c9c9591-0000-213d-8de7-582429c364c4",
+      "prompt": "Transcribe the following speech segment. Follow these specific instructions for formatting the answer:\n* Only output the transcript, with no newlines.\n* When transcribing numbers, write the digits, i.e. write 1.7 and not one point seven, and write 100 instead of one hundred etc.\n* Only output the transcript, exactly as said in the speech segment.\n* Do not continue the speech segment.\n* Include everything said in the speech segment.\n* Use mathematical notation where needed, eg. x ^ 6Y.\n* If there is background speech that is not part of the main conversation, discard the background speech and only output the main conversation.\n* If there is no clear speech, just output [BACKGROUND].\n* Respond in the original language of the speech."
+    },
+    "results": [
+      {
+        "alternatives": [
+          {
+            "transcript": "78세 남자 환자, 급성 폐색성 전증 입원. BP 145/90 mmHg, HR 110 bpm, RR 28 breaths/min, BT 36.8°C, SpO2 88% on room air. Severe chest pain. Heparin 5,000 units IV q6h. High-flow nasal cannula 사용. Thrombolytic therapy 시작. 2,000 mL IV fluids 투여. 환자 alert. Cardiology team notify.",
+            "confidence": 0.0,
+            "words": []
+          }
+        ],
+        "language_code": "ko",
+        "channel_tag": 0
+      }
+    ],
+    "detected_language_codes": [
+      "ko"
+    ]
+  }
+}

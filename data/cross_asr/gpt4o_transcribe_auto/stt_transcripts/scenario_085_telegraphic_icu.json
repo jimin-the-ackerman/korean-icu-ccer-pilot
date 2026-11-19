@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_085_telegraphic_icu",
+  "whisper_transcript": "73세 남성 환자. 급성 호흡 부전 및 흡인성 폐렴으로 입원. BP 130/70, HR 90, BT 37.8, SpO2 88% (RA). 기침 moderate. Piperacillin/tazobactam 4.5g IV q8h. HFNC 적용 중. Ventilator 사용 중. Fluid balance positive. 의식 상태 drowsy. Pulmonologist notify.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe_auto",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": null,
+    "audio_path": "data/audio/scenario_085_telegraphic_icu.mp3",
+    "audio_sha256": "524aa068f01f79624eb59182db67cc184003c7bc275018a633797dda79c9cfd3",
+    "transcribed_at": "2026-11-04T14:13:43+00:00",
+    "request_seconds": 1.91,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "73세 남성 환자. 급성 호흡 부전 및 흡인성 폐렴으로 입원. BP 130/70, HR 90, BT 37.8, SpO2 88% (RA). 기침 moderate. Piperacillin/tazobactam 4.5g IV q8h. HFNC 적용 중. Ventilator 사용 중. Fluid balance positive. 의식 상태 drowsy. Pulmonologist notify.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 202,
+      "output_tokens": 99,
+      "total_tokens": 301,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 202,
+        "text_tokens": 0
+      }
+    }
+  }
+}

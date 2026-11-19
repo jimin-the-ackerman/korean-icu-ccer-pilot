@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_040_clinical_charting",
+  "whisper_transcript": "42세 여성, severe Stevens-Johnson syndrome 앓고 있음. BP 약 70/HR 95 bpm, RR 20, BT 37.1도, SpO2 94%. Severe skin lesions 확인됨. Morphine 4 mg IV q4h 적용함. Nasal cannula 2 L/min 산소 공급 유지함. Foley 유지함. Drowsy 상태 확인됨.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": "ko",
+    "audio_path": "data/audio/scenario_040_clinical_charting.mp3",
+    "audio_sha256": "169eb6e95cfbd0fd545f96539a16649a2ea84be824a3f9d39ac797a563104dd6",
+    "transcribed_at": "2026-11-04T12:57:43+00:00",
+    "request_seconds": 1.4,
+    "attempts": 1,
+    "git_commit": "5b6d73fb63e1509a79e1a160176d606ed1b104c4",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "42세 여성, severe Stevens-Johnson syndrome 앓고 있음. BP 약 70/HR 95 bpm, RR 20, BT 37.1도, SpO2 94%. Severe skin lesions 확인됨. Morphine 4 mg IV q4h 적용함. Nasal cannula 2 L/min 산소 공급 유지함. Foley 유지함. Drowsy 상태 확인됨.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 190,
+      "output_tokens": 87,
+      "total_tokens": 277,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 190,
+        "text_tokens": 0
+      }
+    }
+  }
+}

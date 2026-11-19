@@ -1,0 +1,25 @@
+{
+  "sample_id": "scenario_030_telegraphic_icu",
+  "whisper_transcript": "56-AL-SUNG, SLEA-4A1, lupus nephritis, tomban B, PUN, and reflux segregated, HR, going into the RRNs, BT, 37, former SBOs, PUN, 96 horse per cent, joint pain, moderate, and 40 milligram PO, Q2RH, Foley, Sandring, IO positive, alert.",
+  "stt_metadata": {
+    "asr_system": "whisper1_auto",
+    "provider": "openai",
+    "model": "whisper-1",
+    "language": null,
+    "audio_path": "data/audio/scenario_030_telegraphic_icu.mp3",
+    "audio_sha256": "feb39ee23e8cbe441b888c8a63aac4edeffdbcc9c72528942250fb0b9a8d1abe",
+    "transcribed_at": "2026-11-04T13:52:33+00:00",
+    "request_seconds": 1.47,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "56-AL-SUNG, SLEA-4A1, lupus nephritis, tomban B, PUN, and reflux segregated, HR, going into the RRNs, BT, 37, former SBOs, PUN, 96 horse per cent, joint pain, moderate, and 40 milligram PO, Q2RH, Foley, Sandring, IO positive, alert.",
+    "logprobs": null,
+    "usage": {
+      "seconds": 15.0,
+      "type": "duration"
+    }
+  }
+}

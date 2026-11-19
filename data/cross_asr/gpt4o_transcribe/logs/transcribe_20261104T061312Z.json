@@ -1,0 +1,54 @@
+{
+  "asr": "gpt4o_transcribe",
+  "settings": {
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": "ko"
+  },
+  "pilot": true,
+  "limit": null,
+  "started_at": "2026-11-04T06:13:12+00:00",
+  "git_commit": "b3490181b3fb3f88b56cde5be78a01cfdcef3007",
+  "config_version": "1.0",
+  "max_attempts": 3,
+  "entries": [
+    {
+      "sample_id": "scenario_012_formal_template",
+      "status": "processed",
+      "request_seconds": 21.15,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_018_telegraphic_icu",
+      "status": "processed",
+      "request_seconds": 2.16,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_019_clinical_charting",
+      "status": "processed",
+      "request_seconds": 3.1,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_021_formal_template",
+      "status": "processed",
+      "request_seconds": 4.3,
+      "attempts": 1
+    },
+    {
+      "sample_id": "scenario_025_telegraphic_icu",
+      "status": "processed",
+      "request_seconds": 1.82,
+      "attempts": 1
+    }
+  ],
+  "finished_at": "2026-11-04T06:13:44+00:00",
+  "summary": {
+    "processed": 5,
+    "api_requests": 5,
+    "aborted": null,
+    "skipped_valid": 0,
+    "targets": 5
+  }
+}

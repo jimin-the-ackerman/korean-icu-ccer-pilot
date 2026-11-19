@@ -1,0 +1,25 @@
+{
+  "sample_id": "scenario_078_telegraphic_icu",
+  "whisper_transcript": "66-year-old female, BP 88.5 mmHg, HR 120 BPM, R28 breath to men, BT 39.3, SpO2 90% on 15-year-old O2 via non-rebreather mask. Pain severe, vancomycin 1 gram IV Q12H. High flow O2 therapy in progress. Surgical debridement scheduled. Foley catheter in place. IO positive balance. Patient is sleepy. ID meet surgeon team notify him.",
+  "stt_metadata": {
+    "asr_system": "whisper1_auto",
+    "provider": "openai",
+    "model": "whisper-1",
+    "language": null,
+    "audio_path": "data/audio/scenario_078_telegraphic_icu.mp3",
+    "audio_sha256": "012991a89c49f4a8285e7c6af7b36dba3d54d6d99fe69e0a560b7d196739a766",
+    "transcribed_at": "2026-11-04T13:59:40+00:00",
+    "request_seconds": 1.79,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "66-year-old female, BP 88.5 mmHg, HR 120 BPM, R28 breath to men, BT 39.3, SpO2 90% on 15-year-old O2 via non-rebreather mask. Pain severe, vancomycin 1 gram IV Q12H. High flow O2 therapy in progress. Surgical debridement scheduled. Foley catheter in place. IO positive balance. Patient is sleepy. ID meet surgeon team notify him.",
+    "logprobs": null,
+    "usage": {
+      "seconds": 26.0,
+      "type": "duration"
+    }
+  }
+}

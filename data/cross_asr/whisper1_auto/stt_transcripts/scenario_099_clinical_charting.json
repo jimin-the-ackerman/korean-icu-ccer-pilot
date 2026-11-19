@@ -1,0 +1,25 @@
+{
+  "sample_id": "scenario_099_clinical_charting",
+  "whisper_transcript": "TCHV 입세 여성 환자, 급성 악화된 만성 심부전으로 입원함. 폴미네리 디멈이 severe dyspnea 관찰됨. Vital signs, BP 1695g, HR NYBPM, RR wetibate breaths min, BT 산시차 뎀 후도스, SbO2 88%. Severe dyspnea 확인됨. Furosemide 40mg IV Q8H 투여중. High flow nasal cannula 40mm 적용함. Positive fluid balance 2000mm 확인됨. 환자 drowsy 상태. Cardiology consult your telem.",
+  "stt_metadata": {
+    "asr_system": "whisper1_auto",
+    "provider": "openai",
+    "model": "whisper-1",
+    "language": null,
+    "audio_path": "data/audio/scenario_099_clinical_charting.mp3",
+    "audio_sha256": "63ddb931e43aaf2f4300436b315222e167fcdbea8590670be7856b7998bc4064",
+    "transcribed_at": "2026-11-04T14:02:10+00:00",
+    "request_seconds": 2.3,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "TCHV 입세 여성 환자, 급성 악화된 만성 심부전으로 입원함. 폴미네리 디멈이 severe dyspnea 관찰됨. Vital signs, BP 1695g, HR NYBPM, RR wetibate breaths min, BT 산시차 뎀 후도스, SbO2 88%. Severe dyspnea 확인됨. Furosemide 40mg IV Q8H 투여중. High flow nasal cannula 40mm 적용함. Positive fluid balance 2000mm 확인됨. 환자 drowsy 상태. Cardiology consult your telem.",
+    "logprobs": null,
+    "usage": {
+      "seconds": 30.0,
+      "type": "duration"
+    }
+  }
+}

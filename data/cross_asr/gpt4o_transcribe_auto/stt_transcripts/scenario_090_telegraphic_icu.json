@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_090_telegraphic_icu",
+  "whisper_transcript": "57세 여성 환자. MS 악화로 입원. severe motor weakness, 감각 이상 있음. BP 135/95, BT 37.2, SpO2 93% per RA. methylprednisolone 1g IV q12hr. 소변량 적절함. drowsy.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe_auto",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": null,
+    "audio_path": "data/audio/scenario_090_telegraphic_icu.mp3",
+    "audio_sha256": "91ea5cbef324a1c402b74933e3ed471ee639d8e2f817ffd2b0bbb4208d3c21fa",
+    "transcribed_at": "2026-11-04T14:14:18+00:00",
+    "request_seconds": 1.56,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "57세 여성 환자. MS 악화로 입원. severe motor weakness, 감각 이상 있음. BP 135/95, BT 37.2, SpO2 93% per RA. methylprednisolone 1g IV q12hr. 소변량 적절함. drowsy.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 149,
+      "output_tokens": 68,
+      "total_tokens": 217,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 149,
+        "text_tokens": 0
+      }
+    }
+  }
+}

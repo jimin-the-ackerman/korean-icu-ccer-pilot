@@ -1,0 +1,25 @@
+{
+  "sample_id": "scenario_071_telegraphic_icu",
+  "whisper_transcript": "40 Bait Seyo Song, GBS 3E1, BP 108, CITED 6 millimeter Hurgitz, HR 38 BPM, RR28, BT 37 Amethyst, SP2 89%, Severe Muscle Weakness, IV Immunoglobulin 0.4 gram, IV Q2H, Non-Re-Breather Masks Haeyoung Joong, Ventilators Haeyoung Joong, Drowsy, Neurology Team Notify Him.",
+  "stt_metadata": {
+    "asr_system": "whisper1_auto",
+    "provider": "openai",
+    "model": "whisper-1",
+    "language": null,
+    "audio_path": "data/audio/scenario_071_telegraphic_icu.mp3",
+    "audio_sha256": "9c6b213b2c0cd48dd32dbcc336b7858346e520b18a8b7bc2e5c887a42bd8ff23",
+    "transcribed_at": "2026-11-04T13:58:38+00:00",
+    "request_seconds": 2.58,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "40 Bait Seyo Song, GBS 3E1, BP 108, CITED 6 millimeter Hurgitz, HR 38 BPM, RR28, BT 37 Amethyst, SP2 89%, Severe Muscle Weakness, IV Immunoglobulin 0.4 gram, IV Q2H, Non-Re-Breather Masks Haeyoung Joong, Ventilators Haeyoung Joong, Drowsy, Neurology Team Notify Him.",
+    "logprobs": null,
+    "usage": {
+      "seconds": 18.0,
+      "type": "duration"
+    }
+  }
+}

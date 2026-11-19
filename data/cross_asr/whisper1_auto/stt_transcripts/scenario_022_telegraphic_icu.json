@@ -1,0 +1,25 @@
+{
+  "sample_id": "scenario_022_telegraphic_icu",
+  "whisper_transcript": "63세 여성, 극성 심부정 및 폐부정, BP-195 mmHg, HR-BPM-R1U8, BT-37-236, 86% RA, Severe SOB, Furosemide-40mg IVQ-H, HFNC 사용 중, C-Line 유지 중, 양성수분균형, Drowsy, Cardiology Team, Notify.",
+  "stt_metadata": {
+    "asr_system": "whisper1_auto",
+    "provider": "openai",
+    "model": "whisper-1",
+    "language": null,
+    "audio_path": "data/audio/scenario_022_telegraphic_icu.mp3",
+    "audio_sha256": "3acd5db01f6c6d44ec2e15f6995dff74564944230d464078020d7668417ebc96",
+    "transcribed_at": "2026-11-04T13:51:36+00:00",
+    "request_seconds": 2.44,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "63세 여성, 극성 심부정 및 폐부정, BP-195 mmHg, HR-BPM-R1U8, BT-37-236, 86% RA, Severe SOB, Furosemide-40mg IVQ-H, HFNC 사용 중, C-Line 유지 중, 양성수분균형, Drowsy, Cardiology Team, Notify.",
+    "logprobs": null,
+    "usage": {
+      "seconds": 18.0,
+      "type": "duration"
+    }
+  }
+}

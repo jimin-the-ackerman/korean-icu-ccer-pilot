@@ -1,0 +1,79 @@
+{
+  "sample_id": "scenario_042_formal_template",
+  "gold_entities": {
+    "route": [
+      {
+        "raw": "정맥 주사로",
+        "normalized": "iv",
+        "position": 196
+      }
+    ],
+    "frequency": [
+      {
+        "raw": "즉시",
+        "normalized": "stat",
+        "position": 226
+      }
+    ],
+    "device": [],
+    "vital_sign": [
+      {
+        "raw": "혈압은 98/62",
+        "label": "bp",
+        "value": "98/62",
+        "position": 63
+      },
+      {
+        "raw": "호흡수는 24",
+        "label": "rr",
+        "value": "24",
+        "position": 93
+      },
+      {
+        "raw": "체온은 37.2",
+        "label": "bt",
+        "value": "37.2",
+        "position": 114
+      }
+    ],
+    "dose": []
+  },
+  "whisper_entities": {
+    "route": [
+      {
+        "raw": "정맥 주사로",
+        "normalized": "iv",
+        "position": 190
+      }
+    ],
+    "frequency": [
+      {
+        "raw": "즉시",
+        "normalized": "stat",
+        "position": 210
+      }
+    ],
+    "device": [],
+    "vital_sign": [
+      {
+        "raw": "혈압은 98/62",
+        "label": "bp",
+        "value": "98/62",
+        "position": 63
+      },
+      {
+        "raw": "호흡수는 24",
+        "label": "rr",
+        "value": "24",
+        "position": 91
+      },
+      {
+        "raw": "체온은 37.2",
+        "label": "bt",
+        "value": "37.2",
+        "position": 111
+      }
+    ],
+    "dose": []
+  }
+}

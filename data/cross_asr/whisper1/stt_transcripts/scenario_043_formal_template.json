@@ -1,0 +1,25 @@
+{
+  "sample_id": "scenario_043_formal_template",
+  "whisper_transcript": "환자는 급성 세균성 심내마겸으로 입원한 50세 남성이다. 활력증후는 혈압 170mg, 심박수 102bpm, 호흡수 20bpm, 체온 38.5, 산소포화도 95%로 확인되었다. 환자는 중등도의 발열을 호소하였다. 방코마이신 1g을 IV로 12시간마다 투여 중이다. 환자는 의식이 명료하며 C라인이 삽입되어 있다. 체액균형은 양성으로 확인되었다.",
+  "stt_metadata": {
+    "asr_system": "whisper1",
+    "provider": "reuse_existing",
+    "model": "whisper-1",
+    "language": "ko",
+    "audio_path": "data/audio/scenario_043_formal_template.mp3",
+    "audio_sha256": "a2fb7e613fff330a24f2f142e73fb35b8554242bb64a4656b7ef7f8b00565e7b",
+    "copied_at": "2026-11-04T04:31:11+00:00",
+    "request_seconds": 0.0,
+    "attempts": 1,
+    "git_commit": "b3490181b3fb3f88b56cde5be78a01cfdcef3007",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "source_file": "data/stt_transcripts/scenario_043_formal_template.json",
+    "source_sha256": "1f02af21cc93387d0fd8a0232fdb89db183029a94b83b093aa90260c5217cc61",
+    "source_stt_metadata": {
+      "model": "whisper-1",
+      "language": "ko"
+    }
+  }
+}

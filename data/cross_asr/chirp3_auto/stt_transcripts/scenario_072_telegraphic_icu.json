@@ -1,0 +1,43 @@
+{
+  "sample_id": "scenario_072_telegraphic_icu",
+  "whisper_transcript": "67세 남성 급성 궤양성 대장염. severe abdominal pain, bloody diarrhea, dehydration, BP 90/60 mmHg, HR 110 BPM, RR 24 breaths/min, B 37.8 C, SpO2 92% RA, hydrocortisone 100 mg IV Q6, IV fluid resuscitation, negative fluid balance, alert.",
+  "stt_metadata": {
+    "asr_system": "chirp3_auto",
+    "provider": "google",
+    "model": "chirp_3",
+    "location": "us",
+    "language_codes": [
+      "auto"
+    ],
+    "audio_path": "data/audio/scenario_072_telegraphic_icu.mp3",
+    "audio_sha256": "af454b01cbad3b4c9b4504910ff79c6d3ecba821dfe9b576a0865240ac3e1c75",
+    "transcribed_at": "2026-11-04T14:48:36+00:00",
+    "request_seconds": 3.71,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "metadata": {
+      "total_billed_duration": "19s",
+      "request_id": "6b11f49f-0000-235b-b74f-f4f5e80cfce0",
+      "prompt": "Transcribe the following speech segment. Follow these specific instructions for formatting the answer:\n* Only output the transcript, with no newlines.\n* When transcribing numbers, write the digits, i.e. write 1.7 and not one point seven, and write 100 instead of one hundred etc.\n* Only output the transcript, exactly as said in the speech segment.\n* Do not continue the speech segment.\n* Include everything said in the speech segment.\n* Use mathematical notation where needed, eg. x ^ 6Y.\n* If there is background speech that is not part of the main conversation, discard the background speech and only output the main conversation.\n* If there is no clear speech, just output [BACKGROUND].\n* Respond in the original language of the speech."
+    },
+    "results": [
+      {
+        "alternatives": [
+          {
+            "transcript": "67세 남성 급성 궤양성 대장염. severe abdominal pain, bloody diarrhea, dehydration, BP 90/60 mmHg, HR 110 BPM, RR 24 breaths/min, B 37.8 C, SpO2 92% RA, hydrocortisone 100 mg IV Q6, IV fluid resuscitation, negative fluid balance, alert.",
+            "confidence": 0.0,
+            "words": []
+          }
+        ],
+        "language_code": "ko",
+        "channel_tag": 0
+      }
+    ],
+    "detected_language_codes": [
+      "ko"
+    ]
+  }
+}

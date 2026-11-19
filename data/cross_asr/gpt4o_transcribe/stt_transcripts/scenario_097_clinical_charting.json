@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_097_clinical_charting",
+  "whisper_transcript": "63세 여자 환자 acute meningococcal meningitis로 입원함. BP 170 HR 98 RR 21 BT 36.5℃ SpO2 95%에 대해 호소함. ceftriaxone 2g IV q8h 중 saline 유지함. 환자 drowsy 상태 확인됨.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": "ko",
+    "audio_path": "data/audio/scenario_097_clinical_charting.mp3",
+    "audio_sha256": "7cef8cbc10120f123c175c37137fbd332529e906ee72b24e771afcd20b759203",
+    "transcribed_at": "2026-11-04T13:05:06+00:00",
+    "request_seconds": 1.42,
+    "attempts": 1,
+    "git_commit": "5b6d73fb63e1509a79e1a160176d606ed1b104c4",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "63세 여자 환자 acute meningococcal meningitis로 입원함. BP 170 HR 98 RR 21 BT 36.5℃ SpO2 95%에 대해 호소함. ceftriaxone 2g IV q8h 중 saline 유지함. 환자 drowsy 상태 확인됨.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 165,
+      "output_tokens": 71,
+      "total_tokens": 236,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 165,
+        "text_tokens": 0
+      }
+    }
+  }
+}

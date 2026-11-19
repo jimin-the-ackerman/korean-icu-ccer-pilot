@@ -1,0 +1,25 @@
+{
+  "sample_id": "scenario_033_telegraphic_icu",
+  "whisper_transcript": "64세 남성 atrial fibrillation onset hemodynamics unstable bp88 54mm hergrang hr142 bpm rr22 breaths min bt36.9 greases spo2 94% room air palpitations severe diltiasm 20mg iv state electrical cardioversion shishi c-line in situ 1500ml iv fluids patient alert cardiology team notify",
+  "stt_metadata": {
+    "asr_system": "whisper1",
+    "provider": "reuse_existing",
+    "model": "whisper-1",
+    "language": "ko",
+    "audio_path": "data/audio/scenario_033_telegraphic_icu.mp3",
+    "audio_sha256": "f767ed96d34826785496cc2d653dafaf2d34ef17f68c1d84cc40d90a097e271b",
+    "copied_at": "2026-11-04T04:31:11+00:00",
+    "request_seconds": 0.0,
+    "attempts": 1,
+    "git_commit": "b3490181b3fb3f88b56cde5be78a01cfdcef3007",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "source_file": "data/stt_transcripts/scenario_033_telegraphic_icu.json",
+    "source_sha256": "fea7d820ba48157b64ed66f5e1c49c6312c295d626c9c85c0075b3f4fddad1c9",
+    "source_stt_metadata": {
+      "model": "whisper-1",
+      "language": "ko"
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_012_telegraphic_icu",
+  "whisper_transcript": "75세 여성 심부전 악화로 입 BP 96, 60mmHg, HR 110bpm, RR 22, BT 36.8°C, SpO2 88% room air, dyspnea moderate, furosemide 40mg IV q8h, O2 2L NC, Foley fluid balance positive, drowsy, cardiology team notify.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": "ko",
+    "audio_path": "data/audio/scenario_012_telegraphic_icu.mp3",
+    "audio_sha256": "3226fd93b5575353fa04e4651346c04b47667ff280346875e17fb057d8fdb451",
+    "transcribed_at": "2026-11-04T12:54:50+00:00",
+    "request_seconds": 1.45,
+    "attempts": 1,
+    "git_commit": "5b6d73fb63e1509a79e1a160176d606ed1b104c4",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "75세 여성 심부전 악화로 입 BP 96, 60mmHg, HR 110bpm, RR 22, BT 36.8°C, SpO2 88% room air, dyspnea moderate, furosemide 40mg IV q8h, O2 2L NC, Foley fluid balance positive, drowsy, cardiology team notify.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 169,
+      "output_tokens": 85,
+      "total_tokens": 254,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 169,
+        "text_tokens": 0
+      }
+    }
+  }
+}

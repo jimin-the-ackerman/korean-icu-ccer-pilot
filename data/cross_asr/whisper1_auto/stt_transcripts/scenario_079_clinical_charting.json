@@ -1,0 +1,26 @@
+{
+  "sample_id": "scenario_079_clinical_charting",
+  "whisper_transcript": "56-year-old male, admitted with acute exacerbation of ulcerative colitis. Severe abdominal pain meets bloody diarrhea. BP 65 mmHg. HR 110 BPM. RR ACV breath smin. BTCD SPO in prison. Methylprednisolone 40 mg IV. Q-seach. Applying Foley. IO strict monitoring. Patient awareness alert confirmed.",
+  "stt_metadata": {
+    "asr_system": "whisper1_auto",
+    "provider": "openai",
+    "model": "whisper-1",
+    "language": null,
+    "scope": "pilot",
+    "audio_path": "data/audio/scenario_079_clinical_charting.mp3",
+    "audio_sha256": "4492f239d23db039e6257f4343fc39af0c0e992966af269b1b6dd0c59bcd0260",
+    "transcribed_at": "2026-11-04T13:42:35+00:00",
+    "request_seconds": 1.59,
+    "attempts": 1,
+    "git_commit": "5b6d73fb63e1509a79e1a160176d606ed1b104c4",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "56-year-old male, admitted with acute exacerbation of ulcerative colitis. Severe abdominal pain meets bloody diarrhea. BP 65 mmHg. HR 110 BPM. RR ACV breath smin. BTCD SPO in prison. Methylprednisolone 40 mg IV. Q-seach. Applying Foley. IO strict monitoring. Patient awareness alert confirmed.",
+    "logprobs": null,
+    "usage": {
+      "seconds": 22.0,
+      "type": "duration"
+    }
+  }
+}

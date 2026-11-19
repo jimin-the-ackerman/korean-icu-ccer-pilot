@@ -1,0 +1,113 @@
+{
+  "sample_id": "scenario_042_telegraphic_icu",
+  "gold_entities": {
+    "route": [
+      {
+        "raw": "IV",
+        "normalized": "iv",
+        "position": 179
+      },
+      {
+        "raw": "IV",
+        "normalized": "iv",
+        "position": 190
+      }
+    ],
+    "frequency": [
+      {
+        "raw": "STAT",
+        "normalized": "stat",
+        "position": 182
+      }
+    ],
+    "device": [],
+    "vital_sign": [
+      {
+        "raw": "BP 98/62",
+        "label": "bp",
+        "value": "98/62",
+        "position": 58
+      },
+      {
+        "raw": "HR 112",
+        "label": "hr",
+        "value": "112",
+        "position": 75
+      },
+      {
+        "raw": "RR 24",
+        "label": "rr",
+        "value": "24",
+        "position": 89
+      },
+      {
+        "raw": "BT 37.2",
+        "label": "bt",
+        "value": "37.2",
+        "position": 110
+      },
+      {
+        "raw": "SpO2 95%",
+        "label": "spo2",
+        "value": "95%",
+        "position": 123
+      }
+    ],
+    "dose": []
+  },
+  "whisper_entities": {
+    "route": [
+      {
+        "raw": "IV",
+        "normalized": "iv",
+        "position": 158
+      },
+      {
+        "raw": "IV",
+        "normalized": "iv",
+        "position": 167
+      }
+    ],
+    "frequency": [
+      {
+        "raw": "stat",
+        "normalized": "stat",
+        "position": 161
+      }
+    ],
+    "device": [],
+    "vital_sign": [
+      {
+        "raw": "BP 98/62",
+        "label": "bp",
+        "value": "98/62",
+        "position": 54
+      },
+      {
+        "raw": "HR 1",
+        "label": "hr",
+        "value": "1",
+        "position": 69
+      },
+      {
+        "raw": "hr.",
+        "label": "hr",
+        "value": "",
+        "position": 207
+      },
+      {
+        "raw": "BT 37.2.",
+        "label": "bt",
+        "value": "37.2",
+        "position": 97
+      },
+      {
+        "raw": "SpO2 95%",
+        "label": "spo2",
+        "value": "95%",
+        "position": 106
+      }
+    ],
+    "dose": []
+  }
+}

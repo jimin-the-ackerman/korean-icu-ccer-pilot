@@ -1,0 +1,35 @@
+{
+  "sample_id": "scenario_093_clinical_charting",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "abdominal pain",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "Drowsy",
+    "medication_identity": "Norepinephrine",
+    "interventions": [
+      "Emergency surgical repair"
+    ],
+    "intake_output": "urine output 20 mL/hr",
+    "notification": "Vascular surgery team notify함"
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "복통",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "졸음 상태",
+    "medication_identity": "노르에피네프린",
+    "interventions": [
+      "응급 수술 계획"
+    ],
+    "intake_output": "소변량 20 ml/hr",
+    "notification": "혈관 수술팀에 보고"
+  }
+}

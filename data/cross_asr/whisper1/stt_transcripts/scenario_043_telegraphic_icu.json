@@ -1,0 +1,25 @@
+{
+  "sample_id": "scenario_043_telegraphic_icu",
+  "whisper_transcript": "50m 엔도카디타 바이러스 bp 170 hr 1 and 2 by 20 breaths min rr 28.5 grace co2 95 percent ra fever moderate vancomycin 1 v q12 h c line in place positive fluid balance alert",
+  "stt_metadata": {
+    "asr_system": "whisper1",
+    "provider": "reuse_existing",
+    "model": "whisper-1",
+    "language": "ko",
+    "audio_path": "data/audio/scenario_043_telegraphic_icu.mp3",
+    "audio_sha256": "632545b6f1e6cd63eedc0761c5c87700dc754f88f7d386bdc87f7c8b924e86d5",
+    "copied_at": "2026-11-04T04:31:11+00:00",
+    "request_seconds": 0.0,
+    "attempts": 1,
+    "git_commit": "b3490181b3fb3f88b56cde5be78a01cfdcef3007",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "source_file": "data/stt_transcripts/scenario_043_telegraphic_icu.json",
+    "source_sha256": "b77b4346a5ab89271858f54dbc7bd38c43fb1751b238b0b543b5bbbb172b12b2",
+    "source_stt_metadata": {
+      "model": "whisper-1",
+      "language": "ko"
+    }
+  }
+}

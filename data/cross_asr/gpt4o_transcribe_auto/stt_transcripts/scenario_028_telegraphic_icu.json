@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_028_telegraphic_icu",
+  "whisper_transcript": "64세 남성, 급성 출혈성 뇌졸중 입원. BP: 182/88, HR: 28, R: 20, T:36.8°C, SpO2: 92% room air. Severe headache. Labetalol 20mg IV stat, CT head 시행, C라인 유지. IO + 500ml/h. Stupor 상태. Neuro notify.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe_auto",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": null,
+    "audio_path": "data/audio/scenario_028_telegraphic_icu.mp3",
+    "audio_sha256": "48f4b7b2eb92e51f3f4f35bf2bd43997b1f21d477657e4bfe6c84279297c6633",
+    "transcribed_at": "2026-11-04T14:06:45+00:00",
+    "request_seconds": 1.56,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "64세 남성, 급성 출혈성 뇌졸중 입원. BP: 182/88, HR: 28, R: 20, T:36.8°C, SpO2: 92% room air. Severe headache. Labetalol 20mg IV stat, CT head 시행, C라인 유지. IO + 500ml/h. Stupor 상태. Neuro notify.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 189,
+      "output_tokens": 90,
+      "total_tokens": 279,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 189,
+        "text_tokens": 0
+      }
+    }
+  }
+}

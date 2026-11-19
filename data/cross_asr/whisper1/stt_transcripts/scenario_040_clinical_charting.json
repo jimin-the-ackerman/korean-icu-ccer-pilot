@@ -1,0 +1,25 @@
+{
+  "sample_id": "scenario_040_clinical_charting",
+  "whisper_transcript": "42세 여성, Severe Stevenson Syndrome S로 입원함. BP압 70, HR 95 BPM, RR20, BT31 액능, SBO 94%. Severe skin lesions 확인됨. Morphine 4mg IV Q4H 적용함. Nasal cannula 2-HPmin 산소 공급 유지함, Foley 유지함, Drowsy 상태 확인됨.",
+  "stt_metadata": {
+    "asr_system": "whisper1",
+    "provider": "reuse_existing",
+    "model": "whisper-1",
+    "language": "ko",
+    "audio_path": "data/audio/scenario_040_clinical_charting.mp3",
+    "audio_sha256": "169eb6e95cfbd0fd545f96539a16649a2ea84be824a3f9d39ac797a563104dd6",
+    "copied_at": "2026-11-04T04:31:11+00:00",
+    "request_seconds": 0.0,
+    "attempts": 1,
+    "git_commit": "b3490181b3fb3f88b56cde5be78a01cfdcef3007",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "source_file": "data/stt_transcripts/scenario_040_clinical_charting.json",
+    "source_sha256": "83caf4682dc057b09f56f0e3f8efc43a140b650ea00511b0fb0fddc968ca4027",
+    "source_stt_metadata": {
+      "model": "whisper-1",
+      "language": "ko"
+    }
+  }
+}

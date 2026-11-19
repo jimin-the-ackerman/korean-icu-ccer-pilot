@@ -1,0 +1,43 @@
+{
+  "sample_id": "scenario_083_telegraphic_icu",
+  "whisper_transcript": "61세 여자. acute pulmonary edema secondary to acute mitral valve regurgitation, E1. BP 160/90, HR 110, RR 28, BT 37.2°C, SpO2 88%, dyspnea severe, furosemide 40mg IV Q6H, non-rebreather mask, C-line, drowsy.",
+  "stt_metadata": {
+    "asr_system": "chirp3_ko",
+    "provider": "google",
+    "model": "chirp_3",
+    "location": "us",
+    "language_codes": [
+      "ko-KR"
+    ],
+    "audio_path": "data/audio/scenario_083_telegraphic_icu.mp3",
+    "audio_sha256": "6cd57bf686900c0a237ef6b26aa3064216b920fdfa87d8d2d8d1b519677ece50",
+    "transcribed_at": "2026-11-04T13:29:36+00:00",
+    "request_seconds": 3.64,
+    "attempts": 1,
+    "git_commit": "5b6d73fb63e1509a79e1a160176d606ed1b104c4",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "metadata": {
+      "total_billed_duration": "17s",
+      "request_id": "7563fd35-0000-2332-a289-582429c95ee4",
+      "prompt": "Transcribe the following speech segment in Korean. Follow these specific instructions for formatting the answer:\n* Only output the transcript, with no newlines.\n* When transcribing numbers, write the digits, i.e. write 1.7 and not one point seven, and write 100 instead of one hundred etc.\n* Only output the transcript, exactly as said in the speech segment.\n* Do not continue the speech segment.\n* Include everything said in the speech segment.\n* Use mathematical notation where needed, eg. x ^ 6Y.\n* If there is background speech that is not part of the main conversation, discard the background speech and only output the main conversation.\n* If there is no clear speech, just output [BACKGROUND].\n* Respond in the original language of the speech, Korean."
+    },
+    "results": [
+      {
+        "alternatives": [
+          {
+            "transcript": "61세 여자. acute pulmonary edema secondary to acute mitral valve regurgitation, E1. BP 160/90, HR 110, RR 28, BT 37.2°C, SpO2 88%, dyspnea severe, furosemide 40mg IV Q6H, non-rebreather mask, C-line, drowsy.",
+            "confidence": 0.0,
+            "words": []
+          }
+        ],
+        "language_code": "ko-KR",
+        "channel_tag": 0
+      }
+    ],
+    "detected_language_codes": [
+      "ko-KR"
+    ]
+  }
+}

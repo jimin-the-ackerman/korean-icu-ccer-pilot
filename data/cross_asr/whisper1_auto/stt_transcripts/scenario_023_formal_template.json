@@ -1,0 +1,25 @@
+{
+  "sample_id": "scenario_023_formal_template",
+  "whisper_transcript": "69세 여성 환자가 다발성 경화증의 급성 악화로 입원하였다. 활력 징후는 혈압 135, 85mmHg, 심박수 80ppm, 호흡수 22breathsmin, 체온 37.8ac, 산소포화도 96%로 실온 공기에서 확인되었다. 환자는 중등도의 muscle weakness를 호소하였다. Methylprednisolone-Ingramer-IV로 QCBH 투여 중이다. 환자는 의식이 약간 저하된 상태이다.",
+  "stt_metadata": {
+    "asr_system": "whisper1_auto",
+    "provider": "openai",
+    "model": "whisper-1",
+    "language": null,
+    "audio_path": "data/audio/scenario_023_formal_template.mp3",
+    "audio_sha256": "680a2dff0069b49362cc250b01a44dced0555b00cf6412148df11de0c26f9dc9",
+    "transcribed_at": "2026-11-04T13:51:40+00:00",
+    "request_seconds": 1.79,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "69세 여성 환자가 다발성 경화증의 급성 악화로 입원하였다. 활력 징후는 혈압 135, 85mmHg, 심박수 80ppm, 호흡수 22breathsmin, 체온 37.8ac, 산소포화도 96%로 실온 공기에서 확인되었다. 환자는 중등도의 muscle weakness를 호소하였다. Methylprednisolone-Ingramer-IV로 QCBH 투여 중이다. 환자는 의식이 약간 저하된 상태이다.",
+    "logprobs": null,
+    "usage": {
+      "seconds": 27.0,
+      "type": "duration"
+    }
+  }
+}

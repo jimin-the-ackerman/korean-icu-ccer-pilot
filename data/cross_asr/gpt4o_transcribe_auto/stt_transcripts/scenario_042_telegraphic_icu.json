@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_042_telegraphic_icu",
+  "whisper_transcript": "73세 남환 E1, severe dehydration, electrolyte imbalance, BP 98/62 2min Hx, HR 1PM, R 24breaths/min ,BT 37.2, SpO2 95% RA, severe diarrhea, NS 1000ml IV stat, IV fluid resuscitation, UO low 200ml per 8hr, drowsy, UO 30ml/h, she doctor notify",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe_auto",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": null,
+    "audio_path": "data/audio/scenario_042_telegraphic_icu.mp3",
+    "audio_sha256": "6e239629b0c4d7784cf76b2496919edfd5ee069a4af6b1fdd51727e887b3d45e",
+    "transcribed_at": "2026-11-04T14:08:23+00:00",
+    "request_seconds": 1.8,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "73세 남환 E1, severe dehydration, electrolyte imbalance, BP 98/62 2min Hx, HR 1PM, R 24breaths/min ,BT 37.2, SpO2 95% RA, severe diarrhea, NS 1000ml IV stat, IV fluid resuscitation, UO low 200ml per 8hr, drowsy, UO 30ml/h, she doctor notify",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 205,
+      "output_tokens": 94,
+      "total_tokens": 299,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 205,
+        "text_tokens": 0
+      }
+    }
+  }
+}

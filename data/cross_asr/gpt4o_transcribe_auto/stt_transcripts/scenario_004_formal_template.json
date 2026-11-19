@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_004_formal_template",
+  "whisper_transcript": "45세 남성 환자가 급성 췌장염으로 입원하였다. 활력징후는 혈압 96mmHg, 심박수 120bpm, 호흡수 28bpm, 체온 38.5도씨이며 산소포화도는 실내 공기에서 95%로 확인되었다. 환자는 심한 복부 통증을 호소하였다. 통증 관리를 위해 모르핀 4mg IVQHR 투여 중이다. 현재 환자는 수액 보충요법을 받고 있으며 폴리 카테터가 삽입되어 있다. 4시간 동안의 소변 배출량은 200ml이다. 임상 상태는 졸림으로 나타났다. 환자의 혈역학 상태 악화를 담당 중인 위장병 전문의에게 보고하였다.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe_auto",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": null,
+    "audio_path": "data/audio/scenario_004_formal_template.mp3",
+    "audio_sha256": "d46b2c18dce9a24196aeeb30cb69133b3470711536c6c7724f17c6bd10fce911",
+    "transcribed_at": "2026-11-04T14:03:59+00:00",
+    "request_seconds": 2.38,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "45세 남성 환자가 급성 췌장염으로 입원하였다. 활력징후는 혈압 96mmHg, 심박수 120bpm, 호흡수 28bpm, 체온 38.5도씨이며 산소포화도는 실내 공기에서 95%로 확인되었다. 환자는 심한 복부 통증을 호소하였다. 통증 관리를 위해 모르핀 4mg IVQHR 투여 중이다. 현재 환자는 수액 보충요법을 받고 있으며 폴리 카테터가 삽입되어 있다. 4시간 동안의 소변 배출량은 200ml이다. 임상 상태는 졸림으로 나타났다. 환자의 혈역학 상태 악화를 담당 중인 위장병 전문의에게 보고하였다.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 401,
+      "output_tokens": 179,
+      "total_tokens": 580,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 401,
+        "text_tokens": 0
+      }
+    }
+  }
+}

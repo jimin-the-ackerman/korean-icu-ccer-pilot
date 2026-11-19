@@ -1,0 +1,43 @@
+{
+  "sample_id": "scenario_077_telegraphic_icu",
+  "whisper_transcript": "64세 여성, 급성 악화, 만성 심부전, 탈수로 입원. BP 88/56 mmHg, HR 100 BPM, R 22 breaths/min, BT 36.8°C, SpO2 94% on 2L O2 NC. Moderate weakness present. Labetalol 10 mg IV Q8H. Nasal cannula O2 support. Fluid resuscitation 시행. Foley catheter 삽입. Positive fluid balance. Drowsy 상태. Renal team notify.",
+  "stt_metadata": {
+    "asr_system": "chirp3_auto",
+    "provider": "google",
+    "model": "chirp_3",
+    "location": "us",
+    "language_codes": [
+      "auto"
+    ],
+    "audio_path": "data/audio/scenario_077_telegraphic_icu.mp3",
+    "audio_sha256": "19139481b9570f926ae6d5f9c5349472bcc49f1bfb6afbab16a5f0f3d2d9f4e4",
+    "transcribed_at": "2026-11-04T14:49:51+00:00",
+    "request_seconds": 4.54,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "metadata": {
+      "total_billed_duration": "24s",
+      "request_id": "74ea602b-0000-22a0-985f-34c7e91f243b",
+      "prompt": "Transcribe the following speech segment. Follow these specific instructions for formatting the answer:\n* Only output the transcript, with no newlines.\n* When transcribing numbers, write the digits, i.e. write 1.7 and not one point seven, and write 100 instead of one hundred etc.\n* Only output the transcript, exactly as said in the speech segment.\n* Do not continue the speech segment.\n* Include everything said in the speech segment.\n* Use mathematical notation where needed, eg. x ^ 6Y.\n* If there is background speech that is not part of the main conversation, discard the background speech and only output the main conversation.\n* If there is no clear speech, just output [BACKGROUND].\n* Respond in the original language of the speech."
+    },
+    "results": [
+      {
+        "alternatives": [
+          {
+            "transcript": "64세 여성, 급성 악화, 만성 심부전, 탈수로 입원. BP 88/56 mmHg, HR 100 BPM, R 22 breaths/min, BT 36.8°C, SpO2 94% on 2L O2 NC. Moderate weakness present. Labetalol 10 mg IV Q8H. Nasal cannula O2 support. Fluid resuscitation 시행. Foley catheter 삽입. Positive fluid balance. Drowsy 상태. Renal team notify.",
+            "confidence": 0.0,
+            "words": []
+          }
+        ],
+        "language_code": "ko",
+        "channel_tag": 0
+      }
+    ],
+    "detected_language_codes": [
+      "ko"
+    ]
+  }
+}

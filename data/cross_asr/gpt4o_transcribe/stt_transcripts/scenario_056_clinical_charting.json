@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_056_clinical_charting",
+  "whisper_transcript": "사시칠세 여성 acute severe asthma exacerbation으로 입원함. BP 훈산지부 팔지부 밀리미터 허그램. HR 102 BM, RR 삼지디 breath 미민. BT 삼지첩병 우육셀스, Sp 80% on room air 확인됨, severe wheezing 확인됨. 알부터럴 투땐 우밀리그램 IV Q 서리지 적용함. High flow nasal cannula 산소 공급 유지함. NG 튜브 삽입됨. 네거티브 fluid balance of 5 rod milliliter 확인됨. 환자 상태 drowsy, pulmonology team notify함.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": "ko",
+    "audio_path": "data/audio/scenario_056_clinical_charting.mp3",
+    "audio_sha256": "001c99835b3ff9505247e3e9daf173200b66ac082e856f84233c159872060367",
+    "transcribed_at": "2026-11-04T12:59:31+00:00",
+    "request_seconds": 2.2,
+    "attempts": 1,
+    "git_commit": "5b6d73fb63e1509a79e1a160176d606ed1b104c4",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "사시칠세 여성 acute severe asthma exacerbation으로 입원함. BP 훈산지부 팔지부 밀리미터 허그램. HR 102 BM, RR 삼지디 breath 미민. BT 삼지첩병 우육셀스, Sp 80% on room air 확인됨, severe wheezing 확인됨. 알부터럴 투땐 우밀리그램 IV Q 서리지 적용함. High flow nasal cannula 산소 공급 유지함. NG 튜브 삽입됨. 네거티브 fluid balance of 5 rod milliliter 확인됨. 환자 상태 drowsy, pulmonology team notify함.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 268,
+      "output_tokens": 141,
+      "total_tokens": 409,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 268,
+        "text_tokens": 0
+      }
+    }
+  }
+}

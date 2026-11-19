@@ -1,0 +1,25 @@
+{
+  "sample_id": "scenario_038_formal_template",
+  "whisper_transcript": "환자는 59세 여성으로 급성 중증 근무력 위기로 인하여 호흡 보조가 필요한 상태로 입원하였다. 현재 혈압은 135-85mmHg, 심박수는 92bpm, 호흡수는 28bpm, 체온은 37.0°C로 확인되었다. 산소포화도는 88%로 낮은 수준이며 기계 환기로 호흡을 지원받고 있다. 근육 약화가 심각한 상태로 나타났으며 환자는 stuporous 상태로 관찰되었다. Periodostigmine 60mg을 경우로 하루 4번 투여받고 있다. 환자는 ventilator를 사용 중이다.",
+  "stt_metadata": {
+    "asr_system": "whisper1",
+    "provider": "reuse_existing",
+    "model": "whisper-1",
+    "language": "ko",
+    "audio_path": "data/audio/scenario_038_formal_template.mp3",
+    "audio_sha256": "61ebdc1e6c4e5cba7eb671659ea7c382b8ff879126716e396dea5492ec0473bd",
+    "copied_at": "2026-11-04T04:31:11+00:00",
+    "request_seconds": 0.0,
+    "attempts": 1,
+    "git_commit": "b3490181b3fb3f88b56cde5be78a01cfdcef3007",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "source_file": "data/stt_transcripts/scenario_038_formal_template.json",
+    "source_sha256": "cfc38aa73b60e7683cdac8a6896f14f9def8f8ff16e98e2415621acd0363717a",
+    "source_stt_metadata": {
+      "model": "whisper-1",
+      "language": "ko"
+    }
+  }
+}

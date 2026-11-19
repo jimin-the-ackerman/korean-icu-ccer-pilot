@@ -1,0 +1,43 @@
+{
+  "sample_id": "scenario_093_formal_template",
+  "whisper_transcript": "환자는 52세 남성으로 복부 대동맥류 파열로 인한 급성 출혈성 쇼크로 입원하였다. 활력 징후는 혈압 85/50 mmHg, 심박수 120 BPM, 호흡수 24회/분, 체온 36.8로 산소 포화도 89%로 확인되었다. 환자는 심한 복부 통증을 호소하였다. 현재 노르에피네프린 8 mcg/min IV로 투여 중이며 빈도는 하루 3회이다. 고유량 비강 캐눌라를 통해 산소 공급 중이다. 응급 수술적 복구가 계획되어 있으며 C-line이 삽입되어 있다. 시간당 소변 배출량은 20 ml이다. 환자는 의식이 흐린 상태이다. 혈관외과 팀에게 긴급 개입을 위해 보고하였다.",
+  "stt_metadata": {
+    "asr_system": "chirp3_auto",
+    "provider": "google",
+    "model": "chirp_3",
+    "location": "us",
+    "language_codes": [
+      "auto"
+    ],
+    "audio_path": "data/audio/scenario_093_formal_template.mp3",
+    "audio_sha256": "c379bcf38bc6cc9345a3ba88cc04a8e62f1132861f01df416a15570cb606359b",
+    "transcribed_at": "2026-11-04T14:53:33+00:00",
+    "request_seconds": 7.33,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "metadata": {
+      "total_billed_duration": "42s",
+      "request_id": "73adc722-0000-245d-9337-ac3eb1486d20",
+      "prompt": "Transcribe the following speech segment. Follow these specific instructions for formatting the answer:\n* Only output the transcript, with no newlines.\n* When transcribing numbers, write the digits, i.e. write 1.7 and not one point seven, and write 100 instead of one hundred etc.\n* Only output the transcript, exactly as said in the speech segment.\n* Do not continue the speech segment.\n* Include everything said in the speech segment.\n* Use mathematical notation where needed, eg. x ^ 6Y.\n* If there is background speech that is not part of the main conversation, discard the background speech and only output the main conversation.\n* If there is no clear speech, just output [BACKGROUND].\n* Respond in the original language of the speech."
+    },
+    "results": [
+      {
+        "alternatives": [
+          {
+            "transcript": "환자는 52세 남성으로 복부 대동맥류 파열로 인한 급성 출혈성 쇼크로 입원하였다. 활력 징후는 혈압 85/50 mmHg, 심박수 120 BPM, 호흡수 24회/분, 체온 36.8로 산소 포화도 89%로 확인되었다. 환자는 심한 복부 통증을 호소하였다. 현재 노르에피네프린 8 mcg/min IV로 투여 중이며 빈도는 하루 3회이다. 고유량 비강 캐눌라를 통해 산소 공급 중이다. 응급 수술적 복구가 계획되어 있으며 C-line이 삽입되어 있다. 시간당 소변 배출량은 20 ml이다. 환자는 의식이 흐린 상태이다. 혈관외과 팀에게 긴급 개입을 위해 보고하였다.",
+            "confidence": 0.0,
+            "words": []
+          }
+        ],
+        "language_code": "ko",
+        "channel_tag": 0
+      }
+    ],
+    "detected_language_codes": [
+      "ko"
+    ]
+  }
+}

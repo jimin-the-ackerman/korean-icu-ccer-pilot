@@ -1,0 +1,28 @@
+=== evaluate plan: whisper1 ===
+evaluator model    : claude-sonnet-5  (configs/config.yaml; no temperature set, as in v4)
+reference model    : ['claude-sonnet-5']  (earlier evaluate runs, all conditions)
+transcripts        : 300/300 in data/cross_asr/whisper1/stt_transcripts
+empty-response rule: none  (spec 12.2; evaluated without API call)
+already evaluated  : 222/300 (kept, not re-sent)
+invalid existing   : 0
+to process now     : 78  [needing Claude: 78 = fresh 78 (3 calls), open done 0 (1 call)]
+Claude calls       : 234 planned (minimum; the v4 retry loop may repeat a call up to 3 times, the SDK retries 429/5xx internally)
+token estimate     : ~0.56 M input, ~0.09 M output (rough; measured after a --limit trial)
+outputs            : data/cross_asr/whisper1/entities/<sample_id>_closed|_open|_matched.json
+results            : results/cross_asr/whisper1/ccer_results.csv, ccer_summary.json (only when 300/300)
+run log            : data/cross_asr/whisper1/logs/evaluate_<UTC timestamp>.json
+env vars present   : {'ANTHROPIC_API_KEY': True}  (values not shown)
+transcript check   : 0 unreadable / not JSON / wrong sample_id / empty
+v4 equivalence     : closed-vocab matches identical to saved v4 for 300/300 samples
+  재시도 1/3 (gold): 응답 구조 검증 실패
+  실제 응답: {"symptoms": [{"name": "chest pain", "negation": false, "severity": "severe"}]}
+  재시도 2/3 (gold): 응답 구조 검증 실패
+  실제 응답: {"symptoms": [{"name": "chest pain", "negation": false, "severity": "severe"}]}
+  재시도 3/3 (gold): 응답 구조 검증 실패
+  실제 응답: {"symptoms": [{"name": "chest pain", "negation": false, "severity": "severe"}]}
+[1/78] scenario_075_clinical_charting FAILED: scenario_075_clinical_charting: RuntimeError: MAX_RETRIES 초과 (gold) (stage open)
+
+=== processed=0 calls=3 failed_calls=0 tokens in/out=8652/468 -> log data/cross_asr/whisper1/logs/evaluate_20261104T175014Z_99409.json
+response models    : {'claude-sonnet-5': 3}
+evaluated now      : 222/300
+RUN STOPPED: scenario_075_clinical_charting: RuntimeError: MAX_RETRIES 초과 (gold) (stage open)

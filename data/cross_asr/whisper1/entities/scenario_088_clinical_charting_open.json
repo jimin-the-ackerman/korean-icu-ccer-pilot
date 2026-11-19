@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_088_clinical_charting",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "jaundice",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "drowsy",
+    "medication_identity": "N-acetylcysteine",
+    "interventions": [],
+    "intake_output": "Positive fluid balance 500 mL",
+    "notification": "Hepatology team notify함"
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "jaundice",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "drowsy",
+    "medication_identity": "N-acetylcysteine",
+    "interventions": [],
+    "intake_output": "Positive fluid balance 500mg 기록됨",
+    "notification": "Hepatology team notify함"
+  }
+}

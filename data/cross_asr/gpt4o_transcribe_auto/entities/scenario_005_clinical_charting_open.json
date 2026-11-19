@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_005_clinical_charting",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "edema",
+        "negation": false,
+        "severity": "moderate"
+      }
+    ],
+    "clinical_status": "drowsy",
+    "medication_identity": "Furosemide",
+    "interventions": [],
+    "intake_output": "negative fluid balance",
+    "notification": "Nephrology 팀 increased creatinine levels 관련 notify함"
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "edema",
+        "negation": false,
+        "severity": "moderate"
+      }
+    ],
+    "clinical_status": "drowsy",
+    "medication_identity": "Furosemide",
+    "interventions": [],
+    "intake_output": "Negative fluid balance 확인됨",
+    "notification": "Nephrology team increased creatinine levels 관련 notify함"
+  }
+}

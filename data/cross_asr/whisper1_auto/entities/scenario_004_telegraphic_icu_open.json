@@ -1,0 +1,35 @@
+{
+  "sample_id": "scenario_004_telegraphic_icu",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "abdominal pain",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "Drowsy",
+    "medication_identity": "Morphine",
+    "interventions": [
+      "Fluid resuscitation"
+    ],
+    "intake_output": "Urine output 200 mL/4 hrs",
+    "notification": "Dr notify"
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "abdominal pain",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "drowsy",
+    "medication_identity": "morphine",
+    "interventions": [
+      "fluid resuscitation"
+    ],
+    "intake_output": "urine output 200 milliliter, 4 hours",
+    "notification": "docker notify"
+  }
+}

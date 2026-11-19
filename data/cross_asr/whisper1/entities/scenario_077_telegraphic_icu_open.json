@@ -1,0 +1,35 @@
+{
+  "sample_id": "scenario_077_telegraphic_icu",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "weakness",
+        "negation": false,
+        "severity": "moderate"
+      }
+    ],
+    "clinical_status": "Drowsy",
+    "medication_identity": "Labetalol",
+    "interventions": [
+      "Fluid resuscitation"
+    ],
+    "intake_output": "Positive fluid balance",
+    "notification": "Renal team notify"
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "weakness",
+        "negation": false,
+        "severity": "moderate"
+      }
+    ],
+    "clinical_status": "Drowsy",
+    "medication_identity": "Labetalol",
+    "interventions": [
+      "Fluid Resuscitation"
+    ],
+    "intake_output": "Positive Fluid Balance",
+    "notification": "Renal Team Notify"
+  }
+}

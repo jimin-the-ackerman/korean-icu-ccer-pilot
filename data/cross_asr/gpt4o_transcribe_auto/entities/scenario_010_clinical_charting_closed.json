@@ -1,0 +1,123 @@
+{
+  "sample_id": "scenario_010_clinical_charting",
+  "gold_entities": {
+    "route": [
+      {
+        "raw": "IV",
+        "normalized": "iv",
+        "position": 132
+      }
+    ],
+    "frequency": [
+      {
+        "raw": "q6h",
+        "normalized": "q6h",
+        "position": 135
+      }
+    ],
+    "device": [
+      {
+        "raw": "ventilator",
+        "normalized": "ventilator",
+        "position": 149
+      }
+    ],
+    "vital_sign": [
+      {
+        "raw": "BP 130/85",
+        "label": "bp",
+        "value": "130/85",
+        "position": 54
+      },
+      {
+        "raw": "HR 58",
+        "label": "hr",
+        "value": "58",
+        "position": 65
+      },
+      {
+        "raw": "RR 14",
+        "label": "rr",
+        "value": "14",
+        "position": 72
+      },
+      {
+        "raw": "BT 36.8",
+        "label": "bt",
+        "value": "36.8",
+        "position": 79
+      },
+      {
+        "raw": "SpO2 98%",
+        "label": "spo2",
+        "value": "98%",
+        "position": 90
+      }
+    ],
+    "dose": [
+      {
+        "raw": "100g",
+        "value": "100",
+        "unit": "g",
+        "position": 127
+      }
+    ]
+  },
+  "whisper_entities": {
+    "route": [
+      {
+        "raw": "IV",
+        "normalized": "iv",
+        "position": 123
+      }
+    ],
+    "frequency": [],
+    "device": [
+      {
+        "raw": "ventilator",
+        "normalized": "ventilator",
+        "position": 137
+      }
+    ],
+    "vital_sign": [
+      {
+        "raw": "BP 130/85",
+        "label": "bp",
+        "value": "130/85",
+        "position": 52
+      },
+      {
+        "raw": "HR 50",
+        "label": "hr",
+        "value": "50",
+        "position": 63
+      },
+      {
+        "raw": "RR 13",
+        "label": "rr",
+        "value": "13",
+        "position": 70
+      },
+      {
+        "raw": "BT 36.9",
+        "label": "bt",
+        "value": "36.9",
+        "position": 77
+      },
+      {
+        "raw": "SpO2 95%",
+        "label": "spo2",
+        "value": "95%",
+        "position": 87
+      }
+    ],
+    "dose": [
+      {
+        "raw": "100g",
+        "value": "100",
+        "unit": "g",
+        "position": 118
+      }
+    ]
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_016_telegraphic_icu",
+  "whisper_transcript": "소리 보세요. 환자는 복부농양으로 인한 중증 패혈증 입원. BP 85/HR 와차이 RR 혼합 BT 39.2, SpO2 다이티디 퍼센트. 심한 발열, 메로페넘 1g IV Q8H, 비강 캐뉼라 사용. 농양 배액, C 라인 삽입, 음성 체액 균형. 졸린 상태, 상승된 젖산. 의사에게 알림.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": "ko",
+    "audio_path": "data/audio/scenario_016_telegraphic_icu.mp3",
+    "audio_sha256": "37e7a884a8f8843a0182150babfd5fa27fd9feb29f38d59463b77952a0b83b78",
+    "transcribed_at": "2026-11-04T12:55:19+00:00",
+    "request_seconds": 1.89,
+    "attempts": 1,
+    "git_commit": "5b6d73fb63e1509a79e1a160176d606ed1b104c4",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "소리 보세요. 환자는 복부농양으로 인한 중증 패혈증 입원. BP 85/HR 와차이 RR 혼합 BT 39.2, SpO2 다이티디 퍼센트. 심한 발열, 메로페넘 1g IV Q8H, 비강 캐뉼라 사용. 농양 배액, C 라인 삽입, 음성 체액 균형. 졸린 상태, 상승된 젖산. 의사에게 알림.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 188,
+      "output_tokens": 115,
+      "total_tokens": 303,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 188,
+        "text_tokens": 0
+      }
+    }
+  }
+}

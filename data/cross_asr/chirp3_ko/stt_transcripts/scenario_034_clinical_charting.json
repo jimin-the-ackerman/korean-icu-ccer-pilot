@@ -1,0 +1,43 @@
+{
+  "sample_id": "scenario_034_clinical_charting",
+  "whisper_transcript": "58세 남성 환자 acute decompensated cirrhosis with hepatic encephalopathy로 입원함. BP 125/60 mmHg, HR 100 BPM, RR 20 breaths/min, BT 38.6°C, SpO2 92% on room air. moderate jaundice 확인됨. 환자 drowsy 상태 유지함. Lactulose 30 mL PO q6h 투여함. nasal cannula 2 L/min 적용함. strict fluid balance monitoring 유지함. hepatology team notify함.",
+  "stt_metadata": {
+    "asr_system": "chirp3_ko",
+    "provider": "google",
+    "model": "chirp_3",
+    "location": "us",
+    "language_codes": [
+      "ko-KR"
+    ],
+    "audio_path": "data/audio/scenario_034_clinical_charting.mp3",
+    "audio_sha256": "4b1386b64be97e0254ffd1407a68812d5cc4725e4fa1e7ba8ad515faf6de826d",
+    "transcribed_at": "2026-11-04T13:17:40+00:00",
+    "request_seconds": 3.8,
+    "attempts": 1,
+    "git_commit": "5b6d73fb63e1509a79e1a160176d606ed1b104c4",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "metadata": {
+      "total_billed_duration": "27s",
+      "request_id": "6db356ea-0000-2ee3-8d7c-14223bb80056",
+      "prompt": "Transcribe the following speech segment in Korean. Follow these specific instructions for formatting the answer:\n* Only output the transcript, with no newlines.\n* When transcribing numbers, write the digits, i.e. write 1.7 and not one point seven, and write 100 instead of one hundred etc.\n* Only output the transcript, exactly as said in the speech segment.\n* Do not continue the speech segment.\n* Include everything said in the speech segment.\n* Use mathematical notation where needed, eg. x ^ 6Y.\n* If there is background speech that is not part of the main conversation, discard the background speech and only output the main conversation.\n* If there is no clear speech, just output [BACKGROUND].\n* Respond in the original language of the speech, Korean."
+    },
+    "results": [
+      {
+        "alternatives": [
+          {
+            "transcript": "58세 남성 환자 acute decompensated cirrhosis with hepatic encephalopathy로 입원함. BP 125/60 mmHg, HR 100 BPM, RR 20 breaths/min, BT 38.6°C, SpO2 92% on room air. moderate jaundice 확인됨. 환자 drowsy 상태 유지함. Lactulose 30 mL PO q6h 투여함. nasal cannula 2 L/min 적용함. strict fluid balance monitoring 유지함. hepatology team notify함.",
+            "confidence": 0.0,
+            "words": []
+          }
+        ],
+        "language_code": "ko-KR",
+        "channel_tag": 0
+      }
+    ],
+    "detected_language_codes": [
+      "ko-KR"
+    ]
+  }
+}

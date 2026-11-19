@@ -1,0 +1,25 @@
+{
+  "sample_id": "scenario_072_clinical_charting",
+  "whisper_transcript": "67-year-old male patient admitted to the hospital with ulcerative colitis acute exacerbation. Severe abdominal pain, bloody diarrhea, dehydration. BP 60mHg, HR-HBPM, RR-HB, BT 30.8, SbO2 95% on room air. Hydrocortisone 100mg IV Q6H. IV fluid resuscitation. Negative fluid balance. Patient alert.",
+  "stt_metadata": {
+    "asr_system": "whisper1_auto",
+    "provider": "openai",
+    "model": "whisper-1",
+    "language": null,
+    "audio_path": "data/audio/scenario_072_clinical_charting.mp3",
+    "audio_sha256": "30e0056cda214d179df5ac4b28195e8cd50dc57b366399f743ec060511079401",
+    "transcribed_at": "2026-11-04T13:58:40+00:00",
+    "request_seconds": 1.98,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "67-year-old male patient admitted to the hospital with ulcerative colitis acute exacerbation. Severe abdominal pain, bloody diarrhea, dehydration. BP 60mHg, HR-HBPM, RR-HB, BT 30.8, SbO2 95% on room air. Hydrocortisone 100mg IV Q6H. IV fluid resuscitation. Negative fluid balance. Patient alert.",
+    "logprobs": null,
+    "usage": {
+      "seconds": 26.0,
+      "type": "duration"
+    }
+  }
+}

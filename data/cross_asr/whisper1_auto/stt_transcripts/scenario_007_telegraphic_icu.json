@@ -1,0 +1,26 @@
+{
+  "sample_id": "scenario_007_telegraphic_icu",
+  "whisper_transcript": "Sixty-six COPD aquato-E1, BP one-third, 85 milligram, HR 95 BPM, 28 breaths, BT 37.2, this is SPO2, 89% room air, severe shortness of breath, methylprednisolone, 60 milligrams, IVQ6H, O2-2LNC, positive fluid balance, drowsy. Pulmonologist notify.",
+  "stt_metadata": {
+    "asr_system": "whisper1_auto",
+    "provider": "openai",
+    "model": "whisper-1",
+    "language": null,
+    "scope": "pilot",
+    "audio_path": "data/audio/scenario_007_telegraphic_icu.mp3",
+    "audio_sha256": "fea448d33c2c9013aee96eddf3a2e737d053f1d9c1fa5f2079f816cf4f2c117d",
+    "transcribed_at": "2026-11-04T13:40:23+00:00",
+    "request_seconds": 2.96,
+    "attempts": 1,
+    "git_commit": "5b6d73fb63e1509a79e1a160176d606ed1b104c4",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "Sixty-six COPD aquato-E1, BP one-third, 85 milligram, HR 95 BPM, 28 breaths, BT 37.2, this is SPO2, 89% room air, severe shortness of breath, methylprednisolone, 60 milligrams, IVQ6H, O2-2LNC, positive fluid balance, drowsy. Pulmonologist notify.",
+    "logprobs": null,
+    "usage": {
+      "seconds": 19.0,
+      "type": "duration"
+    }
+  }
+}

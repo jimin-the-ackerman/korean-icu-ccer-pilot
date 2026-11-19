@@ -1,0 +1,43 @@
+{
+  "sample_id": "scenario_041_telegraphic_icu",
+  "whisper_transcript": "65세 여성 급성 악화 만성 간질환 알코올 관련 간경화 BP 105/68 mmHg, HR 112 bpm, R 22/min, BT 37.8°C, SpO2 92% room air, ascites moderate, furosemide 40 mg IV q h, nasal cannula, Foley, urine output 1200 ml/24 hr, drowsy.",
+  "stt_metadata": {
+    "asr_system": "chirp3_ko",
+    "provider": "google",
+    "model": "chirp_3",
+    "location": "us",
+    "language_codes": [
+      "ko-KR"
+    ],
+    "audio_path": "data/audio/scenario_041_telegraphic_icu.mp3",
+    "audio_sha256": "f49f33435e0c22bfb2a52c276514fc2addcaf3094ced2b351b70e69d3084d14d",
+    "transcribed_at": "2026-11-04T13:19:24+00:00",
+    "request_seconds": 3.12,
+    "attempts": 1,
+    "git_commit": "5b6d73fb63e1509a79e1a160176d606ed1b104c4",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "metadata": {
+      "total_billed_duration": "20s",
+      "request_id": "765dac3d-0000-2066-845b-5c337bbfaccb",
+      "prompt": "Transcribe the following speech segment in Korean. Follow these specific instructions for formatting the answer:\n* Only output the transcript, with no newlines.\n* When transcribing numbers, write the digits, i.e. write 1.7 and not one point seven, and write 100 instead of one hundred etc.\n* Only output the transcript, exactly as said in the speech segment.\n* Do not continue the speech segment.\n* Include everything said in the speech segment.\n* Use mathematical notation where needed, eg. x ^ 6Y.\n* If there is background speech that is not part of the main conversation, discard the background speech and only output the main conversation.\n* If there is no clear speech, just output [BACKGROUND].\n* Respond in the original language of the speech, Korean."
+    },
+    "results": [
+      {
+        "alternatives": [
+          {
+            "transcript": "65세 여성 급성 악화 만성 간질환 알코올 관련 간경화 BP 105/68 mmHg, HR 112 bpm, R 22/min, BT 37.8°C, SpO2 92% room air, ascites moderate, furosemide 40 mg IV q h, nasal cannula, Foley, urine output 1200 ml/24 hr, drowsy.",
+            "confidence": 0.0,
+            "words": []
+          }
+        ],
+        "language_code": "ko-KR",
+        "channel_tag": 0
+      }
+    ],
+    "detected_language_codes": [
+      "ko-KR"
+    ]
+  }
+}

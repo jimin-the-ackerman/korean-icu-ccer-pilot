@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_086_telegraphic_icu",
+  "whisper_transcript": "55歳女性AML、Febrile neutropenia、BP90/60mmHg、HR110bpm、RR24 breaths/min、B39.2℃、SpO2 96% room air、Severe fever、Piperacillin/tazobactam 4.5g IV q6h、Antibiotic therapy、Stuck、Drowsy、Oncologist notify",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": "ko",
+    "audio_path": "data/audio/scenario_086_telegraphic_icu.mp3",
+    "audio_sha256": "a82ecaa91f239ff8914cf156ee2d229261a195329404fc0944a182df0f7894d1",
+    "transcribed_at": "2026-11-04T13:03:56+00:00",
+    "request_seconds": 1.66,
+    "attempts": 1,
+    "git_commit": "5b6d73fb63e1509a79e1a160176d606ed1b104c4",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "55歳女性AML、Febrile neutropenia、BP90/60mmHg、HR110bpm、RR24 breaths/min、B39.2℃、SpO2 96% room air、Severe fever、Piperacillin/tazobactam 4.5g IV q6h、Antibiotic therapy、Stuck、Drowsy、Oncologist notify",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 168,
+      "output_tokens": 85,
+      "total_tokens": 253,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 168,
+        "text_tokens": 0
+      }
+    }
+  }
+}

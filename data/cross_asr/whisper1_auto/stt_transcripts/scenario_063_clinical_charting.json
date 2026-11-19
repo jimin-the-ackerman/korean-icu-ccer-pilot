@@ -1,0 +1,25 @@
+{
+  "sample_id": "scenario_063_clinical_charting",
+  "whisper_transcript": "74-year-old female patient with SBP secondary dysurosis, BP 160 mmHg, HR 90 BPM, RRFG sub-breaths min, BT 70.8, SpO2 92% on room air. Abdominal pain moderate complaint, ceftriaxone 2g IVQ-12H, nasal canalate 2 will mean. Fully maintain. Strict input-output monitoring. Clinical status drowsy confirmed. Decreased urine output, abdominal distention notified.",
+  "stt_metadata": {
+    "asr_system": "whisper1_auto",
+    "provider": "openai",
+    "model": "whisper-1",
+    "language": null,
+    "audio_path": "data/audio/scenario_063_clinical_charting.mp3",
+    "audio_sha256": "a8f5f9804792697097c03faa6c3e66975cbbc97c2b50de17bd5ab1d25f8ddda3",
+    "transcribed_at": "2026-11-04T13:57:35+00:00",
+    "request_seconds": 1.57,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "74-year-old female patient with SBP secondary dysurosis, BP 160 mmHg, HR 90 BPM, RRFG sub-breaths min, BT 70.8, SpO2 92% on room air. Abdominal pain moderate complaint, ceftriaxone 2g IVQ-12H, nasal canalate 2 will mean. Fully maintain. Strict input-output monitoring. Clinical status drowsy confirmed. Decreased urine output, abdominal distention notified.",
+    "logprobs": null,
+    "usage": {
+      "seconds": 29.0,
+      "type": "duration"
+    }
+  }
+}

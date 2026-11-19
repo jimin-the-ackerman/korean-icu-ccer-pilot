@@ -1,0 +1,43 @@
+{
+  "sample_id": "scenario_062_formal_template",
+  "whisper_transcript": "44세 남성 환자가 심한 폐색전증으로 입원하였다. 활력징후는 혈압이 91/60 mmHg, 심박수는 125 bpm, 호흡수는 28 breath/min, 체온은 37.2도, 산소포화도는 실온 공기에서 86%로 확인되었다. 환자는 심한 흉통을 호소하였다. 헤파린 5,000 unit을 IV로 q6h 투여 중이다. 고유량 비강 캐눌라를 사용하여 산소를 공급하고 있으며, C-line이 삽입되어 있다. 체액 불균형은 음성으로 확인되었다. 환자는 기면 상태를 보인다. SpO2 감소와 빈맥에 대해 폐 전문의에게 보고하였다.",
+  "stt_metadata": {
+    "asr_system": "chirp3_ko",
+    "provider": "google",
+    "model": "chirp_3",
+    "location": "us",
+    "language_codes": [
+      "ko-KR"
+    ],
+    "audio_path": "data/audio/scenario_062_formal_template.mp3",
+    "audio_sha256": "ae2e8ce83a45fd5576faa1ef01706fd787db7a864e5068181923df03fac0fd6e",
+    "transcribed_at": "2026-11-04T13:24:10+00:00",
+    "request_seconds": 6.16,
+    "attempts": 1,
+    "git_commit": "5b6d73fb63e1509a79e1a160176d606ed1b104c4",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "metadata": {
+      "total_billed_duration": "38s",
+      "request_id": "70705523-0000-286c-b3d7-3439160151cb",
+      "prompt": "Transcribe the following speech segment in Korean. Follow these specific instructions for formatting the answer:\n* Only output the transcript, with no newlines.\n* When transcribing numbers, write the digits, i.e. write 1.7 and not one point seven, and write 100 instead of one hundred etc.\n* Only output the transcript, exactly as said in the speech segment.\n* Do not continue the speech segment.\n* Include everything said in the speech segment.\n* Use mathematical notation where needed, eg. x ^ 6Y.\n* If there is background speech that is not part of the main conversation, discard the background speech and only output the main conversation.\n* If there is no clear speech, just output [BACKGROUND].\n* Respond in the original language of the speech, Korean."
+    },
+    "results": [
+      {
+        "alternatives": [
+          {
+            "transcript": "44세 남성 환자가 심한 폐색전증으로 입원하였다. 활력징후는 혈압이 91/60 mmHg, 심박수는 125 bpm, 호흡수는 28 breath/min, 체온은 37.2도, 산소포화도는 실온 공기에서 86%로 확인되었다. 환자는 심한 흉통을 호소하였다. 헤파린 5,000 unit을 IV로 q6h 투여 중이다. 고유량 비강 캐눌라를 사용하여 산소를 공급하고 있으며, C-line이 삽입되어 있다. 체액 불균형은 음성으로 확인되었다. 환자는 기면 상태를 보인다. SpO2 감소와 빈맥에 대해 폐 전문의에게 보고하였다.",
+            "confidence": 0.0,
+            "words": []
+          }
+        ],
+        "language_code": "ko-KR",
+        "channel_tag": 0
+      }
+    ],
+    "detected_language_codes": [
+      "ko-KR"
+    ]
+  }
+}

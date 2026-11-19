@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_002_telegraphic_icu",
+  "whisper_transcript": "Patient's HR 88, BP 90/80, HR 118, BT 37.8, SpO2 95%. Nausea moderate, insulin 10 units IV q4h. Fluid resuscitation, urine output low, drowsy. Endocrinology consult hum.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe_auto",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": null,
+    "audio_path": "data/audio/scenario_002_telegraphic_icu.mp3",
+    "audio_sha256": "3ca4b33d9ac6bdcc397e44d4fb1a1db0f5bf8de1b67f9a140799319b77b23dae",
+    "transcribed_at": "2026-11-04T14:03:48+00:00",
+    "request_seconds": 1.38,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "Patient's HR 88, BP 90/80, HR 118, BT 37.8, SpO2 95%. Nausea moderate, insulin 10 units IV q4h. Fluid resuscitation, urine output low, drowsy. Endocrinology consult hum.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 146,
+      "output_tokens": 64,
+      "total_tokens": 210,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 146,
+        "text_tokens": 0
+      }
+    }
+  }
+}

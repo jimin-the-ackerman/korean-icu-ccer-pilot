@@ -1,0 +1,68 @@
+{
+  "asr": "whisper1",
+  "limit": null,
+  "started_at": "2026-11-04T17:50:14+00:00",
+  "git_commit": "00024d2ed5e994a3d953dd68861a443ce993988b",
+  "git_dirty_tracked": [
+    "results/full_100_v4/sap3_weight_sensitivity_summary.csv"
+  ],
+  "config_version": "1.0",
+  "evaluator_model": "claude-sonnet-5",
+  "reference_model_at_start": "claude-sonnet-5",
+  "entries": [
+    {
+      "sample_id": "scenario_075_clinical_charting",
+      "empty_response_rule": false,
+      "transcript_sha256": "7b8241116681bf021c6c4074979f40827bdcb7f6fe4cc57572433f57b7944ae6",
+      "traceback": "Traceback (most recent call last):\n  File \"/home/jimin/korean-icu-ccer-pilot/src/cross_asr/evaluate.py\", line 430, in main\n    \"gold_entities\": extract_with_retry(client, model, gold_text, \"gold\"),\n  File \"/home/jimin/korean-icu-ccer-pilot/src/entity_extraction/run_open_vocab_extraction.py\", line 97, in extract_with_retry\n    raise RuntimeError(f\"MAX_RETRIES 초과 ({label})\")\nRuntimeError: MAX_RETRIES 초과 (gold)\n",
+      "status": "failed",
+      "calls": 3,
+      "seconds": 8.56,
+      "error": "scenario_075_clinical_charting: RuntimeError: MAX_RETRIES 초과 (gold) (stage open)"
+    }
+  ],
+  "calls": [
+    {
+      "sample_id": "scenario_075_clinical_charting",
+      "requested_model": "claude-sonnet-5",
+      "tool": "record_clinical_entities",
+      "ok": true,
+      "response_model": "claude-sonnet-5",
+      "input_tokens": 2884,
+      "output_tokens": 156,
+      "seconds": 2.1
+    },
+    {
+      "sample_id": "scenario_075_clinical_charting",
+      "requested_model": "claude-sonnet-5",
+      "tool": "record_clinical_entities",
+      "ok": true,
+      "response_model": "claude-sonnet-5",
+      "input_tokens": 2884,
+      "output_tokens": 156,
+      "seconds": 1.71
+    },
+    {
+      "sample_id": "scenario_075_clinical_charting",
+      "requested_model": "claude-sonnet-5",
+      "tool": "record_clinical_entities",
+      "ok": true,
+      "response_model": "claude-sonnet-5",
+      "input_tokens": 2884,
+      "output_tokens": 156,
+      "seconds": 1.74
+    }
+  ],
+  "finished_at": "2026-11-04T17:50:22+00:00",
+  "summary": {
+    "processed": 0,
+    "calls": 3,
+    "failed_calls": 0,
+    "response_models": {
+      "claude-sonnet-5": 3
+    },
+    "input_tokens": 8652,
+    "output_tokens": 468,
+    "abort": "scenario_075_clinical_charting: RuntimeError: MAX_RETRIES 초과 (gold) (stage open)"
+  }
+}

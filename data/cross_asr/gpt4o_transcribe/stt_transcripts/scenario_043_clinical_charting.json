@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_043_clinical_charting",
+  "whisper_transcript": "50세 남성 환자, acute bacterial endocarditis로 입원함. BP 100k 70mmHg 확인, HR 120bpm 확인됨, RR breaths/min 확인, BT 38.5°C 확인됨, SpO2 95% on room air 확인됨, fever moderate 확인됨, vancomycin 1g IV q 4h 투여 중임. C-line 유지함. Positive fluid balance 기록됨. 환자 alert 상태 확인됨.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": "ko",
+    "audio_path": "data/audio/scenario_043_clinical_charting.mp3",
+    "audio_sha256": "d74b2be1ce02a44b3387d1189dbec6e8b5d7389b1c2cf4bcc7250e9f31d26f05",
+    "transcribed_at": "2026-11-04T12:58:03+00:00",
+    "request_seconds": 1.94,
+    "attempts": 1,
+    "git_commit": "5b6d73fb63e1509a79e1a160176d606ed1b104c4",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "50세 남성 환자, acute bacterial endocarditis로 입원함. BP 100k 70mmHg 확인, HR 120bpm 확인됨, RR breaths/min 확인, BT 38.5°C 확인됨, SpO2 95% on room air 확인됨, fever moderate 확인됨, vancomycin 1g IV q 4h 투여 중임. C-line 유지함. Positive fluid balance 기록됨. 환자 alert 상태 확인됨.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 237,
+      "output_tokens": 103,
+      "total_tokens": 340,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 237,
+        "text_tokens": 0
+      }
+    }
+  }
+}

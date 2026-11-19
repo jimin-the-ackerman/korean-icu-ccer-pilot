@@ -1,0 +1,35 @@
+{
+  "sample_id": "scenario_082_clinical_charting",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "abdominal pain",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "alert",
+    "medication_identity": "Morphine",
+    "interventions": [
+      "Pain management"
+    ],
+    "intake_output": "Strict input/output monitoring 유지함",
+    "notification": null
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "Abdominal Pain",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "Alert",
+    "medication_identity": "Morphine",
+    "interventions": [
+      "Pain Management"
+    ],
+    "intake_output": "Strict Input-Output Monitoring 유지함",
+    "notification": null
+  }
+}

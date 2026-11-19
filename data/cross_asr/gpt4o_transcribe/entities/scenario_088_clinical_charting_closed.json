@@ -1,0 +1,117 @@
+{
+  "sample_id": "scenario_088_clinical_charting",
+  "gold_entities": {
+    "route": [
+      {
+        "raw": "IV",
+        "normalized": "iv",
+        "position": 202
+      }
+    ],
+    "frequency": [
+      {
+        "raw": "STAT",
+        "normalized": "stat",
+        "position": 205
+      }
+    ],
+    "device": [],
+    "vital_sign": [
+      {
+        "raw": "BP 112/70",
+        "label": "bp",
+        "value": "112/70",
+        "position": 64
+      },
+      {
+        "raw": "HR 105",
+        "label": "hr",
+        "value": "105",
+        "position": 80
+      },
+      {
+        "raw": "RR 22",
+        "label": "rr",
+        "value": "22",
+        "position": 92
+      },
+      {
+        "raw": "BT 37.8",
+        "label": "bt",
+        "value": "37.8",
+        "position": 111
+      },
+      {
+        "raw": "SpO2 95%",
+        "label": "spo2",
+        "value": "95%",
+        "position": 122
+      }
+    ],
+    "dose": [
+      {
+        "raw": "300 mg",
+        "value": "300",
+        "unit": "mg",
+        "position": 192
+      }
+    ]
+  },
+  "whisper_entities": {
+    "route": [
+      {
+        "raw": "IV",
+        "normalized": "iv",
+        "position": 197
+      }
+    ],
+    "frequency": [
+      {
+        "raw": "stat",
+        "normalized": "stat",
+        "position": 200
+      }
+    ],
+    "device": [],
+    "vital_sign": [
+      {
+        "raw": "BP 130/80",
+        "label": "bp",
+        "value": "130/80",
+        "position": 62
+      },
+      {
+        "raw": "HR 120",
+        "label": "hr",
+        "value": "120",
+        "position": 78
+      },
+      {
+        "raw": "RR 22",
+        "label": "rr",
+        "value": "22",
+        "position": 90
+      },
+      {
+        "raw": "BT 38.5",
+        "label": "bt",
+        "value": "38.5",
+        "position": 109
+      },
+      {
+        "raw": "SpO2 95%",
+        "label": "spo2",
+        "value": "95%",
+        "position": 120
+      }
+    ],
+    "dose": [
+      {
+        "raw": "300mg",
+        "value": "300",
+        "unit": "mg",
+        "position": 188
+      }
+    ]
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "sample_id": "scenario_083_clinical_charting",
+  "whisper_transcript": "61세 여성 환자 Acute Pulmonary Edema, Acute Mitral Valve Regurgitation으로 입원함. BP 160-90mm, HR-PIC BPM, RR-ESPUT, BT-347.2 도스, SbO2 88푼. Severe dyspnea 호소함. Furosemide 40mg IV-Q6H 투여중, Non-Rebreather Mask 적용함. C-Line 유지함. 환자 드라우지 상태 확인됨.",
+  "stt_metadata": {
+    "asr_system": "whisper1_auto",
+    "provider": "openai",
+    "model": "whisper-1",
+    "language": null,
+    "audio_path": "data/audio/scenario_083_clinical_charting.mp3",
+    "audio_sha256": "c1d8a5d2f45e639b20affddabfec568cf0736f5ccd2259018834a1c19af31b7f",
+    "transcribed_at": "2026-11-04T13:59:58+00:00",
+    "request_seconds": 2.3,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "61세 여성 환자 Acute Pulmonary Edema, Acute Mitral Valve Regurgitation으로 입원함. BP 160-90mm, HR-PIC BPM, RR-ESPUT, BT-347.2 도스, SbO2 88푼. Severe dyspnea 호소함. Furosemide 40mg IV-Q6H 투여중, Non-Rebreather Mask 적용함. C-Line 유지함. 환자 드라우지 상태 확인됨.",
+    "logprobs": null,
+    "usage": {
+      "seconds": 21.0,
+      "type": "duration"
+    }
+  }
+}

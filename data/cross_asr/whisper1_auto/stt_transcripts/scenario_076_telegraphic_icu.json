@@ -1,0 +1,25 @@
+{
+  "sample_id": "scenario_076_telegraphic_icu",
+  "whisper_transcript": "35-year-old female patient, a.k.a. hyperemesis gravidarum noinens, severe dehydration, secondary, BP, tai chi, UFQ-8, HR, or APATE, BT, 36.8, the SPO2, Tc6%, nausea, severe, ondansetron 8 milligram IV, Q8H, IV fluid resuscitation with NS Foley catheter, negative fluid balance, drowsy. Nephrology team consult.",
+  "stt_metadata": {
+    "asr_system": "whisper1_auto",
+    "provider": "openai",
+    "model": "whisper-1",
+    "language": null,
+    "audio_path": "data/audio/scenario_076_telegraphic_icu.mp3",
+    "audio_sha256": "70397965db6a25496327462b68561b66b7b29e6feba715b6b6e89dca6afb9d71",
+    "transcribed_at": "2026-11-04T13:59:24+00:00",
+    "request_seconds": 1.95,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "35-year-old female patient, a.k.a. hyperemesis gravidarum noinens, severe dehydration, secondary, BP, tai chi, UFQ-8, HR, or APATE, BT, 36.8, the SPO2, Tc6%, nausea, severe, ondansetron 8 milligram IV, Q8H, IV fluid resuscitation with NS Foley catheter, negative fluid balance, drowsy. Nephrology team consult.",
+    "logprobs": null,
+    "usage": {
+      "seconds": 21.0,
+      "type": "duration"
+    }
+  }
+}

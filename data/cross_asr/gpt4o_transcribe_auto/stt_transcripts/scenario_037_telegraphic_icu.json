@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_037_telegraphic_icu",
+  "whisper_transcript": "51세 남성 크론스병 급성 악화. Severe abdominal pain, diarrhea, BP 110/70, HR 95, RR 18, BT 37.5, SpO2 98%. 프레드니손 40mg PO BID, IV 플루이드 2000ml/24hr. Alert.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe_auto",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": null,
+    "audio_path": "data/audio/scenario_037_telegraphic_icu.mp3",
+    "audio_sha256": "771b89cc81cfeffcd5891be3831ae51cfdee7cf522dc0a53b66eff30e0aaae4f",
+    "transcribed_at": "2026-11-04T14:07:47+00:00",
+    "request_seconds": 2.24,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "51세 남성 크론스병 급성 악화. Severe abdominal pain, diarrhea, BP 110/70, HR 95, RR 18, BT 37.5, SpO2 98%. 프레드니손 40mg PO BID, IV 플루이드 2000ml/24hr. Alert.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 149,
+      "output_tokens": 72,
+      "total_tokens": 221,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 149,
+        "text_tokens": 0
+      }
+    }
+  }
+}

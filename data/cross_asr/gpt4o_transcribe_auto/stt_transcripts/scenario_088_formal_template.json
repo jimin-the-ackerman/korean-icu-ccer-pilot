@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_088_formal_template",
+  "whisper_transcript": "47세 여성 환자가 아세트아미노펜 과다 복용으로 인한 급성 간부전으로 입원하였다. 활력징후로는 혈압 122 70mmHg, 심박수 105bpm, 호흡수 22breaths/min, 체온 37.8도C, 산소포화도 95%로 실내 공기에서 확인되었다. 환자는 심한 황달 증상을 보였다. N-아세틸시스테인 300mg을 IV로 stat 투여하였다. 환자는 500ml의 양성 수분 균형을 보였다. 환자는 졸린 상태로 파악되었다. 간 전문팀에게 긴급 상담을 위해 보고하였다.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe_auto",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": null,
+    "audio_path": "data/audio/scenario_088_formal_template.mp3",
+    "audio_sha256": "73fcb6533fc5577991ad8b71c75b07148f50e94498e4f2e24eedc640edc051c9",
+    "transcribed_at": "2026-11-04T14:14:03+00:00",
+    "request_seconds": 2.72,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "47세 여성 환자가 아세트아미노펜 과다 복용으로 인한 급성 간부전으로 입원하였다. 활력징후로는 혈압 122 70mmHg, 심박수 105bpm, 호흡수 22breaths/min, 체온 37.8도C, 산소포화도 95%로 실내 공기에서 확인되었다. 환자는 심한 황달 증상을 보였다. N-아세틸시스테인 300mg을 IV로 stat 투여하였다. 환자는 500ml의 양성 수분 균형을 보였다. 환자는 졸린 상태로 파악되었다. 간 전문팀에게 긴급 상담을 위해 보고하였다.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 347,
+      "output_tokens": 164,
+      "total_tokens": 511,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 347,
+        "text_tokens": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_013_telegraphic_icu",
+  "whisper_transcript": "Thursday yoson, 급성 세균성 수막염 E1, BP 100/60 mmHg, HR 100 bpm, RR 24 breaths/min, B 39.0°C, SpO2 95% room air, headache severe, ceftriaxone 2 g IV q12h, C-line in place, 상태 drowsy.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": "ko",
+    "audio_path": "data/audio/scenario_013_telegraphic_icu.mp3",
+    "audio_sha256": "6a471452fca88dbcdd06745edca3f623ef780576ae398690a4ef43e2d42c8281",
+    "transcribed_at": "2026-11-04T12:54:58+00:00",
+    "request_seconds": 1.4,
+    "attempts": 1,
+    "git_commit": "5b6d73fb63e1509a79e1a160176d606ed1b104c4",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "Thursday yoson, 급성 세균성 수막염 E1, BP 100/60 mmHg, HR 100 bpm, RR 24 breaths/min, B 39.0°C, SpO2 95% room air, headache severe, ceftriaxone 2 g IV q12h, C-line in place, 상태 drowsy.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 153,
+      "output_tokens": 77,
+      "total_tokens": 230,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 153,
+        "text_tokens": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "sample_id": "scenario_094_telegraphic_icu",
+  "whisper_transcript": "62세 여성 급성 중증 소화기 출혈로 입원. BP 85/50, HR 120 BPM, RR 22 BPM, BT 36.8도, SpO2 92% room air. hematemesis severe, pantoprazole 80mg IV Q12H, nasal cannula 2L, endoscopic hemostasis 예정. C-line 유지, negative fluid balance, drowsy, gastroenterology 팀 notify.",
+  "stt_metadata": {
+    "asr_system": "chirp3_ko",
+    "provider": "google",
+    "model": "chirp_3",
+    "location": "us",
+    "language_codes": [
+      "ko-KR"
+    ],
+    "audio_path": "data/audio/scenario_094_telegraphic_icu.mp3",
+    "audio_sha256": "59e4a22478e74b18e7846a8bb4c3f01e633ea65ae3489dbe7efd5dde71ad2769",
+    "transcribed_at": "2026-11-04T13:32:09+00:00",
+    "request_seconds": 3.52,
+    "attempts": 1,
+    "git_commit": "5b6d73fb63e1509a79e1a160176d606ed1b104c4",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "metadata": {
+      "total_billed_duration": "22s",
+      "request_id": "7462e596-0000-2ead-a9c6-582429a7d3b8",
+      "prompt": "Transcribe the following speech segment in Korean. Follow these specific instructions for formatting the answer:\n* Only output the transcript, with no newlines.\n* When transcribing numbers, write the digits, i.e. write 1.7 and not one point seven, and write 100 instead of one hundred etc.\n* Only output the transcript, exactly as said in the speech segment.\n* Do not continue the speech segment.\n* Include everything said in the speech segment.\n* Use mathematical notation where needed, eg. x ^ 6Y.\n* If there is background speech that is not part of the main conversation, discard the background speech and only output the main conversation.\n* If there is no clear speech, just output [BACKGROUND].\n* Respond in the original language of the speech, Korean."
+    },
+    "results": [
+      {
+        "alternatives": [
+          {
+            "transcript": "62세 여성 급성 중증 소화기 출혈로 입원. BP 85/50, HR 120 BPM, RR 22 BPM, BT 36.8도, SpO2 92% room air. hematemesis severe, pantoprazole 80mg IV Q12H, nasal cannula 2L, endoscopic hemostasis 예정. C-line 유지, negative fluid balance, drowsy, gastroenterology 팀 notify.",
+            "confidence": 0.0,
+            "words": []
+          }
+        ],
+        "language_code": "ko-KR",
+        "channel_tag": 0
+      }
+    ],
+    "detected_language_codes": [
+      "ko-KR"
+    ]
+  }
+}

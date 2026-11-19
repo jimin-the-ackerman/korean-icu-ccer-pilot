@@ -1,0 +1,25 @@
+{
+  "sample_id": "scenario_006_telegraphic_icu",
+  "whisper_transcript": "70세 여성 심각한 스트로크로 입원 bp현체 gr77 rr20 bt37 spu95 severe hemiplegia labetalol 20mg zyvi q6 nasal cannula 2amin 적용 c-line 유지 중 negative fluid balance stuporous 상태 neuro team notify",
+  "stt_metadata": {
+    "asr_system": "whisper1",
+    "provider": "reuse_existing",
+    "model": "whisper-1",
+    "language": "ko",
+    "audio_path": "data/audio/scenario_006_telegraphic_icu.mp3",
+    "audio_sha256": "502b5fa31fcf30c6fb8cb26f09f9c22bd25ea040077435c61adfbba45807dcbf",
+    "copied_at": "2026-11-04T04:31:11+00:00",
+    "request_seconds": 0.0,
+    "attempts": 1,
+    "git_commit": "b3490181b3fb3f88b56cde5be78a01cfdcef3007",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "source_file": "data/stt_transcripts/scenario_006_telegraphic_icu.json",
+    "source_sha256": "059546ac6ea3574c609967db44ae7045cf0a2d142f8fa156e5174c0834b4176f",
+    "source_stt_metadata": {
+      "model": "whisper-1",
+      "language": "ko"
+    }
+  }
+}

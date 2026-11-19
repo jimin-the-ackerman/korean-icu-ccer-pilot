@@ -1,0 +1,47 @@
+{
+  "case": "whisper1_transcript_scenario_083_telegraphic_icu",
+  "model": "claude-sonnet-5",
+  "stop_reason": "tool_use",
+  "response_model": "claude-sonnet-5",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 2781,
+    "output_tokens": 189,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  },
+  "content": [
+    {
+      "id": "toolu_01XTuJRUMabe1x6A79YFX5wz",
+      "caller": {
+        "type": "direct"
+      },
+      "input": {
+        "symptoms": [
+          {
+            "name": "dyspnea",
+            "negation": false,
+            "severity": "severe"
+          }
+        ],
+        "clinical_status": "DROWSY",
+        "medication_identity": "furosemide",
+        "interventions": [],
+        "intake_output": null,
+        "notification": null
+      },
+      "name": "record_clinical_entities",
+      "type": "tool_use"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "sample_id": "scenario_061_formal_template",
+  "whisper_transcript": "52세 남성 환자가 고중성지방혈증에 의한 급성 췌장염으로 입원하였다. 활력징후는 혈압 138/85 mmHg, 심박수 110 bpm, 호흡수 22회/분, 체온 37.8°C이며, 산소포화도는 실내 공기에서 96%로 확인되었다. 환자는 심한 복통을 호소하였다. 현재 환자는 인슐린 주입을 5 units/hour 속도로 정맥으로 투여받고 있다. 산소 지원은 필요하지 않으며, 의식은 명료하다. 치료로는 IV fluid resuscitation이 시행되었으며, 체액 균형은 양성으로 확인되었다.",
+  "stt_metadata": {
+    "asr_system": "chirp3_auto",
+    "provider": "google",
+    "model": "chirp_3",
+    "location": "us",
+    "language_codes": [
+      "auto"
+    ],
+    "audio_path": "data/audio/scenario_061_formal_template.mp3",
+    "audio_sha256": "270840b0054d1bf2a4df5b52b39265d7f0e6d5f8ff8c3215de184ee3b45f80c8",
+    "transcribed_at": "2026-11-04T14:32:08+00:00",
+    "request_seconds": 6.46,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "metadata": {
+      "total_billed_duration": "36s",
+      "request_id": "73a67361-0000-245d-9337-ac3eb1486d20",
+      "prompt": "Transcribe the following speech segment. Follow these specific instructions for formatting the answer:\n* Only output the transcript, with no newlines.\n* When transcribing numbers, write the digits, i.e. write 1.7 and not one point seven, and write 100 instead of one hundred etc.\n* Only output the transcript, exactly as said in the speech segment.\n* Do not continue the speech segment.\n* Include everything said in the speech segment.\n* Use mathematical notation where needed, eg. x ^ 6Y.\n* If there is background speech that is not part of the main conversation, discard the background speech and only output the main conversation.\n* If there is no clear speech, just output [BACKGROUND].\n* Respond in the original language of the speech."
+    },
+    "results": [
+      {
+        "alternatives": [
+          {
+            "transcript": "52세 남성 환자가 고중성지방혈증에 의한 급성 췌장염으로 입원하였다. 활력징후는 혈압 138/85 mmHg, 심박수 110 bpm, 호흡수 22회/분, 체온 37.8°C이며, 산소포화도는 실내 공기에서 96%로 확인되었다. 환자는 심한 복통을 호소하였다. 현재 환자는 인슐린 주입을 5 units/hour 속도로 정맥으로 투여받고 있다. 산소 지원은 필요하지 않으며, 의식은 명료하다. 치료로는 IV fluid resuscitation이 시행되었으며, 체액 균형은 양성으로 확인되었다.",
+            "confidence": 0.0,
+            "words": []
+          }
+        ],
+        "language_code": "ko",
+        "channel_tag": 0
+      }
+    ],
+    "detected_language_codes": [
+      "ko"
+    ]
+  }
+}

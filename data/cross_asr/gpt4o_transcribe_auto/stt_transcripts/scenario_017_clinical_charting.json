@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_017_clinical_charting",
+  "whisper_transcript": "53세 여성 환자, severe hypoglycemia로 입원함. BP 150/60mmHg, HR 92bpm, RR 10bpm, BT 37.5°C, SpO2 95%. Moderate confusion 확인됨. Dextrose 50% preparation 15g IV stat 적용함. IV dextrose administration 시행함. Positive fluid balance due to IV fluids 확인됨. 환자 drowsy 상태 유지함. Endocrinologist notify 함.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe_auto",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": null,
+    "audio_path": "data/audio/scenario_017_clinical_charting.mp3",
+    "audio_sha256": "52124a1d361026f2bb6868a243c2a5cf37914e363d42a352e9a25a18e2fcaa3e",
+    "transcribed_at": "2026-11-04T14:05:25+00:00",
+    "request_seconds": 2.67,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "53세 여성 환자, severe hypoglycemia로 입원함. BP 150/60mmHg, HR 92bpm, RR 10bpm, BT 37.5°C, SpO2 95%. Moderate confusion 확인됨. Dextrose 50% preparation 15g IV stat 적용함. IV dextrose administration 시행함. Positive fluid balance due to IV fluids 확인됨. 환자 drowsy 상태 유지함. Endocrinologist notify 함.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 237,
+      "output_tokens": 104,
+      "total_tokens": 341,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 237,
+        "text_tokens": 0
+      }
+    }
+  }
+}

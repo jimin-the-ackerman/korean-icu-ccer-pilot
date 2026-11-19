@@ -1,0 +1,40 @@
+{
+  "sample_id": "scenario_087_clinical_charting",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "muscle spasms",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "drowsy",
+    "medication_identity": "Diazepam",
+    "interventions": [
+      "Wound debridement"
+    ],
+    "intake_output": "I/O strict monitoring 유지함",
+    "notification": "Neurology consult muscle spasms management 위해 담당의 notify함"
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "테트너스",
+        "negation": false,
+        "severity": "severe"
+      },
+      {
+        "name": "머슬 스파즘스",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "드라우지",
+    "medication_identity": "다이아즈팜",
+    "interventions": [
+      "운드 브라이드먼트 시행"
+    ],
+    "intake_output": "IO 스트릭트 모니터링 유지",
+    "notification": "뉴럴러지 컨설트 머슬 스파즘스 매니지먼트 위해 담당에 노티파임"
+  }
+}

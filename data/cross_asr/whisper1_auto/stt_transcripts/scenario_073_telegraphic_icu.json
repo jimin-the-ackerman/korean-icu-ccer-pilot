@@ -1,0 +1,25 @@
+{
+  "sample_id": "scenario_073_telegraphic_icu",
+  "whisper_transcript": "62-cent Namsan Hwanja, acute pulmonary edema, severe mitral valve regurgitation E1, BP 110 70 mmHg, HR 98 BPM, RR 28 breaths min, BT 36.8 grease, SpO2 88% on room air, shortness of breath severe, furosemide 40 mg IVQ 8H, non-rebreather mask 15 mm min, Foley UG, positive fluid balance 200 mL 24ad, Hwanja Alert.",
+  "stt_metadata": {
+    "asr_system": "whisper1_auto",
+    "provider": "openai",
+    "model": "whisper-1",
+    "language": null,
+    "audio_path": "data/audio/scenario_073_telegraphic_icu.mp3",
+    "audio_sha256": "fba5f9665cc7a1810e578771a69457c1b474a6566c15627554bed9a27e7f5cce",
+    "transcribed_at": "2026-11-04T13:58:54+00:00",
+    "request_seconds": 3.09,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "62-cent Namsan Hwanja, acute pulmonary edema, severe mitral valve regurgitation E1, BP 110 70 mmHg, HR 98 BPM, RR 28 breaths min, BT 36.8 grease, SpO2 88% on room air, shortness of breath severe, furosemide 40 mg IVQ 8H, non-rebreather mask 15 mm min, Foley UG, positive fluid balance 200 mL 24ad, Hwanja Alert.",
+    "logprobs": null,
+    "usage": {
+      "seconds": 24.0,
+      "type": "duration"
+    }
+  }
+}

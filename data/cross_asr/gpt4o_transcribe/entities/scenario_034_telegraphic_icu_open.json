@@ -1,0 +1,35 @@
+{
+  "sample_id": "scenario_034_telegraphic_icu",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "jaundice",
+        "negation": false,
+        "severity": "moderate"
+      }
+    ],
+    "clinical_status": "Drowsy",
+    "medication_identity": "Lactulose",
+    "interventions": [],
+    "intake_output": "Strict fluid balance monitoring",
+    "notification": "Hepatology team notify함"
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "간성 혼수",
+        "negation": false
+      },
+      {
+        "name": "jaundice",
+        "negation": false,
+        "severity": "moderate"
+      }
+    ],
+    "clinical_status": "drowsy",
+    "medication_identity": "Lactulose",
+    "interventions": [],
+    "intake_output": "strict fluid balance monitoring",
+    "notification": "hepatology team notify"
+  }
+}

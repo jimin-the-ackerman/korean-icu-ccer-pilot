@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_032_telegraphic_icu",
+  "whisper_transcript": "64세 여성 환자, 급성 호흡부전으로 입원, ILD 악화, BP 85/50, HR 백심, RR 20, BT 37.9도, SpO2 88%, dyspnea severe, methylprednisolone 60mg IV Q6H, high flow nasal cannula 적용 중, ventilator 사용 중, drowsy.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": "ko",
+    "audio_path": "data/audio/scenario_032_telegraphic_icu.mp3",
+    "audio_sha256": "23f6ee08e8cbddd78e8704d7c274e1d1a403f6c58b77d08a15b386f7357fb3f2",
+    "transcribed_at": "2026-11-04T12:56:56+00:00",
+    "request_seconds": 1.79,
+    "attempts": 1,
+    "git_commit": "5b6d73fb63e1509a79e1a160176d606ed1b104c4",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "64세 여성 환자, 급성 호흡부전으로 입원, ILD 악화, BP 85/50, HR 백심, RR 20, BT 37.9도, SpO2 88%, dyspnea severe, methylprednisolone 60mg IV Q6H, high flow nasal cannula 적용 중, ventilator 사용 중, drowsy.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 172,
+      "output_tokens": 84,
+      "total_tokens": 256,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 172,
+        "text_tokens": 0
+      }
+    }
+  }
+}

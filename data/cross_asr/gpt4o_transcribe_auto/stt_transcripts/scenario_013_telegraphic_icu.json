@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_013_telegraphic_icu",
+  "whisper_transcript": "Төрзияасан, 급성 세균성 수막염이 의심, BP 160/100mmHg, HR 100 bpm, RR 24 breaths/min, BT 39.0°C, SpO2 95% room air, headache severe, ceftriaxone 2g IV q12h, C-line in place, 상태 drowsy.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe_auto",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": null,
+    "audio_path": "data/audio/scenario_013_telegraphic_icu.mp3",
+    "audio_sha256": "6a471452fca88dbcdd06745edca3f623ef780576ae398690a4ef43e2d42c8281",
+    "transcribed_at": "2026-11-04T14:05:01+00:00",
+    "request_seconds": 1.48,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "Төрзияасан, 급성 세균성 수막염이 의심, BP 160/100mmHg, HR 100 bpm, RR 24 breaths/min, BT 39.0°C, SpO2 95% room air, headache severe, ceftriaxone 2g IV q12h, C-line in place, 상태 drowsy.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 153,
+      "output_tokens": 80,
+      "total_tokens": 233,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 153,
+        "text_tokens": 0
+      }
+    }
+  }
+}

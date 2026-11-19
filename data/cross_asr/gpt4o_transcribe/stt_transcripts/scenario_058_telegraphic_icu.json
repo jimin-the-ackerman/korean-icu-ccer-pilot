@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_058_telegraphic_icu",
+  "whisper_transcript": "Acute exacerbation CHF. Fluid overload, dyspnea moderate, BP 150/90, 90 mmHg, HR 110 bpm, RR 24.2, SpO2 92% RA. Furosemide 40 mg IV BID, O2 2L NC. Foley in place, put in fluid balance. Alert.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": "ko",
+    "audio_path": "data/audio/scenario_058_telegraphic_icu.mp3",
+    "audio_sha256": "a326784a287bafe77d468d21ddbf7e78d9411d4c38eae860ad5f7dfcbafefbfc",
+    "transcribed_at": "2026-11-04T12:59:46+00:00",
+    "request_seconds": 1.42,
+    "attempts": 1,
+    "git_commit": "5b6d73fb63e1509a79e1a160176d606ed1b104c4",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "Acute exacerbation CHF. Fluid overload, dyspnea moderate, BP 150/90, 90 mmHg, HR 110 bpm, RR 24.2, SpO2 92% RA. Furosemide 40 mg IV BID, O2 2L NC. Foley in place, put in fluid balance. Alert.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 162,
+      "output_tokens": 74,
+      "total_tokens": 236,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 162,
+        "text_tokens": 0
+      }
+    }
+  }
+}

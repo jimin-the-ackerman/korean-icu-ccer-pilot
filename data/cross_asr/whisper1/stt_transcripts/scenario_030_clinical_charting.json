@@ -1,0 +1,25 @@
+{
+  "sample_id": "scenario_030_clinical_charting",
+  "whisper_transcript": "56세 여성, acute exacerbation of SLE로 입원함. Lupus nephritis 확인된 BP accessory 2E, HR spot, BT 선지체 동무, SpO2 지지액 percent. Moderate joint pain 호소함. Prednisolone 40mg POQ2RH 적용함. Foley 유지함, IO positive. 환자 alert 상태 유지함.",
+  "stt_metadata": {
+    "asr_system": "whisper1",
+    "provider": "reuse_existing",
+    "model": "whisper-1",
+    "language": "ko",
+    "audio_path": "data/audio/scenario_030_clinical_charting.mp3",
+    "audio_sha256": "d8a4f2d801689060bd8cd1ecb1726bba628a082ae5793409280e9d0f5c45d891",
+    "copied_at": "2026-11-04T04:31:11+00:00",
+    "request_seconds": 0.0,
+    "attempts": 1,
+    "git_commit": "b3490181b3fb3f88b56cde5be78a01cfdcef3007",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "source_file": "data/stt_transcripts/scenario_030_clinical_charting.json",
+    "source_sha256": "c5feb72014414c0a82f837050593f974f9d9d1e4e682f0b7f8f64b95572ab102",
+    "source_stt_metadata": {
+      "model": "whisper-1",
+      "language": "ko"
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_095_formal_template",
+  "whisper_transcript": "62세의 여성 환자가 중증 천식 악화로 인한 급성 호흡곤란으로 입원하였다. 활력 징후는 혈압 130/85mmHg, 심박수 110bpm, 호흡수 28breaths/min, 체온 37.3°C, 산소포화도는 실내 공기에서 89%로 확인되었다. 환자는 심한 호흡곤란을 호소하였다. 약물은 알부테롤 2.5mg을 IV로 PRN 투여하였다. 환자는 고유량 비강 캐큘라를 통한 산소 지원을 받고 있으며 인공호흡기를 사용 중이다. 수분 출입은 양성 균형으로 확인되었으며 임상 상태는 명료하다. 인공호흡기 조정을 위해 호흡 치료사에게 보고하였다.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe_auto",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": null,
+    "audio_path": "data/audio/scenario_095_formal_template.mp3",
+    "audio_sha256": "fdac0fce9ea0b5fac5cc2a7a4331be285128d79846026391576c0a9d2a3b76dd",
+    "transcribed_at": "2026-11-04T14:14:51+00:00",
+    "request_seconds": 2.44,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "62세의 여성 환자가 중증 천식 악화로 인한 급성 호흡곤란으로 입원하였다. 활력 징후는 혈압 130/85mmHg, 심박수 110bpm, 호흡수 28breaths/min, 체온 37.3°C, 산소포화도는 실내 공기에서 89%로 확인되었다. 환자는 심한 호흡곤란을 호소하였다. 약물은 알부테롤 2.5mg을 IV로 PRN 투여하였다. 환자는 고유량 비강 캐큘라를 통한 산소 지원을 받고 있으며 인공호흡기를 사용 중이다. 수분 출입은 양성 균형으로 확인되었으며 임상 상태는 명료하다. 인공호흡기 조정을 위해 호흡 치료사에게 보고하였다.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 400,
+      "output_tokens": 188,
+      "total_tokens": 588,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 400,
+        "text_tokens": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_065_telegraphic_icu",
+  "whisper_transcript": "56岁女性BP140/100mmHg HR88bpm RR20breaths/min BT38.5℃ SpO2 94% RA. Severe skin rash, methylprednisolone 25mg IV, wound care施行, IV fluids 100ml/hr. Alert.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe_auto",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": null,
+    "audio_path": "data/audio/scenario_065_telegraphic_icu.mp3",
+    "audio_sha256": "d315b97f84199a4d8e6147c7ccd4dc3d61c7426938c9a8813882d8c5865365b6",
+    "transcribed_at": "2026-11-04T14:11:21+00:00",
+    "request_seconds": 1.5,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "56岁女性BP140/100mmHg HR88bpm RR20breaths/min BT38.5℃ SpO2 94% RA. Severe skin rash, methylprednisolone 25mg IV, wound care施行, IV fluids 100ml/hr. Alert.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 158,
+      "output_tokens": 60,
+      "total_tokens": 218,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 158,
+        "text_tokens": 0
+      }
+    }
+  }
+}

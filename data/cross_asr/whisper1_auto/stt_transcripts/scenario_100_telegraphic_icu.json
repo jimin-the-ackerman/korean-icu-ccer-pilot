@@ -1,0 +1,25 @@
+{
+  "sample_id": "scenario_100_telegraphic_icu",
+  "whisper_transcript": "60 weight synapses. I'm so excited. I'm busy. I'm BP. Nine. Eight. Six. H.R. Hundred. Twelve. B.R. Twenty four breaths. Min. B.T. Thirty seven point eight. The cells. S.P.O. Two. Ninety five percent room air abdominal pain. Severe. Morphine. Four milligram. I.V. Q. For H.N.G. Tubes. Habit. Them. Nasogastric decompression.",
+  "stt_metadata": {
+    "asr_system": "whisper1_auto",
+    "provider": "openai",
+    "model": "whisper-1",
+    "language": null,
+    "audio_path": "data/audio/scenario_100_telegraphic_icu.mp3",
+    "audio_sha256": "7a1273d3f58c24998ac405450e8b9a2239c0ec0f122b919e2550ec4e2d27b9a1",
+    "transcribed_at": "2026-11-04T14:02:26+00:00",
+    "request_seconds": 2.2,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "60 weight synapses. I'm so excited. I'm busy. I'm BP. Nine. Eight. Six. H.R. Hundred. Twelve. B.R. Twenty four breaths. Min. B.T. Thirty seven point eight. The cells. S.P.O. Two. Ninety five percent room air abdominal pain. Severe. Morphine. Four milligram. I.V. Q. For H.N.G. Tubes. Habit. Them. Nasogastric decompression.",
+    "logprobs": null,
+    "usage": {
+      "seconds": 21.0,
+      "type": "duration"
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_074_clinical_charting",
+  "whisper_transcript": "70세 남성 급성 hypoglycemic coma로 입원. BP 120/80 mmHg, HR 110 bpm, RR 16 breaths/min, BT 36.2℃, 92%의 room air. Severe unconsciousness 확인됨. Dextrose 50% 50 mL IV stat 투여함. IV glucose administration 적용함. Clinical status unresponsive. Endocrinologist notify 함.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe_auto",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": null,
+    "audio_path": "data/audio/scenario_074_clinical_charting.mp3",
+    "audio_sha256": "5abe9700ee0df2177437c89feab050ed5e6b86dd95eff33e1f93f0b6e0de68cb",
+    "transcribed_at": "2026-11-04T14:12:18+00:00",
+    "request_seconds": 1.64,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "70세 남성 급성 hypoglycemic coma로 입원. BP 120/80 mmHg, HR 110 bpm, RR 16 breaths/min, BT 36.2℃, 92%의 room air. Severe unconsciousness 확인됨. Dextrose 50% 50 mL IV stat 투여함. IV glucose administration 적용함. Clinical status unresponsive. Endocrinologist notify 함.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 212,
+      "output_tokens": 89,
+      "total_tokens": 301,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 212,
+        "text_tokens": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_087_clinical_charting",
+  "whisper_transcript": "40세 남성 환자 심한 테트너스로 입원, 펑쳐 운드 풋, BP 환사른 티쟝, HR 헤드칩 BPM, RR 서비스디 브레스 민, BT 30베이꿈 아웃드그렉스, SPO2 나이지디 퍼센트 룸 에어. 세비어 머슬 스파즘스 확인됨, 다이아즈팜 10밀리그램 IVQLH 적용함, 네이절 캐뉼러 투 엘 민은 유지함, 운드 브라이드먼트 시행함, NG 튜브 삽입됨, IO 스트릭트 모니터링 유지함, 환자 상태 드라우지 확인됨, 뉴럴러지 컨설트 머슬 스파즘스 매니지먼트 위해 담당에 노티파임.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": "ko",
+    "audio_path": "data/audio/scenario_087_clinical_charting.mp3",
+    "audio_sha256": "5b2372306e164cd522fa58238ce8b6208cd0151e67aef3e696b6d30430f058bf",
+    "transcribed_at": "2026-11-04T13:03:59+00:00",
+    "request_seconds": 2.9,
+    "attempts": 1,
+    "git_commit": "5b6d73fb63e1509a79e1a160176d606ed1b104c4",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "40세 남성 환자 심한 테트너스로 입원, 펑쳐 운드 풋, BP 환사른 티쟝, HR 헤드칩 BPM, RR 서비스디 브레스 민, BT 30베이꿈 아웃드그렉스, SPO2 나이지디 퍼센트 룸 에어. 세비어 머슬 스파즘스 확인됨, 다이아즈팜 10밀리그램 IVQLH 적용함, 네이절 캐뉼러 투 엘 민은 유지함, 운드 브라이드먼트 시행함, NG 튜브 삽입됨, IO 스트릭트 모니터링 유지함, 환자 상태 드라우지 확인됨, 뉴럴러지 컨설트 머슬 스파즘스 매니지먼트 위해 담당에 노티파임.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 293,
+      "output_tokens": 184,
+      "total_tokens": 477,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 293,
+        "text_tokens": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "sample_id": "scenario_067_telegraphic_icu",
+  "whisper_transcript": "소지부세 남성 환자, 급성 대량 폐색 전증으로 입원, BP 80-60mm, HR, MedBPM, RR, WB, BT369, SPO2 88% on 6L02 via NC Severe chest pain, heparin 510 units IV stat, NC 사용 중, C-lines hypedem, stuporous 상태, deactor notify",
+  "stt_metadata": {
+    "asr_system": "whisper1",
+    "provider": "reuse_existing",
+    "model": "whisper-1",
+    "language": "ko",
+    "audio_path": "data/audio/scenario_067_telegraphic_icu.mp3",
+    "audio_sha256": "f1310d23a9a3758bf13f0023adb3e37b3760c754c63d4a2764a98f5547655b88",
+    "copied_at": "2026-11-04T04:31:12+00:00",
+    "request_seconds": 0.0,
+    "attempts": 1,
+    "git_commit": "b3490181b3fb3f88b56cde5be78a01cfdcef3007",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "source_file": "data/stt_transcripts/scenario_067_telegraphic_icu.json",
+    "source_sha256": "1cf6861c732c363613ef8b3710165c563abb68b9600b575c10a7126ed6532552",
+    "source_stt_metadata": {
+      "model": "whisper-1",
+      "language": "ko"
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_067_telegraphic_icu",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "chest pain",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "Stuporous",
+    "medication_identity": "Heparin",
+    "interventions": [],
+    "intake_output": null,
+    "notification": "Dr notify"
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "chest pain",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "stuporous",
+    "medication_identity": "heparin",
+    "interventions": [],
+    "intake_output": null,
+    "notification": "deactor notify"
+  }
+}

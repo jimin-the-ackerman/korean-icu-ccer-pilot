@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_074_telegraphic_icu",
+  "whisper_transcript": "70M acute hypoglycemic coma insulin overdose BP 1/10 70 mmHg, HR 88 bpm, R 16 breaths/min, BT 36.5°C, SpO2 98% room air, unconsciousness severe, dextrose 50% 50 ml IV stat, IV glucose administration unresponsive endocrinologist notify",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe_auto",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": null,
+    "audio_path": "data/audio/scenario_074_telegraphic_icu.mp3",
+    "audio_sha256": "346f5c639f64eb711c0bbd4b5132a89925df177bb8ce8cfb79dd6d38defa0ed4",
+    "transcribed_at": "2026-11-04T14:12:22+00:00",
+    "request_seconds": 1.51,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "70M acute hypoglycemic coma insulin overdose BP 1/10 70 mmHg, HR 88 bpm, R 16 breaths/min, BT 36.5°C, SpO2 98% room air, unconsciousness severe, dextrose 50% 50 ml IV stat, IV glucose administration unresponsive endocrinologist notify",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 181,
+      "output_tokens": 73,
+      "total_tokens": 254,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 181,
+        "text_tokens": 0
+      }
+    }
+  }
+}

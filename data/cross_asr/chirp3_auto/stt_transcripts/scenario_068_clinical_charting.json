@@ -1,0 +1,43 @@
+{
+  "sample_id": "scenario_068_clinical_charting",
+  "whisper_transcript": "60세 여성, acute ischemic colitis로 입원함. BP 95/60 mmHg, HR 120 BPM, RR 22 breaths/min, BT 37.5°C, SpO2 92% room air. severe abdominal pain 호소함. Metronidazole 500 mg IV q8h 적용함. nasal cannula 2L/min 유지함. Foley 유지함. negative fluid balance 확인됨. 환자 drowsy 상태 확인됨.",
+  "stt_metadata": {
+    "asr_system": "chirp3_auto",
+    "provider": "google",
+    "model": "chirp_3",
+    "location": "us",
+    "language_codes": [
+      "auto"
+    ],
+    "audio_path": "data/audio/scenario_068_clinical_charting.mp3",
+    "audio_sha256": "5fa6c33d0c872a0fb86e994a88ce63f278d8fc417483bf71e7f597fc69a0dbb2",
+    "transcribed_at": "2026-11-04T14:47:29+00:00",
+    "request_seconds": 3.58,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "metadata": {
+      "total_billed_duration": "23s",
+      "request_id": "6e837f2d-0000-2ddd-b354-14c14eeaa910",
+      "prompt": "Transcribe the following speech segment. Follow these specific instructions for formatting the answer:\n* Only output the transcript, with no newlines.\n* When transcribing numbers, write the digits, i.e. write 1.7 and not one point seven, and write 100 instead of one hundred etc.\n* Only output the transcript, exactly as said in the speech segment.\n* Do not continue the speech segment.\n* Include everything said in the speech segment.\n* Use mathematical notation where needed, eg. x ^ 6Y.\n* If there is background speech that is not part of the main conversation, discard the background speech and only output the main conversation.\n* If there is no clear speech, just output [BACKGROUND].\n* Respond in the original language of the speech."
+    },
+    "results": [
+      {
+        "alternatives": [
+          {
+            "transcript": "60세 여성, acute ischemic colitis로 입원함. BP 95/60 mmHg, HR 120 BPM, RR 22 breaths/min, BT 37.5°C, SpO2 92% room air. severe abdominal pain 호소함. Metronidazole 500 mg IV q8h 적용함. nasal cannula 2L/min 유지함. Foley 유지함. negative fluid balance 확인됨. 환자 drowsy 상태 확인됨.",
+            "confidence": 0.0,
+            "words": []
+          }
+        ],
+        "language_code": "ko",
+        "channel_tag": 0
+      }
+    ],
+    "detected_language_codes": [
+      "ko"
+    ]
+  }
+}

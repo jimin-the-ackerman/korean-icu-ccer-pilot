@@ -1,0 +1,25 @@
+{
+  "sample_id": "scenario_027_formal_template",
+  "whisper_transcript": "환자는 60세 남성으로 급성 허혈성 뇌졸중으로 입원하였다. 현재 활력징후는 혈압 160mg, 심박수 88bpm, 호흡수 18회분, 체온 37.2°C, 산소포화도 95%로 확인되었다. 환자는 오른쪽에 중등도의 약화를 호소하고 있다. Alteplase 0.9mgkg이 정맥으로 즉시 투여되었다. 피아에 C-Line이 삽입되어 있으며 정맥 수액이 시작되었다. 환자는 현재 졸린 상태를 보이고 있다. 신경과 팀에게 즉각적인 평가와 치료를 위해 보고하였다.",
+  "stt_metadata": {
+    "asr_system": "whisper1_auto",
+    "provider": "openai",
+    "model": "whisper-1",
+    "language": null,
+    "audio_path": "data/audio/scenario_027_formal_template.mp3",
+    "audio_sha256": "8ed515901b88225b10a2a719a586a4733345552111b00af75982566e9a472d77",
+    "transcribed_at": "2026-11-04T13:52:06+00:00",
+    "request_seconds": 3.71,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "환자는 60세 남성으로 급성 허혈성 뇌졸중으로 입원하였다. 현재 활력징후는 혈압 160mg, 심박수 88bpm, 호흡수 18회분, 체온 37.2°C, 산소포화도 95%로 확인되었다. 환자는 오른쪽에 중등도의 약화를 호소하고 있다. Alteplase 0.9mgkg이 정맥으로 즉시 투여되었다. 피아에 C-Line이 삽입되어 있으며 정맥 수액이 시작되었다. 환자는 현재 졸린 상태를 보이고 있다. 신경과 팀에게 즉각적인 평가와 치료를 위해 보고하였다.",
+    "logprobs": null,
+    "usage": {
+      "seconds": 35.0,
+      "type": "duration"
+    }
+  }
+}

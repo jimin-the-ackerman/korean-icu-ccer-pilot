@@ -1,0 +1,25 @@
+{
+  "sample_id": "scenario_034_telegraphic_icu",
+  "whisper_transcript": "Oxibycin amsong, kypsung aquaden, kansung honsuruibun. BP-tinystrioxymimoduram, HR-112bpm, RR-20min, BT-36.5gith. SpO2, 90% room air, jaundice moderate. Lactulose, 30 milliliter POQH, nasal cannula, two of them, strict fluid balance monitoring, drowsy. Hepatology team notify him.",
+  "stt_metadata": {
+    "asr_system": "whisper1_auto",
+    "provider": "openai",
+    "model": "whisper-1",
+    "language": null,
+    "audio_path": "data/audio/scenario_034_telegraphic_icu.mp3",
+    "audio_sha256": "5dc84e85bdca7546e8b3426fb6d6edab874e4491321cb07dff8dd50c11d1ed0b",
+    "transcribed_at": "2026-11-04T13:52:59+00:00",
+    "request_seconds": 1.81,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "Oxibycin amsong, kypsung aquaden, kansung honsuruibun. BP-tinystrioxymimoduram, HR-112bpm, RR-20min, BT-36.5gith. SpO2, 90% room air, jaundice moderate. Lactulose, 30 milliliter POQH, nasal cannula, two of them, strict fluid balance monitoring, drowsy. Hepatology team notify him.",
+    "logprobs": null,
+    "usage": {
+      "seconds": 21.0,
+      "type": "duration"
+    }
+  }
+}

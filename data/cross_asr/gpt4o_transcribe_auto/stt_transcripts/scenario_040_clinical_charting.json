@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_040_clinical_charting",
+  "whisper_transcript": "42세 여성, severe Stevenson's Syndrome으로 입원함. BP 약 지식, HR 95 bpm, RR 20, BT 37.0, SpO2 94%. Severe skin lesions 확인됨. Morphine 4mg IV q4h 적용함. Nasal cannula 2L/min 산소 공급 유지함. Foley 유지함. Drowsy 상태 확인됨.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe_auto",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": null,
+    "audio_path": "data/audio/scenario_040_clinical_charting.mp3",
+    "audio_sha256": "169eb6e95cfbd0fd545f96539a16649a2ea84be824a3f9d39ac797a563104dd6",
+    "transcribed_at": "2026-11-04T14:08:03+00:00",
+    "request_seconds": 1.49,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "42세 여성, severe Stevenson's Syndrome으로 입원함. BP 약 지식, HR 95 bpm, RR 20, BT 37.0, SpO2 94%. Severe skin lesions 확인됨. Morphine 4mg IV q4h 적용함. Nasal cannula 2L/min 산소 공급 유지함. Foley 유지함. Drowsy 상태 확인됨.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 190,
+      "output_tokens": 84,
+      "total_tokens": 274,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 190,
+        "text_tokens": 0
+      }
+    }
+  }
+}

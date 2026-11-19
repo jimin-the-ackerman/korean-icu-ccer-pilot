@@ -1,0 +1,43 @@
+{
+  "sample_id": "scenario_045_clinical_charting",
+  "whisper_transcript": "62세 여성 환자 애디슨 디지즈로 인한 어큐트 아드레날 크라이시스로 입원. BP 85/55 mmHg, HR 110 bpm, RR 24 breaths/min, BT 37.0 섭씨, SpO2 92% 룸 에어. Severe abdominal pain 호소함. 하이드로코르티손 100 mg IV stat 투여함. 나살 캐눌라 2 L/min 적용함. 플루이드 리서시테이션 with 노말 세일린 시행함. 폴리 유 지함. 유린 아웃풋 30 ml/hr 확인됨. 환자 드라우지 상태임. 엔도크리놀로지 컨설트 for 매니지먼트 오브 아드레날 인서피션시.",
+  "stt_metadata": {
+    "asr_system": "chirp3_auto",
+    "provider": "google",
+    "model": "chirp_3",
+    "location": "us",
+    "language_codes": [
+      "auto"
+    ],
+    "audio_path": "data/audio/scenario_045_clinical_charting.mp3",
+    "audio_sha256": "cbe4a48db156760a301a43aff9965304419b07a21308b7db679a478c895445f5",
+    "transcribed_at": "2026-11-04T14:28:04+00:00",
+    "request_seconds": 6.87,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "metadata": {
+      "total_billed_duration": "32s",
+      "request_id": "6b4143a7-0000-291b-9ce0-7474463f846d",
+      "prompt": "Transcribe the following speech segment. Follow these specific instructions for formatting the answer:\n* Only output the transcript, with no newlines.\n* When transcribing numbers, write the digits, i.e. write 1.7 and not one point seven, and write 100 instead of one hundred etc.\n* Only output the transcript, exactly as said in the speech segment.\n* Do not continue the speech segment.\n* Include everything said in the speech segment.\n* Use mathematical notation where needed, eg. x ^ 6Y.\n* If there is background speech that is not part of the main conversation, discard the background speech and only output the main conversation.\n* If there is no clear speech, just output [BACKGROUND].\n* Respond in the original language of the speech."
+    },
+    "results": [
+      {
+        "alternatives": [
+          {
+            "transcript": "62세 여성 환자 애디슨 디지즈로 인한 어큐트 아드레날 크라이시스로 입원. BP 85/55 mmHg, HR 110 bpm, RR 24 breaths/min, BT 37.0 섭씨, SpO2 92% 룸 에어. Severe abdominal pain 호소함. 하이드로코르티손 100 mg IV stat 투여함. 나살 캐눌라 2 L/min 적용함. 플루이드 리서시테이션 with 노말 세일린 시행함. 폴리 유 지함. 유린 아웃풋 30 ml/hr 확인됨. 환자 드라우지 상태임. 엔도크리놀로지 컨설트 for 매니지먼트 오브 아드레날 인서피션시.",
+            "confidence": 0.0,
+            "words": []
+          }
+        ],
+        "language_code": "ko",
+        "channel_tag": 0
+      }
+    ],
+    "detected_language_codes": [
+      "ko"
+    ]
+  }
+}

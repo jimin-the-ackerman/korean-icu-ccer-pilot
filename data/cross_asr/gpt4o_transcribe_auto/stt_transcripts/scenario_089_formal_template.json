@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_089_formal_template",
+  "whisper_transcript": "환자는 59세 남성으로 비알코올성 지방간염 NASH로 인한 만성 간질환의 급성 악화로 입원하였다. 활력징후는 혈압 92/58mmHg, 심박수 115bpm, 호흡수 24th/min, 체온 37.2℃, 산소포화도 89%로 확인되었다. 실내 공기 상태. 환자는 중등도의 복수를 가지고 있다. 스페로놀락톤 100mg POBI로 처방되었다. 환자는 3리메네 산소를 비강 캡켈나로 받고 있다. 폴리 도뇨관이 삽입되어 있으며 500ml의 음성 수분 균형을 보였다. 임상 상태는 기면 상태로 확인되었다. 관리 계획을 위해 간담도학팀에 보고하였다.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe_auto",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": null,
+    "audio_path": "data/audio/scenario_089_formal_template.mp3",
+    "audio_sha256": "34cc21140725b5d2fc86ed6f386e0064c9dc7f728b244177a896a6d8b6c19011",
+    "transcribed_at": "2026-11-04T14:14:10+00:00",
+    "request_seconds": 2.87,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "환자는 59세 남성으로 비알코올성 지방간염 NASH로 인한 만성 간질환의 급성 악화로 입원하였다. 활력징후는 혈압 92/58mmHg, 심박수 115bpm, 호흡수 24th/min, 체온 37.2℃, 산소포화도 89%로 확인되었다. 실내 공기 상태. 환자는 중등도의 복수를 가지고 있다. 스페로놀락톤 100mg POBI로 처방되었다. 환자는 3리메네 산소를 비강 캡켈나로 받고 있다. 폴리 도뇨관이 삽입되어 있으며 500ml의 음성 수분 균형을 보였다. 임상 상태는 기면 상태로 확인되었다. 관리 계획을 위해 간담도학팀에 보고하였다.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 415,
+      "output_tokens": 198,
+      "total_tokens": 613,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 415,
+        "text_tokens": 0
+      }
+    }
+  }
+}

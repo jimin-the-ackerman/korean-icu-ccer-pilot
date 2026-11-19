@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_090_formal_template",
+  "whisper_transcript": "57세 여성 환자가 다발성 경화증의 급성 악화로 입원하였다. 환자는 심각한 모터 위크니스와 감각 장애를 보였다. 활력증으로는 혈압이 130/85mmHg, 심박수가 95bpm, 호흡수가 20, 체온이 37.56℃로 확인되었다. 산소포화도는 룸 에어에서 93%로 확인되었다. 환자는 메틸프레드니솔론 1g을 IV로 Q12H 투여받고 있다. 소변 배출량은 적절하다. 현재 환자는 드라우지 상태에 있다.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": "ko",
+    "audio_path": "data/audio/scenario_090_formal_template.mp3",
+    "audio_sha256": "a18fbfbc19383f16a43d37d9bc2f75b5545db259e21b0906fb06fa48297f17a5",
+    "transcribed_at": "2026-11-04T13:04:23+00:00",
+    "request_seconds": 2.45,
+    "attempts": 1,
+    "git_commit": "5b6d73fb63e1509a79e1a160176d606ed1b104c4",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "57세 여성 환자가 다발성 경화증의 급성 악화로 입원하였다. 환자는 심각한 모터 위크니스와 감각 장애를 보였다. 활력증으로는 혈압이 130/85mmHg, 심박수가 95bpm, 호흡수가 20, 체온이 37.56℃로 확인되었다. 산소포화도는 룸 에어에서 93%로 확인되었다. 환자는 메틸프레드니솔론 1g을 IV로 Q12H 투여받고 있다. 소변 배출량은 적절하다. 현재 환자는 드라우지 상태에 있다.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 300,
+      "output_tokens": 148,
+      "total_tokens": 448,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 300,
+        "text_tokens": 0
+      }
+    }
+  }
+}

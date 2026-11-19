@@ -1,0 +1,25 @@
+{
+  "sample_id": "scenario_061_clinical_charting",
+  "whisper_transcript": "52세 남성 환자, acute pancreatitis secondary to hypertriglyceridemia를 입원함. BP subuate 85, HR recursion, RR3, BT, 산채첩염, 8-cell cell, SPO, 96% 풍부확인. Abdominal pain 심각함. Insulin infusion 5 units per hour IV 적용함. IV fluid resuscitation 유지함. Positive fluid balance 확인됨. 환자상태 alert.",
+  "stt_metadata": {
+    "asr_system": "whisper1",
+    "provider": "reuse_existing",
+    "model": "whisper-1",
+    "language": "ko",
+    "audio_path": "data/audio/scenario_061_clinical_charting.mp3",
+    "audio_sha256": "49b94960720f4a4ef088768c2dc375e6bf5b3f0dc5c3e3662742f57e562c8aa7",
+    "copied_at": "2026-11-04T04:31:12+00:00",
+    "request_seconds": 0.0,
+    "attempts": 1,
+    "git_commit": "b3490181b3fb3f88b56cde5be78a01cfdcef3007",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "source_file": "data/stt_transcripts/scenario_061_clinical_charting.json",
+    "source_sha256": "bdf288f0bddb5e1129989102a80b402e90bad0e5a5132c1481665d8e966b03c1",
+    "source_stt_metadata": {
+      "model": "whisper-1",
+      "language": "ko"
+    }
+  }
+}

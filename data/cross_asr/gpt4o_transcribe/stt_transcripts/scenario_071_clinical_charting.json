@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_071_clinical_charting",
+  "whisper_transcript": "소베세아성 기암브레이 신드롬 GBS severe case admission. Respiratory monitoring close PO. BP 108, 76 Mumbram HR tidiate BR 28 breaths min. BT 30 on by McGee's SpO2 89% on room air hugging them. Severe muscle weakness hosowam. IV immunoglobulin 0.4 mg IV Q12H togyowam. Non-rebreather masks hanso jogyowam. Ventilator 사용 중. Clinical status drowsy 상태. Neurology team notifyam.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": "ko",
+    "audio_path": "data/audio/scenario_071_clinical_charting.mp3",
+    "audio_sha256": "ebc930d56423e976b3872e7a1976b8f0a66849724d73565408d875323115500f",
+    "transcribed_at": "2026-11-04T13:01:41+00:00",
+    "request_seconds": 18.94,
+    "attempts": 1,
+    "git_commit": "5b6d73fb63e1509a79e1a160176d606ed1b104c4",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "소베세아성 기암브레이 신드롬 GBS severe case admission. Respiratory monitoring close PO. BP 108, 76 Mumbram HR tidiate BR 28 breaths min. BT 30 on by McGee's SpO2 89% on room air hugging them. Severe muscle weakness hosowam. IV immunoglobulin 0.4 mg IV Q12H togyowam. Non-rebreather masks hanso jogyowam. Ventilator 사용 중. Clinical status drowsy 상태. Neurology team notifyam.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 272,
+      "output_tokens": 120,
+      "total_tokens": 392,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 272,
+        "text_tokens": 0
+      }
+    }
+  }
+}

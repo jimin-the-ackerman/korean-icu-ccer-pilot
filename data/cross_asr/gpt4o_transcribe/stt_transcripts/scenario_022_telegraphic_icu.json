@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_022_telegraphic_icu",
+  "whisper_transcript": "기습기삽입하여 성극성 심부전 및 폐부종, BP 197/100 mmHg, HR 109 BPM, RR 28, BT 37.2℃, SpO2 86% RA, severe SOB, Furosemide 40mg IV QH, HFNC 사용 중, C-line 유지 중, 양성 수분 균형, drowsy, cardiology team notify.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": "ko",
+    "audio_path": "data/audio/scenario_022_telegraphic_icu.mp3",
+    "audio_sha256": "3acd5db01f6c6d44ec2e15f6995dff74564944230d464078020d7668417ebc96",
+    "transcribed_at": "2026-11-04T12:55:53+00:00",
+    "request_seconds": 1.57,
+    "attempts": 1,
+    "git_commit": "5b6d73fb63e1509a79e1a160176d606ed1b104c4",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "기습기삽입하여 성극성 심부전 및 폐부종, BP 197/100 mmHg, HR 109 BPM, RR 28, BT 37.2℃, SpO2 86% RA, severe SOB, Furosemide 40mg IV QH, HFNC 사용 중, C-line 유지 중, 양성 수분 균형, drowsy, cardiology team notify.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 174,
+      "output_tokens": 93,
+      "total_tokens": 267,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 174,
+        "text_tokens": 0
+      }
+    }
+  }
+}

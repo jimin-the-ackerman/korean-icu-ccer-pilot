@@ -1,0 +1,35 @@
+{
+  "sample_id": "scenario_021_telegraphic_icu",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "muscle weakness",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "Alert",
+    "medication_identity": "Calcium gluconate",
+    "interventions": [
+      "IV fluid administration"
+    ],
+    "intake_output": "I/O strict monitoring",
+    "notification": "Renal team notify"
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "muscle weakness",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "alert",
+    "medication_identity": "calcium gluconate",
+    "interventions": [
+      "IV fluid administration"
+    ],
+    "intake_output": "I/O strict monitoring",
+    "notification": "renal team notify"
+  }
+}

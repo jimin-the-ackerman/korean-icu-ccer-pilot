@@ -1,0 +1,25 @@
+{
+  "sample_id": "scenario_083_formal_template",
+  "whisper_transcript": "61세 여성 환자가 급성 승모판막 역류로 인한 급성 폐부종으로 입원하였다. 활력증후로는 혈압 160mg, 심박수 110bpm, 호흡수 28회분, 체온 37.2°C, 산소포화도 88%로 확인되었다. 환자는 심한 호흡곤란을 호소하였다. 현재 Furosemide 40mg을 IV로 6시간마다 투여 중이다. 비제호 마스크를 통한 산소 공급을 받고 있으며 C-라인이 삽입되어 있다. 임상상태는 기면 상태로 평가되었다.",
+  "stt_metadata": {
+    "asr_system": "whisper1",
+    "provider": "reuse_existing",
+    "model": "whisper-1",
+    "language": "ko",
+    "audio_path": "data/audio/scenario_083_formal_template.mp3",
+    "audio_sha256": "8eb7203127687a010f1417917a8e8a4d46cd8eb73febc43fe250c3ebd1b074ba",
+    "copied_at": "2026-11-04T04:31:12+00:00",
+    "request_seconds": 0.0,
+    "attempts": 1,
+    "git_commit": "b3490181b3fb3f88b56cde5be78a01cfdcef3007",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "source_file": "data/stt_transcripts/scenario_083_formal_template.json",
+    "source_sha256": "e80d3c562d9fcd6d56939bfe57f2ba53a37f32d762283f323b2b93364951014b",
+    "source_stt_metadata": {
+      "model": "whisper-1",
+      "language": "ko"
+    }
+  }
+}

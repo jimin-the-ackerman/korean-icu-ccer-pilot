@@ -1,0 +1,25 @@
+{
+  "sample_id": "scenario_064_formal_template",
+  "whisper_transcript": "환자 기록 65세 여성 환자가 흡인성 폐렴에 2차적으로 급성 호흡곤란증후군 ARDS로 입원하였다. 활력증후는 혈압 117mmhg, 심박수 95bpm, 호흡수 30회분, 체온 37.8°C, 실내 공기에서 산소포화도 85%로 확인되었다. 환자는 심한 정도의 호흡곤란을 호소하였다. 환자는 세프트 리액션 2가암을 IV로 12시간마다 투여받고 있다. 기계적 환기를 위해 환자는 벤틀레이터를 사용 중이며 체액균형은 양성으로 나타났다. 현재 임상상태는 혼미암으로 평가되었다.",
+  "stt_metadata": {
+    "asr_system": "whisper1",
+    "provider": "reuse_existing",
+    "model": "whisper-1",
+    "language": "ko",
+    "audio_path": "data/audio/scenario_064_formal_template.mp3",
+    "audio_sha256": "f2a52fba8f16f8ba6a714b68771f239d962a142a339bb4bed99b8ef1909a4caa",
+    "copied_at": "2026-11-04T04:31:12+00:00",
+    "request_seconds": 0.0,
+    "attempts": 1,
+    "git_commit": "b3490181b3fb3f88b56cde5be78a01cfdcef3007",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "source_file": "data/stt_transcripts/scenario_064_formal_template.json",
+    "source_sha256": "6ab508ba3607c820d7ba631b61a2ea9e01582790cff40cb0a2d587cc1ab47b64",
+    "source_stt_metadata": {
+      "model": "whisper-1",
+      "language": "ko"
+    }
+  }
+}

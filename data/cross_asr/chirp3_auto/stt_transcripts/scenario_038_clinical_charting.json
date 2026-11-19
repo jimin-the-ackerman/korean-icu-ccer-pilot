@@ -1,0 +1,43 @@
+{
+  "sample_id": "scenario_038_clinical_charting",
+  "whisper_transcript": "59세 여성 환자, 어큐트 마이애성 크라이시스로 입원하여 호흡 보조 필요함. BP 135/85, HR 92, R 28, BT 37.0, SpO2 88% 확인됨. 시비어 머슬 위크니스 호소함. 피리도스티그민 60mg PO QID 적용함. 메카니컬 벤틸레이션 유지함. 벤틸레이터 사용 중임. 임상 상태 스튜퍼스 확인됨.",
+  "stt_metadata": {
+    "asr_system": "chirp3_auto",
+    "provider": "google",
+    "model": "chirp_3",
+    "location": "us",
+    "language_codes": [
+      "auto"
+    ],
+    "audio_path": "data/audio/scenario_038_clinical_charting.mp3",
+    "audio_sha256": "6066a3bed894089df845cdd4ccbea09d52822dd8a511eda63371c8cc6ce5a81c",
+    "transcribed_at": "2026-11-04T14:26:25+00:00",
+    "request_seconds": 4.91,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "metadata": {
+      "total_billed_duration": "22s",
+      "request_id": "6b0a4636-0000-27ce-8e1f-f4f5e8087f78",
+      "prompt": "Transcribe the following speech segment. Follow these specific instructions for formatting the answer:\n* Only output the transcript, with no newlines.\n* When transcribing numbers, write the digits, i.e. write 1.7 and not one point seven, and write 100 instead of one hundred etc.\n* Only output the transcript, exactly as said in the speech segment.\n* Do not continue the speech segment.\n* Include everything said in the speech segment.\n* Use mathematical notation where needed, eg. x ^ 6Y.\n* If there is background speech that is not part of the main conversation, discard the background speech and only output the main conversation.\n* If there is no clear speech, just output [BACKGROUND].\n* Respond in the original language of the speech."
+    },
+    "results": [
+      {
+        "alternatives": [
+          {
+            "transcript": "59세 여성 환자, 어큐트 마이애성 크라이시스로 입원하여 호흡 보조 필요함. BP 135/85, HR 92, R 28, BT 37.0, SpO2 88% 확인됨. 시비어 머슬 위크니스 호소함. 피리도스티그민 60mg PO QID 적용함. 메카니컬 벤틸레이션 유지함. 벤틸레이터 사용 중임. 임상 상태 스튜퍼스 확인됨.",
+            "confidence": 0.0,
+            "words": []
+          }
+        ],
+        "language_code": "ko",
+        "channel_tag": 0
+      }
+    ],
+    "detected_language_codes": [
+      "ko"
+    ]
+  }
+}

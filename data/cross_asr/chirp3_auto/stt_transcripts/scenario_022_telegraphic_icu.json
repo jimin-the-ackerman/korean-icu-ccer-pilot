@@ -1,0 +1,43 @@
+{
+  "sample_id": "scenario_022_telegraphic_icu",
+  "whisper_transcript": "63세 여성, 급성 심부전 및 폐부종, BP 190/90 mmHg, HR 108 bpm, RT 37.2°C, S86% RA, severe SOB, Furosemide 40mg IV q h, HFNC 사용 중, C-line 유지 중, 양성 수분 균형, drowsy, cardiology 팀 notify.",
+  "stt_metadata": {
+    "asr_system": "chirp3_auto",
+    "provider": "google",
+    "model": "chirp_3",
+    "location": "us",
+    "language_codes": [
+      "auto"
+    ],
+    "audio_path": "data/audio/scenario_022_telegraphic_icu.mp3",
+    "audio_sha256": "3acd5db01f6c6d44ec2e15f6995dff74564944230d464078020d7668417ebc96",
+    "transcribed_at": "2026-11-04T14:22:39+00:00",
+    "request_seconds": 2.78,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "metadata": {
+      "total_billed_duration": "18s",
+      "request_id": "7573b1f6-0000-2332-a289-582429c95ee4",
+      "prompt": "Transcribe the following speech segment. Follow these specific instructions for formatting the answer:\n* Only output the transcript, with no newlines.\n* When transcribing numbers, write the digits, i.e. write 1.7 and not one point seven, and write 100 instead of one hundred etc.\n* Only output the transcript, exactly as said in the speech segment.\n* Do not continue the speech segment.\n* Include everything said in the speech segment.\n* Use mathematical notation where needed, eg. x ^ 6Y.\n* If there is background speech that is not part of the main conversation, discard the background speech and only output the main conversation.\n* If there is no clear speech, just output [BACKGROUND].\n* Respond in the original language of the speech."
+    },
+    "results": [
+      {
+        "alternatives": [
+          {
+            "transcript": "63세 여성, 급성 심부전 및 폐부종, BP 190/90 mmHg, HR 108 bpm, RT 37.2°C, S86% RA, severe SOB, Furosemide 40mg IV q h, HFNC 사용 중, C-line 유지 중, 양성 수분 균형, drowsy, cardiology 팀 notify.",
+            "confidence": 0.0,
+            "words": []
+          }
+        ],
+        "language_code": "ko",
+        "channel_tag": 0
+      }
+    ],
+    "detected_language_codes": [
+      "ko"
+    ]
+  }
+}

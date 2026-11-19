@@ -1,0 +1,43 @@
+{
+  "sample_id": "scenario_076_clinical_charting",
+  "whisper_transcript": "35세 여성 환자, 고도 입덧으로 인한 심한 탈수로 급성 신부전으로 입원함. 혈압 92/68 mmHg, 심박수 110 bpm, 호흡수 18회, 체온 37.5°C, 산소포화도 96%. 심한 구역질 호소함. 온단세트론 8mg IV q8h 투여함. IV 수액 소생술을 식염수와 함께 시행함. 소변량 확인. 음성 수액 균형 확인. 졸음 상태 관찰. 신장내과 팀에 알림.",
+  "stt_metadata": {
+    "asr_system": "chirp3_auto",
+    "provider": "google",
+    "model": "chirp_3",
+    "location": "us",
+    "language_codes": [
+      "auto"
+    ],
+    "audio_path": "data/audio/scenario_076_clinical_charting.mp3",
+    "audio_sha256": "a11021b6ee6d1f61c04bfbd52c45156aa0b7696a7f9d342c939b436be230da9b",
+    "transcribed_at": "2026-11-04T14:49:25+00:00",
+    "request_seconds": 5.14,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "metadata": {
+      "total_billed_duration": "26s",
+      "request_id": "767c525e-0000-2066-845b-5c337bbfaccb",
+      "prompt": "Transcribe the following speech segment. Follow these specific instructions for formatting the answer:\n* Only output the transcript, with no newlines.\n* When transcribing numbers, write the digits, i.e. write 1.7 and not one point seven, and write 100 instead of one hundred etc.\n* Only output the transcript, exactly as said in the speech segment.\n* Do not continue the speech segment.\n* Include everything said in the speech segment.\n* Use mathematical notation where needed, eg. x ^ 6Y.\n* If there is background speech that is not part of the main conversation, discard the background speech and only output the main conversation.\n* If there is no clear speech, just output [BACKGROUND].\n* Respond in the original language of the speech."
+    },
+    "results": [
+      {
+        "alternatives": [
+          {
+            "transcript": "35세 여성 환자, 고도 입덧으로 인한 심한 탈수로 급성 신부전으로 입원함. 혈압 92/68 mmHg, 심박수 110 bpm, 호흡수 18회, 체온 37.5°C, 산소포화도 96%. 심한 구역질 호소함. 온단세트론 8mg IV q8h 투여함. IV 수액 소생술을 식염수와 함께 시행함. 소변량 확인. 음성 수액 균형 확인. 졸음 상태 관찰. 신장내과 팀에 알림.",
+            "confidence": 0.0,
+            "words": []
+          }
+        ],
+        "language_code": "ko",
+        "channel_tag": 0
+      }
+    ],
+    "detected_language_codes": [
+      "ko"
+    ]
+  }
+}

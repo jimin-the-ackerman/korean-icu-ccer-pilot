@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_070_clinical_charting",
+  "whisper_transcript": "60세 남성 acute respiratory failure로 입원. Severe community-acquired pneumonia 확인됨. BP 다이지디이잉 58 mm Hg, HR 햄 RR 28 breaths/min, BT 38.5℃, SpO2 86% 호소함. Cevivofloxacin 750mg IV q12h 투여 중. Oxygen support, high flow nasal cannula 적용함. Ventilator 사용 중. Negative fluid balance 확인. Clinical status, drowsy.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": "ko",
+    "audio_path": "data/audio/scenario_070_clinical_charting.mp3",
+    "audio_sha256": "943ddf45db2169275702efc52bbe2337bc79b20e6ac2521ff9f75c3c1e25f276",
+    "transcribed_at": "2026-11-04T13:01:18+00:00",
+    "request_seconds": 1.94,
+    "attempts": 1,
+    "git_commit": "5b6d73fb63e1509a79e1a160176d606ed1b104c4",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "60세 남성 acute respiratory failure로 입원. Severe community-acquired pneumonia 확인됨. BP 다이지디이잉 58 mm Hg, HR 햄 RR 28 breaths/min, BT 38.5℃, SpO2 86% 호소함. Cevivofloxacin 750mg IV q12h 투여 중. Oxygen support, high flow nasal cannula 적용함. Ventilator 사용 중. Negative fluid balance 확인. Clinical status, drowsy.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 261,
+      "output_tokens": 103,
+      "total_tokens": 364,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 261,
+        "text_tokens": 0
+      }
+    }
+  }
+}

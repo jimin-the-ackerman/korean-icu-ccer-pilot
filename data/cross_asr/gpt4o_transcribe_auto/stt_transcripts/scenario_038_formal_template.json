@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_038_formal_template",
+  "whisper_transcript": "환자는 59세 여성으로 급성중증근무력 위기로 인하여 호흡보조가 필요한 상태로 입원하였다. 현재 혈압은 135/85mmHg, 심박수는 92bpm, 호흡수는 28bpm, 체온은 37.0도로 확인되었다. 산소포화도는 88%로 낮은 수준이며 기계 환기로 호흡을 지원받고 있다. 근육 약화가 심각한 상태로 나타났으며 환자는 스투퍼스 상태로 관찰되었다. 피리도스티그민 60mg을 경구로 하루 네 번 투여받고 있다. 환자는 벤틸레이터를 사용 중이다.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe_auto",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": null,
+    "audio_path": "data/audio/scenario_038_formal_template.mp3",
+    "audio_sha256": "61ebdc1e6c4e5cba7eb671659ea7c382b8ff879126716e396dea5492ec0473bd",
+    "transcribed_at": "2026-11-04T14:07:52+00:00",
+    "request_seconds": 3.16,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "환자는 59세 여성으로 급성중증근무력 위기로 인하여 호흡보조가 필요한 상태로 입원하였다. 현재 혈압은 135/85mmHg, 심박수는 92bpm, 호흡수는 28bpm, 체온은 37.0도로 확인되었다. 산소포화도는 88%로 낮은 수준이며 기계 환기로 호흡을 지원받고 있다. 근육 약화가 심각한 상태로 나타났으며 환자는 스투퍼스 상태로 관찰되었다. 피리도스티그민 60mg을 경구로 하루 네 번 투여받고 있다. 환자는 벤틸레이터를 사용 중이다.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 341,
+      "output_tokens": 161,
+      "total_tokens": 502,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 341,
+        "text_tokens": 0
+      }
+    }
+  }
+}

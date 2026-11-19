@@ -1,0 +1,25 @@
+{
+  "sample_id": "scenario_044_formal_template",
+  "whisper_transcript": "38세 남성 환자가 담석에 의한 중증 급성 췌장염으로 입원하였다. 활력징후 측정 결과 혈압은 98,62mmg, 심박수는 110bpm, 호흡수는 28bpm, 체온은 37.8러. 산소 포화도는 실내 공기에서 93%로 확인되었다. 환자는 심한 복통을 호소하였다. 현재 Morphine 2mg을 IV로 4시간마다 투여하고 있다. 산소 보조를 위해 Nasal Cannula를 사용 중이다. Foley 카테터가 삽입되어 있다. 환자는 졸린 상태로 관찰되었다. 통증 조절을 위해 통증팀에 컨설트하였다.",
+  "stt_metadata": {
+    "asr_system": "whisper1",
+    "provider": "reuse_existing",
+    "model": "whisper-1",
+    "language": "ko",
+    "audio_path": "data/audio/scenario_044_formal_template.mp3",
+    "audio_sha256": "03bc26d894fb567bb23bbc136d813208b3e91d64b24f7990dfdc1fc0d894ef3b",
+    "copied_at": "2026-11-04T04:31:11+00:00",
+    "request_seconds": 0.0,
+    "attempts": 1,
+    "git_commit": "b3490181b3fb3f88b56cde5be78a01cfdcef3007",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "source_file": "data/stt_transcripts/scenario_044_formal_template.json",
+    "source_sha256": "2bf604ab7c6e641742b322cfdd7b3c40700b0b180e5b7dc8b4bfee2227f16900",
+    "source_stt_metadata": {
+      "model": "whisper-1",
+      "language": "ko"
+    }
+  }
+}

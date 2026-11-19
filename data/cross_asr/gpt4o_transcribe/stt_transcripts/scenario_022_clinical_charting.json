@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_022_clinical_charting",
+  "whisper_transcript": "64세 여성 환자 급성 신부전 및 폐부종으로 입원함. BP hemosex 5mm 확인됨. HR Hagrid BPM 확인됨. RR aC brevet breaths min 확인됨. BT 37분 우드윅셀스 확인됨. SPO2 86% on room air 확인됨. Severe shortness of breath 호소함. Furiosamide 40mg IVQH 투여함. High flow nasal cannula 적용함. C-line 유지함. Positive fluid balance 확인됨. 임상상태 drowsy 확인됨. Cardiology team notify함.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": "ko",
+    "audio_path": "data/audio/scenario_022_clinical_charting.mp3",
+    "audio_sha256": "ccc28a1a5316e0654d8fd9bef324ee4a0a6fad059c385c657bc636608bb7a1df",
+    "transcribed_at": "2026-11-04T12:55:48+00:00",
+    "request_seconds": 2.3,
+    "attempts": 1,
+    "git_commit": "5b6d73fb63e1509a79e1a160176d606ed1b104c4",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "64세 여성 환자 급성 신부전 및 폐부종으로 입원함. BP hemosex 5mm 확인됨. HR Hagrid BPM 확인됨. RR aC brevet breaths min 확인됨. BT 37분 우드윅셀스 확인됨. SPO2 86% on room air 확인됨. Severe shortness of breath 호소함. Furiosamide 40mg IVQH 투여함. High flow nasal cannula 적용함. C-line 유지함. Positive fluid balance 확인됨. 임상상태 drowsy 확인됨. Cardiology team notify함.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 283,
+      "output_tokens": 127,
+      "total_tokens": 410,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 283,
+        "text_tokens": 0
+      }
+    }
+  }
+}

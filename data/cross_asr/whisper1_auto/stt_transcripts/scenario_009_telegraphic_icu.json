@@ -1,0 +1,25 @@
+{
+  "sample_id": "scenario_009_telegraphic_icu",
+  "whisper_transcript": "60-base-A L-synchronizer pair, SongXiuquan E1, BP 85, OFC, HR1 or ACRR1E6, BT38-9, SbO2 90% severe fever, piperacillin, tazobactam, 4.5-gram IVQ8H, O2Nc3min, C-line, positive fluid balance, drowsy. Doctor notify.",
+  "stt_metadata": {
+    "asr_system": "whisper1_auto",
+    "provider": "openai",
+    "model": "whisper-1",
+    "language": null,
+    "audio_path": "data/audio/scenario_009_telegraphic_icu.mp3",
+    "audio_sha256": "f190e8b4377c6e81a137c424a504dc9eb982daba7dab5fc6467b3548456b6563",
+    "transcribed_at": "2026-11-04T13:50:18+00:00",
+    "request_seconds": 2.41,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "60-base-A L-synchronizer pair, SongXiuquan E1, BP 85, OFC, HR1 or ACRR1E6, BT38-9, SbO2 90% severe fever, piperacillin, tazobactam, 4.5-gram IVQ8H, O2Nc3min, C-line, positive fluid balance, drowsy. Doctor notify.",
+    "logprobs": null,
+    "usage": {
+      "seconds": 17.0,
+      "type": "duration"
+    }
+  }
+}

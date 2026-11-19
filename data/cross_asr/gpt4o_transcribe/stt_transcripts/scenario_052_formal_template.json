@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_052_formal_template",
+  "whisper_transcript": "환자 문맥 72세 남성 환자가 고관절 대체 수술 후 합병증으로 입원하였다. 활력 증후는 다음과 같다. 혈압은 130/85mm로 확인되었고 심박수는 95bpm이며 호흡수는 18bpm이다. 체온은 37.5℃로 측정되었고 산소포화도는 실내 공기에서 97%로 확인되었다. 환자는 중등도의 페인을 호소하였다. 약물 투여로 모르핀 2mg이 IV 경로로 4시간마다 투여되고 있다. 현재 폴리 카테터가 삽입되어 있으며 소변 배출량은 6시간 동안 400ml로 기록되었다. 환자는 의식이 명료한 상태이다.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": "ko",
+    "audio_path": "data/audio/scenario_052_formal_template.mp3",
+    "audio_sha256": "ec7be7544d6b49e3cce2c5e4dc47b70bf0e506060677ca5225863b9a7dcf518e",
+    "transcribed_at": "2026-11-04T12:59:07+00:00",
+    "request_seconds": 2.58,
+    "attempts": 1,
+    "git_commit": "5b6d73fb63e1509a79e1a160176d606ed1b104c4",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "환자 문맥 72세 남성 환자가 고관절 대체 수술 후 합병증으로 입원하였다. 활력 증후는 다음과 같다. 혈압은 130/85mm로 확인되었고 심박수는 95bpm이며 호흡수는 18bpm이다. 체온은 37.5℃로 측정되었고 산소포화도는 실내 공기에서 97%로 확인되었다. 환자는 중등도의 페인을 호소하였다. 약물 투여로 모르핀 2mg이 IV 경로로 4시간마다 투여되고 있다. 현재 폴리 카테터가 삽입되어 있으며 소변 배출량은 6시간 동안 400ml로 기록되었다. 환자는 의식이 명료한 상태이다.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 395,
+      "output_tokens": 180,
+      "total_tokens": 575,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 395,
+        "text_tokens": 0
+      }
+    }
+  }
+}

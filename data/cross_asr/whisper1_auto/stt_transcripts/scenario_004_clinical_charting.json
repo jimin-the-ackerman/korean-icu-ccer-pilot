@@ -1,0 +1,25 @@
+{
+  "sample_id": "scenario_004_clinical_charting",
+  "whisper_transcript": "45세 남성 환자, acute pancreatitis로 입원함, BP 96mHg, HRV-EG-BPNR-ASH-PET-BREATHS-MIN-BT-SANCTI-PET-DEM-OL-SIL-SBO2 95% Severe abdominal pain 호소함, Morphine 4mg IV-Q4H 투여함, Fluid resuscitation 적용함, Foley 유지함, Urine output 200ml over 4 hours 확인됨, Drowsy 상태 보임, 담당의 Notify함",
+  "stt_metadata": {
+    "asr_system": "whisper1_auto",
+    "provider": "openai",
+    "model": "whisper-1",
+    "language": null,
+    "audio_path": "data/audio/scenario_004_clinical_charting.mp3",
+    "audio_sha256": "064bbcc97d148bafbf6595899164f1774cdc0b596de4c62f516ad0fe8705bd5e",
+    "transcribed_at": "2026-11-04T13:49:35+00:00",
+    "request_seconds": 1.84,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "45세 남성 환자, acute pancreatitis로 입원함, BP 96mHg, HRV-EG-BPNR-ASH-PET-BREATHS-MIN-BT-SANCTI-PET-DEM-OL-SIL-SBO2 95% Severe abdominal pain 호소함, Morphine 4mg IV-Q4H 투여함, Fluid resuscitation 적용함, Foley 유지함, Urine output 200ml over 4 hours 확인됨, Drowsy 상태 보임, 담당의 Notify함",
+    "logprobs": null,
+    "usage": {
+      "seconds": 24.0,
+      "type": "duration"
+    }
+  }
+}

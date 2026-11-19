@@ -1,0 +1,25 @@
+{
+  "sample_id": "scenario_096_clinical_charting",
+  "whisper_transcript": "50세 남성 환자, 급성 폴리머네리에디마로 입원 중. 원인은 좌심부전. BPN 60-90mm, HR-PKT BPM, RR-Eschepit Breast MEN, BT-Cernit-Chet-Omnigis-Psyth, SpO2 80% on room air, 95% on 2-8-0-2 via nasal cannula. severe dyspnea, 호소암, furosemide 40mg IV-BID 적용암, 2-8-0-2 via nasal cannula 유지암, Foley 유지암. 24시간 동안 음성 fluid balance 5mg 확인됨. Clinical status alert 확인됨. Cardiology team notify him.",
+  "stt_metadata": {
+    "asr_system": "whisper1_auto",
+    "provider": "openai",
+    "model": "whisper-1",
+    "language": null,
+    "audio_path": "data/audio/scenario_096_clinical_charting.mp3",
+    "audio_sha256": "a1d64f9a912db3a9243152ccf4296145bcd2e5bc2424bf27d42cc82b4e251c46",
+    "transcribed_at": "2026-11-04T14:01:48+00:00",
+    "request_seconds": 3.94,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "50세 남성 환자, 급성 폴리머네리에디마로 입원 중. 원인은 좌심부전. BPN 60-90mm, HR-PKT BPM, RR-Eschepit Breast MEN, BT-Cernit-Chet-Omnigis-Psyth, SpO2 80% on room air, 95% on 2-8-0-2 via nasal cannula. severe dyspnea, 호소암, furosemide 40mg IV-BID 적용암, 2-8-0-2 via nasal cannula 유지암, Foley 유지암. 24시간 동안 음성 fluid balance 5mg 확인됨. Clinical status alert 확인됨. Cardiology team notify him.",
+    "logprobs": null,
+    "usage": {
+      "seconds": 31.0,
+      "type": "duration"
+    }
+  }
+}

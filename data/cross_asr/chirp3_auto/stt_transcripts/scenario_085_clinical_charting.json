@@ -1,0 +1,43 @@
+{
+  "sample_id": "scenario_085_clinical_charting",
+  "whisper_transcript": "73세 남성 환자, aspiration pneumonia로 인한 acute respiratory failure로 입원함. BP 70 mmHg, HR 95, RR 18, BT 37.8도, SpO2 92% 확인됨. cough moderate 호소함. piperacillin-tazobactam 4.5 g IV q8h 적용함. high flow nasal cannula 적용 중. ventilator 사용 중. positive fluid balance 확인됨. drowsy 상태 확인됨. pulmonologist notify함.",
+  "stt_metadata": {
+    "asr_system": "chirp3_auto",
+    "provider": "google",
+    "model": "chirp_3",
+    "location": "us",
+    "language_codes": [
+      "auto"
+    ],
+    "audio_path": "data/audio/scenario_085_clinical_charting.mp3",
+    "audio_sha256": "a4730fd0eae97dd97866c86f421c975e12361e9fb4c931a23a19d4cb7c694ccb",
+    "transcribed_at": "2026-11-04T14:51:33+00:00",
+    "request_seconds": 3.75,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "metadata": {
+      "total_billed_duration": "27s",
+      "request_id": "7350962b-0000-209a-97e3-582429a6e2e8",
+      "prompt": "Transcribe the following speech segment. Follow these specific instructions for formatting the answer:\n* Only output the transcript, with no newlines.\n* When transcribing numbers, write the digits, i.e. write 1.7 and not one point seven, and write 100 instead of one hundred etc.\n* Only output the transcript, exactly as said in the speech segment.\n* Do not continue the speech segment.\n* Include everything said in the speech segment.\n* Use mathematical notation where needed, eg. x ^ 6Y.\n* If there is background speech that is not part of the main conversation, discard the background speech and only output the main conversation.\n* If there is no clear speech, just output [BACKGROUND].\n* Respond in the original language of the speech."
+    },
+    "results": [
+      {
+        "alternatives": [
+          {
+            "transcript": "73세 남성 환자, aspiration pneumonia로 인한 acute respiratory failure로 입원함. BP 70 mmHg, HR 95, RR 18, BT 37.8도, SpO2 92% 확인됨. cough moderate 호소함. piperacillin-tazobactam 4.5 g IV q8h 적용함. high flow nasal cannula 적용 중. ventilator 사용 중. positive fluid balance 확인됨. drowsy 상태 확인됨. pulmonologist notify함.",
+            "confidence": 0.0,
+            "words": []
+          }
+        ],
+        "language_code": "ko",
+        "channel_tag": 0
+      }
+    ],
+    "detected_language_codes": [
+      "ko"
+    ]
+  }
+}

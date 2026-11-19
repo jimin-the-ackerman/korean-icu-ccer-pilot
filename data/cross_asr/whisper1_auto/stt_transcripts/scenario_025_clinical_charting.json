@@ -1,0 +1,26 @@
+{
+  "sample_id": "scenario_025_clinical_charting",
+  "whisper_transcript": "60-year-old pregnant woman admitted to the hospital with acute cholecystitis. BP 1-cyte white paracetamimimeherdring. HR kycd BPM. RR20 breath smin. BT 38.2 degrees. SpO 25% room air. Severe abdominal pain. Cephtriaxone 1-gram IV Q2H. Laparoscopic cholecystectomy planned. C-line maintained. IO positive balance confirmed. Alert status maintained.",
+  "stt_metadata": {
+    "asr_system": "whisper1_auto",
+    "provider": "openai",
+    "model": "whisper-1",
+    "language": null,
+    "scope": "pilot",
+    "audio_path": "data/audio/scenario_025_clinical_charting.mp3",
+    "audio_sha256": "e74f8c5c6e47203b798445ff8bee286bcb23a958b47fc7c75366615d4aedb680",
+    "transcribed_at": "2026-11-04T13:41:00+00:00",
+    "request_seconds": 2.84,
+    "attempts": 1,
+    "git_commit": "5b6d73fb63e1509a79e1a160176d606ed1b104c4",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "60-year-old pregnant woman admitted to the hospital with acute cholecystitis. BP 1-cyte white paracetamimimeherdring. HR kycd BPM. RR20 breath smin. BT 38.2 degrees. SpO 25% room air. Severe abdominal pain. Cephtriaxone 1-gram IV Q2H. Laparoscopic cholecystectomy planned. C-line maintained. IO positive balance confirmed. Alert status maintained.",
+    "logprobs": null,
+    "usage": {
+      "seconds": 22.0,
+      "type": "duration"
+    }
+  }
+}

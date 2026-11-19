@@ -1,0 +1,25 @@
+{
+  "sample_id": "scenario_058_clinical_charting",
+  "whisper_transcript": "68-year-old male patient admitted to the hospital with acute exacerbation of chronic heart failure. Fluid overload and dyspnea reported. BP 1.5-90 mmHg, HR core B, RRW4 breaths, and BT32.6 cells, SpO2, DTG%, room air. Dyspnea moderate level confirmed. Furosemide 40 mg IVBID applied. Oxygen support 2L nasal cannula applied. Fully maintained. Positive fluid balance confirmed. Clinical status alert maintained.",
+  "stt_metadata": {
+    "asr_system": "whisper1_auto",
+    "provider": "openai",
+    "model": "whisper-1",
+    "language": null,
+    "audio_path": "data/audio/scenario_058_clinical_charting.mp3",
+    "audio_sha256": "b9b363877bcbaaa34c19732224c19627ca2c2ae2687c4ce71831178eefb6591e",
+    "transcribed_at": "2026-11-04T13:56:54+00:00",
+    "request_seconds": 3.04,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "68-year-old male patient admitted to the hospital with acute exacerbation of chronic heart failure. Fluid overload and dyspnea reported. BP 1.5-90 mmHg, HR core B, RRW4 breaths, and BT32.6 cells, SpO2, DTG%, room air. Dyspnea moderate level confirmed. Furosemide 40 mg IVBID applied. Oxygen support 2L nasal cannula applied. Fully maintained. Positive fluid balance confirmed. Clinical status alert maintained.",
+    "logprobs": null,
+    "usage": {
+      "seconds": 28.0,
+      "type": "duration"
+    }
+  }
+}

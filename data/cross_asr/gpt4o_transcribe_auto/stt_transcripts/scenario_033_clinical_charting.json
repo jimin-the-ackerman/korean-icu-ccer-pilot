@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_033_clinical_charting",
+  "whisper_transcript": "64세 남성 atrial fibrillation onset으로 입원함. Hemodynamics 불안정함. BP 78/54mmHg. HR 142 bpm. RR 22 breaths/min. BT 36°C. SpO2 94% room air. Severe palpitations 호소함. Diltiazem 20mg IV stat 투여함. Electrical cardioversion 시행함. C-line 유지함. IV fluids 100ml 투여함. 의식 명료함. Cardiology team notify함.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe_auto",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": null,
+    "audio_path": "data/audio/scenario_033_clinical_charting.mp3",
+    "audio_sha256": "5ec5cbee4aafef28d5a3695a33ebf9d15bc0da9ca4f118ad2c3146bc476af2a8",
+    "transcribed_at": "2026-11-04T14:07:16+00:00",
+    "request_seconds": 2.46,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "64세 남성 atrial fibrillation onset으로 입원함. Hemodynamics 불안정함. BP 78/54mmHg. HR 142 bpm. RR 22 breaths/min. BT 36°C. SpO2 94% room air. Severe palpitations 호소함. Diltiazem 20mg IV stat 투여함. Electrical cardioversion 시행함. C-line 유지함. IV fluids 100ml 투여함. 의식 명료함. Cardiology team notify함.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 251,
+      "output_tokens": 110,
+      "total_tokens": 361,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 251,
+        "text_tokens": 0
+      }
+    }
+  }
+}

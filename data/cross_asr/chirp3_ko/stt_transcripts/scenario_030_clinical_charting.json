@@ -1,0 +1,43 @@
+{
+  "sample_id": "scenario_030_clinical_charting",
+  "whisper_transcript": "56세 여성, acute exacerbation of SLE로 입원함. lupus nephritis 확인됨. BP 140/90, T 38.2, HR 80, BT 37.5, SpO2 92%. moderate joint pain 호소함. prednisolone 40mg PO qd 적용함. Foley 유지함. I/O positive. 환자 alert 상태 유지함.",
+  "stt_metadata": {
+    "asr_system": "chirp3_ko",
+    "provider": "google",
+    "model": "chirp_3",
+    "location": "us",
+    "language_codes": [
+      "ko-KR"
+    ],
+    "audio_path": "data/audio/scenario_030_clinical_charting.mp3",
+    "audio_sha256": "d8a4f2d801689060bd8cd1ecb1726bba628a082ae5793409280e9d0f5c45d891",
+    "transcribed_at": "2026-11-04T13:16:45+00:00",
+    "request_seconds": 3.07,
+    "attempts": 1,
+    "git_commit": "5b6d73fb63e1509a79e1a160176d606ed1b104c4",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "metadata": {
+      "total_billed_duration": "19s",
+      "request_id": "73a68e21-0000-2d6e-ba97-14223bc550aa",
+      "prompt": "Transcribe the following speech segment in Korean. Follow these specific instructions for formatting the answer:\n* Only output the transcript, with no newlines.\n* When transcribing numbers, write the digits, i.e. write 1.7 and not one point seven, and write 100 instead of one hundred etc.\n* Only output the transcript, exactly as said in the speech segment.\n* Do not continue the speech segment.\n* Include everything said in the speech segment.\n* Use mathematical notation where needed, eg. x ^ 6Y.\n* If there is background speech that is not part of the main conversation, discard the background speech and only output the main conversation.\n* If there is no clear speech, just output [BACKGROUND].\n* Respond in the original language of the speech, Korean."
+    },
+    "results": [
+      {
+        "alternatives": [
+          {
+            "transcript": "56세 여성, acute exacerbation of SLE로 입원함. lupus nephritis 확인됨. BP 140/90, T 38.2, HR 80, BT 37.5, SpO2 92%. moderate joint pain 호소함. prednisolone 40mg PO qd 적용함. Foley 유지함. I/O positive. 환자 alert 상태 유지함.",
+            "confidence": 0.0,
+            "words": []
+          }
+        ],
+        "language_code": "ko-KR",
+        "channel_tag": 0
+      }
+    ],
+    "detected_language_codes": [
+      "ko-KR"
+    ]
+  }
+}

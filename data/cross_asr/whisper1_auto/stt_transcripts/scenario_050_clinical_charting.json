@@ -1,0 +1,25 @@
+{
+  "sample_id": "scenario_050_clinical_charting",
+  "whisper_transcript": "60-year-old male patient admitted with acute heart failure. Check for hypertensive emergency. Vital signs. BP 230 milligram. HR weigher team BPM. RR28 breast mint. BT 36.7 degree Celsius. SpO2 90% room air. Chest pain severe hoswam. Nitroglycerin 10 mg minimum IVTI chogyoam. High flow nasal cannula chogyoam. C-line ugeam. Positive fluid balance chogyoam. Clinical status drowsy chogyoam. Cardiology team notifyam.",
+  "stt_metadata": {
+    "asr_system": "whisper1_auto",
+    "provider": "openai",
+    "model": "whisper-1",
+    "language": null,
+    "audio_path": "data/audio/scenario_050_clinical_charting.mp3",
+    "audio_sha256": "a5fa748e094713f70d612638f05e0f621100f0694fa720903ec64bf938ea4ce5",
+    "transcribed_at": "2026-11-04T13:55:07+00:00",
+    "request_seconds": 2.9,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "60-year-old male patient admitted with acute heart failure. Check for hypertensive emergency. Vital signs. BP 230 milligram. HR weigher team BPM. RR28 breast mint. BT 36.7 degree Celsius. SpO2 90% room air. Chest pain severe hoswam. Nitroglycerin 10 mg minimum IVTI chogyoam. High flow nasal cannula chogyoam. C-line ugeam. Positive fluid balance chogyoam. Clinical status drowsy chogyoam. Cardiology team notifyam.",
+    "logprobs": null,
+    "usage": {
+      "seconds": 28.0,
+      "type": "duration"
+    }
+  }
+}

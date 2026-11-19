@@ -1,0 +1,25 @@
+{
+  "sample_id": "scenario_026_telegraphic_icu",
+  "whisper_transcript": "Severe CAP ICU quality PDO, BPN, HHR, RRHMN, BT, 38.5 SbHrA, Severe dyspnea, Levofloxacin, 70mg IVQ-H, HFNC, 6-seq-alimin, FiO2, 1.6, Ventilator 사용중, Drowsy 상태.",
+  "stt_metadata": {
+    "asr_system": "whisper1_auto",
+    "provider": "openai",
+    "model": "whisper-1",
+    "language": null,
+    "audio_path": "data/audio/scenario_026_telegraphic_icu.mp3",
+    "audio_sha256": "eb1a980c7c18baa1260bdd63f1a4c2cdbdab3953df78b4ad517c1747087b095a",
+    "transcribed_at": "2026-11-04T13:51:58+00:00",
+    "request_seconds": 1.78,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "Severe CAP ICU quality PDO, BPN, HHR, RRHMN, BT, 38.5 SbHrA, Severe dyspnea, Levofloxacin, 70mg IVQ-H, HFNC, 6-seq-alimin, FiO2, 1.6, Ventilator 사용중, Drowsy 상태.",
+    "logprobs": null,
+    "usage": {
+      "seconds": 19.0,
+      "type": "duration"
+    }
+  }
+}

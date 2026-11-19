@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_041_telegraphic_icu",
+  "whisper_transcript": "65세 여성 급성 악화 만성 간질환, 알코올 관련 간경화, BPNO5 68mmHg, HR 112bpm, R 22min BT 37.83C, SpO 92% 룸 에어, 사이디스 moderate, 퓨로스마이드 40mg IV QH, 네이즐 캐뉼러, 폴리, 유린 아웃풋 1200ml 24R, 드라우지.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": "ko",
+    "audio_path": "data/audio/scenario_041_telegraphic_icu.mp3",
+    "audio_sha256": "f49f33435e0c22bfb2a52c276514fc2addcaf3094ced2b351b70e69d3084d14d",
+    "transcribed_at": "2026-11-04T12:57:53+00:00",
+    "request_seconds": 2.22,
+    "attempts": 1,
+    "git_commit": "5b6d73fb63e1509a79e1a160176d606ed1b104c4",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "65세 여성 급성 악화 만성 간질환, 알코올 관련 간경화, BPNO5 68mmHg, HR 112bpm, R 22min BT 37.83C, SpO 92% 룸 에어, 사이디스 moderate, 퓨로스마이드 40mg IV QH, 네이즐 캐뉼러, 폴리, 유린 아웃풋 1200ml 24R, 드라우지.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 199,
+      "output_tokens": 108,
+      "total_tokens": 307,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 199,
+        "text_tokens": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_073_telegraphic_icu",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "shortness of breath",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "alert",
+    "medication_identity": "Furosemide",
+    "interventions": [],
+    "intake_output": "Positive fluid balance 200 mL/24h",
+    "notification": null
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "shortness of breath",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "알러트",
+    "medication_identity": "furosemide",
+    "interventions": [],
+    "intake_output": "positive fluid balance 200mL 24A",
+    "notification": null
+  }
+}

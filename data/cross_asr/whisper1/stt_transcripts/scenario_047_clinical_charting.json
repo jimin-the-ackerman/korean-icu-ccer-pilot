@@ -1,0 +1,25 @@
+{
+  "sample_id": "scenario_047_clinical_charting",
+  "whisper_transcript": "45세 여성, 리조넬라 감염에 의한 세벌 뉴모니아로 입원함. BP 100.70mHrm, HR 95bpm, RRH-PB, BT 38.5dB, SpO2 80% on room air. 세벌 코프 호소함. Levofloxacin 715mg IV-Q-SH2여중, 하이플로우 네이처 캐니라 적용함. 벤틀레이터 사용 중임. 지난 24시간 동안 플루이드 밸런스 네기티브 기록됨. 환자 드라우지 상태 확인됨. 담당에 노티파이함.",
+  "stt_metadata": {
+    "asr_system": "whisper1",
+    "provider": "reuse_existing",
+    "model": "whisper-1",
+    "language": "ko",
+    "audio_path": "data/audio/scenario_047_clinical_charting.mp3",
+    "audio_sha256": "f235404e9c96c422d46ffcbc559cc082d54a7f2248213295e5f2efd2f2f109d7",
+    "copied_at": "2026-11-04T04:31:11+00:00",
+    "request_seconds": 0.0,
+    "attempts": 1,
+    "git_commit": "b3490181b3fb3f88b56cde5be78a01cfdcef3007",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "source_file": "data/stt_transcripts/scenario_047_clinical_charting.json",
+    "source_sha256": "24c1d9e93344362103a5df6d9b639755f3814ab3ca203de61d53d54aa13cba29",
+    "source_stt_metadata": {
+      "model": "whisper-1",
+      "language": "ko"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "sample_id": "scenario_060_telegraphic_icu",
+  "whisper_transcript": "71 Sanam song Parkinson's acute exacerbation bpm 42 85 hr 80 or 20 bt 37.2 gris sp o 2 95 Rigidity severe levodopa 100 milligrams poti'd foley io 2000 or 24 drowsy",
+  "stt_metadata": {
+    "asr_system": "whisper1_auto",
+    "provider": "openai",
+    "model": "whisper-1",
+    "language": null,
+    "audio_path": "data/audio/scenario_060_telegraphic_icu.mp3",
+    "audio_sha256": "dade6df284c49342c0c8d6eaaeac2b6d43fb741b4f06bcda5d4d852655d9832c",
+    "transcribed_at": "2026-11-04T13:57:17+00:00",
+    "request_seconds": 1.16,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "71 Sanam song Parkinson's acute exacerbation bpm 42 85 hr 80 or 20 bt 37.2 gris sp o 2 95 Rigidity severe levodopa 100 milligrams poti'd foley io 2000 or 24 drowsy",
+    "logprobs": null,
+    "usage": {
+      "seconds": 15.0,
+      "type": "duration"
+    }
+  }
+}

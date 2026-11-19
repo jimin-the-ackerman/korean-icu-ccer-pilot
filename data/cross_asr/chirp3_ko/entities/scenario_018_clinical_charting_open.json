@@ -1,0 +1,35 @@
+{
+  "sample_id": "scenario_018_clinical_charting",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "abdominal pain",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "alert",
+    "medication_identity": "Piperacillin-Tazobactam",
+    "interventions": [
+      "Emergency laparotomy"
+    ],
+    "intake_output": "Negative fluid balance 확인됨",
+    "notification": "Surgical team notify함"
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "abdominal pain",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "알러트 상태 유지 (alert)",
+    "medication_identity": "피페라실린-타조박탐",
+    "interventions": [
+      "이머전시 라파로토미 (emergency laparotomy)"
+    ],
+    "intake_output": "네가티브 플루이드 밸런스 (negative fluid balance)",
+    "notification": "서지컬 팀 노티파이함 (surgical team notified)"
+  }
+}

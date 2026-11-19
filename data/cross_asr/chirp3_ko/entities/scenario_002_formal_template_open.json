@@ -1,0 +1,35 @@
+{
+  "sample_id": "scenario_002_formal_template",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "nausea",
+        "negation": false,
+        "severity": "moderate"
+      }
+    ],
+    "clinical_status": "약간의 기면 상태",
+    "medication_identity": "인슐린",
+    "interventions": [
+      "fluid resuscitation"
+    ],
+    "intake_output": "소변량 저하",
+    "notification": "DKA 관리를 위해 내분비내과에 상담을 요청하였다."
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "nausea",
+        "negation": false,
+        "severity": "moderate"
+      }
+    ],
+    "clinical_status": "약간의 기면 상태",
+    "medication_identity": "인슐린",
+    "interventions": [
+      "fluid resuscitation"
+    ],
+    "intake_output": "소변량 저하",
+    "notification": "DK 관리를 위해 내분비내과에 상담 요청"
+  }
+}

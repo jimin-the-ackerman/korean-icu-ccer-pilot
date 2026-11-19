@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_053_telegraphic_icu",
+  "whisper_transcript": "67남성 환자, COPD 급성 악화 및 곡부전으로 입원, BP 85/85mmHg, BPM 8, R 28bpm, BT 37.6, SPO2 88% room air, dyspnea severe, 프레드니손 40mg PO 및 NIV 사용, ventilator 사용, clinical status drowsy, pulmonologist notify",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe_auto",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": null,
+    "audio_path": "data/audio/scenario_053_telegraphic_icu.mp3",
+    "audio_sha256": "fc155fea6af7001060227f25983265f2f9f759488582bfb16b3b90511701137c",
+    "transcribed_at": "2026-11-04T14:10:07+00:00",
+    "request_seconds": 1.7,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "67남성 환자, COPD 급성 악화 및 곡부전으로 입원, BP 85/85mmHg, BPM 8, R 28bpm, BT 37.6, SPO2 88% room air, dyspnea severe, 프레드니손 40mg PO 및 NIV 사용, ventilator 사용, clinical status drowsy, pulmonologist notify",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 200,
+      "output_tokens": 85,
+      "total_tokens": 285,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 200,
+        "text_tokens": 0
+      }
+    }
+  }
+}

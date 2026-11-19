@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_097_telegraphic_icu",
+  "whisper_transcript": "63세 여성, 급성 수막염, 멜비히 HR바이트 RR 13호 5, SPO2 95% severe headache, 세프트리악손 2g IV Q12H C라인 유지됨. 환자 drowsy.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": "ko",
+    "audio_path": "data/audio/scenario_097_telegraphic_icu.mp3",
+    "audio_sha256": "e77e91c4b0d4aef761838fc73562554418ad7914f20a7f312189e5d04daed76c",
+    "transcribed_at": "2026-11-04T13:05:10+00:00",
+    "request_seconds": 2.04,
+    "attempts": 1,
+    "git_commit": "5b6d73fb63e1509a79e1a160176d606ed1b104c4",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "63세 여성, 급성 수막염, 멜비히 HR바이트 RR 13호 5, SPO2 95% severe headache, 세프트리악손 2g IV Q12H C라인 유지됨. 환자 drowsy.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 130,
+      "output_tokens": 57,
+      "total_tokens": 187,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 130,
+        "text_tokens": 0
+      }
+    }
+  }
+}

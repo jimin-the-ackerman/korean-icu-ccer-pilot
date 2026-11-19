@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_093_clinical_charting",
+  "whisper_transcript": "오CB세 남성 환자, 급성 해머래직 쇼크로 입원. 원인은 럽츄어드 어브도미널 에오릭 애뉴리즘. BP 85/40mmHg, HR 100bpm, RR 24, BT 36.8도C, SpO2 80% 감. Severe abdominal pain 호소함. 노르에피네프린 8mcg/min IVT 적용함. 하이 플로 네이절 캐뉼라 산소 공급 유지함. Emergency surgical repair 계획됨. C-Line 적용됨. Urine output 20ml/hr 확인됨. Drowsy 상태 확인됨. Vascular surgery 팀 notify함.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": "ko",
+    "audio_path": "data/audio/scenario_093_clinical_charting.mp3",
+    "audio_sha256": "165593168e111c3edbeace0b3944967db14bc4d4f248352bdd7714c8808d9cc2",
+    "transcribed_at": "2026-11-04T13:04:39+00:00",
+    "request_seconds": 2.07,
+    "attempts": 1,
+    "git_commit": "5b6d73fb63e1509a79e1a160176d606ed1b104c4",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "오CB세 남성 환자, 급성 해머래직 쇼크로 입원. 원인은 럽츄어드 어브도미널 에오릭 애뉴리즘. BP 85/40mmHg, HR 100bpm, RR 24, BT 36.8도C, SpO2 80% 감. Severe abdominal pain 호소함. 노르에피네프린 8mcg/min IVT 적용함. 하이 플로 네이절 캐뉼라 산소 공급 유지함. Emergency surgical repair 계획됨. C-Line 적용됨. Urine output 20ml/hr 확인됨. Drowsy 상태 확인됨. Vascular surgery 팀 notify함.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 294,
+      "output_tokens": 154,
+      "total_tokens": 448,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 294,
+        "text_tokens": 0
+      }
+    }
+  }
+}

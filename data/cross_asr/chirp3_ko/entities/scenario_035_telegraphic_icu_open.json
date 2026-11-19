@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_035_telegraphic_icu",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "SOB",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "Drowsy",
+    "medication_identity": "Furosemide",
+    "interventions": [],
+    "intake_output": "I/O -500 mL/24hr",
+    "notification": "Dr notify"
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "SOB",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "drowsy",
+    "medication_identity": "Furosemide",
+    "interventions": [],
+    "intake_output": "I/O 500/2400",
+    "notification": "doctor notify"
+  }
+}

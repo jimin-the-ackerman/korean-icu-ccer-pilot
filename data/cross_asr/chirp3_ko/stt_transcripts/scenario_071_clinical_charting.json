@@ -1,0 +1,43 @@
+{
+  "sample_id": "scenario_071_clinical_charting",
+  "whisper_transcript": "솔베이서 여성 기안브레 신드롬 GBS 시비어 케이스 어드미션. 레스피레이토리 모니터링 클로스 피오. BP 108 76 멤브레인 HR 38 BR 28 브레스 민. BT 38.5 SBO2 89% 온 룸 에어 확인됨. 시비어 머슬 위크니스 호소함. IV 이뮤노글로불린 0.4 그램 IV Q12H 적용함. 논 리브리더 마스크 산소 적용함. 벤틸레이터 사용 중. 클리니컬 스테이터스 드로우지 상태. 뉴롤로지 팀 노티파이함.",
+  "stt_metadata": {
+    "asr_system": "chirp3_ko",
+    "provider": "google",
+    "model": "chirp_3",
+    "location": "us",
+    "language_codes": [
+      "ko-KR"
+    ],
+    "audio_path": "data/audio/scenario_071_clinical_charting.mp3",
+    "audio_sha256": "ebc930d56423e976b3872e7a1976b8f0a66849724d73565408d875323115500f",
+    "transcribed_at": "2026-11-04T13:26:32+00:00",
+    "request_seconds": 4.31,
+    "attempts": 1,
+    "git_commit": "5b6d73fb63e1509a79e1a160176d606ed1b104c4",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "metadata": {
+      "total_billed_duration": "28s",
+      "request_id": "6ea1c7df-0000-294f-9b79-ac3eb147f148",
+      "prompt": "Transcribe the following speech segment in Korean. Follow these specific instructions for formatting the answer:\n* Only output the transcript, with no newlines.\n* When transcribing numbers, write the digits, i.e. write 1.7 and not one point seven, and write 100 instead of one hundred etc.\n* Only output the transcript, exactly as said in the speech segment.\n* Do not continue the speech segment.\n* Include everything said in the speech segment.\n* Use mathematical notation where needed, eg. x ^ 6Y.\n* If there is background speech that is not part of the main conversation, discard the background speech and only output the main conversation.\n* If there is no clear speech, just output [BACKGROUND].\n* Respond in the original language of the speech, Korean."
+    },
+    "results": [
+      {
+        "alternatives": [
+          {
+            "transcript": "솔베이서 여성 기안브레 신드롬 GBS 시비어 케이스 어드미션. 레스피레이토리 모니터링 클로스 피오. BP 108 76 멤브레인 HR 38 BR 28 브레스 민. BT 38.5 SBO2 89% 온 룸 에어 확인됨. 시비어 머슬 위크니스 호소함. IV 이뮤노글로불린 0.4 그램 IV Q12H 적용함. 논 리브리더 마스크 산소 적용함. 벤틸레이터 사용 중. 클리니컬 스테이터스 드로우지 상태. 뉴롤로지 팀 노티파이함.",
+            "confidence": 0.0,
+            "words": []
+          }
+        ],
+        "language_code": "ko-KR",
+        "channel_tag": 0
+      }
+    ],
+    "detected_language_codes": [
+      "ko-KR"
+    ]
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_098_formal_template",
+  "whisper_transcript": "58세 여성 환자는 심각한 히몰리틱 유리믹 신드롬으로 입원하였다. 활력징후로는 혈압이 98/65mmHg, 심박수가 10bpm, 호흡수가 24breaths/min, 체온이 37.8ºC, 산소포화도가 92%로 확인되었다. 환자는 심한 피로감을 호소하였다. 메틸프레드니솔론 500mg이 IV로 12시간마다 투여되고 있다. 환자는 네이절 캐널라를 통해 산소를 공급받고 있으며 C라인이 삽입되어 있다. 체액 균형은 음성으로 나타난다. 임상 상태는 졸린 상태이다. 추가적인 치료 관리를 위해 혈액내과에 보고하였다.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": "ko",
+    "audio_path": "data/audio/scenario_098_formal_template.mp3",
+    "audio_sha256": "dc5e473e320f8adb6043f3f8b20137e88171b1aa42f54384f19fd5e994d9762e",
+    "transcribed_at": "2026-11-04T13:05:15+00:00",
+    "request_seconds": 2.49,
+    "attempts": 1,
+    "git_commit": "5b6d73fb63e1509a79e1a160176d606ed1b104c4",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "58세 여성 환자는 심각한 히몰리틱 유리믹 신드롬으로 입원하였다. 활력징후로는 혈압이 98/65mmHg, 심박수가 10bpm, 호흡수가 24breaths/min, 체온이 37.8ºC, 산소포화도가 92%로 확인되었다. 환자는 심한 피로감을 호소하였다. 메틸프레드니솔론 500mg이 IV로 12시간마다 투여되고 있다. 환자는 네이절 캐널라를 통해 산소를 공급받고 있으며 C라인이 삽입되어 있다. 체액 균형은 음성으로 나타난다. 임상 상태는 졸린 상태이다. 추가적인 치료 관리를 위해 혈액내과에 보고하였다.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 386,
+      "output_tokens": 182,
+      "total_tokens": 568,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 386,
+        "text_tokens": 0
+      }
+    }
+  }
+}

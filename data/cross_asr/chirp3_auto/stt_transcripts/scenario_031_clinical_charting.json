@@ -1,0 +1,43 @@
+{
+  "sample_id": "scenario_031_clinical_charting",
+  "whisper_transcript": "43-살 남성, severe acute pancreatitis 진단. BP 92/58 mmHg, HR 110 bpm, RR 25 breaths/min, BT 38.2 degrees Celsius, SpO2 95% room air. severe abdominal pain 호소함. morphine 2 mg IV q4h 투여함. IV fluid resuscitation 유지함. negative fluid balance 500 mL last 24 hours 확인됨. 임상 상태 drowsy. GI specialist consult 의뢰, 담당의 notify 함.",
+  "stt_metadata": {
+    "asr_system": "chirp3_auto",
+    "provider": "google",
+    "model": "chirp_3",
+    "location": "us",
+    "language_codes": [
+      "auto"
+    ],
+    "audio_path": "data/audio/scenario_031_clinical_charting.mp3",
+    "audio_sha256": "20d27b5d7c2feac2da6abfacb3a9dcdd7a51f45af7a17ca660575f807feaf70f",
+    "transcribed_at": "2026-11-04T14:24:40+00:00",
+    "request_seconds": 4.73,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "metadata": {
+      "total_billed_duration": "27s",
+      "request_id": "6e512aed-0000-22db-8cc8-d43a2cc7e827",
+      "prompt": "Transcribe the following speech segment. Follow these specific instructions for formatting the answer:\n* Only output the transcript, with no newlines.\n* When transcribing numbers, write the digits, i.e. write 1.7 and not one point seven, and write 100 instead of one hundred etc.\n* Only output the transcript, exactly as said in the speech segment.\n* Do not continue the speech segment.\n* Include everything said in the speech segment.\n* Use mathematical notation where needed, eg. x ^ 6Y.\n* If there is background speech that is not part of the main conversation, discard the background speech and only output the main conversation.\n* If there is no clear speech, just output [BACKGROUND].\n* Respond in the original language of the speech."
+    },
+    "results": [
+      {
+        "alternatives": [
+          {
+            "transcript": "43-살 남성, severe acute pancreatitis 진단. BP 92/58 mmHg, HR 110 bpm, RR 25 breaths/min, BT 38.2 degrees Celsius, SpO2 95% room air. severe abdominal pain 호소함. morphine 2 mg IV q4h 투여함. IV fluid resuscitation 유지함. negative fluid balance 500 mL last 24 hours 확인됨. 임상 상태 drowsy. GI specialist consult 의뢰, 담당의 notify 함.",
+            "confidence": 0.0,
+            "words": []
+          }
+        ],
+        "language_code": "ko",
+        "channel_tag": 0
+      }
+    ],
+    "detected_language_codes": [
+      "ko"
+    ]
+  }
+}

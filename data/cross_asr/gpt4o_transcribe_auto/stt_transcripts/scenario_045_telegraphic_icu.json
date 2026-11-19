@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_045_telegraphic_icu",
+  "whisper_transcript": "60V歳やさん、アディスンツ疾病による急性不思議1、BP8Vソフトヒパペム、RR24ブラッドスメンビルティーセス、SpO290%RA、Severe abdominal pain、ハイドロコルゾン100mg静脈、鼻腔カニラ2Lミン、フルードリサシテーションとNSフォーリープレゼント、ユニアウトプット30mlハードラウジー、エンドクロナロジーコンサルト。",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe_auto",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": null,
+    "audio_path": "data/audio/scenario_045_telegraphic_icu.mp3",
+    "audio_sha256": "1131ad8ecf3b06648fd717a109f257f8e736feda6092726153b347a10c10510b",
+    "transcribed_at": "2026-11-04T14:09:16+00:00",
+    "request_seconds": 1.97,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "60V歳やさん、アディスンツ疾病による急性不思議1、BP8Vソフトヒパペム、RR24ブラッドスメンビルティーセス、SpO290%RA、Severe abdominal pain、ハイドロコルゾン100mg静脈、鼻腔カニラ2Lミン、フルードリサシテーションとNSフォーリープレゼント、ユニアウトプット30mlハードラウジー、エンドクロナロジーコンサルト。",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 230,
+      "output_tokens": 124,
+      "total_tokens": 354,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 230,
+        "text_tokens": 0
+      }
+    }
+  }
+}

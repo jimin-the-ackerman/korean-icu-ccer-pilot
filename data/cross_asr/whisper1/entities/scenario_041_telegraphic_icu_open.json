@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_041_telegraphic_icu",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "ascites",
+        "negation": false,
+        "severity": "moderate"
+      }
+    ],
+    "clinical_status": "Drowsy",
+    "medication_identity": "Furosemide",
+    "interventions": [],
+    "intake_output": "Urine output 1200 mL/24hr",
+    "notification": null
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "ascites",
+        "negation": false,
+        "severity": "moderate"
+      }
+    ],
+    "clinical_status": "drowsy",
+    "medication_identity": "furosemide",
+    "interventions": [],
+    "intake_output": "urine output 1200mL 24hr",
+    "notification": null
+  }
+}

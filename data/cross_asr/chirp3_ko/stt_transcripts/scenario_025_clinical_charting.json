@@ -1,0 +1,43 @@
+{
+  "sample_id": "scenario_025_clinical_charting",
+  "whisper_transcript": "60세 여성 환자 acute cholecystitis로 입원함. BP 145/85 mmHg, HR 92 bpm, RR 22 breaths/min, BT 38.2°C, SpO2 95% room air. severe abdominal pain 호소함. Ceftriaxone 1g IV Q8 적용함. laparoscopic cholecystectomy planned. C-line 유지함. I/O positive balance 확인됨. alert 상태 유지함.",
+  "stt_metadata": {
+    "asr_system": "chirp3_ko",
+    "provider": "google",
+    "model": "chirp_3",
+    "location": "us",
+    "language_codes": [
+      "ko-KR"
+    ],
+    "audio_path": "data/audio/scenario_025_clinical_charting.mp3",
+    "audio_sha256": "e74f8c5c6e47203b798445ff8bee286bcb23a958b47fc7c75366615d4aedb680",
+    "transcribed_at": "2026-11-04T13:15:31+00:00",
+    "request_seconds": 3.44,
+    "attempts": 1,
+    "git_commit": "5b6d73fb63e1509a79e1a160176d606ed1b104c4",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "metadata": {
+      "total_billed_duration": "22s",
+      "request_id": "74ce95fa-0000-22a0-985f-34c7e91f243b",
+      "prompt": "Transcribe the following speech segment in Korean. Follow these specific instructions for formatting the answer:\n* Only output the transcript, with no newlines.\n* When transcribing numbers, write the digits, i.e. write 1.7 and not one point seven, and write 100 instead of one hundred etc.\n* Only output the transcript, exactly as said in the speech segment.\n* Do not continue the speech segment.\n* Include everything said in the speech segment.\n* Use mathematical notation where needed, eg. x ^ 6Y.\n* If there is background speech that is not part of the main conversation, discard the background speech and only output the main conversation.\n* If there is no clear speech, just output [BACKGROUND].\n* Respond in the original language of the speech, Korean."
+    },
+    "results": [
+      {
+        "alternatives": [
+          {
+            "transcript": "60세 여성 환자 acute cholecystitis로 입원함. BP 145/85 mmHg, HR 92 bpm, RR 22 breaths/min, BT 38.2°C, SpO2 95% room air. severe abdominal pain 호소함. Ceftriaxone 1g IV Q8 적용함. laparoscopic cholecystectomy planned. C-line 유지함. I/O positive balance 확인됨. alert 상태 유지함.",
+            "confidence": 0.0,
+            "words": []
+          }
+        ],
+        "language_code": "ko-KR",
+        "channel_tag": 0
+      }
+    ],
+    "detected_language_codes": [
+      "ko-KR"
+    ]
+  }
+}

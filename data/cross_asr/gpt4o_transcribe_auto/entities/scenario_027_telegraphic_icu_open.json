@@ -1,0 +1,35 @@
+{
+  "sample_id": "scenario_027_telegraphic_icu",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "right side weakness",
+        "negation": false,
+        "severity": "moderate"
+      }
+    ],
+    "clinical_status": "Drowsy",
+    "medication_identity": "Alteplase",
+    "interventions": [
+      "IV fluids 시작"
+    ],
+    "intake_output": null,
+    "notification": "Neurology team notify"
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "오른쪽 약화",
+        "negation": false,
+        "severity": "moderate"
+      }
+    ],
+    "clinical_status": "졸린 상태",
+    "medication_identity": "알테플레이스",
+    "interventions": [
+      "IV fluids 시작"
+    ],
+    "intake_output": null,
+    "notification": "신경과 팀 알림하십시오"
+  }
+}

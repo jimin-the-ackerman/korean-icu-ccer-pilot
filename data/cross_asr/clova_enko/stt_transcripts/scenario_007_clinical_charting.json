@@ -1,0 +1,348 @@
+{
+  "sample_id": "scenario_007_clinical_charting",
+  "whisper_transcript": "Six세 여성 환자 COPD aquaro eonam BP hunsarant hadivi millimidram HR ditivi BPM r28 breathsmen beho hugginem sbo2, 89 percent on room air huggin them severe shortness of breath hosam methylprednisolone 60 milligram ivq62m2l nasal cannula jegyongam positive fluid balance hugging them clinical status drowsy hugging them pulmonologist notifiam.",
+  "stt_metadata": {
+    "asr_system": "clova_enko",
+    "provider": "clova",
+    "endpoint": "/recognizer/upload",
+    "params": {
+      "language": "enko",
+      "completion": "sync",
+      "diarization": {
+        "enable": false
+      }
+    },
+    "audio_path": "data/audio/scenario_007_clinical_charting.mp3",
+    "audio_sha256": "2a8e9d8d4176300179109e6970b27bf18078456b0f1482510ef806345c6c925b",
+    "transcribed_at": "2026-11-04T05:09:28+00:00",
+    "request_seconds": 3.12,
+    "attempts": 1,
+    "git_commit": "b3490181b3fb3f88b56cde5be78a01cfdcef3007",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "result": "COMPLETED",
+    "message": "Succeeded",
+    "token": "5cb478ca57254d8da20dd394074f7f09",
+    "version": "ncp_v2_v2.4.25-a1675e0-20260630__v4.2.13_enko_general_20240416_",
+    "params": {
+      "service": "ncp",
+      "domain": "general",
+      "lang": "enko",
+      "completion": "sync",
+      "diarization": {
+        "enable": false
+      },
+      "sed": {
+        "enable": false
+      },
+      "boostings": [],
+      "forbiddens": "",
+      "wordAlignment": true,
+      "fullText": true,
+      "noiseFiltering": true,
+      "resultToObs": false,
+      "priority": 0,
+      "userdata": {
+        "_ncp_DomainCode": "ccer-cross-asr",
+        "_ncp_DomainId": 18324,
+        "_ncp_TaskId": 69862082,
+        "_ncp_TraceId": "c399c423f6574e9bbbe49bfeb351e4fb"
+      }
+    },
+    "progress": 100,
+    "keywords": {},
+    "segments": [
+      {
+        "start": 0,
+        "end": 14280,
+        "text": "Six세 여성 환자 COPD aquaro eonam BP hunsarant hadivi millimidram HR ditivi BPM r28 breathsmen beho hugginem sbo2, 89 percent on room air huggin them severe shortness of breath hosam",
+        "confidence": 0.3762,
+        "diarization": {
+          "label": ""
+        },
+        "speaker": {
+          "label": "",
+          "name": "",
+          "edited": false
+        },
+        "words": [
+          [
+            30,
+            500,
+            "Six세"
+          ],
+          [
+            550,
+            780,
+            "여성"
+          ],
+          [
+            830,
+            1150,
+            "환자"
+          ],
+          [
+            1150,
+            1670,
+            "COPD"
+          ],
+          [
+            1670,
+            2110,
+            "aquaro"
+          ],
+          [
+            2110,
+            2710,
+            "eonam"
+          ],
+          [
+            2710,
+            2990,
+            "BP"
+          ],
+          [
+            2990,
+            3550,
+            "hunsarant"
+          ],
+          [
+            3550,
+            3910,
+            "hadivi"
+          ],
+          [
+            3910,
+            4630,
+            "millimidram"
+          ],
+          [
+            4630,
+            4990,
+            "HR"
+          ],
+          [
+            4990,
+            5550,
+            "ditivi"
+          ],
+          [
+            5550,
+            6230,
+            "BPM"
+          ],
+          [
+            6230,
+            7110,
+            "r28"
+          ],
+          [
+            7110,
+            7870,
+            "breathsmen"
+          ],
+          [
+            7870,
+            8430,
+            "beho"
+          ],
+          [
+            8430,
+            9310,
+            "hugginem"
+          ],
+          [
+            9310,
+            9980,
+            "sbo2,"
+          ],
+          [
+            10110,
+            10430,
+            "89"
+          ],
+          [
+            10430,
+            10790,
+            "percent"
+          ],
+          [
+            10790,
+            10950,
+            "on"
+          ],
+          [
+            10950,
+            11190,
+            "room"
+          ],
+          [
+            11190,
+            11390,
+            "air"
+          ],
+          [
+            11390,
+            11830,
+            "huggin"
+          ],
+          [
+            11830,
+            12350,
+            "them"
+          ],
+          [
+            12350,
+            12750,
+            "severe"
+          ],
+          [
+            12750,
+            13190,
+            "shortness"
+          ],
+          [
+            13190,
+            13270,
+            "of"
+          ],
+          [
+            13270,
+            13550,
+            "breath"
+          ],
+          [
+            13550,
+            14100,
+            "hosam"
+          ]
+        ],
+        "textEdited": "Six세 여성 환자 COPD aquaro eonam BP hunsarant hadivi millimidram HR ditivi BPM r28 breathsmen beho hugginem sbo2, 89 percent on room air huggin them severe shortness of breath hosam"
+      },
+      {
+        "start": 14360,
+        "end": 24140,
+        "text": "methylprednisolone 60 milligram ivq62m2l nasal cannula jegyongam positive fluid balance hugging them clinical status drowsy hugging them pulmonologist notifiam.",
+        "confidence": 0.5567,
+        "diarization": {
+          "label": ""
+        },
+        "speaker": {
+          "label": "",
+          "name": "",
+          "edited": false
+        },
+        "words": [
+          [
+            14360,
+            15180,
+            "methylprednisolone"
+          ],
+          [
+            15190,
+            15390,
+            "60"
+          ],
+          [
+            15390,
+            15830,
+            "milligram"
+          ],
+          [
+            15830,
+            17470,
+            "ivq62m2l"
+          ],
+          [
+            17470,
+            17710,
+            "nasal"
+          ],
+          [
+            17710,
+            18070,
+            "cannula"
+          ],
+          [
+            18070,
+            18790,
+            "jegyongam"
+          ],
+          [
+            18790,
+            19190,
+            "positive"
+          ],
+          [
+            19190,
+            19510,
+            "fluid"
+          ],
+          [
+            19510,
+            19830,
+            "balance"
+          ],
+          [
+            19830,
+            20150,
+            "hugging"
+          ],
+          [
+            20150,
+            20630,
+            "them"
+          ],
+          [
+            20630,
+            21070,
+            "clinical"
+          ],
+          [
+            21070,
+            21390,
+            "status"
+          ],
+          [
+            21390,
+            21750,
+            "drowsy"
+          ],
+          [
+            21750,
+            22070,
+            "hugging"
+          ],
+          [
+            22070,
+            22590,
+            "them"
+          ],
+          [
+            22590,
+            23350,
+            "pulmonologist"
+          ],
+          [
+            23350,
+            23980,
+            "notifiam."
+          ]
+        ],
+        "textEdited": "methylprednisolone 60 milligram ivq62m2l nasal cannula jegyongam positive fluid balance hugging them clinical status drowsy hugging them pulmonologist notifiam."
+      }
+    ],
+    "text": "Six세 여성 환자 COPD aquaro eonam BP hunsarant hadivi millimidram HR ditivi BPM r28 breathsmen beho hugginem sbo2, 89 percent on room air huggin them severe shortness of breath hosam methylprednisolone 60 milligram ivq62m2l nasal cannula jegyongam positive fluid balance hugging them clinical status drowsy hugging them pulmonologist notifiam.",
+    "confidence": 0.45938694,
+    "speakers": [
+      {
+        "label": "",
+        "name": "",
+        "edited": false
+      }
+    ],
+    "events": [],
+    "eventTypes": []
+  }
+}

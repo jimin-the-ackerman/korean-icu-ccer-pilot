@@ -1,0 +1,143 @@
+{
+  "sample_id": "scenario_021_clinical_charting",
+  "gold_entities": {
+    "route": [
+      {
+        "raw": "IV",
+        "normalized": "iv",
+        "position": 201
+      },
+      {
+        "raw": "IV",
+        "normalized": "iv",
+        "position": 215
+      },
+      {
+        "raw": "근육",
+        "normalized": "im",
+        "position": 33
+      }
+    ],
+    "frequency": [
+      {
+        "raw": "STAT",
+        "normalized": "stat",
+        "position": 204
+      }
+    ],
+    "device": [
+      {
+        "raw": "C-line",
+        "normalized": "c-line",
+        "position": 244
+      }
+    ],
+    "vital_sign": [
+      {
+        "raw": "BP 145/85",
+        "label": "bp",
+        "value": "145/85",
+        "position": 99
+      },
+      {
+        "raw": "HR 110",
+        "label": "hr",
+        "value": "110",
+        "position": 115
+      },
+      {
+        "raw": "RR 22",
+        "label": "rr",
+        "value": "22",
+        "position": 127
+      },
+      {
+        "raw": "BT 37.2",
+        "label": "bt",
+        "value": "37.2",
+        "position": 146
+      },
+      {
+        "raw": "SpO2 95%",
+        "label": "spo2",
+        "value": "95%",
+        "position": 157
+      }
+    ],
+    "dose": [
+      {
+        "raw": "10 mL",
+        "value": "10",
+        "unit": "ml",
+        "position": 195
+      }
+    ]
+  },
+  "whisper_entities": {
+    "route": [
+      {
+        "raw": "IV",
+        "normalized": "iv",
+        "position": 186
+      },
+      {
+        "raw": "IV",
+        "normalized": "iv",
+        "position": 199
+      },
+      {
+        "raw": "근육",
+        "normalized": "im",
+        "position": 34
+      }
+    ],
+    "frequency": [
+      {
+        "raw": "stat",
+        "normalized": "stat",
+        "position": 189
+      }
+    ],
+    "device": [
+      {
+        "raw": "C-line",
+        "normalized": "c-line",
+        "position": 228
+      }
+    ],
+    "vital_sign": [
+      {
+        "raw": "BP 140",
+        "label": "bp",
+        "value": "140",
+        "position": 98
+      },
+      {
+        "raw": "HR 80",
+        "label": "hr",
+        "value": "80",
+        "position": 118
+      },
+      {
+        "raw": "BT 37.6",
+        "label": "bt",
+        "value": "37.6",
+        "position": 136
+      },
+      {
+        "raw": "SPO2 95%",
+        "label": "spo2",
+        "value": "95%",
+        "position": 144
+      }
+    ],
+    "dose": [
+      {
+        "raw": "10mL",
+        "value": "10",
+        "unit": "ml",
+        "position": 181
+      }
+    ]
+  }
+}

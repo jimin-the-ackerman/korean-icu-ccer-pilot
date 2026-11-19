@@ -1,0 +1,25 @@
+{
+  "sample_id": "scenario_051_clinical_charting",
+  "whisper_transcript": "SARS-CoV-2 patients with acute pancreatitis should be advised to use alcohol. BP, Kegelchap, CBHR, Cochipipe, BPM, RRR, QVDB, RRRBT, Sandicheptum 8, Riechsel's. SpO2 95 per ton room air. Abdominal pain, severe nausea. Morphine, 4mg IV PRN injection. MPO status, maintained. NG tube, applied. Negative fluid balance, confirmed. Patient alert status, maintained. Gastroenterology team, notified.",
+  "stt_metadata": {
+    "asr_system": "whisper1_auto",
+    "provider": "openai",
+    "model": "whisper-1",
+    "language": null,
+    "audio_path": "data/audio/scenario_051_clinical_charting.mp3",
+    "audio_sha256": "be0f2a0d554d5f603386b74e669da7828f5cdf9ff9846be9ac45adee9df4f876",
+    "transcribed_at": "2026-11-04T13:55:14+00:00",
+    "request_seconds": 2.8,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "SARS-CoV-2 patients with acute pancreatitis should be advised to use alcohol. BP, Kegelchap, CBHR, Cochipipe, BPM, RRR, QVDB, RRRBT, Sandicheptum 8, Riechsel's. SpO2 95 per ton room air. Abdominal pain, severe nausea. Morphine, 4mg IV PRN injection. MPO status, maintained. NG tube, applied. Negative fluid balance, confirmed. Patient alert status, maintained. Gastroenterology team, notified.",
+    "logprobs": null,
+    "usage": {
+      "seconds": 24.0,
+      "type": "duration"
+    }
+  }
+}

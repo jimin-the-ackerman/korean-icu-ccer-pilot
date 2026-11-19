@@ -1,0 +1,25 @@
+{
+  "sample_id": "scenario_044_telegraphic_icu",
+  "whisper_transcript": "38C-SNMSome, BP 98, 62 mmHg, RR10xm, RR28, BT 37.8 raised to SPPO2, 93% RA, severe abdominal pain, a morphine-tooled agent, nasal cannulas, high on folium paint. In place, Drowsy, Pain Team, Consult Tim.",
+  "stt_metadata": {
+    "asr_system": "whisper1_auto",
+    "provider": "openai",
+    "model": "whisper-1",
+    "language": null,
+    "audio_path": "data/audio/scenario_044_telegraphic_icu.mp3",
+    "audio_sha256": "8262470e35f02170636ec090b9891313e0db31ee906f705b3e8bde5dff623ba0",
+    "transcribed_at": "2026-11-04T13:54:20+00:00",
+    "request_seconds": 1.63,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "38C-SNMSome, BP 98, 62 mmHg, RR10xm, RR28, BT 37.8 raised to SPPO2, 93% RA, severe abdominal pain, a morphine-tooled agent, nasal cannulas, high on folium paint. In place, Drowsy, Pain Team, Consult Tim.",
+    "logprobs": null,
+    "usage": {
+      "seconds": 16.0,
+      "type": "duration"
+    }
+  }
+}

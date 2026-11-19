@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_051_telegraphic_icu",
+  "whisper_transcript": "48세 남성 급성 췌장염 입원. BP 140/80mmHg, HR 98bpm, RR 22bpm, SpO2 90% on RA. 심한 복통, 마약성 진통제 PRN, NG 튜브, 음성 액 균형. GI 팀 통보하십시오.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": "ko",
+    "audio_path": "data/audio/scenario_051_telegraphic_icu.mp3",
+    "audio_sha256": "badc41f2124b0a732709d69524d49d21baa55b0195dfc60b77f13fccbf4b223b",
+    "transcribed_at": "2026-11-04T12:59:02+00:00",
+    "request_seconds": 1.49,
+    "attempts": 1,
+    "git_commit": "5b6d73fb63e1509a79e1a160176d606ed1b104c4",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "48세 남성 급성 췌장염 입원. BP 140/80mmHg, HR 98bpm, RR 22bpm, SpO2 90% on RA. 심한 복통, 마약성 진통제 PRN, NG 튜브, 음성 액 균형. GI 팀 통보하십시오.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 153,
+      "output_tokens": 77,
+      "total_tokens": 230,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 153,
+        "text_tokens": 0
+      }
+    }
+  }
+}

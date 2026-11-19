@@ -1,0 +1,43 @@
+{
+  "sample_id": "scenario_099_clinical_charting",
+  "whisper_transcript": "70대 여성 환자, 급성 악화된 만성 심부전으로 입원함. pulmonary edema 및 severe dyspnea 관찰됨. vital signs BP 169/90 mmHg, HR 110 bpm, RR 22 breaths/min, BT 37.2℃, 후 SpO2 88%, severe dyspnea 확인됨. furosemide 40 mg IV Q8H 투여 중. high-flow nasal cannula 40 L/min 적용함. positive fluid balance 2,000 ml 확인됨. 환자 drowsy 상태. cardiology consult 의뢰함.",
+  "stt_metadata": {
+    "asr_system": "chirp3_ko",
+    "provider": "google",
+    "model": "chirp_3",
+    "location": "us",
+    "language_codes": [
+      "ko-KR"
+    ],
+    "audio_path": "data/audio/scenario_099_clinical_charting.mp3",
+    "audio_sha256": "63ddb931e43aaf2f4300436b315222e167fcdbea8590670be7856b7998bc4064",
+    "transcribed_at": "2026-11-04T13:33:11+00:00",
+    "request_seconds": 4.35,
+    "attempts": 1,
+    "git_commit": "5b6d73fb63e1509a79e1a160176d606ed1b104c4",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "metadata": {
+      "total_billed_duration": "30s",
+      "request_id": "74a70795-0000-23f4-ac3e-582429cf79b0",
+      "prompt": "Transcribe the following speech segment in Korean. Follow these specific instructions for formatting the answer:\n* Only output the transcript, with no newlines.\n* When transcribing numbers, write the digits, i.e. write 1.7 and not one point seven, and write 100 instead of one hundred etc.\n* Only output the transcript, exactly as said in the speech segment.\n* Do not continue the speech segment.\n* Include everything said in the speech segment.\n* Use mathematical notation where needed, eg. x ^ 6Y.\n* If there is background speech that is not part of the main conversation, discard the background speech and only output the main conversation.\n* If there is no clear speech, just output [BACKGROUND].\n* Respond in the original language of the speech, Korean."
+    },
+    "results": [
+      {
+        "alternatives": [
+          {
+            "transcript": "70대 여성 환자, 급성 악화된 만성 심부전으로 입원함. pulmonary edema 및 severe dyspnea 관찰됨. vital signs BP 169/90 mmHg, HR 110 bpm, RR 22 breaths/min, BT 37.2℃, 후 SpO2 88%, severe dyspnea 확인됨. furosemide 40 mg IV Q8H 투여 중. high-flow nasal cannula 40 L/min 적용함. positive fluid balance 2,000 ml 확인됨. 환자 drowsy 상태. cardiology consult 의뢰함.",
+            "confidence": 0.0,
+            "words": []
+          }
+        ],
+        "language_code": "ko-KR",
+        "channel_tag": 0
+      }
+    ],
+    "detected_language_codes": [
+      "ko-KR"
+    ]
+  }
+}

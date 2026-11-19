@@ -1,0 +1,25 @@
+{
+  "sample_id": "scenario_052_clinical_charting",
+  "whisper_transcript": "72세 남성 힙 리플레이스먼트 2 포스톱 컴플리케이션으로 입원함. BP 130 85mm함 확인됨. HR 95 BPM 유지됨. RR 10바이트 브레스민 확인됨. BT 37.5르고스 확인됨. SpO2 주체제품 on room air 확인됨. 모더릿 페인 호소함. 몰피인 2mg IV Q4H 적용함. Fully 유지중임. Urine output 400ml XRR 확인됨. Clinical status alert 상태 유지함.",
+  "stt_metadata": {
+    "asr_system": "whisper1",
+    "provider": "reuse_existing",
+    "model": "whisper-1",
+    "language": "ko",
+    "audio_path": "data/audio/scenario_052_clinical_charting.mp3",
+    "audio_sha256": "bbf4067e617de3853fffd235bd9a22a24a214e61e195204b7bdc9508664ed540",
+    "copied_at": "2026-11-04T04:31:12+00:00",
+    "request_seconds": 0.0,
+    "attempts": 1,
+    "git_commit": "b3490181b3fb3f88b56cde5be78a01cfdcef3007",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "source_file": "data/stt_transcripts/scenario_052_clinical_charting.json",
+    "source_sha256": "9088b57fc9baef835de31d9fb7b57bc9059cbe6f7281a0c14bd6b4be3c76d4e9",
+    "source_stt_metadata": {
+      "model": "whisper-1",
+      "language": "ko"
+    }
+  }
+}

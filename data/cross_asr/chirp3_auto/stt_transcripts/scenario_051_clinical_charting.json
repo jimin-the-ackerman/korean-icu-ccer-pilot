@@ -1,0 +1,43 @@
+{
+  "sample_id": "scenario_051_clinical_charting",
+  "whisper_transcript": "Sasha person I'm so Honda acute pancreatitis we want one in alcohol use BP Kaga top to be HR 95 BPM RR 22 BP RRBT 78% SPO2 95% on room air abdominal pain severe who is one morphine 4 mg IV PRN to um NPO status UGM NGTube of jugulum negative fluid balance huggin them Honda alert sangte UGM gastroenterology team notify him",
+  "stt_metadata": {
+    "asr_system": "chirp3_auto",
+    "provider": "google",
+    "model": "chirp_3",
+    "location": "us",
+    "language_codes": [
+      "auto"
+    ],
+    "audio_path": "data/audio/scenario_051_clinical_charting.mp3",
+    "audio_sha256": "be0f2a0d554d5f603386b74e669da7828f5cdf9ff9846be9ac45adee9df4f876",
+    "transcribed_at": "2026-11-04T14:29:50+00:00",
+    "request_seconds": 4.01,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "metadata": {
+      "total_billed_duration": "24s",
+      "request_id": "6b0c6e4b-0000-22c3-937a-089e08319f8c",
+      "prompt": "Transcribe the following speech segment. Follow these specific instructions for formatting the answer:\n* Only output the transcript, with no newlines.\n* When transcribing numbers, write the digits, i.e. write 1.7 and not one point seven, and write 100 instead of one hundred etc.\n* Only output the transcript, exactly as said in the speech segment.\n* Do not continue the speech segment.\n* Include everything said in the speech segment.\n* Use mathematical notation where needed, eg. x ^ 6Y.\n* If there is background speech that is not part of the main conversation, discard the background speech and only output the main conversation.\n* If there is no clear speech, just output [BACKGROUND].\n* Respond in the original language of the speech."
+    },
+    "results": [
+      {
+        "alternatives": [
+          {
+            "transcript": "Sasha person I'm so Honda acute pancreatitis we want one in alcohol use BP Kaga top to be HR 95 BPM RR 22 BP RRBT 78% SPO2 95% on room air abdominal pain severe who is one morphine 4 mg IV PRN to um NPO status UGM NGTube of jugulum negative fluid balance huggin them Honda alert sangte UGM gastroenterology team notify him",
+            "confidence": 0.0,
+            "words": []
+          }
+        ],
+        "language_code": "en",
+        "channel_tag": 0
+      }
+    ],
+    "detected_language_codes": [
+      "en"
+    ]
+  }
+}

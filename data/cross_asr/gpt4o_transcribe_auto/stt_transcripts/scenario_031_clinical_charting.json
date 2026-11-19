@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_031_clinical_charting",
+  "whisper_transcript": "사르섬세남성, Severe acute pancreatitis 및 설수루 입원함. BP 92/12 mmHg, HR 100xdug bpm, RR 38 breathsmin, SpO2 95% room air. Severe abdominal pain 호소함. Morphine 1mg IV Q4H 적용함. IV fluid resuscitation UGM. Negative fluid balance 500ml at last 24 hours 확인됨. 임상상태 drowsy, GI specialist consult 위해 담당인 notify 함.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe_auto",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": null,
+    "audio_path": "data/audio/scenario_031_clinical_charting.mp3",
+    "audio_sha256": "20d27b5d7c2feac2da6abfacb3a9dcdd7a51f45af7a17ca660575f807feaf70f",
+    "transcribed_at": "2026-11-04T14:07:03+00:00",
+    "request_seconds": 2.2,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "사르섬세남성, Severe acute pancreatitis 및 설수루 입원함. BP 92/12 mmHg, HR 100xdug bpm, RR 38 breathsmin, SpO2 95% room air. Severe abdominal pain 호소함. Morphine 1mg IV Q4H 적용함. IV fluid resuscitation UGM. Negative fluid balance 500ml at last 24 hours 확인됨. 임상상태 drowsy, GI specialist consult 위해 담당인 notify 함.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 262,
+      "output_tokens": 111,
+      "total_tokens": 373,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 262,
+        "text_tokens": 0
+      }
+    }
+  }
+}

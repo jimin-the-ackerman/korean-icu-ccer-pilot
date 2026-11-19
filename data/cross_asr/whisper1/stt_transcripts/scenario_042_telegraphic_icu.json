@@ -1,0 +1,25 @@
+{
+  "sample_id": "scenario_042_telegraphic_icu",
+  "whisper_transcript": "73세 남한 e1 severe dehydration electrolyte imbalance bp 98 62 2mg hr 1pm r 24 breaths min bt 37.2 sp o 2 95 percent ra severe diarrhea normal saline 1000 ml iv stat iv fluid resuscitation uo low 200 milliliters per 8 r drowsy uo 30 million she docker notify",
+  "stt_metadata": {
+    "asr_system": "whisper1",
+    "provider": "reuse_existing",
+    "model": "whisper-1",
+    "language": "ko",
+    "audio_path": "data/audio/scenario_042_telegraphic_icu.mp3",
+    "audio_sha256": "6e239629b0c4d7784cf76b2496919edfd5ee069a4af6b1fdd51727e887b3d45e",
+    "copied_at": "2026-11-04T04:31:11+00:00",
+    "request_seconds": 0.0,
+    "attempts": 1,
+    "git_commit": "b3490181b3fb3f88b56cde5be78a01cfdcef3007",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "source_file": "data/stt_transcripts/scenario_042_telegraphic_icu.json",
+    "source_sha256": "ff59a902b72f00f47140f73c4ac60270eb4b8d3d63ace7dfab3e514a376d5aea",
+    "source_stt_metadata": {
+      "model": "whisper-1",
+      "language": "ko"
+    }
+  }
+}

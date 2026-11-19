@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_036_formal_template",
+  "whisper_transcript": "55세 여성 환자가 중증 급성 천식 악화로 입원하였다. 활력 징후를 확인한 결과 혈압은 130/85mmHg, 심박수는 110bpm, 호흡수는 28bpm, 체온은 37.2℃, 산소포화도는 실내 공기에서 88%로 확인되었다. 환자는 심한 위징을 호소하였다. 알부테롤 2.5mg을 IV로 QSOH 투여 중이다. 산소 보조로는 고유량 비강 캐큘라를 사용하고 있으며, 벤틸레이터도 사용 중이다. 체액 균형은 음성으로 나타났다. 환자의 임상 상태는 졸림이 관찰되었다. 환기 관리 위에 호흡 치료사에게 보고하였다.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe_auto",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": null,
+    "audio_path": "data/audio/scenario_036_formal_template.mp3",
+    "audio_sha256": "34c5440b722aec149bbed167278c987d2070a51079118e1e0d13f9b94496cce9",
+    "transcribed_at": "2026-11-04T14:07:39+00:00",
+    "request_seconds": 3.01,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "55세 여성 환자가 중증 급성 천식 악화로 입원하였다. 활력 징후를 확인한 결과 혈압은 130/85mmHg, 심박수는 110bpm, 호흡수는 28bpm, 체온은 37.2℃, 산소포화도는 실내 공기에서 88%로 확인되었다. 환자는 심한 위징을 호소하였다. 알부테롤 2.5mg을 IV로 QSOH 투여 중이다. 산소 보조로는 고유량 비강 캐큘라를 사용하고 있으며, 벤틸레이터도 사용 중이다. 체액 균형은 음성으로 나타났다. 환자의 임상 상태는 졸림이 관찰되었다. 환기 관리 위에 호흡 치료사에게 보고하였다.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 386,
+      "output_tokens": 187,
+      "total_tokens": 573,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 386,
+        "text_tokens": 0
+      }
+    }
+  }
+}

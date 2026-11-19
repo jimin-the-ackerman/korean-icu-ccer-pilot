@@ -1,0 +1,25 @@
+{
+  "sample_id": "scenario_006_telegraphic_icu",
+  "whisper_transcript": "70-year-old woman admitted to the hospital with a severe stroke. BP group, GR-77, RR-80, BT-37, SPU-95. Severe hemiplegia. Labetalol, 20 mg, IV, Q6H, nasal cannula, 2 amine. C-line maintained, negative fluid balance, stuporous condition. Neuroteam notify.",
+  "stt_metadata": {
+    "asr_system": "whisper1_auto",
+    "provider": "openai",
+    "model": "whisper-1",
+    "language": null,
+    "audio_path": "data/audio/scenario_006_telegraphic_icu.mp3",
+    "audio_sha256": "502b5fa31fcf30c6fb8cb26f09f9c22bd25ea040077435c61adfbba45807dcbf",
+    "transcribed_at": "2026-11-04T13:49:59+00:00",
+    "request_seconds": 2.76,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "70-year-old woman admitted to the hospital with a severe stroke. BP group, GR-77, RR-80, BT-37, SPU-95. Severe hemiplegia. Labetalol, 20 mg, IV, Q6H, nasal cannula, 2 amine. C-line maintained, negative fluid balance, stuporous condition. Neuroteam notify.",
+    "logprobs": null,
+    "usage": {
+      "seconds": 18.0,
+      "type": "duration"
+    }
+  }
+}

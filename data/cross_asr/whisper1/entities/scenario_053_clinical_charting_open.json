@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_053_clinical_charting",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "dyspnea",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "drowsy",
+    "medication_identity": "Prednisone",
+    "interventions": [],
+    "intake_output": null,
+    "notification": "담당 pulmonologist notify함"
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "Dyspnea",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "Drowsy",
+    "medication_identity": "Prednisone",
+    "interventions": [],
+    "intake_output": null,
+    "notification": "담당 Pulmonologist Notify함"
+  }
+}

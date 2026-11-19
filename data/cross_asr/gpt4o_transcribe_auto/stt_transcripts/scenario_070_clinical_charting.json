@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_070_clinical_charting",
+  "whisper_transcript": "60세 남성, acute respiratory failure로 입원. Severe community-acquired pneumonia 확인됨. BP 다이지 디이잉 58mmHg, HR 햄, RR 28 breaths/min, BT 38.5 degrees, SpO2 86% 호수아. Sevivofloxacin 750mg IV Q12H 투여 중. Oxygen support, high-flow nasal cannula 적용함. Ventilator 사용 중. Negative fluid balance 확인. Clinical status, drowsy.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe_auto",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": null,
+    "audio_path": "data/audio/scenario_070_clinical_charting.mp3",
+    "audio_sha256": "943ddf45db2169275702efc52bbe2337bc79b20e6ac2521ff9f75c3c1e25f276",
+    "transcribed_at": "2026-11-04T14:11:50+00:00",
+    "request_seconds": 1.65,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "60세 남성, acute respiratory failure로 입원. Severe community-acquired pneumonia 확인됨. BP 다이지 디이잉 58mmHg, HR 햄, RR 28 breaths/min, BT 38.5 degrees, SpO2 86% 호수아. Sevivofloxacin 750mg IV Q12H 투여 중. Oxygen support, high-flow nasal cannula 적용함. Ventilator 사용 중. Negative fluid balance 확인. Clinical status, drowsy.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 261,
+      "output_tokens": 104,
+      "total_tokens": 365,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 261,
+        "text_tokens": 0
+      }
+    }
+  }
+}

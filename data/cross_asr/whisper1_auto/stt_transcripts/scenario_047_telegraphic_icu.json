@@ -1,0 +1,25 @@
+{
+  "sample_id": "scenario_047_telegraphic_icu",
+  "whisper_transcript": "45세 여성, 리조넬라 감염으로 인한 중증 폐렴 입원함. BP 100g, HR 75, BPM 45, RRB, BT, SPO2, HB, BR, Severe cough, levofloxacin, TBD, IV, QCH, High-flow nasal cannula 사용, Ventilator 적용중. 24시간 동안 음성수분균형, 의식상태 Drowsy, D-Octor notify.",
+  "stt_metadata": {
+    "asr_system": "whisper1_auto",
+    "provider": "openai",
+    "model": "whisper-1",
+    "language": null,
+    "audio_path": "data/audio/scenario_047_telegraphic_icu.mp3",
+    "audio_sha256": "0a4167342dc79ecbcbbccb741a08d9842ef09bd3b52082afcc1172c526728cae",
+    "transcribed_at": "2026-11-04T13:54:45+00:00",
+    "request_seconds": 2.11,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "45세 여성, 리조넬라 감염으로 인한 중증 폐렴 입원함. BP 100g, HR 75, BPM 45, RRB, BT, SPO2, HB, BR, Severe cough, levofloxacin, TBD, IV, QCH, High-flow nasal cannula 사용, Ventilator 적용중. 24시간 동안 음성수분균형, 의식상태 Drowsy, D-Octor notify.",
+    "logprobs": null,
+    "usage": {
+      "seconds": 23.0,
+      "type": "duration"
+    }
+  }
+}

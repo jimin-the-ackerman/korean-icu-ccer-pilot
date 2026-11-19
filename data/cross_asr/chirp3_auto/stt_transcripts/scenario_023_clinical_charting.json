@@ -1,0 +1,43 @@
+{
+  "sample_id": "scenario_023_clinical_charting",
+  "whisper_transcript": "69세 여성 환자, 급성 악화된 multiple sclerosis로 입원함. BP 155/85 mmHg, HR 80 BPM, R 22 breaths per min, BT 37.2°C, SpO2 96% on room air. muscle weakness moderate 호소함. methylprednisolone 1 g IV q 12 h 투여함. 환자 상태 drowsy 확인됨.",
+  "stt_metadata": {
+    "asr_system": "chirp3_auto",
+    "provider": "google",
+    "model": "chirp_3",
+    "location": "us",
+    "language_codes": [
+      "auto"
+    ],
+    "audio_path": "data/audio/scenario_023_clinical_charting.mp3",
+    "audio_sha256": "39e521e9798ddcad85e71fe70c7d5f371f8bfdb55c5f8e0628a5e0d9470fb84a",
+    "transcribed_at": "2026-11-04T14:22:43+00:00",
+    "request_seconds": 4.78,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "metadata": {
+      "total_billed_duration": "20s",
+      "request_id": "73d9ff36-0000-20af-9ed7-14c14ef7de84",
+      "prompt": "Transcribe the following speech segment. Follow these specific instructions for formatting the answer:\n* Only output the transcript, with no newlines.\n* When transcribing numbers, write the digits, i.e. write 1.7 and not one point seven, and write 100 instead of one hundred etc.\n* Only output the transcript, exactly as said in the speech segment.\n* Do not continue the speech segment.\n* Include everything said in the speech segment.\n* Use mathematical notation where needed, eg. x ^ 6Y.\n* If there is background speech that is not part of the main conversation, discard the background speech and only output the main conversation.\n* If there is no clear speech, just output [BACKGROUND].\n* Respond in the original language of the speech."
+    },
+    "results": [
+      {
+        "alternatives": [
+          {
+            "transcript": "69세 여성 환자, 급성 악화된 multiple sclerosis로 입원함. BP 155/85 mmHg, HR 80 BPM, R 22 breaths per min, BT 37.2°C, SpO2 96% on room air. muscle weakness moderate 호소함. methylprednisolone 1 g IV q 12 h 투여함. 환자 상태 drowsy 확인됨.",
+            "confidence": 0.0,
+            "words": []
+          }
+        ],
+        "language_code": "ko",
+        "channel_tag": 0
+      }
+    ],
+    "detected_language_codes": [
+      "ko"
+    ]
+  }
+}

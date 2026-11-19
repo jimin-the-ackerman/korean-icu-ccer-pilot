@@ -1,0 +1,25 @@
+{
+  "sample_id": "scenario_039_telegraphic_icu",
+  "whisper_transcript": "70세 여성 환자, 급성 폐부종으로 입원, 갑상선 기능한 항산중독증, BPM 60, 90mHg, HR-REX 90 BPM, RRR, UHPITE, BREATHSMIN, BTT, 살신지, SPO2, 80% RA, SEVERE SOB, PROPRENOLOL, PHOTOMETHALORAM, POQ-6H, HFNC 적용, FULLY 삽입, DROWSY 상태, ENDOCRINOLOGY TEAM NOTIFY.",
+  "stt_metadata": {
+    "asr_system": "whisper1_auto",
+    "provider": "openai",
+    "model": "whisper-1",
+    "language": null,
+    "audio_path": "data/audio/scenario_039_telegraphic_icu.mp3",
+    "audio_sha256": "3a0ee07b72f99620f9bc3be997b5550f3a1095c435ed2b6f7b6393d4956333e8",
+    "transcribed_at": "2026-11-04T13:53:40+00:00",
+    "request_seconds": 1.91,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "70세 여성 환자, 급성 폐부종으로 입원, 갑상선 기능한 항산중독증, BPM 60, 90mHg, HR-REX 90 BPM, RRR, UHPITE, BREATHSMIN, BTT, 살신지, SPO2, 80% RA, SEVERE SOB, PROPRENOLOL, PHOTOMETHALORAM, POQ-6H, HFNC 적용, FULLY 삽입, DROWSY 상태, ENDOCRINOLOGY TEAM NOTIFY.",
+    "logprobs": null,
+    "usage": {
+      "seconds": 21.0,
+      "type": "duration"
+    }
+  }
+}

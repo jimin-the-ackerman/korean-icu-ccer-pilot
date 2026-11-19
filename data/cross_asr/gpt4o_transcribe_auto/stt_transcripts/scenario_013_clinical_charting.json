@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_013_clinical_charting",
+  "whisper_transcript": "ሳርሚሳዜ የወሰን ወንጀለ አኪውት ባክቴሪያል ሜኒንጃይቲስ ሮይቱዋናም። ቢፒ በሀክሳት ችህሽ ሚሚት ብርገር። ኤችአር አርአር እሽብርስ ምንም። ቢቲ ሰርንጅ ግዮበን በይንዪውን ንጉርስስ። ኤስፒኡ ቲብል ፐርሰንት ኦን ሩም ኤር። ሰቪር ሄደክ ሆሶዋም። ሴፍትሪያክሶን 2 ግራም አይቪ ኩተል ዌች ተግዮላም። ሲላይን ዩጂኤም። ክሊኒካል ስታተስ ድራውዚ።",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe_auto",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": null,
+    "audio_path": "data/audio/scenario_013_clinical_charting.mp3",
+    "audio_sha256": "03da27d34eb8450cd1ed7081e728d9e1f66b8cb90fe24fd4a7260547f307d283",
+    "transcribed_at": "2026-11-04T14:04:57+00:00",
+    "request_seconds": 4.13,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "ሳርሚሳዜ የወሰን ወንጀለ አኪውት ባክቴሪያል ሜኒንጃይቲስ ሮይቱዋናም። ቢፒ በሀክሳት ችህሽ ሚሚት ብርገር። ኤችአር አርአር እሽብርስ ምንም። ቢቲ ሰርንጅ ግዮበን በይንዪውን ንጉርስስ። ኤስፒኡ ቲብል ፐርሰንት ኦን ሩም ኤር። ሰቪር ሄደክ ሆሶዋም። ሴፍትሪያክሶን 2 ግራም አይቪ ኩተል ዌች ተግዮላም። ሲላይን ዩጂኤም። ክሊኒካል ስታተስ ድራውዚ።",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 183,
+      "output_tokens": 388,
+      "total_tokens": 571,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 183,
+        "text_tokens": 0
+      }
+    }
+  }
+}

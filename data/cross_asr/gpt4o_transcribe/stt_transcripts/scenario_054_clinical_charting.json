@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_054_clinical_charting",
+  "whisper_transcript": "55세 여성 subarachnoid hemorrhage로 입원함. BP 160/90mmHg, HR 95 bpm, RR 12 breaths/min, BT 37.8°C 임을 확인됨. Severe headache 호소함. Nimodipine 60mg PO q4h 투여 중. Nasal canula at 3L/min 적용함. C-line 유지함. Drowsy 상태 확인됨. Neurology team notify함.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": "ko",
+    "audio_path": "data/audio/scenario_054_clinical_charting.mp3",
+    "audio_sha256": "bb9612303bcd48882c56161c4d8ac5ddc650e0fce41ef5be0dd00289658b4feb",
+    "transcribed_at": "2026-11-04T12:59:17+00:00",
+    "request_seconds": 1.72,
+    "attempts": 1,
+    "git_commit": "5b6d73fb63e1509a79e1a160176d606ed1b104c4",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "55세 여성 subarachnoid hemorrhage로 입원함. BP 160/90mmHg, HR 95 bpm, RR 12 breaths/min, BT 37.8°C 임을 확인됨. Severe headache 호소함. Nimodipine 60mg PO q4h 투여 중. Nasal canula at 3L/min 적용함. C-line 유지함. Drowsy 상태 확인됨. Neurology team notify함.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 217,
+      "output_tokens": 97,
+      "total_tokens": 314,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 217,
+        "text_tokens": 0
+      }
+    }
+  }
+}

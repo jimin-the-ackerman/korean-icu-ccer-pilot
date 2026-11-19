@@ -1,0 +1,41 @@
+{
+  "sample_id": "scenario_001_clinical_charting",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "respiratory distress",
+        "negation": false,
+        "severity": null
+      },
+      {
+        "name": "cough",
+        "negation": false,
+        "severity": "moderate"
+      }
+    ],
+    "clinical_status": "drowsy",
+    "medication_identity": "Ceftriaxone",
+    "interventions": [],
+    "intake_output": null,
+    "notification": "RT notify함"
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "respiratory distress",
+        "negation": false,
+        "severity": null
+      },
+      {
+        "name": "cough",
+        "negation": false,
+        "severity": "moderate"
+      }
+    ],
+    "clinical_status": "drowsy",
+    "medication_identity": "Ceftriaxone",
+    "interventions": [],
+    "intake_output": null,
+    "notification": "RT notify함"
+  }
+}

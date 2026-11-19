@@ -1,0 +1,43 @@
+{
+  "sample_id": "scenario_014_formal_template",
+  "whisper_transcript": "환자는 59세 남성으로 주택 화재로 인한 흡입 손상 후 급성 호흡곤란 증후군 ARDS로 입원하였다. 활력 증후는 혈압 135/85, 심박수 110 BPM, 호흡수 30 breath/min, 체온 38.3°C였다. 산소 포화도는 실내 공기에서 88%로 확인되었다. 환자는 심한 호흡곤란을 호소하였다. 현재 환자는 기계적 환기를 받고 있으며 벤틸레이터를 사용 중이다. 투약으로는 메틸프레드니솔론 125 mg을 IV로 6시간마다 투여하고 있다. 수분 균형은 양성으로 확인되었다. 환자는 현재 의식이 둔한 상태이다.",
+  "stt_metadata": {
+    "asr_system": "chirp3_ko",
+    "provider": "google",
+    "model": "chirp_3",
+    "location": "us",
+    "language_codes": [
+      "ko-KR"
+    ],
+    "audio_path": "data/audio/scenario_014_formal_template.mp3",
+    "audio_sha256": "9492a11d996ee34fdf1a6482d908cc7e1bf803254a3974e1646de2f58e36ca19",
+    "transcribed_at": "2026-11-04T13:13:04+00:00",
+    "request_seconds": 5.59,
+    "attempts": 1,
+    "git_commit": "5b6d73fb63e1509a79e1a160176d606ed1b104c4",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "metadata": {
+      "total_billed_duration": "39s",
+      "request_id": "6e9f27f2-0000-294f-9b79-ac3eb147f148",
+      "prompt": "Transcribe the following speech segment in Korean. Follow these specific instructions for formatting the answer:\n* Only output the transcript, with no newlines.\n* When transcribing numbers, write the digits, i.e. write 1.7 and not one point seven, and write 100 instead of one hundred etc.\n* Only output the transcript, exactly as said in the speech segment.\n* Do not continue the speech segment.\n* Include everything said in the speech segment.\n* Use mathematical notation where needed, eg. x ^ 6Y.\n* If there is background speech that is not part of the main conversation, discard the background speech and only output the main conversation.\n* If there is no clear speech, just output [BACKGROUND].\n* Respond in the original language of the speech, Korean."
+    },
+    "results": [
+      {
+        "alternatives": [
+          {
+            "transcript": "환자는 59세 남성으로 주택 화재로 인한 흡입 손상 후 급성 호흡곤란 증후군 ARDS로 입원하였다. 활력 증후는 혈압 135/85, 심박수 110 BPM, 호흡수 30 breath/min, 체온 38.3°C였다. 산소 포화도는 실내 공기에서 88%로 확인되었다. 환자는 심한 호흡곤란을 호소하였다. 현재 환자는 기계적 환기를 받고 있으며 벤틸레이터를 사용 중이다. 투약으로는 메틸프레드니솔론 125 mg을 IV로 6시간마다 투여하고 있다. 수분 균형은 양성으로 확인되었다. 환자는 현재 의식이 둔한 상태이다.",
+            "confidence": 0.0,
+            "words": []
+          }
+        ],
+        "language_code": "ko-KR",
+        "channel_tag": 0
+      }
+    ],
+    "detected_language_codes": [
+      "ko-KR"
+    ]
+  }
+}

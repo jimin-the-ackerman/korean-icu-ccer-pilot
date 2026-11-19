@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_077_clinical_charting",
+  "whisper_transcript": "xCC sayosan huanja acute exacerbation of chronic kidney disease ro ibonam. BPH bet wuschrik milimherdram, HR wetchur BPM, R SGD breaths min, BT serziksdem ait lis hwagindem. SpO2 kuchi sat percentent on 202 via nasal canem. Moderate weakness hosuam. Levetolal chim milligrams IV QH tuyojung. Nasal canem lachogyongam. Fluid resuscitation shiangam. Foley yujiam. Positive fluid balance hwagindem. Clinical status drowsy. Renal team notify hem for dialysis evaluation.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": "ko",
+    "audio_path": "data/audio/scenario_077_clinical_charting.mp3",
+    "audio_sha256": "0e7ce7c14ce41d7aedb37dbca5a4f0522e60a9e1d40e925d6f47bc65bac1a762",
+    "transcribed_at": "2026-11-04T13:02:22+00:00",
+    "request_seconds": 2.15,
+    "attempts": 1,
+    "git_commit": "5b6d73fb63e1509a79e1a160176d606ed1b104c4",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "xCC sayosan huanja acute exacerbation of chronic kidney disease ro ibonam. BPH bet wuschrik milimherdram, HR wetchur BPM, R SGD breaths min, BT serziksdem ait lis hwagindem. SpO2 kuchi sat percentent on 202 via nasal canem. Moderate weakness hosuam. Levetolal chim milligrams IV QH tuyojung. Nasal canem lachogyongam. Fluid resuscitation shiangam. Foley yujiam. Positive fluid balance hwagindem. Clinical status drowsy. Renal team notify hem for dialysis evaluation.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 299,
+      "output_tokens": 134,
+      "total_tokens": 433,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 299,
+        "text_tokens": 0
+      }
+    }
+  }
+}

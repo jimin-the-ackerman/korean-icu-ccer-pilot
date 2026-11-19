@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_005_clinical_charting",
+  "whisper_transcript": "52세 남성 환자, chronic kidney disease 병력, acute renal failure 모니터링 및 관리 위해 입원함. BP 150/100 mmHg, HR 80 bpm, BT 37.6°C, SpO2 94%. Moderate edema 확인됨. Furosemide 40mg IV q8h 적용함. Oxygen support nasal cannula 유지함. Foley catheter 유지함. Negative fluid balance 확인됨. 임상 상태 drowsy 확인됨. Nephrology team increased creatinine levels 관련 notify함.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": "ko",
+    "audio_path": "data/audio/scenario_005_clinical_charting.mp3",
+    "audio_sha256": "6da6b191684896dd2ac43feb6fe6fd300983d9efc5ecc6540ac78f735d3d984e",
+    "transcribed_at": "2026-11-04T12:54:03+00:00",
+    "request_seconds": 2.38,
+    "attempts": 1,
+    "git_commit": "5b6d73fb63e1509a79e1a160176d606ed1b104c4",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "52세 남성 환자, chronic kidney disease 병력, acute renal failure 모니터링 및 관리 위해 입원함. BP 150/100 mmHg, HR 80 bpm, BT 37.6°C, SpO2 94%. Moderate edema 확인됨. Furosemide 40mg IV q8h 적용함. Oxygen support nasal cannula 유지함. Foley catheter 유지함. Negative fluid balance 확인됨. 임상 상태 drowsy 확인됨. Nephrology team increased creatinine levels 관련 notify함.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 289,
+      "output_tokens": 116,
+      "total_tokens": 405,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 289,
+        "text_tokens": 0
+      }
+    }
+  }
+}

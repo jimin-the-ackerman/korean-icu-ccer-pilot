@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_040_formal_template",
+  "whisper_transcript": "환자는 42세 여성으로 최근 약물 반응으로 인한 심한 스티븐스 존슨 신드롬 SJS로 입원하였다. 활력증으로 혈압은 117 70mmHg, 심박수는 95bpm, 호흡수는 20bpm, 체온은 38.0도 굿셀스, 산소포화도는 94%로 확인되었다. 환자는 심각한 피부병변을 보이고 있다. 현재 몰핀 5mg IV로 4시간마다 투여 중이다. 산소공급은 네이젤 캐널라를 통해 2Lmin으로 제공되고 있다. 폴리 캐테터가 장착되어 있다. 임상적으로 환자는 졸린 상태이다.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe_auto",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": null,
+    "audio_path": "data/audio/scenario_040_formal_template.mp3",
+    "audio_sha256": "aa204f40714576f49c7eaa06cd5e914d9c6241bde95bfc98f69631460321ab80",
+    "transcribed_at": "2026-11-04T14:08:06+00:00",
+    "request_seconds": 2.89,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "환자는 42세 여성으로 최근 약물 반응으로 인한 심한 스티븐스 존슨 신드롬 SJS로 입원하였다. 활력증으로 혈압은 117 70mmHg, 심박수는 95bpm, 호흡수는 20bpm, 체온은 38.0도 굿셀스, 산소포화도는 94%로 확인되었다. 환자는 심각한 피부병변을 보이고 있다. 현재 몰핀 5mg IV로 4시간마다 투여 중이다. 산소공급은 네이젤 캐널라를 통해 2Lmin으로 제공되고 있다. 폴리 캐테터가 장착되어 있다. 임상적으로 환자는 졸린 상태이다.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 343,
+      "output_tokens": 172,
+      "total_tokens": 515,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 343,
+        "text_tokens": 0
+      }
+    }
+  }
+}

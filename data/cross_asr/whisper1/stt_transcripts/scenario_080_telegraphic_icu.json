@@ -1,0 +1,25 @@
+{
+  "sample_id": "scenario_080_telegraphic_icu",
+  "whisper_transcript": "50세 남성, 알코올성 강경화로 인한 만성 간부전압성 악화 입원 BP 95, FHR 152 BPM, RR 22 Breaths Min, BT 37.5 SpO2 88% on room air, severe jaundice, furosemide 40mg IV BID 2L nasal cannula, Foley, negative fluid balance, drowsy, Hepatology consult requested",
+  "stt_metadata": {
+    "asr_system": "whisper1",
+    "provider": "reuse_existing",
+    "model": "whisper-1",
+    "language": "ko",
+    "audio_path": "data/audio/scenario_080_telegraphic_icu.mp3",
+    "audio_sha256": "d32fb27d3315cba782b2d3fd428a678ef3e932bed3e2d8c7a2eae048a2361d1a",
+    "copied_at": "2026-11-04T04:31:12+00:00",
+    "request_seconds": 0.0,
+    "attempts": 1,
+    "git_commit": "b3490181b3fb3f88b56cde5be78a01cfdcef3007",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "source_file": "data/stt_transcripts/scenario_080_telegraphic_icu.json",
+    "source_sha256": "ec98e055ffe602795775fd0e065fa7bd8c751a459b707da263d6766701a51da5",
+    "source_stt_metadata": {
+      "model": "whisper-1",
+      "language": "ko"
+    }
+  }
+}

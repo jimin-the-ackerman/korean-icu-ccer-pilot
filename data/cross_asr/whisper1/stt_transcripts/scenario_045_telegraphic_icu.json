@@ -1,0 +1,25 @@
+{
+  "sample_id": "scenario_045_telegraphic_icu",
+  "whisper_transcript": "60VC 여성, 아디센스 디지즈로 인한 급성 부지 이완, BP 80, V 소아 튜브 패밀림, RR24 Breast Mobility Seth, SpO2 90% RA, Severe Abdominal Pain, Hydrocortisone 100mg IV STAT, Nasal Cannula 2L Min, Fluid Resuscitation with NS Fully Present, Urine Output Put 30mHr Drowsy, Endocrinology Consult.",
+  "stt_metadata": {
+    "asr_system": "whisper1",
+    "provider": "reuse_existing",
+    "model": "whisper-1",
+    "language": "ko",
+    "audio_path": "data/audio/scenario_045_telegraphic_icu.mp3",
+    "audio_sha256": "1131ad8ecf3b06648fd717a109f257f8e736feda6092726153b347a10c10510b",
+    "copied_at": "2026-11-04T04:31:11+00:00",
+    "request_seconds": 0.0,
+    "attempts": 1,
+    "git_commit": "b3490181b3fb3f88b56cde5be78a01cfdcef3007",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "source_file": "data/stt_transcripts/scenario_045_telegraphic_icu.json",
+    "source_sha256": "28f28151d4197fdcd7b34d88f5a691d66e02b87a81c366a275041dcd1f85ce1b",
+    "source_stt_metadata": {
+      "model": "whisper-1",
+      "language": "ko"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "sample_id": "scenario_066_clinical_charting",
+  "whisper_transcript": "59세 남성 환자, acute pancreatitis, hypertriglyceridemia로 입원함. Vital signs, BP pass up bit lumigram, HR up 10 BPM, RREC, BT 38.5, SpO2 95%. Abdominal pain, severe 호소함. Insulin, 10 units IV, Q6H 적용함. Fluid resuscitation, 시행함. Urine output, 1,500ml, 24억 기록됨. 환자 알러트 상태 유지함. Endocrinology consult, 필요함.",
+  "stt_metadata": {
+    "asr_system": "whisper1_auto",
+    "provider": "openai",
+    "model": "whisper-1",
+    "language": null,
+    "audio_path": "data/audio/scenario_066_clinical_charting.mp3",
+    "audio_sha256": "4fc454d34929993ec39e0018fbfb0f1f2a637c3fead986216098ed34f49c5eac",
+    "transcribed_at": "2026-11-04T13:57:59+00:00",
+    "request_seconds": 1.85,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "59세 남성 환자, acute pancreatitis, hypertriglyceridemia로 입원함. Vital signs, BP pass up bit lumigram, HR up 10 BPM, RREC, BT 38.5, SpO2 95%. Abdominal pain, severe 호소함. Insulin, 10 units IV, Q6H 적용함. Fluid resuscitation, 시행함. Urine output, 1,500ml, 24억 기록됨. 환자 알러트 상태 유지함. Endocrinology consult, 필요함.",
+    "logprobs": null,
+    "usage": {
+      "seconds": 26.0,
+      "type": "duration"
+    }
+  }
+}

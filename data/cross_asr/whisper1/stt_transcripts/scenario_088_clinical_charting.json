@@ -1,0 +1,25 @@
+{
+  "sample_id": "scenario_088_clinical_charting",
+  "whisper_transcript": "47세 여성 환자, acute liver failure로 입원. Acetaminophen overdose 병력. BP 170mg, HR 1.5 per gram, RRT 2 breaths min, Bt, SbO2 25% room air. severe jaundice 확인됨. 환자 drowsy. N-acetylcysteine 100mg per kg IV stat 적용함. Positive fluid balance 500mg 기록됨. Hepatology team notify함.",
+  "stt_metadata": {
+    "asr_system": "whisper1",
+    "provider": "reuse_existing",
+    "model": "whisper-1",
+    "language": "ko",
+    "audio_path": "data/audio/scenario_088_clinical_charting.mp3",
+    "audio_sha256": "1b079d19820b704eaa3c8fcb3e0dad4593a8aa74b7653c7370dcf95136f9bb65",
+    "copied_at": "2026-11-04T04:31:12+00:00",
+    "request_seconds": 0.0,
+    "attempts": 1,
+    "git_commit": "b3490181b3fb3f88b56cde5be78a01cfdcef3007",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "source_file": "data/stt_transcripts/scenario_088_clinical_charting.json",
+    "source_sha256": "54130bd02da905f3e47f84f71bc7cb0565dd69deaa62edd45d04393851f4b813",
+    "source_stt_metadata": {
+      "model": "whisper-1",
+      "language": "ko"
+    }
+  }
+}

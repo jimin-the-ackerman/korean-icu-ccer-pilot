@@ -1,0 +1,26 @@
+{
+  "sample_id": "scenario_019_telegraphic_icu",
+  "whisper_transcript": "40-year-old female, BP85.50, HR120 BPM, RR28 breaths min, BT36.80, SpO2 89% on room air. Severe swelling of face, lips, epinephrine 0.3 milligram IM stat, high flow nasal cannula. IV fluids, urine output 50 miller, drowsy. Allergy team notify.",
+  "stt_metadata": {
+    "asr_system": "whisper1_auto",
+    "provider": "openai",
+    "model": "whisper-1",
+    "language": null,
+    "scope": "pilot",
+    "audio_path": "data/audio/scenario_019_telegraphic_icu.mp3",
+    "audio_sha256": "5c37d5b7d547e412579a2a5cdc5f68d815ebd7639985e6cb7a1f6ffce3afa7bb",
+    "transcribed_at": "2026-11-04T13:40:48+00:00",
+    "request_seconds": 1.63,
+    "attempts": 1,
+    "git_commit": "5b6d73fb63e1509a79e1a160176d606ed1b104c4",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "40-year-old female, BP85.50, HR120 BPM, RR28 breaths min, BT36.80, SpO2 89% on room air. Severe swelling of face, lips, epinephrine 0.3 milligram IM stat, high flow nasal cannula. IV fluids, urine output 50 miller, drowsy. Allergy team notify.",
+    "logprobs": null,
+    "usage": {
+      "seconds": 22.0,
+      "type": "duration"
+    }
+  }
+}

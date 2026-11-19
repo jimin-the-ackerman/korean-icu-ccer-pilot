@@ -1,0 +1,25 @@
+{
+  "sample_id": "scenario_099_clinical_charting",
+  "whisper_transcript": "TCHV 입세 여성 환자, 급성 악화된 만성 심부전으로 입원함. 폴미네리 디멈이 severe dyspnea 관찰됨. Vital signs, BP 1695g, HR NYBPM, RR wetibate breaths min, BT 산시차 됨 후 DOS, SbO2 88%. Severe dyspnea 확인됨. Furosemide 40mg IV Q8H 투여중. High flow nasal cannula 40mm 적용함. Positive fluid balance 2000mm 확인됨. 환자 drowsy 상태. Cardiology consult your telem.",
+  "stt_metadata": {
+    "asr_system": "whisper1",
+    "provider": "reuse_existing",
+    "model": "whisper-1",
+    "language": "ko",
+    "audio_path": "data/audio/scenario_099_clinical_charting.mp3",
+    "audio_sha256": "63ddb931e43aaf2f4300436b315222e167fcdbea8590670be7856b7998bc4064",
+    "copied_at": "2026-11-04T04:31:12+00:00",
+    "request_seconds": 0.0,
+    "attempts": 1,
+    "git_commit": "b3490181b3fb3f88b56cde5be78a01cfdcef3007",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "source_file": "data/stt_transcripts/scenario_099_clinical_charting.json",
+    "source_sha256": "294833486f86ed5f5025dd3540e8ac072779fa4759c344c839d4a9138a1371c1",
+    "source_stt_metadata": {
+      "model": "whisper-1",
+      "language": "ko"
+    }
+  }
+}

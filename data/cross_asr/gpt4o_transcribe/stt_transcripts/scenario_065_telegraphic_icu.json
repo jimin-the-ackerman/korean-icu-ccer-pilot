@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_065_telegraphic_icu",
+  "whisper_transcript": "56歲男性BP硬化10cmHg HR 88bpm RR 20bpm BT 38.5°C SpO2 94% RA severe skin rash methylprednisolone 25mg IV wound care施行 IV fluids 100ml/hr alert",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": "ko",
+    "audio_path": "data/audio/scenario_065_telegraphic_icu.mp3",
+    "audio_sha256": "d315b97f84199a4d8e6147c7ccd4dc3d61c7426938c9a8813882d8c5865365b6",
+    "transcribed_at": "2026-11-04T13:00:47+00:00",
+    "request_seconds": 1.52,
+    "attempts": 1,
+    "git_commit": "5b6d73fb63e1509a79e1a160176d606ed1b104c4",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "56歲男性BP硬化10cmHg HR 88bpm RR 20bpm BT 38.5°C SpO2 94% RA severe skin rash methylprednisolone 25mg IV wound care施行 IV fluids 100ml/hr alert",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 158,
+      "output_tokens": 56,
+      "total_tokens": 214,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 158,
+        "text_tokens": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_076_formal_template",
+  "whisper_transcript": "환자 정보: 35세 여성 환자가 하이퍼미시스 그래비다움으로 인한 심한 탈수로 급성 신손상 진단을 받고 입원하였다. 활력징후: 혈압은 92부 58mmHg로 측정되었으며 심박수는 110bpm, 호흡수는 18회분, 체온은 36.8국서, 산소포화도는 96%로 확인되었다. 증상: 환자는 심한 nausea를 호소하였다. 약물: 언단세트론 8mg IV로 QIDH로 투여 중이다. 중재: 환자는 정상 식염수로 IV fluid resuscitation을 받고 있다. 장치: 폴리 캐테터가 삽입되어 있다. 수분균형: 음성 수분균형이 확인되었다. 임상상태: 환자는 의식이 혼미한 상태이다. 보고: 급성 신손상 관리 목적으로 신장내과 팀과 상의하였다.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": "ko",
+    "audio_path": "data/audio/scenario_076_formal_template.mp3",
+    "audio_sha256": "e4f674ebb8ca748df7d5353744ac969844fa06e85555eac266fde3fb423051e0",
+    "transcribed_at": "2026-11-04T13:02:18+00:00",
+    "request_seconds": 3.56,
+    "attempts": 1,
+    "git_commit": "5b6d73fb63e1509a79e1a160176d606ed1b104c4",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "환자 정보: 35세 여성 환자가 하이퍼미시스 그래비다움으로 인한 심한 탈수로 급성 신손상 진단을 받고 입원하였다. 활력징후: 혈압은 92부 58mmHg로 측정되었으며 심박수는 110bpm, 호흡수는 18회분, 체온은 36.8국서, 산소포화도는 96%로 확인되었다. 증상: 환자는 심한 nausea를 호소하였다. 약물: 언단세트론 8mg IV로 QIDH로 투여 중이다. 중재: 환자는 정상 식염수로 IV fluid resuscitation을 받고 있다. 장치: 폴리 캐테터가 삽입되어 있다. 수분균형: 음성 수분균형이 확인되었다. 임상상태: 환자는 의식이 혼미한 상태이다. 보고: 급성 신손상 관리 목적으로 신장내과 팀과 상의하였다.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 453,
+      "output_tokens": 228,
+      "total_tokens": 681,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 453,
+        "text_tokens": 0
+      }
+    }
+  }
+}

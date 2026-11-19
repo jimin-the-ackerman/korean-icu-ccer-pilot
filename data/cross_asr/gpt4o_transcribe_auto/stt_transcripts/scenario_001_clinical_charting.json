@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_001_clinical_charting",
+  "whisper_transcript": "65세 남성 환자, 뉴모니아로 인한 respiratory distress 호소함. BP 165, HR 110, RR 18, BT 38.1, SpO2 88%. Moderate cough 확인됨. Ceftriaxone 1g IV q6hr 적용함. High-flow nasal cannula 산소 지원 유지함. Ventilator 사용 중. 환자 상태 drowsy 확인됨. RT notify함.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe_auto",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": null,
+    "audio_path": "data/audio/scenario_001_clinical_charting.mp3",
+    "audio_sha256": "02411a60677273c151435e2f74fa832571fedf69a4cf7db03fdfd7fb6bda3013",
+    "transcribed_at": "2026-11-04T14:03:39+00:00",
+    "request_seconds": 4.29,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "65세 남성 환자, 뉴모니아로 인한 respiratory distress 호소함. BP 165, HR 110, RR 18, BT 38.1, SpO2 88%. Moderate cough 확인됨. Ceftriaxone 1g IV q6hr 적용함. High-flow nasal cannula 산소 지원 유지함. Ventilator 사용 중. 환자 상태 drowsy 확인됨. RT notify함.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 211,
+      "output_tokens": 94,
+      "total_tokens": 305,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 211,
+        "text_tokens": 0
+      }
+    }
+  }
+}

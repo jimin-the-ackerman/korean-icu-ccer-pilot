@@ -1,0 +1,25 @@
+{
+  "sample_id": "scenario_070_telegraphic_icu",
+  "whisper_transcript": "64세 남성, 급성 호흡 부전, 심한 지혈, 깩트리안, Fibromyalgia, HR108, BPAM, RR28, BT38.02, 86% room air Severe cough, levofloxacin 750mg IVQ12H, HFNC 적용, Ventilator 사용 중, Negative fluid balance, Drowsy",
+  "stt_metadata": {
+    "asr_system": "whisper1",
+    "provider": "reuse_existing",
+    "model": "whisper-1",
+    "language": "ko",
+    "audio_path": "data/audio/scenario_070_telegraphic_icu.mp3",
+    "audio_sha256": "8c825d57db072e4ef52a828bce709f5b4222d6788653b67a76f98798ae843184",
+    "copied_at": "2026-11-04T04:31:12+00:00",
+    "request_seconds": 0.0,
+    "attempts": 1,
+    "git_commit": "b3490181b3fb3f88b56cde5be78a01cfdcef3007",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "source_file": "data/stt_transcripts/scenario_070_telegraphic_icu.json",
+    "source_sha256": "c34e266d8e23eab034e14ada8596c5f694908b3fb05e3d8732260a0c1150aead",
+    "source_stt_metadata": {
+      "model": "whisper-1",
+      "language": "ko"
+    }
+  }
+}

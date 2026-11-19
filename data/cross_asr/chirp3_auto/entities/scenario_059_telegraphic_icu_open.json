@@ -1,0 +1,35 @@
+{
+  "sample_id": "scenario_059_telegraphic_icu",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "abdominal pain",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "Drowsy",
+    "medication_identity": "Piperacillin/Tazobactam",
+    "interventions": [
+      "Fluid resuscitation"
+    ],
+    "intake_output": "Positive fluid balance",
+    "notification": null
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "abdominal pain",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "drowsy",
+    "medication_identity": "piperacillin-tazobactam",
+    "interventions": [
+      "fluid resuscitation"
+    ],
+    "intake_output": "positive fluid balance",
+    "notification": null
+  }
+}

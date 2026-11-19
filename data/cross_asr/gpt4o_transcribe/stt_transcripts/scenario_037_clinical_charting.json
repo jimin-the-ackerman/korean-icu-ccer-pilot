@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_037_clinical_charting",
+  "whisper_transcript": "52세 남성 환자, Crohn's disease 악화로 입원함. Severe abdominal pain 및 diarrhea 호소함. BP 170/100 mmHg, HR 100 bpm, RR 24, BT 37.5℃, SpO2 95% 확인됨. Prednisone 40mg PO BID 처방함. 24시간 동안 2000ml IV fluids 투여함. 환자 alert 상태 유지함.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": "ko",
+    "audio_path": "data/audio/scenario_037_clinical_charting.mp3",
+    "audio_sha256": "b240f96dd2381061b30bb682b245b0b4bacd872d33c73e0f3bf46bcb7b1e8f9e",
+    "transcribed_at": "2026-11-04T12:57:24+00:00",
+    "request_seconds": 2.01,
+    "attempts": 1,
+    "git_commit": "5b6d73fb63e1509a79e1a160176d606ed1b104c4",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "52세 남성 환자, Crohn's disease 악화로 입원함. Severe abdominal pain 및 diarrhea 호소함. BP 170/100 mmHg, HR 100 bpm, RR 24, BT 37.5℃, SpO2 95% 확인됨. Prednisone 40mg PO BID 처방함. 24시간 동안 2000ml IV fluids 투여함. 환자 alert 상태 유지함.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 210,
+      "output_tokens": 94,
+      "total_tokens": 304,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 210,
+        "text_tokens": 0
+      }
+    }
+  }
+}

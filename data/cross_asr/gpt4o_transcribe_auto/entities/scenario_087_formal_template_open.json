@@ -1,0 +1,40 @@
+{
+  "sample_id": "scenario_087_formal_template",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "tetanus",
+        "negation": false,
+        "severity": "severe"
+      },
+      {
+        "name": "muscle spasms",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "drowsy",
+    "medication_identity": "diazepam",
+    "interventions": [
+      "wound debridement"
+    ],
+    "intake_output": "strict monitoring of I/O",
+    "notification": "muscle spasms 관리에 대해 neurology에 상담하였다."
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "머슬 스파즘스",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "드라우지",
+    "medication_identity": "다이아제팜",
+    "interventions": [
+      "wound debridement"
+    ],
+    "intake_output": "I/O는 스트릭트 모니터링 중",
+    "notification": "머슬 스파즘스 관리에 대해 뉴롤러지에 상담하였다"
+  }
+}

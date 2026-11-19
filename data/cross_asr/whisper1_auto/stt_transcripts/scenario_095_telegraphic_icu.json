@@ -1,0 +1,25 @@
+{
+  "sample_id": "scenario_095_telegraphic_icu",
+  "whisper_transcript": "62세 F 환자, 급성 호흡 곤란으로 중증 천식 아카로 입원. BP 38.5 mmHg 100g BPM, RR or SPT 37.3, SpO2 89.7, Severe SOB, Albuterol 2.5mg IV PRN. 고유량 비강 케롤라 사용 중 환기장치 Ventilator, Fluid Balance Positive, 정신상태 Alert, RT Ventilator 조정 위해 Notify.",
+  "stt_metadata": {
+    "asr_system": "whisper1_auto",
+    "provider": "openai",
+    "model": "whisper-1",
+    "language": null,
+    "audio_path": "data/audio/scenario_095_telegraphic_icu.mp3",
+    "audio_sha256": "142d7f5143a9fc1efa183c5a748d83ce532bf7bea38ad5241f51169f9f1b360f",
+    "transcribed_at": "2026-11-04T14:01:44+00:00",
+    "request_seconds": 1.95,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "62세 F 환자, 급성 호흡 곤란으로 중증 천식 아카로 입원. BP 38.5 mmHg 100g BPM, RR or SPT 37.3, SpO2 89.7, Severe SOB, Albuterol 2.5mg IV PRN. 고유량 비강 케롤라 사용 중 환기장치 Ventilator, Fluid Balance Positive, 정신상태 Alert, RT Ventilator 조정 위해 Notify.",
+    "logprobs": null,
+    "usage": {
+      "seconds": 22.0,
+      "type": "duration"
+    }
+  }
+}

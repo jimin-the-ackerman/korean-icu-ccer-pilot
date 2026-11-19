@@ -1,0 +1,25 @@
+{
+  "sample_id": "scenario_038_clinical_charting",
+  "whisper_transcript": "59세 여성 환자, acute methenic crisis로 입원하여 호흡 보조 필요함. BP X3585, HR92, RR28, BT37 측정, SPO888판사 확인됨. Severe muscle weakness 호소함. Periodostigmine 60mg POQID 적용함. Mechanical ventilation 유지함, ventilator 사용중임. 임상상태 stuporous 확인됨.",
+  "stt_metadata": {
+    "asr_system": "whisper1",
+    "provider": "reuse_existing",
+    "model": "whisper-1",
+    "language": "ko",
+    "audio_path": "data/audio/scenario_038_clinical_charting.mp3",
+    "audio_sha256": "6066a3bed894089df845cdd4ccbea09d52822dd8a511eda63371c8cc6ce5a81c",
+    "copied_at": "2026-11-04T04:31:11+00:00",
+    "request_seconds": 0.0,
+    "attempts": 1,
+    "git_commit": "b3490181b3fb3f88b56cde5be78a01cfdcef3007",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "source_file": "data/stt_transcripts/scenario_038_clinical_charting.json",
+    "source_sha256": "6e8f910b5f58445006cad958927b1b52526e847fa86d9427491eb985dfb0f193",
+    "source_stt_metadata": {
+      "model": "whisper-1",
+      "language": "ko"
+    }
+  }
+}

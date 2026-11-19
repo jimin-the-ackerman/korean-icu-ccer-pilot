@@ -1,0 +1,43 @@
+{
+  "sample_id": "scenario_067_clinical_charting",
+  "whisper_transcript": "45세 남성 환자, acute massive pulmonary embolism으로 입원함. BP 85/60, HR 106 BPM, RR 28 breath/min, BT 36.8°C, SpO2 88% O2 via nasal cannula. severe chest pain 호소함. heparin 8,000 units IV stat 투여함. nasal cannula 적용 중. C-line 유지함. 환자 stupor 상태. hypotension과 hypoxia에 대해 담당의 notify함.",
+  "stt_metadata": {
+    "asr_system": "chirp3_ko",
+    "provider": "google",
+    "model": "chirp_3",
+    "location": "us",
+    "language_codes": [
+      "ko-KR"
+    ],
+    "audio_path": "data/audio/scenario_067_clinical_charting.mp3",
+    "audio_sha256": "2b58dfd3710cfd6e85f2d8d00b3d8889fa896f4e3bc3d2686c908c245b4c604c",
+    "transcribed_at": "2026-11-04T13:25:41+00:00",
+    "request_seconds": 3.83,
+    "attempts": 1,
+    "git_commit": "5b6d73fb63e1509a79e1a160176d606ed1b104c4",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "metadata": {
+      "total_billed_duration": "26s",
+      "request_id": "74404193-0000-2a76-909d-5c337bbfa12b",
+      "prompt": "Transcribe the following speech segment in Korean. Follow these specific instructions for formatting the answer:\n* Only output the transcript, with no newlines.\n* When transcribing numbers, write the digits, i.e. write 1.7 and not one point seven, and write 100 instead of one hundred etc.\n* Only output the transcript, exactly as said in the speech segment.\n* Do not continue the speech segment.\n* Include everything said in the speech segment.\n* Use mathematical notation where needed, eg. x ^ 6Y.\n* If there is background speech that is not part of the main conversation, discard the background speech and only output the main conversation.\n* If there is no clear speech, just output [BACKGROUND].\n* Respond in the original language of the speech, Korean."
+    },
+    "results": [
+      {
+        "alternatives": [
+          {
+            "transcript": "45세 남성 환자, acute massive pulmonary embolism으로 입원함. BP 85/60, HR 106 BPM, RR 28 breath/min, BT 36.8°C, SpO2 88% O2 via nasal cannula. severe chest pain 호소함. heparin 8,000 units IV stat 투여함. nasal cannula 적용 중. C-line 유지함. 환자 stupor 상태. hypotension과 hypoxia에 대해 담당의 notify함.",
+            "confidence": 0.0,
+            "words": []
+          }
+        ],
+        "language_code": "ko-KR",
+        "channel_tag": 0
+      }
+    ],
+    "detected_language_codes": [
+      "ko-KR"
+    ]
+  }
+}

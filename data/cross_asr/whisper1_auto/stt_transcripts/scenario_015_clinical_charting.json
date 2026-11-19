@@ -1,0 +1,25 @@
+{
+  "sample_id": "scenario_015_clinical_charting",
+  "whisper_transcript": "78세 남성 환자, 급성 폴미네리 엠볼리즘으로 입원함. BP 145, QZ mmHR, 100 cppm, RR, 어시비 파이프, Breath, Termin, BT, 산시죽돔, Aper Health, SpO2, PgB% on room air, 심한 체스트 페인, 호소함. 헤퍼린, Vo10 유닛, Q6H 적용함. 하이플로, 네이처, 캔눌라, 산소 지원 중. 트럼볼리틱 테라피 시작함. IV Fluids 210ml 투여함. 의식 알러트 상태 유지함. 카디올리티 팀 노티파이함.",
+  "stt_metadata": {
+    "asr_system": "whisper1_auto",
+    "provider": "openai",
+    "model": "whisper-1",
+    "language": null,
+    "audio_path": "data/audio/scenario_015_clinical_charting.mp3",
+    "audio_sha256": "e57d6c8d795ba8ab701e2089426508434ea57719042943f33c8e17b36c88c795",
+    "transcribed_at": "2026-11-04T13:50:57+00:00",
+    "request_seconds": 3.48,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "78세 남성 환자, 급성 폴미네리 엠볼리즘으로 입원함. BP 145, QZ mmHR, 100 cppm, RR, 어시비 파이프, Breath, Termin, BT, 산시죽돔, Aper Health, SpO2, PgB% on room air, 심한 체스트 페인, 호소함. 헤퍼린, Vo10 유닛, Q6H 적용함. 하이플로, 네이처, 캔눌라, 산소 지원 중. 트럼볼리틱 테라피 시작함. IV Fluids 210ml 투여함. 의식 알러트 상태 유지함. 카디올리티 팀 노티파이함.",
+    "logprobs": null,
+    "usage": {
+      "seconds": 27.0,
+      "type": "duration"
+    }
+  }
+}

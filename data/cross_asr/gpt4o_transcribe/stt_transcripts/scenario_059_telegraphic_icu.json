@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_059_telegraphic_icu",
+  "whisper_transcript": "46세 남성 환자, severe sepsis, perforated diverticulitis, BP 85basc HR 105bpm, RR 28 breaths min, BT 39.0°C, SpO2 89% RA, severe abdominal pain, piperacillin-tazobactam 4.0g IV q8h, HFO2 high flow, fluid resuscitation 시행, C-line 삽입, positive fluid balance, drowsy 상태.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": "ko",
+    "audio_path": "data/audio/scenario_059_telegraphic_icu.mp3",
+    "audio_sha256": "ce89224b5760efe3f91672b40821632ddab8fc60b7e1b2efe6cb0bb4f8bd2c9f",
+    "transcribed_at": "2026-11-04T12:59:53+00:00",
+    "request_seconds": 1.42,
+    "attempts": 1,
+    "git_commit": "5b6d73fb63e1509a79e1a160176d606ed1b104c4",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "46세 남성 환자, severe sepsis, perforated diverticulitis, BP 85basc HR 105bpm, RR 28 breaths min, BT 39.0°C, SpO2 89% RA, severe abdominal pain, piperacillin-tazobactam 4.0g IV q8h, HFO2 high flow, fluid resuscitation 시행, C-line 삽입, positive fluid balance, drowsy 상태.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 209,
+      "output_tokens": 101,
+      "total_tokens": 310,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 209,
+        "text_tokens": 0
+      }
+    }
+  }
+}

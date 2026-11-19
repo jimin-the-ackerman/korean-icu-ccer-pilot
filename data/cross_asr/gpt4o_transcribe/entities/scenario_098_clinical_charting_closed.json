@@ -1,0 +1,123 @@
+{
+  "sample_id": "scenario_098_clinical_charting",
+  "gold_entities": {
+    "route": [
+      {
+        "raw": "IV",
+        "normalized": "iv",
+        "position": 167
+      }
+    ],
+    "frequency": [
+      {
+        "raw": "q12h",
+        "normalized": "q12h",
+        "position": 170
+      }
+    ],
+    "device": [
+      {
+        "raw": "C-line",
+        "normalized": "c-line",
+        "position": 219
+      }
+    ],
+    "vital_sign": [
+      {
+        "raw": "BP 98/65",
+        "label": "bp",
+        "value": "98/65",
+        "position": 58
+      },
+      {
+        "raw": "HR 110",
+        "label": "hr",
+        "value": "110",
+        "position": 73
+      },
+      {
+        "raw": "RR 24",
+        "label": "rr",
+        "value": "24",
+        "position": 85
+      },
+      {
+        "raw": "BT 37.8",
+        "label": "bt",
+        "value": "37.8",
+        "position": 96
+      },
+      {
+        "raw": "SpO2 92%",
+        "label": "spo2",
+        "value": "92%",
+        "position": 107
+      }
+    ],
+    "dose": [
+      {
+        "raw": "500 mg",
+        "value": "500",
+        "unit": "mg",
+        "position": 160
+      }
+    ]
+  },
+  "whisper_entities": {
+    "route": [
+      {
+        "raw": "IV",
+        "normalized": "iv",
+        "position": 151
+      }
+    ],
+    "frequency": [
+      {
+        "raw": "q4h",
+        "normalized": "q4h",
+        "position": 154
+      }
+    ],
+    "device": [
+      {
+        "raw": "C-line",
+        "normalized": "c-line",
+        "position": 198
+      }
+    ],
+    "vital_sign": [
+      {
+        "raw": "BP 98/61",
+        "label": "bp",
+        "value": "98/61",
+        "position": 49
+      },
+      {
+        "raw": "HR 110",
+        "label": "hr",
+        "value": "110",
+        "position": 63
+      },
+      {
+        "raw": "RR 24",
+        "label": "rr",
+        "value": "24",
+        "position": 75
+      },
+      {
+        "raw": "SpO2 92%",
+        "label": "spo2",
+        "value": "92%",
+        "position": 95
+      }
+    ],
+    "dose": [
+      {
+        "raw": "500mg",
+        "value": "500",
+        "unit": "mg",
+        "position": 145
+      }
+    ]
+  }
+}

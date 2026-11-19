@@ -1,0 +1,108 @@
+{
+  "sample_id": "scenario_035_formal_template",
+  "gold_entities": {
+    "route": [],
+    "frequency": [
+      {
+        "raw": "8시간마다",
+        "normalized": "q8h",
+        "position": 181
+      }
+    ],
+    "device": [
+      {
+        "raw": "Foley",
+        "normalized": "foley",
+        "position": 229
+      },
+      {
+        "raw": "비강 캐뉼라",
+        "normalized": "nc",
+        "position": 200
+      }
+    ],
+    "vital_sign": [
+      {
+        "raw": "혈압 95/60",
+        "label": "bp",
+        "value": "95/60",
+        "position": 50
+      },
+      {
+        "raw": "심박수 110",
+        "label": "hr",
+        "value": "110",
+        "position": 65
+      },
+      {
+        "raw": "호흡수 24",
+        "label": "rr",
+        "value": "24",
+        "position": 78
+      },
+      {
+        "raw": "체온 36.8",
+        "label": "bt",
+        "value": "36.8",
+        "position": 98
+      },
+      {
+        "raw": "산소포화도 90%",
+        "label": "spo2",
+        "value": "90%",
+        "position": 109
+      }
+    ],
+    "dose": []
+  },
+  "whisper_entities": {
+    "route": [],
+    "frequency": [
+      {
+        "raw": "8시간마다",
+        "normalized": "q8h",
+        "position": 173
+      }
+    ],
+    "device": [
+      {
+        "raw": "폴리 카테터",
+        "normalized": "foley",
+        "position": 218
+      }
+    ],
+    "vital_sign": [
+      {
+        "raw": "혈압 95",
+        "label": "bp",
+        "value": "95",
+        "position": 51
+      },
+      {
+        "raw": "심박수 110",
+        "label": "hr",
+        "value": "110",
+        "position": 65
+      },
+      {
+        "raw": "호흡수 24",
+        "label": "rr",
+        "value": "24",
+        "position": 77
+      },
+      {
+        "raw": "체온 36.8",
+        "label": "bt",
+        "value": "36.8",
+        "position": 96
+      },
+      {
+        "raw": "산소포화도 90%",
+        "label": "spo2",
+        "value": "90%",
+        "position": 106
+      }
+    ],
+    "dose": []
+  }
+}

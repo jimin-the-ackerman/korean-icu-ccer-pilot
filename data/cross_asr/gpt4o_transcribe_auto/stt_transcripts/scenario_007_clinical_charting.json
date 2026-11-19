@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_007_clinical_charting",
+  "whisper_transcript": "63 여성 환자 COPD 악화로 입원함. BP 130/85 mmHg, HR 125 bpm, RR 28 breaths/min, BT 37 확인됨. SpO2 89% on room air 확인됨. Severe shortness of breath 호소함. Methylprednisolone 60 mg IV Q6H 투여함. 2L nasal cannula 적용함. Positive fluid balance 확인됨. Clinical status drowsy 확인됨. Pulmonologist notify 함.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe_auto",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": null,
+    "audio_path": "data/audio/scenario_007_clinical_charting.mp3",
+    "audio_sha256": "2a8e9d8d4176300179109e6970b27bf18078456b0f1482510ef806345c6c925b",
+    "transcribed_at": "2026-11-04T14:04:16+00:00",
+    "request_seconds": 2.21,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "63 여성 환자 COPD 악화로 입원함. BP 130/85 mmHg, HR 125 bpm, RR 28 breaths/min, BT 37 확인됨. SpO2 89% on room air 확인됨. Severe shortness of breath 호소함. Methylprednisolone 60 mg IV Q6H 투여함. 2L nasal cannula 적용함. Positive fluid balance 확인됨. Clinical status drowsy 확인됨. Pulmonologist notify 함.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 245,
+      "output_tokens": 105,
+      "total_tokens": 350,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 245,
+        "text_tokens": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "sample_id": "scenario_065_telegraphic_icu",
+  "whisper_transcript": "56세 여성 BP 1107mg, HR 88bpm, RR 20 breaths min, BT 38.5 hybrid cells, SpO2 94% RA, Severe skin rash, methylprednisolone on 25mg IV, wound care shishi, IV fluids 100ml per hour, alert.",
+  "stt_metadata": {
+    "asr_system": "whisper1",
+    "provider": "reuse_existing",
+    "model": "whisper-1",
+    "language": "ko",
+    "audio_path": "data/audio/scenario_065_telegraphic_icu.mp3",
+    "audio_sha256": "d315b97f84199a4d8e6147c7ccd4dc3d61c7426938c9a8813882d8c5865365b6",
+    "copied_at": "2026-11-04T04:31:12+00:00",
+    "request_seconds": 0.0,
+    "attempts": 1,
+    "git_commit": "b3490181b3fb3f88b56cde5be78a01cfdcef3007",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "source_file": "data/stt_transcripts/scenario_065_telegraphic_icu.json",
+    "source_sha256": "01d716c41d10f4068721e347cdead8c93c79660becd59d66d73989d18bc84a98",
+    "source_stt_metadata": {
+      "model": "whisper-1",
+      "language": "ko"
+    }
+  }
+}

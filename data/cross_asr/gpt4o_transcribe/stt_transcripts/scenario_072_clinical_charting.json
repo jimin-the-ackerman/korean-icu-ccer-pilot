@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_072_clinical_charting",
+  "whisper_transcript": "67세 남성 환자 ulcerative colitis acute exacerbation으로 입원함. Severe abdominal pain, bloody diarrhea, dehydration 호소함. BP 가이제력 심연호람, HR 허킨 BPM, RR 환이사 breathmin, BT 30평 8색싱, SpO2 95% on room air 확인됨. Hydrocortisone 100mg IV q6h 투여함. IV fluid resuscitation 적용함. Negative fluid balance 확인됨. 환자 alert 상태 유지함.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": "ko",
+    "audio_path": "data/audio/scenario_072_clinical_charting.mp3",
+    "audio_sha256": "30e0056cda214d179df5ac4b28195e8cd50dc57b366399f743ec060511079401",
+    "transcribed_at": "2026-11-04T13:01:47+00:00",
+    "request_seconds": 2.09,
+    "attempts": 1,
+    "git_commit": "5b6d73fb63e1509a79e1a160176d606ed1b104c4",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "67세 남성 환자 ulcerative colitis acute exacerbation으로 입원함. Severe abdominal pain, bloody diarrhea, dehydration 호소함. BP 가이제력 심연호람, HR 허킨 BPM, RR 환이사 breathmin, BT 30평 8색싱, SpO2 95% on room air 확인됨. Hydrocortisone 100mg IV q6h 투여함. IV fluid resuscitation 적용함. Negative fluid balance 확인됨. 환자 alert 상태 유지함.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 256,
+      "output_tokens": 111,
+      "total_tokens": 367,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 256,
+        "text_tokens": 0
+      }
+    }
+  }
+}

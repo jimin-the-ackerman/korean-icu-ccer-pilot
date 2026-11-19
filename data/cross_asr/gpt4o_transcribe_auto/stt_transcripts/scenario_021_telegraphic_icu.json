@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_021_telegraphic_icu",
+  "whisper_transcript": "57 ZnM someone just. Severe hyperkalemia. Rhabdomyolysis. Prolonged immobilization 1E. B145 85 mmHg. HR 110 bpm. RR 22 breaths min. BT 37.2°C. SpO2 95% RA. Muscle weakness severe. Calcium gluconate 10 mL IV stat. IV fluid administration. C-line in place. IO strict monitoring. Alert. Renal team notify.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe_auto",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": null,
+    "audio_path": "data/audio/scenario_021_telegraphic_icu.mp3",
+    "audio_sha256": "dd05d70682a1bb99bd832b21c59b53736940890235aee02dd0ff3884722c519a",
+    "transcribed_at": "2026-11-04T14:05:59+00:00",
+    "request_seconds": 1.81,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "57 ZnM someone just. Severe hyperkalemia. Rhabdomyolysis. Prolonged immobilization 1E. B145 85 mmHg. HR 110 bpm. RR 22 breaths min. BT 37.2°C. SpO2 95% RA. Muscle weakness severe. Calcium gluconate 10 mL IV stat. IV fluid administration. C-line in place. IO strict monitoring. Alert. Renal team notify.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 222,
+      "output_tokens": 97,
+      "total_tokens": 319,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 222,
+        "text_tokens": 0
+      }
+    }
+  }
+}

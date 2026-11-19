@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_005_telegraphic_icu",
+  "whisper_transcript": "58세 남성, 만성 신장 질환 병력, 급성 심부전 모니터링 및 관리 위해 입원. BP 155 HR 85 RR 52 BT 37.2C SpO2 92% edema moderate, furosemide 40mg IV q6h, nasal cannula 사용, Foley 삽입, negative fluid balance, 임상 상태 drowsy, nephrology team notify.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe_auto",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": null,
+    "audio_path": "data/audio/scenario_005_telegraphic_icu.mp3",
+    "audio_sha256": "098f6565ae51b7418f9705da7cc5eeb4fea187afd81216dce50844471c5e0c35",
+    "transcribed_at": "2026-11-04T14:04:09+00:00",
+    "request_seconds": 1.49,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "58세 남성, 만성 신장 질환 병력, 급성 심부전 모니터링 및 관리 위해 입원. BP 155 HR 85 RR 52 BT 37.2C SpO2 92% edema moderate, furosemide 40mg IV q6h, nasal cannula 사용, Foley 삽입, negative fluid balance, 임상 상태 drowsy, nephrology team notify.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 204,
+      "output_tokens": 93,
+      "total_tokens": 297,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 204,
+        "text_tokens": 0
+      }
+    }
+  }
+}

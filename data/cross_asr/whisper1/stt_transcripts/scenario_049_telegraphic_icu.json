@@ -1,0 +1,25 @@
+{
+  "sample_id": "scenario_049_telegraphic_icu",
+  "whisper_transcript": "54세 여성, SEPTIC ARTHRITIS, RIGHT KNEE, BPNH 65, HR1 AFFINE, RR24, BT38 BONHIVE, SBO2 96% RA, SEVERE KNEE PAIN, VANCOMYCIN 1, Q12H, RIGHT KNEE JOINT ASPIRATION, XIANXIANGAM, POSITIVE FLUID BALANCE BY FIBER MILL, ALERT, ORTHOPEDIC CONSULT, YOCHUNGAM.",
+  "stt_metadata": {
+    "asr_system": "whisper1",
+    "provider": "reuse_existing",
+    "model": "whisper-1",
+    "language": "ko",
+    "audio_path": "data/audio/scenario_049_telegraphic_icu.mp3",
+    "audio_sha256": "416724d1e895e7846471bf8a540d88fc44fceb0d59cee4c57f4f3705933a216b",
+    "copied_at": "2026-11-04T04:31:12+00:00",
+    "request_seconds": 0.0,
+    "attempts": 1,
+    "git_commit": "b3490181b3fb3f88b56cde5be78a01cfdcef3007",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "source_file": "data/stt_transcripts/scenario_049_telegraphic_icu.json",
+    "source_sha256": "061749fbc43e2a457692c5a1dff43105b28dd5842ac5fdbc3cb51da4cac592d0",
+    "source_stt_metadata": {
+      "model": "whisper-1",
+      "language": "ko"
+    }
+  }
+}

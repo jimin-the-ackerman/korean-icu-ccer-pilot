@@ -1,0 +1,36 @@
+{
+  "sample_id": "scenario_035_clinical_charting",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "shortness of breath",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "drowsy",
+    "medication_identity": "Furosemide",
+    "interventions": [],
+    "intake_output": "Negative balance of 500 mL over 24 hours",
+    "notification": "Cardiology team notify함 for persistent hypotension"
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "shortness of breath",
+        "negation": false,
+        "severity": "severe"
+      },
+      {
+        "name": "hypotension",
+        "negation": false,
+        "severity": null
+      }
+    ],
+    "clinical_status": "drowsy",
+    "medication_identity": "Furosemide",
+    "interventions": [],
+    "intake_output": "I/O negative balance of 500 ml over 24 hours",
+    "notification": "Cardiology 팀 notify 함 for persistent hypotension"
+  }
+}

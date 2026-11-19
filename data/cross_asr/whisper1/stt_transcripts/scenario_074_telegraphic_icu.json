@@ -1,0 +1,25 @@
+{
+  "sample_id": "scenario_074_telegraphic_icu",
+  "whisper_transcript": "7 am acute hypoglycemic coma insulin overdose bp1 and 10 70 millimeter her grange hr 88 bpm r 16 breaths min bt 36.5 degrees scelsi spo2 98 room air unconsciousness severe dextrose 50 50 miller iv stat iv glucose administration unresponsive endocrinologist notify",
+  "stt_metadata": {
+    "asr_system": "whisper1",
+    "provider": "reuse_existing",
+    "model": "whisper-1",
+    "language": "ko",
+    "audio_path": "data/audio/scenario_074_telegraphic_icu.mp3",
+    "audio_sha256": "346f5c639f64eb711c0bbd4b5132a89925df177bb8ce8cfb79dd6d38defa0ed4",
+    "copied_at": "2026-11-04T04:31:12+00:00",
+    "request_seconds": 0.0,
+    "attempts": 1,
+    "git_commit": "b3490181b3fb3f88b56cde5be78a01cfdcef3007",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "source_file": "data/stt_transcripts/scenario_074_telegraphic_icu.json",
+    "source_sha256": "a3889ab962c48cb1e6c180c6c72465daff74ba8da725819f95a3cdaeb3bbb25b",
+    "source_stt_metadata": {
+      "model": "whisper-1",
+      "language": "ko"
+    }
+  }
+}

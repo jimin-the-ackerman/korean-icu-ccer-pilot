@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_063_telegraphic_icu",
+  "whisper_transcript": "Teidís fáise ióan bpípí 1, bpí ceadrach bliana haoi chúig chuaigh pm, bíonn arra láinín 37.8°C próca de phairtín aréir. Moderate abdominal pain. Ceftriaxone 2 gram IV q norech. NC2 in Foley UGE. Strict IO, drowsy. Doc notify.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": "ko",
+    "audio_path": "data/audio/scenario_063_telegraphic_icu.mp3",
+    "audio_sha256": "2a614286c278c486d2305e04fe22c3c757f99b0f69647f06bfba2320f10bcbe7",
+    "transcribed_at": "2026-11-04T13:00:35+00:00",
+    "request_seconds": 2.08,
+    "attempts": 1,
+    "git_commit": "5b6d73fb63e1509a79e1a160176d606ed1b104c4",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "Teidís fáise ióan bpípí 1, bpí ceadrach bliana haoi chúig chuaigh pm, bíonn arra láinín 37.8°C próca de phairtín aréir. Moderate abdominal pain. Ceftriaxone 2 gram IV q norech. NC2 in Foley UGE. Strict IO, drowsy. Doc notify.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 149,
+      "output_tokens": 86,
+      "total_tokens": 235,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 149,
+        "text_tokens": 0
+      }
+    }
+  }
+}

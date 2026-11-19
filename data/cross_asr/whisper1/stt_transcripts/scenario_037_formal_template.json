@@ -1,0 +1,25 @@
+{
+  "sample_id": "scenario_037_formal_template",
+  "whisper_transcript": "51세 남성 환자가 Crohn's Disease의 급성 악화로 입원하였다. 환자는 심한 abdominal pain과 diarrhea를 호소하고 있다. 활력 증후는 혈압 170mg, 심박수 95bpm, 호흡수 18hp, 체온 37.56C, 산소포화도 98%로 확인되었다. Prednisone 40mg을 경고로 하루 2번 투여하고 있다. 24시간 동안 2000ml의 IV fluids가 투여되었다. 환자는 의식이 명료하다.",
+  "stt_metadata": {
+    "asr_system": "whisper1",
+    "provider": "reuse_existing",
+    "model": "whisper-1",
+    "language": "ko",
+    "audio_path": "data/audio/scenario_037_formal_template.mp3",
+    "audio_sha256": "44159b565fd8e0af534052edd34798ce9d17086239de1b4054f4a9ff51573aa5",
+    "copied_at": "2026-11-04T04:31:11+00:00",
+    "request_seconds": 0.0,
+    "attempts": 1,
+    "git_commit": "b3490181b3fb3f88b56cde5be78a01cfdcef3007",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "source_file": "data/stt_transcripts/scenario_037_formal_template.json",
+    "source_sha256": "a0322abdfaa37f3734d1d16769b7259d95d2bb453f878c35e358d37784e9cabb",
+    "source_stt_metadata": {
+      "model": "whisper-1",
+      "language": "ko"
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_090_clinical_charting",
+  "whisper_transcript": "54세 여성 환자, multiple sclerosis acute exacerbation으로 입원함. Severe motor weakness 및 sensory disturbances 호소함. BP 130/80 mmHg, HR 95 bpm, SpO2 94%로 room air. Methylprednisolone 1g IV q4h 적용함. 임상 상태 drowsy, IO adequate urine output 확인됨.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": "ko",
+    "audio_path": "data/audio/scenario_090_clinical_charting.mp3",
+    "audio_sha256": "be050af872e945260cd3032e7099409708361c6e67f7556681c5a8e72adffaa8",
+    "transcribed_at": "2026-11-04T13:04:20+00:00",
+    "request_seconds": 1.46,
+    "attempts": 1,
+    "git_commit": "5b6d73fb63e1509a79e1a160176d606ed1b104c4",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "54세 여성 환자, multiple sclerosis acute exacerbation으로 입원함. Severe motor weakness 및 sensory disturbances 호소함. BP 130/80 mmHg, HR 95 bpm, SpO2 94%로 room air. Methylprednisolone 1g IV q4h 적용함. 임상 상태 drowsy, IO adequate urine output 확인됨.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 214,
+      "output_tokens": 80,
+      "total_tokens": 294,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 214,
+        "text_tokens": 0
+      }
+    }
+  }
+}

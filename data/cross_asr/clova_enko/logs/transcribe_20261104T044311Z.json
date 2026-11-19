@@ -1,0 +1,33 @@
+{
+  "asr": "clova_enko",
+  "settings": {
+    "provider": "clova",
+    "endpoint": "/recognizer/upload",
+    "params": {
+      "language": "enko",
+      "completion": "sync"
+    }
+  },
+  "pilot": true,
+  "limit": 1,
+  "started_at": "2026-11-04T04:43:11+00:00",
+  "git_commit": "b3490181b3fb3f88b56cde5be78a01cfdcef3007",
+  "config_version": "1.0",
+  "max_attempts": 3,
+  "entries": [
+    {
+      "sample_id": "scenario_007_clinical_charting",
+      "status": "failed",
+      "error": "scenario_007_clinical_charting: HTTP 400: {\"result\":\"ERROR_REQUEST_PARAMETER\",\"message\":\"speaker detect is off\",\"timestamp\":1793767391946}",
+      "attempts": 1
+    }
+  ],
+  "finished_at": "2026-11-04T04:43:12+00:00",
+  "summary": {
+    "processed": 0,
+    "api_requests": 1,
+    "aborted": "scenario_007_clinical_charting: HTTP 400: {\"result\":\"ERROR_REQUEST_PARAMETER\",\"message\":\"speaker detect is off\",\"timestamp\":1793767391946}",
+    "skipped_valid": 0,
+    "targets": 30
+  }
+}

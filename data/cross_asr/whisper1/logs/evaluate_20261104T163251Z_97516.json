@@ -1,0 +1,146 @@
+{
+  "asr": "whisper1",
+  "limit": 3,
+  "started_at": "2026-11-04T16:32:51+00:00",
+  "git_commit": "00024d2ed5e994a3d953dd68861a443ce993988b",
+  "git_dirty_tracked": [
+    "results/full_100_v4/sap3_weight_sensitivity_summary.csv"
+  ],
+  "config_version": "1.0",
+  "evaluator_model": "claude-sonnet-5",
+  "reference_model_at_start": null,
+  "entries": [
+    {
+      "sample_id": "scenario_001_clinical_charting",
+      "empty_response_rule": false,
+      "transcript_sha256": "1276da5b906228844112db588f97907e58e813268fc6a651d27904a4350ec747",
+      "status": "processed",
+      "calls": 3,
+      "seconds": 8.35
+    },
+    {
+      "sample_id": "scenario_001_formal_template",
+      "empty_response_rule": false,
+      "transcript_sha256": "ece6aa0865a81a2fc15e920409e94920953860285ee56edec33400514f548ccc",
+      "status": "processed",
+      "calls": 3,
+      "seconds": 8.56
+    },
+    {
+      "sample_id": "scenario_001_telegraphic_icu",
+      "empty_response_rule": false,
+      "transcript_sha256": "2505d33f510af965a2a297ac6bda9e15e05086b3fc7fa9e0152975f83782eb7e",
+      "status": "processed",
+      "calls": 3,
+      "seconds": 7.85
+    }
+  ],
+  "calls": [
+    {
+      "sample_id": "scenario_001_clinical_charting",
+      "requested_model": "claude-sonnet-5",
+      "tool": "record_clinical_entities",
+      "ok": true,
+      "response_model": "claude-sonnet-5",
+      "input_tokens": 2836,
+      "output_tokens": 219,
+      "seconds": 2.47
+    },
+    {
+      "sample_id": "scenario_001_clinical_charting",
+      "requested_model": "claude-sonnet-5",
+      "tool": "record_clinical_entities",
+      "ok": true,
+      "response_model": "claude-sonnet-5",
+      "input_tokens": 2828,
+      "output_tokens": 223,
+      "seconds": 2.28
+    },
+    {
+      "sample_id": "scenario_001_clinical_charting",
+      "requested_model": "claude-sonnet-5",
+      "tool": "record_semantic_matches",
+      "ok": true,
+      "response_model": "claude-sonnet-5",
+      "input_tokens": 4457,
+      "output_tokens": 453,
+      "seconds": 3.57
+    },
+    {
+      "sample_id": "scenario_001_formal_template",
+      "requested_model": "claude-sonnet-5",
+      "tool": "record_clinical_entities",
+      "ok": true,
+      "response_model": "claude-sonnet-5",
+      "input_tokens": 2924,
+      "output_tokens": 245,
+      "seconds": 2.26
+    },
+    {
+      "sample_id": "scenario_001_formal_template",
+      "requested_model": "claude-sonnet-5",
+      "tool": "record_clinical_entities",
+      "ok": true,
+      "response_model": "claude-sonnet-5",
+      "input_tokens": 2918,
+      "output_tokens": 244,
+      "seconds": 2.31
+    },
+    {
+      "sample_id": "scenario_001_formal_template",
+      "requested_model": "claude-sonnet-5",
+      "tool": "record_semantic_matches",
+      "ok": true,
+      "response_model": "claude-sonnet-5",
+      "input_tokens": 4477,
+      "output_tokens": 474,
+      "seconds": 3.98
+    },
+    {
+      "sample_id": "scenario_001_telegraphic_icu",
+      "requested_model": "claude-sonnet-5",
+      "tool": "record_clinical_entities",
+      "ok": true,
+      "response_model": "claude-sonnet-5",
+      "input_tokens": 2809,
+      "output_tokens": 218,
+      "seconds": 2.28
+    },
+    {
+      "sample_id": "scenario_001_telegraphic_icu",
+      "requested_model": "claude-sonnet-5",
+      "tool": "record_clinical_entities",
+      "ok": true,
+      "response_model": "claude-sonnet-5",
+      "input_tokens": 2789,
+      "output_tokens": 196,
+      "seconds": 2.15
+    },
+    {
+      "sample_id": "scenario_001_telegraphic_icu",
+      "requested_model": "claude-sonnet-5",
+      "tool": "record_semantic_matches",
+      "ok": true,
+      "response_model": "claude-sonnet-5",
+      "input_tokens": 4421,
+      "output_tokens": 435,
+      "seconds": 3.37
+    }
+  ],
+  "finished_at": "2026-11-04T16:33:15+00:00",
+  "summary": {
+    "processed": 3,
+    "calls": 9,
+    "failed_calls": 0,
+    "response_models": {
+      "claude-sonnet-5": 9
+    },
+    "input_tokens": 30459,
+    "output_tokens": 2707,
+    "abort": null,
+    "per_sample_tokens": {
+      "input": 10153,
+      "output": 902
+    }
+  }
+}

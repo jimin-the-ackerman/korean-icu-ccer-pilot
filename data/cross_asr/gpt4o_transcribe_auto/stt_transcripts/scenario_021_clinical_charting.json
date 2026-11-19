@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_021_clinical_charting",
+  "whisper_transcript": "우씨체제 남성 severe hyperkalemia로 입원함. 근육약화 severe 호소함. rhabdomyolysis로 prolonged immobilization으로 발생. BP 140와 85mmHg, HR 100bpm, BT 37.6, SpO2 95% room air. calcium gluconate 10mL IV stat 적용함. IV fluid administration 적용함. C-line 유지함. Strict monitoring of intake and output 시행 중. 환자 alert 상태 확인됨. Renal team notify 함.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe_auto",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": null,
+    "audio_path": "data/audio/scenario_021_clinical_charting.mp3",
+    "audio_sha256": "092a0ae8d1e2df2b57a72affe9bc6c95750f5071e06745acd70552886f08081f",
+    "transcribed_at": "2026-11-04T14:05:54+00:00",
+    "request_seconds": 2.36,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "우씨체제 남성 severe hyperkalemia로 입원함. 근육약화 severe 호소함. rhabdomyolysis로 prolonged immobilization으로 발생. BP 140와 85mmHg, HR 100bpm, BT 37.6, SpO2 95% room air. calcium gluconate 10mL IV stat 적용함. IV fluid administration 적용함. C-line 유지함. Strict monitoring of intake and output 시행 중. 환자 alert 상태 확인됨. Renal team notify 함.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 282,
+      "output_tokens": 115,
+      "total_tokens": 397,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 282,
+        "text_tokens": 0
+      }
+    }
+  }
+}

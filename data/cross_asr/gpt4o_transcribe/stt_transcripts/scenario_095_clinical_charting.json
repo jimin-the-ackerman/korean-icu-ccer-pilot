@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_095_clinical_charting",
+  "whisper_transcript": "육십이세 여성, severe asthma exacerbation으로 acute respiratory distress 이원. BP인 삼이오밀렛 저렴, HR빛테이트 BM, 얼스파이프 브레스 민, BT 산지체 첩단 산그루스, SPO2 HEQ 퍼센트 매얼. Shortness of breath severe로 호소암. 알부드럴 투팽우 밀리그램 IV PRN 적용암. High flow nasal cannula 산소공급 유지암. Ventilator 사용 중, positive fluid balance 확인됨. Patient alert 상태 유지암. Respiratory therapist notify암.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": "ko",
+    "audio_path": "data/audio/scenario_095_clinical_charting.mp3",
+    "audio_sha256": "3ea9a9f64d9257a09fcc66e59936f78993c4a842979c42aea72214be8856f69a",
+    "transcribed_at": "2026-11-04T13:04:53+00:00",
+    "request_seconds": 1.97,
+    "attempts": 1,
+    "git_commit": "5b6d73fb63e1509a79e1a160176d606ed1b104c4",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "육십이세 여성, severe asthma exacerbation으로 acute respiratory distress 이원. BP인 삼이오밀렛 저렴, HR빛테이트 BM, 얼스파이프 브레스 민, BT 산지체 첩단 산그루스, SPO2 HEQ 퍼센트 매얼. Shortness of breath severe로 호소암. 알부드럴 투팽우 밀리그램 IV PRN 적용암. High flow nasal cannula 산소공급 유지암. Ventilator 사용 중, positive fluid balance 확인됨. Patient alert 상태 유지암. Respiratory therapist notify암.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 279,
+      "output_tokens": 128,
+      "total_tokens": 407,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 279,
+        "text_tokens": 0
+      }
+    }
+  }
+}

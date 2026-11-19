@@ -1,0 +1,23 @@
+/home/jimin/korean-icu-ccer-pilot/venv/lib/python3.10/site-packages/google/api_core/_python_version_support.py:224: FutureWarning: You are using a non-supported Python version (3.10.12). Google will not post any further updates to google.api_core supporting this Python version. Please upgrade to the latest Python version, or at least Python 3.11, and then update google.api_core.
+  warnings.warn(message, FutureWarning)
+/home/jimin/korean-icu-ccer-pilot/venv/lib/python3.10/site-packages/google/api_core/_python_version_support.py:224: FutureWarning: You are using a non-supported Python version (3.10.12). Google will not post any further updates to google.cloud.speech_v2 supporting this Python version. Please upgrade to the latest Python version, or at least Python 3.11, and then update google.cloud.speech_v2.
+  warnings.warn(message, FutureWarning)
+=== transcribe plan: chirp3_ko (pilot) ===
+settings           : {'provider': 'google', 'model': 'chirp_3', 'location': 'us', 'language_codes': ['ko-KR']}
+targets            : 30
+already valid      : 0 (reused, not re-sent)
+invalid existing   : 0
+to process now     : 1 (limited by --limit)
+audio to send      : 0.41 min
+API requests       : 1 minimum, 3 maximum (<= 3 per sample, transient errors only; client-library retries disabled)
+sync limit check   : longest 24.5 s; over 60 s / 10 MB: 0
+Google ADC         : available  (no credential details shown)
+output dir         : data/cross_asr/chirp3_ko/stt_transcripts
+files to create    : 1 x data/cross_asr/chirp3_ko/stt_transcripts/<sample_id>.json  (first: scenario_007_clinical_charting.json)
+run log            : data/cross_asr/chirp3_ko/logs/transcribe_<UTC timestamp>.json
+env vars present   : {'GOOGLE_CLOUD_PROJECT': True}  (values not shown)
+[1/1] scenario_007_clinical_charting ok (5.25s) '60세 여성 환자 COPD 악화로 입원함. BP 140/90 mmHg, '
+
+=== processed=1 api_requests=1 skipped_valid=0 -> log data/cross_asr/chirp3_ko/logs/transcribe_20261104T121057Z.json
+valid outputs now  : 1/30
+TRANSCRIBE PARTIAL - targets not yet processed remain (e.g. because of --limit)

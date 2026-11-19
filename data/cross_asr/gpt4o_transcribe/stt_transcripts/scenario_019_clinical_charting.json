@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_019_clinical_charting",
+  "whisper_transcript": "소리지세여성환자, Severe allergic reaction anaphylaxis로 입원함. BP 85/50 mmHg, HR 120 bpm, RR 28 breaths/min, BT 36.8°C, SpO2 89% room air. Severe swelling of the face and lips 확인됨. Epinephrine 0.3 mg IM stat 투여함. High flow nasal cannula 적용함. IV fluids administration 실시함. Urine output 50 mL/hr 유지됨. 환자 상태 drowsy로 확인됨. Allergy team notify함 for further management.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": "ko",
+    "audio_path": "data/audio/scenario_019_clinical_charting.mp3",
+    "audio_sha256": "934d35ec2178a7c9f2a428a2ae5481638a1acd280f9100978a6435877f5721cb",
+    "transcribed_at": "2026-11-04T06:13:38+00:00",
+    "request_seconds": 3.1,
+    "attempts": 1,
+    "git_commit": "b3490181b3fb3f88b56cde5be78a01cfdcef3007",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "소리지세여성환자, Severe allergic reaction anaphylaxis로 입원함. BP 85/50 mmHg, HR 120 bpm, RR 28 breaths/min, BT 36.8°C, SpO2 89% room air. Severe swelling of the face and lips 확인됨. Epinephrine 0.3 mg IM stat 투여함. High flow nasal cannula 적용함. IV fluids administration 실시함. Urine output 50 mL/hr 유지됨. 환자 상태 drowsy로 확인됨. Allergy team notify함 for further management.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 291,
+      "output_tokens": 123,
+      "total_tokens": 414,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 291,
+        "text_tokens": 0
+      }
+    }
+  }
+}

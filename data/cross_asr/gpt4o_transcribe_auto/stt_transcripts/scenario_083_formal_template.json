@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_083_formal_template",
+  "whisper_transcript": "61세 여성 환자가 급성 승모판막역류로 인한 급성 폐부종으로 입원하였다. 활력징후로는 혈압 160/90 mmHg, 심박수 110 BPM, 호흡수 28 REV, 체온 37.2℃, 산소포화도 88%로 확인되었다. 환자는 심한 호흡곤란을 호소하였다. 현재 퓨로스미드 40mg IV로 6시간마다 투여 중이다. 비제호흡 마스크를 통한 산소 공급을 받고 있으며 C라인이 삽입되어 있다. 임상 상태는 기면 상태로 평가되었다.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe_auto",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": null,
+    "audio_path": "data/audio/scenario_083_formal_template.mp3",
+    "audio_sha256": "8eb7203127687a010f1417917a8e8a4d46cd8eb73febc43fe250c3ebd1b074ba",
+    "transcribed_at": "2026-11-04T14:13:28+00:00",
+    "request_seconds": 2.38,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "61세 여성 환자가 급성 승모판막역류로 인한 급성 폐부종으로 입원하였다. 활력징후로는 혈압 160/90 mmHg, 심박수 110 BPM, 호흡수 28 REV, 체온 37.2℃, 산소포화도 88%로 확인되었다. 환자는 심한 호흡곤란을 호소하였다. 현재 퓨로스미드 40mg IV로 6시간마다 투여 중이다. 비제호흡 마스크를 통한 산소 공급을 받고 있으며 C라인이 삽입되어 있다. 임상 상태는 기면 상태로 평가되었다.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 320,
+      "output_tokens": 147,
+      "total_tokens": 467,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 320,
+        "text_tokens": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_057_formal_template",
+  "whisper_transcript": "58세 여성 환자가 류마티스 관절염의 급성 악화로 입원하였다. 환자는 심한 조인트 페인과 부종을 호소하였다. 활력 징후는 혈압 134/82mmHg, 심박수 88bpm, 호흡수 18bpm, 산소포화도 96%로 확인되었다. 환자는 알러트한 상태이다. 메틸프레드니솔론 125mg을 IV로 12시간마다 투여 중이다.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe_auto",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": null,
+    "audio_path": "data/audio/scenario_057_formal_template.mp3",
+    "audio_sha256": "b29b9d6a9ca2786ad7906ed3de3c26aaf78f6d902ce60937234d5aa102758fff",
+    "transcribed_at": "2026-11-04T14:10:31+00:00",
+    "request_seconds": 1.98,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "58세 여성 환자가 류마티스 관절염의 급성 악화로 입원하였다. 환자는 심한 조인트 페인과 부종을 호소하였다. 활력 징후는 혈압 134/82mmHg, 심박수 88bpm, 호흡수 18bpm, 산소포화도 96%로 확인되었다. 환자는 알러트한 상태이다. 메틸프레드니솔론 125mg을 IV로 12시간마다 투여 중이다.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 250,
+      "output_tokens": 118,
+      "total_tokens": 368,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 250,
+        "text_tokens": 0
+      }
+    }
+  }
+}

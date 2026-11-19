@@ -1,0 +1,46 @@
+=== transcribe plan: whisper1_auto (pilot) ===
+settings           : {'provider': 'openai', 'model': 'whisper-1', 'language': None, 'scope': 'pilot'}
+targets            : 30
+already valid      : 0 (reused, not re-sent)
+invalid existing   : 0
+to process now     : 30
+audio to send      : 14.04 min
+API requests       : 30 minimum, 90 maximum (<= 3 per sample, transient errors only; client-library retries disabled)
+output dir         : data/cross_asr/whisper1_auto/stt_transcripts
+files to create    : 30 x data/cross_asr/whisper1_auto/stt_transcripts/<sample_id>.json  (first: scenario_007_clinical_charting.json)
+run log            : data/cross_asr/whisper1_auto/logs/transcribe_<UTC timestamp>.json
+env vars present   : {'OPENAI_API_KEY': True}  (values not shown)
+[1/30] scenario_007_clinical_charting ok (4.05s) '60-year-old female patient admitted to C'
+[2/30] scenario_007_formal_template ok (2.72s) '60세 여성 환자가 만성 폐쇄성 폐질환 악화로 입원하였다. 활력증후는 혈'
+[3/30] scenario_007_telegraphic_icu ok (2.96s) 'Sixty-six COPD aquato-E1, BP one-third, '
+[4/30] scenario_012_clinical_charting ok (3.25s) '75세 여성 환자 CHF exacerbation으로 입원함. Vital '
+[5/30] scenario_012_formal_template ok (4.13s) '환자 정보, 75세 여성 환자가 우려성 심부전 악화로 입원하였다. 활력 '
+[6/30] scenario_012_telegraphic_icu ok (1.47s) '75-year-old girl with BP 90-60 mmHg, HR '
+[7/30] scenario_018_clinical_charting ok (2.45s) '66세 남성 환자, 급성 가스트로 인테스티널 퍼포레이션으로 입원함. BP'
+[8/30] scenario_018_formal_template ok (3.21s) '66세 남성 환자가 급성 위장관 천공으로 입원하였다. 활력증으로는 혈압이'
+[9/30] scenario_018_telegraphic_icu ok (2.07s) '66-NAMAN, KBSONG WI JANGGWAN CHUNGGONG, '
+[10/30] scenario_019_clinical_charting ok (3.86s) 'Sore due to severe allergic reaction, an'
+[11/30] scenario_019_formal_template ok (3.22s) '환자는 40세 여성으로 땅콩노출 후 심각한 알레르기 반응, 아낙시스로 입'
+[12/30] scenario_019_telegraphic_icu ok (1.63s) '40-year-old female, BP85.50, HR120 BPM, '
+[13/30] scenario_021_clinical_charting ok (2.47s) '57세 남성 세벌 하이퍼칼리미아로 입원함. 근육 약화 세벌 호소함. 랩드'
+[14/30] scenario_021_formal_template ok (3.72s) '57세 남성 환자는 장시간의 부동으로 인한 횡문근육애증으로 심각한 고칼륨'
+[15/30] scenario_021_telegraphic_icu ok (2.94s) '57-ZNAMSA1-JA, severe hyperkalemia, rhab'
+[16/30] scenario_025_clinical_charting ok (2.84s) '60-year-old pregnant woman admitted to t'
+[17/30] scenario_025_formal_template ok (4.1s) '환자 정보 60세 여성 환자가 급성 담낭염으로 입원하였다. 활력증후 혈압'
+[18/30] scenario_025_telegraphic_icu ok (2.28s) '60 seyoja, kupsong tamnaya miwon, BP 138'
+[19/30] scenario_033_clinical_charting ok (2.05s) '64-year-old male, hospitalized due to at'
+[20/30] scenario_033_formal_template ok (73.21s) '64세 남성 환자가 새로 발생한 심방세동과 불안정한 혈역학적 상태로 입원'
+[21/30] scenario_033_telegraphic_icu ok (1.99s) '64 Sanamsung, Atrial Fibrillation Onset,'
+[22/30] scenario_068_clinical_charting ok (3.27s) '68-year-old female, admitted with acute '
+[23/30] scenario_068_formal_template ok (3.86s) '68세 여성 환자가 급성 허혈성 대장염으로 입원하였다. 활력 징후는 혈압'
+[24/30] scenario_068_telegraphic_icu ok (1.72s) '68-year-old female patient with acute is'
+[25/30] scenario_079_clinical_charting ok (1.59s) '56-year-old male, admitted with acute ex'
+[26/30] scenario_079_formal_template ok (4.07s) '환자 정보에 따르면 56세 남성 환자가 급성 괴양성 대장염 악화로 입원하'
+[27/30] scenario_079_telegraphic_icu ok (3.6s) '66-year-old male, admitted to acute gast'
+[28/30] scenario_080_clinical_charting ok (2.46s) '50세 남성 환자, 알코올릭 세로시스로 인한 acute exacerbat'
+[29/30] scenario_080_formal_template ok (2.5s) '50세 남성 환자가 알코올성 간경변증으로 인한 만성 간부전의 급성악화로 '
+[30/30] scenario_080_telegraphic_icu ok (1.69s) '50-year-old male, with I-corrosive liver'
+
+=== processed=30 api_requests=30 skipped_valid=0 -> log data/cross_asr/whisper1_auto/logs/transcribe_20261104T134013Z.json
+valid outputs now  : 30/30
+TRANSCRIBE COMPLETE

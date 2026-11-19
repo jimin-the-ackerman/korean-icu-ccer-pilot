@@ -1,0 +1,25 @@
+{
+  "sample_id": "scenario_009_formal_template",
+  "whisper_transcript": "환자 정보, 68세 여성 환자가 요로 감염에 의한 폐활성 쇼크로 입원하였다. 활력 증후, 혈압은 85-50mmg로 확인되었으며, 심박수는 120bpm, 호흡수는 26bpm, 체온은 38.92계수로 측정되었다. 산소 포화도는 92%로 확인되었다. 증상, 환자는 심한 열이 있었다. 약물, 8-페라실린 타소 박탐 4.5g을 IV로 Q8H 투여하였다. 산소 공급, 네이셀 케놀라 삼멸트루미닌을 통해 산소를 공급하였다. 기타 장치, C-Line이 삽입되어 있다. 투이 패쳐, 양성 수분 균형이 확인되었다. 임상 상태, 환자는 기면 상태로 관찰되었다. 담당 의사에게 지속적인 저혈압과 열에 대해 보고하였다.",
+  "stt_metadata": {
+    "asr_system": "whisper1",
+    "provider": "reuse_existing",
+    "model": "whisper-1",
+    "language": "ko",
+    "audio_path": "data/audio/scenario_009_formal_template.mp3",
+    "audio_sha256": "425ff72d1067c480907da2095b6fa4223780e25f803effa4009936ff6ee2a019",
+    "copied_at": "2026-11-04T04:31:11+00:00",
+    "request_seconds": 0.0,
+    "attempts": 1,
+    "git_commit": "b3490181b3fb3f88b56cde5be78a01cfdcef3007",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "source_file": "data/stt_transcripts/scenario_009_formal_template.json",
+    "source_sha256": "2bac3575908d1537f36678f358b0d46ae7510d6027b7ec1557ccb965ffa2b31b",
+    "source_stt_metadata": {
+      "model": "whisper-1",
+      "language": "ko"
+    }
+  }
+}

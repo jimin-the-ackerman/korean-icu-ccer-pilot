@@ -1,0 +1,43 @@
+{
+  "sample_id": "scenario_087_formal_template",
+  "whisper_transcript": "45세 남성 환자가 발이 자상 후 심한 파상풍으로 입원하였다. 활력 증후로는 혈압이 140/90 mmHg, 심박수가 110 bpm, 호흡수가 32 breath/min, 체온이 38.56도씨이며, 산소 포화도는 실내 공기에서 92%로 확인되었다. 환자는 심한 근육 경련을 호소하고 있으며, 의식 상태는 졸음으로 관찰되었다. 환자는 디아제팜 10mg을 IV로 8시간 간격으로 투여받고 있으며, 산소 보조로는 비강 캐눌라를 통해 2 L/min으로 공급받고 있다. 상처 부위에 대한 상처 이물질 제거술이 시행되었고, NG 튜브가 삽입되었다. 입출력은 엄격한 모니터링 중이다. 근육 경련 관리에 대해 신경과에 상담하였다.",
+  "stt_metadata": {
+    "asr_system": "chirp3_auto",
+    "provider": "google",
+    "model": "chirp_3",
+    "location": "us",
+    "language_codes": [
+      "auto"
+    ],
+    "audio_path": "data/audio/scenario_087_formal_template.mp3",
+    "audio_sha256": "d6154230ef349b48e789d7f47a56aec9d007351b7741444fb2d0ebb9414703cd",
+    "transcribed_at": "2026-11-04T14:52:11+00:00",
+    "request_seconds": 6.35,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "metadata": {
+      "total_billed_duration": "45s",
+      "request_id": "73ff40c6-0000-2a0d-ab7f-c82add70e9f4",
+      "prompt": "Transcribe the following speech segment. Follow these specific instructions for formatting the answer:\n* Only output the transcript, with no newlines.\n* When transcribing numbers, write the digits, i.e. write 1.7 and not one point seven, and write 100 instead of one hundred etc.\n* Only output the transcript, exactly as said in the speech segment.\n* Do not continue the speech segment.\n* Include everything said in the speech segment.\n* Use mathematical notation where needed, eg. x ^ 6Y.\n* If there is background speech that is not part of the main conversation, discard the background speech and only output the main conversation.\n* If there is no clear speech, just output [BACKGROUND].\n* Respond in the original language of the speech."
+    },
+    "results": [
+      {
+        "alternatives": [
+          {
+            "transcript": "45세 남성 환자가 발이 자상 후 심한 파상풍으로 입원하였다. 활력 증후로는 혈압이 140/90 mmHg, 심박수가 110 bpm, 호흡수가 32 breath/min, 체온이 38.56도씨이며, 산소 포화도는 실내 공기에서 92%로 확인되었다. 환자는 심한 근육 경련을 호소하고 있으며, 의식 상태는 졸음으로 관찰되었다. 환자는 디아제팜 10mg을 IV로 8시간 간격으로 투여받고 있으며, 산소 보조로는 비강 캐눌라를 통해 2 L/min으로 공급받고 있다. 상처 부위에 대한 상처 이물질 제거술이 시행되었고, NG 튜브가 삽입되었다. 입출력은 엄격한 모니터링 중이다. 근육 경련 관리에 대해 신경과에 상담하였다.",
+            "confidence": 0.0,
+            "words": []
+          }
+        ],
+        "language_code": "ko",
+        "channel_tag": 0
+      }
+    ],
+    "detected_language_codes": [
+      "ko"
+    ]
+  }
+}

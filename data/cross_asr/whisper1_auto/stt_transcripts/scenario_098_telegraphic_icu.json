@@ -1,0 +1,25 @@
+{
+  "sample_id": "scenario_098_telegraphic_icu",
+  "whisper_transcript": "50-Bate Sayosong H. Roeibunjung, BP 9865, HR Word 10, RRR 24, BT 37.8, SbO2 92%, Severe Fatigue, Methylprednisolone 500mg IV Q12H, Nasal Cannula, C-Line, Negative Fluid Balance, Drowsy, Hematology Consult.",
+  "stt_metadata": {
+    "asr_system": "whisper1_auto",
+    "provider": "openai",
+    "model": "whisper-1",
+    "language": null,
+    "audio_path": "data/audio/scenario_098_telegraphic_icu.mp3",
+    "audio_sha256": "dc1b7cb4da129e22a20c20a109927be24e4b60e0e5c606b49c429a6d5ff90ac7",
+    "transcribed_at": "2026-11-04T14:02:07+00:00",
+    "request_seconds": 1.63,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "50-Bate Sayosong H. Roeibunjung, BP 9865, HR Word 10, RRR 24, BT 37.8, SbO2 92%, Severe Fatigue, Methylprednisolone 500mg IV Q12H, Nasal Cannula, C-Line, Negative Fluid Balance, Drowsy, Hematology Consult.",
+    "logprobs": null,
+    "usage": {
+      "seconds": 16.0,
+      "type": "duration"
+    }
+  }
+}

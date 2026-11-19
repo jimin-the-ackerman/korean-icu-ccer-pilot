@@ -1,0 +1,43 @@
+{
+  "sample_id": "scenario_089_telegraphic_icu",
+  "whisper_transcript": "60-year-old male patient with national advanced liver disease, admitted for acute worsening, BP 92/58 mmHg, HR RR 24 breaths/min, BT 37.2°C, SpO2 89% in room air, ascites is moderate, spironolactone 100 mg PO BID, nasal cannula 3 L, Foley, negative fluid balance 500 mL, drowsy, hepatology team notify.",
+  "stt_metadata": {
+    "asr_system": "chirp3_auto",
+    "provider": "google",
+    "model": "chirp_3",
+    "location": "us",
+    "language_codes": [
+      "auto"
+    ],
+    "audio_path": "data/audio/scenario_089_telegraphic_icu.mp3",
+    "audio_sha256": "c92b3dd1a9c65918d354a7e64ed4e562140ab0f73105204ffc9459b80c1587bc",
+    "transcribed_at": "2026-11-04T14:52:41+00:00",
+    "request_seconds": 4.23,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "metadata": {
+      "total_billed_duration": "22s",
+      "request_id": "6e71c065-0000-26a3-b5eb-14223bc6e2be",
+      "prompt": "Transcribe the following speech segment. Follow these specific instructions for formatting the answer:\n* Only output the transcript, with no newlines.\n* When transcribing numbers, write the digits, i.e. write 1.7 and not one point seven, and write 100 instead of one hundred etc.\n* Only output the transcript, exactly as said in the speech segment.\n* Do not continue the speech segment.\n* Include everything said in the speech segment.\n* Use mathematical notation where needed, eg. x ^ 6Y.\n* If there is background speech that is not part of the main conversation, discard the background speech and only output the main conversation.\n* If there is no clear speech, just output [BACKGROUND].\n* Respond in the original language of the speech."
+    },
+    "results": [
+      {
+        "alternatives": [
+          {
+            "transcript": "60-year-old male patient with national advanced liver disease, admitted for acute worsening, BP 92/58 mmHg, HR RR 24 breaths/min, BT 37.2°C, SpO2 89% in room air, ascites is moderate, spironolactone 100 mg PO BID, nasal cannula 3 L, Foley, negative fluid balance 500 mL, drowsy, hepatology team notify.",
+            "confidence": 0.0,
+            "words": []
+          }
+        ],
+        "language_code": "en",
+        "channel_tag": 0
+      }
+    ],
+    "detected_language_codes": [
+      "en"
+    ]
+  }
+}

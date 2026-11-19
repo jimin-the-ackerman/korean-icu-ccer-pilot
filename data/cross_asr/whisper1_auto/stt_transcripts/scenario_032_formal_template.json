@@ -1,0 +1,25 @@
+{
+  "sample_id": "scenario_032_formal_template",
+  "whisper_transcript": "환자는 67세 여성으로 간질성 폐질환 악화로 인한 급성 호흡 부전으로 입원하였다. 활력 징후는 혈압 148.85mmHg, 심박수 120bpm, 호흡수 28bpm, 체온 37.6dl, 산소 포화도 88%로 확인되었다. 환자는 심한 호흡 곤란을 호소하였다. 약물로 메틀프레드니졸론 60mg을 IV 경로로 12시간마다 투여하였다. 환자는 고유량 비강 캐큘라를 통해 산소를 공급받고 있으며, 벤틀레이러가 사용 중이다. 임상 상태는 기면 상태로 확인되었다.",
+  "stt_metadata": {
+    "asr_system": "whisper1_auto",
+    "provider": "openai",
+    "model": "whisper-1",
+    "language": null,
+    "audio_path": "data/audio/scenario_032_formal_template.mp3",
+    "audio_sha256": "0bf19baf4cedd6ddb68ad42c2b37e987120c8874c1ec2ad0ac6f5172dc133729",
+    "transcribed_at": "2026-11-04T13:52:48+00:00",
+    "request_seconds": 3.77,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "환자는 67세 여성으로 간질성 폐질환 악화로 인한 급성 호흡 부전으로 입원하였다. 활력 징후는 혈압 148.85mmHg, 심박수 120bpm, 호흡수 28bpm, 체온 37.6dl, 산소 포화도 88%로 확인되었다. 환자는 심한 호흡 곤란을 호소하였다. 약물로 메틀프레드니졸론 60mg을 IV 경로로 12시간마다 투여하였다. 환자는 고유량 비강 캐큘라를 통해 산소를 공급받고 있으며, 벤틀레이러가 사용 중이다. 임상 상태는 기면 상태로 확인되었다.",
+    "logprobs": null,
+    "usage": {
+      "seconds": 35.0,
+      "type": "duration"
+    }
+  }
+}

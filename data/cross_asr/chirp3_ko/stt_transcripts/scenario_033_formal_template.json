@@ -1,0 +1,43 @@
+{
+  "sample_id": "scenario_033_formal_template",
+  "whisper_transcript": "64세 남성 환자가 새로 발생한 심방세동과 불안정한 혈역학적 상태로 입원하였다. 활력징후는 혈압 88/54 mmHg, 심박수 142 bpm, 호흡수 22 breaths/min, 체온 36.9로서 산소포화도 94%로 확인되었다. 환자는 심계항진을 심하게 호소하였다. 딜티아젬 20 mg을 정맥으로 즉시 투여하였다. 전기적 심율동전환이 시행되었다. 중심정맥관이 삽입되어 있으며 1,500 ml의 수액이 정맥으로 투여되었다. 환자는 의식이 명료하다. 추가적인 관리를 위해 심장내과 팀에게 보고하였다.",
+  "stt_metadata": {
+    "asr_system": "chirp3_ko",
+    "provider": "google",
+    "model": "chirp_3",
+    "location": "us",
+    "language_codes": [
+      "ko-KR"
+    ],
+    "audio_path": "data/audio/scenario_033_formal_template.mp3",
+    "audio_sha256": "f4525da6adc593e5a5b3abfd4ccc7510abf50fa021244b27faea36d9440bfb7f",
+    "transcribed_at": "2026-11-04T13:17:32+00:00",
+    "request_seconds": 6.42,
+    "attempts": 1,
+    "git_commit": "5b6d73fb63e1509a79e1a160176d606ed1b104c4",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "metadata": {
+      "total_billed_duration": "38s",
+      "request_id": "6ddd7871-0000-2f86-a262-34391606c50b",
+      "prompt": "Transcribe the following speech segment in Korean. Follow these specific instructions for formatting the answer:\n* Only output the transcript, with no newlines.\n* When transcribing numbers, write the digits, i.e. write 1.7 and not one point seven, and write 100 instead of one hundred etc.\n* Only output the transcript, exactly as said in the speech segment.\n* Do not continue the speech segment.\n* Include everything said in the speech segment.\n* Use mathematical notation where needed, eg. x ^ 6Y.\n* If there is background speech that is not part of the main conversation, discard the background speech and only output the main conversation.\n* If there is no clear speech, just output [BACKGROUND].\n* Respond in the original language of the speech, Korean."
+    },
+    "results": [
+      {
+        "alternatives": [
+          {
+            "transcript": "64세 남성 환자가 새로 발생한 심방세동과 불안정한 혈역학적 상태로 입원하였다. 활력징후는 혈압 88/54 mmHg, 심박수 142 bpm, 호흡수 22 breaths/min, 체온 36.9로서 산소포화도 94%로 확인되었다. 환자는 심계항진을 심하게 호소하였다. 딜티아젬 20 mg을 정맥으로 즉시 투여하였다. 전기적 심율동전환이 시행되었다. 중심정맥관이 삽입되어 있으며 1,500 ml의 수액이 정맥으로 투여되었다. 환자는 의식이 명료하다. 추가적인 관리를 위해 심장내과 팀에게 보고하였다.",
+            "confidence": 0.0,
+            "words": []
+          }
+        ],
+        "language_code": "ko-KR",
+        "channel_tag": 0
+      }
+    ],
+    "detected_language_codes": [
+      "ko-KR"
+    ]
+  }
+}

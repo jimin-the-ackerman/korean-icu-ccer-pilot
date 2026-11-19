@@ -1,0 +1,25 @@
+{
+  "sample_id": "scenario_064_telegraphic_icu",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "SOB",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "Stuporous",
+    "medication_identity": "Ceftriaxone",
+    "interventions": [],
+    "intake_output": "Positive fluid balance",
+    "notification": null
+  },
+  "whisper_entities": {
+    "symptoms": [],
+    "clinical_status": "Stuporous",
+    "medication_identity": "Cephtriaxone",
+    "interventions": [],
+    "intake_output": "Positive Fluid Balance",
+    "notification": null
+  }
+}

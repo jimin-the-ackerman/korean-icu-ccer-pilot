@@ -1,0 +1,45 @@
+{
+  "sample_id": "scenario_029_clinical_charting",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "muscle weakness",
+        "negation": false,
+        "severity": "severe"
+      },
+      {
+        "name": "호흡 기능 저하",
+        "negation": false,
+        "severity": null
+      }
+    ],
+    "clinical_status": "drowsy",
+    "medication_identity": "IVIG",
+    "interventions": [
+      "Plasmapheresis"
+    ],
+    "intake_output": "소변량 1200 ml/24h",
+    "notification": "Neurology team에 호흡 기능 저하 상태 업데이트함"
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "muscle weakness",
+        "negation": false,
+        "severity": "severe"
+      },
+      {
+        "name": "호흡 기능 저하",
+        "negation": false,
+        "severity": null
+      }
+    ],
+    "clinical_status": "drowsy",
+    "medication_identity": "IVIG",
+    "interventions": [
+      "plasma phoresis"
+    ],
+    "intake_output": "소변량 1200ml/24시간",
+    "notification": "neurology 팀에 호흡 기능 저하 상태 업데이트 함"
+  }
+}

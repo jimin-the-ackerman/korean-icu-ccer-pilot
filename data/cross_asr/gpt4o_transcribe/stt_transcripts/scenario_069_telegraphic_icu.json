@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_069_telegraphic_icu",
+  "whisper_transcript": "우시체세 남성 급성 헤로인 오버도스로 입원. BP가 하이드스미워 메쳐아 브렛스민, 알브랫 터햇 브렛스민, SpO2 80% room air, severe unconsciousness. Naloxone 0.4mg IV high flow nasal cannula 사용 중 unresponsive.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": "ko",
+    "audio_path": "data/audio/scenario_069_telegraphic_icu.mp3",
+    "audio_sha256": "b9a80c5ea57903d203c957613a0b1d007b9f4e317b136880d523a066b2abafe7",
+    "transcribed_at": "2026-11-04T13:01:16+00:00",
+    "request_seconds": 1.88,
+    "attempts": 1,
+    "git_commit": "5b6d73fb63e1509a79e1a160176d606ed1b104c4",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "우시체세 남성 급성 헤로인 오버도스로 입원. BP가 하이드스미워 메쳐아 브렛스민, 알브랫 터햇 브렛스민, SpO2 80% room air, severe unconsciousness. Naloxone 0.4mg IV high flow nasal cannula 사용 중 unresponsive.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 161,
+      "output_tokens": 79,
+      "total_tokens": 240,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 161,
+        "text_tokens": 0
+      }
+    }
+  }
+}

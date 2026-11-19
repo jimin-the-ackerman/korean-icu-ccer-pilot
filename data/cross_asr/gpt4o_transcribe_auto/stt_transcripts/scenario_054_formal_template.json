@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_054_formal_template",
+  "whisper_transcript": "환자는 55세 여성으로 파열된 뇌동맥류에 의한 지주막하 출혈로 입원하였다. 활력징후로는 혈압이 160/90mmHg, 심박수 95bpm, 호흡수가 22breaths/min, 체온이 36.8℃, 산소포화도가 실내 공기에서 92%로 확인되었다. 환자는 심한 두통을 호소하였다. 니모디핀 60mg을 경구로 4시간마다 투여 중이다. 산소보존은 네이절 캐뉼라를 통해 3L/min 제공되고 있다. 환자는 현재 약간 혼미한 상태이다. 중심정맥관이 삽입되어 있다. 환자의 반응 감소에 대해 신경과 팀에게 보고하였다.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe_auto",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": null,
+    "audio_path": "data/audio/scenario_054_formal_template.mp3",
+    "audio_sha256": "980b3efdc52d861f81e5f82268035fabc03cc8f6575991545807539108342ef0",
+    "transcribed_at": "2026-11-04T14:10:12+00:00",
+    "request_seconds": 3.01,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "환자는 55세 여성으로 파열된 뇌동맥류에 의한 지주막하 출혈로 입원하였다. 활력징후로는 혈압이 160/90mmHg, 심박수 95bpm, 호흡수가 22breaths/min, 체온이 36.8℃, 산소포화도가 실내 공기에서 92%로 확인되었다. 환자는 심한 두통을 호소하였다. 니모디핀 60mg을 경구로 4시간마다 투여 중이다. 산소보존은 네이절 캐뉼라를 통해 3L/min 제공되고 있다. 환자는 현재 약간 혼미한 상태이다. 중심정맥관이 삽입되어 있다. 환자의 반응 감소에 대해 신경과 팀에게 보고하였다.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 390,
+      "output_tokens": 182,
+      "total_tokens": 572,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 390,
+        "text_tokens": 0
+      }
+    }
+  }
+}

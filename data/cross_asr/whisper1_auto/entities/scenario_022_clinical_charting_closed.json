@@ -1,0 +1,115 @@
+{
+  "sample_id": "scenario_022_clinical_charting",
+  "gold_entities": {
+    "route": [
+      {
+        "raw": "IV",
+        "normalized": "iv",
+        "position": 195
+      }
+    ],
+    "frequency": [
+      {
+        "raw": "q8h",
+        "normalized": "q8h",
+        "position": 198
+      }
+    ],
+    "device": [
+      {
+        "raw": "C-line",
+        "normalized": "c-line",
+        "position": 242
+      },
+      {
+        "raw": "High-flow nasal cannula",
+        "normalized": "nc",
+        "position": 210
+      }
+    ],
+    "vital_sign": [
+      {
+        "raw": "BP 150/95",
+        "label": "bp",
+        "value": "150/95",
+        "position": 32
+      },
+      {
+        "raw": "HR 110",
+        "label": "hr",
+        "value": "110",
+        "position": 54
+      },
+      {
+        "raw": "RR 28",
+        "label": "rr",
+        "value": "28",
+        "position": 72
+      },
+      {
+        "raw": "BT 37.2",
+        "label": "bt",
+        "value": "37.2",
+        "position": 97
+      },
+      {
+        "raw": "SpO2 86%",
+        "label": "spo2",
+        "value": "86%",
+        "position": 114
+      }
+    ],
+    "dose": [
+      {
+        "raw": "40 mg",
+        "value": "40",
+        "unit": "mg",
+        "position": 189
+      }
+    ]
+  },
+  "whisper_entities": {
+    "route": [
+      {
+        "raw": "IV",
+        "normalized": "iv",
+        "position": 190
+      }
+    ],
+    "frequency": [],
+    "device": [
+      {
+        "raw": "C-line",
+        "normalized": "c-line",
+        "position": 230
+      },
+      {
+        "raw": "nasal cannula",
+        "normalized": "nc",
+        "position": 211
+      }
+    ],
+    "vital_sign": [
+      {
+        "raw": "BT 37.5",
+        "label": "bt",
+        "value": "37.5",
+        "position": 92
+      },
+      {
+        "raw": "SpO2 86%",
+        "label": "spo2",
+        "value": "86%",
+        "position": 116
+      }
+    ],
+    "dose": [
+      {
+        "raw": "40mg",
+        "value": "40",
+        "unit": "mg",
+        "position": 185
+      }
+    ]
+  }
+}

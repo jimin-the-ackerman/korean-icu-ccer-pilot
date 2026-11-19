@@ -1,0 +1,43 @@
+{
+  "sample_id": "scenario_003_clinical_charting",
+  "whisper_transcript": "72세 여성 환자 AMI로 입원함. BP 159/90 mmHg, HR 70 BPM, RR 16 breaths/min, BT 37.1°C, SpO2 95%에 nasal cannula 적용 중. Chest pain severe 호소함. Aspirin 325 mg PO stat 투여함. Nasal cannula 유지함. Cardiac monitoring 적용함. C-line 유지함. 환자 alert 상태임. Cardiology 팀 notify함.",
+  "stt_metadata": {
+    "asr_system": "chirp3_auto",
+    "provider": "google",
+    "model": "chirp_3",
+    "location": "us",
+    "language_codes": [
+      "auto"
+    ],
+    "audio_path": "data/audio/scenario_003_clinical_charting.mp3",
+    "audio_sha256": "1337318a7caa8036093c145a82d999c18f74c6715c473582982884dcae7db04e",
+    "transcribed_at": "2026-11-04T14:17:43+00:00",
+    "request_seconds": 4.41,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "metadata": {
+      "total_billed_duration": "24s",
+      "request_id": "6b06f4a7-0000-25c2-a3f1-f4f5e807f0d8",
+      "prompt": "Transcribe the following speech segment. Follow these specific instructions for formatting the answer:\n* Only output the transcript, with no newlines.\n* When transcribing numbers, write the digits, i.e. write 1.7 and not one point seven, and write 100 instead of one hundred etc.\n* Only output the transcript, exactly as said in the speech segment.\n* Do not continue the speech segment.\n* Include everything said in the speech segment.\n* Use mathematical notation where needed, eg. x ^ 6Y.\n* If there is background speech that is not part of the main conversation, discard the background speech and only output the main conversation.\n* If there is no clear speech, just output [BACKGROUND].\n* Respond in the original language of the speech."
+    },
+    "results": [
+      {
+        "alternatives": [
+          {
+            "transcript": "72세 여성 환자 AMI로 입원함. BP 159/90 mmHg, HR 70 BPM, RR 16 breaths/min, BT 37.1°C, SpO2 95%에 nasal cannula 적용 중. Chest pain severe 호소함. Aspirin 325 mg PO stat 투여함. Nasal cannula 유지함. Cardiac monitoring 적용함. C-line 유지함. 환자 alert 상태임. Cardiology 팀 notify함.",
+            "confidence": 0.0,
+            "words": []
+          }
+        ],
+        "language_code": "ko",
+        "channel_tag": 0
+      }
+    ],
+    "detected_language_codes": [
+      "ko"
+    ]
+  }
+}

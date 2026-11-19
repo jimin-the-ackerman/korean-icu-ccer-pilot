@@ -1,0 +1,25 @@
+{
+  "sample_id": "scenario_044_telegraphic_icu",
+  "whisper_transcript": "38세 이상 남성, BP 98, 62mm HRHR 10xM, RR 28, BT 37.8, RASD, SPPO2, 93% RA, 서류라미놀 패인, 몰피인, 튤러리에이진, 네이벌 캔뉴리스, 하이온, 폴리엄, 인플레이스, 드라우지, 패인팀, 컨설템.",
+  "stt_metadata": {
+    "asr_system": "whisper1",
+    "provider": "reuse_existing",
+    "model": "whisper-1",
+    "language": "ko",
+    "audio_path": "data/audio/scenario_044_telegraphic_icu.mp3",
+    "audio_sha256": "8262470e35f02170636ec090b9891313e0db31ee906f705b3e8bde5dff623ba0",
+    "copied_at": "2026-11-04T04:31:11+00:00",
+    "request_seconds": 0.0,
+    "attempts": 1,
+    "git_commit": "b3490181b3fb3f88b56cde5be78a01cfdcef3007",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "source_file": "data/stt_transcripts/scenario_044_telegraphic_icu.json",
+    "source_sha256": "e1acfaeda0283e6eb0cc13c6d387bc2cebb817c5e2228b1ad3d96dd48c9e58e5",
+    "source_stt_metadata": {
+      "model": "whisper-1",
+      "language": "ko"
+    }
+  }
+}

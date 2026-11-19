@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_091_telegraphic_icu",
+  "whisper_transcript": "64세 여성, 급성 호흡부전으로 입원. Pulmonary fibrosis 악화, BP 105, HR 76, RR 8, BT 37.6, SpO2 88% room air, dyspnea severe. Prednisone 40 mg PO BID, high flow nasal cannula 사용. Corticosteroid therapy 시작, ventilator 사용. Clinical status: drowsy.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe_auto",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": null,
+    "audio_path": "data/audio/scenario_091_telegraphic_icu.mp3",
+    "audio_sha256": "f738392111be28c8b4d1835de7a129e29e9e321beb40ac993b02cd4e7717077e",
+    "transcribed_at": "2026-11-04T14:14:24+00:00",
+    "request_seconds": 1.59,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "64세 여성, 급성 호흡부전으로 입원. Pulmonary fibrosis 악화, BP 105, HR 76, RR 8, BT 37.6, SpO2 88% room air, dyspnea severe. Prednisone 40 mg PO BID, high flow nasal cannula 사용. Corticosteroid therapy 시작, ventilator 사용. Clinical status: drowsy.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 196,
+      "output_tokens": 87,
+      "total_tokens": 283,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 196,
+        "text_tokens": 0
+      }
+    }
+  }
+}

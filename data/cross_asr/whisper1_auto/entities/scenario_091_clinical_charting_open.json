@@ -1,0 +1,35 @@
+{
+  "sample_id": "scenario_091_clinical_charting",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "dyspnea",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "drowsy",
+    "medication_identity": "Prednisone",
+    "interventions": [
+      "Corticosteroid therapy"
+    ],
+    "intake_output": null,
+    "notification": null
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "dyspnea",
+        "negation": false,
+        "severity": null
+      }
+    ],
+    "clinical_status": "drowsy",
+    "medication_identity": "prednisone",
+    "interventions": [
+      "corticosteroid therapy"
+    ],
+    "intake_output": null,
+    "notification": null
+  }
+}

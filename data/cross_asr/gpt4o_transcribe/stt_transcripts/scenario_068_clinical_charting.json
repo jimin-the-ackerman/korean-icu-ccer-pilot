@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_068_clinical_charting",
+  "whisper_transcript": "69세 여성 acute ischemic colitis로 입원함. BP 95/60 mmHg, HR 120 bpm, R 12 breaths/min, BT 37.5°C, SpO2 92% room air. Severe abdominal pain 호소함. Metronidazole 100mg IV q6h 적용함. Nasal cannula 2L/min 유지함. Foley 유지함. Negative fluid balance 확인됨. 환자 drowsy 상태 확인됨.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": "ko",
+    "audio_path": "data/audio/scenario_068_clinical_charting.mp3",
+    "audio_sha256": "5fa6c33d0c872a0fb86e994a88ce63f278d8fc417483bf71e7f597fc69a0dbb2",
+    "transcribed_at": "2026-11-04T13:01:04+00:00",
+    "request_seconds": 2.19,
+    "attempts": 1,
+    "git_commit": "5b6d73fb63e1509a79e1a160176d606ed1b104c4",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "69세 여성 acute ischemic colitis로 입원함. BP 95/60 mmHg, HR 120 bpm, R 12 breaths/min, BT 37.5°C, SpO2 92% room air. Severe abdominal pain 호소함. Metronidazole 100mg IV q6h 적용함. Nasal cannula 2L/min 유지함. Foley 유지함. Negative fluid balance 확인됨. 환자 drowsy 상태 확인됨.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 226,
+      "output_tokens": 101,
+      "total_tokens": 327,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 226,
+        "text_tokens": 0
+      }
+    }
+  }
+}

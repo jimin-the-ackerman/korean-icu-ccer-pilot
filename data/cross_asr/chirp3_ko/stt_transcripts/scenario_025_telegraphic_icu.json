@@ -1,0 +1,43 @@
+{
+  "sample_id": "scenario_025_telegraphic_icu",
+  "whisper_transcript": "60세 여자 급성 담낭염 2 1 BP 138 84 mm Hg HR 92 BPM RR 20 breaths/min T 38.2 degrees spO2 95% room air severe abdominal pain ceftriaxone 1 g IV Q 12 h laparoscopic cholecystectomy planned C-line positive balance alert",
+  "stt_metadata": {
+    "asr_system": "chirp3_ko",
+    "provider": "google",
+    "model": "chirp_3",
+    "location": "us",
+    "language_codes": [
+      "ko-KR"
+    ],
+    "audio_path": "data/audio/scenario_025_telegraphic_icu.mp3",
+    "audio_sha256": "2e8ef237805a75ebfa757cb7a9b4120eec43ef76278d0b7e0076ae6aa6cf82eb",
+    "transcribed_at": "2026-11-04T13:15:41+00:00",
+    "request_seconds": 3.97,
+    "attempts": 1,
+    "git_commit": "5b6d73fb63e1509a79e1a160176d606ed1b104c4",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "metadata": {
+      "total_billed_duration": "18s",
+      "request_id": "6af8a5e4-0000-231b-bd15-30fd38105560",
+      "prompt": "Transcribe the following speech segment in Korean. Follow these specific instructions for formatting the answer:\n* Only output the transcript, with no newlines.\n* When transcribing numbers, write the digits, i.e. write 1.7 and not one point seven, and write 100 instead of one hundred etc.\n* Only output the transcript, exactly as said in the speech segment.\n* Do not continue the speech segment.\n* Include everything said in the speech segment.\n* Use mathematical notation where needed, eg. x ^ 6Y.\n* If there is background speech that is not part of the main conversation, discard the background speech and only output the main conversation.\n* If there is no clear speech, just output [BACKGROUND].\n* Respond in the original language of the speech, Korean."
+    },
+    "results": [
+      {
+        "alternatives": [
+          {
+            "transcript": "60세 여자 급성 담낭염 2 1 BP 138 84 mm Hg HR 92 BPM RR 20 breaths/min T 38.2 degrees spO2 95% room air severe abdominal pain ceftriaxone 1 g IV Q 12 h laparoscopic cholecystectomy planned C-line positive balance alert",
+            "confidence": 0.0,
+            "words": []
+          }
+        ],
+        "language_code": "ko-KR",
+        "channel_tag": 0
+      }
+    ],
+    "detected_language_codes": [
+      "ko-KR"
+    ]
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_052_clinical_charting",
+  "whisper_transcript": "72세 남성, 힙 리플레이스먼트 투 포스트업 컴플리케이셔널 위원함, BP 130/85mmHg 확인됨, HR 95bpm 유지됨, RR 18 breaths/min 확인됨, BT 37.5도 확인됨, SpO2 97% on room air 확인됨. Moderate pain 호소함, morphine 2mg IV q4h 적용함. Foley 유지 중임. Urine output 400ml/hr 확인됨. Clinical status alert 상태 유지함.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe_auto",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": null,
+    "audio_path": "data/audio/scenario_052_clinical_charting.mp3",
+    "audio_sha256": "bbf4067e617de3853fffd235bd9a22a24a214e61e195204b7bdc9508664ed540",
+    "transcribed_at": "2026-11-04T14:09:55+00:00",
+    "request_seconds": 1.95,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "72세 남성, 힙 리플레이스먼트 투 포스트업 컴플리케이셔널 위원함, BP 130/85mmHg 확인됨, HR 95bpm 유지됨, RR 18 breaths/min 확인됨, BT 37.5도 확인됨, SpO2 97% on room air 확인됨. Moderate pain 호소함, morphine 2mg IV q4h 적용함. Foley 유지 중임. Urine output 400ml/hr 확인됨. Clinical status alert 상태 유지함.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 251,
+      "output_tokens": 117,
+      "total_tokens": 368,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 251,
+        "text_tokens": 0
+      }
+    }
+  }
+}

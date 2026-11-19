@@ -1,0 +1,26 @@
+{
+  "sample_id": "scenario_033_telegraphic_icu",
+  "whisper_transcript": "64 Sanamsung, Atrial Fibrillation Onset, Hemodynamics Unstable, BP88, 54 mmHg, HR142 BPM, RR22 Breathsmin, BT36.9 Greases, SbO2 94% room air, Palpitations Severe, Diltiasm 20 mg IV State, Electrical Cardioversion Shishi, C-line in situ, 1500 mL IV Fluids, Patient Alert, Cardiology Team Notify.",
+  "stt_metadata": {
+    "asr_system": "whisper1_auto",
+    "provider": "openai",
+    "model": "whisper-1",
+    "language": null,
+    "scope": "pilot",
+    "audio_path": "data/audio/scenario_033_telegraphic_icu.mp3",
+    "audio_sha256": "f767ed96d34826785496cc2d653dafaf2d34ef17f68c1d84cc40d90a097e271b",
+    "transcribed_at": "2026-11-04T13:42:24+00:00",
+    "request_seconds": 1.99,
+    "attempts": 1,
+    "git_commit": "5b6d73fb63e1509a79e1a160176d606ed1b104c4",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "64 Sanamsung, Atrial Fibrillation Onset, Hemodynamics Unstable, BP88, 54 mmHg, HR142 BPM, RR22 Breathsmin, BT36.9 Greases, SbO2 94% room air, Palpitations Severe, Diltiasm 20 mg IV State, Electrical Cardioversion Shishi, C-line in situ, 1500 mL IV Fluids, Patient Alert, Cardiology Team Notify.",
+    "logprobs": null,
+    "usage": {
+      "seconds": 22.0,
+      "type": "duration"
+    }
+  }
+}

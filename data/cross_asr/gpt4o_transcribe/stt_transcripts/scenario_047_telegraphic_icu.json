@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_047_telegraphic_icu",
+  "whisper_transcript": "사시보세 여성, 리지오넬라 감염으로 인한 중증 폐렴 입원함. BP 100/70 mmHg, HR 105 bpm, RR 18 breaths/min, BT 38.0°C, SpO2 79% room air, severe cough, Levofloxacin 750mg IV Q12H, high-flow nasal cannula 사용 ventilator 적용 중. 24시간 동안 음성 수분균형, 의식상태 drowsy, DR notify.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": "ko",
+    "audio_path": "data/audio/scenario_047_telegraphic_icu.mp3",
+    "audio_sha256": "0a4167342dc79ecbcbbccb741a08d9842ef09bd3b52082afcc1172c526728cae",
+    "transcribed_at": "2026-11-04T12:58:34+00:00",
+    "request_seconds": 2.22,
+    "attempts": 1,
+    "git_commit": "5b6d73fb63e1509a79e1a160176d606ed1b104c4",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "사시보세 여성, 리지오넬라 감염으로 인한 중증 폐렴 입원함. BP 100/70 mmHg, HR 105 bpm, RR 18 breaths/min, BT 38.0°C, SpO2 79% room air, severe cough, Levofloxacin 750mg IV Q12H, high-flow nasal cannula 사용 ventilator 적용 중. 24시간 동안 음성 수분균형, 의식상태 drowsy, DR notify.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 226,
+      "output_tokens": 111,
+      "total_tokens": 337,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 226,
+        "text_tokens": 0
+      }
+    }
+  }
+}

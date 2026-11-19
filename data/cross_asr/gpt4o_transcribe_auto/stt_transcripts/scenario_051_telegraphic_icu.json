@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_051_telegraphic_icu",
+  "whisper_transcript": "48세 남성 급성 췌장염 입원, BP 120/80 mmHg, HR 98 bpm, RR 22 bpm, SpO2 95% RA. Severe abdominal pain, morphine 2mg IV PRN, NG tube negative fluid balance, alert GI team notify.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe_auto",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": null,
+    "audio_path": "data/audio/scenario_051_telegraphic_icu.mp3",
+    "audio_sha256": "badc41f2124b0a732709d69524d49d21baa55b0195dfc60b77f13fccbf4b223b",
+    "transcribed_at": "2026-11-04T14:09:53+00:00",
+    "request_seconds": 1.45,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "48세 남성 급성 췌장염 입원, BP 120/80 mmHg, HR 98 bpm, RR 22 bpm, SpO2 95% RA. Severe abdominal pain, morphine 2mg IV PRN, NG tube negative fluid balance, alert GI team notify.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 153,
+      "output_tokens": 66,
+      "total_tokens": 219,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 153,
+        "text_tokens": 0
+      }
+    }
+  }
+}

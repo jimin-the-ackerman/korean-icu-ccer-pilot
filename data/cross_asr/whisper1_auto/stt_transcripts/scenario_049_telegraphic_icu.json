@@ -1,0 +1,25 @@
+{
+  "sample_id": "scenario_049_telegraphic_icu",
+  "whisper_transcript": "WIFTI forceps, septic arthritis, right knee, BP 065, HR 1 affine, RR 24, BT 38 bone hive, SBO 2, 96% RA, severe knee pain, vancomycin 1, Q12H, right knee joint aspiration, Xianxiangum, positive fluid balance by fibromyal. Alert, orthopedic consult, Youchengam.",
+  "stt_metadata": {
+    "asr_system": "whisper1_auto",
+    "provider": "openai",
+    "model": "whisper-1",
+    "language": null,
+    "audio_path": "data/audio/scenario_049_telegraphic_icu.mp3",
+    "audio_sha256": "416724d1e895e7846471bf8a540d88fc44fceb0d59cee4c57f4f3705933a216b",
+    "transcribed_at": "2026-11-04T13:55:04+00:00",
+    "request_seconds": 2.8,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "WIFTI forceps, septic arthritis, right knee, BP 065, HR 1 affine, RR 24, BT 38 bone hive, SBO 2, 96% RA, severe knee pain, vancomycin 1, Q12H, right knee joint aspiration, Xianxiangum, positive fluid balance by fibromyal. Alert, orthopedic consult, Youchengam.",
+    "logprobs": null,
+    "usage": {
+      "seconds": 19.0,
+      "type": "duration"
+    }
+  }
+}

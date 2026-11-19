@@ -1,0 +1,43 @@
+{
+  "sample_id": "scenario_076_clinical_charting",
+  "whisper_transcript": "35세 여성 환자, 하이퍼메시스 그래비다룸으로 인한 심한 탈수로 어큐트 키드니 인저리 입원함. BP 92/68 mmHg, HR 110 bpm, RR 18, BT 37.2°C, SpO2 96%. 시비어 나우져 호소함. 온단세트론 8 mg IV q8h 적용함. IV 플루이드 리서시테이션 위드 노말 세일린 시행함. 폴리 유 잼. 네가티브 플루이드 밸런스 확인됨. 드라우지 상태 관찰됨. 네프로로지 팀 노티파이함.",
+  "stt_metadata": {
+    "asr_system": "chirp3_ko",
+    "provider": "google",
+    "model": "chirp_3",
+    "location": "us",
+    "language_codes": [
+      "ko-KR"
+    ],
+    "audio_path": "data/audio/scenario_076_clinical_charting.mp3",
+    "audio_sha256": "a11021b6ee6d1f61c04bfbd52c45156aa0b7696a7f9d342c939b436be230da9b",
+    "transcribed_at": "2026-11-04T13:27:47+00:00",
+    "request_seconds": 5.42,
+    "attempts": 1,
+    "git_commit": "5b6d73fb63e1509a79e1a160176d606ed1b104c4",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "metadata": {
+      "total_billed_duration": "26s",
+      "request_id": "6b17d5b2-0000-2189-b5e9-ac3eb14d8968",
+      "prompt": "Transcribe the following speech segment in Korean. Follow these specific instructions for formatting the answer:\n* Only output the transcript, with no newlines.\n* When transcribing numbers, write the digits, i.e. write 1.7 and not one point seven, and write 100 instead of one hundred etc.\n* Only output the transcript, exactly as said in the speech segment.\n* Do not continue the speech segment.\n* Include everything said in the speech segment.\n* Use mathematical notation where needed, eg. x ^ 6Y.\n* If there is background speech that is not part of the main conversation, discard the background speech and only output the main conversation.\n* If there is no clear speech, just output [BACKGROUND].\n* Respond in the original language of the speech, Korean."
+    },
+    "results": [
+      {
+        "alternatives": [
+          {
+            "transcript": "35세 여성 환자, 하이퍼메시스 그래비다룸으로 인한 심한 탈수로 어큐트 키드니 인저리 입원함. BP 92/68 mmHg, HR 110 bpm, RR 18, BT 37.2°C, SpO2 96%. 시비어 나우져 호소함. 온단세트론 8 mg IV q8h 적용함. IV 플루이드 리서시테이션 위드 노말 세일린 시행함. 폴리 유 잼. 네가티브 플루이드 밸런스 확인됨. 드라우지 상태 관찰됨. 네프로로지 팀 노티파이함.",
+            "confidence": 0.0,
+            "words": []
+          }
+        ],
+        "language_code": "ko-KR",
+        "channel_tag": 0
+      }
+    ],
+    "detected_language_codes": [
+      "ko-KR"
+    ]
+  }
+}

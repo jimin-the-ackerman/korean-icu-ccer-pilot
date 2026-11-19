@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_093_telegraphic_icu",
+  "whisper_transcript": "52세 남성, acute hemorrhagic shock, ruptured abdominal aortic aneurysm, BP 85/50, HR 120, RR 24, BT 36.8, SpO2 89%, severe abdominal pain, drowsy, norepinephrine 8mcg/min IV TID, high-flow nasal cannula 사용, C-line 투김. Urine output 20ml/hr. Emergency surgical repair 계획됨. Vascular surgery team notify.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe_auto",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": null,
+    "audio_path": "data/audio/scenario_093_telegraphic_icu.mp3",
+    "audio_sha256": "50ec72147db07606f2e57ccb408c8707de254e33f4e1f4ec4ca4905c1fb6e8c3",
+    "transcribed_at": "2026-11-04T14:14:38+00:00",
+    "request_seconds": 1.92,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "52세 남성, acute hemorrhagic shock, ruptured abdominal aortic aneurysm, BP 85/50, HR 120, RR 24, BT 36.8, SpO2 89%, severe abdominal pain, drowsy, norepinephrine 8mcg/min IV TID, high-flow nasal cannula 사용, C-line 투김. Urine output 20ml/hr. Emergency surgical repair 계획됨. Vascular surgery team notify.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 229,
+      "output_tokens": 99,
+      "total_tokens": 328,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 229,
+        "text_tokens": 0
+      }
+    }
+  }
+}

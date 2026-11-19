@@ -1,0 +1,43 @@
+{
+  "sample_id": "scenario_019_clinical_charting",
+  "whisper_transcript": "30세 여성 환자 severe allergic reaction, anaphylaxis로 입원함. BP 85/50 mmHg, HR 120 bpm, RR 28 breaths/min, BT 36.8도, SpO2 89% room air. severe swelling of the face and lips 확인됨. epinephrine 0.3 mg IM stat 투여함. high flow nasal cannula 적용함. IV fluids administration 실시함. urine output 50 ml/hr 유지됨. 환자 상태 drowsy로 확인됨. allergy 팀 notify 함 for further management.",
+  "stt_metadata": {
+    "asr_system": "chirp3_ko",
+    "provider": "google",
+    "model": "chirp_3",
+    "location": "us",
+    "language_codes": [
+      "ko-KR"
+    ],
+    "audio_path": "data/audio/scenario_019_clinical_charting.mp3",
+    "audio_sha256": "934d35ec2178a7c9f2a428a2ae5481638a1acd280f9100978a6435877f5721cb",
+    "transcribed_at": "2026-11-04T13:14:05+00:00",
+    "request_seconds": 4.1,
+    "attempts": 1,
+    "git_commit": "5b6d73fb63e1509a79e1a160176d606ed1b104c4",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "metadata": {
+      "total_billed_duration": "30s",
+      "request_id": "745f7467-0000-2ead-a9c6-582429a7d3b8",
+      "prompt": "Transcribe the following speech segment in Korean. Follow these specific instructions for formatting the answer:\n* Only output the transcript, with no newlines.\n* When transcribing numbers, write the digits, i.e. write 1.7 and not one point seven, and write 100 instead of one hundred etc.\n* Only output the transcript, exactly as said in the speech segment.\n* Do not continue the speech segment.\n* Include everything said in the speech segment.\n* Use mathematical notation where needed, eg. x ^ 6Y.\n* If there is background speech that is not part of the main conversation, discard the background speech and only output the main conversation.\n* If there is no clear speech, just output [BACKGROUND].\n* Respond in the original language of the speech, Korean."
+    },
+    "results": [
+      {
+        "alternatives": [
+          {
+            "transcript": "30세 여성 환자 severe allergic reaction, anaphylaxis로 입원함. BP 85/50 mmHg, HR 120 bpm, RR 28 breaths/min, BT 36.8도, SpO2 89% room air. severe swelling of the face and lips 확인됨. epinephrine 0.3 mg IM stat 투여함. high flow nasal cannula 적용함. IV fluids administration 실시함. urine output 50 ml/hr 유지됨. 환자 상태 drowsy로 확인됨. allergy 팀 notify 함 for further management.",
+            "confidence": 0.0,
+            "words": []
+          }
+        ],
+        "language_code": "ko-KR",
+        "channel_tag": 0
+      }
+    ],
+    "detected_language_codes": [
+      "ko-KR"
+    ]
+  }
+}

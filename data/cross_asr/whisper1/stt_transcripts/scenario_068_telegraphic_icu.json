@@ -1,0 +1,25 @@
+{
+  "sample_id": "scenario_068_telegraphic_icu",
+  "whisper_transcript": "68세 여성 환자, 아큐트 이스키믹 콜라이데시본, BP 95, 60mHg, HRM-BPM, RR 22 breaths min, BTTO2 92% RA, 엉덩이 아픔, 매우 심각, 메트로닌지솔 500mg IVQ-8H, 내슬 캔눌라 2mL min, 완전히 정착됨, 내게티브 플루이드 밸런스, 드라우지 상태.",
+  "stt_metadata": {
+    "asr_system": "whisper1",
+    "provider": "reuse_existing",
+    "model": "whisper-1",
+    "language": "ko",
+    "audio_path": "data/audio/scenario_068_telegraphic_icu.mp3",
+    "audio_sha256": "a932e160553e7a2dc263a3afbcbf753f29424525b9484a7cb5b86f6a8c70b21b",
+    "copied_at": "2026-11-04T04:31:12+00:00",
+    "request_seconds": 0.0,
+    "attempts": 1,
+    "git_commit": "b3490181b3fb3f88b56cde5be78a01cfdcef3007",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "source_file": "data/stt_transcripts/scenario_068_telegraphic_icu.json",
+    "source_sha256": "7894af20dbbe1c0c7ad3823f66b44867786c90568761a1a97cd12df67971e661",
+    "source_stt_metadata": {
+      "model": "whisper-1",
+      "language": "ko"
+    }
+  }
+}

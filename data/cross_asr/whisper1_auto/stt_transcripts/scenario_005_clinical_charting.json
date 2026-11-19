@@ -1,0 +1,25 @@
+{
+  "sample_id": "scenario_005_clinical_charting",
+  "whisper_transcript": "58-year-old male patient with chronic kidney disease. Acute renal failure. Monitoring and hospitalization. BP have 50 quid BPM. HR high spike BPM. BT 37. Utigrass. SBU, which is 5%. Moderate edema. Furosemide, 40 milligrams IV, QOH. Oxygen support. Nasal cannula. Foley catheter. Negative fluid balance. Drowsy. Nephrology team increased creatinine levels. Call your notifier.",
+  "stt_metadata": {
+    "asr_system": "whisper1_auto",
+    "provider": "openai",
+    "model": "whisper-1",
+    "language": null,
+    "audio_path": "data/audio/scenario_005_clinical_charting.mp3",
+    "audio_sha256": "6da6b191684896dd2ac43feb6fe6fd300983d9efc5ecc6540ac78f735d3d984e",
+    "transcribed_at": "2026-11-04T13:49:44+00:00",
+    "request_seconds": 2.37,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "58-year-old male patient with chronic kidney disease. Acute renal failure. Monitoring and hospitalization. BP have 50 quid BPM. HR high spike BPM. BT 37. Utigrass. SBU, which is 5%. Moderate edema. Furosemide, 40 milligrams IV, QOH. Oxygen support. Nasal cannula. Foley catheter. Negative fluid balance. Drowsy. Nephrology team increased creatinine levels. Call your notifier.",
+    "logprobs": null,
+    "usage": {
+      "seconds": 29.0,
+      "type": "duration"
+    }
+  }
+}

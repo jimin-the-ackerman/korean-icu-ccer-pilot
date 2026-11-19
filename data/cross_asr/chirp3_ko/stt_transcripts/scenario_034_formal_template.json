@@ -1,0 +1,43 @@
+{
+  "sample_id": "scenario_034_formal_template",
+  "whisper_transcript": "환자는 급성 악화된 간경변증과 간성뇌증으로 입원한 58세 남성이다. 활력징후는 혈압이 95/60 mmHg, 심박수가 110 bpm, 호흡수가 20 breath/min, 체온이 36.5°C이며, 산소포화도는 실내 공기에서 92%로 확인되었다. 중등도의 황달이 관찰되었다. 환자는 경구로 락툴로즈 30 ml를 8시간마다 복용하고 있다. 산소는 비강 캐눌라를 통해 2 L/min으로 공급 중이다. 환자는 졸음이 있으며, 엄격한 체액 균형 모니터링이 필요하다. 간성뇌증 악화를 간 전문 팀에게 보고하였다.",
+  "stt_metadata": {
+    "asr_system": "chirp3_ko",
+    "provider": "google",
+    "model": "chirp_3",
+    "location": "us",
+    "language_codes": [
+      "ko-KR"
+    ],
+    "audio_path": "data/audio/scenario_034_formal_template.mp3",
+    "audio_sha256": "e3399ad5bc5fa3eeaeb34c72a6e2b92b2d505e231f0d23b79996c68af6424d83",
+    "transcribed_at": "2026-11-04T13:17:46+00:00",
+    "request_seconds": 5.68,
+    "attempts": 1,
+    "git_commit": "5b6d73fb63e1509a79e1a160176d606ed1b104c4",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "metadata": {
+      "total_billed_duration": "38s",
+      "request_id": "6af42931-0000-206f-aa92-14c14eee58e0",
+      "prompt": "Transcribe the following speech segment in Korean. Follow these specific instructions for formatting the answer:\n* Only output the transcript, with no newlines.\n* When transcribing numbers, write the digits, i.e. write 1.7 and not one point seven, and write 100 instead of one hundred etc.\n* Only output the transcript, exactly as said in the speech segment.\n* Do not continue the speech segment.\n* Include everything said in the speech segment.\n* Use mathematical notation where needed, eg. x ^ 6Y.\n* If there is background speech that is not part of the main conversation, discard the background speech and only output the main conversation.\n* If there is no clear speech, just output [BACKGROUND].\n* Respond in the original language of the speech, Korean."
+    },
+    "results": [
+      {
+        "alternatives": [
+          {
+            "transcript": "환자는 급성 악화된 간경변증과 간성뇌증으로 입원한 58세 남성이다. 활력징후는 혈압이 95/60 mmHg, 심박수가 110 bpm, 호흡수가 20 breath/min, 체온이 36.5°C이며, 산소포화도는 실내 공기에서 92%로 확인되었다. 중등도의 황달이 관찰되었다. 환자는 경구로 락툴로즈 30 ml를 8시간마다 복용하고 있다. 산소는 비강 캐눌라를 통해 2 L/min으로 공급 중이다. 환자는 졸음이 있으며, 엄격한 체액 균형 모니터링이 필요하다. 간성뇌증 악화를 간 전문 팀에게 보고하였다.",
+            "confidence": 0.0,
+            "words": []
+          }
+        ],
+        "language_code": "ko-KR",
+        "channel_tag": 0
+      }
+    ],
+    "detected_language_codes": [
+      "ko-KR"
+    ]
+  }
+}

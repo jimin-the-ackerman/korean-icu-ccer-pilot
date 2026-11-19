@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_092_telegraphic_icu",
+  "whisper_transcript": "54 yo M song program sangsinting BP 135/85 mmHg, RR 22 bpm, BT 37.6°C, SpO2 94% room air. Abdominal pain severe, pantoprazole 40 mg IV BID, NG tube in place. Alert. Endocrinology consult notify.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe_auto",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": null,
+    "audio_path": "data/audio/scenario_092_telegraphic_icu.mp3",
+    "audio_sha256": "95c0ce752fb90141433ef0b86793eab345854bf501a52b1a0a99f664525aa439",
+    "transcribed_at": "2026-11-04T14:14:30+00:00",
+    "request_seconds": 1.57,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "54 yo M song program sangsinting BP 135/85 mmHg, RR 22 bpm, BT 37.6°C, SpO2 94% room air. Abdominal pain severe, pantoprazole 40 mg IV BID, NG tube in place. Alert. Endocrinology consult notify.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 169,
+      "output_tokens": 69,
+      "total_tokens": 238,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 169,
+        "text_tokens": 0
+      }
+    }
+  }
+}

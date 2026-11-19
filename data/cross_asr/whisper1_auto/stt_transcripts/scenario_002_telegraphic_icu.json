@@ -1,0 +1,25 @@
+{
+  "sample_id": "scenario_002_telegraphic_icu",
+  "whisper_transcript": "FUJIFILM DK80E1, BP90 Oxy, HR-1 Hirishin Huanqiwei, BT-30 Cepamate, SpO2 95%. Nausea moderate, insulin 10 units IV-Q4H, fluid resuscitation, urine output low, drowsy, endocrinology consult TUM.",
+  "stt_metadata": {
+    "asr_system": "whisper1_auto",
+    "provider": "openai",
+    "model": "whisper-1",
+    "language": null,
+    "audio_path": "data/audio/scenario_002_telegraphic_icu.mp3",
+    "audio_sha256": "3ca4b33d9ac6bdcc397e44d4fb1a1db0f5bf8de1b67f9a140799319b77b23dae",
+    "transcribed_at": "2026-11-04T13:49:23+00:00",
+    "request_seconds": 2.37,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "FUJIFILM DK80E1, BP90 Oxy, HR-1 Hirishin Huanqiwei, BT-30 Cepamate, SpO2 95%. Nausea moderate, insulin 10 units IV-Q4H, fluid resuscitation, urine output low, drowsy, endocrinology consult TUM.",
+    "logprobs": null,
+    "usage": {
+      "seconds": 15.0,
+      "type": "duration"
+    }
+  }
+}

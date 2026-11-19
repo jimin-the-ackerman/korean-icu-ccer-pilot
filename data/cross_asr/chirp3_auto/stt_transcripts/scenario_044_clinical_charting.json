@@ -1,0 +1,43 @@
+{
+  "sample_id": "scenario_044_clinical_charting",
+  "whisper_transcript": "38세 남자 환자, 급성 췌장염으로 입원함. BP 90/60 mmHg, HR 110, RR 22/min, BT 37.8°C, SpO2 95% on room air 확인됨. severe abdominal pain 호소함. morphine 2mg IV Q4H 투여함. nasal cannula 적용함. foley 유지함. patient drowsy 상태 확인됨. pain team consult함.",
+  "stt_metadata": {
+    "asr_system": "chirp3_auto",
+    "provider": "google",
+    "model": "chirp_3",
+    "location": "us",
+    "language_codes": [
+      "auto"
+    ],
+    "audio_path": "data/audio/scenario_044_clinical_charting.mp3",
+    "audio_sha256": "13909c8b006927ead5933341e4e0715a5356678e495a1450018decf6dce26355",
+    "transcribed_at": "2026-11-04T14:27:49+00:00",
+    "request_seconds": 4.32,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "metadata": {
+      "total_billed_duration": "22s",
+      "request_id": "6dda97da-0000-2cc9-91db-582429ac2ca8",
+      "prompt": "Transcribe the following speech segment. Follow these specific instructions for formatting the answer:\n* Only output the transcript, with no newlines.\n* When transcribing numbers, write the digits, i.e. write 1.7 and not one point seven, and write 100 instead of one hundred etc.\n* Only output the transcript, exactly as said in the speech segment.\n* Do not continue the speech segment.\n* Include everything said in the speech segment.\n* Use mathematical notation where needed, eg. x ^ 6Y.\n* If there is background speech that is not part of the main conversation, discard the background speech and only output the main conversation.\n* If there is no clear speech, just output [BACKGROUND].\n* Respond in the original language of the speech."
+    },
+    "results": [
+      {
+        "alternatives": [
+          {
+            "transcript": "38세 남자 환자, 급성 췌장염으로 입원함. BP 90/60 mmHg, HR 110, RR 22/min, BT 37.8°C, SpO2 95% on room air 확인됨. severe abdominal pain 호소함. morphine 2mg IV Q4H 투여함. nasal cannula 적용함. foley 유지함. patient drowsy 상태 확인됨. pain team consult함.",
+            "confidence": 0.0,
+            "words": []
+          }
+        ],
+        "language_code": "ko",
+        "channel_tag": 0
+      }
+    ],
+    "detected_language_codes": [
+      "ko"
+    ]
+  }
+}

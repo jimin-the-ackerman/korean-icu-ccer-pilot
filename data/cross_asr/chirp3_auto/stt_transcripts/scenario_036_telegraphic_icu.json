@@ -1,0 +1,43 @@
+{
+  "sample_id": "scenario_036_telegraphic_icu",
+  "whisper_transcript": "호흡기 내과 중급성 천식 악화로 입원. BP 135/80 mmHg, HR 90 BPM, RR 28 breaths/min, BT 37.2°C, SpO2 88% room air, wheezing severe, albuterol 2.5 mg IV Q4H, high-flow nasal cannula 사용, ventilator 사용 중, negative fluid balance, drowsy, RT notify ventilator 관리.",
+  "stt_metadata": {
+    "asr_system": "chirp3_auto",
+    "provider": "google",
+    "model": "chirp_3",
+    "location": "us",
+    "language_codes": [
+      "auto"
+    ],
+    "audio_path": "data/audio/scenario_036_telegraphic_icu.mp3",
+    "audio_sha256": "82906fb425a531d96259c668a21bc4b5a3381ed447c5f8c12d9040a2e5afd90b",
+    "transcribed_at": "2026-11-04T14:26:08+00:00",
+    "request_seconds": 4.12,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "metadata": {
+      "total_billed_duration": "21s",
+      "request_id": "6eb2eee9-0000-294f-9b79-ac3eb147f148",
+      "prompt": "Transcribe the following speech segment. Follow these specific instructions for formatting the answer:\n* Only output the transcript, with no newlines.\n* When transcribing numbers, write the digits, i.e. write 1.7 and not one point seven, and write 100 instead of one hundred etc.\n* Only output the transcript, exactly as said in the speech segment.\n* Do not continue the speech segment.\n* Include everything said in the speech segment.\n* Use mathematical notation where needed, eg. x ^ 6Y.\n* If there is background speech that is not part of the main conversation, discard the background speech and only output the main conversation.\n* If there is no clear speech, just output [BACKGROUND].\n* Respond in the original language of the speech."
+    },
+    "results": [
+      {
+        "alternatives": [
+          {
+            "transcript": "호흡기 내과 중급성 천식 악화로 입원. BP 135/80 mmHg, HR 90 BPM, RR 28 breaths/min, BT 37.2°C, SpO2 88% room air, wheezing severe, albuterol 2.5 mg IV Q4H, high-flow nasal cannula 사용, ventilator 사용 중, negative fluid balance, drowsy, RT notify ventilator 관리.",
+            "confidence": 0.0,
+            "words": []
+          }
+        ],
+        "language_code": "ko",
+        "channel_tag": 0
+      }
+    ],
+    "detected_language_codes": [
+      "ko"
+    ]
+  }
+}

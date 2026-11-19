@@ -1,0 +1,35 @@
+{
+  "sample_id": "scenario_015_clinical_charting",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "chest pain",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "alert",
+    "medication_identity": "Heparin",
+    "interventions": [
+      "Thrombolytic therapy"
+    ],
+    "intake_output": "IV fluids 2000 mL 투여함",
+    "notification": "Cardiology team notify함"
+  },
+  "whisper_entities": {
+    "symptoms": [
+      {
+        "name": "chest pain",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "alert",
+    "medication_identity": "Heparin",
+    "interventions": [
+      "Thrombolytic therapy"
+    ],
+    "intake_output": "IV fluids 210 ml 투여함",
+    "notification": "Cardiology 팀 notify함"
+  }
+}

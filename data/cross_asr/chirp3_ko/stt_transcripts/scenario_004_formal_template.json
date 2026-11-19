@@ -1,0 +1,43 @@
+{
+  "sample_id": "scenario_004_formal_template",
+  "whisper_transcript": "45세 남성 환자가 급성 췌장염으로 입원하였다. 활력 증후는 혈압 90/60 mmHg, 심박수 120 bpm, 호흡수 28 breaths/min, 체온 38.5°C이며, 산소 포화도는 실내 공기에서 95%로 확인되었다. 환자는 심한 복부 통증을 호소하였다. 통증 관리를 위해 모르핀 4 mg IV q4h 투여 중이다. 현재 환자는 수액 보충 요법을 받고 있으며, Foley 카테터가 삽입되어 있다. 4시간 동안의 소변 배출량은 200 ml이다. 임상 상태는 졸림으로 나타났다. 환자의 혈액학 상태 악화를 담당 중인 위장병 전문의에게 보고하였다.",
+  "stt_metadata": {
+    "asr_system": "chirp3_ko",
+    "provider": "google",
+    "model": "chirp_3",
+    "location": "us",
+    "language_codes": [
+      "ko-KR"
+    ],
+    "audio_path": "data/audio/scenario_004_formal_template.mp3",
+    "audio_sha256": "d46b2c18dce9a24196aeeb30cb69133b3470711536c6c7724f17c6bd10fce911",
+    "transcribed_at": "2026-11-04T13:10:46+00:00",
+    "request_seconds": 7.56,
+    "attempts": 1,
+    "git_commit": "5b6d73fb63e1509a79e1a160176d606ed1b104c4",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "metadata": {
+      "total_billed_duration": "41s",
+      "request_id": "745ec711-0000-2ead-a9c6-582429a7d3b8",
+      "prompt": "Transcribe the following speech segment in Korean. Follow these specific instructions for formatting the answer:\n* Only output the transcript, with no newlines.\n* When transcribing numbers, write the digits, i.e. write 1.7 and not one point seven, and write 100 instead of one hundred etc.\n* Only output the transcript, exactly as said in the speech segment.\n* Do not continue the speech segment.\n* Include everything said in the speech segment.\n* Use mathematical notation where needed, eg. x ^ 6Y.\n* If there is background speech that is not part of the main conversation, discard the background speech and only output the main conversation.\n* If there is no clear speech, just output [BACKGROUND].\n* Respond in the original language of the speech, Korean."
+    },
+    "results": [
+      {
+        "alternatives": [
+          {
+            "transcript": "45세 남성 환자가 급성 췌장염으로 입원하였다. 활력 증후는 혈압 90/60 mmHg, 심박수 120 bpm, 호흡수 28 breaths/min, 체온 38.5°C이며, 산소 포화도는 실내 공기에서 95%로 확인되었다. 환자는 심한 복부 통증을 호소하였다. 통증 관리를 위해 모르핀 4 mg IV q4h 투여 중이다. 현재 환자는 수액 보충 요법을 받고 있으며, Foley 카테터가 삽입되어 있다. 4시간 동안의 소변 배출량은 200 ml이다. 임상 상태는 졸림으로 나타났다. 환자의 혈액학 상태 악화를 담당 중인 위장병 전문의에게 보고하였다.",
+            "confidence": 0.0,
+            "words": []
+          }
+        ],
+        "language_code": "ko-KR",
+        "channel_tag": 0
+      }
+    ],
+    "detected_language_codes": [
+      "ko-KR"
+    ]
+  }
+}

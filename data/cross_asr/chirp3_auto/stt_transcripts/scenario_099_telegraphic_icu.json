@@ -1,0 +1,43 @@
+{
+  "sample_id": "scenario_099_telegraphic_icu",
+  "whisper_transcript": "71-year-old CHF acute exacerbation, pulmonary edema, BP 160/90, HR 105 BPM, RR 28 breaths/min, BT 37.5°C, SpO2 88% room air, severe dyspnea, furosemide 40 mg IV Q8H, high-flow nasal cannula 40, positive fluid balance 2000, clinical status drowsy, cardiology consult requested.",
+  "stt_metadata": {
+    "asr_system": "chirp3_auto",
+    "provider": "google",
+    "model": "chirp_3",
+    "location": "us",
+    "language_codes": [
+      "auto"
+    ],
+    "audio_path": "data/audio/scenario_099_telegraphic_icu.mp3",
+    "audio_sha256": "aa91339c5853e2553dd68f8695b13874aeb3e4036b29d5d526a2c64830811979",
+    "transcribed_at": "2026-11-04T14:55:03+00:00",
+    "request_seconds": 4.23,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "metadata": {
+      "total_billed_duration": "23s",
+      "request_id": "74ec0865-0000-22a0-985f-34c7e91f243b",
+      "prompt": "Transcribe the following speech segment. Follow these specific instructions for formatting the answer:\n* Only output the transcript, with no newlines.\n* When transcribing numbers, write the digits, i.e. write 1.7 and not one point seven, and write 100 instead of one hundred etc.\n* Only output the transcript, exactly as said in the speech segment.\n* Do not continue the speech segment.\n* Include everything said in the speech segment.\n* Use mathematical notation where needed, eg. x ^ 6Y.\n* If there is background speech that is not part of the main conversation, discard the background speech and only output the main conversation.\n* If there is no clear speech, just output [BACKGROUND].\n* Respond in the original language of the speech."
+    },
+    "results": [
+      {
+        "alternatives": [
+          {
+            "transcript": "71-year-old CHF acute exacerbation, pulmonary edema, BP 160/90, HR 105 BPM, RR 28 breaths/min, BT 37.5°C, SpO2 88% room air, severe dyspnea, furosemide 40 mg IV Q8H, high-flow nasal cannula 40, positive fluid balance 2000, clinical status drowsy, cardiology consult requested.",
+            "confidence": 0.0,
+            "words": []
+          }
+        ],
+        "language_code": "en",
+        "channel_tag": 0
+      }
+    ],
+    "detected_language_codes": [
+      "en"
+    ]
+  }
+}

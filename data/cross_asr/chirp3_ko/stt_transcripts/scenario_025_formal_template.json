@@ -1,0 +1,43 @@
+{
+  "sample_id": "scenario_025_formal_template",
+  "whisper_transcript": "환자 정보. 60세 여성 환자가 급성 담낭염으로 입원하였다. 활력 징후. 혈압이 138/84 mmHg로 확인되었고, 심박수는 92 bpm, 호흡수는 20 breath/min이다. 체온은 38.2°C로 측정되었으며, 산소 포화도는 실내 공기에서 95%이다. 증상. 심한 복통을 호소하였다. 투약. 세프트리악손 1g IV로 Q12H 투여 중이다. 중재. 복강경 담낭 절제술이 계획되어 있다. 기구. C-line이 삽입되어 있다. 수분 출입량. 양성 균형으로 확인되었다. 임상 상태. 환은 명료한 상태이다.",
+  "stt_metadata": {
+    "asr_system": "chirp3_ko",
+    "provider": "google",
+    "model": "chirp_3",
+    "location": "us",
+    "language_codes": [
+      "ko-KR"
+    ],
+    "audio_path": "data/audio/scenario_025_formal_template.mp3",
+    "audio_sha256": "a8e6cd5e3c94d9bc66ec3fd387ecf430b69af38b1db650b7dd9eb63f33a61e76",
+    "transcribed_at": "2026-11-04T13:15:37+00:00",
+    "request_seconds": 6.21,
+    "attempts": 1,
+    "git_commit": "5b6d73fb63e1509a79e1a160176d606ed1b104c4",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "metadata": {
+      "total_billed_duration": "36s",
+      "request_id": "6af87cc8-0000-225a-a382-f4f5e8086f50",
+      "prompt": "Transcribe the following speech segment in Korean. Follow these specific instructions for formatting the answer:\n* Only output the transcript, with no newlines.\n* When transcribing numbers, write the digits, i.e. write 1.7 and not one point seven, and write 100 instead of one hundred etc.\n* Only output the transcript, exactly as said in the speech segment.\n* Do not continue the speech segment.\n* Include everything said in the speech segment.\n* Use mathematical notation where needed, eg. x ^ 6Y.\n* If there is background speech that is not part of the main conversation, discard the background speech and only output the main conversation.\n* If there is no clear speech, just output [BACKGROUND].\n* Respond in the original language of the speech, Korean."
+    },
+    "results": [
+      {
+        "alternatives": [
+          {
+            "transcript": "환자 정보. 60세 여성 환자가 급성 담낭염으로 입원하였다. 활력 징후. 혈압이 138/84 mmHg로 확인되었고, 심박수는 92 bpm, 호흡수는 20 breath/min이다. 체온은 38.2°C로 측정되었으며, 산소 포화도는 실내 공기에서 95%이다. 증상. 심한 복통을 호소하였다. 투약. 세프트리악손 1g IV로 Q12H 투여 중이다. 중재. 복강경 담낭 절제술이 계획되어 있다. 기구. C-line이 삽입되어 있다. 수분 출입량. 양성 균형으로 확인되었다. 임상 상태. 환은 명료한 상태이다.",
+            "confidence": 0.0,
+            "words": []
+          }
+        ],
+        "language_code": "ko-KR",
+        "channel_tag": 0
+      }
+    ],
+    "detected_language_codes": [
+      "ko-KR"
+    ]
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "sample_id": "scenario_059_clinical_charting",
+  "whisper_transcript": "46세 남성 환자. severe sepsis with perforated diverticulitis. BP 85/60 mmHg, HR 125 bpm, RR 28 breaths/min, BT 39.2°C, SpO2 89% room air. severe abdominal pain 호소함. piperacillin/tazobactam 4.5 IV Q8H 투여 중. high flow nasal cannula 적용함. fluid resuscitation 시행함. C-line 유지함. positive fluid balance 확인됨. 환자 drowsy 상태임.",
+  "stt_metadata": {
+    "asr_system": "chirp3_ko",
+    "provider": "google",
+    "model": "chirp_3",
+    "location": "us",
+    "language_codes": [
+      "ko-KR"
+    ],
+    "audio_path": "data/audio/scenario_059_clinical_charting.mp3",
+    "audio_sha256": "2e79a351c92864f5af0409f551b81b4ea9384a21d2d27b3ded8086f806196314",
+    "transcribed_at": "2026-11-04T13:23:25+00:00",
+    "request_seconds": 3.93,
+    "attempts": 1,
+    "git_commit": "5b6d73fb63e1509a79e1a160176d606ed1b104c4",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "metadata": {
+      "total_billed_duration": "26s",
+      "request_id": "6da3b369-0000-2052-91e0-343916163ebb",
+      "prompt": "Transcribe the following speech segment in Korean. Follow these specific instructions for formatting the answer:\n* Only output the transcript, with no newlines.\n* When transcribing numbers, write the digits, i.e. write 1.7 and not one point seven, and write 100 instead of one hundred etc.\n* Only output the transcript, exactly as said in the speech segment.\n* Do not continue the speech segment.\n* Include everything said in the speech segment.\n* Use mathematical notation where needed, eg. x ^ 6Y.\n* If there is background speech that is not part of the main conversation, discard the background speech and only output the main conversation.\n* If there is no clear speech, just output [BACKGROUND].\n* Respond in the original language of the speech, Korean."
+    },
+    "results": [
+      {
+        "alternatives": [
+          {
+            "transcript": "46세 남성 환자. severe sepsis with perforated diverticulitis. BP 85/60 mmHg, HR 125 bpm, RR 28 breaths/min, BT 39.2°C, SpO2 89% room air. severe abdominal pain 호소함. piperacillin/tazobactam 4.5 IV Q8H 투여 중. high flow nasal cannula 적용함. fluid resuscitation 시행함. C-line 유지함. positive fluid balance 확인됨. 환자 drowsy 상태임.",
+            "confidence": 0.0,
+            "words": []
+          }
+        ],
+        "language_code": "ko-KR",
+        "channel_tag": 0
+      }
+    ],
+    "detected_language_codes": [
+      "ko-KR"
+    ]
+  }
+}

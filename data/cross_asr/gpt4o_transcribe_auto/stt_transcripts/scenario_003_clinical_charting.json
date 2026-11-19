@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_003_clinical_charting",
+  "whisper_transcript": "72세 여성 환자 AMI로 입원함. BP 120/90mmHg, HR 120 BPM, RR HED BREATH/MIN, BT 37.1도C, SPO2 간지 5% 투여 나이잘 캔율라 적용 중. Chest pain severe 호소함. 아스피린 325mg PO stat 투여함. 나이잘 캔율라 유지함. Cardiac monitoring 적용함. C-line 유지함. 환자 alert 상태임. 카디올로지 팀 notify함.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe_auto",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": null,
+    "audio_path": "data/audio/scenario_003_clinical_charting.mp3",
+    "audio_sha256": "1337318a7caa8036093c145a82d999c18f74c6715c473582982884dcae7db04e",
+    "transcribed_at": "2026-11-04T14:03:50+00:00",
+    "request_seconds": 1.79,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "72세 여성 환자 AMI로 입원함. BP 120/90mmHg, HR 120 BPM, RR HED BREATH/MIN, BT 37.1도C, SPO2 간지 5% 투여 나이잘 캔율라 적용 중. Chest pain severe 호소함. 아스피린 325mg PO stat 투여함. 나이잘 캔율라 유지함. Cardiac monitoring 적용함. C-line 유지함. 환자 alert 상태임. 카디올로지 팀 notify함.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 230,
+      "output_tokens": 118,
+      "total_tokens": 348,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 230,
+        "text_tokens": 0
+      }
+    }
+  }
+}

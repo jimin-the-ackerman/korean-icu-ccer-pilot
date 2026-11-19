@@ -1,0 +1,43 @@
+{
+  "sample_id": "scenario_009_clinical_charting",
+  "whisper_transcript": "68세 여성 환자 UTI로 인한 셉틱 샥. BP 85/50 mmHg, HR 120 bpm, RR 26 min, BT 38.5°C, SpO2 92%. Severe fever 확인됨. 피페라실린-타조박탐 4g IV Q8H 적용함. 나잘 캐눌라 3L/min 산소 유지함. C-line 유지함. Positive fluid balance 확인됨. 환자 상태 drowsy. 담당의 notify함. 지속적인 저혈압 및 발열 관련.",
+  "stt_metadata": {
+    "asr_system": "chirp3_auto",
+    "provider": "google",
+    "model": "chirp_3",
+    "location": "us",
+    "language_codes": [
+      "auto"
+    ],
+    "audio_path": "data/audio/scenario_009_clinical_charting.mp3",
+    "audio_sha256": "68dc3cf97e5591ab74db509b22aa22ac8f8f945c4d1e7f38acf6e3ebf0cc3195",
+    "transcribed_at": "2026-11-04T14:19:12+00:00",
+    "request_seconds": 4.74,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "metadata": {
+      "total_billed_duration": "25s",
+      "request_id": "7652154f-0000-2d46-972c-c82add704b14",
+      "prompt": "Transcribe the following speech segment. Follow these specific instructions for formatting the answer:\n* Only output the transcript, with no newlines.\n* When transcribing numbers, write the digits, i.e. write 1.7 and not one point seven, and write 100 instead of one hundred etc.\n* Only output the transcript, exactly as said in the speech segment.\n* Do not continue the speech segment.\n* Include everything said in the speech segment.\n* Use mathematical notation where needed, eg. x ^ 6Y.\n* If there is background speech that is not part of the main conversation, discard the background speech and only output the main conversation.\n* If there is no clear speech, just output [BACKGROUND].\n* Respond in the original language of the speech."
+    },
+    "results": [
+      {
+        "alternatives": [
+          {
+            "transcript": "68세 여성 환자 UTI로 인한 셉틱 샥. BP 85/50 mmHg, HR 120 bpm, RR 26 min, BT 38.5°C, SpO2 92%. Severe fever 확인됨. 피페라실린-타조박탐 4g IV Q8H 적용함. 나잘 캐눌라 3L/min 산소 유지함. C-line 유지함. Positive fluid balance 확인됨. 환자 상태 drowsy. 담당의 notify함. 지속적인 저혈압 및 발열 관련.",
+            "confidence": 0.0,
+            "words": []
+          }
+        ],
+        "language_code": "ko",
+        "channel_tag": 0
+      }
+    ],
+    "detected_language_codes": [
+      "ko"
+    ]
+  }
+}

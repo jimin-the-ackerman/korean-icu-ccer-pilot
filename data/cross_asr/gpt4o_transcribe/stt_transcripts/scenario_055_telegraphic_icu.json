@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_055_telegraphic_icu",
+  "whisper_transcript": "우시섬세여성, acute hemolytic anemia로 입원, BP 절제 불가, RR 100회, BT 38.1, SpO2 92% on 2L nasal cannula. Severe fatigue, furosemide 40mg IV Q2H, nasal cannula 적용 중, compatible blood transfusion 실시, input 10ml, output 500ml, drowsy 상태, hematology team notify.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": "ko",
+    "audio_path": "data/audio/scenario_055_telegraphic_icu.mp3",
+    "audio_sha256": "6a2a500fc552915496b0b7b401300e2a0643cf608944b410072c33ef7e364946",
+    "transcribed_at": "2026-11-04T12:59:29+00:00",
+    "request_seconds": 1.79,
+    "attempts": 1,
+    "git_commit": "5b6d73fb63e1509a79e1a160176d606ed1b104c4",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "우시섬세여성, acute hemolytic anemia로 입원, BP 절제 불가, RR 100회, BT 38.1, SpO2 92% on 2L nasal cannula. Severe fatigue, furosemide 40mg IV Q2H, nasal cannula 적용 중, compatible blood transfusion 실시, input 10ml, output 500ml, drowsy 상태, hematology team notify.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 225,
+      "output_tokens": 97,
+      "total_tokens": 322,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 225,
+        "text_tokens": 0
+      }
+    }
+  }
+}

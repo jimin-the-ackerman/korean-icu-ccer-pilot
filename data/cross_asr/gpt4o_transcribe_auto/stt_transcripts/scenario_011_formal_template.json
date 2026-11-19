@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_011_formal_template",
+  "whisper_transcript": "62세 남자 환자가 B형 간염으로 인한 급성 간부전으로 입원하였다. 활력징후는 혈압 102/68 mmHg, 심박수 88 bpm, 호흡수 20회/분, 체온 37.2℃, 산소포화도 95%로 확인되었다. 환자는 중증의 황달 증상을 보이고 있으며 락툴로스 30mL가 경구로 하루 3회 투여 중이다. 산소지원은 비강 캐콜라로 2L/min 제공되고 있다. 폴리 카테터가 삽입되어 있으며 임상 상태는 졸린 상태로 확인되었다. 간 기능 검사 악화에 대해 간전문팀에게 보고하였다.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe_auto",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": null,
+    "audio_path": "data/audio/scenario_011_formal_template.mp3",
+    "audio_sha256": "bb7c9f935d1bf88333977a3e471e21e31f8646b53030920e0aa41dc268976428",
+    "transcribed_at": "2026-11-04T14:04:44+00:00",
+    "request_seconds": 2.27,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "62세 남자 환자가 B형 간염으로 인한 급성 간부전으로 입원하였다. 활력징후는 혈압 102/68 mmHg, 심박수 88 bpm, 호흡수 20회/분, 체온 37.2℃, 산소포화도 95%로 확인되었다. 환자는 중증의 황달 증상을 보이고 있으며 락툴로스 30mL가 경구로 하루 3회 투여 중이다. 산소지원은 비강 캐콜라로 2L/min 제공되고 있다. 폴리 카테터가 삽입되어 있으며 임상 상태는 졸린 상태로 확인되었다. 간 기능 검사 악화에 대해 간전문팀에게 보고하였다.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 358,
+      "output_tokens": 169,
+      "total_tokens": 527,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 358,
+        "text_tokens": 0
+      }
+    }
+  }
+}

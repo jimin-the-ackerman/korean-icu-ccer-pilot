@@ -1,0 +1,25 @@
+{
+  "sample_id": "scenario_072_telegraphic_icu",
+  "whisper_transcript": "67% Namsung, KupSung, KuYangSung, TaeJangYum, severe abdominal pain, bloody diarrhea, dehydration, BP 90, 60 millimeter Herger, HR 110B, RR 24 breaths, min B37.8 degrees Celsius, SpO2, 100% RA, hydrocortisone, 100 milligram IV, Q6 IV fluid resuscitation, negative fluid balance, alert.",
+  "stt_metadata": {
+    "asr_system": "whisper1_auto",
+    "provider": "openai",
+    "model": "whisper-1",
+    "language": null,
+    "audio_path": "data/audio/scenario_072_telegraphic_icu.mp3",
+    "audio_sha256": "af454b01cbad3b4c9b4504910ff79c6d3ecba821dfe9b576a0865240ac3e1c75",
+    "transcribed_at": "2026-11-04T13:58:44+00:00",
+    "request_seconds": 1.88,
+    "attempts": 1,
+    "git_commit": "00f6f9cb0a7ac9fc607a9ccc6015d08f36fbcfc8",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "67% Namsung, KupSung, KuYangSung, TaeJangYum, severe abdominal pain, bloody diarrhea, dehydration, BP 90, 60 millimeter Herger, HR 110B, RR 24 breaths, min B37.8 degrees Celsius, SpO2, 100% RA, hydrocortisone, 100 milligram IV, Q6 IV fluid resuscitation, negative fluid balance, alert.",
+    "logprobs": null,
+    "usage": {
+      "seconds": 19.0,
+      "type": "duration"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "sample_id": "scenario_096_telegraphic_icu",
+  "gold_entities": {
+    "symptoms": [
+      {
+        "name": "dyspnea",
+        "negation": false,
+        "severity": "severe"
+      }
+    ],
+    "clinical_status": "Alert",
+    "medication_identity": "Furosemide",
+    "interventions": [],
+    "intake_output": "Negative fluid balance 500 mL/24h",
+    "notification": "Cardiology team notify"
+  },
+  "whisper_entities": {
+    "symptoms": [],
+    "clinical_status": "alert",
+    "medication_identity": "퓨로스마이드",
+    "interventions": [],
+    "intake_output": "negative fluid balance 500mL",
+    "notification": "cardiology team notify"
+  }
+}

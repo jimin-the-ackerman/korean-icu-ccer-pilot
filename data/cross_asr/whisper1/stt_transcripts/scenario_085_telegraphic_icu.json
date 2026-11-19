@@ -1,0 +1,25 @@
+{
+  "sample_id": "scenario_085_telegraphic_icu",
+  "whisper_transcript": "73세 남성 환자, 급성 호흡 부정 및 흡인성 폐렴으로 입원. bp.excellent, hr.xr18, bt.xr37.8, sp.o2 85% ra, 기침 moderate, piperacillin tezobactam 4.5g IV-Q8H, hfnc 적용 중, ventilator 사용 중, fluid balance positive, 의식상태 drowsy, pulmonologist notify.",
+  "stt_metadata": {
+    "asr_system": "whisper1",
+    "provider": "reuse_existing",
+    "model": "whisper-1",
+    "language": "ko",
+    "audio_path": "data/audio/scenario_085_telegraphic_icu.mp3",
+    "audio_sha256": "524aa068f01f79624eb59182db67cc184003c7bc275018a633797dda79c9cfd3",
+    "copied_at": "2026-11-04T04:31:12+00:00",
+    "request_seconds": 0.0,
+    "attempts": 1,
+    "git_commit": "b3490181b3fb3f88b56cde5be78a01cfdcef3007",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "source_file": "data/stt_transcripts/scenario_085_telegraphic_icu.json",
+    "source_sha256": "f3d0998afb349a555aa8d3b9ef43a5ea2fe59681ad63521dd45847178cf64a41",
+    "source_stt_metadata": {
+      "model": "whisper-1",
+      "language": "ko"
+    }
+  }
+}

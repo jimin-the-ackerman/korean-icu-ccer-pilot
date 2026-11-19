@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_050_clinical_charting",
+  "whisper_transcript": "67암성환자, Acute Heart Failure로 입원. Hypertensive Emergency 확인됨. Vital signs: BP 230mmHg, HR 110 bpm, RR 28 breath/min, BT 36.7°C, SpO2 90% room air. Chest pain severe 호소함. Nitroglycerin 10mcg/min IV TI 적용함. High flow nasal cannula 적용함. C-line 유지함. Positive fluid balance 확인됨. Clinical status drowsy 확인됨. Cardiology team notify함.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": "ko",
+    "audio_path": "data/audio/scenario_050_clinical_charting.mp3",
+    "audio_sha256": "a5fa748e094713f70d612638f05e0f621100f0694fa720903ec64bf938ea4ce5",
+    "transcribed_at": "2026-11-04T12:58:52+00:00",
+    "request_seconds": 1.97,
+    "attempts": 1,
+    "git_commit": "5b6d73fb63e1509a79e1a160176d606ed1b104c4",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "67암성환자, Acute Heart Failure로 입원. Hypertensive Emergency 확인됨. Vital signs: BP 230mmHg, HR 110 bpm, RR 28 breath/min, BT 36.7°C, SpO2 90% room air. Chest pain severe 호소함. Nitroglycerin 10mcg/min IV TI 적용함. High flow nasal cannula 적용함. C-line 유지함. Positive fluid balance 확인됨. Clinical status drowsy 확인됨. Cardiology team notify함.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 275,
+      "output_tokens": 112,
+      "total_tokens": 387,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 275,
+        "text_tokens": 0
+      }
+    }
+  }
+}

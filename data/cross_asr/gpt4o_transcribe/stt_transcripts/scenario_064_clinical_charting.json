@@ -1,0 +1,31 @@
+{
+  "sample_id": "scenario_064_clinical_charting",
+  "whisper_transcript": "65세 여환 ARDS로 입원함. BP 120/80, HR 120, BT 37.8도로 시작. SPO2 85% room air. severe shortness of breath 호소함. ceftriaxone 2g IV q12h 투여 중. mechanical ventilation 적용함. ventilator 유지함. positive fluid balance 확인됨. stupor 상태 확인됨.",
+  "stt_metadata": {
+    "asr_system": "gpt4o_transcribe",
+    "provider": "openai",
+    "model": "gpt-4o-transcribe",
+    "language": "ko",
+    "audio_path": "data/audio/scenario_064_clinical_charting.mp3",
+    "audio_sha256": "0e37acb712961aae0b995b1ca6fad0a9cc29447a8cb26edbdebcc30c334853fe",
+    "transcribed_at": "2026-11-04T13:00:37+00:00",
+    "request_seconds": 2.16,
+    "attempts": 1,
+    "git_commit": "5b6d73fb63e1509a79e1a160176d606ed1b104c4",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "text": "65세 여환 ARDS로 입원함. BP 120/80, HR 120, BT 37.8도로 시작. SPO2 85% room air. severe shortness of breath 호소함. ceftriaxone 2g IV q12h 투여 중. mechanical ventilation 적용함. ventilator 유지함. positive fluid balance 확인됨. stupor 상태 확인됨.",
+    "logprobs": null,
+    "usage": {
+      "input_tokens": 200,
+      "output_tokens": 85,
+      "total_tokens": 285,
+      "type": "tokens",
+      "input_token_details": {
+        "audio_tokens": 200,
+        "text_tokens": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "sample_id": "scenario_085_telegraphic_icu",
+  "whisper_transcript": "73세 남성 환자, 급성 호흡 부전 및 흡인성 폐렴으로 입원. BP 100/70, HR 98, BT 37.8, SpO2 88% RA. 기침 moderate. Piperacillin-Tazobactam 4.5g IV Q8H. HFNC 적용 중. Ventilator 사용 중. Fluid balance positive. 의식 상태 drowsy. Pulmonologist notify.",
+  "stt_metadata": {
+    "asr_system": "chirp3_ko",
+    "provider": "google",
+    "model": "chirp_3",
+    "location": "us",
+    "language_codes": [
+      "ko-KR"
+    ],
+    "audio_path": "data/audio/scenario_085_telegraphic_icu.mp3",
+    "audio_sha256": "524aa068f01f79624eb59182db67cc184003c7bc275018a633797dda79c9cfd3",
+    "transcribed_at": "2026-11-04T13:30:00+00:00",
+    "request_seconds": 3.64,
+    "attempts": 1,
+    "git_commit": "5b6d73fb63e1509a79e1a160176d606ed1b104c4",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "metadata": {
+      "total_billed_duration": "21s",
+      "request_id": "6b187489-0000-2189-b5e9-ac3eb14d8968",
+      "prompt": "Transcribe the following speech segment in Korean. Follow these specific instructions for formatting the answer:\n* Only output the transcript, with no newlines.\n* When transcribing numbers, write the digits, i.e. write 1.7 and not one point seven, and write 100 instead of one hundred etc.\n* Only output the transcript, exactly as said in the speech segment.\n* Do not continue the speech segment.\n* Include everything said in the speech segment.\n* Use mathematical notation where needed, eg. x ^ 6Y.\n* If there is background speech that is not part of the main conversation, discard the background speech and only output the main conversation.\n* If there is no clear speech, just output [BACKGROUND].\n* Respond in the original language of the speech, Korean."
+    },
+    "results": [
+      {
+        "alternatives": [
+          {
+            "transcript": "73세 남성 환자, 급성 호흡 부전 및 흡인성 폐렴으로 입원. BP 100/70, HR 98, BT 37.8, SpO2 88% RA. 기침 moderate. Piperacillin-Tazobactam 4.5g IV Q8H. HFNC 적용 중. Ventilator 사용 중. Fluid balance positive. 의식 상태 drowsy. Pulmonologist notify.",
+            "confidence": 0.0,
+            "words": []
+          }
+        ],
+        "language_code": "ko-KR",
+        "channel_tag": 0
+      }
+    ],
+    "detected_language_codes": [
+      "ko-KR"
+    ]
+  }
+}

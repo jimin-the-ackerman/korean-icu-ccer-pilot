@@ -1,0 +1,25 @@
+{
+  "sample_id": "scenario_057_clinical_charting",
+  "whisper_transcript": "58세 여성 환자 아큐트 익사스베이션 오브 루마토이드 아트라이티스로 입원함. 세비어 조인트 페인 호소함. BP-134-80-HRR-18-BT-37.6-SPO2-96-PROFESSIN. 메토프레드니즐론-125mg-IV-Q-SUR-H 적용함. 페이션트 알러트 상태 유지함.",
+  "stt_metadata": {
+    "asr_system": "whisper1",
+    "provider": "reuse_existing",
+    "model": "whisper-1",
+    "language": "ko",
+    "audio_path": "data/audio/scenario_057_clinical_charting.mp3",
+    "audio_sha256": "83752f0f49def58fb550133cd9f015475d3dbef9d6a452cda4b3be807a0e458e",
+    "copied_at": "2026-11-04T04:31:12+00:00",
+    "request_seconds": 0.0,
+    "attempts": 1,
+    "git_commit": "b3490181b3fb3f88b56cde5be78a01cfdcef3007",
+    "config_version": "1.0"
+  },
+  "raw_response": {
+    "source_file": "data/stt_transcripts/scenario_057_clinical_charting.json",
+    "source_sha256": "1f40c61e636b999b39c8fbcf3a0318422d99f4f5de831400b6adfeab671219cf",
+    "source_stt_metadata": {
+      "model": "whisper-1",
+      "language": "ko"
+    }
+  }
+}
