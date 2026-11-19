@@ -1,0 +1,327 @@
+{
+  "created_at": "2026-11-05T16:59:26+00:00",
+  "git_commit": "7f89ca09d499289d76cfe223f365beb3e3c855c0",
+  "git_dirty_tracked": [
+    "results/full_100_v4/sap3_weight_sensitivity_summary.csv"
+  ],
+  "status": "post hoc evaluator sensitivity analysis; v4 is the primary analysis (spec Section 13)",
+  "code_sha256": {
+    "src/cross_asr/ko_particle_extractor.py": "ec8c72a9b7e97a45258cf085554e791d1b0b0865a44a08fb6bd840dec977f222",
+    "src/cross_asr/sensitivity_ko_particle.py": "a333eeb25e6fa2fe5d62e6038760b1dee6131aecc09bb704e4f1531ed1ade80a",
+    "src/cross_asr/analysis.py": "a9b2ae935c98c7c86ef8203d078285c49fb9a0f3c688475195b7620da852cd9b",
+    "src/cross_asr/common.py": "69d7cc5ca186a855a25f52561e725f50c0a07ed4b80f2c08aeb17f39e7539a92",
+    "src/entity_extraction/closed_vocab_extractor.py": "afcad70a3fb9cc311858246eba385ed92f9c2208bdef311ad18c61a4c47d4615",
+    "src/entity_extraction/scaffold_as_gold.py": "2a52925893de4ce9b3de0a45bb2ab9da1e36f7ef1f3ca9b35338366f0948c6a1",
+    "src/matching/entity_matcher.py": "535a077264ad0701b6565c11c92c0ebb69aaf6b12288e1a1c8c7dc9ff7abb86a",
+    "src/evaluation/flatten_matches.py": "621db7f6b3853148628bb6e02ee6ed5d9cd205d85b74c9302b36729bbb1e99fa",
+    "src/evaluation/ccer_eval.py": "418e1eaee5287a1cb1a97e12bbd97946a07c10ba1490dcd6d38aaf0e6f7c71a1"
+  },
+  "particles": [
+    "으로써",
+    "으로",
+    "에서",
+    "에게",
+    "까지",
+    "부터",
+    "이며",
+    "이고",
+    "이다",
+    "이나",
+    "이라",
+    "라고",
+    "마다",
+    "와",
+    "과",
+    "을",
+    "를",
+    "이",
+    "가",
+    "은",
+    "는",
+    "의",
+    "에",
+    "로",
+    "도",
+    "만",
+    "씩"
+  ],
+  "boundary_after_particle": "whitespace | [.,;:!?)\\]}\\\"'/·…] | end of text",
+  "patched_regexes": [
+    {
+      "where": "ROUTE_PATTERNS",
+      "v4": "\\bIV\\b",
+      "s1": "\\bIV(?:\\b|(?=(?:으로써|까지|라고|마다|부터|에게|에서|으로|이고|이나|이다|이라|이며|가|과|는|도|로|를|만|씩|에|와|은|을|의|이)(?:\\s|[.,;:!?)\\]}\\\"'/·…]|\\Z)))",
+      "flags": 34
+    },
+    {
+      "where": "ROUTE_PATTERNS",
+      "v4": "\\bPO\\b",
+      "s1": "\\bPO(?:\\b|(?=(?:으로써|까지|라고|마다|부터|에게|에서|으로|이고|이나|이다|이라|이며|가|과|는|도|로|를|만|씩|에|와|은|을|의|이)(?:\\s|[.,;:!?)\\]}\\\"'/·…]|\\Z)))",
+      "flags": 34
+    },
+    {
+      "where": "ROUTE_PATTERNS",
+      "v4": "\\bIM\\b",
+      "s1": "\\bIM(?:\\b|(?=(?:으로써|까지|라고|마다|부터|에게|에서|으로|이고|이나|이다|이라|이며|가|과|는|도|로|를|만|씩|에|와|은|을|의|이)(?:\\s|[.,;:!?)\\]}\\\"'/·…]|\\Z)))",
+      "flags": 34
+    },
+    {
+      "where": "ROUTE_PATTERNS",
+      "v4": "\\b(SC|SUBQ)\\b",
+      "s1": "\\b(SC|SUBQ)(?:\\b|(?=(?:으로써|까지|라고|마다|부터|에게|에서|으로|이고|이나|이다|이라|이며|가|과|는|도|로|를|만|씩|에|와|은|을|의|이)(?:\\s|[.,;:!?)\\]}\\\"'/·…]|\\Z)))",
+      "flags": 34
+    },
+    {
+      "where": "ROUTE_PATTERNS",
+      "v4": "\\bSL\\b",
+      "s1": "\\bSL(?:\\b|(?=(?:으로써|까지|라고|마다|부터|에게|에서|으로|이고|이나|이다|이라|이며|가|과|는|도|로|를|만|씩|에|와|은|을|의|이)(?:\\s|[.,;:!?)\\]}\\\"'/·…]|\\Z)))",
+      "flags": 34
+    },
+    {
+      "where": "ROUTE_PATTERNS",
+      "v4": "\\bPR\\b",
+      "s1": "\\bPR(?:\\b|(?=(?:으로써|까지|라고|마다|부터|에게|에서|으로|이고|이나|이다|이라|이며|가|과|는|도|로|를|만|씩|에|와|은|을|의|이)(?:\\s|[.,;:!?)\\]}\\\"'/·…]|\\Z)))",
+      "flags": 34
+    },
+    {
+      "where": "ROUTE_PATTERNS",
+      "v4": "\\bintravenous(ly)?\\b",
+      "s1": "\\bintravenous(ly)?(?:\\b|(?=(?:으로써|까지|라고|마다|부터|에게|에서|으로|이고|이나|이다|이라|이며|가|과|는|도|로|를|만|씩|에|와|은|을|의|이)(?:\\s|[.,;:!?)\\]}\\\"'/·…]|\\Z)))",
+      "flags": 34
+    },
+    {
+      "where": "ROUTE_PATTERNS",
+      "v4": "\\b(oral(ly)?|per\\s*os)\\b",
+      "s1": "\\b(oral(ly)?|per\\s*os)(?:\\b|(?=(?:으로써|까지|라고|마다|부터|에게|에서|으로|이고|이나|이다|이라|이며|가|과|는|도|로|를|만|씩|에|와|은|을|의|이)(?:\\s|[.,;:!?)\\]}\\\"'/·…]|\\Z)))",
+      "flags": 34
+    },
+    {
+      "where": "ROUTE_PATTERNS",
+      "v4": "\\bintramuscular(ly)?\\b",
+      "s1": "\\bintramuscular(ly)?(?:\\b|(?=(?:으로써|까지|라고|마다|부터|에게|에서|으로|이고|이나|이다|이라|이며|가|과|는|도|로|를|만|씩|에|와|은|을|의|이)(?:\\s|[.,;:!?)\\]}\\\"'/·…]|\\Z)))",
+      "flags": 34
+    },
+    {
+      "where": "ROUTE_PATTERNS",
+      "v4": "\\bsubcutaneous(ly)?\\b",
+      "s1": "\\bsubcutaneous(ly)?(?:\\b|(?=(?:으로써|까지|라고|마다|부터|에게|에서|으로|이고|이나|이다|이라|이며|가|과|는|도|로|를|만|씩|에|와|은|을|의|이)(?:\\s|[.,;:!?)\\]}\\\"'/·…]|\\Z)))",
+      "flags": 34
+    },
+    {
+      "where": "ROUTE_PATTERNS",
+      "v4": "\\bsublingual(ly)?\\b",
+      "s1": "\\bsublingual(ly)?(?:\\b|(?=(?:으로써|까지|라고|마다|부터|에게|에서|으로|이고|이나|이다|이라|이며|가|과|는|도|로|를|만|씩|에|와|은|을|의|이)(?:\\s|[.,;:!?)\\]}\\\"'/·…]|\\Z)))",
+      "flags": 34
+    },
+    {
+      "where": "ROUTE_PATTERNS",
+      "v4": "\\b(rectal(ly)?|per\\s*rectum)\\b",
+      "s1": "\\b(rectal(ly)?|per\\s*rectum)(?:\\b|(?=(?:으로써|까지|라고|마다|부터|에게|에서|으로|이고|이나|이다|이라|이며|가|과|는|도|로|를|만|씩|에|와|은|을|의|이)(?:\\s|[.,;:!?)\\]}\\\"'/·…]|\\Z)))",
+      "flags": 34
+    },
+    {
+      "where": "FREQUENCY_PATTERNS",
+      "v4": "\\bBID\\b",
+      "s1": "\\bBID(?:\\b|(?=(?:으로써|까지|라고|마다|부터|에게|에서|으로|이고|이나|이다|이라|이며|가|과|는|도|로|를|만|씩|에|와|은|을|의|이)(?:\\s|[.,;:!?)\\]}\\\"'/·…]|\\Z)))",
+      "flags": 34
+    },
+    {
+      "where": "FREQUENCY_PATTERNS",
+      "v4": "\\bTID\\b",
+      "s1": "\\bTID(?:\\b|(?=(?:으로써|까지|라고|마다|부터|에게|에서|으로|이고|이나|이다|이라|이며|가|과|는|도|로|를|만|씩|에|와|은|을|의|이)(?:\\s|[.,;:!?)\\]}\\\"'/·…]|\\Z)))",
+      "flags": 34
+    },
+    {
+      "where": "FREQUENCY_PATTERNS",
+      "v4": "\\bQID\\b",
+      "s1": "\\bQID(?:\\b|(?=(?:으로써|까지|라고|마다|부터|에게|에서|으로|이고|이나|이다|이라|이며|가|과|는|도|로|를|만|씩|에|와|은|을|의|이)(?:\\s|[.,;:!?)\\]}\\\"'/·…]|\\Z)))",
+      "flags": 34
+    },
+    {
+      "where": "FREQUENCY_PATTERNS",
+      "v4": "\\bPRN\\b",
+      "s1": "\\bPRN(?:\\b|(?=(?:으로써|까지|라고|마다|부터|에게|에서|으로|이고|이나|이다|이라|이며|가|과|는|도|로|를|만|씩|에|와|은|을|의|이)(?:\\s|[.,;:!?)\\]}\\\"'/·…]|\\Z)))",
+      "flags": 34
+    },
+    {
+      "where": "FREQUENCY_PATTERNS",
+      "v4": "\\bSTAT\\b",
+      "s1": "\\bSTAT(?:\\b|(?=(?:으로써|까지|라고|마다|부터|에게|에서|으로|이고|이나|이다|이라|이며|가|과|는|도|로|를|만|씩|에|와|은|을|의|이)(?:\\s|[.,;:!?)\\]}\\\"'/·…]|\\Z)))",
+      "flags": 34
+    },
+    {
+      "where": "FREQUENCY_PATTERNS",
+      "v4": "\\btwice\\s*daily\\b",
+      "s1": "\\btwice\\s*daily(?:\\b|(?=(?:으로써|까지|라고|마다|부터|에게|에서|으로|이고|이나|이다|이라|이며|가|과|는|도|로|를|만|씩|에|와|은|을|의|이)(?:\\s|[.,;:!?)\\]}\\\"'/·…]|\\Z)))",
+      "flags": 34
+    },
+    {
+      "where": "FREQUENCY_PATTERNS",
+      "v4": "\\bthree\\s*times\\s*daily\\b",
+      "s1": "\\bthree\\s*times\\s*daily(?:\\b|(?=(?:으로써|까지|라고|마다|부터|에게|에서|으로|이고|이나|이다|이라|이며|가|과|는|도|로|를|만|씩|에|와|은|을|의|이)(?:\\s|[.,;:!?)\\]}\\\"'/·…]|\\Z)))",
+      "flags": 34
+    },
+    {
+      "where": "FREQUENCY_PATTERNS",
+      "v4": "\\bfour\\s*times\\s*daily\\b",
+      "s1": "\\bfour\\s*times\\s*daily(?:\\b|(?=(?:으로써|까지|라고|마다|부터|에게|에서|으로|이고|이나|이다|이라|이며|가|과|는|도|로|를|만|씩|에|와|은|을|의|이)(?:\\s|[.,;:!?)\\]}\\\"'/·…]|\\Z)))",
+      "flags": 34
+    },
+    {
+      "where": "FREQUENCY_PATTERNS",
+      "v4": "\\bas\\s*needed\\b",
+      "s1": "\\bas\\s*needed(?:\\b|(?=(?:으로써|까지|라고|마다|부터|에게|에서|으로|이고|이나|이다|이라|이며|가|과|는|도|로|를|만|씩|에|와|은|을|의|이)(?:\\s|[.,;:!?)\\]}\\\"'/·…]|\\Z)))",
+      "flags": 34
+    },
+    {
+      "where": "FREQUENCY_PATTERNS",
+      "v4": "\\bimmediately\\b",
+      "s1": "\\bimmediately(?:\\b|(?=(?:으로써|까지|라고|마다|부터|에게|에서|으로|이고|이나|이다|이라|이며|가|과|는|도|로|를|만|씩|에|와|은|을|의|이)(?:\\s|[.,;:!?)\\]}\\\"'/·…]|\\Z)))",
+      "flags": 34
+    },
+    {
+      "where": "DEVICE_PATTERNS",
+      "v4": "\\bfoley(\\s*catheter)?\\b",
+      "s1": "\\bfoley(\\s*catheter)?(?:\\b|(?=(?:으로써|까지|라고|마다|부터|에게|에서|으로|이고|이나|이다|이라|이며|가|과|는|도|로|를|만|씩|에|와|은|을|의|이)(?:\\s|[.,;:!?)\\]}\\\"'/·…]|\\Z)))",
+      "flags": 34
+    },
+    {
+      "where": "DEVICE_PATTERNS",
+      "v4": "\\b(c-line|central\\s*line)\\b",
+      "s1": "\\b(c-line|central\\s*line)(?:\\b|(?=(?:으로써|까지|라고|마다|부터|에게|에서|으로|이고|이나|이다|이라|이며|가|과|는|도|로|를|만|씩|에|와|은|을|의|이)(?:\\s|[.,;:!?)\\]}\\\"'/·…]|\\Z)))",
+      "flags": 34
+    },
+    {
+      "where": "DEVICE_PATTERNS",
+      "v4": "\\bventilator\\b",
+      "s1": "\\bventilator(?:\\b|(?=(?:으로써|까지|라고|마다|부터|에게|에서|으로|이고|이나|이다|이라|이며|가|과|는|도|로|를|만|씩|에|와|은|을|의|이)(?:\\s|[.,;:!?)\\]}\\\"'/·…]|\\Z)))",
+      "flags": 34
+    },
+    {
+      "where": "DEVICE_PATTERNS",
+      "v4": "\\b(ng\\s*tube|nasogastric\\s*tube)\\b",
+      "s1": "\\b(ng\\s*tube|nasogastric\\s*tube)(?:\\b|(?=(?:으로써|까지|라고|마다|부터|에게|에서|으로|이고|이나|이다|이라|이며|가|과|는|도|로|를|만|씩|에|와|은|을|의|이)(?:\\s|[.,;:!?)\\]}\\\"'/·…]|\\Z)))",
+      "flags": 34
+    },
+    {
+      "where": "DEVICE_PATTERNS",
+      "v4": "\\b(high-?flow\\s*)?nasal\\s*cannula\\b",
+      "s1": "\\b(high-?flow\\s*)?nasal\\s*cannula(?:\\b|(?=(?:으로써|까지|라고|마다|부터|에게|에서|으로|이고|이나|이다|이라|이며|가|과|는|도|로|를|만|씩|에|와|은|을|의|이)(?:\\s|[.,;:!?)\\]}\\\"'/·…]|\\Z)))",
+      "flags": 34
+    },
+    {
+      "where": "DEVICE_PATTERNS",
+      "v4": "\\bnc\\b",
+      "s1": "\\bnc(?:\\b|(?=(?:으로써|까지|라고|마다|부터|에게|에서|으로|이고|이나|이다|이라|이며|가|과|는|도|로|를|만|씩|에|와|은|을|의|이)(?:\\s|[.,;:!?)\\]}\\\"'/·…]|\\Z)))",
+      "flags": 34
+    },
+    {
+      "where": "VITAL_SIGN_LABEL_PATTERNS",
+      "v4": "\\bBP\\b",
+      "s1": "\\bBP(?:\\b|(?=(?:으로써|까지|라고|마다|부터|에게|에서|으로|이고|이나|이다|이라|이며|가|과|는|도|로|를|만|씩|에|와|은|을|의|이)(?:\\s|[.,;:!?)\\]}\\\"'/·…]|\\Z)))",
+      "flags": 34
+    },
+    {
+      "where": "VITAL_SIGN_LABEL_PATTERNS",
+      "v4": "\\bHR\\b",
+      "s1": "\\bHR(?:\\b|(?=(?:으로써|까지|라고|마다|부터|에게|에서|으로|이고|이나|이다|이라|이며|가|과|는|도|로|를|만|씩|에|와|은|을|의|이)(?:\\s|[.,;:!?)\\]}\\\"'/·…]|\\Z)))",
+      "flags": 34
+    },
+    {
+      "where": "VITAL_SIGN_LABEL_PATTERNS",
+      "v4": "\\bRR\\b",
+      "s1": "\\bRR(?:\\b|(?=(?:으로써|까지|라고|마다|부터|에게|에서|으로|이고|이나|이다|이라|이며|가|과|는|도|로|를|만|씩|에|와|은|을|의|이)(?:\\s|[.,;:!?)\\]}\\\"'/·…]|\\Z)))",
+      "flags": 34
+    },
+    {
+      "where": "VITAL_SIGN_LABEL_PATTERNS",
+      "v4": "\\bBT\\b",
+      "s1": "\\bBT(?:\\b|(?=(?:으로써|까지|라고|마다|부터|에게|에서|으로|이고|이나|이다|이라|이며|가|과|는|도|로|를|만|씩|에|와|은|을|의|이)(?:\\s|[.,;:!?)\\]}\\\"'/·…]|\\Z)))",
+      "flags": 34
+    },
+    {
+      "where": "VITAL_SIGN_LABEL_PATTERNS",
+      "v4": "\\b(SpO2|SpO₂|SAT)\\b",
+      "s1": "\\b(SpO2|SpO₂|SAT)(?:\\b|(?=(?:으로써|까지|라고|마다|부터|에게|에서|으로|이고|이나|이다|이라|이며|가|과|는|도|로|를|만|씩|에|와|은|을|의|이)(?:\\s|[.,;:!?)\\]}\\\"'/·…]|\\Z)))",
+      "flags": 34
+    },
+    {
+      "where": "VITAL_SIGN_LABEL_PATTERNS",
+      "v4": "\\bblood\\s*pressure\\b",
+      "s1": "\\bblood\\s*pressure(?:\\b|(?=(?:으로써|까지|라고|마다|부터|에게|에서|으로|이고|이나|이다|이라|이며|가|과|는|도|로|를|만|씩|에|와|은|을|의|이)(?:\\s|[.,;:!?)\\]}\\\"'/·…]|\\Z)))",
+      "flags": 34
+    },
+    {
+      "where": "VITAL_SIGN_LABEL_PATTERNS",
+      "v4": "\\b(heart\\s*rate|pulse)\\b",
+      "s1": "\\b(heart\\s*rate|pulse)(?:\\b|(?=(?:으로써|까지|라고|마다|부터|에게|에서|으로|이고|이나|이다|이라|이며|가|과|는|도|로|를|만|씩|에|와|은|을|의|이)(?:\\s|[.,;:!?)\\]}\\\"'/·…]|\\Z)))",
+      "flags": 34
+    },
+    {
+      "where": "VITAL_SIGN_LABEL_PATTERNS",
+      "v4": "\\b(respiratory\\s*rate|respiration)\\b",
+      "s1": "\\b(respiratory\\s*rate|respiration)(?:\\b|(?=(?:으로써|까지|라고|마다|부터|에게|에서|으로|이고|이나|이다|이라|이며|가|과|는|도|로|를|만|씩|에|와|은|을|의|이)(?:\\s|[.,;:!?)\\]}\\\"'/·…]|\\Z)))",
+      "flags": 34
+    },
+    {
+      "where": "VITAL_SIGN_LABEL_PATTERNS",
+      "v4": "\\b(body\\s*temperature|temperature)\\b",
+      "s1": "\\b(body\\s*temperature|temperature)(?:\\b|(?=(?:으로써|까지|라고|마다|부터|에게|에서|으로|이고|이나|이다|이라|이며|가|과|는|도|로|를|만|씩|에|와|은|을|의|이)(?:\\s|[.,;:!?)\\]}\\\"'/·…]|\\Z)))",
+      "flags": 34
+    },
+    {
+      "where": "VITAL_SIGN_LABEL_PATTERNS",
+      "v4": "\\boxygen\\s*saturation\\b",
+      "s1": "\\boxygen\\s*saturation(?:\\b|(?=(?:으로써|까지|라고|마다|부터|에게|에서|으로|이고|이나|이다|이라|이며|가|과|는|도|로|를|만|씩|에|와|은|을|의|이)(?:\\s|[.,;:!?)\\]}\\\"'/·…]|\\Z)))",
+      "flags": 34
+    },
+    {
+      "where": "FREQUENCY_QH_PATTERN",
+      "v4": "\\bq[\\s-]?(\\d+)\\s*h\\b",
+      "s1": "\\bq[\\s-]?(\\d+)\\s*h(?:\\b|(?=(?:으로써|까지|라고|마다|부터|에게|에서|으로|이고|이나|이다|이라|이며|가|과|는|도|로|를|만|씩|에|와|은|을|의|이)(?:\\s|[.,;:!?)\\]}\\\"'/·…]|\\Z)))",
+      "flags": 34
+    },
+    {
+      "where": "FREQUENCY_QH_ENGLISH_FULL_PATTERN",
+      "v4": "\\bevery\\s*(\\d+)\\s*hours?\\b",
+      "s1": "\\bevery\\s*(\\d+)\\s*hours?(?:\\b|(?=(?:으로써|까지|라고|마다|부터|에게|에서|으로|이고|이나|이다|이라|이며|가|과|는|도|로|를|만|씩|에|와|은|을|의|이)(?:\\s|[.,;:!?)\\]}\\\"'/·…]|\\Z)))",
+      "flags": 34
+    },
+    {
+      "where": "DOSE_PATTERN",
+      "v4": "\\b(\\d+(?:\\.\\d+)?)\\s*(mg|mL|ml|cc|g|mcg|L/min|l/min)\\b",
+      "s1": "\\b(\\d+(?:\\.\\d+)?)\\s*(mg|mL|ml|cc|g|mcg|L/min|l/min)(?:\\b|(?=(?:으로써|까지|라고|마다|부터|에게|에서|으로|이고|이나|이다|이라|이며|가|과|는|도|로|를|만|씩|에|와|은|을|의|이)(?:\\s|[.,;:!?)\\]}\\\"'/·…]|\\Z)))",
+      "flags": 34
+    }
+  ],
+  "bootstrap": {
+    "iterations": 2000,
+    "seed": 20261103,
+    "ci": 0.95
+  },
+  "stratified_sample": {
+    "per_stratum": 2,
+    "seed": 20261103
+  },
+  "conditions": [
+    "whisper1_v4_sept",
+    "whisper1",
+    "gpt4o_transcribe",
+    "chirp3_ko",
+    "whisper1_auto",
+    "gpt4o_transcribe_auto",
+    "chirp3_auto"
+  ],
+  "n98_excluded": [
+    "scenario_007",
+    "scenario_063"
+  ],
+  "empty_response_rule": {
+    "chirp3_auto": [
+      "scenario_063_telegraphic_icu"
+    ]
+  },
+  "pairing_rule": "by (entity_type, label, gold_value); duplicate keys with differing judgements reported as ambiguous_group, not as individual transitions",
+  "n_input_files_hashed": 4605,
+  "api_calls": 0
+}

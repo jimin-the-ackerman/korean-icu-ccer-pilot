@@ -1,0 +1,22 @@
+condition,style,n_samples,gold_entities,weighted_v4,ccer_v4,sample_mean_v4,ccer_s1,sample_mean_s1,weighted_s1,change,rank_v4,rank_s1
+whisper1_v4_sept,formal_template,100,1415,1191.0,0.8417,0.8432,0.6749,0.6784,955.0,-0.1668,F < C < T,F < C < T
+whisper1_v4_sept,clinical_charting,100,1415,1653.0,1.1682,1.1677,1.1675,1.167,1652.0,-0.0007,F < C < T,F < C < T
+whisper1_v4_sept,telegraphic_icu,100,1415,1717.0,1.2134,1.222,1.212,1.2208,1715.0,-0.0014,F < C < T,F < C < T
+whisper1,formal_template,100,1415,1184.0,0.8367,0.8388,0.67,0.674,948.0,-0.1667,F < C < T,F < C < T
+whisper1,clinical_charting,100,1416,1671.0,1.1801,1.1783,1.1794,1.1776,1670.0,-0.0007,F < C < T,F < C < T
+whisper1,telegraphic_icu,100,1415,1690.0,1.1943,1.2029,1.1929,1.2017,1688.0,-0.0014,F < C < T,F < C < T
+gpt4o_transcribe,formal_template,100,1415,900.0,0.636,0.6365,0.4657,0.4662,659.0,-0.1703,F < T < C,F < T < C
+gpt4o_transcribe,clinical_charting,100,1415,1309.0,0.9251,0.9273,0.923,0.9254,1306.0,-0.0021,F < T < C,F < T < C
+gpt4o_transcribe,telegraphic_icu,100,1415,1126.0,0.7958,0.8053,0.7972,0.8069,1128.0,0.0014,F < T < C,F < T < C
+chirp3_ko,formal_template,100,1415,951.0,0.6721,0.6729,0.4551,0.4565,644.0,-0.217,F < T < C,F < T < C
+chirp3_ko,clinical_charting,100,1415,1195.0,0.8445,0.8488,0.8403,0.8446,1189.0,-0.0042,F < T < C,F < T < C
+chirp3_ko,telegraphic_icu,100,1415,1111.0,0.7852,0.7962,0.7852,0.7962,1111.0,0.0,F < T < C,F < T < C
+whisper1_auto,formal_template,100,1415,1182.0,0.8353,0.8377,0.6686,0.6729,946.0,-0.1667,F < T < C,F < T < C
+whisper1_auto,clinical_charting,100,1415,1681.0,1.188,1.1908,1.1866,1.1895,1679.0,-0.0014,F < T < C,F < T < C
+whisper1_auto,telegraphic_icu,100,1415,1644.0,1.1618,1.1722,1.1618,1.1722,1644.0,0.0,F < T < C,F < T < C
+gpt4o_transcribe_auto,formal_template,100,1415,887.0,0.6269,0.6269,0.458,0.458,648.0,-0.1689,F < T < C,F < T < C
+gpt4o_transcribe_auto,clinical_charting,100,1416,1194.0,0.8432,0.8464,0.8397,0.843,1189.0,-0.0035,F < T < C,F < T < C
+gpt4o_transcribe_auto,telegraphic_icu,100,1415,1125.0,0.7951,0.8042,0.7951,0.8042,1125.0,0.0,F < T < C,F < T < C
+chirp3_auto,formal_template,100,1415,979.0,0.6919,0.6922,0.477,0.4779,675.0,-0.2149,F < T < C,F < T < C
+chirp3_auto,clinical_charting,100,1415,1166.0,0.824,0.8268,0.8233,0.826,1165.0,-0.0007,F < T < C,F < T < C
+chirp3_auto,telegraphic_icu,100,1415,1139.0,0.8049,0.8153,0.8049,0.8153,1139.0,0.0,F < T < C,F < T < C

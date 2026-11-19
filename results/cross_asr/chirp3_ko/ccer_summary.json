@@ -1,0 +1,213 @@
+{
+  "clinical_charting": {
+    "ccer_score": 0.8445,
+    "gold_entity_count": 1415,
+    "error_type_profile": {
+      "numeric_error": 224,
+      "hallucination": 67,
+      "omission": 131,
+      "frequency_error": 12,
+      "medication_identity_error": 2,
+      "substitution": 11,
+      "unit_error": 4
+    },
+    "entity_error_profile": {
+      "route": {
+        "error_count": 8,
+        "total_count": 100,
+        "error_rate": 0.08
+      },
+      "frequency": {
+        "error_count": 32,
+        "total_count": 99,
+        "error_rate": 0.3232
+      },
+      "device": {
+        "error_count": 38,
+        "total_count": 136,
+        "error_rate": 0.2794
+      },
+      "dose": {
+        "error_count": 19,
+        "total_count": 100,
+        "error_rate": 0.19
+      },
+      "vital_sign": {
+        "error_count": 264,
+        "total_count": 500,
+        "error_rate": 0.528
+      },
+      "symptom": {
+        "error_count": 4,
+        "total_count": 100,
+        "error_rate": 0.04
+      },
+      "clinical_status": {
+        "error_count": 1,
+        "total_count": 100,
+        "error_rate": 0.01
+      },
+      "medication_identity": {
+        "error_count": 2,
+        "total_count": 100,
+        "error_rate": 0.02
+      },
+      "notification": {
+        "error_count": 3,
+        "total_count": 66,
+        "error_rate": 0.0455
+      },
+      "intervention": {
+        "error_count": 3,
+        "total_count": 39,
+        "error_rate": 0.0769
+      },
+      "intake_output": {
+        "error_count": 10,
+        "total_count": 75,
+        "error_rate": 0.1333
+      }
+    }
+  },
+  "formal_template": {
+    "ccer_score": 0.6721,
+    "gold_entity_count": 1415,
+    "error_type_profile": {
+      "omission": 342,
+      "numeric_error": 28,
+      "hallucination": 53,
+      "frequency_error": 4,
+      "unit_error": 6,
+      "substitution": 1,
+      "device_error": 1
+    },
+    "entity_error_profile": {
+      "route": {
+        "error_count": 57,
+        "total_count": 100,
+        "error_rate": 0.57
+      },
+      "frequency": {
+        "error_count": 25,
+        "total_count": 99,
+        "error_rate": 0.2525
+      },
+      "device": {
+        "error_count": 101,
+        "total_count": 136,
+        "error_rate": 0.7426
+      },
+      "dose": {
+        "error_count": 90,
+        "total_count": 100,
+        "error_rate": 0.9
+      },
+      "vital_sign": {
+        "error_count": 94,
+        "total_count": 500,
+        "error_rate": 0.188
+      },
+      "symptom": {
+        "error_count": 2,
+        "total_count": 100,
+        "error_rate": 0.02
+      },
+      "clinical_status": {
+        "error_count": 2,
+        "total_count": 100,
+        "error_rate": 0.02
+      },
+      "medication_identity": {
+        "error_count": 1,
+        "total_count": 100,
+        "error_rate": 0.01
+      },
+      "notification": {
+        "error_count": 1,
+        "total_count": 66,
+        "error_rate": 0.0152
+      },
+      "intervention": {
+        "error_count": 6,
+        "total_count": 39,
+        "error_rate": 0.1538
+      },
+      "intake_output": {
+        "error_count": 3,
+        "total_count": 75,
+        "error_rate": 0.04
+      }
+    }
+  },
+  "telegraphic_icu": {
+    "ccer_score": 0.7852,
+    "gold_entity_count": 1415,
+    "error_type_profile": {
+      "numeric_error": 150,
+      "omission": 210,
+      "hallucination": 64,
+      "substitution": 8,
+      "frequency_error": 7,
+      "unit_error": 6,
+      "severity_shift": 1,
+      "device_error": 2
+    },
+    "entity_error_profile": {
+      "route": {
+        "error_count": 9,
+        "total_count": 100,
+        "error_rate": 0.09
+      },
+      "frequency": {
+        "error_count": 31,
+        "total_count": 99,
+        "error_rate": 0.3131
+      },
+      "device": {
+        "error_count": 39,
+        "total_count": 136,
+        "error_rate": 0.2868
+      },
+      "dose": {
+        "error_count": 31,
+        "total_count": 100,
+        "error_rate": 0.31
+      },
+      "vital_sign": {
+        "error_count": 232,
+        "total_count": 500,
+        "error_rate": 0.464
+      },
+      "symptom": {
+        "error_count": 5,
+        "total_count": 100,
+        "error_rate": 0.05
+      },
+      "clinical_status": {
+        "error_count": 9,
+        "total_count": 100,
+        "error_rate": 0.09
+      },
+      "medication_identity": {
+        "error_count": 5,
+        "total_count": 100,
+        "error_rate": 0.05
+      },
+      "notification": {
+        "error_count": 5,
+        "total_count": 66,
+        "error_rate": 0.0758
+      },
+      "intervention": {
+        "error_count": 7,
+        "total_count": 39,
+        "error_rate": 0.1795
+      },
+      "intake_output": {
+        "error_count": 11,
+        "total_count": 75,
+        "error_rate": 0.1467
+      }
+    }
+  }
+}

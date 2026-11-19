@@ -1,0 +1,13 @@
+condition,style,n_samples,gold_entities,weighted_errors,pooled_micro_ccer,sample_mean_ccer
+whisper1_v4_sept,formal_template,100,1415,1191.0,0.8417,0.8432
+whisper1_v4_sept,clinical_charting,100,1415,1653.0,1.1682,1.1677
+whisper1_v4_sept,telegraphic_icu,100,1415,1717.0,1.2134,1.222
+whisper1,formal_template,100,1415,1184.0,0.8367,0.8388
+whisper1,clinical_charting,100,1416,1671.0,1.1801,1.1783
+whisper1,telegraphic_icu,100,1415,1690.0,1.1943,1.2029
+gpt4o_transcribe,formal_template,100,1415,900.0,0.636,0.6365
+gpt4o_transcribe,clinical_charting,100,1415,1309.0,0.9251,0.9273
+gpt4o_transcribe,telegraphic_icu,100,1415,1126.0,0.7958,0.8053
+chirp3_ko,formal_template,100,1415,951.0,0.6721,0.6729
+chirp3_ko,clinical_charting,100,1415,1195.0,0.8445,0.8488
+chirp3_ko,telegraphic_icu,100,1415,1111.0,0.7852,0.7962

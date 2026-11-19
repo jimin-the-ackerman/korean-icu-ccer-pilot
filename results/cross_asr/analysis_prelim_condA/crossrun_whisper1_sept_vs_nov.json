@@ -1,0 +1,8 @@
+{
+  "identical_sample_ccer": 244,
+  "n_samples": 300,
+  "max_abs_sample_change": 0.4,
+  "gold_count_changed": [
+    "scenario_063_clinical_charting"
+  ]
+}

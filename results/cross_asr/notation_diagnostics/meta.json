@@ -1,0 +1,25 @@
+{
+  "created_at": "2026-11-05T07:19:21+00:00",
+  "git_commit": "395679fca93699db06521aca2b21d0ac4a2b8ba5",
+  "conditions": [
+    "whisper1",
+    "gpt4o_transcribe",
+    "chirp3_ko",
+    "whisper1_auto",
+    "gpt4o_transcribe_auto",
+    "chirp3_auto"
+  ],
+  "lenient_steps": [
+    "device alias C-line",
+    "device alias catheter",
+    "device alias cannula",
+    "device alias nasal",
+    "unit word mg",
+    "unit word mL",
+    "unit word mcg",
+    "unit word g",
+    "unit word percent",
+    "space before particle"
+  ],
+  "note": "diagnostic only; primary CCER unchanged; open-vocab results reused unchanged"
+}

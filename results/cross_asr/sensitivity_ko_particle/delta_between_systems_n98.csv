@@ -1,0 +1,10 @@
+comparison,contrast,estimate_v4,ci_low_v4,ci_high_v4,estimate_s1,ci_low_s1,ci_high_s1
+whisper1 - gpt4o_transcribe,Delta_FC,-0.0433,-0.1237,0.0383,-0.044,-0.1262,0.0408
+whisper1 - gpt4o_transcribe,Delta_FT,-0.1984,-0.2861,-0.113,-0.1948,-0.2823,-0.1077
+whisper1 - gpt4o_transcribe,Delta_CT,-0.1551,-0.2597,-0.0513,-0.1508,-0.2551,-0.0474
+whisper1 - chirp3_ko,Delta_FC,-0.1595,-0.2628,-0.061,-0.1147,-0.2208,-0.015
+whisper1 - chirp3_ko,Delta_FT,-0.2547,-0.3525,-0.1562,-0.2049,-0.3065,-0.0979
+whisper1 - chirp3_ko,Delta_CT,-0.0952,-0.2061,0.0153,-0.0902,-0.1996,0.0197
+gpt4o_transcribe - chirp3_ko,Delta_FC,-0.1162,-0.2165,-0.0296,-0.0707,-0.1685,0.0181
+gpt4o_transcribe - chirp3_ko,Delta_FT,-0.0563,-0.1476,0.0335,-0.0101,-0.1022,0.0788
+gpt4o_transcribe - chirp3_ko,Delta_CT,0.0599,-0.0403,0.1621,0.0606,-0.0401,0.1636
