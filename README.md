@@ -15,6 +15,17 @@ preservation in the resulting transcripts.
 > custom Clinical Critical Error Rate (CCER), implemented end-to-end using
 > generative AI.
 
+![Research flow: scaffold, scenario (gold), documentation styles, TTS, three ASR systems, transcripts and CCER evaluation](docs/figures/research_flow.png)
+
+*Research flow with one example (scenario_012). Highlighted spans show evaluator decisions,
+not necessarily ASR errors; \* marks spans that were transcribed correctly but not extracted by
+the v4 evaluator (see Sec 3.9).*
+
+Presented as an e-poster at the **KOSMI 2026 Fall Conference (EP 8-6)**:
+*Evaluating Clinical Information Preservation Across Documentation Styles in Korean-English
+Code-Switched ICU Speech Recognition* -- poster PDF in
+[awards-and-posters](https://github.com/jimin-the-ackerman/awards-and-posters).
+
 ---
 
 ## 1. Research Overview
@@ -41,6 +52,17 @@ scenarios × 3 Documentation Registers = 300 samples):
 4. A pre-registered statistical analysis plan (Friedman/Wilcoxon/mixed-
    effects, WER-CCER association, within-scenario disagreement, and CCER
    weighting-scheme sensitivity).
+5. A **Cross-ASR robustness check** (November 2026): the same 300 audio
+   files transcribed by three ASR systems (Whisper-1, gpt-4o-transcribe,
+   Google Chirp 3) and scored with the unchanged v4 evaluator
+   (`docs/cross_asr_spec.md`).
+6. A **post hoc evaluator sensitivity analysis (S1)** for Korean particles
+   attached to English clinical terms, which the v4 extractor misses
+   (`docs/cross_asr_spec.md` Sec 13).
+
+The roles are fixed: the September v4 Whisper-1 analysis is the **primary
+analysis**, Cross-ASR is a **robustness check**, and S1 is a **post hoc
+sensitivity analysis** that does not replace the primary result.
 
 The evaluation methodology went through four documented revisions
 (`docs/design_decisions.md`, `docs/taxonomy_audit.md`,
@@ -63,7 +85,8 @@ Reference Analysis
 -> Style Controller
 -> GPT-4o: Style-controlled Documentation Generation
 -> OpenAI TTS: Speech Synthesis
--> OpenAI Whisper: Speech Recognition
+-> ASR: OpenAI Whisper-1 (primary); gpt-4o-transcribe and Google Chirp 3
+   (Cross-ASR robustness check)
 -> Entity Extraction (Closed-vocabulary / Open-vocabulary)
 -> Entity Matching & Error Type Classification
 -> Evaluation (WER / Entity-level P,R,F1 / CCER)
@@ -97,6 +120,14 @@ OpenAI TTS (`src/tts/synthesize_speech.py`) and transcribed back into text
 using the OpenAI Whisper API (`src/stt/transcribe.py`). A single voice is
 fixed across all samples to keep speaker identity as a controlled
 variable.
+
+For the Cross-ASR robustness check, the same 300 audio files were
+additionally transcribed with `gpt-4o-transcribe` (OpenAI) and `chirp_3`
+(Google Speech-to-Text V2), with no prompts, vocabulary boosting or term
+lists (`src/cross_asr/transcribe.py`, `configs/cross_asr.yaml`). Condition A
+(Korean specified) is primary; Condition B (language not specified / auto)
+is exploratory. CLOVA Speech was trialled and excluded before the main
+analysis (romanized Korean output; see `docs/cross_asr_spec.md` Sec 11.1).
 
 ### 2.4 Entity Extraction
 Clinical information is extracted from the transcripts in two tracks,
@@ -279,11 +310,13 @@ The ranking held under macro-averaging, so Formal Template's advantage
 is not purely a vital-sign-frequency artifact -- but the margin narrowed
 substantially (from a ~0.33-0.37 micro-CCER gap to a ~0.04-0.15
 macro-CCER gap), and the advantage is **not uniform**: Formal Template
-outperformed the other two registers in 8 of 11 entity types
-(dramatically so for `vital_sign`), but *underperformed* Clinical
-Charting specifically on `device`, `dose`, and `route` -- the entity
-types describing medication administration and physical equipment. This
-motivated the exploratory follow-up in Section 3.7.
+had the lowest entity-type CCER in 7 of 11 types (one of them a tie with
+Clinical Charting, `medication_identity`; dramatically so for
+`vital_sign`), but *underperformed* Clinical Charting on `device`,
+`dose`, and `route` -- the entity types describing medication
+administration and physical equipment -- and was highest on `symptom`.
+This motivated the exploratory follow-up in Section 3.7. Most of the
+`dose`/`route` gap was later traced to an evaluator effect (Section 3.9).
 
 ### 3.7 Exploratory Follow-up: An Entity-Informed Hybrid Register
 
@@ -353,6 +386,120 @@ genuine, informative negative finding: entity-specific advantages
 observed descriptively do not automatically compose into a uniformly
 superior mixed-register note.
 
+> **Update (November 2026).** Under the post hoc particle-handling
+> sensitivity analysis (Section 3.9), the Hybrid advantage over Formal
+> Template is not present (micro-CCER 0.674 vs 0.675; macro-CCER 0.645 vs
+> 0.598; pooled values, not tested). Hybrid rendered medication facts in
+> the Clinical style ("40 mg IV") and so avoided an extraction gap that
+> only affected Formal Template's "40mg을", "IV로". Most of the Hybrid gain is
+> therefore more likely an evaluator effect than better transcription.
+
+### 3.8 Cross-ASR Robustness Check (November 2026)
+
+Same 300 audio files, same scaffolds, unchanged v4 evaluator; all three
+systems evaluated in the same run, including a re-evaluation of the
+September Whisper-1 transcripts (Condition A, Korean specified, n = 100
+scenarios). Full protocol and run notes: `docs/cross_asr_spec.md`;
+results: `results/cross_asr/`.
+
+| ASR | Style | nWER | Entity F1 | Micro-CCER | Macro-CCER |
+|---|---|---|---|---|---|
+| Whisper-1\* | Formal | **0.304** | **0.750** | **0.837** | **0.785** |
+| | Clinical | 0.452 | 0.627 | 1.180 | 0.864 |
+| | Telegraphic | 0.564 | 0.617 | 1.194 | 0.917 |
+| gpt-4o-transcribe | Formal | **0.246** | **0.822** | **0.636** | 0.671 |
+| | Clinical | 0.277 | 0.722 | 0.925 | 0.643 |
+| | Telegraphic | 0.360 | 0.770 | 0.796 | **0.559** |
+| Chirp 3 | Formal | **0.155** | **0.813** | **0.672** | 0.685 |
+| | Clinical | 0.243 | 0.745 | 0.845 | **0.560** |
+| | Telegraphic | 0.305 | 0.768 | 0.785 | 0.582 |
+
+\*Same transcripts as the primary analysis, re-evaluated in November 2026;
+pooled CCER differed by at most 0.02 from the September run, with the same
+style ranking (evaluation-LLM run-to-run variation; temperature not set).
+Bold = best within each system.
+
+| ASR (v4, n = 100) | Friedman chi-sq (W) | F vs C (Holm p) | F vs T (Holm p) | C vs T (Holm p) |
+|---|---|---|---|---|
+| Whisper-1\* | 75.7 (0.38) | 9.8e-12 | 5.0e-12 | 0.72 |
+| gpt-4o-transcribe | 35.5 (0.18) | 6.6e-9 | 0.0017 | 0.0095 (T lower) |
+| Chirp 3 | 8.1 (0.04) | 5.9e-4 | **0.066** | 0.24 |
+
+- **Formal Template had the lowest nWER, highest Entity F1 and lowest
+  micro-CCER with all three systems.** The order of Clinical Charting
+  and Telegraphic ICU varied by system.
+- Under v4 the Formal advantage was not significant for Chirp 3 Formal vs
+  Telegraphic (Holm p = 0.066), and under **macro-CCER Formal ranked last
+  for gpt-4o-transcribe and Chirp 3** -- see Section 3.9 for why.
+- Condition B (language not specified, exploratory) gave the same
+  micro-CCER pattern (Formal lowest for all three systems).
+- Excluding the two scenarios with suspected TTS defects (007, 063;
+  `docs/cross_asr_spec.md` Sec 12.3) does not change any conclusion.
+
+### 3.9 Post hoc Evaluator Sensitivity Analysis S1: Korean Particle Attachment
+
+The notation diagnostics of the Cross-ASR study found correctly
+transcribed English terms followed by a Korean particle -- e.g. "40mg**을**",
+"IV**로**", "nasal cannula**를**" -- that the v4 closed-vocabulary
+extractor misses, because Python's `\b` treats Hangul as word characters.
+S1 changes only the word-boundary condition of 41 closed-vocabulary
+patterns to also accept 27 Korean particles (the particle is not part of
+the extracted value); open-vocabulary matches are reused unchanged.
+Designed after viewing results, so it is reported as a **post hoc
+sensitivity analysis**; v4 remains primary (`docs/cross_asr_spec.md`
+Sec 13, 13.1; no API call).
+
+| ASR | Formal micro-CCER (v4 -> S1) | Formal macro-CCER (v4 -> S1) | Macro ranking (v4 -> S1) |
+|---|---|---|---|
+| Whisper-1 (Sep, primary run) | 0.842 -> 0.675 | 0.802 -> 0.598 | F < C < T -> F < C < T |
+| Whisper-1\* (Nov) | 0.837 -> 0.670 | 0.785 -> 0.581 | F < C < T -> F < C < T |
+| gpt-4o-transcribe | 0.636 -> 0.466 | 0.671 -> 0.455 | T < C < **F** -> **F** < T < C |
+| Chirp 3 | 0.672 -> 0.455 | 0.685 -> 0.419 | C < T < **F** -> **F** < C < T |
+
+- S1 changed **only Formal Template**: Clinical Charting and Telegraphic
+  ICU changed by 0.005 or less (micro and macro).
+- Under S1, Formal differed from both other styles for every system
+  (Holm p < 1e-8); Kendall's W rose (Sep Whisper-1 0.39 -> 0.51,
+  gpt-4o-transcribe 0.18 -> 0.40, Chirp 3 0.04 -> 0.33).
+- Entity level (Sep Whisper-1, Formal v4 -> S1; Clinical Charting in
+  parentheses): `dose` 1.820 -> **0.640** (1.040; ranking reversed),
+  `route` 1.770 -> 1.090 (1.010), `device` 1.618 -> 1.309 (0.890; the
+  remaining gap likely involves Korean transliterations such as "폴리
+  캐테터", which are outside S1's scope).
+- Manual review (Condition A; transcript and scaffold, no audio): a
+  stratified sample of 30 omission -> matched changes were all valid
+  matches; a 40-record side-effect audit found 24 residual evaluator
+  artifacts (e.g. duplicate IV mentions, oxygen flow or fluid volume
+  read as a dose). **S1 values therefore still contain residual
+  evaluator artifacts and are not reported as corrected values.**
+- Macro-CCER under S1 and the Hybrid S1 check were added for the KOSMI
+  poster (`src/cross_asr/kosmi2026_tables.py`,
+  `results/cross_asr/kosmi2026_tables/`, spec Sec 13.2).
+
+### 3.10 Overall Conclusion
+
+1. **Style result.** Formal Template had the lowest micro-CCER (and nWER,
+   highest Entity F1) with all three ASR systems, and this advantage
+   persisted -- and widened -- after the post hoc particle correction.
+2. **Evaluator result.** How the evaluator handled Korean-English
+   expressions changed the conclusions twice: the v3 -> v4 redesign
+   (Korean labels, value formats) reversed the overall style ranking
+   (Sec 3.5), and particle handling (S1) reversed the `dose` ranking,
+   the macro-CCER ranking for two systems, and the Hybrid advantage.
+   Clinically weighted evaluation of Korean-English code-switched ASR
+   needs style-invariant extraction and an evaluator validated against
+   human annotation.
+
+**Limitations.** LLM-generated notes and single-voice TTS speech, not real
+ICU speech; entity taxonomy and severity weights based on external
+references without clinician review; evaluator decisions (including the
+LLM-based open-vocabulary matching) not validated against human
+annotation.
+
+**Future work.** Clinician-reviewed scenarios, entity definitions and
+weights with real ICU speech; a human-validated code-switching-aware
+evaluator; then CCER-informed ASR fine-tuning.
+
 ---
 
 ## 4. Repository Structure
@@ -369,13 +516,16 @@ korean-icu-ccer-pilot/
 │   ├── v4_style_invariant_extraction_spec.md  # v4: style-bias audit, spec, freeze
 │   ├── statistical_analysis_plan.md           # Pre-registered SAP (frozen)
 │   ├── hybrid_followup_spec.md                # Exploratory Hybrid register design (frozen)
+│   ├── cross_asr_spec.md                      # Cross-ASR protocol, run notes, S1 (Sec 13)
+│   ├── figures/research_flow.png              # Research flow figure (KOSMI 2026)
 │   └── full_run_execution_order.md            # Locked execution order for scale-ups
 ├── data/
 │   ├── scenarios/                # Content Scaffold (GPT-4o generated)
 │   ├── generated_text/           # Style-controlled Gold Transcripts (incl. Hybrid)
 │   ├── audio/                    # TTS audio files (not tracked in git)
 │   ├── stt_transcripts/          # Whisper transcription results
-│   └── entities/                 # Entity extraction/matching results
+│   ├── entities/                 # Entity extraction/matching results
+│   └── cross_asr/<condition>/    # Cross-ASR transcripts, entities, run logs
 ├── src/
 │   ├── pipeline_utils.py          # Skip-by-default safety mechanism (RunLog, --overwrite)
 │   ├── scaffold/                  # Content Scaffold schema and generation
@@ -386,14 +536,19 @@ korean-icu-ccer-pilot/
 │   ├── entity_extraction/         # Closed/open-vocabulary extraction
 │   ├── matching/                  # Entity matching, semantic matching
 │   ├── evaluation/                # WER, entity evaluation, CCER
-│   └── analysis/                  # Error profile, statistical tests, SAP 1-5,
-│                                     hybrid_followup, hybrid_manipulation_check
+│   ├── analysis/                  # Error profile, statistical tests, SAP 1-5,
+│   │                                 hybrid_followup, hybrid_manipulation_check
+│   └── cross_asr/                 # Cross-ASR transcription, evaluation, analysis,
+│                                     notation diagnostics, S1, KOSMI tables
 ├── results/
 │   ├── pilot_15/                  # v1/v2/v3 checkpoints (15-sample pilot, preserved)
 │   ├── full_50/                   # 50-scenario checkpoint (preserved)
 │   ├── full_100/                  # v3 (pre-v4-fix) 100-scenario checkpoint (preserved)
 │   ├── full_100_v4/               # FINAL results, 3-register primary analysis (bias-corrected)
-│   └── hybrid_followup/           # Exploratory Hybrid register results (separate from full_100_v4/)
+│   ├── hybrid_followup/           # Exploratory Hybrid register results (separate from full_100_v4/)
+│   ├── cross_asr/                 # Cross-ASR analysis (analysis_prelim_condA = final), notation
+│   │                                 diagnostics, sensitivity_ko_particle (S1), kosmi2026_tables
+│   └── _env/                      # Environment snapshot for the Cross-ASR runs
 └── tests/                          # Unit tests
 ```
 
@@ -467,7 +622,25 @@ needed. See `docs/full_run_execution_order.md` for the exact checklist
 (pre-flight checks, integrity verification, and non-goals) used when
 this project scaled from 5 -> 50 -> 100 scenarios.
 
-### 5.4 Tests
+### 5.4 Cross-ASR Robustness Check and S1
+
+Settings are in `configs/cross_asr.yaml`; transcription needs
+`OPENAI_API_KEY` and Google Application Default Credentials (Chirp 3),
+evaluation needs `ANTHROPIC_API_KEY`. Exact arguments, run order and
+stopping rules are documented in `docs/cross_asr_spec.md` (Sec 3-13) and
+each module's `--help`.
+
+```bash
+python3 -m src.cross_asr.manifest              # audio manifest and pilot set
+python3 -m src.cross_asr.transcribe            # per-condition transcription (API)
+python3 -m src.cross_asr.evaluate              # CCER v4 evaluation per condition (API)
+python3 -m src.cross_asr.analysis              # pooled CCER, Delta, Friedman/Wilcoxon (no API)
+python3 -m src.cross_asr.notation_diagnostics  # notation counts and case review (no API)
+python3 -m src.cross_asr.sensitivity_ko_particle --run   # S1 (no API)
+python3 -m src.cross_asr.kosmi2026_tables      # KOSMI poster tables (no API)
+```
+
+### 5.5 Tests
 
 ```bash
 pytest tests/ -q
@@ -500,9 +673,22 @@ pytest tests/ -q
 - [`docs/full_run_execution_order.md`](docs/full_run_execution_order.md):
   locked execution checklist used for scaling the pilot from 5 to 100
   scenarios without risking already-computed results
+- [`docs/cross_asr_spec.md`](docs/cross_asr_spec.md): Cross-ASR protocol
+  (frozen 2026-11-03), revisions, run notes, notation diagnostics, the
+  post hoc S1 analysis and its manual review (Sec 13, 13.1), and the KOSMI
+  poster recomputations (Sec 13.2)
 
 ---
 
-## 7. Author
+## 7. Presentations
+
+- **KOSMI 2026 Fall Conference**, e-poster EP 8-6 -- *Evaluating Clinical
+  Information Preservation Across Documentation Styles in Korean-English
+  Code-Switched ICU Speech Recognition* (Jimin Kim). Poster PDF:
+  [awards-and-posters](https://github.com/jimin-the-ackerman/awards-and-posters).
+
+---
+
+## 8. Author
 
 Jimin (jimin-the-ackerman)
